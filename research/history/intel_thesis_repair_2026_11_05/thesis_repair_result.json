@@ -1,0 +1,128 @@
+{
+  "as_of_utc": "2026-11-05T20:09:02.900563+00:00",
+  "status": "Research repair and independent checks completed; previous SHORT withdrawn. No preferred LONG or SHORT at the cited price. Directional M37 submission remains unfinished.",
+  "recommendation": "PASS / previous SHORT withdrawn; LONG not adopted",
+  "reference_quote": {
+    "USD": 54.58,
+    "date": "2026-11-05",
+    "time": "14:55 America/New_York",
+    "type": "dated intraday snapshot, not close or executed trade",
+    "source": "https://stockanalysis.com/stocks/intc/history/"
+  },
+  "research_changed": true,
+  "new_work": [
+    "Compared original DIGITIMES October27 CPU forecast with existing forecast and TrendForce; identified definition and timing limits.",
+    "Predeclared and valued timing and permanent unit-loss branches with contribution controls and funded capital/tax/cash responses.",
+    "Independently reproduced 42 endpoint valuations.",
+    "Reassessed bull case using new Intel, Arm and customer source material at lower intraday entry.",
+    "Read executed Arizona SCIP contract distribution-redirection and later catch-up clauses; reconciled limits of NCI earnings proxy.",
+    "Revised ten-page research review and two-page decision notes; rendered and checked all pages."
+  ],
+  "key_results": {
+    "DIGITIMES_2027_Intel_CPU_revenue_B": 28.7,
+    "existing_2027_CPU_revenue_B": 31.475088,
+    "permanent_loss_flat_2030_value_USD": 66.24947795924788,
+    "price_only_short_loss_percent_at_quote": 21.38050194072534,
+    "permanent_loss_2030_flat_range_USD": [
+      65.39058,
+      67.10838
+    ],
+    "bull_margin40_productivity080_2030_CAGR_percent_flat": 8.869707,
+    "bull_margin40_productivity080_2030_CAGR_percent_maturing": 12.686996
+  },
+  "decision_rationale": "The tested lower CPU forecast still yields negative price-only short returns at the competition horizon. A favorable long is credible but is not our preferred operating/risk judgment. Do not choose favorable inputs merely to force a direction.",
+  "limits": [
+    "Single published CPU forecast, not exact consensus; underlying paid workbook not accessed.",
+    "Unit versus ASP decomposition and permanence are diagnostic assumptions.",
+    "35% mature DCAI margin, 0.80 capital productivity and risk path remain investment judgments.",
+    "Current dated intraday price differs from Dec31 planning valuation; November1 macro calibration held fixed.",
+    "SCIP omitted special-distribution amount prevents a justified incremental cash haircut; current NCI reserve is not exact cash paid.",
+    "No completed interviews or independently run cloud workloads.",
+    "No calibrated winning probability."
+  ],
+  "competition_objective_complete": false,
+  "finite_research_test_complete": true,
+  "submission_ready": false,
+  "submitted": false,
+  "emails_sent_this_turn": 0,
+  "interview_drafts_saved_previously": 3,
+  "original_frozen_model_modified": false,
+  "qa": {
+    "pages": 10,
+    "page_size_points": [
+      960,
+      540
+    ],
+    "source_hyperlinks": 29,
+    "all_pages_rendered_and_visually_inspected": true,
+    "all_text_inside_page_bounds": true,
+    "layout_defects_observed": false,
+    "source_model_unchanged": true,
+    "independent_valuation_cases": 42,
+    "independent_max_price_difference_USD": 2.842170943040401e-14,
+    "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_visual_qa.json",
+    "numeric_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_numeric_review.json",
+    "semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_content_review.json",
+    "submitted": false,
+    "independent_semantic_verdict": "PASS as a clearly labeled research review. No outstanding material semantic blocker identified. NOT a completed M37 submission because the required directional recommendation is intentionally absent."
+  },
+  "artifacts": {
+    "research_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "29885889baab42e0722912a7775045196155f2ec54de252663df671680d744e7",
+      "pages": 10
+    },
+    "decision_notes": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_defense_notes.pdf",
+      "pages": 2,
+      "sha256": "5798cc77a4626ac88cb04a62e9439e24b1e4b29236483b73d45de5a0f1455813",
+      "submitted": false,
+      "purpose": "Research decision notes; previous short withdrawn; not a competition entry.",
+      "visual_qa": "All final pages rendered and inspected; no observed clipping or layout defects",
+      "qa_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_visual_qa.json"
+    }
+  },
+  "supporting_records": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_policy.json",
+      "sha256": "ec87a06ba18c081ebd6209b7338879a801fbcaa3c53cdf8fda45a32dbd610ddf"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_operating_rows.json",
+      "sha256": "4d467448544fdd37665b83b972125958f86173d10ce13bb40df0aaa2604ade8c"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_forecast_evidence_review.json",
+      "sha256": "eb3d72487f35ba517bec035b6010a2a2cadb6c544fc049321867bc804022f7f5"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_valuation.json",
+      "sha256": "579bbd0ffd1091ce40c8a5d9fd078cf4815129771e9ca7a710d84fa44ddbc271"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_independent_audit.json",
+      "sha256": "4d9b9a9099d2925cced7d09fffd2d990709c5768046a468906d733c27890756b"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/bull_case_reassessment.json",
+      "sha256": "961ebc083ba84c5e74104a0efcd773c45cc6af2fe7de4990cb2a31667c1e17c4"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/capital_and_margin_reassessment.json",
+      "sha256": "c1f31ac05b6ddffebb649721de0f705e211a002ab53352852eaee1e508b824ab"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_numeric_review.json",
+      "sha256": "d326892cdb8e39abcb0e2587936c8391ce544bc8a7d80bc96b7c5e9b86a633cc"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_visual_qa.json",
+      "sha256": "52ee0595e5fb21c2abc7ac1215973a5698bdaa0459fd9541f3da9ee671789dba"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_content_review.json",
+      "sha256": "b34679ee93691a1203550a55e504994321c686f75fd339a873660cfd4beb3dcc"
+    }
+  ],
+  "historical_short_artifacts": "Superseded; retained unchanged for provenance. Do not submit earlier drafts."
+}

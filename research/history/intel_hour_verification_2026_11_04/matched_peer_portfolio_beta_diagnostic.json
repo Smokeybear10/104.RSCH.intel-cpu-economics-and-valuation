@@ -1,0 +1,245 @@
+{
+  "scope": "Equalweight monthly rebalanced peerportfolio. Averaging portfolio returns preserves cross-company residual correlations for HC3 slope uncertainty; not independentstocks sqrtN assumption. Currentcapitalstructure used onlydiagnostically. Mechanical2/3 adjustmentshown as sensitivitynotforecast.",
+  "results": [
+    {
+      "group": "foundry",
+      "months": 60,
+      "raw_equity_beta": 1.6431817054462599,
+      "HC3_standard_error": 0.25894051256296363,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        1.1253006803203327,
+        2.161062730572187
+      ],
+      "cash_corrected_asset_beta_common25tax": 1.769566363397854,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.5386824411190607,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.12743787662584538,
+      "rate_after_mechanical_shrink_diagnostic": 0.11725589565335058,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.27885681762016534,
+      "R_squared": 0.37722884625188324
+    },
+    {
+      "group": "foundry",
+      "months": 36,
+      "raw_equity_beta": 1.8326251402641236,
+      "HC3_standard_error": 0.5691291340554652,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.6943668721531933,
+        2.970883408375054
+      ],
+      "cash_corrected_asset_beta_common25tax": 1.9735807635759537,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.6746920412377937,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.13643491167369956,
+      "rate_after_mechanical_shrink_diagnostic": 0.1232539190185867,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.6129034717927224,
+      "R_squared": 0.29768809182602407
+    },
+    {
+      "group": "foundry",
+      "months": 24,
+      "raw_equity_beta": 2.171565624268713,
+      "HC3_standard_error": 0.7518637646266118,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.6678380950154894,
+        3.6752931535219364
+      ],
+      "cash_corrected_asset_beta_common25tax": 2.338590718166107,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.9180320109645626,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.15253185067112532,
+      "rate_after_mechanical_shrink_diagnostic": 0.13398521168353722,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.8096930627520588,
+      "R_squared": 0.31534282714973527
+    },
+    {
+      "group": "analog_power_IDM_or_hybrid",
+      "months": 60,
+      "raw_equity_beta": 1.7134238849753736,
+      "HC3_standard_error": 0.3162990607112614,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        1.0808257635528506,
+        2.3460220063978965
+      ],
+      "cash_corrected_asset_beta_common25tax": 1.663818876739307,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.4328956480416246,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.12277441246420344,
+      "rate_after_mechanical_shrink_diagnostic": 0.11259069807863564,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.3071419469058426,
+      "R_squared": 0.4667475911999629
+    },
+    {
+      "group": "analog_power_IDM_or_hybrid",
+      "months": 36,
+      "raw_equity_beta": 2.037486193343697,
+      "HC3_standard_error": 0.7291153555224079,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.5792554822988811,
+        3.495716904388513
+      ],
+      "cash_corrected_asset_beta_common25tax": 1.978499318999326,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.642682609548304,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.1366518199678703,
+      "rate_after_mechanical_shrink_diagnostic": 0.12184230308108021,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.7080068758677943,
+      "R_squared": 0.4069585173236955
+    },
+    {
+      "group": "analog_power_IDM_or_hybrid",
+      "months": 24,
+      "raw_equity_beta": 2.368779012309799,
+      "HC3_standard_error": 1.0846666724020029,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.19944566750579318,
+        4.538112357113805
+      ],
+      "cash_corrected_asset_beta_common25tax": 2.3002009427232775,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.8571503586976048,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.15083886157409654,
+      "rate_after_mechanical_shrink_diagnostic": 0.13130033081856438,
+      "asset_beta_standard_error_capital_inputs_fixed": 1.0532646943569368,
+      "R_squared": 0.4370538873122283
+    },
+    {
+      "group": "all_manufacturing",
+      "months": 60,
+      "raw_equity_beta": 1.687083067651956,
+      "HC3_standard_error": 0.2729735416502173,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        1.1411359843515214,
+        2.2330301509523904
+      ],
+      "cash_corrected_asset_beta_common25tax": 1.7673111105634427,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.527392171454073,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.12733841997584783,
+      "rate_after_mechanical_shrink_diagnostic": 0.11675799476112463,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.28595460549533924,
+      "R_squared": 0.4777285556725972
+    },
+    {
+      "group": "all_manufacturing",
+      "months": 36,
+      "raw_equity_beta": 1.960663298438857,
+      "HC3_standard_error": 0.6343356925569031,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.6919919133250507,
+        3.229334683552663
+      ],
+      "cash_corrected_asset_beta_common25tax": 2.0539012558685745,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.7184522683241605,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.13997704538380412,
+      "rate_after_mechanical_shrink_diagnostic": 0.12518374503309548,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.6645010780903924,
+      "R_squared": 0.4150097295478635
+    },
+    {
+      "group": "all_manufacturing",
+      "months": 24,
+      "raw_equity_beta": 2.294823991794392,
+      "HC3_standard_error": 0.9086772717298723,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.47746944833464733,
+        4.112178535254136
+      ],
+      "cash_corrected_asset_beta_common25tax": 2.403952724823661,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.951819914294218,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.15541431516472345,
+      "rate_after_mechanical_shrink_diagnostic": 0.135475258220375,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.9518887771659974,
+      "R_squared": 0.44410536203187256
+    },
+    {
+      "group": "all_manufacturing_without_GFS",
+      "months": 60,
+      "raw_equity_beta": 1.6744153469731968,
+      "HC3_standard_error": 0.27496604155330795,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        1.124483263866581,
+        2.2243474300798125
+      ],
+      "cash_corrected_asset_beta_common25tax": 1.7212178008175611,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.4901290405022667,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.12530570501605445,
+      "rate_after_mechanical_shrink_diagnostic": 0.11511469068614996,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.28265176032782197,
+      "R_squared": 0.48904022176182327
+    },
+    {
+      "group": "all_manufacturing_without_GFS",
+      "months": 36,
+      "raw_equity_beta": 1.9549518967308988,
+      "HC3_standard_error": 0.623414930765581,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.7081220351997368,
+        3.2017817582620607
+      ],
+      "cash_corrected_asset_beta_common25tax": 2.0095957735205476,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.682381022304258,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.13802317361225613,
+      "rate_after_mechanical_shrink_diagnostic": 0.12359300308361777,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.640840325591176,
+      "R_squared": 0.42280850776274836
+    },
+    {
+      "group": "all_manufacturing_without_GFS",
+      "months": 24,
+      "raw_equity_beta": 2.269708811869212,
+      "HC3_standard_error": 0.9055448385075313,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.4586191348541493,
+        4.080798488884275
+      ],
+      "cash_corrected_asset_beta_common25tax": 2.3331506228270973,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.898084255175291,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.152291942466675,
+      "rate_after_mechanical_shrink_diagnostic": 0.13310551565323034,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.9308561930557703,
+      "R_squared": 0.44512688161312863
+    },
+    {
+      "group": "manufacturing_plus_AMD",
+      "months": 60,
+      "raw_equity_beta": 1.7763731665320577,
+      "HC3_standard_error": 0.29588607074615303,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        1.1846010250397516,
+        2.3681453080243635
+      ],
+      "cash_corrected_asset_beta_common25tax": 1.8260254963958946,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.560000837554489,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.12992772439105896,
+      "rate_after_mechanical_shrink_diagnostic": 0.11819603693615297,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.30415653613236693,
+      "R_squared": 0.4824558005560984
+    },
+    {
+      "group": "manufacturing_plus_AMD",
+      "months": 36,
+      "raw_equity_beta": 2.116772470477135,
+      "HC3_standard_error": 0.684391885946003,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.7479886985851292,
+        3.485556242369141
+      ],
+      "cash_corrected_asset_beta_common25tax": 2.1759394782494983,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 1.7932768254568914,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.14535893099080288,
+      "rate_after_mechanical_shrink_diagnostic": 0.1284835080026489,
+      "asset_beta_standard_error_capital_inputs_fixed": 0.703521679346038,
+      "R_squared": 0.4421032773407494
+    },
+    {
+      "group": "manufacturing_plus_AMD",
+      "months": 24,
+      "raw_equity_beta": 2.467914004187646,
+      "HC3_standard_error": 0.9876404581923474,
+      "illustrative_equity_beta_plus_minus_2_HC3_SE": [
+        0.49263308780295145,
+        4.443194920572341
+      ],
+      "cash_corrected_asset_beta_common25tax": 2.53689595151729,
+      "cash_corrected_asset_beta_if_first_shrink_raw_equity_two_thirds_toward_one": 2.0339144743020863,
+      "asset_rate_corrected_Nov1_NYU_pair": 0.16127711146191248,
+      "rate_after_mechanical_shrink_diagnostic": 0.139095628316722,
+      "asset_beta_standard_error_capital_inputs_fixed": 1.015246510085584,
+      "R_squared": 0.4686837201407241
+    }
+  ]
+}

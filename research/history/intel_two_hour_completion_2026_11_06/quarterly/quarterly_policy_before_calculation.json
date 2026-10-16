@@ -1,0 +1,103 @@
+{
+  "selected_utc": "2026-11-06T06:36:40.053640+00:00",
+  "chronology": "Operating planning policy selected before computing new quarterly totals or any new equity values. Existing target and old annual20%units/20%ASP are known; this is not blind. No price-target optimization.",
+  "purpose": "Own a complete quarterly case and test the old annual forecast; these are analyst assumptions, not observed capacity or contract deliveries.",
+  "Q4_2026_anchor": {
+    "CPU_revenue_B": 6.5257,
+    "source": "Existing guide-based Q4DCAI8.4157 minus assumedOther1.89; guidance already includesFab28revenuehit",
+    "Q4_units_over_Q3_for_chosen_calibration": 1.05,
+    "unit_assumption_reason": "Constrained output improves modestly despiteFab28; this is a calibration only, not disclosed. Sensitivities0.9,1.0,1.1,1.2 remain mandatory."
+  },
+  "preferred_2027_QoQ": {
+    "units": [
+      0,
+      0.05,
+      0.1,
+      0.1
+    ],
+    "ASP": [
+      0,
+      0.02,
+      0.03,
+      0.03
+    ]
+  },
+  "preferred_rationale": [
+    "Q1 holds the forecast Q4 CPU-sales level: similarFab28drag and ongoingconstraints; no second$300Mdeduction. No newQ1pricingorunituplift is credited.",
+    "Q2 modest5%unit/2%ASP rise allows recovery and continuing Ireland learning while major substrate/Oregon additions are later.",
+    "Q3/Q4 each10%unit and3%ASP growth implement a back-half weighted ramp. The10%unit step is below the observed midteens Intel3wafer-volume increase, while recognizing broaderCPUfamilymix andpackaging constraints; neither implies a physical conversion factor.",
+    "Richer mix and stabilizing per-corepricing support small sequentialASP increases. PackageASPgrowth includesmix; no extra per-core uplift or double core count.",
+    "These selected increments are round analyst planning allowances; source evidence identifies timing/direction, not their unique magnitude. Do not claim independent capacity verification."
+  ],
+  "slower_2027_QoQ": {
+    "units": [
+      -0.05,
+      0,
+      0.05,
+      0.05
+    ],
+    "ASP": [
+      0,
+      0.01,
+      0.02,
+      0.02
+    ]
+  },
+  "slower_rationale": "Q1 volume slips5%; recovery waits untilH2 and thereafter runs at half preferred sequentialunitgrowth. Pricescontinue modestmix improvement. No automatic2028catchup to oldabsoluteunits.",
+  "preferred_2028_2030_annual": {
+    "unit_growth": [
+      0.2,
+      0.15,
+      0.1
+    ],
+    "ASP_growth": [
+      0.06,
+      0.03,
+      0.02
+    ]
+  },
+  "later_rationale": "2028 retains benefit fromH22027carryover plus ongoingcapacity; unitgrowth20%reverts to original hardware-driven planningpolicy before later25%uplift. ASP6%allowsproductmix andcarryover without repeating2027. Then unit/ASP growth fades as supply and competitionnormalize. No matchedindustryunitforecast proves rates; compare indexedshareimplications acrossmarketgrowthcases.",
+  "slower_2028_2030_annual": {
+    "unit_growth": [
+      0.15,
+      0.1,
+      0.05
+    ],
+    "ASP_growth": [
+      0.04,
+      0.02,
+      0.02
+    ]
+  },
+  "old_annual_case": {
+    "2027_CPU_revenue_B": 31.475088,
+    "annual2027_unit_growth": 0.2,
+    "annual2027_ASP_growth": 0.2,
+    "2028_2030_unit_growth": [
+      0.25,
+      0.18,
+      0.12
+    ],
+    "2028_2030_ASP_growth": [
+      0.08,
+      0.04,
+      0.02
+    ]
+  },
+  "historical_reconstruction": {
+    "reported_wholepercent_ranges": "+/-0.5percentagepoint conditional ordinaryrounding",
+    "million_dollar_rounding": "+/-0.5million on each directlyreportedamount",
+    "rounded_0_1B_ranges": "+/-0.05B",
+    "strict_center_test": "Test exact15.332YTDCPUanchor first; ifinfeasible reportincompatibility instead of wideningissuerrounding to forcefit.",
+    "preferred_calibration": "If strictcenterinfeasible, keepownedannual21.8577revenue asallocationproxy fororiginalmodelcomparison; choose transparent feasiblehistoricalunitwitness nearest equal2026Q1/Q2/Q3 units under common-scopebands. NormalizeQ42026units100; deriveannualunits/ASP fromsamechosenwitness, distinguishingmodelallocationbasis fromfeasibleratiohistory."
+  },
+  "profit_cash_integration": "Root owns consolidatedEBIT. Supply-parentquarterCPUrevenue andannualdifferences; existing50%decremental/variable-cost assumption may beused onlywithexplicitnoadditionalFoundryabsorptioncredit. Retainplannedcapexin2027-30; WCrespondsonce; noautomaticsubsidy/insurance.",
+  "falsifiers": [
+    "Q4actualCPUallocationexitsbelow6.5257 orlessfavorablemix",
+    "2027Q1belowflatCPUrevenue; recalculateyearwithoutautomaticcatchup",
+    "H2substrates/rampacceptancefallbehind; richerpackagesconsumemorecapacity",
+    "AcceptedunitsrisebutASP/marginfalls",
+    "2028growthrequiresunobservedsharegainornewcapexbeyondbudget"
+  ],
+  "new_primary_market_search": "CurrentTrendForceOct22CPUgrowth>40%for2027; Nov2serverboxgrowth~20%is differentdenominator. IDCserverdollarCAGR28.4%isnotCPUunits. DOEJun2026reportuses2025Q3IDCsemiconductorforecastthrough2030 butUSservergeographydiffers. No transposition."
+}

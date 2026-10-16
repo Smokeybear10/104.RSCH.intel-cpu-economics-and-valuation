@@ -1,0 +1,59 @@
+{
+  "decision": "Support a moderate working LONG using the existing favorable operating path and10.625% asset discount convention, with the previously selected operating path retained as a material lower reference. Do not describe it as a high-conviction bargain or a probability-weighted expected value.",
+  "owned_thesis": "Intel can lose server CPU unit share and still produce substantially more cash because industry demand expands faster than its share declines, richer platforms lift revenue per socket, and internal volume spreads the factory cost base. This does not require an external14Awafer anchor. It requires faster2028-30CPU delivery and durable post2030 product economics; this is the central operating bet.",
+  "why_this_is_reasonable": [
+    "TrendForce independently forecasts more than40% industry unit growth in2027. Its chart moves Intel share from50% to42%, which at exactly40% industry growth still gives17.6% more Intel units. Losing share therefore does not contradict absolute growth.",
+    "Using each scenario's matched2026CPU revenue baseline, selected2027revenue needs18.29% ASP improvement and the workingLONG needs21.88% with that17.6% unit growth. The latest reported54% ASP rise and management's richer-platform explanation make a further mix/price step plausible. They do not establish its exact size or duration.",
+    "The margin case preserves actual product-led recovery. PooledQ2/Q3 CPU residual44.91% is an allocation assumption anchored to reported DCAI results, not a free margin expansion from an arbitrary terminal target. Using the lower YTD41.71% margin still gives53.61planning/78.69target when all other workingLONG inputs hold.",
+    "The manufacturing route is internal product utilization and process learning, plus separately funded external packaging. Transfer prices cannot create group profit. The cash bridge carries corporate/economicSBC, physicalcapex, workingcapital, leases and minority claims exactly once.",
+    "A10.625% rate follows a documented alternative published ERP convention with the same owned beta; it is not solved to reach82.47. The11.555% convention remains visible and gives48.56planning/73.56target. Method choice is a material source of valuation uncertainty."
+  ],
+  "why_not_high_conviction": [
+    "The workingLONG needs23.70% CPU revenue CAGR from2027 to2030 and6.04% from2030 to2040. New2027 market evidence does not independently validate either full trajectory.",
+    "Changing only2028-30CPU delivery back to the selected path lowers planning value to49.91 and2030value to73.20. Changing only post2030CPU growth back to4.04% lowers them to50.69 and74.31. Delivery and persistence matter more than the3.20percentage-point mature margin choice.",
+    "Foundry and net-newpackaging supply7.729B, or31.54%, of the24.507B groupEBIT improvement from2027 to2030 in the workingLONG. This is substantive manufacturing execution, not merely a CPU market-share story.",
+    "Gross2027-30physicalcapex is124.5B in both cases. The stronger case assumes the existing committed capacity delivers more saleable output before2031; no extra near-term capex is charged for the additional output. That physical-capacity and yield condition must be defended.",
+    "The7Bgross packaging forecast and2.5BhostFoundry2030profit are owned forecasts, not contracted amounts or disclosed guidance. The cash-cost stresses remain relevant.",
+    "The56.14Dec2026 planning value is only7.44% above the52.25Nov5quote, with a56day date mismatch. This is a thin planning cushion, not a precisely dated margin of safety."
+  ],
+  "compact_cash_table_B": [
+    {"case":"selected2027","CPU_sales":30.405024,"consolidated_sales":69.845032,"group_EBIT":13.079090,"NOPAT":11.117227,"net_reinvestment":22.195978,"lease_and_NCI":2.1,"net_credits":2.118,"parent_unlevered_cash":-11.060751,"owner_cash_after_financing":-12.570751},
+    {"case":"working_LONG2027","CPU_sales":31.739253,"consolidated_sales":72.422900,"group_EBIT":14.435225,"NOPAT":12.269941,"net_reinvestment":22.406741,"lease_and_NCI":2.1,"net_credits":2.118,"parent_unlevered_cash":-10.118800,"owner_cash_after_financing":-11.628800},
+    {"case":"selected2030","CPU_sales":49.877835,"consolidated_sales":108.196170,"group_EBIT":33.041543,"NOPAT":28.085311,"net_reinvestment":11.103382,"lease_and_NCI":2.3,"net_credits":3.612,"parent_unlevered_cash":18.293929,"owner_cash_after_financing":16.840179},
+    {"case":"working_LONG2030","CPU_sales":60.070883,"consolidated_sales":119.755987,"group_EBIT":38.942008,"NOPAT":33.100707,"net_reinvestment":11.352317,"lease_and_NCI":2.3,"net_credits":3.612,"parent_unlevered_cash":23.060390,"owner_cash_after_financing":21.606640},
+    {"case":"selected2040","CPU_sales":74.115839,"consolidated_sales":165.958505,"group_EBIT":49.721532,"NOPAT":40.771657,"net_reinvestment":6.879613,"lease_and_NCI":3.091008,"net_credits":0,"parent_unlevered_cash":30.801036,"owner_cash_after_financing":null},
+    {"case":"working_LONG2040","CPU_sales":108.026137,"consolidated_sales":201.507603,"group_EBIT":68.252413,"NOPAT":55.966979,"net_reinvestment":7.274758,"lease_and_NCI":3.091008,"net_credits":0,"parent_unlevered_cash":45.601213,"owner_cash_after_financing":null}
+  ],
+  "cash_definitions": {
+    "net_reinvestment": "Physicalcapex minus D&A plus increase in operating workingcapital. D&A is added back once; maintenance and growth spending remain funded.",
+    "parent_unlevered_cash": "NOPAT minus netreinvestment minus lease/minoritycash plus finite netcredits. It excludes ordinary/capitalizedinterest and debtprincipal. This is model cash, not a reported cash-flow line.",
+    "owner_cash_after_financing": "Parentunleveredcash minus ordinary and capitalizedinterest plus aftertaxcashincome and financingtaxshield. Debtprincipal, escrow and acquisitions then change treasurycash separately.",
+    "group_profit": "CPU productprofit plus OtherDCAI profit plus CCPG plus hostFoundry plus net-newpackaging plus Other-minus-corporate. CPU-only profit is an allocation using assumed OtherDCAI margin; internal transfers are not independent economic value.",
+    "credits_diagnostic": "Cumulative2027-30netcredits17.919B contribute to workingLONGowner cash27.196B. Mechanically excluding those credits leaves9.277B; selectedowner cash16.109B would instead become-1.810B. This is an attribution check, not an alternate tax-credit or treasury forecast. Credits end; no perpetual credit stream is capitalized.",
+    "statement_boundary": "An aggregate operating/capital/treasury model, not a complete three-statement forecast. It does not identify every inventory, deferredtax or financing-account balance."
+  },
+  "accounting_guards": [
+    "A1B internal foundry transfer-price increase lowers Products profit1B and raises Foundry profit1B; consolidated EBIT and cash are unchanged absent a real economic effect.",
+    "The near-term50% CPU/client sales response already includes manufacturing in totalgroup profit. Do not add another absorption gain or loss for the same revenue difference.",
+    "OtherDCAI is insideDCAI; do not add it a second time. Net-newpackaging excludes the2Bembedded shadow already in hosteconomics by2030.",
+    "The AllOther0.7Bprofit and Mobileyegrant assumptions are inherited analyst forecasts. Grantreceivables belong within existingWC; no automatic second grantcash charge.",
+    "After2030host investment is incrementalhostrevenue dividedby0.8; net-newpackaging uses1.0. Higher growth consumes more capital. No free terminal growth.",
+    "An independent Foundry cost miss is distinct from the absorption already included in revenue response. ExistingstresskeepsD&Afixed, so it means additionalcash operatingcost, not merely highernoncashdepreciation."
+  ],
+  "short_assessment": "The analysis does not establish a short. Absolute demand expansion, a real product-profit recovery and positive funded long-run cash form a plausible LONG. Weakness of the lower valuation path alone does not identify near-term earnings disappointment, a repricing catalyst or short carrying costs. Moderate LONG is the stronger defensible competition position if the presenter explicitly owns delivery and cash-retention assumptions.",
+  "next_evidence_that_changes_the_call": [
+    "Actual CPU revenue/unit/ASP path versus31.74B2027 and42.85B2028 working forecasts, with matched historical baselines.",
+    "ConsolidatedProducts-plus-Foundry profit and cash conversion: a stronger DCAI result offset by factory costs is not confirmation.",
+    "Capacity/accepted-output improvements that support additional2028-30CPU sales without greaternear-termcapex, and later sales-to-capital performance.",
+    "Absolute paid packaging fees, acceptedshipment scale and margins; backlog language alone does not verify7B.",
+    "Two consecutive meaningful execution misses should trigger rebuilding the forecast rather than treating the original target as fixed. No arbitrary mechanical sell threshold is claimed."
+  ],
+  "primary_source_links": [
+    "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "https://d1io3yog0oux5.cloudfront.net/_ae41de1e3c92a2d70014908a6d92f612/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+  ],
+  "calculation_artifact": "profit_capture_results.json",
+  "calculation_script": "calculate_profit_capture.py",
+  "verification": "32factorial combinations;1,242numeric selected/favorable comparisons with zeroerror; groupEBIT andcash identities reconcile; allinteractions allocated exactly by permutation-averaged attribution. No rootengine, workbook orPDF changed."
+}

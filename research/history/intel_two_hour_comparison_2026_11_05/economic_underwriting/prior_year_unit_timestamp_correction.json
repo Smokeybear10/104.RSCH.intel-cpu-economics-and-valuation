@@ -1,0 +1,11 @@
+{
+  "corrected_utc": "2026-11-05T23:30:10.715820+00:00",
+  "erroneous_manual_selected_utc": "2026-11-05T23:18:00Z",
+  "explanation": "The selected_utc string was manually entered incorrectly and postdated the calculation. It was not a clock measurement and must not be treated as exact preregistration evidence. No numerical result changed.",
+  "policy_file_birthtime_utc_before_correction": "2026-11-05T23:16:53.298359+00:00",
+  "policy_file_mtime_utc_before_correction": "2026-11-05T23:16:53.298578+00:00",
+  "script_file_birthtime_utc": "2026-11-05T23:16:53.298702+00:00",
+  "result_file_birthtime_utc_before_correction": "2026-11-05T23:16:55.515962+00:00",
+  "result_computed_utc_as_recorded": "2026-11-05T23:16:55.515266+00:00",
+  "sequence_statement": "The policy was written before the calculation output. The preserved filesystem creation/modification times support that file sequence. The exact mental policy-selection time was not measured."
+}

@@ -1,0 +1,105 @@
+{
+  "as_of_utc": "2026-11-04T16:59:06.391084+00:00",
+  "pass_started_utc": "2026-11-04T16:30:46Z",
+  "status": "Additional research pass complete; revised Intel arithmetic independently verified.",
+  "root_judgment": "The additional evidence improves the project but does not establish a compelling three-to-five-year LONG or SHORT. Intel remains the more tractable operating and capital research project, not a settled investment pick. Adopt the moderated CPU/reuse case as the current prospective estimate; preserve the prior higher-volume case as upside. Neither a 9/10 thesis nor quantified winning odds is established.",
+  "decisive_new_findings": [
+    "TrendForce forecasts Intel unit share falling from 50% in 2026E to 42% in 2027F amid more than 40% market growth. Conditional 40\u201345% industry growth implies 17.6\u201321.8% Intel unit growth. Prefer 20% as the central 2027 forecast and retain 30% as upside; this analyst forecast is not a physical capacity ceiling.",
+    "AT&S identified Marvell on September 22 as the unnamed customer in its June Kulim announcement. Expansion for AMD and Marvell cannot automatically be assigned to Intel.",
+    "Ibiden\u2019s new \u00a5151B addition ramps in October 2029\u2013March 2030. Its separate EMIB-T schedule remains October 2027\u2013March 2028. These announcements do not quantify Intel CPU allocation.",
+    "Intel\u2019s existing factory-space investment and node-reuse strategy support better mature capital productivity. Adopt 0.80 host turnover, while acknowledging weak empirical calibration. Replacement, working capital and separate packaging investment remain funded.",
+    "Apollo\u2019s proposed $40B lease is repayable equipment financing. It does not establish customer-funded hardware or refresh. The SpaceX model already charges capital and repayment; neither free-hardware value nor another financing charge is justified.",
+    "High capital spending is already discussed by professional publishers. A current public post-Q3 Visible Alpha SpaceX estimate set and full professional Intel long-term capital schedules were not established. Single-publisher forecasts are comparisons, not consensus."
+  ],
+  "revised_Intel": {
+    "entry_reference": {
+      "date": "2026-11-04",
+      "price_USD": 58.11,
+      "time": "10:43 ET",
+      "provenance": "Root-supplied dated intraday reference; not a closing price or independently retrieved by this calculator."
+    },
+    "assumptions": "CPU unit growth of 20%, 25%, 18% and 12% in 2027\u20132030; ASP growth of 10%, 5%, 3% and 2%; modestly lower product and Foundry profits; sticky 2027\u20132028 capital spending; 0.80 mature host turnover; unchanged funded external packaging. Operating choices were selected before calculating revised values.",
+    "values_at12pct_USD": {
+      "2026": 37.93785497285347,
+      "2027": 42.032931144913505,
+      "2028": 46.90526393166252,
+      "2029": 52.32963235042717,
+      "2030": 58.10894900022785,
+      "2031": 64.271023812792
+    },
+    "end2030_controls_USD": {
+      "0.11": 65.10251967335098,
+      "0.12": 58.10894900022785,
+      "0.13": 52.52681642517593
+    },
+    "price_CAGR_from_dated58_11": {
+      "2029": -0.032646084427761624,
+      "2030": -4.351842627814406e-06,
+      "2031": 0.01973910485398722
+    },
+    "checks": {
+      "new_debt_B": 0,
+      "minimum_economic_cash_B": 32.21375436851716,
+      "tax_capacity_preserved": true,
+      "cash_identities_pass": true,
+      "absolute_and_delta_valuation_reconcile": true,
+      "terminal_growth": 0.03000000000000136
+    },
+    "2030owner_cash_after_financing_and_incentives_B": 19.810355766845717,
+    "interpretation": "The 2030 value near the $58.11 reference price is a coincidental output of preselected operating changes. The $37.94 end-2026 intrinsic reference does not guarantee repricing. A credible earlier repricing could support a short, but that timing has not been established. Actual borrow and collateral terms have not been measured."
+  },
+  "SpaceX": "Retain the existing mature20 case: approximately $152.38 at end-2030 versus the dated $141.31 reference. The contract review adds no numerical valuation uplift. This does not establish a short: profitable renewals, internal use and a future customer-owned subset remain possible.",
+  "next_discriminating_analysis": [
+    "Link accepted CPU volume, net ASP and retained profit to specific qualified-capacity dates. With 20% unit growth, approximately 19.17% ASP growth would match the earlier 30% units / 10% ASP revenue path. Pricing remains a live alternative.",
+    "Measure Intel investment after the current expansion: replacement, growth, working capital and funding must be separated. Average book-asset turnover does not identify marginal capital productivity.",
+    "Compare matched SpaceX customer and financier terms: hardware and refresh obligations, termination rights, service fees, fully burdened costs and renewals. A financing headline is insufficient.",
+    "AT&S\u2019s November 5 results can clarify funding receipts and execution before the November 9 submission deadline; they may not reveal Intel-specific output."
+  ],
+  "artifacts": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/deeper_source_review_2026_11_04/source_scope_adjudication.json",
+      "sha256": "3e16b078c7e3763cc87429a96e054ac4e0ba4aafdb6b683286c7d39b2ff0af3d"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/deeper_source_review_2026_11_04/substrate_supplier_timing_and_funding_adjudication.json",
+      "sha256": "aa29fb507647534f62dba2488c0b95488e4d9e3d399bbd455e594b5ba80b39ad"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/deeper_source_review_2026_11_04/independent_direction_expectations_verdict.json",
+      "sha256": "060cfa8d11cb25b94cd8cf3dae41180572d5389bae83578b064ae22508795cab"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/capital_productivity_adjudication_2026_11_04.json",
+      "sha256": "5eb1b83b525e984cf3e23757d3bb70e532ae61b8e30f8e647c242cc3dde7fbe7"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/paired_cpu20_capital080_operating_policy_2026_11_04.json",
+      "sha256": "2791b70c55d75aac7ba030eb8d2fb33c0b5718b2bf0fb79d5e1654ce088c38cc"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/paired_cpu20_capital080_valuation_2026_11_04.json",
+      "sha256": "f55bd72321bb39f9559e9d31889f18ce9d636401ac07778b7a23fb1c67d3cd5d"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/spacex_customer_funded_service_model_adjudication_2026_11_04.json",
+      "sha256": "07b6947208ecb35a5abaaa2ac34da8f2d9f9cf59453c43f8b8634fea1a6fbe95"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/paired_cpu20_capital080_independent_audit_2026_11_04.json",
+      "sha256": "b6d762c3e7d1bf1d11de0f05b51199818376573b1ec194f5edf4dc68986896a9"
+    }
+  ],
+  "presentation_limits": [
+    "The model field external_revenue_B is a Products-plus-Other-plus-net-packaging capital denominator. Embedded external Foundry sales have not been separately reconstructed; do not present it as a fully reconciled consolidated revenue forecast.",
+    "End-2031 is approximately 5.155 years after the dated entry. End-2029 and end-2030 fall within the official three-to-five-year horizon; end-2031 is a boundary control, not an exact five-year target.",
+    "A numerical audit validates implementation, not the predictive accuracy of owned unit growth, margin, capital-productivity or discount-rate assumptions."
+  ],
+  "verification": {
+    "audit": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/paired_cpu20_capital080_independent_audit_2026_11_04.json",
+    "sha256": "b6d762c3e7d1bf1d11de0f05b51199818376573b1ec194f5edf4dc68986896a9",
+    "result": "PASS; no material numerical or double-counting issues. Owned economic assumptions remain uncertain.",
+    "comparisons": 1245,
+    "dependency_references_matching": 108,
+    "checked_files": 32
+  }
+}

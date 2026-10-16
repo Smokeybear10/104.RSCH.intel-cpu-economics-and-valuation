@@ -1,0 +1,38 @@
+{
+  "selected_utc": "2026-11-04T18:07:07.118859+00:00",
+  "scope": "Root execution plan for independently selected scenario and risk controls. No new joint scenario equity output computed before this record.",
+  "input_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "reference_price_USD": 60.55,
+  "reference_date": "2026-11-03",
+  "endpoints": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "flat_discount_controls": [
+    0.09,
+    0.1,
+    0.11,
+    0.12,
+    0.13
+  ],
+  "mature_risk_control": {
+    "selector": "risk_rate_adjudication agent; independently frozen before outputs",
+    "central_remains": 0.12,
+    "rates_2027_2030": 0.12,
+    "2031_through_2040": "0.12 -0.0015*(year-2030)",
+    "2041_and_terminal": 0.105,
+    "classification": "Sensitivity for successful risk maturation, not a measured term structure or new central case."
+  },
+  "calculation_conventions": {
+    "timing": "Each annual future cash flow is divided by the product of(1+r_y) for each year after endpoint through cash year. Tail2041cash/(terminal_rate-.03), discounted through2040.",
+    "financing_benefit": "Unchanged cash tax benefits; explicit annual same risk schedule, no-growth financing tail2041benefit/terminal_rate.",
+    "cash_claims": "Use original endpoint treasury balances for endpoints<=2030 because post2030 operating controls leave earlier cash unchanged.",
+    "escrow_and_acquisition": "Discount original finite future flows separately once.",
+    "capital_scenario": "Await independently frozen operating policy; host-only post2030 net reinvestment changes, working capital included, packaging separate.",
+    "dividends_new_debt_new_shares": "Unchanged zero forecast; no live short trade/account or borrow quote."
+  },
+  "validation": "Reproduce original end2026 and2030 values at11/12/13% before new controls; independently recheck delta math and discount products after computation."
+}

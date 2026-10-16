@@ -1,0 +1,854 @@
+{
+  "prepared_utc": "2026-11-05T05:51:51.862487+00:00",
+  "analyst": "pitch_exhibit_audit",
+  "status": "Independent arithmetic complete; no forecast or recommendation optimized to force a short result.",
+  "scope": "Conditional terminal-price and simplified financing diagnostics for one share sold at the fixed November 4, 2026 reference quote. Endpoints are 3.16 and 4.16 years, both within the stated 3-5-year horizon. This is not a live trade or an expected-return forecast.",
+  "entry": {
+    "date": "2026-11-04",
+    "price_USD": 58.28,
+    "price_status": "Previously verified November 4 close, intentionally held fixed; not November 5 live price."
+  },
+  "inputs": {
+    "corrected_rate": {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "weak_demand": {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/weak_demand_results.json",
+      "sha256": "e7a3115ac8e08b07ac9a7a7b076bcc9b7ede34656341a96b8093cc18b4e0cf6a"
+    },
+    "carry_policy": {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/carry_diagnostic_policy.json",
+      "sha256": "2cf710ad92138f49cbaf748b73f70541d4b324890f668aa91c7796f81fca7d8d"
+    },
+    "carry_results": {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/carry_diagnostic_results.json",
+      "sha256": "3e80a4c82e455794860a64541a2ef462255c66561e1ee13b409e1ccddf436fd5"
+    },
+    "source_model": {
+      "path": "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "joint_operating_cases": {
+      "path": "work/three_hour/active_research/intel_decision_pass_2026_11_04/joint_scenario_results.json",
+      "sha256": "ad3425c3b29bc928ecf8eea1f1b6ee85fa064f2547feaf577c304e0454c9faa4"
+    }
+  },
+  "formulas": {
+    "time": "T = calendar days between 2026-11-04 and endpoint / 365.25",
+    "price_only_short_PnL": "P0 - P_T",
+    "fixed_notional_net_cost": "P0 * d * T; d is assumed annual net drag, not a quoted stock-borrow rate",
+    "net_PnL": "P0 - P_T - P0*d*T",
+    "break_even_maximum_cover": "P_T = P0*(1-d*T)",
+    "simple_net_credit_requirement": "max(0, (P_T/P0 - 1)/T)",
+    "compounded_net_proceeds_yield_requirement": "q = (P_T/P0)^(1/T) - 1, for PnL=P0*(1+q)^T-P_T; separate sensitivity, not combined with fixed-drag grid",
+    "independent_endpoint_valuation": "Discount remaining annual parent unlevered cash through 2040 plus 2041 operating cash/(terminal rate-3%); separately discount financing tax shields with zero-growth terminal. Add endpoint cash less ordinary debt and 5.717B other assets, divide by 5.51B claims. No outstanding escrow/acquisition payments at these endpoints."
+  },
+  "breakeven_cover_thresholds": [
+    {
+      "endpoint": "2029-12-31",
+      "calendar_days": 1153,
+      "years_ACT36525": 3.156741957563313,
+      "maximum_cover_price_USD_by_drag": {
+        "0": 58.28,
+        "0.01": 56.4402507871321,
+        "0.03": 52.76075236139631
+      }
+    },
+    {
+      "endpoint": "2030-12-31",
+      "calendar_days": 1518,
+      "years_ACT36525": 4.15605749486653,
+      "maximum_cover_price_USD_by_drag": {
+        "0": 58.28,
+        "0.01": 55.85784969199179,
+        "0.03": 51.013549075975355
+      }
+    }
+  ],
+  "rows": [
+    {
+      "case": "weak_demand_flat_11_555",
+      "role": "primary",
+      "endpoint": "2029-12-31",
+      "calendar_days": 1153,
+      "years_ACT36525": 3.156741957563313,
+      "conditional_cover_USD": 48.8060764313207,
+      "price_only_PnL_USD_per_initial_share": 9.473923568679304,
+      "price_only_PnL_fraction_of_initial_short_notional": 0.16255874345709168,
+      "maximum_simple_annual_net_cost_drag_for_break_even": 0.05149573377944729,
+      "simple_annual_net_credit_needed_for_break_even": 0,
+      "signed_compounded_net_proceeds_yield_for_break_even": -0.05464853388773083,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": 9.473923568679304,
+          "PnL_fraction_of_initial_short_notional": 0.16255874345709168,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 0
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 1.8397492128678987,
+          "short_PnL_USD_per_initial_share": 7.634174355811405,
+          "PnL_fraction_of_initial_short_notional": 0.13099132388145857,
+          "maximum_break_even_cover_USD": 56.4402507871321,
+          "required_decline_from_conditional_cover_USD_for_break_even": 0
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 5.519247638603696,
+          "short_PnL_USD_per_initial_share": 3.9546759300756076,
+          "PnL_fraction_of_initial_short_notional": 0.0678564847301923,
+          "maximum_break_even_cover_USD": 52.76075236139631,
+          "required_decline_from_conditional_cover_USD_for_break_even": 0
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": 16.41729813719541
+    },
+    {
+      "case": "central_flat_11_555",
+      "role": "primary",
+      "endpoint": "2029-12-31",
+      "calendar_days": 1153,
+      "years_ACT36525": 3.156741957563313,
+      "conditional_cover_USD": 64.1458230460918,
+      "price_only_PnL_USD_per_initial_share": -5.865823046091805,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.10064898843671594,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.0318838187567307,
+      "simple_annual_net_credit_needed_for_break_even": 0.0318838187567307,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.030845585008524745,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -5.865823046091805,
+          "PnL_fraction_of_initial_short_notional": -0.10064898843671594,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 5.865823046091805
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 1.8397492128678987,
+          "short_PnL_USD_per_initial_share": -7.7055722589597035,
+          "PnL_fraction_of_initial_short_notional": -0.13221640801234907,
+          "maximum_break_even_cover_USD": 56.4402507871321,
+          "required_decline_from_conditional_cover_USD_for_break_even": 7.705572258959705
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 5.519247638603696,
+          "short_PnL_USD_per_initial_share": -11.385070684695501,
+          "PnL_fraction_of_initial_short_notional": -0.19535124716361532,
+          "maximum_break_even_cover_USD": 52.76075236139631,
+          "required_decline_from_conditional_cover_USD_for_break_even": 11.3850706846955
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": 1.0775515224243009
+    },
+    {
+      "case": "favorable_maturing_risk",
+      "role": "primary",
+      "endpoint": "2029-12-31",
+      "calendar_days": 1153,
+      "years_ACT36525": 3.156741957563313,
+      "conditional_cover_USD": 83.50701829531731,
+      "price_only_PnL_USD_per_initial_share": -25.227018295317308,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.4328589275105921,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.1371220496732383,
+      "simple_annual_net_credit_needed_for_break_even": 0.1371220496732383,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.12068222620562707,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -25.227018295317308,
+          "PnL_fraction_of_initial_short_notional": -0.4328589275105921,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 25.227018295317308
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 1.8397492128678987,
+          "short_PnL_USD_per_initial_share": -27.066767508185208,
+          "PnL_fraction_of_initial_short_notional": -0.46442634708622527,
+          "maximum_break_even_cover_USD": 56.4402507871321,
+          "required_decline_from_conditional_cover_USD_for_break_even": 27.066767508185208
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 5.519247638603696,
+          "short_PnL_USD_per_initial_share": -30.746265933921002,
+          "PnL_fraction_of_initial_short_notional": -0.5275611862374915,
+          "maximum_break_even_cover_USD": 52.76075236139631,
+          "required_decline_from_conditional_cover_USD_for_break_even": 30.746265933921002
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": -18.283643726801202
+    },
+    {
+      "case": "less_productive_corrected_central_flat",
+      "role": "control",
+      "endpoint": "2029-12-31",
+      "calendar_days": 1153,
+      "years_ACT36525": 3.156741957563313,
+      "conditional_cover_USD": 54.48186676205656,
+      "price_only_PnL_USD_per_initial_share": 3.798133237943439,
+      "price_only_PnL_fraction_of_initial_short_notional": 0.06517043990980506,
+      "maximum_simple_annual_net_cost_drag_for_break_even": 0.020644842304472073,
+      "simple_annual_net_credit_needed_for_break_even": 0,
+      "signed_compounded_net_proceeds_yield_for_break_even": -0.021122032006895552,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": 3.798133237943439,
+          "PnL_fraction_of_initial_short_notional": 0.06517043990980506,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 0
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 1.8397492128678987,
+          "short_PnL_USD_per_initial_share": 1.9583840250755404,
+          "PnL_fraction_of_initial_short_notional": 0.03360302033417194,
+          "maximum_break_even_cover_USD": 56.4402507871321,
+          "required_decline_from_conditional_cover_USD_for_break_even": 0
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 5.519247638603696,
+          "short_PnL_USD_per_initial_share": -1.721114400660257,
+          "PnL_fraction_of_initial_short_notional": -0.02953181881709432,
+          "maximum_break_even_cover_USD": 52.76075236139631,
+          "required_decline_from_conditional_cover_USD_for_break_even": 1.7211144006602552
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": 10.741507806459545
+    },
+    {
+      "case": "less_productive_corrected_maturing_risk",
+      "role": "control",
+      "endpoint": "2029-12-31",
+      "calendar_days": 1153,
+      "years_ACT36525": 3.156741957563313,
+      "conditional_cover_USD": 62.147953100703326,
+      "price_only_PnL_USD_per_initial_share": -3.8679531007033248,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.06636844716374957,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.02102434980620948,
+      "simple_annual_net_credit_needed_for_break_even": 0.02102434980620948,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.020564681055420975,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -3.8679531007033248,
+          "PnL_fraction_of_initial_short_notional": -0.06636844716374957,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 3.8679531007033248
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 1.8397492128678987,
+          "short_PnL_USD_per_initial_share": -5.7077023135712235,
+          "PnL_fraction_of_initial_short_notional": -0.09793586673938269,
+          "maximum_break_even_cover_USD": 56.4402507871321,
+          "required_decline_from_conditional_cover_USD_for_break_even": 5.707702313571225
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 5.519247638603696,
+          "short_PnL_USD_per_initial_share": -9.387200739307021,
+          "PnL_fraction_of_initial_short_notional": -0.16107070589064895,
+          "maximum_break_even_cover_USD": 52.76075236139631,
+          "required_decline_from_conditional_cover_USD_for_break_even": 9.38720073930702
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": 3.075421467812781
+    },
+    {
+      "case": "central_corrected_maturing_risk",
+      "role": "control",
+      "endpoint": "2029-12-31",
+      "calendar_days": 1153,
+      "years_ACT36525": 3.156741957563313,
+      "conditional_cover_USD": 73.60314582615611,
+      "price_only_PnL_USD_per_initial_share": -15.323145826156107,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.2629228865160622,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.08328931856027036,
+      "simple_annual_net_credit_needed_for_break_even": 0.08328931856027036,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.0767487771435651,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -15.323145826156107,
+          "PnL_fraction_of_initial_short_notional": -0.2629228865160622,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 15.323145826156107
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 1.8397492128678987,
+          "short_PnL_USD_per_initial_share": -17.162895039024008,
+          "PnL_fraction_of_initial_short_notional": -0.2944903060916954,
+          "maximum_break_even_cover_USD": 56.4402507871321,
+          "required_decline_from_conditional_cover_USD_for_break_even": 17.162895039024008
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 5.519247638603696,
+          "short_PnL_USD_per_initial_share": -20.8423934647598,
+          "PnL_fraction_of_initial_short_notional": -0.3576251452429616,
+          "maximum_break_even_cover_USD": 52.76075236139631,
+          "required_decline_from_conditional_cover_USD_for_break_even": 20.8423934647598
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": -8.379771257640002
+    },
+    {
+      "case": "more_productive_corrected_central_flat",
+      "role": "control",
+      "endpoint": "2029-12-31",
+      "calendar_days": 1153,
+      "years_ACT36525": 3.156741957563313,
+      "conditional_cover_USD": 72.47085425758462,
+      "price_only_PnL_USD_per_initial_share": -14.190854257584618,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.24349441073412179,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.07713472118008498,
+      "simple_annual_net_credit_needed_for_break_even": 0.07713472118008498,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.07147364504687914,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -14.190854257584618,
+          "PnL_fraction_of_initial_short_notional": -0.24349441073412179,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 14.190854257584618
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 1.8397492128678987,
+          "short_PnL_USD_per_initial_share": -16.03060347045252,
+          "PnL_fraction_of_initial_short_notional": -0.27506183030975495,
+          "maximum_break_even_cover_USD": 56.4402507871321,
+          "required_decline_from_conditional_cover_USD_for_break_even": 16.03060347045252
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 5.519247638603696,
+          "short_PnL_USD_per_initial_share": -19.710101896188313,
+          "PnL_fraction_of_initial_short_notional": -0.33819666946102117,
+          "maximum_break_even_cover_USD": 52.76075236139631,
+          "required_decline_from_conditional_cover_USD_for_break_even": 19.710101896188313
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": -7.247479689068513
+    },
+    {
+      "case": "weak_demand_flat_11_555",
+      "role": "primary",
+      "endpoint": "2030-12-31",
+      "calendar_days": 1518,
+      "years_ACT36525": 4.15605749486653,
+      "conditional_cover_USD": 54.01653275663778,
+      "price_only_PnL_USD_per_initial_share": 4.263467243362221,
+      "price_only_PnL_fraction_of_initial_short_notional": 0.0731548943610539,
+      "maximum_simple_annual_net_cost_drag_for_break_even": 0.017601992862565835,
+      "simple_annual_net_credit_needed_for_break_even": 0,
+      "signed_compounded_net_proceeds_yield_for_break_even": -0.01811301011416977,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": 4.263467243362221,
+          "PnL_fraction_of_initial_short_notional": 0.0731548943610539,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 0
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 2.4221503080082134,
+          "short_PnL_USD_per_initial_share": 1.841316935354008,
+          "PnL_fraction_of_initial_short_notional": 0.031594319412388605,
+          "maximum_break_even_cover_USD": 55.85784969199179,
+          "required_decline_from_conditional_cover_USD_for_break_even": 0
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 7.266450924024641,
+          "short_PnL_USD_per_initial_share": -3.0029836806624193,
+          "PnL_fraction_of_initial_short_notional": -0.05152683048494199,
+          "maximum_break_even_cover_USD": 51.01354907597536,
+          "required_decline_from_conditional_cover_USD_for_break_even": 3.0029836806624175
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": 13.572800725925667
+    },
+    {
+      "case": "central_flat_11_555",
+      "role": "primary",
+      "endpoint": "2030-12-31",
+      "calendar_days": 1518,
+      "years_ACT36525": 4.15605749486653,
+      "conditional_cover_USD": 70.97777530967525,
+      "price_only_PnL_USD_per_initial_share": -12.69777530967525,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.21787534848447582,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.05242356458099789,
+      "simple_annual_net_credit_needed_for_break_even": 0.05242356458099789,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.048569270281402455,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -12.69777530967525,
+          "PnL_fraction_of_initial_short_notional": -0.21787534848447582,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 12.69777530967525
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 2.4221503080082134,
+          "short_PnL_USD_per_initial_share": -15.119925617683464,
+          "PnL_fraction_of_initial_short_notional": -0.2594359234331411,
+          "maximum_break_even_cover_USD": 55.85784969199179,
+          "required_decline_from_conditional_cover_USD_for_break_even": 15.119925617683464
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 7.266450924024641,
+          "short_PnL_USD_per_initial_share": -19.96422623369989,
+          "PnL_fraction_of_initial_short_notional": -0.3425570733304717,
+          "maximum_break_even_cover_USD": 51.01354907597536,
+          "required_decline_from_conditional_cover_USD_for_break_even": 19.96422623369989
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": -3.388441827111805
+    },
+    {
+      "case": "favorable_maturing_risk",
+      "role": "primary",
+      "endpoint": "2030-12-31",
+      "calendar_days": 1518,
+      "years_ACT36525": 4.15605749486653,
+      "conditional_cover_USD": 92.57615666994872,
+      "price_only_PnL_USD_per_initial_share": -34.296156669948715,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.5884721460183376,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.14159384145796958,
+      "simple_annual_net_credit_needed_for_break_even": 0.14159384145796958,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.11778489027880923,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -34.296156669948715,
+          "PnL_fraction_of_initial_short_notional": -0.5884721460183376,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 34.296156669948715
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 2.4221503080082134,
+          "short_PnL_USD_per_initial_share": -36.71830697795693,
+          "PnL_fraction_of_initial_short_notional": -0.6300327209670029,
+          "maximum_break_even_cover_USD": 55.85784969199179,
+          "required_decline_from_conditional_cover_USD_for_break_even": 36.71830697795693
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 7.266450924024641,
+          "short_PnL_USD_per_initial_share": -41.562607593973354,
+          "PnL_fraction_of_initial_short_notional": -0.7131538708643335,
+          "maximum_break_even_cover_USD": 51.01354907597536,
+          "required_decline_from_conditional_cover_USD_for_break_even": 41.562607593973354
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": -24.98682318738527
+    },
+    {
+      "case": "less_productive_corrected_central_flat",
+      "role": "control",
+      "endpoint": "2030-12-31",
+      "calendar_days": 1518,
+      "years_ACT36525": 4.15605749486653,
+      "conditional_cover_USD": 60.19714887701973,
+      "price_only_PnL_USD_per_initial_share": -1.9171488770197271,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.032895485192514194,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.007915069806696845,
+      "simple_annual_net_credit_needed_for_break_even": 0.007915069806696845,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.007818073924460878,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -1.9171488770197271,
+          "PnL_fraction_of_initial_short_notional": -0.032895485192514194,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 1.9171488770197271
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 2.4221503080082134,
+          "short_PnL_USD_per_initial_share": -4.33929918502794,
+          "PnL_fraction_of_initial_short_notional": -0.07445606014117948,
+          "maximum_break_even_cover_USD": 55.85784969199179,
+          "required_decline_from_conditional_cover_USD_for_break_even": 4.33929918502794
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 7.266450924024641,
+          "short_PnL_USD_per_initial_share": -9.183599801044368,
+          "PnL_fraction_of_initial_short_notional": -0.15757721003851008,
+          "maximum_break_even_cover_USD": 51.01354907597536,
+          "required_decline_from_conditional_cover_USD_for_break_even": 9.183599801044366
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": 7.392184605543719
+    },
+    {
+      "case": "less_productive_corrected_maturing_risk",
+      "role": "control",
+      "endpoint": "2030-12-31",
+      "calendar_days": 1518,
+      "years_ACT36525": 4.15605749486653,
+      "conditional_cover_USD": 68.7490514920971,
+      "price_only_PnL_USD_per_initial_share": -10.469051492097094,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.17963369066741752,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.043222138021261035,
+      "simple_annual_net_credit_needed_for_break_even": 0.043222138021261035,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.04055077257657169,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -10.469051492097094,
+          "PnL_fraction_of_initial_short_notional": -0.17963369066741752,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 10.469051492097094
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 2.4221503080082134,
+          "short_PnL_USD_per_initial_share": -12.891201800105307,
+          "PnL_fraction_of_initial_short_notional": -0.22119426561608282,
+          "maximum_break_even_cover_USD": 55.85784969199179,
+          "required_decline_from_conditional_cover_USD_for_break_even": 12.891201800105307
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 7.266450924024641,
+          "short_PnL_USD_per_initial_share": -17.735502416121733,
+          "PnL_fraction_of_initial_short_notional": -0.3043154155134134,
+          "maximum_break_even_cover_USD": 51.01354907597536,
+          "required_decline_from_conditional_cover_USD_for_break_even": 17.735502416121733
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": -1.1597180095336483
+    },
+    {
+      "case": "central_corrected_maturing_risk",
+      "role": "control",
+      "endpoint": "2030-12-31",
+      "calendar_days": 1518,
+      "years_ACT36525": 4.15605749486653,
+      "conditional_cover_USD": 81.52789173697595,
+      "price_only_PnL_USD_per_initial_share": -23.247891736975944,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.3988999954868899,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.09598038428958271,
+      "simple_annual_net_credit_needed_for_break_even": 0.09598038428958271,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.08412189724188424,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -23.247891736975944,
+          "PnL_fraction_of_initial_short_notional": -0.3988999954868899,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 23.247891736975944
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 2.4221503080082134,
+          "short_PnL_USD_per_initial_share": -25.670042044984157,
+          "PnL_fraction_of_initial_short_notional": -0.4404605704355552,
+          "maximum_break_even_cover_USD": 55.85784969199179,
+          "required_decline_from_conditional_cover_USD_for_break_even": 25.670042044984157
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 7.266450924024641,
+          "short_PnL_USD_per_initial_share": -30.514342661000583,
+          "PnL_fraction_of_initial_short_notional": -0.5235817203328857,
+          "maximum_break_even_cover_USD": 51.01354907597536,
+          "required_decline_from_conditional_cover_USD_for_break_even": 30.514342661000583
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": -13.938558254412499
+    },
+    {
+      "case": "more_productive_corrected_central_flat",
+      "role": "control",
+      "endpoint": "2030-12-31",
+      "calendar_days": 1518,
+      "years_ACT36525": 4.15605749486653,
+      "conditional_cover_USD": 80.26476387765602,
+      "price_only_PnL_USD_per_initial_share": -21.98476387765602,
+      "price_only_PnL_fraction_of_initial_short_notional": -0.37722655932834626,
+      "maximum_simple_annual_net_cost_drag_for_break_even": -0.09076548141941929,
+      "simple_annual_net_credit_needed_for_break_even": 0.09076548141941929,
+      "signed_compounded_net_proceeds_yield_for_break_even": 0.08005645005137962,
+      "drag_controls": [
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0,
+          "cumulative_cost_USD_per_initial_share": 0.0,
+          "short_PnL_USD_per_initial_share": -21.98476387765602,
+          "PnL_fraction_of_initial_short_notional": -0.37722655932834626,
+          "maximum_break_even_cover_USD": 58.28,
+          "required_decline_from_conditional_cover_USD_for_break_even": 21.98476387765602
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.01,
+          "cumulative_cost_USD_per_initial_share": 2.4221503080082134,
+          "short_PnL_USD_per_initial_share": -24.406914185664235,
+          "PnL_fraction_of_initial_short_notional": -0.4187871342770116,
+          "maximum_break_even_cover_USD": 55.85784969199179,
+          "required_decline_from_conditional_cover_USD_for_break_even": 24.406914185664235
+        },
+        {
+          "annual_fixed_initial_notional_net_cost_drag": 0.03,
+          "cumulative_cost_USD_per_initial_share": 7.266450924024641,
+          "short_PnL_USD_per_initial_share": -29.25121480168066,
+          "PnL_fraction_of_initial_short_notional": -0.5019082841743422,
+          "maximum_break_even_cover_USD": 51.01354907597536,
+          "required_decline_from_conditional_cover_USD_for_break_even": 29.25121480168066
+        }
+      ],
+      "optimistic_3_63pct_constant_compounded_credit_PnL_USD_before_any_borrow_fee": -12.675430395092576
+    }
+  ],
+  "independent_valuation_checks": [
+    {
+      "case": "weak_demand_flat_11_555",
+      "endpoint": "2029-12-31",
+      "independent_recomputed_cover_USD": 48.8060764313207,
+      "source_cover_USD": 48.8060764313207,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 138.37622937589606,
+      "terminal_operating_PV_B": 122.49996659808058,
+      "financing_tax_benefit_PV_B": 2.729293878875522,
+      "cash_B": 39.445991283724894,
+      "debt_B": 39.847,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "central_flat_11_555",
+      "endpoint": "2029-12-31",
+      "independent_recomputed_cover_USD": 64.1458230460918,
+      "source_cover_USD": 64.1458230460918,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 183.49131700083618,
+      "terminal_operating_PV_B": 154.7058882318823,
+      "financing_tax_benefit_PV_B": 2.729293878875522,
+      "cash_B": 46.64698587237181,
+      "debt_B": 39.847,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "favorable_maturing_risk",
+      "endpoint": "2029-12-31",
+      "independent_recomputed_cover_USD": 83.50701829531731,
+      "source_cover_USD": 83.50701829531731,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 208.29825534197556,
+      "terminal_operating_PV_B": 236.32388675738835,
+      "financing_tax_benefit_PV_B": 2.984542835462553,
+      "cash_B": 46.64698587237181,
+      "debt_B": 39.847,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "less_productive_corrected_central_flat",
+      "endpoint": "2029-12-31",
+      "independent_recomputed_cover_USD": 54.48186676205656,
+      "source_cover_USD": 54.48186676205656,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 159.8817598410024,
+      "terminal_operating_PV_B": 125.06704626668186,
+      "financing_tax_benefit_PV_B": 2.729293878875522,
+      "cash_B": 46.64698587237181,
+      "debt_B": 39.847,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "less_productive_corrected_maturing_risk",
+      "endpoint": "2029-12-31",
+      "independent_recomputed_cover_USD": 62.147953100703326,
+      "source_cover_USD": 62.147953100703326,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 163.577286769378,
+      "terminal_operating_PV_B": 163.35640610766293,
+      "financing_tax_benefit_PV_B": 2.984542835462553,
+      "cash_B": 46.64698587237181,
+      "debt_B": 39.847,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "central_corrected_maturing_risk",
+      "endpoint": "2029-12-31",
+      "independent_recomputed_cover_USD": 73.60314582615611,
+      "source_cover_USD": 73.60314582615611,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 187.98260543568023,
+      "terminal_operating_PV_B": 202.06919935860554,
+      "financing_tax_benefit_PV_B": 2.984542835462553,
+      "cash_B": 46.64698587237181,
+      "debt_B": 39.847,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "more_productive_corrected_central_flat",
+      "endpoint": "2029-12-31",
+      "independent_recomputed_cover_USD": 72.4708542575846,
+      "source_cover_USD": 72.47085425758462,
+      "error_USD": -1.4210854715202004e-14,
+      "explicit_operating_PV_B": 203.13656056027642,
+      "terminal_operating_PV_B": 180.93156664776737,
+      "financing_tax_benefit_PV_B": 2.729293878875522,
+      "cash_B": 46.64698587237181,
+      "debt_B": 39.847,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "weak_demand_flat_11_555",
+      "endpoint": "2030-12-31",
+      "independent_recomputed_cover_USD": 54.01653275663778,
+      "source_cover_USD": 54.01653275663778,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 136.53488562659652,
+      "terminal_operating_PV_B": 136.6548377384888,
+      "financing_tax_benefit_PV_B": 2.7484137865795892,
+      "cash_B": 53.072958337409226,
+      "debt_B": 37.097,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "central_flat_11_555",
+      "endpoint": "2030-12-31",
+      "independent_recomputed_cover_USD": 70.97777530967525,
+      "source_cover_USD": 70.97777530967525,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 181.3578639078155,
+      "terminal_operating_PV_B": 172.5821536170763,
+      "financing_tax_benefit_PV_B": 2.7484137865795892,
+      "cash_B": 65.77911064483916,
+      "debt_B": 37.097,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "favorable_maturing_risk",
+      "endpoint": "2030-12-31",
+      "independent_recomputed_cover_USD": 92.57615666994872,
+      "source_cover_USD": 92.57615666994872,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 209.03124397427342,
+      "terminal_operating_PV_B": 263.6311118722045,
+      "financing_tax_benefit_PV_B": 3.0331567601002503,
+      "cash_B": 65.77911064483916,
+      "debt_B": 37.097,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "less_productive_corrected_central_flat",
+      "endpoint": "2030-12-31",
+      "independent_recomputed_cover_USD": 60.19714887701973,
+      "source_cover_USD": 60.19714887701973,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 155.02022241816292,
+      "terminal_operating_PV_B": 139.51854346279694,
+      "financing_tax_benefit_PV_B": 2.7484137865795892,
+      "cash_B": 65.77911064483916,
+      "debt_B": 37.097,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "less_productive_corrected_maturing_risk",
+      "endpoint": "2030-12-31",
+      "independent_recomputed_cover_USD": 68.7490514920971,
+      "source_cover_USD": 68.7490514920971,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 159.14276748311218,
+      "terminal_operating_PV_B": 182.23223883340333,
+      "financing_tax_benefit_PV_B": 3.0331567601002503,
+      "cash_B": 65.77911064483916,
+      "debt_B": 37.097,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "central_corrected_maturing_risk",
+      "endpoint": "2030-12-31",
+      "independent_recomputed_cover_USD": 81.52789173697595,
+      "source_cover_USD": 81.52789173697595,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 186.36812072130567,
+      "terminal_operating_PV_B": 225.41829534449232,
+      "financing_tax_benefit_PV_B": 3.0331567601002503,
+      "cash_B": 65.77911064483916,
+      "debt_B": 37.097,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    },
+    {
+      "case": "more_productive_corrected_central_flat",
+      "endpoint": "2030-12-31",
+      "independent_recomputed_cover_USD": 80.26476387765602,
+      "source_cover_USD": 80.26476387765602,
+      "error_USD": 0.0,
+      "explicit_operating_PV_B": 203.27311536054904,
+      "terminal_operating_PV_B": 201.8382091739169,
+      "financing_tax_benefit_PV_B": 2.7484137865795892,
+      "cash_B": 65.77911064483916,
+      "debt_B": 37.097,
+      "other_net_assets_B": 5.717,
+      "claims_B": 5.51
+    }
+  ],
+  "max_independent_valuation_error_USD": 1.4210854715202004e-14,
+  "previous_carry_file_status": "Prior carry_diagnostic_results.json uses old flat 12% and old maturation policy; it must not be presented as a current 11.555% result. Its 5.29% illustrative proceeds credit was not an available broker quote.",
+  "broker_evidence": {
+    "url": "https://www.interactivebrokers.com/en/pricing/short-sale-cost.php",
+    "reviewed_date": "2026-11-05",
+    "locators": "Short Sale Cost lines65-89; USD tiers lines188-194; disclosures217-220 of retrieved public page.",
+    "facts": "IBKR separates stock-borrow fees from short-proceeds interest. USD Pro proceeds tiers shown are 0%,2.630%,3.380%,3.630%. Rates are marginal, account-dependent and changeable; borrow fees are separate and can exceed interest.",
+    "use": "3.63% is only an optimistic gross-credit illustration assuming it applies to all initial proceeds and persists. It is not an INTC borrow quote, attainable blended rate, future rate forecast or institutional financing term."
+  },
+  "cash_rebate_interpretation": [
+    "Positive net carry can mathematically offset some stock appreciation. It cannot be assumed from the Treasury yield used in business valuation.",
+    "The central 2029 endpoint needs about3.08% continuously realized annual compounded net credit on original proceeds; current top marginal3.63% gross credit leaves limited room for tier dilution and borrow fees, and persistence is unverified.",
+    "The central 2030 endpoint needs about4.86% annual compounded net credit, above the presently displayed3.63% top marginal gross proceeds rate. This comparison is not proof that future or negotiated terms cannot change.",
+    "Interest earned on separately posted own cash must be compared with what that cash would earn without the short; it is not free incremental short alpha.",
+    "A future dividend payment requires a matching change to retained cash and the ex-dividend endpoint value, plus a payment owed by the short. It cannot be counted as a free price decline."
+  ],
+  "limits": [
+    "Endpoint values are conditional intrinsic estimates. Treating them as eventual cover prices is a diagnostic assumption, not evidence of market convergence or a path forecast.",
+    "No scenario probabilities are identified. A profitable weak-demand case does not justify selecting that case as the expected outcome.",
+    "The fixed initial notional drag grid omits actual marked-to-market collateral/borrow bases, changing fees, margin requirements, recalls, commissions, taxes, and path-dependent financing.",
+    "PnL divided by initial stock notional is not return on posted margin, account equity, annual compounded account return or risk-adjusted alpha.",
+    "No unmodeled hedge or short-proceeds reinvestment is assumed. A relative-value strategy needs its own independently justified benchmark exposure and return.",
+    "No source model, PDF or prior research file was changed."
+  ],
+  "conclusion": "The central business path does not establish a profitable unhedged short over the chosen 3-5-year endpoints. The weaker-demand case provides a quantified route to price profit, but its 2030 gain is modest and disappears under a3% annual fixed-notional drag. A defensible position requires evidence favoring lower terminal prices, an independently justified convergence/exit framework, or verified favorable net financing; none follows solely from the current valuation gap."
+}

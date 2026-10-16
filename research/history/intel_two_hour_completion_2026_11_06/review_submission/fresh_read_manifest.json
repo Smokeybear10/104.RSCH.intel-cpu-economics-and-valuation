@@ -1,0 +1,20 @@
+{
+  "m37_intel_initial_screen": {
+    "sha256": "72de2730a9dc63bf6c6888eebca933a8221b192bf75bea52bac70cacb0aeed47",
+    "pages": 10,
+    "bytes": 117531,
+    "mtime": 1793951030.9413295
+  },
+  "m37_intel_defense_notes": {
+    "sha256": "7ad1f94ae07cbcd6db2f493f13ad99b613bcce4926b81282a206ac82ca0ff92e",
+    "pages": 5,
+    "bytes": 78596,
+    "mtime": 1793951030.9584694
+  },
+  "m37_intel_pitch_comparison": {
+    "sha256": "5fb9516ef5185fdde890fbdddbc1f45d3fe52cefac706090334172210113c77d",
+    "pages": 3,
+    "bytes": 71900,
+    "mtime": 1793951030.9717777
+  }
+}

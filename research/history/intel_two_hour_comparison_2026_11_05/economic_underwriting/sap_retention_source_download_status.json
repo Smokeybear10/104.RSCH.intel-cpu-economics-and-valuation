@@ -1,0 +1,63 @@
+[
+  {
+    "name": "azure_hana_faq_current",
+    "url": "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started",
+    "status": 200,
+    "downloaded_utc": "2026-11-05T23:57:01.185254+00:00",
+    "sha256_html": "e83da1e94b256c1c9edf6720f90744cf745549d91bb87f2d3503cd3eaf847753"
+  },
+  {
+    "name": "azure_hana_directory_source_of_truth",
+    "url": "https://learn.microsoft.com/en-us/azure/sap/workloads/hana-get-started",
+    "status": 200,
+    "downloaded_utc": "2026-11-05T23:57:01.099163+00:00",
+    "sha256_html": "c81d780fa49b1641b2bbe14d4cc0fefe5bf4edca3a08b2bb8b7b913b9bf036af"
+  },
+  {
+    "name": "azure_msv4_preview_current",
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/msv4-series",
+    "status": 200,
+    "downloaded_utc": "2026-11-05T23:57:01.054646+00:00",
+    "sha256_html": "10a279c924586eeaa05ef45917a45199facd280b390de13a500bcd36686edb25"
+  },
+  {
+    "name": "azure_mdsv4_preview_current",
+    "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/mdsv4-series",
+    "status": 200,
+    "downloaded_utc": "2026-11-05T23:57:01.202107+00:00",
+    "sha256_html": "70ab80f8e1795ffd3f3d20e5d04609339f12a0acb5ad79bb60faa01b030b7fd9"
+  },
+  {
+    "name": "aws_toyota_case_study_generation_conflict",
+    "url": "https://aws.amazon.com/solutions/case-studies/toyota-intel-case-study/",
+    "status": 200,
+    "downloaded_utc": "2026-11-05T23:57:00.697401+00:00",
+    "sha256_html": "250b5662ffa443bd1d224a2ec4570d687ce83ab9c4d4142b49eeaa4964bcd6fa"
+  },
+  {
+    "name": "aws_u7i_4th_gen_spec",
+    "url": "https://aws.amazon.com/ec2/instance-types/u7i/",
+    "status": 200,
+    "downloaded_utc": "2026-11-05T23:57:00.656620+00:00",
+    "sha256_html": "3fbea9ab78a626c41eb42fe5d89cd5799b156b36a927929e41dd80176cc9c24b"
+  },
+  {
+    "name": "aws_r6i_3rd_gen_spec",
+    "url": "https://aws.amazon.com/ec2/instance-types/r6i/",
+    "status": 200,
+    "downloaded_utc": "2026-11-05T23:57:00.848700+00:00",
+    "sha256_html": "f291b281de52bc0629d82d884664390cce5ce9984afa7d4877066674675168ca"
+  },
+  {
+    "name": "hpe_3250_xeon6_2026_05_11",
+    "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/05/hpe-introduces-industry-first-64-tb-memory-server-for-sap-cloud-erp-and-business-critical-workloads.html?country=international",
+    "error": "HTTPSConnectionPool(host='www.hpe.com', port=443): Read timed out. (read timeout=20)"
+  },
+  {
+    "name": "vmware_vsan_xeon6_hana_2026_05_12",
+    "url": "https://blogs.vmware.com/cloud-foundation/2026/05/12/vsan-for-sap-on-vcf-9-1/",
+    "status": 200,
+    "downloaded_utc": "2026-11-05T23:57:01.585889+00:00",
+    "sha256_html": "d6334870ff2bf2262cf63aea10f5818956d37fa04e9b2086456a0104fe7e1798"
+  }
+]

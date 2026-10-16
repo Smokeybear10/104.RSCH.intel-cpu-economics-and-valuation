@@ -1,0 +1,253 @@
+{
+  "audit_date": "2026-11-05",
+  "audit_status": "PASS_WITH_SCOPE_LIMITS",
+  "auditor": "Independent calculation and official-source review by expectations_gap_research subagent",
+  "reviewed_artifact": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_evidence_gap_research_2026_11_05/public_customer_evidence_analysis.json",
+  "raw_price_artifact": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_evidence_gap_research_2026_11_05/raw_public_data/oracle_prices.json",
+  "raw_price_sha256": "153de584995f9d78a6b7010bd0019dff9586614f96f795bce744d3fb5a9c4577",
+  "API_lastUpdated": "2026-11-02T14:49:49.342Z",
+  "calculation_precision": "32-digit decimal arithmetic; decimal values serialized as strings to retain precision",
+  "checks": {
+    "six_SKUs_currency_model_and_units": "PASS: directly parsed raw Oracle API records, not copied derived totals",
+    "three_CPU_memory_baskets": "PASS: independently recomputed and matched analysis artifact",
+    "OCPU_vCPU_and_core_mapping": "PASS: current official docs explicitly define A4 Ax as two physical cores per OCPU, x86 as one physical core per OCPU; all three have two advertised vCPUs per OCPU",
+    "processor_identity": "PASS: A4 Ax uses AmpereOne M 192-36M, distinct from non-Ax A4 A06-36M",
+    "chosen_allocation_is_supported": "PASS: 4 OCPU and 32 GB satisfies all three shapes; sensitivity up to 4 OCPU and 256 GB is inside their advertised limits",
+    "scope": "CPU plus memory hourly list-price basket only; not entire cloud bill, chip price, or measured cost per completed task"
+  },
+  "recomputed_rows": [
+    {
+      "vendor": "Intel",
+      "shape": "VM.Standard4.Ax.Flex",
+      "processor": "Intel Xeon 6987P-C",
+      "CPU_SKU": "B112141",
+      "memory_SKU": "B112142",
+      "CPU_metric": "OCPU Per Hour",
+      "memory_metric": "Gigabyte Per Hour",
+      "currency": "USD",
+      "pricing_model": "PAY_AS_YOU_GO",
+      "OCPU_rate": "0.0119",
+      "GB_memory_rate": "0.0114",
+      "OCPUs": 4,
+      "memory_GB": 32,
+      "advertised_vCPUs": 8,
+      "physical_cores": 4,
+      "CPU_component": "0.0476",
+      "memory_component": "0.3648",
+      "total_hourly_CPU_and_memory_price": "0.4124",
+      "memory_fraction_of_retail_bill": "0.88457807953443258971871968962173"
+    },
+    {
+      "vendor": "AMD",
+      "shape": "VM.Standard.E6.Ax.Flex",
+      "processor": "AMD EPYC 9J45",
+      "CPU_SKU": "B112530",
+      "memory_SKU": "B112531",
+      "CPU_metric": "OCPU Per Hour",
+      "memory_metric": "Gigabytes Per Hour",
+      "currency": "USD",
+      "pricing_model": "PAY_AS_YOU_GO",
+      "OCPU_rate": "0.0138",
+      "GB_memory_rate": "0.0108",
+      "OCPUs": 4,
+      "memory_GB": 32,
+      "advertised_vCPUs": 8,
+      "physical_cores": 4,
+      "CPU_component": "0.0552",
+      "memory_component": "0.3456",
+      "total_hourly_CPU_and_memory_price": "0.4008",
+      "memory_fraction_of_retail_bill": "0.86227544910179640718562874251497"
+    },
+    {
+      "vendor": "Ampere",
+      "shape": "VM.Standard.A4.Ax.Flex",
+      "processor": "AmpereOne M 192-36M",
+      "CPU_SKU": "B112532",
+      "memory_SKU": "B112533",
+      "CPU_metric": "OCPU Per Hour",
+      "memory_metric": "Gigabytes Per Hour",
+      "currency": "USD",
+      "pricing_model": "PAY_AS_YOU_GO",
+      "OCPU_rate": "0.019",
+      "GB_memory_rate": "0.0084",
+      "OCPUs": 4,
+      "memory_GB": 32,
+      "advertised_vCPUs": 8,
+      "physical_cores": 8,
+      "CPU_component": "0.076",
+      "memory_component": "0.2688",
+      "total_hourly_CPU_and_memory_price": "0.3448",
+      "memory_fraction_of_retail_bill": "0.77958236658932714617169373549884"
+    }
+  ],
+  "formula": {
+    "hourly_cost": "p = OCPU_count * OCPU_rate + memory_GB * memory_rate",
+    "cost_per_task": "p / q, where q is successful completed tasks per hour at fixed work, quality and latency/service-level requirements",
+    "inequality_proof": "p_Intel / q_Intel <= p_rival / q_rival iff q_Intel / q_rival >= p_Intel / p_rival, for positive prices and throughput",
+    "fixed_batch_equivalent": "If identical fixed work completes in time t, p_Intel * t_Intel <= p_rival * t_rival iff t_Intel/t_rival <= p_rival/p_Intel"
+  },
+  "break_even": {
+    "AMD": {
+      "successful_throughput_ratio_Intel_over_rival_required_for_equal_or_lower_CPU_memory_cost_per_task": "1.0289421157684630738522954091816",
+      "required_throughput_increase_fraction": "0.0289421157684630738522954091816",
+      "required_throughput_increase_percent": "2.8942115768463073852295409181600",
+      "max_Intel_over_rival_elapsed_time_ratio_for_same_fixed_task_batch": "0.97187196896217264791464597478180",
+      "minimum_runtime_reduction_percent_for_same_fixed_task_batch": "2.8128031037827352085354025218200",
+      "observed_throughput_ratio": null
+    },
+    "Ampere": {
+      "successful_throughput_ratio_Intel_over_rival_required_for_equal_or_lower_CPU_memory_cost_per_task": "1.1960556844547563805104408352668",
+      "required_throughput_increase_fraction": "0.1960556844547563805104408352668",
+      "required_throughput_increase_percent": "19.605568445475638051044083526680",
+      "max_Intel_over_rival_elapsed_time_ratio_for_same_fixed_task_batch": "0.83608147429679922405431619786616",
+      "minimum_runtime_reduction_percent_for_same_fixed_task_batch": "16.391852570320077594568380213384",
+      "observed_throughput_ratio": null
+    }
+  },
+  "memory_sensitivity": [
+    {
+      "OCPUs": 4,
+      "memory_GB": 4,
+      "GB_per_OCPU": 1,
+      "Intel_USD_hour": "0.0932",
+      "AMD_USD_hour": "0.0984",
+      "Ampere_USD_hour": "0.1096"
+    },
+    {
+      "OCPUs": 4,
+      "memory_GB": 8,
+      "GB_per_OCPU": 2,
+      "Intel_USD_hour": "0.1388",
+      "AMD_USD_hour": "0.1416",
+      "Ampere_USD_hour": "0.1432"
+    },
+    {
+      "OCPUs": 4,
+      "memory_GB": 16,
+      "GB_per_OCPU": 4,
+      "Intel_USD_hour": "0.2300",
+      "AMD_USD_hour": "0.2280",
+      "Ampere_USD_hour": "0.2104"
+    },
+    {
+      "OCPUs": 4,
+      "memory_GB": 32,
+      "GB_per_OCPU": 8,
+      "Intel_USD_hour": "0.4124",
+      "AMD_USD_hour": "0.4008",
+      "Ampere_USD_hour": "0.3448"
+    },
+    {
+      "OCPUs": 4,
+      "memory_GB": 64,
+      "GB_per_OCPU": 16,
+      "Intel_USD_hour": "0.7772",
+      "AMD_USD_hour": "0.7464",
+      "Ampere_USD_hour": "0.6136"
+    },
+    {
+      "OCPUs": 4,
+      "memory_GB": 128,
+      "GB_per_OCPU": 32,
+      "Intel_USD_hour": "1.5068",
+      "AMD_USD_hour": "1.4376",
+      "Ampere_USD_hour": "1.1512"
+    },
+    {
+      "OCPUs": 4,
+      "memory_GB": 256,
+      "GB_per_OCPU": 64,
+      "Intel_USD_hour": "2.9660",
+      "AMD_USD_hour": "2.8200",
+      "Ampere_USD_hour": "2.2264"
+    }
+  ],
+  "price_crossovers_GB_per_OCPU": {
+    "AMD": "3.1666666666666666666666666666667",
+    "Ampere": "2.3666666666666666666666666666667"
+  },
+  "interpretive_limits": [
+    "Equal billed OCPUs and advertised vCPUs do not imply equal physical cores, instructions, throughput, or customer value.",
+    "The Intel-versus-AMD threshold is 2.8942% greater successful throughput, not a measured performance result. Its fixed-work runtime equivalent is 2.8128% less time, not 2.8942% less time.",
+    "The 32 GB basket has 8 GB per OCPU. Ranking changes with memory configuration: Intel is cheaper than AMD below 3.1667 GB per OCPU and cheaper than Ampere below 2.3667 GB per OCPU at equal billed OCPU count, before workload performance.",
+    "Storage, egress, paid operating-system licenses, support, tax and discounts are excluded. Adding other costs can alter the break-even ratio; the 2.89% threshold is for the defined CPU+memory basket.",
+    "Retail CPU and memory line-item allocation does not reveal processor transaction prices, cloud hardware bill of materials, Intel ASP, margins or price elasticity.",
+    "Three offerings from one provider are a bounded descriptive comparison; not a representative customer sample or a market-share estimate.",
+    "No paid cloud instance, original workload benchmark, original customer interview, or undisclosed procurement evidence was used."
+  ],
+  "matched_benchmark_search": {
+    "status": "NO_MATCHED_X12_VS_E6_AX_MEASUREMENT_FOUND_IN_REVIEWED_OFFICIAL_SOURCES",
+    "queries": [
+      "site.oracle.com X12 Ax E6 Ax A4 Ax OCPU vCPU price 2026",
+      "site.oracle.com \"X12\" \"E6\" \"benchmark\"",
+      "site.oracle.com \"X12\" \"E6\" \"performance\" \"Ax\"",
+      "site.oracle.com \"Standard4.Ax.Flex\" \"benchmark\"",
+      "site.oracle.com \"X12\" \"E6\" \"throughput\""
+    ],
+    "reject_as_matched_evidence": [
+      {
+        "source_id": "x12_launch",
+        "reason": "X12 is compared with older Intel X9, not AMD E6 Ax; bare-metal and VM gains are different comparisons."
+      },
+      {
+        "source_id": "acceleron_launch",
+        "reason": "E6 Ax improvement is versus E6 Standard; X12 improvement is versus X9. Baselines differ and reported gains cannot be divided to infer an Intel-versus-AMD ratio."
+      },
+      {
+        "source_id": "harness_article",
+        "reason": "Author explicitly states he has not run a side-by-side X12-versus-E6 test for this harness runtime. Article provides no paired throughput dataset usable here."
+      }
+    ],
+    "conclusion": "Keep both observed throughput and observed cost/task null. The search establishes an evidence gap in reviewed material, not proof that no benchmark exists anywhere."
+  },
+  "source_ledger": [
+    {
+      "id": "price_API",
+      "url": "https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/?currencyCode=USD",
+      "date": "2026-11-02T14:49:49.342Z",
+      "facts": "Six SKU rates, metrics and USD PAY_AS_YOU_GO model, read directly from archived raw response."
+    },
+    {
+      "id": "shape_docs",
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm",
+      "date": "undated; retrieved 2026-11-05",
+      "locators": "OCPUs and vCPUs lines 27-29; flexible shape limits lines 55-64; VM CPU identity lines 286-294; VM shapes table lines 298,303,307",
+      "facts": "OCPU/vCPU/core mapping, processor identity and valid allocation limits."
+    },
+    {
+      "id": "price_list",
+      "url": "https://www.oracle.com/cloud/price-list/",
+      "date": "undated; retrieved 2026-11-05",
+      "facts": "CPU billing conversions and exclusion of separately billed storage."
+    },
+    {
+      "id": "dated_price_PDF",
+      "url": "https://www.oracle.com/il-en/a/ocom/docs/corporate/pricing/oracle-paas-and-iaas-global-price-list.pdf",
+      "date": "2026-10-08",
+      "locators": "Printed pages 54-56 prices and 120 OCPU definitions",
+      "verification_scope": "Primary evidence agent visually checked PDF; this audit independently checked API and official online unit definitions."
+    },
+    {
+      "id": "x12_launch",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/announcing-oci-x12-standard-acceleron-compute",
+      "date": "2026-04-16",
+      "facts": "X12 prices and performance comparison with X9, not E6."
+    },
+    {
+      "id": "acceleron_launch",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/OCI-Acceleron-ComputeShapes",
+      "date": "2026-04-16",
+      "facts": "Separate within-family benchmarks; retail memory price weighting reflects changed component economics."
+    },
+    {
+      "id": "harness_article",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/harness-engineering-using-oci-cpu-oke",
+      "date": "2026-09-28",
+      "locators": "Paragraph on X12, lines 54-55",
+      "facts": "Author states no side-by-side benchmark was run for this harness runtime on X12 versus E6."
+    }
+  ],
+  "approved_exhibit_language": "At Oracle\u2019s listed 4-OCPU/32-GB configuration, Intel X12 Ax costs $0.4124 per hour in CPU and memory versus $0.4008 for AMD E6 Ax. Intel would need 2.89% more successful tasks per hour to match that rental cost per task. This is a calculated break-even, not measured workload performance.",
+  "approved_table_note": "All three configurations advertise 8 vCPUs; physical cores are 4 Intel, 4 AMD and 8 Ampere. CPU+memory list prices exclude other cloud charges.",
+  "forecast_or_deck_mutations": false
+}

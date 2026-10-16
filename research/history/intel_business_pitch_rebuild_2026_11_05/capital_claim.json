@@ -1,0 +1,187 @@
+{
+  "completed_utc": "2026-11-05T06:40:45.403882+00:00",
+  "scope": "Independent read-only business-claim rebuilding. No source forecasts, cash models, valuation rates, recommendations in the PDF, or PDFs modified. Existing source facts are not represented as newly discovered facts.",
+  "directional_verdict": {
+    "admissible": "Conditional valuation counterview; capital evidence does not independently establish an outright SHORT or a robust relative SHORT. It also does not prove a free cash-flow uplift sufficient for LONG.",
+    "root_judgment": "Use the capital mechanism as one concrete business argument, not as proof of a hidden consensus miss. The strongest evidence simultaneously makes the funded recovery credible. A clear pitch can own a cautious cash-conversion judgment, but should not imply that public spending commitments uniquely identify long-run capital productivity.",
+    "strength": "High confidence in the disclosed need for complementary tools/substrates and cash before output. Moderate confidence in the direction of near-term cash lag. Low identification of exact 2028-2040 capital per accepted processor and of a market-expectations error."
+  },
+  "recommended_business_claim": {
+    "headline": "The recovery needs complete packages, not just better wafer yields.",
+    "pitch_paragraph": "Intel is increasing output inside factories it already owns. That improves the recovery economics, but the sellable processor still needs the right wafer process, package and substrate. Ireland requires new tools despite reusing cleanrooms, and Intel is committing cash to substrate supply before the associated sales arrive. I therefore expect earnings to recover faster than cash available to common shareholders. My forecast grants a large recovery; it keeps the remaining tool, supplier and working-capital bill attached to that growth.",
+    "precise_disagreement": "The contested judgment is how much combined capital and supplier working capital Intel must fund for each additional dollar of accepted sales after the initial ramp. It is not whether AI demand exists, whether Intel can use existing buildings, or whether 2027 free cash flow is negative.",
+    "why_it_is_not_an_edge_by_itself": "Those spending needs are disclosed, and public forecasts already show negative 2027 FCF. The interpretation and ensuing forward forecast are ours; a better-informed market error has not been demonstrated.",
+    "what_not_to_say": [
+      "Unused client capacity converts one-for-one into server capacity.",
+      "All new output requires a new greenfield fab.",
+      "Analysts ignore capital spending or supplier prepayments.",
+      "Existing capacity is free, so incremental growth is free cash.",
+      "The disclosed capital commitments or supplier project budgets are additional to our modeled capital envelope.",
+      "A supplier shortage proves Intel must miss the selected unit forecast."
+    ]
+  },
+  "evidence_to_forecast": [
+    {
+      "source": "ireland_program",
+      "observed": "July 13: EUR5B / USD5.7B program uses existing cleanrooms but includes fabrication upgrades, new equipment and campus integration. Execution began earlier in2026.",
+      "mechanism": "Building reuse saves greenfield time; it does not eliminate process tools and qualification.",
+      "forecast_connection": "Supports funded existing-site growth in both central and bull cases. The program is already within aggregate investment, not an incremental USD5.7B deduction. No annual remaining-to-complete schedule is disclosed.",
+      "falsifier_or_update": "Completed qualified output and revenue grow materially faster than the forecast with lower combined investment; do not infer this from installed-tool announcements alone."
+    },
+    {
+      "source": "intel_q3_commitments",
+      "observed": "Capital commitments are USD19.6B with the substantial majority due in12months. Subsequent substrate arrangements imply USD5.3-6.1B estimated funding, approximately USD3.3B due byend2027; some terms remain unfinalized.",
+      "mechanism": "The output ramp requires both Intel equipment and externally supplied package inputs, with cash paid ahead of full sales conversion.",
+      "forecast_connection": "Evidence for near-term capital and working-capital stickiness already inside2027physicalcapex30.50B/WC6.059B. The commitments do not independently validate either total and are not added again.",
+      "falsifier_or_update": "Actual investment and prepayment cash are materially lower while accepted CPU sales and underlying Foundry profit meet the same path; distinguish productivity from payment deferral or new external financing."
+    },
+    {
+      "source": "q3_prepared_remarks",
+      "observed": "Intel reports better Intel3/18A costs and yields, expanding Ireland output, but also organic-substrate constraints. It guides2027grosscapitalspending upstrongly from2026USD20B.",
+      "mechanism": "Process learning and bottleneck spending coexist; falling wafer cost is not a complete groupcash-flow forecast.",
+      "forecast_connection": "The current model already improves host Foundry EBIT from minus4B2027 to minus0.75B2028 and plus2.5B2030. Do not present recovery as an omitted bullish option.",
+      "falsifier_or_update": "Sustained accepted output, underlying profit and cash conversion outperform together after stripping out reserve releases, transfer-price shifts and incentive financing."
+    }
+  ],
+  "targeted_primary_read_increment": {
+    "source": "ibiden_Q2_2026_QA",
+    "novelty_scope": "The file was referenced in prior work. This pass directly re-read its detailed timing and persistent-shortage answers; these facts are not described as new market news.",
+    "facts": [
+      "JPY150B additional Gama investment for EMIB ramps in second half FY2029 and contributes from FY2030; it is not in existing FY2030 financial targets.",
+      "Supplier says CPU capacity from all suppliers remains below demand and new-building investment takes at least four years.",
+      "EMIB-T mass-production timing remains second half of the next fiscal year; no material change is reported.",
+      "In response to a question about shortage around2030, management says growing product requirements leave a significant capacity shortfall; it sees no replacement for leading-edge substrates and expects demand to be constrained."
+    ],
+    "interpretation": "Supports the importance of packaging complements and multi-year capacity planning. It also supports durable customer demand and pricing power, which is contrary evidence to an easy scarcity-rent-collapse short. Supply shortfalls need not imply weak revenue because mix/pricing can offset unit limits.",
+    "boundary": "IBIDEN fiscal years must not be relabeled calendar years. The statements do not disclose a usable Intel-specific allocation, accepted Xeon units, required Intel cash contributions or an Intel revenue ceiling. Supplier capital is never added to Intel capex.",
+    "editorial_use": "One concise outside-source countercheck or risk note is enough; do not bury the company thesis in supplier calendar detail."
+  },
+  "frozen_model_cash_bridge": {
+    "period": "2027-2030 inclusive",
+    "cumulative_B": {
+      "EBIT_after_economic_SBC_B": 111.25315092811026,
+      "DA_B": 72.24142857142857,
+      "physical_cash_capex_B": 124.5,
+      "WC_cash_use_B": 18.01099621548313,
+      "parent_unlevered_cash_B": 33.51461064483916,
+      "owner_cash_after_financing_and_incentives_B": 27.587110644839157,
+      "net_operating_investment_B": 70.26956764405456
+    },
+    "interpretation": "The central model produces111.25B cumulative operating profit but only27.59B economic ownercash after financing/incentives while paying124.50B physicalcapex and18.01B workingcapital. This illustrates the selected capital burden; it is not a new observed forecast miss. EBITDA conversion, taxes, incentives, leases and minoritycash explain the remaining bridge.",
+    "boundary": "Physical capex excludes capitalized financing interest, which treasury charges separately. Ownercash charges economic SBC and minority reserves and precedes principal, acquisitions, escrow and new financing. It is not comparable one-for-one to vendor FCF.",
+    "net_operating_investment_over_EBIT": 0.631618673788947,
+    "ratio_limit": "This is a cash-reinvestment amount divided by period economic EBIT, not ROIC, an earnings yield, a GAAP cash-conversion ratio or a shareholder return. Incentives, financing, taxes and owner claims remain outside this numerator."
+  },
+  "measurable_disclosure_scorecard": {
+    "owned_threshold_rows": [
+      {
+        "year": 2027,
+        "Products_revenue_B": 68.3326878,
+        "CPU_revenue_B": 31.475088000000003,
+        "host_Foundry_operating_profit_B": -4.0,
+        "group_EBIT_after_economic_SBC_B": 14.429918271999998,
+        "physical_cash_capex_B": 30.5,
+        "WC_cash_use_B": 6.0593577,
+        "physical_capex_plus_WC_B": 36.5593577,
+        "owner_cash_after_financing_B": -11.692712883085713
+      },
+      {
+        "year": 2028,
+        "Products_revenue_B": 84.74132528580002,
+        "CPU_revenue_B": 42.49136880000001,
+        "host_Foundry_operating_profit_B": -0.75,
+        "group_EBIT_after_economic_SBC_B": 24.72774958255801,
+        "physical_cash_capex_B": 32.75,
+        "WC_cash_use_B": 5.34986211125,
+        "physical_capex_plus_WC_B": 38.09986211125,
+        "owner_cash_after_financing_B": 2.293653605352879
+      },
+      {
+        "year": 2029,
+        "Products_revenue_B": 99.52302077565182,
+        "CPU_revenue_B": 52.14540779136001,
+        "host_Foundry_operating_profit_B": 1.0,
+        "group_EBIT_after_economic_SBC_B": 32.71609561149971,
+        "physical_cash_capex_B": 31.25,
+        "WC_cash_use_B": 3.3442432625272502,
+        "physical_capex_plus_WC_B": 34.59424326252725,
+        "owner_cash_after_financing_B": 15.104045150104643
+      },
+      {
+        "year": 2030,
+        "Products_revenue_B": 111.68247398141065,
+        "CPU_revenue_B": 59.57091386084968,
+        "host_Foundry_operating_profit_B": 2.5,
+        "group_EBIT_after_economic_SBC_B": 39.37938746205255,
+        "physical_cash_capex_B": 30.0,
+        "WC_cash_use_B": 3.2575331417058786,
+        "physical_capex_plus_WC_B": 33.25753314170588,
+        "owner_cash_after_financing_B": 21.88212477246735
+      }
+    ],
+    "how_to_use": "Compare accepted sales and underlying profitability with total physical investment plus supplier/operating working-capital cash on the same period and accounting boundary. These are model checkpoints selected before this review, not management guidance or statistically calibrated rejection thresholds.",
+    "supports_capital_burden_view": "Sales and profits reach the selected path only with the modeled or greater combined investment, and cash conversion lags after accounting for incentive and partner financing. This confirms the mechanism, not automatically a profitable short.",
+    "weakens_capital_burden_view": "Sales and underlying Foundry profitability meet or exceed the path while materially less cumulative capital and working-capital cash is required. Confirm spending was avoided through productivity/reuse rather than merely deferred or moved to leases/partner claims.",
+    "joint_failure": "Lower sales with higher spending strengthens the business concern; higher sales with much higher spending requires reevaluating incremental returns rather than celebrating either number alone.",
+    "reported_vs_model_reconciliation": "Products revenue excludes external Foundry. Host Foundry profit excludes the separately modeled packaging increment;2028increment is0.14875B. Economic ownercash is not literal bankcash or reportedFCF. A simple public data table may not provide every required split."
+  },
+  "long_run_capital_limit": {
+    "current_policy": "From2031, host incremental sales/net operating investment0.80; WC10%ofincrementalhostsales. Physicalcapex=DA+deltaSales/0.80-deltaWC. Packaging receives separate funded capital.",
+    "what_evidence_does_not_establish": "Near-term commitments and a reused cleanroom do not empirically determine2035or2040netcapitalproductivity. Historical TSMC ratios are contextual, not calibrated Intel physicaloutput economics.",
+    "bull_case": "Existing-site ramps, better yield and a more asset-light outsourced/custom mix could support sales with less net investment. A proper revision must also reconcile manufacturing costs, margins, supplier advances and shared capital; it cannot simply remove capex while retaining every profit assumption."
+  },
+  "valuation_claim_boundary": "Use the original corrected scenario values only. The difference between35%margin/0.80capital and40%/1.00is joint; do not attribute the entire value difference to capital alone. A lower discount rate can erase the central valuation gap even without improving business operations.",
+  "sources": {
+    "ireland_program": {
+      "date": "2026-07-13",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe.html",
+      "locator": "Opening three paragraphs, web lines12-15",
+      "access": "Direct primary issuer page rechecked this pass"
+    },
+    "intel_q3_commitments": {
+      "date": "2026-10-30",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note14 Commitments and Contingencies, printedpp24-25; Liquidity and Capital Resources, web lines1908-1911",
+      "access": "Direct primary filing rechecked this pass"
+    },
+    "q3_prepared_remarks": {
+      "date": "2026-10-29",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "Printedpp2-3,6-8; localq3_remarks lines50-54,115-119,279-291,357-367",
+      "access": "Retained primary text re-read; claims agree with direct filing context"
+    },
+    "ibiden_Q2_2026_QA": {
+      "date": "2026-10-30",
+      "url": "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf",
+      "locator": "PDFp3Questioner1; p4Questioners2-3; p5Questioner5",
+      "access": "Full relevant primary PDF text read throughweb this pass"
+    },
+    "public_FCF_boundary": {
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+      "status": "Prior verified public2027FCFminus4.159B, not independently refreshed inthis bounded pass; use only to acknowledge a known negative forecast, not currentexactconsensus claim."
+    }
+  },
+  "inputs": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/physical_reuse_capacity_bridge_2026_11_04.json",
+      "sha256": "ca8205854ccdc64441fe92b3e80d31220e256d10aa12319bb41245e5e7b344ea"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/capital_mapping_review.json",
+      "sha256": "2449c2de7edc665cab8362d74fd18e53c937d72ef9608798ff9ccd0445d8b53d"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/cash_flow_definition_bridge.json",
+      "sha256": "4111ec30de2ad334f03ae59f18209813f95329366a97b3822c8a0db6cc753434"
+    }
+  ],
+  "changes": "Only this newJSONartifact written."
+}

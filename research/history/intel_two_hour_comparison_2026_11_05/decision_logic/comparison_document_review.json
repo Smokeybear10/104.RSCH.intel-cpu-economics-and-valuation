@@ -1,0 +1,53 @@
+{
+  "reviewed_utc": "2026-11-05T23:12:15.702245+00:00",
+  "file": "output/pdf/m37_intel_pitch_comparison.pdf",
+  "sha256": "4e3b98889dc48860bcf2560f725695d84d4569aaea6fe30ef6d4efb08feb7c6b",
+  "pages_reviewed": [
+    1,
+    2,
+    3
+  ],
+  "visual_review": [
+    "page 2 at 1600 pixels; no clipping or overlap"
+  ],
+  "embedded_url_review": "All linked pitch URLs match the verified official or archive versions. Root separately fixing spacing typography on p3.",
+  "verdict": "The comparison is fair and useful. It gives concrete positive lessons, acknowledges winner weaknesses, distinguishes judging from investment outcomes, and does not manufacture a winning probability. It correctly presents the remaining gap as price/risk justification rather than a missing decorative feature.",
+  "corrections": [
+    {
+      "page": 2,
+      "claim": "GTX customer persistence",
+      "change": "Include PDF page 4 in the locator; that page contains the co-development periods and awarded-revenue percentages. Existing p5 covers cash allocation and ROIC.",
+      "url": "https://investmentclub.nd.edu/files/competitions/2023-cornell-gtx-deck.pdf"
+    },
+    {
+      "page": 2,
+      "claim": "JBI forecasts later missed materially",
+      "change": "Add the actual 2024 filing as the supporting citation. The original pitch cannot establish subsequent results. Explicitly treat this as forecast calibration, not a calculated total shareholder return.",
+      "url": "https://ir.janusintl.com/financial-information/sec-filings/content/0001839839-25-000032/jbi-20241228.htm",
+      "locator": "MD&A printed pp33–35, sales channels"
+    }
+  ],
+  "recommended_balance": {
+    "text": "Large upside is not a prerequisite: CFA’s archived 2015 winning Canisius presentation recommends HOLD with 2.2% price upside; its 2016 Waterloo winner recommends BUY with 14.8% one-year total return. M37 still requires LONG or SHORT.",
+    "canisius_url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2015-winning-presentation-canisius-college.pdf",
+    "canisius_pages": [
+      2,
+      23
+    ],
+    "waterloo_url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2016-winning-presentation-university-of-waterloo.pdf",
+    "waterloo_pages": [
+      2
+    ],
+    "award_url": "https://www.cfainstitute.org/insights/events/research-challenge/past-champions",
+    "qualification": "Canisius presentation is titled Americas Competition, but it is the exact presentation archived by CFA under global champions. Dated global-award release verifies the same team and Sovran subject. Do not claim an independently verified live-final file hash."
+  },
+  "positive_checks": [
+    "WMS EPS disagreement and separate DCF value are accurately stated.",
+    "Cargojet current-value and one-year-price distinction is now correct.",
+    "GTX version correction uses the exact award-linked competition PDF.",
+    "Unranked same-event WMS control is correctly labeled with rank unknown.",
+    "M37 no-minimum-upside/no-numeric-rubric statement accurately describes the published page; it does not imply judging is arbitrary.",
+    "No numerical win probability or causal claim about why features caused wins is present.",
+    "Intel 2030 target, current planning date and scenario nature are explicit."
+  ]
+}

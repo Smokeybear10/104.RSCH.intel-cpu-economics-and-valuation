@@ -1,0 +1,23 @@
+{
+  "prepared_utc": "2026-11-04T23:27:30.231940+00:00",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+      "date": "2026-10-15",
+      "facts": {
+        "TSMC_Q3_revenue_B_USD": 46.72,
+        "gross_margin": 0.664,
+        "operating_margin": 0.587
+      },
+      "interpretation": "Leading-foundry profitability makes a 40% incremental merchant EBIT case economically conceivable, but does not validate it for Intel. TSMC scale, pricing, mix, mature utilization and local costs differ."
+    },
+    {
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
+      "date": "2026-10-15",
+      "facts": "Overseas fabs dilute consolidated gross margin by approximately 2 percentage points in 2026 and 3\u20134 points in the next few years; 2026 capital budget is $60\u201364B; TSMC is adding capacity and converting N5 tools for N3.",
+      "interpretation": "Consolidated dilution is weighted by foreign revenue and does not mean Arizona itself costs only 2\u20134 margin points extra. Domestic geography is not an exclusive Intel advantage; competitors also reuse tools and add capacity."
+    }
+  ],
+  "option_boundary": "Our $10B of 2033 merchant revenue is a normalized success scenario, not an awarded customer forecast. It is large relative to current non-TSMC players and requires multiple customers/programs, qualified capacity, retained margins and financing. Broad TAM or TSMC margin alone cannot establish its probability.",
+  "joint_case": "Applying the independently selected maturing-risk curve to the previously frozen favorable wafer platform gives $4.200652424 per share, fully funded. The appropriate objection to a high-conviction short is the coherent combination of CPU value capture, capital productivity, risk maturation and merchant upside. The merchant-wafer option need not bridge the old flat-12% $78B gap alone."
+}

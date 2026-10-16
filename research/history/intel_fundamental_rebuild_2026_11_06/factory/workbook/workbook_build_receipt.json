@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-11-07T01:18:10.437Z",
+  "output": "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+  "sheets": [
+    "Valuation",
+    "Assumptions",
+    "Annual model",
+    "Quarterly model",
+    "Sources",
+    "Checks",
+    "Research checks"
+  ],
+  "active_case": "Owned long thesis; previously the favorable operating scenario",
+  "formula_comparisons": 143,
+  "max_error": 5.684341886080802e-14,
+  "formula_error_cells": [],
+  "mutations": [
+    {
+      "input": "F87",
+      "original": 0,
+      "changed": 0.01,
+      "target_before": 82.47015162680006,
+      "target_after": 83.22049150439015,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "G39",
+      "original": 0.25,
+      "changed": 0.26,
+      "target_before": 82.47015162680006,
+      "target_after": 83.05083997820408,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "G40",
+      "original": 0.08,
+      "changed": 0.09,
+      "target_before": 82.47015162680006,
+      "target_after": 83.14224355469587,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "N39",
+      "original": 0.04,
+      "changed": 0.05,
+      "target_before": 82.47015162680006,
+      "target_after": 82.84712006038858,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "I111",
+      "original": 0.25,
+      "changed": 0.26,
+      "target_before": 82.47015162680006,
+      "target_after": 82.47786487543891,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "D9",
+      "original": 0.10625,
+      "changed": 0.11624999999999999,
+      "target_before": 82.47015162680006,
+      "target_after": 72.96914231382429,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "D19",
+      "original": 0.2,
+      "changed": 0.21000000000000002,
+      "target_before": 82.47015162680006,
+      "target_after": 82.2023797648355,
+      "actuals_unchanged": true
+    }
+  ],
+  "quarterly_allocation_policy": "2027 sequential units/ASP preserved. 2028-30 annual units allocated23/24/26/27%; annual weighted ASP grows once and is flat within each year.",
+  "output_values": {
+    "planning": 56.13928584556838,
+    "target": 82.47015162680006,
+    "annual_return": 0.0964291893107092,
+    "minimum_quarterly_cash": 31.187405332912828,
+    "opening_cash": 50.991828,
+    "mature_CPU_margin": 0.4490871849674949
+  },
+  "limits": [
+    "Tested with bundled formula engine, not native Excel UI.",
+    "Forecast policies and future margins remain unproved."
+  ],
+  "quote": 56.28,
+  "holding_years": 4.1505817932922655,
+  "selected_joint_entry_ceiling": 40.445931591445024,
+  "quote_sensitivity_verified": true
+}

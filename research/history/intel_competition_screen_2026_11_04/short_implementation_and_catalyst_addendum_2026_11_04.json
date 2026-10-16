@@ -1,0 +1,115 @@
+{
+  "prepared_utc": "2026-11-04T12:05:50.012256+00:00",
+  "scope": "Bounded short implementation and catalyst review of the already computed owned Intel case. No trade, borrow quote, probability, new valuation or position recommendation.",
+  "valuation_source": "owned_intel_valuation_2026_11_04.json",
+  "valuation_sha256": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+  "price_only": {
+    "entry_date": "2026-11-03",
+    "entry_price_USD": 60.55,
+    "modeled_exit_date": "2030-12-31",
+    "modeled_exit_price_USD": 47.98787380872777,
+    "days": 1519,
+    "years_ACT36525": 4.158795345653662,
+    "gain_per_share_USD": 12.562126191272228,
+    "cumulative_gain_fraction_initial_sale_notional": 0.20746698912092862,
+    "interpretation": "20.7467% is the gross price-only gain if the selected endpoint is reached, before all carrying costs and any cash interest. It is not an annualized short return, a probability-weighted forecast, or the theoretical maximum possible gain; price-only gain would reach 100% of initial sale notional if stock became worthless. The model does not predict that."
+  },
+  "general_identity": {
+    "per_share": "Short trading P&L = entry sale price - cover price - cumulative borrow fees + eligible short-proceeds/collateral interest - payments in lieu of dividends - commissions and other trade-specific financing costs.",
+    "collateral": "The sale proceeds are collateralized financial resources, not free profit or additional principal to add at exit. Broker cash interest and borrow fees can use different eligible bases and tiers. Investor equity/margin capital is a separate denominator.",
+    "account_and_benchmark": "Account return also depends on investor capital, collateral transfers, margin funding and interest on that capital. Interest available from simply holding the same cash is not automatically short alpha; compare matched cash balances and opportunity cost. No account IRR/CAGR is computed.",
+    "dividends": "The owned forecast retains cash and assumes no dividends. A future payout creates a payment-in-lieu obligation for the short. If the payout lowers the stock value because cash leaves Intel, do not count both the ex-dividend price fall and ignore the compensating payment."
+  },
+  "illustrative_cost_conventions": {
+    "no_live_quote": "Rates below are hypothetical arithmetic, not INTC borrow availability, broker terms for Thomas, or forecasts. No account was accessed.",
+    "initial_notional_flat_charge": {
+      "formula": "If annual cost is charged on unchanged entry notional with ACT/365.25, no rebate/dividend, break-even rate=(P0-PT)/(P0*T).",
+      "break_even_annual_rate": 0.049886318483488595,
+      "interpretation": "4.9886% is a simple annual cost budget on the initial notional, not an annualized investment return and not a normal daily stock-loan quote."
+    },
+    "broker_style_static_initial_collateral": {
+      "collateral_per_share_USD": 62,
+      "formula": "Use 62 USD collateral unchanged for 1519 days, ACT/360, no rebate or dividends: fee break-even=(P0-PT)/(62*1519/360).",
+      "annual_fee_break_even": 0.04801934027966194,
+      "interpretation": "4.8019% is a conservative illustrative cost basis for a declining path, not actual re-marking."
+    },
+    "smooth_decline_daily_remark": {
+      "path_formula": "For each accrual day d=0,...,1518, P_d=P0*(PT/P0)^(d/1519); C_d=ceil(1.02*P_d). A=sum(C_d)/360. Assume this smooth price is the prior settlement mark; weekends, exchange holidays and settlement start/end details are not separately modeled.",
+      "collateral_year_exposure_USD": 234.66944444444445,
+      "zero_rebate_dividend_fee_break_even": 0.05353115409213908,
+      "fee_examples": [
+        {
+          "annual_borrow_fee": 0.01,
+          "short_collateral_interest": 0,
+          "cumulative_borrow_USD": 2.3466944444444446,
+          "net_short_trading_gain_USD": 10.215431746827782,
+          "gain_fraction_initial_notional": 0.16871068120277097
+        },
+        {
+          "annual_borrow_fee": 0.03,
+          "short_collateral_interest": 0,
+          "cumulative_borrow_USD": 7.0400833333333335,
+          "net_short_trading_gain_USD": 5.522042857938894,
+          "gain_fraction_initial_notional": 0.09119806536645572
+        },
+        {
+          "annual_borrow_fee": 0.05,
+          "short_collateral_interest": 0,
+          "cumulative_borrow_USD": 11.733472222222224,
+          "net_short_trading_gain_USD": 0.8286539690500039,
+          "gain_fraction_initial_notional": 0.013685449530140444
+        }
+      ],
+      "equal_base_rebate_formula": "Only if an eligible effective rebate b and fee f apply to this same collateral base, net carry=A*(b-f), so f_break_even=b+gain/A. Actual broker tiers/base eligibility can invalidate this simplification.",
+      "hypothetical_3pct_rebate_1pct_fee": {
+        "gain_USD": 17.255515080161118,
+        "gain_fraction_initial_notional": 0.2849796049572439
+      },
+      "interpretation": "At zero rebate, the smooth path tolerates 5.3531% constant annual fee before dividends and other costs. A late decline, interim rally or higher borrow rate consumes more. This is not a forecast of the price path."
+    }
+  },
+  "funding_catalyst_check": {
+    "end2030_economic_cash_B": 58.863622649212914,
+    "end2030_ordinary_debt_B": 37.097,
+    "end2030_net_cash_B": 21.766622649212913,
+    "lowest_annual_economic_cash_2027_2030_B": 35.1294306192818,
+    "incremental_borrowing_2027_2030_B": 0.0,
+    "modeled_cash_floor_B": 20,
+    "conclusion": "No bankruptcy, forced equity or funding-deficit catalyst follows from this owned case. It pays scheduled debt and retains liquidity above the annual floor. The balance is an economic owner-cash convention after cash-equivalent SBC and minority reserves, not a literal bank balance. Annual modeling does not prove absence of all intrayear liquidity risk.",
+    "primary_context": "Q3 issuer reported 54.005B cash plus short-term investments, and October 1 committed revolving capacity of 15B was undrawn. Large current resources support an operating-returns thesis rather than a cash-runway-failure story. Revolvers are capacity, not extra current cash."
+  },
+  "catalyst_review": {
+    "causal_thesis_that_could_work": "Product sales and reported operating profit can recover substantially while fabrication tools, node development and working capital absorb enough cash to disappoint investors expecting much larger distributable returns. Repeated evidence that the incremental profit requires persistent reinvestment could cause the market to lower its owner-cash expectation or capitalization multiple. The current model already assumes meaningful product growth and Foundry improvement.",
+    "candidate_observations_not_announced_catalyst_dates": [
+      "2027 capital-spending and equipment-commitment disclosures versus achieved shipment/volume growth: distinguish annual cash timing, supplier advances and government collections from permanent economic investment intensity.",
+      "2027-28 Foundry loss reduction, yield/cycle-time execution and consolidated cash conversion: reported profit improvement without comparable pre-financing cash improvement could support the capital-burden claim.",
+      "Customer traction and mix in server CPUs and purpose-built silicon, alongside product operating margin: stronger margins and lower capital needed per incremental sale would weaken the short mechanism."
+    ],
+    "timing_limit": "The 2030 intrinsic-value estimate is not itself a repricing catalyst or evidence that today\u2019s market holds a specific cash forecast. An analyst must identify a present expectation that these disclosures could disappoint. Existing $23B funding and credible product progress can allow a long period of market optimism.",
+    "management_adaptation": "Intel can pace investment, obtain partner/customer funding, monetize holdings, alter capital allocation or achieve better manufacturing efficiency. Financing transactions do not create free operating value, but they can defeat a premature cash-crisis thesis. Profitable adaptation that lowers required owned investment challenges the valuation mechanism itself.",
+    "implementation_limit": "A forced buy-in after an unavailable replacement borrow or an adverse margin move can terminate the position before the modeled date, even if the long-horizon operating view later proves right. No INTC-specific probability or fee is inferred."
+  },
+  "primary_mechanics_sources": [
+    {
+      "url": "https://www.interactivebrokers.com/en/pricing/short-sale-cost.php",
+      "supports": "Borrow fee and eligible short-sale proceeds interest are separate daily components; availability and rates can change, and account size/tiers affect interest. Live displayed examples are not used as INTC inputs."
+    },
+    {
+      "url": "https://www.ibkrguides.com/reportingreference/reportguide/borrowfeedetails_default.htm",
+      "supports": "US-dollar borrow collateral convention is 102% of prior settlement price rounded upward to a whole dollar; daily fee is collateral value times rate divided by 360."
+    },
+    {
+      "url": "https://www.interactivebrokers.com/campus/glossary-terms/loan-recall/",
+      "supports": "Lenders may request the return of settled borrowed shares; inability to replace a borrow can result in a buy-in. No specific future recall schedule is assumed."
+    },
+    {
+      "url": "https://www.sec.gov/investor/pubs/regsho.htm",
+      "supports": "Short price P&L, margin obligations, dividend reimbursement and potentially unlimited price losses."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "supports": "Intel actual cash/investments, debt and revolving facilities; future forecast balances are our model, not issuer forecasts."
+    }
+  ],
+  "recommendation": "No recommendation issued in this addendum. The calculation quantifies a finite conditional price opportunity and its implementation budget; it does not establish expected alpha or a bankruptcy thesis."
+}

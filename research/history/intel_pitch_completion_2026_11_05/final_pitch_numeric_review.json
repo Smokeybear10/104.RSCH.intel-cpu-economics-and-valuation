@@ -1,0 +1,227 @@
+{
+  "reviewed_utc": "2026-11-05T07:51:15.100791+00:00",
+  "scope": "Read-only numerical and semantic review of generated deck text and source, focused on pages 1, 7, 8, 9 and source consistency through page 10. No PDF or frozen model edited.",
+  "reviewed_pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+  "reviewed_pdf_sha256": "f0b45e596cba6eb2a6479e87284f66f64fb4fb16653bd4f381a071a81b091ce7",
+  "frozen_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "verdict": "No material arithmetic error or new overstated bearish conclusion found. Recommended small date, present-value, convergence, and source clarifications below.",
+  "checked_numeric_fields": [
+    {
+      "check": "page7 corrected_central_flat central",
+      "actual": 46.95806228358314,
+      "expected_display": "46.96",
+      "pass": true
+    },
+    {
+      "check": "page7 corrected_central_flat margin_only",
+      "actual": 51.287102511241436,
+      "expected_display": "51.29",
+      "pass": true
+    },
+    {
+      "check": "page7 corrected_central_flat capital_only",
+      "actual": 48.62581078710863,
+      "expected_display": "48.63",
+      "pass": true
+    },
+    {
+      "check": "page7 corrected_central_flat both",
+      "actual": 52.9548510147669,
+      "expected_display": "52.95",
+      "pass": true
+    },
+    {
+      "check": "page7 corrected_maturing_risk central",
+      "actual": 53.77047718436613,
+      "expected_display": "53.77",
+      "pass": true
+    },
+    {
+      "check": "page7 corrected_maturing_risk margin_only",
+      "actual": 59.005978893709745,
+      "expected_display": "59.01",
+      "pass": true
+    },
+    {
+      "check": "page7 corrected_maturing_risk capital_only",
+      "actual": 55.669054532426706,
+      "expected_display": "55.67",
+      "pass": true
+    },
+    {
+      "check": "page7 corrected_maturing_risk both",
+      "actual": 60.904556241770315,
+      "expected_display": "60.90",
+      "pass": true
+    },
+    {
+      "check": "page7 maturing margin increment",
+      "actual": 5.235501709343616,
+      "expected_display": "5.24",
+      "pass": true
+    },
+    {
+      "check": "page7 maturing capital increment",
+      "actual": 1.8985773480605772,
+      "expected_display": "1.90",
+      "pass": true
+    },
+    {
+      "check": "page9 central CAGR 2029",
+      "actual": 6.997703228351138,
+      "expected_display": "7.00",
+      "pass": true
+    },
+    {
+      "check": "page9 central CAGR 2030",
+      "actual": 6.431301715281323,
+      "expected_display": "6.43",
+      "pass": true
+    },
+    {
+      "check": "page9 central_maturing_risk CAGR 2029",
+      "actual": 5.2770977035973665,
+      "expected_display": "5.28",
+      "pass": true
+    },
+    {
+      "check": "page9 central_maturing_risk CAGR 2030",
+      "actual": 5.04116270212418,
+      "expected_display": "5.04",
+      "pass": true
+    },
+    {
+      "check": "page9 favorable_core_maturing_risk CAGR 2029",
+      "actual": 3.4077432098568394,
+      "expected_display": "3.41",
+      "pass": true
+    },
+    {
+      "check": "page9 favorable_core_maturing_risk CAGR 2030",
+      "actual": 3.5203040885840364,
+      "expected_display": "3.52",
+      "pass": true
+    },
+    {
+      "check": "page9 alternative method CAGR 2029",
+      "actual": 5.127547987729186,
+      "expected_display": "5.13",
+      "pass": true
+    },
+    {
+      "check": "page9 alternative method CAGR 2030",
+      "actual": 4.911990845087866,
+      "expected_display": "4.91",
+      "pass": true
+    },
+    {
+      "check": "page8 capex plus WC 2027",
+      "actual": 36.5593577,
+      "expected_display": "36.56",
+      "pass": true
+    },
+    {
+      "check": "page8 capex plus WC 2028",
+      "actual": 38.09986211125,
+      "expected_display": "38.10",
+      "pass": true
+    },
+    {
+      "check": "page8 owner cash 2027",
+      "actual": -11.692712883085713,
+      "expected_display": "-11.69",
+      "pass": true
+    },
+    {
+      "check": "page8 owner cash 2028",
+      "actual": 2.293653605352879,
+      "expected_display": "2.29",
+      "pass": true
+    },
+    {
+      "check": "page8 owner cash 2029",
+      "actual": 15.104045150104643,
+      "expected_display": "15.10",
+      "pass": true
+    },
+    {
+      "check": "page8 owner cash 2030",
+      "actual": 21.88212477246735,
+      "expected_display": "21.88",
+      "pass": true
+    },
+    {
+      "check": "page1/page9 2030 cover",
+      "actual": 70.97777530967525,
+      "expected_display": "70.98",
+      "pass": true
+    },
+    {
+      "check": "page9 total own capital per100short",
+      "actual": 263.00192205265364,
+      "expected_display": "263.00",
+      "pass": true
+    },
+    {
+      "check": "page9 2030 required index return",
+      "actual": 7.1031134906618165,
+      "expected_display": "7.10",
+      "pass": true
+    },
+    {
+      "check": "page9 2030 no-short return",
+      "actual": 7.0974971876768045,
+      "expected_display": "7.10",
+      "pass": true
+    }
+  ],
+  "other_confirmed": [
+    "Page7 conditional break-even margins round to39.3% at maturing risk and48.1% at flat risk; assumptions and57-day date mismatch are explicitly stated.",
+    "About92% of central operating value after2030 recomputes to91.6131693884%; this is operating value, not an undisclosed share of total equity value.",
+    "Page1 6.43% central and4.91% alternative-method returns are2030 investor-capital CAGRs and are labeled accordingly.",
+    "Page8 CPU sales and Products sales match the frozen host policy; investment and owner cash match the full model including the separate overlay. Different scopes are labeled.",
+    "Page9 displays capital including opening costs and keeps short proceeds separate; beta is described as historical and initial, with no maintained market-neutrality claim.",
+    "Page7 equal-multiple peer price56.41 and roughly3% discount match the frozen peer audit;58.27 vendor quote is distinguished from58.28 reference.",
+    "Page10 all18 numbered references have actual PDF hyperlinks; pages7 and8 additional vendor/calendar links are present; numbered references used on pages7\u20139 resolve consistently.",
+    "The headline does not claim an outright profitable short, a robust expected-return edge, uniquely identified market expectations, or a guaranteed catalyst."
+  ],
+  "actionable_clarifications": [
+    {
+      "priority": "medium",
+      "page": 9,
+      "text": "Central case needs at least7.10% annual index returns",
+      "issue": "This threshold is specifically through December31,2030. The2029 threshold is6.1286577%. The adjacent table contains both horizons.",
+      "suggested_change": "Central case needs at least7.10% annual index returns through2030, holding Intel\u2019s cover price fixed."
+    },
+    {
+      "priority": "medium",
+      "page": 10,
+      "text": "CENTRAL EQUITY BRIDGE | $B;2027\u20132040 operating cash; operating cash after2040",
+      "issue": "The138.03 and111.44 amounts are discounted present values at December31,2026, not undiscounted cash totals. That date and PV label are not repeated on this page.",
+      "suggested_change": "CENTRAL EQUITY VALUE | DEC.31,2026 | $B; label the first two rows \u201cPV of2027\u20132040 operating cash\u201d and \u201cPV of operating cash after2040,\u201d or add equivalent compact note."
+    },
+    {
+      "priority": "medium",
+      "page": 9,
+      "text": "Conditional portfolio returns",
+      "issue": "Returns use intrinsic modeled endpoint values as realized cover prices. Existing wording signals conditionality but does not state convergence plainly.",
+      "suggested_change": "Add \u201cReturns assume Intel trades at the modeled year-end values.\u201d"
+    },
+    {
+      "priority": "low",
+      "page": 9,
+      "text": "Own-cash yield3.38%",
+      "issue": "The frozen research sources this to IBKR interest-on-cash page, which is distinct from numbered short-sale-cost source15. The deck has no direct link for that input.",
+      "suggested_change": "Add direct IBKR cash-interest link or clarify3.38% is an illustrative held-constant cash-rate assumption.",
+      "source_url": "https://www.interactivebrokers.com/en/accounts/fees/pricing-interest-rates.php"
+    },
+    {
+      "priority": "low",
+      "page": 9,
+      "text": "Index total return9.35% less0.0945% SPY fee",
+      "issue": "Frozen model compounds fee multiplicatively: (1+.0935)*(1-.000945)-1 =9.24666425%, rather than simply9.35%-.0945%=9.2555%. Difference is tiny and displayed portfolio CAGRs use correct frozen calculation.",
+      "suggested_change": "Use \u201cIndex total return9.35%; annual SPY fee0.0945%\u201d to avoid implying additive subtraction."
+    }
+  ],
+  "source_review_boundary": "Checked in-document IDs/links against retained research and prior primary-source checks; did not re-open all18 remote sources in this final pass."
+}

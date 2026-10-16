@@ -1,0 +1,81 @@
+{
+  "computed_utc": "2026-11-07T01:19:25.218758+00:00",
+  "method": "Read saved XLSX formulas, cached values, and styles with openpyxl; no openpyxl authoring. Compare original six sheets with pre-edit snapshot. Independently reconcile research controls to separately rebuilt Python outputs.",
+  "output": "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+  "sha256": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx": "4b502e452579d2c32b50adede9f058481c9d4b5a9ba0fc124cbce829cb1f86d4",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/spreadsheets/intel_completion/build_model.mjs": "0a04277356885aaf2832d1ea4754c2a4f3abb1dfc972a690375459c5d8a1d405",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_fundamental_rebuild_2026_11_06/factory/workbook/before_intel_revenue_to_cash_model.xlsx": "5989906164cd038c6970a62e494f25b418f4995d948585d55628ab244bc06da7",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_fundamental_rebuild_2026_11_06/factory/workbook/before_build_model.mjs": "5c440b440b74d0a43b97461667544d5d8a7f0124927dca4fb5806628a0b809ca"
+  },
+  "sheets": [
+    "Valuation",
+    "Assumptions",
+    "Annual model",
+    "Quarterly model",
+    "Sources",
+    "Checks",
+    "Research checks"
+  ],
+  "numeric_comparisons": 4160,
+  "original_formulas_preserved": 1966,
+  "original_style_property_comparisons": 104742,
+  "max_numeric_difference": 1.4210854715202004e-14,
+  "permitted_existing_text_changes": [
+    {
+      "cell": "Valuation!F45",
+      "before": "Noncore snapshot: 11.555% rate, Foundry breakeven, 15% terminal ROC, 8% funding.",
+      "after": "Fixed joint: 11.555% rate, Foundry breakeven, 15% modeled terminal return, 8% funding."
+    }
+  ],
+  "permitted_additions": [
+    "Sources rows 85-109",
+    "Research checks sheet"
+  ],
+  "reverse_cash_checks": [
+    {
+      "cell": "Research checks!D11",
+      "value": 90.08189582091165,
+      "expected": 90.08189582091165
+    },
+    {
+      "cell": "Research checks!D18",
+      "value": 3.19797917635356,
+      "expected": 3.1979791763535657
+    },
+    {
+      "cell": "Research checks!D20",
+      "value": 23.923499327294493,
+      "expected": 23.92349932729449
+    },
+    {
+      "cell": "Research checks!E11",
+      "value": 90.08189582091165,
+      "expected": 90.08189582091165
+    },
+    {
+      "cell": "Research checks!E18",
+      "value": 7.78770950973328,
+      "expected": 7.78770950973328
+    },
+    {
+      "cell": "Research checks!E20",
+      "value": 28.513229660674213,
+      "expected": 28.513229660674202
+    }
+  ],
+  "modeled_return_on_net_investment": 0.2307993458699775,
+  "visuals_reviewed": [
+    "entry-preview.png",
+    "research-cash-preview.png",
+    "research-margin-preview.png",
+    "research-source-preview.png"
+  ],
+  "formula_errors": [],
+  "failures": [],
+  "limits": [
+    "Native Microsoft Excel UI execution was not performed.",
+    "Margin results and higher-rate target are clearly labeled dated captures, not automatic forecast sensitivities.",
+    "Source URLs are ordinary cell text, consistent with the original Sources tab."
+  ]
+}

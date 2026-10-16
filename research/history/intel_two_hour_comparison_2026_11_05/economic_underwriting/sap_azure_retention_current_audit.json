@@ -1,0 +1,139 @@
+{
+  "created_utc": "2026-11-05T23:57:57.799022+00:00",
+  "question": "Is the narrow Azure SAP HANA Intel-retention example currently accurate, and does a verified current Xeon 6 buyer deployment establish the margin mechanism?",
+  "verdict": {
+    "main_page_5_narrow_claim": "Supported by current Microsoft FAQ and independently checked live SAP certification-directory filters. No mandatory wording change.",
+    "forecast_change": "None. Certification supports switching-friction reasoning, not a numerical net-price, market-share or profit-margin floor.",
+    "new_generation_buyer_proof": "Not established in this targeted check. The strongest named buyer case discovered has an internally conflicting Xeon 6 headline and older-generation deployed systems in its body."
+  },
+  "sap_directory_live_observation": {
+    "url": "https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/#/solutions?filters=v:deCertified;iaas;ve:24&sort=Latest%20Certification&sortDesc=true",
+    "observation_window_utc": "2026-11-05 23:52 to 23:57 UTC; precise first UI timestamp not separately measured",
+    "site_displayed_as_of": "November 5, 2026",
+    "method": "Browser visible DOM/accessibility only. Selected Certified IaaS Platforms and Microsoft Azure; active tag Certified Solutions; opened CPU Architecture filter. No hidden application state or network API used.",
+    "reported_records": 237,
+    "enabled_architecture_counts": {
+      "Intel Emerald Rapids SP": 22,
+      "Intel Sapphire Rapids SP": 118,
+      "Intel Ice Lake SP": 17,
+      "Intel Cascade Lake SP": 57,
+      "Intel Broadwell EX": 13,
+      "Intel Broadwell EP": 2,
+      "Intel Haswell EX": 6,
+      "Intel Haswell EP": 2
+    },
+    "sum_enabled_counts": 237,
+    "disabled_new_intel_architectures": [
+      "Intel Granite Rapids",
+      "Intel Sierra Forest SP"
+    ],
+    "amd_architecture_option_present": false,
+    "visible_example_solutions": [
+      {
+        "name": "M16s_v3",
+        "cpu": "Intel Sapphire Rapids SP",
+        "memory": "256 GiB"
+      },
+      {
+        "name": "M1792ixds_32_v3",
+        "cpu": "Intel Sapphire Rapids SP",
+        "memory": "30400 GiB"
+      },
+      {
+        "name": "E192is_v6",
+        "cpu": "Intel Emerald Rapids SP",
+        "memory": "1832 GiB"
+      }
+    ],
+    "scope_limits": [
+      "237 are certification records, not customers, sold units, independent workloads, or revenue shares. Some VM names repeat.",
+      "This filter establishes currently listed certified Azure IaaS platforms, not every SAP product, managed service or future certification.",
+      "SAP directory certification is successful integration; certification does not guarantee error-free vendor operation.",
+      "Absence of Granite Rapids in the selected directory plus preview documentation does not prove no pilot or private trial exists."
+    ],
+    "receipt": "Observed UI content transcribed into this structured receipt and present in tool transcript. Export-as-PDF attempt timed out; no exported PDF was captured. Research tab closed after inspection."
+  },
+  "primary_document_checks": [
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started",
+      "locator": "You want to know; question on Da(s)v4/Ea(s) not certified for SAP HANA",
+      "fact": "Microsoft still attributes lack of SAP HANA certification on these Azure families to AMD CPU hardware.",
+      "boundary": "The pitch uses a narrower Azure VM statement and separately discloses managed HANA Cloud Arm support."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/sap/workloads/hana-get-started",
+      "locator": "SAP HANA supported Azure virtual machines",
+      "fact": "Microsoft designates the SAP HANA hardware directory as the source of truth; NetWeaver certification is not sufficient for HANA."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/msv4-series",
+      "locator": "Title, Host specifications and last-updated footer",
+      "fact": "Msv4 Medium Memory is explicitly Preview, based on Granite Rapids/Xeon 6; updated 2026-09-15."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/mdsv4-series",
+      "locator": "Title and Host specifications",
+      "fact": "Mdsv4 Medium Memory is also explicitly Preview and based on Granite Rapids/Xeon 6."
+    },
+    {
+      "url": "https://blogs.vmware.com/cloud-foundation/2026/05/12/vsan-for-sap-on-vcf-9-1/",
+      "date": "2026-05-12",
+      "fact": "VMware describes Xeon 6 P-core two-socket support for HANA on vSAN/VCF 9.1.",
+      "boundary": "Software support establishes an available migration path; it is not an enterprise buyer deployment, independent ROI or measured Intel profit."
+    },
+    {
+      "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/05/hpe-introduces-industry-first-64-tb-memory-server-for-sap-cloud-erp-and-business-critical-workloads.html?country=international",
+      "date": "2026-05-11",
+      "fact": "HPE announces available Xeon 6 Scale-up Server 3250 and a large-memory HANA benchmark.",
+      "boundary": "No named actual enterprise buyer outcome found in the release; vendor product/benchmark evidence only. Read by web tool; archival direct download timed out."
+    }
+  ],
+  "toyota_case_generation_conflict": {
+    "url": "https://aws.amazon.com/solutions/case-studies/toyota-intel-case-study/",
+    "retrieved_utc": "2026-11-05T23:57:57.799022+00:00",
+    "publication_date": "Not clearly stated in page reviewed; do not invent a publication date.",
+    "headline_claim": "Headline and overview refer to Xeon 6.",
+    "body_locators": [
+      "Solution | Supporting workloads using Amazon EC2 U7i and R6i instances",
+      "Outcome | Rolling out a new architecture for SAP in under two weeks"
+    ],
+    "body_facts": "Toyota migrated SAP to U7i with R6i; AWS reports financial closing improved from 72 hours to under 24 hours, with 1.5-times engineering performance. The same body describes R8i/R8i-flex and X8i Xeon 6 instances as being evaluated for the future.",
+    "matched_specs": [
+      {
+        "url": "https://aws.amazon.com/ec2/instance-types/u7i/",
+        "fact": "U7i uses 4th Generation Xeon Sapphire Rapids; the page also carries a Toyota U7i migration testimonial."
+      },
+      {
+        "url": "https://aws.amazon.com/ec2/instance-types/r6i/",
+        "fact": "R6i uses 3rd Generation Xeon Ice Lake."
+      }
+    ],
+    "adjudication": "Reject attribution of these realized gains to Xeon 6. Preserve only as supplier-hosted reported Intel-to-Intel modernization and migration outcome, with explicitly unresolved title/body inconsistency.",
+    "source_independence": "Named Toyota manager quotes on AWS marketing pages; not a Toyota-authored engineering report or independent experiment.",
+    "economic_limits": [
+      "No comparable AMD/Arm alternative evaluation, purchase invoice, contractual CPU price, Intel realized ASP or margin.",
+      "Architecture changed compute, memory and operational process together; no CPU-generation causal isolation.",
+      "An advertised up-to 45% U7i price/performance claim is an AWS product-level statement, not Toyota actual savings or Intel economics."
+    ],
+    "rejected_search_host": "Search initially surfaced a non-AWS lookalike hostname. It was not used as evidence; the official aws.amazon.com page was opened directly and archived."
+  },
+  "search_rejection_log": [
+    {
+      "candidate": "Intel IT commercial database licensing case",
+      "reason": "Prior review already showed implemented older generation; proposed Xeon 6 improvement is counterfactual, and Intel is the reporting vendor."
+    },
+    {
+      "candidate": "Intel/SAP partner testimonial and HPE/Dell/Lenovo validation designs",
+      "reason": "Vendor/partner support or lab benchmarks; not independently reported enterprise deployment economics."
+    },
+    {
+      "candidate": "Prowess database modernization benchmark",
+      "reason": "Explicitly commissioned by Intel; not actual independent enterprise workload economics."
+    },
+    {
+      "candidate": "ClickHouse hardware benchmark and Phoronix software testing",
+      "reason": "Benchmarks are relevant to technical options but do not answer this buyer-deployment question; no added quantitative forecast inference."
+    }
+  ],
+  "recommended_use": "Keep narrow Azure certification example and managed-HANA-Cloud boundary. Do not add the Toyota headline as Xeon 6 proof or use directory counts to calculate share. The unresolved retained-profit evidence remains customer-level Intel net-price/mix and cost retention after supply normalizes."
+}

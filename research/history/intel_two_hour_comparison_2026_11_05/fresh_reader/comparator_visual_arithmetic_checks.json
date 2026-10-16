@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-11-05T23:22:04.112047+00:00",
+  "purpose": "Visual confirmation and more precise arithmetic of public-pitch presentation issues; these do not invalidate the underlying business cases.",
+  "wms": {
+    "pages_visually_checked": [
+      38,
+      42
+    ],
+    "FY2026_revenue_thousands": 3225410,
+    "FY2025_revenue_thousands": 2965989,
+    "FY2026_page42_EBIT_thousands": 828779,
+    "FY2026_page42_EBITDA_thousands": 1002951,
+    "printed_FY2026_EBIT_margin": 0.279,
+    "proper_same_year_EBIT_margin": 0.2569530695322455,
+    "printed_FY2026_EBITDA_margin": 0.338,
+    "proper_same_year_EBITDA_margin": 0.310953026126911,
+    "EBIT_over_previous_year_revenue": 0.2794275366496639,
+    "EBITDA_over_previous_year_revenue": 0.33815061350530967,
+    "FY2027_EBIT_margin_previous_year_denominator": 0.2929444628744873,
+    "assessment": "FY2026 and FY2027 displayed EBIT and EBITDA margin rows reconcile to prior-year revenue, not same-year revenue. Distinguish page42 EBIT, which includes interest income/other, from page38 income from operations of812262. The initial note using operating income was directionally correct about the display mismatch but this more precise reconciliation is preferred."
+  },
+  "jbi": {
+    "pages_visually_checked": [
+      9,
+      28
+    ],
+    "page9_2025_label": "EBITDA",
+    "page9_values_base_bull_bear": [
+      295,
+      303,
+      243
+    ],
+    "page28_2025_label": "EBIT",
+    "page28_values_base_bull_bear": [
+      295,
+      303,
+      243
+    ],
+    "page9_2024_EBITDA_base": 314,
+    "page28_2024_EBIT_base": 276,
+    "assessment": "All three2025 EBIT values match exactly the numbers labelled EBITDA in the8x/9x/7x EV/EBITDA valuation. This is an unresolved definition mismatch. Using EBIT in place of EBITDA at the same multiple would ordinarily lower, not inflate, the target, so it does not by itself refute the long case."
+  }
+}

@@ -1,0 +1,1729 @@
+{
+  "audited_utc": "2026-11-04T18:46:28.237262+00:00",
+  "scope": "Independent Decimal reconstruction of frozen 2027-2028 EPS, economic cash, presentation controls, slower Foundry cost case and the finite reverse cash hurdle. No new research, operating forecast or equity value selection.",
+  "verdict": "PASS WITH COMPARABILITY LIMITS",
+  "numerical_error_count": 0,
+  "checks_count": 316,
+  "max_absolute_numeric_difference": 3.88466e-15,
+  "numeric_tolerance": 1e-11,
+  "method": "Read source JSON independently; rebuilt consolidated EBIT from current host segment profits plus corporate and incremental packaging; rebuilt D&A, capex and working capital from host plus packaging; derived credits and tax from frozen policy; rebuilt EPS and inverse algebra without calling root calculator; recomputed liquidity sequentially from opening cash.",
+  "independent_annual_results": [
+    {
+      "year": 2027,
+      "independent_economic_EBIT_B": 14.429918272000002,
+      "reference_adjusted_EPS_proxy_USD": 2.4996601201597097,
+      "economic_parent_unlevered_cash_B": -10.182712883085713,
+      "economic_owner_cash_B": -11.692712883085713,
+      "issuer_style_zero_net_partner_proxy_B": -7.992712883085713,
+      "issuer_style_distributions_equal_reserve_proxy_B": -9.092712883085714,
+      "combined_adverse_presentation_EPS_USD": 1.9095888305066668,
+      "slower_Foundry_EBIT_B": 12.929918272000002,
+      "slower_Foundry_EPS_USD": 2.2573733687985484,
+      "slower_Foundry_operating_cash_tax_B": 1.9394877408000002,
+      "slower_Foundry_owner_cash_B": -12.967712883085714,
+      "slower_Foundry_ending_economic_cash_B": 33.46528711691429,
+      "slower_Foundry_new_borrowing_B": 0.0,
+      "tax_deduction_for_new_capitalized_interest_B": 0.0,
+      "financing_tax_benefit_B": 0.24
+    },
+    {
+      "year": 2028,
+      "independent_economic_EBIT_B": 24.72774958255801,
+      "reference_adjusted_EPS_proxy_USD": 4.167050295549297,
+      "economic_parent_unlevered_cash_B": 3.784903605352877,
+      "economic_owner_cash_B": 2.2936536053528767,
+      "issuer_style_zero_net_partner_proxy_B": 6.193653605352877,
+      "issuer_style_distributions_equal_reserve_proxy_B": 5.093653605352877,
+      "combined_adverse_presentation_EPS_USD": 3.327209109616261,
+      "slower_Foundry_EBIT_B": 21.97774958255801,
+      "slower_Foundry_EPS_USD": 3.722857918053834,
+      "slower_Foundry_operating_cash_tax_B": 3.2966624373837012,
+      "slower_Foundry_owner_cash_B": -0.043846394647123144,
+      "slower_Foundry_ending_economic_cash_B": 31.218440722267164,
+      "slower_Foundry_new_borrowing_B": 0.0,
+      "tax_deduction_for_new_capitalized_interest_B": 0.125,
+      "financing_tax_benefit_B": 0.25875
+    }
+  ],
+  "double_count_findings": [
+    {
+      "item": "Acquisition amortization",
+      "result": "No new double count found within the declared total-D&A convention. The 0.25B is excluded from adjusted EPS, then removed by inverse reconstruction before full normalized D&A is added once. Source corporate policy explicitly puts it inside total D&A. A full future book amortization roll-forward is not proven."
+    },
+    {
+      "item": "SBC",
+      "result": "Identified 2.6B/2.8B corporate SBC is added back only for EPS and illustrative issuer cash presentation; economic cash continues to expense it once. Planning shares represent existing claims, and the controls do not alter cash or create a second future dilution charge. Packaging SBC remains unsplit and expensed."
+    },
+    {
+      "item": "NCI",
+      "result": "Adjusted EPS deducts 1.1B guidance proxy plus 0.15B share of excluded adjustments. Inverse algebra restores both before economic cash deducts the 1.1B reserve once. Issuer-style proxy reverses that reserve, then separately assumes zero distributions or distributions equal to the reserve. No partner contributions are fabricated."
+    },
+    {
+      "item": "Capitalized interest",
+      "result": "Current 1B is excluded from physical capex and charged once in treasury. EPS subtracts 0/0.125B of chosen new book depreciation, which inverse reconstruction removes before original cash is calculated. The 2028 0.01875B tax shield follows the separate tax-depreciation cohort, not an immediate deduction of current 1B."
+    },
+    {
+      "item": "Income tax and capital incentives",
+      "result": "11% adjusted presentation tax is fully undone. Cash uses 15% operating tax, taxes interest income, then adds ordinary-interest and prior capitalized-interest tax shields once. New credits are collected at a one-year lag; the origin-year basis-loss tax is subtracted once. Illustrative book benefit raises EPS only and reverses out of cash."
+    },
+    {
+      "item": "Leases",
+      "result": "Original all-in 1B supplier/lease cash allowance stays once; ordinary 1.6B debt interest excludes that envelope under the source policy. Presentation lease stress is reversed before cash, preventing an added 1B cash charge. Exact future finance-lease interest, principal and D&A mapping remain unknown."
+    },
+    {
+      "item": "Host and packaging",
+      "result": "Reconstruction uses the CURRENT host Foundry path of -4/-0.75B plus the incremental packaging overlay. It does not reuse the packaging file old host-combined profit or add gross packaging profit on top of the net overlap adjustment."
+    }
+  ],
+  "remaining_comparability_limits": [
+    {
+      "severity": "material for external comparison",
+      "finding": "The 2028 public EPS forecast does not disclose its full tax, adjustments and weighted-share methodology; the 2027 summary is adjusted EPS but constituent accounting choices are not reconstructed. The measured percentage premiums are arithmetic comparisons between proxies, not certified like-for-like analyst forecast errors.",
+      "proof_needed": "Original analyst income statements and definitions, normalized on the same timing, NCI, compensation and diluted-share basis."
+    },
+    {
+      "severity": "material for accounting precision",
+      "finding": "5.51B is existing planning claims, not independently forecast future weighted diluted shares. Future equity grants, vesting, cancellations, stock price and treasury-stock proceeds are not modeled.",
+      "proof_needed": "Dated weighted-share roll-forward and grant/vesting assumptions for each forecast year."
+    },
+    {
+      "severity": "known unallocated expense",
+      "finding": "The reference EPS omits a separately unallocated lease-interest expense; 1B is an all-in cash envelope, and assumed lease D&A inside total D&A is not independently itemized. The severe 1B control is not a book accounting forecast.",
+      "proof_needed": "Supplier/lease asset, liability, interest, cash and D&A schedules reconciled to EBIT and ordinary interest."
+    },
+    {
+      "severity": "known incomplete issuer cash bridge",
+      "finding": "Only identified corporate SBC is restored in the issuer-style cash proxy. Packaging central cost includes unsplit SBC, so exact issuer CFO would require its noncash portion and any tax-settlement effects. No numerical correction is justified without that split.",
+      "proof_needed": "Packaging compensation split and cash-flow reconciliation; do not add the full central cost as SBC."
+    },
+    {
+      "severity": "book and cash classification",
+      "finding": "Forward book credit depreciation benefit, capitalized-interest book life, financing PPE settlement timing and capital-tax classification are simplified or unallocated. Exact issuer adjusted FCF cannot be claimed from an economic reserve model.",
+      "proof_needed": "PPE/credit/interest cohort schedules, cash-purchase settlement mapping, actual partner funding/distributions and a complete CFO-to-adjusted-FCF bridge."
+    },
+    {
+      "severity": "economic interpretation",
+      "finding": "Slower Foundry is a cost-only control at unchanged product revenue, margins, capex and working capital. It is not a failed qualification, delayed shipment or joint macro downside. The 31.218B 2028 ending balance is economic liquidity after reserves, not measured bank cash.",
+      "proof_needed": "A separately frozen operating scenario to claim robustness to revenue or shipment failure; none is inferred here."
+    }
+  ],
+  "reverse_cash_hurdle_audit": {
+    "pass": true,
+    "independent_equity_PV_gap_B": 90.81629356936395,
+    "controls": [
+      {
+        "first_cash_year": 2027,
+        "independent_first_cash_B": 8.173466421242756,
+        "perpetuity_value_date_year": 2026,
+        "years_discounted_back_to_end2026": 0
+      },
+      {
+        "first_cash_year": 2029,
+        "independent_first_cash_B": 10.252796278806914,
+        "perpetuity_value_date_year": 2028,
+        "years_discounted_back_to_end2026": 2
+      },
+      {
+        "first_cash_year": 2031,
+        "independent_first_cash_B": 12.861107652135392,
+        "perpetuity_value_date_year": 2030,
+        "years_discounted_back_to_end2026": 4
+      }
+    ],
+    "timing_explanation": "End-2029 first cash is capitalized one period earlier at end-2028, then discounted two years to end-2026. Positive price gap requires positive extra cash. Formula is correct for a 3%-growing perpetual unlevered cash increment discounted at 12%, fixed claims and all other inputs held constant.",
+    "limits": "This holds financing, reinvestment and claims fixed and compares a November 3 price with an end-2026 planning value. It does not identify the market expectation or demonstrate feasible savings."
+  },
+  "source_files": {
+    "results": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/earnings_cash_bridge_results.json",
+      "sha256": "f0f6cf45b96a790602b947a79d91ff8ba89d4f1c5d4a397eb1d5a50e81742978"
+    },
+    "eps_policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/eps_accounting_policy.json",
+      "sha256": "055bdc41964fe43a861442df984ddb5092d282340f7a31b4733849990d7bc1c5"
+    },
+    "operating_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/operating_gap_review.json",
+      "sha256": "5108942d98d233a0773f1247a887e57bf78d7f9779d29df1c7ac3e1a595ec03c"
+    },
+    "hurdle": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/cash_value_reverse_hurdle.json",
+      "sha256": "c788206b48308ea4726ebdfd81641b796d4af101fbe456ff059f65f9f9c3bde1"
+    },
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "corporate": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/corporate_other_policy.json",
+      "sha256": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a"
+    },
+    "packaging": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json",
+      "sha256": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+    },
+    "treasury": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json",
+      "sha256": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea"
+    },
+    "tax": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/root_corporate_tax_credit_valuation_policy.json",
+      "sha256": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031"
+    }
+  },
+  "failed_checks": [],
+  "checks": [
+    {
+      "check": "results source hash model",
+      "pass": true
+    },
+    {
+      "check": "results source hash accounting_policy",
+      "pass": true
+    },
+    {
+      "check": "results source hash operating_review",
+      "pass": true
+    },
+    {
+      "check": "EPS policy source hash intel_ASP20_mature_margin35_valuation.json",
+      "pass": true
+    },
+    {
+      "check": "EPS policy source hash corporate_other_policy.json",
+      "pass": true
+    },
+    {
+      "check": "EPS policy source hash financial_claims_and_treasury_policy_2026_11_04.json",
+      "pass": true
+    },
+    {
+      "check": "EPS policy source hash root_corporate_tax_credit_valuation_policy.json",
+      "pass": true
+    },
+    {
+      "check": "EPS policy source hash external_packaging_operating_policy_2026_11_04.json",
+      "pass": true
+    },
+    {
+      "check": "operating review source hash intel_server_ASP_mix_operating_policy.json",
+      "pass": true
+    },
+    {
+      "check": "operating review source hash intel_ASP20_mature_margin35_valuation.json",
+      "pass": true
+    },
+    {
+      "check": "operating review source hash corporate_other_policy.json",
+      "pass": true
+    },
+    {
+      "check": "operating review source hash external_packaging_operating_policy_2026_11_04.json",
+      "pass": true
+    },
+    {
+      "check": "operating review source hash product_operating_forecast_2026_11_04.json",
+      "pass": true
+    },
+    {
+      "check": "operating review source hash foundry_operating_policy.json",
+      "pass": true
+    },
+    {
+      "check": "policy frozen before root output",
+      "pass": true
+    },
+    {
+      "check": "operating control frozen before root output",
+      "pass": true
+    },
+    {
+      "check": "2027 economic EBIT rebuilt from segments",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 corporate total",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 reference EPS.identified_addbacks_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.new_capitalized_interest_book_DA_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.new_credit_book_benefit_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.extra_unallocated_expense_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.ordinary_interest_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.interest_income_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.adjusted_pretax_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 reference EPS.presentation_tax_rate",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.presentation_tax_B",
+      "pass": true,
+      "absolute_difference": 3.0934e-16
+    },
+    {
+      "check": "2027 reference EPS.GAAP_NCI_proxy_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.minority_adjustments_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.adjusted_parent_net_income_proxy_B",
+      "pass": true,
+      "absolute_difference": 3.88466e-15
+    },
+    {
+      "check": "2027 reference EPS.planning_shares_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reference EPS.adjusted_EPS_proxy_USD",
+      "pass": true,
+      "absolute_difference": 4.794301270417423e-16
+    },
+    {
+      "check": "2027 reference EPS.reverse_reconstructed_economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 cash.operating_cash_tax_B",
+      "pass": true,
+      "absolute_difference": 1.491e-16
+    },
+    {
+      "check": "2027 cash.DA_addback_B",
+      "pass": true,
+      "absolute_difference": 2.8e-16
+    },
+    {
+      "check": "2027 cash.physical_capex_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 cash.WC_use_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 cash.lease_cash_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 cash.economic_minority_reserve_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 cash.net_capital_credit_cash_B",
+      "pass": true,
+      "absolute_difference": 3e-16
+    },
+    {
+      "check": "2027 cash.parent_unlevered_cash_B",
+      "pass": true,
+      "absolute_difference": 1.5649e-15
+    },
+    {
+      "check": "2027 cash.net_financing_cash_effect_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 cash.economic_owner_cash_B",
+      "pass": true,
+      "absolute_difference": 1.5649e-15
+    },
+    {
+      "check": "2027 cash.economic_owner_cash_per_planning_claim_USD",
+      "pass": true,
+      "absolute_difference": 2.7856624319419237e-16
+    },
+    {
+      "check": "2027 source model cash",
+      "pass": true,
+      "absolute_difference": 4.351e-16
+    },
+    {
+      "check": "2027 source treasury owner cash",
+      "pass": true,
+      "absolute_difference": 4.351e-16
+    },
+    {
+      "check": "2027 finance tax shield",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 issuer proxy zero net partner cash",
+      "pass": true,
+      "absolute_difference": 2.5649e-15
+    },
+    {
+      "check": "2027 issuer proxy NCI distributions",
+      "pass": true,
+      "absolute_difference": 1.5649e-15
+    },
+    {
+      "check": "2027 public reference premium",
+      "pass": true,
+      "absolute_difference": 2.8190562613430125e-16
+    },
+    {
+      "check": "2027 tax grid",
+      "pass": true
+    },
+    {
+      "check": "2027 tax 0.11 EPS",
+      "pass": true,
+      "absolute_difference": 4.794301270417423e-16
+    },
+    {
+      "check": "2027 tax 0.11 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 tax 0.11 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 tax 0.15 EPS",
+      "pass": true,
+      "absolute_difference": 3.0851179673321234e-16
+    },
+    {
+      "check": "2027 tax 0.15 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 tax 0.15 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 tax 0.18 EPS",
+      "pass": true,
+      "absolute_difference": 3.3032304900181486e-16
+    },
+    {
+      "check": "2027 tax 0.18 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 tax 0.18 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares grid",
+      "pass": true
+    },
+    {
+      "check": "2027 shares 5.44 EPS",
+      "pass": true,
+      "absolute_difference": 7.390919117647059e-16
+    },
+    {
+      "check": "2027 shares 5.44 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 5.44 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 5.51 EPS",
+      "pass": true,
+      "absolute_difference": 4.794301270417423e-16
+    },
+    {
+      "check": "2027 shares 5.51 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 5.51 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 5.6 EPS",
+      "pass": true,
+      "absolute_difference": 4.436892857142857e-16
+    },
+    {
+      "check": "2027 shares 5.6 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 5.6 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 5.75 EPS",
+      "pass": true,
+      "absolute_difference": 5.842886956521739e-16
+    },
+    {
+      "check": "2027 shares 5.75 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 5.75 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 6.0 EPS",
+      "pass": true,
+      "absolute_difference": 6.1411e-16
+    },
+    {
+      "check": "2027 shares 6.0 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 shares 6.0 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 minority_adjustment grid",
+      "pass": true
+    },
+    {
+      "check": "2027 minority_adjustment 0 EPS",
+      "pass": true,
+      "absolute_difference": 7.282504537205082e-16
+    },
+    {
+      "check": "2027 minority_adjustment 0 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 minority_adjustment 0 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 minority_adjustment 0.15 EPS",
+      "pass": true,
+      "absolute_difference": 4.794301270417423e-16
+    },
+    {
+      "check": "2027 minority_adjustment 0.15 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 minority_adjustment 0.15 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 minority_adjustment 0.3 EPS",
+      "pass": true,
+      "absolute_difference": 3.306098003629764e-16
+    },
+    {
+      "check": "2027 minority_adjustment 0.3 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 minority_adjustment 0.3 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 unallocated_expense grid",
+      "pass": true
+    },
+    {
+      "check": "2027 unallocated_expense 0 EPS",
+      "pass": true,
+      "absolute_difference": 4.794301270417423e-16
+    },
+    {
+      "check": "2027 unallocated_expense 0 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 unallocated_expense 0 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 unallocated_expense 0.25 EPS",
+      "pass": true,
+      "absolute_difference": 5.253466424682395e-16
+    },
+    {
+      "check": "2027 unallocated_expense 0.25 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 unallocated_expense 0.25 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 unallocated_expense 1.0 EPS",
+      "pass": true,
+      "absolute_difference": 3.630961887477314e-16
+    },
+    {
+      "check": "2027 unallocated_expense 1.0 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 unallocated_expense 1.0 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 credit book control policy",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 credit book EPS",
+      "pass": true,
+      "absolute_difference": 4.462177858439201e-16
+    },
+    {
+      "check": "2027 credit book inverse cash",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 retain restructuring EPS",
+      "pass": true,
+      "absolute_difference": 5.7616333938294015e-16
+    },
+    {
+      "check": "2027 retain restructuring inverse cash",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 combined adverse presentation.identified_addbacks_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.new_capitalized_interest_book_DA_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.new_credit_book_benefit_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.extra_unallocated_expense_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.ordinary_interest_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.interest_income_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.adjusted_pretax_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 combined adverse presentation.presentation_tax_rate",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.presentation_tax_B",
+      "pass": true,
+      "absolute_difference": 5.7892e-16
+    },
+    {
+      "check": "2027 combined adverse presentation.GAAP_NCI_proxy_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.minority_adjustments_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.adjusted_parent_net_income_proxy_B",
+      "pass": true,
+      "absolute_difference": 2.81508e-15
+    },
+    {
+      "check": "2027 combined adverse presentation.planning_shares_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 combined adverse presentation.adjusted_EPS_proxy_USD",
+      "pass": true,
+      "absolute_difference": 4.0251333333333333e-16
+    },
+    {
+      "check": "2027 combined adverse presentation.reverse_reconstructed_economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 combined inverse cash",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry delta policy",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 slow Foundry earnings.identified_addbacks_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.new_capitalized_interest_book_DA_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.new_credit_book_benefit_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.extra_unallocated_expense_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.ordinary_interest_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.interest_income_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.adjusted_pretax_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 slow Foundry earnings.presentation_tax_rate",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.presentation_tax_B",
+      "pass": true,
+      "absolute_difference": 3.0934e-16
+    },
+    {
+      "check": "2027 slow Foundry earnings.GAAP_NCI_proxy_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.minority_adjustments_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.adjusted_parent_net_income_proxy_B",
+      "pass": true,
+      "absolute_difference": 2.88466e-15
+    },
+    {
+      "check": "2027 slow Foundry earnings.planning_shares_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry earnings.adjusted_EPS_proxy_USD",
+      "pass": true,
+      "absolute_difference": 6.54929219600726e-16
+    },
+    {
+      "check": "2027 slow Foundry earnings.reverse_reconstructed_economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.994e-15
+    },
+    {
+      "check": "2027 slow Foundry cash.operating_cash_tax_B",
+      "pass": true,
+      "absolute_difference": 4.491e-16
+    },
+    {
+      "check": "2027 slow Foundry cash.DA_addback_B",
+      "pass": true,
+      "absolute_difference": 2.8e-16
+    },
+    {
+      "check": "2027 slow Foundry cash.physical_capex_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry cash.WC_use_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry cash.lease_cash_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry cash.economic_minority_reserve_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry cash.net_capital_credit_cash_B",
+      "pass": true,
+      "absolute_difference": 3e-16
+    },
+    {
+      "check": "2027 slow Foundry cash.parent_unlevered_cash_B",
+      "pass": true,
+      "absolute_difference": 2.5649e-15
+    },
+    {
+      "check": "2027 slow Foundry cash.net_financing_cash_effect_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow Foundry cash.economic_owner_cash_B",
+      "pass": true,
+      "absolute_difference": 1.5649e-15
+    },
+    {
+      "check": "2027 slow Foundry cash.economic_owner_cash_per_planning_claim_USD",
+      "pass": true,
+      "absolute_difference": 3.135934664246824e-16
+    },
+    {
+      "check": "2027 slower tax relief",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 slow financing shield has tax capacity",
+      "pass": true
+    },
+    {
+      "check": "2027 slow owner delta",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 baseline liquidity",
+      "pass": true,
+      "absolute_difference": 3.4351e-15
+    },
+    {
+      "check": "2027 slow liquidity",
+      "pass": true,
+      "absolute_difference": 3.4351e-15
+    },
+    {
+      "check": "2027 slow borrowing",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2027 reverse public EPS EBIT",
+      "pass": true,
+      "absolute_difference": 3.3707865168539324e-17
+    },
+    {
+      "check": "2027 reverse public EPS gap",
+      "pass": true,
+      "absolute_difference": 2.9602921348314605e-15
+    },
+    {
+      "check": "2028 economic EBIT rebuilt from segments",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 corporate total",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 reference EPS.identified_addbacks_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.new_capitalized_interest_book_DA_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.new_credit_book_benefit_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.extra_unallocated_expense_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.ordinary_interest_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.interest_income_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.adjusted_pretax_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 reference EPS.presentation_tax_rate",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.presentation_tax_B",
+      "pass": true,
+      "absolute_difference": 1.75e-16
+    },
+    {
+      "check": "2028 reference EPS.GAAP_NCI_proxy_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.minority_adjustments_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.adjusted_parent_net_income_proxy_B",
+      "pass": true,
+      "absolute_difference": 3.325e-15
+    },
+    {
+      "check": "2028 reference EPS.planning_shares_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reference EPS.adjusted_EPS_proxy_USD",
+      "pass": true,
+      "absolute_difference": 9.627949183303086e-16
+    },
+    {
+      "check": "2028 reference EPS.reverse_reconstructed_economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 cash.operating_cash_tax_B",
+      "pass": true,
+      "absolute_difference": 1.75e-16
+    },
+    {
+      "check": "2028 cash.DA_addback_B",
+      "pass": true,
+      "absolute_difference": 5.4e-16
+    },
+    {
+      "check": "2028 cash.physical_capex_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 cash.WC_use_B",
+      "pass": true,
+      "absolute_difference": 9.8e-16
+    },
+    {
+      "check": "2028 cash.lease_cash_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 cash.economic_minority_reserve_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 cash.net_capital_credit_cash_B",
+      "pass": true,
+      "absolute_difference": 1e-15
+    },
+    {
+      "check": "2028 cash.parent_unlevered_cash_B",
+      "pass": true,
+      "absolute_difference": 2.445e-15
+    },
+    {
+      "check": "2028 cash.net_financing_cash_effect_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 cash.economic_owner_cash_B",
+      "pass": true,
+      "absolute_difference": 2.445e-15
+    },
+    {
+      "check": "2028 cash.economic_owner_cash_per_planning_claim_USD",
+      "pass": true,
+      "absolute_difference": 4.932304900181489e-16
+    },
+    {
+      "check": "2028 source model cash",
+      "pass": true,
+      "absolute_difference": 2.145e-15
+    },
+    {
+      "check": "2028 source treasury owner cash",
+      "pass": true,
+      "absolute_difference": 2.145e-15
+    },
+    {
+      "check": "2028 finance tax shield",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 issuer proxy zero net partner cash",
+      "pass": true,
+      "absolute_difference": 2.145e-15
+    },
+    {
+      "check": "2028 issuer proxy NCI distributions",
+      "pass": true,
+      "absolute_difference": 3.145e-15
+    },
+    {
+      "check": "2028 public reference premium",
+      "pass": true,
+      "absolute_difference": 2.026235205908527e-16
+    },
+    {
+      "check": "2028 tax grid",
+      "pass": true
+    },
+    {
+      "check": "2028 tax 0.11 EPS",
+      "pass": true,
+      "absolute_difference": 9.627949183303086e-16
+    },
+    {
+      "check": "2028 tax 0.11 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 tax 0.11 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 tax 0.15 EPS",
+      "pass": true,
+      "absolute_difference": 3.947368421052632e-16
+    },
+    {
+      "check": "2028 tax 0.15 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 tax 0.15 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 tax 0.18 EPS",
+      "pass": true,
+      "absolute_difference": 2.1869328493647913e-16
+    },
+    {
+      "check": "2028 tax 0.18 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 tax 0.18 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares grid",
+      "pass": true
+    },
+    {
+      "check": "2028 shares 5.44 EPS",
+      "pass": true,
+      "absolute_difference": 3.318014705882353e-16
+    },
+    {
+      "check": "2028 shares 5.44 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 5.44 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 5.51 EPS",
+      "pass": true,
+      "absolute_difference": 9.627949183303086e-16
+    },
+    {
+      "check": "2028 shares 5.51 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 5.51 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 5.6 EPS",
+      "pass": true,
+      "absolute_difference": 8.080357142857143e-16
+    },
+    {
+      "check": "2028 shares 5.6 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 5.6 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 5.75 EPS",
+      "pass": true,
+      "absolute_difference": 4.913043478260869e-16
+    },
+    {
+      "check": "2028 shares 5.75 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 5.75 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 6.0 EPS",
+      "pass": true,
+      "absolute_difference": 2.2083333333333333e-16
+    },
+    {
+      "check": "2028 shares 6.0 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 shares 6.0 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 minority_adjustment grid",
+      "pass": true
+    },
+    {
+      "check": "2028 minority_adjustment 0 EPS",
+      "pass": true,
+      "absolute_difference": 8.139745916515427e-16
+    },
+    {
+      "check": "2028 minority_adjustment 0 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 minority_adjustment 0 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 minority_adjustment 0.15 EPS",
+      "pass": true,
+      "absolute_difference": 9.627949183303086e-16
+    },
+    {
+      "check": "2028 minority_adjustment 0.15 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 minority_adjustment 0.15 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 minority_adjustment 0.3 EPS",
+      "pass": true,
+      "absolute_difference": 1.116152450090744e-16
+    },
+    {
+      "check": "2028 minority_adjustment 0.3 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 minority_adjustment 0.3 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 unallocated_expense grid",
+      "pass": true
+    },
+    {
+      "check": "2028 unallocated_expense 0 EPS",
+      "pass": true,
+      "absolute_difference": 9.627949183303086e-16
+    },
+    {
+      "check": "2028 unallocated_expense 0 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 unallocated_expense 0 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 unallocated_expense 0.25 EPS",
+      "pass": true,
+      "absolute_difference": 1.2168784029038112e-15
+    },
+    {
+      "check": "2028 unallocated_expense 0.25 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 unallocated_expense 0.25 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 unallocated_expense 1.0 EPS",
+      "pass": true,
+      "absolute_difference": 9.791288566243194e-16
+    },
+    {
+      "check": "2028 unallocated_expense 1.0 inverse EBIT",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 unallocated_expense 1.0 owner cash invariant",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 credit book control policy",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 credit book EPS",
+      "pass": true,
+      "absolute_difference": 3.8203266787658803e-16
+    },
+    {
+      "check": "2028 credit book inverse cash",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 retain restructuring EPS",
+      "pass": true,
+      "absolute_difference": 1.1524500907441016e-16
+    },
+    {
+      "check": "2028 retain restructuring inverse cash",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 combined adverse presentation.identified_addbacks_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.new_capitalized_interest_book_DA_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.new_credit_book_benefit_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.extra_unallocated_expense_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.ordinary_interest_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.interest_income_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.adjusted_pretax_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 combined adverse presentation.presentation_tax_rate",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.presentation_tax_B",
+      "pass": true,
+      "absolute_difference": 3.5e-16
+    },
+    {
+      "check": "2028 combined adverse presentation.GAAP_NCI_proxy_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.minority_adjustments_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.adjusted_parent_net_income_proxy_B",
+      "pass": true,
+      "absolute_difference": 3.85e-15
+    },
+    {
+      "check": "2028 combined adverse presentation.planning_shares_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 combined adverse presentation.adjusted_EPS_proxy_USD",
+      "pass": true,
+      "absolute_difference": 2.75e-16
+    },
+    {
+      "check": "2028 combined adverse presentation.reverse_reconstructed_economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 combined inverse cash",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry delta policy",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 slow Foundry earnings.identified_addbacks_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.new_capitalized_interest_book_DA_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.new_credit_book_benefit_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.extra_unallocated_expense_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.ordinary_interest_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.interest_income_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.adjusted_pretax_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 slow Foundry earnings.presentation_tax_rate",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.presentation_tax_B",
+      "pass": true,
+      "absolute_difference": 1.75e-16
+    },
+    {
+      "check": "2028 slow Foundry earnings.GAAP_NCI_proxy_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.minority_adjustments_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.adjusted_parent_net_income_proxy_B",
+      "pass": true,
+      "absolute_difference": 3.325e-15
+    },
+    {
+      "check": "2028 slow Foundry earnings.planning_shares_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry earnings.adjusted_EPS_proxy_USD",
+      "pass": true,
+      "absolute_difference": 3.5771324863883846e-16
+    },
+    {
+      "check": "2028 slow Foundry earnings.reverse_reconstructed_economic_EBIT_B",
+      "pass": true,
+      "absolute_difference": 2.5e-15
+    },
+    {
+      "check": "2028 slow Foundry cash.operating_cash_tax_B",
+      "pass": true,
+      "absolute_difference": 5.75e-16
+    },
+    {
+      "check": "2028 slow Foundry cash.DA_addback_B",
+      "pass": true,
+      "absolute_difference": 5.4e-16
+    },
+    {
+      "check": "2028 slow Foundry cash.physical_capex_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry cash.WC_use_B",
+      "pass": true,
+      "absolute_difference": 9.8e-16
+    },
+    {
+      "check": "2028 slow Foundry cash.lease_cash_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry cash.economic_minority_reserve_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry cash.net_capital_credit_cash_B",
+      "pass": true,
+      "absolute_difference": 1e-15
+    },
+    {
+      "check": "2028 slow Foundry cash.parent_unlevered_cash_B",
+      "pass": true,
+      "absolute_difference": 2.745e-15
+    },
+    {
+      "check": "2028 slow Foundry cash.net_financing_cash_effect_B",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow Foundry cash.economic_owner_cash_B",
+      "pass": true,
+      "absolute_difference": 2.645e-15
+    },
+    {
+      "check": "2028 slow Foundry cash.economic_owner_cash_per_planning_claim_USD",
+      "pass": true,
+      "absolute_difference": 4.796805807622505e-16
+    },
+    {
+      "check": "2028 slower tax relief",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 slow financing shield has tax capacity",
+      "pass": true
+    },
+    {
+      "check": "2028 slow owner delta",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 baseline liquidity",
+      "pass": true,
+      "absolute_difference": 1.5801e-15
+    },
+    {
+      "check": "2028 slow liquidity",
+      "pass": true,
+      "absolute_difference": 5.801e-16
+    },
+    {
+      "check": "2028 slow borrowing",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "2028 reverse public EPS EBIT",
+      "pass": true,
+      "absolute_difference": 5.842696629213483e-16
+    },
+    {
+      "check": "2028 reverse public EPS gap",
+      "pass": true,
+      "absolute_difference": 1.9157303370786517e-15
+    },
+    {
+      "check": "hurdle source model hash",
+      "pass": true
+    },
+    {
+      "check": "hurdle carried forward model value",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "hurdle equity PV gap",
+      "pass": true,
+      "absolute_difference": 2.86e-15
+    },
+    {
+      "check": "hurdle first 2027 cash",
+      "pass": true,
+      "absolute_difference": 2.426e-16
+    },
+    {
+      "check": "hurdle first 2027 PV",
+      "pass": true,
+      "absolute_difference": 2.86e-15
+    },
+    {
+      "check": "hurdle first 2029 cash",
+      "pass": true,
+      "absolute_difference": 1.17791744e-15
+    },
+    {
+      "check": "hurdle first 2029 PV",
+      "pass": true,
+      "absolute_difference": 2.86e-15
+    },
+    {
+      "check": "hurdle first 2031 cash",
+      "pass": true,
+      "absolute_difference": 5.55979636736e-16
+    },
+    {
+      "check": "hurdle first 2031 PV",
+      "pass": true,
+      "absolute_difference": 2.86e-15
+    },
+    {
+      "check": "unchanged valuation reference 2026",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "unchanged valuation reference 2028",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "unchanged valuation reference 2030",
+      "pass": true,
+      "absolute_difference": 0.0
+    },
+    {
+      "check": "input remained unchanged results",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged eps_policy",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged operating_review",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged hurdle",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged model",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged host",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged corporate",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged packaging",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged treasury",
+      "pass": true
+    },
+    {
+      "check": "input remained unchanged tax",
+      "pass": true
+    }
+  ],
+  "files_modified": [
+    "independent_earnings_cash_audit.json"
+  ],
+  "new_research_performed": false,
+  "source_model_or_PDF_modified": false
+}

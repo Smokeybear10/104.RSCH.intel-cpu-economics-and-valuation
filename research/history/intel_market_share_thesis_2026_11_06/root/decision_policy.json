@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-11-06T16:52:23Z",
+  "recommendation": "LONG",
+  "conviction": "Moderate; a competition investment judgment, not an estimated winning probability",
+  "operating_case": "joint_anchor_old_CPU2028plus_growth_pooled_old_growth",
+  "operating_asset_rate": 0.10625,
+  "reference_price_USD": 52.25,
+  "reference_date": "2026-11-05 regular close",
+  "target_date": "2030-12-31",
+  "selection_chronology": "All scenario prices were known before this selection. This is an explicit reconsideration after external market and expectations research, not a blinded forecast choice or a newly discovered numerical result.",
+  "why_this_operating_case": [
+    "The independent TrendForce shipment forecast permits Intel unit growth despite loss of share. A 40% industry growth scenario with rounded 50% to 42% Intel shipment shares gives 17.6% Intel unit growth. The stronger case needs about 21.9% annual ASP growth on its own 2026 estimate, less than the latest reported year-on-year increase but still an assumption about mix and prices.",
+    "Current Xeon deployments and multigeneration customer relationships support continued adoption. They do not establish contract economics or guarantee share.",
+    "Pooled Q2/Q3 conditional CPU margin is a reasonable forward anchor during a product transition. The full-YTD anchor is a useful adverse alternative, not inherently the best forecast.",
+    "After rapid expansion, the inherited gradual CPU growth fade permits about 6.04% annual revenue growth in 2031-40. Its direction is consistent with continued workload adoption and a maturing market; its exact rates remain owned assumptions.",
+    "The forecast disagreement is specific: 2028 consolidated sales about90.015B versus a public S&P Global series of83.719B. No matched CPU-share consensus has been located."
+  ],
+  "why_this_risk_method": "The pre-existing trailing-cash implied equity premium uses observed market distributions without imposing the sustainable-payout model's mature payout uplift. This is a methodological preference, not evidence of reduced Intel business risk. Hold 4.94% Treasury and1.5 asset beta fixed. The11.555% sustainable-payout result remains on the valuation page and can reverse the planning-value premium.",
+  "required_disclosures": [
+    "The adopted case was previously labeled favorable. Promotion to an owned central thesis does not make its joint assumptions observed or statistically most likely.",
+    "The56.14 December2026 planning value is only7.4% above the52.25 November5 reference; these dates differ by56days. Do not call that a demonstrated contemporaneous margin of safety.",
+    "At11.555%, the same operating path gives48.56 planning value and73.56 target. The stronger long does not survive every reasonable risk method.",
+    "No new high-volume external wafer-customer breakthrough is required, but existing external revenue and a7B gross packaging forecast remain included. Do not imply zero external business.",
+    "Shortage relief, package yields, mature margins, foundry recovery and growth capital productivity remain forecasts. No completed original interview or proprietary shipment data is claimed.",
+    "A low-return long scenario is not sufficient evidence for a profitable outright short."
+  ],
+  "three_claims": [
+    "Intel can grow CPU sales while losing shipment share.",
+    "New Xeon adoption can support richer mix beyond the immediate shortage, with measurable competition and cost risks.",
+    "The return comes from factory and cash-flow recovery; a large external wafer win is additional upside rather than the core requirement."
+  ],
+  "submission_state": "Draft investment recommendation chosen. Not submitted. Class of 2028, explicitly confirmed by Thomas in this chat. Current resume is required before submission."
+}

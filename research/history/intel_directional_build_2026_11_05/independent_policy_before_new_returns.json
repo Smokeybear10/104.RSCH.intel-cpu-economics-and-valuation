@@ -1,0 +1,65 @@
+{
+  "recorded_utc": "2026-11-05T21:47:58.968397+00:00",
+  "scope": "Independent operating and risk judgment, before new return arithmetic in this pass. Prior audited 35/40 valuations and old risk sensitivities are already known; this is not a blind selection.",
+  "preferred_mature_DCAI_margin": 0.4,
+  "capital_productivity": 0.8,
+  "preferred_operating_asset_beta": 1.5,
+  "preferred_operating_rate": 0.11555,
+  "preferred_risk_path": "Flat 11.555% throughout. Preserve dated November 1 risk-free 4.94% and ERP 4.41%. No new macro calibration.",
+  "adoption_reason": "Own a preservation-of-CPU-economics judgment, with approximately six percentage points more Other DCAI revenue share causing blend dilution. Premium product mix is the primary source of ASP growth, and multigeneration customer deployment supports persistence. 40% is an approximate operating judgment rather than a disclosed forecast.",
+  "why_35_no_longer_preferred": "At illustrative Other margins 15\u201325%, 35% additionally assumes about 6\u20137 percentage points of CPU operating-margin erosion from the Q3 inference. Competitive erosion is a legitimate downside, but it should be named as an active forecast rather than hidden inside generic normalization.",
+  "risk_reason": "Matched peer operating betas already come from mature cyclical semiconductor firms. Growth slowing does not by itself eliminate cyclicality. Improved liquidity and declining leverage do not automatically reduce operating asset beta.",
+  "maturing_risk_scenario": "Keep the prior 11.555% through 2030 fading to 10.055% in 2040 as favorable scenario only; do not call it the automatic removal of a turnaround surcharge.",
+  "do_not_change": [
+    "No higher CPU or custom-silicon revenue path.",
+    "No added Oracle or Google revenue on top of existing growth.",
+    "No extra foundry process-cost benefit counted in DCAI.",
+    "No capital productivity increase from customer deposits or equity financing.",
+    "No new external wafer/packaging customer win."
+  ],
+  "mix_diagnostic": {
+    "Q3_DCAI_revenue_B": 7.318,
+    "Q3_DCAI_operating_income_B": 3.039,
+    "Q3_DCAI_margin": 0.4152773981962285,
+    "Q3_Other_revenue_approx_B": 1.4,
+    "Q3_Other_share_approx": 0.19130910084722602,
+    "modeled_2040_Other_share": 0.2474832777081776,
+    "formula": "CPU margin=(observed blend-current Other share*illustrative Other margin)/(1-current Other share). Mature blend=(1-future Other share)*that CPU margin+future Other share*same illustrative Other margin.",
+    "rows": [
+      {
+        "illustrative_Other_margin": 0.15,
+        "Q3_CPU_margin_implied": 0.4780331192970599,
+        "mature_blend_preserving_Q3_CPU_margin": 0.39685040773658586,
+        "CPU_margin_implied_by_35pct_mature_blend": 0.41577482476521094,
+        "CPU_margin_implied_by_40pct_mature_blend": 0.48221853095651374,
+        "CPU_margin_erosion_for_35_percentage_points": 6.225829453184895,
+        "CPU_margin_change_for_40_percentage_points": 0.41854116594538526
+      },
+      {
+        "illustrative_Other_margin": 0.2,
+        "Q3_CPU_margin_implied": 0.46620479891855365,
+        "mature_blend_preserving_Q3_CPU_margin": 0.40032356274054365,
+        "CPU_margin_implied_by_35pct_mature_blend": 0.3993311185739082,
+        "CPU_margin_implied_by_40pct_mature_blend": 0.465774824765211,
+        "CPU_margin_erosion_for_35_percentage_points": 6.687368034464547,
+        "CPU_margin_change_for_40_percentage_points": -0.04299741533426715
+      },
+      {
+        "illustrative_Other_margin": 0.25,
+        "Q3_CPU_margin_implied": 0.45437647854004737,
+        "mature_blend_preserving_Q3_CPU_margin": 0.40379671774450143,
+        "CPU_margin_implied_by_35pct_mature_blend": 0.3828874123826054,
+        "CPU_margin_implied_by_40pct_mature_blend": 0.4493311185739082,
+        "CPU_margin_erosion_for_35_percentage_points": 7.148906615744199,
+        "CPU_margin_change_for_40_percentage_points": -0.5045359966139196
+      }
+    ],
+    "limitations": [
+      "Other margin is not disclosed; 15%, 20% and 25% are illustrations, not estimates with statistical confidence.",
+      "Other revenue is rounded to $1.4B; results are approximate.",
+      "This is a decomposition, not causal identification. Q3 CPU profitability itself can include scarcity effects and transient operating leverage.",
+      "The modeled future Other share is a forecast, not observed evidence.",
+      "DCAI segment profit excludes separately accounted corporate SBC and manufacturing/process-development economics. Preserve consolidated charges once."
+    ]
+  }
+}

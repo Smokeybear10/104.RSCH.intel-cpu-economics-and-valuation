@@ -1,0 +1,179 @@
+{
+  "prepared_utc": "2026-11-05T22:29:09.306712+00:00",
+  "scope": "Independent economic and arithmetic audit of selected Intel40%/.8/flat11.555%case; current PDFs and frozen inputs not edited. This is model review, not a win prediction.",
+  "verdict": {
+    "arithmetic": "PASS on independent APV/treasury reconstruction",
+    "economic_status": "Coherent owned forecast with material underwriting uncertainty, not independently validated cash flows. No demonstrated fatal double-counting error. The major weakness is the scale and durability of profitable growth required, combined with little initial price cushion.",
+    "recommendation_for_root": "Do not increase conviction because the arithmetic passes. Preserve scopedProductsrevenue labels and disclose continuation economics. A price target near78 is conditional on an already successful recovery, not proof the market is wrong."
+  },
+  "priority_findings": [
+    {
+      "priority": "high",
+      "issue": "Terminal economics assume durable economic rents",
+      "evidence": {
+        "same_year_delta_NOPAT_over_net_investment": 0.23471669908334078,
+        "growth_over_reinvestment_fraction": 0.2417582000558437,
+        "reinvestment_fraction_of_NOPAT": 0.12409093049613333,
+        "NOPAT_margin_on_capital_denominator": 0.2909461042803038,
+        "physical_capex_fraction_of_capital_denominator": 0.22775144214438153,
+        "explanation": "The24%-range shorthand uses the conventional growth/reinvestment-rate formula. Same-year delta-NOPAT/net-investment is lower by1.03 because growth investment is measured contemporaneously. Neither is a measured historical ROIC or an independent second model input. Minority/lease reserves are deducted later in cash and no separate average invested-capital balance sheet is reconstructed."
+      },
+      "interpretation": "Selected2040CPUrevenue107.13B andDCAI142.36B are much larger than2030, while40%productmargin persists. Combined2041NOPAT60.81B requires only7.55Bnetinvestment; economicreturns substantially exceed11.555%operatingrisk perpetually. That may be an owned competitive-advantage thesis, but calling .8capitalproductivity conservative does not validate the implied returns.",
+      "correction": "Keep the forecast if explicitly defended; show capital-productivityandmature-return controls. Do not mechanically add a secondROICreinvestmentcharge."
+    },
+    {
+      "priority": "high",
+      "issue": "No fully reconciled consolidated revenue forecast",
+      "exact_2027": "68.3326878BProducts+2.8BOther+0.25Bnetincrementalpackaging=71.3826878Bcapitaldenominator",
+      "exact_2028": "84.7413252858BProducts+2.8BOther+1.75Bnetincrementalpackaging=89.2913252858Bcapitaldenominator",
+      "why": "HostFoundryprofitalreadyincludesembeddedexternalservices, but theirsalesareabsent. Knownpackagingshadowallowance.25/.75/1.5/2B2027-2030isnotaddedback; legacyexternalwaferrevenue alsohasnoseries. Products is externalcustomerrevenue and canbequoted cleanly; OthercoversMobileye/IMS-typebusiness, notexternalFoundry.",
+      "model_locator": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json",
+        "line": 37
+      },
+      "effect": "No internalFoundry sales areaddedtoexternalrevenue. The omission doesnotitselfoverstateDCFearnings, which useexplicitprofitforecasts. It weakensclaimedconsolidatedmargin, consensusmatching, and capitaldenominator interpretation. If .8 applies toallhostexternalrevenue, fundingknownembeddedpackaginggrowthreduces2030targetonly0.1591to77.5229; unidentifiedlegacywafergapremains.",
+      "defensible_options": [
+        "KeepProducts-onlypresentation and label storedaggregate ascapitaldenominator, notGAAPsales.",
+        "Construct a separately ownedlegacyexternalFoundryrevenue/cost/capitalforecast beforemakingconsolidatedsalescomparisons. Publicdisclosures do notuniquelyidentifythis futureforecast.",
+        "For sensitivity only, showknownshadow-sales reinvestmentandremoveincrementaloverlay controls; neither isfullreconciliation."
+      ]
+    },
+    {
+      "priority": "medium",
+      "issue": "Temporary shortage is not permanent demand loss",
+      "finding": "Newprespecifiedone-year2027unitshortfall (10%units,20%ASP) withbaseabsolutelevelrestored2028 cuts2030targetonly0.2023to77.4797. Existing59.05case lowersunitandASPlevelspermanently and changescost/capital. Theirgap is economicallydifferent, notinconsistent.",
+      "importance": "Avoid usingtemporarysupplierdelayasifitnecessarilycausesaperpetualrevenuegap. Conversely avoidassumingshortageautomaticallybecomesrecoverablebacklog.",
+      "limitations": "Restored2028absolutelevelneeds36.36%CPUunitgrowthfromlower2027base versus25%basegrowth. No2027missedrevenueisrecoveredabove2028base. Workingcapitalreleaseassumesavoidedsales-linkedbalances, notlargeWIPbuildup;costandfoundrycapacityassumptionsareowned."
+    },
+    {
+      "priority": "medium",
+      "issue": "NCI, shares and funding are economic approximations",
+      "finding": "FutureeconomicSBCisexpensed and notaddedback; currentweightedawardproxyisreservedinthe5.51Bclaims. Minoritycashreservesarechargedonce withoutsecondNCIbookclaim. End2030cash65.7791lessdebt37.097isaddedonce;2027-30operatingcashisnotalsopresentinthe2030DCF. Annualminimumcash34.74Bdoesnotprovequarterlyliquidity.",
+      "uncertainty": "5.51Bisnotexactfullydilutedlegalcount; .132Bescrowand .058Bemployeeproxyhaveprice/dateconditions. NCI1.3Bin2030then3%growth isnotanasset-specificArizona cashflowvaluation. Thecurrentmodelskeepinternalconstraintsbutnotallpossiblefundingneeds."
+    }
+  ],
+  "double_counting_audit": {
+    "internal_foundry": {
+      "identity": "ProductsOP=externalProductsRevenue-internalwafercharge-productcosts;FoundryOP=internalwafercharge+externalFoundryRevenue-manufacturingcosts. Internalchargecancelsingroup.",
+      "tested_policy": "Bullishhostproductmarginimprovementisallocatedtocustomerproductmixandselling/R&Dleverage;waferprocessandfixedfactoryabsorptiononlytoFoundry. LaterASPupgradecredits50%consolidatedincrementalprofit andfreezesFoundrydollars. Final35to40additionappliesonly2031+andrepresentsexternalretainedproductprofit, nottransferrepricing.",
+      "conclusion": "No explicitsecondpostingofsameprocesssavingfound. However theseareunmeasuredaggregateprofitallowances; arithmeticallydifferentlinesdonotproveeconomicallyindependentcauses. Anyfutureclaimthatlowerinternaltransferpricecauses40%mustreduceFoundryprofitcommensurately.",
+      "locators": [
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/bullish_absorption_operating_policy.json",
+          "line": 704
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+          "line": 24
+        }
+      ]
+    },
+    "external_packaging": "Netincrementalprofitremovesexplicitshadowoverlap, withseparatecapitalandWC; nofullstackingofgrossprogramprofit. The2Bembeddedallowanceisowned, notobservable. Removingwholeincrementaloverlay(anditscosts)gives76.004target ratherthan77.682; itdoesnotremoveembeddedpackagingalreadyinsidehost.",
+    "tax_and_financing": "Unleveredoperatingtaxrecomputedbeforeseparatefinancingtaxbenefit. Capitalizedinterestcashistreatedasfinancing, with8yeardeductionnormalization. Financingtailg0whereoperatingtailg3. NoWACCtaxshieldstackedontopofAPV. Carryingdebtrefinancingatparisowned, notmarketvalue.",
+    "reinvestment": "Capex-DA+WC chargedonce. Post2031physicalcapex=DA+changeinhostsales/.8-WCplusseparatepackaging. RaisingDAalonechangesgrossreplacementspendingandaddbacktogether, notautomaticadditionalnetcashcost. 20%DA/Productsdoesnotindependentlyvalidatephysicalassetlifetimes.",
+    "cash": "CashinterestincomeexcludedfromoperatingDCF, finiteaftertaxcashincomeentersonlytreasury. Allunrestrictedeconomiccashvaluedatpar;20Bminimumisliquiditypolicy, notzerovalueasset. A facevalueconventionisdefensibleifcashcanearnfairrisk-adjustedreturns; operating/wastingcashwouldneedexplicitalternative. No automatic20Bdeductionisjustifiedbytheflooralone.",
+    "claims": "No standaloneMobileye/IMSstakeaddedafterconsolidatingoperatingcash. Alteraalreadyinside8.798Bnonoperatinginvestmentproxy. Capital-taxreceivablesarenotaddedbackaftercashcollections. Escrowliabilitynotstackedontopofreservedshares."
+  },
+  "scenario_summary": [
+    {
+      "case": "base",
+      "December2026_planning_value": 51.287102511241415,
+      "December2030_target": 77.6819879986314,
+      "change_from_base_2030": 0.0,
+      "annual_price_return_at_52_22": 0.10034547227789337,
+      "minimum_2027_2030_economic_cash_B": 34.74028711691429
+    },
+    {
+      "case": "capital_productivity_060",
+      "December2026_planning_value": 47.79249963789284,
+      "December2030_target": 72.27003530374053,
+      "change_from_base_2030": -5.411952694890871,
+      "annual_price_return_at_52_22": 0.08137911338055437,
+      "minimum_2027_2030_economic_cash_B": 34.74028711691429
+    },
+    {
+      "case": "mature_tax_21",
+      "December2026_planning_value": 49.43698799732879,
+      "December2030_target": 74.81678912130323,
+      "change_from_base_2030": -2.8651988773281687,
+      "annual_price_return_at_52_22": 0.09043396150737926,
+      "minimum_2027_2030_economic_cash_B": 34.74028711691429
+    },
+    {
+      "case": "no_new_capital_credits",
+      "December2026_planning_value": 49.55398572510094,
+      "December2030_target": 75.16077407324191,
+      "change_from_base_2030": -2.521213925389489,
+      "annual_price_return_at_52_22": 0.09163896352223122,
+      "minimum_2027_2030_economic_cash_B": 32.54194072226716
+    },
+    {
+      "case": "terminal_incremental_return_equal_operating_rate",
+      "December2026_planning_value": 47.71549560378393,
+      "December2030_target": 72.15078221404286,
+      "change_from_base_2030": -5.531205784588536,
+      "annual_price_return_at_52_22": 0.080949214597696,
+      "minimum_2027_2030_economic_cash_B": 34.74028711691429
+    },
+    {
+      "case": "embedded_packaging_sales_capital_denominator",
+      "December2026_planning_value": 51.18436394788228,
+      "December2030_target": 77.52288086543432,
+      "change_from_base_2030": -0.15910713319708236,
+      "annual_price_return_at_52_22": 0.0998024208355528,
+      "minimum_2027_2030_economic_cash_B": 34.74028711691429
+    },
+    {
+      "case": "remove_external_packaging_overlay",
+      "December2026_planning_value": 50.32238053103555,
+      "December2030_target": 76.00398120206569,
+      "change_from_base_2030": -1.678006796565711,
+      "annual_price_return_at_52_22": 0.0945751613109973,
+      "minimum_2027_2030_economic_cash_B": 36.2302603312
+    },
+    {
+      "case": "temporary_2027_unit_shortfall_restore_2028",
+      "December2026_planning_value": 51.11016568489131,
+      "December2030_target": 77.47967534890363,
+      "change_from_base_2030": -0.20231264972777296,
+      "annual_price_return_at_52_22": 0.09965480922563441,
+      "minimum_2027_2030_economic_cash_B": 33.716198022267164
+    }
+  ],
+  "implied_multiples": {
+    "2030_unlevered_operating_value_B": 390.8802294410402,
+    "2030_operating_value_to_EBIT": 9.926010906535991,
+    "2030_operating_value_to_EBITDA": 6.3881514442587015,
+    "2030_operating_value_to_revenue_capital_denominator": 3.2714440571581593,
+    "2030_owner_cash_to_equity_value": 0.05112314464306361,
+    "warning": "Implied multiples summarize the sameDCF and are not independent validation. Revenue is the model capital denominator, not fully reconstructed consolidated revenue. Owner cash is economic, notGAAPFCF. No peer or historical average is imputed."
+  },
+  "primary_source_checks": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Operating segments printed9-11;NCI12-13;MD&A42",
+      "summary": "Productsrevenueisexternal;Foundryrevenuemostlyinternal,withmarket-likepricesandseparateexternalrevenue. CorporateSBCisoutside reportedsegments. Intersegmentinventoryprofitiseliminated. AllOtherincludesMobileye/IMS;Altera isdeconsolidated. Arizona49%minorityremainsandIrelandwasrepurchased. Theseconfirm boundaries, notforecastprofits."
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-outlines-new-financial-reporting-structure.html",
+      "locator": "April2,2024newreportingstructure",
+      "summary": "Thefoundrymodelseparatesmanufacturing/processdevelopmentcosts fromproductsandrecordsinternalandexternalfoundrysales. Historicalprofitabilitymustberecastbeforecomparingacrossthattransition."
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/littlebook/terminalvalue.htm",
+      "locator": "Reinvestment andexcessreturnassumptions",
+      "summary": "Stablegrowthneedsfundedreinvestment. Permanentexcessreturnsrequirepersistentcompetitiveadvantage; lowterminalgrowthalonedoesnotmakevaluationsconservative. This ismethodguidance, notanIntelparameterestimate."
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/ovhds/dam2ed/cash.pdf",
+      "locator": "PDFpages3-8",
+      "summary": "Separatingcashrequiresremovingitsinterestincomefromoperatingcashflow. Facevalueisdefensibleforfair-returnfinancialassets; below-marketreturncashmayneeddiscounting. Aminimumreservealoneisnotreason tovaluecashatzero."
+    }
+  ],
+  "computed_reconciliation": {
+    "comparisons": 22,
+    "maximum_absolute_error": 1.1368683772161603e-13
+  },
+  "current_files_unchanged": true,
+  "next_high_value_work": "Economicnotarithmetic:whichacceptedCPUshipments,ASPmixandgroupmarginpathdifferfromwhatinvestorsalreadyexpect? Determinewhetherpublicsourcesjustifyrestorationaftershortageorpermanentlevelchange. Defendthepricebeingpaidforuncertainrecovery; avoidanothermodelcomplexitylayer."
+}

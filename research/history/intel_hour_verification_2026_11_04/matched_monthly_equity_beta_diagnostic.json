@@ -1,0 +1,515 @@
+{
+  "method": "OLS with intercept of USD adjustedmonthlyprice returns on SPYadjustedmonthlyprice returns; no riskfree subtraction. Monthlyreturnwindows endingOct2026 include only completedmonths. DataYahooFinancechartAPI, rawsaved. 2-HC3-SEinterval diagnosticnotfuturebetaconfidenceinterval. No prospectiveestimate inferredmechanically.",
+  "rows": [
+    {
+      "ticker": "TXN",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 1.3945041945118626,
+      "monthly_intercept": 0.00025754411393955415,
+      "R_squared": 0.38416480942269293,
+      "OLS_slope_standard_error": 0.23183515349154182,
+      "HC3_slope_standard_error": 0.30441929902790876,
+      "illustrative_2_HC3_SE_interval": [
+        0.7856655964560451,
+        2.00334279256768
+      ],
+      "sample_monthly_stock_volatility": 0.10044377904487377,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "TXN",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 1.7061512482919718,
+      "monthly_intercept": -0.0022893301682234447,
+      "R_squared": 0.29737399371512274,
+      "OLS_slope_standard_error": 0.44976813880494343,
+      "HC3_slope_standard_error": 0.7195138901307503,
+      "illustrative_2_HC3_SE_interval": [
+        0.26712346803047127,
+        3.145179028553472
+      ],
+      "sample_monthly_stock_volatility": 0.11121875445382888,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "TXN",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 2.102858036351414,
+      "monthly_intercept": -0.0022669650860119607,
+      "R_squared": 0.3384465523802226,
+      "OLS_slope_standard_error": 0.626810171611069,
+      "HC3_slope_standard_error": 1.054686446112573,
+      "illustrative_2_HC3_SE_interval": [
+        -0.006514855873731573,
+        4.21223092857656
+      ],
+      "sample_monthly_stock_volatility": 0.13195860089205574,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "AMD",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 2.490693957572871,
+      "monthly_intercept": 0.015663851197879722,
+      "R_squared": 0.3038726244484369,
+      "OLS_slope_standard_error": 0.4949997031435178,
+      "HC3_slope_standard_error": 0.537807956805129,
+      "illustrative_2_HC3_SE_interval": [
+        1.415078043962613,
+        3.566309871183129
+      ],
+      "sample_monthly_stock_volatility": 0.2017142537008504,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "AMD",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 3.3656458467833614,
+      "monthly_intercept": 0.0033231953757873814,
+      "R_squared": 0.31672169483495016,
+      "OLS_slope_standard_error": 0.847791125047514,
+      "HC3_slope_standard_error": 1.1920038724712452,
+      "illustrative_2_HC3_SE_interval": [
+        0.9816381018408711,
+        5.749653591725852
+      ],
+      "sample_monthly_stock_volatility": 0.2125893481077951,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "AMD",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 3.852634103333683,
+      "monthly_intercept": 0.025039276849201597,
+      "R_squared": 0.32792923037212285,
+      "OLS_slope_standard_error": 1.1758823262987375,
+      "HC3_slope_standard_error": 1.739519478791065,
+      "illustrative_2_HC3_SE_interval": [
+        0.37359514575155295,
+        7.331673060915813
+      ],
+      "sample_monthly_stock_volatility": 0.24560686107763774,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "GFS",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 1.7757571124032696,
+      "monthly_intercept": -0.009105614141019824,
+      "R_squared": 0.2598231170315143,
+      "OLS_slope_standard_error": 0.39354865305709313,
+      "HC3_slope_standard_error": 0.3923147484723159,
+      "illustrative_2_HC3_SE_interval": [
+        0.9911276154586378,
+        2.5603866093479013
+      ],
+      "sample_monthly_stock_volatility": 0.15552731608801415,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "GFS",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 2.0006431103945648,
+      "monthly_intercept": -0.031913891901401016,
+      "R_squared": 0.2707157805066194,
+      "OLS_slope_standard_error": 0.5631470148253211,
+      "HC3_slope_standard_error": 0.7869081865833709,
+      "illustrative_2_HC3_SE_interval": [
+        0.42682673722782294,
+        3.5744594835613066
+      ],
+      "sample_monthly_stock_volatility": 0.1366862498455527,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "GFS",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 2.4706302512706504,
+      "monthly_intercept": -0.015424131303734191,
+      "R_squared": 0.32654772588679415,
+      "OLS_slope_standard_error": 0.7564434983047926,
+      "HC3_slope_standard_error": 1.0521616077109661,
+      "illustrative_2_HC3_SE_interval": [
+        0.36630703584871815,
+        4.574953466692582
+      ],
+      "sample_monthly_stock_volatility": 0.15783641858044817,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "INTC",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 2.4185341937923077,
+      "monthly_intercept": 0.0007339667351457281,
+      "R_squared": 0.24731709342580843,
+      "OLS_slope_standard_error": 0.5540094782196936,
+      "HC3_slope_standard_error": 0.8533593996197003,
+      "illustrative_2_HC3_SE_interval": [
+        0.7118153945529071,
+        4.125252993031708
+      ],
+      "sample_monthly_stock_volatility": 0.21711367271939777,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "INTC",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 4.016220096316749,
+      "monthly_intercept": -0.026882543039685153,
+      "R_squared": 0.2863231931150687,
+      "OLS_slope_standard_error": 1.0874281559800194,
+      "HC3_slope_standard_error": 2.0127566896609506,
+      "illustrative_2_HC3_SE_interval": [
+        -0.009293283005152198,
+        8.041733475638651
+      ],
+      "sample_monthly_stock_volatility": 0.2668094650792438,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "INTC",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 4.775904211086685,
+      "monthly_intercept": 0.019598876078964794,
+      "R_squared": 0.32906076025712583,
+      "OLS_slope_standard_error": 1.4539444533998156,
+      "HC3_slope_standard_error": 2.9506148372806407,
+      "illustrative_2_HC3_SE_interval": [
+        -1.1253254634745966,
+        10.677133885647965
+      ],
+      "sample_monthly_stock_volatility": 0.3039417462182505,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "MCHP",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 1.8383023015493116,
+      "monthly_intercept": -0.009265603294433034,
+      "R_squared": 0.42049666548293385,
+      "OLS_slope_standard_error": 0.2833672305544655,
+      "HC3_slope_standard_error": 0.32710433525322524,
+      "illustrative_2_HC3_SE_interval": [
+        1.1840936310428611,
+        2.4925109720557623
+      ],
+      "sample_monthly_stock_volatility": 0.1265603484326907,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "MCHP",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 2.280024170740149,
+      "monthly_intercept": -0.02950913736512,
+      "R_squared": 0.38479179703231425,
+      "OLS_slope_standard_error": 0.49442241169198026,
+      "HC3_slope_standard_error": 0.6914561872788069,
+      "illustrative_2_HC3_SE_interval": [
+        0.8971117961825354,
+        3.6629365452977627
+      ],
+      "sample_monthly_stock_volatility": 0.13065876232385537,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "MCHP",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 2.769039671196986,
+      "monthly_intercept": -0.022828635855708053,
+      "R_squared": 0.44281967245065057,
+      "OLS_slope_standard_error": 0.6622199671188799,
+      "HC3_slope_standard_error": 0.9025796400589283,
+      "illustrative_2_HC3_SE_interval": [
+        0.9638803910791292,
+        4.574198951314843
+      ],
+      "sample_monthly_stock_volatility": 0.15191075408313132,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "UMC",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 1.727729715454096,
+      "monthly_intercept": 0.006170707890291605,
+      "R_squared": 0.22850595945781638,
+      "OLS_slope_standard_error": 0.41684954170658056,
+      "HC3_slope_standard_error": 0.41421717579213513,
+      "illustrative_2_HC3_SE_interval": [
+        0.8992953638698258,
+        2.5561640670383663
+      ],
+      "sample_monthly_stock_volatility": 0.16135745905332907,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "UMC",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 2.093166970475248,
+      "monthly_intercept": 0.00440884340647011,
+      "R_squared": 0.16162232292651557,
+      "OLS_slope_standard_error": 0.8175862809780112,
+      "HC3_slope_standard_error": 0.9697055022182962,
+      "illustrative_2_HC3_SE_interval": [
+        0.15375596603865538,
+        4.03257797491184
+      ],
+      "sample_monthly_stock_volatility": 0.18508242983492884,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "UMC",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 2.528919351527631,
+      "monthly_intercept": 0.0272454891651598,
+      "R_squared": 0.1793152974649933,
+      "OLS_slope_standard_error": 1.1534615919986038,
+      "HC3_slope_standard_error": 1.3371799352509814,
+      "illustrative_2_HC3_SE_interval": [
+        -0.14544051897433175,
+        5.203279222029594
+      ],
+      "sample_monthly_stock_volatility": 0.21802138999516413,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "TSM",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 1.426058288481414,
+      "monthly_intercept": 0.013410086649242257,
+      "R_squared": 0.3493718421212705,
+      "OLS_slope_standard_error": 0.25553227286562297,
+      "HC3_slope_standard_error": 0.24641849981261235,
+      "illustrative_2_HC3_SE_interval": [
+        0.9332212888561893,
+        1.9188952881066386
+      ],
+      "sample_monthly_stock_volatility": 0.1077098289630888,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "TSM",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 1.4040653399225582,
+      "monthly_intercept": 0.02365851059690155,
+      "R_squared": 0.2921038093387682,
+      "OLS_slope_standard_error": 0.3748556296079146,
+      "HC3_slope_standard_error": 0.3133747848721717,
+      "illustrative_2_HC3_SE_interval": [
+        0.7773157701782148,
+        2.0308149096669017
+      ],
+      "sample_monthly_stock_volatility": 0.09234868165052867,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "TSM",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 1.5151472700078574,
+      "monthly_intercept": 0.017780524502842204,
+      "R_squared": 0.2799416810154902,
+      "OLS_slope_standard_error": 0.5180761029870483,
+      "HC3_slope_standard_error": 0.4143667901417386,
+      "illustrative_2_HC3_SE_interval": [
+        0.6864136897243802,
+        2.3438808502913346
+      ],
+      "sample_monthly_stock_volatility": 0.10454273543310753,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "ADI",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 1.2408928601074223,
+      "monthly_intercept": 0.0068520400056605885,
+      "R_squared": 0.39461754772202073,
+      "OLS_slope_standard_error": 0.20181200928626883,
+      "HC3_slope_standard_error": 0.1947829313370475,
+      "illustrative_2_HC3_SE_interval": [
+        0.8513269974333273,
+        1.6304587227815173
+      ],
+      "sample_monthly_stock_volatility": 0.0881877166422138,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "ADI",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 1.2989417177843494,
+      "monthly_intercept": 0.008555946107299726,
+      "R_squared": 0.2874576630296971,
+      "OLS_slope_standard_error": 0.3507265137058985,
+      "HC3_slope_standard_error": 0.40728285996776603,
+      "illustrative_2_HC3_SE_interval": [
+        0.48437599784881735,
+        2.1135074377198815
+      ],
+      "sample_monthly_stock_volatility": 0.08612211989722013,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "ADI",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 1.3365430437486099,
+      "monthly_intercept": 0.013661902194075152,
+      "R_squared": 0.26776038171669636,
+      "OLS_slope_standard_error": 0.47122146129560116,
+      "HC3_slope_standard_error": 0.5977558964242354,
+      "illustrative_2_HC3_SE_interval": [
+        0.14103125090013902,
+        2.532054836597081
+      ],
+      "sample_monthly_stock_volatility": 0.09429368007150718,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "ON",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 2.1056074460679772,
+      "monthly_intercept": -0.0042297330379705775,
+      "R_squared": 0.36497373286430135,
+      "OLS_slope_standard_error": 0.3646938596113567,
+      "HC3_slope_standard_error": 0.4515949705210591,
+      "illustrative_2_HC3_SE_interval": [
+        1.202417505025859,
+        3.0087973871100955
+      ],
+      "sample_monthly_stock_volatility": 0.1555996486489815,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "ON",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 2.6913680168152636,
+      "monthly_intercept": -0.03536975832627452,
+      "R_squared": 0.39235605791035255,
+      "OLS_slope_standard_error": 0.5744047646039265,
+      "HC3_slope_standard_error": 1.015835537750745,
+      "illustrative_2_HC3_SE_interval": [
+        0.6596969413137734,
+        4.723039092316753
+      ],
+      "sample_monthly_stock_volatility": 0.15273722555811806,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "ON",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 3.258902206032832,
+      "monthly_intercept": -0.030953985021648388,
+      "R_squared": 0.46582953041171826,
+      "OLS_slope_standard_error": 0.7440230963003532,
+      "HC3_slope_standard_error": 1.500319356825731,
+      "illustrative_2_HC3_SE_interval": [
+        0.25826349238137025,
+        6.259540919684294
+      ],
+      "sample_monthly_stock_volatility": 0.17431333621364498,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    },
+    {
+      "ticker": "STM",
+      "months": 60,
+      "start_return_month": "2021-11",
+      "end_return_month": "2026-10",
+      "beta": 1.9878126226402941,
+      "monthly_intercept": -0.010158087235914593,
+      "R_squared": 0.35015846150379604,
+      "OLS_slope_standard_error": 0.3555763509637788,
+      "HC3_slope_standard_error": 0.43363895124834123,
+      "illustrative_2_HC3_SE_interval": [
+        1.1205347201436116,
+        2.8550905251369767
+      ],
+      "sample_monthly_stock_volatility": 0.1499702585883844,
+      "sample_monthly_SPY_volatility": 0.04464388790249147
+    },
+    {
+      "ticker": "STM",
+      "months": 36,
+      "start_return_month": "2023-11",
+      "end_return_month": "2026-10",
+      "beta": 2.2109458130867523,
+      "monthly_intercept": -0.02258817959025797,
+      "R_squared": 0.24633017943075886,
+      "OLS_slope_standard_error": 0.6632395121942335,
+      "HC3_slope_standard_error": 1.0691850692714382,
+      "illustrative_2_HC3_SE_interval": [
+        0.07257567454387592,
+        4.349315951629629
+      ],
+      "sample_monthly_stock_volatility": 0.1583548170191063,
+      "sample_monthly_SPY_volatility": 0.035547739716159064
+    },
+    {
+      "ticker": "STM",
+      "months": 24,
+      "start_return_month": "2024-11",
+      "end_return_month": "2026-10",
+      "beta": 2.3765521042191526,
+      "monthly_intercept": 0.005348126604922662,
+      "R_squared": 0.23970495828881255,
+      "OLS_slope_standard_error": 0.9023781488414855,
+      "HC3_slope_standard_error": 1.619005632268267,
+      "illustrative_2_HC3_SE_interval": [
+        -0.8614591603173816,
+        5.614563368755687
+      ],
+      "sample_monthly_stock_volatility": 0.17720730734229567,
+      "sample_monthly_SPY_volatility": 0.036506718325384935
+    }
+  ]
+}

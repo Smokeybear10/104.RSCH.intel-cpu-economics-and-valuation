@@ -1,0 +1,551 @@
+{
+  "as_of_utc": "2026-11-05T07:37:45.204233+00:00",
+  "scope": "Decomposition and conditional reverse diagnostics within the existing model; no new operating forecast or model mutation.",
+  "sources": {
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "rates": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "joint": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/joint_scenario_results.json",
+      "sha256": "ad3425c3b29bc928ecf8eea1f1b6ee85fa064f2547feaf577c304e0454c9faa4"
+    }
+  },
+  "reference_price_USD": 58.28,
+  "date_scope": "Values at December31,2026 conditional planning date versus November4,2026close58.28;57day mismatch remains. This is not an exact current-date market-implied forecast or a holding-period return.",
+  "method": {
+    "margin": "Change the mature35% DCAI endpoint only; incremental target margin phases linearly2031\u20132040 on unchanged DCAI sales; charge current operating tax; no duplicate Foundry benefit.",
+    "capital": "Change host incremental sales/net operating investment only; phases from.8in2030 to targetin2035. For eachyear capitaldelta=changeinhostsales*(1/newturnover\u22121/.8); no change to separatepackaging,WC,DA,earlierinvestment,revenues,leases,NCI,credits orfinancing.",
+    "risk": "Each comparison holds the selected existing annual risk schedule fixed. Maturing risk is11.555% through2030 then\u22120.15percentagepoint/year to10.055% in2040,holding thereafter.",
+    "APV": "Reconstructed fullcashPV and shieldPV using cumulative annualdiscountproducts. Operating terminalg3%; financingbenefittailg0;5.51Bclaims.",
+    "threshold": "One unknown at a time, all other assumptions held fixed. Multiple combinations can matchthequote; no unique marketexpectations identified."
+  },
+  "decomposition": [
+    {
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "cases": {
+        "central": {
+          "price_USD": 46.95806228358314,
+          "explicit_operating_PV_B": 138.02878680013643,
+          "terminal_operating_PV_B": 111.43964552540922,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "equity_B": 258.7389231825431
+        },
+        "margin_only": {
+          "price_USD": 51.287102511241436,
+          "explicit_operating_PV_B": 146.67851350444613,
+          "terminal_operating_PV_B": 126.6429304754967,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "equity_B": 282.5919348369403
+        },
+        "capital_only": {
+          "price_USD": 48.62581078710863,
+          "explicit_operating_PV_B": 143.53016322153945,
+          "terminal_operating_PV_B": 115.12756335843157,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "equity_B": 267.9282174369685
+        },
+        "both": {
+          "price_USD": 52.9548510147669,
+          "explicit_operating_PV_B": 152.17988992584912,
+          "terminal_operating_PV_B": 130.33084830851902,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "equity_B": 291.7812290913656
+        }
+      },
+      "margin_delta_USD": 4.329040227658297,
+      "capital_delta_USD": 1.6677485035254875,
+      "joint_delta_USD": 5.996788731183763,
+      "margin_share_of_joint_delta": 0.7218930700604732,
+      "additivity_error_USD": 2.1316282072803006e-14
+    },
+    {
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "cases": {
+        "central": {
+          "price_USD": 53.77047718436613,
+          "explicit_operating_PV_B": 141.26400684800686,
+          "terminal_operating_PV_B": 145.55696751744938,
+          "financing_tax_benefit_PV_B": 2.772818151398819,
+          "equity_B": 296.27532928585737
+        },
+        "margin_only": {
+          "price_USD": 59.005978893709745,
+          "explicit_operating_PV_B": 150.25384046321363,
+          "terminal_operating_PV_B": 165.4147483207259,
+          "financing_tax_benefit_PV_B": 2.772818151398819,
+          "equity_B": 325.1229437043407
+        },
+        "capital_only": {
+          "price_USD": 55.669054532426706,
+          "explicit_operating_PV_B": 146.90819169228172,
+          "terminal_operating_PV_B": 150.37394386098828,
+          "financing_tax_benefit_PV_B": 2.772818151398819,
+          "equity_B": 306.73649047367115
+        },
+        "both": {
+          "price_USD": 60.904556241770315,
+          "explicit_operating_PV_B": 155.89802530748847,
+          "terminal_operating_PV_B": 170.2317246642648,
+          "financing_tax_benefit_PV_B": 2.772818151398819,
+          "equity_B": 335.5841048921544
+        }
+      },
+      "margin_delta_USD": 5.235501709343616,
+      "capital_delta_USD": 1.8985773480605772,
+      "joint_delta_USD": 7.134079057404186,
+      "margin_share_of_joint_delta": 0.7338721182112343,
+      "additivity_error_USD": 7.105427357601002e-15
+    },
+    {
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "cases": {
+        "central": {
+          "price_USD": 64.1458230460918,
+          "explicit_operating_PV_B": 183.4913170008362,
+          "terminal_operating_PV_B": 154.7058882318823,
+          "financing_tax_benefit_PV_B": 2.7292938788755223,
+          "equity_B": 353.44348498396585
+        },
+        "margin_only": {
+          "price_USD": 70.1556053857056,
+          "explicit_operating_PV_B": 195.49928460019606,
+          "terminal_operating_PV_B": 175.81182132379445,
+          "financing_tax_benefit_PV_B": 2.7292938788755223,
+          "equity_B": 386.55738567523787
+        },
+        "capital_only": {
+          "price_USD": 66.46107191797083,
+          "explicit_operating_PV_B": 191.1285929609166,
+          "terminal_operating_PV_B": 159.82563355585532,
+          "financing_tax_benefit_PV_B": 2.7292938788755223,
+          "equity_B": 366.20050626801924
+        },
+        "both": {
+          "price_USD": 72.47085425758462,
+          "explicit_operating_PV_B": 203.13656056027645,
+          "terminal_operating_PV_B": 180.9315666477674,
+          "financing_tax_benefit_PV_B": 2.7292938788755223,
+          "equity_B": 399.3144069592912
+        }
+      },
+      "margin_delta_USD": 6.009782339613793,
+      "capital_delta_USD": 2.315248871879021,
+      "joint_delta_USD": 8.325031211492814,
+      "margin_share_of_joint_delta": 0.7218930700604714,
+      "additivity_error_USD": 0.0
+    },
+    {
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "cases": {
+        "central": {
+          "price_USD": 73.60314582615611,
+          "explicit_operating_PV_B": 187.98260543568023,
+          "terminal_operating_PV_B": 202.06919935860554,
+          "financing_tax_benefit_PV_B": 2.9845428354625536,
+          "equity_B": 405.55333350212015
+        },
+        "margin_only": {
+          "price_USD": 80.87132169359336,
+          "explicit_operating_PV_B": 200.46272584471623,
+          "terminal_operating_PV_B": 229.6367279791488,
+          "financing_tax_benefit_PV_B": 2.9845428354625536,
+          "equity_B": 445.6009825316994
+        },
+        "capital_only": {
+          "price_USD": 76.23884242788006,
+          "explicit_operating_PV_B": 195.81813493293959,
+          "terminal_operating_PV_B": 208.75635813684517,
+          "financing_tax_benefit_PV_B": 2.9845428354625536,
+          "equity_B": 420.07602177761913
+        },
+        "both": {
+          "price_USD": 83.50701829531731,
+          "explicit_operating_PV_B": 208.29825534197556,
+          "terminal_operating_PV_B": 236.3238867573884,
+          "financing_tax_benefit_PV_B": 2.9845428354625536,
+          "equity_B": 460.1236708071983
+        }
+      },
+      "margin_delta_USD": 7.26817586743725,
+      "capital_delta_USD": 2.63569660172395,
+      "joint_delta_USD": 9.9038724691612,
+      "margin_share_of_joint_delta": 0.7338721182112335,
+      "additivity_error_USD": 0.0
+    },
+    {
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "cases": {
+        "central": {
+          "price_USD": 70.97777530967525,
+          "explicit_operating_PV_B": 181.3578639078155,
+          "terminal_operating_PV_B": 172.5821536170763,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "equity_B": 391.0875419563106
+        },
+        "margin_only": {
+          "price_USD": 77.6819879986314,
+          "explicit_operating_PV_B": 194.75335216328136,
+          "terminal_operating_PV_B": 196.1268772777589,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "equity_B": 428.027753872459
+        },
+        "capital_only": {
+          "price_USD": 73.56055118869989,
+          "explicit_operating_PV_B": 189.87762710508318,
+          "terminal_operating_PV_B": 178.2934855132344,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "equity_B": 405.31863704973637
+        },
+        "both": {
+          "price_USD": 80.26476387765605,
+          "explicit_operating_PV_B": 203.27311536054904,
+          "terminal_operating_PV_B": 201.83820917391694,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "equity_B": 442.2588489658848
+        }
+      },
+      "margin_delta_USD": 6.704212688956147,
+      "capital_delta_USD": 2.582775879024638,
+      "joint_delta_USD": 9.2869885679808,
+      "margin_share_of_joint_delta": 0.72189307006047,
+      "additivity_error_USD": -1.4210854715202004e-14
+    },
+    {
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "cases": {
+        "central": {
+          "price_USD": 81.52789173697595,
+          "explicit_operating_PV_B": 186.3681207213057,
+          "terminal_operating_PV_B": 225.41829534449232,
+          "financing_tax_benefit_PV_B": 3.0331567601002503,
+          "equity_B": 449.21868347073746
+        },
+        "margin_only": {
+          "price_USD": 89.63590532589556,
+          "explicit_operating_PV_B": 200.2903190436058,
+          "terminal_operating_PV_B": 256.1712518971393,
+          "financing_tax_benefit_PV_B": 3.0331567601002503,
+          "equity_B": 493.89383834568457
+        },
+        "capital_only": {
+          "price_USD": 84.46814308102908,
+          "explicit_operating_PV_B": 195.10904565197333,
+          "terminal_operating_PV_B": 232.87815531955752,
+          "financing_tax_benefit_PV_B": 3.0331567601002503,
+          "equity_B": 465.41946837647026
+        },
+        "both": {
+          "price_USD": 92.57615666994873,
+          "explicit_operating_PV_B": 209.03124397427345,
+          "terminal_operating_PV_B": 263.63111187220454,
+          "financing_tax_benefit_PV_B": 3.0331567601002503,
+          "equity_B": 510.0946232514175
+        }
+      },
+      "margin_delta_USD": 8.108013588919619,
+      "capital_delta_USD": 2.940251344053138,
+      "joint_delta_USD": 11.048264932972785,
+      "margin_share_of_joint_delta": 0.7338721182112325,
+      "additivity_error_USD": -2.842170943040401e-14
+    }
+  ],
+  "reverse_thresholds": [
+    {
+      "risk": "corrected_central_flat",
+      "target_quote_USD": 58.28,
+      "price_at35pct_and080": 46.95806228358314,
+      "value_per_mature_margin_percentage_point_USD": 0.865808045531665,
+      "margin_at080_matching_quote": 0.48076729622516295,
+      "margin_threshold_within_existing30_40_range": false,
+      "capital_productivity_at35pct_matching_quote": null,
+      "capital_threshold_within_existing060_100_range": false,
+      "price_at35pct_capital10000_limit_check": 57.44039356765969,
+      "price_at35pct_zero_post2030_host_net_investment_limit": 57.44187090362888
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "target_quote_USD": 58.28,
+      "price_at35pct_and080": 53.77047718436613,
+      "value_per_mature_margin_percentage_point_USD": 1.0471003418687346,
+      "margin_at080_matching_quote": 0.39306676863065326,
+      "margin_threshold_within_existing30_40_range": true,
+      "capital_productivity_at35pct_matching_quote": 1.4774302516647775,
+      "capital_threshold_within_existing060_100_range": false,
+      "price_at35pct_capital10000_limit_check": 65.41554440786514,
+      "price_at35pct_zero_post2030_host_net_investment_limit": 65.4171165754756
+    }
+  ],
+  "value_grid": [
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_capital_productivity": 0.6,
+      "price_USD": 39.99680259932507,
+      "explicit_operating_PV_B": 121.02206061166581,
+      "terminal_operating_PV_B": 90.08983085361784,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 220.38238232228113
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_capital_productivity": 0.8,
+      "price_USD": 42.62902205592487,
+      "explicit_operating_PV_B": 129.37906009582676,
+      "terminal_operating_PV_B": 96.23636057532177,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 234.885911528146
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_capital_productivity": 1.0,
+      "price_USD": 44.29677055945035,
+      "explicit_operating_PV_B": 134.88043651722978,
+      "terminal_operating_PV_B": 99.92427840834412,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 244.07520578257143
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_capital_productivity": 0.6,
+      "price_USD": 44.32584282698335,
+      "explicit_operating_PV_B": 129.67178731597548,
+      "terminal_operating_PV_B": 105.29311580370528,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 244.23539397667824
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_capital_productivity": 0.8,
+      "price_USD": 46.95806228358314,
+      "explicit_operating_PV_B": 138.02878680013643,
+      "terminal_operating_PV_B": 111.43964552540922,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 258.7389231825431
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_capital_productivity": 1.0,
+      "price_USD": 48.62581078710863,
+      "explicit_operating_PV_B": 143.53016322153945,
+      "terminal_operating_PV_B": 115.12756335843157,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 267.9282174369685
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.375,
+      "mature_host_capital_productivity": 0.6,
+      "price_USD": 46.49036294081251,
+      "explicit_operating_PV_B": 133.99665066813031,
+      "terminal_operating_PV_B": 112.89475827874904,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 256.1618998038769
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.375,
+      "mature_host_capital_productivity": 0.8,
+      "price_USD": 49.122582397412295,
+      "explicit_operating_PV_B": 142.3536501522913,
+      "terminal_operating_PV_B": 119.04128800045297,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 270.66542900974173
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.375,
+      "mature_host_capital_productivity": 1.0,
+      "price_USD": 50.79033090093777,
+      "explicit_operating_PV_B": 147.8550265736943,
+      "terminal_operating_PV_B": 122.72920583347533,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 279.8547232641671
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_capital_productivity": 0.6,
+      "price_USD": 48.65488305464163,
+      "explicit_operating_PV_B": 138.32151402028515,
+      "terminal_operating_PV_B": 120.49640075379276,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 268.0884056310754
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_capital_productivity": 0.8,
+      "price_USD": 51.287102511241436,
+      "explicit_operating_PV_B": 146.67851350444613,
+      "terminal_operating_PV_B": 126.6429304754967,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 282.5919348369403
+    },
+    {
+      "risk": "corrected_central_flat",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_capital_productivity": 1.0,
+      "price_USD": 52.9548510147669,
+      "explicit_operating_PV_B": 152.17988992584912,
+      "terminal_operating_PV_B": 130.33084830851902,
+      "financing_tax_benefit_PV_B": 2.58895408799514,
+      "equity_B": 291.7812290913656
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_capital_productivity": 0.6,
+      "price_USD": 45.51893206646915,
+      "explicit_operating_PV_B": 123.68406795756914,
+      "terminal_operating_PV_B": 117.67089280827473,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 250.80931568624501
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_capital_productivity": 0.8,
+      "price_USD": 48.534975475022534,
+      "explicit_operating_PV_B": 132.2741732328001,
+      "terminal_operating_PV_B": 125.69918671417291,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 267.42771486737416
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_capital_productivity": 1.0,
+      "price_USD": 50.43355282308311,
+      "explicit_operating_PV_B": 137.91835807707494,
+      "terminal_operating_PV_B": 130.51616305771182,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 277.88887605518795
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_capital_productivity": 0.6,
+      "price_USD": 50.754433775812764,
+      "explicit_operating_PV_B": 132.67390157277592,
+      "terminal_operating_PV_B": 137.52867361155123,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 279.6569301047283
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_capital_productivity": 0.8,
+      "price_USD": 53.77047718436613,
+      "explicit_operating_PV_B": 141.26400684800686,
+      "terminal_operating_PV_B": 145.55696751744938,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 296.27532928585737
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_capital_productivity": 1.0,
+      "price_USD": 55.669054532426706,
+      "explicit_operating_PV_B": 146.90819169228172,
+      "terminal_operating_PV_B": 150.37394386098828,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 306.73649047367115
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.375,
+      "mature_host_capital_productivity": 0.6,
+      "price_USD": 53.37218463048456,
+      "explicit_operating_PV_B": 137.1688183803793,
+      "terminal_operating_PV_B": 147.45756401318948,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 294.0807373139699
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.375,
+      "mature_host_capital_productivity": 0.8,
+      "price_USD": 56.38822803903794,
+      "explicit_operating_PV_B": 145.75892365561026,
+      "terminal_operating_PV_B": 155.48585791908764,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 310.699136495099
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.375,
+      "mature_host_capital_productivity": 1.0,
+      "price_USD": 58.28680538709852,
+      "explicit_operating_PV_B": 151.4031084998851,
+      "terminal_operating_PV_B": 160.30283426262656,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 321.1602976829128
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_capital_productivity": 0.6,
+      "price_USD": 55.989935485156366,
+      "explicit_operating_PV_B": 141.6637351879827,
+      "terminal_operating_PV_B": 157.3864544148277,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 308.50454452321156
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_capital_productivity": 0.8,
+      "price_USD": 59.005978893709745,
+      "explicit_operating_PV_B": 150.25384046321363,
+      "terminal_operating_PV_B": 165.4147483207259,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 325.1229437043407
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_capital_productivity": 1.0,
+      "price_USD": 60.904556241770315,
+      "explicit_operating_PV_B": 155.89802530748847,
+      "terminal_operating_PV_B": 170.2317246642648,
+      "financing_tax_benefit_PV_B": 2.772818151398819,
+      "equity_B": 335.5841048921544
+    }
+  ],
+  "verification": {
+    "comparisons_to_existing_corrected_values": 90,
+    "max_absolute_error": 1.1368683772161603e-13,
+    "all2027_2030_cash_unchanged": true,
+    "all_terminal_growth_checks_passed": true,
+    "margin_plus_capital_delta_equals_joint_delta": true,
+    "financing_tax_capacity_checks_passed": true,
+    "all_source_hashes_unchanged": true
+  },
+  "limitations": [
+    "The parameters are economic scenarios, not statisticallyestimatedcoefficients. Current productmargins can exceed the long-runbreak-even endpoint withoutestablishingthat they persist.",
+    "Capitaldenominator is the frozenhost convention,notfullyreconciledGAAPsales;no directclaimedmappingfromreportedquarterlyrevenue/capexto.8or1.0.",
+    "NormalizedD&A unchangedwhilecapitalchanges is anaggregateeconomicconvention,notreconstructedassetcohorts ortaxdepreciation.",
+    "Changes occurafter2030:they explain sensitivitytocontinuationcash,not a near-termcatalyst orforecastof2027earningsmiss.",
+    "No probabilityweights,winningscore,marginofcertainty,orautomaticriskreductionattachedtobetteroperations."
+  ]
+}

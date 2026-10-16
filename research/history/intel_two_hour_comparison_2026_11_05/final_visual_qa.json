@@ -1,0 +1,38 @@
+{
+  "completed_utc": "2026-11-06T00:11:17.320279+00:00",
+  "reviewer": "root",
+  "files": [
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "visual_qa": "passed",
+      "sha256": "2020ecf0ab40e120382ce4a72a083bc16bcb15169a5b5e75e98aff8324ffa64b"
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 5,
+      "visual_qa": "passed",
+      "sha256": "a8b9186e3273ba0f9d614ce6cf26532d55f91e7628d56dddfcf7d3b3f3e21ff7"
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "pages": 3,
+      "visual_qa": "passed",
+      "sha256": "5378d3640870836d427f900a69925213df90cb99e8a930e8fd9b49c2c5c6d09d"
+    }
+  ],
+  "changed_final_pages": {
+    "screen": [
+      4,
+      10
+    ],
+    "defense": [
+      1,
+      2
+    ],
+    "comparison": [
+      3
+    ]
+  },
+  "boundary": "No additional pages included in the ten-page screen; defense and comparison are separate preparation artifacts. No entry submitted."
+}

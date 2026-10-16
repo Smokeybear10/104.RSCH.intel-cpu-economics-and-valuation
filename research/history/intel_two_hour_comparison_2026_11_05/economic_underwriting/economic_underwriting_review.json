@@ -1,0 +1,266 @@
+{
+  "version": "2026-11-05 deeper buyer and supplier source review",
+  "conclusion": {
+    "strongest_countercase": "The pitch treats the latest premium-mix economics as durable while also relying on materially more output. Supply relief may simultaneously enable delivery and reduce the scarcity component of realized prices. AMD and Arm offer credible substitutes, and increasing cores per package can reduce the package count needed for a fixed workload. None of this disproves Intel revenue growth, but it makes stable long-run CPU profitability the central forecast to defend.",
+    "most_harmful_missing_evidence": "Evidence that Intel retains incremental profit per delivered premium CPU as supply improves, after the higher silicon, packaging, customer-discount and capital costs required by the richer mix. The publicly reported ASP series does not isolate mix, price changes on unchanged products, customer composition or net input-cost pass-through; standalone CPU operating margin is not disclosed.",
+    "what_is_already_supported": "Actual premium-family adoption, current revenue and product-profit improvement, supply investment, and subsequent-generation customer roadmaps support a real recovery. They establish a feasible operating path, not the probability that the chosen path persists through the mature valuation period.",
+    "confidence_boundary": "Public sources support the mechanism but do not identify the selected 20% 2027 ASP growth or 40% mature DCAI margin. No probability of winning M37 can be inferred from this work.",
+    "investment_relevance": "A one-year physical delivery miss is much less damaging in the frozen valuation than permanent economics erosion. The evidence effort should be weighted toward durability and capital productivity rather than presenting every near-term supply issue as an equal valuation risk.",
+    "strongest_bull_counterweight": "Primary prepared remarks report Intel 3 costs down about 15% and Intel 18A about 40% since Q1; actual buyer deployments substantiate value and adoption. Those historical gains are already part of the Q3 economics, and do not provide another future credit.",
+    "new_supplier_implication": "AT&S and Ibiden disclose financed expansion but long lead times, richer production content and supplier pricing power. Their figures do not reveal Intel-specific capacity or unit costs."
+  },
+  "quantified_findings": [
+    {
+      "finding": "A temporary missed-shipment year is not the existing persistent downside.",
+      "method": "Policy was selected before the model agent computed it: 2027 units +10% instead of +20%, ASP +20%, 2028 absolute revenue restored to base; no extra recovery of lost 2027 sales. Base capex, D&A and dollar Foundry profit retained; 50% consolidated incremental EBIT retention, 15% tax and 10% sales-linked working capital.",
+      "revenue_2027_B": 28.852164,
+      "lost_2027_CPU_revenue_B": 2.622924,
+      "lost_after_tax_profit_B": 1.1147427,
+      "target_Dec2030": 77.479675,
+      "base_target_Dec2030": 77.681988,
+      "limitation": "The level restoration is assumed, not demonstrated. No stranded work-in-process or extra physical cost is assumed. It is not a permanent share-loss scenario.",
+      "reproducibility": "../model_audit/reconstruction_results.json"
+    },
+    {
+      "finding": "Describing 35% margin as requiring a large 6.7-point CPU-margin decline can obscure its economic plausibility.",
+      "method": "At the existing illustrative Other margin of 20%, Q3 implies CPU margin 46.62%. Holding modeled mature quantities, Other revenue, and all-in dollar costs fixed, a 10% realized CPU ASP decline would reduce DCAI margin from about 40.03% to 35.15%; a 10.29% decline reaches 35%.",
+      "limitation": "This is an algebraic conditional diagnostic, not a forecast of an ASP decline. Costs, volumes, mix and customer pricing would move jointly. No 46.62% CPU margin was disclosed by Intel.",
+      "reproducibility": "margin_and_capacity_diagnostics.json"
+    },
+    {
+      "finding": "Higher package ASP can coexist with falling CPU expenditure per workload.",
+      "method": "Current Intel recommended-price illustrations: 8592+ to 6980P doubles cores while advertised price rises 7.41%; 6780E to 6990E+ doubles cores while price rises 57.26%. Both selected packages are larger and have higher TDP. These are content illustrations, not workload benchmarks.",
+      "implication": "A premium-mix thesis must separate package value, useful workload capacity, customer TCO and Intel retained profit.",
+      "limitation": "Current recommended prices are not launch prices or realized customer prices. Cores, TDP and package footprint cannot be treated as throughput, energy use or actual manufacturing cost.",
+      "reproducibility": "package_and_workload_economics.json"
+    },
+    {
+      "finding": "The 20% units plus 20% ASP forecast needs a workload-and-share explanation.",
+      "method": "If useful throughput per shipped package rises 25%, 20% more packages imply 50% more aggregate workload capacity while CPU revenue per capacity unit falls 4%. If Intel relative package-unit share falls 10%, total addressable package shipments must grow 33.3% to yield Intel unit growth of 20%.",
+      "limitation": "Both percentages are illustrative identities. Neither workload throughput growth nor Intel share decline is estimated here. Server systems, packages, cores and revenue shares cannot be mixed.",
+      "reproducibility": "package_and_workload_economics.json"
+    },
+    {
+      "finding": "Capacity percentages cannot be copied into calendar-year unit growth.",
+      "method": "A hypothetical 40% capacity step available from July gives 20% annual capacity increase at unchanged first-half output; a linear second-half ramp to 40% gives only 10%. Good output also depends on beginning run rate, yields, utilization and resource use per richer package.",
+      "limitation": "The 40% figure is an illustration motivated by management Q&A transcriptions, not a verified primary-source good-package capacity specification. Intel's prepared remarks establish constraints but not all needed denominators.",
+      "reproducibility": "margin_and_capacity_diagnostics.json"
+    }
+  ],
+  "public_benchmark_reanalysis": {
+    "disposition": "Exploratory public-data appendix only. The deeper harness audit reveals unrecorded error checks, no repetitions and incomplete client-version data. Do not promote the numerical peer advantages as validated production cost, controlled CPU performance, or a valuation input.",
+    "protocol": "benchmark_protocol.json was written before reading the selected workload outputs. Redis and static web were selected as common available application families; PostgreSQL lacked matched data and was excluded. Every common configuration with positive reported throughput and zero reported static HTTP status failures is included. Later harness inspection showed those checks do not establish error-free execution.",
+    "source_repository": "https://github.com/SpareCores/sc-inspector-data",
+    "source_commit": "6269fa20c43f9bfd67952a0481e772ae4abba471",
+    "examined_products": [
+      "AWS m8i.4xlarge: 16 vCPUs, 64 GiB; Xeon 6975P-C; 8 physical cores with SMT",
+      "AWS m8a.4xlarge: 16 vCPUs, 64 GiB; EPYC 9R45; 16 physical cores",
+      "AWS m9g.4xlarge: 16 vCPUs, 64 GiB; Graviton5; 16 physical cores"
+    ],
+    "observations": "AMD has lower hourly-rental cost per measured operation and no worse mean latency in all 6 Redis and 69 static-web configurations. Arm has lower cost in all 75, with no worse mean latency in 73; the two exceptions are retained. These are correlated parameter settings on three archived runs, not independent experiments.",
+    "rental_cost_per_operation_reduction_ranges": {
+      "AMD_Redis": [
+        0.3651180509,
+        0.4753974997
+      ],
+      "Arm_Redis": [
+        0.363674538,
+        0.4476676662
+      ],
+      "AMD_static_web": [
+        0.0735260363,
+        0.5357365109
+      ],
+      "Arm_static_web": [
+        0.1181707285,
+        0.5996979842
+      ]
+    },
+    "pricing": "Spare Cores collected on-demand Linux/Shared us-east-1 rates dated November 5, 2026: Intel $0.8467/hour, AMD $0.9738/hour, Arm $0.7827/hour. No EBS, traffic, licenses, discounts, tax, migration or engineering expense. Collection code is pinned in sources/aws_crawler_b253fef.py.",
+    "methodological_limits": [
+      "Dates are August 28, 2025 for Intel; October 8, 2025 for AMD; June 11, 2026 for Arm. They are not contemporaneous runs, and current prices are separately dated.",
+      "Identical task hashes and same named software versions do not imply identical kernels or binaries. Intel/AMD metadata lacks the kernel value present in Arm metadata.",
+      "VM product comparison is legitimate for a buyer of these sizes, but physical core counts differ, so the result is not CPU-architecture causal performance.",
+      "Both client and server use the same VM. Redis tests SET operations; static-web tests a single-process HTTP server. These are not full production application benchmarks.",
+      "Mean latency is available; production SLOs and tail latency are not. A no-worse mean-latency diagnostic was added after computing results and is explicitly descriptive.",
+      "No confidence interval or population inference is claimed. One recorded instance variant per architecture cannot estimate cloud host-to-host variation.",
+      "Raw records are attributed to Spare Cores under CC BY-SA 4.0. These are our calculations from others' measurements, not tests we executed.",
+      "Redis throughput sums client SET ops/sec; reported latency is an unweighted mean of client means. It does not check each memtier exit code or require successful flush. A client with no result contributes zero throughput but remains in the latency denominator.",
+      "The memtier client is unpinned and its version is not recorded. Equal task hashes and Redis server versions cannot prove equivalent client builds.",
+      "Static-web failed=0 covers only non-2xx/3xx status responses. Connect, read, write and timeout errors are not recorded.",
+      "Both workloads use one 10-second run per configuration, no warmup and no repetitions. Static-web data consists of zero-filled cached files over plain HTTP. Missing error records cannot be reconstructed."
+    ],
+    "reproducibility": "public_cloud_benchmark_diagnostic.json contains all paired measurements and metadata; analyze_public_cpu_economics.py regenerates results.",
+    "source_manifest": "source_manifest.json records all saved file hashes, raw benchmark URLs and price API URLs.",
+    "pricing_license_scope": "The benchmark repository license applies to raw benchmark records. Price API data is separately sourced from Spare Cores; the raw benchmark license is not represented as the license of the entire compiled price database."
+  },
+  "new_primary_counterevidence": [
+    {
+      "source": "Arm Q2 FY2027 shareholder letter",
+      "date": "2026-11-04",
+      "url": "https://investors.arm.com/static-files/0b5baa2e-fc47-4d05-b724-e49de7bd4356",
+      "location": "pages 2\u20133",
+      "facts": "Arm reports doubled data-center royalties, expects more than 60% Arm-based servers at top hyperscalers by end-2026, and describes purchase orders from multiple AGI CPU customers through calendar 2027. First commercial deliveries are expected in FY Q4 2027.",
+      "limits": "Royalty growth is not unit growth. Top-hyperscaler server share is not all-server market share. Purchase orders and delivery plans are forward-looking vendor statements.",
+      "significance": "The alternative is more substantial than a vague future Arm threat."
+    },
+    {
+      "source": "Arm and Oracle OCI announcement",
+      "date": "2026-10-28",
+      "url": "https://newsroom.arm.com/news/arm-agi-cpu-oracle-cloud-infrastructure",
+      "facts": "OCI plans AGI CPU instances for fall 2027.",
+      "limits": "Announcement does not establish delivered volume, customer adoption, Intel displacement or ROI.",
+      "significance": "An Intel customer roadmap is not an exclusive Intel procurement commitment."
+    },
+    {
+      "source": "Amazon and Meta Graviton agreement",
+      "date": "2026-04-24",
+      "url": "https://press.aboutamazon.com/aws/2026/4/meta-signs-agreement-with-aws-to-power-agentic-ai-on-amazons-graviton-chips",
+      "facts": "Meta's agentic-AI agreement begins at tens of millions of Graviton cores and can scale.",
+      "limits": "Cores are not CPU packages or purchased chips. AWS service revenue cannot be translated into Intel lost revenue.",
+      "significance": "Agentic workloads create general-purpose compute demand without creating an automatic x86 requirement."
+    },
+    {
+      "source": "AMD Q3 2026 financial results",
+      "date": "2026-11-03",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "facts": "Data Center revenue is $8.546B and segment operating income $2.882B; EPYC and MI450 growth are reported, and OCI E7 is planned with sixth-generation EPYC.",
+      "limits": "The segment mixes CPU, GPU and other products. Its 33.7% margin is not a clean Intel CPU margin comparator; 97% segment growth does not prove CPU units doubled.",
+      "significance": "Competitor supply and product cadence deserve explicit treatment alongside Intel's roadmap."
+    }
+  ],
+  "source_ledger": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "date": "2026-10-29",
+      "location": "MD&A Intel Products and Industry Supply Constraints",
+      "excerpt": "The majority of the increase in server ASPs resulted from a higher mix of premium products",
+      "paraphrase": "Q3 server ASP rose 54% and units 10%; YTD rose 44% and 4%. Pricing partly offset input costs. DCAI product profit increased, partly offset by higher premium-product unit costs. Component constraints extend into 2027.",
+      "distinction": "Observed growth and mix attribution; not a forecast of specific 2027 growth or mature profitability."
+    },
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "location": "Prepared remarks pp1\u20133, 5\u20136",
+      "paraphrase": "Intel 3 wafer capacity and advanced organic substrates constrain output. Granite Rapids is the largest server family; Clearwater is shipping and Diamond is planned for 2027. Additional factory and packaging capacity is being pursued. Page 6 explicitly reports Intel 3 costs improved approximately 15% from Q1 and Intel 18A approximately 40%; future further reductions are not quantified.",
+      "local": "sources/intel_q3_prepared.pdf"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "date": "2026-01-23",
+      "location": "MD&A Intel Products",
+      "paraphrase": "Server ASP fell 4% in 2025 as units rose 9%, with competitive pricing and lower-core mix among drivers.",
+      "distinction": "A historical demonstration that package ASP can reverse, not an estimate of future erosion."
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/products/sku/237261/intel-xeon-platinum-8592-processor-320m-cache-1-90-ghz/specifications.html",
+      "observed": "2026-11-05",
+      "local": "sources/intel_8592plus.html",
+      "values": "64 cores, $12,992 recommended price, 350W TDP, 77.5x56.5mm package"
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/products/sku/240777/intel-xeon-6980p-processor-504m-cache-2-00-ghz/specifications.html",
+      "observed": "2026-11-05",
+      "local": "sources/intel_6980P.html",
+      "values": "128 cores, $13,955 recommended price, 500W TDP, 104.5x70.5mm package"
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/products/sku/240362/intel-xeon-6780e-processor-108m-cache-2-20-ghz/specifications.html",
+      "observed": "2026-11-05",
+      "local": "sources/intel_6780E.html",
+      "values": "144 cores, $9,535 recommended price, 330W TDP, 77.5x56.5mm package"
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/products/sku/246074/intel-xeon-6990e-processor-576m-cache-2-20-ghz/specifications.html",
+      "observed": "2026-11-05",
+      "local": "sources/intel_6990Eplus.html",
+      "values": "288 cores, $14,995 recommended price, 450W TDP, 104.5x70.5mm package"
+    },
+    {
+      "url": "https://docs.sparecores.com/benchmarks/redis/",
+      "paraphrase": "SET throughput measured with server/client pairs on the VM; mean latency is a characteristic of the same throughput test, not a standalone speed score."
+    },
+    {
+      "url": "https://docs.sparecores.com/benchmarks/static_web/",
+      "paraphrase": "Single-process binserve and wrk share VM resources. Throughput is not isolated maximum server capacity; mean latency must accompany the throughput interpretation."
+    },
+    {
+      "url": "https://github.com/SpareCores/sc-crawler/blob/b253fef36a6e315933a3f1c5b3b46a8ebfb746c2/src/sc_crawler/vendors/_aws.py",
+      "location": "lines 902\u2013914",
+      "local": "sources/aws_crawler_b253fef.py",
+      "paraphrase": "AWS price collection filters Linux, no preinstalled software, no license, Used capacity, OnDemand and Shared tenancy."
+    },
+    {
+      "url": "https://docs.sparecores.com/images/benchmark-redis/",
+      "paraphrase": "Describes summed client SET throughput, unweighted client-mean latency, 10-second single runs, unrecorded memtier version and incomplete exit/flush validation."
+    },
+    {
+      "url": "https://docs.sparecores.com/images/benchmark-web/",
+      "paraphrase": "Describes plain-HTTP loopback cached-file tests, 10-second single runs and incomplete socket/error reporting."
+    },
+    {
+      "url": "https://github.com/SpareCores/sc-images/blob/363a474cff90e124eaf014573b427d66c92b85fd/images/benchmark-redis/benchmark.py",
+      "local": "sources/redis_harness_363a474.py",
+      "scope": "Pinned Redis measurement harness; last changed August 28, 2024."
+    },
+    {
+      "url": "https://github.com/SpareCores/sc-images/blob/6c183f7f4e3b6c09410ec4d3f635bf6709293fdb/images/benchmark-web/benchmark.py",
+      "local": "sources/web_harness_6c183f7.py",
+      "scope": "Pinned static-web measurement harness; last changed September 8, 2024."
+    }
+  ],
+  "recommended_pitch_changes": [
+    "Replace any claim that 40% is mechanically conservative with: '40% assumes the latest CPU economics largely survive competitive supply expansion; a 35% case allows modest realized-price erosion if costs do not offset it.'",
+    "Separate a temporary capacity delay from permanent share, price or capital-productivity damage. Use the independently reconstructed 77.48 temporary-delay case with its explicit assumptions alongside the existing persistent stress.",
+    "Describe richer package content as the reason revenue can outgrow units; acknowledge that useful throughput grows too, so per-workload pricing and unit demand need separate reasoning.",
+    "Show competitor adoption and the independently reviewed SPEC comparison when discussing competitive value. Keep the Spare Cores calculations as exploratory research rather than a headline numerical advantage, because harness error/version controls are incomplete.",
+    "Use a falsification table with disclosed server ASP/unit trends, DCAI profit after richer-product costs, consolidated Foundry losses, and cash invested in capacity. A favorable change in one is not sufficient if the others deteriorate.",
+    "If using a cost-learning counterargument, separate historical gains already in Q3 from future required savings; use the fixed-quantity frontier in retained_profit_deepening.json. Do not add wafer savings in both DCAI and Foundry.",
+    "Close the Nov 5 AT&S checkpoint with the released report, while distinguishing EUR 211m customer-prepayment receivables from received cash and leaving unnamed capacity unattributed."
+  ],
+  "public_data_cannot_close": [
+    "Actual net prices by SKU/customer and the fraction of the reported ASP change due to unchanged-SKU price increases.",
+    "Good-die, advanced-substrate and assembly capacity per package by SKU, ramp calendar and yields sufficient to independently derive 20% 2027 shipments.",
+    "Standalone CPU gross or operating profit and custom-silicon margins sufficient to identify the CPU margin decomposition.",
+    "Whether a new-generation public benchmark advantage is economically captured by Intel, the OEM, the cloud provider or the final customer."
+  ],
+  "defensible_original_analysis_completed": [
+    "Preselected complete matched-configuration public cloud workload reanalysis, with dated data/prices, full paired outcomes and explicit confounders.",
+    "Current Intel SKU content/price illustrations and package-to-workload accounting identities.",
+    "Price/cost/mix stress translating a mature-margin assumption into an economic threshold.",
+    "Prespecified temporary-delivery-miss diagnostic independently run by the model reconstruction agent."
+  ],
+  "followup_research_files": [
+    "retained_profit_deepening.json",
+    "ats_nov5_supplier_update.json",
+    "ibiden_pricing_capacity_update.json",
+    "final_primary_economic_context_audit.json",
+    "fab28_Q1_original_QA_verification.json",
+    "explicit_claims_overlay_independent_review.json"
+  ],
+  "latest_retained_profit_and_foundry_receipts": {
+    "updated_utc": "2026-11-05T23:27:10.807238+00:00",
+    "foundry_bridge": "foundry_internal_recovery_cost_bridge.json",
+    "CPU_expense_sensitivity": "cpu_expense_retention_sensitivity.json",
+    "incremental_upside": "incremental_upside_adjudication.json",
+    "conclusion": "Manufacturing learning and real customer deployments strengthen the case that Intel delivers useful products, but do not independently establish future retained CPU profit or the joint Products/Foundry cash recovery. No additional target increase is supported by re-crediting existing cost learning or packaging adoption."
+  },
+  "latest_primary_context_audit": {
+    "updated_utc": "2026-11-05T23:43:05.606431+00:00",
+    "file": "final_primary_economic_context_audit.json",
+    "conclusion": "No newly verified primary statement requires a numerical change to the owned forecast. The most useful additions are current cross-vendor competition at the same buyer and the distinction between dollar TAM, package units and retained profit. Existing moderate conviction is warranted; stronger confidence or a higher target would exceed the evidence."
+  },
+  "Fab28_Q1_followup": {
+    "updated_utc": "2026-11-05T23:45:53.135834+00:00",
+    "receipt": "fab28_Q1_original_QA_verification.json",
+    "materiality": "Disclose earlyQ1sales assessment; annualforecast notquarterlyreconciled."
+  },
+  "current_valuation_receipt": {
+    "updated_utc": "2026-11-05T23:48:19.308854+00:00",
+    "receipt": "explicit_claims_overlay_independent_review.json",
+    "adopted_other_claim_reserve_B": 1.215,
+    "planning_value_USD": 51.06659434427227,
+    "target2030_USD": 77.46147983166225,
+    "warning": "Earlier targets inside historical diagnostic findings are pre-overlay receipts; subtract0.22050816696914702per share to compare under the adopted additional-claim convention. Their operating economics are unchanged."
+  }
+}

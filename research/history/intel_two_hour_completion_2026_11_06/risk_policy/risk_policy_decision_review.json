@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-11-06T07:52:30.455831+00:00",
+  "updated_utc": "2026-11-06T07:53:48.070640+00:00",
+  "conclusion": "Evidence does not yet establish a strong LONG or SHORT. The selected operating forecast does not become a strong LONG merely through ordinary changes to discount rates, terminal growth or capital efficiency. The existing favorable operating forecast combined with a legitimate, pre-existing alternative ERP method does support a positive conditional LONG outcome. A categorical claim that there is no price edge would overstate the analysis.",
+  "key_results": [
+    {
+      "case": "Selected operations, selected 11.555% asset rate",
+      "planning_Dec2026_USD": 35.40465307548003,
+      "target_Dec2030_USD": 53.42933483948492,
+      "annual_price_return": 0.0053884915192619065
+    },
+    {
+      "case": "Selected operations, published-rounded T12 10.625% asset rate",
+      "planning_value_USD": 40.774269237282056,
+      "target2030_USD": 59.67643532568411,
+      "annual_price_return": 0.03251529397054087
+    },
+    {
+      "case": "Existing favorable operations, published-rounded T12 10.625% asset rate",
+      "planning_value_USD": 56.13928584556836,
+      "target2030_USD": 82.47015162680005,
+      "annual_price_return": 0.11615212704256206
+    }
+  ],
+  "robustness_findings": [
+    {
+      "question": "Is 11.555% the only reason the selected case fails a 10% annual price-return hurdle?",
+      "answer": "No. A flat 10% asset rate gives a $64.82 target and 5.33% annual price growth. Selected cash flows require an 8.814% flat asset rate to reach $77.6253 and 10% annual price growth. That is a conditional mathematical hurdle, not an observed required return."
+    },
+    {
+      "question": "Can a legitimate risk calibration support LONG under existing favorable operations?",
+      "answer": "Yes. The favorable case at 10.625% yields $56.14 planning value and $82.47 end-2030 value, or 11.62% annual price growth from the $52.25 November 5 entry. Both the operating case and lower-ERP method existed before this cross-comparison. Their joint probability is not measured."
+    },
+    {
+      "question": "Can terminal growth alone close the selected-case gap?",
+      "answer": "Funded 2%, 3% and 4% terminal growth give $52.07, $53.43 and $55.15 targets. A 10% annual price-return hurdle would require 8.563% perpetual USD growth, an implausibly strong nominal-economy claim. This mathematical solution is not adopted."
+    },
+    {
+      "question": "Can capital efficiency alone close the selected-case gap?",
+      "answer": "Raising post-2030 host incremental sales/capital from 0.8 to 1.0 raises the target from $53.43 to $55.70. Even eliminating all post-2030 host growth investment, while preserving sales, profits and packaging investment, caps this single-axis target at $64.79. That limit is economically infeasible, not a real operating case."
+    },
+    {
+      "question": "Is the selected case conservative in every dimension?",
+      "answer": "No. It retains the substantial Foundry turnaround, $7B gross packaging revenue in 2030 and high CPU profitability. Its terminal reinvestment implies roughly 20.45% incremental return on capital versus an 11.555% asset rate. The YTD margin anchor and 2% unit plus 2% ASP normalization are planning judgments, not statistically identified expected outcomes."
+    }
+  ],
+  "risk_method_evidence": {
+    "source": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx",
+    "locator": "Historical ERP row 220, November 1, 2026: C220 Treasury 4.94%; I220 sustainable-payout ERP 4.41%; J220 plain-T12 ERP 3.79%.",
+    "selected_formula": "4.94% + 1.50 \u00d7 4.41% = 11.555%",
+    "alternative_formula": "4.94% + 1.50 \u00d7 3.79% = 10.625%",
+    "sustainable_payout_case": "This method links mature shareholder distributions to reinvestment needs. At 4.94% growth and historical market ROE of 19.4453%, sustainable payout is 74.5954%, above the current 63.5200%. Higher projected distributions at the same index price imply a higher expected return and ERP.",
+    "plain_T12_case": "This method carries the current 63.5200% payout ratio forward, avoiding an additional prediction of rising distributions. It still assumes payout persistence and inherits the source earnings-growth estimates. At 4.94% terminal growth, unchanged payout can be consistent with lower future market ROE of about 13.54%, rather than necessarily idle excess cash.",
+    "method_selection": "Both are established source methods. Choose on market-wide economic grounds and apply consistently; neither is Intel-specific operating evidence. Neither should be selected because it clears an Intel target.",
+    "exact_formula_control": "The independently reconstructed T12 ERP is 3.7943301221%, implying a 10.6314951832% asset rate and an $82.4003 favorable target. Published-rounded inputs in both displayed methods avoid asymmetrical precision.",
+    "current_rates": "November 5 Treasury yields are 4.84% for 10 years and 5.27% for 20 years. Keep the November 1 ERP paired with its 4.94% Treasury. Replacing only the base rate is a partial sensitivity, not a fully updated implied ERP. Kroll\u2019s current 5% ERP with spot 20-year Treasury gives 12.77% at beta 1.5; do not average these distinct frameworks."
+  },
+  "beta_and_financing_review": {
+    "beta_source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html",
+    "observed_input": "January 2026 U.S. semiconductor sector: 66 firms and cash-adjusted unlevered beta 1.50. This is a broad-sector estimate, not Intel\u2019s measured forward beta.",
+    "why_explainable": "Cyclical demand and manufacturing operating leverage support a systematic business-risk allowance. Prior matched-peer regressions provide a cross-check, with substantial business-fit, frequency and capital-structure limitations.",
+    "why_not_permanent_proof": "Intel\u2019s future CPU design, foundry, packaging and other business value weights are unknown. Historical betas do not prove one permanent asset beta or an equity hedge ratio. Asset beta 1.5 is not automatically equity beta 1.5.",
+    "maturation_control": "The pre-existing asset-rate fade from 11.555% through 2030 to 10.055% by 2040 gives selected/favorable targets of $61.25/$84.78 and annual price growth of 3.90%/12.36%. Maturity can reduce risk, but fabrication fixed costs and cyclicality need not disappear. A levered-beta rule of thumb does not automatically set asset beta to one.",
+    "execution_risk": "A conditional conservative forecast plus a sector systematic-risk discount is not automatically double counting. However, calling that planning case an unbiased expected forecast is unjustified. An added company execution-risk premium would need a distinct justification.",
+    "APV": "The model discounts financing tax shields at the asset rate. An optimistic control using 4.94% for financing components changes the selected target only from $53.43 to $54.15. Tax capacity and refinancing mean these flows are not guaranteed; a lower discount rate is not automatic."
+  },
+  "positive_mechanism_and_requirements": {
+    "mechanism": "Capacity delivery lets richer CPU platforms convert upgrade utility and strong recent product economics into shipments. Profit retention remains closer to recent Q2/Q3 economics than the full-YTD anchor. This commercial case, combined with a defensible lower market ERP, supports conditional upside without inventing an external-wafer windfall.",
+    "source_case": "quarterly/anchor_valuation_overlay_results.json, joint_anchor_old_CPU2028plus_growth_pooled_old_growth",
+    "owned_assumptions": [
+      "Q4 anchors: CCPG declines 21% sequentially, DCAI grows 17%, and Other DCAI grows 25%. These are favorable interpretations of qualitative guidance, not reported outcomes.",
+      "2027 CPU revenue is $31.7393B. For 2028\u20132030, unit growth is 25%/18%/12% and ASP growth is 8%/4%/2%, producing $60.0709B of 2030 CPU revenue.",
+      "2031\u20132040 CPU unit growth fades through 8%/7%/6%/5%/4%/3%/2.5%/2%/1.5%/1%, with 2% ASP growth. CPU revenue reaches $108.0261B in 2040.",
+      "Mature CPU operating margin is 44.9087%, inferred from pooled Q2/Q3 results while assuming 20% Other DCAI margin. Intel does not disclose this CPU margin.",
+      "Other DCAI grows 60%/30%/20%/15% through 2030, followed by an owned fade; its mature margin is 20%. Client margin reaches 28% by 2040.",
+      "The existing $2.5B Foundry operating profit and $7B gross packaging revenue in 2030 remain. There is no second credit for already observed node-cost improvement.",
+      "Post-2030 host incremental sales/capital is 0.8, packaging is 1.0, and perpetual growth is funded at 3%. The alternative asset rate is flat 10.625%."
+    ],
+    "unresolved_commercial_evidence": "Actual unit delivery, net ASP and platform mix, retained profit after capacity normalizes, repeat packaging volumes and funded Foundry cost recovery. Current sources establish mechanisms but not this exact joint trajectory.",
+    "margin_of_safety_limit": "The $56.14 planning value is only about 7.44% above $52.25 and is dated 56 days later. An 11.62% conditional four-year return does not itself establish alpha, a robust margin of safety or a success probability."
+  },
+  "dates": {
+    "entry": "November 5, 2026 at $52.25",
+    "planning": "December 31, 2026",
+    "exit": "December 31, 2030",
+    "holding_years_ACT36525": 4.153319644079398,
+    "warning": "The planning value is not contemporaneous November 5 fair value. Do not silently discount all equity at the asset rate. Illustrative equity carry at 8\u201312% changes the selected $35.40 to $34.79\u201334.99 over 56 days; exact intraquarter cash and risk alignment have not been reconstructed.",
+    "target_scope": "Targets are conditional future equity values after retained cash and debt, not guaranteed market prices."
+  },
+  "what_can_be_verified_now": [
+    "Source identity, month, pairing, formulas and rounding.",
+    "Cash-flow and valuation reconciliation, and transparent break-even hurdles.",
+    "Funded growth and the finite value effect of capital efficiency.",
+    "Different outcomes under multiple pre-existing market-risk methods."
+  ],
+  "what_is_not_proven": [
+    "Which operating case is expected or most likely.",
+    "Permanent forward beta or future market ERP.",
+    "Future margin, volume, mix and capital efficiency.",
+    "Joint scenario probabilities, investment alpha or competition-winning probability."
+  ],
+  "chronology": {
+    "risk_policy_before_calculation.json": "2026-11-06T07:42:08.278646+00:00",
+    "risk_policy_extension_before_calculation.json": "2026-11-06T07:43:26.727939+00:00",
+    "risk_robustness_results.json": "2026-11-06T07:44:52.961786+00:00",
+    "rounded_comparison_policy.json": "2026-11-06T07:48:06.218268+00:00",
+    "rounded_ERP_comparison_results.json": "2026-11-06T07:48:06.819545+00:00"
+  },
+  "validation": {
+    "baseline": {
+      "comparisons": 40,
+      "maximum_error_B_or_USD": 1.4210854715202004e-13
+    },
+    "independent_receipt": "independent_risk_numerical_audit.json",
+    "independent_result": "236 comparisons passed; maximum absolute error 2.84e-13. Rebuilt operating cash, case-specific treasury and direct 1,000-year terminal sums without the risk evaluator."
+  },
+  "source_receipt": "rate_source_verification.json",
+  "files_unchanged": [
+    "root/integrated_model.py",
+    "root/integrated_results.json",
+    "prior research",
+    "PDFs"
+  ]
+}

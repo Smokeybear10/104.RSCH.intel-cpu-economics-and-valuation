@@ -1,0 +1,83 @@
+{
+  "selected_utc": "2026-11-04T11:51:16.070344+00:00",
+  "finalized_utc": "2026-11-04T11:51:59.461946+00:00",
+  "status": "Root accepted the 12% operating rate before any equity valuation. Finance owns treasury and claims; hardware owns 2031\u20132040 maturation. No equity value calculated or inspected to select this rate.",
+  "rate": {
+    "nominal_USD_unlevered_operating_rate": 0.12,
+    "classification": "Rounded asset-risk planning judgment, not measured Intel WACC, cost of equity or required shareholder CAGR.",
+    "matched_reference": {
+      "source_date": "November 1, 2026",
+      "riskfree_input": 0.0529,
+      "implied_equity_risk_premium": 0.0441,
+      "sector_date": "January 2026",
+      "semiconductor_firms": 66,
+      "cash_corrected_unlevered_semiconductor_beta": 1.5,
+      "reference_CAPM_return": 0.11905,
+      "semiconductor_equipment_asset_beta": 1.39
+    },
+    "pairing": "Keep the published 5.29% Treasury input and 4.41% ERP together. The 5.29% input is not the official November 3 ten-year yield.",
+    "rationale": "Cyclical CPU demand, competitive pricing and capital-intensive manufacturing support sector-like semiconductor asset risk. Execution failures belong in cash-flow scenarios; no arbitrary additional distress premium is added for losses already forecast.",
+    "maturity": "Keep 12% through explicit and terminal periods. A mature manufacturer remains cyclical; no automatic discount-rate decline is assumed.",
+    "minimal_rate_controls": [
+      0.11,
+      0.13
+    ],
+    "control_rule": "Hold cash flows and claims fixed. Do not select the rate after seeing the desired stock direction."
+  },
+  "method": {
+    "name": "Parent-attributable unlevered operating DCF with separate financing effects and claims bridge.",
+    "horizon": "Explicit 2027\u20132040 cash flows, then normalized 2041 cash and root-adopted 3% nominal terminal growth.",
+    "timing": "Use one annual timing convention; year-end cash is the transparent default. Discount exponents reflect actual dates. End-2030 operating value includes only 2031 onward, because earlier cash already changes end-2030 cash, debt or distributions.",
+    "operating_cash_formula": "EBIT_operating + normalized_DA - ordinary_unlevered_cash_tax - physical_cash_PPE - delta_working_capital - all_in_lease_cash_allowance - minority_owner_cash_reserve + eligible_capital_incentive_cash.",
+    "scope": "The resulting operating value is already after the selected minority cash reserve and lease cash costs. It is not consolidated enterprise value before every claim.",
+    "current_equity": "Add current excess cash and separately valued nonoperating assets; add any explicitly modeled financing tax benefits; subtract ordinary debt and other nonduplicated claims; resolve existing equity-linked claims. Include known post-balance-sheet movements and a remaining-2026 stub, or explicitly label the balance/date approximation.",
+    "end2030_equity": "Discount 2031\u20132040 operating cash and terminal value to end 2030, then add end-2030 excess cash and nonoperating assets and subtract end-2030 ordinary debt and other nonduplicated claims. Roll treasury through 2030, including interest, capitalized interest, incentives, funding and distributions. Do not simply compound current equity value at 12%.",
+    "financing_effects": "Ordinary debt interest and principal are financing transfers, not additional operating deductions plus a debt-claim subtraction. Cash interest income belongs to treasury when the cash asset is valued separately. Model debt tax benefits separately if used; never leave them in operating taxes and add an APV benefit again.",
+    "tax_shield_discount": "For modeled benefits contingent on operating income, 12% is a transparent approximation unless finance supplies a defensible separate risk schedule. This is not a precise instrument-level APV estimate.",
+    "receivable_control": "The selected 8B capital-tax receivable appears either as dated collections or as an opening asset, never both. Root owns future capital-credit policy."
+  },
+  "cash_conversion_controls": {
+    "ordinary_interest": "Finance explicitly defines the 1.6B line as ordinary debt cash interest for this forecast. Add it back for operating cash, remove the 1B cash interest income, and recompute unlevered taxes. Do not merely add net interest without the tax correction.",
+    "tax": "The existing levered proxy tax of 15% times max(0, EBIT minus interest plus interest income) is not unlevered operating tax. Use root-owned operating tax normalization: 15% through 2030, then 15.6/16.2/16.8/17.4/18% in 2031\u20132035 and 18% afterward. This is not a precise statutory tax-return forecast.",
+    "SBC": "Recurring SBC is already an economic expense in EBIT. Do not restore the accounting CFO addback or also impose future compensation dilution for that same expense. Existing award claims require separate consistent treatment; guided diluted shares are not automatically current legal claims.",
+    "minorities": "The annual minority cash reserve is already deducted. Do not subtract the same 16.642B book NCI balance or a second partner-distribution present value. New partner contributions are financing cash accompanied by claims.",
+    "leases": "Finance owns a 1B annual ALL-IN supplier-capacity/lease cash allowance. It is not a measured debt-principal runoff. Any undisclosed lease interest is inside this envelope; no fabricated split from the 1.6B ordinary debt interest is used. Keep the 1B operating charge and exclude corresponding lease liabilities from debt subtraction. Total D&A already includes assumed lease-asset depreciation: add it back once and charge lease cash once.",
+    "lease_source_limit": "The 2025 footnote describes mostly prepaid supplier capacity and small later contractual payments. Q3 YTD 2026 lease cash of 951M is far above that old schedule. The future 1B allowance is therefore an owned cash budget, not an empirically calibrated lease amortization schedule.",
+    "supplier_payments": "Cash PPE includes extended-payment capital purchases. Working capital includes supplier/substrate advances. Do not add purchase commitments or those payments again. Reconcile any supplier-finance liability with settlement already included in forecast capex before making another claim deduction.",
+    "capitalized_cash_interest": "Finance owns 1B annually in 2027\u20132030, rounded from Q3 264M and YTD 806M accounting capitalization, not an exact disclosed cash split. Remove it from gross PPE to obtain physical unlevered capex of 27/29/27/25B; retain it once as financing cash in treasury.",
+    "capitalized_interest_DA": "Forward normalized EBIT and D&A exclude amortization of NEW capitalized interest. Historical embedded capitalized-interest amortization may remain within legacy D&A and ordinary tax normalization. If future amortization A is identified, EBIT_operating = EBIT_GAAP + A and D&A_operating = D&A_GAAP - A, preserving pretax EBIT plus D&A. Do not claim an exact historical tax-basis reconstruction.",
+    "capitalized_interest_tax": "Do not grant an automatic immediate tax deduction for capitalized interest. A later depreciation tax benefit remains unestimated unless tracked separately; do not add it on top of normalization and call both observed."
+  },
+  "terminal_reinvestment": {
+    "owned_elsewhere": "Root/hardware adopted 3% nominal growth, incremental sales-to-operating-capital of 0.60 INCLUDING working capital, incremental working capital of 10% of incremental revenue, and D&A of 20% of Products revenue by 2035.",
+    "identity": "Total net operating reinvestment = deltaRevenue / 0.60. DeltaWC = 0.10 * deltaRevenue. Gross physical capex = D&A + total net reinvestment - deltaWC. Subtract capex and deltaWC once.",
+    "guard": "Do not add the full capital-ratio amount to capex and then subtract working capital again. Do not add a separate growth/ROIC constraint on top of the already adopted capital-productivity mechanism."
+  },
+  "strongest_risk": "The forecast combines substantial DCAI profit growth, Foundry break-even and eventual capital maturation. Weaker demand and pricing could reduce CPU profit and factory utilization together. Sector asset beta is an imperfect proxy for this transition; address the joint operating downside directly rather than repairing it through arbitrary discount-rate changes.",
+  "sources": [
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm",
+      "use": "November 1 matched risk-free input and ERP"
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html",
+      "use": "January 2026 cash-corrected unlevered semiconductor and equipment betas"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "use": "Cash interest, lease cash, capitalized interest, SBC and claims boundaries"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "use": "Note 19 lease asset/payment nature; December 2025 stock-unit counts are not current claims"
+    }
+  ],
+  "input_hashes": {
+    "cash_conversion_policy_2026_11_04.json": "cadc8a93f26ea92e9d9539c064c2ca12533fa34a649f06be23c0bff875dc9fc4",
+    "integrated_product_to_cash_forecast_2026_11_04.json": "cb00094f87130e39637dd6a2f48a141011cfa3424e99e4e7f2272821f7c3b515",
+    "product_operating_policy_2026_11_04.json": "8a350e92f2f7519809f1eb59a213e8c7c1c401435ce3f25822733f39c9297a41",
+    "foundry_operating_policy.json": "fd17c6573519d6b2db78b9defa51bceb479b690a085aef90d5bc9f48fe855a81",
+    "corporate_other_policy.json": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a"
+  },
+  "no_equity_value_computed": true
+}

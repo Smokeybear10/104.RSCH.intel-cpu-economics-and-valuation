@@ -1,0 +1,108 @@
+{
+  "completed_utc": "2026-11-05T06:48:18.751664+00:00",
+  "request": "Rebuild the Intel competition pitch around business claims, evidence and forecast impact, using winning-pitch structure; reduce hedge/model-defense dominance.",
+  "status": "Nine-page business-led revision completed and verified.",
+  "judgment": {
+    "recommendation": "Moderate-conviction relativeSHORT Intel with a funded illustrative market hedge.",
+    "core_thesis": "A substantial recovery remains capital intensive and its premium product margins face competition and changing mix; those risks constrain what I am willing to pay for the later cash.",
+    "two_mechanisms": [
+      "Accepted output needs qualified tools, substrates and packaging even when existing buildings are reused.",
+      "Current premium mix creates real profit but does not establish permanent mature margin and capital returns."
+    ],
+    "independence_limit": "Two linked mechanisms in one conditional valuation thesis, not two separately proven sources of alpha.",
+    "operating_forecasts_changed": false,
+    "valuation_outputs_changed": false,
+    "robust_alpha_established": false,
+    "consensus_miss_established": false,
+    "winning_probability": "Not calibrated; no numeric claim.",
+    "remaining_limit": "Owned long-term margins, capital productivity and risk assumptions remain contested. The matched alternative ERP method still nearly removes the relative-position advantage."
+  },
+  "changes": [
+    "Replaced three defense-style headline bullets with two specific business judgments.",
+    "Added four-year2027\u201330profit-to-owner-cash bridge and annualforecasttable.",
+    "Linked Ireland cleanroom reuse, substrate commitments and process qualification to investment assumptions without doublecounting.",
+    "Explained observedpricinghistory, explicit2027forecast and maturemargin/capitaljudgments with opposing supplier evidence.",
+    "Addedbusinesscheckpoints tying output, profit and combined investment to whatchangesview.",
+    "Reduced standalone short/hedge discussion fromthreepages toonesupportingpage.",
+    "Retained futurecentralvalue70.98,favorablecases and adverse4.91%portfolioERPcontrol."
+  ],
+  "cumulative_cash_bridge": {
+    "computed_utc": "2026-11-05T06:40:57.798670+00:00",
+    "period": "2027\u20132030 forecasts, unchanged source model",
+    "EBIT_B": 111.25315092811026,
+    "DA_B": 72.24142857142857,
+    "physical_cash_capex_B": 124.5,
+    "WC_use_B": 18.01099621548313,
+    "net_tax_incentives_B": 1.2310273607834574,
+    "leases_NCI_B": 8.7,
+    "net_financing_B": -5.927500000000002,
+    "owner_cash_B": 27.587110644839157,
+    "net_operating_investment_B": 70.26956764405456,
+    "net_operating_investment_fraction_EBIT": 0.631618673788947,
+    "cash_identity_error_B": -2.1316282072803006e-14,
+    "interpretation": "Nominal cumulative economic cash bridge. Not GAAP FCF, distributions, investment return, ROIC, or a measured consensus miss. Growth investment supports later value. Short claim remains valuation-led and relative; no forecast changed."
+  },
+  "new_source_evidence": {
+    "IBIDEN": "Targeted primary supplier review supports persistent substrate demand/capacity constraints, which also support possible durable pricing.",
+    "Oracle": "Expanded planned Diamond Rapids collaboration is evidence against treating competing architectures as proven Intel displacement. Retainedinresearchrecord; notusedasadditionalbearclaim.",
+    "iFAST": "Reverified actual datedearnings1.77/2.59,capex30/32andnegative2027FCFview. Doesnotestablish overlookedcashproblem."
+  },
+  "artifact": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "536b3b84a58060ac58c0b96e38817c5bbf8ffbce225ce0e468b48f9378e53818",
+    "pages": 9
+  },
+  "qa": {
+    "pages": 9,
+    "source_hyperlinks": 18,
+    "all_pages_rendered_and_visually_inspected": true,
+    "changed_pages_rechecked_after_final_edits": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "all_text_inside_page_bounds": true,
+    "layout_defects_observed": false,
+    "source_model_unchanged": true,
+    "independent_numeric_review": "Cumulative waterfall, annual tables, capital checkpoints and funded wafer case verified.",
+    "independent_editorial_review": "All9pages reviewed; citation and growth-normalization wording issues corrected.",
+    "review_corrections_applied": [
+      "Page2premium-mix/higher-costclaim nowmatchesIntelQ3source",
+      "Page3cash-totalslabel replacedwithundiscountedforecasttotals",
+      "Page5observedvsforecastlabelmadeexplicit",
+      "Removedorphanedearlier-normalizationfooter",
+      "Page7wafergrowth/margin/capitalassumptionsrestored"
+    ],
+    "submitted": false
+  },
+  "reviews_and_research": {
+    "business_claims.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_business_pitch_rebuild_2026_11_05/business_claims.json",
+      "sha256": "b399d6b78e272f4307a2020ad8cec20e736ba210dc9c1efa474974128b4574e6"
+    },
+    "capital_claim.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_business_pitch_rebuild_2026_11_05/capital_claim.json",
+      "sha256": "c3b47c155a6ade0a3950e6eae450b54133e9da26a4dee0144fcb9334bcf2b610"
+    },
+    "cumulative_cash_bridge.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_business_pitch_rebuild_2026_11_05/cumulative_cash_bridge.json",
+      "sha256": "8f20078fcc066e28cba6dddf0da98f67257a2f5aad6fef1eb1114968f21adf93"
+    },
+    "editorial_plan.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_business_pitch_rebuild_2026_11_05/editorial_plan.json",
+      "sha256": "9a12b453333736a5e97d5bcb59c52363979a3d78fd5a7e6ef4e05da862701bb5"
+    },
+    "editorial_verification.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_business_pitch_rebuild_2026_11_05/editorial_verification.json",
+      "sha256": "304b85e711e7ea5c317f8ccd6f04897b44fcf694bfea73ad51dc33b8a9d47009"
+    },
+    "numeric_verification.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_business_pitch_rebuild_2026_11_05/numeric_verification.json",
+      "sha256": "af6c8879eeeb47bd862820569eda82771af64275a1d1e183ff3c62e18fb01ee7"
+    }
+  },
+  "competition_objective_complete": false,
+  "submitted": false
+}

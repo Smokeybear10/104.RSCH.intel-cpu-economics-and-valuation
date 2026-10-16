@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-11-06T22:00:49.749903+00:00",
+  "baseline_value_comparisons": 18,
+  "baseline_max_error": 5.684341886080802e-14,
+  "zero_growth_shift_max_error": 0.0,
+  "unchanged_delivery_max_error": 1.4210854715202004e-14,
+  "independent_factory_reproduction_max_error": 0.0,
+  "direct_500_year_terminal_sum_comparisons": 12,
+  "direct_terminal_max_error_B": 1.1368683772161603e-13,
+  "result_files": {
+    "current_hurdles_results.json": "d79279ed5fbb368fb69c821173539fb8a4acefa136e6950bcdad9811178a2f3d",
+    "delivery_joint_results.json": "def0aa5077161135d953fee97a5acd9b63006097c7296f23d39eb3f50c0f022e",
+    "quarterly_overlay_results.json": "befc405234da6986705c5c61ef137ca2274006586653366968c0fba6dfc49eaf"
+  },
+  "source_model_unchanged": true,
+  "date_alignment": "No exactNov5fairvalueclaimed; returnhurdles useactualNov5toDec2030daycount.",
+  "quarterly_control_max_error_B": 1.4210854715202004e-14,
+  "new_quarterly_annual_reconciliation_max_error_B": 2.842170943040401e-14,
+  "metadata_correction": {
+    "verified_utc": "2026-11-06T22:04:58.092775+00:00",
+    "scope": "Replace stale quarterly-stress caveat in calculate_delivery_joint.py and delivery_joint_results.json; reference completed liquidity overlay and unmodeled corrective action costs.",
+    "numeric_cases_checks_and_input_hashes_unchanged": true
+  }
+}

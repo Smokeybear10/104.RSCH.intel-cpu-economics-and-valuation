@@ -1,0 +1,157 @@
+{
+  "frozen_utc": "2026-11-04T18:40:10.598345+00:00",
+  "scope": "Operating attribution and prospective countercase for Intel earnings-to-cash candidate test. No forwardEPS or equity value calculated. Existing modelvalues known historically; new comparableEPS outputs not viewed.",
+  "ownership": "intel_profit_gap_driver",
+  "verdict": "Existing earnings premium, if the accounting bridge confirms it, rests mainly on stronger DCAI sales and rapid Foundry loss reduction. Packaging contributes little to the2027-2028earnings step. These are substantive prospective judgments, not a newly discovered customer order or observed cash result.",
+  "annual_consolidated_EBIT_bridge": [
+    {
+      "year": 2027,
+      "CCPG_EBIT_B": 6.852863952000001,
+      "DCAI_EBIT_B": 15.43080432,
+      "host_Foundry_EBIT_B": -4.0,
+      "Other_EBIT_B": 0.7,
+      "corporate_expense_B": -4.5,
+      "packaging_net_incremental_EBIT_B": -0.053750000000000006,
+      "sum_B": 14.429918272000002,
+      "current_combined_EBIT_B": 14.429918271999998
+    },
+    {
+      "year": 2028,
+      "CCPG_EBIT_B": 7.9623326863080015,
+      "DCAI_EBIT_B": 21.366666896250006,
+      "host_Foundry_EBIT_B": -0.75,
+      "Other_EBIT_B": 0.7,
+      "corporate_expense_B": -4.7,
+      "packaging_net_incremental_EBIT_B": 0.14875,
+      "sum_B": 24.72774958255801,
+      "current_combined_EBIT_B": 24.72774958255801
+    }
+  ],
+  "growth_attribution_2027_to_2028": [
+    {
+      "component": "CCPG_EBIT_B",
+      "delta_B": 1.1094687343080005,
+      "share_total_EBIT_growth": 0.10773809560955815
+    },
+    {
+      "component": "DCAI_EBIT_B",
+      "delta_B": 5.935862576250006,
+      "share_total_EBIT_growth": 0.5764187038259376
+    },
+    {
+      "component": "host_Foundry_EBIT_B",
+      "delta_B": 3.25,
+      "share_total_EBIT_growth": 0.3156004310021943
+    },
+    {
+      "component": "Other_EBIT_B",
+      "delta_B": 0.0,
+      "share_total_EBIT_growth": 0.0
+    },
+    {
+      "component": "corporate_expense_B",
+      "delta_B": -0.2,
+      "share_total_EBIT_growth": -0.01942156498475042
+    },
+    {
+      "component": "packaging_net_incremental_EBIT_B",
+      "delta_B": 0.2025,
+      "share_total_EBIT_growth": 0.0196643345470598
+    }
+  ],
+  "total_group_EBIT_growth_B": 10.297831310558012,
+  "DCAI_profit_growth_decomposition": {
+    "method": "Revenue change times2027DCAImargin, plus2028revenue times margin change; no overlap.",
+    "revenue_effect_B": 5.561842769957049,
+    "margin_effect_B": 0.374019806292957,
+    "interpretation": "About93.7% of DCAIprofit growth comes from sales growth at the already high2027margin; only6.3% from the modest further margin increase."
+  },
+  "dated_public_operating_disagreement": {
+    "source": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+    "publication": "2026-11-02",
+    "data_date": "2026-10-30",
+    "public2027DCAI_growth": 0.37,
+    "owned2027DCAI_growth": 0.470701316562961,
+    "owned2028DCAI_growth": 0.36043764502594955,
+    "owned_FY2026_DCAI_anchor_B": 27.0477,
+    "public37pct_growth_applied_to_same_anchor_B": 37.055349,
+    "owned2027DCAI_revenue_B": 39.779088,
+    "revenue_gap_B": 2.723739,
+    "reverse_consistency_diagnostic": {
+      "formula": "ASPgrowth=(FY26DCAI*1.37 - FY27OtherDCAI)/(FY26serverCPU*1.20)-1",
+      "held_assumptions": "Our20%serverunitgrowth and60%OtherDCAIgrowth; sameFY2026anchor.",
+      "compatible_ASP_growth": 0.09615638882407572,
+      "owned_ASP_growth": 0.2,
+      "revenue_gap_times_existing50pct_incremental_EBIT_retention_B": 1.3618695,
+      "limit": "iFAST does NOT disclose this ASP or unit assumption. This is one compatible decomposition, not its actual model. Segmentprofit and completecash bridges are unavailable, so exactcross-modelEPSgap attribution is not identified."
+    }
+  },
+  "independent_operating_judgment": {
+    "DCAI": "The20%unit/20%ASP2027forecast and25%unit/8%ASP2028forecast are credible successful-ramp outcomes. Premium mix, existing high profitability and funded capacity support them. However47% then36%DCAIgrowth exceeds the explicit37%2027published analystview and is not a conservative consensus case. Treat it as the positive thesis to defend. FutureASP20 is a rounded expectation, not an exact measured carryover.",
+    "Foundry": "Moving from about8.5B2026planningloss to4B2027and0.75B2028 is optimistic but economically plausible with substantial accepted internal volume and improved costs. Current nodecost reductions support the direction; they do not quantitatively establish annual breakeven timing. Weak client loading,14Arampcost and substrate constraints prevent promoting this to a strongly evidenced unique center.",
+    "package": "Net incremental EBIT is negative0.05375B in2027 andpositive0.14875B in2028; the2028profitgap cannot be marketed as primarily a packaging windfall.",
+    "double_count_guard": "Do not credit the same manufacturing yield savings again in Products and Foundry. The existing50%incrementalgroupretention and fixedFoundrydollarpath already assign the consolidated economics once."
+  },
+  "selected_operating_countercase_before_EPS": {
+    "name": "slower_manufacturing_cost_learning",
+    "classification": "Downside control, not a newly adopted base or measured probability.",
+    "reason": "Use the previously source-led slower Foundry path to test whether the earnings disagreement survives delayed cost absorption, while granting the positive product-sales case.",
+    "host_Foundry_EBIT_B": {
+      "2027": -5.5,
+      "2028": -3.5
+    },
+    "delta_vs_current_B": {
+      "2027": -1.5,
+      "2028": -2.75
+    },
+    "preserve": "Products accepted sales/margins, packageoverlay, capex,DA,WC,corporateandallotherpolicies unchanged. Add cost in Foundryonce; root must recompute taxes and cash, and verify any financing consequence.",
+    "interpretation_limit": "This is an isolated cost-learning stress at the same paid output, not a full delayed-shipment/capacity scenario. Do not combine reduced Productsprofit for the same manufacturingcost without reconstructing transferpricing."
+  },
+  "downside_falsifier": {
+    "claim": "Richer CPU mix and accepted output should increase absolute product profit while lower manufacturing cost improves Foundry results.",
+    "observable": "2027-2028completed server shipments/ASP, DCAIabsoluteprofit andFoundryunderlyingloss trend, viewedwithclientloading,newnodeexpenses andcashinvestment.",
+    "failure": "ASP rises mainly with higher silicon/input cost or the accepted product ramp occurs while underlyingFoundrylosses remain nearcurrentrunrate; then the expected group earnings premium andcashconversion do not follow.",
+    "no_arbitrary_quarter_threshold": "No singlequarterorunchangedreportedmarginisdeclaredautomaticfailure; evaluateconsistentcompanydisclosuresandmix."
+  },
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "date": "2026-10-30",
+      "use": "Q3DCAI7.318Brevenue/3.039Bprofit;serverASP54%,units10%,premium mix drives most ASP increase;corporateandsegmentreconciliation."
+    },
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "use": "Intel3cost15%lowerand18Acost40%lowersinceQ1;Foundrylossimproves236Msequentially;industrysupplylimitsinto2028;PC2027unitsroughly10%lower. These are management statements, not audited futureoutcomes."
+    },
+    {
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "date": "2026-11-02",
+      "use": "Dated analyst forecast37%2027DCAIgrowth;2027/2028revenue69.198/80.730BandEPS1.77/2.59. One analyst, notcompleteconsensus."
+    },
+    {
+      "url": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "date": "2026-10-22",
+      "use": "Primaryindustryresearchprojects>40%2027serverCPUshipmentgrowthwithcompetitiveIntelsharepressureandsupplyconstraints;forecastsnotguaranteeddeliveries."
+    },
+    {
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe.html",
+      "date": "2026-07-13",
+      "use": "5B EURexisting-campusIntel3equipmentandcleanroomexpansionprovidesactualcapacityinvestmentroute;not a preciseall-companyshipmentforecast."
+    }
+  ],
+  "input_hashes": {
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/corporate_other_policy.json": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/foundry_operating_policy.json": "fd17c6573519d6b2db78b9defa51bceb479b690a085aef90d5bc9f48fe855a81"
+  },
+  "checks": {
+    "two_year_consolidated_EBIT_reconciled": true,
+    "growth_bridge_reconciled": true,
+    "forwardEPS_or_equity_calculated": false,
+    "source_models_modified": false
+  }
+}

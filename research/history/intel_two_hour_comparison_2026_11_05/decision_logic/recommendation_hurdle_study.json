@@ -1,0 +1,209 @@
+{
+  "completed_utc": "2026-11-05T23:10:30.606472+00:00",
+  "question": "What makes a recovery forecast an investment recommendation, and does a modest-return or conditional-entry Intel LONG meet actual M37 requirements?",
+  "scope": {
+    "intel_reference": "../blind_review/intel_screen_2257.pdf",
+    "intel_sha256": "57c1be128bbfce27b4641f85dcd9281ccda93f7e6a9e0a93203dce3f1902b0e4",
+    "page_convention": "PDF pages beginning at 1. Report covers frequently make printed pages one lower.",
+    "method": "Re-read target, current-value, scenario, conclusion and economic-mechanism pages. Verify exact documents in official award archives. Distinguish contemporaneous analytical merit from subsequent returns and judging outcomes.",
+    "limitations": [
+      "Not a random sample; no causal inference about which features made teams win.",
+      "CFA permits recommendation formats different from M37. A winning HOLD demonstrates analytical quality can coexist with neutrality; it does not authorize a HOLD entry to M37.",
+      "Different interest-rate regimes, industries, risks and holding periods prevent comparing raw upside percentages as equal opportunities.",
+      "Model audits here are sufficient to classify target conventions, not independent certification of every forecast, calculation or accounting treatment."
+    ]
+  },
+  "rules": {
+    "primary": "https://www.m37.com/spc2026",
+    "local_partner": "https://www.pennwitg.com/m37",
+    "accessed_date": "2026-11-05",
+    "requirements": [
+      "Choose Intel or SpaceX; take a clear LONG or SHORT position over 3–5 years based on fundamentals.",
+      "Round 1: PDF, maximum ten pages, business revenue/profit explanation, recommendation drivers and risks, due November 9, 2026.",
+      "Round 2: valuation and enough quantitative support for the conclusions, clearly sourced material claims; judges evaluate theses and judgment, not modeling skills.",
+      "Final: defend assumptions, address counterarguments and explain what would change the view."
+    ],
+    "not_stated": [
+      "Minimum percentage upside",
+      "Minimum expected annual return",
+      "Requirement to conduct interviews",
+      "Minimum number of charts or sources",
+      "Requirement to outperform a particular index",
+      "Permission to substitute a standalone HOLD or watchlist for LONG/SHORT"
+    ],
+    "judgment": "A 10% annual conditional LONG is not disqualified by an invented upside threshold. A lower preferred entry can supplement a genuine LONG recommendation. A submission whose operative decision is no position until a lower price is reached may not satisfy the stated clear LONG/SHORT requirement; the public rules do not explicitly resolve that case. Do not claim otherwise or import CFA rules.",
+    "eligibility_conflict": "M37 says currently enrolled STEM undergraduates/graduates; WITG adds UPenn. This discrepancy is separate from the research and was already surfaced to root."
+  },
+  "comparison": [
+    {
+      "security": "WMS",
+      "document_date": "2024-12-05",
+      "status": "Official UNC Alpha Challenge 2024 first-place equity presentation",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2024/12/First-Place-Equity_Team1_Universe_WMS.pdf",
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        45
+      ],
+      "target_convention": "2025 price target $172 using FY2026 EPS and EBITDA at 23x P/E and 14.5x EV/EBITDA; approximately 31% one-year upside from $131.50. Separate appendix DCF present value $153.30, not the same $172 target.",
+      "economic_edge": "Material conversion, Southeast housing-completion timing and margin mix become explicit FY2026 forecast differences: revenue +3.1%, gross margin +0.5 percentage point and EPS +8.9% versus displayed consensus.",
+      "decision_bridge": "Current DCF value is approximately 16.6% above entry. The larger future multiple-based target also needs the market to award the chosen multiples; operating research alone does not explain all 31% upside. At a fixed 23x multiple, the $0.60 EPS disagreement contributes $13.80/share.",
+      "risk_and_hurdle": "Bear $96 (−27%), base $172 (+31%), bull $206 (+56%). No calibrated scenario probabilities or explicit personal hurdle. Quality peer selection and rerating remain judgments.",
+      "intel_lesson": "A quantified operating disagreement linked to value is stronger than asserting recovery. Copy the evidence-to-forecast link and dated value distinction, not the peer multiple or all claimed upside."
+    },
+    {
+      "security": "JBI",
+      "document_date": "2023-11-29",
+      "status": "Official UNC Alpha Challenge 2023 first-place equity presentation",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2023/12/Equity-1st-place_Columbia-_JBI.pdf",
+      "pages": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "target_convention": "$13.77 twelve-month/2024 target from $10.43, using FY2025 EPS and the displayed EBITDA line at forward multiples. This is a future market-price estimate; no separate DCF current-value case was found in the 29-page file.",
+      "economic_edge": "Misclassification as a commodity supplier and post-SPAC/PE selling allegedly obscure renovation economics and higher product content. Customer retrofit economics, installed base and channel structure make the alternative peer category intelligible.",
+      "decision_bridge": "Displayed 2024 EPS forecast exceeds consensus by 6.3%; targeted P/E of 11x also exceeds the displayed market FY2025 P/E of 8.9x. Thus the 32% headline includes rerating, not just incremental customer spending.",
+      "risk_and_hurdle": "Bear $8.42 (−19%), base $13.77 (+32%), bull $16.57 (+59%); no empirically calibrated probabilities. An attractive renovation ROI need not imply customers actually have budget or accelerate spending.",
+      "intel_lesson": "Identify why a market participant would misread the earnings power, then test whether the economic difference is large enough to matter. Do not label a single dated outside forecast as current consensus."
+    },
+    {
+      "security": "Cargojet",
+      "document_date": "2024-05-10",
+      "status": "Official CFA 2024 global-winning presentation",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2024-winning-presentation-university-of-waterloo.pdf",
+      "pages": [
+        2,
+        9,
+        17,
+        19,
+        20,
+        28,
+        30,
+        32,
+        40,
+        41,
+        82,
+        142,
+        143,
+        148,
+        150
+      ],
+      "target_convention": "Headline $150 one-year target versus $120 entry, 25% upside. Appendix p143 separates current DCF values of $141 and $145 from one-year targets of $155 and $159. Cost of equity is 9.54%; these rolls are consistent with roughly one year of cost-of-equity accretion. Headline weights are 40% each DCF and 20% comparables.",
+      "economic_edge": "A network moat, domestic contract structure, observed flight activity and reduced expansion spending connect revenue resilience to cash generation and ROIC. Contracted revenue and fuel passthrough support a different risk assessment from an uncontracted capacity recovery.",
+      "decision_bridge": "The two DCFs show a present-value gap of roughly 17.5–20.8% before the year passes. Less capex has a direct cash effect; freight recovery and operating leverage add sensitivity. Present value, future price and cash reinvestment are at least separately visible.",
+      "risk_and_hurdle": "Bear $88 (−32%), base $150 (+25%), bull $195 (+63%). Base upside is smaller than modeled bear downside. The claim that risks are very unlikely is not quantitatively established; network quality does not validate that probability.",
+      "intel_lesson": "Use evidence that secures recurring cash and capital requirements, not just capacity growth. Do not dismiss this deck as confusing a current DCF with a future target; its appendix explicitly distinguishes them. Do not copy its uncalibrated likelihood language."
+    },
+    {
+      "security": "MU / Carleton",
+      "document_date": "2020-11-24 valuation date",
+      "status": "Primary student-managed investment fund report; no award verified",
+      "url": "https://sprott.carleton.ca/wp-content/uploads/SSIF-MU_REPORT.pdf",
+      "pages": [
+        10,
+        13,
+        15,
+        16,
+        18
+      ],
+      "target_convention": "Current DCF intrinsic value $77.13 against $61.40; separately rolls EV, cash, debt and diluted shares to $130.16 at end-2027, with 11.2% annual investor IRR after share dilution.",
+      "economic_edge": "Recognizes memory ASP/earnings cyclicality, uses a cyclical revenue path, and raises its discount rate above the calculated WACC. The favorable model is not treated as sufficient evidence of durable competitive advantage.",
+      "decision_bridge": "HOLD despite approximately 25.6% DCF upside. Recommendation weighs uncertainty in competitive position and cyclical earnings against the valuation output, rather than treating a positive target as a mandatory BUY.",
+      "risk_and_hurdle": "No clear numerical risk-adjusted hurdle. Some broad-industry competitive claims and wide semiconductor comparable sets are weak; the HOLD is a judgment, not proof that the security was unattractive.",
+      "intel_lesson": "Most relevant sector precedent for separating modeled recovery from confidence in durable cash. Its current/future per-share roll is useful. Its neutral recommendation format is not an M37 substitute."
+    },
+    {
+      "security": "SSS / Canisius",
+      "document_date": "2015-01-11 report; April 2 quote in later archived presentation",
+      "status": "CFA official 2015 global-winning team, exact report and presentation linked from past-champions page; dated press release confirms Sovran subject",
+      "report_url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2015-winning-written-report-canisius-college.pdf",
+      "presentation_url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2015-winning-presentation-canisius-college.pdf",
+      "report_pages": [
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "presentation_pages": [
+        2,
+        13,
+        17,
+        19,
+        23
+      ],
+      "target_convention": "Report HOLD: $90.90 to $95, 4.5% price and roughly 7.8% with dividend; it labels $95 both current intrinsic value and one-year target, an ambiguity not to copy. Later official presentation remains HOLD: $93.95 to $96, 2.2% price upside plus stated 3.2% dividend yield.",
+      "economic_edge": "Accepts good management and demand but models occupancy maturation and expensive acquisitions. Revenue/NOI growth converts much less favorably to FFO per share once equity-funded expansion is counted.",
+      "decision_bridge": "Explicitly says the market already prices growth. Lower entry or stronger growth could change the view. The exact report entry-threshold arithmetic is not independently endorsed; the important feature is a decision conditional on economics and price.",
+      "risk_and_hurdle": "Simulation confidence is conditional on selected distributions, not a demonstrated real-world probability. Multiple valuation methods share forecasts and are not independent confirmations.",
+      "intel_lesson": "The cleanest verified evidence that sophistication does not require manufacturing large upside. Improving operations can still produce an unexciting stock at the offered price. This does not prove HOLD caused the win or that M37 accepts HOLD.",
+      "version_limit": "The presentation title refers to the Americas competition; CFA archives it as the winning presentation. The dated global-award release independently confirms the team/subject, but no claim is made about an exact live-global-final file hash."
+    },
+    {
+      "security": "CTC / Waterloo",
+      "document_date": "2015-12-04 report reference; April 8, 2016 later presentation reference",
+      "status": "CFA official 2016 global-winning report and presentation",
+      "report_url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2016-winning-rpt-univ-of-waterloo.pdf",
+      "presentation_url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2016-winning-presentation-university-of-waterloo.pdf",
+      "report_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        25,
+        26
+      ],
+      "presentation_pages": [
+        2,
+        44
+      ],
+      "target_convention": "Report BUY: $129 entry, $141 current SOTP value, $148 twelve-month target after 5.1% equity-return roll, plus $2.30 dividend, 16.5% total. Later presentation BUY: $132.63 to $150, 13.1% price gain plus 1.7% dividend, 14.8% total.",
+      "economic_edge": "Values retail, financial services and REIT separately; uses an actual Scotiabank stake transaction for financial-services value. New stores have explicit maturation assumptions. A price-basket and location-accessibility analysis supports retail positioning.",
+      "decision_bridge": "The report current value is 9.3% above entry before time and dividends. Separating current discount, value accretion and payout makes a modest-return BUY intelligible.",
+      "risk_and_hurdle": "Common versus nonvoting share price gap is not riskless arbitrage; control rights and liquidity can explain a lasting premium. Cost of equity is era/model dependent. The exact ex-dividend target roll has not been fully reconciled, so the reported total return is described rather than independently certified.",
+      "intel_lesson": "A 30% headline return is not a necessary condition for a strong published pitch. More useful is business-specific value support and transparent return composition. The 2015–16 required-return environment is not directly comparable to 2026 Intel."
+    }
+  ],
+  "intel_judgment": {
+    "formal_compliance": "The locked ten-page screen presents LONG, a 4.15-year horizon, business economics, drivers and risks. Its modest return alone violates no published M37 numerical threshold.",
+    "investment_merit": "It is a defensible conditional recovery analysis, but the available evidence does not yet demonstrate an unusually attractive LONG at $52.22. The $51.29 December-2026 planning value is already slightly below the November-5 entry quote; the $77.68 endpoint largely represents economics materializing plus time, not a separately demonstrated current valuation discount.",
+    "not_expected_return": "10% is the annual return in a particular delivery, margin, capital and funding scenario. Without justified outcome probabilities it should not be called a calibrated expected return. Likewise a downside case is not by itself a SHORT recommendation.",
+    "duration": "A 3–5-year investor may properly value cash after sale. But if 92.3% of operating PV comes from post-2030 cash, the pitch must explain what evidence by the exit date makes the next owner willing to capitalize those later economics. A nearer operating checkpoint is not automatically a stock-price catalyst.",
+    "risk_compensation": "The main unresolved question is why roughly 10% conditional annual compensation is sufficient for supply acceptance, demand retention, pricing normalization, Foundry execution and long-lived capital productivity. A 10% hurdle is a judgment that needs reasoning; no winner establishes it for Intel.",
+    "conditional_entry": "$48.52 for a 12% modeled annual return and $43.47 for 15% can honestly communicate price discipline, assuming unchanged endpoint and timing. They do not repair a lack of evidence about the endpoint and do not turn a wait-only decision into an unequivocal current LONG.",
+    "best_next_evidence": [
+      "Separate temporary scarcity pricing from durable mix and unit-cost gains, with segment weights that can support the aggregate margin.",
+      "Constrain accepted CPU revenue and the Other DCAI expansion using matched product/customer scope.",
+      "Show that post-2030 reinvestment productivity is physically and economically plausible rather than just a capital-to-sales identity.",
+      "Explain the pricing disagreement that remains after current operating news, using a dated and consistently defined comparison."
+    ],
+    "what_more_layout_cannot_fix": "More charts, interview counts, peer tables or source pages cannot establish those investment premises. The revised screen already states uncertainty better than several winners. The remaining gap is an affirmative reason to buy at this price, not the absence of an investment-banking aesthetic.",
+    "recommended_language_standard": "Call the position a moderate-return, conditional LONG only if that is the actual judgment. Do not imply large mispricing, a safe downside, or likely competition success. If research cannot justify owning at the quoted price, acknowledge that conclusion rather than inventing a stronger target to fit the competition."
+  },
+  "verification_sources": {
+    "unc_awards": "https://www.kenan-flagler.unc.edu/alpha-challenge-2/archives/",
+    "cfa_past_champions": "https://www.cfainstitute.org/insights/events/research-challenge/past-champions",
+    "canisius_dated_award": "https://www.cfainstitute.org/about/press-room/2015/canisius-college-named-winner-of-ninth-annual-cfa-institute-research-challenge"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "reviewed_utc": "2026-11-05T21:54:59.826005+00:00",
+  "review_scope": "Independent semantic hard-judge review of actual PDF extracted text and generator. Not visual QA or a rerun of all valuation mathematics.",
+  "artifacts": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "cfeb26a895dc0486ab9cc8ee12e0a57e5170bf4cf9a43349a6add3c25dfc513c",
+      "matches_parent_final_hash": true,
+      "pages": 10,
+      "live_links": 26
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "75703d9d71f62b6410e03dde85fb57b1541d26dcd99bbfb672b66620ede97cf5",
+      "matches_parent_final_hash": true,
+      "pages": 2,
+      "live_links": 1
+    }
+  ],
+  "verdict": "PASS: completed usable moderate-conviction LONG Initial Screen. All required semantic and source corrections are resolved and verified against the final PDF bytes and extracted text. No material semantic blockers remain.",
+  "recommended_tightening": [
+    {
+      "page": 1,
+      "issue": "Factory cost learning is coupled directly to40% DCAI margin in the headline thesis sentence. Under the internal transfer model, much of the already-modeled benefit resides in Foundry.",
+      "proposed": "Premium Xeon mix supports the40% DCAI judgment; factory cost learning supports consolidated recovery.",
+      "severity": "wording clarity; no demonstrated numerical double counting",
+      "status": "addressed and verified"
+    },
+    {
+      "artifact": "defense notes",
+      "page": 1,
+      "issue": "The phrase just enough for my chosen return hurdle after a10.03% output invites an avoidable charge of choosing the hurdle to fit the answer.",
+      "proposed": "State directly that roughly10% is the accepted modest prospective return, with little valuation cushion, and that a12% hurdle is not met. Keep the return preference explicitly a judgment.",
+      "severity": "defensibility improvement; no M37 minimum return rule",
+      "status": "addressed and verified"
+    },
+    {
+      "page": 10,
+      "issue": "Several TSMC historical references remain from an older exhibit that is no longer in this screen.",
+      "proposed": "Prioritize the Q2 filing and customer/competitor sources used by the current thesis.",
+      "severity": "optional source-list relevance; not an entry blocker",
+      "status": "optional source-list relevance suggestion retained; not a blocker"
+    }
+  ],
+  "checks": {
+    "clear_direction_and_horizon": {
+      "pass": true,
+      "evidence": "LONG is on cover and concluding page; December2030 is4.15years from the dated November2026 quote."
+    },
+    "real_business_rationale": {
+      "pass": true,
+      "evidence": "Premium mix durability, participation despite share loss, funded investment and later consolidated cash conversion connect business observations to the model."
+    },
+    "40pct_is_judgment_not_proof": {
+      "pass": true,
+      "evidence": "Page5 labels CPU/Other split illustrative, exposesQ2/YTD anchors37.3%/36.3%, names scarcity and competition, and states internal transfers cannot create consolidated profit."
+    },
+    "flat_risk_base": {
+      "pass": true,
+      "evidence": "Base77.68/10.0% keeps11.555%;89.64/13.9% is explicitly lower-risk upside."
+    },
+    "current_value_caveat": {
+      "pass": true,
+      "evidence": "Cover and page7 display51.29 below52.22, moderate conviction, little initial cushion and56-day valuation-date mismatch."
+    },
+    "no_fabricated_alpha": {
+      "pass": true,
+      "evidence": "No proven alpha or guaranteed revaluation is claimed. Public earnings comparison is one dated analyst with accounting-scope limitations."
+    },
+    "original_research_limits": {
+      "pass": true,
+      "evidence": "Oracle billing audit distinguishes independently checked bills from unreproduced vendor throughput and does not infer margin, pricing power or stock value."
+    },
+    "downside_is_not_loss_bound": {
+      "pass": true,
+      "evidence": "Page9 shows joint downside45.69 and planning30.45; it explicitly warns that early drawdowns or permanent losses can exceed the endpoint loss."
+    },
+    "operating_checkpoints_not_repricing_promises": {
+      "pass": true,
+      "evidence": "Page8 ties future observation to product ramp, accepted output, consolidated profit, investment and partner cash; no scheduled stock-price catalyst is asserted."
+    },
+    "company_overview_and_profit_engine": {
+      "pass": true,
+      "evidence": "Page2 explains Products/Foundry segments and elimination of internal revenue, while later pages identify the sales and Foundry loss drivers."
+    },
+    "source_traceability": {
+      "pass": true,
+      "evidence": "Page5 now cites Intel[2,7,16]; reference7 is the Q2 10-Q with the correct live URL. Other material external claims retain numbered or live sources."
+    },
+    "no_fake_interview": {
+      "pass": true,
+      "evidence": "Both screen and billing-audit notes disclose no completed interviews or author clarification."
+    },
+    "extracted_text_matches_final_pdf": {
+      "pass": true,
+      "evidence": "Both extracted text files exactly match text re-extracted from the reviewed final PDF bytes."
+    },
+    "final_hashes_match": {
+      "pass": true,
+      "evidence": "Both full SHA256 hashes match the final artifacts supplied by the parent."
+    },
+    "valuation_bridge_periods_and_sum": {
+      "pass": true,
+      "evidence": "Remaining operating cash row uses the proper generic label and explicit period note. Operating PV, continuation PV and net financial claims reconcile to equity at each date."
+    }
+  },
+  "competition_requirements": {
+    "official_url": "https://www.m37.com/spc2026",
+    "screen_status": "Ten-page PDF with company overview, clear fundamental directional recommendation, drivers, risks and3\u20135year horizon. Semantic scope meets Round1 requirements; no remaining content correction is required by this review.",
+    "name_and_class_year": "Thomas Ou, Class of2027 are included.",
+    "remaining_entry_package": "Attach the resume separately and submit the actual initial-screen PDF byNovember9,2026. Preparation notes are separate and should not be combined into the10-page screen. No entry has been sent in this review.",
+    "deadline_precision": "Official page states the date but no cutoff time or timezone.",
+    "not_required": "No rule requires a uniquely correct margin, survival of all reasonable sensitivities, original interviews, quantified winning probability, or minimum prospective return."
+  },
+  "hardest_remaining_judge_objection": {
+    "question": "Why recommend an approximately fairly valued stock with only a10% expected annual price return when the operating forecast is already optimistic?",
+    "assessment": "This is the real limitation, openly disclosed rather than repaired through unsupported discount-rate compression. The screen owns a modest prospective return and an explicit operating view. It is a usable fundamental LONG candidate, not an established large-mispricing thesis or a high-confidence contest winner. This limitation alone does not make the entry invalid or justify another PASS artifact."
+  },
+  "model_or_pdf_edits_by_reviewer": false,
+  "ready_for_final_reverification": false,
+  "resolved_corrections": [
+    {
+      "id": "remaining_cash_label",
+      "page": 7,
+      "current": "2027-2040 operating cash, PV",
+      "issue": "The December2030 column values remaining2031\u20132040 operating cash, not2027\u20132040 cash. The footnote about different remaining cash flows does not correct the row label.",
+      "proposed": "Remaining operating cash to2040, PV",
+      "status": "resolved and verified in final PDF"
+    },
+    {
+      "id": "Q2_source",
+      "page": 5,
+      "current": "Sources: Intel [2,16] plus Google/Oracle links.",
+      "issue": "The37.3% Q2-baseline diagnostic uses Q2 revenue, operating income and Other revenue from the Q2 10-Q, which is not currently linked or listed. The Q3 source does not supply the exact Q2 input set.",
+      "proposed": "Add a live Intel Q2 2026 Form10-Q link, or replace the unused TSMC reference7 and cite[7] on page5.",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "status": "resolved and verified in final PDF"
+    },
+    {
+      "id": "valuation_bridge_reconciliation",
+      "page": 7,
+      "status": "resolved and verified in final PDF",
+      "evidence": "Added net financial claims and tax benefits of$9.27B/$37.15B; displayed rows sum to$282.59B/$428.03B. Explicit remaining periods are stated for each valuation date."
+    }
+  ],
+  "required_corrections": [],
+  "findings": [],
+  "final_reverification_complete": true,
+  "ready_for_user_review": true
+}

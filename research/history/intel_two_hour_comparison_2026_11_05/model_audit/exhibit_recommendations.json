@@ -1,0 +1,108 @@
+{
+  "prepared_utc": "2026-11-05T22:42:05.304738+00:00",
+  "scope": "Read-only review of current ten-page screen, defense notes, builder, and rendered pages2/7/9. No PDF changes.",
+  "overall": "The deck is legible and well organized. Its largest presentation problem is that bookkeeping detail occupies space needed to explain which business outcomes drive value. Extra accounting sophistication does not supply an investment edge.",
+  "recommended_exhibits": [
+    {
+      "priority": 1,
+      "replace_page": 9,
+      "builder_line": 341,
+      "title": "The duration of the setback drives the downside.",
+      "reason": "The current table mixes permanent demand weakness, late margin normalization, joint downside and a discount-rate upside. The new comparison distinguishes temporary execution losses from persistent economic impairment and links each result to an observable question.",
+      "suggested_columns": [
+        "Economic outcome",
+        "2030 target",
+        "Annual price return",
+        "What must hold"
+      ],
+      "rows": [
+        {
+          "label": "Base recovery and durable margins",
+          "target": 77.6819879986314,
+          "annual_return": 0.10034547227789337,
+          "condition": "Base deliveries, funded expansion and40% mature DCAI margin."
+        },
+        {
+          "label": "Foundry profit recovery delayed one year",
+          "target": 75.98507329808693,
+          "annual_return": 0.09450959235074463,
+          "condition": "Higher costs through2030; original profitability restored in2031."
+        },
+        {
+          "label": "DCAI margin reaches35% by2030",
+          "target": 68.3625828221679,
+          "annual_return": 0.06700340644664049,
+          "condition": "Base sales arrive, but less profit is retained; Foundry unchanged."
+        },
+        {
+          "label": "CPU growth normalizes after2030",
+          "target": 69.84599682868797,
+          "annual_return": 0.07253267062590774,
+          "condition": "CPU revenue grows3% from2031; capital responds at existing productivity."
+        },
+        {
+          "label": "Persistently weaker CPU demand",
+          "target": 59.04551445311399,
+          "annual_return": 0.03001879876429503,
+          "condition": "The existing lower sales level persists, with modeled cost and capital responses."
+        }
+      ],
+      "source_of_existing_lower_demand": "Use exact lower-demand40% values from authoritative return_value_bridge.json rather than copy this suggested display number if precision differs.",
+      "retain_as_note": "Joint downside remains$45.69 in2030 and$30.45 at the2026planningdate; neither is a loss floor. Keep this visible so the new comparison does not hide severe downside. Move lower-risk upside and late35% continuation-only sensitivity to defense notes.",
+      "main_takeaway": "The long needs sustained customer economics. A temporary miss is manageable only if recovery is explicitly assumed. No probabilities are assigned."
+    },
+    {
+      "priority": 2,
+      "replace_part_of_page": 7,
+      "builder_line": 322,
+      "title": "What the$78 target requires beyond2030",
+      "reason": "The APV table is correct but cannot tell a judge whether the continuing business is plausible. Replace the three generic assumption cards with an operating continuation exhibit. Keep the APV totals and price-entry matrix, with discount-rate calibration in a readable footnote or defense notes.",
+      "suggested_table": {
+        "columns": [
+          "Operating measure",
+          "2030",
+          "2040"
+        ],
+        "rows": [
+          [
+            "CPU revenue, $B",
+            59.57091386084968,
+            107.12703641387483
+          ],
+          [
+            "CPU shipment index,2030=100",
+            100,
+            147.6674293880436
+          ],
+          [
+            "CPU ASP index,2030=100",
+            100,
+            121.78116193658657
+          ],
+          [
+            "DCAI product operating margin",
+            0.3863485847912473,
+            0.4
+          ]
+        ]
+      },
+      "caption": "CPU sales grow6.04% annually from2030to2040:3.97% shipments and1.99% ASP. This is a continuing franchise forecast, separate from the immediate recovery.",
+      "capital_callout": "At maturity, the model adds$1.77B of after-tax operating profit on$7.55B of net operating investment: a23.5% same-year incremental ratio. This is implied by the forecast, not a measured average ROIC.",
+      "keep_visible": "Base operating discount rate11.555%; post2040 cash contributes45.8% of2030 equity value. Packaging is separately funded. Capital denominator is not a fully reconciled consolidated-revenue forecast."
+    }
+  ],
+  "minor_page2_improvement": {
+    "builder_line": 186,
+    "action": "Align the market-share illustration to the actual20% Intel unit-growth forecast: industry100\u2192140, Intel50\u219260, share50%\u219242.86%. Keep40% industry growth labeled illustrative; TrendForce forecasts more than40% and separately forecasts42% Intel share.",
+    "follow_on_sentence": "My25%/18%/12% unit growth in2028\u201330 requires corresponding industry growth to avoid annual share gains. Holding2027 share through2030 requires18.21% industry CAGR. No matched industry forecast has been established for those years.",
+    "why": "The current17.6% left-hand illustration and20% right-hand model are both valid but unnecessarily different. Avoid implying that share falls throughout the full forecast."
+  },
+  "judge_capital_explanation": "I fund$1.25 of net operating investment for each additional$1 of annual modeled core-business sales. Working capital is included, and gross capital spending also replaces depreciating assets. With the modeled margins, this produces about23.5% incremental after-tax operating return at maturity. That is a competitive-durability judgment, even though the cash arithmetic is funded.",
+  "judge_return_explanation": "The11.555% rate values operating cash, while the shareholder also owns cash and bears debt costs. The model\u2019s intrinsic value grows10.94% annually fromend2026toend2030 after that financing bridge. The actual$52.22 purchase price and longer holding interval yield10.03%. This reconciles the rates; it does not establish attractive risk-adjusted upside or a price cushion.",
+  "investment_judgment": "A moderate LONG is internally coherent as an accepted return choice. The valuation itself does not establish a compelling bargain. Raising confidence requires better evidence about the durable operating forecast or a better entry price, not another decimal place or a favorable discount-rate convention.",
+  "data_files": [
+    "CPU_share_requirements.json",
+    "equity_return_rollforward.json",
+    "extended_scenario_results.json"
+  ]
+}

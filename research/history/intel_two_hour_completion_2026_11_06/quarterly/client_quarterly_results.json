@@ -1,0 +1,305 @@
+{
+  "computed_utc": "2026-11-06T06:46:30.430465+00:00",
+  "policy_sha256": "495d1503ef7d221aecfb749e8fb32eb5e168758f75568e1e6cd00662847b02ac",
+  "cases": {
+    "preferred": {
+      "quarterly_2027": [
+        {
+          "year": 2027,
+          "quarter": 1,
+          "unit_growth_QoQ": -0.05,
+          "ASP_growth_QoQ": 0.0,
+          "unit_index_Q4_2026_100": 95.0,
+          "ASP_index_Q4_2026_100": 100.0,
+          "client_revenue_B": 4.6319625,
+          "Other_CCPG_B": 1.206975,
+          "CCPG_revenue_B": 5.8389375
+        },
+        {
+          "year": 2027,
+          "quarter": 2,
+          "unit_growth_QoQ": 0.1,
+          "ASP_growth_QoQ": 0.01,
+          "unit_index_Q4_2026_100": 104.50000000000001,
+          "ASP_index_Q4_2026_100": 101.0,
+          "client_revenue_B": 5.146110337500001,
+          "Other_CCPG_B": 1.206975,
+          "CCPG_revenue_B": 6.3530853375000005
+        },
+        {
+          "year": 2027,
+          "quarter": 3,
+          "unit_growth_QoQ": 0.15,
+          "ASP_growth_QoQ": 0.01,
+          "unit_index_Q4_2026_100": 120.17500000000001,
+          "ASP_index_Q4_2026_100": 102.01,
+          "client_revenue_B": 5.9772071570062515,
+          "Other_CCPG_B": 1.206975,
+          "CCPG_revenue_B": 7.184182157006251
+        },
+        {
+          "year": 2027,
+          "quarter": 4,
+          "unit_growth_QoQ": 0.05,
+          "ASP_growth_QoQ": 0.01,
+          "unit_index_Q4_2026_100": 126.18375000000002,
+          "ASP_index_Q4_2026_100": 103.0301,
+          "client_revenue_B": 6.338828190005129,
+          "Other_CCPG_B": 1.206975,
+          "CCPG_revenue_B": 7.545803190005129
+        }
+      ],
+      "annual_2027_2030": [
+        {
+          "year": 2027,
+          "client_revenue_B": 22.09410818451138,
+          "Other_CCPG_B": 4.8279,
+          "CCPG_revenue_B": 26.92200818451138,
+          "client_unit_growth": -0.1695000906134494,
+          "client_ASP_growth": 0.01633703792680974,
+          "unit_ASP_boundary": "Derived from assumed neutral Q4/full-year2026 ASP calibration, not identified annual unit forecast.",
+          "old_CCPG_revenue_B": 28.553599800000004,
+          "CCPG_delta_vs_old_B": -1.6315916154886239
+        },
+        {
+          "year": 2028,
+          "client_revenue_B": 23.662789865611693,
+          "Other_CCPG_B": 5.214132,
+          "CCPG_revenue_B": 28.876921865611692,
+          "client_unit_growth": 0.05,
+          "client_ASP_growth": 0.02,
+          "unit_ASP_boundary": "Analyst forward assumption",
+          "old_CCPG_revenue_B": 30.624356485800003,
+          "CCPG_delta_vs_old_B": -1.7474346201883115
+        },
+        {
+          "year": 2029,
+          "client_revenue_B": 25.342847946070126,
+          "Other_CCPG_B": 5.631262560000001,
+          "CCPG_revenue_B": 30.974110506070126,
+          "client_unit_growth": 0.05,
+          "client_ASP_growth": 0.02,
+          "unit_ASP_boundary": "Analyst forward assumption",
+          "old_CCPG_revenue_B": 32.845612984291805,
+          "CCPG_delta_vs_old_B": -1.8715024782216787
+        },
+        {
+          "year": 2030,
+          "client_revenue_B": 26.625196052141273,
+          "Other_CCPG_B": 6.081763564800001,
+          "CCPG_revenue_B": 32.706959616941276,
+          "client_unit_growth": 0.03,
+          "client_ASP_growth": 0.02,
+          "unit_ASP_boundary": "Analyst forward assumption",
+          "old_CCPG_revenue_B": 34.67316012056097,
+          "CCPG_delta_vs_old_B": -1.966200503619696
+        }
+      ],
+      "H1_client_B": 9.778072837500002,
+      "H2_client_B": 12.31603534701138,
+      "H2_vs_H1_revenue_growth": 0.25955651504026545,
+      "historical_ASP_calibration_sensitivity": [
+        {
+          "assumed_Q4_2026_ASP_over_full2026": 0.95,
+          "implied_2027_unit_growth": -0.12578956906678873,
+          "implied_2027_ASP_growth": -0.034479813969530815
+        },
+        {
+          "assumed_Q4_2026_ASP_over_full2026": 1.0,
+          "implied_2027_unit_growth": -0.1695000906134494,
+          "implied_2027_ASP_growth": 0.01633703792680974
+        },
+        {
+          "assumed_Q4_2026_ASP_over_full2026": 1.05,
+          "implied_2027_unit_growth": -0.20904770534614225,
+          "implied_2027_ASP_growth": 0.06715388982315029
+        }
+      ],
+      "2028_flat_Q42027_carryover": {
+        "unit_growth": 0.1320513503435785,
+        "ASP_growth": 0.01373949935119434
+      }
+    },
+    "slower": {
+      "quarterly_2027": [
+        {
+          "year": 2027,
+          "quarter": 1,
+          "unit_growth_QoQ": -0.1,
+          "ASP_growth_QoQ": 0.0,
+          "unit_index_Q4_2026_100": 90.0,
+          "ASP_index_Q4_2026_100": 100.0,
+          "client_revenue_B": 4.388175,
+          "Other_CCPG_B": 1.206975,
+          "CCPG_revenue_B": 5.59515
+        },
+        {
+          "year": 2027,
+          "quarter": 2,
+          "unit_growth_QoQ": 0.05,
+          "ASP_growth_QoQ": 0.0,
+          "unit_index_Q4_2026_100": 94.5,
+          "ASP_index_Q4_2026_100": 100.0,
+          "client_revenue_B": 4.60758375,
+          "Other_CCPG_B": 1.206975,
+          "CCPG_revenue_B": 5.81455875
+        },
+        {
+          "year": 2027,
+          "quarter": 3,
+          "unit_growth_QoQ": 0.1,
+          "ASP_growth_QoQ": 0.01,
+          "unit_index_Q4_2026_100": 103.95,
+          "ASP_index_Q4_2026_100": 101.0,
+          "client_revenue_B": 5.1190255462500005,
+          "Other_CCPG_B": 1.206975,
+          "CCPG_revenue_B": 6.32600054625
+        },
+        {
+          "year": 2027,
+          "quarter": 4,
+          "unit_growth_QoQ": 0.0,
+          "ASP_growth_QoQ": 0.01,
+          "unit_index_Q4_2026_100": 103.95,
+          "ASP_index_Q4_2026_100": 102.01,
+          "client_revenue_B": 5.170215801712501,
+          "Other_CCPG_B": 1.206975,
+          "CCPG_revenue_B": 6.3771908017125005
+        }
+      ],
+      "annual_2027_2030": [
+        {
+          "year": 2027,
+          "client_revenue_B": 19.285000097962502,
+          "Other_CCPG_B": 4.8279,
+          "CCPG_revenue_B": 24.112900097962502,
+          "client_unit_growth": -0.26907756224750023,
+          "client_ASP_growth": 0.007973738532110364,
+          "unit_ASP_boundary": "Derived from assumed neutral Q4/full-year2026 ASP calibration, not identified annual unit forecast.",
+          "old_CCPG_revenue_B": 28.553599800000004,
+          "CCPG_delta_vs_old_B": -4.440699702037502
+        },
+        {
+          "year": 2028,
+          "client_revenue_B": 19.86740710092097,
+          "Other_CCPG_B": 5.214132,
+          "CCPG_revenue_B": 25.08153910092097,
+          "client_unit_growth": 0.02,
+          "client_ASP_growth": 0.01,
+          "unit_ASP_boundary": "Analyst forward assumption",
+          "old_CCPG_revenue_B": 30.624356485800003,
+          "CCPG_delta_vs_old_B": -5.542817384879033
+        },
+        {
+          "year": 2029,
+          "client_revenue_B": 20.668063607088087,
+          "Other_CCPG_B": 5.631262560000001,
+          "CCPG_revenue_B": 26.299326167088086,
+          "client_unit_growth": 0.03,
+          "client_ASP_growth": 0.01,
+          "unit_ASP_boundary": "Analyst forward assumption",
+          "old_CCPG_revenue_B": 32.845612984291805,
+          "CCPG_delta_vs_old_B": -6.546286817203718
+        },
+        {
+          "year": 2030,
+          "client_revenue_B": 21.500986570453737,
+          "Other_CCPG_B": 6.081763564800001,
+          "CCPG_revenue_B": 27.58275013525374,
+          "client_unit_growth": 0.03,
+          "client_ASP_growth": 0.01,
+          "unit_ASP_boundary": "Analyst forward assumption",
+          "old_CCPG_revenue_B": 34.67316012056097,
+          "CCPG_delta_vs_old_B": -7.090409985307232
+        }
+      ],
+      "H1_client_B": 8.99575875,
+      "H2_client_B": 10.289241347962502,
+      "H2_vs_H1_revenue_growth": 0.1437880487804879,
+      "historical_ASP_calibration_sensitivity": [
+        {
+          "assumed_Q4_2026_ASP_over_full2026": 0.95,
+          "implied_2027_unit_growth": -0.23060796026052655,
+          "implied_2027_ASP_growth": -0.04242494839449518
+        },
+        {
+          "assumed_Q4_2026_ASP_over_full2026": 1.0,
+          "implied_2027_unit_growth": -0.26907756224750023,
+          "implied_2027_ASP_growth": 0.007973738532110364
+        },
+        {
+          "assumed_Q4_2026_ASP_over_full2026": 1.05,
+          "implied_2027_unit_growth": -0.30388339261666686,
+          "implied_2027_ASP_growth": 0.058372425458715904
+        }
+      ],
+      "2028_flat_Q42027_carryover": {
+        "unit_growth": 0.05963302752293598,
+        "ASP_growth": 0.012030334724344005
+      }
+    }
+  },
+  "old_target_hurdle": {
+    "old_client_B": 23.7256998,
+    "old_CCPG_B": 28.5535998,
+    "preferred_H1_client_B": 9.778072837500002,
+    "required_H2_client_B": 13.9476269625,
+    "required_H2_average_CCPG_B": 8.18078848125,
+    "H2_client_revenue_vs_H1_growth": 0.42641880402130905,
+    "required_H2_units_multiplier_vs_preferred": 1.1324770163057825,
+    "favorable_schedule_holding_old_annual_target": [
+      {
+        "year": 2027,
+        "quarter": 1,
+        "unit_growth_QoQ": -0.050000000000000044,
+        "ASP_growth_QoQ": 0.0,
+        "unit_index_Q4_2026_100": 95.0,
+        "ASP_index_Q4_2026_100": 100.0,
+        "client_revenue_B": 4.6319625,
+        "Other_CCPG_B": 1.206975,
+        "CCPG_revenue_B": 5.8389375
+      },
+      {
+        "year": 2027,
+        "quarter": 2,
+        "unit_growth_QoQ": 0.10000000000000009,
+        "ASP_growth_QoQ": 0.01,
+        "unit_index_Q4_2026_100": 104.50000000000001,
+        "ASP_index_Q4_2026_100": 101.0,
+        "client_revenue_B": 5.146110337500001,
+        "Other_CCPG_B": 1.206975,
+        "CCPG_revenue_B": 6.3530853375000005
+      },
+      {
+        "year": 2027,
+        "quarter": 3,
+        "unit_growth_QoQ": 0.30234856875164984,
+        "ASP_growth_QoQ": 0.01,
+        "unit_index_Q4_2026_100": 136.09542543454742,
+        "ASP_index_Q4_2026_100": 102.01,
+        "client_revenue_B": 6.769049727008008,
+        "Other_CCPG_B": 1.206975,
+        "CCPG_revenue_B": 7.976024727008008
+      },
+      {
+        "year": 2027,
+        "quarter": 4,
+        "unit_growth_QoQ": 0.04999999999999982,
+        "ASP_growth_QoQ": 0.01,
+        "unit_index_Q4_2026_100": 142.90019670627478,
+        "ASP_index_Q4_2026_100": 103.0301,
+        "client_revenue_B": 7.178577235491992,
+        "Other_CCPG_B": 1.206975,
+        "CCPG_revenue_B": 8.385552235491993
+      }
+    ],
+    "classification": "Reverse hurdle. Stronger inventory normalization/product-cycle gains could deliver it; no disclosed OEM orders verify this schedule."
+  },
+  "guards": [
+    "PC system ASP is not Intel CPU ASP",
+    "AMD client unit growth is competitive evidence, not an Intel unit forecast",
+    "Other CCPG timing is a bookkeeping allocation",
+    "2028growth does not mechanically restore the old2027target",
+    "No price target calculated"
+  ]
+}

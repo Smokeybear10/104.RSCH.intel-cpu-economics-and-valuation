@@ -1,0 +1,151 @@
+{
+  "created_utc": "2026-11-07T05:36:03.595049+00:00",
+  "conclusion": "Strengthen the investment judgment by separating an investable price condition from evidence that the cash forecast remains credible. Retain current hurdles and admit the risks the chosen price leaves with the investor. The new bridge is more useful than a detailed borrowing-rate table because operating and investment losses dominate financing cost.",
+  "central_forecast_entry_and_hurdles_unchanged": true,
+  "new_calculation": {
+    "selected_joint_plus_CPU_delay_funded": {
+      "target_USD": 59.49965650741192,
+      "annual_return_at40": 0.10039717921393643,
+      "peak_revolver_B": 2.6515567929590174,
+      "total_interest_B": 0.1257387879085155,
+      "repayment": "Q4 2028",
+      "cash_floor_before_funding_B": 17.421150859090318,
+      "diagnostic12pct_entry_not_adopted_USD": 37.17329256584971
+    },
+    "same_joint_plus_2031_2040_capital060_funded": {
+      "target_USD": 56.07866577356897,
+      "annual_return_at40": 0.08480960319190434,
+      "additional_2031_2040_investment_B": 31.00934556981511,
+      "diagnostic12pct_entry_not_adopted_USD": 35.03597788406893,
+      "funding_unchanged_because_new_capital_starts2031": true
+    },
+    "interpretation": "The 8.48% triple-stress return is still positive under this modeled endpoint, but below the selected12% stress hurdle. Neither positivity nor a financed20Bbuffer proves capital preservation. No probability or automatic replacement entry is inferred."
+  },
+  "what40_compensates": [
+    "On the unchanged adopted operating path,15.81% annual price return at the higher11.555% rate exceeds the chosen15% hurdle.",
+    "On the selected Foundry-breakeven/15%terminal-investment-return/higher-rate stress with conditional funding,12.30% exceeds the chosen12% hurdle.",
+    "The selected test still carries the faster CPU path and0.8host investment efficiency through2040. The price is an acceptance of those residual risks, not a hedge against them."
+  ],
+  "what40_does_not_compensate_under_same_hurdle": [
+    "Selected stress plus existing CPU delay: funded return10.04%, below12%.",
+    "That combined stress plus0.6host efficiency in2031\u201340: funded return8.48%, below12%.",
+    "Previously modeled lower and adverse operating cases remain7.2% and-1.1% at40. An endpoint scenario is not a probability-weighted expected return or a maximum drawdown.",
+    "A price decline can coincide with lower sales/mix, weaker cash conversion, larger investment needs, or changed discount inputs. It cannot be treated as independent of the information used to value Intel."
+  ],
+  "prospective_decision_protocol": {
+    "purpose": "A review discipline for future decisions, not a claim that historical selections were blinded and not a newly adopted entry ceiling.",
+    "fixed_parts": [
+      "Current indicative maximum40USD; chosen15%higher-rate-core and12%selected-joint return requirements; definitions of each named case; unchanged adverse alternatives kept visible."
+    ],
+    "rules": [
+      {
+        "condition": "Quote above current40indicative limit",
+        "action": "No new position under this recommendation."
+      },
+      {
+        "condition": "Quote at or below40without adverse operating information",
+        "action": "Refresh the valuation date, remaining horizon and paired risk-rate inputs; affirm the operating/capital forecast from current evidence; require both existing return tests still to pass before treating it as a candidate entry."
+      },
+      {
+        "condition": "CPU units, realized mix, saleable output or group cash disappoint",
+        "action": "Rebase the operating forecast using disclosed data and the same profit/capital rules. Do not assume catch-up, promote a more favorable case, remove the relevant stress or lower the hurdles merely to keep the entry."
+      },
+      {
+        "condition": "Sales milestone passes but price/mix, profit retention or cash allocation remains unverified",
+        "action": "Treat that result as partial evidence. Do not let one revenue observation validate both volume and price, or let tax-credit collections validate recurring operating cash."
+      },
+      {
+        "condition": "Either refreshed return gate fails",
+        "action": "Retain no-new-position judgment pending revaluation. Any revised limit needs an explicit new investment judgment; it is not automatically adopted from this sensitivity."
+      }
+    ],
+    "monitoring_anchors": {
+      "Q4_2026_CPU_revenue_B": 6.81206,
+      "H1_2027_CPU_revenue_B": 14.107776259999998,
+      "2028_group_EBIT_B": 24.593944544198962,
+      "2028_parent_cash_before_financing_including_credits_B": 3.7528475956696266,
+      "2028_parent_operating_cash_excluding_finite_credits_B": -2.418152404330373,
+      "interpretation": "These are existing model assumptions, not company guidance or statistical pass/fail levels. A miss triggers reconstruction, while cash should be judged against its forecast investment/credit timing rather than an invented positive-FCF-now condition."
+    }
+  },
+  "recommended_main_deck_cash_bridge": {
+    "replace": "Detailed borrowing-rate sensitivity table on main page9; retain one short conditional-liquidity line and move rate-grid detail to defense notes.",
+    "headline": "Higher sales must become parent cash after investment",
+    "subhead": "2030 forecast:19.45B operating cash excluding finite credits;15.33B with CPU delay and Foundry breakeven",
+    "table_units": "USD billions; forecast; before ordinary financing costs",
+    "rows": [
+      {
+        "label": "Group EBIT",
+        "core": 38.942007896513076,
+        "CPU_delay_and_factory_stress": 34.025706048124604
+      },
+      {
+        "label": "Operating cash tax",
+        "core": -5.841301184476961,
+        "CPU_delay_and_factory_stress": -5.103855907218691
+      },
+      {
+        "label": "Net operating investment",
+        "core": -11.352317094642132,
+        "CPU_delay_and_factory_stress": -11.292078757245333
+      },
+      {
+        "label": "Lease and minority cash",
+        "core": -2.3,
+        "CPU_delay_and_factory_stress": -2.3
+      },
+      {
+        "label": "Parent operating cash excluding finite credits",
+        "core": 19.448389617393982,
+        "CPU_delay_and_factory_stress": 15.329771383660582
+      },
+      {
+        "label": "Finite credits net of basis-loss tax",
+        "core": 3.611999999999999,
+        "CPU_delay_and_factory_stress": 3.611999999999999
+      },
+      {
+        "label": "Parent operating cash including finite credits",
+        "core": 23.06038961739398,
+        "CPU_delay_and_factory_stress": 18.94177138366058
+      }
+    ],
+    "investment_definition": "Net investment =physicalcapex\u2212D&A+workingcapital. Core2030:30.00\u221221.81+3.16=11.35B. All cases retain124.5Bphysicalcapex in2027\u201330.",
+    "cash_ramp_annotation": "Core parent operating cash excluding finite credits is-12.24/-2.42/+10.41/+19.45B in2027\u201330; the positive cash recovery arrives late.",
+    "optional_cumulative_annotation": "Over2027\u201330, core operating cash excluding finitecredits totals15.20B; finitecredits add17.92B. JointCPU/factory case has3.97Bexcludingcredits and the same17.92Bcredit total. Credits are54.1%/81.9% of respective cumulative cash includingcredits, not a perpetual funding source.",
+    "financing_line": "Under concentrated timing, the combinedCPU/factory stress needs a conditional2.65Bpeak draw at assumed8%, repaidQ42028;126Minterest lowers the target by0.023/share. Access and fees remain assumptions.",
+    "limit": "2030cash is a modeled endpoint, not observed durablecash or an exit multiple. Avoid calling the amount distributable shareholdercash; financing, debt repayment and timing remain separate."
+  },
+  "observed_evidence_and_boundary": [
+    {
+      "observed": "Intel Q3 reports server ASP+54% and units+10% YoY, with most ASP change from premium mix; DCAI operating income rises2.1B with2.2Bhigher product profit despite higher server unitcosts.",
+      "supports": "The richer-mix-to-retained-product-profit mechanism has occurred. This is stronger support than list prices or TAM arithmetic.",
+      "does_not_establish": "The estimated Q4 mix anchor, future package volumes, mature44.9%CPU margin, Foundry breakeven, or0.8investment efficiency.",
+      "source_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/q3_10q.txt",
+      "locator": "MD&A printed pages33\u201334; text lines1956\u20131959 and1992\u20131993"
+    },
+    {
+      "observed": "Q3 Foundry loss1.853B;0.793Bperiod-charge benefit exceeds the0.468Byear-on-year improvement; operating expenses rise0.219B.",
+      "supports": "Some reported manufacturing improvement is real, but the aggregate bridge needs care.",
+      "does_not_establish": "An independent recurring-cost improvement of the full reported gain or durable positive Foundry profit.",
+      "source_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/q3_10q.txt",
+      "locator": "MD&A printed page35; text lines2025\u20132056"
+    },
+    {
+      "observed": "Nine-month CFO13.184B; cashPP&E additions10.216B in investing and1.618B in financing; financelease cash0.951B. Simple subtraction leaves0.399B before further ownership/economic adjustments.",
+      "supports": "There is observed cash generation, but a bare CFO-minus-investing-capex screen omits capital payments.",
+      "does_not_establish": "A comparable parent-unlevered cash series or20Bdurable annual cash. This simple screen is not suitable for the main deck without a full interest/tax/SBC/ownership reconciliation.",
+      "source_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/q3_10q.txt",
+      "locator": "Consolidated cashflow statement printed page6; text lines354\u2013399"
+    }
+  ],
+  "sources": {
+    "calculation_file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/valuation/funded_cash_bridge_results.json",
+    "script": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/valuation/calculate_funded_cash_bridge.py",
+    "active_model": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+    "existing_entry_policy": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/root/price_and_decision_policy.json",
+    "official_filing_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "official_filing_local_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/q3_10q.txt",
+    "official_filing_local_sha256": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2"
+  }
+}

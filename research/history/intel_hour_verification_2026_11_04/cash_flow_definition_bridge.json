@@ -1,0 +1,204 @@
+{
+  "prepared_utc": "2026-11-04T23:27:24.455726+00:00",
+  "status": "Historical definitions reconciled; 2027 difference remains unallocated rather than an identified forecast miss. Frozen forecasts unchanged.",
+  "reviewer": "intel_risk_rate_external_hour",
+  "main_conclusion": "The selected model is an economic owner-cash forecast. Public vendor FCF and Intel adjusted FCF use different boundaries. Historical differences are verified. A negative 2027 public FCF forecast was already present, and the model-minus-consensus headline cannot be treated as an overlooked cash shortfall without matching financing capital payments, lease cash, capital-credit receipts, SBC and minority treatment.",
+  "exact_number_corrections": {
+    "FY2025_CFO_B": 9.697,
+    "FY2025_investing_PPE_B": 14.646,
+    "FY2025_financing_PPE_B": 3.026,
+    "FY2025_gross_PPE_B": 17.672,
+    "not_supported_by_primary": "14.649 investing, 3.057 financing, and 17.706 gross were preliminary approximations and must not be used."
+  },
+  "historical_primary_cash_flows": [
+    {
+      "period": "FY2023 ended 2023-12-30",
+      "CFO_B": 11.471,
+      "investing_PPE_cash_B": 25.75,
+      "financing_PPE_cash_B": 0.0,
+      "vendor_simple_FCF_B": -14.279,
+      "gross_PPE_cash_B": 25.75,
+      "CFO_minus_investing_PPE_B": -14.279
+    },
+    {
+      "period": "FY2024 ended 2024-12-28",
+      "CFO_B": 8.288,
+      "investing_PPE_cash_B": 23.944,
+      "financing_PPE_cash_B": 1.178,
+      "vendor_simple_FCF_B": -15.656,
+      "gross_PPE_cash_B": 25.122,
+      "CFO_minus_investing_PPE_B": -15.655999999999999
+    },
+    {
+      "period": "FY2025 ended 2025-12-27",
+      "CFO_B": 9.697,
+      "investing_PPE_cash_B": 14.646,
+      "financing_PPE_cash_B": 3.026,
+      "finance_lease_cash_B": 0.105,
+      "capital_incentive_cash_B": 1.577,
+      "net_partner_contributions_B": 4.891,
+      "vendor_simple_FCF_B": -4.949,
+      "issuer_adjusted_FCF_B": -1.612,
+      "gross_PPE_cash_B": 17.672,
+      "CFO_minus_investing_PPE_B": -4.949000000000002
+    },
+    {
+      "period": "Nine months ended 2026-09-26",
+      "CFO_B": 13.184,
+      "investing_PPE_cash_B": 10.216,
+      "financing_PPE_cash_B": 1.618,
+      "finance_lease_cash_B": 0.951,
+      "capital_incentive_cash_B": 0.215,
+      "gross_PPE_cash_B": 11.834,
+      "CFO_minus_investing_PPE_B": 2.968
+    },
+    {
+      "period": "Nine months ended 2025-09-27",
+      "CFO_B": 5.409,
+      "investing_PPE_cash_B": 11.158,
+      "financing_PPE_cash_B": 2.493,
+      "finance_lease_cash_B": 0.103,
+      "capital_incentive_cash_B": 1.018,
+      "gross_PPE_cash_B": 13.651,
+      "CFO_minus_investing_PPE_B": -5.749
+    }
+  ],
+  "FY2025_reconciliations": {
+    "vendor": "9.697 - 14.646 = -4.949",
+    "issuer_gross": "14.646 + 3.026 = 17.672",
+    "issuer_net_capital": "17.672 - 1.577 - (5.108 - 0.217) = 11.204",
+    "issuer_adjusted_FCF": "9.697 - 17.672 + 1.577 + 4.891 - 0.105 = -1.612",
+    "classification_fact": "Intel states that capital-vendor payment terms longer than 90 days are reported as financing activities when paid. The FY2025 unpaid extended-term balances were approximately 1.5B, which is not a 2027 payment schedule."
+  },
+  "TTM_reconciliation": {
+    "CFO_B": 17.472,
+    "investing_PPE_cash_B": 13.704000000000002,
+    "financing_PPE_cash_B": 2.1510000000000002,
+    "finance_lease_cash_B": 0.9530000000000001,
+    "capital_incentive_cash_B": 0.774,
+    "period": "TTM ended 2026-09-26",
+    "vendor_simple_FCF_B": 3.767999999999999,
+    "CFO_minus_both_PPE_classes_and_lease_B": 0.6639999999999986
+  },
+  "TTM_construction": "Full FY2025 + first nine months FY2026 - first nine months FY2025. This reproduces S&P/SWS CFO17.472 and FCF3.768 exactly. Do not compare nine-month totals directly to annual forecasts.",
+  "Q3_2026_standalone_issuer_reconciliation": {
+    "CFO_B": 5.082,
+    "gross_PPE_cash_B": 4.219,
+    "capital_incentive_cash_B": 0.048,
+    "net_partner_contributions_B": 0.847,
+    "finance_lease_cash_B": 0.119,
+    "adjusted_FCF_B": 1.639,
+    "identity": "5.082 - 4.219 + 0.048 + 0.847 - 0.119 = 1.639"
+  },
+  "public_forecast_observation": {
+    "source": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+    "underlying_provider": "S&P Global Market Intelligence LLC, identified on publisher page",
+    "page_analysis_updated_UTC": "2026-11-03 22:36",
+    "annual_rows_B": [
+      {
+        "date_label": "2026-12-31",
+        "CFO": 18.658,
+        "FCF": 0.097
+      },
+      {
+        "date_label": "2027-12-31",
+        "CFO": 23.564,
+        "FCF": -4.159
+      },
+      {
+        "date_label": "2028-12-31",
+        "CFO": 31.839,
+        "FCF": 4.068
+      }
+    ],
+    "2027_CFO_minus_FCF_residual_B": 27.723,
+    "residual_limit": "27.723B is an algebraic residual of public aggregate estimates, not an independently verified capex consensus. The page does not disclose component-level analyst panels or full future classification policy. Its 47 contributors relate to revenue/earnings, not a verified FCF count.",
+    "provider_definition_source": "https://support.simplywall.st/hc/en-us/articles/9092894930831-Understanding-The-Past-Performance-Section",
+    "provider_definition": "Historical FCF is CFO less capital expenditures; stock compensation is added back in its cash-flow presentation.",
+    "MarketScreener_status": "Direct page did not provide a retrievable table in this pass; do not claim independent MarketScreener validation of the 23.564/-4.159 pair.",
+    "retrieval": "Public web tool displayed the full SWS table and data-source notes. Direct requests returned403; no access restriction was bypassed."
+  },
+  "model_2027_bridge_B": {
+    "owner_cash": -11.692712883085713,
+    "economic_SBC_addback_diagnostic": 2.6,
+    "minority_reserve_addback_diagnostic": 1.1,
+    "owner_plus_SBC_plus_NCI": -7.992712883085714,
+    "physical_PPE": 30.5,
+    "capitalized_interest": 1,
+    "gross_PPE_cash": 31.5,
+    "all_in_lease_supplier_allowance": 1.0,
+    "old_plus_new_capital_credit_collections": 3.0,
+    "capital_credit_basis_loss_tax_charge_retained_in_cash": 0.8819999999999998,
+    "CFO_like_backsolve_if_all_lease_cash_is_outside_CFO_and_no_capital_receipts_in_CFO": 21.507287116914284,
+    "CFO_like_backsolve_if_all_lease_cash_is_outside_CFO_and_all_capital_receipts_in_CFO": 24.507287116914284,
+    "warning": "Neither backsolve is asserted as a GAAP CFO forecast. Future cash-credit versus tax-offset classification, lease principal/interest allocation, inventory/depreciation timing and tax normalization are not fully reconstructed."
+  },
+  "conditional_algebra": {
+    "definitions": "E = the model gross-PPE cash amount that would be classified as financing rather than investing; X = portion of the selected 3B capital-credit collection realized in CFO rather than separate investing cash; L = portion of the 1B all-in lease/supplier allowance outside CFO. These variables are not estimated here.",
+    "CFO_like_B": "20.507287116914287 + L + X",
+    "vendor_like_FCF_B": "-10.992712883085713 + L + X + E",
+    "comparison_at_L1": "With all 1B lease cash outside CFO, vendor-like FCF is -9.992712883085713 + X + E. Matching -4.159 would require X+E=5.833712883085713.",
+    "illustration_all_3B_receipts_in_CFO": {
+      "X": 3.0,
+      "L": 1.0,
+      "financing_PPE_E_needed_to_match_public_FCF_B": 2.833712883085716
+    },
+    "illustration_all_3B_receipts_in_investing": {
+      "X": 0.0,
+      "L": 1.0,
+      "financing_PPE_E_needed_to_match_public_FCF_B": 5.833712883085716
+    },
+    "interpretation": "Historical financing-PPE cash of3.026B in FY2025 and2.151B TTM shows that billion-dollar definition differences are real. It does not prove either illustrative 2027 E amount, nor that all remaining disagreement is classification. Do not select E or X to force consensus agreement."
+  },
+  "capital_credit_boundary": {
+    "primary_policy": "Intel recognizes capital-related grants and refundable credits as reductions to PP&E and reduces depreciation over asset life. It reports capital-related government proceeds in investing cash flows; it also says some credits may settle tax payments due.",
+    "classification_status": "The precise future split of the model-selected old tax-receivable collections between cash grants/refunds and offsets against tax payments has not been established. The model labels the receipt as economic cash, not an audited CFO line.",
+    "sources": [
+      "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+    ]
+  },
+  "presentation_decision": {
+    "admit": "Public forecasts already anticipate negative 2027 FCF. Our model tests economic cash retained for common owners after more explicit claims and capital funding; it has not established an undiscovered cash-flow miss against a fully matched consensus.",
+    "reject": [
+      "Calling owner cash -11.69B directly comparable to public FCF -4.159B.",
+      "Calling 24.507B an exact issuer CFO forecast without incentive/lease reconciliation.",
+      "Calling the 27.723B residual a verified capex forecast or assuming a future extended-payment amount.",
+      "Presenting negative cash conversion alone as new information unavailable to analysts."
+    ]
+  },
+  "source_manifest": {
+    "intel_FY2025_earnings.html": "3bf3330d84e97f176189dced00a5cb8371024c1302531a1568bdfd8293258fc0",
+    "intel_Q3_2026_earnings.html": "6aea2737638da92b6ada47ea403de1fab1f80421597887f7a0a0c5f0a63ebe06",
+    "intel_Q3_2026_10q.html": "4747aba9836ee33a5db8cfe47438626539f54a41c20024e05460830f009f45fd",
+    "intel_2025_10k.html": "67af52d83cdc32a0c52d6007ba0b1031f25c50bc1cae5ee0d626721c9989e42d"
+  },
+  "primary_sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locators": [
+        "Consolidated Statements of Cash Flows, printed pages62-63",
+        "MD&A Adjusted FCF reconciliation, printed page30",
+        "Property Plant and Equipment, Note7",
+        "Government Incentives, printed page80"
+      ]
+    },
+    {
+      "url": "https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial",
+      "locator": "Supplemental cash flow reconciliation, FY2025 column"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locators": [
+        "Cash-flow statement, nine months, printed pages6-7",
+        "Note7 tax receivables",
+        "MD&A financing activities"
+      ]
+    },
+    {
+      "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results?v=2",
+      "locator": "Supplemental cash reconciliation, three months ended Sep26,2026"
+    }
+  ],
+  "models_changed": false
+}

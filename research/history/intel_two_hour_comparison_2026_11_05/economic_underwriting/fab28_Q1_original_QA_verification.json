@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-11-05T23:45:53.135834+00:00",
+  "question": "Does Intel Q3 Q&A quantify a Fab28 Q1 2027 revenue impact?",
+  "answer": "Yes in the published first-person Q&A transcript, as an early management assessment: approximately the same sales impact as the roughly$300M Q4 estimate. It is not fullQ1 guidance, nor a separately quantifiedQ1 gross-margin charge.",
+  "primary_speech_republication": {
+    "url": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/",
+    "publisher": "MarketBeat; conference-call resources and transcript identify Quartr",
+    "call_date": "2026-10-29",
+    "questioner": "Ben Reitzes, Melius",
+    "speaker": "Dave Zinsner, Intel CFO",
+    "locators": [
+      "37:57 question on duration and size of Israel impact",
+      "39:00 early assessment of Q4 andQ1, Q4~$300M",
+      "39:31 similar first-quarter impact; scrap timing",
+      "39:51 qualification that assessment is ongoing"
+    ],
+    "short_excerpt": "That is likely to be similar in the first quarter.",
+    "passage_paraphrase": "Zinsner says the fab had been shut about two weeks and production was expected to restart by that week\u2019s end. Wafer usability was still being assessed. He describes roughly$300M Q4 impact and a likely similarQ1 impact. Most wafer write-offs/scrapping were expectedQ4, driving the200bp margin effect; additionalQ1 scrapping was not then expected. He emphasizes uncertainty.",
+    "interpretation_boundaries": [
+      "Expected restart at call date is not independently verified actual restart.",
+      "Q1 similarity refers back to the revenue impact; it does not establish another200bp margin hit.",
+      "Approximate conditional assessment, not exact completed damage inventory or fullQ1 company guidance.",
+      "No inference that all missed revenue is permanently lost or later recaptured."
+    ]
+  },
+  "matched_transcript": {
+    "url": "https://earningscalls.dev/transcripts/intel-corporation_intc_earnings_call_transcript_2026-10-29",
+    "locator": "Speaker segment#17, David Zinsner, following Ben Reitzes question#16",
+    "result": "Same substantive early-assessment, Q1-similarity and Q4-scrap wording; punctuation/filler words differ.",
+    "independence_limit": "Hosts may use a common transcript feed; agreement is not independent audio reproduction."
+  },
+  "official_source_check": {
+    "event_url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
+    "replay_url": "https://edge.media-server.com/mmc/p/wmusrcit/",
+    "result": "Official page links release, prepared remarks, presentation,10-Q and replay, but no full Q&A transcript. Replay showed guestbook asking name/email/company. No registration submitted; recording not independently listened to.",
+    "prepared_remarks_locator": "PDF p7 recordsQ4 roughly$300M revenue and200bp gross-margin impact; noQ1 quantified amount in prepared remarks.",
+    "filing_locator": "Q3 2026 10-Q Israel Fab Business Disruption and risk discussion extend effects throughH1 2027 but do not replace this Q&A estimate."
+  },
+  "model_implication": {
+    "current_2027_CPU_sales_B": 31.475088,
+    "formula": "21.8577\u00d71.20\u00d71.20",
+    "finding": "Annual forecast has no Fab28-specific2027 quarterly bridge. The netQ4 guidance affects the2026base, but does not prove theQ1assessment was reconciled.",
+    "counterfactual_arithmetic_only": {
+      "2026_counterfactual_revenue_addback_B": 0.3,
+      "scaled2027_difference_B": 0.432,
+      "warning": "This is simply0.3\u00d71.44, not an identified causalFab28 allowance or evidence thatQ1is fully netted. Q4 andQ1 units/ASPs/mix may differ."
+    },
+    "recommended_action": "Disclose the earlyQ1assessment and quarterly reconciliation gap. Isolated additional0.3B2027 sales sensitivity, restoring baseabsolutelevels2028, is a transparent residual-risk test; label it conditional and do not stack another200bp scrapping charge."
+  },
+  "recommended_screen_sentence": "Q&A indicated a likely similar~$0.3B Q1 sales drag; my annual2027 forecast lacks a separate quarterly reconciliation.",
+  "downloads": [
+    {
+      "file": "intel_q3_2026_marketbeat_transcript.html",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/",
+      "status": 403,
+      "archived": false
+    },
+    {
+      "file": "intel_q3_2026_earningscalls_dev_transcript.html",
+      "url": "https://earningscalls.dev/transcripts/intel-corporation_intc_earnings_call_transcript_2026-10-29",
+      "status": 200,
+      "archived": true
+    },
+    {
+      "file": "intel_q3_2026_official_event.html",
+      "url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
+      "status": 200,
+      "archived": true
+    }
+  ]
+}

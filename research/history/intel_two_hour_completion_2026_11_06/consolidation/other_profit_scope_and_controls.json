@@ -1,0 +1,482 @@
+{
+  "calculated_utc": "2026-11-06T07:17:01.694307+00:00",
+  "input_hashes": {
+    "policy": "60739a5a8336e80518a43bdfa9b5c0b9ab5385f3a4b130051f95340caa64d4f7",
+    "root_results": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8"
+  },
+  "sources": {
+    "Intel_Q2": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+    "Intel_Q3": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "Mobileye_Q1": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-first-quarter-2026-results-updates-full-year",
+    "Mobileye_Q2": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-second-quarter-2026-results-updates-guidance",
+    "Mobileye_Q3": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-third-quarter-2026-results-updates-guidance",
+    "Mobileye_scope_caveat": "https://ir.mobileye.com/node/9466/html"
+  },
+  "source_locator_for_scope": "Mobileye Q3 10-Q MD&A subsection Intel Segment Reporting: parent results may differ because of corporate overhead and materiality thresholds.",
+  "quarterly_reconciliation_M": [
+    {
+      "quarter": 1,
+      "Intel_AllOther_profit_M": 102,
+      "Mobileye_GAAP_operating_M": -3896,
+      "Mobileye_amortization_M": 113,
+      "Mobileye_SBC_M": 84,
+      "Mobileye_acquisition_M": 6,
+      "Mobileye_goodwill_impairment_M": 3788,
+      "Mobileye_RSU_grant_M": 0,
+      "Mobileye_adjusted_profit_M": 95,
+      "Mobileye_comparable_before_RSU_grant_removal_M": 95,
+      "residual_if_Intel_retains_RSU_grant_M": 7,
+      "residual_if_Intel_removes_RSU_grant_M": 7
+    },
+    {
+      "quarter": 2,
+      "Intel_AllOther_profit_M": 230,
+      "Mobileye_GAAP_operating_M": -30,
+      "Mobileye_amortization_M": 114,
+      "Mobileye_SBC_M": 88,
+      "Mobileye_acquisition_M": 0,
+      "Mobileye_goodwill_impairment_M": 0,
+      "Mobileye_RSU_grant_M": 17,
+      "Mobileye_adjusted_profit_M": 155,
+      "Mobileye_comparable_before_RSU_grant_removal_M": 172,
+      "residual_if_Intel_retains_RSU_grant_M": 58,
+      "residual_if_Intel_removes_RSU_grant_M": 75
+    },
+    {
+      "quarter": 3,
+      "Intel_AllOther_profit_M": 179,
+      "Mobileye_GAAP_operating_M": -82,
+      "Mobileye_amortization_M": 69,
+      "Mobileye_SBC_M": 103,
+      "Mobileye_acquisition_M": 0,
+      "Mobileye_goodwill_impairment_M": 0,
+      "Mobileye_RSU_grant_M": 1,
+      "Mobileye_adjusted_profit_M": 89,
+      "Mobileye_comparable_before_RSU_grant_removal_M": 90,
+      "residual_if_Intel_retains_RSU_grant_M": 89,
+      "residual_if_Intel_removes_RSU_grant_M": 90
+    }
+  ],
+  "aggregate_controls_M": {
+    "YTD_Intel_AllOther": 511,
+    "YTD_Intel_AllOther_annualized": 681.3333333333334,
+    "Q3_Intel_AllOther_annualized": 716,
+    "forecast": 700,
+    "YTD_residual_partial_treatment_interval": [
+      154,
+      172
+    ],
+    "YTD_residual_annualized_partial_treatment_interval": [
+      205.33333333333334,
+      229.33333333333334
+    ],
+    "Q3_residual_annualized_partial_treatment_interval": [
+      356,
+      360
+    ],
+    "forecast_residual": 300,
+    "forecast_above_YTD_annualized_fraction_range": [
+      0.3081395348837208,
+      0.4610389610389609
+    ]
+  },
+  "scope_assessment": [
+    "Intel excludes corporate SBC, restructuring and certain acquisition-related amortization/impairment from operating segments. Mobileye adjusted profit removes similar categories, so GAAP Mobileye losses are not the correct direct subtraction.",
+    "Mobileye also removes the RSU-related grant. Intel does not separately identify this grant treatment by segment. The interval spans that known mapping choice only; undisclosed overhead/materiality differences prevent a full matched-scope IMS profit reconstruction.",
+    "The Austrian filed entity has a different scope and accounting framework and includes intercompany revenues. Its figures are not substituted for consolidated IMS.",
+    "The 0.7B policy predates this research. It is an analyst forecast, not issuer guidance or newly selected factual profit. Aggregate run rates do not contradict it, but 0.3B non-Mobileye residual requires stronger performance than YTD.",
+    "The 0.60/0.63/0.76B cases are unweighted operating-profit controls. Revenue, minority reserves, capital expenditure and grant WC allocation are held fixed; no double charge for SBC or receivable timing."
+  ],
+  "controls": [
+    {
+      "annual_2027_2030_Other_profit_B": 0.6,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "profit_delta_B": -0.09999999999999998,
+          "operating_cash_delta_B": -0.08500000000000008
+        },
+        {
+          "year": 2028,
+          "profit_delta_B": -0.09999999999999998,
+          "operating_cash_delta_B": -0.08499999999999941
+        },
+        {
+          "year": 2029,
+          "profit_delta_B": -0.09999999999999998,
+          "operating_cash_delta_B": -0.08499999999999941
+        },
+        {
+          "year": 2030,
+          "profit_delta_B": -0.09999999999999998,
+          "operating_cash_delta_B": -0.0850000000000003
+        },
+        {
+          "year": 2031,
+          "profit_delta_B": -0.10299999999999998,
+          "operating_cash_delta_B": -0.08693199999999934
+        },
+        {
+          "year": 2032,
+          "profit_delta_B": -0.10608999999999998,
+          "operating_cash_delta_B": -0.08890341999999936
+        },
+        {
+          "year": 2033,
+          "profit_delta_B": -0.10927269999999997,
+          "operating_cash_delta_B": -0.0909148864000002
+        },
+        {
+          "year": 2034,
+          "profit_delta_B": -0.11255088099999999,
+          "operating_cash_delta_B": -0.09296702770600018
+        },
+        {
+          "year": 2035,
+          "profit_delta_B": -0.11592740742999998,
+          "operating_cash_delta_B": -0.09506047409259989
+        },
+        {
+          "year": 2036,
+          "profit_delta_B": -0.11940522965289999,
+          "operating_cash_delta_B": -0.09791228831537888
+        },
+        {
+          "year": 2037,
+          "profit_delta_B": -0.12298738654248699,
+          "operating_cash_delta_B": -0.10084965696483995
+        },
+        {
+          "year": 2038,
+          "profit_delta_B": -0.12667700813876162,
+          "operating_cash_delta_B": -0.10387514667378286
+        },
+        {
+          "year": 2039,
+          "profit_delta_B": -0.13047731838292445,
+          "operating_cash_delta_B": -0.10699140107399788
+        },
+        {
+          "year": 2040,
+          "profit_delta_B": -0.1343916379344122,
+          "operating_cash_delta_B": -0.11020114310621873
+        },
+        {
+          "year": 2041,
+          "profit_delta_B": -0.13842338707244456,
+          "operating_cash_delta_B": -0.11350717739940547
+        }
+      ],
+      "endpoints": {
+        "2026": {
+          "operating_PV_delta_B": -0.9014186247521634,
+          "treasury_cash_delta_B": 0,
+          "equity_delta_B": -0.9014186247521634,
+          "per_share_delta_USD": -0.16359684659748883,
+          "share_value_USD": 35.24105622888254
+        },
+        "2030": {
+          "operating_PV_delta_B": -0.9923899767730527,
+          "treasury_cash_delta_B": -0.3399999999999992,
+          "equity_delta_B": -1.3323899767730518,
+          "per_share_delta_USD": -0.24181306293521812,
+          "share_value_USD": 53.187521776549715
+        }
+      }
+    },
+    {
+      "annual_2027_2030_Other_profit_B": 0.63,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "profit_delta_B": -0.06999999999999995,
+          "operating_cash_delta_B": -0.0595
+        },
+        {
+          "year": 2028,
+          "profit_delta_B": -0.06999999999999995,
+          "operating_cash_delta_B": -0.05949999999999955
+        },
+        {
+          "year": 2029,
+          "profit_delta_B": -0.06999999999999995,
+          "operating_cash_delta_B": -0.05949999999999955
+        },
+        {
+          "year": 2030,
+          "profit_delta_B": -0.06999999999999995,
+          "operating_cash_delta_B": -0.05950000000000044
+        },
+        {
+          "year": 2031,
+          "profit_delta_B": -0.07209999999999996,
+          "operating_cash_delta_B": -0.06085240000000004
+        },
+        {
+          "year": 2032,
+          "profit_delta_B": -0.07426299999999994,
+          "operating_cash_delta_B": -0.06223239399999933
+        },
+        {
+          "year": 2033,
+          "profit_delta_B": -0.07649088999999995,
+          "operating_cash_delta_B": -0.06364042047999993
+        },
+        {
+          "year": 2034,
+          "profit_delta_B": -0.07878561669999995,
+          "operating_cash_delta_B": -0.06507691939419902
+        },
+        {
+          "year": 2035,
+          "profit_delta_B": -0.08114918520099995,
+          "operating_cash_delta_B": -0.06654233186481989
+        },
+        {
+          "year": 2036,
+          "profit_delta_B": -0.08358366075702996,
+          "operating_cash_delta_B": -0.06853860182076545
+        },
+        {
+          "year": 2037,
+          "profit_delta_B": -0.08609117057974086,
+          "operating_cash_delta_B": -0.07059475987538794
+        },
+        {
+          "year": 2038,
+          "profit_delta_B": -0.08867390569713308,
+          "operating_cash_delta_B": -0.07271260267164849
+        },
+        {
+          "year": 2039,
+          "profit_delta_B": -0.09133412286804708,
+          "operating_cash_delta_B": -0.0748939807517983
+        },
+        {
+          "year": 2040,
+          "profit_delta_B": -0.0940741465540885,
+          "operating_cash_delta_B": -0.07714080017435485
+        },
+        {
+          "year": 2041,
+          "profit_delta_B": -0.09689637095071114,
+          "operating_cash_delta_B": -0.07945502417958396
+        }
+      ],
+      "endpoints": {
+        "2026": {
+          "operating_PV_delta_B": -0.6309930373265149,
+          "treasury_cash_delta_B": 0,
+          "equity_delta_B": -0.6309930373265149,
+          "per_share_delta_USD": -0.11451779261824227,
+          "share_value_USD": 35.29013528286178
+        },
+        "2030": {
+          "operating_PV_delta_B": -0.6946729837411376,
+          "treasury_cash_delta_B": -0.23799999999999955,
+          "equity_delta_B": -0.9326729837411372,
+          "per_share_delta_USD": -0.16926914405465285,
+          "share_value_USD": 53.26006569543028
+        }
+      }
+    },
+    {
+      "annual_2027_2030_Other_profit_B": 0.7,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2028,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2029,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2030,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2031,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2032,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2033,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2034,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2035,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2036,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2037,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2038,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2039,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2040,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        },
+        {
+          "year": 2041,
+          "profit_delta_B": 0.0,
+          "operating_cash_delta_B": 0.0
+        }
+      ],
+      "endpoints": {
+        "2026": {
+          "operating_PV_delta_B": 0.0,
+          "treasury_cash_delta_B": 0,
+          "equity_delta_B": 0.0,
+          "per_share_delta_USD": 0.0,
+          "share_value_USD": 35.40465307548003
+        },
+        "2030": {
+          "operating_PV_delta_B": 0.0,
+          "treasury_cash_delta_B": 0.0,
+          "equity_delta_B": 0.0,
+          "per_share_delta_USD": 0.0,
+          "share_value_USD": 53.42933483948493
+        }
+      }
+    },
+    {
+      "annual_2027_2030_Other_profit_B": 0.76,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "profit_delta_B": 0.06000000000000005,
+          "operating_cash_delta_B": 0.050999999999999934
+        },
+        {
+          "year": 2028,
+          "profit_delta_B": 0.06000000000000005,
+          "operating_cash_delta_B": 0.0510000000000006
+        },
+        {
+          "year": 2029,
+          "profit_delta_B": 0.06000000000000005,
+          "operating_cash_delta_B": 0.0510000000000006
+        },
+        {
+          "year": 2030,
+          "profit_delta_B": 0.06000000000000005,
+          "operating_cash_delta_B": 0.05099999999999971
+        },
+        {
+          "year": 2031,
+          "profit_delta_B": 0.061800000000000056,
+          "operating_cash_delta_B": 0.052159200000000384
+        },
+        {
+          "year": 2032,
+          "profit_delta_B": 0.06365400000000006,
+          "operating_cash_delta_B": 0.05334205200000093
+        },
+        {
+          "year": 2033,
+          "profit_delta_B": 0.06556362000000006,
+          "operating_cash_delta_B": 0.05454893184000055
+        },
+        {
+          "year": 2034,
+          "profit_delta_B": 0.06753052860000007,
+          "operating_cash_delta_B": 0.05578021662359965
+        },
+        {
+          "year": 2035,
+          "profit_delta_B": 0.06955644445800006,
+          "operating_cash_delta_B": 0.05703628445556001
+        },
+        {
+          "year": 2036,
+          "profit_delta_B": 0.07164313779174007,
+          "operating_cash_delta_B": 0.05874737298922687
+        },
+        {
+          "year": 2037,
+          "profit_delta_B": 0.07379243192549227,
+          "operating_cash_delta_B": 0.06050979417890405
+        },
+        {
+          "year": 2038,
+          "profit_delta_B": 0.07600620488325704,
+          "operating_cash_delta_B": 0.06232508800427228
+        },
+        {
+          "year": 2039,
+          "profit_delta_B": 0.07828639102975476,
+          "operating_cash_delta_B": 0.06419484064439918
+        },
+        {
+          "year": 2040,
+          "profit_delta_B": 0.0806349827606474,
+          "operating_cash_delta_B": 0.06612068586372954
+        },
+        {
+          "year": 2041,
+          "profit_delta_B": 0.08305403224346683,
+          "operating_cash_delta_B": 0.06810430643964302
+        }
+      ],
+      "endpoints": {
+        "2026": {
+          "operating_PV_delta_B": 0.5408511748512999,
+          "treasury_cash_delta_B": 0,
+          "equity_delta_B": 0.5408511748512999,
+          "per_share_delta_USD": 0.09815810795849363,
+          "share_value_USD": 35.502811183438524
+        },
+        "2030": {
+          "operating_PV_delta_B": 0.5954339860638329,
+          "treasury_cash_delta_B": 0.20400000000000085,
+          "equity_delta_B": 0.7994339860638338,
+          "per_share_delta_USD": 0.14508783776113135,
+          "share_value_USD": 53.57442267724606
+        }
+      }
+    }
+  ],
+  "verification": {
+    "all_Mobileye_GAAP_to_adjusted_reconciliations_exact_M": true,
+    "YTD_profit_matches": true,
+    "base_control_unchanged": true,
+    "root_input_unchanged": true
+  }
+}

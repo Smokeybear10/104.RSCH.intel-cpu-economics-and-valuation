@@ -1,0 +1,79 @@
+{
+  "computed_utc": "2026-11-06T07:48:06.819545+00:00",
+  "rate": 0.10625000000000001,
+  "calculation": "4.94% +1.5*3.79%=10.625%",
+  "cases": {
+    "selected_operating": {
+      "values": {
+        "2026": {
+          "price_USD": 40.774269237282056,
+          "explicit_operating_PV_B": 112.1889099193366,
+          "terminal_operating_PV_B": 104.16283256855291,
+          "financing_shield_PV_B": 2.8391545388524753,
+          "remaining_escrow_PV_B": 2.2718375945609504,
+          "remaining_acquisition_PV_B": 2.0035111238788343,
+          "terminal_share_of_operating_value": 0.4814513226043628
+        },
+        "2030": {
+          "price_USD": 59.67643532568411,
+          "explicit_operating_PV_B": 148.10320604880377,
+          "terminal_operating_PV_B": 156.0004733982433,
+          "financing_shield_PV_B": 3.0072814572863473,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5129844981879192
+        }
+      },
+      "planning_value_USD": 40.774269237282056,
+      "target2030_USD": 59.67643532568411,
+      "annual_price_return": 0.03251529397054087,
+      "entry_ceiling_for10pct_price_return_USD": 40.1685191152915,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    "existing_favorable_operating": {
+      "values": {
+        "2026": {
+          "price_USD": 56.13928584556836,
+          "explicit_operating_PV_B": 151.0201431794779,
+          "terminal_operating_PV_B": 149.84001282006915,
+          "financing_shield_PV_B": 2.8391545388524753,
+          "remaining_escrow_PV_B": 2.2718375945609504,
+          "remaining_acquisition_PV_B": 2.0035111238788343,
+          "terminal_share_of_operating_value": 0.4980387393679831
+        },
+        "2030": {
+          "price_USD": 82.47015162680005,
+          "explicit_operating_PV_B": 194.04844436651882,
+          "terminal_operating_PV_B": 224.4093440771757,
+          "financing_shield_PV_B": 3.0072814572863473,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5362771354114036
+        }
+      },
+      "planning_value_USD": 56.13928584556836,
+      "target2030_USD": 82.47015162680005,
+      "annual_price_return": 0.11615212704256206,
+      "entry_ceiling_for10pct_price_return_USD": 55.51108815369126,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 57.64598808952128,
+        "net_operating_investment_B": 7.493000624273433,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.96924956258162,
+        "reinvestment_fraction_of_NOPAT": 0.1299830373735148,
+        "implied_incremental_ROC": 0.2307993458699771
+      }
+    }
+  },
+  "source": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx",
+  "scope": "Same unchanged operating cases, future rates assumed flat; Dec2026 is planning value not Nov5intrinsic value."
+}

@@ -1,0 +1,152 @@
+{
+  "frozen_commit": "3691c0856de7597b2c73d86e4e2f0ee3cd934849",
+  "raw_repository_files": [
+    {
+      "path": ".github/actions/bench-start/action.yml",
+      "git_blob_sha": "80d08061769d0347dedc817e2877dc6234021979",
+      "bytes": 2493,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/.github/actions/bench-start/action.yml"
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "git_blob_sha": "b9a18363079935907818c04a5fe826c74025bfa3",
+      "bytes": 5296,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/.github/workflows/rust.yml"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "c65593d7310e7659c8fb977f3635a90d067afe09",
+      "bytes": 16459,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/README.md"
+    },
+    {
+      "path": "bin/collect.py",
+      "git_blob_sha": "3d7e0a3059a7c14a47603c79f2b48edc25cc880a",
+      "bytes": 24121,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/bin/collect.py"
+    },
+    {
+      "path": "bin/runs-on-costs.py",
+      "git_blob_sha": "15dceccfe28cc8466f65e2918236f00cfa837a96",
+      "bytes": 9463,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/bin/runs-on-costs.py"
+    },
+    {
+      "path": "config/runners.json",
+      "git_blob_sha": "9a4ed994a3ee9873b4c7eae715f09cc704e090e6",
+      "bytes": 90854,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/config/runners.json"
+    },
+    {
+      "path": "config/workloads.json",
+      "git_blob_sha": "d9ac296fa83846170b528fff68f1728c0f14bab7",
+      "bytes": 6323,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/config/workloads.json"
+    },
+    {
+      "path": "results/rust/2026-10-25-40153754531-1.json",
+      "git_blob_sha": "ff6e094fcb60269bba6909fe0b24fa049a295cac",
+      "bytes": 724521,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/results/rust/2026-10-25-40153754531-1.json"
+    },
+    {
+      "path": "results/rust/2026-10-28-40619393784-1.json",
+      "git_blob_sha": "1f1611ecaca1a22a585d46bc45ba1929c513ee73",
+      "bytes": 722894,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/results/rust/2026-10-28-40619393784-1.json"
+    },
+    {
+      "path": "results/rust/2026-10-31-41158668472-1.json",
+      "git_blob_sha": "2902edf09622193c1dd48639c4b7ff207e1f6252",
+      "bytes": 722064,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/results/rust/2026-10-31-41158668472-1.json"
+    },
+    {
+      "path": "results/rust/2026-11-01-41264057181-1.json",
+      "git_blob_sha": "c1dbe9f4e846557363812e66e2a93170d237edb8",
+      "bytes": 722242,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/results/rust/2026-11-01-41264057181-1.json"
+    },
+    {
+      "path": "results/rust/2026-11-04-41758864025-1.json",
+      "git_blob_sha": "ac33b1f005c4d4522d64699a2e6952b8ef426a70",
+      "bytes": 724561,
+      "url": "https://raw.githubusercontent.com/runs-on-demo/benchmark-public/3691c0856de7597b2c73d86e4e2f0ee3cd934849/results/rust/2026-11-04-41758864025-1.json"
+    }
+  ],
+  "original_log_urls": [
+    {
+      "job_id": 121050583980,
+      "date": "2026-10-25",
+      "runner": "runson-m8a-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/40153754531/job/121050583980",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 121050584078,
+      "date": "2026-10-25",
+      "runner": "runson-m8i-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/40153754531/job/121050584078",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 122589505152,
+      "date": "2026-10-28",
+      "runner": "runson-m8a-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/40619393784/job/122589505152",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 122589505319,
+      "date": "2026-10-28",
+      "runner": "runson-m8i-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/40619393784/job/122589505319",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 124411098854,
+      "date": "2026-10-31",
+      "runner": "runson-m8a-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/41158668472/job/124411098854",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 124411098786,
+      "date": "2026-10-31",
+      "runner": "runson-m8i-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/41158668472/job/124411098786",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 124723079722,
+      "date": "2026-11-01",
+      "runner": "runson-m8a-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/41264057181/job/124723079722",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 124723079805,
+      "date": "2026-11-01",
+      "runner": "runson-m8i-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/41264057181/job/124723079805",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 126341529652,
+      "date": "2026-11-04",
+      "runner": "runson-m8a-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/41758864025/job/126341529652",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    },
+    {
+      "job_id": 126341529750,
+      "date": "2026-11-04",
+      "runner": "runson-m8i-2xlarge",
+      "url": "https://github.com/runs-on-demo/benchmark-public/actions/runs/41758864025/job/126341529750",
+      "retrieval": "GitHub connector fetch_workflow_job_logs, original public run"
+    }
+  ],
+  "current_price_file": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ec2/USD/current/ec2-ondemand-without-sec-sel/US%20East%20(N.%20Virginia)/Linux/index.json",
+  "display_data_file": "https://runs-on.com/benchmarks/data/runners/runson.json",
+  "primary_results_use": "Frozen raw GitHub job records, not display-data summaries. The display data was used to discover the candidate only."
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Intel host capital productivity: primary evidence and owned prospective adjudication",
+  "frozen_utc": "2026-11-04T16:40:19.337839+00:00",
+  "information_as_of": "2026-11-04",
+  "scope": "One additive research and policy recommendation; no engine edits, changed equity values, model grid or prior-arithmetic rerun. External packaging remains a separate funded program.",
+  "chronology": "Earlier base, funded-CPU and packaging values were already known. No new equity output was computed or inspected during this capital-policy selection. The proposed0.80 and range were communicated to root before any valuation under them.",
+  "owned_decision": {
+    "recommendation": "Prefer0.80 incremental sales per dollar of total net operating reinvestment for the host from2031 onward; retain0.60\u20131.00 as a plausible planning range. This is an owned estimate, not an empirically fitted marginal-capital coefficient or a statistical confidence interval.",
+    "old_060_judgment": "0.60 is a defensible capital-heavy outcome, but the evidence is insufficient to make it the uniquely most likely mature requirement. It is not proved punitive: historical Intel flow comparisons can approach it when acquisitions and other cash needs are included, and future leading-edge tools remain expensive.",
+    "why_080": "Intel has already paid for substantial shell/campus capacity, is deploying tools into existing fabs, and explicitly seeks longer-lived nodes and chiplet reuse. After paying the current ramp, I expect that repeatable model to improve productivity relative to the catch-up/build-ahead phase. A0.80 convention still funds1.25 dollars of net operating capital per dollar of additional annual sales; it does not assume a fabless model or free node transitions.",
+    "why_not_above_100": "High-NA/EUV tools, greater U.S. production, qualification/startup cycles, supplier advances and uncertain external utilization prevent adopting the much lighter mature-node TI model or TSMC\u2019s current AI-cycle flow productivity as Intel\u2019s permanent outcome.",
+    "implementation_if_adopted": "Replace only the host2031+ turnover schedule with0.80. Keep selected revenue/profits, D&A (reaching20% Products), WC10% of incremental host external sales,3% nominal maturity, corporate costs and all credit/claim policies unchanged. Capital=DA+delta host external sales/0.80\u2212deltaWC. No automatic further margin or tax benefit. Packaging keeps its independently funded1.00 turnover; do not apply0.80 to it again.",
+    "confidence": "More confident that0.60 is not well calibrated than that0.80 is precise. The plausible range remains economically material; it should limit conviction in either stock direction rather than be hidden."
+  },
+  "definitions_and_scope": {
+    "turnover": "Incremental sales divided by capex minus total normalized D&A plus operating working-capital investment. It is a flow-reinvestment assumption, not annual sales divided by ending PP&E.",
+    "per_one_dollar_new_sales": {
+      "old_total_net_investment": 1.6666666666666667,
+      "old_WC": 0.1,
+      "old_fixed_asset_net_investment": 1.5666666666666667,
+      "proposed_total_net_investment": 1.25,
+      "proposed_WC": 0.1,
+      "proposed_fixed_asset_net_investment": 1.15
+    },
+    "gross_capex_vs_net_growth": "D&A20% is not a second independent FCFF penalty when gross capex is DA plus net investment minusWC. Nevertheless, those depreciation and manufacturing-profit assumptions must describe economically plausible recurring tool costs. No mathematical double charge was found.",
+    "nominal_scope": "3% nominal revenue growth need not be3% additional wafer starts. Price/mix and physical capacity both matter; net reinvestment can include replacement-cost inflation as well as new capacity. No exact real-capacity split is inferred.",
+    "funding": "Government incentives, minority funding and customer deposits alter who supplies cash and its timing; they are not themselves higher physical capital productivity. Existing finite subsidy and claim treatments remain separate."
+  },
+  "same_company_evidence": [
+    {
+      "source": "Intel2024Form10-K",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000009/intc-20241228.htm",
+      "locator": "Our Capital, manufacturing facilities, printedpage8",
+      "finding": "2024 manufacturing capex including technology development was55% facility space and45% equipment. Intel described recent outsized spending on technology, shells and tools and delaying tools until demand confidence.",
+      "implication": "Part of the past spend buys future space rather than current sales. Supports a utilization/tooling transition; does not make fitting out those shells or every later node free."
+    },
+    {
+      "source": "Intel2025Form10-K",
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "OurBusiness printedpages11\u201312; Note9PP&E/incentives",
+      "finding": "Intel explicitly aims to lengthen node lifespans through optimization, older-node roles in disaggregated products and external use. NetPP&E105.414B includes34.543B CIP; grossPP&E211.878B is reduced by16.1B capital incentives. Incentives reduced2025 depreciation by1.0B.",
+      "implication": "Reuse is a strategic basis for better productivity, while unfinished and subsidized book assets make current average turnover unsuitable as a direct marginal calibration. No assumption of unlimited external mature-node demand."
+    },
+    {
+      "source": "Intel2023Form10-K",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-24-000010/intc-20231230.htm",
+      "locator": "MD&A2023grossmargin; NotePP&E/useful lives",
+      "finding": "Certain equipment lives increased from5to8years in January2023; estimated2023 depreciation reduction4.2B. The resulting expense/inventory effects were not individually quantifiable after cost absorption.",
+      "implication": "A historical capex-minus-book-depreciation ratio moves when accounting life changes, even without a matching change in current physical additions. Longer accounting life alone is not proof of economic asset survival."
+    },
+    {
+      "source": "Intel current manufacturing/reuse primary corpus",
+      "urls": [
+        "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe.html",
+        "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium.html",
+        "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+      ],
+      "locator": "July13Ireland expansion; June16VLSI18A-P; October29preparedremarks",
+      "finding": "Existing Ireland cleanrooms receive tools;18A-P reuses design infrastructure; Intel3/18A and packaging capacity continue to ramp. Equipment purchase orders and future capex also rise.",
+      "implication": "The causal route is more qualified output from existing space plus paid new tools. Design-rule reuse does not establish a free or universally fungible fab. Current2027\u201330 investment is retained, not recouped or removed."
+    }
+  ],
+  "historical_flow_diagnostic": {
+    "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-21-000010/0000050863-21-000010.pdf",
+    "locators": "Printedpage50 selectedfinancialdata (PDF52); cashflows printed77 (PDF79); PP&E printed87 (PDF89). Cashflow/PP&E tables visually checked.",
+    "years": [
+      2018,
+      2019,
+      2020
+    ],
+    "revenue_B": [
+      70.848,
+      71.965,
+      77.867
+    ],
+    "2017_revenue_B": 62.761,
+    "cash_PPE_B_including_separate_2020_held_for_sale_NAND_line": [
+      15.181,
+      16.213,
+      14.453
+    ],
+    "physical_depreciation_B": [
+      7.52,
+      9.204,
+      10.482
+    ],
+    "intangible_amortization_excluded_B": [
+      1.565,
+      1.622,
+      1.757
+    ],
+    "selected_operating_WC_cash_use_B": [
+      0.61,
+      2.411,
+      -0.89
+    ],
+    "WC_scope": "AR, inventory,AP, accrued compensation and prepaid supply cashflow lines; excludes taxes and unclassified other assets/liabilities.",
+    "sales_increase_B": 15.106000000000002,
+    "capex_minus_depreciation_plus_selected_WC_B": 20.772000000000002,
+    "ratio": 0.7272289620643173,
+    "acquisitions_net_cash_B": 2.985,
+    "ratio_if_acquisitions_also_counted": 0.6358546954581807,
+    "interpretation": "Approx0.727 is a multiyear flow diagnostic, not a causal marginal return. Counting acquisition cash gives0.636, underscoring scope sensitivity. NAND, acquisitions/disposals, future-node development, noncash capital/payables, capitalized interest and the pre-EUV process mix prevent treating either number as the forecast coefficient. It restrains an aggressive productivity upgrade while showing0.60 is not the only observed scale.",
+    "raw_sha256": "f4c5d42b9ad1cdaa059b8444f15c8a91e2aabc619a326a9c8cbff45b75bc01c3",
+    "raw_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/capital_productivity_sources/intel_2020_10k.pdf"
+  },
+  "comparables_scope_review": {
+    "TSMC": {
+      "annual_report": "https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf",
+      "latest_transcript": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
+      "locators": "2025cashflows/Note15; October2026transcriptpp3\u20134",
+      "reported2025_NTDB": {
+        "revenue": 3809.054,
+        "cash_capex": 1272.411,
+        "DA": 688.096,
+        "net_PPE": 3691.841,
+        "equipment_under_installation_and_CIP": 1518.996
+      },
+      "implication": "2025capex/revenue33.4% andDA/revenue18.1%;41.1% of netPP&E was equipment-under-installation/CIP. In OctoberTSMC reiterated60\u201364BUSD2026capex and heavier2026\u201328investment while discussing tool costs and overseas dilution. This supports a substantial recurring leading-edge burden, not a direct0.60 coefficient. Wafer-service revenue differs from Intel\u2019s product revenue, growth rates differ, and installed capital serves later demand.",
+      "verification": "Annual figures reviewed by delegated primary-source researcher; October issuer-hosted transcript independently opened by hardware researcher."
+    },
+    "TI": {
+      "capital_management_transcript": "https://investor.ti.com/static-files/4e8d323e-83e6-4b70-88fd-b3e2b65969bd#page=1",
+      "locators": "February24,2026printedpp16\u201317, retrievedlines445\u2013458",
+      "finding": "Management described a roughly4% revenue no-growth gross-capex floor and a Phase3 modular-expansion relationship near1.2 times long-term revenue growth for grosscapex/revenue, before incentives.",
+      "implication": "This is an explicit economic spending relationship rather than average book turnover, demonstrating why a prebuilt-shell phase can mature into more flexible investment. TI\u2019s28\u2013130nm, long-lived analog/embedded products and equipment do not calibrate Intel\u2019s continuing leading-edge logic program; do not substitute its4% replacement floor.",
+      "verification": "Primary web text read by delegated researcher. Hardware\u2019s independent refetch returned403; no local transcript retained and no claim of visual verification."
+    },
+    "funding_guard": "Peer grants reduce recorded asset basis and depreciation; customer capacity deposits may be repayable or offset shipments. Neither is free physical capacity or a permanent cost reduction. No peer subsidy/financing credit is added to Intel."
+  },
+  "mature_operating_sanity_only": {
+    "source": "Existing fundedCPU host2041operating row; no equity output",
+    "DA_fraction_of_host_external_sales": 0.19603369972829723,
+    "existing060_gross_capex_fraction": 0.24166476768946227,
+    "proposed080_gross_capex_fraction": 0.22952884535936519,
+    "interpretation": "At3% nominal growth and unchanged20%-of-Products D&A,0.80 still produces roughly22.95% grosscapex/host external sales, versus24.17% under0.60. Maintenance/replacement and new growth remain funded. Historical/peer ratios are scope checks, not coefficients selected by averaging."
+  },
+  "counterfacts_and_update_criteria": [
+    "Favor0.60orlower productivity if successor-node tooling/qualification spend remains catch-up-like despite current shell spending, old nodes lose internal/external demand, or geographical duplication persistently raises capital per accepted output.",
+    "Favor1.00orhigher if publicly disclosed qualified wafer/package output and retained node demand rise on sustained lower tool/site additions across multiple years, without outsourcing cost simply replacing capital or subsidized asset funding being counted as productivity.",
+    "Review aggregate capital and accepted product/service output together. Do not change the coefficient because an isolated quarter\u2019s capex or cash depreciation moved, or because a stock value needs a different answer."
+  ],
+  "separate_CPU_host_update": {
+    "source": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+    "chart": "https://img.trendforce.com/EDM/2026/10/20261022_133209_3.jpg",
+    "finding": "TrendForce\u2019s own research forecasts over40% global serverCPU shipment growth in2027 but Intel share50%2026E to42%2027F; at40\u201345% industry growth the implied Intel unit growth is17.6\u201321.8%. The chart was visually checked.",
+    "owned_preference": "Prefer20% Intel2027unit growth as central and retain30% as a funded upside. Ireland output doubling is not all-company CPU doubling. Do not automatically alter2028\u201330; those years require a separate catch-up timing judgment. This demand preference is independent of the0.80 capital proposal and is not a compensating price-fitting adjustment.",
+    "scope": "This is an independent analyst forecast, not an observed physical ceiling or actual future Intel market share. No model changed here."
+  },
+  "input_hashes": {
+    "post2030_operating_capital_policy.json": "dd14ddfd2a758a70f30c3c9ecc395610c32ea9c28a120594a735efa1d4a383db",
+    "post2030_capital_transition_addendum.json": "3205cf77639432071bfba8ee8778e32009d8450768a702ea0daf98a6da58b633",
+    "bullish_absorption_operating_policy.json": "6857dbbc5e3d724a3dde2b0ef0ce5914d40a87a09ac4afd6aa0369c32113bf65",
+    "external_packaging_operating_policy_2026_11_04.json": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb",
+    "physical_reuse_capacity_bridge_2026_11_04.json": "ca8205854ccdc64441fe92b3e80d31220e256d10aa12319bb41245e5e7b344ea"
+  },
+  "no_new_equity_calculation": true
+}

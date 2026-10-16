@@ -1,0 +1,116 @@
+{
+  "reviewed_utc": "2026-11-05T06:46:56.888796+00:00",
+  "scope": "Independent editorial and claim-boundary review of all nine final PDF pages, extracted text, generator source map and business/capital source reviews. No PDF, generator or frozen-source edits.",
+  "source_snapshot": {
+    "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "84adf0082974aaff742713908e47d63f38ef8c5c06432c350e27a32fa0382548",
+    "page_count": 9,
+    "all_pages_read": true
+  },
+  "verdict": "Pass on business-led structure and substantive claim framing, with two narrow accuracy corrections requested. The investment remains a conditional valuation counterview, not a newly established robust alpha claim.",
+  "material_issues": [
+    {
+      "id": "p2_source_alignment",
+      "page": 2,
+      "severity": "citation accuracy",
+      "text": "A larger processor can command more dollars while using more silicon and a more demanding package ... [2,5]",
+      "finding": "Source5 now links the June16IntelVLSI18A-Pdesign-compatibility release. It supports page4 reuse/qualification discussion, but does not establish this specific package/silicon-content statement. The reviewedClearwaterarchitecturewhitepaper would support it, or the text can use the directly disclosed higherunitcosts/premiummix in source2.",
+      "requested_fix": "Simplest: Premium processors can command more dollars and also carry higher unit costs. Intel reports both in the latest quarter. Revenue perCPU is notcash perCPU... [2]. Alternatively add the matching architecturewhitepaper citation.",
+      "status": "sent to root; not edited here"
+    },
+    {
+      "id": "p5_normalization_label",
+      "page": 5,
+      "severity": "description accuracy",
+      "text": "Faster normalized growth alone did not establish a profitable outright short.",
+      "finding": "The tested sensitivity accelerated normalization to maturity by2035 and reduced later growth; it did not increase normalized growth.",
+      "requested_fix": "Replace Faster normalized growth with Earlier growth normalization, or remove this unnecessary footnote sentence.",
+      "status": "sent to root; not edited here"
+    }
+  ],
+  "page_reviews": [
+    {
+      "page": 1,
+      "result": "Pass",
+      "reason": "Clear relativeSHORT; two businessjudgments rather than threefalseindependentedges. Dates distinguishspotquote/yearendDCF/end2030value. Doesnotclaim measured consensus miss; futurevalue70.98boundaryprominent."
+    },
+    {
+      "page": 2,
+      "result": "Pass subject to citation fix",
+      "reason": "Industry growth/share math accurate; strongIntelunit/ASPforecast conceded. ProductandinternalFoundryboundaries clear. Specificpackagecostcitation shouldmatchsource."
+    },
+    {
+      "page": 3,
+      "result": "Pass",
+      "reason": "Cumulative111.3profit/27.6owner cash and70.3netinvestment agreewith model. Nominaltotals explicitlynotshareholderreturnorROIC. Ownercashdefinition andgrowthinvestmentbenefit prevent misleading lowcash=overvaluation claim."
+    },
+    {
+      "page": 4,
+      "result": "Pass",
+      "reason": "Observedfacts separatedfromforecastuse. Irelandreuse/conversionbill acknowledged; substrate3.3alreadywithinbudgetnotaddedtwice; designrulecompatibilitynotclaimedtool/costequivalence."
+    },
+    {
+      "page": 5,
+      "result": "Pass subject to normalization label",
+      "reason": "ASPperiods correctlydistinguished;35%maturemargin expresslyownednotguidance; purposebuiltsiliconmix statedaspossiblemarginmechanism notmeasuredsegmentmargin. CurrentprofitandpersistentIBIDENshortageadverseevidencepresent. TSMCiscontextnotIntelcalibration."
+    },
+    {
+      "page": 6,
+      "result": "Pass",
+      "reason": "Jointoperating/riskcasevalues correctlylabeled; no ratefloor. iFASTexplicitlyoneanalystandEPSconventionsdiffer; no fabricated marketconsensus or newly discovered negativeFCF. Longrunvalueconcentration andrepricinguncertaintyvisible."
+    },
+    {
+      "page": 7,
+      "result": "Pass",
+      "reason": "Checkpointsareownedforecasts,notissuerguidance. Jointoutput/profit/investmentconditions sensible; paymentdeferralguardretained. Waferoptionseparatefundedillustrationandsharedcapacitycaveatclear."
+    },
+    {
+      "page": 8,
+      "result": "Pass",
+      "reason": "Allimplementation ononepage. FutureIntelvalues70.98/64.15implyoutrightloss;hedgefundaallcapitalinclcosts;historicalbetaanddriftclear;6.43centraland4.91matchedERPvs4.94hurdlekept. No-shorthigherbeta comparator disclosed;noexpectedreturnorsecuredquoteclaim."
+    },
+    {
+      "page": 9,
+      "result": "Pass",
+      "reason": "APVbridgeandclaimdenominatorconsistent. Operatingassetbeta distinguishedfromhedgeequalitybeta;fundedterminalgrowthandzerogrowthtaxshieldidentified. Sourceindexaccurate apartfromp2useofsource5."
+    }
+  ],
+  "source_rechecks": [
+    {
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium.html",
+      "result": "Directlyread. Supports18A-Pdesignrulecompatibility andriskproduction;notexplicitlarge-silicon/packagecostclaim."
+    },
+    {
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "result": "Directlyread. iFASTNov2 reportrecognizescashconversion/capexlimits andnegative2027FCF; EPS1.77/2.59 confirmed bytextfind. Its sourcequote70.87 is not used as currentquote in ourPDF."
+    },
+    {
+      "url": "https://www.m37.com/spc2026",
+      "result": "Officialrulesrecheckedearlierinthistask. Ninepagesfitlimit; businessjudgment/recommendation/risk focus aligns; no mandatoryhedge requirement invented."
+    }
+  ],
+  "structural_result": {
+    "business_analysis_pages": 6,
+    "position_analysis_pages": 1,
+    "method_sources_pages": 1,
+    "cover_pages": 1,
+    "hedge_at_most_one_supporting_page": true,
+    "no_manufactured_consensus": true,
+    "35pct_margin_identified_as_judgment": true,
+    "strongest_countercase_visible": true
+  },
+  "remaining_investment_limit": "This is clearer communication and more explicit evidence-to-forecast reasoning. Disclosedinvestmentneed andvariableproductmix do not independently prove overvaluation or forecast the stock return. ThePDF appropriatelyretainsmoderateconditionalconviction.",
+  "mutation": "Only this new editorial_verification.json written.",
+  "root_resolution": {
+    "verified_utc": "2026-11-05T06:48:18.751664+00:00",
+    "requested_corrections_applied": true,
+    "final_pdf_sha256": "536b3b84a58060ac58c0b96e38817c5bbf8ffbce225ce0e468b48f9378e53818",
+    "notes": [
+      "Page2premium-mix/higher-costclaim nowmatchesIntelQ3source",
+      "Page3cash-totalslabel replacedwithundiscountedforecasttotals",
+      "Page5observedvsforecastlabelmadeexplicit",
+      "Removedorphanedearlier-normalizationfooter",
+      "Page7wafergrowth/margin/capitalassumptionsrestored"
+    ]
+  }
+}

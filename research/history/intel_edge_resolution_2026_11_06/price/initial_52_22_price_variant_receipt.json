@@ -1,0 +1,245 @@
+{
+  "prepared_utc": "2026-11-06T06:16:02.196455+00:00",
+  "scope": "Independent price/variant challenge; no model/PDF changes, commitments, trades, contacts or paid data.",
+  "frozen_inputs": {
+    "entry_USD": 52.22,
+    "entry_date": "2026-11-05",
+    "base": {
+      "before_Dec2026_planning_value_USD": 51.287102511241415,
+      "before_Dec2030_target_USD": 77.6819879986314,
+      "December2026_planning_value_USD": 51.06659434427227,
+      "December2030_target_USD": 77.46147983166225,
+      "annual_price_return_from52_22": 0.09959262555477988,
+      "total_price_return_from52_22": 0.48336805499161706,
+      "planning_value_change_from52_22": -0.022087431170580873,
+      "per_share_claim_deduction_USD": 0.22050816696914702
+    },
+    "mature_DCAI_margin": 0.4,
+    "capital_productivity": 0.8,
+    "flat_operating_discount_rate": 0.11555,
+    "terminal_growth": 0.03,
+    "shares_B": 5.51
+  },
+  "firm_judgment": {
+    "decision": "No substantiated upgrade from conditional moderate LONG at52.22. No substantiated SHORT. Intel remains a researched recovery candidate, but a demonstrable price advantage is not established. If selecting afresh specifically for a strong differentiated mispricing pitch, this record does not yet justify selecting Intel over alternatives; this is not a claim that Intel cannot outperform.",
+    "concrete_thesis_that_survives": "Server demand, richer CPU content and additional qualified output can let DCAI profit outweigh PC weakness. At52.22that business recovery is a paid-for forecast: unchanged funded economics produce51.07December2026APV and77.46December2030value, about9.96%conditional annual price appreciation. The live debate is whether strong customer economics and manufacturing recovery persist long enough to earn that return, not whether servers can grow at all.",
+    "sharpened_variant": "Our2027operating trajectory is more optimistic than the directly published iFAST forecast and strains the public S&P aggregate revenue proxy. A marketwide underappreciation claim remains unproved: major professional research already recognizes the server recovery, and our own fair-value calculation gives no material price cushion.",
+    "why_no_stronger_long": [
+      "More confidence in near-term capacity can make an existing forecast more credible without increasing intrinsic value. The unchanged51.07planningAPV is2.21%below52.22and already assumes successful recovery.",
+      "92.3%of December2026operatingvalue lies after2030; near-term LTAs or2027wafer output do not secure these cashflows. The decisive missing evidence is persistence of consolidated profits and capital returns, not another short-term shipment sensitivity.",
+      "The model already includes40%matureDCAI,2030-40CPUrevenue6%CAGR,0.8incremental capital productivity and a funded3%perpetuity. The resulting roughly23.5%incremental terminalNOPAT/netinvestment is an assumed economic rent, not a measured moat.",
+      "Historical cost learning is inQ3economics and the subsequent Foundryprofitpath. Internal transfer-price changes cannot create group profit twice.",
+      "The model already contains gross external packaging revenue7Bby2030with5.5Bcapital through2030, plus OtherDCAI17.44B. Commercial announcements must exceed these expectations after costs and overlap to create extra value.",
+      "Cashclaims and known collateral treatment are already reconciled. No newly substantiated uncounted asset, contractual cash stream or removable capital obligation was found that closes the price issue."
+    ],
+    "why_no_short": [
+      "Approximately fair modeled value is not overvaluation adequate to establish a short.",
+      "Revenue, consolidated gross profit, demand and capacity investment support a plausible recovery. No source demonstrates permanent loss or supply failure sufficient to make the downside path the best forecast.",
+      "Public target surveys and the two directly published research valuations are above52.22, but their differing scopes/methods do not prove upside either. They make a simplistic consensus-blind short story especially unconvincing.",
+      "Lower-demand and joint-downside outputs are conditional states, not estimated probabilities. Converting them into a short target solely to improve pitch contrast would tune direction to rhetoric."
+    ],
+    "evidence_needed_to_cross_the_price_gap": [
+      "A buyer-specific, economically distinct contracted volume/price/capital arrangement extending beyond the already modeled program, reconciled to group cash and existing forecast overlap.",
+      "Evidence of repeat qualified CPU purchases at retained net prices plus corresponding package/manufacturing costs after supply normalization, sufficient to defend a durable segment and consolidated margin.",
+      "A credible jointly funded capital and operating path beyond2030that supports the embedded growth and economic returns. Capacity announcements and same-core prices do not identify this path.",
+      "A lower actual entry can improve the unchanged conditional return:48.3801944gives12%to the same2030target. It does not improve business quality or turn a weak forecast into a sound one."
+    ],
+    "not_required_to_make_a_legitimate_long": "A long need not meet an invented12%or15%minimum, prove a proprietary information edge, or be below every analyst forecast. The issue is the strength of evidence relative to the risk and purchase price.10%is not inherently invalid; it simply cannot be sold as a measured expectation or obvious mispricing.",
+    "recommended_pitch_change": "Replace the implication of an isolated pre-earnings comparator with an explicitly dated current-forecast panel: iFAST FY2027growth comparison plus S&P non-Products headroom. Keep52.22/51.07/77.46and moderateconviction. Say exactly why ownforecast may be right and acknowledge that evidence improves forecast defensibility more than present value. Do not raise target, lower risk rate, assign unobserved scenario weights, import analyst targets, or label already modeled packaging as a free option."
+  },
+  "current_public_comparisons": {
+    "current_consolidated_consensus_proxy": {
+      "source": "sp_global_proxy",
+      "FY2027_total_B": 69.27,
+      "owned_FY2027_Products_B": 68.3326878,
+      "remainder_for_all_external_nonProducts_B": 0.9373121999999938,
+      "owned_Products_as_fraction_of_proxy_total": 0.986468713728887,
+      "owned_AllOther_proxy_B": 2.8,
+      "owned_gross_packaging_B": 0.5,
+      "owned_known_sum_before_unknown_legacy_and_eliminations_B": 71.6326878,
+      "known_sum_minus_proxy_B": 2.3626878000000033,
+      "not_a_consensus_beat_percentage": true,
+      "interpretation": "Our Products forecast alone consumes98.65%of the current consolidated consensus proxy. It leaves0.94Bfor external Foundry and external AllOther, whereas our modeled AllOther proxy is2.8Band gross packaging0.5B. This is a clear headroom diagnostic showing the optimistic direction of our forecast. It is not a fully matched revenue beat: legacy external Foundry and future Other eliminations are unspecified.",
+      "completion_needed": "Own explicit legacy external Foundry and Other-internal series before publishing consolidated revenue comparisons. Do not quietly insert a residual to hit consensus."
+    },
+    "ifast_same_period_growth": {
+      "our_FY2027_DCAI_growth": 0.4707013165629612,
+      "ifast_FY2027_DCAI_growth": 0.37,
+      "difference_percentage_points": 10.070131656296121,
+      "our_FY2027_CCPG_growth": -0.07214428530809525,
+      "ifast_FY2027_CCPG_growth": -0.12,
+      "caution": "Different forecast bases are incompletely disclosed. Relative optimism is observed; a dollar beat cannot be derived by multiplying their rate by our base."
+    },
+    "old_comparisons_not_upgraded": {
+      "DIGITIMES": "Oct27pre-results2027CPUrevenue28.7Bversus31.475088Bours; retain only as dated industry forecast, not current consensus.",
+      "UBS": "Oct29analyst question contemplated10-15B2027DCAIincrease; our12.731388Bis within it. A question is not a formal forecast.",
+      "INH_Capital": "Oct27/28pre-earnings DCAI forecast29%FY27growth located; page redirects to authentication, no full current report accessed. Excluded from current comparison.",
+      "aggregator_targets": "Benzinga/Investing/other pages differ in date, samples and targets. Do not splice them into a consensus series or use post-selloff upside percentages as analytical evidence."
+    }
+  },
+  "material_economic_audit": [
+    {
+      "item": "Additional packaging or14Awin",
+      "already_embedded": "Gross7Bpackaging2030;5Bnetincrementalafter2Bshadowoverlap;hostFoundryoperatingprofit2.5B2030",
+      "economic_test": "Named program fees, volume, yield, capital, timing, cost and overlap must be separable. PDKavailability or a prospect is not cashflow.",
+      "result": "No new value credited."
+    },
+    {
+      "item": "Custom silicon",
+      "already_embedded": "OtherDCAI5.19B2026to17.44B2030; wider scope than management customsiliconstatement",
+      "economic_test": "Do not apply threefold growth to allOtherDCAIand then add customsilicon again; standalone margins undisclosed.",
+      "result": "Supports opportunity but not extra upside."
+    },
+    {
+      "item": "Manufacturing turnaround",
+      "already_embedded": "HostFoundryloss8.5B2026to2.5Bprofit2030;D&Aalso rises",
+      "economic_test": "Prior audited19.2595Bpre-D&Acontributionimprovement diagnostic is not19.2595Bofcostcuts. Currentnodelevel price/cost/outputbridge remains absent.",
+      "result": "Capacityevidence helps mechanism; large joint economic hurdle remains."
+    },
+    {
+      "item": "Long-termagreements and per-corepricing",
+      "already_embedded": "2027CPUunits20%,ASP20%;strong subsequent growth and40%matureDCAI",
+      "economic_test": "Contractduration, SKU/corecoverage, minimumvolumes, cancellationclauses, prices, inflation and all-incosts must match valuationperiod. Samecorestableprice does not itself promise20%averageASP; that depends on mix.",
+      "result": "Mechanismcorroboration only; no discount-rateorvaluechange."
+    },
+    {
+      "item": "Supplier funding",
+      "already_embedded": "Explicit2027-30capexandworkingcapitalbudgets",
+      "economic_test": "5.3-6.1Bsubstrate commitments include about3.3Bdue through2027; reconcile against budgets before adding or removing spend.",
+      "result": "Potentialclassification/fundinguncertainty, not a newly identified freeasset or proved doublecount."
+    },
+    {
+      "item": "Claims and liquidity",
+      "already_embedded": "1.215BAltera/VLSIreserve;ECrestrictedcollateralexcluded;SBC/NCIeconomicreserves;5.51Bshares",
+      "economic_test": "No duplicateECfine or nominalclaim, no stakevalue atop consolidatedoperatingprofit, no historicalequityproceeds added twice.",
+      "result": "No new price-relevant correction identified in this workstream."
+    }
+  ],
+  "sources": [
+    {
+      "id": "sp_global_proxy",
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "type": "Public redistributor of identified S&P Global consensus; not original bank research",
+      "accessed_utc": "2026-11-06T06:16:02.196198+00:00",
+      "data_date": "2026-11-05",
+      "period": "FY2026 and FY2027, ending December 31",
+      "facts": {
+        "FY2026_consolidated_revenue_B": 61.82,
+        "FY2027_consolidated_revenue_B": 69.27,
+        "FY2027_adjusted_nonGAAP_EPS_USD": 1.8,
+        "one_year_target_mean_USD": 92.72,
+        "one_year_target_median_USD": 88,
+        "one_year_target_low_high_USD": [
+          70,
+          160
+        ],
+        "rating_analysts": 49,
+        "rating": "Hold"
+      },
+      "limits": [
+        "No public CPU-only or DCAI consensus on the page.",
+        "49 counts ratings, not FY2027 financial-estimate contributors; latter is unavailable publicly.",
+        "Forecasts may combine different update times; page identifies vendor, not every underlying analyst vintage.",
+        "Do not compare adjusted EPS with economic owner cash or APV.",
+        "Displayed close is52.25, conflicting with locked52.22; unused for entry.",
+        "A target survey is not a market-implied cash-flow forecast."
+      ],
+      "accepted_use": "Current dated consolidated-revenue proxy with explicit scope; compare through non-Products headroom, not a falsely matched consolidated model."
+    },
+    {
+      "id": "ifast",
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "type": "Research firm primary publication of its own estimates",
+      "publication_date": "2026-11-02",
+      "information_date": "2026-10-30",
+      "facts": {
+        "FY2027_DCAI_growth": 0.37,
+        "FY2027_CCPG_revenue_growth": -0.12,
+        "FY2026_consolidated_revenue_B": 61.718,
+        "FY2027_consolidated_revenue_B": 69.198,
+        "FY2028_consolidated_revenue_B": 80.73,
+        "FY2027_EPS_USD": 1.77,
+        "FY2028_EPS_USD": 2.59,
+        "FY2027_2028_gross_capex_B": [
+          30,
+          32
+        ],
+        "target_USD": 65,
+        "target_basis": "25x FY2028 EPS",
+        "reference_price_USD": 70.87,
+        "rating": "SELL"
+      },
+      "limits": [
+        "Segment forecast bases are not fully disclosed; 37% versus our47.07% is not an exact matched revenue-dollar beat.",
+        "Their65target is24.5% above our52.22entry and has a different date/method from our2030APV. SELL cannot be transplanted to today.",
+        "Packaging cost and CPU core-count assertions are not adopted as technical evidence."
+      ],
+      "accepted_use": "An observable post-results economic disagreement: their PCs decline more, DCAI grows less, and capex remains substantial. It supports a variant comparison, not consensus or proof our forecast is right."
+    },
+    {
+      "id": "morningstar",
+      "url": "https://global.morningstar.com/en-ca/stocks/intel-earnings-pc-winter-has-arrived-offsetting-healthy-ai-growth",
+      "type": "Primary research firm publication; Brian Colello",
+      "publication_date": "2026-10-30",
+      "facts": {
+        "fair_value_USD": 85,
+        "previous_fair_value_USD": 105,
+        "moat": "None",
+        "uncertainty": "Very High"
+      },
+      "summary": "Morningstar cut fair value because of weaker PCs. It recognizes server and agentic-AI growth, with manufacturing/substrate constraints limiting near-term upside. Its article considered shares modestly undervalued after the initial earnings selloff.",
+      "limits": [
+        "No public segment or long-term cash-flow forecast accompanies this note.",
+        "Its assessment predates the Nov5reference price.",
+        "Do not import85as our own fair value or label it a December2030target."
+      ],
+      "accepted_use": "Refutes a claim that professional research universally misses server growth. A higher independent valuation indicates disagreement, but does not validate our assumptions or identify current investor beliefs."
+    },
+    {
+      "id": "intel_10q",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "type": "Primary company filing",
+      "publication_date": "2026-10-30",
+      "facts_used": "Products/external Foundry/All Other reconciliation; DCAI ASP and units; supplier funding, cash/debt, claim and stock accounting.",
+      "boundary": "Historical accounts validate scope and current conditions, not future accepted units or profit persistence."
+    },
+    {
+      "id": "intel_prepared",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "type": "Primary company prepared remarks",
+      "publication_date": "2026-10-29",
+      "facts_used": "Q3 costs/mix/realized margin, Q4 guidance, capex and demand outlook.",
+      "boundary": "Cost reductions already realized byQ3 belong in the starting economics; prospective output and margin remain forecasts."
+    },
+    {
+      "id": "intel_aug26",
+      "url": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference",
+      "transcript_url": "https://earningsapi.io/transcripts/intel-corporation_intc_earnings_call_transcript_2026-08-26",
+      "type": "Official event; third-party transcription of first-person CFO remarks",
+      "publication_date": "2026-08-26",
+      "verified_scope": "Delivery agent archived official event and transcript. I independently read the transcript passages on core pricing, Ireland output and margin/capex. No claim of independently verifying audio.",
+      "facts_used": "CFO described stabilizing like-for-like ASP per core, intended more-than-doubling of Ireland output in2027, and customer agreements informing supply allocation.",
+      "boundary": "Intent is not accepted-package output; flat core prices do not establish all-in costs or segment margins. August group-GM confidence must be read against OctoberQ4guidance."
+    }
+  ],
+  "local_evidence": [
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/explicit_claims_overlay_results.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/reconstruction_results.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/revenue_and_treasury_followup_conclusions.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/independent_economic_audit.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/economic_underwriting/incremental_upside_adjudication.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/economic_underwriting/foundry_internal_recovery_cost_bridge.json"
+  ],
+  "artifact_hashes": {
+    "output/pdf/m37_intel_initial_screen.pdf": "2020ecf0ab40e120382ce4a72a083bc16bcb15169a5b5e75e98aff8324ffa64b",
+    "output/pdf/m37_intel_defense_notes.pdf": "a8b9186e3273ba0f9d614ce6cf26532d55f91e7628d56dddfcf7d3b3f3e21ff7",
+    "output/pdf/m37_intel_pitch_comparison.pdf": "5378d3640870836d427f900a69925213df90cb99e8a930e8fd9b49c2c5c6d09d"
+  },
+  "research_limits": [
+    "Currentpublicprimarybanksegmentmodelswere not located; two research-house direct publications and a clearly identified vendorconsensusproxy were used.",
+    "No currentDCAIconsensus was guessed from consolidatedforecasts.",
+    "No suppliedPDFor frozenmodelwas edited.",
+    "No probabilities inferred from scenarios or awards.",
+    "No new sensitivity was used to generate a more attractive target."
+  ]
+}

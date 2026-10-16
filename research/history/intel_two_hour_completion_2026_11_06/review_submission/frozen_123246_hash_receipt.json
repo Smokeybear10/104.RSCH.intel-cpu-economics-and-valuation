@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-11-06T16:31:24.376903+00:00",
+  "build_utc": "2026-11-06T12:32:46.965791+00:00",
+  "files": [
+    {
+      "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "8c84a53e2f81d8b090c878a4d0df6c635303f32af379d5b3b52597b3d283bd5c",
+      "matches_manifest": true,
+      "pages": 10,
+      "render_count": 10,
+      "render_names": [
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-01.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-02.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-03.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-04.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-05.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-06.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-07.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-08.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-09.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-10.png"
+      ]
+    },
+    {
+      "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "8131067455417de528f6225714c8f0aaeda0f6f4feca66d620baccdb6efb2b8e",
+      "matches_manifest": true,
+      "pages": 5,
+      "render_count": 5,
+      "render_names": [
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-1.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-2.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-3.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-4.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-5.png"
+      ]
+    },
+    {
+      "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "7f6065603422fd329a993901d5ccb0c12aa03b49bf5a79787a544151ef38545c",
+      "matches_manifest": true,
+      "pages": 3,
+      "render_count": 3,
+      "render_names": [
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-comparison-1.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-comparison-2.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-comparison-3.png"
+      ]
+    }
+  ]
+}

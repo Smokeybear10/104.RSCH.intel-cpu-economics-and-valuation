@@ -1,0 +1,1341 @@
+{
+  "computed_utc": "2026-11-06T06:49:01.829542+00:00",
+  "policy_sha256": "942c2eb6d98dc3f4b758cc8a6a9aded02af830491a41375b0f02e221113581c2",
+  "cases": {
+    "preferred": {
+      "CPU": {
+        "quarterly": [
+          {
+            "year": 2027,
+            "quarter": 1,
+            "unit_growth_QoQ": 0,
+            "ASP_growth_QoQ": 0,
+            "unit_index_Q4_2026_100": 100.0,
+            "ASP_index_Q4_2026_100": 100.0,
+            "CPU_revenue_B": 6.5257
+          },
+          {
+            "year": 2027,
+            "quarter": 2,
+            "unit_growth_QoQ": 0.05,
+            "ASP_growth_QoQ": 0.02,
+            "unit_index_Q4_2026_100": 105.0,
+            "ASP_index_Q4_2026_100": 102.0,
+            "CPU_revenue_B": 6.9890247
+          },
+          {
+            "year": 2027,
+            "quarter": 3,
+            "unit_growth_QoQ": 0.1,
+            "ASP_growth_QoQ": 0.03,
+            "unit_index_Q4_2026_100": 115.50000000000001,
+            "ASP_index_Q4_2026_100": 105.06,
+            "CPU_revenue_B": 7.9185649851000015
+          },
+          {
+            "year": 2027,
+            "quarter": 4,
+            "unit_growth_QoQ": 0.1,
+            "ASP_growth_QoQ": 0.03,
+            "unit_index_Q4_2026_100": 127.05000000000003,
+            "ASP_index_Q4_2026_100": 108.21180000000001,
+            "CPU_revenue_B": 8.971734128118301
+          },
+          {
+            "year": 2028,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 129.87259251443558,
+            "ASP_index_Q4_2026_100": 109.05218951324696,
+            "unit_growth_QoQ": 0.02221639129819397,
+            "ASP_growth_QoQ": 0.007766154090837918,
+            "CPU_revenue_B": 9.242277500218258,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 132.75789284864717,
+            "ASP_index_Q4_2026_100": 109.8991056209501,
+            "unit_growth_QoQ": 0.02221639129819397,
+            "ASP_growth_QoQ": 0.007766154090837918,
+            "CPU_revenue_B": 9.520979129701008,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 135.70729414409647,
+            "ASP_index_Q4_2026_100": 110.7525990096477,
+            "unit_growth_QoQ": 0.02221639129819397,
+            "ASP_growth_QoQ": 0.007766154090837918,
+            "CPU_revenue_B": 9.808085029481264,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 138.72222049282084,
+            "ASP_index_Q4_2026_100": 111.6127207595174,
+            "unit_growth_QoQ": 0.02221639129819397,
+            "ASP_growth_QoQ": 0.007766154090837918,
+            "CPU_revenue_B": 10.103848631013163,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 144.7294168161965,
+            "ASP_index_Q4_2026_100": 112.41004977387297,
+            "unit_growth_QoQ": 0.04330377860183232,
+            "ASP_growth_QoQ": 0.007143710940202941,
+            "CPU_revenue_B": 10.61668805147046,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 150.99674743917737,
+            "ASP_index_Q4_2026_100": 113.21307467623134,
+            "unit_growth_QoQ": 0.04330377860183232,
+            "ASP_growth_QoQ": 0.007143710940202941,
+            "CPU_revenue_B": 11.155557579937069,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 157.5354771598803,
+            "ASP_index_Q4_2026_100": 114.02183615636993,
+            "unit_growth_QoQ": 0.04330377860183232,
+            "ASP_growth_QoQ": 0.007143710940202941,
+            "CPU_revenue_B": 11.721778422420064,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 164.35735858474573,
+            "ASP_index_Q4_2026_100": 114.83637519474219,
+            "unit_growth_QoQ": 0.04330377860183232,
+            "ASP_growth_QoQ": 0.007143710940202941,
+            "CPU_revenue_B": 12.316738845167405,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 166.52376100258815,
+            "ASP_index_Q4_2026_100": 115.27187166546193,
+            "unit_growth_QoQ": 0.013181049126713806,
+            "ASP_growth_QoQ": 0.0037923216400833626,
+            "CPU_revenue_B": 12.526411094312635,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 168.7187188771284,
+            "ASP_index_Q4_2026_100": 115.70901967887177,
+            "unit_growth_QoQ": 0.013181049126713806,
+            "ASP_growth_QoQ": 0.0037923216400833626,
+            "CPU_revenue_B": 12.739652669122256,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 170.942608599244,
+            "ASP_index_Q4_2026_100": 116.14782549815277,
+            "unit_growth_QoQ": 0.013181049126713806,
+            "ASP_growth_QoQ": 0.0037923216400833626,
+            "CPU_revenue_B": 12.956524331503239,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 173.19581152103927,
+            "ASP_index_Q4_2026_100": 116.58829541023803,
+            "unit_growth_QoQ": 0.013181049126713806,
+            "ASP_growth_QoQ": 0.0037923216400833626,
+            "CPU_revenue_B": 13.177087877734241,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          }
+        ],
+        "annual_reconciliation": [
+          {
+            "year": 2028,
+            "annual_CPU_B": 38.675190290413695,
+            "annual_unit_growth": 0.2,
+            "annual_ASP_growth": 0.06,
+            "implied_constant_QoQ_units": 0.02221639129819397,
+            "implied_constant_QoQ_ASP": 0.007766154090837918,
+            "flat_priorQ4_unit_carryover": 0.1355155848508547,
+            "flat_priorQ4_ASP_carryover": 0.03943644292959636
+          },
+          {
+            "year": 2029,
+            "annual_CPU_B": 45.810762898994994,
+            "annual_unit_growth": 0.15,
+            "annual_ASP_growth": 0.03,
+            "implied_constant_QoQ_units": 0.04330377860183232,
+            "implied_constant_QoQ_ASP": 0.007143710940202941,
+            "flat_priorQ4_unit_carryover": 0.033197188342612094,
+            "flat_priorQ4_ASP_carryover": 0.011419093066220576
+          },
+          {
+            "year": 2030,
+            "annual_CPU_B": 51.39967597267237,
+            "annual_unit_growth": 0.1,
+            "annual_ASP_growth": 0.02,
+            "implied_constant_QoQ_units": 0.013181049126713806,
+            "implied_constant_QoQ_ASP": 0.0037923216400833626,
+            "flat_priorQ4_unit_carryover": 0.0644579171608759,
+            "flat_priorQ4_ASP_carryover": 0.010321752693614794
+          }
+        ]
+      },
+      "client": {
+        "quarterly": [
+          {
+            "year": 2027,
+            "quarter": 1,
+            "unit_growth_QoQ": -0.05,
+            "ASP_growth_QoQ": 0.0,
+            "unit_index_Q4_2026_100": 95.0,
+            "ASP_index_Q4_2026_100": 100.0,
+            "client_revenue_B": 4.6319625,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 5.8389375
+          },
+          {
+            "year": 2027,
+            "quarter": 2,
+            "unit_growth_QoQ": 0.1,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 104.50000000000001,
+            "ASP_index_Q4_2026_100": 101.0,
+            "client_revenue_B": 5.146110337500001,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 6.3530853375000005
+          },
+          {
+            "year": 2027,
+            "quarter": 3,
+            "unit_growth_QoQ": 0.15,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 120.17500000000001,
+            "ASP_index_Q4_2026_100": 102.01,
+            "client_revenue_B": 5.9772071570062515,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 7.184182157006251
+          },
+          {
+            "year": 2027,
+            "quarter": 4,
+            "unit_growth_QoQ": 0.05,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 126.18375000000002,
+            "ASP_index_Q4_2026_100": 103.0301,
+            "client_revenue_B": 6.338828190005129,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 7.545803190005129
+          },
+          {
+            "year": 2028,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 107.67488812500001,
+            "ASP_index_Q4_2026_100": 103.27707006845293,
+            "unit_growth_QoQ": -0.14668181818181825,
+            "ASP_growth_QoQ": 0.0023970671527341336,
+            "client_revenue_B": 5.42200317170291,
+            "Other_CCPG_B": 1.303533,
+            "CCPG_revenue_B": 6.72553617170291,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 112.35640500000001,
+            "ASP_index_Q4_2026_100": 103.52463214074464,
+            "unit_growth_QoQ": 0.04347826086956519,
+            "ASP_growth_QoQ": 0.0023970671527341336,
+            "client_revenue_B": 5.671304428599464,
+            "Other_CCPG_B": 1.303533,
+            "CCPG_revenue_B": 6.974837428599463,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 121.71943875000001,
+            "ASP_index_Q4_2026_100": 103.77278763594813,
+            "unit_growth_QoQ": 0.08333333333333326,
+            "ASP_growth_QoQ": 0.0023970671527341336,
+            "client_revenue_B": 6.158640503338285,
+            "Other_CCPG_B": 1.303533,
+            "CCPG_revenue_B": 7.462173503338285,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 126.40095562500002,
+            "ASP_index_Q4_2026_100": 104.02153797653791,
+            "unit_growth_QoQ": 0.03846153846153855,
+            "ASP_growth_QoQ": 0.0023970671527341336,
+            "client_revenue_B": 6.4108417619710405,
+            "Other_CCPG_B": 1.303533,
+            "CCPG_revenue_B": 7.71437476197104,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 113.05863253125001,
+            "ASP_index_Q4_2026_100": 104.68571520877674,
+            "unit_growth_QoQ": -0.10555555555555562,
+            "ASP_growth_QoQ": 0.006384997233828904,
+            "client_revenue_B": 5.7707542777273675,
+            "Other_CCPG_B": 1.4078156400000001,
+            "CCPG_revenue_B": 7.178569917727367,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 117.97422525,
+            "ASP_index_Q4_2026_100": 105.3541332108062,
+            "unit_growth_QoQ": 0.04347826086956519,
+            "ASP_growth_QoQ": 0.006384997233828904,
+            "client_revenue_B": 6.060104898602884,
+            "Other_CCPG_B": 1.4078156400000001,
+            "CCPG_revenue_B": 7.4679205386028835,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 127.80541068750001,
+            "ASP_index_Q4_2026_100": 106.02681905992965,
+            "unit_growth_QoQ": 0.08333333333333348,
+            "ASP_growth_QoQ": 0.006384997233828904,
+            "client_revenue_B": 6.607031872585275,
+            "Other_CCPG_B": 1.4078156400000001,
+            "CCPG_revenue_B": 8.014847512585275,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 132.72100340625002,
+            "ASP_index_Q4_2026_100": 106.70380000633898,
+            "unit_growth_QoQ": 0.03846153846153855,
+            "ASP_growth_QoQ": 0.006384997233828904,
+            "client_revenue_B": 6.904956897154612,
+            "Other_CCPG_B": 1.4078156400000001,
+            "CCPG_revenue_B": 8.312772537154613,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 116.45039150718752,
+            "ASP_index_Q4_2026_100": 107.14962548627831,
+            "unit_growth_QoQ": -0.12259259259259259,
+            "ASP_growth_QoQ": 0.004178159352458466,
+            "client_revenue_B": 6.083773542079073,
+            "Other_CCPG_B": 1.5204408912000003,
+            "CCPG_revenue_B": 7.604214433279074,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 121.5134520075,
+            "ASP_index_Q4_2026_100": 107.5973136961162,
+            "unit_growth_QoQ": 0.04347826086956519,
+            "ASP_growth_QoQ": 0.004178159352458466,
+            "client_revenue_B": 6.374809583376154,
+            "Other_CCPG_B": 1.5204408912000003,
+            "CCPG_revenue_B": 7.895250474576155,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 131.639573008125,
+            "ASP_index_Q4_2026_100": 108.04687241863505,
+            "unit_growth_QoQ": 0.08333333333333348,
+            "ASP_growth_QoQ": 0.004178159352458466,
+            "client_revenue_B": 6.934898266461837,
+            "Other_CCPG_B": 1.5204408912000003,
+            "CCPG_revenue_B": 8.455339157661838,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 136.70263350843751,
+            "ASP_index_Q4_2026_100": 108.49830946913482,
+            "unit_growth_QoQ": 0.03846153846153855,
+            "ASP_growth_QoQ": 0.004178159352458466,
+            "client_revenue_B": 7.231714660224209,
+            "Other_CCPG_B": 1.5204408912000003,
+            "CCPG_revenue_B": 8.75215555142421,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          }
+        ],
+        "annual_reconciliation": [
+          {
+            "year": 2028,
+            "annual_client_B": 23.6627898656117,
+            "annual_CCPG_B": 28.8769218656117,
+            "annual_unit_growth": 0.05,
+            "annual_ASP_growth": 0.02,
+            "Q1_unit_reset_from_priorQ4": -0.14668181818181825,
+            "flat_priorQ4_unit_carryover": 0.1320513503435785,
+            "flat_priorQ4_ASP_carryover": 0.01373949935119434,
+            "implied_constant_QoQ_ASP": 0.0023970671527341336
+          },
+          {
+            "year": 2029,
+            "annual_client_B": 25.342847946070137,
+            "annual_CCPG_B": 30.974110506070136,
+            "annual_unit_growth": 0.05,
+            "annual_ASP_growth": 0.02,
+            "Q1_unit_reset_from_priorQ4": -0.10555555555555562,
+            "flat_priorQ4_unit_carryover": 0.08000000000000007,
+            "flat_priorQ4_ASP_carryover": 0.003425991293470876,
+            "implied_constant_QoQ_ASP": 0.006384997233828904
+          },
+          {
+            "year": 2030,
+            "annual_client_B": 26.625196052141273,
+            "annual_CCPG_B": 32.706959616941276,
+            "annual_unit_growth": 0.03,
+            "annual_ASP_growth": 0.02,
+            "Q1_unit_reset_from_priorQ4": -0.12259259259259259,
+            "flat_priorQ4_unit_carryover": 0.08000000000000007,
+            "flat_priorQ4_ASP_carryover": 0.009117621205301907,
+            "implied_constant_QoQ_ASP": 0.004178159352458466
+          }
+        ]
+      }
+    },
+    "slower": {
+      "CPU": {
+        "quarterly": [
+          {
+            "year": 2027,
+            "quarter": 1,
+            "unit_growth_QoQ": -0.05,
+            "ASP_growth_QoQ": 0,
+            "unit_index_Q4_2026_100": 95.0,
+            "ASP_index_Q4_2026_100": 100.0,
+            "CPU_revenue_B": 6.199415
+          },
+          {
+            "year": 2027,
+            "quarter": 2,
+            "unit_growth_QoQ": 0,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 95.0,
+            "ASP_index_Q4_2026_100": 101.0,
+            "CPU_revenue_B": 6.26140915
+          },
+          {
+            "year": 2027,
+            "quarter": 3,
+            "unit_growth_QoQ": 0.05,
+            "ASP_growth_QoQ": 0.02,
+            "unit_index_Q4_2026_100": 99.75,
+            "ASP_index_Q4_2026_100": 103.02,
+            "CPU_revenue_B": 6.70596919965
+          },
+          {
+            "year": 2027,
+            "quarter": 4,
+            "unit_growth_QoQ": 0.05,
+            "ASP_growth_QoQ": 0.02,
+            "unit_index_Q4_2026_100": 104.73750000000001,
+            "ASP_index_Q4_2026_100": 105.0804,
+            "CPU_revenue_B": 7.182093012825151
+          },
+          {
+            "year": 2028,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 108.09893842890912,
+            "ASP_index_Q4_2026_100": 105.61593963099686,
+            "unit_growth_QoQ": 0.03209393415833983,
+            "ASP_growth_QoQ": 0.005096474994355504,
+            "CPU_revenue_B": 7.45037273628871,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 111.56825864143293,
+            "ASP_index_Q4_2026_100": 106.15420862633158,
+            "unit_growth_QoQ": 0.03209393415833983,
+            "ASP_growth_QoQ": 0.005096474994355504,
+            "CPU_revenue_B": 7.728673773858496,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 115.1489229884317,
+            "ASP_index_Q4_2026_100": 106.69522089614127,
+            "unit_growth_QoQ": 0.03209393415833983,
+            "ASP_growth_QoQ": 0.005096474994355504,
+            "CPU_revenue_B": 8.017370461451966,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 118.84450494122616,
+            "ASP_index_Q4_2026_100": 107.23899042145567,
+            "unit_growth_QoQ": 0.03209393415833983,
+            "ASP_growth_QoQ": 0.005096474994355504,
+            "CPU_revenue_B": 8.316851117921095,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 121.16367151544986,
+            "ASP_index_Q4_2026_100": 107.76621015120105,
+            "unit_growth_QoQ": 0.01951429370142621,
+            "ASP_growth_QoQ": 0.004916306351573918,
+            "CPU_revenue_B": 8.520834685392458,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 123.5280949873455,
+            "ASP_index_Q4_2026_100": 108.29602185465247,
+            "unit_growth_QoQ": 0.01951429370142621,
+            "ASP_growth_QoQ": 0.004916306351573918,
+            "CPU_revenue_B": 8.729821263643792,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 125.93865851330625,
+            "ASP_index_Q4_2026_100": 108.82843827474669,
+            "unit_growth_QoQ": 0.01951429370142621,
+            "ASP_growth_QoQ": 0.004916306351573918,
+            "CPU_revenue_B": 8.943933559210597,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 128.39626248389854,
+            "ASP_index_Q4_2026_100": 109.36347221706872,
+            "unit_growth_QoQ": 0.01951429370142621,
+            "ASP_growth_QoQ": 0.004916306351573918,
+            "CPU_revenue_B": 9.163297288194924,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 129.4272478686615,
+            "ASP_index_Q4_2026_100": 109.91227562816289,
+            "unit_growth_QoQ": 0.008029714921742648,
+            "ASP_growth_QoQ": 0.005018160085525358,
+            "CPU_revenue_B": 9.283228075385416,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 130.4665117721526,
+            "ASP_index_Q4_2026_100": 110.46383302262942,
+            "unit_growth_QoQ": 0.008029714921742648,
+            "ASP_growth_QoQ": 0.005018160085525358,
+            "CPU_revenue_B": 9.404728537035195,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 131.51412066851717,
+            "ASP_index_Q4_2026_100": 111.01815822039771,
+            "unit_growth_QoQ": 0.008029714921742648,
+            "ASP_growth_QoQ": 0.005018160085525358,
+            "CPU_revenue_B": 9.52781921730949,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 132.57014156566905,
+            "ASP_index_Q4_2026_100": 111.57526511074788,
+            "unit_growth_QoQ": 0.008029714921742648,
+            "ASP_growth_QoQ": 0.005018160085525358,
+            "CPU_revenue_B": 9.65252092925905,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          }
+        ],
+        "annual_reconciliation": [
+          {
+            "year": 2028,
+            "annual_CPU_B": 31.513268089520267,
+            "annual_unit_growth": 0.15,
+            "annual_ASP_growth": 0.04,
+            "implied_constant_QoQ_units": 0.03209393415833983,
+            "implied_constant_QoQ_ASP": 0.005096474994355504,
+            "flat_priorQ4_unit_carryover": 0.06201083684527409,
+            "flat_priorQ4_ASP_carryover": 0.026643835479620126
+          },
+          {
+            "year": 2029,
+            "annual_CPU_B": 35.357886796441775,
+            "annual_unit_growth": 0.1,
+            "annual_ASP_growth": 0.02,
+            "implied_constant_QoQ_units": 0.01951429370142621,
+            "implied_constant_QoQ_ASP": 0.004916306351573918,
+            "flat_priorQ4_unit_carryover": 0.047871456256325384,
+            "flat_priorQ4_ASP_carryover": 0.007435995156360287
+          },
+          {
+            "year": 2030,
+            "annual_CPU_B": 37.86829675898915,
+            "annual_unit_growth": 0.05,
+            "annual_ASP_growth": 0.02,
+            "implied_constant_QoQ_units": 0.008029714921742648,
+            "implied_constant_QoQ_ASP": 0.005018160085525358,
+            "flat_priorQ4_unit_carryover": 0.029173514764366137,
+            "flat_priorQ4_ASP_carryover": 0.007249048329622365
+          }
+        ]
+      },
+      "client": {
+        "quarterly": [
+          {
+            "year": 2027,
+            "quarter": 1,
+            "unit_growth_QoQ": -0.1,
+            "ASP_growth_QoQ": 0.0,
+            "unit_index_Q4_2026_100": 90.0,
+            "ASP_index_Q4_2026_100": 100.0,
+            "client_revenue_B": 4.388175,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 5.59515
+          },
+          {
+            "year": 2027,
+            "quarter": 2,
+            "unit_growth_QoQ": 0.05,
+            "ASP_growth_QoQ": 0.0,
+            "unit_index_Q4_2026_100": 94.5,
+            "ASP_index_Q4_2026_100": 100.0,
+            "client_revenue_B": 4.60758375,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 5.81455875
+          },
+          {
+            "year": 2027,
+            "quarter": 3,
+            "unit_growth_QoQ": 0.1,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 103.95,
+            "ASP_index_Q4_2026_100": 101.0,
+            "client_revenue_B": 5.1190255462500005,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 6.32600054625
+          },
+          {
+            "year": 2027,
+            "quarter": 4,
+            "unit_growth_QoQ": 0.0,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 103.95,
+            "ASP_index_Q4_2026_100": 102.01,
+            "client_revenue_B": 5.170215801712501,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 6.3771908017125005
+          },
+          {
+            "year": 2028,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 92.05704,
+            "ASP_index_Q4_2026_100": 101.93030478043364,
+            "unit_growth_QoQ": -0.11441038961038963,
+            "ASP_growth_QoQ": -0.0007812490889752,
+            "client_revenue_B": 4.575112300548307,
+            "Other_CCPG_B": 1.303533,
+            "CCPG_revenue_B": 5.878645300548307,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 96.05951999999999,
+            "ASP_index_Q4_2026_100": 101.85067182268497,
+            "unit_growth_QoQ": 0.04347826086956519,
+            "ASP_growth_QoQ": -0.0007812490889752,
+            "client_revenue_B": 4.770300519893786,
+            "Other_CCPG_B": 1.303533,
+            "CCPG_revenue_B": 6.073833519893785,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 104.06448,
+            "ASP_index_Q4_2026_100": 101.771101078112,
+            "unit_growth_QoQ": 0.08333333333333348,
+            "ASP_growth_QoQ": -0.0007812490889752,
+            "client_revenue_B": 5.163788204205022,
+            "Other_CCPG_B": 1.303533,
+            "CCPG_revenue_B": 6.467321204205022,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 108.06696000000001,
+            "ASP_index_Q4_2026_100": 101.69159249811072,
+            "unit_growth_QoQ": 0.03846153846153855,
+            "ASP_growth_QoQ": -0.0007812490889752,
+            "client_revenue_B": 5.358206076273858,
+            "Other_CCPG_B": 1.303533,
+            "CCPG_revenue_B": 6.661739076273858,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 94.81875120000001,
+            "ASP_index_Q4_2026_100": 102.13003882115805,
+            "unit_growth_QoQ": -0.12259259259259259,
+            "ASP_growth_QoQ": 0.004311529717223039,
+            "client_revenue_B": 4.7215996244575695,
+            "Other_CCPG_B": 1.4078156400000001,
+            "CCPG_revenue_B": 6.1294152644575695,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 98.9413056,
+            "ASP_index_Q4_2026_100": 102.5703755185566,
+            "unit_growth_QoQ": 0.04347826086956519,
+            "ASP_growth_QoQ": 0.004311529717223039,
+            "client_revenue_B": 4.9481289824882575,
+            "Other_CCPG_B": 1.4078156400000001,
+            "CCPG_revenue_B": 6.355944622488257,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 107.1864144,
+            "ASP_index_Q4_2026_100": 103.01261074071158,
+            "unit_growth_QoQ": 0.08333333333333326,
+            "ASP_growth_QoQ": 0.004311529717223039,
+            "client_revenue_B": 5.38358490327765,
+            "Other_CCPG_B": 1.4078156400000001,
+            "CCPG_revenue_B": 6.79140054327765,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 111.30896880000002,
+            "ASP_index_Q4_2026_100": 103.45675267316888,
+            "unit_growth_QoQ": 0.03846153846153855,
+            "ASP_growth_QoQ": 0.004311529717223039,
+            "client_revenue_B": 5.614750096864607,
+            "Other_CCPG_B": 1.4078156400000001,
+            "CCPG_revenue_B": 7.022565736864607,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 97.66331373600002,
+            "ASP_index_Q4_2026_100": 103.61016953881445,
+            "unit_growth_QoQ": -0.12259259259259259,
+            "ASP_growth_QoQ": 0.0014829081880255446,
+            "client_revenue_B": 4.93372875921787,
+            "Other_CCPG_B": 1.5204408912000003,
+            "CCPG_revenue_B": 6.454169650417871,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 101.909544768,
+            "ASP_index_Q4_2026_100": 103.76381390758625,
+            "unit_growth_QoQ": 0.043478260869564966,
+            "ASP_growth_QoQ": 0.0014829081880255446,
+            "client_revenue_B": 5.155873070600776,
+            "Other_CCPG_B": 1.5204408912000003,
+            "CCPG_revenue_B": 6.676313961800776,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 110.40200683200003,
+            "ASP_index_Q4_2026_100": 103.91768611685056,
+            "unit_growth_QoQ": 0.08333333333333348,
+            "ASP_growth_QoQ": 0.0014829081880255446,
+            "client_revenue_B": 5.593811986743056,
+            "Other_CCPG_B": 1.5204408912000003,
+            "CCPG_revenue_B": 7.114252877943056,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 114.64823786400002,
+            "ASP_index_Q4_2026_100": 104.07178650447389,
+            "unit_growth_QoQ": 0.038461538461538325,
+            "ASP_growth_QoQ": 0.0014829081880255446,
+            "client_revenue_B": 5.817572753892028,
+            "Other_CCPG_B": 1.5204408912000003,
+            "CCPG_revenue_B": 7.338013645092028,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          }
+        ],
+        "annual_reconciliation": [
+          {
+            "year": 2028,
+            "annual_client_B": 19.86740710092097,
+            "annual_CCPG_B": 25.08153910092097,
+            "annual_unit_growth": 0.02,
+            "annual_ASP_growth": 0.01,
+            "Q1_unit_reset_from_priorQ4": -0.11441038961038963,
+            "flat_priorQ4_unit_carryover": 0.05963302752293598,
+            "flat_priorQ4_ASP_carryover": 0.012030334724344005,
+            "implied_constant_QoQ_ASP": -0.0007812490889752
+          },
+          {
+            "year": 2029,
+            "annual_client_B": 20.668063607088083,
+            "annual_CCPG_B": 26.299326167088083,
+            "annual_unit_growth": 0.03,
+            "annual_ASP_growth": 0.01,
+            "Q1_unit_reset_from_priorQ4": -0.12259259259259259,
+            "flat_priorQ4_unit_carryover": 0.08000000000000007,
+            "flat_priorQ4_ASP_carryover": -0.0011173783727805864,
+            "implied_constant_QoQ_ASP": 0.004311529717223039
+          },
+          {
+            "year": 2030,
+            "annual_client_B": 21.50098657045373,
+            "annual_CCPG_B": 27.582750135253733,
+            "annual_unit_growth": 0.03,
+            "annual_ASP_growth": 0.01,
+            "Q1_unit_reset_from_priorQ4": -0.12259259259259259,
+            "flat_priorQ4_unit_carryover": 0.08000000000000007,
+            "flat_priorQ4_ASP_carryover": 0.00615960568248064,
+            "implied_constant_QoQ_ASP": 0.0014829081880255446
+          }
+        ]
+      }
+    },
+    "old_target_favorable": {
+      "CPU": {
+        "quarterly": [
+          {
+            "year": 2027,
+            "quarter": 1,
+            "unit_growth_QoQ": 0.0,
+            "ASP_growth_QoQ": 0,
+            "unit_index_Q4_2026_100": 100.0,
+            "ASP_index_Q4_2026_100": 100.0,
+            "CPU_revenue_B": 6.5257
+          },
+          {
+            "year": 2027,
+            "quarter": 2,
+            "unit_growth_QoQ": 0.050000000000000044,
+            "ASP_growth_QoQ": 0.02,
+            "unit_index_Q4_2026_100": 105.0,
+            "ASP_index_Q4_2026_100": 102.0,
+            "CPU_revenue_B": 6.9890247
+          },
+          {
+            "year": 2027,
+            "quarter": 3,
+            "unit_growth_QoQ": 0.16968915100731974,
+            "ASP_growth_QoQ": 0.03,
+            "unit_index_Q4_2026_100": 122.81736085576858,
+            "ASP_index_Q4_2026_100": 105.06,
+            "CPU_revenue_B": 8.420235958743554
+          },
+          {
+            "year": 2027,
+            "quarter": 4,
+            "unit_growth_QoQ": 0.09999999999999987,
+            "ASP_growth_QoQ": 0.03,
+            "unit_index_Q4_2026_100": 135.09909694134544,
+            "ASP_index_Q4_2026_100": 108.21180000000001,
+            "CPU_revenue_B": 9.540127341256447
+          },
+          {
+            "year": 2028,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 138.82010900131777,
+            "ASP_index_Q4_2026_100": 109.88864306113332,
+            "unit_growth_QoQ": 0.02754283443943273,
+            "ASP_growth_QoQ": 0.015495935389054805,
+            "CPU_revenue_B": 9.954794431297655,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 142.64360828040506,
+            "ASP_index_Q4_2026_100": 111.59147037399954,
+            "unit_growth_QoQ": 0.02754283443943273,
+            "ASP_growth_QoQ": 0.015495935389054805,
+            "CPU_revenue_B": 10.38748526351887,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 146.57241756711554,
+            "ASP_index_Q4_2026_100": 113.32068458888466,
+            "unit_growth_QoQ": 0.02754283443943273,
+            "ASP_growth_QoQ": 0.015495935389054805,
+            "CPU_revenue_B": 10.83898325018013,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2028,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 150.60943739755396,
+            "ASP_index_Q4_2026_100": 115.07669459551744,
+            "unit_growth_QoQ": 0.02754283443943273,
+            "ASP_growth_QoQ": 0.015495935389054805,
+            "CPU_revenue_B": 11.310105855003307,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 158.24845758598119,
+            "ASP_index_Q4_2026_100": 115.83374561206826,
+            "unit_growth_QoQ": 0.05072072720292431,
+            "ASP_growth_QoQ": 0.006578664943512558,
+            "CPU_revenue_B": 11.961941941445225,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 166.27493443348328,
+            "ASP_index_Q4_2026_100": 116.5957770136021,
+            "unit_growth_QoQ": 0.05072072720292431,
+            "ASP_growth_QoQ": 0.006578664943512558,
+            "CPU_revenue_B": 12.651345340610387,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 174.70852002356807,
+            "ASP_index_Q4_2026_100": 117.36282156440309,
+            "unit_growth_QoQ": 0.05072072720292431,
+            "ASP_growth_QoQ": 0.006578664943512558,
+            "CPU_revenue_B": 13.380481171943085,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2029,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 183.56986320771006,
+            "ASP_index_Q4_2026_100": 118.13491224430052,
+            "unit_growth_QoQ": 0.05072072720292431,
+            "ASP_growth_QoQ": 0.006578664943512558,
+            "CPU_revenue_B": 14.151639337361207,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 186.56640163708062,
+            "ASP_index_Q4_2026_100": 118.62286777236481,
+            "unit_growth_QoQ": 0.016323694842981573,
+            "ASP_growth_QoQ": 0.00413049384635078,
+            "CPU_revenue_B": 14.442053811796713,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 189.61185464535748,
+            "ASP_index_Q4_2026_100": 119.11283879773507,
+            "unit_growth_QoQ": 0.016323694842981573,
+            "ASP_growth_QoQ": 0.00413049384635078,
+            "CPU_revenue_B": 14.73842805986346,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 192.70702069920006,
+            "ASP_index_Q4_2026_100": 119.60483364541048,
+            "unit_growth_QoQ": 0.016323694842981573,
+            "ASP_growth_QoQ": 0.00413049384635078,
+            "CPU_revenue_B": 15.04088438573311,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          },
+          {
+            "year": 2030,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 195.85271129919397,
+            "ASP_index_Q4_2026_100": 120.09886067477669,
+            "unit_growth_QoQ": 0.016323694842981573,
+            "ASP_growth_QoQ": 0.00413049384635078,
+            "CPU_revenue_B": 15.3495476034563,
+            "classification": "Timing allocation reconciled to owned annual assumptions, not independently identified capacity"
+          }
+        ],
+        "annual_reconciliation": [
+          {
+            "year": 2028,
+            "annual_CPU_B": 42.49136879999996,
+            "annual_unit_growth": 0.25,
+            "annual_ASP_growth": 0.08,
+            "implied_constant_QoQ_units": 0.02754283443943273,
+            "implied_constant_QoQ_ASP": 0.015495935389054805,
+            "flat_priorQ4_unit_carryover": 0.16737346158953237,
+            "flat_priorQ4_ASP_carryover": 0.03857387517367128
+          },
+          {
+            "year": 2029,
+            "annual_CPU_B": 52.1454077913599,
+            "annual_unit_growth": 0.18,
+            "annual_ASP_growth": 0.04,
+            "implied_constant_QoQ_units": 0.05072072720292431,
+            "implied_constant_QoQ_ASP": 0.006578664943512558,
+            "flat_priorQ4_unit_carryover": 0.041117012701676,
+            "flat_priorQ4_ASP_carryover": 0.022648524812105775
+          },
+          {
+            "year": 2030,
+            "annual_CPU_B": 59.570913860849586,
+            "annual_unit_growth": 0.12,
+            "annual_ASP_growth": 0.02,
+            "implied_constant_QoQ_units": 0.016323694842981573,
+            "implied_constant_QoQ_ASP": 0.00413049384635078,
+            "flat_priorQ4_unit_carryover": 0.07539183324647003,
+            "flat_priorQ4_ASP_carryover": 0.009447974608434384
+          }
+        ]
+      },
+      "client": {
+        "quarterly": [
+          {
+            "year": 2027,
+            "quarter": 1,
+            "unit_growth_QoQ": -0.050000000000000044,
+            "ASP_growth_QoQ": 0.0,
+            "unit_index_Q4_2026_100": 95.0,
+            "ASP_index_Q4_2026_100": 100.0,
+            "client_revenue_B": 4.6319625,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 5.8389375
+          },
+          {
+            "year": 2027,
+            "quarter": 2,
+            "unit_growth_QoQ": 0.10000000000000009,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 104.50000000000001,
+            "ASP_index_Q4_2026_100": 101.0,
+            "client_revenue_B": 5.146110337500001,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 6.3530853375000005
+          },
+          {
+            "year": 2027,
+            "quarter": 3,
+            "unit_growth_QoQ": 0.30234856875164984,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 136.09542543454742,
+            "ASP_index_Q4_2026_100": 102.01,
+            "client_revenue_B": 6.769049727008008,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 7.976024727008008
+          },
+          {
+            "year": 2027,
+            "quarter": 4,
+            "unit_growth_QoQ": 0.04999999999999982,
+            "ASP_growth_QoQ": 0.01,
+            "unit_index_Q4_2026_100": 142.90019670627478,
+            "ASP_index_Q4_2026_100": 103.0301,
+            "client_revenue_B": 7.178577235491992,
+            "Other_CCPG_B": 1.206975,
+            "CCPG_revenue_B": 8.385552235491993
+          },
+          {
+            "year": 2028,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 115.55669274700858,
+            "ASP_index_Q4_2026_100": 103.30127545580241,
+            "unit_growth_QoQ": -0.19134686018291214,
+            "ASP_growth_QoQ": 0.0026320022576159507,
+            "client_revenue_B": 5.820257738788492,
+            "Other_CCPG_B": 1.3035329999999998,
+            "CCPG_revenue_B": 7.123790738788492,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 120.5808967794872,
+            "ASP_index_Q4_2026_100": 103.57316464601669,
+            "unit_growth_QoQ": 0.04347826086956519,
+            "ASP_growth_QoQ": 0.0026320022576159507,
+            "client_revenue_B": 6.089297395092407,
+            "Other_CCPG_B": 1.3035329999999998,
+            "CCPG_revenue_B": 7.392830395092407,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 130.62930484444448,
+            "ASP_index_Q4_2026_100": 103.84576944919347,
+            "unit_growth_QoQ": 0.08333333333333348,
+            "ASP_growth_QoQ": 0.0026320022576159507,
+            "client_revenue_B": 6.614101476215554,
+            "Other_CCPG_B": 1.3035329999999998,
+            "CCPG_revenue_B": 7.917634476215554,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2028,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 135.65350887692313,
+            "ASP_index_Q4_2026_100": 104.11909174882761,
+            "unit_growth_QoQ": 0.03846153846153855,
+            "ASP_growth_QoQ": 0.0026320022576159507,
+            "client_revenue_B": 6.886567875703557,
+            "Other_CCPG_B": 1.3035329999999998,
+            "CCPG_revenue_B": 8.190100875703557,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 121.33452738435902,
+            "ASP_index_Q4_2026_100": 104.77030081583257,
+            "unit_growth_QoQ": -0.10555555555555551,
+            "ASP_growth_QoQ": 0.006254463576919167,
+            "client_revenue_B": 6.198177699155513,
+            "Other_CCPG_B": 1.40781564,
+            "CCPG_revenue_B": 7.605993339155513,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 126.60994161846158,
+            "ASP_index_Q4_2026_100": 105.42558284622808,
+            "unit_growth_QoQ": 0.04347826086956519,
+            "ASP_growth_QoQ": 0.006254463576919167,
+            "client_revenue_B": 6.5081154530276395,
+            "Other_CCPG_B": 1.40781564,
+            "CCPG_revenue_B": 7.915931093027639,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 137.16077008666673,
+            "ASP_index_Q4_2026_100": 106.0849633142153,
+            "unit_growth_QoQ": 0.08333333333333348,
+            "ASP_growth_QoQ": 0.006254463576919167,
+            "client_revenue_B": 7.09455524275657,
+            "Other_CCPG_B": 1.40781564,
+            "CCPG_revenue_B": 8.50237088275657,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2029,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 142.43618432076929,
+            "ASP_index_Q4_2026_100": 106.74846785332288,
+            "unit_growth_QoQ": 0.038461538461538325,
+            "ASP_growth_QoQ": 0.006254463576919167,
+            "client_revenue_B": 7.413502029352095,
+            "Other_CCPG_B": 1.40781564,
+            "CCPG_revenue_B": 8.821317669352094,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 1,
+            "unit_index_Q4_2026_100": 124.9745632058898,
+            "ASP_index_Q4_2026_100": 107.2021589807274,
+            "unit_growth_QoQ": -0.12259259259259259,
+            "ASP_growth_QoQ": 0.004250094980547181,
+            "client_revenue_B": 6.532307024980073,
+            "Other_CCPG_B": 1.5204408912,
+            "CCPG_revenue_B": 8.052747916180074,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 2,
+            "unit_index_Q4_2026_100": 130.40823986701542,
+            "ASP_index_Q4_2026_100": 107.65777833851521,
+            "unit_growth_QoQ": 0.04347826086956519,
+            "ASP_growth_QoQ": 0.004250094980547181,
+            "client_revenue_B": 6.84529038289913,
+            "Other_CCPG_B": 1.5204408912,
+            "CCPG_revenue_B": 8.36573127409913,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 3,
+            "unit_index_Q4_2026_100": 141.27559318926671,
+            "ASP_index_Q4_2026_100": 108.11533412184862,
+            "unit_growth_QoQ": 0.08333333333333326,
+            "ASP_growth_QoQ": 0.004250094980547181,
+            "client_revenue_B": 7.447248810295536,
+            "Other_CCPG_B": 1.5204408912,
+            "CCPG_revenue_B": 8.967689701495535,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          },
+          {
+            "year": 2030,
+            "quarter": 4,
+            "unit_index_Q4_2026_100": 146.70926985039236,
+            "ASP_index_Q4_2026_100": 108.57483456072008,
+            "unit_growth_QoQ": 0.03846153846153855,
+            "ASP_growth_QoQ": 0.004250094980547181,
+            "client_revenue_B": 7.766550337586255,
+            "Other_CCPG_B": 1.5204408912,
+            "CCPG_revenue_B": 9.286991228786254,
+            "classification": "Owned seasonal allocation, not measured OEM orders"
+          }
+        ],
+        "annual_reconciliation": [
+          {
+            "year": 2028,
+            "annual_client_B": 25.41022448580001,
+            "annual_CCPG_B": 30.62435648580001,
+            "annual_unit_growth": 0.05,
+            "annual_ASP_growth": 0.02,
+            "Q1_unit_reset_from_priorQ4": -0.19134686018291214,
+            "flat_priorQ4_unit_carryover": 0.1945789269036946,
+            "flat_priorQ4_ASP_carryover": 0.013128397197638364,
+            "implied_constant_QoQ_ASP": 0.0026320022576159507
+          },
+          {
+            "year": 2029,
+            "annual_client_B": 27.21435042429182,
+            "annual_CCPG_B": 32.84561298429182,
+            "annual_unit_growth": 0.05,
+            "annual_ASP_growth": 0.02,
+            "Q1_unit_reset_from_priorQ4": -0.10555555555555551,
+            "flat_priorQ4_unit_carryover": 0.08000000000000007,
+            "flat_priorQ4_ASP_carryover": 0.0037615748457322518,
+            "implied_constant_QoQ_ASP": 0.006254463576919167
+          },
+          {
+            "year": 2030,
+            "annual_client_B": 28.591396555760994,
+            "annual_CCPG_B": 34.67316012056099,
+            "annual_unit_growth": 0.03,
+            "annual_ASP_growth": 0.02,
+            "Q1_unit_reset_from_priorQ4": -0.12259259259259259,
+            "flat_priorQ4_unit_carryover": 0.08000000000000007,
+            "flat_priorQ4_ASP_carryover": 0.008931482671638458,
+            "implied_constant_QoQ_ASP": 0.004250094980547181
+          }
+        ]
+      }
+    }
+  },
+  "market_share_diagnostics": [
+    {
+      "case": "preferred",
+      "CPU_unit_factor_2030_over2027": 1.5179999999999996,
+      "market_CPU_unit_CAGR_required_for_flat_share": 0.14927490523021048,
+      "conditional_share_indices_2027_100": [
+        {
+          "assumed_market_CAGR": 0.05,
+          "2030_share_index": 131.13054745707802
+        },
+        {
+          "assumed_market_CAGR": 0.1,
+          "2030_share_index": 114.04958677685944
+        },
+        {
+          "assumed_market_CAGR": 0.15,
+          "2030_share_index": 99.81096408317579
+        },
+        {
+          "assumed_market_CAGR": 0.2,
+          "2030_share_index": 87.84722222222221
+        }
+      ]
+    },
+    {
+      "case": "slower",
+      "CPU_unit_factor_2030_over2027": 1.3282500000000008,
+      "market_CPU_unit_CAGR_required_for_flat_share": 0.09924190189632642,
+      "conditional_share_indices_2027_100": [
+        {
+          "assumed_market_CAGR": 0.05,
+          "2030_share_index": 114.73922902494336
+        },
+        {
+          "assumed_market_CAGR": 0.1,
+          "2030_share_index": 99.79338842975208
+        },
+        {
+          "assumed_market_CAGR": 0.15,
+          "2030_share_index": 87.33459357277889
+        },
+        {
+          "assumed_market_CAGR": 0.2,
+          "2030_share_index": 76.8663194444445
+        }
+      ]
+    },
+    {
+      "case": "old_target_favorable",
+      "CPU_unit_factor_2030_over2027": 1.6519999999999995,
+      "market_CPU_unit_CAGR_required_for_flat_share": 0.1821429983992222,
+      "conditional_share_indices_2027_100": [
+        {
+          "assumed_market_CAGR": 0.05,
+          "2030_share_index": 142.7059712773998
+        },
+        {
+          "assumed_market_CAGR": 0.1,
+          "2030_share_index": 124.11720510894058
+        },
+        {
+          "assumed_market_CAGR": 0.15,
+          "2030_share_index": 108.62168159776444
+        },
+        {
+          "assumed_market_CAGR": 0.2,
+          "2030_share_index": 95.60185185185185
+        }
+      ]
+    }
+  ],
+  "boundary": "2027ownedpolicy;2028\u201330annualdriverreconciliationwithdeclaredtimingrules.Thequarterlymathdoesnotaddindependentforecastcertainty."
+}

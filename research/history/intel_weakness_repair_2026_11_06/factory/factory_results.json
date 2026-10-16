@@ -1,0 +1,293 @@
+{
+  "computed_utc": "2026-11-06T21:55:13.809043+00:00",
+  "input_files": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_model.py": "98366c147368965f1c9f445f8c9366f740c17e1152312cb3349816c94b377526",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_weakness_repair_2026_11_06/factory/factory_policy.json": "a73f081ee4d88c3da5ccee525c5482a4c91d1495d6e1a494b664c63a5136deb4"
+  },
+  "cases": {
+    "0.10625": {
+      "owned_base": {
+        "Dec2026_value_USD": 56.139285845568374,
+        "Dec2030_target_USD": 82.47015162680005,
+        "annual_return_from_Nov5_quote": 0.11615212704256206,
+        "Foundry_EBIT_2030_B": 2.5,
+        "group_EBIT_2030_B": 38.942007896513076,
+        "parent_cash_2030_B": 23.06038961739398,
+        "minimum_annual_cash_B": 34.9570282289772,
+        "ending_cash_2030_B": 65.5404655626873,
+        "cash_2027_2030_before_financing_B": 33.12313756268731,
+        "annual_Foundry_EBIT_B": {
+          "2027": -4.0,
+          "2028": -0.75,
+          "2029": 1.0,
+          "2030": 2.5,
+          "2031": 2.723050049928102,
+          "2032": 2.9388105296143863,
+          "2033": 3.146971007381534,
+          "2034": 3.3437712662648784,
+          "2035": 3.528296134427282,
+          "2036": 3.691953855922278,
+          "2037": 3.846929758045952,
+          "2038": 3.991168591371592,
+          "2039": 4.125897993153669,
+          "2040": 4.249674932948278,
+          "2041": 4.377165180936727
+        }
+      },
+      "two_year_delay": {
+        "Dec2026_value_USD": 54.08704913609682,
+        "Dec2030_target_USD": 79.59075188586728,
+        "annual_return_from_Nov5_quote": 0.10664234173332798,
+        "Foundry_EBIT_2030_B": -0.75,
+        "group_EBIT_2030_B": 35.692007896513076,
+        "parent_cash_2030_B": 20.29788961739398,
+        "minimum_annual_cash_B": 32.25312582464683,
+        "ending_cash_2030_B": 55.76546556268731,
+        "cash_2027_2030_before_financing_B": 23.348137562687317,
+        "annual_Foundry_EBIT_B": {
+          "2027": -4,
+          "2028": -4,
+          "2029": -4,
+          "2030": -0.75,
+          "2031": 1,
+          "2032": 2.5,
+          "2033": 2.677078851859889,
+          "2034": 2.8444937437865625,
+          "2035": 3.0014661534595803,
+          "2036": 3.1406872089221713,
+          "2037": 3.272522776885793,
+          "2038": 3.395224488915325,
+          "2039": 3.5098366767583387,
+          "2040": 3.615131777061089,
+          "2041": 3.7235857303729216
+        }
+      },
+      "breakeven_only": {
+        "Dec2026_value_USD": 51.30550520634877,
+        "Dec2030_target_USD": 75.32398954283198,
+        "annual_return_from_Nov5_quote": 0.09205823192731288,
+        "Foundry_EBIT_2030_B": 0,
+        "group_EBIT_2030_B": 36.442007896513076,
+        "parent_cash_2030_B": 20.93538961739398,
+        "minimum_annual_cash_B": 33.52812582464683,
+        "ending_cash_2030_B": 60.22796556268732,
+        "cash_2027_2030_before_financing_B": 27.810637562687315,
+        "annual_Foundry_EBIT_B": {
+          "2027": -4,
+          "2028": -2.5,
+          "2029": -1,
+          "2030": 0,
+          "2031": 0,
+          "2032": 0,
+          "2033": 0,
+          "2034": 0,
+          "2035": 0,
+          "2036": 0,
+          "2037": 0,
+          "2038": 0,
+          "2039": 0,
+          "2040": 0,
+          "2041": 0
+        }
+      },
+      "persistent_loss": {
+        "Dec2026_value_USD": 46.0045686954027,
+        "Dec2030_target_USD": 67.48594690036053,
+        "annual_return_from_Nov5_quote": 0.06354580766313567,
+        "Foundry_EBIT_2030_B": -4,
+        "group_EBIT_2030_B": 32.442007896513076,
+        "parent_cash_2030_B": 17.53538961739398,
+        "minimum_annual_cash_B": 32.25312582464683,
+        "ending_cash_2030_B": 53.002965562687315,
+        "cash_2027_2030_before_financing_B": 20.585637562687317,
+        "annual_Foundry_EBIT_B": {
+          "2027": -4,
+          "2028": -4,
+          "2029": -4,
+          "2030": -4,
+          "2031": -4,
+          "2032": -4,
+          "2033": -4,
+          "2034": -4,
+          "2035": -4,
+          "2036": -4,
+          "2037": -4,
+          "2038": -4,
+          "2039": -4,
+          "2040": -4,
+          "2041": -4.12
+        }
+      }
+    },
+    "0.11555": {
+      "owned_base": {
+        "Dec2026_value_USD": 48.557681488026326,
+        "Dec2030_target_USD": 73.56082736404235,
+        "annual_return_from_Nov5_quote": 0.0858480430836479,
+        "Foundry_EBIT_2030_B": 2.5,
+        "group_EBIT_2030_B": 38.942007896513076,
+        "parent_cash_2030_B": 23.06038961739398,
+        "minimum_annual_cash_B": 34.9570282289772,
+        "ending_cash_2030_B": 65.5404655626873,
+        "cash_2027_2030_before_financing_B": 33.12313756268731,
+        "annual_Foundry_EBIT_B": {
+          "2027": -4.0,
+          "2028": -0.75,
+          "2029": 1.0,
+          "2030": 2.5,
+          "2031": 2.723050049928102,
+          "2032": 2.9388105296143863,
+          "2033": 3.146971007381534,
+          "2034": 3.3437712662648784,
+          "2035": 3.528296134427282,
+          "2036": 3.691953855922278,
+          "2037": 3.846929758045952,
+          "2038": 3.991168591371592,
+          "2039": 4.125897993153669,
+          "2040": 4.249674932948278,
+          "2041": 4.377165180936727
+        }
+      },
+      "two_year_delay": {
+        "Dec2026_value_USD": 46.62896630530653,
+        "Dec2030_target_USD": 70.78558797992359,
+        "annual_return_from_Nov5_quote": 0.07584015225050322,
+        "Foundry_EBIT_2030_B": -0.75,
+        "group_EBIT_2030_B": 35.692007896513076,
+        "parent_cash_2030_B": 20.29788961739398,
+        "minimum_annual_cash_B": 32.25312582464683,
+        "ending_cash_2030_B": 55.76546556268731,
+        "cash_2027_2030_before_financing_B": 23.348137562687317,
+        "annual_Foundry_EBIT_B": {
+          "2027": -4,
+          "2028": -4,
+          "2029": -4,
+          "2030": -0.75,
+          "2031": 1,
+          "2032": 2.5,
+          "2033": 2.677078851859889,
+          "2034": 2.8444937437865625,
+          "2035": 3.0014661534595803,
+          "2036": 3.1406872089221713,
+          "2037": 3.272522776885793,
+          "2038": 3.395224488915325,
+          "2039": 3.5098366767583387,
+          "2040": 3.615131777061089,
+          "2041": 3.7235857303729216
+        }
+      },
+      "breakeven_only": {
+        "Dec2026_value_USD": 44.321504981070575,
+        "Dec2030_target_USD": 67.10207278046339,
+        "annual_return_from_Nov5_quote": 0.06208606521382354,
+        "Foundry_EBIT_2030_B": 0,
+        "group_EBIT_2030_B": 36.442007896513076,
+        "parent_cash_2030_B": 20.93538961739398,
+        "minimum_annual_cash_B": 33.52812582464683,
+        "ending_cash_2030_B": 60.22796556268732,
+        "cash_2027_2030_before_financing_B": 27.810637562687315,
+        "annual_Foundry_EBIT_B": {
+          "2027": -4,
+          "2028": -2.5,
+          "2029": -1,
+          "2030": 0,
+          "2031": 0,
+          "2032": 0,
+          "2033": 0,
+          "2034": 0,
+          "2035": 0,
+          "2036": 0,
+          "2037": 0,
+          "2038": 0,
+          "2039": 0,
+          "2040": 0,
+          "2041": 0
+        }
+      },
+      "persistent_loss": {
+        "Dec2026_value_USD": 39.61843922605367,
+        "Dec2030_target_USD": 59.92866308910973,
+        "annual_return_from_Nov5_quote": 0.03356434231727756,
+        "Foundry_EBIT_2030_B": -4,
+        "group_EBIT_2030_B": 32.442007896513076,
+        "parent_cash_2030_B": 17.53538961739398,
+        "minimum_annual_cash_B": 32.25312582464683,
+        "ending_cash_2030_B": 53.002965562687315,
+        "cash_2027_2030_before_financing_B": 20.585637562687317,
+        "annual_Foundry_EBIT_B": {
+          "2027": -4,
+          "2028": -4,
+          "2029": -4,
+          "2030": -4,
+          "2031": -4,
+          "2032": -4,
+          "2033": -4,
+          "2034": -4,
+          "2035": -4,
+          "2036": -4,
+          "2037": -4,
+          "2038": -4,
+          "2039": -4,
+          "2040": -4,
+          "2041": -4.12
+        }
+      }
+    }
+  },
+  "opening_cash_delta_vs_original_engine_B": 0.15282799999999952,
+  "observed_loss_series": [
+    {
+      "quarter": "Q1 2026",
+      "Foundry_EBIT_B": -2.437
+    },
+    {
+      "quarter": "Q2 2026",
+      "Foundry_EBIT_B": -2.089
+    },
+    {
+      "quarter": "Q3 2026",
+      "Foundry_EBIT_B": -1.853
+    }
+  ],
+  "Q3_YoY_bridge_B": {
+    "reported_EBIT_change": 0.4680000000000002,
+    "lower_period_charges": 0.793,
+    "higher_opex": -0.219,
+    "other_net_change_residual": -0.10599999999999984,
+    "change_excluding_lower_period_charge_benefit": -0.32499999999999984,
+    "note": "Residual is calculated from disclosed changes, not labeled a separately disclosed product-profit change. Period charges are not all noncash or nonrecurring."
+  },
+  "YTD_YoY_bridge_B": {
+    "reported_EBIT_change": 1.4300000000000006,
+    "lower_period_charges_rounded": 2.6,
+    "lower_product_profit": -0.936,
+    "higher_opex": -0.231,
+    "rounding_residual": -0.00299999999999942,
+    "change_excluding_lower_period_charge_benefit_approx": -1.1699999999999995
+  },
+  "forecast_hurdles": {
+    "Q3_2026_annualized_loss_B": -7.412,
+    "owned_2027_loss_B": -4.0,
+    "improvement_required_vs_Q3_annualized_B": 3.412,
+    "loss_reduction_required_vs_Q3_annualized": 0.4603345925526173,
+    "Q1_to_Q3_quarterly_loss_reduction_B": 0.5839999999999999,
+    "2027_to_2030_Foundry_EBIT_improvement_B": 6.5,
+    "2027_to_2030_net_packaging_EBIT_improvement_B": 1.22875,
+    "factory_packaging_share_of_group_EBIT_improvement": 0.3153718668801376,
+    "annual_Foundry_EBIT_forecasts_B": {
+      "2027": -4.0,
+      "2028": -0.75,
+      "2029": 1.0,
+      "2030": 2.5
+    },
+    "note": "Q3 annualization is a level comparison, not a full-year forecast, normalized loss estimate or company guidance."
+  },
+  "guardrails": [
+    "Do not subtract the historical period-charge benefit from future forecasts; it diagnoses quality of reported improvement rather than forecasting a new cash penalty.",
+    "Do not add the disclosed node cost reductions again: they are already reflected in actual economics.",
+    "A lower consolidated value is the consequence of a standalone cost miss at fixed deliveries; do not combine with a volume miss by adding standalone scenario losses.",
+    "Annual cash does not replace the separate quarter-end liquidity stress.",
+    "No named, quantified packaging fee commitment was found that validates the two assumed 3B programs or total7B."
+  ]
+}

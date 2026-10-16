@@ -1,0 +1,177 @@
+{
+  "reviewed_at_utc": "2026-11-05T23:03:00Z",
+  "file": "intel_screen_2257.pdf",
+  "sha256": "57c1be128bbfce27b4641f85dcd9281ccda93f7e6a9e0a93203dce3f1902b0e4",
+  "review_method": "Independent sequential read of all ten pages without reading build code, followed by full-page renders/contact sheets. Existing research knowledge remains; this is not a researcher blinded to the issuer or prior discussion.",
+  "overall": "The revision is meaningfully more defensible and resembles serious student investment work. It now communicates why the forecast can fail. The unresolved problem is the affirmative LONG decision at this entry price, not basic presentation or missing sections.",
+  "readiness": "Good analytical screen form; not evidence of a compelling mispricing or high probability of winning. No numerical win probability assigned. No PDF edits.",
+  "material_improvements": [
+    {
+      "pages": [
+        1,
+        7
+      ],
+      "finding": "Current planning value is distinguished from future target and conditional holding return; little initial discount is admitted, and alternative entry prices are visible.",
+      "why_it_matters": "Prevents a4.15-year price increase being mistaken for current undervaluation."
+    },
+    {
+      "pages": [
+        3
+      ],
+      "finding": "Unit and ASP interaction is included once, historical ASP is distinguished from same-chip price, and dated external forecast is not mislabeled current consensus.",
+      "why_it_matters": "A judge can reproduce the revenue bridge and locate its unsupported portions."
+    },
+    {
+      "pages": [
+        4
+      ],
+      "finding": "Wafer/substrate/qualification/acceptance stages and the36.4% catch-up requirement make temporary-delay logic conditional.",
+      "why_it_matters": "The delayed-capacity case no longer quietly assumes demand or production automatically returns."
+    },
+    {
+      "pages": [
+        5
+      ],
+      "finding": "Real production migration and a narrowly certified enterprise segment are juxtaposed; their representativeness limits are explicit.",
+      "why_it_matters": "The deck tests the switching-cost story instead of assuming x86 stickiness equals Intel margin protection."
+    },
+    {
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "finding": "Investment and cash claims,92.3% post2030 operating-value dependence, entry hurdles and persistent/joint downsides are front-and-center.",
+      "why_it_matters": "The scarce ten pages now expose what carries the valuation rather than hiding it in appendices."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "finding": "Operating checkpoints are not presented as scheduled stock-price catalysts.",
+      "why_it_matters": "A3\u20135-year thesis need not invent a rerating event; it needs observable evidence that changes the forecast."
+    }
+  ],
+  "remaining_material_issues": [
+    {
+      "severity": "decision-critical",
+      "pages": [
+        1,
+        7,
+        8
+      ],
+      "issue": "Why LONG now remains unanswered.",
+      "evidence": "51.29 planning value vs52.22 entry;10% conditional annual return; model requires durable high margins, growth and capital productivity.",
+      "judgment": "It is logically possible to buy a fairly priced stock for its required return. But the screen has not established why this specific risk offers a superior prospective return or a differentiated current view. Moderate conviction is honest but does not supply an investment edge.",
+      "action": "Either strengthen a narrow independently evidenced source of expected return or explicitly treat the idea as price-dependent/watchlist quality. Do not manufacture cheapness with a larger terminal assumption."
+    },
+    {
+      "severity": "forecast-critical",
+      "pages": [
+        3
+      ],
+      "issue": "Other DCAI growth uses a narrower management claim as its anchor.",
+      "evidence": "5.19B\u219217.44B,3.36x, while purpose-built silicon tripling has a different scope and standalone profitability is undisclosed.",
+      "judgment": "The scope caveat prevents misstatement but does not justify the aggregate bucket. Better than prior wording, still a major model assumption.",
+      "action": "Show the components or isolate the smaller evidenced opportunity; display the value impact of a slower residual bucket. Root/model agent owns exact scenario arithmetic."
+    },
+    {
+      "severity": "forecast-critical",
+      "pages": [
+        3,
+        5,
+        7
+      ],
+      "issue": "The40% margin explanation is possibility, not durability evidence.",
+      "evidence": "Recent margins/ASP mix and two customer cases do not weight the revenue base; richer Other DCAI is assumed less profitable, and the mature forecast extends through2040.",
+      "judgment": "A judge can accept Q3 profitability and still reject its persistence. The current evidence does not make40% a floor.",
+      "action": "If public evidence cannot weight workload/customer economics, retain explicit uncertainty and avoid upgrading conviction. A retention mechanism is not a segment-level margin estimate."
+    },
+    {
+      "severity": "forecast-critical",
+      "pages": [
+        4,
+        6,
+        9
+      ],
+      "issue": "Foundry recovery and adequate physical investment remain modeled.",
+      "evidence": "2028Foundry loss narrows to0.75B; new Gama ramp later; Intel-specific good-package capacity undisclosed; capital productivity not physically validated.",
+      "judgment": "Page4 is a good constraint map, not independent proof of the forecast it accompanies.",
+      "action": "Make the strongest observable cost/yield/acceptance check prominent. Additional capacity diagrams without allocation/output numbers would add little."
+    },
+    {
+      "severity": "interpretation",
+      "pages": [
+        7,
+        8
+      ],
+      "issue": "Isolated stresses are not full competitive outcomes.",
+      "evidence": "35% case holds sales; slower growth lets investment respond; joint stress still holds the operating rate.",
+      "judgment": "The deck labels these limits adequately. Do not verbally summarize them as comprehensive loss limits or probabilities.",
+      "action": "Defend them as mechanism sensitivities; explain that a more persistent competitive loss may simultaneously affect ASP, volume, capital returns and market discount rates."
+    }
+  ],
+  "visual_review": {
+    "strengths": [
+      "Consistent plain typography and restrained palette.",
+      "Claim titles answer a question rather than label generic topics.",
+      "P3 evidence/forecast/effect table is a stronger scientific-investing structure than many public examples.",
+      "P6 cash bridge and P7 conditional valuation expose material assumptions within the screen.",
+      "No need for decorative logos, generic chip photographs, or large raw spreadsheet screenshots."
+    ],
+    "limits": [
+      "Page3 and8 are the densest; major qualifications in footnotes require careful reading.",
+      "P3 post2027 share-growth requirement is investment-decisive enough to avoid treating it as a minor source footnote.",
+      "P5 company-specific customer evidence is useful but not quantitatively representative; visual balance of one example each must not imply50/50 market weights."
+    ],
+    "no_detected_issue": "No material overlap or unreadable chart layout was identified in inspected renders; layout quality does not resolve the decision issue."
+  },
+  "hostile_judge_questions": [
+    {
+      "question": "Your own current value is below the price. Why are you long instead of waiting?",
+      "answer_supported_by_main10": "The modeled holding return is about10%, and a48.52entry would imply12% with the same target.",
+      "remaining_failure": "No independently supported reason that this expected risk-adjusted return is attractive relative to alternatives; no demonstrated large mispricing."
+    },
+    {
+      "question": "What precisely does the market believe that you can show is wrong?",
+      "answer_supported_by_main10": "The conditional reverse model and a dated DIGITIMES forecast establish reference points.",
+      "remaining_failure": "The dated forecast is not current consensus; the reverse model is not unique; the affirmative variant is not measured."
+    },
+    {
+      "question": "Why should a niche SAP constraint outweigh thousands of actual Arm migrations?",
+      "answer_supported_by_main10": "They apply to different workloads and establish heterogeneous switching costs.",
+      "remaining_failure": "No workload weights or supplier-margin attribution, so neither should be used as proof of40%."
+    },
+    {
+      "question": "If Other DCAI is lower margin and grows quickly, how do you retain40% at the whole segment?",
+      "answer_supported_by_main10": "Richer server mix and current product economics support the possibility.",
+      "remaining_failure": "The main screen provides no weighted product-margin bridge to quantify the offset."
+    },
+    {
+      "question": "Is management promising3.36x growth in every item you call Other DCAI?",
+      "answer_supported_by_main10": "No; page3 explicitly says management\u2019s purpose-built silicon scope differs.",
+      "remaining_failure": "Acknowledging the mismatch does not validate the forecast for the residual business."
+    },
+    {
+      "question": "What verifies2028 factory economics if your named supplier ramp contributes later?",
+      "answer_supported_by_main10": "Intel3/substrate constraints and separate supplier timeline; forecast checkpoint0.75BFoundry loss.",
+      "remaining_failure": "No Intel-specific accepted-output/cost curve is established by those supplier figures."
+    },
+    {
+      "question": "Would a good2027 prove your77.68target?",
+      "answer_supported_by_main10": "No;92.3% of current operating value is from post2030cash, requiring durable retention and reinvestment.",
+      "remaining_failure": "Need an investment case for that duration, not just a statement that it is necessary."
+    },
+    {
+      "question": "Your joint downside loses only3.2% a year. Is that the maximum risk?",
+      "answer_supported_by_main10": "No; planning value30.45is42% below entry, scenarios are not loss limits, and market path may be worse.",
+      "remaining_failure": "None if answered with the stated boundaries; do not give the optimistic shorthand."
+    },
+    {
+      "question": "How does your capital rule know which fabs and packages must be built?",
+      "answer_supported_by_main10": "It does not; it is incremental modeled sales divided by net operating investment.",
+      "remaining_failure": "Model funding is not factory adequacy. This limitation must remain explicit."
+    }
+  ],
+  "comparison_to_examples": "The new ten-page order is better suited to M37 than Carleton/AMAT background-heavy formats. It is less assertive than UNC winning narratives because it discloses substantial unresolved underwriting; suppressing those limits would reduce defensibility. The right gap to bridge is affirmative evidence and price attractiveness, not a more confident adjective or extra exhibit."
+}

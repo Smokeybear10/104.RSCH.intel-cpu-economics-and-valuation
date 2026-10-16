@@ -1,0 +1,176 @@
+{
+  "prepared_utc": "2026-11-04 16:58:32 UTC",
+  "status": "PASS — independent implementation and financial comparison audit; no economic endorsement",
+  "audited_valuation": "paired_cpu20_capital080_valuation_2026_11_04.json",
+  "audited_sha256": "f55bd72321bb39f9559e9d31889f18ce9d636401ac07778b7a23fb1c67d3cd5d",
+  "frozen_paired_policy_sha256": "2791b70c55d75aac7ba030eb8d2fb33c0b5718b2bf0fb79d5e1654ce088c38cc",
+  "methodology": [
+    "Reconstructed host client/server revenues from the FY2026 anchor, annual units/ASP assumptions and other-category growth; rebuilt Products profit, Foundry allowance, corporate/Other bridge and normalized physical reinvestment.",
+    "Independently reconstructed the packaging program from gross sales, embedded overlap, program margins, central economic SBC, initial depreciation cohorts and later capital/WC normalization; added only its net increments once to the new host.",
+    "Rebuilt ordinary operating taxes, finite old/new credit collections, basis-loss charges and every 2027-2041 unlevered owner-cash row.",
+    "A separate subagent independently rebuilt 292 absolute DCF, treasury, financing-shield and equity-bridge comparisons from operating cash and frozen financial policies. Neither audit imported or executed an implementation calculator or used prior valuation deltas to determine absolute values.",
+    "Recursively verified 108 recorded hash references across 32 distinct files, then rehashed all 32 at audit completion."
+  ],
+  "comparison_count": 1245,
+  "operating_comparison_count": 953,
+  "operating_metrics": {
+    "host_input_application": {
+      "comparisons": 120,
+      "max_abs_error": 0,
+      "max_relative_error": 0
+    },
+    "host_operating_rebuild": {
+      "comparisons": 300,
+      "max_abs_error": 4.263256414560601e-14,
+      "max_relative_error": 2.886579864025407e-15
+    },
+    "host_level_retention": {
+      "comparisons": 15,
+      "max_abs_error": 3.3306690738754696e-16,
+      "max_relative_error": 3.3306690738754696e-16
+    },
+    "packaging_independent_rebuild": {
+      "comparisons": 225,
+      "max_abs_error": 5.329070518200751e-15,
+      "max_relative_error": 7.657648755054867e-16
+    },
+    "combined_cash_rebuild": {
+      "comparisons": 195,
+      "max_abs_error": 4.263256414560601e-14,
+      "max_relative_error": 2.886579864025407e-15
+    },
+    "packaging_added_once": {
+      "comparisons": 60,
+      "max_abs_error": 4.529709940470639e-14,
+      "max_relative_error": 3.2573875096670086e-14
+    },
+    "reported_cash_delta": {
+      "comparisons": 15,
+      "max_abs_error": 4.263256414560601e-14,
+      "max_relative_error": 3.5962818441977854e-14
+    },
+    "host_capital_turnover": {
+      "comparisons": 11,
+      "max_abs_error": 0,
+      "max_relative_error": 0
+    },
+    "host_net_investment": {
+      "comparisons": 11,
+      "max_abs_error": 4.085620730620576e-14,
+      "max_relative_error": 4.963100245038645e-15
+    },
+    "terminal_cash_growth": {
+      "comparisons": 1,
+      "max_abs_error": 4.440892098500626e-16,
+      "max_relative_error": 4.311545726699637e-16
+    }
+  },
+  "independent_financing_audit": {
+    "comparisons": 292,
+    "all_displayed_absolute_values_match": true,
+    "absolute_DCF_rates": [
+      0.11,
+      0.12,
+      0.13
+    ],
+    "independent_extended_tail_years": 600,
+    "maximum_tail_absolute_error_B": 1.71e-13,
+    "maximum_tail_relative_error": 1.45e-15,
+    "minimum_tax_capacity_above_financing_benefit_B_rounded": 1.728,
+    "no_new_debt": true,
+    "minimum_economic_cash_B": 32.21375436851716,
+    "end2030_economic_cash_B": 59.57634051435178,
+    "end2030_ordinary_debt_B": 37.097,
+    "checks": [
+      "Capitalized interest recovered in eight equal deductions beginning the following year, with no immediate whole-amount shield.",
+      "Ordinary and capitalized cash interest charged once; cash-income tax remains in finite treasury.",
+      "Escrow financing receipts, Classiq payments and scheduled debt principal enter cash once.",
+      "5.51B planning claims and 5.717B other net assets follow policy; no extra escrow derivative, lease liability or NCI claim deduction.",
+      "Terminal first operating cash is 2041; financing benefits retain their separate fixed-debt policy."
+    ]
+  },
+  "independently_rebuilt_results": {
+    "annual_parent_unlevered_cash_2027_2030_B": [
+      -11.035163183085714,
+      2.0201675516028725,
+      15.0627303789889,
+      21.264105766845724
+    ],
+    "annual_parent_unlevered_cash2041_B": 37.5325473132444,
+    "values_at12pct_USD": {
+      "2026": 37.93785497285347,
+      "2029": 52.32963235042717,
+      "2030": 58.10894900022785,
+      "2031": 64.271023812792
+    },
+    "controls_2030_USD": {
+      "0.11": 65.10251967335098,
+      "0.12": 58.10894900022785,
+      "0.13": 52.52681642517593
+    }
+  },
+  "duplication_checks": {
+    "CPU_lost_sales": "Server revenue stays 12/13 of the prior funded-bull path; no deferred-sale recovery is inserted.",
+    "product_and_foundry_costs": "The 0.5 percentage-point product-margin reduction and separate Foundry allowance each enter once. Their policy distinguishes nonmanufacturing product-expense absorption from manufacturing absorption. This is a declared economic attribution, not empirically measured transfer-price evidence.",
+    "packaging": "Net incremental EBIT, D&A, physical capital and WC enter once. Existing positive-profit overlap is deducted once; no hypothetical embedded startup loss is reversed.",
+    "capital": "Host turnover is 0.80 after2030; packaging turnover remains1.00. Packaging incremental sales do not pass through the host capital rule. Gross physical capital already includes normalized replacement; no second maintenance or growth charge is added.",
+    "supplier_funding": "The retained host WC envelope includes the substrate/supplier program and adjusts only trade balances for lower sales. No additional disclosed supplier-commitment cash, invented customer contribution, partner proceeds, or packaging tax credit is stacked.",
+    "compensation_and_minorities": "Recurring host and incremental central SBC remain economic expenses without addbacks or duplicate future-grant dilution. Minority cash is reserved once."
+  },
+  "material_issues": [],
+  "presentation_notes": [
+    "The checked scope text correctly says external-customer packaging with Intel-funded capital.",
+    "The checked interpretation limits correctly state that the new paired host supersedes growth/margin/capital values; no stale unchanged-host or 0.60 description remains there.",
+    "End2031 is5.155 years after the November4,2026 entry date: label it a horizon control, not strictly inside the competition's three-to-five-year window.",
+    "external_revenue_B is the modeled Products-plus-Other host denominator plus net incremental packaging sales. Embedded external-Foundry sales are not separately reconstructed, so this label should not be described as a fully reconciled consolidated revenue forecast.",
+    "End2026 is a forecast planning valuation boundary, not an observed November4 fair value. The near equality of the2030 value and58.11 entry is not evidence of calibration, market convergence or a recommendation."
+  ],
+  "input_immutability": {
+    "recorded_references_checked": 108,
+    "unique_files_hashed": 32,
+    "hash_mismatches": [],
+    "missing_references": [],
+    "changed_during_audit": [],
+    "files": {
+      "paired_cpu20_capital080_valuation_2026_11_04.json": "f55bd72321bb39f9559e9d31889f18ce9d636401ac07778b7a23fb1c67d3cd5d",
+      "paired_cpu20_capital080_operating_policy_2026_11_04.json": "2791b70c55d75aac7ba030eb8d2fb33c0b5718b2bf0fb79d5e1654ce088c38cc",
+      "bullish_absorption_operating_policy.json": "6857dbbc5e3d724a3dde2b0ef0ce5914d40a87a09ac4afd6aa0369c32113bf65",
+      "product_operating_forecast_2026_11_04.json": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d",
+      "product_operating_policy_2026_11_04.json": "8a350e92f2f7519809f1eb59a213e8c7c1c401435ce3f25822733f39c9297a41",
+      "foundry_operating_policy.json": "fd17c6573519d6b2db78b9defa51bceb479b690a085aef90d5bc9f48fe855a81",
+      "q3_10q.pdf": "b7d287cf335157f894cd4b91a07a75420b332ac257593586239b17576becf318",
+      "q3_remarks.pdf": "b019d10f31a896d23586350df12407ee32442094f544c3e6d92c753d30df2210",
+      "corporate_other_policy.json": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a",
+      "post2030_operating_capital_policy.json": "dd14ddfd2a758a70f30c3c9ecc395610c32ea9c28a120594a735efa1d4a383db",
+      "cash_conversion_policy_2026_11_04.json": "cadc8a93f26ea92e9d9539c064c2ca12533fa34a649f06be23c0bff875dc9fc4",
+      "q3_actual_cash_conversion_bridge.json": "e0fb48a74226f626f2c4fff4d5591631901ad3daac41cfc251879eb8d08e4733",
+      "q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+      "q2_10q.html": "23bf9b8f45c8a4412245f9919fcbf124d0aa1af3bd949af671a4cce68fc2acda",
+      "q2_10q_extracted.txt": "5057c788f7279154f01b2c7376f297de6fa77cb97e748fb4fc9fe8d63581dbbb",
+      "q3_remarks.txt": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb",
+      "integrated_product_to_cash_forecast_2026_11_04.json": "cb00094f87130e39637dd6a2f48a141011cfa3424e99e4e7f2272821f7c3b515",
+      "post2030_capital_transition_addendum.json": "3205cf77639432071bfba8ee8778e32009d8450768a702ea0daf98a6da58b633",
+      "root_corporate_tax_credit_valuation_policy.json": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031",
+      "funded_bull_execution_policy.json": "ae6b3b69badafeb75fe6ab6c883d2316194ff1aeb0eb9c3901fe85700d862671",
+      "capital_productivity_adjudication_2026_11_04.json": "5eb1b83b525e984cf3e23757d3bb70e532ae61b8e30f8e647c242cc3dde7fbe7",
+      "external_packaging_operating_policy_2026_11_04.json": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb",
+      "physical_reuse_capacity_bridge_2026_11_04.json": "ca8205854ccdc64441fe92b3e80d31220e256d10aa12319bb41245e5e7b344ea",
+      "2025_10k.txt": "451450fd66433d8cce0eaa7fa6d8d3e153406de1ecf21191bbdbc2218a5fd044",
+      "external_program_directional_review_2026_11_04.json": "deed3b2cca167e59c0b512a9d2cf500e769fecd993a0e6355183b9304e6499ac",
+      "funded_bull_valuation_2026_11_04.json": "5a55146ce8cd7d4b20f52b85997fd616aa05573aa373eddd3905f35429471521",
+      "owned_intel_valuation_2026_11_04.json": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+      "financial_claims_and_treasury_policy_2026_11_04.json": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea",
+      "2025_10k.html": "67af52d83cdc32a0c52d6007ba0b1031f25c50bc1cae5ee0d626721c9989e42d",
+      "valuation_method_and_operating_rate_policy_2026_11_04.json": "55c084aed2b385854448a5eb25a3d3bf42299edeeefc7725acbd3aba04fafc5e",
+      "external_packaging_valuation_2026_11_04.json": "24f7fc7e19b907e210070855e0c24650cbaf52043e923a3deb0e71290d9a231f",
+      "root_valuation_execution_policy_v2.json": "128d7fb23fa3a29a3a490d29354e3a77bbb90dad50d7d8ee271e829cbca53137"
+    }
+  },
+  "limits": [
+    "This is a numerical and policy-application audit, not validation of forecast demand, manufacturing economics,0.80 productivity, packaging margins or market expectations.",
+    "Normalized asset lives, supplier allocation, tax rates/credits, carrying-value claims and refinancing access remain inherited assumptions.",
+    "Recorded freeze/output timestamps support documented chronology; this audit cannot independently prove the entire historical input-selection process.",
+    "No source law, tax return, grant-level dilution, monthly liquidity schedule or literal bank-cash forecast was reconstructed.",
+    "No new preferred inputs, model changes, investment direction or winning probability were introduced."
+  ]
+}

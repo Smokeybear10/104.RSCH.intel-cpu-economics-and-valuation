@@ -1,0 +1,29 @@
+{
+  "computed_utc": "2026-11-06T07:51:20.833459+00:00",
+  "rate": 0.10625000000000001,
+  "source_precision": "Published NYU November RF4.94%, plain T12 ERP3.79%; same1.5beta. Rounded control for consistency with4.41% published sustainable-payout input.",
+  "no_probabilities": true,
+  "results": [
+    {
+      "packaging_policy": "no_packaging_miss",
+      "planning_value_USD": 56.13928584556836,
+      "target2030_USD": 82.47015162680005,
+      "annual_price_return": 0.11615212704256206,
+      "retained_cash_delta_B": 0
+    },
+    {
+      "packaging_policy": "proportional_cash_cost_avoidance",
+      "planning_value_USD": 54.25211977117705,
+      "target2030_USD": 79.65599414802945,
+      "annual_price_return": 0.10686068672331128,
+      "retained_cash_delta_B": -1.3135517492711366
+    },
+    {
+      "packaging_policy": "no_cash_cost_avoidance",
+      "planning_value_USD": 50.96934191877766,
+      "target2030_USD": 74.80075769252826,
+      "annual_price_return": 0.0902269311328796,
+      "retained_cash_delta_B": -5.014285714285714
+    }
+  ]
+}

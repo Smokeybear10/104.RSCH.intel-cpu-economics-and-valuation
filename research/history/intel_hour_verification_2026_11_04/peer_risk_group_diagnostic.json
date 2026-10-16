@@ -1,0 +1,187 @@
+{
+  "method": "Mean raw beta first; unlever at median or aggregate D/E; remove zero-beta cash at median or aggregate cash/fundvalue. Common marginal tax15-35%. GFS cash includes0.957B noncurrentmarketablesecurities. Vendor betas are5Y but exact benchmark/observationfrequency notverified; historicalleverageunmatched; diagnostic notcalibratedforwardbeta.",
+  "groups": [
+    {
+      "group": "foundry",
+      "tickers": [
+        "TSM",
+        "GFS",
+        "UMC"
+      ],
+      "raw_beta_simple_mean": 1.57,
+      "median_D_E": 0.06345177664974619,
+      "median_cash_fraction": 0.11360381861575179,
+      "aggregate_D_E": 0.01656351475118648,
+      "aggregate_cash_fraction": 0.07317502006672527,
+      "tax_sensitivities": [
+        {
+          "tax": 0.15,
+          "asset_beta_mean_first_median_capital": 1.6805767720102955,
+          "asset_beta_mean_first_aggregate_capital": 1.670437142493254,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12351343564565403
+        },
+        {
+          "tax": 0.25,
+          "asset_beta_mean_first_median_capital": 1.6907559166015145,
+          "asset_beta_mean_first_aggregate_capital": 1.6731700239268614,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12396233592212678
+        },
+        {
+          "tax": 0.35,
+          "asset_beta_mean_first_median_capital": 1.7010591214558812,
+          "asset_beta_mean_first_aggregate_capital": 1.6759118621534745,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12441670725620436
+        }
+      ]
+    },
+    {
+      "group": "analog_power_IDM_or_hybrid",
+      "tickers": [
+        "TXN",
+        "STM",
+        "ON",
+        "ADI",
+        "MCHP"
+      ],
+      "raw_beta_simple_mean": 1.6019999999999999,
+      "median_D_E": 0.07825450999512432,
+      "median_cash_fraction": 0.02727607814227792,
+      "aggregate_D_E": 0.061108567746748735,
+      "aggregate_cash_fraction": 0.03261740783944009,
+      "tax_sensitivities": [
+        {
+          "tax": 0.15,
+          "asset_beta_mean_first_median_capital": 1.54420660000499,
+          "asset_beta_mean_first_aggregate_capital": 1.5742450334477165,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.11749951106022007
+        },
+        {
+          "tax": 0.25,
+          "asset_beta_mean_first_median_capital": 1.5556208034153083,
+          "asset_beta_mean_first_aggregate_capital": 1.5834434431438018,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.11800287743061509
+        },
+        {
+          "tax": 0.35,
+          "asset_beta_mean_first_median_capital": 1.5672050025012074,
+          "asset_beta_mean_first_aggregate_capital": 1.5927499783610737,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.11851374061030324
+        }
+      ]
+    },
+    {
+      "group": "all_manufacturing",
+      "tickers": [
+        "TSM",
+        "GFS",
+        "UMC",
+        "TXN",
+        "STM",
+        "ON",
+        "ADI",
+        "MCHP"
+      ],
+      "raw_beta_simple_mean": 1.5899999999999999,
+      "median_D_E": 0.06919767162058416,
+      "median_cash_fraction": 0.09249354086059214,
+      "aggregate_D_E": 0.027549637856915842,
+      "aggregate_cash_fraction": 0.06284563731076022,
+      "tax_sensitivities": [
+        {
+          "tax": 0.15,
+          "asset_beta_mean_first_median_capital": 1.654725940528375,
+          "asset_beta_mean_first_aggregate_capital": 1.6578043876122495,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12237341397730134
+        },
+        {
+          "tax": 0.25,
+          "asset_beta_mean_first_median_capital": 1.6656113262441798,
+          "asset_beta_mean_first_aggregate_capital": 1.6622791207066885,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12285345948736832
+        },
+        {
+          "tax": 0.35,
+          "asset_beta_mean_first_median_capital": 1.6766408763338776,
+          "asset_beta_mean_first_aggregate_capital": 1.6667780755117967,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.123339862646324
+        }
+      ]
+    },
+    {
+      "group": "all_manufacturing_without_GFS",
+      "tickers": [
+        "TSM",
+        "UMC",
+        "TXN",
+        "STM",
+        "ON",
+        "ADI",
+        "MCHP"
+      ],
+      "raw_beta_simple_mean": 1.5657142857142856,
+      "median_D_E": 0.06345177664974619,
+      "median_cash_fraction": 0.07138326310543247,
+      "aggregate_D_E": 0.027106539420978654,
+      "aggregate_cash_fraction": 0.06214059398616745,
+      "tax_sensitivities": [
+        {
+          "tax": 0.15,
+          "asset_beta_mean_first_median_capital": 1.599788564033476,
+          "asset_beta_mean_first_aggregate_capital": 1.6318563434728612,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.11995067567387628
+        },
+        {
+          "tax": 0.25,
+          "asset_beta_mean_first_median_capital": 1.6094783796847991,
+          "asset_beta_mean_first_aggregate_capital": 1.636191605833181,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12037799654409964
+        },
+        {
+          "tax": 0.35,
+          "asset_beta_mean_first_median_capital": 1.6192862918096302,
+          "asset_beta_mean_first_aggregate_capital": 1.6405499640537637,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12081052546880469
+        }
+      ]
+    },
+    {
+      "group": "manufacturing_plus_AMD",
+      "tickers": [
+        "TSM",
+        "GFS",
+        "UMC",
+        "TXN",
+        "STM",
+        "ON",
+        "ADI",
+        "MCHP",
+        "AMD"
+      ],
+      "raw_beta_simple_mean": 1.6955555555555555,
+      "median_D_E": 0.06345177664974619,
+      "median_cash_fraction": 0.07138326310543247,
+      "aggregate_D_E": 0.02199848870131784,
+      "aggregate_cash_fraction": 0.051399245889669175,
+      "tax_sensitivities": [
+        {
+          "tax": 0.15,
+          "asset_beta_mean_first_median_capital": 1.7324555394369006,
+          "asset_beta_mean_first_aggregate_capital": 1.7546188879928915,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.1258012892891673
+        },
+        {
+          "tax": 0.25,
+          "asset_beta_mean_first_median_capital": 1.7429489103602012,
+          "asset_beta_mean_first_aggregate_capital": 1.7584161341142321,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12626404694688487
+        },
+        {
+          "tax": 0.35,
+          "asset_beta_mean_first_median_capital": 1.75357017123991,
+          "asset_beta_mean_first_aggregate_capital": 1.7622298514485863,
+          "asset_discount_rate_corrected_Nov1_pair_median_capital": 0.12673244455168003
+        }
+      ]
+    }
+  ]
+}

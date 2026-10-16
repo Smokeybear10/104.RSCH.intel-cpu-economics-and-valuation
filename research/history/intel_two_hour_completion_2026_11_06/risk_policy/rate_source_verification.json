@@ -1,0 +1,365 @@
+{
+  "completed_utc": "2026-11-06T07:49:32.276808+00:00",
+  "scope": "Independent primary-source inputs and methodology audit only. No Intel equity valuations, targets, PDFs, core models or prior evidence were changed. Reconstructed original scalar spreadsheet formulas from unmodified workbook ZIP/XML, not a full spreadsheet recalculation.",
+  "source_hash_identity": [
+    {
+      "file": "ERPNov26.xlsx",
+      "prior_sha256": "919b7cc8e99dfb3ca7cbac17407fa1cb39070691b634c9a3e5699bfb2e953d9f",
+      "new_sha256": "919b7cc8e99dfb3ca7cbac17407fa1cb39070691b634c9a3e5699bfb2e953d9f",
+      "identical": true
+    },
+    {
+      "file": "ERPbymonth.xlsx",
+      "prior_sha256": "dbada71c8bcd309c8199c49540d17c9d943cf238e29a7effb7aef508829b6288",
+      "new_sha256": "dbada71c8bcd309c8199c49540d17c9d943cf238e29a7effb7aef508829b6288",
+      "identical": true
+    }
+  ],
+  "source_manifest": [
+    {
+      "file": "ERPNov26.xlsx",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPNov26.xlsx",
+      "retrieved_utc": "2026-11-06T07:42:08.954933+00:00",
+      "status": 200,
+      "bytes": 1855255,
+      "sha256": "919b7cc8e99dfb3ca7cbac17407fa1cb39070691b634c9a3e5699bfb2e953d9f"
+    },
+    {
+      "file": "ERPbymonth.xlsx",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx",
+      "retrieved_utc": "2026-11-06T07:42:08.707041+00:00",
+      "status": 200,
+      "bytes": 47651,
+      "sha256": "dbada71c8bcd309c8199c49540d17c9d943cf238e29a7effb7aef508829b6288"
+    },
+    {
+      "file": "treasury_nov5_2026.html",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+      "retrieved_utc": "2026-11-06T07:42:09.519084+00:00",
+      "status": 200,
+      "bytes": 1363972,
+      "sha256": "069beaee76173766108ce6d5bc6d7c907fe08f6e8f48a9ec75bd36127710c878"
+    },
+    {
+      "file": "kroll_sept8_2026.html",
+      "url": "https://www.kroll.com/en/publications/valuation/kroll-assesses-effect-us-monetary-fiscal-policies",
+      "retrieved_utc": "2026-11-06T07:42:08.641256+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "kroll_latest_recommendations.html",
+      "url": "https://www.kroll.com/en/reports/cost-of-capital/recommended-us-equity-risk-premium-and-corresponding-risk-free-rates",
+      "retrieved_utc": "2026-11-06T07:42:08.637720+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "nyu_bottom_up_beta.html",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/TenQs/TenQsBottomupBetas.htm",
+      "retrieved_utc": "2026-11-06T07:42:08.720148+00:00",
+      "status": 200,
+      "bytes": 11453,
+      "sha256": "1d309567258ef18e23f51257aecd5d042c1a973a8c2e0c66afb798dd77ed7fde"
+    },
+    {
+      "file": "nyu_apv.html",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/apv.htm",
+      "retrieved_utc": "2026-11-06T07:42:08.737557+00:00",
+      "status": 200,
+      "bytes": 39691,
+      "sha256": "9e1fce6dc72bd75bbfc652a877f1618e04dae5860ab1ed02892058cb874271e8"
+    },
+    {
+      "file": "kroll_current_policy_sept2026.pdf",
+      "url": "https://edge.sitecorecloud.io/krollllc17bf0-kroll6fee-proda464-0e9b/media/cost-of-capital/kroll-cost-of-capital-recommendations-updated-to-use-spot-risk-free-rates-september-2026.pdf",
+      "retrieved_utc": "2026-11-06T07:46:30.780518+00:00",
+      "status": 200,
+      "bytes": 150516,
+      "sha256": "e00ec2dbfa06411a3f1b323c4fc916311f3687af034c9758de1232e9607bf489"
+    },
+    {
+      "file": "kroll_historical_rate_table_sept2026.pdf",
+      "url": "https://edge.sitecorecloud.io/krollllc17bf0-kroll6fee-proda464-0e9b/media/cost-of-capital/kroll-us-erp-rf-and-corresponding-risk-free-rates-2026.pdf",
+      "retrieved_utc": "2026-11-06T07:46:30.780994+00:00",
+      "status": 200,
+      "bytes": 55307,
+      "sha256": "fed98f2aaacac43dfab83be545baedddbc372e7640a1092bdca7f82b124a8928"
+    },
+    {
+      "file": "nyu_us_sector_betas_jan2026.html",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html",
+      "retrieved_utc": "2026-11-06T07:46:30.781151+00:00",
+      "status": 200,
+      "bytes": 464334,
+      "sha256": "10993bab71504e2449ccdd9e3d67fa4da983bed380b2f4486e5200a7b258616b"
+    },
+    {
+      "file": "nyu_riskvalue.pdf",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/riskvalue.pdf",
+      "retrieved_utc": "2026-11-06T07:46:30.781240+00:00",
+      "status": 200,
+      "bytes": 1039941,
+      "sha256": "c8cd529c8f1677fc2ec247e428e8ce8c42c4df83e949801c32b082d264be91ab"
+    },
+    {
+      "file": "nyu_stablegrowth.html",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/stablegrowthrate.htm",
+      "retrieved_utc": "2026-11-06T07:46:30.781326+00:00",
+      "status": 200,
+      "bytes": 12700,
+      "sha256": "fe40f8cfb4a0b0e39932f0e55bd5451bc4b983b9ac3c671f01db8a82871b95ad"
+    },
+    {
+      "file": "nyu_terminal_excess_returns.html",
+      "url": "https://pages.stern.nyu.edu/adamodar/New_Home_Page/littlebook/terminalvalue.htm",
+      "retrieved_utc": "2026-11-06T07:46:30.781560+00:00",
+      "status": 200,
+      "bytes": 39969,
+      "sha256": "df175d070e0c1d91e07f9e32cc9e9036164533519fef1d88aeba16f3038770f4"
+    }
+  ],
+  "paired_Nov1_ERP": {
+    "monthly_locator": "ERPbymonth.xlsx, Historical ERP!A220:Q220; row219 is October1. Both files specify workbookPr date1904=1; A220 serial44865 converts to2026-11-01.",
+    "primary_urls": [
+      "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPNov26.xlsx",
+      "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx"
+    ],
+    "cells": {
+      "Historical ERP!C220": 0.0494,
+      "Historical ERP!D220": 0.0472,
+      "Historical ERP!I220": 0.0441,
+      "Historical ERP!J220": 0.0379,
+      "Historical ERP!K220": 0.0401,
+      "Historical ERP!M220": 0.0339,
+      "Historical ERP!P220": 0.0873
+    },
+    "method_identity": "I is T12 with sustainable payout; J is plain T12. P expected-return8.73% matches plainT12, not sustainable-payout headline. Persisted ERPNov26 calculator B6=NORM/B16=No and saved C45=3.386945% are the normalized option, not a contradiction of the headline4.41%.",
+    "source_formulas": {
+      "Impl premium calculator!H34": "If sustainable payout selected, 1-B10 / Buyback & Dividend computation!F27 when default terminal growth is Treasury rate.",
+      "Impl premium calculator!C34:G34": "Payout rises in five equal annual increments from initial to sustainable terminal payout.",
+      "Impl premium calculator!B34": "Initial cash distribution divided by reported trailing12-month earnings G28.",
+      "Impl premium calculator!B33": "Source chooses estimated base earnings G29,261.48, for projected earnings.",
+      "Impl premium calculator!C37:G37": "November cash timing begins at2/12years, then1+2/12 through4+2/12; first cashflow prorated2/12.",
+      "Buyback & Dividend computation!F27": "AVERAGE(F17:F26), cached10-year ROE19.4453158684%."
+    },
+    "fresh_independent_reconstruction": {
+      "computed_utc": "2026-11-06T07:47:30.378874+00:00",
+      "scope": "Read-only reconstruction of original source scalar formulas, not full workbook recalculation and not a new market forecast. Original bytes unchanged. Independent recomputation agrees with prior November4 receipt.",
+      "inputs": {
+        "treasury": 0.0494,
+        "earnings_growth": 0.1551772827487361,
+        "estimated_base_earnings": 261.48,
+        "reported_LTM_earnings": 311.9756793023725,
+        "ROE_10year": 0.19445315868444465,
+        "initial_fraction_year": 0.16666666666666666
+      },
+      "results": [
+        {
+          "method": "T12_sustainable_payout",
+          "erp": 0.04414788836941819,
+          "asset_rate_at_beta1_5": 0.11562183255412728,
+          "payout_initial": 0.6351999785022489,
+          "payout_terminal": 0.7459542424807535,
+          "reconciled_index": 7580.07,
+          "source_index": 7580.07,
+          "yearly_cashflows": [
+            198.55660223468587,
+            237.09712783892672,
+            282.8176407072884,
+            337.01842723166754,
+            401.2304296072164
+          ],
+          "terminal_cashflow": 421.05121282981287
+        },
+        {
+          "method": "T12_cash",
+          "erp": 0.03794330122116814,
+          "asset_rate_at_beta1_5": 0.10631495183175221,
+          "payout_initial": 0.6351999785022489,
+          "payout_terminal": 0.6351999785022489,
+          "reconciled_index": 7580.069999999999,
+          "source_index": 7580.07,
+          "yearly_cashflows": [
+            191.86580964980274,
+            221.6390246436454,
+            256.03236623892644,
+            295.76277312761226,
+            341.65843659978606
+          ],
+          "terminal_cashflow": 358.53636336781545
+        },
+        {
+          "method": "normalized",
+          "erp": 0.033869450308949195,
+          "asset_rate_at_beta1_5": 0.10020417546342379,
+          "payout_initial": 0.565871815424192,
+          "payout_terminal": 0.565871815424192,
+          "reconciled_index": 7580.07,
+          "source_index": 7580.07,
+          "yearly_cashflows": [
+            170.92483894657744,
+            197.4484910085727,
+            228.08801132612123,
+            263.4820891512717,
+            304.36852379872624
+          ],
+          "terminal_cashflow": 319.4043288743833
+        }
+      ]
+    },
+    "why_sustainable_payout_is_legitimate": "A pre-existing source option and published historical column, with payout tied to growth and average ROE. It recognizes that a mature market growing more slowly can distribute the earnings not needed for reinvestment; keeping retention unchanged can imply unnecessary accumulation. Here higher projected shareholder distributions at the same market price imply a higher expected market return and ERP.",
+    "why_plain_T12_is_legitimate": "A separate pre-existing source option and published historical column. It anchors distributions to the observed trailing payout ratio and avoids the extra projection that future payout rises to a historical-ROE-based sustainable level. It is not assumption-free: it keeps the current payout ratio indefinitely and inherits earnings-growth/base-earnings estimates.",
+    "what_is_not_observed": "Neither projected sustainable payout nor perpetual unchanged current payout is a verified future distribution policy. Choosing sustainable payout is economically coherent but cannot be presented as the only valid market ERP. Lower T12 was already documented before the current valuation outputs.",
+    "sovereign_adjustment": "The workbook subtracts22bp sovereign spread from4.94% Treasury to4.72% adjusted RF and adds22bp to the matching ERP. Lowering only RF is inconsistent. At beta1.5 rounded plainT12 adjusted pair gives10.735% versus10.625% unadjusted; expected market return is preserved but beta multiplication changes asset cost.",
+    "retention_consistency_diagnostic": {
+      "formula": "Future ROE = terminal growth / retained earnings fraction, if all retained earnings fund growth and equity reinvestment equals retention.",
+      "current_payout": 0.6351999785022489,
+      "terminal_growth": 0.0494,
+      "ROE_implied_by_unchanged_T12_payout": 0.1354166586865306,
+      "source_10year_average_ROE": 0.19445315868444465,
+      "growth_implied_at_same_payout_and_source_ROE": 0.07093651646839103,
+      "meaning": "Plain T12 does not force an economically impossible retention policy: lower future ROE, cash accumulation or other capital uses could reconcile it. Sustainable payout instead assumes the historical average ROE remains relevant while growth slows. These are market-wide ERP assumptions, not Intel operating assumptions; neither should be chosen because it favors Intel."
+    }
+  },
+  "treasury_current": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+    "latest_completed_trading_day": "2026-11-05",
+    "observations": {
+      "2026-10-30": {
+        "10year": 0.0494,
+        "20year": 0.0534
+      },
+      "2026-11-04": {
+        "10year": 0.049,
+        "20year": 0.053
+      },
+      "2026-11-05": {
+        "10year": 0.0484,
+        "20year": 0.0527,
+        "30year": 0.0525
+      }
+    },
+    "method": "Official constant-maturity par yields interpolated from indicative bid-side quotes at/near3:30PM, not zero-coupon discount factors or actual transaction prices.",
+    "pairing_limit": "Fresh files are identical to November4 receipts. No new implied ERP was calculated at November5 market price/cash assumptions. Do not splice November5 RF into November1 ERP and call the pair fully updated; label it a partial sensitivity if used."
+  },
+  "Kroll_current": {
+    "Sept8_article_url": "https://www.kroll.com/en/publications/valuation/kroll-assesses-effect-us-monetary-fiscal-policies",
+    "current_recommendations_page": "https://www.kroll.com/en/reports/cost-of-capital/recommended-us-equity-risk-premium-and-corresponding-risk-free-rates",
+    "newer_primary_publication_date": "2026-09-10",
+    "effective_date": "2026-09-02",
+    "erp": 0.05,
+    "riskfree_policy": "Spot20-year U.S.Treasury at valuation date for USD. No longer higher-of-normalized-or-spot policy from September2. Moving average permitted if short-term yield volatility materially distorts valuation.",
+    "source_locators": "Downloaded kroll_current_policy_sept2026.pdf p1 effective/current policy; p2 USD pairing and moving-average qualification. Current table first row September2,2026 until further notice.",
+    "newer_search_result": "Current primary recommendations page/table still link September policy; November12 webinar is future discussion, not issued replacement guidance. This is a bounded primary-page check, not proof no unpublished/later policy exists.",
+    "Nov5_rate_at_beta1_5": 0.1277,
+    "prior_Nov4_rate_at_beta1_5": 0.128,
+    "access": "Direct Kroll HTML downloads returned403, but web tool rendered the pages and the current linked primary PDFs were downloaded successfully."
+  },
+  "rate_controls_at_constant_beta": [
+    {
+      "method": "NYU Nov1 sustainable payout, published rounded policy",
+      "riskfree": 0.0494,
+      "erp": 0.0441,
+      "asset_beta": 1.5,
+      "asset_discount_rate": 0.11555
+    },
+    {
+      "method": "T12_sustainable_payout",
+      "erp": 0.04414788836941819,
+      "asset_rate_at_beta1_5": 0.11562183255412728,
+      "payout_initial": 0.6351999785022489,
+      "payout_terminal": 0.7459542424807535,
+      "reconciled_index": 7580.07,
+      "source_index": 7580.07,
+      "yearly_cashflows": [
+        198.55660223468587,
+        237.09712783892672,
+        282.8176407072884,
+        337.01842723166754,
+        401.2304296072164
+      ],
+      "terminal_cashflow": 421.05121282981287
+    },
+    {
+      "method": "T12_cash",
+      "erp": 0.03794330122116814,
+      "asset_rate_at_beta1_5": 0.10631495183175221,
+      "payout_initial": 0.6351999785022489,
+      "payout_terminal": 0.6351999785022489,
+      "reconciled_index": 7580.069999999999,
+      "source_index": 7580.07,
+      "yearly_cashflows": [
+        191.86580964980274,
+        221.6390246436454,
+        256.03236623892644,
+        295.76277312761226,
+        341.65843659978606
+      ],
+      "terminal_cashflow": 358.53636336781545
+    },
+    {
+      "method": "normalized",
+      "erp": 0.033869450308949195,
+      "asset_rate_at_beta1_5": 0.10020417546342379,
+      "payout_initial": 0.565871815424192,
+      "payout_terminal": 0.565871815424192,
+      "reconciled_index": 7580.07,
+      "source_index": 7580.07,
+      "yearly_cashflows": [
+        170.92483894657744,
+        197.4484910085727,
+        228.08801132612123,
+        263.4820891512717,
+        304.36852379872624
+      ],
+      "terminal_cashflow": 319.4043288743833
+    },
+    {
+      "method": "Kroll current guidance plus Nov5 20-year Treasury",
+      "riskfree": 0.0527,
+      "erp": 0.05,
+      "asset_beta": 1.5,
+      "asset_discount_rate": 0.1277
+    }
+  ],
+  "beta_review": {
+    "primary_data_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html",
+    "data_date": "January2026",
+    "sector": "U.S.Semiconductor",
+    "n_firms": 66,
+    "equity_beta": 1.52,
+    "debt_equity_ratio": 0.0259,
+    "unlevered_beta": 1.49,
+    "cash_firm_value": 0.0102,
+    "cash_adjusted_unlevered_beta": 1.5,
+    "method_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/TenQs/TenQsBottomupBetas.htm",
+    "audit": "1.50 is a defensible broad-sector operating-risk judgment, not a measured Intel forward beta or perpetual lower bound. Match business risk, operating leverage, value weights and future business mix. Unlever/cash correction assumes debt/cash risk treatment; internal segment revenue is not automatically a valid business-value weight.",
+    "prior_peer_check_not_reperformed": "November4 equal-weight8-peer matched regressions varied by daily/weekly/monthly frequency. Those historical peer estimates support judgment but do not identify Intel future beta.",
+    "terminal_caveat": "Bottom-up beta can change with business mix. Stable-growth maturity can justify lower risk, but a mechanical fade towardone is a scenario rather than verified Intel forecast. A flat1.5 forever should not be sold as primary-source law."
+  },
+  "APV_review": {
+    "primary_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/apv.htm",
+    "locators": "Value of Unlevered Firm; Expected Tax Benefit from Borrowing; Cost of Capital versus APV.",
+    "source_method": "Expected unlevered cash flows use unlevered cost of equity. For a given dollar debt level, tax benefits are discounted at debt cost to reflect their risk; expected distress costs also matter.",
+    "current_code_locator": "root/integrated_model.py lines70-73: operating terminal at R-G; annual shields at R; flat shield terminal at R.",
+    "finding": "Same asset discount rate for shields is a simplifying conservative choice relative to lower-risk debt-like shields, not the only or universally standard APV treatment. Tax capacity, debt refinancing and future debt policy may make shields riskier than contractual interest. Evaluate shield-rate choice separately without changing operating risk to compensate, and do not automatically assume all perpetual shields are certain.",
+    "nonfinding": "This source audit does not establish model double-counting or quantify its price effect."
+  },
+  "stable_growth_review": {
+    "primary_urls": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/stablegrowthrate.htm",
+      "https://pages.stern.nyu.edu/adamodar/New_Home_Page/littlebook/terminalvalue.htm"
+    ],
+    "method": "Forever growth must be compatible with the relevant economy and the valuation currency/inflation basis. The risk-free rate is a rule-of-thumb ceiling, not a guarantee. Sustainable reinvestment is g/ROC; stable growth cannot rely forever on efficiency improvement without investment.",
+    "conditional_parent_hurdle_review": "Parent-reported8.563% perpetual USD growth solution is a mathematical escape, not a credible adopted terminal assumption merely because it clears a return hurdle. It exceeds current Treasury reference rates and requires a separate defensible nominal-economy case. Parent-funded2/3/4% controls are methodologically preferable to increasing g with unchanged investment.",
+    "capital_efficiency": "Funding growth through revenue/incremental capital turnover is a coherent alternative expression if marginal after-tax profit and total incremental reinvestment imply a consistent sustainable ROC. Account for working capital, leases and intangibles consistently. Faster turnover is an economic claim, not a free valuation lever."
+  },
+  "forecast_selection_review": {
+    "primary_url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/riskvalue.pdf",
+    "locator": "Printed p14 footnote4 (PDF page14 zero-index13).",
+    "source_principle": "Expected cash flows are discounted at a risk-adjusted rate; certainty-equivalent cash flows use risk-free discounting. Applying both risk transformations double counts risk.",
+    "application": "A conservative planning case is valid as conditional value. It does not become an unbiased expected-cash-flow case merely by being named selected. Its below-market result alone cannot prove no LONG edge across reasonable operations/rate methods. Conversely using a sector systematic-risk premium with a conditional conservative scenario is not by itself proof of double counting; that requires showing the same risk was explicitly removed twice.",
+    "decision_language": "Evidence does not yet establish a strong LONG or SHORT is supportable. A categorical no price edge would require justified scenario probabilities/expected cash flows and robustness to defensible pre-existing rate methods, especially T12 versus sustainable-payout ERP."
+  },
+  "timing": "Nov1 paired ERP is a contemporaneous policy input used for future planning values, not a forecast of December2026 market discount rates. Nov5 Treasury is current close as of Nov6. Calendar entry timing, December2026 planning date and subsequent holding period remain separate model conventions; no equity horizon arithmetic performed here.",
+  "recommended_action": "Keep the retained11.555% policy identifiable and show the pre-existing10.6315% T12 control and current12.77% Kroll pair as distinct methods. Do not average them, claim a confidence interval, select after the target clears, or claim the latest10bp Treasury decline resolves the much larger framework uncertainty."
+}

@@ -1,0 +1,104 @@
+{
+  "as_of": "2026-11-05",
+  "purpose": "Connect existing model sensitivities to observable evidence without creating a new forecast, catalyst, or probability of winning.",
+  "calculation_file": "operating_value_bridge.json",
+  "recommended_deck_headline": "The valuation dispute is mostly margin durability and risk.",
+  "recommended_deck_display": {
+    "type": "Two-by-two table or additive value bridge",
+    "central_flat_risk_USD": 46.95806228358314,
+    "central_maturing_risk_USD": 53.77047718436613,
+    "margin_35_to_40_at_fixed_maturing_risk_USD": 5.235501709343615,
+    "result_after_margin_change_USD": 59.005978893709745,
+    "capital_0_8_to_1_0_at_fixed_maturing_risk_USD": 1.898577348060576,
+    "result_after_both_changes_USD": 60.904556241770315,
+    "reference_price_USD": 58.28,
+    "copy": "At the existing maturing-risk schedule, raising the mature DCAI margin from 35% to 40% adds $5.24 per share. Improving host capital productivity from 0.80 to 1.00 adds another $1.90. Margin explains 73% of the combined operating uplift. A 39.31% mature margin alone matches $58.28 if risk declines as assumed; the same test requires 48.08% under flat risk.",
+    "necessary_footnote": "Conditional December 31, 2026 planning values versus November 4 close. Risk schedule held fixed within each operating comparison. These are sensitivity results, not uniquely identified market expectations or 2030 exit prices.",
+    "do_not_say": [
+      "The market requires all of higher margins, better capital productivity, and lower risk.",
+      "Intel must achieve a 39.31% margin to justify its price under every valuation approach.",
+      "A single quarter above 39% disproves the short thesis.",
+      "Risk maturation is an operating fact already established by this calculation."
+    ]
+  },
+  "verified_primary_source_facts": [
+    {
+      "source": "Intel Q3 2026 Form 10-Q",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "sections": ["Note 2: Operating Segments", "Operating Segments Trends and Results", "Consolidated Condensed Statements of Cash Flows"],
+      "facts": "Q3 DCAI revenue was $7.318 billion and operating income $3.039 billion. Server ASP rose 54%, mostly from premium mix; volume rose 10%. Intel expects supply constraints into 2027. Product expenses include internal Foundry charges; some corporate costs remain unallocated. Foundry's $411 million external revenue mainly reflected a non-recurring contract. Cash-flow disclosures separate investing and financing PP&E additions, noncash acquisitions, partner contributions, and distributions."
+    },
+    {
+      "source": "Intel IR calendar",
+      "url": "https://www.intc.com/news-events/ir-calendar",
+      "facts": "No upcoming events were listed when checked on November 5, 2026."
+    }
+  ],
+  "analyst_observation_map": [
+    {
+      "question": "Does the current DCAI margin persist through a normal product and supply cycle?",
+      "model_parameter": "Mature DCAI margin, phased from 2031 to 2040",
+      "value_link": "35% to 40% adds $5.24 per share at fixed maturing risk; each margin percentage point adds about $1.05.",
+      "evidence_to_collect": [
+        "Successive DCAI segment revenues and operating income, with the company's bridge for premium mix, input costs, period charges, and product development expense.",
+        "Server volume and ASP changes, separating premium products from like-for-like pricing wherever disclosure permits.",
+        "Combined Products, Foundry, corporate expenses, and intersegment eliminations, so a transfer of profit between segments is not counted as economic improvement.",
+        "Customer evidence on repeat deployment economics, willingness to pay, switching costs, and workload performance at comparable service levels."
+      ],
+      "evidence_against_current_short_assumption": "Margins remain near or above 40% across a broader product cycle and after supply conditions normalize, with no offsetting manufacturing or corporate cost deterioration. This would make a 35% mature endpoint harder to defend.",
+      "evidence_supporting_current_short_assumption": "Premium mix stops expanding and margins normalize toward or below the existing 35% endpoint despite healthy volumes, or apparent product profits are offset by manufacturing costs.",
+      "not_sufficient": "Q3's computed 41.53% DCAI margin is one observation. It does not identify sustainable 2040 margins, and the model already allows high near-term profitability. A quoted CPU price increase or one benchmark is also insufficient.",
+      "assumption_update_rule": "Rebuild the margin path from accumulated cost and mix evidence. Do not mechanically set the terminal margin equal to the latest quarter. Do not add the same improvement again to Foundry."
+    },
+    {
+      "question": "Can Intel produce more external sales with less incremental net operating investment?",
+      "model_parameter": "Host incremental external sales / net operating investment, transitioning from 0.80 to the tested endpoint by 2035",
+      "value_link": "0.80 to 1.00 adds $1.90 per share at fixed maturing risk. At unchanged 35% mature margin, matching $58.28 would require about 1.477, outside the existing 0.60–1.00 scenario range.",
+      "evidence_to_collect": [
+        "A rolling multi-year reconciliation of productive output, external sales, physical additions, depreciation, working capital, and capacity under construction.",
+        "Separate company cash funding from partner funding, noncash capital acquisitions, financing classifications, and government support; financing changes do not themselves improve physical productivity.",
+        "Whether lower required spending reflects better yields and utilization at equivalent output and quality, rather than delayed capacity or weaker demand.",
+        "Capacity and deployment evidence consistent with more saleable output from the same installed asset base."
+      ],
+      "evidence_against_current_short_assumption": "Sustained higher output and external sales per unit of total required net investment, without deferred obligations, partner claims, or working-capital consumption replacing visible capex.",
+      "evidence_supporting_current_short_assumption": "Higher sales continue to require proportionate capacity and working-capital investment; reported cash savings largely reflect financing, credits, timing, or curtailed demand.",
+      "not_sufficient": "One quarter of lower cash capex, higher internal Foundry revenue, or government and partner funding is not proof of higher host capital productivity. The model ratio is incremental sales divided by net investment; it is not sales divided by gross capex or current book PP&E.",
+      "assumption_update_rule": "Reconcile the denominator to the model's host scope and investment conventions. Keep separate packaging and other cash claims out of the host sensitivity unless a broader model revision is explicitly justified."
+    },
+    {
+      "question": "Is a lower required return defensible as execution risk declines?",
+      "model_parameter": "Existing flat 11.555% versus existing maturing schedule reaching 10.055% in 2040",
+      "value_link": "Risk maturation alone raises central conditional value from $46.96 to $53.77; margin and risk jointly determine whether the quote is covered.",
+      "evidence_to_collect": [
+        "Repeated delivery against operating plans, less dependence on external financing, and more durable cash generation.",
+        "Consistent treatment of market risk assumptions and business mix across comparable firms and scenarios."
+      ],
+      "not_sufficient": "One customer announcement, a technically successful node, or a favorable earnings quarter cannot mechanically establish an exact 150-basis-point risk reduction.",
+      "assumption_update_rule": "Keep risk sensitivity explicit. Improved execution may motivate reassessment but does not estimate the discount rate by itself. The existing schedule remains an analyst scenario."
+    }
+  ],
+  "reporting_checkpoints": [
+    {
+      "occasion": "Q4/FY2026 earnings release and annual report, when published",
+      "date_status": "Exact future date not verified or announced on the checked IR calendar.",
+      "use": "Extend the segment margin, ASP/volume, cash spending, partner funding, and capacity reconciliation from one quarter to a fuller period."
+    },
+    {
+      "occasion": "2027 quarterly releases and Forms 10-Q, when published",
+      "date_status": "Reporting occasions, not scheduled rerating catalysts.",
+      "use": "Test durability across multiple quarters and compare realized operating performance with the pitch's separately labeled forecasts."
+    },
+    {
+      "occasion": "Later disclosures about product ramps, capacity, and external customer economics",
+      "date_status": "Event-driven; no invented date or guaranteed disclosure.",
+      "use": "Distinguish commercial and cash evidence from technical milestones and non-binding customer announcements."
+    }
+  ],
+  "limits": [
+    "The numerical sensitivities are model calculations, not empirical estimates of the causal effect of a near-term disclosure.",
+    "The tested operating changes begin after 2030; an earlier report can change confidence in the long-run path but is not the modeled cash improvement itself.",
+    "There is no predetermined quarter in which the valuation gap must close and no demonstrated 2027–2028 rerating catalyst from this exercise.",
+    "A reverse solution conditions on every other fixed assumption and the date mismatch; it cannot identify the market's unique forecast.",
+    "The calculation strengthens transparency and falsifiability. It does not strengthen the bearish conclusion automatically. In particular, a plausible higher-margin/lower-risk combination covers the reference price."
+  ]
+}

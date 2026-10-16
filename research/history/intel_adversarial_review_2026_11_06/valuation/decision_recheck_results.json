@@ -1,0 +1,121 @@
+{
+  "input_sha256": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_weakness_repair_2026_11_06/valuation/calculate_delivery_joint.py": "19ff57249e518b4a96acc02d7c24174875e63d8b81f1b99818d205e6637a7605"
+  },
+  "checks": {
+    "APV_max_error_USD": 0.0,
+    "cash_identity_max_error_B": 0.0
+  },
+  "scope": "Independent APV sum and selected-stress recreation. Existing reviewed CPU delivery propagation is reused without invoking main or writing upstream files.",
+  "horizon_years": 4.1505817932922655,
+  "base": {
+    "0.10625": {
+      "2026": {
+        "explicit_B": 151.0201431794779,
+        "terminal_B": 149.84001282006918,
+        "shield_B": 2.8391545388524753,
+        "net_assets_B": 5.628154470682113,
+        "equity_B": 309.32746500908166,
+        "price_USD": 56.13928584556836
+      },
+      "2030": {
+        "explicit_B": 194.04844436651882,
+        "terminal_B": 224.40934407717575,
+        "shield_B": 3.007281457286348,
+        "net_assets_B": 32.9454655626873,
+        "equity_B": 454.4105354636682,
+        "price_USD": 82.47015162680005
+      }
+    },
+    "0.11555": {
+      "2026": {
+        "explicit_B": 140.5634889862962,
+        "terminal_B": 118.78101715573138,
+        "shield_B": 2.58895408799514,
+        "net_assets_B": 5.619364769002347,
+        "equity_B": 267.55282499902506,
+        "price_USD": 48.557681488026326
+      },
+      "2030": {
+        "explicit_B": 185.6748351007273,
+        "terminal_B": 183.95144432587907,
+        "shield_B": 2.748413786579589,
+        "net_assets_B": 32.9454655626873,
+        "equity_B": 405.3201587758733,
+        "price_USD": 73.56082736404235
+      }
+    }
+  },
+  "core_return_Nov6": 0.0964291893107092,
+  "higher_rate_return_Nov6": 0.06664122580714049,
+  "selected_funded_joint": {
+    "target_USD": 64.7378499644682,
+    "return_at40": 0.12299562740856129,
+    "entry_ceiling12_USD": 40.445931591445024,
+    "CPU2027_B": 31.73925349266314,
+    "CPU2030_B": 60.07088322736725,
+    "capex2027_2030_B": 124.5,
+    "cash2030_B": 60.2279655626873,
+    "net_investment2031_2040_B": 101.3217039128665
+  },
+  "required_target_at40_for12": 64.02409084641909,
+  "selected_joint_target_cushion_USD": 0.7137591180491114,
+  "selected_joint_fractional_target_cushion": 0.011025375702789941,
+  "business_news_test": {
+    "description": "Apply a persistent CPU revenue level loss to the existing selected joint stress. Preserve all growth rates, near-term capex, existing profit response and post2030 investment policy; then jointly recompute Foundry breakeven and 15% terminal return. No price-move probability is claimed.",
+    "fractional_CPU_loss_exhausting_12pct_hurdle_before_funding_cost": 0.011084336303931186,
+    "threshold": {
+      "target_USD": 64.02409084641909,
+      "return_at40": 0.1200000000000001,
+      "entry_ceiling12_USD": 40.0,
+      "CPU2027_B": 31.387444932914736,
+      "CPU2030_B": 59.405037355600925,
+      "capex2027_2030_B": 124.5,
+      "cash2030_B": 59.41248633754433,
+      "net_investment2031_2040_B": 100.6572637140576
+    },
+    "already_modeled_one_quarter_delay_CPU_level_loss": 0.08044835429646702,
+    "selected_joint_plus_existing_CPU_delay_before_funding_cost": {
+      "target_USD": 59.52247661411037,
+      "return_at40": 0.10049884632798234,
+      "entry_ceiling12_USD": 37.187549765848495,
+      "CPU2027_B": 29.185882782579995,
+      "CPU2030_B": 55.23827953059031,
+      "capex2027_2030_B": 124.5,
+      "cash2030_B": 54.309346727345456,
+      "net_investment2031_2040_B": 96.49930236739588
+    },
+    "limitation": "New combined stresses omit incremental revolver costs and altered cash income. Their targets are operating/claims comparisons before additional financing cost, not fully funded liquidity forecasts. Baseline cash income convention is retained. Failure before extra financing cost is enough to reject a claim that the original $40 hurdle survives this business-news test."
+  },
+  "capital_timing_test": {
+    "description": "Keep the selected joint 2041 15% terminal-return assumption, but reduce host incremental revenue/net-investment from 0.8 to 0.6 for 2031\u20132040 only. All revenue, profit, DA, WC, near-term capital and terminal cash remain unchanged.",
+    "case_before_funding_cost": {
+      "target_USD": 61.14373379303539,
+      "return_at40": 0.107647260152536,
+      "entry_ceiling12_USD": 38.200454225711326,
+      "CPU2027_B": 31.73925349266314,
+      "CPU2030_B": 60.07088322736725,
+      "capex2027_2030_B": 124.5,
+      "cash2030_B": 60.2279655626873,
+      "net_investment2031_2040_B": 133.9385166645052
+    },
+    "extra_investment2031_2040_B": 32.616812751638676,
+    "limitation": "Capital efficiency is a sensitivity, not new evidence that 0.6 is the correct forecast. This tests a period the selected terminal-only stress does not change."
+  },
+  "later_entry_dates_same_target_no_new_news": {
+    "2026-11-06": {
+      "remaining_years": 4.1505817932922655,
+      "selected_joint_12pct_entry_ceiling_USD": 40.445931591445024
+    },
+    "2027-06-30": {
+      "remaining_years": 3.5044490075290895,
+      "selected_joint_12pct_entry_ceiling_USD": 43.51873081599208
+    },
+    "2027-12-31": {
+      "remaining_years": 3.0006844626967832,
+      "selected_joint_12pct_entry_ceiling_USD": 46.07554870588979
+    }
+  },
+  "finding_boundary": "No unexplained cash double count, arithmetic failure, or material missing financing claim established. Tests challenge selection robustness and durable economics, not reproducibility."
+}

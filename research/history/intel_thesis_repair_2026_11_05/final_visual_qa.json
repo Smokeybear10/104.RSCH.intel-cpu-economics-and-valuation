@@ -1,0 +1,48 @@
+{
+  "all_pages_rendered_and_visually_inspected": true,
+  "changed_final_pages_reinspected": [
+    "repair-final-10.png",
+    "repair-final-07.png",
+    "repair-final-01.png",
+    "repair-final-09.png",
+    "repair-final-08.png",
+    "repair-notes-1.png"
+  ],
+  "other_pages_pixel_identical_to_inspected": [
+    "repair-final-02.png",
+    "repair-final-03.png",
+    "repair-final-04.png",
+    "repair-final-05.png",
+    "repair-final-06.png",
+    "repair-notes-2.png"
+  ],
+  "layout_defects_observed": false,
+  "pdfs": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "29885889baab42e0722912a7775045196155f2ec54de252663df671680d744e7",
+      "pages": 10,
+      "all_text_inside_page_bounds": true
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_defense_notes.pdf",
+      "sha256": "5798cc77a4626ac88cb04a62e9439e24b1e4b29236483b73d45de5a0f1455813",
+      "pages": 2,
+      "all_text_inside_page_bounds": true
+    }
+  ],
+  "page_image_sha256": {
+    "repair-final-05.png": "2427999c107dd9d9425d51b7a6b4956734d63f74b006c7f34aeb7d038f17df08",
+    "repair-final-10.png": "5ec642166acbe55154d8a7c2cab5dca57b4e96d71ef6a1cad47f6c83b8a32c38",
+    "repair-final-04.png": "8d18c3a0eac0dba68f05c158093ef6e4cf8a9481071ecb1686626362f3d9a8df",
+    "repair-final-06.png": "6e2aeeb2fe97410e77dd95fa5cb1072703645e2365f3e1a808bee4b585d2697b",
+    "repair-final-07.png": "fe2ab9d3abaee64df25b26e1b404c08c80d3da68904f7fde3a5a35c773742ad0",
+    "repair-final-03.png": "ff6b520a0ba159c750a8b4a0596705222cce03cfc11a438ddf162b1ce8007eb2",
+    "repair-final-02.png": "7d003a0080ea7a7e540a5590ef6239a37412e95efafe531d657e0815767d533b",
+    "repair-final-01.png": "0b936d3f18b979d7fa370ffcb52ffb953fc6e1f976141c89d108959d8d09f9aa",
+    "repair-final-09.png": "57b4e2d760b93e0310d517df98b90e32f9a11274fceb24b5ca8c18f97c59c5d5",
+    "repair-final-08.png": "720b2bdd9725243f201eaa369a4710ce0438891da34b63a466248ef9be9072a1",
+    "repair-notes-2.png": "8511dd91d410b1a66e37ca355003d60070dfdd97d8ea421f98f79526107e57d9",
+    "repair-notes-1.png": "3e5d00b6e0f2fe67ee94e4a88e7935d4d6ab047521d6d68db61af370a0a93607"
+  }
+}

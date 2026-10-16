@@ -1,0 +1,8 @@
+{
+  "checked_utc": "2026-11-06T22:48:23.678277+00:00",
+  "result_sha256": "6a18ec3121fe30177e02e8d4a34539eef1fb5832cd4778c015cf061bad563870",
+  "invariants_checked": 2304,
+  "max_cash_or_interest_reconciliation_error_B": 3.1086244689504383e-15,
+  "control": "All base-timing variants require zero financing. All concentrated cases satisfy buffer, fit5Bfacility, and repayQ4_2028. Paired pretax financing NPV equalszero to1e-9. Core inputs hash-locked.",
+  "limitation": "Independent direct arithmetic check of saved rows; not validation of future facility availability, loan pricing, tax utilization or daily cash."
+}

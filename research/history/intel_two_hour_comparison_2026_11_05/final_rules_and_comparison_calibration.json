@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-11-06T00:14:39.056024+00:00",
+  "question": "Does comparison to winning presentations justify a minimum return hurdle or a probability of winning M37?",
+  "official_rules": {
+    "url": "https://www.m37.com/spc2026",
+    "requirements": [
+      "Individual enrolled STEM undergraduate/graduate",
+      "Intel or SpaceX; long or short;3\u20135yearfundamentalhorizon",
+      "Round1 ten-page maximumPDF; companyoverview,recommendation,drivers,risks",
+      "Name,classyear,resumeadditional;Nov9,2026deadline",
+      "Round2quantitativeanalysis,valuation,citations; judgmentratherthanmodelingskill",
+      "Finaldefenseofassumptions,counterarguments,whatwouldchangeview"
+    ],
+    "not_published_on_page": [
+      "Numericalminimumupside",
+      "Numericaljudgingrubric",
+      "Winningprobabilitymodel",
+      "Mandatoryinterviewcount"
+    ]
+  },
+  "comparative_calibration": {
+    "JBI_verified_winning_forecast2024_total_revenue_m": 1167,
+    "JBI_actual2024_total_revenue_m": 963.8,
+    "JBI_total_forecast_error": -0.17412167952013713,
+    "JBI_R3_forecast_m": 418,
+    "JBI_R3_actual_m": 245.7,
+    "JBI_R3_forecast_error": -0.4122009569377991,
+    "actual_source": "https://ir.janusintl.com/financial-information/sec-filings/content/0001839839-25-000032/jbi-20241228.htm",
+    "locator": "MD&A sales channels, printedpp33\u201335",
+    "lesson": "Well-articulated winners can later be materially wrong. This is hindsight calibration, not evidence the outcome was knowable at pitchtime, a stockreturncalculation, or permission to useweakreasoning."
+  },
+  "final_assessment_boundary": "Intel\u2019s conditional10%return is not a rule violation or automatically an uncompetitivepitch. The unresolved price/risk and accepted-output evidence are substantive comparativeweaknesses; no gradingrubric or empiricalwinningodds can be inferred from thisselectedsample.",
+  "submission": "Noentrysent; userreviewandresume packaging remain separate from thiscomparison task."
+}

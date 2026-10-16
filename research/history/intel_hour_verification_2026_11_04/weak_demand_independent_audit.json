@@ -1,0 +1,120 @@
+{
+  "audited_utc": "2026-11-04T22:51:44.327738+00:00",
+  "status": "Admitted as explicitly owned diagnostic; arithmetic and dimensions pass. Not a forecast probability or standalone recommendation.",
+  "source_policy_sha256": "f64de939151f9113356f66e90a5c3cf1eb9d895752671e32bbd2e494697322aa",
+  "source_results_sha256": "e7a3115ac8e08b07ac9a7a7b076bcc9b7ede34656341a96b8093cc18b4e0cf6a",
+  "method": "Rebuilt annual server revenue from baseline 2026 level and separately frozen unit/ASP paths. Rebuilt profit, early capital-cohort depreciation, post2030 host capital/DA with unchanged packaging residual, WC, finite credit collections and basis loss, closing cash, and valuations independently from source policies.",
+  "max_annual_row_component_error_B": 4.973799150320701e-14,
+  "largest_annual_errors": [
+    {
+      "year": 2041,
+      "field": "physical_cash_capex_B",
+      "error": -4.973799150320701e-14
+    },
+    {
+      "year": 2036,
+      "field": "physical_cash_capex_B",
+      "error": 3.552713678800501e-14
+    },
+    {
+      "year": 2041,
+      "field": "cash_delta_B",
+      "error": 2.3092638912203256e-14
+    },
+    {
+      "year": 2037,
+      "field": "physical_cash_capex_B",
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "year": 2038,
+      "field": "physical_cash_capex_B",
+      "error": -2.1316282072803006e-14
+    }
+  ],
+  "treasury_reproduction": [
+    {
+      "year": 2027,
+      "owner_cash_error_B": -1.7763568394002505e-15,
+      "closing_cash_error_B": 0.0,
+      "closing_cash_B": 33.10642404191429
+    },
+    {
+      "year": 2028,
+      "owner_cash_error_B": -1.0547118733938987e-15,
+      "closing_cash_error_B": -7.105427357601002e-15,
+      "closing_cash_B": 31.21255925194135
+    },
+    {
+      "year": 2029,
+      "owner_cash_error_B": 7.105427357601002e-15,
+      "closing_cash_error_B": 0.0,
+      "closing_cash_B": 39.445991283724894
+    },
+    {
+      "year": 2030,
+      "owner_cash_error_B": 1.0658141036401503e-14,
+      "closing_cash_error_B": 7.105427357601002e-15,
+      "closing_cash_B": 53.07295833740923
+    },
+    {
+      "year": 2031,
+      "owner_cash_error_B": 1.2434497875801753e-14,
+      "closing_cash_error_B": 1.4210854715202004e-14,
+      "closing_cash_B": 68.64911484910729
+    }
+  ],
+  "valuation_reproduction": [
+    {
+      "year": 2026,
+      "price_USD": 35.826154955303544,
+      "price_error_USD": 0.0,
+      "explicit_error_B": 1.4210854715202004e-14,
+      "terminal_error_B": -4.263256414560601e-14
+    },
+    {
+      "year": 2029,
+      "price_USD": 48.80607643132068,
+      "price_error_USD": -1.4210854715202004e-14,
+      "explicit_error_B": 0.0,
+      "terminal_error_B": -7.105427357601002e-14
+    },
+    {
+      "year": 2030,
+      "price_USD": 54.016532756637766,
+      "price_error_USD": -1.4210854715202004e-14,
+      "explicit_error_B": 0.0,
+      "terminal_error_B": -8.526512829121202e-14
+    }
+  ],
+  "terminal_growths": {
+    "external_revenue_B": 0.030000000000000027,
+    "EBIT_after_economic_SBC_B": 0.029999999999999805,
+    "DA_B": 0.030000000000000027,
+    "physical_cash_capex_B": 0.030000000000000027,
+    "WC_cash_use_B": 0.02999999999999603,
+    "parent_unlevered_cash_B": 0.03000000000000025
+  },
+  "new_eligible_AMIC_basis_B": {
+    "2027": 12,
+    "2028": 13.096774193548388,
+    "2029": 10.8,
+    "2030": 7.172413793103448,
+    "2031": 5,
+    "2032": 2
+  },
+  "checks": {
+    "early_depreciation_effect": "Early cut cohorts reduce D&A; EBIT rises by the opposite amount and D&A addback falls by the same amount. Their pretax operating cash effect cancels, leaving the lost tax shield once. Capex cash savings remain separate.",
+    "post2030_depreciation_effect": "Post2030 decremental EBIT includes D&A normalization by policy; no second EBIT adjustment is added. New D&A is used once in addback and once in gross replacement capex, cancelling from net investment as intended. This is an aggregate normalization, not a PP&E cohort rollforward.",
+    "AMIC": "2028\u20132030 host capital reductions applied to corresponding eligible basis in proportion to original host capex. Cash collection uses prior-year reduced basis; full-credit basis loss charged at 21% once in origin year. 2031\u20132032 eligible basis remains unchanged by policy.",
+    "liquidity": "All modeled year-end cash balances through 2031 remain positive; tax-benefit claims remain below modeled operating tax capacity. Cash income and debt policy are inherited approximations.",
+    "growth": "All tested operating dimensions grow exactly 3% from 2040 to 2041; credit income is zero in both years."
+  },
+  "qualifications": [
+    "The external_revenue_B field is the inherited model sales denominator, not a fully reconciled GAAP consolidated external revenue forecast. Use the corrected label in presentation.",
+    "Early 8-year cohort depreciation is replaced in 2031 by aggregate D&A/revenue normalization. This is explicitly disclosed policy; it does not reconstruct the depreciation of surviving physical equipment.",
+    "This stress permanently lowers server revenue level and preserves baseline growth after 2030; it is not a temporary cyclical downturn with full catch-up.",
+    "Capex, decremental margin, cash-income budgets and credit eligibility are judgments. The audit checks implementation, not whether these are most likely.",
+    "Existing mature_margin_addendum fields in the copied rows are inherited lineage metadata, not extra inputs to add again."
+  ]
+}

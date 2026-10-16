@@ -1,0 +1,71 @@
+{
+  "completed_utc": "2026-11-05T22:05:09.951160+00:00",
+  "task": "Find more public pitches and judge current Intel screen against actual examples",
+  "scope": "Read-only benchmark of selected thesis/evidence/valuation pages, not a full re-underwriting of historical investments",
+  "new_verified_winners": [
+    "UNC WMS 2024 Alpha",
+    "Columbia JBI 2023 Alpha",
+    "Waterloo Cargojet 2024 CFA",
+    "Notre Dame Garrett Motion 2023 Cornell"
+  ],
+  "additional_sector_examples": [
+    "UConn TSM 2023 summary",
+    "Carleton Sprott Micron 2020 report",
+    "Notre Dame AMAT 2019 partial text review"
+  ],
+  "judgment": "Credible student investment-pitch format with clean layout and careful financial mechanics. Strongest examples better link differentiated operational evidence to forecasts and explain why the entry price rewards risk. No justified claim of top-tier thesis or winning probability.",
+  "strengths": [
+    "Funded cash bridge",
+    "Explicit counterchecks and downside",
+    "Clear forecast/provenance boundaries",
+    "Readable layout"
+  ],
+  "priority_fixes": [
+    {
+      "pages": [
+        1,
+        7
+      ],
+      "issue": "Why buy at this price?",
+      "detail": "Same model gives51.29 December2026 planning value versus52.22 reference entry and77.68 December2030 target. Need explicit required-return/entry-price rationale; no invented margin of safety."
+    },
+    {
+      "pages": [
+        3,
+        5
+      ],
+      "issue": "Observable evidence supporting40percent margin persistence",
+      "detail": "Map evidence to disputed assumption, consistent forecast comparison and cash/value impact. Mix decomposition is conditional arithmetic rather than independent support of future CPU economics."
+    },
+    {
+      "pages": [
+        6
+      ],
+      "issue": "Original research must bear on recommendation",
+      "detail": "Oracle billing audit is useful but neither a matched workload test nor proof of chip pricing power. Link it to an actual modeling decision or prioritize direct pricing/cost/capacity evidence."
+    }
+  ],
+  "gtx_review": {
+    "url": "https://investmentclub.nd.edu/assets/541030/gtx_deck.pdf",
+    "award_verification": "https://mendoza.nd.edu/news/double-wins-for-notre-dame-investment-club/",
+    "text_pages_reviewed": "1-14 plus selected appendix pages20-24",
+    "visual_pages": [
+      4,
+      6
+    ],
+    "lesson": "Co-development duration and awarded revenue support cash visibility; scenario assumptions connect operating case to valuation.",
+    "caution": "Page10 claim that institutional holders eliminate harmful management behavior is not established by ownership. Winning deck is not a validated investment forecast."
+  },
+  "audit_records": [
+    "winners_review.json",
+    "semiconductor_comparison.json"
+  ],
+  "limits": [
+    "Selected examples differ in rules, length, preparation time and team size",
+    "Winning status not proof of correctness or outperformance",
+    "No new interviews or workload experiments",
+    "No pitch or model edits"
+  ],
+  "current_pitch_sha256": "cfeb26a895dc0486ab9cc8ee12e0a57e5170bf4cf9a43349a6add3c25dfc513c",
+  "current_defense_sha256": "75703d9d71f62b6410e03dde85fb57b1541d26dcd99bbfb672b66620ede97cf5"
+}

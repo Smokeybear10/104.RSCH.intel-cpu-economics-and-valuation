@@ -1,0 +1,98 @@
+{
+  "selected_utc": "2026-11-04T10:59:12.530105+00:00",
+  "status": "Prospective bounded cash-conversion policy selected before calculating forward cash results. Product EBIT rows have been received; capital, D&A and working-capital proposals were communicated before those rows. No share-price calculation or terminal forecast.",
+  "years": [
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "USD_B_assumptions": {
+    "total_cash_PPE": [
+      28,
+      30,
+      28,
+      26
+    ],
+    "total_normalized_DA": [
+      13.5,
+      15.5,
+      17.5,
+      19
+    ],
+    "cash_working_capital_use_including_supplier_advance_program": [
+      5,
+      4,
+      2,
+      2
+    ],
+    "cash_interest_paid_excluding_capitalized_interest": [
+      1.6,
+      1.6,
+      1.6,
+      1.6
+    ],
+    "cash_interest_income": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "cash_finance_lease_principal": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "minority_owner_cash_reserve": [
+      1.1,
+      1.1,
+      1.2,
+      1.3
+    ],
+    "new_SCIP_or_other_partner_capital_contributions": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "existing_capital_tax_receivable_collection_overlay": [
+      3,
+      3,
+      2,
+      0
+    ]
+  },
+  "ordinary_cash_tax_rate_before_capital_incentive_collections": 0.15,
+  "ordinary_cash_tax_formula": "15% * max(0, consolidated EBIT after recurring SBC - cash interest excluding capitalized interest + cash interest income).",
+  "pre_incentive_owner_cash_formula": "Consolidated EBIT after recurring SBC + total normalized D&A - ordinary cash interest + cash interest income - ordinary cash income taxes - total cash PPE - cash working-capital use - finance-lease principal - minority-owner cash reserve.",
+  "collection_overlay_formula": "Add only the separately selected realization of previously recognized capital-tax receivables. Show this result separately from pre-incentive owner cash. Do not label either row a complete normalized FCFE forecast or infer a share price.",
+  "judgments_and_boundaries": {
+    "capital": "2026 gross cash capex guidance is 20B; management expects 2027 to rise strongly and reports increased equipment commitments. 28/30 funds a material tooling/clean-room ramp through 2028; 28/26 then tapers modestly but remains above D&A. This is an owned budget, not issuer guidance. Hardware reviewer agrees it is coherent with the selected internal-product and process ramp.",
+    "capital_scope": "Total cash PPE includes investing-classified purchases, financing-classified extended-payment capital purchases and capitalized cash interest. Do not add the disclosed 19.6B capital commitments or extended-term cash payments again. New purchases are assumed cash-funded in this bounded operating bridge; new lease proceeds are not credited.",
+    "DA": "Q3 depreciation is 3.042B and intangible amortization 0.190B, or 12.928B annualized total D&A. The 13.5/15.5/17.5/19 path allows more tools to enter service. It includes root corporate amortization of 0.25B per year and any assumed lease-asset depreciation; do not add those separately. Inventory capitalization/release timing is normalized, not precisely modeled. Hardware owns a Foundry loss path that already bears rising factory depreciation.",
+    "working_capital": "The 5/4/2/2 cash-use envelope includes inventories, receivables, payables, noncapital supplier prepayments and the new substrate program. The approximately 3.3B due by end 2027 and the remaining program funding are not additional to this envelope or gross capital. To the extent an actual substrate payment buys owned PPE, classify it within the combined cash PPE plus working-capital budget once. Exact split and future amortization are not disclosed. The larger 2027/28 envelope allows advance funding before deliveries; no automatic later release windfall is credited.",
+    "interest": "1.6B is a rounded operating cash-interest budget, excluding capitalized interest already included in cash PPE. It is near the 1.45B annualized nine-month paid amount excluding capitalization, allowing timing variation. Cash interest income of 1B is an owned retained-liquidity convention, below the 1.5B annualized nine-month accounting interest income. No additional interest is charged on top of the capitalized amount. This is not an instrument-by-instrument treasury forecast.",
+    "tax": "15% is an owned ordinary cash-tax normalization, not an observed tax return or an exact extrapolation of the company 11% non-GAAP accounting rate. No zero-tax domestic pooling or immediate global loss offset is assumed. This line explicitly excludes refunds/collections of the separately modeled capital-tax receivables; that separation is a policy boundary, not proof that the published 11% rate has a known credit decomposition.",
+    "capital_incentives": "Q3 balance-sheet tax receivables total 9.9B and are described as primarily AMIC. The separate 3/3/2/0 overlay assumes 8B of eligible previously recognized capital-tax receivables remains collectible from the start of 2027, with the other 1.9B left for Q4 collection, ordinary-tax receivables or unmodeled balances. This is an explicit attribution/timing assumption, not an exact decomposition or payment schedule. It is capped at the selected 8B pool and creates no new accrual. Future capex-related credits are economically possible and are unestimated here, not asserted zero or permanently ineligible. No 35%-of-worldwide-capex calculation is used.",
+    "SBC": "Root corporate EBIT already charges recurring SBC of 2.6/2.8/3.0/3.2B. Do not add SBC to economic owner cash. If displaying an accounting-like CFO proxy, add it back once and subtract the same amount once in the owner-cash bridge. No separate forecast dilution for the same future labor expense is stacked onto fixed-share diagnostics.",
+    "minority": "The 1.1B reserve in 2027/28 is anchored to management NCI guidance; 1.2/1.3 is an owned modest maturation assumption. This reserves earnings/cash for minority owners once, whether paid immediately or retained for them. It is not an exact distribution forecast. Do not also subtract the same NCI income allocation from starting consolidated EBIT, or add a second partner distribution deduction.",
+    "partner_funding": "No new partner contributions are credited after 2026 in this bounded internally generated cash bridge. This is not a claim that none can occur. Arizona existing minority claims remain; Ireland was bought out and receives no recurring Apollo deduction. Potential new partner funding would improve liquidity while creating or maintaining claims; it is not internally generated operating cash.",
+    "government_escrow": "Secure Enclave share-linked cash is not included in the capital-tax collection overlay. Escrow mark-to-market is not operating cash. Do not deduct the share-linked liability as debt and add the same shares. Any future released conditional shares or net-settled warrants require a separate cash/claim event, absent here.",
+    "debt_and_claims": "The diagnostic holds current guided 5.44B shares only for per-share scaling, with existing ordinary debt refinancing at par and zero net new borrowing as a convention. It does not certify credit access, debt maturities, current fully diluted legal capitalization or unchanged 2030 shares. No new equity proceeds enter the cash bridge.",
+    "scope_limit": "Classiq acquisition and other nonrecurring corporate transactions are outside recurring product-to-cash results and must be shown separately if funding is assessed. This finite cash forecast is not full enterprise/stock valuation and should not be compared mechanically with the reverse-Gordon 34.27B number."
+  },
+  "source_locators": {
+    "actual_cash_bridge": "q3_actual_cash_conversion_bridge.json",
+    "issuer_cash_and_tax": "Q3 10-Q consolidated cash-flow statement, Note 7 tax receivables, Note 14 commitments, liquidity discussion; Q3 prepared remarks on capital spending and NCI.",
+    "corporate": "corporate_other_policy.json",
+    "hardware_coordination": "Hardware reviewer selected Foundry losses -5.5/-3.5/-1.5/0B and agreed the gross capital and total D&A paths before cash output."
+  },
+  "input_hashes": {
+    "q3_actual_cash_conversion_bridge.json": "e0fb48a74226f626f2c4fff4d5591631901ad3daac41cfc251879eb8d08e4733",
+    "corporate_other_policy.json": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a",
+    "product_operating_forecast_2026_11_04.json": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d",
+    "q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+    "q3_remarks.txt": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb"
+  }
+}

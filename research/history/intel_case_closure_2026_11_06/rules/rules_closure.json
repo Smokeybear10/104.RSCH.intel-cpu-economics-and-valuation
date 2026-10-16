@@ -1,0 +1,75 @@
+{
+  "checked_utc": "2026-11-07T01:25:49.738928+00:00",
+  "official_source": "https://www.m37.com/spc2026",
+  "source_scope": "Current official competition page, checked fresh; no organizer contact or special approval sought.",
+  "published_requirements": {
+    "eligibility": "Individual currently enrolled undergraduate or graduate pursuing a STEM major.",
+    "company_and_direction": "Intel or SpaceX; fundamental long or short recommendation with a 3–5-year horizon.",
+    "round1": "PDF, maximum 10 pages, concise recommendation, company overview, investment drivers and risks.",
+    "accompanying_materials": "Name, class year and résumé; these do not count toward the 10-page limit.",
+    "submission": "Email to [contact email omitted].",
+    "round1_due": "2026-11-09",
+    "published_hour_or_timezone": null,
+    "later_rounds": "Memo due November 30; final discussion December 5. Judgment and defense of assumptions are evaluated."
+  },
+  "closure_decisions": [
+    {
+      "issue": "Conditional-entry permission",
+      "disposition": "Closed as an administrative blocker; no special permission requirement identified.",
+      "boundary": "The page does not explicitly address entry-price conditions. Absence of prohibition is not affirmative organizer endorsement. A conditional LONG is still a recommendation whose clarity and usefulness judges can assess.",
+      "materiality": "Investment judgment and competitive strength, not a missing required attachment or permission.",
+      "action": "Remove conditional-entry acceptance from remaining_submission_item. Do not make organizer confirmation a prerequisite or imply an established rule violation."
+    },
+    {
+      "issue": "Original interview",
+      "disposition": "Closed as a competition-rule requirement.",
+      "boundary": "An interview could provide evidence, but the official rules do not require one. This does not erase any separately requested outreach work or authorize claiming an interview happened.",
+      "action": "Preserve the statement that no completed interview is claimed; do not describe it as a submission blocker."
+    },
+    {
+      "issue": "Three separate supplements",
+      "disposition": "Closed as a competition-rule requirement.",
+      "boundary": "Defense notes, comparison and workbook are preparation artifacts, not three required supplements.",
+      "action": "Keep the ten-page initial screen as the competition PDF. Do not imply all support artifacts must be submitted."
+    },
+    {
+      "issue": "Current résumé in entry package",
+      "disposition": "One documented outstanding administrative item.",
+      "evidence": "Current submission manifest marks the résumé outstanding; no current résumé is identified among the deliverables inspected. This is not a claim that no résumé exists elsewhere on the computer.",
+      "action": "Set remaining_submission_item to Current résumé. Keep submission_package_complete false until it is included."
+    },
+    {
+      "issue": "Deadline hour and application fields",
+      "disposition": "Closed as unsupported requirements.",
+      "boundary": "The reviewed page publishes a date, not an exact hour/timezone, and directs submission by email rather than describing application fields.",
+      "action": "Retain November 9 date and unspecified hour/timezone. Remove the instruction to review application fields unless an actual form is later supplied; do not invent a 11:59pm deadline."
+    }
+  ],
+  "current_artifact_checks": {
+    "main_pages": 10,
+    "name": "Thomas Ou",
+    "class_year": 2028,
+    "cover": false,
+    "company": "Intel",
+    "stated_recommendation": "Conditional LONG at $40 or below; no new position at November 6 reference quote $56.28.",
+    "horizon": "December 2030, within 3–5 years of the November 2026 reference.",
+    "current_resume_identified_in_package": false,
+    "submitted": false,
+    "scope_limit": "No independent re-verification of enrollment or degree major was performed in this rules check."
+  },
+  "suggested_manifest_patch": {
+    "remaining_submission_item": "Current résumé",
+    "administrative_blockers": [
+      "Current résumé"
+    ],
+    "investment_judgment_note": "The conditional entry is clear, but it does not establish a current-price investment opportunity. This is a thesis-quality issue, not a published preapproval requirement.",
+    "submission_package_complete": false,
+    "submission_ready": false
+  },
+  "suggested_defense_replacement": {
+    "question": "What remains before submission?",
+    "answer": "Include the current résumé with the ten-page PDF. Thomas Ou, Class of 2028 is already included. The recommendation is conditional on a $40 entry; explain why that condition is useful to an investor. The published rules do not require preapproval of entry conditions. Submit by the published November 9 date; the reviewed page gives no exact hour or timezone. Nothing has been submitted."
+  },
+  "suggested_comparison_replacement": "The screen states a conditional LONG within ten analytical pages. Its weakness at the reference price is an investment-judgment issue. The remaining required package item is the current résumé; no special approval requirement for the entry condition was found.",
+  "changes_performed": "Only this closure record was written. No deck, workbook, manifest, outreach or submission changed."
+}

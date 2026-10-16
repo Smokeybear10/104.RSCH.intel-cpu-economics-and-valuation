@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-11-05T23:45:26.548922+00:00",
+  "question": "Illustrative no-in-year-offset impact of a0.3B2027CPUshipment shortfall; not a correction to frozen base or complete Fab28 damage estimate.",
+  "revenue_policy": "Reduce2027CPU and DCAI sales by0.3B; unchangedASP; restore base2028absoluteCPU sales and all later levels, with no recapture of missed2027sales. Treating the approximate largely-server effect as entirelyCPU is a diagnostic convention.",
+  "profit_policy": "Consolidated2027EBIT reduces0.15B using prior50% incremental contribution convention. Fixed dollarFoundryprofit, D&A and physicalcapex held; no second fabrication charge, insurance recovery or additional damaged-inventory loss assigned.",
+  "working_capital_policy": "Existing10%incremental-sales rule releases0.03B in2027 and reinvests0.03B in2028; no unsoldinventory or additionalemergencycapex invented.",
+  "other_policy": "Tax, credits, leases, NCI, treasury and financing follow existing engine. Show values before and after adopted1.215Bclaimsreserve, unchanged by this diagnostic.",
+  "limitations": [
+    "Not proved that0.3B is unoffset for full2027; base is an annualtopdown unit/ASPforecast without quarterlyFab28mapping.",
+    "Physicalcapacitycatch-up, customerdemandretention and noadditionalproductioncostloss are explicit assumptions, not automatic.",
+    "Q4knownhit alreadyinside managementguide and2026anchor; do not subtract it again.",
+    "Amount is not a bound on total economic damage or lost annualrevenue."
+  ]
+}

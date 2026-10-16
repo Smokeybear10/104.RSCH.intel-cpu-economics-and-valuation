@@ -1,0 +1,49 @@
+{
+  "prepared_utc": "2026-11-04T12:15:52.633093+00:00",
+  "scope": "Competition research judgment. No new valuation, forecast revision, probability, submission material or trade.",
+  "conclusion": "The current Intel case is a falsifiable owned forecast and a real valuation counterview, but its specific operating disagreement with current public professional expectations is not yet established. Current sources already recognize PC weakness, substrate limits, large capital spending and negative 2027 free cash flow. The competition weakness is an insufficiently evidenced causal advantage, not failure to meet an arbitrary return hurdle or inability to prove the future.",
+  "single_most_valuable_increment": {
+    "task": "Build one bounded existing-capacity reuse versus fresh investment bridge for the 2027-2029 server recovery.",
+    "question": "Can the existing Intel 3, 18A and 18A-P manufacturing base and qualified EMIB supply deliver the owned server ramp with materially less fresh capital than the current case, or must Intel continue paying for a new balanced capacity base?",
+    "deliverable": "One dated comparison linking accepted server output, reusable installed tools and remaining completion/qualification work to cash PPE, supplier advances and underlying Foundry profit. Start with already collected issuer disclosures and separate operating investment from temporary funding. Expose undisclosed quantities rather than assigning false precision.",
+    "why_this_increment": "It tests the strongest bull explanation and the causal support for the modeled long-run investment burden. Another DCF sensitivity table or collection of price targets will not resolve that disagreement.",
+    "scope_control": "A near-term bridge can inform, but cannot empirically prove, the 2035 and terminal incremental capital turnover. Do not present present average PPE turnover, total construction in progress or a published node cost decline as a calibrated mature incremental turnover.",
+    "decision_use": "If reuse and qualification evidence support much less fresh investment for the same accepted output, weaken or abandon this short mechanism. If the ramp requires substantial additional cash despite improving same-node costs, use that physical constraint to defend a dated cash-conversion forecast. Either result improves project selection."
+  },
+  "candidate_claim": {
+    "wording": "Intel can grow server sales rapidly without delivering the low-investment manufacturing recovery required by the stronger valuation countercase: substrate qualification, node-specific tools and recurring process development continue to consume cash after the 2027 shortage eases.",
+    "owned_2028_checkpoint_USD_B": {
+      "Products_revenue_approx": 78.6,
+      "Foundry_operating_profit": -3.5,
+      "physical_cash_PPE": 29,
+      "operating_working_capital_use": 4
+    },
+    "falsifier": "By 2028, underlying Foundry reaches breakeven while Products meet or exceed the owned revenue path and the capital plus working-capital envelope is not exceeded. Strip out transfer-price shifts, reserve releases, grants and depreciation-life changes before calling this operating validation.",
+    "status": "An explicit prospective operating claim. Not yet a measured consensus gap. The present model does not predict funding failure and already grants substantial earnings and cash recovery."
+  },
+  "two_primary_expectation_sources": [
+    {
+      "author": "Morningstar / Brian Colello",
+      "date": "2026-10-30",
+      "url": "https://www.morningstar.com/stocks/intel-earnings-pc-winter-has-arrived-offsetting-healthy-ai-growth",
+      "current_view": "Current fair value 85 USD, cut from 105; PC weakness offsets strong AI-related server demand. The author already recognizes manufacturing and substrate constraints.",
+      "use": "A current valuation counterview after the earnings reset.",
+      "limit": "Accessible public text does not disclose matched 2028-2030 cash, capital or Foundry profit forecasts. Current fair value is not directly comparable to our end-2030 stock value. Do not infer that the author omits capital needs."
+    },
+    {
+      "author": "INH Capital",
+      "date": "2026-10-30",
+      "url": "https://inhcapital.com/insights/research/intc-q3-fy26-downgrade-hold",
+      "current_view": "Hold, target 80 USD; already recognizes negative 2027 free cash flow, significant capital growth and substrate constraints. Remains bullish over ten years and judges the drawdown excessive.",
+      "use": "Explicit current author counterview, and evidence that the generic cash-burn narrative is already public.",
+      "limit": "No matched annual 2028-2030 capital, cash or Foundry forecast. The prior 175 USD preview was superseded; its ambiguous 2027/2028 breakeven language is not usable current total-Foundry guidance. INH discloses investing its own capital and not managing clients; it is not established institutional consensus."
+    }
+  ],
+  "competition_standard": {
+    "official_rules": "https://www.m37.com/spc2026",
+    "read_prior_examples": "../actual_winning_pitch_examples_2026_11_04.json",
+    "lesson": "The useful transferable feature of prior winning examples is a sourced operating expectation, a stated forecast disagreement, valuation consequences and observable disconfirmation. It is not model size, the number of interviews or a numeric chance of winning.",
+    "recommendation": "Keep Intel as the focused cash-conversion research candidate, but do not call it a submission-ready superior project merely because the DCF is lower than price. The next increment should earn the capital-productivity disagreement rather than search for a convenient bullish quote. A full public consensus model is not mandatory; a defensible original causal forecast is."
+  },
+  "retrieval_note": "Official M37 page and indexed Morningstar text read through web tools. INH current free report located on its public research listing and read with ordinary unauthenticated curl after web open failed. No authentication or access-control bypass."
+}

@@ -1,0 +1,635 @@
+{
+  "computed_utc": "2026-11-07T01:12:31.561908+00:00",
+  "input_hashes": {
+    "work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "work/three_hour/active_research/intel_valuation_resolution_2026_11_06/valuation/valuation_resolution_results.json": "609d1e0110e7ea8e1f64839275ad263b0d731a31fcee087b22b84ad30e06ad6a",
+    "work/three_hour/active_research/intel_fundamental_rebuild_2026_11_06/valuation/policy_before_calculation.json": "74f5f70442a6938c423452000eb37fff98443a7107e999093f777762cc07084f"
+  },
+  "script_sha256": "93d745b2f653256cd998e194f16bfe47fb717d62e14b5d43ef6249eea3a0278e",
+  "quote_USD": 56.28,
+  "quote_date": "2026-11-06",
+  "exit_date": "2030-12-31",
+  "years_to_exit": 4.1505817932922655,
+  "shares_B": 5.51,
+  "baseline_APV": {
+    "0.10625": {
+      "2026": {
+        "endpoint": 2026,
+        "rate": 0.10625,
+        "explicit_operating_PV_B": 151.0201431794779,
+        "terminal_operating_PV_B": 149.84001282006918,
+        "total_operating_value_B": 300.8601559995471,
+        "financing_shield_PV_B": 2.8391545388524753,
+        "cash_B": 50.991828,
+        "debt_B": 50.134,
+        "net_other_assets_B": 4.502,
+        "remaining_escrow_PV_B": 2.2718375945609504,
+        "remaining_acquisition_PV_B": 2.0035111238788343,
+        "nonoperating_and_financing_bridge_B": 8.467309009534588,
+        "equity_B": 309.32746500908166,
+        "price_USD": 56.13928584556836
+      },
+      "2030": {
+        "endpoint": 2030,
+        "rate": 0.10625,
+        "explicit_operating_PV_B": 194.04844436651882,
+        "terminal_operating_PV_B": 224.40934407717575,
+        "total_operating_value_B": 418.45778844369454,
+        "financing_shield_PV_B": 3.007281457286348,
+        "cash_B": 65.5404655626873,
+        "debt_B": 37.097,
+        "net_other_assets_B": 4.502,
+        "remaining_escrow_PV_B": 0.0,
+        "remaining_acquisition_PV_B": 0.0,
+        "nonoperating_and_financing_bridge_B": 35.95274701997366,
+        "equity_B": 454.4105354636682,
+        "price_USD": 82.47015162680005
+      }
+    },
+    "0.11555": {
+      "2026": {
+        "endpoint": 2026,
+        "rate": 0.11555,
+        "explicit_operating_PV_B": 140.5634889862962,
+        "terminal_operating_PV_B": 118.78101715573138,
+        "total_operating_value_B": 259.34450614202757,
+        "financing_shield_PV_B": 2.58895408799514,
+        "cash_B": 50.991828,
+        "debt_B": 50.134,
+        "net_other_assets_B": 4.502,
+        "remaining_escrow_PV_B": 2.2439808391052574,
+        "remaining_acquisition_PV_B": 1.9844440701029076,
+        "nonoperating_and_financing_bridge_B": 8.208318856997488,
+        "equity_B": 267.55282499902506,
+        "price_USD": 48.557681488026326
+      },
+      "2030": {
+        "endpoint": 2030,
+        "rate": 0.11555,
+        "explicit_operating_PV_B": 185.6748351007273,
+        "terminal_operating_PV_B": 183.95144432587907,
+        "total_operating_value_B": 369.6262794266064,
+        "financing_shield_PV_B": 2.748413786579589,
+        "cash_B": 65.5404655626873,
+        "debt_B": 37.097,
+        "net_other_assets_B": 4.502,
+        "remaining_escrow_PV_B": 0.0,
+        "remaining_acquisition_PV_B": 0.0,
+        "nonoperating_and_financing_bridge_B": 35.69387934926689,
+        "equity_B": 405.3201587758733,
+        "price_USD": 73.56082736404235
+      }
+    }
+  },
+  "profit_ablations": {
+    "core": [
+      {
+        "rate": 0.10625,
+        "Dec2026_planning_value_USD": 56.13928584556836,
+        "Dec2030_target_USD": 82.47015162680005,
+        "annual_price_return_from_Nov6_56_28": 0.0964291893107092,
+        "EBIT2030_B": 38.942007896513076,
+        "normalized_parent_operating_cash2030_B": 19.448389617393982,
+        "normalized_parent_operating_cash2031_B": 20.725520150940923,
+        "CPU_margin2030": 0.441390948236689,
+        "CPU_margin2040": 0.4490871849674949,
+        "DCAI_margin2030": 0.39446515905366375,
+        "Foundry_profit2030_B": 2.5,
+        "net_packaging_profit2030_B": 1.175,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 34.9570282289772
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 35.015625824646825
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 46.68382594529333
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 65.5404655626873
+          }
+        ],
+        "minimum_annual_cash_B": 34.9570282289772,
+        "terminal_share_of_Dec2026_operating_value": 0.4980387393679831,
+        "after2030_share_of_Dec2026_operating_value": 0.9286965758588867
+      },
+      {
+        "rate": 0.11555,
+        "Dec2026_planning_value_USD": 48.557681488026326,
+        "Dec2030_target_USD": 73.56082736404235,
+        "annual_price_return_from_Nov6_56_28": 0.06664122580714049,
+        "EBIT2030_B": 38.942007896513076,
+        "normalized_parent_operating_cash2030_B": 19.448389617393982,
+        "normalized_parent_operating_cash2031_B": 20.725520150940923,
+        "CPU_margin2030": 0.441390948236689,
+        "CPU_margin2040": 0.4490871849674949,
+        "DCAI_margin2030": 0.39446515905366375,
+        "Foundry_profit2030_B": 2.5,
+        "net_packaging_profit2030_B": 1.175,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 34.9570282289772
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 35.015625824646825
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 46.68382594529333
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 65.5404655626873
+          }
+        ],
+        "minimum_annual_cash_B": 34.9570282289772,
+        "terminal_share_of_Dec2026_operating_value": 0.4580047556152282,
+        "after2030_share_of_Dec2026_operating_value": 0.9203004325306752
+      }
+    ],
+    "packaging_no_positive_profit_capital_retained": [
+      {
+        "rate": 0.10625,
+        "Dec2026_planning_value_USD": 53.800193573724826,
+        "Dec2030_target_USD": 78.98273568461049,
+        "annual_price_return_from_Nov6_56_28": 0.08507467461021334,
+        "EBIT2030_B": 37.76700789651308,
+        "normalized_parent_operating_cash2030_B": 18.44963961739398,
+        "normalized_parent_operating_cash2031_B": 19.559280950940924,
+        "CPU_margin2030": 0.441390948236689,
+        "CPU_margin2040": 0.4490871849674949,
+        "DCAI_margin2030": 0.39446515905366375,
+        "Foundry_profit2030_B": 2.5,
+        "net_packaging_profit2030_B": 0,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 34.9570282289772
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 34.889188324646824
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 46.007013445293325
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 63.86490306268729
+          }
+        ],
+        "minimum_annual_cash_B": 34.889188324646824,
+        "terminal_share_of_Dec2026_operating_value": 0.5001171013242247,
+        "after2030_share_of_Dec2026_operating_value": 0.929591591157531
+      },
+      {
+        "rate": 0.11555,
+        "Dec2026_planning_value_USD": 46.52115410800255,
+        "Dec2030_target_USD": 70.42408959146579,
+        "annual_price_return_from_Nov6_56_28": 0.0555010648349652,
+        "EBIT2030_B": 37.76700789651308,
+        "normalized_parent_operating_cash2030_B": 18.44963961739398,
+        "normalized_parent_operating_cash2031_B": 19.559280950940924,
+        "CPU_margin2030": 0.441390948236689,
+        "CPU_margin2040": 0.4490871849674949,
+        "DCAI_margin2030": 0.39446515905366375,
+        "Foundry_profit2030_B": 2.5,
+        "net_packaging_profit2030_B": 0,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 34.9570282289772
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 34.889188324646824
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 46.007013445293325
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 63.86490306268729
+          }
+        ],
+        "minimum_annual_cash_B": 34.889188324646824,
+        "terminal_share_of_Dec2026_operating_value": 0.46012242155989436,
+        "after2030_share_of_Dec2026_operating_value": 0.9213024993304287
+      }
+    ],
+    "Foundry_existing_breakeven_stress": [
+      {
+        "rate": 0.10625,
+        "Dec2026_planning_value_USD": 51.305505206348755,
+        "Dec2030_target_USD": 75.32398954283197,
+        "annual_price_return_from_Nov6_56_28": 0.07274560236702565,
+        "EBIT2030_B": 36.442007896513076,
+        "normalized_parent_operating_cash2030_B": 17.323389617393982,
+        "normalized_parent_operating_cash2031_B": 18.4272659088016,
+        "CPU_margin2030": 0.441390948236689,
+        "CPU_margin2040": 0.4490871849674949,
+        "DCAI_margin2030": 0.39446515905366375,
+        "Foundry_profit2030_B": 0.0,
+        "net_packaging_profit2030_B": 1.175,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 34.9570282289772
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 33.52812582464682
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 43.49632594529333
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 60.2279655626873
+          }
+        ],
+        "minimum_annual_cash_B": 33.52812582464682,
+        "terminal_share_of_Dec2026_operating_value": 0.5046552558501315,
+        "after2030_share_of_Dec2026_operating_value": 0.9359569082947545
+      },
+      {
+        "rate": 0.11555,
+        "Dec2026_planning_value_USD": 44.32150498107058,
+        "Dec2030_target_USD": 67.10207278046337,
+        "annual_price_return_from_Nov6_56_28": 0.043284330120662684,
+        "EBIT2030_B": 36.442007896513076,
+        "normalized_parent_operating_cash2030_B": 17.323389617393982,
+        "normalized_parent_operating_cash2031_B": 18.4272659088016,
+        "CPU_margin2030": 0.441390948236689,
+        "CPU_margin2040": 0.4490871849674949,
+        "DCAI_margin2030": 0.39446515905366375,
+        "Foundry_profit2030_B": 0.0,
+        "net_packaging_profit2030_B": 1.175,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 34.9570282289772
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 33.52812582464682
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 43.49632594529333
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 60.2279655626873
+          }
+        ],
+        "minimum_annual_cash_B": 33.52812582464682,
+        "terminal_share_of_Dec2026_operating_value": 0.46484146792491216,
+        "after2030_share_of_Dec2026_operating_value": 0.92848561881184
+      }
+    ],
+    "Foundry_breakeven_and_packaging_no_positive_profit": [
+      {
+        "rate": 0.10625,
+        "Dec2026_planning_value_USD": 48.96641293450522,
+        "Dec2030_target_USD": 71.83657360064244,
+        "annual_price_return_from_Nov6_56_28": 0.06056318006094652,
+        "EBIT2030_B": 35.26700789651308,
+        "normalized_parent_operating_cash2030_B": 16.324639617393984,
+        "normalized_parent_operating_cash2031_B": 17.26102670880161,
+        "CPU_margin2030": 0.441390948236689,
+        "CPU_margin2040": 0.4490871849674949,
+        "DCAI_margin2030": 0.39446515905366375,
+        "Foundry_profit2030_B": 0.0,
+        "net_packaging_profit2030_B": 0,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 34.9570282289772
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 33.40168832464683
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 42.81951344529333
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 58.552403062687304
+          }
+        ],
+        "minimum_annual_cash_B": 33.40168832464683,
+        "terminal_share_of_Dec2026_operating_value": 0.5072717403410055,
+        "after2030_share_of_Dec2026_operating_value": 0.9373011968716461
+      },
+      {
+        "rate": 0.11555,
+        "Dec2026_planning_value_USD": 42.28497760104681,
+        "Dec2030_target_USD": 63.965335007886836,
+        "annual_price_return_from_Nov6_56_28": 0.03132001261271422,
+        "EBIT2030_B": 35.26700789651308,
+        "normalized_parent_operating_cash2030_B": 16.324639617393984,
+        "normalized_parent_operating_cash2031_B": 17.26102670880161,
+        "CPU_margin2030": 0.441390948236689,
+        "CPU_margin2040": 0.4490871849674949,
+        "DCAI_margin2030": 0.39446515905366375,
+        "Foundry_profit2030_B": 0.0,
+        "net_packaging_profit2030_B": 0,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 34.9570282289772
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 33.40168832464683
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 42.81951344529333
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 58.552403062687304
+          }
+        ],
+        "minimum_annual_cash_B": 33.40168832464683,
+        "terminal_share_of_Dec2026_operating_value": 0.46752032543873234,
+        "after2030_share_of_Dec2026_operating_value": 0.9300003502071869
+      }
+    ]
+  },
+  "profit_path_concentration": [
+    {
+      "rate": 0.10625,
+      "joint_reduction_in_Dec2026_equity_value_USD": 7.172872911063138,
+      "joint_reduction_fraction_of_Dec2026_equity_value": 0.12776922262236734,
+      "joint_reduction_in_Dec2030_target_USD": 10.633578026157608,
+      "interpretation": "Conditional exposure to two profit paths, not sum-of-parts or probabilityweightedexpectedloss."
+    },
+    {
+      "rate": 0.11555,
+      "joint_reduction_in_Dec2026_equity_value_USD": 6.272703886979514,
+      "joint_reduction_fraction_of_Dec2026_equity_value": 0.12918046526843086,
+      "joint_reduction_in_Dec2030_target_USD": 9.595492356155518,
+      "interpretation": "Conditional exposure to two profit paths, not sum-of-parts or probabilityweightedexpectedloss."
+    }
+  ],
+  "reverse_operating_thresholds": [
+    {
+      "rate": 0.10625,
+      "annual_return_hurdle": 0.12,
+      "required_Dec2030_price_USD": 90.08189582091165,
+      "equity_gap_to_core_B": 41.94071050955496,
+      "equivalent_extra_parent_cash2031_B_growing3pct": 3.1979791763535657,
+      "equivalent_total_normalized_parent_cash2031_B": 23.92349932729449,
+      "equivalent_2031_cash_improvement_fraction": 0.15430151586368654,
+      "CPU_margin_uplift_by2030": 0.043305704949248396,
+      "extra_accumulated_cash_by2030_B": 4.743574276127347,
+      "fraction_of_added2030value_from_cash_after2030": 0.88689809451257,
+      "CPU_margin_uplift_percentage_points_by2030": 4.33057049492484,
+      "margin_threshold_case": {
+        "rate": 0.10625,
+        "Dec2026_planning_value_USD": 61.274312416765866,
+        "Dec2030_target_USD": 90.08189582091165,
+        "annual_price_return_from_Nov6_56_28": 0.1200000000000001,
+        "EBIT2030_B": 41.543419841598194,
+        "normalized_parent_operating_cash2030_B": 21.659589770716334,
+        "normalized_parent_operating_cash2031_B": 23.14418394744859,
+        "CPU_margin2030": 0.4846966531859374,
+        "CPU_margin2040": 0.4923928899167433,
+        "DCAI_margin2030": 0.42935234460226684,
+        "Foundry_profit2030_B": 2.5,
+        "net_packaging_profit2030_B": 1.175,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 35.24910751272802
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 36.09631917452485
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 49.21620006809832
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 70.28403983881464
+          }
+        ],
+        "minimum_annual_cash_B": 35.24910751272802,
+        "terminal_share_of_Dec2026_operating_value": 0.49352227866903176,
+        "after2030_share_of_Dec2026_operating_value": 0.9243226501393473
+      },
+      "marginal_Dec2030_price_per_one_CPU_margin_point_USD": 1.757677008844932
+    },
+    {
+      "rate": 0.10625,
+      "annual_return_hurdle": 0.15,
+      "required_Dec2030_price_USD": 100.52762905267535,
+      "equity_gap_to_core_B": 99.49670061657292,
+      "equivalent_extra_parent_cash2031_B_growing3pct": 7.586623422013685,
+      "equivalent_total_normalized_parent_cash2031_B": 28.312143572954607,
+      "equivalent_2031_cash_improvement_fraction": 0.36605225667493113,
+      "CPU_margin_uplift_by2030": 0.10273490143528637,
+      "extra_accumulated_cash_by2030_B": 11.25326642944674,
+      "fraction_of_added2030value_from_cash_after2030": 0.8868980945125701,
+      "CPU_margin_uplift_percentage_points_by2030": 10.273490143528637,
+      "margin_threshold_case": {
+        "rate": 0.10625,
+        "Dec2026_planning_value_USD": 68.32120158340949,
+        "Dec2030_target_USD": 100.52762905267538,
+        "annual_price_return_from_Nov6_56_28": 0.1499999999999999,
+        "EBIT2030_B": 45.11338416400724,
+        "normalized_parent_operating_cash2030_B": 24.694059444764026,
+        "normalized_parent_operating_cash2031_B": 26.46335970419414,
+        "CPU_margin2030": 0.5441258496719754,
+        "CPU_margin2040": 0.5518220864027813,
+        "DCAI_margin2030": 0.47722865575440254,
+        "Foundry_profit2030_B": 2.5,
+        "net_packaging_profit2030_B": 1.175,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 35.649933158306844
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 37.5793740631665
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 52.69142254737002
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 76.79373199213404
+          }
+        ],
+        "minimum_annual_cash_B": 35.649933158306844,
+        "terminal_share_of_Dec2026_operating_value": 0.4884548169314937,
+        "after2030_share_of_Dec2026_operating_value": 0.9194151124225362
+      },
+      "marginal_Dec2030_price_per_one_CPU_margin_point_USD": 1.757677008844932
+    },
+    {
+      "rate": 0.11555,
+      "annual_return_hurdle": 0.12,
+      "required_Dec2030_price_USD": 90.08189582091165,
+      "equity_gap_to_core_B": 91.03108719734985,
+      "equivalent_extra_parent_cash2031_B_growing3pct": 7.78770950973328,
+      "equivalent_total_normalized_parent_cash2031_B": 28.513229660674202,
+      "equivalent_2031_cash_improvement_fraction": 0.37575459882389123,
+      "CPU_margin_uplift_by2030": 0.10435191965510203,
+      "extra_accumulated_cash_by2030_B": 11.430389652369342,
+      "fraction_of_added2030value_from_cash_after2030": 0.8744342179766682,
+      "CPU_margin_uplift_percentage_points_by2030": 10.435191965510203,
+      "margin_threshold_case": {
+        "rate": 0.11555,
+        "Dec2026_planning_value_USD": 59.35948545752162,
+        "Dec2030_target_USD": 90.08189582091163,
+        "annual_price_return_from_Nov6_56_28": 0.1200000000000001,
+        "EBIT2030_B": 45.21051987666632,
+        "normalized_parent_operating_cash2030_B": 24.776624800524235,
+        "normalized_parent_operating_cash2031_B": 26.5536716718932,
+        "CPU_margin2030": 0.545742867891791,
+        "CPU_margin2040": 0.5534391046225969,
+        "DCAI_margin2030": 0.4785313297262567,
+        "Foundry_profit2030_B": 2.5,
+        "net_packaging_profit2030_B": 1.175,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 35.6608392854328
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 37.619726733532545
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 52.78598041453242
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 76.97085521505664
+          }
+        ],
+        "minimum_annual_cash_B": 35.6608392854328,
+        "terminal_share_of_Dec2026_operating_value": 0.4480259484234931,
+        "after2030_share_of_Dec2026_operating_value": 0.9097169636920392
+      },
+      "marginal_Dec2030_price_per_one_CPU_margin_point_USD": 1.5832069511968527
+    },
+    {
+      "rate": 0.11555,
+      "annual_return_hurdle": 0.15,
+      "required_Dec2030_price_USD": 100.52762905267535,
+      "equity_gap_to_core_B": 148.58707730436782,
+      "equivalent_extra_parent_cash2031_B_growing3pct": 12.711624463388668,
+      "equivalent_total_normalized_parent_cash2031_B": 33.43714461432959,
+      "equivalent_2031_cash_improvement_fraction": 0.6133319873668681,
+      "CPU_margin_uplift_by2030": 0.17033023805414055,
+      "extra_accumulated_cash_by2030_B": 18.657452560284227,
+      "fraction_of_added2030value_from_cash_after2030": 0.874434217976668,
+      "CPU_margin_uplift_percentage_points_by2030": 17.033023805414054,
+      "margin_threshold_case": {
+        "rate": 0.11555,
+        "Dec2026_planning_value_USD": 66.18911412117134,
+        "Dec2030_target_USD": 100.52762905267534,
+        "annual_price_return_from_Nov6_56_28": 0.1499999999999999,
+        "EBIT2030_B": 49.17389573675302,
+        "normalized_parent_operating_cash2030_B": 28.14549428159793,
+        "normalized_parent_operating_cash2031_B": 30.238621963159144,
+        "CPU_margin2030": 0.6117211862908296,
+        "CPU_margin2040": 0.6194174230216354,
+        "DCAI_margin2030": 0.5316836300725883,
+        "Foundry_profit2030_B": 2.5,
+        "net_packaging_profit2030_B": 1.175,
+        "physical_capex2027to2030_B": 124.5,
+        "annual_cash_only": [
+          {
+            "year": 2027,
+            "ending_cash_B": 36.10583608212873
+          },
+          {
+            "year": 2028,
+            "ending_cash_B": 39.26621488130749
+          },
+          {
+            "year": 2029,
+            "ending_cash_B": 56.64417384137361
+          },
+          {
+            "year": 2030,
+            "ending_cash_B": 84.19791812297153
+          }
+        ],
+        "minimum_annual_cash_B": 36.10583608212873,
+        "terminal_share_of_Dec2026_operating_value": 0.44343603362151235,
+        "after2030_share_of_Dec2026_operating_value": 0.9048489249229377
+      },
+      "marginal_Dec2030_price_per_one_CPU_margin_point_USD": 1.5832069511968527
+    }
+  ],
+  "terminal_efficiency_upper_bound": [
+    {
+      "rate": 0.10625,
+      "scope": "Generous algebraic bound only;3%perpetualgrowth without netreinvestment from2041",
+      "zero_terminal_net_investment_target_USD": 88.96743015739156,
+      "annual_price_return_from_Nov6_56_28": 0.11664581104674143,
+      "extra_target_value_USD": 6.497278530591515
+    },
+    {
+      "rate": 0.11555,
+      "scope": "Generous algebraic bound only;3%perpetualgrowth without netreinvestment from2041",
+      "zero_terminal_net_investment_target_USD": 78.88673647359707,
+      "annual_price_return_from_Nov6_56_28": 0.08475677749956079,
+      "extra_target_value_USD": 5.325909109554715
+    }
+  ],
+  "checks": {
+    "independent_APV_comparisons": 48,
+    "APV_max_error_B_or_USD": 0.0,
+    "cash_identity_comparisons": 45,
+    "cash_identity_max_error_B": 0.0,
+    "linear_margin_revaluation_max_error_USD": 2.842170943040401e-14,
+    "cash_equivalent_revaluation_max_error_USD": 2.842170943040401e-14
+  },
+  "interpretation": [
+    "The business recovery and current investment attractiveness are separate claims. Reverse requirements are measurable burdens, not supported forecasts.",
+    "A return below a chosen hurdle is not proof of overvaluation. No probabilities or risk-adjusted expectedreturns are inferred from unweighted cases.",
+    "Packaging ablation retains investment and revenue but removes positive profit. It is zero-margin execution stress, not business removal.",
+    "Foundry breakeven still assumes substantial recovery from current losses. The joint case does not eliminate factory-recovery dependence.",
+    "Ablations retain CPU price/mix, post2030growth, terminalprofitability, client andcustomsilicon assumptions. Positivejointreturns do not establish protected downside.",
+    "December2026 planningvalue is a differentdate from November6quote. No contemporaneous intrinsicvalue has been calculated.",
+    "APV adds taxshields/netclaims once. Pre2030 cashbenefits enter2030cash once and are not also counted in2030operatingvalue.",
+    "Reverse CPUmargin improvement holds investment unchanged. Evidence is needed for durableadvantage, fundingcosts and ownership economics.",
+    "Weak long returns or a lowerplanningvalue do not establish profitable short. Coverpricepath, timing, financing andadverseoutcomes must support a short separately."
+  ]
+}

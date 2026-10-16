@@ -1,0 +1,62 @@
+{
+  "opening": {
+    "text": "I am withdrawing the previous Intel short as the preferred competition recommendation. The business can recover strongly while absorbing substantial investment, but that observation does not establish attractive short returns. A new independent CPU revenue forecast is lower than ours; a funded permanent-loss scenario still gives a 2030 value above both the earlier entry and the newer intraday prices. The lower entry makes the bullish case more interesting. I have not found enough evidence to adopt its favorable margin and risk combination as the central forecast. The completed work is a research decision and a set of falsifiable scenarios; a directional competition pitch remains unfinished."
+  },
+  "questions_and_answers": [
+    {
+      "id": "price_rises",
+      "question": "Why withdraw the short recommendation?",
+      "answer": "Our unchanged operating case values Intel at $70.98 in December 2030. At the $54.58 November 5 snapshot, that implies a loss on the short leg before carry. I also tested a lower independent CPU forecast with permanent sales loss. Its $66.25 value still does not support the outright short. The earlier hedged strategy depends materially on market-return and risk assumptions."
+    },
+    {
+      "id": "method_risk",
+      "question": "What changed in the forecast test?",
+      "answer": "DIGITIMES forecasts $28.7 billion of Intel server CPU revenue in 2027, versus our $31.48 billion. I granted our existing ASP recovery and put the difference into shipped units. The timing branch catches up by 2029; the permanent branch never recovers its relative unit level. The latter allows later capital savings. The 50% initial contribution assumption is a judgment, tested at 35% and 65%."
+    },
+    {
+      "id": "margin_threshold",
+      "question": "Why not switch to long after the price decline?",
+      "answer": "A lower entry helps. With a 40% mature DCAI margin and unchanged 0.80 capital productivity, the model produces 8.87% annual price appreciation under flat risk or 12.69% with declining risk. That is a legitimate bullish case. My 35% endpoint allows pricing and mix to normalize after the current supply shortage; customer funding does not itself establish lower operating risk. I retain 35% and flat risk as my central judgment."
+    },
+    {
+      "id": "operating_bridge",
+      "question": "What did the funded downside test actually show?",
+      "answer": "At 50% initial contribution, timing and permanent-loss scenarios give 2030 values of $70.62 and $66.25 with flat risk, or $81.17 and $76.21 with maturing risk. The permanent-loss flat-risk range is $65.39-$67.11 across the contribution controls. Depreciation, working capital, taxes, finite credits and retained cash were recomputed. These are conditional scenarios, not probabilities or predictions that the market must reach those prices."
+    },
+    {
+      "id": "billing_audit",
+      "question": "What does the original Oracle work establish?",
+      "answer": "CPU-plus-memory list prices give $14.5608 an hour for Intel X12 versus $4.096 for Intel X9. At the separate vendor throughput scenarios of 5x and 6x, work per dollar is 1.41x and 1.69x. No workloads were run independently. This checks a published cost comparison; it does not establish Intel pricing power, an advantage over AMD or a stock recommendation."
+    },
+    {
+      "id": "valuation_dates",
+      "question": "What is missing from the parent cash calculation?",
+      "answer": "NCI earnings are not identical to partner cash distributions. The executed Arizona SCIP agreement redirects certain Intel distributions starting April 2027 and provides later catch-up. The amount is omitted from the public schedule. This creates a reconciliation task, not a quantified extra loss. Adding an invented charge on top of the existing reserve could double-count the same claim."
+    },
+    {
+      "id": "falsifiers",
+      "question": "Which evidence could support a new recommendation?",
+      "answer": "Real profit retention across a broader product cycle; accepted output with demonstrably less total investment; a specific customer displacement pattern that persists after capacity arrives; or a materially different entry price. Products and Foundry must be reconciled together: lower internal wafer charges can lift product margins without adding group profit. Partner contributions and distributions need a consistent cash schedule."
+    },
+    {
+      "id": "catalyst",
+      "question": "What still needs to be done for the competition?",
+      "answer": "Select a directional recommendation supported by a preferred operating forecast and its 3-5-year returns. It need not survive every adverse sensitivity, but the chosen assumptions must reflect an investment judgment. The current research decision is no position at the cited price, so this review is not a completed M37 entry. Interview responses alone would not resolve that choice."
+    }
+  ],
+  "suggested_two_page_split": {
+    "page1": [
+      "opening",
+      "price_rises",
+      "method_risk",
+      "margin_threshold"
+    ],
+    "page2": [
+      "operating_bridge",
+      "billing_audit",
+      "valuation_dates",
+      "falsifiers",
+      "catalyst"
+    ]
+  }
+}

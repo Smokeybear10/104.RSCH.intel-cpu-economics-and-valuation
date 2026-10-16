@@ -1,0 +1,299 @@
+{
+  "computed_utc": "2026-11-05T22:47:56.237184+00:00",
+  "policy_sha256": "b60ad99ed6b7c89b9d6ecad8d482cda267357d1a239231fc358c135f79f277ed",
+  "central_cost_cases": {
+    "SBC_scales_with_Products_after2030": {
+      "values": {
+        "2026": {
+          "equity_value_delta_B": -4.6132537348061575,
+          "price_delta_USD": -0.8372511315437673,
+          "price_USD": 50.44985137969765
+        },
+        "2030": {
+          "equity_value_delta_B": -7.144362861001158,
+          "price_delta_USD": -1.2966175791290668,
+          "price_USD": 76.38537041950234
+        }
+      },
+      "annual_price_return": 0.09589510878886287,
+      "2030_economic_cash_change_B": 0,
+      "annual_cost_bridge": [
+        {
+          "year": 2030,
+          "original_cost_B": 3.2,
+          "ratio_preserving_cost_B": 3.2,
+          "extra_cost_B": 0,
+          "aftertax_cash_delta_B": 0.0
+        },
+        {
+          "year": 2031,
+          "original_cost_B": 3.2960000000000003,
+          "ratio_preserving_cost_B": 3.4901753898909003,
+          "extra_cost_B": 0.19417538989090063,
+          "aftertax_cash_delta_B": -0.16388402906792013
+        },
+        {
+          "year": 2032,
+          "original_cost_B": 3.39488,
+          "ratio_preserving_cost_B": 3.7702211683801172,
+          "extra_cost_B": 0.3753411683801169,
+          "aftertax_cash_delta_B": -0.31453589910253793
+        },
+        {
+          "year": 2033,
+          "original_cost_B": 3.4967264,
+          "ratio_preserving_cost_B": 4.040044369016606,
+          "extra_cost_B": 0.5433179690166057,
+          "aftertax_cash_delta_B": -0.45204055022181594
+        },
+        {
+          "year": 2034,
+          "original_cost_B": 3.6016281920000006,
+          "ratio_preserving_cost_B": 4.294450990939367,
+          "extra_cost_B": 0.6928227989393663,
+          "aftertax_cash_delta_B": -0.5722716319239166
+        },
+        {
+          "year": 2035,
+          "original_cost_B": 3.7096770377600006,
+          "ratio_preserving_cost_B": 4.533108370286884,
+          "extra_cost_B": 0.8234313325268836,
+          "aftertax_cash_delta_B": -0.6752136926720446
+        },
+        {
+          "year": 2036,
+          "original_cost_B": 3.8209673488928004,
+          "ratio_preserving_cost_B": 4.745057630074066,
+          "extra_cost_B": 0.924090281181266,
+          "aftertax_cash_delta_B": -0.7577540305686382
+        },
+        {
+          "year": 2037,
+          "original_cost_B": 3.935596369359585,
+          "ratio_preserving_cost_B": 4.945256180344694,
+          "extra_cost_B": 1.0096598109851094,
+          "aftertax_cash_delta_B": -0.8279210450077897
+        },
+        {
+          "year": 2038,
+          "original_cost_B": 4.053664260440373,
+          "ratio_preserving_cost_B": 5.1309446282974305,
+          "extra_cost_B": 1.0772803678570584,
+          "aftertax_cash_delta_B": -0.883369901642788
+        },
+        {
+          "year": 2039,
+          "original_cost_B": 4.175274188253584,
+          "ratio_preserving_cost_B": 5.304287758292369,
+          "extra_cost_B": 1.129013570038785,
+          "aftertax_cash_delta_B": -0.9257911274318038
+        },
+        {
+          "year": 2040,
+          "original_cost_B": 4.300532413901191,
+          "ratio_preserving_cost_B": 5.46341639104114,
+          "extra_cost_B": 1.162883977139949,
+          "aftertax_cash_delta_B": -0.9535648612547583
+        },
+        {
+          "year": 2041,
+          "original_cost_B": 4.429548386318227,
+          "ratio_preserving_cost_B": 5.627318882772373,
+          "extra_cost_B": 1.197770496454146,
+          "aftertax_cash_delta_B": -0.9821718070923998
+        }
+      ]
+    },
+    "SBC_and_corporate_cash_scale_with_Products_after2030": {
+      "values": {
+        "2026": {
+          "equity_value_delta_B": -6.919880602209236,
+          "price_delta_USD": -1.255876697315651,
+          "price_USD": 50.031225813925765
+        },
+        "2030": {
+          "equity_value_delta_B": -10.716544291501735,
+          "price_delta_USD": -1.9449263686936,
+          "price_USD": 75.7370616299378
+        }
+      },
+      "annual_price_return": 0.09364838674076958,
+      "2030_economic_cash_change_B": 0,
+      "annual_cost_bridge": [
+        {
+          "year": 2030,
+          "original_cost_B": 4.8,
+          "ratio_preserving_cost_B": 4.8,
+          "extra_cost_B": 0,
+          "aftertax_cash_delta_B": 0.0
+        },
+        {
+          "year": 2031,
+          "original_cost_B": 4.944,
+          "ratio_preserving_cost_B": 5.23526308483635,
+          "extra_cost_B": 0.29126308483635094,
+          "aftertax_cash_delta_B": -0.24582604360188018
+        },
+        {
+          "year": 2032,
+          "original_cost_B": 5.09232,
+          "ratio_preserving_cost_B": 5.6553317525701745,
+          "extra_cost_B": 0.5630117525701752,
+          "aftertax_cash_delta_B": -0.4718038486538068
+        },
+        {
+          "year": 2033,
+          "original_cost_B": 5.2450896,
+          "ratio_preserving_cost_B": 6.0600665535249085,
+          "extra_cost_B": 0.8149769535249085,
+          "aftertax_cash_delta_B": -0.6780608253327239
+        },
+        {
+          "year": 2034,
+          "original_cost_B": 5.4024422880000005,
+          "ratio_preserving_cost_B": 6.44167648640905,
+          "extra_cost_B": 1.0392341984090492,
+          "aftertax_cash_delta_B": -0.8584074478858746
+        },
+        {
+          "year": 2035,
+          "original_cost_B": 5.56451555664,
+          "ratio_preserving_cost_B": 6.799662555430326,
+          "extra_cost_B": 1.2351469987903254,
+          "aftertax_cash_delta_B": -1.012820539008067
+        },
+        {
+          "year": 2036,
+          "original_cost_B": 5.731451023339201,
+          "ratio_preserving_cost_B": 7.1175864451111,
+          "extra_cost_B": 1.3861354217718989,
+          "aftertax_cash_delta_B": -1.1366310458529572
+        },
+        {
+          "year": 2037,
+          "original_cost_B": 5.903394554039377,
+          "ratio_preserving_cost_B": 7.41788427051704,
+          "extra_cost_B": 1.514489716477664,
+          "aftertax_cash_delta_B": -1.2418815675116845
+        },
+        {
+          "year": 2038,
+          "original_cost_B": 6.080496390660558,
+          "ratio_preserving_cost_B": 7.696416942446146,
+          "extra_cost_B": 1.6159205517855872,
+          "aftertax_cash_delta_B": -1.3250548524641816
+        },
+        {
+          "year": 2039,
+          "original_cost_B": 6.262911282380375,
+          "ratio_preserving_cost_B": 7.956431637438553,
+          "extra_cost_B": 1.6935203550581774,
+          "aftertax_cash_delta_B": -1.3886866911477056
+        },
+        {
+          "year": 2040,
+          "original_cost_B": 6.450798620851787,
+          "ratio_preserving_cost_B": 8.19512458656171,
+          "extra_cost_B": 1.7443259657099237,
+          "aftertax_cash_delta_B": -1.4303472918821376
+        },
+        {
+          "year": 2041,
+          "original_cost_B": 6.644322579477341,
+          "ratio_preserving_cost_B": 8.440978324158559,
+          "extra_cost_B": 1.7966557446812188,
+          "aftertax_cash_delta_B": -1.4732577106385996
+        }
+      ]
+    }
+  },
+  "duration": {
+    "2026": {
+      "operating_value_B": 273.3214439799427,
+      "equity_value_B": 282.5919348369402,
+      "cutoffs": [
+        {
+          "cash_after_year": 2030,
+          "PV_B": 252.39894913149408,
+          "fraction_of_operating_value": 0.9234509574375583,
+          "fraction_of_equity_value": 0.8931569447554548
+        },
+        {
+          "cash_after_year": 2035,
+          "PV_B": 185.43326529319552,
+          "fraction_of_operating_value": 0.6784438959235238,
+          "fraction_of_equity_value": 0.6561873940252163
+        },
+        {
+          "cash_after_year": 2040,
+          "PV_B": 126.64293047549664,
+          "fraction_of_operating_value": 0.4633479489622122,
+          "fraction_of_equity_value": 0.44814771712636287
+        }
+      ]
+    },
+    "2030": {
+      "operating_value_B": 390.8802294410402,
+      "equity_value_B": 428.027753872459,
+      "cutoffs": [
+        {
+          "cash_after_year": 2030,
+          "PV_B": 390.8802294410402,
+          "fraction_of_operating_value": 1.0,
+          "fraction_of_equity_value": 0.913212346406659
+        },
+        {
+          "cash_after_year": 2035,
+          "PV_B": 287.17313417198096,
+          "fraction_of_operating_value": 0.7346831907631637,
+          "fraction_of_equity_value": 0.6709217605023599
+        },
+        {
+          "cash_after_year": 2040,
+          "PV_B": 196.12687727775884,
+          "fraction_of_operating_value": 0.5017569641683356,
+          "fraction_of_equity_value": 0.45821065457404775
+        }
+      ]
+    }
+  },
+  "minority_unit_exposure": {
+    "2026": {
+      "additional2031_cash_B": 0.1,
+      "perpetual_growth": 0.03,
+      "value_delta_B": -0.7547859788118313,
+      "price_delta_USD": -0.13698475114552291
+    },
+    "2030": {
+      "additional2031_cash_B": 0.1,
+      "perpetual_growth": 0.03,
+      "value_delta_B": -1.168907071887785,
+      "price_delta_USD": -0.2121428442627559
+    }
+  },
+  "base_cost_ratios": [
+    {
+      "year": 2030,
+      "Products_revenue_B": 111.68247398141065,
+      "SBC_B": 3.2,
+      "SBC_fraction_of_Products": 0.028652660403391803
+    },
+    {
+      "year": 2035,
+      "Products_revenue_B": 158.20898675608743,
+      "SBC_B": 3.7096770377600006,
+      "SBC_fraction_of_Products": 0.023447953961548664
+    },
+    {
+      "year": 2040,
+      "Products_revenue_B": 190.6774559193952,
+      "SBC_B": 4.300532413901191,
+      "SBC_fraction_of_Products": 0.022553963672135153
+    }
+  ],
+  "limits": [
+    "The extra costs are alternative scale assumptions, not observed forecast obligations. They may correlate with product margin retention and should not be blindly stacked with other margin stresses.",
+    "The minority unit exposure does not infer size, timing or certainty of Arizona special distributions.",
+    "Cash after a cutoff is not only an extrapolated perpetuity: it includes specified annual forecasts after the cutoff. Denominators are kept explicit."
+  ]
+}

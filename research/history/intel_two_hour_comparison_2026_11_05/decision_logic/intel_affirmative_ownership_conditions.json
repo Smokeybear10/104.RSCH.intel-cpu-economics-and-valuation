@@ -1,0 +1,46 @@
+{
+  "completed_utc": "2026-11-05T23:13:59.056521+00:00",
+  "question": "What would make the current Intel LONG more compelling without arbitrary higher forecasts?",
+  "reference": "Locked 22:57 UTC screen, not necessarily later root edits.",
+  "answer": "The useful upgrade is evidence that a material base-case cash stream is more durable, less capital intensive or less fully priced than presently supported. More confidence in a story is not itself a model input.",
+  "conditions": [
+    {
+      "priority": 1,
+      "claim_to_earn": "Deliverable, accepted CPU revenue rather than industry capacity",
+      "evidence_needed": "A matched bridge from product-specific wafer starts through yields, package allocation, customer qualification and accepted shipments, with ASP separated into product mix and same-product net price.",
+      "why_decisive": "Displayed persistent lower-demand endpoint is $59.05 versus $77.68 base, an $18.63 difference.",
+      "what_not_to_count": "Industry substrate area, all-server shipment growth, customer inquiries or a factory opening date are not Intel accepted CPU units."
+    },
+    {
+      "priority": 2,
+      "claim_to_earn": "Margin durability after capacity catches demand",
+      "evidence_needed": "Representative retained workloads; relative whole-system economics versus current alternatives; realized price, rebate, unit-cost and segment-mix bridge that includes Other DCAI.",
+      "why_decisive": "The displayed early erosion case is $68.36 versus $77.68, $9.32 lower.",
+      "what_not_to_count": "A recent 40% quarter, an old-system benchmark, x86 compatibility, customer savings or a protected niche does not establish the whole segment margin. Do not credit historical cost savings twice."
+    },
+    {
+      "priority": 3,
+      "claim_to_earn": "Growth produces cash after funding manufacturing",
+      "evidence_needed": "Physical sustaining/replacement capex, yield and useful-life evidence supporting the post-2030 capital productivity rule, with external funding and minority claims reconciled.",
+      "why_decisive": "Most operating present value is after 2030; long-lived high returns on capital drive what the next owner would pay.",
+      "what_not_to_count": "A large modeled capex line is not independent validation if it is defined from the desired sales/capital ratio. A prepayment is not free permanent capital."
+    },
+    {
+      "priority": 4,
+      "claim_to_earn": "An incremental program creates incremental owner value",
+      "evidence_needed": "Define the customer/product scope, commercialization probability, timing, required development/fab investment, partner claims and contribution already inside CPU or Other DCAI forecasts.",
+      "why_decisive": "A specific overlooked program could create a new source of value; announcing an opportunity does not show it is both incremental and profitable.",
+      "what_not_to_count": "Do not add an AWS/custom-chip opportunity on top of a broad Other DCAI growth assumption that already captures it."
+    },
+    {
+      "priority": 5,
+      "claim_to_earn": "The proposed entry compensates for residual uncertainty",
+      "evidence_needed": "A dated comparison explaining why the market undervalues the supported cash stream, or a genuinely lower quoted entry. If the base remains roughly fair, explain the chosen return hurdle candidly.",
+      "why_decisive": "$51.29 December-2026 planning value versus $52.22 November-5 price shows little headroom in the existing base.",
+      "what_not_to_count": "Passage of four years, a lower preferred entry not currently available, or arbitrarily reducing WACC does not establish today’s mispricing."
+    }
+  ],
+  "risk_math_limits": "Listed stresses are dependent conditional states, not independent additive value losses, a probability distribution or worst-case bounds. Better evidence may narrow uncertainty without changing the base target; that is useful, but it must not be described as a measured increase in win probability.",
+  "same_industry_benchmark_verdict": "Carleton’s MU report separates current value from a future per-share roll and still declines a BUY because cyclicality and competitive durability matter. AMAT’s pitch ties sales to a multi-year WFE downturn/recovery, but its downside keeps optimistic margins. Golden Flyer’s MU forecast shows capex, yet rapidly improving net reinvestment lacks a physical bridge. Intel should copy the explicit causal and funded structure while testing the assumptions these examples leave weak.",
+  "strongest_remaining_gate": "Can the selected Intel price support a superior investment decision after reasonable joint outcomes, rather than only a well-explained recovery? The present research does not close this gate, and it should not be closed by rhetoric."
+}

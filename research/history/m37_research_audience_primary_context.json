@@ -1,0 +1,27 @@
+{
+  "prepared_utc": "2026-11-04T08:54:12.049446+00:00",
+  "question": "What can primary public evidence establish about the research audience, without inventing judge preferences?",
+  "primary_sources": [
+    {
+      "url": "https://sif.caltech.edu/assets/docs/M37_Investment_Associate_2025.pdf",
+      "title": "M37 2025 Investment Associate recruiting document",
+      "provenance": "M37-branded recruiting document publicly hosted by Caltech;page1 visually inspected. A recruiting description, not2026 competition judging rubric or independently audited firm statistics.",
+      "local_source": "/tmp/m37_investment_associate_2025.pdf",
+      "sha256": "3a8626f13c7d13363b769c7e42a98cba00b2b0035afd6a1c50eaa60e798889b3",
+      "supported_summary": "The document describes an AI-focused long/short equity firm using fundamental company research, technical papers, product specifications, performance reviews and industry conversations. Associate responsibilities include supply/demand models, financial valuation and forensic filings analysis. It seeks STEM backgrounds and technology-sector experience is preferred rather than required.",
+      "not_claimed": "Do not present its self-described advisory network or staff activity counts as verified current2026 facts. Do not infer that judges require a specific trade direction or reward agreement with their portfolio."
+    },
+    {
+      "url": "https://www.m37.com/spc2026",
+      "supported_summary": "The official competition requires individual long/short recommendations in SpaceX or Intel over3\u20135years. Its published standard emphasizes investment judgment, supporting evidence, assumptions, counterarguments and what changes the view. Round1PDFmaximum10pages is dueNov9."
+    }
+  ],
+  "research_implications": [
+    "A generic AI demand growth thesis is unlikely to demonstrate much differentiation to this audience; this is an inference from the recruiting description, not a disclosed judging preference.",
+    "The strongest technical work should produce a business conclusion: accepted billable capacity, collectible fees, required capital or sustainable margin. Technical detail without that bridge weakens the initial screen.",
+    "A candidate can demonstrate judgment by identifying which observations are inconclusive and by changing an input when evidence changes. That supports the published criteria without requiring a professional-sized interview network.",
+    "A friend\u2019s internship is neither a winning credential nor investment evidence by itself. No interview, proprietary insight or user expertise has been fabricated."
+  ],
+  "current_project_gap": "The research is detailed and the arithmetic audited, but no evidence supports90% odds of winning. Field quality and scoring are unknown; the current working long remains sensitive to jointly plausible procurement and return assumptions.",
+  "actions_taken": "Read public document and competition rules only. No recruiting application, email, outreach or submission."
+}

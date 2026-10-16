@@ -1,0 +1,1464 @@
+{
+  "computed_utc": "2026-11-06T07:44:52.961786+00:00",
+  "inputs": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_results.json",
+      "sha256": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/anchor_valuation_overlay_results.json",
+      "sha256": "721aa9b7a7445065317b17590eba55659558563664040651672c0fdf933b03f7"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    }
+  ],
+  "policy_files": [
+    "risk_policy_before_calculation.json",
+    "risk_policy_extension_before_calculation.json"
+  ],
+  "baseline_reconciliation": {
+    "comparisons": 40,
+    "maximum_error_B_or_USD": 1.4210854715202004e-13
+  },
+  "dates": {
+    "entry": "2026-11-05",
+    "planning": "2026-12-31",
+    "exit": "2030-12-31",
+    "entry_USD": 52.25,
+    "holding_years_ACT36525": 4.153319644079398,
+    "planning_gap_days": 56
+  },
+  "rate_controls": [
+    {
+      "case": "preferred",
+      "rate_policy": "selected",
+      "rate": 0.11555,
+      "values": {
+        "2026": {
+          "price_USD": 35.40465307548003,
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 82.57185093258154,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.4415036881445108
+        },
+        "2030": {
+          "price_USD": 53.42933483948492,
+          "explicit_operating_PV_B": 142.0652769312942,
+          "terminal_operating_PV_B": 127.87574650750206,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4737173508438421
+        }
+      },
+      "planning_value_USD": 35.40465307548003,
+      "target2030_USD": 53.42933483948492,
+      "annual_price_return": 0.0053884915192619065,
+      "entry_ceiling_for10pct_price_return_USD": 35.963563274253886,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    {
+      "case": "preferred",
+      "rate_policy": "plain_T12_NYU",
+      "rate": 0.10631495183175221,
+      "values": {
+        "2026": {
+          "price_USD": 40.73206464478969,
+          "explicit_operating_PV_B": 112.13249309981758,
+          "terminal_operating_PV_B": 103.9886691404425,
+          "financing_shield_PV_B": 2.837249767376814,
+          "remaining_escrow_PV_B": 2.271640892829459,
+          "remaining_acquisition_PV_B": 2.0033767076752165,
+          "terminal_share_of_operating_value": 0.48115912418071843
+        },
+        "2030": {
+          "price_USD": 59.62747947377492,
+          "explicit_operating_PV_B": 148.05968464136365,
+          "terminal_operating_PV_B": 155.77621516649452,
+          "financing_shield_PV_B": 3.0053143524556525,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5126985167486968
+        }
+      },
+      "planning_value_USD": 40.73206464478969,
+      "target2030_USD": 59.62747947377492,
+      "annual_price_return": 0.03231129021266277,
+      "entry_ceiling_for10pct_price_return_USD": 40.13556667665324,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    {
+      "case": "preferred",
+      "rate_policy": "normalized_NYU_rounded",
+      "rate": 0.10025,
+      "values": {
+        "2026": {
+          "price_USD": 45.02078555042061,
+          "explicit_operating_PV_B": 117.55356673915833,
+          "terminal_operating_PV_B": 122.00369712725504,
+          "financing_shield_PV_B": 3.0261288071261814,
+          "remaining_escrow_PV_B": 2.290140726831775,
+          "remaining_acquisition_PV_B": 2.0160050175537454,
+          "terminal_share_of_operating_value": 0.5092882393050254
+        },
+        "2030": {
+          "price_USD": 64.59230646760335,
+          "explicit_operating_PV_B": 152.2092283597581,
+          "terminal_operating_PV_B": 178.78805525245625,
+          "financing_shield_PV_B": 3.2001272840941057,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5401496148286175
+        }
+      },
+      "planning_value_USD": 45.02078555042061,
+      "target2030_USD": 64.59230646760335,
+      "annual_price_return": 0.052382719502912956,
+      "entry_ceiling_for10pct_price_return_USD": 43.4774175582839,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    {
+      "case": "preferred",
+      "rate_policy": "lower_rate_challenge",
+      "rate": 0.1,
+      "values": {
+        "2026": {
+          "price_USD": 45.214012456673665,
+          "explicit_operating_PV_B": 117.78382513168857,
+          "terminal_operating_PV_B": 122.82958064382663,
+          "financing_shield_PV_B": 3.0344226954674176,
+          "remaining_escrow_PV_B": 2.290909090909091,
+          "remaining_acquisition_PV_B": 2.016528925619834,
+          "terminal_share_of_operating_value": 0.5104851919947585
+        },
+        "2030": {
+          "price_USD": 64.81555653354252,
+          "explicit_operating_PV_B": 152.38405897057274,
+          "terminal_operating_PV_B": 179.83478902062663,
+          "financing_shield_PV_B": 3.208670768433848,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5413142273775825
+        }
+      },
+      "planning_value_USD": 45.214012456673665,
+      "target2030_USD": 64.81555653354252,
+      "annual_price_return": 0.05325734093375378,
+      "entry_ceiling_for10pct_price_return_USD": 43.62768833924169,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    {
+      "case": "preferred",
+      "rate_policy": "higher_rate_challenge",
+      "rate": 0.13,
+      "values": {
+        "2026": {
+          "price_USD": 29.111178974336614,
+          "explicit_operating_PV_B": 93.68256831809776,
+          "terminal_operating_PV_B": 58.99298783622644,
+          "financing_shield_PV_B": 2.273662047681113,
+          "remaining_escrow_PV_B": 2.2018952149737654,
+          "remaining_acquisition_PV_B": 1.9555172683843687,
+          "terminal_share_of_operating_value": 0.3863944518832892
+        },
+        "2030": {
+          "price_USD": 46.04738139095164,
+          "explicit_operating_PV_B": 133.40773607013676,
+          "terminal_operating_PV_B": 96.18650984201818,
+          "financing_shield_PV_B": 2.4206278118026154,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4189412912326213
+        }
+      },
+      "planning_value_USD": 29.111178974336614,
+      "target2030_USD": 46.04738139095164,
+      "annual_price_return": -0.02996780939882604,
+      "entry_ceiling_for10pct_price_return_USD": 30.99473199960868,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    {
+      "case": "preferred",
+      "rate_policy": "maturing_150bp",
+      "rate2027_2030": 0.11555,
+      "rate2040_on": 0.10055,
+      "values": {
+        "2026": {
+          "price_USD": 40.45658223296491,
+          "explicit_operating_PV_B": 106.82513487574097,
+          "terminal_operating_PV_B": 107.85127830749452,
+          "financing_shield_PV_B": 2.772818151398819,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.5023899771207694
+        },
+        "2030": {
+          "price_USD": 61.25305690723726,
+          "explicit_operating_PV_B": 145.73999725333536,
+          "terminal_operating_PV_B": 167.0249918052556,
+          "financing_shield_PV_B": 3.0331567601002503,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5340271374618801
+        }
+      },
+      "planning_value_USD": 40.45658223296491,
+      "target2030_USD": 61.25305690723726,
+      "annual_price_return": 0.03901831332997707,
+      "entry_ceiling_for10pct_price_return_USD": 41.22975130502556,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    {
+      "case": "slower_delivery",
+      "rate_policy": "selected",
+      "rate": 0.11555,
+      "values": {
+        "2026": {
+          "price_USD": 25.215320197898983,
+          "explicit_operating_PV_B": 65.99621106885286,
+          "terminal_operating_PV_B": 64.88471236457303,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.4957537787970865
+        },
+        "2030": {
+          "price_USD": 38.12669168049232,
+          "explicit_operating_PV_B": 104.61035360572842,
+          "terminal_operating_PV_B": 100.48437738568833,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4899412915190572
+        }
+      },
+      "planning_value_USD": 25.215320197898983,
+      "target2030_USD": 38.12669168049232,
+      "annual_price_return": -0.07306618377337515,
+      "entry_ceiling_for10pct_price_return_USD": 25.663274544006534,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 34.06535997598488,
+        "net_operating_investment_B": 5.224439462629877,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 25.65718261068878,
+        "reinvestment_fraction_of_NOPAT": 0.15336516233243855,
+        "implied_incremental_ROC": 0.1956115687796892
+      }
+    },
+    {
+      "case": "slower_delivery",
+      "rate_policy": "plain_T12_NYU",
+      "rate": 0.10631495183175221,
+      "values": {
+        "2026": {
+          "price_USD": 29.32168516959795,
+          "explicit_operating_PV_B": 71.53598756935888,
+          "terminal_operating_PV_B": 81.71398376259476,
+          "financing_shield_PV_B": 2.837249767376814,
+          "remaining_escrow_PV_B": 2.271640892829459,
+          "remaining_acquisition_PV_B": 2.0033767076752165,
+          "terminal_share_of_operating_value": 0.5332071716058903
+        },
+        "2030": {
+          "price_USD": 42.9715559233435,
+          "explicit_operating_PV_B": 109.12455057644267,
+          "terminal_operating_PV_B": 122.408481827208,
+          "financing_shield_PV_B": 3.0053143524556525,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5286869029288365
+        }
+      },
+      "planning_value_USD": 29.32168516959795,
+      "target2030_USD": 42.9715559233435,
+      "annual_price_return": -0.04598047233865166,
+      "entry_ceiling_for10pct_price_return_USD": 28.92437787378604,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 34.06535997598488,
+        "net_operating_investment_B": 5.224439462629877,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 25.65718261068878,
+        "reinvestment_fraction_of_NOPAT": 0.15336516233243855,
+        "implied_incremental_ROC": 0.1956115687796892
+      }
+    },
+    {
+      "case": "slower_delivery",
+      "rate_policy": "normalized_NYU_rounded",
+      "rate": 0.10025,
+      "values": {
+        "2026": {
+          "price_USD": 32.637486353562274,
+          "explicit_operating_PV_B": 75.4551466656703,
+          "terminal_operating_PV_B": 95.87013862605363,
+          "financing_shield_PV_B": 3.0261288071261814,
+          "remaining_escrow_PV_B": 2.290140726831775,
+          "remaining_acquisition_PV_B": 2.0160050175537454,
+          "terminal_share_of_operating_value": 0.5595796234210897
+        },
+        "2030": {
+          "price_USD": 46.856174421468985,
+          "explicit_operating_PV_B": 112.25135077210048,
+          "terminal_operating_PV_B": 140.4911166245832,
+          "financing_shield_PV_B": 3.2001272840941057,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5558666814947246
+        }
+      },
+      "planning_value_USD": 32.637486353562274,
+      "target2030_USD": 46.856174421468985,
+      "annual_price_return": -0.025892622957684575,
+      "entry_ceiling_for10pct_price_return_USD": 31.539134796614686,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 34.06535997598488,
+        "net_operating_investment_B": 5.224439462629877,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 25.65718261068878,
+        "reinvestment_fraction_of_NOPAT": 0.15336516233243855,
+        "implied_incremental_ROC": 0.1956115687796892
+      }
+    },
+    {
+      "case": "slower_delivery",
+      "rate_policy": "lower_rate_challenge",
+      "rate": 0.1,
+      "values": {
+        "2026": {
+          "price_USD": 32.78705687941526,
+          "explicit_operating_PV_B": 75.62176513292408,
+          "terminal_operating_PV_B": 96.5191154118973,
+          "financing_shield_PV_B": 3.0344226954674176,
+          "remaining_escrow_PV_B": 2.290909090909091,
+          "remaining_acquisition_PV_B": 2.016528925619834,
+          "terminal_share_of_operating_value": 0.5606983948636537
+        },
+        "2030": {
+          "price_USD": 47.03091793119123,
+          "explicit_operating_PV_B": 112.38312377635467,
+          "terminal_operating_PV_B": 141.31363687455888,
+          "financing_shield_PV_B": 3.208670768433848,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5570179000787727
+        }
+      },
+      "planning_value_USD": 32.78705687941526,
+      "target2030_USD": 47.03091793119123,
+      "annual_price_return": -0.025019185583222026,
+      "entry_ceiling_for10pct_price_return_USD": 31.656755562202374,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 34.06535997598488,
+        "net_operating_investment_B": 5.224439462629877,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 25.65718261068878,
+        "reinvestment_fraction_of_NOPAT": 0.15336516233243855,
+        "implied_incremental_ROC": 0.1956115687796892
+      }
+    },
+    {
+      "case": "slower_delivery",
+      "rate_policy": "higher_rate_challenge",
+      "rate": 0.13,
+      "values": {
+        "2026": {
+          "price_USD": 20.38828524226006,
+          "explicit_operating_PV_B": 58.25589910125472,
+          "terminal_operating_PV_B": 46.35651258932772,
+          "financing_shield_PV_B": 2.273662047681113,
+          "remaining_escrow_PV_B": 2.2018952149737654,
+          "remaining_acquisition_PV_B": 1.9555172683843687,
+          "terminal_share_of_operating_value": 0.4431263158948939
+        },
+        "2030": {
+          "price_USD": 32.36577514053157,
+          "explicit_operating_PV_B": 98.09679640247838,
+          "terminal_operating_PV_B": 75.5830704285316,
+          "financing_shield_PV_B": 2.4206278118026154,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4351861376199333
+        }
+      },
+      "planning_value_USD": 20.38828524226006,
+      "target2030_USD": 32.36577514053157,
+      "annual_price_return": -0.10891422628070357,
+      "entry_ceiling_for10pct_price_return_USD": 21.78557164680588,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 34.06535997598488,
+        "net_operating_investment_B": 5.224439462629877,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 25.65718261068878,
+        "reinvestment_fraction_of_NOPAT": 0.15336516233243855,
+        "implied_incremental_ROC": 0.1956115687796892
+      }
+    },
+    {
+      "case": "slower_delivery",
+      "rate_policy": "maturing_150bp",
+      "rate2027_2030": 0.11555,
+      "rate2040_on": 0.10055,
+      "values": {
+        "2026": {
+          "price_USD": 29.18198544912931,
+          "explicit_operating_PV_B": 67.80417446396666,
+          "terminal_operating_PV_B": 84.74921044033465,
+          "financing_shield_PV_B": 2.772818151398819,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.55553805307892
+        },
+        "2030": {
+          "price_USD": 44.269708633819405,
+          "explicit_operating_PV_B": 107.41027471924662,
+          "terminal_operating_PV_B": 131.2477367114817,
+          "financing_shield_PV_B": 3.0331567601002503,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5499406281174727
+        }
+      },
+      "planning_value_USD": 29.18198544912931,
+      "target2030_USD": 44.269708633819405,
+      "annual_price_return": -0.039119514093227115,
+      "entry_ceiling_for10pct_price_return_USD": 29.798171217519428,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 34.06535997598488,
+        "net_operating_investment_B": 5.224439462629877,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 25.65718261068878,
+        "reinvestment_fraction_of_NOPAT": 0.15336516233243855,
+        "implied_incremental_ROC": 0.1956115687796892
+      }
+    },
+    {
+      "case": "existing_favorable",
+      "rate_policy": "selected",
+      "rate": 0.11555,
+      "values": {
+        "2026": {
+          "price_USD": 48.557681488026326,
+          "explicit_operating_PV_B": 140.5634889862962,
+          "terminal_operating_PV_B": 118.78101715573138,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.4580047556152282
+        },
+        "2030": {
+          "price_USD": 73.56082736404232,
+          "explicit_operating_PV_B": 185.67483510072728,
+          "terminal_operating_PV_B": 183.95144432587904,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.49766873884410806
+        }
+      },
+      "planning_value_USD": 48.557681488026326,
+      "target2030_USD": 73.56082736404232,
+      "annual_price_return": 0.0858480430836479,
+      "entry_ceiling_for10pct_price_return_USD": 49.51417563705358,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 57.64598808952128,
+        "net_operating_investment_B": 7.493000624273433,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.96924956258162,
+        "reinvestment_fraction_of_NOPAT": 0.1299830373735148,
+        "implied_incremental_ROC": 0.2307993458699771
+      }
+    },
+    {
+      "case": "existing_favorable",
+      "rate_policy": "plain_T12_NYU",
+      "rate": 0.10631495183175221,
+      "values": {
+        "2026": {
+          "price_USD": 56.079607608239336,
+          "explicit_operating_PV_B": 150.94382021329008,
+          "terminal_operating_PV_B": 149.58947575557758,
+          "financing_shield_PV_B": 2.837249767376814,
+          "remaining_escrow_PV_B": 2.271640892829459,
+          "remaining_acquisition_PV_B": 2.0033767076752165,
+          "terminal_share_of_operating_value": 0.4977467647081394
+        },
+        "2030": {
+          "price_USD": 82.40028426507762,
+          "explicit_operating_PV_B": 193.98804160295583,
+          "terminal_operating_PV_B": 224.08674478247883,
+          "financing_shield_PV_B": 3.0053143524556525,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5359967931093723
+        }
+      },
+      "planning_value_USD": 56.079607608239336,
+      "target2030_USD": 82.40028426507762,
+      "annual_price_return": 0.11592438390293336,
+      "entry_ceiling_for10pct_price_return_USD": 55.46406006899475,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 57.64598808952128,
+        "net_operating_investment_B": 7.493000624273433,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.96924956258162,
+        "reinvestment_fraction_of_NOPAT": 0.1299830373735148,
+        "implied_incremental_ROC": 0.2307993458699771
+      }
+    },
+    {
+      "case": "existing_favorable",
+      "rate_policy": "normalized_NYU_rounded",
+      "rate": 0.10025,
+      "values": {
+        "2026": {
+          "price_USD": 62.15004322998548,
+          "explicit_operating_PV_B": 158.282244630543,
+          "terminal_operating_PV_B": 175.5044010502728,
+          "financing_shield_PV_B": 3.0261288071261814,
+          "remaining_escrow_PV_B": 2.290140726831775,
+          "remaining_acquisition_PV_B": 2.0160050175537454,
+          "terminal_share_of_operating_value": 0.5257981507687377
+        },
+        "2030": {
+          "price_USD": 89.4891602302473,
+          "explicit_operating_PV_B": 199.75001043919022,
+          "terminal_operating_PV_B": 257.1896695826909,
+          "financing_shield_PV_B": 3.2001272840941057,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5628525620063791
+        }
+      },
+      "planning_value_USD": 62.15004322998548,
+      "target2030_USD": 89.4891602302473,
+      "annual_price_return": 0.13832015133458864,
+      "entry_ceiling_for10pct_price_return_USD": 60.235619364700455,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 57.64598808952128,
+        "net_operating_investment_B": 7.493000624273433,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.96924956258162,
+        "reinvestment_fraction_of_NOPAT": 0.1299830373735148,
+        "implied_incremental_ROC": 0.2307993458699771
+      }
+    },
+    {
+      "case": "existing_favorable",
+      "rate_policy": "lower_rate_challenge",
+      "rate": 0.1,
+      "values": {
+        "2026": {
+          "price_USD": 62.42381533819062,
+          "explicit_operating_PV_B": 158.5941430651036,
+          "terminal_operating_PV_B": 176.69244858757003,
+          "financing_shield_PV_B": 3.0344226954674176,
+          "remaining_escrow_PV_B": 2.290909090909091,
+          "remaining_acquisition_PV_B": 2.016528925619834,
+          "terminal_share_of_operating_value": 0.5269893070182995
+        },
+        "2030": {
+          "price_USD": 89.80806757244407,
+          "explicit_operating_PV_B": 199.99290201598424,
+          "terminal_operating_PV_B": 258.6954139770614,
+          "financing_shield_PV_B": 3.208670768433848,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5639895435683685
+        }
+      },
+      "planning_value_USD": 62.42381533819062,
+      "target2030_USD": 89.80806757244407,
+      "annual_price_return": 0.13929553721434562,
+      "entry_ceiling_for10pct_price_return_USD": 60.45027755601379,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 57.64598808952128,
+        "net_operating_investment_B": 7.493000624273433,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.96924956258162,
+        "reinvestment_fraction_of_NOPAT": 0.1299830373735148,
+        "implied_incremental_ROC": 0.2307993458699771
+      }
+    },
+    {
+      "case": "existing_favorable",
+      "rate_policy": "higher_rate_challenge",
+      "rate": 0.13,
+      "values": {
+        "2026": {
+          "price_USD": 39.70679227746029,
+          "explicit_operating_PV_B": 126.04213737915236,
+          "terminal_operating_PV_B": 84.86242007538328,
+          "financing_shield_PV_B": 2.273662047681113,
+          "remaining_escrow_PV_B": 2.2018952149737654,
+          "remaining_acquisition_PV_B": 1.9555172683843687,
+          "terminal_share_of_operating_value": 0.40237357172178195
+        },
+        "2030": {
+          "price_USD": 63.053350729113134,
+          "explicit_operating_PV_B": 173.69193272927683,
+          "terminal_operating_PV_B": 138.36593641364664,
+          "financing_shield_PV_B": 2.4206278118026154,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4433983247840311
+        }
+      },
+      "planning_value_USD": 39.70679227746029,
+      "target2030_USD": 63.053350729113134,
+      "annual_price_return": 0.04629030652926058,
+      "entry_ceiling_for10pct_price_return_USD": 42.44153844349157,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 57.64598808952128,
+        "net_operating_investment_B": 7.493000624273433,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.96924956258162,
+        "reinvestment_fraction_of_NOPAT": 0.1299830373735148,
+        "implied_incremental_ROC": 0.2307993458699771
+      }
+    },
+    {
+      "case": "existing_favorable",
+      "rate_policy": "maturing_150bp",
+      "rate2027_2030": 0.11555,
+      "rate2040_on": 0.10055,
+      "values": {
+        "2026": {
+          "price_USD": 55.802614602812106,
+          "explicit_operating_PV_B": 143.9343185598698,
+          "terminal_operating_PV_B": 155.1459049812237,
+          "financing_shield_PV_B": 2.772818151398819,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.5187434432952626
+        },
+        "2030": {
+          "price_USD": 84.7807675735283,
+          "explicit_operating_PV_B": 190.89510500144965,
+          "terminal_operating_PV_B": 240.26830200590362,
+          "financing_shield_PV_B": 3.0331567601002503,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.5572557830767071
+        }
+      },
+      "planning_value_USD": 55.802614602812106,
+      "target2030_USD": 84.7807675735283,
+      "annual_price_return": 0.12360271268050171,
+      "entry_ceiling_for10pct_price_return_USD": 57.06637576961065,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 57.64598808952128,
+        "net_operating_investment_B": 7.493000624273433,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.96924956258162,
+        "reinvestment_fraction_of_NOPAT": 0.1299830373735148,
+        "implied_incremental_ROC": 0.2307993458699771
+      }
+    }
+  ],
+  "rate_hurdles": [
+    {
+      "case": "preferred",
+      "annual_price_return_hurdle": 0,
+      "required2030_price_USD": 52.25,
+      "constant_asset_rate": {
+        "root": 0.11756884209635757,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -7.105427357601002e-14
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.545778732343709
+    },
+    {
+      "case": "preferred",
+      "annual_price_return_hurdle": 0.08,
+      "required2030_price_USD": 71.92930019248817,
+      "constant_asset_rate": {
+        "root": 0.09287523595462237,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 7.105427357601002e-14
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 0.9858330148440446
+    },
+    {
+      "case": "preferred",
+      "annual_price_return_hurdle": 0.1,
+      "required2030_price_USD": 77.62530993033266,
+      "constant_asset_rate": {
+        "root": 0.08814171378073932,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -7.389644451905042e-12
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 0.8784969111278756
+    },
+    {
+      "case": "preferred",
+      "annual_price_return_hurdle": 0.12,
+      "required2030_price_USD": 83.65742161796447,
+      "constant_asset_rate": {
+        "root": 0.08385142496453506,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 1.1368683772161603e-13
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 0.7812114504429718
+    },
+    {
+      "case": "preferred",
+      "hurdle": "Dec2026_planning_value_equals_Nov5_quote",
+      "constant_asset_rate": {
+        "root": 0.09199415233483474,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 4.973799150320701e-14
+      },
+      "scope": "Date-mismatched planning comparison, not contemporaneous market-implied cost of capital."
+    },
+    {
+      "case": "slower_delivery",
+      "annual_price_return_hurdle": 0,
+      "required2030_price_USD": 52.25,
+      "constant_asset_rate": {
+        "root": 0.09328130834337389,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 7.105427357601002e-15
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 0.9950410055186824
+    },
+    {
+      "case": "slower_delivery",
+      "annual_price_return_hurdle": 0.08,
+      "required2030_price_USD": 71.92930019248817,
+      "constant_asset_rate": {
+        "root": 0.07650673922205739,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 1.6484591469634324e-12
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 0.614665288482027
+    },
+    {
+      "case": "slower_delivery",
+      "annual_price_return_hurdle": 0.1,
+      "required2030_price_USD": 77.62530993033266,
+      "constant_asset_rate": {
+        "root": 0.07319918242016007,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -5.684341886080802e-14
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 0.5396640004571446
+    },
+    {
+      "case": "slower_delivery",
+      "annual_price_return_hurdle": 0.12,
+      "required2030_price_USD": 83.65742161796447,
+      "constant_asset_rate": {
+        "root": 0.07017508483930657,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -4.831690603168681e-13
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 0.4710903591679494
+    },
+    {
+      "case": "slower_delivery",
+      "hurdle": "Dec2026_planning_value_equals_Nov5_quote",
+      "constant_asset_rate": {
+        "root": 0.07805483637824549,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 9.237055564881302e-14
+      },
+      "scope": "Date-mismatched planning comparison, not contemporaneous market-implied cost of capital."
+    },
+    {
+      "case": "retained_margin_components",
+      "annual_price_return_hurdle": 0,
+      "required2030_price_USD": 52.25,
+      "constant_asset_rate": {
+        "root": 0.12612141187384993,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 2.842170943040401e-14
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.7397145549625834
+    },
+    {
+      "case": "retained_margin_components",
+      "annual_price_return_hurdle": 0.08,
+      "required2030_price_USD": 71.92930019248817,
+      "constant_asset_rate": {
+        "root": 0.09992543586953428,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 1.4210854715202004e-14
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.1457014936402332
+    },
+    {
+      "case": "retained_margin_components",
+      "annual_price_return_hurdle": 0.1,
+      "required2030_price_USD": 77.62530993033266,
+      "constant_asset_rate": {
+        "root": 0.09483571032493426,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 2.842170943040401e-14
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.0302882159849038
+    },
+    {
+      "case": "retained_margin_components",
+      "annual_price_return_hurdle": 0.12,
+      "required2030_price_USD": 83.65742161796447,
+      "constant_asset_rate": {
+        "root": 0.09020189581515876,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 8.526512829121202e-14
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 0.9252130570330785
+    },
+    {
+      "case": "retained_margin_components",
+      "hurdle": "Dec2026_planning_value_equals_Nov5_quote",
+      "constant_asset_rate": {
+        "root": 0.0975783109753559,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -3.552713678800501e-14
+      },
+      "scope": "Date-mismatched planning comparison, not contemporaneous market-implied cost of capital."
+    },
+    {
+      "case": "accounting_completed",
+      "annual_price_return_hurdle": 0,
+      "required2030_price_USD": 52.25,
+      "constant_asset_rate": {
+        "root": 0.15683278161878775,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 0.0
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 2.4361174970246653
+    },
+    {
+      "case": "accounting_completed",
+      "annual_price_return_hurdle": 0.08,
+      "required2030_price_USD": 71.92930019248817,
+      "constant_asset_rate": {
+        "root": 0.12185127351709714,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -1.2704504115390591e-11
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.6428860207958536
+    },
+    {
+      "case": "accounting_completed",
+      "annual_price_return_hurdle": 0.1,
+      "required2030_price_USD": 77.62530993033266,
+      "constant_asset_rate": {
+        "root": 0.11511474227028295,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -1.2789769243681803e-13
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.4901302102104979
+    },
+    {
+      "case": "accounting_completed",
+      "annual_price_return_hurdle": 0.12,
+      "required2030_price_USD": 83.65742161796447,
+      "constant_asset_rate": {
+        "root": 0.10899563471822364,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -1.3926637620897964e-12
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.351374936921171
+    },
+    {
+      "case": "accounting_completed",
+      "hurdle": "Dec2026_planning_value_equals_Nov5_quote",
+      "constant_asset_rate": {
+        "root": 0.11384281907480312,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -8.171241461241152e-13
+      },
+      "scope": "Date-mismatched planning comparison, not contemporaneous market-implied cost of capital."
+    },
+    {
+      "case": "existing_favorable",
+      "annual_price_return_hurdle": 0,
+      "required2030_price_USD": 52.25,
+      "constant_asset_rate": {
+        "root": 0.15120387748566694,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 7.105427357601002e-15
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 2.3084779475207924
+    },
+    {
+      "case": "existing_favorable",
+      "annual_price_return_hurdle": 0.08,
+      "required2030_price_USD": 71.92930019248817,
+      "constant_asset_rate": {
+        "root": 0.11750884259602334,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": 0.0
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.5444181994563118
+    },
+    {
+      "case": "existing_favorable",
+      "annual_price_return_hurdle": 0.1,
+      "required2030_price_USD": 77.62530993033266,
+      "constant_asset_rate": {
+        "root": 0.11103668419704568,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -7.247535904753022e-13
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.3976572380282468
+    },
+    {
+      "case": "existing_favorable",
+      "annual_price_return_hurdle": 0.12,
+      "required2030_price_USD": 83.65742161796447,
+      "constant_asset_rate": {
+        "root": 0.10516314474012259,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -2.4868995751603507e-12
+      },
+      "implied_asset_beta_under_Nov1_selected_ERP": 1.2644704022703535
+    },
+    {
+      "case": "existing_favorable",
+      "hurdle": "Dec2026_planning_value_equals_Nov5_quote",
+      "constant_asset_rate": {
+        "root": 0.11074010987474069,
+        "search_bounds": [
+          0.031,
+          0.25
+        ],
+        "residual_at_root_USD": -2.1458390619955026e-12
+      },
+      "scope": "Date-mismatched planning comparison, not contemporaneous market-implied cost of capital."
+    }
+  ],
+  "funded_terminal_growth_controls": [
+    {
+      "g": 0.02,
+      "values": {
+        "2026": {
+          "price_USD": 34.52520672867345,
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 77.7261015616773,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.4266482871842515
+        },
+        "2030": {
+          "price_USD": 52.06737120610326,
+          "explicit_operating_PV_B": 142.0652769312942,
+          "terminal_operating_PV_B": 120.37132688756915,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4586682083824358
+        }
+      },
+      "planning_value_USD": 34.52520672867345,
+      "target2030_USD": 52.06737120610326,
+      "annual_price_return": -0.0008426838079705901,
+      "entry_ceiling_for10pct_price_return_USD": 35.04681846630324,
+      "terminal": {
+        "growth": 0.02,
+        "NOPAT_B": 41.58708975351439,
+        "net_operating_investment_B": 4.10660630069623,
+        "lease_and_minority_cash_B": 3.152827825941311,
+        "parent_unlevered_cash_B": 34.327655626876854,
+        "reinvestment_fraction_of_NOPAT": 0.09874714304453569,
+        "implied_incremental_ROC": 0.20253750522159264
+      }
+    },
+    {
+      "g": 0.03,
+      "values": {
+        "2026": {
+          "price_USD": 35.40465307548003,
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 82.57185093258154,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.4415036881445108
+        },
+        "2030": {
+          "price_USD": 53.42933483948492,
+          "explicit_operating_PV_B": 142.0652769312942,
+          "terminal_operating_PV_B": 127.87574650750206,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4737173508438421
+        }
+      },
+      "planning_value_USD": 35.40465307548003,
+      "target2030_USD": 53.42933483948492,
+      "annual_price_return": 0.0053884915192619065,
+      "entry_ceiling_for10pct_price_return_USD": 35.963563274253886,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    {
+      "g": 0.04,
+      "values": {
+        "2026": {
+          "price_USD": 36.51691116201038,
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 88.70039298936378,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.459224218684587
+        },
+        "2030": {
+          "price_USD": 55.15184476893052,
+          "explicit_operating_PV_B": 142.0652769312942,
+          "terminal_operating_PV_B": 137.36677621874736,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4915927670795448
+        }
+      },
+      "planning_value_USD": 36.51691116201038,
+      "target2030_USD": 55.15184476893052,
+      "annual_price_return": 0.013098807325367057,
+      "entry_ceiling_for10pct_price_return_USD": 37.12299367001407,
+      "terminal": {
+        "growth": 0.04,
+        "NOPAT_B": 42.40252288593624,
+        "net_operating_investment_B": 8.21321260139246,
+        "lease_and_minority_cash_B": 3.214647979391141,
+        "parent_unlevered_cash_B": 30.974662305152638,
+        "reinvestment_fraction_of_NOPAT": 0.19369631904889692,
+        "implied_incremental_ROC": 0.20650882885338856
+      }
+    }
+  ],
+  "terminal_growth_hurdles": [
+    {
+      "endpoint": 2026,
+      "required_price_USD": 52.25,
+      "terminal_growth_solution": {
+        "root": 0.08707752527689161,
+        "search_bounds": [
+          1e-05,
+          0.11545
+        ],
+        "residual_at_root_USD": 7.105427357601002e-15
+      },
+      "economics_at_solution": {
+        "growth": 0.08707752527689161,
+        "NOPAT_B": 44.32195158109648,
+        "net_operating_investment_B": 17.879655697555915,
+        "lease_and_minority_cash_B": 3.3601649712239245,
+        "parent_unlevered_cash_B": 23.08213091231664,
+        "reinvestment_fraction_of_NOPAT": 0.40340407088891983,
+        "implied_incremental_ROC": 0.2158568332863181
+      }
+    },
+    {
+      "endpoint": 2030,
+      "required_price_USD": 77.62530993033266,
+      "terminal_growth_solution": {
+        "root": 0.08562997559495568,
+        "search_bounds": [
+          1e-05,
+          0.11545
+        ],
+        "residual_at_root_USD": -7.105427357601002e-14
+      },
+      "economics_at_solution": {
+        "growth": 0.08562997559495568,
+        "NOPAT_B": 44.26293258252261,
+        "net_operating_investment_B": 17.58242986533547,
+        "lease_and_minority_cash_B": 3.355690584050748,
+        "parent_unlevered_cash_B": 23.32481213313639,
+        "reinvestment_fraction_of_NOPAT": 0.39722695355883314,
+        "implied_incremental_ROC": 0.2155693988733145
+      }
+    }
+  ],
+  "capital_efficiency_controls": [
+    {
+      "host_incremental_sales_to_capital": 0.6,
+      "values": {
+        "2026": {
+          "price_USD": 32.960415450770476,
+          "explicit_operating_PV_B": 95.96293604295491,
+          "terminal_operating_PV_B": 77.59346223379292,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.447079237666967
+        },
+        "2030": {
+          "price_USD": 49.644041093839604,
+          "explicit_operating_PV_B": 128.9181412725419,
+          "terminal_operating_PV_B": 120.16591362774872,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4824311763988732
+        }
+      },
+      "planning_value_USD": 32.960415450770476,
+      "target2030_USD": 49.644041093839604,
+      "annual_price_return": -0.012242666219087095,
+      "entry_ceiling_for10pct_price_return_USD": 33.415662359108126,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 8.128499944812955,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 30.682568472246142,
+        "reinvestment_fraction_of_NOPAT": 0.1935596483747784,
+        "implied_incremental_ROC": 0.15499098211788817
+      }
+    },
+    {
+      "host_incremental_sales_to_capital": 0.8,
+      "values": {
+        "2026": {
+          "price_USD": 35.40465307548003,
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 82.57185093258154,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.4415036881445108
+        },
+        "2030": {
+          "price_USD": 53.42933483948492,
+          "explicit_operating_PV_B": 142.0652769312942,
+          "terminal_operating_PV_B": 127.87574650750206,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.4737173508438421
+        }
+      },
+      "planning_value_USD": 35.40465307548003,
+      "target2030_USD": 53.42933483948492,
+      "annual_price_return": 0.0053884915192619065,
+      "entry_ceiling_for10pct_price_return_USD": 35.963563274253886,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 6.159909451044345,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 32.651158966014755,
+        "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+        "implied_incremental_ROC": 0.2045231670374906
+      }
+    },
+    {
+      "host_incremental_sales_to_capital": 1.0,
+      "values": {
+        "2026": {
+          "price_USD": 36.87119565030576,
+          "explicit_operating_PV_B": 109.54591302433249,
+          "terminal_operating_PV_B": 85.55888415185471,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.243980839105257,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "terminal_share_of_operating_value": 0.43852783422127606
+        },
+        "2030": {
+          "price_USD": 55.7005110868721,
+          "explicit_operating_PV_B": 149.9535583265456,
+          "terminal_operating_PV_B": 132.50164623535403,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "terminal_share_of_operating_value": 0.46910676133891704
+        }
+      },
+      "planning_value_USD": 36.87119565030576,
+      "target2030_USD": 55.7005110868721,
+      "annual_price_return": 0.015516332581650527,
+      "entry_ceiling_for10pct_price_return_USD": 37.49230382334133,
+      "terminal": {
+        "growth": 0.03,
+        "NOPAT_B": 41.99480631972532,
+        "net_operating_investment_B": 4.978755154783179,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 33.83231326227592,
+        "reinvestment_fraction_of_NOPAT": 0.11855644997806823,
+        "implied_incremental_ROC": 0.2530440141008752
+      }
+    }
+  ],
+  "capital_efficiency_hurdles": [
+    {
+      "endpoint": 2026,
+      "required_price_USD": 52.25,
+      "host_turnover_solution": {
+        "root": null,
+        "search_bounds": [
+          0.1,
+          1000000.0
+        ],
+        "residual_at_bounds": [
+          -68.17433704342051,
+          -9.512639916561625
+        ]
+      },
+      "zero_host_growth_investment_limit_price_USD": 42.73736594960867,
+      "limit_scope": "Infeasible optimistic ceiling for this single axis, holding all revenue, profit, packaging investment and pre2031 cash fixed; not a possible operating case."
+    },
+    {
+      "endpoint": 2030,
+      "required_price_USD": 77.62530993033266,
+      "host_turnover_solution": {
+        "root": null,
+        "search_bounds": [
+          0.1,
+          1000000.0
+        ],
+        "residual_at_bounds": [
+          -103.68714374939913,
+          -12.840102938616823
+        ]
+      },
+      "zero_host_growth_investment_limit_price_USD": 64.78521607642082,
+      "limit_scope": "Infeasible optimistic ceiling for this single axis, holding all revenue, profit, packaging investment and pre2031 cash fixed; not a possible operating case."
+    }
+  ],
+  "no_excess_incremental_terminal_ROC_control": {
+    "values": {
+      "2026": {
+        "price_USD": 33.22771914848049,
+        "explicit_operating_PV_B": 104.4522966563159,
+        "terminal_operating_PV_B": 70.5769449948141,
+        "financing_shield_PV_B": 2.58895408799514,
+        "remaining_escrow_PV_B": 2.243980839105257,
+        "remaining_acquisition_PV_B": 1.9844440701029076,
+        "terminal_share_of_operating_value": 0.40322945085649603
+      },
+      "2030": {
+        "price_USD": 50.05800371551794,
+        "explicit_operating_PV_B": 142.0652769312942,
+        "terminal_operating_PV_B": 109.29971201444401,
+        "financing_shield_PV_B": 2.748413786579589,
+        "remaining_escrow_PV_B": 0.0,
+        "remaining_acquisition_PV_B": 0.0,
+        "terminal_share_of_operating_value": 0.43482472428981894
+      }
+    },
+    "planning_value_USD": 33.22771914848049,
+    "target2030_USD": 50.05800371551794,
+    "annual_price_return": -0.010265793572202475,
+    "entry_ceiling_for10pct_price_return_USD": 33.69430275361483,
+    "terminal": {
+      "growth": 0.03,
+      "NOPAT_B": 41.99480631972532,
+      "net_operating_investment_B": 10.90302197829303,
+      "lease_and_minority_cash_B": 3.183737902666226,
+      "parent_unlevered_cash_B": 27.908046438766064,
+      "reinvestment_fraction_of_NOPAT": 0.2596278667243617,
+      "implied_incremental_ROC": 0.11555
+    }
+  },
+  "lower_risk_financing_components_control": {
+    "values": {
+      "2026": {
+        "price_USD": 36.12794619657361,
+        "explicit_operating_PV_B": 104.4522966563159,
+        "terminal_operating_PV_B": 82.57185093258154,
+        "financing_shield_PV_B": 6.5057077697457215,
+        "remaining_escrow_PV_B": 2.4565100392797086,
+        "remaining_acquisition_PV_B": 2.128381854802343,
+        "terminal_share_of_operating_value": 0.4415036881445108
+      },
+      "2030": {
+        "price_USD": 54.15374444236267,
+        "explicit_operating_PV_B": 142.0652769312942,
+        "terminal_operating_PV_B": 127.87574650750206,
+        "financing_shield_PV_B": 6.739910698435986,
+        "remaining_escrow_PV_B": 0.0,
+        "remaining_acquisition_PV_B": 0.0,
+        "terminal_share_of_operating_value": 0.4737173508438421
+      }
+    },
+    "planning_value_USD": 36.12794619657361,
+    "target2030_USD": 54.15374444236267,
+    "annual_price_return": 0.008653765543768399,
+    "entry_ceiling_for10pct_price_return_USD": 36.451167147067174,
+    "terminal": {
+      "growth": 0.03,
+      "NOPAT_B": 41.99480631972532,
+      "net_operating_investment_B": 6.159909451044345,
+      "lease_and_minority_cash_B": 3.183737902666226,
+      "parent_unlevered_cash_B": 32.651158966014755,
+      "reinvestment_fraction_of_NOPAT": 0.14668264937683456,
+      "implied_incremental_ROC": 0.2045231670374906
+    }
+  },
+  "illustrative_equity_date_bridge": [
+    {
+      "illustrative_equity_rate": 0.08,
+      "Dec2026_value_discounted_back56days_USD": 34.989345990439126,
+      "scope": "Illustrative equity carry only, no dividend; not an exact reconstruction of intraquarter cash or forecast changes."
+    },
+    {
+      "illustrative_equity_rate": 0.1,
+      "Dec2026_value_discounted_back56days_USD": 34.8910493767929,
+      "scope": "Illustrative equity carry only, no dividend; not an exact reconstruction of intraquarter cash or forecast changes."
+    },
+    {
+      "illustrative_equity_rate": 0.12,
+      "Dec2026_value_discounted_back56days_USD": 34.794792703141226,
+      "scope": "Illustrative equity carry only, no dividend; not an exact reconstruction of intraquarter cash or forecast changes."
+    }
+  ],
+  "warnings": [
+    "No assigned probabilities. Selected preferred case is not established as the expected outcome.",
+    "A reverse rate is the mathematical rate needed for a specified payoff, not proof that rate is economically correct.",
+    "The2030rate sensitivity describes conditional future valuation; a current rate change does not guarantee a market rerating in2030.",
+    "Terminal growth is funded; growth changes do not merely alter the Gordon denominator.",
+    "Terminal incremental ROC excludes lease/minority cash and is not historical company ROIC.",
+    "No asset-rate subtraction from stock-price CAGR, short recommendation or competition-win probability."
+  ]
+}

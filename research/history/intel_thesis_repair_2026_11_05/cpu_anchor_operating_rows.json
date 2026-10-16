@@ -1,0 +1,923 @@
+{
+  "as_of_utc": "2026-11-05T19:53:58.420405+00:00",
+  "scope": "Operating-only implementation cross-check; no new equity values computed. Frozen inputs unchanged. Root owns valuation and tax/treasury integration.",
+  "policy_sha256": "ec87a06ba18c081ebd6209b7338879a801fbcaa3c53cdf8fda45a32dbd610ddf",
+  "host_policy_sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+  "q": 0.9118322401513221,
+  "implied2027_unit_growth": 0.09419868818158661,
+  "2027_CPU_revenue_growth_vs_model2026_proxy": 0.313038425817904,
+  "branches": [
+    {
+      "branch": "timing",
+      "annual_operating_rows": [
+        {
+          "year": 2027,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 28.7,
+          "server_CPU_revenue_delta_B": -2.775088000000003,
+          "Products_revenue_B": 65.5575998,
+          "DCAI_revenue_B": 37.004,
+          "unit_index": 1.0941986881815866,
+          "ASP_growth": 0.2,
+          "WC_delta_B": -0.2775088000000003,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -0.9712808000000009,
+              "group_EBIT_delta_B": -0.9712808000000009
+            },
+            "0.5": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.3875440000000014,
+              "group_EBIT_delta_B": -1.3875440000000014
+            },
+            "0.65": {
+              "contribution_fraction": 0.65,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.8038072000000018,
+              "group_EBIT_delta_B": -1.8038072000000018
+            }
+          }
+        },
+        {
+          "year": 2028,
+          "unit_level_factor": 0.9559161200756611,
+          "server_CPU_revenue_B": 40.61818440000001,
+          "server_CPU_revenue_delta_B": -1.8731844000000022,
+          "Products_revenue_B": 82.86814088580002,
+          "DCAI_revenue_B": 52.24378440000001,
+          "unit_index": 1.4338741801134915,
+          "ASP_growth": 0.08,
+          "WC_delta_B": 0.09019036000000008,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -0.6556145400000007,
+              "group_EBIT_delta_B": -0.6556145400000007
+            },
+            "0.5": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -0.9365922000000011,
+              "group_EBIT_delta_B": -0.9365922000000011
+            },
+            "0.65": {
+              "contribution_fraction": 0.65,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.2175698600000016,
+              "group_EBIT_delta_B": -1.2175698600000016
+            }
+          }
+        },
+        {
+          "year": 2029,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 52.14540779136001,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 99.52302077565182,
+          "DCAI_revenue_B": 66.67740779136001,
+          "unit_index": 1.7699999999999998,
+          "ASP_growth": 0.04,
+          "WC_delta_B": 0.18731844000000022,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.65,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2030,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 59.57091386084968,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 111.68247398141065,
+          "DCAI_revenue_B": 77.00931386084969,
+          "unit_index": 1.9824,
+          "ASP_growth": 0.02,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.65,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2031,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 65.62331870911201,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 121.8098194287657,
+          "DCAI_revenue_B": 85.677478709112,
+          "unit_index": 2.140992,
+          "ASP_growth": 0.02,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.485,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.62,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2032,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 71.62129003912486,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 131.58363360680502,
+          "DCAI_revenue_B": 94.08194923912487,
+          "unit_index": 2.2908614400000005,
+          "ASP_growth": 0.02,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.47,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.59,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2033,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 77.43693879030182,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 141.00067191451302,
+          "DCAI_revenue_B": 102.14366391030183,
+          "unit_index": 2.4283131264000004,
+          "ASP_growth": 0.02,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.455,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.56,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2034,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 82.93496144441325,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 149.87965970625908,
+          "DCAI_revenue_B": 109.61822457401325,
+          "unit_index": 2.5497287827200004,
+          "ASP_growth": 0.02,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.44,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.53,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2035,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 87.97740710023358,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 158.20898675608743,
+          "DCAI_revenue_B": 116.52849864890558,
+          "unit_index": 2.6517179340288006,
+          "ASP_growth": 0.02,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.425,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2036,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 92.4111199927107,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 165.60617978470032,
+          "DCAI_revenue_B": 122.67527703430302,
+          "unit_index": 2.7312694720496644,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.41,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.47,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2037,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 96.59706923990525,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 172.5932639664864,
+          "DCAI_revenue_B": 128.3744341335772,
+          "unit_index": 2.799551208850906,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.395,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.44,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2038,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 100.48008014202422,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 179.07393435933955,
+          "DCAI_revenue_B": 133.52853963144304,
+          "unit_index": 2.8555422330279243,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.38,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.41,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2039,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 104.00683146978139,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 185.12374361106328,
+          "DCAI_revenue_B": 138.21198704132985,
+          "unit_index": 2.898375366523343,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.365,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.37999999999999995,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2040,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 107.12703641387483,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 190.6774559193952,
+          "DCAI_revenue_B": 142.35834665256976,
+          "unit_index": 2.927359120188576,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        },
+        {
+          "year": 2041,
+          "unit_level_factor": 1.0,
+          "server_CPU_revenue_B": 110.34084750629108,
+          "server_CPU_revenue_delta_B": 0.0,
+          "Products_revenue_B": 196.397779596977,
+          "DCAI_revenue_B": 146.62909705214685,
+          "unit_index": 2.956632711390462,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": 0.0,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.5": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            },
+            "0.65": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": 0.0,
+              "group_EBIT_delta_B": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "branch": "permanent",
+      "annual_operating_rows": [
+        {
+          "year": 2027,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 28.7,
+          "server_CPU_revenue_delta_B": -2.775088000000003,
+          "Products_revenue_B": 65.5575998,
+          "DCAI_revenue_B": 37.004,
+          "unit_index": 1.0941986881815866,
+          "ASP_growth": 0.2,
+          "WC_delta_B": -0.2775088000000003,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -0.9712808000000009,
+              "group_EBIT_delta_B": -0.9712808000000009
+            },
+            "0.5": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.3875440000000014,
+              "group_EBIT_delta_B": -1.3875440000000014
+            },
+            "0.65": {
+              "contribution_fraction": 0.65,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.8038072000000018,
+              "group_EBIT_delta_B": -1.8038072000000018
+            }
+          }
+        },
+        {
+          "year": 2028,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 38.745000000000005,
+          "server_CPU_revenue_delta_B": -3.7463688000000044,
+          "Products_revenue_B": 80.99495648580002,
+          "DCAI_revenue_B": 50.3706,
+          "unit_index": 1.367748360226983,
+          "ASP_growth": 0.08,
+          "WC_delta_B": -0.09712808000000016,
+          "host_physical_capex_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.3112290800000015,
+              "group_EBIT_delta_B": -1.3112290800000015
+            },
+            "0.5": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.8731844000000022,
+              "group_EBIT_delta_B": -1.8731844000000022
+            },
+            "0.65": {
+              "contribution_fraction": 0.65,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.435139720000003,
+              "group_EBIT_delta_B": -2.435139720000003
+            }
+          }
+        },
+        {
+          "year": 2029,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 47.547864000000004,
+          "server_CPU_revenue_delta_B": -4.597543791360005,
+          "Products_revenue_B": 94.9254769842918,
+          "DCAI_revenue_B": 62.07986400000001,
+          "unit_index": 1.61394306506784,
+          "ASP_growth": 0.04,
+          "WC_delta_B": -0.08511749913600007,
+          "host_physical_capex_delta_B": -1.0441079894016008,
+          "host_DA_delta_B": -0.06525674933760005,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.6091403269760016,
+              "group_EBIT_delta_B": -1.5438835776384017
+            },
+            "0.5": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.2987718956800025,
+              "group_EBIT_delta_B": -2.2335151463424023
+            },
+            "0.65": {
+              "contribution_fraction": 0.65,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.988403464384003,
+              "group_EBIT_delta_B": -2.923146715046403
+            }
+          }
+        },
+        {
+          "year": 2030,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 54.31867983360001,
+          "server_CPU_revenue_delta_B": -5.25223402724967,
+          "Products_revenue_B": 106.43023995416098,
+          "DCAI_revenue_B": 71.75707983360002,
+          "unit_index": 1.807616232875981,
+          "ASP_growth": 0.02,
+          "WC_delta_B": -0.06546902358896647,
+          "host_physical_capex_delta_B": -0.9423010879448687,
+          "host_DA_delta_B": -0.1894073166717544,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -1.8382819095373844,
+              "group_EBIT_delta_B": -1.6488745928656299
+            },
+            "0.5": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.626117013624835,
+              "group_EBIT_delta_B": -2.4367096969530806
+            },
+            "0.65": {
+              "contribution_fraction": 0.65,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.4139521177122854,
+              "group_EBIT_delta_B": -3.224544801040531
+            }
+          }
+        },
+        {
+          "year": 2031,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 59.837457704693776,
+          "server_CPU_revenue_delta_B": -5.785861004418237,
+          "Products_revenue_B": 116.02395842434747,
+          "DCAI_revenue_B": 79.89161770469376,
+          "unit_index": 1.9522255315060593,
+          "ASP_growth": 0.02,
+          "WC_delta_B": -0.053362697716856734,
+          "host_physical_capex_delta_B": -1.6840553095612263,
+          "host_DA_delta_B": -1.0703842858173738,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.025051351546383,
+              "group_EBIT_delta_B": -2.025051351546383
+            },
+            "0.5": {
+              "contribution_fraction": 0.485,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.806142587142845,
+              "group_EBIT_delta_B": -2.806142587142845
+            },
+            "0.65": {
+              "contribution_fraction": 0.62,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.587233822739307,
+              "group_EBIT_delta_B": -3.587233822739307
+            }
+          }
+        },
+        {
+          "year": 2032,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 65.3066013389028,
+          "server_CPU_revenue_delta_B": -6.314688700222065,
+          "Products_revenue_B": 125.26894490658296,
+          "DCAI_revenue_B": 87.7672605389028,
+          "unit_index": 2.088881318711484,
+          "ASP_growth": 0.02,
+          "WC_delta_B": -0.052882769580382766,
+          "host_physical_capex_delta_B": -1.807942703216594,
+          "host_DA_delta_B": -1.1997908530421924,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.2101410450777226,
+              "group_EBIT_delta_B": -2.2101410450777226
+            },
+            "0.5": {
+              "contribution_fraction": 0.47,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.96790368910437,
+              "group_EBIT_delta_B": -2.96790368910437
+            },
+            "0.65": {
+              "contribution_fraction": 0.59,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.725666333131018,
+              "group_EBIT_delta_B": -3.725666333131018
+            }
+          }
+        },
+        {
+          "year": 2033,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 70.60949736762173,
+          "server_CPU_revenue_delta_B": -6.827441422680098,
+          "Products_revenue_B": 134.17323049183292,
+          "DCAI_revenue_B": 95.31622248762173,
+          "unit_index": 2.214214197834173,
+          "ASP_growth": 0.02,
+          "WC_delta_B": -0.051275272245803374,
+          "host_physical_capex_delta_B": -1.9210167082493579,
+          "host_DA_delta_B": -1.3313510774226192,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.389604497938034,
+              "group_EBIT_delta_B": -2.389604497938034
+            },
+            "0.5": {
+              "contribution_fraction": 0.455,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.106485847319445,
+              "group_EBIT_delta_B": -3.106485847319445
+            },
+            "0.65": {
+              "contribution_fraction": 0.56,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.8233671967008553,
+              "group_EBIT_delta_B": -3.8233671967008553
+            }
+          }
+        },
+        {
+          "year": 2034,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 75.62277168072286,
+          "server_CPU_revenue_delta_B": -7.312189763690385,
+          "Products_revenue_B": 142.5674699425687,
+          "DCAI_revenue_B": 102.30603481032287,
+          "unit_index": 2.324924907725882,
+          "ASP_growth": 0.02,
+          "WC_delta_B": -0.048474834101028645,
+          "host_physical_capex_delta_B": -2.0016180704906805,
+          "host_DA_delta_B": -1.444157478328851,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.5592664172916346,
+              "group_EBIT_delta_B": -2.5592664172916346
+            },
+            "0.5": {
+              "contribution_fraction": 0.44,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.2173634960237694,
+              "group_EBIT_delta_B": -3.2173634960237694
+            },
+            "0.65": {
+              "contribution_fraction": 0.53,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.875460574755904,
+              "group_EBIT_delta_B": -3.875460574755904
+            }
+          }
+        },
+        {
+          "year": 2035,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 80.22063619891081,
+          "server_CPU_revenue_delta_B": -7.756770901322761,
+          "Products_revenue_B": 150.45221585476466,
+          "DCAI_revenue_B": 108.77172774758282,
+          "unit_index": 2.417921904034917,
+          "ASP_growth": 0.02,
+          "WC_delta_B": -0.044458113763237606,
+          "host_physical_capex_delta_B": -2.062622488541785,
+          "host_DA_delta_B": -1.5513541802645523,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.7148698154629662,
+              "group_EBIT_delta_B": -2.7148698154629662
+            },
+            "0.5": {
+              "contribution_fraction": 0.425,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.2966276330621733,
+              "group_EBIT_delta_B": -3.2966276330621733
+            },
+            "0.65": {
+              "contribution_fraction": 0.5,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.8783854506613804,
+              "group_EBIT_delta_B": -3.8783854506613804
+            }
+          }
+        },
+        {
+          "year": 2036,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 84.26343855784603,
+          "server_CPU_revenue_delta_B": -8.147681434864671,
+          "Products_revenue_B": 157.45849834983565,
+          "DCAI_revenue_B": 114.52759559943836,
+          "unit_index": 2.4904595611559643,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": -0.03909105335419101,
+          "host_physical_capex_delta_B": -2.0790834005461307,
+          "host_DA_delta_B": -1.6295362869729342,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.851688502202635,
+              "group_EBIT_delta_B": -2.851688502202635
+            },
+            "0.5": {
+              "contribution_fraction": 0.41,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.340549388294515,
+              "group_EBIT_delta_B": -3.340549388294515
+            },
+            "0.65": {
+              "contribution_fraction": 0.47,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.829410274386395,
+              "group_EBIT_delta_B": -3.829410274386395
+            }
+          }
+        },
+        {
+          "year": 2037,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 88.08032203707518,
+          "server_CPU_revenue_delta_B": -8.516747202830073,
+          "Products_revenue_B": 164.07651676365634,
+          "DCAI_revenue_B": 119.85768693074714,
+          "unit_index": 2.5527210501848634,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": -0.03690657679654024,
+          "host_physical_capex_delta_B": -2.1277750737262275,
+          "host_DA_delta_B": -1.7033494405660148,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -2.9808615209905254,
+              "group_EBIT_delta_B": -2.9808615209905254
+            },
+            "0.5": {
+              "contribution_fraction": 0.395,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.364115145117879,
+              "group_EBIT_delta_B": -3.364115145117879
+            },
+            "0.65": {
+              "contribution_fraction": 0.44,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.747368769245232,
+              "group_EBIT_delta_B": -3.747368769245232
+            }
+          }
+        },
+        {
+          "year": 2038,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 91.62097656648632,
+          "server_CPU_revenue_delta_B": -8.859103575537898,
+          "Products_revenue_B": 170.21483078380166,
+          "DCAI_revenue_B": 124.66943605590514,
+          "unit_index": 2.603775471188561,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": -0.03423563727078243,
+          "host_physical_capex_delta_B": -2.1655305437215775,
+          "host_DA_delta_B": -1.7718207151075795,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.100686251438264,
+              "group_EBIT_delta_B": -3.100686251438264
+            },
+            "0.5": {
+              "contribution_fraction": 0.38,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.366459358704401,
+              "group_EBIT_delta_B": -3.366459358704401
+            },
+            "0.65": {
+              "contribution_fraction": 0.41,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.632232465970538,
+              "group_EBIT_delta_B": -3.632232465970538
+            }
+          }
+        },
+        {
+          "year": 2039,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 94.8367821301318,
+          "server_CPU_revenue_delta_B": -9.170049339649596,
+          "Products_revenue_B": 175.95369427141367,
+          "DCAI_revenue_B": 129.04193770168024,
+          "unit_index": 2.642832103256389,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": -0.03109457641116986,
+          "host_physical_capex_delta_B": -2.191597496658372,
+          "host_DA_delta_B": -1.8340098679299188,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.2095172688773586,
+              "group_EBIT_delta_B": -3.2095172688773586
+            },
+            "0.5": {
+              "contribution_fraction": 0.365,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.3470680089721023,
+              "group_EBIT_delta_B": -3.3470680089721023
+            },
+            "0.65": {
+              "contribution_fraction": 0.37999999999999995,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.484618749066846,
+              "group_EBIT_delta_B": -3.484618749066846
+            }
+          }
+        },
+        {
+          "year": 2040,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 97.68188559403575,
+          "server_CPU_revenue_delta_B": -9.445150819839085,
+          "Products_revenue_B": 181.2323050995561,
+          "DCAI_revenue_B": 132.91319583273068,
+          "unit_index": 2.669260424288953,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": -0.027510148018948934,
+          "host_physical_capex_delta_B": -2.20539686618573,
+          "host_DA_delta_B": -1.8890301639678173,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.30580278694368,
+              "group_EBIT_delta_B": -3.30580278694368
+            },
+            "0.5": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.30580278694368,
+              "group_EBIT_delta_B": -3.30580278694368
+            },
+            "0.65": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.30580278694368,
+              "group_EBIT_delta_B": -3.30580278694368
+            }
+          }
+        },
+        {
+          "year": 2041,
+          "unit_level_factor": 0.9118322401513221,
+          "server_CPU_revenue_B": 100.61234216185683,
+          "server_CPU_revenue_delta_B": -9.728505344434257,
+          "Products_revenue_B": 186.66927425254272,
+          "DCAI_revenue_B": 136.90059170771258,
+          "unit_index": 2.6959530285318425,
+          "ASP_growth": 0.01980198019801982,
+          "WC_delta_B": -0.028335452459517185,
+          "host_physical_capex_delta_B": -2.271558772171299,
+          "host_DA_delta_B": -1.9457010688868517,
+          "EBIT_contribution_cases": {
+            "0.35": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.40497687055199,
+              "group_EBIT_delta_B": -3.40497687055199
+            },
+            "0.5": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.40497687055199,
+              "group_EBIT_delta_B": -3.40497687055199
+            },
+            "0.65": {
+              "contribution_fraction": 0.35,
+              "group_EBIT_delta_before_cohort_DA_adjustment_B": -3.40497687055199,
+              "group_EBIT_delta_B": -3.40497687055199
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "D_and_A_scope": "Through2030 subtract incremental cohort D&A from EBIT and add it back in cash. From2031 the normalized D&A convention is embedded in retained operating margins; change the D&A addback and funded physical capex consistently without also subtracting normalized D&A twice from EBIT.",
+  "source_limit": "The public DIGITIMES abstract identifies2027 CPU revenue, not this chosen unit/ASP decomposition or the2028\u20132040 paths.35/50/65% contributions are explicit judgments; all converge to35% by2040."
+}

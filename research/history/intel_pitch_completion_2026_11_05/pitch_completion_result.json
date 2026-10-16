@@ -1,0 +1,82 @@
+{
+  "as_of_utc": "2026-11-05T07:55:21.163743+00:00",
+  "scope": "Shortened outreach plus pitch completion and defense preparation",
+  "status": "Ten-page pitch revised and verified; two-page defense notes completed; three interview drafts shortened and saved, zero sent. Conditional relative-short edge remains unresolved.",
+  "deliverables": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "d11462d41b631287a0e5bef71cd37e144601d99c9e23c2b7f42487cf63eb2809",
+      "pages": 10
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_defense_notes.pdf",
+      "sha256": "bd4c827be7dcac8628bb207b243b11f029be2258f34094ffb7b51899b252a14f",
+      "pages": 2
+    }
+  ],
+  "changes": [
+    "Three existing Gmail drafts shortened to one question each; reopened and exact body/recipient verified.",
+    "Cover shows 2030 valuation and full-capital portfolio returns, including alternative-method failure.",
+    "Valuation separately identifies margin, capital and required-return effects.",
+    "39.31% conditional mature DCAI margin threshold added at unchanged 0.80 productivity and maturing risk.",
+    "Observable evidence mapped to forecast revisions; convergence distinguished from a scheduled catalyst.",
+    "Two-page private preparation sheet adds opening, eight hard questions, explicit limits and submission logistics."
+  ],
+  "new_findings": {
+    "margin_only_maturing_risk_planning_value_USD": 59.005978893709745,
+    "margin_effect_USD": 5.235501709343616,
+    "capital_effect_USD": 1.8985773480605772,
+    "conditional_break_even_mature_margin": 0.39306676863065326,
+    "all_values_date": "December 31, 2026 planning value; 57 days after the reference quote. Not a 2030 exit price."
+  },
+  "qa": {
+    "pages": 10,
+    "page_size_points": [
+      960,
+      540
+    ],
+    "source_hyperlinks": 29,
+    "all_pages_rendered_and_visually_inspected": true,
+    "all_text_inside_page_bounds": true,
+    "layout_defects_observed": false,
+    "source_model_unchanged": true,
+    "independent_operating_bridge_numeric_comparisons": 823,
+    "independent_semantic_checks": 10,
+    "semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/final_content_review.json",
+    "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/final_visual_qa.json",
+    "submitted": false
+  },
+  "independent_audits": [
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/independent_operating_bridge_audit.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/final_pitch_numeric_review.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/final_content_review.json"
+  ],
+  "outreach": {
+    "record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/short_outreach_saved.json",
+    "drafts_saved": 3,
+    "emails_sent": 0,
+    "interviews_completed": 0,
+    "workloads_independently_run": 0,
+    "status": "Drafts remain unsent. No sending authorization inferred from approval to revise."
+  },
+  "remaining_material_limit": "Plausible higher margins with maturing risk support the reference price; the matched alternative ERP method gives 4.91% portfolio CAGR versus 4.94% hurdle. No robust expected-return edge or numerical competition-winning probability established.",
+  "rules": {
+    "source": "https://www.m37.com/spc2026",
+    "checked_date": "2026-11-05",
+    "initial_screen_deadline": "2026-11-09",
+    "time_and_timezone_not_published": true,
+    "max_pages": 10,
+    "format": "PDF",
+    "extra_materials": [
+      "name",
+      "class year",
+      "resume"
+    ],
+    "destination": "[contact email omitted]",
+    "defense_notes_separate_from_submission": true
+  },
+  "submitted": false,
+  "competition_objective_complete": false,
+  "this_requested_revision_complete": true,
+  "background_monitoring_scheduled": false
+}

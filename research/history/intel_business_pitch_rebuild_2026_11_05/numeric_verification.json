@@ -1,0 +1,141 @@
+{
+  "reviewed_utc": "2026-11-05T06:46:38.682445+00:00",
+  "scope": "Independent review of new nine-page pitch pages3-4and7 against frozen model, cash definitions and underlying primary sources. Text/numerics/claim boundaries only; visual QA belongs to root.",
+  "pdf_snapshot": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "84adf0082974aaff742713908e47d63f38ef8c5c06432c350e27a32fa0382548",
+    "pages": 9,
+    "reviewed_pages": [
+      3,
+      4,
+      7
+    ]
+  },
+  "verdict": "Numerics and causal/source boundaries pass. Two minor clarity edits recommended; no forecast change required.",
+  "page3": {
+    "waterfall_B": {
+      "EBIT": 111.25315092811027,
+      "DA": 72.24142857142857,
+      "physical_capex": -124.5,
+      "WC": -18.01099621548313,
+      "net_tax_and_incentives": 1.2310273607834596,
+      "leases_and_minority_cash": -8.7,
+      "net_financing": -5.927499999999999
+    },
+    "owner_cash_B": 27.587110644839157,
+    "waterfall_identity_error_B": 1.7763568394002505e-14,
+    "net_operating_investment_B": 70.26956764405456,
+    "annual_table": [
+      {
+        "year": 2027,
+        "Products_revenue_B": 68.3326878,
+        "operating_profit_B": 14.429918271999998,
+        "owner_cash_B": -11.692712883085713,
+        "CPU_revenue_B": 31.475088000000003,
+        "physical_capex_plus_WC_B": 36.5593577
+      },
+      {
+        "year": 2028,
+        "Products_revenue_B": 84.74132528580002,
+        "operating_profit_B": 24.72774958255801,
+        "owner_cash_B": 2.293653605352879,
+        "CPU_revenue_B": 42.49136880000001,
+        "physical_capex_plus_WC_B": 38.09986211125
+      },
+      {
+        "year": 2029,
+        "Products_revenue_B": 99.52302077565182,
+        "operating_profit_B": 32.71609561149971,
+        "owner_cash_B": 15.104045150104643,
+        "CPU_revenue_B": 52.14540779136001,
+        "physical_capex_plus_WC_B": 34.59424326252725
+      },
+      {
+        "year": 2030,
+        "Products_revenue_B": 111.68247398141065,
+        "operating_profit_B": 39.37938746205255,
+        "owner_cash_B": 21.88212477246735,
+        "CPU_revenue_B": 59.57091386084968,
+        "physical_capex_plus_WC_B": 33.25753314170588
+      }
+    ],
+    "display_rounding": "All displayed annual one-decimal values, cumulative one-decimal waterfall values,111B/28B headlines and70.3Bnetinvestment match frozen inputs.",
+    "definitions": "Ownercash charges economicSBC/minorityreserves and includes incentives/recurringfinancing. Physicalcapex excludes capitalizedinterest charged separately in treasury. Period includes2027-2030only. Notclaimed asconsensusmiss orROIC.",
+    "minor_edit": "Replace nominal cash totals with undiscounted forecast totals; EBIT andD&A are not themselvescashflows."
+  },
+  "page4": {
+    "fact_checks": [
+      {
+        "claim": "Ireland EUR5B uses existingcleanrooms butrequiresupgrades/equipment",
+        "source": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe.html",
+        "status": "pass; directprimary page reviewed"
+      },
+      {
+        "claim": "New substrate agreements approximately3.3Bpaidbyend2027",
+        "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+        "locator": "Note14 andLiquidity&CapitalResources",
+        "status": "pass; terms described as estimates rather than an additional modeledcashcharge"
+      },
+      {
+        "claim": "18A-P supportsdesign-rule reuse with18A",
+        "source": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium.html",
+        "locator": "June16,2026; Intel18A-Pupdates bullet,webline23",
+        "status": "pass; reverified directlythisreview"
+      }
+    ],
+    "overlap_guard": "Page explicitly says supplierworkingcapitalalreadyfundsneeds and doesnotaddcommitments/supplierfactorybudgetsagain. Projectheadlines supportmechanism, notannualcapexcalibration.",
+    "capacity_guard": "No exactsitecapacity,one-to-onewaferfungibility orproductioncostequivalenceinferred."
+  },
+  "page7": {
+    "checkpoint_rows": [
+      {
+        "year": 2027,
+        "Products_revenue_B": 68.3326878,
+        "operating_profit_B": 14.429918271999998,
+        "owner_cash_B": -11.692712883085713,
+        "CPU_revenue_B": 31.475088000000003,
+        "physical_capex_plus_WC_B": 36.5593577
+      },
+      {
+        "year": 2028,
+        "Products_revenue_B": 84.74132528580002,
+        "operating_profit_B": 24.72774958255801,
+        "owner_cash_B": 2.293653605352879,
+        "CPU_revenue_B": 42.49136880000001,
+        "physical_capex_plus_WC_B": 38.09986211125
+      }
+    ],
+    "wafer_case": {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 23.14559485675681,
+      "incremental_price_USD": 4.200652424093795,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 49.719584490562944,
+        "central": 57.971129608459925,
+        "more_productive": 65.10520866586411
+      },
+      "central_remaining_quote_gap_USD": 0.3088703915400757
+    },
+    "central_maturing_host_USD": 53.77047718436613,
+    "favorable_core_maturing_USD": 60.904556241770315,
+    "funding_and_date_guard": "4.20 attaches to53.77centralmaturingvalue, not46.96flatvalue. It is described asillustrative andseparatelyfunded;sharedcapacitydoublecountprohibited.",
+    "minor_edit": "Retain compactassumptionclause forwaferoption:40%operatingmargin,1.00incrementalsales/capital,10%annualgrowththrough2040.10B2033revenuealone doesnotdetermine4.20value.",
+    "defeater_guard": "Lowerinvestmentisconditionedonacceptedoutput/underlyingprofit; strongerpricingcanoffsetshortage. Noautomaticbearishinterpretationofdelayedcapacity."
+  },
+  "source_model_unchanged": true,
+  "mutations": "OnlythisauditJSONwritten;PDFandfrozenmodelunchanged.",
+  "root_resolution": {
+    "verified_utc": "2026-11-05T06:48:18.751664+00:00",
+    "requested_corrections_applied": true,
+    "final_pdf_sha256": "536b3b84a58060ac58c0b96e38817c5bbf8ffbce225ce0e468b48f9378e53818",
+    "notes": [
+      "Page2premium-mix/higher-costclaim nowmatchesIntelQ3source",
+      "Page3cash-totalslabel replacedwithundiscountedforecasttotals",
+      "Page5observedvsforecastlabelmadeexplicit",
+      "Removedorphanedearlier-normalizationfooter",
+      "Page7wafergrowth/margin/capitalassumptionsrestored"
+    ]
+  }
+}

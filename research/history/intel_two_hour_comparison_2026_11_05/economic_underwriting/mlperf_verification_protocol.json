@@ -1,0 +1,7 @@
+{
+  "question": "What verified CPU-only inference evidence supports workload value, and does the evidence identify current AMD or Arm comparative price/performance?",
+  "knowledge_before_selection": "Read MLCommons Sept17 chairs summary and RedHat Sept29 post; know Intel claims same-silicon 6980P gains between v6.0 and6.1. This is a claim-verification exercise, not a blinded performance discovery study.",
+  "selection": "Inspect all CPU-only Closed Datacenter system metadata in v6.1; do not count host CPUs in GPU systems as CPU inference. For the Intel6980P claim, compare v6.0 andv6.1 same socket count and model/scenario only if metadata and rules are sufficiently aligned. Record missing controls and absent submissions.",
+  "exclusions": "No performance result is a chip-price or margin estimate. No missing AMD/Arm submission is a loss. No production demand or token-cost inference without price and SLA controls.",
+  "time": "2026-11-05 before fetching raw MLPerf repository data"
+}

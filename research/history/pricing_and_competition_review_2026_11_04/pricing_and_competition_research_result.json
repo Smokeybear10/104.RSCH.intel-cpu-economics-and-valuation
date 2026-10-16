@@ -1,0 +1,341 @@
+{
+  "as_of_utc": "2026-11-04T17:33:46.444385+00:00",
+  "status": "Focused research pass completed; current early-repricing Intel SHORT withdrawn as preferred submission. No automatic LONG recommendation.",
+  "user_objective": "Build strong, defensible investment reasoning for the M37 competition without requiring perfect future prediction.",
+  "root_judgment": "Retain Intel as a developed research candidate, but withdraw the presumption that it should be a three-to-five-year SHORT. The stronger pricing/mix and margin forecast removes the revenue-shortfall thesis and raises all central horizon values above the dated entry. An early valuation gap remains a timing-dependent short candidate; it does not alone establish the required horizon recommendation. Do not force LONG solely because the later value rises, or change assumptions to manufacture a winning-looking target.",
+  "official_rule_application": {
+    "source": "https://www.m37.com/spc2026",
+    "round1": "Clear individual LONG or SHORT recommendation, business overview, drivers and risks; PDF at most10pages due November9. Name, class year and resume outside page limit.",
+    "horizon": "Recommendation must address a three-to-five-year investment horizon. Early exit is not explicitly prohibited, but a forecast extending five years does not by itself make a one-year correction trade a strong fit.",
+    "judging": "Investment theses and judgment rather than modeling skills; final discussion tests assumptions, counterarguments and changes of mind.",
+    "research_standard_correction": "Do not demand proven future prices, proprietary data, exact measured consensus, minimum return prescribed by us, or survival under every bull case. Do require accurate facts and a recommendation consistent with the selected forecast."
+  },
+  "decisive_new_analysis": {
+    "unit_price_identity": "1.20 units \u00d71.20 realized ASP =1.44 revenue, exceeding the earlier1.30\u00d71.10=1.43. Lower unit growth no longer establishes a CPU revenue shortfall.",
+    "price_mechanism": "More high-core-count products can increase dollars per CPU while improving customer economics. Intel reported that most Q3 ASP growth came from premium mix, which also increased unit costs. Current catalog comparisons illustrate the mechanism, not realized future prices.",
+    "selected_operating_changes": "ASP20/8/4/2% in2027\u20132030.50% incremental group EBIT retention after all direct operating costs and D&A, below the approximately69% observed Q3 profit bridge. Restore1B of physical investment in each of2029 and2030, charge added WC and D&A. No extra Foundry profit credit.",
+    "margin_normalization": "35% mature DCAI replaces32% gradually during2031\u20132040. The earlier32% required substantial CPU-margin erosion beyond the modeled increase in lower-margin custom silicon. Defensible30\u201340% is a judgment range, not statistical confidence.",
+    "carryover_limit": "Rounded YoY percentages do not identify sequential or exiting ASP. No exact2027 carryover contribution is claimed.",
+    "forecast_provenance": "Operating choices and margin addendum were frozen before their new equity outputs; the19.17% offset diagnostic and older models were already known."
+  },
+  "preferred_value_case": {
+    "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+    "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "dated_entry": {
+      "date": "2026-11-04",
+      "price_USD": 58.11,
+      "time": "10:43 ET",
+      "provenance": "Root-supplied dated intraday reference; not a closing price or independently retrieved by this calculator."
+    },
+    "values_at12pct_USD": {
+      "2026": 44.067914052747014,
+      "2027": 48.89859731439426,
+      "2028": 54.57624488068242,
+      "2029": 60.8641323994547,
+      "2030": 67.57762169851729,
+      "2031": 74.74084968212509
+    },
+    "rate_controls": {
+      "2026": {
+        "0.11": 51.035228713037704,
+        "0.12": 44.067914052747014,
+        "0.13": 38.555427197402786
+      },
+      "2030": {
+        "0.11": 75.75525448221478,
+        "0.12": 67.57762169851729,
+        "0.13": 61.05458113960595
+      }
+    },
+    "interpretation": "End2026 is a planning reference using forecast financial balances, not a measured November4fairvalue. Subsequent values are conditional intrinsic values, not promised market-price targets. The model does not require new debt. End2031 is just beyond five years;2029/2030 are the relevant horizon checks."
+  },
+  "competition_argument_now_available": "Intel can monetize a richer CPU mix even while losing unit share. The investment debate is the consolidated cash retained after funding manufacturing and packaging, rather than whether AI demand is real or unit share must rise.",
+  "strongest_judge_objection": {
+    "question": "Why recommend a multi-year short at58.11 when your own preferred values are60.86 in2029 and67.58 in2030?",
+    "honest_answer": "Those outputs do not support a passive three-to-five-year short. An earlier correction requires its own expectation and timing evidence. Negative2027cash flow is already anticipated publicly; its occurrence alone is not sufficient. A numerical audit does not resolve this investment objection."
+  },
+  "defense_questions": [
+    {
+      "question": "Does20%ASP mean Intel raises every price20%?",
+      "answer": "No. It is an owned blended average forecast including product mix, customer mix and persistence of the2026price level. No precise decomposition is claimed."
+    },
+    {
+      "question": "Why allow50% incremental profit rather than the current average segment margin?",
+      "answer": "The extra revenue is on the same modeled CPU unit count. Some fixed costs need not repeat. The latest company bridge showed approximately69% incremental product profit after richer-unit costs;50% reserves substantial expense for new products, components and production. Actual group retention is the test."
+    },
+    {
+      "question": "Is a catalog price evidence of what hyperscalers pay?",
+      "answer": "No. Recommended prices establish a product-stack comparison. Discounts, customer terms and shipped mix remain undisclosed."
+    },
+    {
+      "question": "What would change the bearish valuation view?",
+      "answer": "Higher consolidated cash after all required capital and working capital, or demonstrably better capital productivity at accepted output, beyond the current forecast. Merely achieving20%units and20%ASP is already granted."
+    },
+    {
+      "question": "Can more model detail solve the recommendation?",
+      "answer": "Only if it changes the economic judgment. The remaining task is to support a horizon-consistent directional recommendation, not add pages of arithmetic."
+    }
+  ],
+  "candidate_round1_structure": [
+    "One recommendation and a concise causal claim, using an explicit dated price and horizon",
+    "Business and profit generation, eliminating internal Foundry revenue",
+    "Accepted shipments and premium mix, with costs included",
+    "Qualified capacity and supplier timing with correct customer attribution",
+    "Cash conversion and capital funding",
+    "Valuation and the strongest opposing outcome",
+    "Evidence that changes the view and major risks",
+    "Key citations"
+  ],
+  "facts_forecasts_and_limits": "Do not describe external_revenue_B as reconciled consolidated revenue; it is a modeled capital denominator. Do not call late2026planning value a verified current quote. No winning probability is estimated. No PDF, registration, email or submission was produced.",
+  "verification": {
+    "pricing_case": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/independent_intel_server_ASP_mix_audit_and_direction.json",
+      "sha256": "e493c75172a84a29d282a24fc723e38226d54a2dfc259ed71f1db9202ce7e2f6",
+      "result": "PASS,743 independent numerical comparisons; maximum difference2.7e-13."
+    },
+    "margin_extension": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/independent_mature35_incremental_audit_addendum.json",
+      "sha256": "594df783f6f68a7e3843d177efbe1d6700ec293809bb2782289025db36aff74d",
+      "result": "PASS, incremental EBIT/tax/PV/2031cash; maximum difference6.4e-14. Original sources unchanged."
+    },
+    "limit": "Arithmetic validation does not establish forecast accuracy, an investment recommendation or winning odds."
+  },
+  "research_standard": "The user prioritizes defensible competition reasoning rather than perfect prediction. Facts and math must remain accurate; forecasts need clear causal support, uncertainty, counterarguments and changes-of-mind criteria. No requirement of certainty or an arbitrary9/10score.",
+  "round1_submission_draft": {
+    "as_of_utc": "2026-11-04T17:56:07.182846+00:00",
+    "status": "Concrete Round 1 discussion draft prepared; not sent.",
+    "root_owned_draft_recommendation": "Intel SHORT as an actively managed valuation-convergence position, with a 2027-2031 fundamental forecast and expected market reassessment during 2027-2028.",
+    "why_selected": "This direction follows the current valuation gap without changing operating or capital assumptions to force a target. Cash conversion after funding a successful recovery is the central argument.",
+    "remaining_limit": "Earlier convergence is an explicit investment forecast, not a proven catalyst. Preferred values rise above the entry by 2029. The literal 3-5-year horizon fit is weaker than a conventional horizon-end short, and this draft does not establish a passive 3-5-year short or a high probability of winning.",
+    "reference_price": {
+      "USD": 60.55,
+      "date": "2026-11-03",
+      "type": "prior close"
+    },
+    "end2026_value_USD": 44.067914052747,
+    "end2027_cover_anchor_USD": 48.898597,
+    "end2030_value_USD": 67.577621698517,
+    "core_assumptions_unchanged": true,
+    "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen_draft.pdf",
+    "pdf_sha256": "b01c37be1fa1f248b8baea2d6b3238048afa0c70876f9c7629f1a2130918d3a2",
+    "pages": 8,
+    "qa_manifest": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/m37_submission_manifest.json",
+    "email_draft": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/submission_email_draft.txt",
+    "attachments_user_still_needs": "Current resume; review the draft before sending.",
+    "class_year": 2027,
+    "class_year_source": "https://thomasou.com/",
+    "official_rules": "https://www.m37.com/spc2026",
+    "due_date": "2026-11-09",
+    "recipient": "[contact email omitted]",
+    "sent": false,
+    "winning_objective_achieved": false
+  },
+  "latest_research_readiness_review": {
+    "as_of_utc": "2026-11-04T17:59:53.500238+00:00",
+    "question": "Whether further research can materially improve the submitted draft",
+    "readiness_judgment": "Substantial research and numerical checking completed, but SHORT direction and early convergence remain less supported. Recommend a focused decision pass before submitting unchanged.",
+    "draft_correction": "Producing a concrete PDF did not resolve the prior direction objection. Root should not treat an early-convergence forecast as new evidence merely because it permits a SHORT recommendation.",
+    "source_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "new_discount_diagnostic": {
+      "scope": "Frozen current ASP20 and mature35 cash flows; end-2026 planning value with original financing and claims conventions. Only operating and conditional financing-benefit discount rate changes.",
+      "values_USD": {
+        "0.09": 72.274837013513,
+        "0.10": 60.087383322040886,
+        "0.11": 51.03522871303776,
+        "0.12": 44.06791405274706,
+        "0.13": 38.55542719740275
+      },
+      "rate_matching_60_55": 0.0995578548389627,
+      "matched_price_scope": "November 3, 2026 close; matching end-2026 forecast balances is an approximate planning diagnostic, not exact market-implied risk.",
+      "reproduction_absolute_errors_USD": {
+        "0.11": 5.290550136816419e-14,
+        "0.12": 3.987228004476522e-14,
+        "0.13": 3.489373036653366e-14
+      },
+      "existing_rate_defense": "12% was selected before equity output, based on matched 5.29% Treasury + 1.50 cash-corrected unlevered semiconductor beta times 4.41% ERP =11.905%, rounded. It is a defensible planning judgment, not empirically precise Intel asset risk.",
+      "interpretation": "At 10%, unchanged business cash flows give about60.09 versus60.55 reference. This does not select10% as correct, refute12%, or establish a LONG. It isolates the required-return disagreement and motivates broader coherent scenario/risk testing."
+    },
+    "high_value_next_tests": [
+      {
+        "test": "Dated public-expectations versus model comparison for 2027-2029 cash conversion and investment",
+        "success_condition": "Identify a specific likely expectation revision supported by evidence and a reporting milestone; exact full consensus not required.",
+        "failure_condition": "If only publicly known capex and negative2027FCF can be cited, earlier-repricing edge remains unsupported."
+      },
+      {
+        "test": "Current-case joint operating and valuation scenarios",
+        "success_condition": "Evaluate coherent combinations of margin, capital productivity and operating risk, then compare both directions over3-5years.",
+        "failure_condition": "If ordinary combinations support the reference price, do not present a12%-DCF gap as proof of implausible market expectations."
+      }
+    ],
+    "fresh_source_recheck": {
+      "issuer_prepared_remarks": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "finding": "Management already disclosed 2027 capital spending up strongly and equipment purchase orders nearly40% higher sequentially; substantial investment is public.",
+      "risk_input_source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm",
+      "risk_pair_reverified": true,
+      "PPE_reconciliation": "SEC YTD investing PPE10.216B + financing-classified PPE1.618B = total11.834B. Apparent snippet discrepancy is classification, not model factual error."
+    },
+    "model_and_pdf_unchanged": true,
+    "sent": false
+  },
+  "latest_focused_decision_pass": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/decision_result.json",
+    "sha256": "7259be226bb839829306db2b39beebb9c182ce4f58605bc428218258e1d8d63a",
+    "status": "Focused research pass completed; current early-repricing Intel SHORT withdrawn as preferred submission. No automatic LONG recommendation.",
+    "root_decision": {
+      "current_draft": "Retain the existing PDF as a historical discussion draft, not a presently endorsed final entry. Do not submit it unchanged.",
+      "recommendation_change": "Retire the unsupported2027-2028convergence claim. Retain Intel as a developed valuation counterview. This pass did not earn a stronger directional LONG or SHORT for the competition.",
+      "why": "The current cash-conversion argument already appears in dated public research; accessible operating forecasts do not reveal a distinctive near-term disappointment in our model. The central conditional horizon price gives weak price-only short economics, while realistic changes in mature economics and risk worsen them. Early repricing was previously used to make the submission concrete rather than established by new evidence.",
+      "scope_of_conclusion": "This does not prove price is efficient, a correction impossible, or that every scenario must support the recommendation. Exact consensus and guaranteed catalysts are not required by M37. It is a judgment about this specific proposed position and evidence.",
+      "unchanged_central_operating_case": true,
+      "working_central_discount_rate": 0.12,
+      "why_not_switch_long": "Lower discount-rate and more productive operating cases are alternatives, not newly adopted most-likely forecasts. Central end2026 value remains44.07, below dated60.55reference; do not relabel an upside case to force LONG."
+    }
+  },
+  "latest_earnings_cash_test": {
+    "as_of_utc": "2026-11-04T18:49:29.640888+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/decision_result.json",
+    "sha256": "a65c449870a387fb309e6877625c94c93ce45b2176a9aac355b77944bb371fd7",
+    "status": "Focused Intel earnings-to-cash test completed. Earnings upside identified; LONG not established.",
+    "root_decision": {
+      "working_operating_thesis": "Intel\u2019s richer CPU mix could deliver earnings above published forecasts without a major new external wafer customer. The investment question is how much cash Intel must reinvest to deliver those earnings.",
+      "earnings_result": "The existing operating forecast produces conditional adjusted EPS proxies of about $2.50 in 2027 and $4.17 in 2028. The premium survives several tax, accounting-presentation and Foundry-cost controls. It is not solely an EBIT-versus-EPS comparison error.",
+      "investment_result": "No LONG recommendation established. These operating earnings already underpin the existing cash valuation; expressing them as adjusted EPS does not increase cash value. A higher P/E alone cannot resolve the economic disagreement.",
+      "why_the_edge_is_narrower_than_the_EPS_gap": "The matched 2027 DCAI growth difference explains only about 30% of the EPS gap to iFAST under our other conventions. The entire premium cannot be presented as one overlooked CPU pricing effect.",
+      "capital_review": "No demonstrated double counting of physical capital or justified asset-light cash uplift. Intel Products uses internal manufacturing and external suppliers; the custom-silicon manufacturing split is insufficiently disclosed to remove host capital spending.",
+      "prior_short": "The prior early-repricing SHORT remains withdrawn as the preferred submission. This test does not revive it.",
+      "submission_status": "The old PDF remains a superseded discussion draft. No current directional submission is endorsed; nothing was submitted.",
+      "competition_objective_complete": false,
+      "finite_test_complete": true
+    },
+    "verification": {
+      "independent_audit_verdict": "PASS WITH COMPARABILITY LIMITS",
+      "checks_count": 316,
+      "numerical_errors": 0,
+      "audit": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/independent_earnings_cash_audit.json",
+        "sha256": "e01e9d877590933b438281b9e875386ad0edee1d41b7778adad7211e95e77d2a"
+      },
+      "audit_does_not_validate_business_forecasts": true,
+      "audit_metadata_precedence": "The bridge retains its original pre-audit pending field to preserve its audited SHA256. This record and the independent audit supersede that historical field.",
+      "all_audited_input_hashes_verified_at_close": true,
+      "source_model_modified": false,
+      "PDF_modified": false
+    }
+  },
+  "current_state_precedence": "latest_hour_verification supersedes older recommendations, numerical reference ranges and draft-readiness commentary.",
+  "latest_direction_resolution": {
+    "as_of_utc": "2026-11-04T22:13:11.075418+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/decision_result.json",
+    "sha256": "af94bac971de118f76a52ab551054f6f977e2c4580c201c27a50ecd0acd0a076",
+    "status": "Completed substantive direction review and three-page working pitch. Qualified valuation SHORT selected as current candidate; no proven trading alpha or winning probability.",
+    "root_decision": {
+      "working_recommendation": "SHORT, qualified valuation thesis for competition review",
+      "thesis": "Intel can recover operationally while its equity offers insufficient compensation for manufacturing and cyclical risk at the entry price. The existing funded forecast supports a lower end-2026 planning value than the dated quote.",
+      "working_fair_value_reference_USD": [
+        44.067914052747014,
+        49.96887374853764
+      ],
+      "fair_value_date": "2026-12-31 planning reference, not a 2030 target or predicted price-convergence date",
+      "reference_price": {
+        "price_USD": 58.28,
+        "date": "2026-11-04",
+        "time": "16:00 America/New_York close",
+        "source": "https://stockanalysis.com/stocks/intc/forecast/",
+        "retrieved_after_close_UTC": "2026-11-04T21:48:06+00:00",
+        "prior_reference_USD": 60.55,
+        "prior_reference_date": "2026-11-03"
+      },
+      "why_direction_selected_now": "A fundamental valuation opinion can be a legitimate directional competition candidate without exact consensus, a guaranteed catalyst or positive price-only unhedged short PnL in every future year. Our higher operating-risk allowance supports the bearish stance; that remains a judgment rather than proven mispricing.",
+      "limits_on_selection": "Risk-adjusted underperformance has not been established by a specified hedged trade. No counter-long, hedge ratio, broker borrow/carry, margin return or portfolio alpha is modeled. Do not subtract the operating discount rate from shareholder CAGR and label the difference alpha.",
+      "primary_counterargument": "The central 2030 value is $67.58, above the $58.28 entry, implying 3.63% annual long price appreciation and a $9.30 price-only short loss before carry. Risk maturation raises the conditional 2030 value to $76.86 and long price CAGR to 6.89%.",
+      "risk_sensitivity": "At 10% operating discount, unchanged central cash supports $60.09 at end-2026; the dated quote matches about 10.17846%. The short view is materially exposed to the risk assumption.",
+      "what_is_not_the_thesis": [
+        "A permanent structural cash drain",
+        "An undiscovered negative 2027 FCF forecast",
+        "Intel unit-share loss automatically means declining units",
+        "A promised 2027/2028 repricing",
+        "A new LONG earned by adding back compensation in EPS"
+      ],
+      "old_short_draft_status": "Old early-convergence PDF remains historical and superseded. This new working pitch does not reinstate its unsupported timing claim.",
+      "new_draft_status": "Three-page review draft with business overview, recommendation, forecasts, horizon economics, countercases, falsifiers and sources. Not submitted; no claim of final competition readiness.",
+      "competition_objective_complete": false
+    },
+    "working_pitch": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "c43026665a84c9e47fcf26965d197c2c64c02fe0e1f52c0c21fb32e661d3ebb0",
+      "qa": {
+        "pages": 3,
+        "all_pages_rendered_and_visually_inspected": true,
+        "layout_defects_observed": false,
+        "key_numbers_checked": [
+          "$58.28",
+          "$44.07",
+          "$49.97",
+          "$60.09",
+          "$67.58",
+          "$76.86",
+          "$86.30",
+          "3.63%",
+          "6.89%",
+          "$9.30",
+          "10.18%",
+          "11.91%"
+        ],
+        "source_hyperlinks": 10,
+        "original_PDF_preserved": true
+      }
+    }
+  },
+  "latest_hour_verification": {
+    "as_of_utc": "2026-11-04T23:31:40.991277+00:00",
+    "result_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/verification_result.json",
+    "supersedes": "Previous risk-reference value range and old working PDF numbers; preserve historical cases as sensitivity controls.",
+    "working_recommendation": "Retain qualified valuation-led Intel SHORT as working competition thesis. Moderate investment conviction; credible and potentially competitive after correction.",
+    "current_values": {
+      "date": "2026-12-31 conditional planning value",
+      "reference_quote": {
+        "date": "2026-11-04 close",
+        "USD": 58.28
+      },
+      "central_flat_11_555": 46.95806228358314,
+      "central_maturing_risk": 53.77047718436613,
+      "more_productive_maturing": 60.904556241770315,
+      "weak_demand_flat": 35.826155,
+      "central_end2030_flat": 70.97777530967525,
+      "date_limit": "Year-end values use forecast Q4 cash; comparison with Nov4 spot has57day difference."
+    },
+    "artifact": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "b8070751fdd60b15c3125ed6c23d1463486b3ebab855c404e12e56b75d9285de",
+      "pages": 4,
+      "submitted": false,
+      "qa": {
+        "pages": 4,
+        "all_pages_rendered_and_visually_inspected": true,
+        "layout_defects_observed": false,
+        "source_hyperlinks": 12,
+        "source_model_unchanged": true,
+        "old_text_removed_from_PDF_content_stream": true,
+        "key_numbers": [
+          "$58.28",
+          "$46.96",
+          "$53.77",
+          "$60.90",
+          "$35.83",
+          "$64.15",
+          "$70.98",
+          "11.555%",
+          "10.055%",
+          "10.18%",
+          "4.94%",
+          "4.41%",
+          "0.66",
+          "0.73",
+          "0.36",
+          "$4.20"
+        ],
+        "initial_PDF_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/intel_working_thesis_review_before_hour.pdf"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "selected_utc": "2026-11-06T06:58:00.884294+00:00",
+  "purpose": "Adversarial sensitivity to exactQ42026anchors insidequalitativeguidance; nochange toselectedbase.",
+  "CPU": {
+    "Q3_DCAI_B": 7.318,
+    "Q3_Other_DCAI_B": 1.4,
+    "Q4_DCAI_QoQ": [
+      0.13,
+      0.15,
+      0.17
+    ],
+    "Q4_Other_DCAI_QoQ": [
+      0.25,
+      0.35,
+      0.45
+    ],
+    "scope": "Mid-teensDCAIandfasterpurpose-builtgrowthdonotidentifyOtherDCAIasawhole. Eachpointisanalystscenario, notissuerbounds."
+  },
+  "client": {
+    "Q3_CCPG_B": 8.097,
+    "Q4_CCPG_QoQ": [
+      -0.21,
+      -0.25,
+      -0.3
+    ],
+    "Q4_Other_CCPG_B": 1.197,
+    "scope": "Managementguidedgreaterthan20%sequentialCCPGdecline;21/25/30areillustrativescenarios, notafiniteconfidenceinterval."
+  },
+  "mechanics": "Holdselected2027\u201330quarterlyunitandASPindicesfixed, scalequarterlyCPUorclientrevenuesbynewQ4anchor/oldanchor. OtherCCPGunchanged.",
+  "valuation_boundary": "Noequityvalue. Avaluationimplementationmustupdate2026Q4profit/cash/workingcapitaland2027openingliquidityconsistently, notonly2027sales."
+}

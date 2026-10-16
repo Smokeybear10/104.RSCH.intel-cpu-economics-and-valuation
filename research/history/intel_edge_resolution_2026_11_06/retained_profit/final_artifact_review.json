@@ -1,0 +1,135 @@
+{
+  "as_of": "2026-11-06",
+  "review_scope": "Read-only claim-scope and source audit of revised initial screen pp1/3/4/5/9/10 and all defense notes. Root performs visual QA. No financial-model recalculation or live source-price verification in this pass.",
+  "reviewed_files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "cfdcee9280c33127147537434c8084598443bd43c1bc2ae3dd97afecaab7621c"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "75ee940d190ecb0f8785cf6c29370c49338e0dd30c7e938cd3e0cfd4e2ce68e6"
+    }
+  ],
+  "verdict": "PASS for material claim scope on the final reviewed hashes. Three P2 wording issues are resolved; one optional P3 phrasing refinement remains. No fabricated contract coverage, invented expiry calendar, or Oracle conflation found.",
+  "findings": [
+    {
+      "id": "wafer_label",
+      "priority": "P2",
+      "file": "output/pdf/m37_intel_initial_screen.pdf",
+      "page": 4,
+      "text": "A QUANTIFIED WAFER RAMP",
+      "issue": "The original August CFO wording quantifies Ireland output without defining whether output means wafers, good dies, or finished processors. The body correctly acknowledges this; the heading nevertheless picks wafers as the denominator.",
+      "recommended_text": "A QUANTIFIED IRELAND RAMP",
+      "source": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+      "locator": "CFO demand answer immediately before the fab-footprint discussion",
+      "materiality": "Avoids turning an undefined manufacturing output target into a specific wafer forecast.",
+      "status": "resolved and verified in rebuilt PDF"
+    },
+    {
+      "id": "hana_scope",
+      "priority": "P2",
+      "file": "output/pdf/m37_intel_initial_screen.pdf",
+      "page": 5,
+      "text": "Azure SAP certification favors Intel; SAP Cloud and Datadog demonstrate Arm alternatives.",
+      "issue": "SAP is broader than SAP HANA. The verified certification restriction is HANA on Azure, and the Arm alternative is the managed HANA Cloud service. The compressed sentence drops both boundaries that the defense notes correctly retain.",
+      "recommended_text": "Azure HANA certification favors Intel; managed HANA Cloud and Datadog demonstrate Arm alternatives.",
+      "sources": [
+        "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started",
+        "https://news.sap.com/2023/11/sap-hana-cloud-now-supports-aws-graviton/"
+      ],
+      "materiality": "Avoids implying all SAP workloads require Intel or all SAP cloud products have the same architecture choices.",
+      "status": "resolved and verified in rebuilt PDF"
+    },
+    {
+      "id": "renewal_calendar",
+      "priority": "P2",
+      "file": "output/pdf/m37_intel_initial_screen.pdf",
+      "page": 9,
+      "text": "as early multiyear agreements expire",
+      "issue": "Placed under 2029–2030, this reads as a verified expiry schedule. Q1 disclosed signed agreements and a typical three-to-five-year term, but not contract start dates. Page 5 properly makes the 2026-start inference conditional and discloses unknown exact starts.",
+      "recommended_text": "as early agreements may approach renewal",
+      "materiality": "Retains a useful monitoring window without inventing contract-specific expiry dates.",
+      "status": "resolved and verified in rebuilt PDF"
+    },
+    {
+      "id": "fixed_price_scope",
+      "priority": "P3",
+      "file": "output/pdf/m37_intel_initial_screen.pdf",
+      "page": 5,
+      "text": "Fixed prices also leave Intel exposed to rising input costs.",
+      "issue": "The economic point is sound, but the linked Q1/August sources do not directly establish fixed prices across all agreements. The explicit June price-lock statement is absent from the final source list, and input-cost escalators remain undisclosed.",
+      "recommended_text": "Pricing visibility alone does not protect margins from rising input costs.",
+      "alternative": "Retain as a generic conditional statement by writing: Without cost protection, fixed prices expose Intel to rising input costs.",
+      "materiality": "Avoids implying every described agreement fixes prices without escalation.",
+      "status": "optional refinement; not a material blocker because the sentence can be read as a generic economic observation"
+    }
+  ],
+  "passed_checks": [
+    {
+      "check": "Q1 signed DCAI agreements",
+      "result": "Original prepared remarks p4 explicitly corroborate signed DCAI LTAs including Google. Source 21 URL and locator are correct."
+    },
+    {
+      "check": "3–5-year term provenance",
+      "result": "Source 20 correctly points to the published April23 transcript; first CFO Q&A following Ben Reitzes is the correct locator. Slides and notes identify these as management descriptions, not reviewed executed contracts."
+    },
+    {
+      "check": "Unknown starts and coverage",
+      "result": "Page5 states 2026 starts imply approximate 2029–31 expiries, and explicitly says exact starts, revenue coverage and renewal economics are unknown. No specific backlog, minimum purchases or protected revenue percentage is invented."
+    },
+    {
+      "check": "Price-per-core statement",
+      "result": "August CFO transcript supports stabilized ASP/core and some like-for-like increases. Existing wording is a fair compact paraphrase; the most source-faithful wording would be: ASP/core stabilized, with some like-for-like increases."
+    },
+    {
+      "check": "Ireland target",
+      "result": "Page1 and page4 body attribute more than double Ireland output in 2027 to the CFO, preserve target status, associate it with Intel3/Granite Rapids context, and do not claim it proves accepted packages. Correct apart from the wafer heading above."
+    },
+    {
+      "check": "October corroboration",
+      "result": "Original Q3 remarks support tool installation and increasing Ireland output. The revision does not imply October independently re-guided a quantified 2x target."
+    },
+    {
+      "check": "Oracle",
+      "result": "Defense p3 explicitly calls the October roadmap prospective and rejects inference of a signed price contract. No Google/Oracle conflation found."
+    },
+    {
+      "check": "Mature margin",
+      "result": "40% remains an analyst assumption; the contracts are not represented as establishing a 2031–40 segment margin floor. No additional pricing benefit is layered into the forecast."
+    },
+    {
+      "check": "Manufacturing cost and transfer pricing",
+      "result": "Defense p3 correctly avoids re-crediting historical Intel3 cost improvement, distinguishes internal price transfers from group profit and retains zero future inventory-profit eliminations."
+    },
+    {
+      "check": "Source quality transparency",
+      "result": "Defense notes explicitly disclose that published August transcripts agree while original audio was not independently checked. Initial screen identifies Q1/August materials as transcripts rather than official executed contracts."
+    }
+  ],
+  "source_notes": {
+    "source19": "The dated Quartr/StockAnalysis transcript is direct management speech hosted by a third party. Official Intel event page independently confirms the conference; original audio verification remains absent and is disclosed.",
+    "source20": "The Google Storage transcript wrapper attributes its transcript source to Financial Modeling Prep. It is a public third-party transcription, not an Intel-hosted original. Final wording accurately describes this limitation.",
+    "source21": "Downloaded original issuer PDF; the signed DCAI LTA statement is on p4 as cited.",
+    "original_oracle_release": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-oracle-collaborate-on-enterprise-and-agentic-ai.html"
+  },
+  "changes_performed": "None to PDFs, source code or model; this review JSON only.",
+  "prior_reviewed_files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "cfdcee9280c33127147537434c8084598443bd43c1bc2ae3dd97afecaab7621c"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "75ee940d190ecb0f8785cf6c29370c49338e0dd30c7e938cd3e0cfd4e2ce68e6"
+    }
+  ],
+  "final_recheck": {
+    "initial_screen_p4": "Heading now says A QUANTIFIED IRELAND RAMP; undefined-output caveat retained.",
+    "initial_screen_p5": "Azure HANA / managed HANA Cloud boundaries restored; conditional 2026-start arithmetic and unknown-start footnote retained.",
+    "initial_screen_p9": "Early agreements may approach renewal now avoids a verified expiry schedule. Required quarterly average label correctly identifies the division by quarters remaining.",
+    "defense_p3": "Direct Oracle roadmap link verified in PDF annotations; prose distinguishes prospective roadmap from a signed price contract.",
+    "source_locators": "Sources19/20/21 match the August CFO discussion, first CFO Q1 Q&A, and original prepared remarks p4, respectively.",
+    "visual_qa": "Root owns visual QA; this pass does not certify typography/layout."
+  }
+}

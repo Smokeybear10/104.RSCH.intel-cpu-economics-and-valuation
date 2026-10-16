@@ -1,0 +1,228 @@
+{
+  "as_of_utc": "2026-11-05T07:25:56.349784+00:00",
+  "scope": "Original arithmetic audit of vendor public pricing/performance claim, plus bounded external matched-instance benchmark search. No interview conducted and no workloads run by us.",
+  "topline": "A vendor performance headline becomes materially smaller after including required memory charges. This improves research discipline and creates a precise original interview question; it does not establish an Intel short valuation edge.",
+  "exact_oracle_competitor_match_found": false,
+  "oracle_article_inputs": {
+    "comparison": "Intel X12 vs Intel X9 bare metal, not Intel vs AMD",
+    "model": "Meta-Llama-3-8B-Instruct via llama.cpp; AMX-aware quantization described without exact bitwidth/commit",
+    "reported_scenarios": [
+      {
+        "input_tokens": 128,
+        "output_tokens": 128,
+        "concurrency": 32,
+        "up_to_throughput_multiple": 6
+      },
+      {
+        "input_tokens": 128,
+        "output_tokens": 2048,
+        "concurrency": 16,
+        "up_to_throughput_multiple": 5
+      }
+    ],
+    "article_cpu_only_hourly_labels": {
+      "X9": 2.56,
+      "X12": 1.43
+    },
+    "claimed_cost_efficiency_multiple_range": [
+      10,
+      12
+    ],
+    "core_counts": [
+      64,
+      120
+    ],
+    "stated_extra_cores": 88,
+    "raw_tokens_per_second_disclosed": false,
+    "source": "oracle_inference"
+  },
+  "verified_billing_inputs": {
+    "X9": {
+      "shape": "BM.Standard3.64",
+      "OCPU": 64,
+      "memory_GB": 1024,
+      "cpu_sku": "B94176",
+      "memory_sku": "B94177",
+      "cpu_rate_USD_per_OCPU_hour": 0.04,
+      "memory_rate_USD_per_GB_hour": 0.0015,
+      "cpu_charge_USD_hour": 2.56,
+      "memory_charge_USD_hour": 1.536,
+      "cpu_plus_memory_USD_hour": 4.096
+    },
+    "X12": {
+      "shape": "BM.Standard4.Ax.120",
+      "OCPU": 120,
+      "memory_GB": 1152,
+      "cpu_sku": "B112141",
+      "memory_sku": "B112142",
+      "cpu_rate_USD_per_OCPU_hour": 0.0119,
+      "memory_rate_USD_per_GB_hour": 0.0114,
+      "cpu_charge_USD_hour": 1.428,
+      "memory_charge_USD_hour": 13.1328,
+      "cpu_plus_memory_USD_hour": 14.5608
+    },
+    "sources": [
+      "oracle_api",
+      "oracle_price_pdf",
+      "oracle_launch",
+      "oracle_shapes",
+      "oracle_price_web"
+    ]
+  },
+  "original_calculations": {
+    "formula_hourly": "OCPU_count * CPU_rate + allocated_memory_GB * memory_rate",
+    "formula_relative_cost_per_successful_token": "(X12_CPU_memory_hourly / X9_CPU_memory_hourly) / (X12_successful_token_throughput / X9_successful_token_throughput)",
+    "X12_to_X9_hourly_cost_ratio": 3.5548828125,
+    "required_X12_throughput_multiple_to_break_even": 3.5548828125,
+    "actual_extra_cores": 56,
+    "core_increase_pct": 87.5,
+    "X12_memory_share_of_CPU_memory_bill_pct": 90.19284654689302,
+    "vendor_up_to5_case": {
+      "assumed_x12_to_x9_successful_tokens_per_second": 5.0,
+      "x12_to_x9_cpu_memory_cost_per_token": 0.7109765625,
+      "x12_cost_per_token_savings_pct": 28.90234375,
+      "x9_to_x12_tokens_per_dollar": 1.4065161254876106,
+      "status": "Illustrative sensitivity, not measured by us"
+    },
+    "vendor_up_to6_case": {
+      "assumed_x12_to_x9_successful_tokens_per_second": 6.0,
+      "x12_to_x9_cpu_memory_cost_per_token": 0.59248046875,
+      "x12_cost_per_token_savings_pct": 40.751953125,
+      "x9_to_x12_tokens_per_dollar": 1.6878193505851327,
+      "status": "Illustrative sensitivity, not measured by us"
+    }
+  },
+  "valid_inference": "At stated public prices, X12 must deliver about3.55times as many successful tokens per second for equal CPU+memory cost per token on these fixed baremetal shapes. If the reported5\u20136times throughput is achieved for the same accepted quality/latency, calculated token cost is approximately29\u201341%lower. No measured dollar/token result can be calculated without absolute valid throughput.",
+  "limitations": [
+    "Vendor up-to throughput was not independently reproduced. The two claimed maxima correspond to different input/output/concurrency settings; do not treat them as a confidence interval.",
+    "Model quality, exact quantization, context/prompt data, run count, time-to-first-token, inter-token latency and failure rates were not sufficiently specified for a comparable productioncost test.",
+    "Compute list cost includes CPU and allocated memory; excludes boot/storage, data transfer, paid OS/software/support, unused capacity, taxes and contract discounts.",
+    "April launch prices match current price schedule, but any private discount or special benchmark billing arrangement is unverified. Seek author clarification before alleging a factual billing error.",
+    "Different socket counts, core counts, memory systems and AMX/software paths confound architectural attribution.",
+    "No sameOracleX12vsE6Ax matched workload study found. AWS performance data cannot be combined with Oracle prices.",
+    "No inference from cloud retail billing to Intel chip ASP, hardware cost, DCAI margin or marketwide workloads.",
+    "This is secondary benchmark evidence plus original arithmetic, not an original conducted interview or independently measured benchmark."
+  ],
+  "candidate_interview_questions": [
+    "Your July20 X12 article uses120OCPUs and1152GB. The April launch/price list separatesCPU$0.0119 andmemory$0.0114 perGBhour. Does the$1.43/hour example intentionallyexclude memory or use a different billing arrangement? I calculate$14.5608 CPU+memory, versus$4.096 forX9. Which pricing assumption should a reader use?",
+    "For each reported5x/6x case, could you share a public run command, llama.cpp commit, exact model/quantization, token counts, repetitions and measured successfultokens/s plus TTFT/ITL? Were accepted output quality and latency constraints equal?",
+    "Which workloads failed to achieve the3.55x throughput break-even at these fixed baremetal list configurations, and could right-sized VMs change the ranking?",
+    "Would a matched X12/E6Ax comparison use equal advertisedvCPU, equalphysicalcores, equalmonthlybudget or equalSLAcapacity, and why?"
+  ],
+  "external_AWS_measurements": {
+    "measurement_owner": "Michael Larabel / Phoronix",
+    "scope": "More than120tests, AWS4xlarge families,64GB perinstance, Ubuntu26.04/Linux7.0/GCC15.2",
+    "configurations": [
+      {
+        "instance": "m8i.4xlarge",
+        "cpu": "Xeon6975P-C",
+        "vCPU": 16,
+        "physical_cores": 8,
+        "memory_GB": 64,
+        "as_tested_USD_hour": 0.84672
+      },
+      {
+        "instance": "m8a.4xlarge",
+        "cpu": "EPYC9R45",
+        "vCPU": 16,
+        "physical_cores": 16,
+        "memory_GB": 64,
+        "as_tested_USD_hour": 0.97376
+      },
+      {
+        "instance": "m9g.4xlarge",
+        "cpu": "Graviton5",
+        "vCPU": 16,
+        "physical_cores": 16,
+        "memory_GB": 64,
+        "as_tested_USD_hour": 0.78272
+      }
+    ],
+    "reported_geo_mean_summary": "Graviton5 approximately19%ahead ofIntel;AMDapproximately17%ahead ofGraviton5. Different workloads varied.",
+    "analysis_limit": "Primary independent test evidence of purchasable instance economics, not pureper-core architecture, Intelmargin or OCIresults. Raw results403 prevented reproduction; no reprocessed win-count, geometricmean or current AWS-price claim made.",
+    "source_ids": [
+      "phoronix_setup",
+      "phoronix_summary",
+      "openbenchmarking_raw"
+    ]
+  },
+  "evidence_to_forecast": "Use to challenge the claim that AI CPU throughput gains automatically imply customer value or Intel pricing power. It neither identifies a35%matureDCAImargin nor .8capitalproductivity. Those remain scenario assumptions until customer willingness-to-pay and capital requirements are separately evidenced.",
+  "sources": [
+    {
+      "id": "oracle_inference",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/run-ai-inference-without-gpus",
+      "date": "2026-07-20",
+      "author": "Sanjay Basu, Senior Director, Gen AI/GPU Cloud Engineering",
+      "type": "Vendor practitioner first-hand benchmark description; raw measured tokens/s, run commands, repetitions and error bars not provided in reviewed article",
+      "retrieval": "Web tool opened successfully; direct archival fetch403, so no raw HTML file claimed"
+    },
+    {
+      "id": "oracle_launch",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/announcing-oci-x12-standard-acceleron-compute",
+      "date": "2026-04-16",
+      "authors": [
+        "Amit Rajkhowa",
+        "Calvin Smith"
+      ],
+      "role": "Confirms launch list prices and bare-metal capacity, predating July article"
+    },
+    {
+      "id": "oracle_api",
+      "url": "https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/?currencyCode=USD",
+      "data_updated": "2026-11-02T14:49:49.342Z",
+      "local_snapshot": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_evidence_gap_research_2026_11_05/raw_public_data/oracle_prices.json"
+    },
+    {
+      "id": "oracle_price_pdf",
+      "url": "https://www.oracle.com/il-en/a/ocom/docs/corporate/pricing/oracle-paas-and-iaas-global-price-list.pdf",
+      "date": "2026-10-08",
+      "page_1_based": 56,
+      "local_pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_customer_evidence/oracle_oct8_prices.pdf",
+      "page_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_original_research_2026_11_05/raw_benchmark_data/oracle_prices_p56.png",
+      "visually_checked": true
+    },
+    {
+      "id": "oracle_price_web",
+      "url": "https://www.oracle.com/cloud/price-list/",
+      "role": "Bare Metal Instances section lists X12/X9 CPU and memory SKUs separately; notes fixed baremetal resources and separately billed boot/storage"
+    },
+    {
+      "id": "oracle_shapes",
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm",
+      "role": "BM.Standard3.64=64OCPU1024GB; BM.Standard4.Ax.120=120OCPU1152GB"
+    },
+    {
+      "id": "oracle_service",
+      "url": "https://www.oracle.com/contracts/docs/paas_iaas_universal_credits_3940775.pdf?download=false",
+      "date": "2026-10-08",
+      "page_1_based": 228,
+      "role": "X12 CPU B112141 and memory B112142 have separate OCPU/Gigabyte per-hour metrics"
+    },
+    {
+      "id": "phoronix_setup",
+      "url": "https://www.phoronix.com/review/graviton5-epyc-xeon",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "phoronix_summary",
+      "url": "https://www.phoronix.com/review/graviton5-epyc-xeon/10",
+      "date": "2026-07-13"
+    },
+    {
+      "id": "openbenchmarking_raw",
+      "url": "https://openbenchmarking.org/result/2607134-PTS-2607114N32",
+      "status": "HTTP403; raw workload-level results not independently reprocessed"
+    }
+  ],
+  "qa": {
+    "source_model_modified": false,
+    "final_pdf_modified": false,
+    "actual_interviews": 0,
+    "actual_workloads_run_by_us": 0,
+    "money_spent": 0,
+    "price_rows_crosschecked_against_visual_pdf": true,
+    "list_prices_predate_article_confirmed_by_launch": true,
+    "core_delta_checked": true,
+    "CPU_only_price_labels_reproduced_to_rounding": true
+  }
+}

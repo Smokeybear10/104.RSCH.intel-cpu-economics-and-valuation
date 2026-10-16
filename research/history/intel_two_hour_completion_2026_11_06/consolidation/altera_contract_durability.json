@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-11-06T07:09:31.212734+00:00",
+  "facts": [
+    {
+      "source": "April 17, 2025 8-K, Foundry Manufacturing Customer Agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000063/intc-20250414.htm",
+      "paraphrase": "The announced foundry agreement runs through 2040 subject to termination terms. It includes wafer inventory/offtake arrangements and annual minimum offtake for specified 10nm wafers. Early manufacturing discontinuation can trigger $2.25B compensation, with stated exceptions and a later annual reduction; specified defect claims have separate caps."
+    },
+    {
+      "source": "September 15, 2025 closing 8-K",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000153/intc-20250912.htm",
+      "paraphrase": "The majority divestiture closed September 12, 2025. The closing notice does not restate the foundry commercial schedule."
+    },
+    {
+      "source": "Q3 2026 10-Q, Note 8",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "paraphrase": "Intel confirms an operating wafer manufacturing and sale agreement with Altera and recognized $126M Q3 and $446M nine-month 2026 revenue. Most transition corporate services ceased March 28, 2026."
+    }
+  ],
+  "assessment": {
+    "supports": "A continuing external customer relationship has contractual support beyond a one-quarter spot sale; useful corroboration of the normalized legacy Foundry revenue category.",
+    "does_not_prove": [
+      "Annual 2027\u201330 Altera sales of $640M obtained by annualizing H1 2026.",
+      "Flat revenue, margins, cash collection or 3% post-2030 growth.",
+      "Continuity of this particular contract beyond 2040.",
+      "That all announced 2025 commercial terms survived closing unchanged; current filings confirm operations but do not reproduce the full agreement."
+    ],
+    "model_treatment": "Keep existing normalized revenue as an analyst assumption and recognize no incremental Foundry profit. Continuing production does not by itself trigger a termination payment. A shutdown case must assess the contingent payment and remaining operating commitments together, without also reserving the full amount in a continuing-production base.",
+    "terminal_treatment": "The 2041+ legacy revenue continuation implicitly assumes renewal, replacement customers or successor production. Label this assumption; the announced agreement is not evidence of perpetuity.",
+    "capital_controls_limit": "Legacy-revenue-only controls change the capital denominator while holding aggregate Foundry profit fixed. They are accounting/reinvestment sensitivities, not full economic downside cases for a lost customer."
+  },
+  "search_limit": "Read announcement, closing notice and current operating disclosure; no public final detailed pricing/offtake schedule found in targeted official filing searches.",
+  "changes_to_forecast_or_valuation": false
+}

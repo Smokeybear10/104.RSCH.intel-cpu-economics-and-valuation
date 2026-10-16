@@ -1,0 +1,48 @@
+{
+  "all_final_pages_rendered_and_visually_inspected": true,
+  "all_text_inside_page_bounds": true,
+  "layout_defects_observed": false,
+  "initial_page10_footer_collision_fixed": true,
+  "changed_final_pages_reinspected": [
+    "notes-1.png",
+    "screen-01.png",
+    "screen-05.png",
+    "screen-07.png",
+    "screen-10.png"
+  ],
+  "other_pages_pixel_identical_to_inspected": [
+    "notes-2.png",
+    "screen-02.png",
+    "screen-03.png",
+    "screen-04.png",
+    "screen-06.png",
+    "screen-08.png",
+    "screen-09.png"
+  ],
+  "pdfs": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "cfeb26a895dc0486ab9cc8ee12e0a57e5170bf4cf9a43349a6add3c25dfc513c",
+      "pages": 10
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "75703d9d71f62b6410e03dde85fb57b1541d26dcd99bbfb672b66620ede97cf5",
+      "pages": 2
+    }
+  ],
+  "page_image_sha256": {
+    "screen-01.png": "f8bcd841832641f3d4d8366abb748f6354400a06ba5c3dec1a0e58cc433e64fb",
+    "screen-03.png": "eff29636ff939580ff3ffe1f059b10a7e003d2b790bbd45413f2e768a88927cf",
+    "screen-02.png": "9b18145539e8fba1ea86dac545e87be6f2f86c4be73d37de8525a433827fddd0",
+    "screen-06.png": "69279ecdb98453f63e84932b425fd2583515c3386552e87369a78ad910e2b908",
+    "screen-07.png": "b1c7c34f3d769d5f7fe4edfebf4158c3be96e87bd0bdba10ac300806b5a33305",
+    "screen-05.png": "9755d0b3e2f8bc17ccad581a3a37690a25b99ebd39ba0c157acc4a2e7331d668",
+    "screen-04.png": "58cdb99be9b8f343ccf388f2edd590ff4355db694c37fcc3d34c08ea69ac5ffa",
+    "screen-10.png": "67d1ac6a2700a9a20ce108e88aa8fd315e86e457567cd93303f53f0d7b2e77c5",
+    "screen-09.png": "76b3a9ac889ed3a3e998f77aac60ed14f75bbb4c85d7d03c2d2ab32a875d034d",
+    "screen-08.png": "6b8d4dc1dceaa74d209df854c4b0ca8d7f66397853e1ba8cbde1cfa8dd49c91b",
+    "notes-1.png": "c0c196d1e07944de8eca2ea8ade5cecbbccd7f6853161916ada5fa7eded2909e",
+    "notes-2.png": "6932eaaf0797840943967f24a0bfc1162978cfe8b6ae72dc54c01a4990713031"
+  }
+}

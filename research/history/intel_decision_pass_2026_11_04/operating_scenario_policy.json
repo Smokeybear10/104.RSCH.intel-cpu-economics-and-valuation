@@ -1,0 +1,660 @@
+{
+  "title": "Intel post-2030 joint operating scenarios: policy frozen before new scenario equity outputs",
+  "frozen_utc": "2026-11-04T18:07:07.495010+00:00",
+  "owner": "operating_scenario_policy",
+  "scope": "A bounded challenge to the current ASP20/mature35 host. Preserve the already funded 2027-2030 operating/treasury path and the separate packaging program. These are conditional continuation scenarios, not a complete probability-weighted forecast or a newly chosen stock direction.",
+  "chronology": "Historical and current central valuations, including the recent discount-rate diagnostic, are known from inherited context. No new equity value or joint scenario output has been computed or inspected in selecting this policy.",
+  "root_choice_recommendation": "Retain the existing 35% DCAI margin/0.80 capital-productivity central forecast for this pass. Compare it with 30%/0.60 and 40%/1.00 coherent continuation cases; do not relabel the high case as central solely because its value reaches a desired price.",
+  "why_these_ranges": {
+    "DCAI_margin": "30-40% brackets plausible normalization of the current roughly 42% segment margin and uncertainty about CPU pricing, product development scale and lower-margin custom mix. At the modelled mature Other DCAI share of about one quarter, 40% requires strong CPU profitability; it is a favorable outcome, not a neutral assumption. Existing primary-history scopes differ, so neither old peak margins nor one scarcity quarter establish a steady-state floor.",
+    "capital_productivity": "0.60-1.00 spans the prior same-company flow diagnostic and a meaningful further improvement from paid factory space and longer node use. 0.80 remains a reasonable planning middle. The endpoints are economic judgments, not measured marginal-capital coefficients, physical bounds, percentiles or statistical confidence intervals.",
+    "joint_logic": "The two dimensions represent different mechanisms: product economic rent/cost leverage affects DCAI margin; physical capacity required per incremental sale affects capital. Pairing them in favorable and unfavorable directions is an internally consistent business narrative, not an estimated correlation."
+  },
+  "implementation": {
+    "current_value_source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+    "host_policy": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+    "margin_policy": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_mature_DCAI_margin_addendum.json",
+    "margin_rule": "For year y >2030, DCAI margin = current35-policy margin + (target-.35)*min((y-2030)/10,1). Multiply the delta by unchanged DCAI sales and add once to group EBIT. This reaches 30/35/40% in2040. Do not add a second manufacturing saving to Foundry.",
+    "capital_rule": "For year y >2030, host turnover = .80 + (target-.80)*min((y-2030)/5,1), reaching .60/.80/1.00 in2035. Gross physical host capex = unchanged normalized host DA + change in host external-sales denominator / turnover - unchanged host WC cash use. This changes investment for new growth; it does not retroactively release or recover already-spent capital.",
+    "combined_model_delta": "Add DCAI revenue times margin delta to current combined EBIT. Add host external-sales change*(1/turnover-1/.8) to current combined physical capex. All package, tax-credit, lease, NCI, recurring economic SBC and claims assumptions are unchanged. Recompute ordinary operating taxes on changed EBIT and verify any tax-capacity assumptions; do not leave taxes unchanged mechanically.",
+    "near_term_and_endpoints": "All2027-2030 rows are unchanged, so end2026 through end2030 treasury/cash/debt remain unchanged. Endpoint operating values still change because they discount later cash. If reporting2031 or later equity endpoints, recompute retained cash/treasury, including the changed operating cash, once.",
+    "terminal": "Hold target margin and turnover after2040. Preserve3% nominal growth, separately funded packaging and its1.00 turnover. Verify that2041 terminal operating cash grows consistently from2040; never apply host turnover to packaging sales a second time.",
+    "depreciation_scope": "Preserve the aggregate normalized DA path (20% of Products by2035) and margins defined after that depreciation. This is an aggregate economic forecast, not a vintaged PP&E/tax-depreciation reconstruction. Higher or lower future physical capital and chosen profit margins must be understood jointly; no claim that unchanged accounting DA is mechanically exact for changed asset cohorts.",
+    "no_new_funding_credit": "No extra AMIC, customer funding, external wafer award, partner cash or minority ownership adjustment is invented. Their economics require a separate evidence-based model if added."
+  },
+  "risk_context": {
+    "preferred_reporting": "Show the same common discount-rate columns for every operating case so the operational result is separated from the risk-rate judgment. Keep the already selected12% as the central comparison and retain10/11/13% diagnostics if root uses them. Do not silently pair the favorable case only with10% and the unfavorable case only with13%.",
+    "interpretation": "Successful execution can reduce uncertainty, but lower uncertainty is not a measured lower systematic asset beta. A mature leading-edge manufacturer still faces pricing, demand, technology and capital cycles. The existing sector-based12% rationale is imperfect but not arbitrary. A lower rate is a separate hypothesis to defend rather than a reward automatically attached to high margins.",
+    "optional_separate_test": "If root tests de-risking after the investment phase, explicitly distinguish a future lower continuation discount rate from discounting every near-term cash flow at that lower rate today; do not count de-risking as both better cash and an unexplained re-rating."
+  },
+  "mix_sanity": {
+    "mature_Other_DCAI_share": 0.2474832777081776,
+    "illustrative_Other_margin": 0.2,
+    "implied_CPU_margin_by_DCAI_blend": {
+      "0.3": 0.33288741238260544,
+      "0.35": 0.3993311185739082,
+      "0.4": 0.465774824765211
+    },
+    "limit": "Other DCAI margin is illustrative, not disclosed; no CPU/custom segment split is reconstructed."
+  },
+  "scenario_policies": [
+    {
+      "name": "less_productive",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_incremental_sales_to_capital": 0.6,
+      "net_operating_capital_required_per_dollar_incremental_sales": 1.6666666666666667,
+      "story": "CPU pricing and product-cost leverage normalize more than in the central case, while retained-node reuse is less effective and each incremental unit of annual sales consumes more net operating capital.",
+      "annual_changes": [
+        {
+          "year": 2027,
+          "DCAI_margin": 0.38791247099481013,
+          "DCAI_margin_delta_vs_current": -0.0,
+          "DCAI_EBIT_delta_B": -0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2028,
+          "DCAI_margin": 0.3948237931657769,
+          "DCAI_margin_delta_vs_current": -0.0,
+          "DCAI_EBIT_delta_B": -0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2029,
+          "DCAI_margin": 0.3910143606284041,
+          "DCAI_margin_delta_vs_current": -0.0,
+          "DCAI_EBIT_delta_B": -0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2030,
+          "DCAI_margin": 0.3863485847912473,
+          "DCAI_margin_delta_vs_current": -0.0,
+          "DCAI_EBIT_delta_B": -0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2031,
+          "DCAI_margin": 0.3776131097358172,
+          "DCAI_margin_delta_vs_current": -0.004999999999999999,
+          "DCAI_EBIT_delta_B": -0.42838739354555994,
+          "host_incremental_sales_to_net_operating_capital": 0.76,
+          "host_physical_capex_delta_B": 0.6717990425891514,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2032,
+          "DCAI_margin": 0.36893462887743284,
+          "DCAI_margin_delta_vs_current": -0.009999999999999998,
+          "DCAI_EBIT_delta_B": -0.9408194923912485,
+          "host_incremental_sales_to_net_operating_capital": 0.72,
+          "host_physical_capex_delta_B": 1.3694908580610128,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2033,
+          "DCAI_margin": 0.3602854815972972,
+          "DCAI_margin_delta_vs_current": -0.014999999999999996,
+          "DCAI_EBIT_delta_B": -1.532154958654527,
+          "host_incremental_sales_to_net_operating_capital": 0.68,
+          "host_physical_capex_delta_B": 2.0969457149355835,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2034,
+          "DCAI_margin": 0.3516597332150514,
+          "DCAI_margin_delta_vs_current": -0.019999999999999997,
+          "DCAI_EBIT_delta_B": -2.192364491480265,
+          "host_incremental_sales_to_net_operating_capital": 0.64,
+          "host_physical_capex_delta_B": 2.8033677686706504,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2035,
+          "DCAI_margin": 0.34303808618009524,
+          "DCAI_margin_delta_vs_current": -0.024999999999999994,
+          "DCAI_EBIT_delta_B": -2.913212466222639,
+          "host_incremental_sales_to_net_operating_capital": 0.6,
+          "host_physical_capex_delta_B": 3.509945745778479,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2036,
+          "DCAI_margin": 0.3344205659680809,
+          "DCAI_margin_delta_vs_current": -0.029999999999999992,
+          "DCAI_EBIT_delta_B": -3.68025831102909,
+          "host_incremental_sales_to_net_operating_capital": 0.6,
+          "host_physical_capex_delta_B": 3.1227383545225376,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2037,
+          "DCAI_margin": 0.32581174859530343,
+          "DCAI_margin_delta_vs_current": -0.03499999999999999,
+          "DCAI_EBIT_delta_B": -4.493105194675201,
+          "host_incremental_sales_to_net_operating_capital": 0.6,
+          "host_physical_capex_delta_B": 2.9530769061227136,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2038,
+          "DCAI_margin": 0.31720793644122,
+          "DCAI_margin_delta_vs_current": -0.039999999999999994,
+          "DCAI_EBIT_delta_B": -5.341141585257721,
+          "host_incremental_sales_to_net_operating_capital": 0.6,
+          "host_physical_capex_delta_B": 2.7433249156453368,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2039,
+          "DCAI_margin": 0.3086039943567055,
+          "DCAI_margin_delta_vs_current": -0.04499999999999999,
+          "DCAI_EBIT_delta_B": -6.219539416859842,
+          "host_incremental_sales_to_net_operating_capital": 0.6,
+          "host_physical_capex_delta_B": 2.56509080773346,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2040,
+          "DCAI_margin": 0.3000000000000001,
+          "DCAI_margin_delta_vs_current": -0.04999999999999999,
+          "DCAI_EBIT_delta_B": -7.117917332628487,
+          "host_incremental_sales_to_net_operating_capital": 0.6,
+          "host_physical_capex_delta_B": 2.3597138565723226,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2041,
+          "DCAI_margin": 0.3,
+          "DCAI_margin_delta_vs_current": -0.04999999999999999,
+          "DCAI_EBIT_delta_B": -7.331454852607341,
+          "host_incremental_sales_to_net_operating_capital": 0.6,
+          "host_physical_capex_delta_B": 2.4305052722694858,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        }
+      ]
+    },
+    {
+      "name": "central",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_incremental_sales_to_capital": 0.8,
+      "net_operating_capital_required_per_dollar_incremental_sales": 1.25,
+      "story": "Premium CPU economics partly persist, custom-silicon mix dilutes the blend, and paid factory capacity becomes more productive after the current ramp.",
+      "annual_changes": [
+        {
+          "year": 2027,
+          "DCAI_margin": 0.38791247099481013,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2028,
+          "DCAI_margin": 0.3948237931657769,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2029,
+          "DCAI_margin": 0.3910143606284041,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2030,
+          "DCAI_margin": 0.3863485847912473,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2031,
+          "DCAI_margin": 0.3826131097358172,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2032,
+          "DCAI_margin": 0.37893462887743284,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2033,
+          "DCAI_margin": 0.3752854815972972,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2034,
+          "DCAI_margin": 0.3716597332150514,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2035,
+          "DCAI_margin": 0.36803808618009526,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2036,
+          "DCAI_margin": 0.36442056596808087,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2037,
+          "DCAI_margin": 0.3608117485953034,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2038,
+          "DCAI_margin": 0.35720793644121995,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2039,
+          "DCAI_margin": 0.3536039943567055,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2040,
+          "DCAI_margin": 0.3500000000000001,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2041,
+          "DCAI_margin": 0.35,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": 0.8,
+          "host_physical_capex_delta_B": 0.0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        }
+      ]
+    },
+    {
+      "name": "more_productive",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_incremental_sales_to_capital": 1.0,
+      "net_operating_capital_required_per_dollar_incremental_sales": 1.0,
+      "story": "CPU IP/value and product-design scale sustain stronger retained margins, while longer node use and paid existing-site tooling reduce incremental capital required. This is a strong business outcome, not an automatic consequence of technical node readiness.",
+      "annual_changes": [
+        {
+          "year": 2027,
+          "DCAI_margin": 0.38791247099481013,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2028,
+          "DCAI_margin": 0.3948237931657769,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2029,
+          "DCAI_margin": 0.3910143606284041,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2030,
+          "DCAI_margin": 0.3863485847912473,
+          "DCAI_margin_delta_vs_current": 0.0,
+          "DCAI_EBIT_delta_B": 0.0,
+          "host_incremental_sales_to_net_operating_capital": null,
+          "host_physical_capex_delta_B": 0,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2031,
+          "DCAI_margin": 0.3876131097358172,
+          "DCAI_margin_delta_vs_current": 0.0050000000000000044,
+          "DCAI_EBIT_delta_B": 0.4283873935455604,
+          "host_incremental_sales_to_net_operating_capital": 0.8400000000000001,
+          "host_physical_capex_delta_B": -0.6078181813901838,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2032,
+          "DCAI_margin": 0.38893462887743285,
+          "DCAI_margin_delta_vs_current": 0.010000000000000009,
+          "DCAI_EBIT_delta_B": 0.9408194923912495,
+          "host_incremental_sales_to_net_operating_capital": 0.88,
+          "host_physical_capex_delta_B": -1.120492520231737,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2033,
+          "DCAI_margin": 0.3902854815972972,
+          "DCAI_margin_delta_vs_current": 0.015000000000000013,
+          "DCAI_EBIT_delta_B": 1.5321549586545287,
+          "host_incremental_sales_to_net_operating_capital": 0.92,
+          "host_physical_capex_delta_B": -1.5499163979958672,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2034,
+          "DCAI_margin": 0.39165973321505143,
+          "DCAI_margin_delta_vs_current": 0.020000000000000018,
+          "DCAI_EBIT_delta_B": 2.192364491480267,
+          "host_incremental_sales_to_net_operating_capital": 0.96,
+          "host_physical_capex_delta_B": -1.868911845780433,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2035,
+          "DCAI_margin": 0.3930380861800953,
+          "DCAI_margin_delta_vs_current": 0.025000000000000022,
+          "DCAI_EBIT_delta_B": 2.913212466222642,
+          "host_incremental_sales_to_net_operating_capital": 1.0,
+          "host_physical_capex_delta_B": -2.105967447467087,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2036,
+          "DCAI_margin": 0.3944205659680809,
+          "DCAI_margin_delta_vs_current": 0.030000000000000027,
+          "DCAI_EBIT_delta_B": 3.6802583110290934,
+          "host_incremental_sales_to_net_operating_capital": 1.0,
+          "host_physical_capex_delta_B": -1.8736430127135222,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2037,
+          "DCAI_margin": 0.39581174859530344,
+          "DCAI_margin_delta_vs_current": 0.03500000000000003,
+          "DCAI_EBIT_delta_B": 4.493105194675206,
+          "host_incremental_sales_to_net_operating_capital": 1.0,
+          "host_physical_capex_delta_B": -1.7718461436736277,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2038,
+          "DCAI_margin": 0.39720793644122,
+          "DCAI_margin_delta_vs_current": 0.040000000000000036,
+          "DCAI_EBIT_delta_B": 5.341141585257727,
+          "host_incremental_sales_to_net_operating_capital": 1.0,
+          "host_physical_capex_delta_B": -1.6459949493872017,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2039,
+          "DCAI_margin": 0.3986039943567055,
+          "DCAI_margin_delta_vs_current": 0.04500000000000004,
+          "DCAI_EBIT_delta_B": 6.219539416859849,
+          "host_incremental_sales_to_net_operating_capital": 1.0,
+          "host_physical_capex_delta_B": -1.5390544846400758,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2040,
+          "DCAI_margin": 0.40000000000000013,
+          "DCAI_margin_delta_vs_current": 0.050000000000000044,
+          "DCAI_EBIT_delta_B": 7.117917332628495,
+          "host_incremental_sales_to_net_operating_capital": 1.0,
+          "host_physical_capex_delta_B": -1.4158283139433934,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        },
+        {
+          "year": 2041,
+          "DCAI_margin": 0.4,
+          "DCAI_margin_delta_vs_current": 0.050000000000000044,
+          "DCAI_EBIT_delta_B": 7.331454852607349,
+          "host_incremental_sales_to_net_operating_capital": 1.0,
+          "host_physical_capex_delta_B": -1.4583031633616912,
+          "host_WC_cash_delta_B": 0.0,
+          "host_DA_delta_B": 0.0,
+          "Foundry_profit_delta_B": 0.0,
+          "packaging_operating_or_capital_delta_B": 0.0
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "This deliberately preserves the near-term operating outcome. It omits 2027-2030 unit/ASP misses, package qualification delays, PC downside, Foundry breakeven timing and correlated financing needs; it is not a full business bear/bull envelope.",
+    "Because the test only alters cash after2030, it cannot establish a2027-2028 repricing catalyst. It tests whether current value depends on plausible continuation economics and whether a high long-run return requires unusually favorable assumptions.",
+    "The current model host external-sales denominator is not a fully reconciled consolidated-revenue statement. Use it only consistently for the existing capital convention; do not present it as issuer guidance or exact reported revenue.",
+    "Attractive terminal cash does not make current external customer awards or technology readiness equivalent to enforceable profits. No new14A waiver or free option is inserted.",
+    "The scope of a3-5year competition recommendation still needs an explicit directional judgment after examining scenarios. This policy supplies comparisons rather than that judgment."
+  ],
+  "sources": [
+    {
+      "id": "intel_2025_10k",
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locators": [
+        "Our Business, printed pages 11-12",
+        "Note 6 PP&E, printed page 79"
+      ],
+      "facts": "Intel aims to extend process-node use through optimization, disaggregated products and external customers. Its 2025 net PP&E was $105.414B, including $34.543B construction in progress. It also recorded manufacturing impairments and accelerated depreciation after reuse assessments.",
+      "inference": "Prebuilt space and node reuse support improvement, but substantial unfinished capacity is neither immediately productive nor freely reusable. Recent impairment experience prevents treating all old capacity as an economic asset forever."
+    },
+    {
+      "id": "intel_q3_2026_remarks",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "locators": [
+        "PDF pages 5-7"
+      ],
+      "facts": "DCAI reported approximately 42% operating margin; purpose-built silicon grew above 50% sequentially. Intel described lower Intel 3/18A costs, ongoing Foundry losses, and strongly higher planned 2027 capital spending.",
+      "inference": "High product margins are currently feasible; the future blend is uncertain. Better process economics and additional investment can occur together. Product margin, manufacturing profit and capital efficiency cannot be credited repeatedly for one improvement."
+    },
+    {
+      "id": "intel_2020_10k_historical_diagnostic",
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-21-000010/0000050863-21-000010.pdf",
+      "locators": [
+        "Printed pages 50,77,87"
+      ],
+      "provenance": "Existing primary-source reconstruction in capital_productivity_adjudication_2026_11_04.json, including visually verified source tables; not newly re-rendered this pass.",
+      "analysis": "2018-2020 sales growth divided by cumulative cash PPE less physical depreciation plus selected operating working capital was about 0.727; including acquisitions makes it about 0.636. This is a historical scope check, not a causal estimate or a precise forecast parameter."
+    }
+  ],
+  "source_hashes": {
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_mature_DCAI_margin_addendum.json": "e105795d651a0b68cabffcc3716d55d530dd12f3bac92bb02cee261d51a21314",
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/capital_productivity_adjudication_2026_11_04.json": "5eb1b83b525e984cf3e23757d3bb70e532ae61b8e30f8e647c242cc3dde7fbe7",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/physical_reuse_capacity_bridge_2026_11_04.json": "ca8205854ccdc64441fe92b3e80d31220e256d10aa12319bb41245e5e7b344ea",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+  },
+  "checks": {
+    "new_equity_calculation_performed": false,
+    "new_equity_output_viewed": false,
+    "2027_2030_margin_capital_deltas_zero": true
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "computed_utc": "2026-11-07T01:12:30.247954+00:00",
+  "source_file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/economic_underwriting/prior_year_ASP_extension_results.json",
+  "source_sha256": "872f4d9ed650279b22d362f5f8d9a9fb65a3e6764e7bc711ebf55415f523030e",
+  "novelty": "Rebase of existing Nov5 feasible witnesses to current Q4 CPU sales and current 2027 quarterly unit/ASP path. Identification method and historical witnesses are not new research.",
+  "policy": {
+    "new_forecast": false,
+    "main_model_edited": false,
+    "units_formula": "Q4units = 1.176 * YTD2026units / (sum(2027 quarterly indices) - 1.176).",
+    "q4_CPU_revenue_B": 6.81206,
+    "2027_unit_factor": 1.176,
+    "quarter_unit_indices_relative_to_Q4_2026": [
+      1.0,
+      1.05,
+      1.155,
+      1.2705
+    ],
+    "quarter_ASP_indices_relative_to_Q4_2026": [
+      1.0,
+      1.02,
+      1.0506,
+      1.082118
+    ],
+    "rounding_assumption": "Original closed +/-0.5 percentage-point bands for reported whole percentages, including analyst convention for 2025Q3 'roughly flat'. Endpoints are mathematical witnesses, not observations or probabilities.",
+    "scope": "Conditional on server unit/ASP statistics covering the same population as DCAI less Other revenue. Matching terminology and segment comparatives support, but do not establish, identical scope.",
+    "revenue_residual_boundary": "Witnesses use unrounded latent Q3Other consistent with published rounded values. Their reconstructed FY2026sales differ by $40-50M from the active model's $22.14406B annual anchor. Do not silently overwrite that anchor or claim exact21.9%ASP from these witnesses."
+  },
+  "results": [
+    {
+      "name": "low_Q3_ASP_original_endpoint",
+      "historical_units": [
+        [
+          0.7513194476959725,
+          0.7560499714365044,
+          0.9026616998982249
+        ],
+        [
+          0.8752871565658078,
+          0.8581167175804324,
+          0.9071750083977159
+        ],
+        [
+          0.8271463629546884,
+          0.9322585693037456,
+          1.0
+        ]
+      ],
+      "historical_revenue_B": [
+        [
+          3.2447300405472705,
+          3.1366172452531633,
+          3.4786069651741296
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.496
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.954
+        ]
+      ],
+      "q4_2026_units_over_q3": 0.983500591100445,
+      "q4_2026_ASP_over_q3_minus1": 0.1633087881241413,
+      "q4_2026_ASP_over_reconstructed_FY2026_minus1": 0.1680890384986935,
+      "reconstructed_2026_CPU_revenue_B": 22.194059999999997,
+      "2027_CPU_revenue_B": 31.73925349266314,
+      "2027_unit_growth": 0.17600000000000016,
+      "2027_ASP_growth": 0.2160533554120767,
+      "historical_checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649999999999998,
+          "ASP_growth": -0.09500000000000008,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.1349999999999998,
+          "ASP_growth": -0.075296632694417,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.004999999999999893,
+          "ASP_growth": 0.0,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14995292603444943,
+          "ASP_growth": -0.08520411133050998,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.09566173718370052,
+          "ASP_growth": -0.05500000000000005,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05500000000000005,
+          "ASP_growth": 0.27349130564564605,
+          "rounding_band_violation": 4.597017211338539e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640066112727118,
+          "ASP_growth": 0.4849999999999999,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.10232313582605723,
+          "ASP_growth": 0.5449999999999999,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.015000000000000124,
+          "ASP_growth": 0.38368388957826816,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.04499999999999993,
+          "ASP_growth": 0.4418275271701815,
+          "rounding_band_violation": 0
+        }
+      ],
+      "max_rounding_band_violation": 4.597017211338539e-17
+    },
+    {
+      "name": "high_Q3_ASP_original_endpoint",
+      "historical_units": [
+        [
+          1.044410219629798,
+          1.265841081176573,
+          0.9044589313331234
+        ],
+        [
+          1.2167379058687144,
+          1.430539525079816,
+          0.9049773755656109
+        ],
+        [
+          1.149817321045935,
+          1.5541390858154047,
+          1.0
+        ]
+      ],
+      "historical_revenue_B": [
+        [
+          3.2447300405472705,
+          3.157854467165576,
+          3.4786069651741296
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.496
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.954
+        ]
+      ],
+      "q4_2026_units_over_q3": 1.3201553976265907,
+      "q4_2026_ASP_over_q3_minus1": -0.13334832943958386,
+      "q4_2026_ASP_over_reconstructed_FY2026_minus1": 0.1680890384986935,
+      "reconstructed_2026_CPU_revenue_B": 22.194059999999997,
+      "2027_CPU_revenue_B": 31.73925349266314,
+      "2027_unit_growth": 0.17600000000000016,
+      "2027_ASP_growth": 0.2160533554120767,
+      "historical_checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649999999999998,
+          "ASP_growth": -0.09500000000000008,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.13010989005836282,
+          "ASP_growth": -0.07754106958196094,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.0005732092575208014,
+          "ASP_growth": 0.004424254718716769,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14588288729651344,
+          "ASP_growth": -0.08499999999999996,
+          "rounding_band_violation": 3.209238430557093e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.10499999999999998,
+          "ASP_growth": -0.06500000000000017,
+          "rounding_band_violation": 1.708702623837155e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05500000000000005,
+          "ASP_growth": 0.2734913056456463,
+          "rounding_band_violation": 4.597017211338539e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640066112727118,
+          "ASP_growth": 0.4850000000000001,
+          "rounding_band_violation": 1.1535911115245767e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.10499999999999998,
+          "ASP_growth": 0.54125723515951,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.021410289397776117,
+          "ASP_growth": 0.3750000000000002,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.042705720341065456,
+          "ASP_growth": 0.44499999999999984,
+          "rounding_band_violation": 0
+        }
+      ],
+      "max_rounding_band_violation": 1.708702623837155e-16
+    },
+    {
+      "name": "original_strict_interior_witness",
+      "historical_units": [
+        [
+          0.8997620589494781,
+          1.085777441937667,
+          0.9054577147849369
+        ],
+        [
+          1.048221898914083,
+          1.2323563108218099,
+          0.9054577147849369
+        ],
+        [
+          0.9905707426957073,
+          1.3388336123926352,
+          1.0
+        ]
+      ],
+      "historical_revenue_B": [
+        [
+          3.244736411069762,
+          3.142744110438286,
+          3.4686601678210622
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.4859999999999998
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.943999999999999
+        ]
+      ],
+      "q4_2026_units_over_q3": 1.1866584396374875,
+      "q4_2026_ASP_over_q3_minus1": -0.034229508995697544,
+      "q4_2026_ASP_over_reconstructed_FY2026_minus1": 0.16861558280054778,
+      "reconstructed_2026_CPU_revenue_B": 22.18406,
+      "2027_CPU_revenue_B": 31.73925349266314,
+      "2027_unit_growth": 0.17599999999999993,
+      "2027_ASP_growth": 0.2166015207864096,
+      "historical_checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649989999999999,
+          "ASP_growth": -0.095001,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.13499899999999987,
+          "ASP_growth": -0.07709855394929754,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.0,
+          "ASP_growth": 0.004998999999999976,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14859372413236982,
+          "ASP_growth": -0.08500099999999988,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.10205430404752525,
+          "ASP_growth": -0.06103867883805991,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05499900000000002,
+          "ASP_growth": 0.273489958037225,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640139271070058,
+          "ASP_growth": 0.4849990000000002,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.1044138049423089,
+          "ASP_growth": 0.54390150794081,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.021409546554469694,
+          "ASP_growth": 0.3750009999999999,
+          "rounding_band_violation": 0
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.04499900000000001,
+          "ASP_growth": 0.44230433606277386,
+          "rounding_band_violation": 0
+        }
+      ],
+      "max_rounding_band_violation": 0
+    }
+  ],
+  "conclusion": "Both falling and rising Q4 sequential ASP can reconcile the same current revenue forecast and17.6% annual unit growth. This validates mathematical possibility, not forecast likelihood, and cannot substantiate pricing power or justify a higher valuation."
+}

@@ -1,0 +1,140 @@
+{
+  "reference_price_USD": 52.25,
+  "sources": [
+    {
+      "id": "sp_global_proxy",
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "type": "Public redistributor of identified S&P Global consensus; not original bank research",
+      "accessed_utc": "2026-11-06T06:16:02.196198+00:00",
+      "data_date": "2026-11-05",
+      "period": "FY2026 and FY2027, ending December 31",
+      "facts": {
+        "FY2026_consolidated_revenue_B": 61.82,
+        "FY2027_consolidated_revenue_B": 69.27,
+        "FY2027_adjusted_nonGAAP_EPS_USD": 1.8,
+        "one_year_target_mean_USD": 92.72,
+        "one_year_target_median_USD": 88,
+        "one_year_target_low_high_USD": [
+          70,
+          160
+        ],
+        "rating_analysts": 49,
+        "rating": "Hold"
+      },
+      "limits": [
+        "No public CPU-only or DCAI consensus on the page.",
+        "49 counts ratings, not FY2027 financial-estimate contributors; latter is unavailable publicly.",
+        "Forecasts may combine different update times; page identifies vendor, not every underlying analyst vintage.",
+        "Do not compare adjusted EPS with economic owner cash or APV.",
+        "A target survey is not a market-implied cash-flow forecast.",
+        "The displayed $52.25 close is now independently corroborated and selected for the refreshed entry; prior $52.22 receipts stay frozen."
+      ],
+      "accepted_use": "Current dated consolidated-revenue proxy with explicit scope; compare through non-Products headroom, not a falsely matched consolidated model."
+    },
+    {
+      "id": "ifast",
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "type": "Research firm primary publication of its own estimates",
+      "publication_date": "2026-11-02",
+      "information_date": "2026-10-30",
+      "facts": {
+        "FY2027_DCAI_growth": 0.37,
+        "FY2027_CCPG_revenue_growth": -0.12,
+        "FY2026_consolidated_revenue_B": 61.718,
+        "FY2027_consolidated_revenue_B": 69.198,
+        "FY2028_consolidated_revenue_B": 80.73,
+        "FY2027_EPS_USD": 1.77,
+        "FY2028_EPS_USD": 2.59,
+        "FY2027_2028_gross_capex_B": [
+          30,
+          32
+        ],
+        "target_USD": 65,
+        "target_basis": "25x FY2028 EPS",
+        "reference_price_USD": 70.87,
+        "rating": "SELL"
+      },
+      "limits": [
+        "Segment forecast bases are not fully disclosed; 37% versus our47.07% is not an exact matched revenue-dollar beat.",
+        "Their65target is24.4% above our $52.25 entry and has a different date/method from our2030APV. SELL cannot be transplanted to today.",
+        "Packaging cost and CPU core-count assertions are not adopted as technical evidence."
+      ],
+      "accepted_use": "An observable post-results economic disagreement: their PCs decline more, DCAI grows less, and capex remains substantial. It supports a variant comparison, not consensus or proof our forecast is right."
+    },
+    {
+      "id": "morningstar",
+      "url": "https://global.morningstar.com/en-ca/stocks/intel-earnings-pc-winter-has-arrived-offsetting-healthy-ai-growth",
+      "type": "Primary research firm publication; Brian Colello",
+      "publication_date": "2026-10-30",
+      "facts": {
+        "fair_value_USD": 85,
+        "previous_fair_value_USD": 105,
+        "moat": "None",
+        "uncertainty": "Very High"
+      },
+      "summary": "Morningstar cut fair value because of weaker PCs. It recognizes server and agentic-AI growth, with manufacturing/substrate constraints limiting near-term upside. Its article considered shares modestly undervalued after the initial earnings selloff.",
+      "limits": [
+        "No public segment or long-term cash-flow forecast accompanies this note.",
+        "Its assessment predates the Nov5reference price.",
+        "Do not import85as our own fair value or label it a December2030target."
+      ],
+      "accepted_use": "Refutes a claim that professional research universally misses server growth. A higher independent valuation indicates disagreement, but does not validate our assumptions or identify current investor beliefs."
+    },
+    {
+      "id": "intel_10q",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "type": "Primary company filing",
+      "publication_date": "2026-10-30",
+      "facts_used": "Products/external Foundry/All Other reconciliation; DCAI ASP and units; supplier funding, cash/debt, claim and stock accounting.",
+      "boundary": "Historical accounts validate scope and current conditions, not future accepted units or profit persistence."
+    },
+    {
+      "id": "intel_prepared",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "type": "Primary company prepared remarks",
+      "publication_date": "2026-10-29",
+      "facts_used": "Q3 costs/mix/realized margin, Q4 guidance, capex and demand outlook.",
+      "boundary": "Cost reductions already realized byQ3 belong in the starting economics; prospective output and margin remain forecasts."
+    },
+    {
+      "id": "intel_aug26",
+      "url": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference",
+      "transcript_url": "https://earningsapi.io/transcripts/intel-corporation_intc_earnings_call_transcript_2026-08-26",
+      "type": "Official event; third-party transcription of first-person CFO remarks",
+      "publication_date": "2026-08-26",
+      "verified_scope": "Delivery agent archived official event and transcript. I independently read the transcript passages on core pricing, Ireland output and margin/capex. No claim of independently verifying audio.",
+      "facts_used": "CFO described stabilizing like-for-like ASP per core, intended more-than-doubling of Ireland output in2027, and customer agreements informing supply allocation.",
+      "boundary": "Intent is not accepted-package output; flat core prices do not establish all-in costs or segment margins. August group-GM confidence must be read against OctoberQ4guidance."
+    }
+  ],
+  "comparisons": {
+    "current_consolidated_consensus_proxy": {
+      "source": "sp_global_proxy",
+      "FY2027_total_B": 69.27,
+      "owned_FY2027_Products_B": 68.3326878,
+      "remainder_for_all_external_nonProducts_B": 0.9373121999999938,
+      "owned_Products_as_fraction_of_proxy_total": 0.986468713728887,
+      "owned_AllOther_proxy_B": 2.8,
+      "owned_gross_packaging_B": 0.5,
+      "owned_known_sum_before_unknown_legacy_and_eliminations_B": 71.6326878,
+      "known_sum_minus_proxy_B": 2.3626878000000033,
+      "not_a_consensus_beat_percentage": true,
+      "interpretation": "Our Products forecast alone consumes 98.65% of the current consolidated consensus proxy. It leaves $0.94B for external Foundry and external All Other, whereas our modeled All Other proxy is $2.8B and gross packaging is $0.5B. This is a headroom diagnostic showing the optimistic direction of our forecast. It is not a fully matched revenue beat: legacy external Foundry and future Other eliminations are unspecified.",
+      "completion_needed": "Own explicit legacy external Foundry and Other-internal series before publishing consolidated revenue comparisons. Do not quietly insert a residual to hit consensus."
+    },
+    "ifast_same_period_growth": {
+      "our_FY2027_DCAI_growth": 0.4707013165629612,
+      "ifast_FY2027_DCAI_growth": 0.37,
+      "difference_percentage_points": 10.070131656296121,
+      "our_FY2027_CCPG_growth": -0.07214428530809525,
+      "ifast_FY2027_CCPG_growth": -0.12,
+      "caution": "Different forecast bases are incompletely disclosed. Relative optimism is observed; a dollar beat cannot be derived by multiplying their rate by our base."
+    },
+    "old_comparisons_not_upgraded": {
+      "DIGITIMES": "Oct27pre-results2027CPUrevenue28.7Bversus31.475088Bours; retain only as dated industry forecast, not current consensus.",
+      "UBS": "Oct29analyst question contemplated10-15B2027DCAIincrease; our12.731388Bis within it. A question is not a formal forecast.",
+      "INH_Capital": "Oct27/28pre-earnings DCAI forecast29%FY27growth located; page redirects to authentication, no full current report accessed. Excluded from current comparison.",
+      "aggregator_targets": "Benzinga/Investing/other pages differ in date, samples and targets. Do not splice them into a consensus series or use post-selloff upside percentages as analytical evidence."
+    }
+  }
+}

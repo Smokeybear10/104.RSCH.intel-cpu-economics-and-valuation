@@ -1,0 +1,56 @@
+{
+  "as_of_utc": "2026-11-06T06:48:21.030684+00:00",
+  "primary_evidence_strength": [
+    {
+      "topic": "Historical consolidated revenue identities",
+      "strength": "High for reported values and segment accounting; algebra independently reconciles to reported total.",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+    },
+    {
+      "topic": "Legacy external Foundry normalization",
+      "strength": "Medium as a transparent analyst convention. H1 2026 reported run rate is observed; neither annual 0.934B nor Q4 0.2335B is disclosed recurring revenue or a contracted minimum. Q3 contained a nonrecurring contract benefit.",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm"
+    },
+    {
+      "topic": "All Other 2.8B revenue and 0.7B profit",
+      "strength": "Medium. Near recent aggregate run rates, with a roughly 2B Mobileye component. IMS/startup residual is not separately forecast by Intel. Internal eliminations are explicit analyst estimates.",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+    },
+    {
+      "topic": "Mobileye grant recognition and opening vintage",
+      "strength": "High. Note 2 specifies new 2026 law, eligible period and the 162M other-long-term-asset balance. No 2025 cohort exists for this program.",
+      "source": "https://ir.mobileye.com/node/9466/html"
+    },
+    {
+      "topic": "Mobileye grant future amount and realization",
+      "strength": "High for stated 2026 guidance and management expectation that cash starts in 2028; medium/low for flat future 190M, full two-year settlement and 3% growth. Those are analyst assumptions, not fixed awards.",
+      "source": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-third-quarter-2026-results-updates-guidance"
+    },
+    {
+      "topic": "Grant allocation within current working-capital envelope",
+      "strength": "Analyst accounting policy supported by the original model definition, not an issuer assertion that its budgets are sufficient. Cohort identities close exactly; the residual budget remains a forecast."
+    }
+  ],
+  "interview_status": {
+    "basis": "Latest located saved workspace records; no live inbox search and no outreach performed in this task.",
+    "records": [
+      "work/three_hour/active_research/intel_pitch_completion_2026_11_05/short_outreach_saved.json",
+      "work/three_hour/active_research/intel_original_research_2026_11_05/original_research_result.json"
+    ],
+    "last_saved_status": "Three drafts saved, zero sent; zero replies and zero original interviews recorded.",
+    "permitted_claim": "Original public-source calculations and reanalysis. Do not claim original interviews or respondent validation."
+  },
+  "IMS_cross_check": {
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "locator": "Note 3; MD&A net income attributable to non-controlling interests",
+    "noncontrolling_ownership": 0.32,
+    "Q3_NCI_net_income_B": 0.018,
+    "nine_months_NCI_net_income_B": 0.028,
+    "inferred_full_IMS_Q3_net_income_B": 0.056249999999999994,
+    "inferred_full_IMS_nine_months_net_income_B": 0.0875,
+    "interpretation": "Simple ownership scaling of rounded allocations, not separately reported IMS EBIT. Taxes, financing, SBC and other reporting differences prevent equating it with the 0.3B residual All Other operating-profit assumption."
+  },
+  "integration_status": "Revenue and grant schedules complete. Parent provisionally adopted revenue accounting and agrees grant asset changes belong inside the existing operating-capital envelope. Await final root-model audit.",
+  "no_live_outreach": true,
+  "no_frozen_model_edits": true
+}

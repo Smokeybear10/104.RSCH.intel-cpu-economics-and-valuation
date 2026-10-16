@@ -1,0 +1,81 @@
+{
+  "as_of": "2026-11-05",
+  "purpose": "Close the Nov 5 supplier checkpoint using the newly released AT&S half-year report and presentation; do not attribute unnamed capacity to Intel.",
+  "sources": [
+    {
+      "title": "AT&S H1 2026/27 financial report",
+      "url": "https://ats.net/en/download/half-year-financial-report-2026-27/?wpdmdl=67668",
+      "local_file": "sources/ats_halfyear_2026_27.pdf",
+      "pages": 27,
+      "status": "Downloaded, full text extracted; relevant financial pages rendered and inspected. Unaudited and not externally reviewed."
+    },
+    {
+      "title": "AT&S Q2 2026/27 results presentation",
+      "url": "https://ats.net/en/download/conference-call-q2-2026-27/?wpdmdl=67670",
+      "local_file": "sources/ats_presentation_2026_27.pdf",
+      "pages": 18,
+      "status": "Downloaded, full text extracted; capacity timeline page 7 rendered and inspected."
+    },
+    {
+      "title": "AT&S Nov 5 release",
+      "url": "https://ats.net/en/ir-news/ats-reports-record-second-quarter-results-and-fully-confirms-full-year-guidance/",
+      "publication": "2026-11-05 06:58 CET"
+    }
+  ],
+  "financial_observations_eur_m": {
+    "total_contract_liabilities_2026_09_30": 1205.883,
+    "total_contract_liabilities_2026_03_31": 885.892,
+    "increase": 319.991,
+    "contract_liability_note_additions": 421.0,
+    "contract_liability_note_release": 106.9,
+    "contract_liability_interest": 5.9,
+    "customer_prepayment_receivables_2026_09_30": 211.0,
+    "customer_prepayment_receivables_2026_03_31": 0,
+    "cashflow_statement_contract_liability_adjustment": 419.015,
+    "CFO_before_working_capital": 703.494,
+    "receivables_and_contract_assets_cashflow": -579.387,
+    "inventory_cashflow": -98.116,
+    "CFO": 100.403,
+    "cash_capex": 115.145,
+    "cash_fixed_asset_sale_proceeds": 4.145,
+    "capex_payables_due_after_september_30": 119.9,
+    "other_financial_commitments_september_30": 758.0,
+    "other_financial_commitments_march_31": 234.4,
+    "locators": {
+      "balance_sheet": "report p10",
+      "cash_flow": "p11",
+      "prepayment_receivables": "p18",
+      "contract_liability_rollforward_and_commitments": "p19",
+      "capex_payables": "p21",
+      "investment_projects_and_non_cash_release": "p22"
+    }
+  },
+  "accounting_adjudication": [
+    "The report provides evidence of signed funding obligations and growing committed investments. It does not show that all newly recognized customer funding has already been collected.",
+    "The EUR 419.015m cash-flow reconciliation line is not a stand-alone cash-receipts disclosure. EUR 211.0m of customer prepayment receivables is included in other receivables, while the receivables working-capital movement offsets operating cash flow.",
+    "Do not subtract EUR 211m from EUR 421m and label the result verified cash deposits: foreign exchange, timing and the full liability rollforward are not separately reconciled to customer cash receipts.",
+    "Contract liabilities are obligations to deliver goods or services, not grants, revenue on receipt, or free operating profit. Release of EUR 106.880m appears in the non-cash reconciliation.",
+    "Neither Intel-specific funding nor Intel unit output can be identified from these company-level statements.",
+    "Timing also prevents a verified reconciliation: the supplier balance sheet is September 30, while Intel dates its two agreements only as subsequent to its September 26 quarter-end. Exact signing and funding dates and supplier identities are not disclosed. Do not assert they necessarily occurred after September 30, or match AT&S liability additions to them."
+  ],
+  "capacity_timeline": {
+    "fiscal_calendar": "FY2026/27 runs April 2026 to March 2027; fiscal-year labels must not be relabeled as calendar years.",
+    "source": "presentation pp5 and 7",
+    "kulim_1": "AMD: four lines; third currently ramping into HVM FY2026/27, fourth committed with HVM FY2027/28.",
+    "chongqing": "Technology upgrade shown at HVM FY2027/28; high-double-digit million investment through summer 2027.",
+    "kulim_2_customer_attribution": "Three lines confirmed for an unnamed long-standing customer, fourth for Marvell, fifth to be announced. This presentation does not name Intel.",
+    "kulim_2_line_1_2": "HVM shown FY2028/29.",
+    "kulim_2_line_3": "HVM bar spans late FY2028/29 into FY2029/30; do not invent quarter precision.",
+    "kulim_2_marvell_line_4": "HVM shown FY2029/30.",
+    "kulim_investment": "Approximately EUR 2bn through FY2028/29 in the presentation; report describes EUR 1.5\u20132.0bn planned projects supported and financed by long-term customer commitments."
+  },
+  "bull_case": "Capacity reservations, explicit named AMD expansion, growing financial commitments, and customer-backed projects make the industry supply response more concrete than an aspirational capacity announcement.",
+  "bear_case": "The strongest visible capacity additions extend into 2028\u201330, compete with Intel through named AMD supply, and require real financing and execution. Supplier pricing and profit improvement are not evidence of Intel retaining higher margins.",
+  "what_changed_since_nov4_review": "The scheduled Nov 5 checkpoint has now occurred and primary statements are available. Replace any statement that funding validation awaits this release with the observations above.",
+  "model_implication": "No direct numerical Intel unit uplift or margin change is justified. Keep the explicit delivery sensitivity, supplier-funding cash drag, and permanent profit-retention sensitivity separate.",
+  "next_falsifiable_checks": [
+    "A named Intel allocation with capacity or production timing.",
+    "Actual collections of the EUR 211m prepayment receivables and capex execution versus commitments.",
+    "HVM milestones and substrate mix or yield, not merely building completion."
+  ]
+}

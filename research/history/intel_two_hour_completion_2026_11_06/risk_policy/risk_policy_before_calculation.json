@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-11-06T07:42:08.278646+00:00",
+  "chronology": "Prior integrated and historical risk outputs were reviewed. This policy is recorded before the new rate, terminal-growth, capital-efficiency and break-even calculations. No claim of blindness to prior model results.",
+  "inputs": [
+    {
+      "path": "work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_model.py",
+      "sha256": "98366c147368965f1c9f445f8c9366f740c17e1152312cb3349816c94b377526"
+    },
+    {
+      "path": "work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_results.json",
+      "sha256": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8"
+    },
+    {
+      "path": "work/three_hour/active_research/intel_two_hour_completion_2026_11_06/margin/selected_margin_policy.json",
+      "sha256": "f83ec1232dd0245f0d001ccb21b044a0bd062d34f2763bc86da8b4698aad89c6"
+    }
+  ],
+  "unchanged_operating_cases": [
+    "preferred",
+    "slower_delivery",
+    "retained_margin_components",
+    "accounting_completed"
+  ],
+  "comparison_scope": "Preferred is a planning case, not a probability-weighted expected case. The last two cases are historical bridge controls rather than independent probability scenarios.",
+  "rate_controls": {
+    "selected": 0.11555,
+    "plain_T12_cash_NYU_alternative": 0.10631495183175221,
+    "normalized_NYU_rounded_alternative": 0.10025,
+    "lower_rate_challenge": 0.1,
+    "higher_rate_challenge": 0.13
+  },
+  "maturing_rate_control": "11.555% through2030, fall15bp each year2031-2040 to10.055%, hold terminal rate. Same earlier policy, no new inference about actual future risk.",
+  "rate_hurdles": "Solve constant rate for2030price matching0%,8%,10%,12%annual price returns from52.25 on2026-11-05 through2030-12-31. Separately solve Dec2026planningprice=52.25; call this date-mismatched planning comparison, not contemporaneous implied risk.",
+  "dates": {
+    "entry": "2026-11-05",
+    "planning_valuation": "2026-12-31",
+    "exit": "2030-12-31",
+    "denominator": "ACT/365.25"
+  },
+  "terminal_growth_controls": [
+    0.02,
+    0.03,
+    0.04
+  ],
+  "funded_terminal_growth_method": "Keep2027-2040 operating rows fixed. At2041grow2040EBIT,leaseandminoritycashby1+g. Reinvestment= g*(2040hostcapitalrevenue/0.8+2040netpackagingrevenue/1.0). Maintain terminal tax rate and unchanged separate nominal financing shield. Thus higher growth always requires additional investment; no cash-only denominator change.",
+  "terminal_growth_hurdles": "Solve g belowrate for Dec2026planningprice=52.25 and2030target for10% annual price return; report required perpetual growth and investment without adopting it.",
+  "capital_efficiency_controls": [
+    0.6,
+    0.8,
+    1.0
+  ],
+  "capital_method": "Keep all revenue/margin/cost operating rows fixed; for2031on recompute hostnetinvestment=incrementalrevenue/turnover and unchangednetpackaginginvestment. Preserve depreciation and WC convention; physicalcapex balancesidentity. Retain all2027-2030cash andfinancing.",
+  "capital_hurdles": "Solve turnover for same planning/10%return hurdles only if feasible; include analytical zero-host-growth-capital-cost limit to show whether a finite improvement can even close the gap. The limit is infeasible as a forecast and must be labeled.",
+  "terminal_excess_return_control": "At selected3%growth impose return on incremental capital equaltoassetdiscount rate by setting terminalinvestment=g*NOPAT2041/r. This is a no-excess-return terminal diagnostic, not claim about total-company ROIC.",
+  "risk_component_control": "Revalue financing shields, escrow and acquisition outflows at riskfree4.94% while retaining11.555%operatingrate as direction/size diagnostic only. Not a claim these cashflows are riskfree, guaranteed, or should share one rate.",
+  "prohibited_inferences": [
+    "No target optimization, case probabilities or winning confidence.",
+    "Do not subtract asset discount rate from stock CAGR to call the difference alpha.",
+    "No inference that below-quote planningvalue proves profitable SHORT.",
+    "No unconditional no-edge claim from this selected operating/risk bundle.",
+    "Do not discount entire equity planningvalue atassetcost as a silent date fix."
+  ]
+}

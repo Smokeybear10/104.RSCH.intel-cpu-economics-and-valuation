@@ -1,0 +1,100 @@
+{
+  "checked_utc": "2026-11-07T05:39:31.962641+00:00",
+  "scope": "Current main PDF page 5 and defense PDF page 9, current builder, numeric source artifact and linked Q1 primary source. No edits to shared artifacts or model.",
+  "verdict": "PASS; no material claim/source, scope, arithmetic or visible layout defects found in reviewed pages.",
+  "artifacts": [
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "93208f107eceb7b476908cfc2d1669f149f08f9217ffd0257b62981b9884299b",
+      "page": 5,
+      "page_count": 10,
+      "text_contains_required_values": true,
+      "link_URIs": [
+        "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+        "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+        "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+        "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+        "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+      ]
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "8e063c1f542a1a93dbfbf783ec97fbdc7f65d6f2bc84c60ebd8d77e1ee595cd2",
+      "page": 9,
+      "page_count": 10,
+      "text_contains_required_values": true,
+      "link_URIs": [
+        "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+        "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+        "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+        "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf?download=1"
+      ]
+    }
+  ],
+  "builder": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/build_initial_screen.py",
+    "sha256": "694a6b8c91563cd6a15656e7edb47ffbf9eca03baa5dc73e78e40212325b2408"
+  },
+  "model_unchanged": true,
+  "claim_checks": [
+    {
+      "claim": "Q3 server ASP +54%, units +10%, premium mix majority driver",
+      "verdict": "pass",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Printed MD&A p33; year-over-year scope retained, no comparison of incompatible annual bases."
+    },
+    {
+      "claim": "Granite Rapids largest server family",
+      "verdict": "pass",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF p5; largest is not promoted to majority."
+    },
+    {
+      "claim": "Signed long-term DCAI agreements including Google",
+      "verdict": "pass",
+      "source": "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+      "locator": "PDF p4, directly reopened actual linked URL; the PDF says signed multiple long-term agreements including Google. Unspecified volumes and net-price floors are explicitly preserved."
+    },
+    {
+      "claim": "Flat Q4 ASP control and 2028 lower-base persistence",
+      "verdict": "pass",
+      "detail": "Page 5 footnote states estimated Q4 ASP held throughout 2027 with same unit path, then +25% units/+8% ASP in 2028. Notes p9 also says no catch-up, other businesses fixed, conditional controls not forecasts."
+    },
+    {
+      "claim": "Most sales upside retained",
+      "verdict": "pass",
+      "detail": "5.50% consensus beat versus 7.52% core retains about 73% of the 2028 company sales gap. No value/return claim is attached to this control."
+    },
+    {
+      "claim": "Q4/annual ASP comparison",
+      "verdict": "pass",
+      "exact_Q4_premium": 0.17072651563364238,
+      "exact_10pct_case_vs_Q4": -0.06041250000676923,
+      "detail": "Notes expressly condition 6.0% decline on holding the estimated exit fixed, label the 17.1% premium implied, and allow weaker anchor or mix decline."
+    },
+    {
+      "claim": "2028 bridge",
+      "verdict": "pass",
+      "detail": "$37.46B annualized forecast exit +$5.39B further ramp = $42.85B; +10.1% units and +3.9% ASP are average 2028 levels above forecast Q4 2027, not observed sequential growth."
+    },
+    {
+      "claim": "Q4 allocation and H1/H2 checkpoint",
+      "verdict": "pass",
+      "detail": "DCAI +17%/Other +25% explicitly analyst allocation; mid-teens guide not misquoted. H1 $14.11B and H2 $17.63B plus 5% miss row reconcile. $14M historical residual discrepancy disclosed."
+    }
+  ],
+  "numeric_values": {
+    "flat_control_company_2027_B": 71.17102148983815,
+    "flat_control_company_2028_B": 88.32471860948668,
+    "beat2027": 0.027488147167311405,
+    "beat2028": 0.05501401843651599,
+    "annualized_Q4_2027_CPU_B": 37.461722840332556,
+    "additional_2028_CPU_B": 5.3862693747626835
+  },
+  "visual_QA": {
+    "main_page5": "Rendered at 1.3x; no overlap/clipping. Forecast boundary and dates clear. Conditional control scope is in footnote.",
+    "notes_page9": "Rendered at 1.3x; all table rows, answers and source links fit, no clipping."
+  },
+  "required_changes": [],
+  "remaining_investment_judgment": "Exact Q4 exit ASP, future retained mix and package quantities remain assumptions. The revision gives affirmative evidence and a bounded control without claiming those uncertainties resolved."
+}

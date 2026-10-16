@@ -1,0 +1,142 @@
+{
+  "selected_utc": "2026-11-06T06:49:06Z",
+  "chronology": "Selected after operating-source review and before any new equity values in this workstream. Prior inherited valuation results were already known. This supersedes the provisional pooled-Q2/Q3 preferred anchor, which is now favorable.",
+  "preferred": {
+    "CPU_operating_margin_anchor": "YTD2026",
+    "DCAI_anchor_revenue_B": 18.632,
+    "DCAI_anchor_operating_profit_B": 7.055,
+    "Other_anchor_revenue_B": 3.3,
+    "Other_operating_margin": 0.2,
+    "mature_CPU_margin_formula": "(7.055 - 0.2*3.3) / (18.632 - 3.3)",
+    "mature_CPU_margin": 0.4171014870858335,
+    "CPU_margin_transition": "Linearly phase actual implied2030 CPU operating margin to the selected residual by2040; compute blended margin from actual CPU and Other revenue each year. Do not stack a mature40% margin overlay.",
+    "Other_DCAI_2026_revenue_B": 5.19,
+    "Other_DCAI_growth_2027_2030": [
+      0.6,
+      0.3,
+      0.2,
+      0.15
+    ],
+    "Other_DCAI_growth_2031_2040": [
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.04,
+      0.035,
+      0.03
+    ],
+    "CPU_units_growth_2031_2040": [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02
+    ],
+    "CPU_ASP_growth_2031_2040": [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02
+    ],
+    "near_term_CPU_revenue_change_total_group_EBIT_response": 0.5,
+    "near_term_client_revenue_change_total_group_EBIT_response": 0.5,
+    "near_term_Other_DCAI_revenue_change_group_EBIT_response": 0.2,
+    "CCPG_mature_operating_margin": 0.28,
+    "CCPG_transition": "Phase actual implied2030 CCPG margin linearly to28% by2040.",
+    "Foundry_transition": "Start with modeled2030 Foundry operating profit divided by actual2030 Products revenue, then hold that ratio after2030 and scale dollars with actual Products revenue. This is not a reported Foundry margin. No extra expansion toward3% in preferred case.",
+    "Foundry_near_term_profit_B_2027_2030": [
+      -4.0,
+      -0.75,
+      1.0,
+      2.5
+    ]
+  },
+  "favorable": {
+    "CPU_operating_margin_anchor": "PooledQ2Q3_2026",
+    "Other_DCAI_growth_2027_2030": [
+      0.6,
+      0.4,
+      0.25,
+      0.2
+    ],
+    "CPU_units_growth_2031_2040": [
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.04,
+      0.03,
+      0.025,
+      0.02,
+      0.015,
+      0.01
+    ],
+    "CPU_ASP_growth_2031_2040": [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.02
+    ],
+    "Foundry_profit_to_Products_revenue_target": 0.03
+  },
+  "stress_axes": {
+    "Other_operating_margin": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "near_term_lost_CPU_and_client_sales_total_group_EBIT_decremental": [
+      0.5,
+      0.75,
+      1.0
+    ],
+    "mature_CPU_operating_margin": [
+      0.35,
+      0.4
+    ],
+    "post2030_CPU_units_growth": 0.0,
+    "post2030_CPU_ASP_growth": 0.02,
+    "Foundry_profit_to_Products_revenue_by2040": 0.0
+  },
+  "selection_rationale": [
+    "YTD2026 DCAI product-profit improvement4.5B explains approximately92% of operating-profit improvement4.883B; preserve a real product-led recovery rather than reverting mechanically to2025.",
+    "Full-YTD anchor includes the low-margin Q1 and strongerQ2/Q3. It permits roughly3.2pp of CPU margin erosion from the pooled recent-quarter residual, avoiding an assumption that the most recent scarcity-period economics must last.",
+    "Premium platform mix is the majority of reported ASP improvement; a return to old all-in ASP is therefore not the same as removing a scarcity surcharge. Its exact durable portion is undisclosed.",
+    "Other20% is an allocation/forecast assumption, not observed profitability. Lower purpose-built gross margin does not identify its operating margin.",
+    "2027 Other60% is retained because it is only9.8% above annualized assumedQ4 exit; later growth slows to30/20/15%. Other includes products beyond custom silicon, so the purpose-built triple statement is not used as a numerical guide for all Other.",
+    "Post2030 CPU2%unit+2%ASP growth is an explicit normalization convention. There is no primary-company forecast identifying Intel CPU units in2031\u201340; the former6.04% revenue path is favorable rather than validated.",
+    "Near-term50% groupGP response is centered on the CFO annual40\u201360% incrementalGP rule. With nonmanufacturingopex fixed in a scenario, deltaEBIT=deltaGP. It is not a measured CPU unit elasticity, and weaker absorption can worsen lost-sale flow-through.",
+    "The existing2030 Foundry turnaround remains a substantive forecast. Holding its resulting profit/Products ratio avoids an additional automatic manufacturing-margin improvement after2030."
+  ],
+  "accounting_rules": [
+    "Near-term50% response is totalgroup including manufacturing; assigning it to Products while holding displayedFoundry is a presentation allocation. Do not add a separate absorption penalty for the same revenue miss.",
+    "From2031 the component margin/Foundry engine replaces the near-term totalgroup response. Do not carry an extra old49-to40% decremental path on top.",
+    "Changes in internal transfer prices alone change Products and Foundry equally and oppositely; groupEBIT is invariant.",
+    "CorporateSBC and unallocatedR&D remain deducted once; groupR&D is not added again to segments that already contain it. NCI is an ownership cash-flow claim after operating profit, not a margin improvement.",
+    "No second benefit for the reported15% Intel3 or40% Intel18A cost improvement sinceQ1: those gains are already present in current economics.",
+    "No repeated profit benefit for disappearance of prior-yearGaudi, impairment or reserve charges. No refund of committed capex or depreciation merely because sales are lower."
+  ]
+}

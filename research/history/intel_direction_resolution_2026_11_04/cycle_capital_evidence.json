@@ -1,0 +1,162 @@
+{
+  "as_of_utc": "2026-11-04T21:50:42.970744+00:00",
+  "task": "New primary-source capital-cycle challenge and prospective operating policy, without changing source models or calculating a new equity target.",
+  "judgment": {
+    "central_post2030_host_incremental_sales_net_capital": 0.8,
+    "central_mature_DCAI_margin": 0.35,
+    "change_from_current": null,
+    "why_retain": "Retain both as defensible owned forecasts. New cohort-consistency and return-on-reinvestment diagnostics do not reveal an economic error or sufficient evidence to replace the capital coefficient. They do weaken any claim that the current forecast depicts permanently poor cash economics.",
+    "credible_capital_controls": [
+      0.6,
+      1.0
+    ],
+    "credible_margin_controls": [
+      0.3,
+      0.4
+    ],
+    "controls_scope": "Judgment scenarios, not confidence intervals or market-implied inputs. Existing paired scenarios should be used; no additional valuation grid is needed.",
+    "stock_implication": "This review does not establish LONG or SHORT. Intel is modeled as a successful, high-return manufacturer by maturity. A SHORT must establish excessive entry price or overstated operating recovery; a LONG must justify the return from the entry price. Negative 2027 cash alone is insufficient for either direction.",
+    "not_an_alternative_value_selection": true
+  },
+  "what_is_new": [
+    "Explicitly linked the long-run capex/D&A ratio to a stationary asset-cohort life instead of treating sales/net-capital as an opaque free parameter.",
+    "Calculated the mature model\u2019s incremental after-tax EBIT relative to net reinvestment, showing it already assumes approximately 21% returns on new operating investment.",
+    "Revalidated the issuer machinery/building life ranges, Intel\u2019s 2023\u20132025 gross cash PPE versus D&A, TSMC five-year machinery convention and current capacity/pricing testimony."
+  ],
+  "new_cohort_consistency_test": {
+    "year": 2041,
+    "host_capex_B": 45.987750470859176,
+    "host_DA_B": 39.2795559193954,
+    "host_external_sales_denominator_B": 200.27363443500548,
+    "host_capex_over_sales": 0.22962458638450242,
+    "host_DA_over_sales": 0.19612944075343447,
+    "capex_DA_ratio": 1.1707808144580223,
+    "nominal_growth": 0.03,
+    "method": "Assume a fully mature homogeneous steady-state asset pool, capex grows at 3% annually forever, no residual value/grants/impairment, straight-line depreciation, half-year first and last years. D_t = C_t/L * [0.5 + sum(i=1..L-1,(1+g)^(-i)) + 0.5*(1+g)^(-L)]. This is an internal plausibility diagnostic, not an asset forecast.",
+    "equivalent_homogeneous_life_years": 10.969346121241792,
+    "eight_year_equipment_capex_DA_ratio": 1.1228089759782385,
+    "twenty_five_year_building_capex_DA_ratio": 1.4144795822445253,
+    "equivalent_capex_mix_if_equipment8_building25": {
+      "equipment_fraction": 0.8012922598759484,
+      "building_fraction": 0.19870774012405154
+    },
+    "meaning": "The ratio is compatible with an equipment-heavy mix within Intel\u2019s disclosed accounting-life ranges. It is not obviously a duplicate replacement charge or a fabless capital assumption.",
+    "critical_limits": [
+      "This reverse-consistency mix is not an observed future spending mix. It cannot validate the true economic replacement schedule.",
+      "The source model D&A includes non-PPE amortization and assumes normalized host D&A; physical capex excludes capitalized interest. Thus exact book-cohort equivalence is not claimed.",
+      "Grant-reduced basis, deferred commissioning, inventory absorption, impairments, technological obsolescence and supplier finance complicate actual depreciation. Current CIP/building stock does not establish a permanent capex mix.",
+      "Holding D&A/revenue fixed while changing asset life changes the implied asset base. The diagnostic must not be read as saying shorter physical lives inherently reduce capital cost.",
+      "At zero nominal growth capex equals depreciation under this stationary convention. At positive growth, capex above depreciation can fund inflation and a larger asset base; it is not all avoidable expansion."
+    ]
+  },
+  "mature_return_diagnostic": {
+    "year": 2041,
+    "group_revenue_B": 208.9990380626945,
+    "EBIT_after_economic_SBC_B": 66.82397919943156,
+    "tax_rate": 0.18,
+    "NOPAT_margin": 0.2621814121799764,
+    "net_operating_reinvestment_B": 7.5456537865469695,
+    "incremental_NOPAT_over_same_year_net_reinvestment": 0.2115111861700876,
+    "parent_unlevered_cash_B": 44.06627125432069,
+    "interpretation": "The mature forecast earns about 21.15% on incremental net operating capital under stationary growth, not a low-return perpetual cash sink. This is an implied marginal flow return, not reported ROIC on historical invested capital; credits, minority/lease cash and later timing can alter shareholder returns.",
+    "near_term_vs_mature": "Capital-intensive growth can suppress free cash during a ramp while producing value later. The model already contains this transition: parent unlevered cash is about $23.34B in 2030 and $44.07B in 2041. The stock question is the price paid and risk of reaching those outcomes."
+  },
+  "primary_evidence": [
+    {
+      "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locators": "Cash-flow statement; Note 9 PPE; MD&A capital assets",
+      "facts": {
+        "years": [
+          2023,
+          2024,
+          2025
+        ],
+        "gross_cash_PPE_B_investing_plus_financing": [
+          25.75,
+          25.122,
+          17.672
+        ],
+        "depreciation_B": [
+          7.847,
+          9.951,
+          10.757
+        ],
+        "intangible_amortization_B": [
+          1.755,
+          1.428,
+          0.949
+        ],
+        "machinery_equipment_life_years": [
+          3,
+          8
+        ],
+        "building_life_years": [
+          10,
+          25
+        ],
+        "2025_net_PPE_B": 105.414,
+        "2025_CIP_B": 34.543
+      },
+      "interpretation": "Gross cash additions include financing-classified extended-payment PPE. Recent negative net-investment productivity is distorted by shrinking revenue and build-ahead capacity; it does not identify a mature marginal coefficient. Equipment overcapacity caused accelerated depreciation in 2024/2025, so not every paid-for asset will yield productive reuse."
+    },
+    {
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-24-000010/intc-20231230.htm",
+      "locator": "MD&A gross margin and Note PPE",
+      "facts": "Intel lengthened certain equipment lives from five to eight years in January 2023, estimating a $4.2B reduction in that year\u2019s depreciation. The reported accounting effect was absorbed through costs and inventory.",
+      "interpretation": "A change in book depreciation can move capex-minus-depreciation ratios without new cash savings. Historical flow ratios require a consistent physical and accounting basis."
+    },
+    {
+      "source": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "locator": "PPE accounting policy, cash-flow statement and capacity management",
+      "facts": {
+        "machinery_equipment_life_years": 5,
+        "building_life_years": [
+          10,
+          20
+        ],
+        "FY2025_revenue_NTDB": 3809.054,
+        "FY2025_cash_PPE_NTDB": 1272.411,
+        "FY2025_DA_NTDB": 688.096
+      },
+      "interpretation": "TSMC\u2019s five-year machinery convention differs from Intel\u2019s equipment-life range. Its 33.4% capex/sales and 18.1% D&A/sales occur during fast growth and cannot be inserted into a mature Intel 3% growth model. Foundry wafer-service sales and Intel finished-product sales are different denominators."
+    },
+    {
+      "source": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000008/a4q25presentatione.htm",
+      "locator": "Slides 11 and 13",
+      "facts": "TSMC reported FY2025 operating margin 50.8%, ROE 35.4% and FCF NT$1,002.57B; its January 2026 through-cycle aspiration was gross margin 56% or higher and ROE in the high twenties.",
+      "interpretation": "Heavy physical investment can coexist with attractive returns when pricing, utilization and technology leadership are strong. ROE is not ROIC, and TSMC\u2019s franchise or manufacturing margins cannot simply be transferred to Intel."
+    },
+    {
+      "source": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
+      "date": "2026-10-15",
+      "locators": "Prepared capacity remarks and Q&A on High-NA, capex and overseas capacity",
+      "facts": "TSMC described both new fabs and conversion of N5 tools to N3, with flexible N7/N5/N3 support. It expects substantially higher 2026\u20132028 investment, tool-price pressure, and continued overseas-margin dilution; High-NA adoption around 2030 accompanies higher capital spending.",
+      "interpretation": "Reuse and structural reinvestment coexist. Successful yield improvement does not mean the next technology transition becomes free, while high capex is not by itself proof of poor returns."
+    }
+  ],
+  "prior_work_reused_not_claimed_new": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/capital_productivity_adjudication_2026_11_04.json",
+    "findings": "2018\u20132020 Intel flow productivity about 0.727 before acquisitions; shell/tool split, older-node reuse strategy, TI mature-node noncomparability and prior 0.60\u20131.00 range were already investigated. No rebranding of those as new discoveries."
+  },
+  "operating_policy_selection_before_any_new_equity_value": true,
+  "no_equity_valuation_computed": true,
+  "source_models_unchanged": true,
+  "inputs": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_mature_DCAI_margin_addendum.json",
+      "sha256": "e105795d651a0b68cabffcc3716d55d530dd12f3bac92bb02cee261d51a21314"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/capital_mapping_review.json",
+      "sha256": "2449c2de7edc665cab8362d74fd18e53c937d72ef9608798ff9ccd0445d8b53d"
+    }
+  ]
+}

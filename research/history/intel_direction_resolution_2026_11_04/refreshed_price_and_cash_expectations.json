@@ -1,0 +1,175 @@
+{
+  "computed_utc": "2026-11-04T22:08:51.157187+00:00",
+  "scope": "Refresh dated entry reference and interpret unchanged cash model; no revised forecast or chosen new valuation parameter.",
+  "market_reference": {
+    "price_USD": 58.28,
+    "date": "2026-11-04",
+    "time": "16:00 America/New_York close",
+    "source": "https://stockanalysis.com/stocks/intc/forecast/",
+    "retrieved_after_close_UTC": "2026-11-04T21:48:06+00:00",
+    "prior_reference_USD": 60.55,
+    "prior_reference_date": "2026-11-03"
+  },
+  "unchanged_source_model": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+    "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+  },
+  "conditional_present_planning_value": {
+    "end2026_USD": 44.067914052747014,
+    "fraction_vs_quote": -0.24385871563577532,
+    "date_warning": "An end-2026 planning value is compared with a November 4 quote; this is not a fully rebuilt November 4 balance sheet valuation."
+  },
+  "endpoint_price_returns": [
+    {
+      "endpoint": "2027-12-31",
+      "conditional_value_USD": 48.89859731439426,
+      "annualized_price_return": -0.140932587181542,
+      "price_only_short_PnL_per_share": 9.381402685605742
+    },
+    {
+      "endpoint": "2028-12-31",
+      "conditional_value_USD": 54.57624488068242,
+      "annualized_price_return": -0.029976066853689698,
+      "price_only_short_PnL_per_share": 3.7037551193175844
+    },
+    {
+      "endpoint": "2029-12-31",
+      "conditional_value_USD": 60.8641323994547,
+      "annualized_price_return": 0.013838497387837156,
+      "price_only_short_PnL_per_share": -2.5841323994546954
+    },
+    {
+      "endpoint": "2030-12-31",
+      "conditional_value_USD": 67.57762169851729,
+      "annualized_price_return": 0.03625679068129917,
+      "price_only_short_PnL_per_share": -9.29762169851729
+    }
+  ],
+  "conditional_reverse_risk": {
+    "asset_discount_rate_matching_quote": 0.1017846287509016,
+    "asset_beta_equivalent_using_prior_paired_5_29_RF_and4_41_ERP": 1.108494983013642,
+    "cash_forecast_fixed": true,
+    "not_identified_market_beliefs_or_actual_equity_return": true
+  },
+  "additional_cash_hurdle": {
+    "equity_PV_gap_B": 78.30859356936395,
+    "first_year_2029_increment_B_growing3pct_forever_at12pct": 8.840726979606915,
+    "formula": "(reference - end2026 central value) * claims * (r-g) * (1+r)^(2029-2027)",
+    "scope": "One-variable arithmetic, not achievable savings, consensus, or a revised forecast."
+  },
+  "joint_case_reference": [
+    {
+      "case": "less_productive",
+      "rate_case": "flat_10pct",
+      "end2026_value_USD": 50.768840103495606,
+      "fraction_vs_reference": -0.12888057475127657,
+      "end2030_value_USD": 72.6544874692424
+    },
+    {
+      "case": "less_productive",
+      "rate_case": "flat_12pct",
+      "end2026_value_USD": 37.618386731014,
+      "fraction_vs_reference": -0.3545232201267331,
+      "end2030_value_USD": 57.429165594921415
+    },
+    {
+      "case": "less_productive",
+      "rate_case": "maturing_risk",
+      "end2026_value_USD": 42.402670956100295,
+      "fraction_vs_reference": -0.2724318641712372,
+      "end2030_value_USD": 64.95732944683729
+    },
+    {
+      "case": "central",
+      "rate_case": "flat_10pct",
+      "end2026_value_USD": 60.087383322040886,
+      "fraction_vs_reference": 0.031012067982856717,
+      "end2030_value_USD": 86.29776659551453
+    },
+    {
+      "case": "central",
+      "rate_case": "flat_12pct",
+      "end2026_value_USD": 44.06791405274705,
+      "fraction_vs_reference": -0.24385871563577477,
+      "end2030_value_USD": 67.57762169851732
+    },
+    {
+      "case": "central",
+      "rate_case": "maturing_risk",
+      "end2026_value_USD": 49.96887374853764,
+      "fraction_vs_reference": -0.14260683341562053,
+      "end2030_value_USD": 76.86289602242353
+    },
+    {
+      "case": "more_productive",
+      "rate_case": "flat_10pct",
+      "end2026_value_USD": 68.14628073696132,
+      "fraction_vs_reference": 0.16929102156762732,
+      "end2030_value_USD": 98.09679830069953
+    },
+    {
+      "case": "more_productive",
+      "rate_case": "flat_12pct",
+      "end2026_value_USD": 49.618050605214655,
+      "fraction_vs_reference": -0.14862644809171832,
+      "end2030_value_USD": 76.31086901446875
+    },
+    {
+      "case": "more_productive",
+      "rate_case": "maturing_risk",
+      "end2026_value_USD": 56.50287732025843,
+      "fraction_vs_reference": -0.03049283939158498,
+      "end2030_value_USD": 87.14427714083533
+    }
+  ],
+  "new_public_cash_expectations": {
+    "source": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+    "page_analysis_updated_UTC": "2026-11-03 22:36",
+    "provider": "S&P Global Market Intelligence via Simply Wall St",
+    "table": "Earnings and Revenue Growth Forecasts, USD millions converted to billions",
+    "comparison": [
+      {
+        "year": 2027,
+        "public_aggregate": {
+          "revenue_B": 69.269,
+          "earnings_B": 7.483,
+          "FCF_B": -4.159,
+          "CFO_B": 23.564
+        },
+        "CFO_minus_FCF_arithmetic_B": 27.723,
+        "not_a_verified_gross_capex_forecast": true,
+        "our_issuer_style_FCF_proxy": {
+          "zero_net_partner_cash": -7.992712883085716,
+          "partner_distributions_equal_NCIreserve": -9.092712883085715,
+          "scope": "Illustrative remapping ofeconomicreserves, notfullGAAPcashstatement; allother timing/classification unchanged. No neweconomiccash/value."
+        },
+        "our_economic_owner_cash_B": -11.692712883085713,
+        "comparability_warning": "Our owner measure expenses recurring equity compensation and reserves minority claims. Issuer-style remaps remain incomplete; S&P vendor FCF and CFO may use different contributor counts or conventions. Do not call the raw gap a same-basis forecast miss."
+      },
+      {
+        "year": 2028,
+        "public_aggregate": {
+          "revenue_B": 83.72,
+          "earnings_B": 12.97,
+          "FCF_B": 4.068,
+          "CFO_B": 31.839
+        },
+        "CFO_minus_FCF_arithmetic_B": 27.771,
+        "not_a_verified_gross_capex_forecast": true,
+        "our_issuer_style_FCF_proxy": {
+          "zero_net_partner_cash": 6.193653605352879,
+          "partner_distributions_equal_NCIreserve": 5.09365360535288,
+          "scope": "Illustrative remapping ofeconomicreserves, notfullGAAPcashstatement; allother timing/classification unchanged. No neweconomiccash/value."
+        },
+        "our_economic_owner_cash_B": 2.293653605352879,
+        "comparability_warning": "Our owner measure expenses recurring equity compensation and reserves minority claims. Issuer-style remaps remain incomplete; S&P vendor FCF and CFO may use different contributor counts or conventions. Do not call the raw gap a same-basis forecast miss."
+      }
+    ],
+    "interpretation": "Negative 2027 FCF and positive but modest 2028 FCF are already in accessible aggregate forecasts. Low near-term cash is not by itself an undiscovered short catalyst. Under a roughly issuer-style remap, our 2028 cash is above this public aggregate; exact accounting comparability remains incomplete."
+  },
+  "checks": {
+    "reproduced_current_12pct_value": true,
+    "max_baseline_error_USD": 7.105427357601002e-15,
+    "models_unmodified": true
+  }
+}

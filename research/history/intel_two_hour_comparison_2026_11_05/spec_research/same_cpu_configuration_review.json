@@ -1,0 +1,23 @@
+{
+  "reviewed_utc": "2026-11-05T23:03:37.524711+00:00",
+  "question": "Why do two full-core Dell R7725/AMD EPYC9755 records differ with the same CPU, memory capacity/speed and compiler?",
+  "records": [
+    {
+      "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00086.html",
+      "SPECrate2026_int_base": 896,
+      "power_management": "BIOS and OS balanced performance",
+      "kernel": "6.8.0-87",
+      "energy_score_available": true
+    },
+    {
+      "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00087.html",
+      "SPECrate2026_int_base": 1060,
+      "power_management": "BIOS and OS prefer performance at additional power usage",
+      "kernel": "6.8.0-55",
+      "energy_score_available": false
+    }
+  ],
+  "score_difference_ratio": 0.1830357142857142,
+  "interpretation": "18.3% difference is not run-to-run noise estimate or a causal estimate of power mode alone: firmware settings/OS and test setup differ. Both are valid system results. Do not use all-record median as CPU-only value or performance-per-watt inference. The throughput-favoring run has no matched energy score.",
+  "decision": "Keep public SPEC data as a caution/competitive diagnostic, not direct Intel ASP or retained-profit evidence. CPU2017 and CPU2026 scores are never pooled."
+}

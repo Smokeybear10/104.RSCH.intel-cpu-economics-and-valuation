@@ -1,0 +1,487 @@
+{
+  "completed_utc": "2026-11-05T19:59:36.990013+00:00",
+  "decision": {
+    "at_prior_58_28_reference": "Withdraw the weak SHORT as the preferred submission. Do not mechanically flip to LONG. My investment choice on the existing evidence is PASS; business recovery is credible, but the high-growth base already credits much of it and the attractive long needs a separate favorable margin/risk judgment.",
+    "at_53_70_and_54_58_intraday_snapshots": "The lower entry materially strengthens LONG and further weakens a newly initiated SHORT. A40% margin/0.8 productivity/maturing-risk long is now a legitimate modest-conviction competition candidate, with roughly12.7–13.1% conditional annual appreciation. My preferred actual-investment decision remains PASS because this review has not changed its pre-recorded preference for flat risk and does not independently prefer40% over35% strongly enough to adopt that favorable combination. This is a choice among plausible outcomes, not a demand for uniquely provable inputs.",
+    "directional_candidate_ranking": "At the lower dated snapshots, LONG is a better new candidate than recycling the current relative SHORT. Do not present candidate ranking as an adopted strong buy or an edge established by the public-price audit.",
+    "answer_on_40pct": "40% is economically defensible and should not be rejected merely because it is uncertain. It becomes assumption shopping only if selected together with lower risk or better capital solely because that tuple reaches the desired return. The evidence supports keeping it as a serious bull case; it does not force either40% or35%.",
+    "what_substantively_changed": "New emphasis on customer-side mixed CPU deployments prevents overstating Intel alliances. Customer deposits and equity funding defeat a simple funding-crisis story while preserving physical investment needs. The lower entry improves return arithmetic without improving business fundamentals. The weak short should lose its status as the completed winning thesis.",
+    "final_action": "PASS. Withdraw the current SHORT as the preferred competition recommendation. Preserve the research as a working draft and clearly mark it not submission-ready. Do not force LONG merely because a bullish combination yields an attractive return.",
+    "owned_central_judgment": {
+      "mature_DCAI_margin": 0.35,
+      "host_capital_productivity": 0.8,
+      "risk_convention": "Flat 11.555% operating rate, using the existing dated calibration.",
+      "reason": "Retain substantial structural recovery while allowing competitive pricing and mix normalization after the near-term supply shortage. The current growth forecast already grants major commercial success. Customer alliances support participation across product generations; concurrent architecture alternatives and custom-silicon mix prevent me from preferring a durable 40% margin strongly enough to make it the adopted center. Funding alone does not warrant reducing systematic operating risk.",
+      "bull_case_status": "40% margin with maturing risk is legitimate, especially at the lower entry. It is an upside underwriting choice in this review, not a fabricated case and not an adopted recommendation.",
+      "why_this_is_not_a_certainty_gate": "This is an explicit preference between plausible operating and risk paths. It does not require proving the central forecast, surviving all sensitivities, or waiting for future outcomes to occur."
+    }
+  },
+  "policy_recorded_before_new_return_arithmetic": {
+    "frozen_utc": "2026-11-05T19:53:35.353903+00:00",
+    "chronology": "Prior audited price sensitivities are known, including the40%/maturing-risk89.64 endpoint supplied by the parent. This is not a blind experiment. The following operating and risk judgments are recorded before any new return arithmetic or forecast revaluation in this reassessment; no desired target or probability is fitted.",
+    "selected_business_judgment": "The recovery and richer mix are credible.40% mature DCAI margin is a legitimate bullish underwriting choice, but this review does not prefer it strongly enough over35% to make a higher-margin long the default. Current41.5% quarter and37.9% YTD result, actual multigeneration customer adoption and lower wafer costs support persistence. Supply shortages, mix-specific economics, rising lower-gross-margin custom silicon and concurrent customer adoption of competing CPUs limit permanence.",
+    "bull_case_to_evaluate": {
+      "mature_DCAI_margin": 0.4,
+      "host_capital_productivity": 0.8,
+      "revenue_path": "Keep existing already-strong accepted unit/ASP/custom growth through2030 and its existing long-run fade. Do not add Oracle or Google again as new revenue on top of this path.",
+      "risk_path": "Show both existing flat11.555% and existing maturing risk; prefer flat as the valuation convention for an adopted recommendation until a reason is supplied for reducing systematic operating risk. Funding improvement alone does not mechanically lower asset beta.",
+      "extra_external_wafer_or_packaging_value": "Zero incremental value in this reassessment. Existing overlay remains; no unannounced customer win or binding future volume is assumed.",
+      "near_term_capital": "Unchanged. Equipment reuse and improved yield support output/cost recovery already modeled, while issuer still says capex and supplier commitments increase."
+    },
+    "capital_upside_control": {
+      "host_capital_productivity": 1.0,
+      "classification": "Upside scenario only. Customer deposits and equity funding improve financing but do not themselves change sales per dollar of physical net investment. No independent upward central capital-productivity revision."
+    },
+    "decision_standard": "Choose a clear long or short only if the owned operating judgment and appropriate risk/holding-period comparison make it attractive. No requirement to survive every reasonable sensitivity, possess a unique provable terminal margin, produce statistically estimated probabilities, or guarantee a contest win."
+  },
+  "prior_work_review": {
+    "earnings_cash": "The existing20% unit/20% ASP2027 path and25%/8%2028 path already produce about2.50/4.17 EPS proxies. Expressing those same cash economics at a higher multiple is not new value. Existing attribution assigns roughly89% of2027–28 EBIT growth to DCAI andFoundry, so cost learning and product wins cannot simply be counted again.",
+    "capital_mapping": "Earlier review found no demonstrated duplicate physical capex or basis for turning the host into an asset-light designer. Customer funding is not equivalent to better physical capital productivity.",
+    "long_run": "Existing OtherDCAI already grows3.36x from2026 to2030; it is broader than purpose-built silicon. Existing CPU growth then fades to3% nominal maturity by2040. The bull does not need to assume explosive growth forever, but its continued profitable scale is already a substantive success path.",
+    "scope_warning": "Old earnings-cash and long-debate files contain older quotes/rates and some SpaceX material. Only the latest audited Intel bridge supplies the return calculations below."
+  },
+  "primary_source_evidence": [
+    {
+      "id": "intel_q3_10q",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "date": "2026-10-30",
+      "locators": "MD&A Products performance and funding requirements; Note3 customer deposits",
+      "rechecked_this_pass": true,
+      "facts": "DCAI revenue/profit was7.318B/3.039B in Q3 and18.632B/7.055B YTD, giving41.53%/37.87% margins. Premium mix drove most of54% server ASP growth.1.7B customer deposits were collected inQ2;1.2B remained long-term atQ3. Supplier prepayments were1.2B YTD and new substrate commitments require about3.3B by end2027. The22.6B net equity raise funded capital and working-capital needs.14A expansion scale depends on committed internal and external demand.",
+      "inference": "Supports real pricing/mix strength, demand visibility and financeability. Does not disclose a guaranteed mature margin, customer purchase-price floor, or a capital-productivity improvement. Customer deposits carry obligations and cannot be counted as free recurring value."
+    },
+    {
+      "id": "intel_q3_prepared",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "locators": "PDF pages1–2,5–7",
+      "rechecked_this_pass": true,
+      "facts": "Granite Rapids is the largest server family; Clearwater Forest ships for revenue and Diamond Rapids is planned for2027. Purpose-built silicon grew more than50% sequentially and more than doubled year-over-year;50% is revenue growth, not margin. Management reports Intel3 costs down15% and18A costs down40% sinceQ1, with better utilization/yields. It expects strong2027 capex growth and says fast purpose-built-silicon growth pressures gross-margin mix.",
+      "inference": "Cost learning and premium products favor durable recovery. The mix warning prevents treating every custom-silicon dollar as a high-margin server CPU dollar. Cost reductions are already substantially credited by the existing Foundry recovery and should not be added again."
+    },
+    {
+      "id": "intel_google_multiyear",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-google-deepen-collaboration-to-advance-ai-infrastructure.html",
+      "date": "2026-04-09",
+      "locators": "Multigeneration Xeon alignment; C4/N4 deployment; IPU co-development",
+      "rechecked_this_pass": true,
+      "facts": "The joint announcement describes multiple Xeon generations, existing Xeon6 deployments and expanded custom IPU co-development. A Google executive supports the roadmap. No purchase volume, margin guarantee or take-or-pay schedule is disclosed.",
+      "inference": "This is stronger durability evidence than an isolated benchmark. It supports continuing relevance and switching/integration value, while leaving pricing and share contestable."
+    },
+    {
+      "id": "oracle_customer_confirmation",
+      "url": "https://www.oracle.com/news/announcement/ai-world-intel-and-oracle-plan-expanded-collaboration-to-support-enterprise-and-agentic-ai-on-oracle-cloud-infrastructure-2026-10-27/",
+      "date": "2026-10-27",
+      "locators": "Planned multiyear collaboration, roadmaps and processor capacity planning",
+      "rechecked_this_pass": true,
+      "facts": "Oracle itself confirms planned collaboration across current/future Xeon, including expected Diamond Rapids-based X14 offerings. The release uses planned/intended/expected wording and provides no binding quantities, prices or cash prepayment terms.",
+      "inference": "Credible next-generation product sponsorship, with less underwriting weight than a quantified supply contract. It cannot be turned into an incremental revenue block on top of the already strong base without identifying scope."
+    },
+    {
+      "id": "google_mixed_cpu_deployment",
+      "url": "https://cloud.google.com/blog/products/compute/whats-new-in-compute-at-next26",
+      "date": "2026-04-22",
+      "locators": "Compute launch bullets and customer examples",
+      "rechecked_this_pass": true,
+      "novelty": "New customer-side countercheck emphasized in this pass; existing long-run file focused on Intel,AMD,Marvell and industry forecasts.",
+      "facts": "Google expanded Xeon6 C4 availability while also making Axion N4A generally available and promoting it for agent sandboxes. Its article gives actual customer examples across Axion,Intel andAMD-based families. Vendor price-performance claims are workload-specific and not independently reproduced here.",
+      "inference": "Intel design wins and a growing Arm alternative coexist inside the same customer. This strengthens the case for durable Intel participation, but weakens the inference that a multigeneration alliance protects a broad scarcity premium or exclusive CPU rent."
+    },
+    {
+      "id": "m37_official_rules",
+      "url": "https://www.m37.com/spc2026",
+      "date": "rechecked2026-11-05",
+      "locators": "Eligibility,Round1,Round2,FinalRound",
+      "rechecked_this_pass": true,
+      "facts": "Individual STEM students choose Intel orSpaceX and a fundamental long orshort over3–5years. The initialPDF is at most10pages and dueNovember9. It needs company overview,investment recommendation,drivers andrisks. Round2 requires cited evidence andvaluation;finaldiscussion tests assumptions,counterarguments andwhat changes theview. The page emphasizes investment judgment rather than modeling skill.",
+      "not_requirements": [
+        "No published requirement to survive every reasonable sensitivity.",
+        "No published requirement for statistically estimated scenario probabilities,secret data,an original interview,a minimum target return,or certainty about a terminal margin.",
+        "No published endorsement of either direction or a required relative-value hedge."
+      ],
+      "implication": "A clear owned choice can be defensible before all future outcomes are observed. A neutral research study does not meet the stated directional recommendation requirement."
+    }
+  ],
+  "overlooked_inferences": [
+    {
+      "claim": "Premium mix and pricing power are different, but premium mix can still be economically durable.",
+      "reasoning": "A newer product serving harder workloads can retain higher revenue per package after shortage pricing subsides. The bearish formulation should not assume all54% ASP growth disappears just because scarcity eases. The existing ASP growth path already fades rapidly; a larger permanent haircut needs its own business rationale."
+    },
+    {
+      "claim": "Customer diversification across architectures does not mean Intel revenue must fall.",
+      "reasoning": "The Google primary source supports simultaneous growth in Intel andArm offerings. It challenges exclusivity, but does not establish the volume,pricing ormargin losses required for a strong short. A growing CPU market can support Intel while share declines."
+    },
+    {
+      "claim": "A later low cash yield can reflect valuable growth investment.",
+      "reasoning": "The111B-to28B four-year cash bridge measures early conversion,not value destruction. If new funded assets generate durable margins, the residual cash can justify a long. The bridge cannot select the direction without the continuation economics."
+    },
+    {
+      "claim": "Funding and utilization should not be collapsed into one bullish parameter.",
+      "reasoning": "Customer deposits and equity cash reduce financing pressure. Yield gains and capacity reuse improve useful output per installed asset. They affect different model lines and cannot all be represented as a free uplift from0.8 to1.0 capital productivity."
+    },
+    {
+      "claim": "A falling entry can make the bull plausible without validating its assumptions.",
+      "reasoning": "The53.70/54.58 snapshots lift prospective returns for unchanged terminal values. They do not justify raising margins, lowering rates or claiming the market overreacted without an updated information and risk assessment."
+    }
+  ],
+  "dated_price_evidence": {
+    "url": "https://stockanalysis.com/stocks/intc/history/",
+    "entries": [
+      {
+        "price_USD": 58.28,
+        "date": "2026-11-04",
+        "time_note": "Prior frozen reference; current history shows58.27 close, a one-cent source difference.",
+        "status": "historical model reference"
+      },
+      {
+        "price_USD": 53.7,
+        "date": "2026-11-05",
+        "time_note": "2:25PM EST; parent independently observed StockAnalysis snapshot.",
+        "status": "parent-supplied dated intraday snapshot"
+      },
+      {
+        "price_USD": 54.58,
+        "date": "2026-11-05",
+        "time_note": "2:55PM EST; independently opened StockAnalysis history in this reassessment.",
+        "status": "independently verified dated intraday snapshot"
+      }
+    ],
+    "secondary_context_only": "Current news attributed the selloff to previously disclosed Q4/client weakness and broader sector/policy concerns. No new issuer operating forecast was identified in this targeted search; this is not proof that no new material information exists.",
+    "macro_caveat": "Paired November1 Treasury/equity-premium inputs and all nominal forecasts remain frozen. These are entry-price sensitivities,not a fully current macro/DCF recalibration."
+  },
+  "return_method": {
+    "formula": "(conditional2030value/entry)^(1/years)-1",
+    "horizon": "December31,2030",
+    "years": "Actual calendar days from the stated entry date divided by365.25; intraday time withinNovember5 ignored.",
+    "interim_dividends": "None modeled.",
+    "not_included": "Tax,transaction costs,updated borrowing/cash yields ornewprobabilities. These are standalone Intel price returns,not the relative portfolio CAGR.",
+    "convergence": "Assumes the modeled endpoint is the future market price.",
+    "planning_date_caveat": "The planning-value comparison usesDecember31,2026 values againstNovember4/5 prices. It is not an exactly dated current fair-value discount."
+  },
+  "return_results": [
+    {
+      "entry_USD": 58.28,
+      "entry_date": "2026-11-04",
+      "years_to_2030_12_31": 4.15605749486653,
+      "case": "central",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 70.97777530967525,
+      "price_CAGR_no_interim_dividend": 0.048569270281402455,
+      "conditional_2026_12_31_planning_value_USD": 46.95806228358314,
+      "planning_value_vs_entry_fraction": -0.19426797728923917
+    },
+    {
+      "entry_USD": 58.28,
+      "entry_date": "2026-11-04",
+      "years_to_2030_12_31": 4.15605749486653,
+      "case": "margin_only",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 77.6819879986314,
+      "price_CAGR_no_interim_dividend": 0.07158999012131839,
+      "conditional_2026_12_31_planning_value_USD": 51.287102511241436,
+      "planning_value_vs_entry_fraction": -0.11998794592928219
+    },
+    {
+      "entry_USD": 58.28,
+      "entry_date": "2026-11-04",
+      "years_to_2030_12_31": 4.15605749486653,
+      "case": "capital_only",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 73.56055118869989,
+      "price_CAGR_no_interim_dividend": 0.05762585198582615,
+      "conditional_2026_12_31_planning_value_USD": 48.62581078710863,
+      "planning_value_vs_entry_fraction": -0.1656518396172164
+    },
+    {
+      "entry_USD": 58.28,
+      "entry_date": "2026-11-04",
+      "years_to_2030_12_31": 4.15605749486653,
+      "case": "both",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 80.26476387765605,
+      "price_CAGR_no_interim_dividend": 0.08005645005137985,
+      "conditional_2026_12_31_planning_value_USD": 52.9548510147669,
+      "planning_value_vs_entry_fraction": -0.09137180825725977
+    },
+    {
+      "entry_USD": 58.28,
+      "entry_date": "2026-11-04",
+      "years_to_2030_12_31": 4.15605749486653,
+      "case": "central",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 81.52789173697595,
+      "price_CAGR_no_interim_dividend": 0.08412189724188424,
+      "conditional_2026_12_31_planning_value_USD": 53.77047718436613,
+      "planning_value_vs_entry_fraction": -0.07737684995940064
+    },
+    {
+      "entry_USD": 58.28,
+      "entry_date": "2026-11-04",
+      "years_to_2030_12_31": 4.15605749486653,
+      "case": "margin_only",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 89.63590532589556,
+      "price_CAGR_no_interim_dividend": 0.10913787039710998,
+      "conditional_2026_12_31_planning_value_USD": 59.005978893709745,
+      "planning_value_vs_entry_fraction": 0.01245674148438125
+    },
+    {
+      "entry_USD": 58.28,
+      "entry_date": "2026-11-04",
+      "years_to_2030_12_31": 4.15605749486653,
+      "case": "capital_only",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 84.46814308102908,
+      "price_CAGR_no_interim_dividend": 0.09340324766153052,
+      "conditional_2026_12_31_planning_value_USD": 55.669054532426706,
+      "planning_value_vs_entry_fraction": -0.04480002518142234
+    },
+    {
+      "entry_USD": 58.28,
+      "entry_date": "2026-11-04",
+      "years_to_2030_12_31": 4.15605749486653,
+      "case": "both",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 92.57615666994873,
+      "price_CAGR_no_interim_dividend": 0.11778489027880945,
+      "conditional_2026_12_31_planning_value_USD": 60.904556241770315,
+      "planning_value_vs_entry_fraction": 0.04503356626235955
+    },
+    {
+      "entry_USD": 53.7,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "central",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 70.97777530967525,
+      "price_CAGR_no_interim_dividend": 0.06947091936473204,
+      "conditional_2026_12_31_planning_value_USD": 46.95806228358314,
+      "planning_value_vs_entry_fraction": -0.12554818838765114
+    },
+    {
+      "entry_USD": 53.7,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "margin_only",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 77.6819879986314,
+      "price_CAGR_no_interim_dividend": 0.0929661690205088,
+      "conditional_2026_12_31_planning_value_USD": 51.287102511241436,
+      "planning_value_vs_entry_fraction": -0.044932914129582224
+    },
+    {
+      "entry_USD": 53.7,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "capital_only",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 73.56055118869989,
+      "price_CAGR_no_interim_dividend": 0.07871414568716584,
+      "conditional_2026_12_31_planning_value_USD": 48.62581078710863,
+      "planning_value_vs_entry_fraction": -0.09449141923447624
+    },
+    {
+      "entry_USD": 53.7,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "both",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 80.26476387765605,
+      "price_CAGR_no_interim_dividend": 0.10160723352659473,
+      "conditional_2026_12_31_planning_value_USD": 52.9548510147669,
+      "planning_value_vs_entry_fraction": -0.013876144976407878
+    },
+    {
+      "entry_USD": 53.7,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "central",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 81.52789173697595,
+      "price_CAGR_no_interim_dividend": 0.10575653869558166,
+      "conditional_2026_12_31_planning_value_USD": 53.77047718436613,
+      "planning_value_vs_entry_fraction": 0.001312424289872105
+    },
+    {
+      "entry_USD": 53.7,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "margin_only",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 89.63590532589556,
+      "price_CAGR_no_interim_dividend": 0.13128874062772478,
+      "conditional_2026_12_31_planning_value_USD": 59.005978893709745,
+      "planning_value_vs_entry_fraction": 0.09880780062774197
+    },
+    {
+      "entry_USD": 53.7,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "capital_only",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 84.46814308102908,
+      "price_CAGR_no_interim_dividend": 0.11522937390556809,
+      "conditional_2026_12_31_planning_value_USD": 55.669054532426706,
+      "planning_value_vs_entry_fraction": 0.03666768216809513
+    },
+    {
+      "entry_USD": 53.7,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "both",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 92.57615666994873,
+      "price_CAGR_no_interim_dividend": 0.1401142888455449,
+      "conditional_2026_12_31_planning_value_USD": 60.904556241770315,
+      "planning_value_vs_entry_fraction": 0.13416305850596477
+    },
+    {
+      "entry_USD": 54.58,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "central",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 70.97777530967525,
+      "price_CAGR_no_interim_dividend": 0.06529359641684418,
+      "conditional_2026_12_31_planning_value_USD": 46.95806228358314,
+      "planning_value_vs_entry_fraction": -0.13964708164926454
+    },
+    {
+      "entry_USD": 54.58,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "margin_only",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 77.6819879986314,
+      "price_CAGR_no_interim_dividend": 0.08869707429671148,
+      "conditional_2026_12_31_planning_value_USD": 51.287102511241436,
+      "planning_value_vs_entry_fraction": -0.06033157729495353
+    },
+    {
+      "entry_USD": 54.58,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "capital_only",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 73.56055118869989,
+      "price_CAGR_no_interim_dividend": 0.07450071896054955,
+      "conditional_2026_12_31_planning_value_USD": 48.62581078710863,
+      "planning_value_vs_entry_fraction": -0.1090910445747778
+    },
+    {
+      "entry_USD": 54.58,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "both",
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 80.26476387765605,
+      "price_CAGR_no_interim_dividend": 0.09730438705097155,
+      "conditional_2026_12_31_planning_value_USD": 52.9548510147669,
+      "planning_value_vs_entry_fraction": -0.029775540220467134
+    },
+    {
+      "entry_USD": 54.58,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "central",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 81.52789173697595,
+      "price_CAGR_no_interim_dividend": 0.10143748515215867,
+      "conditional_2026_12_31_planning_value_USD": 53.77047718436613,
+      "planning_value_vs_entry_fraction": -0.014831858109818019
+    },
+    {
+      "entry_USD": 54.58,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "margin_only",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 89.63590532589556,
+      "price_CAGR_no_interim_dividend": 0.126869959030822,
+      "conditional_2026_12_31_planning_value_USD": 59.005978893709745,
+      "planning_value_vs_entry_fraction": 0.08109158837870556
+    },
+    {
+      "entry_USD": 54.58,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "capital_only",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 84.46814308102908,
+      "price_CAGR_no_interim_dividend": 0.11087331973764214,
+      "conditional_2026_12_31_planning_value_USD": 55.669054532426706,
+      "planning_value_vs_entry_fraction": 0.019953362631489613
+    },
+    {
+      "entry_USD": 54.58,
+      "entry_date": "2026-11-05",
+      "years_to_2030_12_31": 4.153319644079398,
+      "case": "both",
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 92.57615666994873,
+      "price_CAGR_no_interim_dividend": 0.13566103490869308,
+      "conditional_2026_12_31_planning_value_USD": 60.904556241770315,
+      "planning_value_vs_entry_fraction": 0.11587680912001308
+    }
+  ],
+  "risk_judgment": {
+    "appropriate_comparison": "A12–13% price CAGR can be an attractive long case, but return must be weighed against concentrated semiconductor,capacity andproduct-cycle risk. The prior initially beta-matched market/cash comparison was about11.7% under its selected dated market framework; that is a contextual control,not an exact future hurdle or a competition rule.",
+    "why_not_automatic_maturation": "Maturing execution and funded capacity can justify a falling required-return scenario. A cash raise alone changes liquidity/leverage and does not automatically lower systematic operating beta. I retain the flat convention for the adopted valuation judgment and explicitly display maturation as an alternative.",
+    "not_all_sensitivity_survival": "A long need not win at every margin orrate. It must explain why its selected combination deserves central weight. The issue here is that the larger stock-return claim is mainly in a separate risk/margin combination,while the additional primary sources mostly corroborate recovery already in the model."
+  },
+  "specific_artifact_replacement_if_root_shares_PASS": {
+    "working_cover": "Intel | Recovery is real; the trade is not yet compelling",
+    "recommendation_label": "Research conclusion: do not initiate the prior short at the updated price. Long candidate under a durable-margin case; no adopted trade.",
+    "what_to_remove": "Remove language presenting the modest relative short as the finished investment recommendation or implying billing correction demonstrates mispricing. Keep the operatingcash and sensitivity exhibits as research assets.",
+    "competition_status": "This neutral working document is not a completed M37 entry. Do not label it submission-ready. A final directional entry needs a consciously owned central business/risk view; another formatting revision will not supply that decision.",
+    "if_root_adopts_LONG_instead": "Use the durable-product/mix and funded capacity thesis,retain0.8 productivity unless independently revised,show40% mature margin as an owned forecast and the risk path separately. Show current dated entry,standalone3–5year returns anda real lower-margin/flat-risk countercase. Do not claim that40% orrisk maturation is proven,thatGoogle/Oracle contracted undisclosed volumes,or that customer deposits are incremental recurring profit."
+  },
+  "inputs": {
+    "earnings_cash_decision": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/decision_result.json",
+      "sha256": "a65c449870a387fb309e6877625c94c93ce45b2176a9aac355b77944bb371fd7"
+    },
+    "operating_gap_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/operating_gap_review.json",
+      "sha256": "5108942d98d233a0773f1247a887e57bf78d7f9779d29df1c7ac3e1a595ec03c"
+    },
+    "long_run_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/long_run_operating_review.json",
+      "sha256": "ba25aae9d92525311ba0fe872d7624eed03ecfebaad176a732e1621c4300902a"
+    },
+    "operating_bridge": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/operating_value_bridge.json",
+      "sha256": "a8f5e5b3d13e1fc4a5febf77b59b5773c54662a1a700fb594bb7837e1c04b50c"
+    },
+    "relative_framework": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/relative_framework_review.json",
+      "sha256": "b5e616a7e598b9d56f5528f6ffbb7db1a5f7adad25f955b52175a4e2f8d05eb1"
+    },
+    "source_model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    }
+  },
+  "no_mutations": "Only research JSON artifacts written. Frozen model,mainPDF,prepPDF,generators andoutreach untouched.",
+  "parent_bear_test_update": {
+    "received_utc": "2026-11-05T19:59:36.990220+00:00",
+    "provenance": "Parent message; parent independent arithmetic audit was still running. Not independently recomputed here.",
+    "reported_2030_values_USD": {
+      "timing_catchup_flat": 70.62,
+      "timing_catchup_maturing": 81.17,
+      "permanent_8_8pct_CPU_level_loss_flat": 66.25,
+      "permanent_8_8pct_CPU_level_loss_maturing": 76.21,
+      "permanent_flat_at_35_to_65pct_decremental_margin_range": [
+        65.39,
+        67.11
+      ]
+    },
+    "inference": "The reported source-led weaker-volume case still implies a cover price above either entry reference. It strengthens the decision to withdraw a new absolute short; it does not establish a long by itself."
+  },
+  "what_needs_to_be_different": [
+    "A different owned business conclusion must change cash available to shareholders: for example, evidence that premium product economics can persist against contemporaneous alternatives, or evidence that the accepted-output ramp cannot earn the existing margins after all manufacturing costs. A customer logo alone does neither.",
+    "A capital-productivity revision needs output and total required investment reconciled on the same scope. Deposits, partner financing, subsidies and delayed settlements cannot substitute for that comparison.",
+    "If selecting a long based on 40% margins and risk maturation, explicitly explain why both form the preferred economic path and evaluate standalone returns against an appropriate current risk benchmark. The price decline improves entry economics, but is not evidence for those business assumptions.",
+    "If no such business judgment is adopted, stop calling the document a completed directional M37 submission. Additional interviews, screenshots or footnotes are useful only if they can change that decision."
+  ]
+}

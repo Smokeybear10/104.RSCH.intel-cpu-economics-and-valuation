@@ -1,0 +1,313 @@
+{
+  "computed_utc": "2026-11-06T21:58:12.989367+00:00",
+  "input_sha256": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_weakness_repair_2026_11_06/cpu/cpu_ramp_results.json": "da0f7983a9cdedee6983225e0741529a061976423ca264cf815145d5df55b55c",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_weakness_repair_2026_11_06/factory/factory_results.json": "047036eeabd3b23a7b3661996d7040bcbf37f673f6dedb92b5d7e317c1cd9966",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_weakness_repair_2026_11_06/valuation/additional_stress_policy_before_calculation.json": "c9f150fe272c64f97e4a5825c4c3a467fc33439fdf9548dd17e347235dc17133"
+  },
+  "checks": {
+    "unchanged_delivery_max_error": 1.4210854715202004e-14,
+    "independent_factory_reproduction_max_error": 0.0
+  },
+  "cases": [
+    {
+      "case": "2027 ramp delayed one quarter; no sales catch-up; capital policy unchanged",
+      "rate": 0.10625,
+      "planning_value_USD": 52.01326188497453,
+      "target2030_USD": 76.43308836319235,
+      "annual_price_return": 0.0959083486848118,
+      "terminal_NOPAT_B": 54.34004113227788,
+      "terminal_net_investment_B": 7.167105939280209,
+      "terminal_reinvestment_fraction": 0.13189364214564353,
+      "terminal_implied_incremental_ROC": 0.22745599796897342,
+      "terminal_cash_B": 43.98919729033145,
+      "CPU_2030_B": 55.23827953059031,
+      "CPU_2040_B": 99.3356119487428,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 96.49930236739586,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 51.44750946000745,
+        "0.12": 47.73789090959999,
+        "0.15": 42.774394979014986
+      },
+      "company_sales_2028_B": 86.56770475046966,
+      "EBIT_2030_B": 36.525706048124604,
+      "parent_cash_2030_B": 21.06677138366058,
+      "annual_treasury": [
+        {
+          "year": 2027,
+          "ending_cash_B": 34.127182748200184,
+          "parent_cash_B": -10.948645251799816
+        },
+        {
+          "year": 2028,
+          "ending_cash_B": 32.810151873812515,
+          "parent_cash_B": 2.3772191256123327
+        },
+        {
+          "year": 2029,
+          "ending_cash_B": 42.75882534368489,
+          "parent_cash_B": 14.70917346987237
+        },
+        {
+          "year": 2030,
+          "ending_cash_B": 59.62184672734547,
+          "parent_cash_B": 21.06677138366058
+        }
+      ],
+      "minimum_annual_cash_B": 32.810151873812515,
+      "near_term_capex_B": 124.5
+    },
+    {
+      "case": "Foundry breakeven only + lower terminal ROC",
+      "terminal_ROC_assumption": 0.15,
+      "rate": 0.10625,
+      "planning_value_USD": 49.384255949193,
+      "target2030_USD": 72.44661201534325,
+      "annual_price_return": 0.08186505927854104,
+      "terminal_NOPAT_B": 54.05671264115315,
+      "terminal_net_investment_B": 10.811342528230634,
+      "terminal_reinvestment_fraction": 0.2000000000000001,
+      "terminal_implied_incremental_ROC": 0.14999999999999994,
+      "terminal_cash_B": 40.06163221025629,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 48.7641914885616,
+        "0.12": 45.248053365642185,
+        "0.15": 40.5434356192789
+      },
+      "company_sales_2028_B": 90.01475520908191,
+      "EBIT_2030_B": 36.442007896513076,
+      "parent_cash_2030_B": 20.93538961739398,
+      "annual_treasury": [
+        {
+          "year": 2027,
+          "ending_cash_B": 34.95702822897721,
+          "parent_cash_B": -10.118799771022797
+        },
+        {
+          "year": 2028,
+          "ending_cash_B": 33.528125824646835,
+          "parent_cash_B": 2.2653475956696254
+        },
+        {
+          "year": 2029,
+          "ending_cash_B": 43.496325945293336,
+          "parent_cash_B": 14.728700120646506
+        },
+        {
+          "year": 2030,
+          "ending_cash_B": 60.22796556268732,
+          "parent_cash_B": 20.93538961739398
+        }
+      ],
+      "minimum_annual_cash_B": 33.528125824646835,
+      "near_term_capex_B": 124.5
+    },
+    {
+      "case": "Foundry breakeven only + lower terminal ROC",
+      "terminal_ROC_assumption": 0.10625,
+      "rate": 0.10625,
+      "planning_value_USD": 46.806799552970354,
+      "target2030_USD": 68.58645952083963,
+      "annual_price_return": 0.06769602900358795,
+      "terminal_NOPAT_B": 54.05671264115315,
+      "terminal_net_investment_B": 15.263071804560889,
+      "terminal_reinvestment_fraction": 0.2823529411764706,
+      "terminal_implied_incremental_ROC": 0.10625,
+      "terminal_cash_B": 35.60990293392604,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 46.165902760067894,
+        "0.12": 42.83711403788141,
+        "0.15": 38.38317111845779
+      },
+      "company_sales_2028_B": 90.01475520908191,
+      "EBIT_2030_B": 36.442007896513076,
+      "parent_cash_2030_B": 20.93538961739398,
+      "annual_treasury": [
+        {
+          "year": 2027,
+          "ending_cash_B": 34.95702822897721,
+          "parent_cash_B": -10.118799771022797
+        },
+        {
+          "year": 2028,
+          "ending_cash_B": 33.528125824646835,
+          "parent_cash_B": 2.2653475956696254
+        },
+        {
+          "year": 2029,
+          "ending_cash_B": 43.496325945293336,
+          "parent_cash_B": 14.728700120646506
+        },
+        {
+          "year": 2030,
+          "ending_cash_B": 60.22796556268732,
+          "parent_cash_B": 20.93538961739398
+        }
+      ],
+      "minimum_annual_cash_B": 33.528125824646835,
+      "near_term_capex_B": 124.5
+    },
+    {
+      "case": "2027 ramp delayed one quarter; no sales catch-up; capital policy unchanged",
+      "rate": 0.11555,
+      "planning_value_USD": 44.92495094001438,
+      "target2030_USD": 68.09052483453875,
+      "annual_price_return": 0.06583208052020195,
+      "terminal_NOPAT_B": 54.34004113227788,
+      "terminal_net_investment_B": 7.167105939280209,
+      "terminal_reinvestment_fraction": 0.13189364214564353,
+      "terminal_implied_incremental_ROC": 0.22745599796897342,
+      "terminal_cash_B": 43.98919729033145,
+      "CPU_2030_B": 55.23827953059031,
+      "CPU_2040_B": 99.3356119487428,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 96.49930236739586,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 45.83208654236162,
+        "0.12": 42.52736761182546,
+        "0.15": 38.10563024434282
+      },
+      "company_sales_2028_B": 86.56770475046966,
+      "EBIT_2030_B": 36.525706048124604,
+      "parent_cash_2030_B": 21.06677138366058,
+      "annual_treasury": [
+        {
+          "year": 2027,
+          "ending_cash_B": 34.127182748200184,
+          "parent_cash_B": -10.948645251799816
+        },
+        {
+          "year": 2028,
+          "ending_cash_B": 32.810151873812515,
+          "parent_cash_B": 2.3772191256123327
+        },
+        {
+          "year": 2029,
+          "ending_cash_B": 42.75882534368489,
+          "parent_cash_B": 14.70917346987237
+        },
+        {
+          "year": 2030,
+          "ending_cash_B": 59.62184672734547,
+          "parent_cash_B": 21.06677138366058
+        }
+      ],
+      "minimum_annual_cash_B": 32.810151873812515,
+      "near_term_capex_B": 124.5
+    },
+    {
+      "case": "Foundry breakeven only + lower terminal ROC",
+      "terminal_ROC_assumption": 0.15,
+      "rate": 0.11555,
+      "planning_value_USD": 42.79849429333997,
+      "target2030_USD": 64.74344660904002,
+      "annual_price_return": 0.05297508802624962,
+      "terminal_NOPAT_B": 54.05671264115315,
+      "terminal_net_investment_B": 10.811342528230634,
+      "terminal_reinvestment_fraction": 0.2000000000000001,
+      "terminal_implied_incremental_ROC": 0.14999999999999994,
+      "terminal_cash_B": 40.06163221025629,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 43.57915077386981,
+        "0.12": 40.43687959653676,
+        "0.15": 36.232498474986116
+      },
+      "company_sales_2028_B": 90.01475520908191,
+      "EBIT_2030_B": 36.442007896513076,
+      "parent_cash_2030_B": 20.93538961739398,
+      "annual_treasury": [
+        {
+          "year": 2027,
+          "ending_cash_B": 34.95702822897721,
+          "parent_cash_B": -10.118799771022797
+        },
+        {
+          "year": 2028,
+          "ending_cash_B": 33.528125824646835,
+          "parent_cash_B": 2.2653475956696254
+        },
+        {
+          "year": 2029,
+          "ending_cash_B": 43.496325945293336,
+          "parent_cash_B": 14.728700120646506
+        },
+        {
+          "year": 2030,
+          "ending_cash_B": 60.22796556268732,
+          "parent_cash_B": 20.93538961739398
+        }
+      ],
+      "minimum_annual_cash_B": 33.528125824646835,
+      "near_term_capex_B": 124.5
+    },
+    {
+      "case": "Foundry breakeven only + lower terminal ROC",
+      "terminal_ROC_assumption": 0.11555,
+      "rate": 0.11555,
+      "planning_value_USD": 41.31911095503538,
+      "target2030_USD": 62.45238438117594,
+      "annual_price_return": 0.04388053351222032,
+      "terminal_NOPAT_B": 54.05671264115315,
+      "terminal_net_investment_B": 14.034628985154429,
+      "terminal_reinvestment_fraction": 0.2596278667243617,
+      "terminal_implied_incremental_ROC": 0.11555000000000001,
+      "terminal_cash_B": 36.8383457533325,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 42.037024867856246,
+        "0.12": 39.00594855550415,
+        "0.15": 34.95034695193772
+      },
+      "company_sales_2028_B": 90.01475520908191,
+      "EBIT_2030_B": 36.442007896513076,
+      "parent_cash_2030_B": 20.93538961739398,
+      "annual_treasury": [
+        {
+          "year": 2027,
+          "ending_cash_B": 34.95702822897721,
+          "parent_cash_B": -10.118799771022797
+        },
+        {
+          "year": 2028,
+          "ending_cash_B": 33.528125824646835,
+          "parent_cash_B": 2.2653475956696254
+        },
+        {
+          "year": 2029,
+          "ending_cash_B": 43.496325945293336,
+          "parent_cash_B": 14.728700120646506
+        },
+        {
+          "year": 2030,
+          "ending_cash_B": 60.22796556268732,
+          "parent_cash_B": 20.93538961739398
+        }
+      ],
+      "minimum_annual_cash_B": 33.528125824646835,
+      "near_term_capex_B": 124.5
+    }
+  ],
+  "limits": [
+    "Capital policy is preserved, not physical capex in all years. Physical capex2027-30 remains124.5B; post2030growthinvestment adjusts with growth under existing0.8rule.",
+    "Factory and terminalROC jointly revalued on changedterminalNOPAT. These are not summed singlefactor losses.",
+    "Minimum annual cash does not establish minimum quarterly or daily cash. The recalculated quarterly_overlay_results.json shows that joint operating and concentrated timing stresses can breach the assumed $20B buffer. Corrective financing or spending actions and their valuation costs remain unmodeled.",
+    "No scenario probability estimated; noactivedatasetmodified."
+  ]
+}

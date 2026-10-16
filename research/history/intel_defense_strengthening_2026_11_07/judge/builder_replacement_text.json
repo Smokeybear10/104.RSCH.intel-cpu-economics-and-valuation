@@ -1,0 +1,130 @@
+{
+  "purpose": "Exact suggested prose/table content for root to adapt to existing builder layout. No builder edits made. Numbers from newly communicated analyses must use sibling agents' exact saved values when wired into the builder.",
+  "page_1": {
+    "subtitle": "Conditional LONG at $40 or below | No new position at $56.28",
+    "reference_line": "NASDAQ: INTC | November 6, 2026 close: $56.28 | December 2030 core target: $82.47 | 9.6% annual return at this quote",
+    "thesis_2_heading": "An observed premium-mix shift supports the sales ramp",
+    "thesis_2_body": "Q3 server ASP rose 54% and units 10% YoY. I underwrite continued premium-product adoption; the selected 2028 sales forecast is $90.01B versus $83.72B consensus.",
+    "recommendation_sentence": "The operating thesis is positive; the current quote does not meet my return requirements. Re-underwrite delivery and cash conversion before any purchase at $40 or below."
+  },
+  "page_3": {
+    "replace_counterexample_callout": "Holding modeled Q4 ASP flat gives $71.17B of 2027 company sales and $88.32B in 2028, still above consensus. The 10% annual-ASP counterexample implies roughly 6% below that modeled Q4 level; it gives $69.33B and $85.84B. The exit anchor and later growth remain forecasts.",
+    "source_change": "Add the new demand calculation artifact to the build provenance; retain Intel Q3 and TrendForce links. The flat-Q4 control and 10% case are distinct assumed paths, not observed outcomes."
+  },
+  "page_5": {
+    "right_section_heading": "Why I carry the mix shift forward",
+    "right_bullets": [
+      "<b>Observed mix recovery.</b> Q3 server ASP rose 54% and units 10% YoY. Intel attributes most ASP improvement to premium mix, alongside higher unit costs.",
+      "<b>Customer adoption supports persistence.</b> Intel reports signed DCAI long-term agreements, including Google; Google confirms expanded Granite Rapids deployments. Public terms do not establish quantities or net prices.",
+      "<b>The forecast carries that transition forward.</b> $5.10B of 2027 CPU growth is modeled exit run-rate carryover; $4.49B is further ramp. The $6.81B Q4 anchor must be verified, and richer mix must reach group cash."
+    ],
+    "retain": "Left quarterly CPU chart, Q4 allocation explanation, and H1 delivery table.",
+    "footer_addition": "Intel Q1 prepared remarks, p.4; Google April 22 compute update. Contracts and deployments support adoption, not disclosed purchase quantities, net prices, or Intel margins."
+  },
+  "page_7": {
+    "right_section_heading": "What a $40 entry earns in each case",
+    "table_headers": [
+      "Case",
+      "2030 target",
+      "Annual return"
+    ],
+    "table_rows": [
+      [
+        "Core operating forecast",
+        "$82.47",
+        "19.0%"
+      ],
+      [
+        "Same operations; higher rate",
+        "$73.56",
+        "15.8%"
+      ],
+      [
+        "Selected funded stress",
+        "$64.74",
+        "12.3%"
+      ],
+      [
+        "Add CPU delay; funded",
+        "$59.50",
+        "10.0%"
+      ],
+      [
+        "Lower case; higher rate",
+        "$53.43",
+        "7.2%"
+      ],
+      [
+        "Adverse operating bundle",
+        "$38.13",
+        "-1.1%"
+      ]
+    ],
+    "table_note": "The selected stress retains the faster CPU path. The combined CPU-delay case is jointly recalculated and funded; these are unweighted outcomes, not a downside floor.",
+    "bottom_heading": "Entry follows the operating evidence",
+    "bottom_prose": "Require 15% annually in the updated higher-rate core and 12% in the updated selected stress. Rebuild CPU sales, group cash and funding after material news, then recalculate the remaining horizon to December 2030. The November 6 ceiling rounds down to $40; it expires if the operating assumptions no longer hold.",
+    "bottom_callout": "The funded combined setback supports a $37.17 diagnostic ceiling for 12%, not an adopted entry recommendation. No rule requires every downside to meet the hurdle.",
+    "move_to_notes": "Reverse-cash table and detailed equivalent perpetuity calculation; these already appear in defense page 7."
+  },
+  "page_9": {
+    "heading": "Revenue Must Become Parent Cash",
+    "subtitle": "Core 2030 recurring cash is $19.45B; the combined setback gives $15.33B",
+    "bridge_heading": "2030 EBIT to parent operating cash ($B)",
+    "bridge_headers": [
+      "Cash bridge",
+      "Core",
+      "Combined setback"
+    ],
+    "bridge_rows": [
+      [
+        "Group EBIT",
+        "38.94",
+        "34.03"
+      ],
+      [
+        "Cash tax",
+        "(5.84)",
+        "(5.10)"
+      ],
+      [
+        "Net investment",
+        "(11.35)",
+        "(11.29)"
+      ],
+      [
+        "Lease and minority cash",
+        "(2.30)",
+        "(2.30)"
+      ],
+      [
+        "Recurring parent operating cash",
+        "19.45",
+        "15.33"
+      ],
+      [
+        "Finite net capital credits",
+        "+3.61",
+        "+3.61"
+      ],
+      [
+        "Parent cash before financing",
+        "23.06",
+        "18.94"
+      ]
+    ],
+    "funding_heading": "The combined setback is funded",
+    "funding_bullets": [
+      "<b>Capital stays committed.</b> Both cases retain $124.5B of 2027–30 physical capex. Lower sales do not create an immediate capex refund.",
+      "<b>Timing requires borrowing.</b> The combined stress draws $2.65B at an assumed 8%, repays in Q4 2028 and incurs $126M of interest. The funded 2030 target is $59.50.",
+      "<b>Capacity is disclosed; access is assumed.</b> Intel reports $15B of revolvers, including $5B maturing in 2029. Fees and future covenant compliance are not established by this calculation."
+    ],
+    "bottom_heading": "The remaining bet is durable cash conversion",
+    "bottom_prose": "Core parent cash excluding finite credits stays negative in 2027–28; the positive 2030 cash is forecast. 92.9% of operating value comes after 2030. The 2031–40 model assumes $0.80 of incremental sales per dollar of net investment; R&D remains expensed.",
+    "footer": "Sources: Intel Q3 facilities and claims; analyst cash and funded-stress calculations. Combined setback adds the persistent CPU delay to Foundry breakeven, 15% terminal return on modeled net investment from 2041, and the higher rate. Net investment follows the existing model. Credits are finite. Parent cash excludes financing; borrowing creates matching debt."
+  },
+  "notes_9_and_10": {
+    "replace_answer_why_prefer_faster_path": "The continuation case has Intel-specific support: reported premium mix, signed DCAI long-term agreements and customer-confirmed deployments. I do not extrapolate the Q3 54% ASP increase. Conditional on the modeled Q4 level, flat ASP still leaves sales above consensus; the 10% annual-ASP counterexample implies a decline from that exit. The uncertainty is persistence and the exact anchor, not whether premium mix has occurred. I will rebase the future level if Q4 disclosures or H1 delivery contradict it.",
+    "replace_answer_why_advance_no_purchase": "The pitch makes a conditional investment judgment from an observed product transition and a quantified cash path. It identifies the evidence required to retain the forecast, the price that compensates for selected risks, and how that price changes after a setback. I would not buy at $56.28 or raise the target to manufacture upside. The conditional recommendation must compete on this reasoning; it is not a claim of a current-price bargain or a guaranteed winning entry.",
+    "update_combined_case_numbers": "Use the fully funded combined CPU-delay target of $59.50, annual return at $40 of 10.0%, and diagnostic 12% ceiling of $37.17. Keep the previously calculated pre-financing results labeled as such only if retained for an explicit reconciliation."
+  }
+}

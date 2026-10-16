@@ -1,0 +1,68 @@
+{
+  "purpose": "One sufficient-condition counterexample, not a new forecast or probability-weighted case.",
+  "accepted_source_assumptions": {
+    "industry_2027_unit_growth": 0.4,
+    "Intel_2026_unit_share": 0.5,
+    "Intel_2027_unit_share": 0.42,
+    "implied_Intel_2027_unit_growth": 0.17599999999999993
+  },
+  "countermodel_assumption": {
+    "Intel_2027_annual_ASP_growth": 0.1,
+    "all_non_CPU_revenue_lines": "unchanged",
+    "2028_level_persistence": "2027 lower CPU base persists; unchanged owned 2028 unit growth 25% and ASP growth 8%; no catch-up"
+  },
+  "FY2026E_CPU_B": 22.14406,
+  "2027": {
+    "owned_CPU_B": 31.73925349266314,
+    "counter_CPU_B": 28.645556016,
+    "CPU_gap_B": 3.093697476663138,
+    "owned_company_B": 72.4229004525013,
+    "counter_company_B": 69.32920297583816,
+    "consensus_B": 69.267,
+    "counter_company_beat_pct": 0.08980174662993612,
+    "fraction_of_owned_company_beat_erased": 0.9802899436232658
+  },
+  "2028": {
+    "owned_CPU_B": 42.84799221509524,
+    "counter_CPU_B": 38.6715006216,
+    "CPU_gap_B": 4.176491593495236,
+    "owned_company_B": 90.01475520908191,
+    "counter_company_B": 85.83826361558667,
+    "consensus_B": 83.719,
+    "counter_company_beat_B": 2.119263615586675,
+    "counter_company_beat_pct": 2.5314010148074884,
+    "fraction_of_owned_company_beat_erased": 0.6633821447616738
+  },
+  "limits": [
+    "10% ASP is an illustrative alternative, not evidence of achievable net prices. It replaces the owned implied exit premium and/or assumes subsequent mix normalization; it does not preserve every page-5 unit/ASP calibration.",
+    "This demonstrates that the unit-share thesis is insufficient for the stated sales beat. It does not disprove the owned 21.9% annual ASP forecast.",
+    "No margin, cash or equity target is recalculated."
+  ],
+  "competitive_crosscheck": {
+    "AMD_2027_unit_growth_if_TrendForce_chart_holds": 0.4518518518518517,
+    "AMD_required_2027_ASP_growth_if_revenue_doubles": 0.37755102040816335,
+    "Intel_required_2027_ASP_growth": 0.21879913318591804
+  },
+  "post_2027_share_crosscheck": {
+    "owned_Intel_2028_2030_cumulative_unit_growth": 0.6519999999999999,
+    "market_unit_CAGR_needed_to_maintain_42pct_share": 0.1821429983992222,
+    "market_unit_CAGR_needed_for_share_to_decline_42_to_35": 0.25621438724815926,
+    "Intel_2030_unit_share_if_industry_grows_15pct_each_year": 0.45621106271061074
+  },
+  "long_run_share_crosscheck": {
+    "Intel_2030_CPU_B": 60.07088322736725,
+    "Intel_2040_CPU_B": 108.02613688189624,
+    "assumed_2030_market_B": 150,
+    "assumed_2030_2040_market_CAGR": 0.04,
+    "implied_2030_revenue_share": 0.400472554849115,
+    "implied_2040_revenue_share": 0.4865239158272012,
+    "limit": "Illustrative denominator path, not a sourced 2040 forecast."
+  },
+  "captive_TAM_crosscheck": {
+    "assumed_total_2030_TAM_B": 150,
+    "assumed_non_addressable_imputed_captive_fraction": 0.25,
+    "remaining_merchant_pool_B": 112.5,
+    "required_Intel_share_of_remaining_pool": 0.5339634064654867,
+    "limit": "Conditional illustration only; the vendor forecasts do not disclose this fraction or prove captive values are included."
+  }
+}

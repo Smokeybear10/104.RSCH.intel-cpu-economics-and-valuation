@@ -1,0 +1,67 @@
+{
+  "prepared_utc": "2026-11-04T17:24:05.290774+00:00",
+  "scope": "Independent Decimal reconstruction from operating, corporate, tax, treasury and packaging policies. No import or execution of the production valuation engine; no changed assumptions.",
+  "input_hashes": {
+    "operating_policy": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "valuation": "5c0cd2116ad3efc49bc02be0dc8241902a9b11b3b9c0c5cf49e1594186eabfe2"
+  },
+  "arithmetic_audit": {
+    "status": "PASS",
+    "numeric_comparisons": 743,
+    "tolerance_B_or_USD": 1e-08,
+    "maximum_absolute_numeric_error": 2.6836423724423373e-13,
+    "comparisons_by_group": {
+      "host": 255,
+      "unchanged": 60,
+      "packaging": 26,
+      "operating": 195,
+      "financing_shield": 15,
+      "treasury": 70,
+      "terminal": 2,
+      "DCF": 120
+    },
+    "errors": [],
+    "recomputed_prices_USD": {
+      "2026_0.11": 48.143613809864554,
+      "2026_0.12": 41.6765966817742,
+      "2026_0.13": 36.550620735199615,
+      "2027_0.12": 46.220321858904704,
+      "2028_0.12": 51.57657637053412,
+      "2029_0.12": 57.50450366808858,
+      "2030_0.11": 71.36557946059258,
+      "2030_0.12": 63.81483751938723,
+      "2030_0.13": 57.78579710982624,
+      "2031_0.12": 70.52653140149941
+    },
+    "minimum_economic_cash_B": 34.74028711691428,
+    "new_debt_required_B": 0,
+    "operating_scope": "Rebuilt 2026server base from issuer anchors and selected Q4bridge; compounded revised ASP with preserved units; charged 50% incremental consolidated EBIT tapering 32%, unchanged Foundry, addedcapital/D&A/WC, corporate SBC, minority and all-in lease cash. Packaging overlap/profit and cash added once; host capital denominator excludes packaging.",
+    "financing_scope": "Rebuilt treasury including ordinary/capitalized interest, after-tax cash income, conditional tax shields, maturity paydowns, government cash and Classiq cash. Recomputed explicit operating DCF,3% terminal and flat debt financing shield tail at 11/12/13% controls."
+  },
+  "interpretation_notes": [
+    "Passed arithmetic does not empirically validate 20% ASP, 50% incremental profit retention,0.80 capital productivity,12% discount rate or the cash tax/claim proxies.",
+    "The 20% ASP choice was made with the prior 19.1667% revenue-offset diagnostic known; chronology is disclosed and should not be rewritten as blind selection. This audit cannot establish motive from that proximity.",
+    "The 2031 switch to aggregate D&A normalization replaces the small incremental asset cohort schedule. It must not be described as an exact asset-vintage replacement ledger.",
+    "End 2026 is a planning reference from forecast opening 2027 financial balances, not measured November 4 fair value; intrinsic endpoints do not forecast market-convergence dates."
+  ],
+  "competition_direction_check": {
+    "provisional_choice": "Intel SHORT remains the valuation-consistent provisional pitch direction, with materially reduced conviction. It must be framed as current overvaluation exposed during the investment ramp, not a passive short held unchanged for four or five years.",
+    "why_not_automatic_reversal_to_LONG": "Higher ASP improves the business and raises value. It does not by itself make the dated $58.11 entry cheap: the end 2026 reference is 41.68 at 12%, and 48.14 at 11%. These are planning references, not exact November 4 marks. The positive 2030/2031 endpoint prices represent value accumulating over time, not an attractive risk-adjusted purchase price established today.",
+    "own_repricing_judgment": "I would provisionally expect the large 2027 cash investment and the distinction between premium-product earnings and owner cash to create an opportunity for valuation compression in 2027–2028, before the recovery compounds into the entry price. This is an explicit, moderate-conviction market expectation. The intrinsic model does not prove it; announced spending may already be understood and investors may continue looking through it.",
+    "material_downgrade": "The old broad short narrative is no longer adequate. End 2029 value 57.50 is almost the entry 58.11 before carrying costs; end 2030/2031 values 63.81/70.53 are above it. Do not advertise the earlier 41.68 reference as a 3–5-year price target, assume the price must visit it, or call opportunity-cost underperformance a short profit.",
+    "what_the_cash_forecast_actually_says": {
+      "2027_parent_unlevered_cash_B": -10.182712883085713,
+      "2028_parent_unlevered_cash_B": 3.784903605352879,
+      "2029_parent_unlevered_cash_B": 16.576545150104643,
+      "2030_parent_unlevered_cash_B": 23.33587477246735,
+      "interpretation": "The case contains a strong recovery, positive 2028 cash and no required new debt. Funding failure, permanently negative cash conversion and collapse of AI demand are not its mechanisms."
+    },
+    "strongest_LONG_argument": "The accepted premium CPU mix, reuse of existing facilities and funded external packaging can generate durable earnings with improving capital productivity. That is a serious bull mechanism already partly incorporated. A stronger LONG would require actually preferring better returns, additional profitable external business or lower operating risk; do not insert unvalued foundry optionality merely to force a recommendation.",
+    "live_judge_objection": "Why should I short a business whose cash flow and value grow into and then exceed today’s price, especially when capex and negative 2027 free cash are already public?",
+    "honest_answer": "The only remaining basis is a present valuation discrepancy plus expected early repricing as the investment/ramp economics become concrete. I grant recovery, richer mix and a profitable packaging business; I still judge the entry too expensive for the cash path. However, the short becomes unattractive if investors retain the premium through 2029. I would reassess and cover when the value gap closes rather than defend a perpetual bearish position.",
+    "M37_boundary": "The rules require a 3–5-year fundamental investment horizon, not a compulsory unchanged holding to one exact endpoint. Show the entire 2029–2031 economics and acknowledge that the expected realization is earlier. This is a defensible provisional interpretation, not organizer confirmation or a license to disguise a purely event-driven trade.",
+    "competition_strategy": "Keep the updated pricing case prominently, explain why a successful operating recovery can still be an expensive entry, and rehearse the timing objection. Do not present this as a 9/10 thesis or a demonstrated winning recommendation. Its weaker realization case is a substantive issue, not failure to satisfy an arbitrary minimum return or prove the future.",
+    "what_changes_the_view": "Sustained acceptance and pricing above the owned path, a better conversion of sales into group profit, or materially lower cash capital and supplier working-capital requirements would strengthen LONG and weaken SHORT. A credible funded external wafer program could add value. Conversely, price/mix fading sooner or a funded ramp producing less group cash would strengthen SHORT. Use the observable joint operating/cash result rather than insisting on unavailable exact component allocation.",
+    "no_forced_direction_control": "The initial SHORT is not preserved as an invariant. This review keeps it provisionally because the preferred early valuation remains below the entry, while explicitly abandoning the old claim of a material passive 3–5-year short payoff. If root does not independently own early repricing, the correct action is to withdraw that recommendation rather than cite this audit as evidence that it is attractive."
+  }
+}

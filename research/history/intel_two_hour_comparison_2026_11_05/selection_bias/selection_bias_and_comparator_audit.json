@@ -1,0 +1,233 @@
+{
+  "status": "Substantive primary-source comparator audit; additional narrow checks may follow",
+  "research_date": "2026-11-05",
+  "selection_limits": [
+    "Official public archive identifies awards, not judges scores, causal reasons, or investment correctness. Presentation awards and subsequent-year investment-performance awards are separate.",
+    "The archived PDFs are competition presentations. They have not been verified as initial-screen submissions. Compare their main narratives to M37 ten-page constraint, not their appendix page counts.",
+    "Same-year alternate WMS is absent from the published top three. Its exact placement, round, and judges feedback are unknown. It is not proven to have failed a screen.",
+    "Shared three-thesis structure, interviews, scenarios, and model appendices occur in non-top-three and runner-up decks. Their presence cannot explain winning.",
+    "UNC current 2026 rules are not necessarily the historical 2024/2025 rules. Do not retroactively mark a prior pitch noncompliant."
+  ],
+  "official_sources": [
+    {
+      "url": "https://www.kenan-flagler.unc.edu/alpha-challenge-2/archives/",
+      "supports": "2024 WMS first, LII second, BMI third; 2025 MIDD first, CLH second, WEX third. Separate investment-performance award."
+    },
+    {
+      "url": "https://www.kenan-flagler.unc.edu/alpha-challenge-2/students/",
+      "supports": "Current 2026 three-person, long-only, two-pitch, twelve-month structure. No numerical scoring rubric found on the inspected public page. Password-protected material was not accessed."
+    },
+    {
+      "url": "https://www.m37.com/spc2026",
+      "supports": "M37 fundamental three-to-five-year thesis, initial ten-page PDF, judgment/assumptions/counterarguments; official competition instructions, not an inferred CFA rubric."
+    },
+    {
+      "url": "https://www.pennwitg.com/m37",
+      "supports": "Penn-facing competition instructions and deadlines; distinguish Penn eligibility language from broader M37 page."
+    },
+    {
+      "url": "https://capd.mit.edu/jobs/m37-management-lp-investment-analyst/",
+      "date": "2026-09-13",
+      "supports": "Employer-authored role emphasizes technical specifications, performance, supply-demand models, filings, valuation, and dialogue with scientists/engineers. Hiring philosophy is not a competition scoring rubric or an interview requirement."
+    },
+    {
+      "url": "https://sif.caltech.edu/assets/docs/M37%20Investment%20Analyst%202025.pdf",
+      "local_file": "m37_analyst2025.pdf",
+      "supports": "Earlier employer-authored investment analyst posting; same boundary between firm research preferences and competition rules."
+    }
+  ],
+  "matched_same_asset_case": {
+    "name": "Alternate WMS 2024 versus first-place WMS 2024",
+    "official_url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2024/11/Equity_Hill-Central.pdf",
+    "local_file": "duol2024_unranked.pdf",
+    "pdf_pages": "49\u201371",
+    "main_pdf_pages": "49\u201358",
+    "own_pages": "1\u201323",
+    "authors": [
+      "Cheney Chen",
+      "Annika Ulrich",
+      "Helen Wu"
+    ],
+    "overlap": "Same stock, competition year, and broad secular-conversion/distribution/mix thesis. Alternate has expert quotes, primary contacts, research summaries, scenarios, forecast-versus-consensus, and risks.",
+    "page_map": {
+      "thesis": "PDF51 / own3",
+      "conversion": "PDF52 / own4",
+      "moat": "PDF53 / own5",
+      "mix": "PDF54 / own6",
+      "scenarios": "PDF56 / own8",
+      "valuation": "PDF57 / own9",
+      "risks": "PDF58 / own10",
+      "research": "PDF60 / own12",
+      "model": "PDF62 / own14"
+    },
+    "positive_method": "The alternate links physical material conversion and high-margin products to segment forecasts. It provides a useful control against treating interview counts, three pillars, or polished charts as sufficient.",
+    "variant_quantification": {
+      "FY26_revenue_team": 3140,
+      "FY26_revenue_consensus": 3125,
+      "FY27_revenue_team": 3440,
+      "FY27_revenue_consensus": 3333,
+      "FY26_NI_team": 534,
+      "FY26_NI_consensus": 519,
+      "FY27_NI_team": 612,
+      "FY27_NI_consensus": 581
+    },
+    "valuation": {
+      "alternate": "Mar2026 target uses FY27 EBITDA1147m \u00d712x, net debt131m, shares77.6m: approximately176/share. The main cover calls this one-year35%, while model reports25%XIRR.",
+      "winner": "First-place172 target uses FY26 EBITDA1003m \u00d714.5x and net debt770m. Different terminal year, multiple, and cash bridge prohibit simple target/headline return comparison."
+    },
+    "weaknesses": [
+      "Net debt131m versus current770m requires a visible funded cash/debt bridge; a number alone does not establish cash creation.",
+      "Market-share20\u219225% uses a broad stormwater denominator, unlike winner plastic-pipe share; do not compare percentages directly.",
+      "Bear target124 (about\u22125%) is a selected scenario, not a demonstrated loss floor."
+    ],
+    "intel_application": "Borrow explicit disagreement versus a dated forecast and trace source\u2192unit/mix\u2192earnings. Intel current-long attractiveness still requires a price-relevant disagreement; adding interviews or copying the three-pillar format is not the missing causal step."
+  },
+  "runner_up_cases": [
+    {
+      "name": "LII 2024 second place",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2024/12/Second-Place_Equity_Team3_Wildcard_LII.pdf",
+      "local_file": "lii2024.pdf",
+      "reviewed_pages": "Main1\u20138, relevant appendices10\u201313",
+      "mechanism": "Contractor service, distribution, product availability, and Saltillo capacity support customer acquisition and growth. Page5 includes examples of customers leaving rival brands after availability/service problems.",
+      "evidence_limit": "Page13 lists five expert roles, two NJ stores, and two contractors. These are selected observations, not a representative retention-rate study. Risks are relegated to appendix12, unsuitable to copy under M37 initial-screen requirements.",
+      "forecast_bridge": "Page8 FY26 revenue6121 versus5945 consensus (~3%); EBITDA1366 versus1275 (~7.1%); EPS28.01 versus25.90 (~8.2%). Forecast variants are smaller than the headline target suggests.",
+      "confirmed_arithmetic_issue": {
+        "page": 8,
+        "visual_check": "lii_page8.png",
+        "EV": 27322,
+        "debt": 1342,
+        "cash": 623,
+        "displayed_equity": 28042,
+        "correct_equity": 26603,
+        "correct_EV_leg_per_share": 749.3803,
+        "PE_leg": 742.35,
+        "correct_average_target": 745.8651,
+        "published_target": 766.11,
+        "entry": 625.35,
+        "correct_price_upside_pct": 19.2716,
+        "published_price_upside_pct": 22.5,
+        "note": "Published equity adds net debt instead of subtracting it; this issue was visually confirmed, not merely inferred from text extraction."
+      },
+      "valuation_limits": "P/E26.5x versus historical21 and EV/EBITDA20x versus historical15.2 require a rerating judgment. DCF has working capital; do not claim it omits WC. Terminal-PV/EV percentage uses a different cutoff and denominator from Intel equity tail.",
+      "intel_lesson": "Availability can override established relationships. Customer stickiness needs segment-specific evidence of waiting/returning rather than assuming installed base prevents switching."
+    },
+    {
+      "name": "BMI 2024 third place",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2024/12/Third-Place_Equity_Team1_Wildcard_BMI.pdf",
+      "local_file": "bmi2024.pdf",
+      "reviewed_pages": "Main1\u20139; appendices13,15,16,26\u201328,30,35,36",
+      "control": "Same named authors as first-place WMS, different stock and award. This further limits claims that a layout or research process alone explains placement.",
+      "mechanism": "AMI deployment leads to attached software, higher recurring mix, and gross-margin expansion; hardware and software separately modeled.",
+      "bridge": {
+        "pages": "5\u20136",
+        "software_revenue_FY24_m": 60.377,
+        "software_revenue_FY26_m": 111.17,
+        "software_mix_FY24_pct": 7.3,
+        "software_mix_FY26_pct": 10.8,
+        "hardware_margin_FY24_pct": 37.5,
+        "hardware_margin_FY26_pct": 37.7,
+        "software_margin_FY24_pct": 70,
+        "software_margin_FY26_pct": 74,
+        "calculated_FY26_GM_pct": 41.6204,
+        "claimed_FY26_GM_pct": 41.6,
+        "consensus_FY26_GM_pct": 40,
+        "limitation": "Software margins inferred from comps such as Roper, not reported BMI segment economics. Approximate improvement decomposition is mix~1.14pp, software-rate~0.43pp, hardware-rate~0.18pp; ordering affects decomposition."
+      },
+      "entry_value": "Page8 headline274 versus221 uses forward premium multiples. Page30 base DCF192.91 is12.71% below entry. At45.2\u00d7consensus EPS5.28 the P/E leg is238.66; team EPS6.03 contributes~33.90/share. A favorable stock narrative does not reconcile this DCF/multiple disagreement.",
+      "cash_accounting": "Page26 includes working capital, capex, dividends and balance sheet roll-forward. Headline valuation uses current259m net cash despite forecast cash accumulation; do not infer that every more detailed model automatically reconciles to its target.",
+      "customer_study_audit": {
+        "deck_pages": "4 and13",
+        "primary_url": "https://www.wsscwater.com/sites/default/files/sites/wssc/files/ami/AMI%20Cost%20Benefit%20Analysis%20-2.pdf",
+        "primary_date": "2020-10-20",
+        "primary_pages": "2\u20134,8\u20139,25\u201326",
+        "local_file": "wssc_2020.pdf",
+        "study_summary": "Twenty-year utility study at4% discount rate estimates136.44m NPV,11-year payback. Recovered billing from new-meter accuracy is371.10m of393.27m benefits. This is replacement-meter/billing economics, not exclusively communications labor savings or BMI cellular vendor profit.",
+        "calculations": {
+          "benefits_NPV": 393265309,
+          "cost_NPV": 256825686,
+          "accuracy_revenue_NPV": 371096064,
+          "accuracy_share_of_benefits_pct": 94.36277635157491,
+          "NPV_without_accuracy_recovery": -234656441
+        },
+        "deferral_primary_url": "https://www.wsscwater.com/sites/default/files/2021-08/WSSC%20Water%20FY%202022%20Approved%20Budget%20Book%202021-08-18.pdf",
+        "deferral_fact": "FY2022 approved budget pI-4 says commissioners indefinitely deferred AMI activities Nov18,2020 due pandemic and economic uncertainty. This was publicly available before the2024 pitch. Exact resume status as of Dec2024 not conclusively located.",
+        "later_followup_url": "https://www.wsscwater.com/smart-pilot",
+        "later_followup_date": "Page modified2026-07-31; explicitly hindsight, not pre-pitch evidence",
+        "later_followup": "Late2025/2026 pilot uses Badger technology, approximately2000 residences and365 school sites, through spring2027. WSSC explicitly states pilot vendor selection does not bind full deployment to Badger. Positive evidence for suitability, counterevidence to automatic procurement capture.",
+        "lesson": "Even a credible, detailed customer ROI study must separate benefit attribution, funding/approval, deployment date, vendor selection, and supplier profit. Intel buyer TCO and announced demand require the same chain."
+      }
+    },
+    {
+      "name": "CLH 2025 second place",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2025/12/Equity_Team13_Universe_CLH.pdf",
+      "local_file": "clh2025.pdf",
+      "reviewed_pages": "All14; main1\u20139",
+      "mechanism": "Incinerator supply scarcity plus captive closures/PFAS/reshoring permits pricing above consensus, plus acquired EBITDA and deleveraging.",
+      "positive_evidence": {
+        "primary_url": "https://ir.cleanharbors.com/news-releases/news-release-details/clean-harbors-announces-second-quarter-2025-financial-results",
+        "date": "2025-07-30",
+        "finding": "Company reported7% mix-adjusted incinerator pricing growth. This measures pricing power more directly than an aggregate ASP increase distorted by mix. Strong old-fleet utilization and pricing support, but do not prove, durability."
+      },
+      "capacity_counterevidence": [
+        {
+          "url": "https://ir.cleanharbors.com/static-files/2e765b55-0ca1-406c-8ada-b2cf15397d80",
+          "date": "2025-02-19",
+          "finding": "2024 annual report describes old practical capacity561721tons and new Kimball70000 practicaltons added in2025 (~12.46% of old fleet)."
+        },
+        {
+          "url": "https://ir.cleanharbors.com/static-files/6e25dd83-bd4a-4fcb-a9b6-1b3d3f2d9de2",
+          "date": "2025-07-30",
+          "finding": "Q2 utilization89% excludes new Kimball;86% includes it. Six-month89% excludes,84% includes. Denominator affects scarcity inference."
+        },
+        {
+          "url": "https://ir.cleanharbors.com/news-releases/news-release-details/clean-harbors-announces-third-quarter-2025-financial-results",
+          "date": "2025-10-29",
+          "finding": "Q3 reported92% utilization explicitly excludes new Kimball. Deck\u2019s near90% constraint language requires reconciliation."
+        },
+        {
+          "url": "https://www.veolianorthamerica.com/media/press-releases/cleanearth-veolia-agreement",
+          "date": "2024-01-25",
+          "finding": "Rival Veolia disclosed five-year guaranteed access for Clean Earth at new Gum Springs capacity planned2025. Long permitting times do not mean no funded competitor capacity is arriving."
+        },
+        {
+          "url": "https://www.veolia.com/sites/g/files/dvc4206/files/document/2025/06/veolia-presentation-hazardous-waste-english.pdf",
+          "date": "2025-06",
+          "page": 31,
+          "finding": "Rival investor presentation identifies additional Gum Springs70000ton capacity. Do not combine capacities without checking waste-stream and practical/nameplate definitions."
+        }
+      ],
+      "model_audit": "P7 assumes300m annual M&A at7x postsynergy EBITDA. P11 acquisition EBITDA rises43m2026 to170m2028 with margins15%\u219218.6%; possible additional synergy credit after a postsynergy purchase multiple needs reconciliation, not a proven error without workbook. P9 target uses2029NTM EBITDA1942m\u00d711 less1169.9m net debt over52.6m shares for2028target~384.",
+      "horizon_warning": "384/204 over exactly3years equals23.47% CAGR, not stated21.3%; needs date/price convention reconciliation. Do not compare88% cumulative headline with Intel annual10%.",
+      "intel_lesson": "Constraint proof requires correct capacity denominator and known ramps. Durable price needs mix-adjusted pricing after capacity additions; categorical statements about barriers to entry are insufficient."
+    },
+    {
+      "name": "WEX 2025 third place",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2025/12/Equity_Team2_Wildcard_WEX.pdf",
+      "local_file": "wex2025.pdf",
+      "reviewed_pages": "All34 extracted; main8 visually checked; image-only appendix tables require further visual audit before numerical reliance",
+      "positive_method": "Pages3\u20138 tie a dated eligibility catalyst to account growth, segment mix, cash returns, and forecast-versus-consensus. Page24 separates accounts, float yield, margins, fuel prices, and processing volumes rather than one top-line CAGR.",
+      "unsupported_links": "Page4 asserts40% share of new marketplace accounts versus historical25\u201330%, while page26 says half. Embedded distribution makes capture plausible but does not establish the step-up or deposit funding per newly eligible account. Eligibility is not funded accounts, analogous to CPU installed demand not accepted deliveries.",
+      "verified_price_issue": "Page1 current146.05 and target183 imply25.30%, not34%. Page8 visually displays34% base upside; its downside98 implies\u221232.90%, not\u221228%, at that entry. Likely stale denominator, not evidence of intentional misstatement.",
+      "scope_notes": "Headline2025A is forecast when deck datedDec4,2025. SOTP claims55% onp3 versus37% onp7 require reconciliation. AdjustedOI versus EBITDA definitions need workbook/table audit; not asserted as a proven error."
+    }
+  ],
+  "generalization_to_intel": {
+    "copy": [
+      "A one-sentence contestable business claim with a dated market baseline.",
+      "A narrow mechanism translating technical/customer evidence into units, realized price, cost, and invested cash.",
+      "Separate operating improvement from multiple expansion and time roll-forward.",
+      "Use buyer economics only with adoption/funding/vendor-capture boundaries.",
+      "Put strongest contradictory evidence beside the forecast it challenges."
+    ],
+    "reject": [
+      "Inferring winning probability from resemblance to selected winners.",
+      "Copying an unverified bear-case floor or rerating premium.",
+      "Treating expert-call count as representative validation.",
+      "Treating customer pilots, cloud availability, eligible users, or supply scarcity as binding profitable sales.",
+      "Comparing terminal-value percentages with different EV/equity denominators or forecast cutoffs.",
+      "Comparing headline cumulative returns with annualized Intel return."
+    ],
+    "investment_decisive_gap": "Intel base planning value roughly51.29 versus52.22 entry and a conditional10% annual target do not themselves show current mispricing. The largest observed levers concern accepted CPU revenue, margin durability, Foundry loss reduction, reinvestment and financing. A more convincing chart or source count does not resolve that.",
+    "fair_comparison": "A10% annual return is not automatically disqualifying: some successful pitches carry comparable annualized returns. The stronger criticism is uncertain durability and no demonstrated current-price discount under the model, not an arbitrary return hurdle."
+  }
+}

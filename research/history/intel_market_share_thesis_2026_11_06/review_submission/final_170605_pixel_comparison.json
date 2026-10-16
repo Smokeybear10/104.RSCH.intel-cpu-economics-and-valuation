@@ -1,0 +1,143 @@
+[
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-01.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-01.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "9f75059315a5077b98ca61ec2a7fc13ee794ae4b3831800818a355a001a492f8"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-02.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-02.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "233d92ad2b2601ab5616b657af655011d5a707d0397c207dc2ab5d204ae3104c"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-03.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-03.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "aac4e99b578252f1e4547a3b53afdf3dc04f1cca5eeb4efa35f1829ffb9225c7"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-04.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-04.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "9ac3e76711721fa444308467dce79e00669ec46b46c06e5724680908a91a88a7"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-05.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-05.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "ce38937ec276e8ef51bb1a9c81b2c4a4ecd1d372f4a82cf298ee3119afa3c9db"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-06.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-06.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "a3c6088854616ee99b13c1496a3c0655debe8ba35cc3ca410c6777349adace00"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-07.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-07.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "20fa35bbc0e9a2152f6afee2dea138212245bbdfad771dbacfdb89daa4629621"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-08.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-08.png",
+    "pixel_identical": false,
+    "difference_box": [
+      1246,
+      329,
+      1254,
+      341
+    ],
+    "render_sha256": "0b29d1a5cf9739363fdf7af86881e479909f2644cc106235eb0cddfbb0fb2184"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-09.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-09.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "52fe41bbff13a86c1194fc653b20c32037db801a76f2770c6b96b941392b3054"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-10.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_initial_screen-10.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "7b0c6234d934ba41fac4c76ecc6c112d63d43c78c6d833a0cfa6a9b46a933fb9"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-1.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_defense_notes-1.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "8c6c195cd9d90d730b199385b4c2ab2830e33a826b5afce7451f577a8cb58558"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-2.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_defense_notes-2.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "e7df71bff21c30e0508ed416d4af49ced4bffd45cd7ec1ba048112edb347a4fb"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-3.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_defense_notes-3.png",
+    "pixel_identical": false,
+    "difference_box": [
+      75,
+      771,
+      774,
+      884
+    ],
+    "render_sha256": "bf2ab17c649bec3b9e64841d7e383e5cec82b6b883087766c64fda11c24f9c03"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-4.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_defense_notes-4.png",
+    "pixel_identical": false,
+    "difference_box": [
+      458,
+      343,
+      723,
+      358
+    ],
+    "render_sha256": "b0d9d79f6e40b3a6803c450ca91ae3434e9b76b3ea41d7a408b5209ab4257bfd"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-5.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_defense_notes-5.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "0d5532bbf03ce8e0c0dd62af35371c071b051a2e1c62c0d1d78bb09edf1e2c25"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_pitch_comparison-1.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_pitch_comparison-1.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "b6b473f3554b2ace0511a935b1e7f30b2cabc1d3a78300bb9cdcce1df79d5409"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_pitch_comparison-2.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_pitch_comparison-2.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "4c898fe759bc0241de4f050a9d29ce3dc558a371918efecda33509d16137b37a"
+  },
+  {
+    "new_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_pitch_comparison-3.png",
+    "previously_reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170306_pitch_comparison-3.png",
+    "pixel_identical": true,
+    "difference_box": null,
+    "render_sha256": "719e45debfe11c475a5ad5ca68e01a486120dde610c26ec6cb270bf1569144e3"
+  }
+]

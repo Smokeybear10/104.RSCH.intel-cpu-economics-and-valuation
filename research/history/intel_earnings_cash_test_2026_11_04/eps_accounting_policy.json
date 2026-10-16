@@ -1,0 +1,196 @@
+{
+  "title": "Intel forward adjusted earnings presentation bridge: frozen accounting conventions",
+  "frozen_utc": "2026-11-04T18:40:36.446814+00:00",
+  "owner": "intel_eps_accounting_policy",
+  "scope": "A 2027-2028 issuer-style adjustedEPS proxy and exact bridge back to the unchanged economic cash model. It is not a complete GAAP income statement, issuer guidance, exact sell-side forecast reconstruction or revised valuation.",
+  "chronology": {
+    "future_EPS_computed": false,
+    "future_EPS_output_viewed": false,
+    "existing_operating_EBIT_and_valuation_known": true,
+    "choice": "All presentation assumptions selected before forward EPS calculation. Existing operating forecasts remain untouched."
+  },
+  "actual_Q3_2026_validation": {
+    "units": "USD billions exceptEPS",
+    "GAAP_operating_profit": 2.522,
+    "adjustments": {
+      "acquisition": 0.072,
+      "SBC": 0.586,
+      "restructuring": 0.054
+    },
+    "nonGAAP_operating_profit": 3.234,
+    "GAAP_parent_net_income": 3.32,
+    "equity_gain_removed": 0.33,
+    "divestiture_loss_added": 0.004,
+    "escrow_mark_gain_removed": 1.005,
+    "minority_share_of_adjustments_removed": 0.037,
+    "tax_effects_added": 0.092,
+    "reconstructed_nonGAAP_parent_net_income": 2.756,
+    "adjusted_consolidated_pretax_profit": 3.363,
+    "normalized_tax_rate": 0.11,
+    "GAAP_NCI": 0.2,
+    "adjusted_NCI": 0.237,
+    "alternative_pretax_tax_NCI_reconstruction": 2.75607,
+    "reconstruction_difference_B": 7e-05,
+    "reported_diluted_weighted_shares_B": 5.307,
+    "unrounded_adjusted_EPS": 0.5193141134350857,
+    "reported_adjusted_EPS": 0.52,
+    "GAAP_EPS_special_numerator": "GAAP diluted numerator subtracts120M of escrow derivative gain associated with diluted contingent shares; do not carry that numerator adjustment into normalizedEPS when the whole escrow mark is already excluded.",
+    "note": "Small alternative-method residual is issuer rounding. Actual ratio validates consolidated pretax tax then adjustedNCI subtraction."
+  },
+  "central_reference": {
+    "tax_rate": 0.11,
+    "tax_classification": "Carry forward the current2026 issuer nonGAAP normalized rate solely as a comparison convention. Not2027-2028 guidance, notGAAP tax expense and notthe existing15%cash tax rate.",
+    "planning_denominator_B": 5.51,
+    "share_classification": "Existing economic planning claims, not a forecast of GAAP weighted diluted shares. No-new-funding reference; exact future grant/vesting and treasury-stock dilution unknown.",
+    "GAAP_NCI_guidance_proxy_B": {
+      "2027": 1.1,
+      "2028": 1.1
+    },
+    "minority_share_of_nonGAAP_adjustments_B": {
+      "2027": 0.15,
+      "2028": 0.15
+    },
+    "NCI_rationale": "Q3 issuer excludes37M of adjustments attributable to minority owners; annualizing gives148M. Rounded150M per year is a planning allowance, not guidance; use0 and300M sensitivities.",
+    "identified_addbacks_B": {
+      "2027": {
+        "corporate_SBC": 2.6,
+        "acquisition_amortization": 0.25,
+        "cash_restructuring_allowance": 0.2
+      },
+      "2028": {
+        "corporate_SBC": 2.8,
+        "acquisition_amortization": 0.25,
+        "cash_restructuring_allowance": 0.15
+      }
+    },
+    "ordinary_interest_B": {
+      "2027": 1.6,
+      "2028": 1.6
+    },
+    "interest_income_B": {
+      "2027": 1.0,
+      "2028": 1.0
+    },
+    "new_capitalized_interest_book_DA_B": {
+      "2027": 0.0,
+      "2028": 0.125
+    },
+    "book_DA_convention": "Mirror the existing financing-tax-model cohort convention for this approximation:1B annual capitalized interest,8year straight-line life, begins the following year.0in2027 and.125in2028. Book and tax lives are not actually established equal; show this as a chosen mapping rather than reported accounting. Current1Bcapitalized cash interest is not expensed again.",
+    "unallocated_incremental_lease_interest_B": {
+      "2027": 0.0,
+      "2028": 0.0
+    },
+    "unallocated_new_capital_incentive_book_benefit_B": {
+      "2027": 0.0,
+      "2028": 0.0
+    },
+    "unallocated_items_label": "Reference EPS is before separately unallocated lease interest and NEW capital-incentive book depreciation benefit. Zero is absence of allocation in the reference, not proof the true amounts are zero. See required controls.",
+    "ordinary_other_nonoperating_income_B": {
+      "2027": 0.0,
+      "2028": 0.0
+    },
+    "excluded_nonrecurring_items": "No equity remeasurement, divestiture gain, escrowmark or financing proceeds enters normalized earnings.",
+    "packaging_SBC": "Separate packaging central cost includes unsplitSBC. Do not add all of it back or invent anSBC fraction; retain it fully as expense in this limited proxy."
+  },
+  "formula": {
+    "symbols": "E=economic consolidatedEBIT afterSBC; A=identified corporateSBC+acquisitionamortization+restructuring addbacks; K=newcapitalizedinterest bookDA; H=newcredit bookDAbenefit; L=incremental leaseinterest notalreadyinordinaryinterest; I=ordinaryinterest; Y=interestincome; t=nonGAAPnormalizedtax; N=GAAPNCIproxy; M=minority shareofnonGAAPadjustments; S=planning denominator.",
+    "adjusted_operating_profit": "E + A - K + H",
+    "adjusted_pretax_profit": "E + A - K + H - L - I + Y",
+    "adjusted_parent_net_income": "(E + A - K + H - L - I + Y)*(1-t) - N - M",
+    "adjusted_EPS_proxy": "adjusted_parent_net_income / S",
+    "reverse_to_original_EBIT": "(adjusted_parent_net_income + N + M)/(1-t) - A + K - H + L + I - Y",
+    "cash_bridge_rule": "Recover E first, then apply the original economic model cash identity unchanged. Do not simply add fullD&A to adjustedNI; acquisitionamortization has already been excluded from that numerator.",
+    "original_owner_cash": "E - ordinary_operating_cash_tax + originalDA - physicalcapex - workingcapital - all-inleasecash - minoritycashreserve + oldcreditcash + newcreditcash - creditbasislosscashtax - ordinarycashinterest - capitalizedcashinterest + cashinterestincome*(1-cashtaxrate) + conditionalfinancingtaxbenefit."
+  },
+  "required_controls": {
+    "normalized_tax_rates": [
+      0.11,
+      0.15,
+      0.18
+    ],
+    "planning_denominators_B": [
+      5.44,
+      5.51,
+      5.6,
+      5.75,
+      6.0
+    ],
+    "additional_NCI_adjustment_B": [
+      0,
+      0.15,
+      0.3
+    ],
+    "extra_lease_interest_or_other_unallocated_pretax_expense_B": [
+      0,
+      0.25,
+      1.0
+    ],
+    "lease_control_interpretation": "1B expenses the whole existing all-in supplier/lease cash envelope in addition to ordinary interest andD&A, so it is an intentionally severe diagnostic bound, not a likely accounting forecast. The source does not permit an exact financeleaseinterest split.",
+    "new_credit_book_benefit_control": {
+      "reference": 0,
+      "illustration": "New credit amounts4.2B2027 and4.9B2028 from existing eligiblebasis policy, assumed8year booklife and halfyearinservice:bookdepreciation benefit.2625B2027 and.83125B2028. This is an illustrative reportedearnings adjustment only, not incremental cash value.",
+      "book_benefit_B": {
+        "2027": 0.2625,
+        "2028": 0.83125
+      },
+      "rule": "Keep oldcapitalcreditcashcollections outofearnings. Do not also give a cash-tax benefit or reviseFCFF for this presentation adjustment."
+    },
+    "restructuring_addback_control": "Also show proxy retaining the.20/.15B allowance as ordinary expense, since recurring assumed restructuring may not be treated identically by every analyst.",
+    "combined_adverse_presentation_control": {
+      "tax_rate": 0.18,
+      "shares_B": 6.0,
+      "additional_NCI_B": 0.3,
+      "extra_pretax_expense_B": 1.0,
+      "new_credit_book_benefit_B": 0,
+      "addback_restructuring": false,
+      "interpretation": "Stress of accounting/denominator conventions, not an operating downside probability or adopted financial forecast."
+    }
+  },
+  "cash_and_dilution_guards": [
+    "The economicDCF continues expensing recurringSBC; adding itback for an adjustedEPS comparison does not increase ownercash or value.",
+    "Future weighted dilutedshares depend on grants, vesting, price and assumedproceeds. The5.51planningclaimcount includes existingnetaward andescrow conventions, notfuturegrant issuance. Denominator controls are not a fully specifiedgrant model.",
+    "Minoritycashreserve is an economic attribution allowance. It is not actualpartnerdistributions; do not replaceonewiththeother silently.",
+    "Original1Ball-inleasecash allowance is chargedonce in cash. EPS expense mapping ofthatcash is incomplete. LeaseassetD&A is assumed within totalD&A already.",
+    "IssueradjustedFCF includespartnercapitalcontributions/netdistributions andgovernmentcash; parentowner cash convention differs. No exactreportedFCFforecast is claimed.",
+    "Capitalcreditbookbenefit lowersdepreciation and raisesadjustedearnings; it doesnot manufactureextraFCFF beyond already modeled cashcredits.",
+    "MarketEPS reference2027S&PviaStockAnalysis is explicitly nonGAAPadjusted. iFAST2028EPS2.59 is a publishedanalystestimate but fullfuture adjustments/tax/share methodology is notdisclosed. The comparison remains a normalizedproxy, not exact apples-to-apples certification."
+  ],
+  "source_facts": {
+    "issuer_nonGAAP_tax": "Fixed projectedrate updatedatleastannually usingfive-year projection;11%2026,12%2025.",
+    "issuer_NCI": "Remove minorityowners share of acquisition/SBC/restructuring/tax adjustments whereapplicable.",
+    "capitalized_interest": "Q32026expense is netof.264B capitalizedinterest;9Mcapitalized.806B. Capitalizedcash is notimmediateP&Linterestexpense.",
+    "finance_leases": "2025reportedfinanceleaseassets.453B, mainlyprepaid6yearsuppliercapacity. Oldfuturecashschedule6M2027/6M2028;9M2026newcashleasepayments.951B demonstrate oldschedule notadequateforward map.",
+    "capital_incentives": "Capitalincentives accounted as reductiontoassetbasis; recognizednewgrantbenefit occurs throughlowerfuturedepreciation. SelectedmodelphysicalEBITandDA precedeNEWgrantaccounting."
+  },
+  "sources": [
+    {
+      "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+      "locator": "ExplanationofNonGAAPMeasures;SupplementalGAAP-to-nonGAAPactualreconciliations",
+      "use": "11%tax,minorityadjustments,exactQ3validation,FCFdefinition"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "locator": "Note4EPS,Note5interestandcashflows",
+      "use": "5.307weightedshares,escrownumeratoradjustment,capitalizedinterest,cashclassification"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "Note6governmentincentives;Note19leases",
+      "use": "Assetbasisgrantaccountingandleaseuncertainty"
+    },
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "CFOoutlook",
+      "use": "GAAPNCI1.1B2027/2028 andQ4dilutedguide5.44B"
+    }
+  ],
+  "source_model_hashes": {
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/corporate_other_policy.json": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/root_corporate_tax_credit_valuation_policy.json": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+  },
+  "no_model_files_changed": true,
+  "no_future_EPS_calculated": true
+}

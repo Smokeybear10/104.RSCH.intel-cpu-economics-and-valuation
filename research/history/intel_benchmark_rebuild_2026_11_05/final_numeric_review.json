@@ -1,0 +1,939 @@
+{
+  "checked_utc": "2026-11-05T22:15:24.452584+00:00",
+  "scope": "Independent numeric and scope review of exact revised PDFs; no rendering claim. Historical display values checked against primary-source-verified margin/evidence records; forward arithmetic reconstructed from frozen model.",
+  "status": "PASS",
+  "artifacts": {
+    "screen": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "98631d1e6f4d9df2e90ec41a96f02159f4d994d0df697ff832312ccac3e1d303",
+      "pages": 10
+    },
+    "defense": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "d279319cc936473fe1aa8f938c9955729eba7adb0b4448338315fc2017c5b862",
+      "pages": 3
+    }
+  },
+  "checks_count": 211,
+  "failed_checks": [],
+  "issues": [],
+  "all_checks": [
+    {
+      "check": "2026CPUbase",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "2027unitstep",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "2027ASPstep",
+      "pass": true,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "check": "2027CPUforecast",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "CPUcomparison",
+      "pass": true,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "check": "Q1 2026margin",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "Q2 2026margin",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "Q3 2026margin",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "2023margin",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "2024margin",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "2025margin",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "YTDcurrent",
+      "pass": true,
+      "absolute_error": 8.881784197001252e-16
+    },
+    {
+      "check": "YTDprior",
+      "pass": true,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "check": "YTDproductshare",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "YTDbridge",
+      "pass": true,
+      "absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "check": "groupstart",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "groupend",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "salescontribution",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "margincontribution",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "foundry",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "other",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "DCAIandFoundryshare",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "DCAIsalesfraction",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "delayedFoundryEBIT",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "delayedFoundryfraction",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "screen page1: $52.22",
+      "pass": true
+    },
+    {
+      "check": "screen page1: $77.68",
+      "pass": true
+    },
+    {
+      "check": "screen page1: +48.8%",
+      "pass": true
+    },
+    {
+      "check": "screen page1: 10.0%",
+      "pass": true
+    },
+    {
+      "check": "screen page1: 20% unit growth and 20% ASP growth",
+      "pass": true
+    },
+    {
+      "check": "screen page1: $31.5B",
+      "pass": true
+    },
+    {
+      "check": "screen page1: $21.9B",
+      "pass": true
+    },
+    {
+      "check": "screen page1: $51.29",
+      "pass": true
+    },
+    {
+      "check": "screen page1: $48.52",
+      "pass": true
+    },
+    {
+      "check": "screen page1: about $59",
+      "pass": true
+    },
+    {
+      "check": "screen page1: 56 days",
+      "pass": true
+    },
+    {
+      "check": "screen page3: +$4.37B",
+      "pass": true
+    },
+    {
+      "check": "screen page3: $21.86B",
+      "pass": true
+    },
+    {
+      "check": "screen page3: +$5.25B",
+      "pass": true
+    },
+    {
+      "check": "screen page3: $31.48B",
+      "pass": true
+    },
+    {
+      "check": "screen page3: 44%",
+      "pass": true
+    },
+    {
+      "check": "screen page3: $4B -> $0.75B",
+      "pass": true
+    },
+    {
+      "check": "screen page3: +$3.25B",
+      "pass": true
+    },
+    {
+      "check": "screen page3: 9.7%",
+      "pass": true
+    },
+    {
+      "check": "screen page3: $28.7B",
+      "pass": true
+    },
+    {
+      "check": "screen page3: units first, then ASP",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 5.05",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 6.26",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 7.32",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 1.54",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 2.47",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 3.04",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 30.5%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 39.5%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 41.5%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: +27%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: +48%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: +54%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: -5%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: +9%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: +10%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: $4.88B",
+      "pass": true
+    },
+    {
+      "check": "screen page5: +4.50",
+      "pass": true
+    },
+    {
+      "check": "screen page5: +0.40",
+      "pass": true
+    },
+    {
+      "check": "screen page5: -0.02",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 92%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 5.9% / 8.8% / 20.2%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: 37.3% / 36.3%",
+      "pass": true
+    },
+    {
+      "check": "screen page5: issuer-reported and rounded",
+      "pass": true
+    },
+    {
+      "check": "screen page6: 14.43",
+      "pass": true
+    },
+    {
+      "check": "screen page6: +5.56",
+      "pass": true
+    },
+    {
+      "check": "screen page6: +0.37",
+      "pass": true
+    },
+    {
+      "check": "screen page6: +3.25",
+      "pass": true
+    },
+    {
+      "check": "screen page6: +1.11",
+      "pass": true
+    },
+    {
+      "check": "screen page6: 24.73",
+      "pass": true
+    },
+    {
+      "check": "screen page6: 89%",
+      "pass": true
+    },
+    {
+      "check": "screen page6: 94%",
+      "pass": true
+    },
+    {
+      "check": "screen page6: $21.48B",
+      "pass": true
+    },
+    {
+      "check": "screen page6: 13.1%",
+      "pass": true
+    },
+    {
+      "check": "screen page6: $59.05",
+      "pass": true
+    },
+    {
+      "check": "screen page6: $70.98",
+      "pass": true
+    },
+    {
+      "check": "screen page6: one-year pre-tax diagnostic",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $146.68B",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $194.75B",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $126.64B",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $196.13B",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $9.27B",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $37.15B",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $282.59B",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $428.03B",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $51.29",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $77.68",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $52.29",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $48.52",
+      "pass": true
+    },
+    {
+      "check": "screen page7: $43.47",
+      "pass": true
+    },
+    {
+      "check": "screen page7: 4.15-year",
+      "pass": true
+    },
+    {
+      "check": "screen page7: 0.80",
+      "pass": true
+    },
+    {
+      "check": "screen page7: 11.555%",
+      "pass": true
+    },
+    {
+      "check": "screen page7: 4.94%",
+      "pass": true
+    },
+    {
+      "check": "screen page7: 4.41%",
+      "pass": true
+    },
+    {
+      "check": "screen page7: 45.8%",
+      "pass": true
+    },
+    {
+      "check": "screen page7: 56 days",
+      "pass": true
+    },
+    {
+      "check": "screen page7: 2031-2040",
+      "pass": true
+    },
+    {
+      "check": "screen page8: 20% unit",
+      "pass": true
+    },
+    {
+      "check": "screen page8: 20% ASP",
+      "pass": true
+    },
+    {
+      "check": "screen page8: $4B",
+      "pass": true
+    },
+    {
+      "check": "screen page8: $0.75B",
+      "pass": true
+    },
+    {
+      "check": "screen page8: $3.25B",
+      "pass": true
+    },
+    {
+      "check": "screen page8: $2.3B",
+      "pass": true
+    },
+    {
+      "check": "screen page8: $21.9B",
+      "pass": true
+    },
+    {
+      "check": "screen page8: 3.0%",
+      "pass": true
+    },
+    {
+      "check": "screen page8: 2H FY2029",
+      "pass": true
+    },
+    {
+      "check": "screen page8: FY2030",
+      "pass": true
+    },
+    {
+      "check": "screen page8: not a quantified 2027 Intel CPU allocation",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $30.45",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $45.69",
+      "pass": true
+    },
+    {
+      "check": "screen page9: -3.2%",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $39.07",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $59.05",
+      "pass": true
+    },
+    {
+      "check": "screen page9: +3.0%",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $46.96",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $70.98",
+      "pass": true
+    },
+    {
+      "check": "screen page9: +7.7%",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $51.29",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $77.68",
+      "pass": true
+    },
+    {
+      "check": "screen page9: +10.0%",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $59.01",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $89.64",
+      "pass": true
+    },
+    {
+      "check": "screen page9: +13.9%",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $26.45B",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $31.48B",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $4.33",
+      "pass": true
+    },
+    {
+      "check": "screen page9: $6.70",
+      "pass": true
+    },
+    {
+      "check": "screen page9: 42%",
+      "pass": true
+    },
+    {
+      "check": "screen page9: 0.15 percentage point/year",
+      "pass": true
+    },
+    {
+      "check": "screen page9: 10.055%",
+      "pass": true
+    },
+    {
+      "check": "screen page9: 56 days",
+      "pass": true
+    },
+    {
+      "check": "screen page9: Scenarios are not independent effects",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $78",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $52.22",
+      "pass": true
+    },
+    {
+      "check": "defense page1: 20% unit growth and 20% ASP",
+      "pass": true
+    },
+    {
+      "check": "defense page1: 39.5%",
+      "pass": true
+    },
+    {
+      "check": "defense page1: 41.5%",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $4.883",
+      "pass": true
+    },
+    {
+      "check": "defense page1: 20.2%",
+      "pass": true
+    },
+    {
+      "check": "defense page1: 37.3%",
+      "pass": true
+    },
+    {
+      "check": "defense page1: 36.3%",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $51.29",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $48.52",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $43.47",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $21.86",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $31.48",
+      "pass": true
+    },
+    {
+      "check": "defense page1: $28.7",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $14.43",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $24.73",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $5.56",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $0.37",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $3.25",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $1.11",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $21.48",
+      "pass": true
+    },
+    {
+      "check": "defense page2: 13.1%",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $59.05",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $45.69",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $30.45",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $111.3",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $27.6",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $5.3-6.1",
+      "pass": true
+    },
+    {
+      "check": "defense page2: FY2029",
+      "pass": true
+    },
+    {
+      "check": "defense page2: FY2030",
+      "pass": true
+    },
+    {
+      "check": "defense page2: $89.64",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 2.5600",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 1.4280",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 1.5360",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 13.1328",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 4.0960",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 14.5608",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 3.55",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 1.41x / 1.69x",
+      "pass": true
+    },
+    {
+      "check": "defense page3: $0.4124",
+      "pass": true
+    },
+    {
+      "check": "defense page3: $0.4008",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 2.9%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 19.1%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 24.7%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 47.8%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 46.6%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 45.4%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 39.7%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 40.0%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 40.4%",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 6.7 percentage points",
+      "pass": true
+    },
+    {
+      "check": "defense page3: $4.33",
+      "pass": true
+    },
+    {
+      "check": "defense page3: $6.70",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 4.15332",
+      "pass": true
+    },
+    {
+      "check": "defense page3: $48.52",
+      "pass": true
+    },
+    {
+      "check": "defense page3: November 9, 2026",
+      "pass": true
+    },
+    {
+      "check": "defense page3: 10 PDF pages",
+      "pass": true
+    },
+    {
+      "check": "OracleX9",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "OracleX12",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "OracleFlexIntel",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "entryhurdle0.08",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "entryhurdle0.1",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "entryhurdle0.12",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "entryhurdle0.15",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "scenarioCAGRJoint downside",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "scenarioCAGRLower CPU demand; retain 40% mature margin and 0.80 capital productivity",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "scenarioCAGRCompetitive margin erosion: 35%, base sales and investment",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "scenarioCAGRBase LONG: 40%, base sales and investment",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "scenarioCAGRLower-risk upside: same operations as base",
+      "pass": true,
+      "absolute_error": 0.0
+    },
+    {
+      "check": "final correction page1: DCAI profit and lower Foundry losses drive 89%",
+      "pass": true
+    },
+    {
+      "check": "final correction page5: 7.06",
+      "pass": true
+    },
+    {
+      "check": "final correction page9: Weaker sales are the largest threat in these scenarios.",
+      "pass": true
+    }
+  ],
+  "max_numeric_absolute_error": 1.7763568394002505e-15,
+  "underlying_valuation_reconstruction": {
+    "independent_comparisons": 109,
+    "maximum_absolute_error": 5.684341886080802e-14,
+    "all_source_files_unchanged": true
+  },
+  "source_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "source_model_unchanged": true,
+  "reviewed_files_stable_during_check": true,
+  "interpretation_checks": [
+    "Quarterly reported actuals separated from full-year history and forecasts",
+    "YTD product-profit attribution is issuer-reported and rounded, not a causal regression",
+    "Unit/ASP interaction counted once, units first",
+    "Foundry EBIT diagnostic is one-year pre-tax, not equity valuation",
+    "Mature-margin sensitivity starts2031, not near-term earnings",
+    "Lower-demand scenario retains40%mature margin and includes cost/capital responses",
+    "Entry requirements illustrative, no automatic undervaluation or alpha claim",
+    "December2026planning andNovember5entry56-day mismatch explicit",
+    "Twoendpoint scenarios do not bound losses; no calibrated probabilities",
+    "IBIDEN fiscal years andAIASIC/GPUscope preserved",
+    "Oracle results conditional on vendor throughput, not measured or chip-pricing evidence"
+  ],
+  "resolved_findings": [
+    {
+      "original_issue": "Cover attributed89%to server sales andFoundry, omitting DCAI margin component",
+      "resolution": "Cover now attributes89%to DCAI profit and lowerFoundrylosses; matches model contribution."
+    },
+    {
+      "original_issue": "YTD7.055displayroundeddownthroughbinaryfloat",
+      "resolution": "Displayed7.06usingconventional half-up; bridge amounts independently match underlying7.055B before rounding."
+    },
+    {
+      "original_issue": "Scenario ordering could be read as universal risk ranking",
+      "resolution": "Page9heading limits ranking to these scenarios."
+    }
+  ]
+}

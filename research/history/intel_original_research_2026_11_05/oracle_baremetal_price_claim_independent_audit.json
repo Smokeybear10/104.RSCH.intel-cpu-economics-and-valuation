@@ -1,0 +1,115 @@
+{
+  "prepared_utc": "2026-11-05T07:28:42Z",
+  "audit_status": "PASS: arithmetic and billing-scope correction independently verified; performance ratio not independently reproduced.",
+  "requester": "root",
+  "auditor": "interview_protocol",
+  "original_interviews_conducted": 0,
+  "workloads_run": 0,
+  "sources": [
+    {
+      "url": "https://blogs.oracle.com/cloud-infrastructure/run-ai-inference-without-gpus",
+      "date": "2026-07-20",
+      "locator": "AI inference and pricing-efficiency tables",
+      "claim_audited": "Post labels CPU-only amounts as full bare-metal costs and claims roughly 10-12x token economics. It reports up-to-5x/6x throughput for two scenarios, without absolute throughput or reproducible run artifacts."
+    },
+    {
+      "url": "https://blogs.oracle.com/cloud-infrastructure/announcing-oci-x12-standard-acceleron-compute",
+      "date": "2026-04-16",
+      "locator": "Flexible Deployment Options",
+      "fact": "Separately lists .0119/OCPU-hour and .0114/GB-hour beside the 120-OCPU/1152GB bare-metal shape."
+    },
+    {
+      "url": "https://www.oracle.com/cloud/price-list/",
+      "locator": "Compute bare metal notes",
+      "fact": "X9 CPU and memory are separately charged; bare-metal allocations are fixed. Boot and block volumes are additional."
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm",
+      "locator": "Bare Metal Standard Shapes",
+      "fact": "BM.Standard3.64 has64OCPU/1024GB; BM.Standard4.Ax.120 has120OCPU/1152GB."
+    },
+    {
+      "url": "https://www.oracle.com/il-en/a/ocom/docs/corporate/pricing/oracle-paas-and-iaas-global-price-list.pdf",
+      "date": "2026-10-08",
+      "locator": "printed page56",
+      "verification": "Independently visually inspected pricing-056.png. Four selected SKU rates match API; notes say both bare metal and virtual machine."
+    },
+    {
+      "url": "https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/?currencyCode=USD",
+      "lastUpdated": "2026-11-02T14:49:49.342Z",
+      "local_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_evidence_gap_research_2026_11_05/raw_public_data/oracle_prices.json",
+      "sha256": "153de584995f9d78a6b7010bd0019dff9586614f96f795bce744d3fb5a9c4577"
+    }
+  ],
+  "input_rows": [
+    {
+      "shape": "BM.Standard3.64",
+      "OCPU": 64,
+      "memory_GB": 1024,
+      "cpu_sku": "B94176",
+      "memory_sku": "B94177",
+      "CPU_cost_per_hour": "2.56",
+      "memory_cost_per_hour": "1.5360",
+      "CPU_plus_memory_per_hour": "4.0960"
+    },
+    {
+      "shape": "BM.Standard4.Ax.120",
+      "OCPU": 120,
+      "memory_GB": 1152,
+      "cpu_sku": "B112141",
+      "memory_sku": "B112142",
+      "CPU_cost_per_hour": "1.4280",
+      "memory_cost_per_hour": "13.1328",
+      "CPU_plus_memory_per_hour": "14.5608"
+    }
+  ],
+  "author_calculations": {
+    "price_ratio_X12_X9": "3.5548828125",
+    "formula": "work_per_dollar_ratio = reported_throughput_ratio / (X12_hourly_CPU_memory_cost / X9_hourly_CPU_memory_cost)",
+    "conditional_5x": {
+      "work_per_dollar_ratio": "1.406516125487610570847755618",
+      "cost_per_work_saving_fraction": "0.2890234375"
+    },
+    "conditional_6x": {
+      "work_per_dollar_ratio": "1.687819350585132685017306741",
+      "cost_per_work_saving_fraction": "0.40751953125"
+    },
+    "CPU_only_work_per_dollar_ratio_5x": "8.963585434173669467787114846",
+    "CPU_only_work_per_dollar_ratio_6x": "10.75630252100840336134453782",
+    "physical_core_increase": 56
+  },
+  "checks": {
+    "x12_cpu_rate": true,
+    "x12_memory_rate": true,
+    "x9_cpu_rate": true,
+    "x9_memory_rate": true,
+    "x12_cpu_component": true,
+    "x12_memory_component": true,
+    "x9_cpu_component": true,
+    "x9_memory_component": true,
+    "x12_cpu_memory_total": true,
+    "x9_cpu_memory_total": true,
+    "price_ratio": true,
+    "savings5": true,
+    "savings6": true,
+    "physical_core_delta": true
+  },
+  "checks_passed": 14,
+  "important_limits": [
+    "5x and6x are separate up-to performance claims, not a confidence interval or typical range. Present scenario-conditioned results only.",
+    "Correction is CPU plus memory list billing, not total cost of ownership: excludes storage, network charges, software, support, taxes and discounts.",
+    "Accepting reported throughput still gives X12 an advantage in those scenarios; the correction does not show Intel is uneconomic.",
+    "This is an Intel generation comparison, not Intel versus AMD or Arm; do not connect these ratios to the existing2.9% cross-vendor breakeven.",
+    "Current API and dated launch/article support the price components; historical invoice amounts and private discounts are unknown.",
+    "Blog gives no numerical TTFT/ITL results, quality equivalence, exact model quantization, binary commit or run distributions sufficient to independently replicate its throughput.",
+    "120 minus64 equals56, so the blog\u2019s88-core-increase statement is inconsistent; do not repeat it.",
+    "No direction or size of Intel margin, ASP or valuation change is identified by this billing correction."
+  ],
+  "author_followup_questions": [
+    "In the July20 X12/X9 comparison, was memory included in the stated full-node prices? The published CPU and memory rates imply14.5608/h and4.096/h before other charges; is a different discount or billing scope intended?",
+    "Can you share public raw token throughput and TTFT/ITL results, quantization, llama.cpp commit/flags, run counts and identical quality settings for each scenario?",
+    "Is there a comparable E6Ax run or a workload where X12 does not win, and how should the deployment decision change in that case?"
+  ],
+  "recommended_exhibit_claim": "At published CPU-plus-memory rates, accepting the two reported throughput scenarios implies about1.41x or1.69x work per dollar, rather than the post\u2019s roughly10-12x claim. Performance was not rerun.",
+  "model_changed": false
+}

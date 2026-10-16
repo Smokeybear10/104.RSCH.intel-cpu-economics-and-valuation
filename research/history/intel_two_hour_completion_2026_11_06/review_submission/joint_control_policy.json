@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-11-06T07:49:38.847378+00:00",
+  "scope": "Independent review diagnostic only. Root model and PDFs unchanged. Existing outputs are already known; no blind-selection claim.",
+  "question": "Does the favorable-operating/low-ERP positive planning-value cushion survive the separately specified missing $3B packaging family?",
+  "unchanged": "Use the existing favorable operating case. Do not change CPU, client, Other DCAI, host Foundry, host investment, all claims, financial cash, beta, or any programs beyond the already specified packaging stress.",
+  "method": "Apply each packaging_scale_results cash-cost-flexibility endpoint as a cash-flow delta to the favorable annual rows, asserting the selected and favorable packaging revenues and tax rates coincide. Recompute EBIT, tax, incremental capex/WC and parent unlevered cash once. Adjust 2030 retained cash by cumulative 2027-2030 cash delta once. Revalue at the pre-existing 10.631495% plain-T12 rate and 11.555% selected rate.",
+  "interpretation": "These are joint assumptions with no assigned likelihood. The control tests sensitivity of one positive-entry example, not a forecast that a contract was lost or an exhaustive bound."
+}

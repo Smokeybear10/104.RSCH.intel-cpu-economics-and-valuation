@@ -1,0 +1,300 @@
+{
+  "prepared_utc": "2026-11-05T07:08:26.903406+00:00",
+  "question": "Can a defensible forecast-versus-expectations benchmark replace the vague claim that analysts overlook the investment burden?",
+  "frozen_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "models_or_PDF_changed": false,
+  "sources": [
+    {
+      "id": "SA",
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "publisher": "StockAnalysis",
+      "provider": "S&P Global Market Intelligence for financial consensus; TipRanks only for individual analyst records",
+      "source_last_updated": "2026-11-03",
+      "source_last_checked_label": "2026-11-02",
+      "retrieved_utc": "2026-11-05T07:08:26.903406+00:00",
+      "captured_file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_evidence_gap_research_2026_11_05/expectations_public_snapshot.txt",
+      "facts": {
+        "2027_revenue_B": 69.27,
+        "2027_adjusted_EPS": 1.8
+      },
+      "definition": "Page explicitly labels EPS and forward P/E as non-GAAP adjusted. Do not use the49price-target analysts as the EPS contributor count."
+    },
+    {
+      "id": "SWS",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+      "publisher": "Simply Wall St",
+      "provider": "S&P Global Market Intelligence",
+      "analysis_updated_UTC": "2026-11-04 22:28",
+      "retrieved_utc": "2026-11-05T07:08:26.903406+00:00",
+      "captured_file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_evidence_gap_research_2026_11_05/expectations_public_snapshot.txt",
+      "rows_B": {
+        "2026": {
+          "revenue_B": 61.824,
+          "GAAP_earnings_B": -10.594,
+          "FCF_B": 0.097,
+          "CFO_B": 18.486,
+          "average_analysts": 46
+        },
+        "2027": {
+          "revenue_B": 69.267,
+          "GAAP_earnings_B": 7.482,
+          "FCF_B": -4.159,
+          "CFO_B": 23.684,
+          "average_analysts": 47
+        },
+        "2028": {
+          "revenue_B": 83.719,
+          "GAAP_earnings_B": 12.969,
+          "FCF_B": 4.068,
+          "CFO_B": 32.289,
+          "average_analysts": 36
+        }
+      },
+      "definition": "Revenue/earnings/FCF/CFO annual forward table; average analyst count is not a verified FCF-specific panel. Publisher says47analysts submitted revenue or earnings estimates; common data vendor means not an independent replication of StockAnalysis."
+    },
+    {
+      "id": "SWS_METHOD",
+      "url": "https://support.simplywall.st/hc/en-us/articles/8840230551951-Understanding-The-Future-Growth-Section",
+      "definition": "Forecast table includes professional analyst estimates of revenue, net income, FCF and operating cash. Growth rates are separately weighted by analyst coverage."
+    },
+    {
+      "id": "SWS_GAAP",
+      "url": "https://support.simplywall.st/hc/en-us/articles/9092894930831-Understanding-The-Past-Performance-Section",
+      "definition": "Publisher uses unadjusted/GAAP EPS and net earnings. Do not compare SWS net earnings directly to our adjusted parent earnings proxy."
+    },
+    {
+      "id": "IFAST",
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "date": "2026-11-02",
+      "data_as_of": "2026-10-30",
+      "type": "One analyst, not consensus",
+      "facts": {
+        "2027_DCAI_growth": 0.37,
+        "2027_CCPG_growth": -0.12,
+        "2027_gross_capex_B": 30,
+        "2028_gross_capex_B": 32,
+        "2027_EPS": 1.77,
+        "2028_EPS": 2.59,
+        "2027_revenue_B": 69.198,
+        "2028_revenue_B": 80.73,
+        "2027_FCF_negative": true
+      },
+      "quality_note": "The quarterlygrosscapex4.219B matches issuer, but its9M26note10.2B is investingPPE, not issuer11.834BgrossPPE. Hence forward gross intent is clear while full classification remains unverified."
+    },
+    {
+      "id": "INTEL",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "date": "2026-10-30",
+      "locators": [
+        "Note2, Intel Products: CCPG and DCAI",
+        "Cash-flow statement and supplemental capital disclosures"
+      ],
+      "fact": "Products segment sales consist of external-customer revenue. Internal Foundry sales require elimination."
+    }
+  ],
+  "snapshot_control": {
+    "adopted_SWS_table": {
+      "2026": {
+        "revenue_B": 61.824,
+        "GAAP_earnings_B": -10.594,
+        "FCF_B": 0.097,
+        "CFO_B": 18.486,
+        "average_analysts": 46
+      },
+      "2027": {
+        "revenue_B": 69.267,
+        "GAAP_earnings_B": 7.482,
+        "FCF_B": -4.159,
+        "CFO_B": 23.684,
+        "average_analysts": 47
+      },
+      "2028": {
+        "revenue_B": 83.719,
+        "GAAP_earnings_B": 12.969,
+        "FCF_B": 4.068,
+        "CFO_B": 32.289,
+        "average_analysts": 36
+      }
+    },
+    "reason": "Last complete snapshot captured locally and repeated consistently with StockAnalysis69.27B rounded2027revenue. Earlier live reads/search snippets varied despite same page timestamp. No averaging of snapshots.",
+    "earlier_nonadopted_observations": [
+      {
+        "2027_revenue_B": 69.351,
+        "2027_CFO_B": 23.654,
+        "2028_revenue_B": 83.343,
+        "2028_earnings_B": 13.153
+      },
+      {
+        "2028_revenue_B": 83.384,
+        "2028_earnings_B": 12.949
+      }
+    ],
+    "presentation": "Round2028publicsales toabout83.7B and record snapshot; do not imply thousand-dollar accuracy for live aggregated forecasts."
+  },
+  "direct_named_segment_comparisons": [
+    {
+      "period": 2027,
+      "segment": "DCAI",
+      "my_2026_anchor_B": 27.0477,
+      "my_2027_forecast_B": 39.779088,
+      "my_growth": 0.4707013165629612,
+      "iFAST_growth": 0.37,
+      "growth_difference_percentage_points": 10.070131656296121,
+      "iFAST_growth_on_our_2026_base_B": 37.055349,
+      "same_base_revenue_difference_B": 2.723739000000002,
+      "comparison_status": "Segment and fiscal period match. Growth-rate comparison is direct; dollar translation holds our own 2026 base fixed, not the analysts undisclosed exact segment base."
+    },
+    {
+      "period": 2027,
+      "segment": "CCPG",
+      "my_2026_anchor_B": 30.77375,
+      "my_2027_forecast_B": 28.553599800000004,
+      "my_growth": -0.07214428530809525,
+      "iFAST_growth": -0.12,
+      "growth_difference_percentage_points": 4.785571469190475,
+      "iFAST_growth_on_our_2026_base_B": 27.0809,
+      "same_base_revenue_difference_B": 1.4726998000000044,
+      "comparison_status": "Segment and fiscal period match. Growth-rate comparison is direct; dollar translation holds our own 2026 base fixed, not the analysts undisclosed exact segment base."
+    }
+  ],
+  "gross_capex_comparisons": [
+    {
+      "year": 2027,
+      "physical_cash_PPE_B": 30.5,
+      "capitalized_interest_cash_B": 1,
+      "my_gross_cash_PPE_proxy_B": 31.5,
+      "iFAST_stated_gross_capex_B": 30,
+      "difference_B": 1.5,
+      "difference_fraction": 0.050000000000000044,
+      "comparison_status": "Matched stated gross-capex intent; cash timing/vendor-financing schedule not disclosed by analyst. Do not compare physical-only30.5/32.75 to gross30/32 silently."
+    },
+    {
+      "year": 2028,
+      "physical_cash_PPE_B": 32.75,
+      "capitalized_interest_cash_B": 1,
+      "my_gross_cash_PPE_proxy_B": 33.75,
+      "iFAST_stated_gross_capex_B": 32,
+      "difference_B": 1.75,
+      "difference_fraction": 0.0546875,
+      "comparison_status": "Matched stated gross-capex intent; cash timing/vendor-financing schedule not disclosed by analyst. Do not compare physical-only30.5/32.75 to gross30/32 silently."
+    }
+  ],
+  "revenue_scale_check": [
+    {
+      "year": 2027,
+      "my_Products_external_sales_B": 68.3326878,
+      "public_consolidated_revenue_B": 69.267,
+      "Products_alone_less_public_whole_company_B": -0.9343121999999937,
+      "comparison_status": "Deliberately different scope, used as a lower-bound scale observation only, not a consolidated percentage beat. Intel Note2 establishes Products revenues are external; no gross Foundry double count."
+    },
+    {
+      "year": 2028,
+      "my_Products_external_sales_B": 84.74132528580002,
+      "public_consolidated_revenue_B": 83.719,
+      "Products_alone_less_public_whole_company_B": 1.0223252858000222,
+      "comparison_status": "Deliberately different scope, used as a lower-bound scale observation only, not a consolidated percentage beat. Intel Note2 establishes Products revenues are external; no gross Foundry double count."
+    }
+  ],
+  "adjusted_EPS_benchmark": {
+    "year": 2027,
+    "my_reference_proxy": 2.4996601201597093,
+    "S_and_P_adjusted_consensus_via_SA": 1.8,
+    "same_label_but_not_exactly_matched": true,
+    "central_numeric_difference": 0.6996601201597092,
+    "combined_adverse_presentation_proxy": 1.9095888305066664,
+    "adverse_controls": "18% tax,6.0B claims,1Bextra pretaxexpense,0.30Bminorityadjustment,no restructuringaddback; unchanged operations. These are sensitivity choices, not estimated analyst policies.",
+    "implication": "The forecast already grants stronger adjusted earnings than public aggregate estimates; this is not an earnings-miss short. A matched low future accounting denominator alone cannot identify mispricing.",
+    "remaining_match_gaps": [
+      "Exact future diluted weighted shares",
+      "Analyst-level tax normalization",
+      "Specific addbacks",
+      "Lease expense and capital-credit book depreciation",
+      "NCI attribution"
+    ]
+  },
+  "cash_definition_bridge": [
+    {
+      "year": 2027,
+      "owner_cash_B": -11.692712883085713,
+      "public_vendor_FCF_B": -4.159,
+      "raw_unmatched_difference_B": -7.533712883085713,
+      "economic_SBC_reversal_B": 2.6,
+      "economic_minority_reserve_reversal_B": 1.1,
+      "capital_credit_collections_B": 3.0,
+      "gross_PPE_B": 31.5,
+      "CFO_like_constant_B": 20.507287116914284,
+      "vendor_FCF_like_constant_B": -10.992712883085716,
+      "formulas": {
+        "CFO_like": "constant + L + X",
+        "vendor_FCF_like": "constant + L + X + E",
+        "definitions": "L = lease/supplier cash outside CFO (0..1B); X = modeled capital-credit cash classified in CFO rather than investing (0..total credits); E = modeled PPE cash classified in financing rather than investing. These variables are not forecast here."
+      },
+      "with_L_equal_1_X_plus_E_needed_to_match_vendor_FCF_B": 5.833712883085716,
+      "historical_E_illustration_B": 3.026,
+      "illustrative_FCF_range_if_E_equals_FY2025_and_L1_and_X0_to_total_credits": [
+        -6.966712883085716,
+        -3.966712883085716
+      ],
+      "comparison_status": "Cannot identify an operating cash-flow miss. Pure presentation variables can materially change a headline difference while owner economics stay fixed; illustrative bounds are not probabilities or adopted accounting forecasts."
+    },
+    {
+      "year": 2028,
+      "owner_cash_B": 2.293653605352879,
+      "public_vendor_FCF_B": 4.068,
+      "raw_unmatched_difference_B": -1.7743463946471207,
+      "economic_SBC_reversal_B": 2.8,
+      "economic_minority_reserve_reversal_B": 1.1,
+      "capital_credit_collections_B": 7.199999999999999,
+      "gross_PPE_B": 33.75,
+      "CFO_like_constant_B": 32.743653605352876,
+      "vendor_FCF_like_constant_B": -1.0063463946471245,
+      "formulas": {
+        "CFO_like": "constant + L + X",
+        "vendor_FCF_like": "constant + L + X + E",
+        "definitions": "L = lease/supplier cash outside CFO (0..1B); X = modeled capital-credit cash classified in CFO rather than investing (0..total credits); E = modeled PPE cash classified in financing rather than investing. These variables are not forecast here."
+      },
+      "with_L_equal_1_X_plus_E_needed_to_match_vendor_FCF_B": 4.074346394647124,
+      "historical_E_illustration_B": 3.026,
+      "illustrative_FCF_range_if_E_equals_FY2025_and_L1_and_X0_to_total_credits": [
+        3.0196536053528753,
+        10.219653605352875
+      ],
+      "comparison_status": "Cannot identify an operating cash-flow miss. Pure presentation variables can materially change a headline difference while owner economics stay fixed; illustrative bounds are not probabilities or adopted accounting forecasts."
+    }
+  ],
+  "historical_anchor": {
+    "FY2025_CFO_B": 9.697,
+    "investing_PPE_B": 14.646,
+    "financing_PPE_B": 3.026,
+    "vendor_FCF_B": -4.949,
+    "gross_PPE_B": 17.672,
+    "issuer_adjusted_FCF_B": -1.612,
+    "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+    "prior_verified_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/cash_flow_definition_bridge.json"
+  },
+  "research_conclusion": {
+    "aggregate_expectations_available": true,
+    "fully_matched_future_cashflow_or_EPS_gap_established": false,
+    "identified_overlooked_negative_cashflow_surprise": false,
+    "named_operating_disagreement_established": true,
+    "disagreement_direction": "Our2027DCAIgrowth is higher, ourCCPGdecline smaller and statedgrosscashcapex onlymodestlyhigher thaniFAST. Our2028Productsalone exceeds SWSwholecompanysalesforecast. These comparisons reinforce a valuation/durabilityshort rather than an operatingmissshort.",
+    "what_changed": "Recovered a cited aggregate adjustedEPSbenchmark, established external-Products scope from primaryfiling, froze currentpublicconsensus table, and produced explicit matchedsegment and grosscapexcomparisons plus cash-classificationalgebra.",
+    "what_did_not_change": "No original interviews, analyst-level full model, new calibrated operating edge or superiorforecast evidence obtained. No recommendation or forecast was forced to create a bearish gap."
+  },
+  "suggested_slide": {
+    "headline": "The short already grants more recovery than public forecasts.",
+    "rows": [
+      "2027 DCAI growth:47.1%ours vs37%iFAST",
+      "2027 CCPG growth:-7.2%ours vs-12%iFAST",
+      "2027grosscashcapex:$31.5Bours vs$30BiFAST",
+      "2027adjustedEPSproxy:$2.50ours vs$1.80S&Paggregate; conventionsnotfullymatched"
+    ],
+    "callout": "2028Productsalone:$84.7Bvsabout$83.7Bpublicwholecompanysales. Demandweaknessisnotourvalueargument.",
+    "footnote": "iFAST is oneanalyst. S&Pbenchmark distributedviaStockAnalysis/SWS isaggregate. Exacttax/share/cashclassificationsremainunmatched. Coreconcernsarealreadypublic."
+  },
+  "checks": {
+    "frozen_model_unchanged": true,
+    "cash_remapping_identities_passed": true,
+    "source_snapshot_sha256": "55ed011ef2f278c203f625940a1af320a0e2b18afed1c603ae2198f1535a7f15"
+  }
+}

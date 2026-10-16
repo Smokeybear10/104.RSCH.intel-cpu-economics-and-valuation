@@ -1,0 +1,19 @@
+{
+  "objective": "Identify what operating economics, rather than a chosen multiple, must improve for an actionable Intel recommendation at the last verified November 6 close.",
+  "quote_USD": 56.28,
+  "quote_date": "2026-11-06",
+  "exit_date": "2030-12-31",
+  "rates": [0.10625, 0.11555],
+  "return_hurdles": [0.12, 0.15],
+  "hurdle_status": "Illustrative investor choices inherited from the current decision policy, not M37 requirements, a calculated cost of equity, or a definition of an objectively good investment.",
+  "reverse_margin": "Add a CPU operating-margin improvement phased 25%,50%,75%,100% over2027-2030 and retained thereafter; preserve revenue, all other segment profits, capex, depreciation, working capital, taxes, leases, minority claims, credits and financing policies. This is a cost-efficiency-equivalent diagnostic. It assumes no incremental investment is required for the extra efficiency and is not a supported forecast.",
+  "cash_equivalent": "Solve the extra normalized parent operating cash beginning2031 and growing3% thereafter needed to close the2030 equity-value gap. Keep2030 net assets, finite credits and financing bridge fixed. This is not a new forecast and cannot identify a unique market expectation.",
+  "terminal_bound": "Set terminal net investment from2041 to zero while retaining3%growth, purely as an economically generous upper bound on the effect of changing terminal capital efficiency alone. Do not use this zero-reinvestment growth case as an investable forecast.",
+  "ablations": {
+    "packaging_profit": "Set only positive incremental new-packaging operating profit to zero; preserve2027 startup loss, all revenue, all physical capex, depreciation, working-capital investment, credits and ownership claims. This represents zero margin on delivered sales with stranded investment, not disappearance of the business or a free reduction in its capital cost.",
+    "Foundry": "Use existing breakeven stress:2027 -4B,2028 -2.5B,2029 -1B,2030 onward0B; preserve all capital and product economics. This retains an improvement from current losses; it is not absence of a recovery.",
+    "joint": "Recompute both operating-profit changes together, taxes and cash through2030, without adding precomputed scenario losses. All financing-access assumptions remain inherited and unverified."
+  },
+  "no_fit_rule": "No operating forecasts, main artifacts or recommendation are changed by these calculations. Do not interpret thresholds as likely outcomes, probabilities, organizer endorsement, or a short recommendation.",
+  "chronology": "This policy is written before this script's first calculation, after existing forecasts, targets and prior thresholds are already known; it is not blinded."
+}

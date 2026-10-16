@@ -1,0 +1,95 @@
+{
+  "completed_utc": "2026-11-05T06:30:15.197138+00:00",
+  "request": "Fix the biggest weakness in the Intel M37 thesis.",
+  "status": "Position-definition repair and new research complete; robust investment edge not established.",
+  "judgment": {
+    "recommendation": "Moderate-conviction relative-value SHORT Intel with an explicitly funded illustrative market hedge.",
+    "logical_mismatch_repaired": true,
+    "standalone_multiyear_short_established": false,
+    "robust_alpha_established": false,
+    "what_changed": "Replace the undefined outright-short recommendation with a capital-aware relative return criterion; retain original operating forecasts and quantify failing controls.",
+    "why_not_change_forecasts": "Earlier growth normalization still leaves2030value67.47. Structural cash, distribution and terminal-investment checks found no valuation correction that rescues the outright short. No forecast was weakened to obtain a desired return.",
+    "remaining_weakness": "Selected market ERP, beta, convergence and financing assumptions matter materially. A matched alternative primary-source ERP method nearly erases the portfolio advantage.",
+    "winning_probability": "Not calibrated; no numerical probability claimed."
+  },
+  "new_findings": {
+    "structural_audit": "No FCFF/retained-cash double count; distributions leave short economics unchanged; terminal growth funded. Stale derived incremental-sales metadata does not affect actual funded capital and is excluded from new calculations.",
+    "earlier_normalization_2030_value": 67.4711015073358,
+    "funded_portfolio_per_100_short": {
+      "SPY_long": 162.73918286978386,
+      "own_cash_buffer": 100,
+      "total_initial_capital_including_fees": 263.00192205265364
+    },
+    "2030_portfolio_CAGR": {
+      "central": 0.06431301715281323,
+      "central_maturing_risk": 0.0504116270212418,
+      "favorable_maturing_risk": 0.035203040885840364,
+      "matched_plain_ERP_method": 0.04911990845087866
+    },
+    "capital_hurdle": 0.0494,
+    "central_minimum_index_CAGR": 0.07103113490661817,
+    "same_SPY_cash_without_short_CAGR": 0.07097497187676804,
+    "comparator_limit": "No-short portfolio has greater initial market exposure; its higher raw return does not alone invalidate the hedge. Historical beta and fixed initial sizing do not guarantee neutrality or equal total risk."
+  },
+  "artifact": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "e04dd2cd408457094c46b8ff1e290117961010ca4117d10326ccb220f11dd8ca",
+    "pages": 10
+  },
+  "qa": {
+    "pages": 10,
+    "all_pages_rendered_and_visually_inspected": true,
+    "changed_pages_rechecked_after_final_edits": [
+      1,
+      5,
+      9
+    ],
+    "layout_defects_observed": false,
+    "source_hyperlinks": 18,
+    "all_text_inside_page_bounds": true,
+    "source_model_unchanged": true,
+    "independent_relative_payoff_rows_checked": 46,
+    "independent_duration_values_checked": 6,
+    "duration_max_price_difference_USD": 5.684341886080802e-14,
+    "independent_editorial_review": "Pages1,8,9 passed conditional framing and numeric review; later edits clarified conditional loss, corrected page reference, and clarified scenario footnote.",
+    "submitted": false
+  },
+  "rules_rechecked": {
+    "url": "https://www.m37.com/spc2026",
+    "deadline": "2026-11-09",
+    "published_cutoff_time": null,
+    "page_limit": 10,
+    "format": "PDF",
+    "horizon": "3-5years",
+    "hedge_required": false,
+    "hedge_prohibited_on_published_page": false,
+    "submitted": false
+  },
+  "research_files": {
+    "early_normalization_independent_audit.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/early_normalization_independent_audit.json",
+      "sha256": "5201ec08cd9b4bfebe153930e14c8f24e93869d19fce2974001b966e27636bba"
+    },
+    "early_normalization_root_results.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/early_normalization_root_results.json",
+      "sha256": "e40f680886730a30e0b0df98e3018c832b1c60f3e01858c609b43ad2eb0b2285"
+    },
+    "long_run_operating_review.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/long_run_operating_review.json",
+      "sha256": "ba25aae9d92525311ba0fe872d7624eed03ecfebaad176a732e1621c4300902a"
+    },
+    "relative_framework_independent_audit.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/relative_framework_independent_audit.json",
+      "sha256": "f2090f760a31f0dec96093ac0f112f1f6326412afe4a53f37a9fb7a30aeb413c"
+    },
+    "relative_framework_review.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/relative_framework_review.json",
+      "sha256": "b5e616a7e598b9d56f5528f6ffbb7db1a5f7adad25f955b52175a4e2f8d05eb1"
+    },
+    "structural_model_audit.json": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/structural_model_audit.json",
+      "sha256": "40b221493bc5012cbff424456db8b10ebd7790ffffa916066e45bf3753379ae1"
+    }
+  },
+  "scope_limit": "Bounded requested work completed. Competition objective not complete; no automatic future research or monitoring promised."
+}

@@ -1,0 +1,17 @@
+{
+  "selected_before_results_utc": "2026-11-05T23:55:46.519866+00:00",
+  "reason": "Two independent readers identified unsupported duration of2028\u201330units25/18/12 aftertheonly2027industryforecast. Test earlierdeceleration separately from2031slowgrowth.",
+  "scenario": "2027unchanged;2028,2029,2030serverCPUunitgrowth10%each.10%isillustrative,notasourcedmarketforecast.",
+  "unchanged": "BaseASP,OtherDCAI,CCPG,hostFoundryprofitpath,plannedphysicalcapexandD&Athrough2030,taxesandfinancingpolicy. Noautomaticbasechange.",
+  "group_profit": "CPUrevenuedifference multipliedby50%consolidateddecrementalmarginthrough2030; after2030sameexistingCPUslowgrowthcase retention49%,48%,...,40%,held40%thereafter. DCAIprofit/marginrecomputed afterthisgroupchange; noaddedFoundrycostbenefit.",
+  "working_capital": "Through2030adjustWCby10%ofthechangeinCPUrevenuedeltavsbase.",
+  "after2030": "Preservelower2030CPUlevelasconstantrelativefactorwithbasegrowth;recalculatehostincrementalsales/netinvestmentat0.8andDAfromexistingProductsrevenuefraction. Physicalcapex=DA+netinvestment\u2212WC;packagingoverlaypreserved.",
+  "claims": "Additional1.215BAltera/VLSIreserveappliedexactlyonce.",
+  "limits": [
+    "Noeconomicprobabilitiesorforecastconfidenceinferred.",
+    "FixedFoundryprofitdespitelowerCPUvolumeisnotverifiedandmayunderstateunderabsorption.",
+    "Noquarterlydeliveryscheduleornewindustryforecast.",
+    "Annualcashfloorcheckonly;nomonthlyliquidityclaim.",
+    "Noindependenceassumedversusmargin/customerlossstates."
+  ]
+}

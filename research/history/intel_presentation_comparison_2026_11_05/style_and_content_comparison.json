@@ -1,0 +1,163 @@
+{
+  "scope": "Read-only comparison of current Intel nine-page draft against published Waterloo 2026 and Yale 2025 competition decks. Josh pitch unavailable. No claim that copying winning features causes winning.",
+  "visual_review": {
+    "current": [
+      "tmp/pdfs/intel_editorial/business-1.png"
+    ],
+    "waterloo": [
+      "tmp/pdfs/m37_examples/waterloo_research.png",
+      "tmp/pdfs/m37_examples/waterloo_forecast.png",
+      "tmp/pdfs/m37_examples/waterloo_theses.png"
+    ],
+    "yale": [
+      "tmp/pdfs/m37_examples/yale_summary.png",
+      "tmp/pdfs/m37_examples/yale_bridge.png"
+    ],
+    "text_review_waterloo_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "text_review_yale_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "layout_finding": "Intel is a portrait serif editorial memo; Waterloo is a 16:9 sans-serif evidence deck with numbered thesis bands, section navigation, high-contrast recommendation, exhibit titles and compact source footers. Yale is a 4:3 navy-and-grey deck with side-by-side disagreement and thesis/forecast boxes."
+  },
+  "transferable_changes": [
+    {
+      "change": "Use landscape 16:9 with white background, dark navy/charcoal text, one red accent and pale grey exhibit fields.",
+      "evidence": "Waterloo p3/p35 visual review; Yale p2/p8 visual review.",
+      "boundary": "Do not copy logos, school identity, charts, research claims or exact text."
+    },
+    {
+      "change": "Use one sans-serif family and strong title/body hierarchy; reduce long first-person paragraphs to 2-3 evidence bullets per claim.",
+      "evidence": "Waterloo p3 and Yale p8 vs current Intel p1.",
+      "boundary": "Retain scope, forecast date and adverse cases; do not use an artificially forceful investment conclusion."
+    },
+    {
+      "change": "Put relative SHORT, reference quote, dated current value and conditional 2030 position return on a compact first-page dashboard.",
+      "evidence": "Waterloo p1/p3 and Yale p1 make direction, current price and target immediately visible.",
+      "boundary": "$46.96 is Dec.31 2026 conditional value, not a 2030 cover target or guaranteed downside; central 2030 Intel value is $70.98."
+    },
+    {
+      "change": "Use two numbered thesis rows with specific mechanisms and one forecast implication each.",
+      "evidence": "Waterloo p3; Yale p7/p8.",
+      "boundary": "These are two linked judgments in one conditional thesis, not independent proven alpha sources."
+    },
+    {
+      "change": "Keep a simple footer section navigation and repeat thesis numbering beside the relevant valuation inputs.",
+      "evidence": "Waterloo p3/p35.",
+      "boundary": "Keep within the M37 maximum ten PDF pages, rather than borrowing long appendices."
+    },
+    {
+      "change": "Give exhibits most of each page and convert prose into observed evidence / forecast treatment / what would falsify it columns.",
+      "evidence": "Waterloo p35 and Yale p2/p8.",
+      "boundary": "A scenario comparison is not a measured disagreement with consensus."
+    },
+    {
+      "change": "Use assertive but accurate finding headlines: operating profit recovers before owner cash; qualified capacity still requires funding; premium mix does not establish permanent margins.",
+      "evidence": "Waterloo claim-led summaries and charts; current Intel p3-p5 support these narrower claims.",
+      "boundary": "Do not rename owner cash as GAAP free cash flow, distributions or shareholder returns."
+    },
+    {
+      "change": "Add one compact path from 2027 funding/output through 2028 cash conversion to 2029-30 durable economics.",
+      "evidence": "Yale p24 event path.",
+      "boundary": "These are observation windows, not verified future event dates or guaranteed repricing catalysts."
+    },
+    {
+      "change": "Move lengthy accounting explanations to one methods/source page while keeping short material qualifications adjacent to each chart.",
+      "evidence": "Winner decks use exhibits with brief sources and larger supporting appendices.",
+      "boundary": "Do not bury that central future value rises, the hedge is conditional, or alternative ERP assumptions erase its advantage."
+    },
+    {
+      "change": "Use a two-column risk / evidence-that-would-change-the-view panel instead of repeated prose caveats.",
+      "evidence": "Yale p25 risks/mitigants; current Intel p7 already supplies numerical checkpoints.",
+      "boundary": "Risks are real opposing outcomes; do not present every one as solved."
+    }
+  ],
+  "content_gaps": [
+    {
+      "priority": "highest substantive",
+      "item": "Matched forecast-versus-market bridge",
+      "examples": "Waterloo p35: 170K vs 186K locations and 39% vs 43% GM for 2029E. Yale p8/p21: thesis-specific revenue/EBITDA deltas versus 2028 consensus.",
+      "intel": "Current p6 compares EPS proxies to one analyst while acknowledging accounting differences; no matched consensus cash-flow or mature-margin error has been established.",
+      "action_now": "Add a clearly labeled bull-case/own-case/evidence/forecast comparison using existing inputs.",
+      "remaining": "A matched, sourced expectations benchmark and evidence supporting why ours should be right."
+    },
+    {
+      "priority": "high substantive",
+      "item": "Original customer, channel or expert evidence",
+      "examples": "Waterloo p2 reports 13 expert calls, 188 customer interviews and 21,611 scraped datapoints.",
+      "intel": "Primary company/supplier public disclosures and our calculations; no interviews or surveys performed.",
+      "action_now": "Describe actual evidence provenance honestly.",
+      "remaining": "Original research if useful and methodologically defensible; counts alone are not an edge."
+    },
+    {
+      "priority": "high presentation",
+      "item": "Explicit thesis-to-forecast mapping",
+      "examples": "Yale p8 assigns each thesis to revenue, EBITDA, multiple and share-count differences.",
+      "intel": "Mechanisms and financial outputs appear on separate pages, but linkage is less easy to scan.",
+      "action_now": "Add rows mapping funded capacity to capex/WC and mix durability to ASP/mature DCAI margin/capital productivity.",
+      "remaining": "Do not attribute a total value delta to one variable when multiple assumptions move."
+    },
+    {
+      "priority": "medium presentation",
+      "item": "Dated event/observation path",
+      "examples": "Yale p24 Now / 1H26 / 2H26 / Onwards.",
+      "intel": "Current p7 numerical annual checkpoints but no timeline.",
+      "action_now": "Turn existing annual checkpoints into observation windows.",
+      "remaining": "No proven near-term repricing catalyst; competition does not require one."
+    },
+    {
+      "priority": "medium contextual",
+      "item": "Historical operating baseline and competitive overview",
+      "examples": "Yale p3-p6 segment revenue, industry share, history, leverage and FCF; Waterloo p4-p6 transaction economics/segments.",
+      "intel": "Current p2 explains business, eliminations and prospective market-unit logic; historical margins/ASP appear selectively elsewhere.",
+      "action_now": "Compact baseline panel if verified actual figures fit; do not add a whole generic industry page.",
+      "remaining": "Matched actual-to-forecast comparisons help calibration; current model scopes differ from reported consolidated revenue."
+    },
+    {
+      "priority": "optional crosscheck",
+      "item": "Independent valuation crosschecks",
+      "examples": "Waterloo p32 relative value; Yale p22/p23 SOTP, precedent transactions and comparables.",
+      "intel": "APV and operating/risk sensitivities plus a rough EPS multiple; no fully reconciled peer valuation.",
+      "action_now": "Keep the limitation explicit; only add a crosscheck if scopes can be reconciled.",
+      "remaining": "Intel integrated foundry/product structure makes indiscriminate fabless peer multiples unreliable."
+    }
+  ],
+  "already_present": [
+    "Business overview",
+    "Clear relative-short direction",
+    "Operating forecasts",
+    "Profit-to-cash bridge",
+    "Physical mechanism evidence",
+    "Scenario valuation and adverse case",
+    "Numerical invalidation checkpoints",
+    "Position capital, return and borrow assumptions",
+    "Model method and linked sources"
+  ],
+  "editorial_caution": "Published winning decks contain draft artifacts or inconsistencies too: Yale p25 has an xx% placeholder and Waterloo p33 versus p34/p35 differs on the displayed GM. Emulate hierarchy and evidence structure, not every source detail or level of rhetorical confidence.",
+  "recommendation": "Make the deck look and read like an investment presentation now; distinguish newly improved presentation from unresolved investment edge. The missing matched expectations evidence cannot be manufactured through wording."
+}

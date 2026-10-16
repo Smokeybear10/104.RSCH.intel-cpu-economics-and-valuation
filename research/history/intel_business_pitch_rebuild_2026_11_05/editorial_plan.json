@@ -1,0 +1,189 @@
+{
+  "prepared_utc": "2026-11-05T06:41:39.531634+00:00",
+  "scope": "Editorial and investment-argument plan. Existing models, generator and PDF unmodified. JSON contains proposed prose and derived arithmetic only.",
+  "critical_verdict": {
+    "current_problem": "Current numbered items are not three theses: growth already modeled is a concession, and better factory economics defeating the short is a risk. Three pages of trade and hedge mechanics obscure the business argument.",
+    "what_can_be_claimed": "One conditional valuation thesis with two economic mechanisms: accepted-output investment constrains cash conversion; the mature margin and investment economics of a broader product mix determine the value of the recovery.",
+    "what_is_not_yet_established": "The evidence does not establish a large measured disagreement with matched current consensus, a high-conviction outright short, or that 35% mature margin/0.8 capital productivity is uniquely preferable. A clear rewrite improves communication, not forecast identification.",
+    "direction": "Preserve moderate-conviction relative SHORT if root still prefers the current operating/required-return center. Do not imply the editorial rebuild independently validates it. Switching to LONG merely because the company can recover would also outrun the evidence.",
+    "claim_count": "Use two judgments rather than manufacture a third independent edge. Present outside foundry programs as upside risk, with program economics and funding, rather than dismissing them as zero or calling every announcement a third bearish thesis."
+  },
+  "headline_options": [
+    "Intel | The cost of recovery",
+    "Intel | Growth before cash"
+  ],
+  "recommended_cover_copy": {
+    "recommendation": "SHORT INTC with a market hedge | 3-5-year fundamental view",
+    "paragraph_1": "Intel’s server recovery is real. My forecast allows 20% unit growth and 20% higher average selling prices in 2027, followed by continued expansion. I still prefer Intel on the short side of a market-hedged portfolio at the November 4 reference price of $58.28 because the investment needed to deliver that growth limits the cash earned by common shareholders.",
+    "paragraph_2": "Two judgments drive the valuation. First, more accepted processors require a balanced supply of wafers, advanced packaging and substrates, with cash committed before all the output arrives. Second, the enlarged business must keep earning attractive margins while funding the next process generation. I give Intel substantial recovery credit without carrying today’s premium product economics unchanged into maturity.",
+    "honest_boundary": "My central forecast supports $70.98 per share in 2030, so this is a relative-return recommendation, not a prediction that Intel must fall. The funded hedge earns 6.43% annually under the selected assumptions; a consistent alternative risk-premium method reduces that to 4.91%, versus a 4.94% capital hurdle.",
+    "display_rules": "Show dated reference quote separately from Dec31 2026 planning valuation and end2030 conditional value. Do not label $46.96 a 3-5-year price target. Keep the economic boundary visible on cover but put detailed construction on one supporting page."
+  },
+  "business_claims": [
+    {
+      "name": "Accepted output requires more than unused factory space.",
+      "investor_copy": "Intel can reuse existing factories and still face a substantial cash bill. The Ireland expansion installs tools inside existing buildings, while advanced packages also need qualified substrates. I expect processor revenue and operating profit to recover before those commitments turn into cash for common shareholders.",
+      "evidence_to_forecast": "The issuer’s Ireland investment and disclosed equipment/substrate commitments support funding tools and supplier access inside the current capital and working-capital envelopes. They do not identify exact Intel output capacity or prove that aggregate capex must exceed the forecast.",
+      "quantified_consequence": "The unchanged model produces $111.3B of cumulative operating profit during2027-2030 but only$27.6B of owner cash after financing. Physical capital spending totals$124.5B and working-capital use$18.0B. These are overlapping steps of one cash bridge, not separate valuation deductions.",
+      "falsifier": "If accepted server output and underlying manufacturing profit beat the forecast while combined physical investment and supplier working-capital use undershoot it, existing capacity is converting more efficiently than this view allows.",
+      "bull_case_to_show": "Existing-site upgrades can mature sooner than greenfield capacity. Better yields, lower comparable process costs and fuller utilization can improve the same cash bridge. Large commitments alone do not establish weak investment returns."
+    },
+    {
+      "name": "The recovery must earn its margin after the product mix changes.",
+      "investor_copy": "Recent server revenue growth owes more to richer products than to package volumes. That supports Intel’s near-term recovery, but a higher average selling price is not a costless price increase. I allow strong premium-product growth, then value the broader data-center business at a 35% mature operating margin rather than extending the recent roughly42% segment margin indefinitely.",
+      "evidence_to_forecast": "Q3 ASP+54% and units+10% support the mix mechanism; issuer reports higher unit costs alongside powerful product-profit leverage. The2025ASP decline shows that realized mix/pricing can reverse. These facts justify testing normalization, but they do not identify exactly35% or prove a decline before2030.",
+      "quantified_consequence": "Keep20%/8%/4%/2%serverASP growth through2030 and the selected35% mature DCAI margin. Show40% as a credible competing margin case alongside1.0 capital productivity; together with declining risk that case supports$60.90 atyearend2026.",
+      "falsifier": "Repeated premium shipments with stable economics after supply expands, and profitable custom growth without disproportionate cash investment, would support higher sustainable margins and capital returns.",
+      "bull_case_to_show": "Q3 product-profit growth demonstrates genuine operating leverage. Continuing supply scarcity and new Intel product adoption can sustain pricing longer; AMD/Arm announcements do not quantify Intel displacement.",
+      "confidence_limit": "This remains an owned long-run normalization, not a calibrated margin estimate or a proven market error. Avoid headlines saying current margins must fall to35% or custom products inherently earn20%."
+    }
+  ],
+  "recommended_structure": [
+    {
+      "page": 1,
+      "title": "The cost of recovery",
+      "purpose": "Recommendation, two economic judgments and the short/relative-return boundary.",
+      "exhibit": "Reference58.28;yearend2026central46.96;2030conditional70.98 with dates, then two short claim statements.",
+      "avoid": "Leading with a risk control or announcing three theses when only one valuation thesis exists."
+    },
+    {
+      "page": 2,
+      "title": "Intel’s comeback is already in the forecast.",
+      "purpose": "Explain business and revenue mechanism before challenging value.",
+      "exhibit": "SmallProducts→Foundry→outsidecustomer diagram with internal sales eliminated; CPU units/ASP2027-2030 table and50→42share illustration.",
+      "copy": "A larger CPU market can lift Intel shipments even as it loses unit share. My forecast assumes both volume growth and richer mix. The question is how much profit and cash Intel keeps from those sales.",
+      "avoid": "Treating share loss as a revenue collapse or claiming CPU workload demand guarantees Intel revenue."
+    },
+    {
+      "page": 3,
+      "title": "The investment bill arrives before the cash.",
+      "purpose": "Show the four-year business consequence, extending beyond one negative2027cash year.",
+      "exhibit": "2027-2030operating-profit and owner-cash paired bars; cumulative111.3Bprofit/27.6Bowner cash; compactdefinition.",
+      "copy": "The cash recovery is substantial by2030. The short thesis concerns the price paid for that delayed recovery, not an imminent liquidity crisis.",
+      "avoid": "Claiming unmatched reportedFCF forecasts prove a consensus miss."
+    },
+    {
+      "page": 4,
+      "title": "More wafers are only part of the job.",
+      "purpose": "Tie investment forecasts to actual physical process and supplier evidence.",
+      "exhibit": "Three-row chain:qualifiedwaferoutput→advancedpackageassembly→substrates/customeracceptance; each with verified existingcapacity, remaininginvestment and unknownquantity. Put19.6Bcapitalcommitments and3.3Bsubstratepaymentsby2027 as evidence for existingenvelopes, not newdeductions.",
+      "copy": "A completed cleanroom does not deliver a processor on its own. Output depends on compatible tools, qualified products and a completed package. Intel’s reuse advantage is real; so is the remaining bill.",
+      "avoid": "Stacking project budgets, supplier capex and aggregate Intel capex; unsupported physicalcapacityceiling."
+    },
+    {
+      "page": 5,
+      "title": "Near-term strength does not settle mature returns.",
+      "purpose": "Explain margin/productmix judgment and reinvestment economics before showingvalue.",
+      "exhibit": "ObservedserverASP/units in2025 andQ32026, chosen2027-2030forecast, then35%/0.8centralvs40%/1.0favorable. TSMC history compressed tosmallrange orfootnote instead of dominantchart.",
+      "copy": "I grant the mix improvement already visible in the results. My long-run judgment is that competition, product mix and continued investment prevent every near-term gain from becoming a permanent increase in shareholder returns.",
+      "avoid": "Calling35% or0.8empiricallyproven; treating sameprofit inProductsandFoundry twice."
+    },
+    {
+      "page": 6,
+      "title": "What the cash forecast is worth.",
+      "purpose": "Valuation follows business forecasts and exposes strongbullcase.",
+      "exhibit": "46.96central/53.77maturingrisk/60.90favorable;quote58.28;10.18%quote-clearingrate. ExplicitlyshowallareDec31 2026planningvalues.",
+      "copy": "At the selected operating and risk assumptions, the recovery does not justify$58.28. Better cash productivity or lower risk can reverse that conclusion. The valuation spread is a judgment to defend, not an identified forecast error.",
+      "avoid": "Implied precise futurepriceprobabilities or showingaone-variablemargin change with a joint-casevalue."
+    },
+    {
+      "page": 7,
+      "title": "What would change the recommendation.",
+      "purpose": "Turn uncertainty into concrete business follow-up, not another parametergrid.",
+      "exhibit": "Scoreboardwithactual/sourcefact,owned2027/2028checkpoint,andobservationthatstrengthens/weakensview. Includeacceptedserveroutput,physicalcapex+WC,underlyingFoundryprofit,paidoutsideprograms.",
+      "copy": "I would reduce the short if Intel delivers more accepted output and manufacturing profit with less combined investment than forecast. Strong product sales alone are insufficient; so is lower spending caused by delayed payments.",
+      "avoid": "Calling everyquarter a catalyst orassertingmechanicalrepricing."
+    },
+    {
+      "page": 8,
+      "title": "How the relative position works.",
+      "purpose": "Keep all essentialhedge/horizonlogic on one supportingpage.",
+      "exhibit": "100short/162.74SPY/100owncash,263totalcapital;2030cover70.98;conditionalCAGR6.43,decliningrisk5.04,favorable3.52,matchedERP4.91 vs4.94hurdle.",
+      "copy": "The central business forecast is not an outrightprice-declinecase. I express it as relative underperformance with an illustrative funded market hedge. Both the opportunity and the financing/risk assumptions matter.",
+      "required_smallprint": "9.35%marketreturn,0.0945%fundfee,3%netproceedsyield,3.38%owncashyield,10bpeachlegentry/exit,fixedshares/historicalbeta,retainedcash/noInteldividend,convergenceassumption. No-short comparator7.10%hasgreatermarketexposure.",
+      "avoid": "Threepages of carrytables; claimsofmarketneutrality orsecuredreturn."
+    },
+    {
+      "page": 9,
+      "title": "Sources and valuation bridge",
+      "purpose": "Primarysourceindex and enoughmethod toverifycentralvalue.",
+      "exhibit": "CondensedAPVbridge,18orupdatedrelevantlinks,shareclaims5.51B,operatingterminal3%,taxshieldzerogrowth.",
+      "avoid": "Researchprocesslogs,arithmetic-auditlanguage,filenames in body,unused citations."
+    }
+  ],
+  "cut_or_move_to_working_support": [
+    "Current entire page7 except the central2030value/positivepriceappreciation boundary; borrowbreak-evenratesandweakcasecostgrid belong inworking support.",
+    "Currentpage9seven-rowstressgrid:retainonlyselectedcase,decliningrisk,favorable,andmatchedERP case inonepagepositiontable.",
+    "Earlygrowthnormalizationtest67.47:retaininresearch/defense notes rather than occupying screen space unless specifically asked.",
+    "Fullsix-periodTSMCplot:usebriefcrosscheck or appendix to freebusiness-evidencespace; nevercitepeersaspreciselymeasuringIntel.",
+    "Three-step externalwafer option bridge canbecondensed into bullrisktext; paidprograms are realrisks, not thecentershortcase.",
+    "Production-trace CPU study andOracleVera150k rollout can befootnotes tocompetition unlessdirectlylinkedtoanownedforecastinput. Do not confuseinterestingtechnicalfactswithanoperatingedge."
+  ],
+  "copy_rules": [
+    "State one business assertion per headline. Follow it with observed evidence, the selected forecast and the cash consequence.",
+    "Use first-person judgment where evidence does not determine the coefficient. Do not replace ownership with vague does-not-prove disclaimers everywhere.",
+    "Give the strongest opposing evidence on the samepage as the claim; keep scenario/rateboundariesvisiblewithoutmakingthewholedocumentaninternalaudit.",
+    "Do not call forecasts facts or borrowed-marketreturn a businessedge. Thehedge makesimplementationcoherent; it doesnotmaketheforecastmorelikely.",
+    "Currentreferenceprice remains58.28Nov4. Do not reuseearlier58.11intraday or12%obsoletecentral values.",
+    "Use ordinary spacing in all published prose. Technical JSON names may remain machine-friendly."
+  ],
+  "derived_four_year_cash_bridge": {
+    "period": "2027-2030",
+    "operating_profit_B": 111.25315092811026,
+    "physical_capital_spending_B": 124.5,
+    "working_capital_use_B": 18.01099621548313,
+    "parent_unlevered_cash_B": 33.51461064483916,
+    "owner_cash_after_financing_B": 27.587110644839157,
+    "annual_rows": [
+      {
+        "year": 2027,
+        "operating_profit_B": 14.429918271999998,
+        "physical_capital_spending_B": 30.5,
+        "working_capital_use_B": 6.0593577,
+        "owner_cash_B": -11.692712883085713
+      },
+      {
+        "year": 2028,
+        "operating_profit_B": 24.72774958255801,
+        "physical_capital_spending_B": 32.75,
+        "working_capital_use_B": 5.34986211125,
+        "owner_cash_B": 2.293653605352879
+      },
+      {
+        "year": 2029,
+        "operating_profit_B": 32.71609561149971,
+        "physical_capital_spending_B": 31.25,
+        "working_capital_use_B": 3.3442432625272502,
+        "owner_cash_B": 15.104045150104643
+      },
+      {
+        "year": 2030,
+        "operating_profit_B": 39.37938746205255,
+        "physical_capital_spending_B": 30.0,
+        "working_capital_use_B": 3.2575331417058786,
+        "owner_cash_B": 21.88212477246735
+      }
+    ],
+    "definition": "Owner cash treats recurring stock compensation as an economic expense and includes reserve for minority owners; after operating investment and financing, before principal, acquisition, escrow and new borrowing. It is not reported free cash flow.",
+    "interpretation": "The profit-to-cash lag is an outcome of the owned forecast, not measured public consensus surprise or evidence that all growth investment destroys value."
+  },
+  "source_files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_editorial/extracted.txt",
+      "purpose": "Current10page pitch text read in full."
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/actual_winning_pitch_examples_2026_11_04.json",
+      "purpose": "Documentedactualexamples and theirbusiness-to-forecaststructure."
+    }
+  ],
+  "coordination_notes": [
+    "Businessclaimagentconfirmedpremium-mixevidenceandstrongproductoperatingleverage;35%isownednormalizationnotuniquelypreferredbydata.",
+    "Capitalagentconfirmedexistingcommitmentandcumulativecashnumbers;primarysuppliercapacityevidencealsosupportspersistentscarcityandmustnotbehidden."
+  ],
+  "mutation_boundary": "Only this new JSON authored. No existing source, forecast, PDF or generator changed."
+}

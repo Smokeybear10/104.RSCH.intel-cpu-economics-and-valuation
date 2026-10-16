@@ -1,0 +1,41 @@
+{
+  "frozen_utc": "2026-11-04T22:59:59.266000+00:00",
+  "scope": "Apply the separately frozen corrected maturing-risk schedule to already-frozen external-wafer cashflows. No cashflow, growth, margin, turnover, reuse fraction, or program scale selected or changed in response to host prices. The host rate schedule and prices have now been observed.",
+  "base_policy_frozen": "2026-11-04T22:39:05.272154+00:00",
+  "growth_policy_frozen": "2026-11-04T22:42:23.377568+00:00",
+  "rate_policy_frozen": "2026-11-04T22:46:28.826723+00:00",
+  "scale_2033_revenue_B": [
+    1,
+    5,
+    10
+  ],
+  "reuse_fractions": [
+    0,
+    0.5,
+    1
+  ],
+  "rates": {
+    "2027": 0.11555,
+    "2028": 0.11555,
+    "2029": 0.11555,
+    "2030": 0.11555,
+    "2031": 0.11405,
+    "2032": 0.11255,
+    "2033": 0.11105,
+    "2034": 0.10955,
+    "2035": 0.10805000000000001,
+    "2036": 0.10655,
+    "2037": 0.10505,
+    "2038": 0.10355,
+    "2039": 0.10205,
+    "2040": 0.10055,
+    "2041": 0.10055
+  },
+  "limitations": [
+    "A conditional success-case combination, not an expected value or forecast of a named customer.",
+    "Apply host rate to marginal program only for consistent sensitivity; a separate risky customer program may merit a different risk schedule.",
+    "No inference that broad source evidence establishes 10B Intel wafer sales or 40% sustainable incremental EBIT margin.",
+    "Initial reuse requires host-paid qualified capacity unused by internal production and no minority claim or opportunity cost.",
+    "Current host end-2026 value uses projected closing cash, whereas comparison quote is Nov4."
+  ]
+}

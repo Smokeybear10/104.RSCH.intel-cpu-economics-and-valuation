@@ -1,0 +1,44 @@
+{
+  "recorded_utc": "2026-11-06T21:53:59.681215+00:00",
+  "source_model": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+  "source_sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+  "scope": "Independent reconstruction of the current owned long; no baseline changes. New terminal-reinvestment and CPU-growth thresholds.",
+  "rates": [
+    0.10625,
+    0.11555
+  ],
+  "price_reference": 52.25,
+  "reference_date": "2026-11-05",
+  "planning_date": "2026-12-31",
+  "target_date": "2030-12-31",
+  "fixed": [
+    "2027-2030 operating path and cash/debt schedule",
+    "CPU margins by year",
+    "Other DCAI, client, packaging and Other forecasts",
+    "terminal growth 3%",
+    "all financing shields, obligations and share count"
+  ],
+  "terminal_ROC_sensitivity": "For 2041 onward only, replace net reinvestment with 3% * terminal NOPAT / specified incremental ROC; retain lease/minority cash deductions. Increase physical capex by the investment difference. This is a funded-growth sensitivity, not a claim of realized returns or a mature-cost-of-capital estimate.",
+  "terminal_ROC_grid": [
+    0.10625,
+    0.11555,
+    0.12,
+    0.15,
+    0.2,
+    0.2307993458699771
+  ],
+  "CPU_growth_sensitivity": "Uniform percentage-point shift to inherited annual CPU growth for2031-2040. Preserve the declining shape. In2041 grow CPU3%. Recompute revenue, profit using unchanged CPU margins and Foundry profit/Products ratio, and net investment at existing0.8 incremental host sales/capital. Packaging unchanged.",
+  "reverse_targets": "At each asset rate solve: planning value equals52.25 (date-mismatched cross-check, not an inferred market belief); Dec2030 target produces10%,12%,15% annual price return from Nov5. No unique market expectation claimed.",
+  "return_hurdles": [
+    0.1,
+    0.12,
+    0.15
+  ],
+  "entry_policy": "Ceilings equal target2030/(1+hurdle)^ACT365.25 horizon. Optional20% markdown from conservative modeled future target is a discretionary buffer, not a confidence interval; show separately.",
+  "date_alignment": "Do not discount entire equity value at the operating asset rate. Exact Nov5 value unavailable because intraquarter economic cash, debt and claim timing not reconstructed. Report limited56-day equity-carry sensitivity at stated8%,10%,12% only as arithmetic proxy, excluded from headline fair value.",
+  "sources": [
+    "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/stablegrowthrate.htm",
+    "https://pages.stern.nyu.edu/adamodar/New_Home_Page/littlebook/terminalvalue.htm"
+  ],
+  "no_optimistic_selection": "All grids and hurdles fixed before calculation. Report adverse outcomes. Do not revise source model or recommend lowering rate to produce cushion."
+}

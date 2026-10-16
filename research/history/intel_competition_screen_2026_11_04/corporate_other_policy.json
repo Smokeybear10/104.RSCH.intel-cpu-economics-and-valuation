@@ -1,0 +1,87 @@
+{
+  "prepared_utc": "2026-11-04T10:55:29.626140+00:00",
+  "owner": "root",
+  "scope": "Prospective limited forecast policy for Other, corporate and consolidation bridge, fixed before integrated cash results; not a stock valuation.",
+  "primary_source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+  "locator": "Note 2, printed pages 10\u201311; Note 3 ownership; Note 6 restructuring",
+  "actual_Q3_2026_B": {
+    "products_profit": 5.324,
+    "foundry_profit": -1.853,
+    "other_profit": 0.179,
+    "corporate_expense": 1.058,
+    "intersegment_elimination": -0.07,
+    "consolidated_operating_profit": 2.522,
+    "corporate_SBC": 0.586,
+    "corporate_other": 0.346,
+    "corporate_acquisition_cost": 0.072,
+    "corporate_restructuring": 0.054
+  },
+  "actual_9M_2026_B": {
+    "corporate_SBC": 1.894,
+    "corporate_other": 1.064,
+    "corporate_acquisition_cost": 0.302,
+    "corporate_restructuring": 4.294,
+    "other_profit": 0.511,
+    "intersegment_elimination": 0.405
+  },
+  "policy_rows": [
+    {
+      "year": 2027,
+      "other_segment_revenue_B": 2.8,
+      "other_segment_operating_profit_B": 0.7,
+      "corporate_SBC_expense_B": 2.6,
+      "corporate_other_cash_expense_B": 1.45,
+      "corporate_acquisition_amortization_B": 0.25,
+      "corporate_cash_restructuring_allowance_B": 0.2,
+      "corporate_total_expense_B": 4.5,
+      "intersegment_operating_elimination_B": 0
+    },
+    {
+      "year": 2028,
+      "other_segment_revenue_B": 2.8,
+      "other_segment_operating_profit_B": 0.7,
+      "corporate_SBC_expense_B": 2.8,
+      "corporate_other_cash_expense_B": 1.5,
+      "corporate_acquisition_amortization_B": 0.25,
+      "corporate_cash_restructuring_allowance_B": 0.15,
+      "corporate_total_expense_B": 4.7,
+      "intersegment_operating_elimination_B": 0
+    },
+    {
+      "year": 2029,
+      "other_segment_revenue_B": 2.8,
+      "other_segment_operating_profit_B": 0.7,
+      "corporate_SBC_expense_B": 3.0,
+      "corporate_other_cash_expense_B": 1.55,
+      "corporate_acquisition_amortization_B": 0.25,
+      "corporate_cash_restructuring_allowance_B": 0.1,
+      "corporate_total_expense_B": 4.9,
+      "intersegment_operating_elimination_B": 0
+    },
+    {
+      "year": 2030,
+      "other_segment_revenue_B": 2.8,
+      "other_segment_operating_profit_B": 0.7,
+      "corporate_SBC_expense_B": 3.2,
+      "corporate_other_cash_expense_B": 1.6,
+      "corporate_acquisition_amortization_B": 0.25,
+      "corporate_cash_restructuring_allowance_B": 0.1,
+      "corporate_total_expense_B": 5.15,
+      "intersegment_operating_elimination_B": 0
+    }
+  ],
+  "judgments": [
+    "Use the latest quarter and nine-month recurring expense scales. Do not annualize the 2026 asset-impairment charge into every future year, and do not assume restructuring cash cost permanently vanishes.",
+    "SBC grows with staffing and compensation pressure. It is an economic operating expense charged once in consolidated EBIT; a cash-flow presentation must not restore its CFO addback without an offset for replacement compensation or dilution.",
+    "Other corporate cash costs increase modestly, rather than assuming all product growth converts to segment-level profit without central costs.",
+    "The 0.25B acquisition-related allowance is modeled as existing-intangible amortization and belongs within the consolidated D&A addback, not an additional addback on top of total D&A. It is a simplifying analytical classification, not a reported future schedule.",
+    "All Other revenue/profit is held around its 2026 run rate; no incremental autonomous-driving or divestment payoff is required for this case. This is a bounded neutral convention, not an independent Mobileye or IMS valuation.",
+    "Forward intersegment operating eliminations are normalized to zero. Foundry improvement cannot rely on repeating reserve releases or transferring profit between segments. Inventory growth cash is separately modeled in working capital; adverse reserve changes remain a risk rather than an invented annual observed amount.",
+    "Other-segment minority ownership remains in the cash/claims bridge; do not subtract it here and again later. Corporate operating expenses exclude interest, investment gains and income taxes, which belong below EBIT."
+  ],
+  "limitations": [
+    "No future acquisition or divestiture is assumed.",
+    "Expense policy is analyst judgment, not management guidance.",
+    "Any material nonrecurring restructuring or inventory reserve event changes the reported earnings bridge and may change cash taxes; this finite forecast is not a complete scenario valuation."
+  ]
+}

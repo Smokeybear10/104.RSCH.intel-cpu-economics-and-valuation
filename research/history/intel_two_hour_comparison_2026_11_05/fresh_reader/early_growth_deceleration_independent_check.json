@@ -1,0 +1,290 @@
+{
+  "computed_utc": "2026-11-05T23:57:38.632852+00:00",
+  "inputs": {
+    "results_sha256": "17cb27661a55812f93958f2378834865892b5c488e8a648f945805fb980e920c",
+    "policy_sha256": "3548fe749960cfbe300882a7fa83a5ebb4228dd04f2a6c450c32c2d4b426da4d"
+  },
+  "checks": {
+    "errors": [],
+    "years_checked": 15,
+    "independent_relative_factor_2030": 0.8056900726392254,
+    "relative_shortfall_2030": 0.19430992736077457,
+    "annual_return_recomputed": 0.0584916927601955,
+    "annual_return_error": 0.0,
+    "claims_equity_identities": {
+      "2026": {
+        "other_claims_components_B": 4.761536769002355,
+        "equity_identity_error_B": 0.0,
+        "share_price_error_USD": 0.0
+      },
+      "2030": {
+        "other_claims_components_B": 4.502000000000059,
+        "equity_identity_error_B": 5.684341886080802e-14,
+        "share_price_error_USD": 1.4210854715202004e-14
+      }
+    },
+    "cumulative_owner_cash_B": 17.676493131841053,
+    "minimum_cash_B": 33.17377733906717
+  },
+  "row_checks": [
+    {
+      "year": 2027,
+      "computed_relative_factor": 1.0,
+      "CPU_revenue_B": 31.475088000000003,
+      "CPU_revenue_error_B": 0.0,
+      "group_EBIT_delta_error_B": 0.0,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": 0.0,
+      "physical_capex_delta_B": 0.0,
+      "DA_delta_B": 0.0,
+      "WC_rule_error_B": 0.0
+    },
+    {
+      "year": 2028,
+      "computed_relative_factor": 0.8800000000000001,
+      "CPU_revenue_B": 37.392404544000016,
+      "CPU_revenue_error_B": 0.0,
+      "group_EBIT_delta_error_B": 8.881784197001252e-16,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": 0.0,
+      "physical_capex_delta_B": 0.0,
+      "DA_delta_B": 0.0,
+      "WC_rule_error_B": -3.3306690738754696e-16
+    },
+    {
+      "year": 2029,
+      "computed_relative_factor": 0.8203389830508476,
+      "CPU_revenue_B": 42.77691079833601,
+      "CPU_revenue_error_B": 7.105427357601002e-15,
+      "group_EBIT_delta_error_B": -1.7763568394002505e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": -7.105427357601002e-15,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": 0.0,
+      "physical_capex_delta_B": 0.0,
+      "DA_delta_B": 0.0,
+      "WC_rule_error_B": 0.0
+    },
+    {
+      "year": 2030,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 47.99569391573302,
+      "CPU_revenue_error_B": -7.105427357601002e-15,
+      "group_EBIT_delta_error_B": -6.217248937900877e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": -7.105427357601002e-15,
+      "other_group_EBIT_delta_B": -3.552713678800501e-15,
+      "net_investment_identity_error_B": 1.7763568394002505e-15,
+      "physical_capex_delta_B": 0.0,
+      "DA_delta_B": 0.0,
+      "WC_rule_error_B": -5.273559366969494e-16
+    },
+    {
+      "year": 2031,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 52.8720564175715,
+      "CPU_revenue_error_B": -7.105427357601002e-15,
+      "group_EBIT_delta_error_B": 0.0,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": -7.105427357601002e-15,
+      "other_group_EBIT_delta_B": 7.105427357601002e-15,
+      "net_investment_identity_error_B": -5.329070518200751e-15
+    },
+    {
+      "year": 2032,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 57.70456237413754,
+      "CPU_revenue_error_B": -7.105427357601002e-15,
+      "group_EBIT_delta_error_B": -4.440892098500626e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 7.105427357601002e-15,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": -1.7763568394002505e-15
+    },
+    {
+      "year": 2033,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 62.39017283891753,
+      "CPU_revenue_error_B": -7.105427357601002e-15,
+      "group_EBIT_delta_error_B": -2.6645352591003757e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": 1.7763568394002505e-15
+    },
+    {
+      "year": 2034,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 66.81987511048067,
+      "CPU_revenue_error_B": 0.0,
+      "group_EBIT_delta_error_B": -6.217248937900877e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": -1.4210854715202004e-14,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": 1.7763568394002505e-15
+    },
+    {
+      "year": 2035,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 70.8825235171979,
+      "CPU_revenue_error_B": -1.4210854715202004e-14,
+      "group_EBIT_delta_error_B": -5.329070518200751e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 1.4210854715202004e-14,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": -1.7763568394002505e-15
+    },
+    {
+      "year": 2036,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 74.45472197959926,
+      "CPU_revenue_error_B": -1.4210854715202004e-14,
+      "group_EBIT_delta_error_B": -2.6645352591003757e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": 0.0
+    },
+    {
+      "year": 2037,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 77.82729973263555,
+      "CPU_revenue_error_B": -1.4210854715202004e-14,
+      "group_EBIT_delta_error_B": -8.881784197001252e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "other_group_EBIT_delta_B": -7.105427357601002e-15,
+      "net_investment_identity_error_B": -1.7763568394002505e-15
+    },
+    {
+      "year": 2038,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 80.95580306842268,
+      "CPU_revenue_error_B": 0.0,
+      "group_EBIT_delta_error_B": -5.329070518200751e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": -1.4210854715202004e-14,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": 0.0
+    },
+    {
+      "year": 2039,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 83.79727160186384,
+      "CPU_revenue_error_B": -1.4210854715202004e-14,
+      "group_EBIT_delta_error_B": -3.552713678800501e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": 4.440892098500626e-15
+    },
+    {
+      "year": 2040,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 86.31118974991976,
+      "CPU_revenue_error_B": -1.4210854715202004e-14,
+      "group_EBIT_delta_error_B": -7.105427357601002e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "other_group_EBIT_delta_B": 0.0,
+      "net_investment_identity_error_B": -1.7763568394002505e-15
+    },
+    {
+      "year": 2041,
+      "computed_relative_factor": 0.8056900726392254,
+      "CPU_revenue_B": 88.90052544241736,
+      "CPU_revenue_error_B": -1.4210854715202004e-14,
+      "group_EBIT_delta_error_B": 1.7763568394002505e-15,
+      "reported_decremental_error": 0.0,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "other_group_EBIT_delta_B": 7.105427357601002e-15,
+      "net_investment_identity_error_B": -1.7763568394002505e-15
+    }
+  ],
+  "interpretation": [
+    "The exact constant relative factor from2030 onward is0.805690072639225, not0.80568. Display80.6% of base or19.4% below base.",
+    "The10% assumption applies to Intel CPU units in2028,2029,2030, not CPU revenues or total market units. ASP growth is retained, so CPU revenue still grows18.8%,14.4%,12.2% in those years.",
+    "2027 is unchanged. This isolates an earlier slowdown than the existing2031-growth case; it does not quantify Fab28 or revise the base.",
+    "The lower2030 CPU revenue level persists as a constant factor under base growth after2030. This is a persistent level loss, not permanently10% annual unit growth.",
+    "Through2030, physical capex and D&A are unchanged; working capital changes with10% of the change in CPU revenue delta.",
+    "All group EBIT changes equal the specified consolidated decremental allowance and are allocated into DCAI. Other group EBIT is unchanged; no extra Foundry gain is added.",
+    "The50% decremental allowance is itself an unverified cost-response assumption. Keeping the host Foundry path fixed may understate losses from under-absorption, but do not automatically add a second identical cost penalty: the allowance is consolidated. The model does not separately determine the actual production-cost response.",
+    "This case is conditional, carries no probability and is not independent of the margin/customer-loss scenarios. It is not a downside limit.",
+    "After2030 capital responds under the existing0.8 policy; no detailed physical capacity resizing schedule is established."
+  ],
+  "recommended_main_row": "CPU units +10% in2028-30;2027 unchanged",
+  "recommended_note": "Illustrative earlier slowdown: base ASP and planned capex retained through2030; lower CPU level persists. Profit/capital responses are assumptions, and Foundry under-absorption is not separately re-estimated.",
+  "scope_limit": "Independently checked unit-factor/revenue arithmetic, specified consolidated-profit changes, pre2031 capital/WC changes, post2030 capital/WC/D&A delta rules, claims/price reconciliation and CAGR. Did not re-run the full valuation engine or independently verify every long-run tax/credit/financing input.",
+  "post2030_delta_checks": [
+    {
+      "year": 2031,
+      "capital_delta_rule_error_B": 1.7763568394002505e-15,
+      "WC_delta_rule_error_B": 0.0,
+      "DA_delta_rule_error_B": 8.881784197001252e-16
+    },
+    {
+      "year": 2032,
+      "capital_delta_rule_error_B": 1.5987211554602254e-14,
+      "WC_delta_rule_error_B": 1.4710455076283324e-15,
+      "DA_delta_rule_error_B": 1.7763568394002505e-15
+    },
+    {
+      "year": 2033,
+      "capital_delta_rule_error_B": -2.3092638912203256e-14,
+      "WC_delta_rule_error_B": -2.2620794126737565e-15,
+      "DA_delta_rule_error_B": 2.6645352591003757e-15
+    },
+    {
+      "year": 2034,
+      "capital_delta_rule_error_B": 1.7763568394002505e-15,
+      "WC_delta_rule_error_B": 2.7755575615628914e-17,
+      "DA_delta_rule_error_B": -3.1086244689504383e-15
+    },
+    {
+      "year": 2035,
+      "capital_delta_rule_error_B": 4.618527782440651e-14,
+      "WC_delta_rule_error_B": 2.8727020762175925e-15,
+      "DA_delta_rule_error_B": -1.3322676295501878e-15
+    },
+    {
+      "year": 2036,
+      "capital_delta_rule_error_B": -2.1316282072803006e-14,
+      "WC_delta_rule_error_B": -1.3739009929736312e-15,
+      "DA_delta_rule_error_B": 3.9968028886505635e-15
+    },
+    {
+      "year": 2037,
+      "capital_delta_rule_error_B": 1.9539925233402755e-14,
+      "WC_delta_rule_error_B": 1.5126788710517758e-15,
+      "DA_delta_rule_error_B": -3.9968028886505635e-15
+    },
+    {
+      "year": 2038,
+      "capital_delta_rule_error_B": -3.9968028886505635e-14,
+      "WC_delta_rule_error_B": -2.789435349370706e-15,
+      "DA_delta_rule_error_B": -1.3322676295501878e-15
+    },
+    {
+      "year": 2039,
+      "capital_delta_rule_error_B": 1.5987211554602254e-14,
+      "WC_delta_rule_error_B": 1.4710455076283324e-15,
+      "DA_delta_rule_error_B": -5.329070518200751e-15
+    },
+    {
+      "year": 2040,
+      "capital_delta_rule_error_B": 1.7763568394002505e-15,
+      "WC_delta_rule_error_B": 0.0,
+      "DA_delta_rule_error_B": -4.440892098500626e-15
+    },
+    {
+      "year": 2041,
+      "capital_delta_rule_error_B": 1.7763568394002505e-15,
+      "WC_delta_rule_error_B": 0.0,
+      "DA_delta_rule_error_B": 2.6645352591003757e-15
+    }
+  ]
+}

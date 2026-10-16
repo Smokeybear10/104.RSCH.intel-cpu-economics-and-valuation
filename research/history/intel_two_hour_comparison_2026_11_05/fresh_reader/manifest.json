@@ -1,0 +1,27 @@
+{
+  "intel_pitch": {
+    "source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+    "snapshot": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/fresh_reader/intel_pitch.pdf",
+    "pages": 10,
+    "sha256": "24c23d1d113308747af86465fab5f31442121cdcd47057251e4010c98abb0baa"
+  },
+  "intel_defense": {
+    "source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+    "snapshot": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/fresh_reader/intel_defense.pdf",
+    "pages": 5,
+    "sha256": "218168e21fb3bbc6d64f9384345f3a372999f48f44c4d3bb7873d4fd40493eb3"
+  },
+  "unc_wms": {
+    "source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/public_pitch_benchmark_2026_11_05/unc_wms_2024.pdf",
+    "snapshot": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/fresh_reader/unc_wms.pdf",
+    "pages": 72,
+    "sha256": "5424096483cb185534d4898bc867d70aa1ab67c07e54e16ea14750e8de4d826e"
+  },
+  "columbia_jbi": {
+    "source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/public_pitch_benchmark_2026_11_05/columbia_jbi_2023.pdf",
+    "snapshot": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/fresh_reader/columbia_jbi.pdf",
+    "pages": 29,
+    "sha256": "d67d3481ebee837062908878ca06a73aefe11f6b8954d79367d93bb1a84cd2e3"
+  },
+  "started_utc": "2026-11-05T23:10:46.569808+00:00"
+}

@@ -1,0 +1,935 @@
+{
+  "computed_utc": "2026-11-06T06:52:13.169509+00:00",
+  "input_hashes": {
+    "policy": "66679114e94ab8406b7969264f396aba7d39d555aa8e957614d783fbefa9afe8",
+    "annual_treasury": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea"
+  },
+  "calendar_basis": "Calendar quarters, with timing assumptions separated from disclosed principal dates.",
+  "source_anchored_principal_calendar": [
+    {
+      "year": 2027,
+      "quarterly_principal_B": [
+        1.0,
+        1.0,
+        1.826,
+        0.0
+      ]
+    },
+    {
+      "year": 2028,
+      "quarterly_principal_B": [
+        1.75,
+        0.423,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2029,
+      "quarterly_principal_B": [
+        0.0,
+        0.438,
+        0.85,
+        2.0
+      ]
+    },
+    {
+      "year": 2030,
+      "quarterly_principal_B": [
+        2.75,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "base": {
+    "name": "uniform_base",
+    "quarterly_rows": [
+      {
+        "year": 2027,
+        "quarter": 1,
+        "scheduled_principal_B": 1.0,
+        "principal_events": [
+          {
+            "instrument": "3.75% senior note due 2027-03",
+            "year": 2027,
+            "month": 3,
+            "principal_B": 1.0,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 3.75,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 3
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.33,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.0699999999999998,
+        "within_year_cumulative_treasury_cash_B": -1.0699999999999998
+      },
+      {
+        "year": 2027,
+        "quarter": 2,
+        "scheduled_principal_B": 1.0,
+        "principal_events": [
+          {
+            "instrument": "3.15% senior note due 2027-05",
+            "year": 2027,
+            "month": 5,
+            "principal_B": 1.0,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 3.15,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 5
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.33,
+        "Classiq_cash_B": 1.9,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -2.9699999999999998,
+        "within_year_cumulative_treasury_cash_B": -4.039999999999999
+      },
+      {
+        "year": 2027,
+        "quarter": 3,
+        "scheduled_principal_B": 1.826,
+        "principal_events": [
+          {
+            "instrument": "3.75% senior note due 2027-08",
+            "year": 2027,
+            "month": 8,
+            "principal_B": 1.25,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 3.75,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 8
+          },
+          {
+            "instrument": "Municipal bonds with legal maturities 2042 and 2052",
+            "year": 2027,
+            "month": 9,
+            "principal_B": 0.576,
+            "event": "Mandatory tender; may be remarketed",
+            "coupon_percent_rounded_as_reported": 5.0,
+            "source": "FY2023_10K",
+            "principal_revalidated_source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 9
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.33,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.896,
+        "within_year_cumulative_treasury_cash_B": -5.935999999999999
+      },
+      {
+        "year": 2027,
+        "quarter": 4,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.33,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -0.06999999999999995,
+        "within_year_cumulative_treasury_cash_B": -6.005999999999999
+      },
+      {
+        "year": 2028,
+        "quarter": 1,
+        "scheduled_principal_B": 1.75,
+        "principal_events": [
+          {
+            "instrument": "4.88% senior note due 2028-02",
+            "year": 2028,
+            "month": 2,
+            "principal_B": 1.75,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 4.88,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 2
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.33,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.8199999999999998,
+        "within_year_cumulative_treasury_cash_B": -1.8199999999999998
+      },
+      {
+        "year": 2028,
+        "quarter": 2,
+        "scheduled_principal_B": 0.423,
+        "principal_events": [
+          {
+            "instrument": "Municipal bonds with legal maturities 2035 and 2040",
+            "year": 2028,
+            "month": 6,
+            "principal_B": 0.423,
+            "event": "Mandatory tender; may be remarketed",
+            "coupon_percent_rounded_as_reported": null,
+            "source": "FY2024_10K",
+            "principal_revalidated_source": "FY2025_10K",
+            "earliest_optional_tender_month": 2,
+            "selected_cash_month": 6
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.33,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -0.49299999999999994,
+        "within_year_cumulative_treasury_cash_B": -2.3129999999999997
+      },
+      {
+        "year": 2028,
+        "quarter": 3,
+        "scheduled_principal_B": 1.0,
+        "principal_events": [
+          {
+            "instrument": "1.60% senior note due 2028-08",
+            "year": 2028,
+            "month": 8,
+            "principal_B": 1.0,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 1.6,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 8
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.33,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.0699999999999998,
+        "within_year_cumulative_treasury_cash_B": -3.3829999999999996
+      },
+      {
+        "year": 2028,
+        "quarter": 4,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.33,
+        "Classiq_cash_B": 0.35,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -0.41999999999999993,
+        "within_year_cumulative_treasury_cash_B": -3.8029999999999995
+      },
+      {
+        "year": 2029,
+        "quarter": 1,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -0.4,
+        "within_year_cumulative_treasury_cash_B": -0.4
+      },
+      {
+        "year": 2029,
+        "quarter": 2,
+        "scheduled_principal_B": 0.438,
+        "principal_events": [
+          {
+            "instrument": "Municipal bonds with legal maturities 2049",
+            "year": 2029,
+            "month": 6,
+            "principal_B": 0.438,
+            "event": "Mandatory tender; may be remarketed",
+            "coupon_percent_rounded_as_reported": 4.0,
+            "source": "FY2025_10K",
+            "principal_revalidated_source": "FY2025_10K",
+            "earliest_optional_tender_month": 2,
+            "selected_cash_month": 6
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -0.8380000000000001,
+        "within_year_cumulative_treasury_cash_B": -1.238
+      },
+      {
+        "year": 2029,
+        "quarter": 3,
+        "scheduled_principal_B": 0.85,
+        "principal_events": [
+          {
+            "instrument": "4.00% senior note due 2029-08",
+            "year": 2029,
+            "month": 8,
+            "principal_B": 0.85,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 4.0,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 8
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.25,
+        "within_year_cumulative_treasury_cash_B": -2.488
+      },
+      {
+        "year": 2029,
+        "quarter": 4,
+        "scheduled_principal_B": 2.0,
+        "principal_events": [
+          {
+            "instrument": "2.45% senior note due 2029-11",
+            "year": 2029,
+            "month": 11,
+            "principal_B": 2.0,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 2.45,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 11
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -2.4,
+        "within_year_cumulative_treasury_cash_B": -4.888
+      },
+      {
+        "year": 2030,
+        "quarter": 1,
+        "scheduled_principal_B": 2.75,
+        "principal_events": [
+          {
+            "instrument": "5.13% senior note due 2030-02",
+            "year": 2030,
+            "month": 2,
+            "principal_B": 1.25,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 5.13,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 2
+          },
+          {
+            "instrument": "3.90% senior note due 2030-03",
+            "year": 2030,
+            "month": 3,
+            "principal_B": 1.5,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 3.9,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 3
+          }
+        ],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -3.15,
+        "within_year_cumulative_treasury_cash_B": -3.15
+      },
+      {
+        "year": 2030,
+        "quarter": 2,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -0.4,
+        "within_year_cumulative_treasury_cash_B": -3.55
+      },
+      {
+        "year": 2030,
+        "quarter": 3,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -0.4,
+        "within_year_cumulative_treasury_cash_B": -3.9499999999999997
+      },
+      {
+        "year": 2030,
+        "quarter": 4,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.4,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.25,
+        "cash_interest_income_B": 0.25,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -0.4,
+        "within_year_cumulative_treasury_cash_B": -4.35
+      }
+    ],
+    "annual_reconciliation": [
+      {
+        "year": 2027,
+        "unlocated_principal_B": 0.0,
+        "ordinary_cash_interest_B_annual_sum_error": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B_annual_sum_error": 0.0,
+        "cash_interest_income_B_annual_sum_error": 0.0,
+        "government_escrow_cash_B_annual_sum_error": 0.0,
+        "Classiq_cash_B_annual_sum_error": 0.0,
+        "scheduled_principal_B_annual_sum_error": 0.0
+      },
+      {
+        "year": 2028,
+        "unlocated_principal_B": 0.0,
+        "ordinary_cash_interest_B_annual_sum_error": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B_annual_sum_error": 0.0,
+        "cash_interest_income_B_annual_sum_error": 0.0,
+        "government_escrow_cash_B_annual_sum_error": 0.0,
+        "Classiq_cash_B_annual_sum_error": 0.0,
+        "scheduled_principal_B_annual_sum_error": 0.0
+      },
+      {
+        "year": 2029,
+        "unlocated_principal_B": 0.0,
+        "ordinary_cash_interest_B_annual_sum_error": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B_annual_sum_error": 0.0,
+        "cash_interest_income_B_annual_sum_error": 0.0,
+        "government_escrow_cash_B_annual_sum_error": 0.0,
+        "Classiq_cash_B_annual_sum_error": 0.0,
+        "scheduled_principal_B_annual_sum_error": 0.0
+      },
+      {
+        "year": 2030,
+        "unlocated_principal_B": 0.0,
+        "ordinary_cash_interest_B_annual_sum_error": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B_annual_sum_error": 0.0,
+        "cash_interest_income_B_annual_sum_error": 0.0,
+        "government_escrow_cash_B_annual_sum_error": 0.0,
+        "Classiq_cash_B_annual_sum_error": 0.0,
+        "scheduled_principal_B_annual_sum_error": 0.0
+      }
+    ]
+  },
+  "concentrated_timing_stress": {
+    "name": "concentrated_cash_stress",
+    "quarterly_rows": [
+      {
+        "year": 2027,
+        "quarter": 1,
+        "scheduled_principal_B": 1.0,
+        "principal_events": [
+          {
+            "instrument": "3.75% senior note due 2027-03",
+            "year": 2027,
+            "month": 3,
+            "principal_B": 1.0,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 3.75,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 3
+          }
+        ],
+        "ordinary_cash_interest_B": 0.8,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.5,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 1.9,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -4.2,
+        "within_year_cumulative_treasury_cash_B": -4.2
+      },
+      {
+        "year": 2027,
+        "quarter": 2,
+        "scheduled_principal_B": 1.0,
+        "principal_events": [
+          {
+            "instrument": "3.15% senior note due 2027-05",
+            "year": 2027,
+            "month": 5,
+            "principal_B": 1.0,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 3.15,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 5
+          }
+        ],
+        "ordinary_cash_interest_B": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B": 0,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.0,
+        "within_year_cumulative_treasury_cash_B": -5.2
+      },
+      {
+        "year": 2027,
+        "quarter": 3,
+        "scheduled_principal_B": 1.826,
+        "principal_events": [
+          {
+            "instrument": "3.75% senior note due 2027-08",
+            "year": 2027,
+            "month": 8,
+            "principal_B": 1.25,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 3.75,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 8
+          },
+          {
+            "instrument": "Municipal bonds with legal maturities 2042 and 2052",
+            "year": 2027,
+            "month": 9,
+            "principal_B": 0.576,
+            "event": "Mandatory tender; may be remarketed",
+            "coupon_percent_rounded_as_reported": 5.0,
+            "source": "FY2023_10K",
+            "principal_revalidated_source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 9
+          }
+        ],
+        "ordinary_cash_interest_B": 0.8,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.5,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -3.1260000000000003,
+        "within_year_cumulative_treasury_cash_B": -8.326
+      },
+      {
+        "year": 2027,
+        "quarter": 4,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B": 0,
+        "cash_interest_income_B": 1,
+        "government_escrow_cash_B": 1.32,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": 2.3200000000000003,
+        "within_year_cumulative_treasury_cash_B": -6.006
+      },
+      {
+        "year": 2028,
+        "quarter": 1,
+        "scheduled_principal_B": 2.173,
+        "principal_events": [
+          {
+            "instrument": "4.88% senior note due 2028-02",
+            "year": 2028,
+            "month": 2,
+            "principal_B": 1.75,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 4.88,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 2
+          },
+          {
+            "instrument": "Municipal bonds with legal maturities 2035 and 2040",
+            "year": 2028,
+            "month": 6,
+            "principal_B": 0.423,
+            "event": "Mandatory tender; may be remarketed",
+            "coupon_percent_rounded_as_reported": null,
+            "source": "FY2024_10K",
+            "principal_revalidated_source": "FY2025_10K",
+            "earliest_optional_tender_month": 2,
+            "selected_cash_month": 2
+          }
+        ],
+        "ordinary_cash_interest_B": 0.8,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.5,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.35,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -3.823,
+        "within_year_cumulative_treasury_cash_B": -3.823
+      },
+      {
+        "year": 2028,
+        "quarter": 2,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B": 0,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": 0.0,
+        "within_year_cumulative_treasury_cash_B": -3.823
+      },
+      {
+        "year": 2028,
+        "quarter": 3,
+        "scheduled_principal_B": 1.0,
+        "principal_events": [
+          {
+            "instrument": "1.60% senior note due 2028-08",
+            "year": 2028,
+            "month": 8,
+            "principal_B": 1.0,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 1.6,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 8
+          }
+        ],
+        "ordinary_cash_interest_B": 0.8,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.5,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0.0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -2.3,
+        "within_year_cumulative_treasury_cash_B": -6.122999999999999
+      },
+      {
+        "year": 2028,
+        "quarter": 4,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B": 0,
+        "cash_interest_income_B": 1,
+        "government_escrow_cash_B": 1.32,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": 2.3200000000000003,
+        "within_year_cumulative_treasury_cash_B": -3.802999999999999
+      },
+      {
+        "year": 2029,
+        "quarter": 1,
+        "scheduled_principal_B": 0.438,
+        "principal_events": [
+          {
+            "instrument": "Municipal bonds with legal maturities 2049",
+            "year": 2029,
+            "month": 6,
+            "principal_B": 0.438,
+            "event": "Mandatory tender; may be remarketed",
+            "coupon_percent_rounded_as_reported": 4.0,
+            "source": "FY2025_10K",
+            "principal_revalidated_source": "FY2025_10K",
+            "earliest_optional_tender_month": 2,
+            "selected_cash_month": 2
+          }
+        ],
+        "ordinary_cash_interest_B": 0.8,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.5,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.738,
+        "within_year_cumulative_treasury_cash_B": -1.738
+      },
+      {
+        "year": 2029,
+        "quarter": 2,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B": 0,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": 0.0,
+        "within_year_cumulative_treasury_cash_B": -1.738
+      },
+      {
+        "year": 2029,
+        "quarter": 3,
+        "scheduled_principal_B": 0.85,
+        "principal_events": [
+          {
+            "instrument": "4.00% senior note due 2029-08",
+            "year": 2029,
+            "month": 8,
+            "principal_B": 0.85,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 4.0,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 8
+          }
+        ],
+        "ordinary_cash_interest_B": 0.8,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.5,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -2.15,
+        "within_year_cumulative_treasury_cash_B": -3.888
+      },
+      {
+        "year": 2029,
+        "quarter": 4,
+        "scheduled_principal_B": 2.0,
+        "principal_events": [
+          {
+            "instrument": "2.45% senior note due 2029-11",
+            "year": 2029,
+            "month": 11,
+            "principal_B": 2.0,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 2.45,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 11
+          }
+        ],
+        "ordinary_cash_interest_B": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B": 0,
+        "cash_interest_income_B": 1,
+        "government_escrow_cash_B": 0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.0,
+        "within_year_cumulative_treasury_cash_B": -4.888
+      },
+      {
+        "year": 2030,
+        "quarter": 1,
+        "scheduled_principal_B": 2.75,
+        "principal_events": [
+          {
+            "instrument": "5.13% senior note due 2030-02",
+            "year": 2030,
+            "month": 2,
+            "principal_B": 1.25,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 5.13,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 2
+          },
+          {
+            "instrument": "3.90% senior note due 2030-03",
+            "year": 2030,
+            "month": 3,
+            "principal_B": 1.5,
+            "event": "Stated maturity",
+            "coupon_percent_rounded_as_reported": 3.9,
+            "source": "FY2025_10K",
+            "earliest_optional_tender_month": null,
+            "selected_cash_month": 3
+          }
+        ],
+        "ordinary_cash_interest_B": 0.8,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.5,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -4.05,
+        "within_year_cumulative_treasury_cash_B": -4.05
+      },
+      {
+        "year": 2030,
+        "quarter": 2,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B": 0,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": 0.0,
+        "within_year_cumulative_treasury_cash_B": -4.05
+      },
+      {
+        "year": 2030,
+        "quarter": 3,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.8,
+        "capitalized_cash_interest_inside_total_PPE_B": 0.5,
+        "cash_interest_income_B": 0,
+        "government_escrow_cash_B": 0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": -1.3,
+        "within_year_cumulative_treasury_cash_B": -5.35
+      },
+      {
+        "year": 2030,
+        "quarter": 4,
+        "scheduled_principal_B": 0.0,
+        "principal_events": [],
+        "ordinary_cash_interest_B": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B": 0,
+        "cash_interest_income_B": 1,
+        "government_escrow_cash_B": 0,
+        "Classiq_cash_B": 0.0,
+        "net_treasury_cash_before_tax_shields_and_operating_cash_B": 1.0,
+        "within_year_cumulative_treasury_cash_B": -4.35
+      }
+    ],
+    "annual_reconciliation": [
+      {
+        "year": 2027,
+        "unlocated_principal_B": 0.0,
+        "ordinary_cash_interest_B_annual_sum_error": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B_annual_sum_error": 0.0,
+        "cash_interest_income_B_annual_sum_error": 0.0,
+        "government_escrow_cash_B_annual_sum_error": 0.0,
+        "Classiq_cash_B_annual_sum_error": 0.0,
+        "scheduled_principal_B_annual_sum_error": 0.0
+      },
+      {
+        "year": 2028,
+        "unlocated_principal_B": 0.0,
+        "ordinary_cash_interest_B_annual_sum_error": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B_annual_sum_error": 0.0,
+        "cash_interest_income_B_annual_sum_error": 0.0,
+        "government_escrow_cash_B_annual_sum_error": 0.0,
+        "Classiq_cash_B_annual_sum_error": 0.0,
+        "scheduled_principal_B_annual_sum_error": 0.0
+      },
+      {
+        "year": 2029,
+        "unlocated_principal_B": 0.0,
+        "ordinary_cash_interest_B_annual_sum_error": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B_annual_sum_error": 0.0,
+        "cash_interest_income_B_annual_sum_error": 0.0,
+        "government_escrow_cash_B_annual_sum_error": 0.0,
+        "Classiq_cash_B_annual_sum_error": 0.0,
+        "scheduled_principal_B_annual_sum_error": 0.0
+      },
+      {
+        "year": 2030,
+        "unlocated_principal_B": 0.0,
+        "ordinary_cash_interest_B_annual_sum_error": 0.0,
+        "capitalized_cash_interest_inside_total_PPE_B_annual_sum_error": 0.0,
+        "cash_interest_income_B_annual_sum_error": 0.0,
+        "government_escrow_cash_B_annual_sum_error": 0.0,
+        "Classiq_cash_B_annual_sum_error": 0.0,
+        "scheduled_principal_B_annual_sum_error": 0.0
+      }
+    ]
+  },
+  "within_year_comparison": [
+    {
+      "year": 2027,
+      "quarter": 1,
+      "stress_minus_base_cumulative_treasury_cash_B": -3.1300000000000003
+    },
+    {
+      "year": 2027,
+      "quarter": 2,
+      "stress_minus_base_cumulative_treasury_cash_B": -1.160000000000001
+    },
+    {
+      "year": 2027,
+      "quarter": 3,
+      "stress_minus_base_cumulative_treasury_cash_B": -2.3900000000000015
+    },
+    {
+      "year": 2027,
+      "quarter": 4,
+      "stress_minus_base_cumulative_treasury_cash_B": -8.881784197001252e-16
+    },
+    {
+      "year": 2028,
+      "quarter": 1,
+      "stress_minus_base_cumulative_treasury_cash_B": -2.003
+    },
+    {
+      "year": 2028,
+      "quarter": 2,
+      "stress_minus_base_cumulative_treasury_cash_B": -1.5100000000000002
+    },
+    {
+      "year": 2028,
+      "quarter": 3,
+      "stress_minus_base_cumulative_treasury_cash_B": -2.7399999999999998
+    },
+    {
+      "year": 2028,
+      "quarter": 4,
+      "stress_minus_base_cumulative_treasury_cash_B": 4.440892098500626e-16
+    },
+    {
+      "year": 2029,
+      "quarter": 1,
+      "stress_minus_base_cumulative_treasury_cash_B": -1.338
+    },
+    {
+      "year": 2029,
+      "quarter": 2,
+      "stress_minus_base_cumulative_treasury_cash_B": -0.5
+    },
+    {
+      "year": 2029,
+      "quarter": 3,
+      "stress_minus_base_cumulative_treasury_cash_B": -1.4
+    },
+    {
+      "year": 2029,
+      "quarter": 4,
+      "stress_minus_base_cumulative_treasury_cash_B": 0.0
+    },
+    {
+      "year": 2030,
+      "quarter": 1,
+      "stress_minus_base_cumulative_treasury_cash_B": -0.8999999999999999
+    },
+    {
+      "year": 2030,
+      "quarter": 2,
+      "stress_minus_base_cumulative_treasury_cash_B": -0.5
+    },
+    {
+      "year": 2030,
+      "quarter": 3,
+      "stress_minus_base_cumulative_treasury_cash_B": -1.4
+    },
+    {
+      "year": 2030,
+      "quarter": 4,
+      "stress_minus_base_cumulative_treasury_cash_B": 0.0
+    }
+  ],
+  "greatest_extra_interim_treasury_cash_need_B": 3.1300000000000003,
+  "scope_limit": "This is an incremental treasury timing calendar, not a bank-liquidity or solvency result. Root must combine it with operating cash, capital receipts, taxes, economic SBC and minority reservations. Any actual interim draw changes interest and needs a financing-consistent rerun.",
+  "verification": {
+    "all_annual_inputs_preserved": true,
+    "all_principal_located_to_source_month": true,
+    "all_year_end_timing_differences_zero": true,
+    "all_frozen_input_hashes_unchanged": true
+  }
+}

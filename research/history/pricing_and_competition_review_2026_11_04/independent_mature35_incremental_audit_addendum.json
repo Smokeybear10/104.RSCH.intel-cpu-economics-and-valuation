@@ -1,0 +1,53 @@
+{
+  "prepared_utc": "2026-11-04T17:32:51.307816+00:00",
+  "scope": "Targeted incremental audit only. The previous 743-check full audit is not repeated. No changed assumptions or production-engine import.",
+  "status": "PASS",
+  "numeric_comparisons": 425,
+  "tolerance": 1e-08,
+  "maximum_absolute_difference": 6.35408556977884e-14,
+  "errors": [],
+  "new_valuation_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "source_immutability": {
+    "baseline": {
+      "sha256": "5c0cd2116ad3efc49bc02be0dc8241902a9b11b3b9c0c5cf49e1594186eabfe2",
+      "matches_recorded": true
+    },
+    "margin_addendum": {
+      "sha256": "e105795d651a0b68cabffcc3716d55d530dd12f3bac92bb02cee261d51a21314",
+      "matches_recorded": true
+    },
+    "host_operating_policy": {
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+      "matches_recorded": true
+    }
+  },
+  "method": "Independently compute DCAI sales times the added margin of 0.003 per year from 2031, capped at 0.03 from 2040. Apply the unchanged cash-tax rate, discount the incremental cash and 3% terminal stream, and add the actual 2031 retained-cash increment once. All other operating cash fields, financing tax benefits, debt and claims are checked unchanged.",
+  "key_reconciled_values_USD": {
+    "2026_0.11": 51.03522871303771,
+    "2026_0.12": 44.067914052747014,
+    "2026_0.13": 38.555427197402786,
+    "2027_0.12": 48.898597314394266,
+    "2028_0.12": 54.57624488068242,
+    "2029_0.12": 60.864132399454704,
+    "2030_0.11": 75.75525448221478,
+    "2030_0.12": 67.57762169851729,
+    "2030_0.13": 61.05458113960595,
+    "2031_0.12": 74.74084968212509
+  },
+  "2031_increment": {
+    "group_EBIT_B": 0.257032436127336,
+    "ordinary_cash_tax_B": 0.04009706003586442,
+    "owner_cash_and_ending_cash_B": 0.2169353760914716,
+    "new_borrowing_B": 0.0
+  },
+  "controls": [
+    "2027–2030 operating profit, tax, cash and treasury are unchanged.",
+    "Physical capex, D&A, working capital, lease/minority costs and incentives remain unchanged for every modeled year.",
+    "The supplied baseline and host policy still match the hashes from the prior independent audit.",
+    "The fixed debt and nonbinding tax-capacity convention leave financing tax shields unchanged.",
+    "Higher 2031 cash is counted in the 2031 endpoint balance; post-endpoint operating PV begins 2032, so that cash is not counted twice."
+  ],
+  "interpretation": "Arithmetic verifies implementation of the 35% DCAI margin judgment; it does not empirically establish that margin, the 12% rate or market convergence. The adjustment raises group profit once without a second Foundry benefit.",
+  "competition_implication": "Agree with withdrawing the presumptive 3–5-year SHORT. The preferred model now gives 60.86 in 2029 and 67.58 in 2030 versus the dated 58.11 entry. The early 44.07 end 2026 planning reference supports a current-value counterview only if root separately owns an earlier repricing forecast. It does not establish a passive-short payoff or force a LONG recommendation. This is a changed preferred forecast, not a demand for perfect foresight.",
+  "supersedes": "The provisional-short preference in independent_intel_server_ASP_mix_audit_and_direction.json is superseded for competition selection by this targeted update; that earlier arithmetic audit remains valid for its preserved source."
+}

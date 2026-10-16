@@ -1,0 +1,111 @@
+{
+  "completed_utc": "2026-11-06T06:19:26.820855+00:00",
+  "question": "Does the FY2027 consensus residual prove a lower-bound revenue beat under the existing operating policy?",
+  "verdict": "NO unconditional lower-bound beat. YES exact residual/headroom comparison. Products is external revenue; the $2.8B All Other forecast is segment revenue with unspecified future internal-sales elimination. The model capital denominator omits shadow packaging and legacy external Foundry sales.",
+  "source_scope": [
+    {
+      "source": "Intel Q3 2026 Form10-Q",
+      "date": "2026-10-30",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note2 printedpp9-11 (web lines557-576,605-629)",
+      "facts": "Products is external-customer revenue. Foundry has internal and external sales. All Other can include intersegment sales. Segment revenue is reconciled with separate revenue eliminations."
+    },
+    {
+      "source": "StockAnalysis S&P Global forecast redistributor",
+      "data_date": "2026-11-05",
+      "accessed_date": "2026-11-06",
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "locator": "Financial Forecast: Revenue Next Year $69.27B; fiscal-year table FY2027; Data Sources and Last Updated lines235-239",
+      "facts": "FY2027 consolidated revenue proxy $69.27B. No publicly visible Products or CPU consensus. Contributor count and individual forecast vintages for FY2027 unavailable."
+    }
+  ],
+  "policy_locators": [
+    {
+      "file": "work/three_hour/active_research/intel_competition_screen_2026_11_04/corporate_other_policy.json",
+      "key": "policy_rows[year=2027].other_segment_revenue_B",
+      "value": 2.8,
+      "scope": "Segment revenue; the adjacent zero intersegment_operating_elimination_B is operating profit, not revenue."
+    },
+    {
+      "file": "work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json",
+      "key": "baseline_overlap",
+      "scope": "Host already reserves packaging economics; add net incremental sales only to its capital proxy, not a full consolidated revenue forecast."
+    },
+    {
+      "file": "work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/revenue_and_treasury_followup_conclusions.json",
+      "key": "forecast_algebra.existing_known_rows[year=2027]",
+      "scope": "Current Products68.3326878; Other2.8; gross packaging.5; shadow packaging.25; capital proxy71.3826878. Independently checked accounting against primary10-Q."
+    }
+  ],
+  "exact_2027_arithmetic_B": {
+    "Products_external_P": "68.3326878",
+    "consensus_total_C": "69.27",
+    "residual_C_minus_P": "0.9373122",
+    "Products_fraction_of_total": "0.9864687137288869640537029017",
+    "AllOther_segment_O": "2.8",
+    "Products_plus_AllOther_before_revenue_eliminations": "71.1326878",
+    "above_consensus_before_revenue_eliminations": "1.8626878",
+    "gross_external_packaging_G": "0.5",
+    "embedded_shadow_packaging_S": "0.25",
+    "net_incremental_packaging_N": "0.25",
+    "existing_capital_denominator_P_plus_O_plus_N": "71.3826878",
+    "capital_denominator_minus_consensus_NOT_matched_beat": "2.1126878",
+    "P_plus_O_plus_G": "71.6326878",
+    "gross_known_sum_minus_consensus_before_legacy_and_eliminations": "2.3626878"
+  },
+  "consolidation_identity": {
+    "unknown_variables": "L=legacy external Foundry sales excluding gross packaging G; I=All Other internal revenue eliminated on consolidation. Neither annual series is owned by current model.",
+    "formula": "Consolidated revenue = P + O + G + L - I = 71.6326878 + L - I.",
+    "gap_formula": "Gap versus69.27 = 2.3626878 + L - I.",
+    "from_capital_proxy": "Consolidated revenue = capital proxy71.3826878 + shadow packaging.25 + L - I.",
+    "no_packaging_headroom": "External Foundry + net All Other must equal0.9373122 to coexist with Products68.3326878 and total69.27.",
+    "what_would_erase_gap": "With gross packaging.5 and L>=0, consensus requires I>=2.3626878+L (84.38% of the2.8 Other forecast before any L), or net All Other<=.4373122-L. Historical elimination is much smaller, but not a forward upper bound.",
+    "mathematical_lower_bound": "Even accepting gross packaging.5 and only requiring net All Other>=0 and L>=0, lower bound P+G=68.8326878 remains below69.27. Therefore an unconditional positive beat is not proved.",
+    "conditional_lower_bound": "If a new explicit policy defines net All Other external revenue as2.8 and L>=0, then P+net Other already exceeds consensus by1.8626878; including G gives2.3626878. Current policy does not separately define that net series. Adopting it would be a forecast decision, not a source fact."
+  },
+  "historical_reconciliation": [
+    {
+      "period": "Q3 2026",
+      "Products_external_B": "15.415",
+      "Foundry_total_B": "6.697",
+      "Foundry_external_B": "0.411",
+      "Foundry_internal_B": "6.286",
+      "AllOther_segment_B": "0.692",
+      "total_revenue_eliminations_B": "6.291",
+      "residual_other_internal_B": "0.005",
+      "net_AllOther_external_B": "0.687",
+      "consolidated_B": "16.513",
+      "identity_error_B": "0.000"
+    },
+    {
+      "period": "YTD Q3 2026",
+      "Products_external_B": "43.333",
+      "Foundry_total_B": "17.883",
+      "Foundry_external_B": "0.878",
+      "Foundry_internal_B": "17.005",
+      "AllOther_segment_B": "2.021",
+      "total_revenue_eliminations_B": "17.019",
+      "residual_other_internal_B": "0.014",
+      "net_AllOther_external_B": "2.007",
+      "consolidated_B": "46.218",
+      "identity_error_B": "0.000"
+    }
+  ],
+  "interpretation": [
+    "The clean residual does establish that this Products forecast leaves little space inside the total consensus proxy for external non-Products businesses.",
+    "It cannot establish that consensus specifically underestimates server CPUs: consensus may differ on PCs, CPU ASP, Other DCAI, Mobileye/IMS or external Foundry.",
+    "The consensus proxy is a survey estimate, not a market-implied forecast or evidence that all estimates postdate Intel results.",
+    "Do not add internal Foundry revenue, double-count gross and net packaging, or use zero operating-profit elimination as zero revenue elimination.",
+    "Do not annualize Q3 external Foundry411M as recurring legacy revenue: Intel says the quarter was boosted primarily by a nonrecurring contract."
+  ],
+  "safest_main_slide_wording": "My $68.3B Products forecast leaves only $0.94B within the $69.3B 2027 total-revenue consensus proxy for external Foundry and net All Other.",
+  "safest_short_footnote": "S&P Global via StockAnalysis, updated Nov5. Products is external sales; this is a residual comparison, not a fully reconciled consolidated revenue beat.",
+  "optional_explanatory_line": "My separate $2.8B All Other segment assumption exceeds that residual before eliminating internal sales; future eliminations and legacy Foundry sales are not forecast.",
+  "rejected_wording": [
+    "At least$1.86B above consensus.",
+    "My consolidated sales forecast is$71.38B.",
+    "Consensus misses Intel server demand by$1.86B.",
+    "Gross packaging.5 is wholly incremental to the existing capital proxy."
+  ],
+  "actions": "No forecast/model/builder/PDF edits. No new external Foundry or Other-internal forecast supplied."
+}

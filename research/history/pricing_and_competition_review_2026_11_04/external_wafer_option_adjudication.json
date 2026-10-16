@@ -1,0 +1,95 @@
+{
+  "title": "External wafer opportunity beyond the preferred CPU and packaging case",
+  "prepared_utc": "2026-11-04T17:41:08.192617+00:00",
+  "information_cutoff": "2026-11-04",
+  "scope": "Bounded primary-source operating review. No equity calculation, new equity-output inspection, changed CPU ASP/margin policy or frozen-model edit. Root supplied a headline value in the task; no program forecast was chosen to close an equity gap.",
+  "owned_decision": {
+    "incremental_program_adoption": "Do not add another external-wafer or licensing profit overlay to the preferred case in this pass.",
+    "positive_forecast_judgment": "A growing external-wafer business by2029\u20132031 is plausible and more likely than a literal zero-customer outcome. UMC12nm and Fortinet are concrete routes; silicon-validated14A design enablement improves the prospect of a later anchor program. I treat ordinary progress in those programs as supporting the existing aggregate Foundry recovery, not as proof that every future external profit is already captured.",
+    "why_no_new_overlay": "The strongest revenue-ready external opportunity\u2014advanced packaging\u2014is already forecast at7B gross/5B net new2030 sales with funded capacity. Current wafer disclosures do not identify a comparably large additional program economically distinct from Products, Other DCAI, existing external services and that packaging allowance. Adding another generic successful anchor would largely be a second, unmeasured success allowance atop the current positive Foundry profit path.",
+    "not_a_perfect_contract_test": "This decision does not require signed minimums for every future dollar. It rests on stage, commercial scope, customer scale and overlap. I would adopt a prospective named wafer program before all volumes were signed if its product, launch window and plausible share of customer silicon demand justified a distinct production and capital plan. Current evidence supports likelihood of progress more than a particular incremental cash stream.",
+    "directional_preference": "The better Intel business thesis remains LONG: rising CPU value per package, improving manufacturing conversion and an independently sold packaging service. I would not revive a high-confidence SHORT merely because14A customer economics are undisclosed. However, unmodeled wafer options are not a sound way to turn modest modeled stock returns into a high-confidence LONG. The submission recommendation must stand on the already-owned CPU/packaging cash case and its price, with external wafers as asymmetric but costly optionality.",
+    "submission_angle": "Do not sell an Intel-becomes-TSMC thesis. The defensible technical variant is that package-unit share understates CPU value/content and brownfield manufacturing can convert that value into cash; commercial wafer customers are an additional catalyst, not the earnings foundation."
+  },
+  "new_or_refined_primary_evidence": [
+    {
+      "id": "14A_PDK09",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/what-is-the-intel-14a-pdk-0-9-and-why-it-matters.html",
+      "date_scope": "Current official article accessedNov4; contemporaneousNov2 article, date not rendered in web text",
+      "locator": "PDK0.9 questions and next milestone paragraph",
+      "established": "PDK0.9 generally available with silicon-backed models;Intel explicitly describes this as a gate many customers use to begin a design. PDK1.0 expectedQ12027. This makes new product design starts credible; it is neither customer tapeout nor qualified high-volume shipment nor a funded manufacturing award.",
+      "owned_implication": "A successful2027design cycle can plausibly contribute within a3\u20135-year horizon. Do not assign technical milestone zero probability of commercial value; also do not book production fees from the milestone alone."
+    },
+    {
+      "id": "UMC12nm_current",
+      "url": "https://www.umc.com/en/Product/technologies/Index/logic",
+      "date_scope": "Current UMC product page retrievedNov4; no original posting date established",
+      "locator": "12nm section",
+      "established": "UMC and Intel expect production in2027 at Intel Ocotillo, targeting connectivity/mobile/networking.",
+      "additional_url": "https://www.umc.com/en/Product/technologies/Detail/12nm",
+      "additional_established": "UMC describes optimized FinFET design, lower mask count and a migration path for customers beyond22/28nm. These are partner technical claims, not audited customer-cost or profit figures."
+    },
+    {
+      "id": "UMC_reuse_contract",
+      "url": "https://download.intel.com/newsroom/archive/2025/en-us-2024-01-25-intel-and-umc-announce-new-foundry-collaboration.pdf",
+      "date": "2024-01-25",
+      "locator": "PDFpage3, Fabs12/22/32 paragraph",
+      "established": "Long-term collaboration reuses existing equipment in Fabs12,22,32 and explicitly seeks lower upfront investment and higher utilization.",
+      "owned_implication": "This is the strongest concrete lower-capital external-wafer route. It supports the existing0.80capital-productivity/recovery judgment but does not calibrate a further turnover increase. UMC customer invoices are not automatically Intel revenue; commercial split, utilization and remaining retooling cost are unreported."
+    },
+    {
+      "id": "Fortinet_program",
+      "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/intel-and-fortinet-collaborate-to-advance-cybersecurity-innovation-and-strengthen-global-supply-chain-resilience",
+      "date": "2026-07-21",
+      "locator": "Joint SP6 development announcement",
+      "established": "Customer confirms Intel design, packaging and manufacturing collaboration onSP6. No production date or annual wafer-fee commitment is identified in the release. Intel4 attribution was reported in press interviews; it is not required for this primary-source economic judgment."
+    },
+    {
+      "id": "Fortinet_customer_scale",
+      "url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm",
+      "date": "2026-07-29",
+      "locator": "Condensed income statement, Q2/H12026 product revenue and product cost rows",
+      "established": "Q2product sales773.0M and product cost233.8M;H1product sales1,418.1M and product cost442.1M. Current annualized total product cost is therefore935.2M onQ2 or884.2M onH1.",
+      "limit": "These are current accounting expense run rates, not future procurement ceilings or Intel contract values. Growth, inventory and development spending differ from supplier payments. Still, SP6wafer/packaging is only one portion of all appliance costs, so this named customer is not evidence for several billion dollars of annual Intel wafer revenue by itself."
+    },
+    {
+      "id": "Microsoft_Maia300",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "date": "2026-10-12",
+      "locator": "Energy-efficient inference section, multi-chiplet bullet",
+      "established": "Microsoft identifies Maia300 compute chiplets asTSMCN2P. Its JanuaryMaia200 architecture identifiesTSMCN3.",
+      "prior_url": "https://techcommunity.microsoft.com/blog/azureinfrastructureblog/deep-dive-into-the-maia-200-architecture/4489312",
+      "implication": "The unnamed Microsoft18A design announcement cannot be assigned the economics of either flagship Maia generation. It does not disprove a different Intel-made Microsoft design or future selection."
+    },
+    {
+      "id": "AWS_framework",
+      "url": "https://press.aboutamazon.com/aws/2024/9/intel-and-aws-expand-strategic-collaboration-helping-advance-u-s-based-chip-manufacturing",
+      "date": "2024-09-16",
+      "locator": "Expanded collaboration first three paragraphs",
+      "established": "Multi-year, multibillion framework includes co-investment in both products and wafers:18A AI fabric chip and custom Intel3Xeon6.",
+      "implication": "A real commercial route with customer participation; not all framework dollars belong to new external foundry. Xeon is already in Products and custom-design revenue can overlap OtherDCAI. No annual wafer/packaging/funding split is disclosed."
+    },
+    {
+      "id": "current_issuer_stage",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "date": "2026-10-30",
+      "locator": "Manufacturing strategy and Intel Foundry MD&A",
+      "established": "Intel is meeting milestones for potential significant14Acustomers and expansion pace depends on commitments. Q3external revenue411M primarily reflects a nonrecurring contract;YTD878M growth primarily reflects Altera becoming external.",
+      "implication": "Do not annualizeQ3external revenue as a recurring new leading-node customer ramp or count existing Altera service a second time."
+    }
+  ],
+  "overlap_and_funding_adjudication": {
+    "already_included": "CPU/customXeon, GoogleIPU and NVIDIAx86 collaboration remain in Products/OtherDCAI; gross7B/net5B2030packaging remains unchanged with its existing profit overlap and capital. The host already retains ordinary external services within aggregate Foundry profit, reaching2.5B2030before the additional packaging overlay. It is neither all internal nor a zero-option valuation.",
+    "18A_14A_cost": "External production consumes process-development resources, qualified tools, masks, yield-learning wafers, test/packaging and WC; capacity used for customers can displace internal products. Shared investment reduces marginal cost but does not make the program free. A customer advance finances the project and changes obligations; it is not an additional operating profit.",
+    "UMC_cost": "Reused shells/tools can improve economics. Incremental equipment, process qualification, IP/royalty sharing, operating staff and sustaining investment must still be paid. No further capital-efficiency credit is adopted on top of0.80merely because the same reuse evidence is cited again.",
+    "Terafab_boundary": "Partnership/support forTerafab is not proof that Intel owns the fab, sells all its wafers or earns an undisclosed royalty rate. No licensing cash is added without an owned scope and corresponding support/IP obligations. The partnership is not ignored as strategically worthless.",
+    "economically_material_countercase": "A newly selected hyperscaler chip family that uses Intel production, with credible multiyear accepted volumes and access to paid capacity, could change the value substantially even without another full fab. That would justify a separate funded program forecast. It is a genuine short-thesis risk, not a reason to insert an arbitrary additional mature profit today."
+  },
+  "next_decisive_evidence": "A customer names a production product on18A-P/14A or the UMC12nmplatform, shows a launch/volume window, and describes wafer capacity/customer funding. Tie accepted shipments to external recurring revenue and normalized Foundry profit after additional tools and qualification costs. Packaging wins alone do not satisfy the wafer test.",
+  "no_new_program_numbers_or_equity_values_computed": true,
+  "source_hashes": {
+    "external_packaging_operating_policy_2026_11_04.json": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb",
+    "paired_cpu20_capital080_operating_policy_2026_11_04.json": "2791b70c55d75aac7ba030eb8d2fb33c0b5718b2bf0fb79d5e1654ce088c38cc",
+    "q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2"
+  }
+}

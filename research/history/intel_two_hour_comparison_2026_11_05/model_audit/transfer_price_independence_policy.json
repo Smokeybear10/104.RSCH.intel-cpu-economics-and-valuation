@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-11-05T23:50:13.398749+00:00",
+  "purpose": "Separate an accounting allocation change from genuine consolidated retained profit; do not infer actual future transfer prices or change frozen forecasts.",
+  "diagnostics": [
+    "Reconcile actual Q3segment profit to consolidated EBIT including\u221270Meliminations.",
+    "Reconcile current selected annual DCAI,CCPG,Foundry,Other,corporate,packaging contributions to groupEBIT.",
+    "Reprice explicit mature35-to40DCAI uplift with an exactly offsetting Foundryprofit reduction: a pure internal transfer reallocation produces zero incremental groupvalue, with unchanged cash,capital,taxrates.",
+    "Compute selected actual economicprofit uplift relative35 at2040 and its APV value, keepingallclaims including1.215Breserve."
+  ],
+  "policies": [
+    "The artificial transferoffset equals only the added2031onDCAIprofit wedge, not the existingFoundryturnaround.",
+    "Model uses zero forwardinventoryoperatingeliminations; timing effects are not reconstructed.",
+    "No probability, sourcecalibration, actualduplicatecharge or investmentrecommendation inferred."
+  ]
+}

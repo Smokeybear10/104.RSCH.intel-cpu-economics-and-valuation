@@ -1,0 +1,184 @@
+{
+  "as_of_utc": "2026-11-05T07:14:59.097562+00:00",
+  "scope": "Independent pages3,6,7 numerical and evidence-framing audit; visual review of page6. No PDF edits.",
+  "PDF_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+  "PDF_sha256": "3b44011bcea3df7ea73296ffc1e82e0de2ec059e7e81931280da6d17e05be8bb",
+  "pages_audited": [
+    3,
+    6,
+    7
+  ],
+  "numeric_checks": [
+    {
+      "check": "Intel CPU component",
+      "actual": 0.0476,
+      "expected": 0.0476,
+      "passed": true
+    },
+    {
+      "check": "Intel memory component",
+      "actual": 0.3648,
+      "expected": 0.3648,
+      "passed": true
+    },
+    {
+      "check": "AMD CPU component",
+      "actual": 0.0552,
+      "expected": 0.0552,
+      "passed": true
+    },
+    {
+      "check": "AMD memory component",
+      "actual": 0.3456,
+      "expected": 0.3456,
+      "passed": true
+    },
+    {
+      "check": "Ampere CPU component",
+      "actual": 0.076,
+      "expected": 0.076,
+      "passed": true
+    },
+    {
+      "check": "Ampere memory component",
+      "actual": 0.2688,
+      "expected": 0.2688,
+      "passed": true
+    },
+    {
+      "check": "Intel sum",
+      "actual": 0.4124,
+      "expected": 0.4124,
+      "passed": true
+    },
+    {
+      "check": "AMD sum",
+      "actual": 0.4008,
+      "expected": 0.4008,
+      "passed": true
+    },
+    {
+      "check": "Ampere sum",
+      "actual": 0.3448,
+      "expected": 0.3448,
+      "passed": true
+    },
+    {
+      "check": "Intel/AMD throughput improvement percent",
+      "actual": 2.8942115768463075,
+      "expected": 2.8942115768463075,
+      "passed": true
+    },
+    {
+      "check": "Intel/AMD memory crossover GB/OCPU",
+      "actual": 3.1666666666666665,
+      "expected": 3.1666666666666665,
+      "passed": true
+    },
+    {
+      "check": "DCAI growth percent",
+      "actual": 47.07013165629612,
+      "expected": 47.07013165629612,
+      "passed": true
+    },
+    {
+      "check": "CCPG growth percent",
+      "actual": -7.214428530809536,
+      "expected": -7.214428530809525,
+      "passed": true
+    },
+    {
+      "check": "2027 gross capex",
+      "actual": 31.5,
+      "expected": 31.5,
+      "passed": true
+    },
+    {
+      "check": "2028 Products forecast scale gap",
+      "actual": 1.022325285800008,
+      "expected": 1.0223252858,
+      "passed": true
+    },
+    {
+      "check": "Intel vendor 2028 PE",
+      "actual": 24.098428453267164,
+      "expected": 24.098428453267164,
+      "passed": true
+    },
+    {
+      "check": "AMD vendor 2028 PE",
+      "actual": 23.330787589498808,
+      "expected": 23.330787589498808,
+      "passed": true
+    },
+    {
+      "check": "Intel matched AMD multiple value",
+      "actual": 56.41384439140812,
+      "expected": 56.41384439140812,
+      "passed": true
+    },
+    {
+      "check": "Equal multiple gap percent",
+      "actual": -3.185439520494049,
+      "expected": -3.185439520494049,
+      "passed": true
+    },
+    {
+      "check": "Intel capex/revenue percent",
+      "actual": 25.549567007812026,
+      "expected": 25.549567007812023,
+      "passed": true
+    },
+    {
+      "check": "AMD capex/revenue percent",
+      "actual": 4.844135456380354,
+      "expected": 4.8441354563803545,
+      "passed": true
+    },
+    {
+      "check": "Intel CFO less capex / revenue percent",
+      "actual": 5.226185429661475,
+      "expected": 5.226185429661476,
+      "passed": true
+    },
+    {
+      "check": "AMD CFO less capex / revenue percent",
+      "actual": 4.141436794498018,
+      "expected": 4.141436794498018,
+      "passed": true
+    }
+  ],
+  "all_numeric_checks_passed": true,
+  "primary_source_checks": [
+    "Oracle six current CPU/memory rates independently checked against dated price-list pages54-56 and API.",
+    "A4 Ax two physical cores/two vCPUs per OCPU independently confirmed in current shapes docs and dated price-list printedp120.",
+    "Oracle X12 availability, X14 planned collaboration, AWS Xeon regional expansion support adopted-versus-planned distinction."
+  ],
+  "evidence_framing_checks": [
+    "Page3 distinguishes one-analyst segment forecasts from aggregate adjusted EPS.",
+    "Page3 keeps separate estimated2026bases,capexclassification caveat,EPSadjustmentcaveat,andProducts-versus-whole-companyscale boundary.",
+    "Page3 correctly states two aggregators shareS&P data rather than claiming independent corroboration.",
+    "Page6 labels original public-data calculation, no interviews or performance tests; no cloud-rental-price-to-chip-ASP inference.",
+    "Page6 2.9% is additional successful throughput requirement rather than equal percentage runtime reduction.",
+    "Page6 physicalcorecount4/4/8keptvisible; noequalphysicalcoreorperformanceclaim.",
+    "Page7 samevendor2028multiple comparison doesnotclaim identicalEPSadjustmentconventions.",
+    "Page7 cashaftercapexcomparison correctly admitsIntel highercurrentquartermargin ratherthan forcinga bearish result.",
+    "Page7 equalmultipleprice explicitlynotpricetarget;modelversusvendorearnings definitions separated."
+  ],
+  "visual_qa": {
+    "render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_editorial/evidence-06.png",
+    "legible": true,
+    "clipping_observed": false,
+    "overlap_observed": false,
+    "source_links_visible": true
+  },
+  "root_planned_precision_changes": [
+    "Change Totalperhour to CPU+memory/hour.",
+    "Change fullbill to priceranking.",
+    "Clarify each forecast uses its estimated2026base.",
+    "Spell out0.15percentagepoint/year decline in risk curve."
+  ],
+  "optional_precision": "Append for the same work and quality to the throughput comparison; current text is already bounded by completedtasks and no-workload-test statements.",
+  "material_errors_found": [],
+  "verdict": "Pass numerical and evidence framing for reviewed content. Apply already-planned billing-label precision fixes beforefinalrender."
+}

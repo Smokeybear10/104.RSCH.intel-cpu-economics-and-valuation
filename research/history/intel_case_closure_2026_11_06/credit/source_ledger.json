@@ -1,0 +1,87 @@
+{
+  "as_of": "2026-11-06",
+  "retrieved_utc": "2026-11-07T01:28:21.899347+00:00",
+  "scope": "Intel Corporation parent revolvers: $5B three-year/August 2029 and $10B five-year/August 2031 after October 1, 2026 increases. Not acquisition term loan, partner debt or subsidiary facilities.",
+  "status": "Public-source review complete; current amended agreement pricing and covenants not located in examined public filings. No contractual fee or covenant number is established.",
+  "sources": [
+    {
+      "id": "Q3_2026_10Q",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "filed": "2026-10-30",
+      "locator": "Note 11 Borrowings, printed p21; MD&A Liquidity; Exhibits p47",
+      "supports": [
+        "Q3 amendments increased three-year facility from $3B to $4.8B and extended January 2029 to August 2029",
+        "Q3 amendments increased five-year facility from $7B to $9.7B and extended February 2029 to August 2031",
+        "October 1 additional $0.5B brought facilities to $5B/$10B, total $15B",
+        "No revolver borrowing outstanding at September 26, 2026 or December 27, 2025",
+        "Q2 $6.5B 364-day acquisition term loan charged 4.79% and was repaid in Q2; different instrument"
+      ],
+      "limitations": [
+        "No facility margin, rating grid, facility/commitment fee, financial covenant threshold, draw conditions or full amended agreement disclosed in these passages",
+        "Exhibit index contains no revolver agreement/amendment; do not claim absence from entire public universe"
+      ]
+    },
+    {
+      "id": "FY2025_10K",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm",
+      "filed": "2026-01-23",
+      "locator": "Note 13 Borrowings, printed p93; Exhibit list pp110\u2013115",
+      "supports": [
+        "Predecessor revolvers disclosed as unsecured general obligations",
+        "Predecessor $5B 364-day facility maturity January 2026; $7B five-year facility maturity February 2029"
+      ],
+      "limitations": [
+        "Historical classification, not complete current amended agreement",
+        "No pricing grid/fee schedule or revolver agreement in examined exhibit list"
+      ]
+    },
+    {
+      "id": "Q1_2022_10Q",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-22-000020/intc-20220402.htm",
+      "filed": "2022-04-29",
+      "locator": "Note 8 Borrowings, printed p13; Liquidity p34",
+      "supports": [
+        "Historical $5B variable-rate revolver switched from LIBOR to term SOFR in March 2022"
+      ],
+      "limitations": [
+        "Does not establish 2026 amended margin or terms and says nothing about separate three-year facility pricing"
+      ]
+    },
+    {
+      "id": "SEC_SUBMISSIONS",
+      "url": "https://data.sec.gov/submissions/CIK 0000050863.json",
+      "locator": "filings.recent filtered 2026-01-01 through 2026-11-06; 8-K/10-K/10-Q",
+      "supports": [
+        "All 16 matching main reports retrieved from issuer mirrors; no credit-named agreement link found"
+      ],
+      "limitations": [
+        "Main-report/link audit, not all imaginable public sources"
+      ]
+    },
+    {
+      "id": "SEC_FULLTEXT",
+      "url": "https://efts.sec.gov/LATEST/search-index",
+      "locator": "CIK 0000050863; 2001-01-01 through 2026-11-06; see sec_search_summary.json and raw responses",
+      "supports": [
+        "Zero indexed hits for exact phrases commitment fee, facility fee, revolving credit agreement, applicable margin when searched with spaces",
+        "Credit facility agreement matches 21 periodic reports, not agreement exhibits",
+        "Credit agreement matches 10 exhibits, reviewed; these are SCIP/JV/acquisition agreements, not current parent revolvers",
+        "Financial covenants exact phrase gives one 2006 prospectus hit, not 2026 revolver terms"
+      ],
+      "limitations": [
+        "Search absence supports not located, not legally proves unpublished",
+        "No inference of covenant-free or unrestricted borrowing is permitted"
+      ]
+    }
+  ],
+  "actual_current_contractual_covenant_disclosure_found": false,
+  "actual_current_fee_schedule_found": false,
+  "prohibited_inferences": [
+    "Do not call either current facility covenant-free",
+    "Do not say borrowing has no fees",
+    "Do not use Q2 term loan 4.79% as revolver quote",
+    "Do not transplant a peer borrower margin or covenant",
+    "Do not promise 2028 draw availability merely because capacity exists now",
+    "Do not treat $20B analyst cash buffer as contractual minimum"
+  ]
+}

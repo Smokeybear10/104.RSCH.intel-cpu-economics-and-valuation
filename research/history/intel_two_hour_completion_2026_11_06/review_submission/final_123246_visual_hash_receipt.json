@@ -1,0 +1,327 @@
+{
+  "checked_utc": "2026-11-06T16:33:06.432309+00:00",
+  "reviewed_build_utc": "2026-11-06T12:32:46.965791+00:00",
+  "reviewer": "submission_readiness_review",
+  "scope": "Read-only final visual, layout, figure and frozen-hash QA of all18 pages; earlier source/claim review and independent valuation receipts retained. No PDF/model changes.",
+  "result": "PASS: no material finding requiring unfreeze",
+  "files": [
+    {
+      "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "8c84a53e2f81d8b090c878a4d0df6c635303f32af379d5b3b52597b3d283bd5c",
+      "matches_manifest": true,
+      "pages": 10,
+      "expected_pages": 10,
+      "link_annotations": 32,
+      "expected_links": 32,
+      "all_render_mtimes_after_pdf": true,
+      "render_files": [
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-01.png",
+          "sha256": "bfbc3ee340c4e2b34e93909424d31263cd93723e31eafbc45cdad72069b7f150"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-02.png",
+          "sha256": "51b0f0aa77b37615afae451949855bba482e1f321e7aa8b5255c1840326d25b0"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-03.png",
+          "sha256": "87cf34cb0ff698e332dcc9a23cf21db6e3ac05f1ea0ee3135acadc371f7c9810"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-04.png",
+          "sha256": "64ffcb4db0c3045cca7f3f5e81a9d39ca6ab66525e9d10e77120d88a2b9ede5e"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-05.png",
+          "sha256": "eec4007def4f382a954a942314ea0185c66a1e850dc89a761516fc9ee153fd1d"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-06.png",
+          "sha256": "f6a36877e7d5b0b7cabb3bfc6085730f54de85cae92c502738dcdfa6c20180b0"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-07.png",
+          "sha256": "e2e05d98342ce09e7dc5af749a1e15736ce75e69f87de829b03b0c11660309a4"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-08.png",
+          "sha256": "cd3ceb7b184e963ffe947c93f3a1149cdb0faaf8d1e63c8d05367cec8ae9a234"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-09.png",
+          "sha256": "dfa7f94303a441edabc6a509a05eb92f8f1a0e5a30c6d2a5193c17e1c57de21f"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-screen-10.png",
+          "sha256": "be1882ea4c04a231bca6c51c62ae0b395994f70e169bb20772e41295605e30b1"
+        }
+      ],
+      "page_review": [
+        {
+          "page": 1,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Title, three scenario cards, qualification paragraph and conclusion fit; favorable operations plus rate is explicitly labeled."
+        },
+        {
+          "page": 2,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Company overview and operating-profit bridge are readable; numeric columns align; packaging and Foundry caveats fit."
+        },
+        {
+          "page": 3,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Forecast table headers and all three numeric columns align; consensus-proxy limitation remains visible."
+        },
+        {
+          "page": 4,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Quarterly table and two prose columns remain separate with room above the callout."
+        },
+        {
+          "page": 5,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Conditional-margin table and two prose columns fit; no clipping; conditional-allocation caveat preserved."
+        },
+        {
+          "page": 6,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Cash table and chart are separated; minima and buffer caveat readable; D&A renders correctly."
+        },
+        {
+          "page": 7,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "APV bridge columns align; valuation-date and long-duration caveats fit; no overlap."
+        },
+        {
+          "page": 8,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Long heading clears horizontal rule; seven scenario rows align; explanatory paragraph, callout and source footer remain separated."
+        },
+        {
+          "page": 9,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Workload table and bounded-inference paragraphs fit; evidence, architecture limitation and no-invoice scope readable."
+        },
+        {
+          "page": 10,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Sources, model boundaries and unresolved LONG/SHORT status fit; footer and callout separated."
+        }
+      ]
+    },
+    {
+      "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "8131067455417de528f6225714c8f0aaeda0f6f4feca66d620baccdb6efb2b8e",
+      "matches_manifest": true,
+      "pages": 5,
+      "expected_pages": 5,
+      "link_annotations": 12,
+      "expected_links": 12,
+      "all_render_mtimes_after_pdf": true,
+      "render_files": [
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-1.png",
+          "sha256": "8465513cd32d3add63f0afb3f0d9a1eabddf195f1e39d6d225b7c4f107e625a0"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-2.png",
+          "sha256": "507ab3385f6f41d7de80dd05cdce4a655a2507a0b1417daba516ed48a1f9059a"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-3.png",
+          "sha256": "22bc2bef10b334addf0c7e0b4e2db0160cfbec253f1029c8073c762c39a0becc"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-4.png",
+          "sha256": "4206caf6d6aba5419d63e46396f9bb9481c20d12f01f81c725a26f48fc388d4e"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-defense-5.png",
+          "sha256": "9ff7cd79ec906cd2b27dc00442a5c678cacbd970d514d57f6f1717f9e0ce28d7"
+        }
+      ],
+      "page_review": [
+        {
+          "page": 1,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Questions and responses fit cleanly; favorable alternative and research-only status are explicit."
+        },
+        {
+          "page": 2,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Margin and Foundry discussion fit; D&A correctly rendered; no overlap or cut text."
+        },
+        {
+          "page": 3,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Cash, grant, claim and debt sections fit with clear paragraph separation."
+        },
+        {
+          "page": 4,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Dense valuation and joint-packaging discussion inspected at full resolution; no clipping or footer collision; joint numbers aligned in prose."
+        },
+        {
+          "page": 5,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Evidence table rows wrap cleanly; subsequent workload, earnings and packaging sections fit."
+        }
+      ]
+    },
+    {
+      "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "7f6065603422fd329a993901d5ccb0c12aa03b49bf5a79787a544151ef38545c",
+      "matches_manifest": true,
+      "pages": 3,
+      "expected_pages": 3,
+      "link_annotations": 7,
+      "expected_links": 7,
+      "all_render_mtimes_after_pdf": true,
+      "render_files": [
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-comparison-1.png",
+          "sha256": "0acb8aae68414ed6427bdfaeaf615ffd8be5bcba3a9bec9d2efbcbc199537d66"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-comparison-2.png",
+          "sha256": "25caf51141c1cd5d360ef286ccfc1ef3076311c268ee3cfbc1e7c7a517ec9ede"
+        },
+        {
+          "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/frozen-comparison-3.png",
+          "sha256": "97a157c28d1609bea7a4d594ff5da156e4624cbf8cf54e1fec24e5fc2bfb6797"
+        }
+      ],
+      "page_review": [
+        {
+          "page": 1,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Comparison table headers, row labels and wrapped text fit; no obscured cells."
+        },
+        {
+          "page": 2,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Winner examples and rule differences fit with distinct paragraphs and usable links."
+        },
+        {
+          "page": 3,
+          "visually_reviewed": true,
+          "out_of_page_characters": 0,
+          "observation": "Research-resolution categories fit; rounded joint-control values and unresolved investment judgment accurately qualified."
+        }
+      ]
+    }
+  ],
+  "model": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_results.json",
+    "sha256": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8",
+    "matches_manifest": true
+  },
+  "screen_page8_geometry": [
+    {
+      "document": "screen",
+      "page": 8,
+      "title_max_bottom_pt": 78.26123000000001,
+      "rule_top_pt": [
+        86.0
+      ],
+      "rightmost_title_pt": 855.4174249999994,
+      "page_width_pt": 960
+    }
+  ],
+  "checks": [
+    {
+      "check": "Four operating/rate cases match model and rounded-rate control",
+      "pass": true,
+      "tokens": [
+        "$35.40",
+        "$53.43",
+        "$40.77",
+        "$59.68",
+        "$48.56",
+        "$73.56",
+        "$56.14",
+        "$82.47",
+        "11.555%",
+        "10.625%",
+        "11.6%"
+      ]
+    },
+    {
+      "check": "Foundry cash-cost and slower-delivery stress values match reviewed model outputs",
+      "pass": true,
+      "tokens": [
+        "$33.67",
+        "$50.95",
+        "$31.48",
+        "$47.45",
+        "$25.22",
+        "$38.13"
+      ]
+    },
+    {
+      "check": "Joint packaging/rate values match independent rounded receipt",
+      "pass": true,
+      "tokens": [
+        "$54.25",
+        "$79.66",
+        "10.7%",
+        "$50.97",
+        "$74.80",
+        "9.0%",
+        "10.625%"
+      ]
+    },
+    {
+      "check": "Comparison carries joint-control and favorable results consistently",
+      "pass": true,
+      "tokens": [
+        "$54.25",
+        "$50.97",
+        "$82.47",
+        "11.6%"
+      ]
+    },
+    {
+      "check": "Scenario probabilities, date mismatch and unfinished competition decision are disclosed",
+      "pass": true,
+      "tokens": [
+        "unweighted scenarios, not probabilities",
+        "December 31 planning value by 56 days",
+        "does not yet provide a finalized recommendation"
+      ]
+    },
+    {
+      "check": "No literal D&A; escaping artifact across all18 pages",
+      "pass": true
+    }
+  ],
+  "numeric_reference_files": [
+    "risk_policy/rounded_ERP_comparison_results.json",
+    "review_submission/rate_independent_receipt.json",
+    "review_submission/joint_packaging_rate_rounded_receipt.json",
+    "margin/favorable_cross_stress_results.json"
+  ],
+  "open_limitations": [
+    "Research review is not a finalized M37 LONG/SHORT recommendation or a submitted entry.",
+    "Scenario arithmetic and source attribution can be verified; future operating outcomes, valuation-method selection and state probabilities remain judgments.",
+    "This QA reconciles displayed figures to reviewed model outputs and independent receipts; it does not claim a new complete model reimplementation."
+  ],
+  "actions_needed_for_this_freeze": []
+}

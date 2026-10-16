@@ -1,0 +1,114 @@
+{
+  "primary_file_sources": [
+    {
+      "file": "ERPNov26.xlsx",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPNov26.xlsx",
+      "sha256": "919b7cc8e99dfb3ca7cbac17407fa1cb39070691b634c9a3e5699bfb2e953d9f"
+    },
+    {
+      "file": "ERPbymonth.xlsx",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx",
+      "sha256": "dbada71c8bcd309c8199c49540d17c9d943cf238e29a7effb7aef508829b6288"
+    }
+  ],
+  "monthly_rows": [
+    {
+      "row": 219,
+      "values": {
+        "Start of month": "2026-10-01T00:00:00",
+        "S&P 500": 7652,
+        "T.Bond Rate": 0.0529,
+        "$ Riskfree Rate": 0.0507,
+        "Ten-year average CF": 306.5,
+        "CF (Trailing 12 month)": 198.17,
+        "Normalized CF": 176.54,
+        "Expected growth rate": 0.1459,
+        "ERP (T12 m with sustainable payout)": 0.042,
+        "ERP (T12m)": 0.037,
+        "ERP (T12m) with adj riskfree rate": 0.0392,
+        "ERP (Smoothed)": 0.0567,
+        "ERP (Normalized)": 0.033,
+        "ERP (Net Cash Yield)": 0.034,
+        "ERP (Covid Adjusted)": null,
+        "Expected Return": 0.08990000000000001,
+        "Notes": "Updated cash flows, growth rates"
+      },
+      "address": "Historical ERP!A219:Q219"
+    },
+    {
+      "row": 220,
+      "values": {
+        "Start of month": "2026-11-01T00:00:00",
+        "S&P 500": 7580,
+        "T.Bond Rate": 0.0494,
+        "$ Riskfree Rate": 0.0472,
+        "Ten-year average CF": 306.5,
+        "CF (Trailing 12 month)": 198.17,
+        "Normalized CF": 176.54,
+        "Expected growth rate": 0.1552,
+        "ERP (T12 m with sustainable payout)": 0.0441,
+        "ERP (T12m)": 0.0379,
+        "ERP (T12m) with adj riskfree rate": 0.0401,
+        "ERP (Smoothed)": 0.0581,
+        "ERP (Normalized)": 0.0339,
+        "ERP (Net Cash Yield)": 0.0343,
+        "ERP (Covid Adjusted)": null,
+        "Expected Return": 0.0873,
+        "Notes": "Updated growth rates"
+      },
+      "address": "Historical ERP!A220:Q220"
+    }
+  ],
+  "rate_matrix": [
+    {
+      "asset_beta": 1.1,
+      "NYU_Nov1_sustainable_payout": 0.09791,
+      "NYU_Nov1_T12_cash": 0.09109,
+      "NYU_Nov1_normalized": 0.08669,
+      "Kroll_Nov4_20year_pair": 0.10800000000000001
+    },
+    {
+      "asset_beta": 1.2,
+      "NYU_Nov1_sustainable_payout": 0.10232,
+      "NYU_Nov1_T12_cash": 0.09487999999999999,
+      "NYU_Nov1_normalized": 0.09008,
+      "Kroll_Nov4_20year_pair": 0.11299999999999999
+    },
+    {
+      "asset_beta": 1.3,
+      "NYU_Nov1_sustainable_payout": 0.10672999999999999,
+      "NYU_Nov1_T12_cash": 0.09867000000000001,
+      "NYU_Nov1_normalized": 0.09347,
+      "Kroll_Nov4_20year_pair": 0.118
+    },
+    {
+      "asset_beta": 1.4,
+      "NYU_Nov1_sustainable_payout": 0.11113999999999999,
+      "NYU_Nov1_T12_cash": 0.10246,
+      "NYU_Nov1_normalized": 0.09686,
+      "Kroll_Nov4_20year_pair": 0.123
+    },
+    {
+      "asset_beta": 1.5,
+      "NYU_Nov1_sustainable_payout": 0.11555,
+      "NYU_Nov1_T12_cash": 0.10625000000000001,
+      "NYU_Nov1_normalized": 0.10025,
+      "Kroll_Nov4_20year_pair": 0.128
+    },
+    {
+      "asset_beta": 1.6,
+      "NYU_Nov1_sustainable_payout": 0.11996,
+      "NYU_Nov1_T12_cash": 0.11004,
+      "NYU_Nov1_normalized": 0.10364000000000001,
+      "Kroll_Nov4_20year_pair": 0.133
+    },
+    {
+      "asset_beta": 1.7,
+      "NYU_Nov1_sustainable_payout": 0.12437,
+      "NYU_Nov1_T12_cash": 0.11383,
+      "NYU_Nov1_normalized": 0.10703,
+      "Kroll_Nov4_20year_pair": 0.138
+    }
+  ],
+  "interpretation": "Do not average different ERP methods or select the one giving desiredstockprice. NYUhomepage Treasury staleOctober5.29; linkedNovemberfiles4.94. Matched Icolumn is adjustedpayout4.41, not J3.79. Currentdownloadcalculator persistedNORM choice soC45=3.386945 nottheheadlineERP."
+}

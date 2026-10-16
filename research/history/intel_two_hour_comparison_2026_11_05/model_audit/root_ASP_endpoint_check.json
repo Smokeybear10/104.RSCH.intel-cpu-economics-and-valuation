@@ -1,0 +1,94 @@
+{
+  "reviewed_utc": "2026-11-05T23:16:51.500289+00:00",
+  "method": "Independent reconstruction of shipment-weighted ASP and unit growth for both endpoint witnesses, not a second optimization. All10quarter/aggregate intervalchecks pass.",
+  "checks": [
+    {
+      "direction": "min",
+      "group": [
+        0
+      ],
+      "computed_unit_growth": -0.04865669262044625,
+      "computed_ASP_growth": 0.2650000000000001
+    },
+    {
+      "direction": "min",
+      "group": [
+        1
+      ],
+      "computed_unit_growth": 0.09376608933830344,
+      "computed_ASP_growth": 0.4750000000000001
+    },
+    {
+      "direction": "min",
+      "group": [
+        2
+      ],
+      "computed_unit_growth": 0.10232313582605723,
+      "computed_ASP_growth": 0.5449999999999999
+    },
+    {
+      "direction": "min",
+      "group": [
+        0,
+        1
+      ],
+      "computed_unit_growth": 0.015000000000000124,
+      "computed_ASP_growth": 0.38368388957826816
+    },
+    {
+      "direction": "min",
+      "group": [
+        0,
+        1,
+        2
+      ],
+      "computed_unit_growth": 0.04500000000000015,
+      "computed_ASP_growth": 0.44182752717018126
+    },
+    {
+      "direction": "max",
+      "group": [
+        0
+      ],
+      "computed_unit_growth": -0.04865669262044614,
+      "computed_ASP_growth": 0.2649999999999999
+    },
+    {
+      "direction": "max",
+      "group": [
+        1
+      ],
+      "computed_unit_growth": 0.09376608933830344,
+      "computed_ASP_growth": 0.4750000000000003
+    },
+    {
+      "direction": "max",
+      "group": [
+        2
+      ],
+      "computed_unit_growth": 0.10499999999999998,
+      "computed_ASP_growth": 0.54125723515951
+    },
+    {
+      "direction": "max",
+      "group": [
+        0,
+        1
+      ],
+      "computed_unit_growth": 0.021410289397776117,
+      "computed_ASP_growth": 0.3750000000000002
+    },
+    {
+      "direction": "max",
+      "group": [
+        0,
+        1,
+        2
+      ],
+      "computed_unit_growth": 0.042705720341065456,
+      "computed_ASP_growth": 0.44500000000000006
+    }
+  ],
+  "conclusion": "The endpoints are internally consistent under policy. Rounded scopes/unknownquarterweights leave wide feasible ranges; do not interpret limits as confidenceintervals or sourcevalidatedactualexitASP. Q4inputs remain ownedforecasts.",
+  "additional_check": "Wholequarter ratios and residualCPUrevenues may have slightly different issuer scope; precision is illustrative. Publicdata cannot establish20%annualASP growth uniquely."
+}

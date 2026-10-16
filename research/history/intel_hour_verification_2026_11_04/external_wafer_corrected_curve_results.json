@@ -1,0 +1,525 @@
+{
+  "computed_utc": "2026-11-04T23:00:10.866701+00:00",
+  "policy": {
+    "frozen_utc": "2026-11-04T22:59:59.266000+00:00",
+    "scope": "Apply the separately frozen corrected maturing-risk schedule to already-frozen external-wafer cashflows. No cashflow, growth, margin, turnover, reuse fraction, or program scale selected or changed in response to host prices. The host rate schedule and prices have now been observed.",
+    "base_policy_frozen": "2026-11-04T22:39:05.272154+00:00",
+    "growth_policy_frozen": "2026-11-04T22:42:23.377568+00:00",
+    "rate_policy_frozen": "2026-11-04T22:46:28.826723+00:00",
+    "scale_2033_revenue_B": [
+      1,
+      5,
+      10
+    ],
+    "reuse_fractions": [
+      0,
+      0.5,
+      1
+    ],
+    "rates": {
+      "2027": 0.11555,
+      "2028": 0.11555,
+      "2029": 0.11555,
+      "2030": 0.11555,
+      "2031": 0.11405,
+      "2032": 0.11255,
+      "2033": 0.11105,
+      "2034": 0.10955,
+      "2035": 0.10805000000000001,
+      "2036": 0.10655,
+      "2037": 0.10505,
+      "2038": 0.10355,
+      "2039": 0.10205,
+      "2040": 0.10055,
+      "2041": 0.10055
+    },
+    "limitations": [
+      "A conditional success-case combination, not an expected value or forecast of a named customer.",
+      "Apply host rate to marginal program only for consistent sensitivity; a separate risky customer program may merit a different risk schedule.",
+      "No inference that broad source evidence establishes 10B Intel wafer sales or 40% sustainable incremental EBIT margin.",
+      "Initial reuse requires host-paid qualified capacity unused by internal production and no minority claim or opportunity cost.",
+      "Current host end-2026 value uses projected closing cash, whereas comparison quote is Nov4."
+    ]
+  },
+  "source_hashes": {
+    "bull_countercase_review.json": "5877c87123f115c1af7d119add98955c26bdac47b9b4219d85b388b80b76bd09",
+    "corrected_rate_valuation.json": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39",
+    "external_wafer_corrected_curve_policy.json": "00266f32f3e0521c67b15238b59052db3591f236fd9fde39be761bac950d518f"
+  },
+  "host_prices": {
+    "less_productive": 45.51893206646915,
+    "central": 53.77047718436613,
+    "more_productive": 60.904556241770315
+  },
+  "results": [
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 0.79481552211714,
+      "incremental_price_USD": 0.14424964103759347,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.663181707506745,
+        "central": 53.914726825403726,
+        "more_productive": 61.04880588280791
+      },
+      "central_remaining_quote_gap_USD": 4.365273174596275
+    },
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 3.9740776105857,
+      "incremental_price_USD": 0.7212482051879674,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 46.24018027165712,
+        "central": 54.4917253895541,
+        "more_productive": 61.625804446958284
+      },
+      "central_remaining_quote_gap_USD": 3.788274610445903
+    },
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 7.9481552211714,
+      "incremental_price_USD": 1.4424964103759348,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 46.961428476845086,
+        "central": 55.21297359474207,
+        "more_productive": 62.34705265214625
+      },
+      "central_remaining_quote_gap_USD": 3.067026405257934
+    },
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 1.2033931806505702,
+      "incremental_price_USD": 0.21840166617977683,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.73733373264893,
+        "central": 53.98887885054591,
+        "more_productive": 61.122957907950095
+      },
+      "central_remaining_quote_gap_USD": 4.291121149454092
+    },
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 6.016965903252851,
+      "incremental_price_USD": 1.0920083308988842,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 46.61094039736803,
+        "central": 54.862485515265014,
+        "more_productive": 61.9965645726692
+      },
+      "central_remaining_quote_gap_USD": 3.417514484734987
+    },
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 12.033931806505702,
+      "incremental_price_USD": 2.1840166617977683,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 47.70294872826692,
+        "central": 55.9544938461639,
+        "more_productive": 63.088572903568085
+      },
+      "central_remaining_quote_gap_USD": 2.325506153836102
+    },
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 1.6119708391840006,
+      "incremental_price_USD": 0.2925536913219602,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.81148575779111,
+        "central": 54.06303087568809,
+        "more_productive": 61.19710993309228
+      },
+      "central_remaining_quote_gap_USD": 4.216969124311909
+    },
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 8.059854195920003,
+      "incremental_price_USD": 1.462768456609801,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 46.98170052307895,
+        "central": 55.23324564097593,
+        "more_productive": 62.367324698380116
+      },
+      "central_remaining_quote_gap_USD": 3.046754359024071
+    },
+    {
+      "case": "funded30pct_080",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 16.119708391840007,
+      "incremental_price_USD": 2.925536913219602,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 48.44446897968875,
+        "central": 56.69601409758573,
+        "more_productive": 63.83009315498992
+      },
+      "central_remaining_quote_gap_USD": 1.5839859024142697
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 1.5973953134226648,
+      "incremental_price_USD": 0.28990840533986656,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.80884047180901,
+        "central": 54.060385589705994,
+        "more_productive": 61.19446464711018
+      },
+      "central_remaining_quote_gap_USD": 4.219614410294007
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 7.986976567113324,
+      "incremental_price_USD": 1.4495420266993329,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 46.96847409316848,
+        "central": 55.22001921106546,
+        "more_productive": 62.35409826846965
+      },
+      "central_remaining_quote_gap_USD": 3.0599807889345385
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 15.973953134226647,
+      "incremental_price_USD": 2.8990840533986657,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 48.418016119867815,
+        "central": 56.669561237764796,
+        "more_productive": 63.80364029516898
+      },
+      "central_remaining_quote_gap_USD": 1.610438762235205
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 1.9242574402494093,
+      "incremental_price_USD": 0.3492300254536133,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.86816209192276,
+        "central": 54.119707209819744,
+        "more_productive": 61.25378626722393
+      },
+      "central_remaining_quote_gap_USD": 4.160292790180257
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 9.621287201247046,
+      "incremental_price_USD": 1.7461501272680666,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 47.265082193737214,
+        "central": 55.516627311634196,
+        "more_productive": 62.65070636903838
+      },
+      "central_remaining_quote_gap_USD": 2.7633726883658056
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 19.242574402494093,
+      "incremental_price_USD": 3.4923002545361332,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 49.01123232100528,
+        "central": 57.26277743890226,
+        "more_productive": 64.39685649630646
+      },
+      "central_remaining_quote_gap_USD": 1.0172225610977392
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 2.2511195670761532,
+      "incremental_price_USD": 0.40855164556735996,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.927483712036505,
+        "central": 54.179028829933486,
+        "more_productive": 61.31310788733767
+      },
+      "central_remaining_quote_gap_USD": 4.100971170066515
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 11.255597835380765,
+      "incremental_price_USD": 2.0427582278367997,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 47.56169029430595,
+        "central": 55.81323541220293,
+        "more_productive": 62.947314469607115
+      },
+      "central_remaining_quote_gap_USD": 2.4667645877970727
+    },
+    {
+      "case": "funded40pct_100",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 22.51119567076153,
+      "incremental_price_USD": 4.0855164556735994,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 49.60444852214275,
+        "central": 57.85599364003973,
+        "more_productive": 64.99007269744392
+      },
+      "central_remaining_quote_gap_USD": 0.42400635996027347
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 1.1725348804711944,
+      "incremental_price_USD": 0.2128012487243547,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.7317333151935,
+        "central": 53.98327843309048,
+        "more_productive": 61.11735749049467
+      },
+      "central_remaining_quote_gap_USD": 4.296721566909518
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 5.862674402355972,
+      "incremental_price_USD": 1.0640062436217734,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 46.582938310090924,
+        "central": 54.834483427987905,
+        "more_productive": 61.96856248539209
+      },
+      "central_remaining_quote_gap_USD": 3.445516572012096
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 11.725348804711944,
+      "incremental_price_USD": 2.128012487243547,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 47.64694455371269,
+        "central": 55.898489671609674,
+        "more_productive": 63.03256872901386
+      },
+      "central_remaining_quote_gap_USD": 2.381510328390327
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 1.5811125390046246,
+      "incremental_price_USD": 0.286953273866538,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.805885340335685,
+        "central": 54.057430458232666,
+        "more_productive": 61.19150951563685
+      },
+      "central_remaining_quote_gap_USD": 4.222569541767335
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 7.905562695023123,
+      "incremental_price_USD": 1.4347663693326902,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 46.95369843580184,
+        "central": 55.20524355369882,
+        "more_productive": 62.33932261110301
+      },
+      "central_remaining_quote_gap_USD": 3.07475644630118
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 15.811125390046247,
+      "incremental_price_USD": 2.8695327386653804,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 48.388464805134525,
+        "central": 56.640009923031506,
+        "more_productive": 63.77408898043569
+      },
+      "central_remaining_quote_gap_USD": 1.6399900769684947
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 1.989690197538055,
+      "incremental_price_USD": 0.3611052990087214,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.88003736547787,
+        "central": 54.13158248337485,
+        "more_productive": 61.265661540779035
+      },
+      "central_remaining_quote_gap_USD": 4.148417516625152
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 9.948450987690276,
+      "incremental_price_USD": 1.8055264950436072,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 47.324458561512756,
+        "central": 55.57600367940974,
+        "more_productive": 62.71008273681392
+      },
+      "central_remaining_quote_gap_USD": 2.7039963205902637
+    },
+    {
+      "case": "platform30pct_080",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 19.89690197538055,
+      "incremental_price_USD": 3.6110529900872144,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 49.129985056556364,
+        "central": 57.381530174453346,
+        "more_productive": 64.51560923185752
+      },
+      "central_remaining_quote_gap_USD": 0.8984698255466554
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 2.314559485675681,
+      "incremental_price_USD": 0.42006524240937954,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.93899730887853,
+        "central": 54.19054242677551,
+        "more_productive": 61.324621484179694
+      },
+      "central_remaining_quote_gap_USD": 4.089457573224493
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 11.572797428378404,
+      "incremental_price_USD": 2.1003262120468973,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 47.61925827851604,
+        "central": 55.870803396413024,
+        "more_productive": 63.00488245381721
+      },
+      "central_remaining_quote_gap_USD": 2.4091966035869774
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 0,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 23.14559485675681,
+      "incremental_price_USD": 4.200652424093795,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 49.719584490562944,
+        "central": 57.971129608459925,
+        "more_productive": 65.10520866586411
+      },
+      "central_remaining_quote_gap_USD": 0.3088703915400757
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 2.6414216125024255,
+      "incremental_price_USD": 0.47938686252312623,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 45.998318928992276,
+        "central": 54.24986404688926,
+        "more_productive": 61.383943104293444
+      },
+      "central_remaining_quote_gap_USD": 4.030135953110744
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 13.207108062512127,
+      "incremental_price_USD": 2.396934312615631,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 47.915866379084775,
+        "central": 56.16741149698176,
+        "more_productive": 63.30149055438595
+      },
+      "central_remaining_quote_gap_USD": 2.1125885030182445
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 0.5,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 26.414216125024254,
+      "incremental_price_USD": 4.793868625231262,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 50.31280069170041,
+        "central": 58.56434580959739,
+        "more_productive": 65.69842486700158
+      },
+      "central_remaining_quote_gap_USD": -0.2843458095973901
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 1,
+      "incremental_equity_PV_B": 2.96828373932917,
+      "incremental_price_USD": 0.538708482636873,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 46.05764054910602,
+        "central": 54.309185667003,
+        "more_productive": 61.443264724407186
+      },
+      "central_remaining_quote_gap_USD": 3.9708143329970014
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 5,
+      "incremental_equity_PV_B": 14.84141869664585,
+      "incremental_price_USD": 2.693542413184365,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 48.212474479653515,
+        "central": 56.4640195975505,
+        "more_productive": 63.59809865495468
+      },
+      "central_remaining_quote_gap_USD": 1.8159804024495045
+    },
+    {
+      "case": "platform40pct_100",
+      "initial_capacity_reuse_fraction": 1,
+      "wafer_revenue_2033_B": 10,
+      "incremental_equity_PV_B": 29.6828373932917,
+      "incremental_price_USD": 5.38708482636873,
+      "conditional_host_plus_program_USD": {
+        "less_productive": 50.906016892837876,
+        "central": 59.15756201073486,
+        "more_productive": 66.29164106813904
+      },
+      "central_remaining_quote_gap_USD": -0.8775620107348558
+    }
+  ],
+  "interpretation": "External wafer option is most relevant near a risk-maturing valuation boundary. Applying only the old flat-12% equity gap overstates the amount of omitted value required in a coherent joint success state. These conditional additions cannot establish a probability-weighted fair value and require removal of any host-profit overlap."
+}

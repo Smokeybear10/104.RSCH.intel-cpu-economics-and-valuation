@@ -1,0 +1,5 @@
+*.pdf binary
+*.xlsx binary
+data/** -text
+research/history/** -text
+research/builders/** -text

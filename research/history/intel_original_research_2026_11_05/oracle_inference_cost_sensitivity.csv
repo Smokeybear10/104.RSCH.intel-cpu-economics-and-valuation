@@ -1,0 +1,10 @@
+assumed_x12_to_x9_successful_tokens_per_second,x12_to_x9_cpu_memory_cost_per_token,x12_cost_per_token_savings_pct,x9_to_x12_tokens_per_dollar,status
+1.0,3.5548828125,-255.48828125,0.2813032250975221,"Illustrative sensitivity, not measured by us"
+2.0,1.77744140625,-77.744140625,0.5626064501950442,"Illustrative sensitivity, not measured by us"
+3.0,1.1849609375,-18.49609375,0.8439096752925663,"Illustrative sensitivity, not measured by us"
+3.5548828125,1.0,0.0,1.0,"Illustrative sensitivity, not measured by us"
+4.0,0.888720703125,11.1279296875,1.1252129003900884,"Illustrative sensitivity, not measured by us"
+5.0,0.7109765625,28.90234375,1.4065161254876106,"Illustrative sensitivity, not measured by us"
+6.0,0.59248046875,40.751953125,1.6878193505851327,"Illustrative sensitivity, not measured by us"
+8.0,0.4443603515625,55.56396484375,2.2504258007801767,"Illustrative sensitivity, not measured by us"
+10.0,0.35548828125,64.451171875,2.8130322509752212,"Illustrative sensitivity, not measured by us"

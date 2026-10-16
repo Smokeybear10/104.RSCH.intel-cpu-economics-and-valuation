@@ -1,0 +1,128 @@
+{
+  "computed_utc": "2026-11-05T22:51:23.962477+00:00",
+  "conclusion": "Other DCAI revenue is a material modeled contributor with an aspirational revenue anchor, but public evidence does not identify its operating margin. The strongest unresolved assumption is retention of CPU profit, not that the entire Other growth forecast has no source.",
+  "primary_sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "MD&A printed pages 33\u201334; local q3_10q.txt lines 1959\u20131983",
+      "facts": "Reported Other DCAI was $1.4B in Q3 and $3.3B year to date, with growth driven by purpose-built silicon. The full bucket is not disclosed as exclusively custom silicon. Server profit and Other profit are not separately reported."
+    },
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "Prepared remarks printed pages 2, 5, 7",
+      "facts": "Management described purpose-built silicon as having tripled in three years and positioned to triple over the next few years. Q4 DCAI was guided up mid-teens sequentially, purpose-built silicon faster; its mix was identified as a gross-margin headwind. These are management outlook statements, not customer-volume commitments."
+    }
+  ],
+  "2026_anchor": {
+    "reported_YTD_Other_DCAI_B": 3.3,
+    "Q3_rounded_B": 1.4,
+    "owned_Q4_sequential_growth": 0.35,
+    "owned_Q4_revenue_B": 1.89,
+    "owned_2026_revenue_B": 5.19
+  },
+  "growth_requirements": {
+    "2027_2030_growth": [
+      0.6,
+      0.4,
+      0.25,
+      0.2
+    ],
+    "2026_2030_factor": 3.36,
+    "2026_2030_CAGR": 0.3538944855424797,
+    "Q3_annualized_runrate_B": 5.6,
+    "2030_vs_Q3_annualized_factor": 3.1140000000000003,
+    "2030_2040_factor": 2.020329287015721,
+    "2030_2040_CAGR": 0.07285793079533454
+  },
+  "margin_translation": [
+    {
+      "year": 2026,
+      "DCAI_revenue_B": 27.0477,
+      "Other_DCAI_revenue_B": 5.19,
+      "CPU_revenue_proxy_B": 21.857699999999998,
+      "Other_share": 0.19188322851850623,
+      "DCAI_operating_profit_B": 10.337123,
+      "DCAI_margin": 0.38218122058437504,
+      "CPU_margin_if_Other10pct": 0.44918372015353863,
+      "CPU_margin_if_Other20pct": 0.42543922736609985,
+      "CPU_margin_if_Other30pct": 0.4016947345786611
+    },
+    {
+      "year": 2027,
+      "DCAI_revenue_B": 39.779088,
+      "Other_DCAI_revenue_B": 8.304,
+      "CPU_revenue_proxy_B": 31.475088000000003,
+      "Other_share": 0.20875290051898626,
+      "DCAI_operating_profit_B": 15.43080432,
+      "DCAI_margin": 0.38791247099481013,
+      "CPU_margin_if_Other10pct": 0.4638717553386983,
+      "CPU_margin_if_Other20pct": 0.4374889855748775,
+      "CPU_margin_if_Other30pct": 0.41110621581105666
+    },
+    {
+      "year": 2028,
+      "DCAI_revenue_B": 54.11696880000001,
+      "Other_DCAI_revenue_B": 11.6256,
+      "CPU_revenue_proxy_B": 42.49136880000001,
+      "Other_share": 0.21482356195825955,
+      "DCAI_operating_profit_B": 21.366666896250006,
+      "DCAI_margin": 0.3948237931657769,
+      "CPU_margin_if_Other10pct": 0.47548731582047793,
+      "CPU_margin_if_Other20pct": 0.44812740643577476,
+      "CPU_margin_if_Other30pct": 0.4207674970510717
+    },
+    {
+      "year": 2030,
+      "DCAI_revenue_B": 77.00931386084969,
+      "Other_DCAI_revenue_B": 17.438399999999998,
+      "CPU_revenue_proxy_B": 59.57091386084968,
+      "Other_share": 0.22644533661876196,
+      "DCAI_operating_profit_B": 29.752439425884262,
+      "DCAI_margin": 0.3863485847912473,
+      "CPU_margin_if_Other10pct": 0.470172398081871,
+      "CPU_margin_if_Other20pct": 0.44089905162837534,
+      "CPU_margin_if_Other30pct": 0.4116257051748797
+    },
+    {
+      "year": 2035,
+      "DCAI_revenue_B": 116.52849864890558,
+      "Other_DCAI_revenue_B": 28.551091548672005,
+      "CPU_revenue_proxy_B": 87.97740710023358,
+      "Other_share": 0.24501381103943495,
+      "DCAI_operating_profit_B": 45.80013809440566,
+      "DCAI_margin": 0.3930380861800952,
+      "CPU_margin_if_Other10pct": 0.4881370155704946,
+      "CPU_margin_if_Other20pct": 0.455684261517237,
+      "CPU_margin_if_Other30pct": 0.42323150746397936
+    },
+    {
+      "year": 2040,
+      "DCAI_revenue_B": 142.35834665256976,
+      "Other_DCAI_revenue_B": 35.23131023869494,
+      "CPU_revenue_proxy_B": 107.12703641387483,
+      "Other_share": 0.2474832777081776,
+      "DCAI_operating_profit_B": 56.943338661027916,
+      "DCAI_margin": 0.4000000000000001,
+      "CPU_margin_if_Other10pct": 0.49866223714781643,
+      "CPU_margin_if_Other20pct": 0.46577482476521104,
+      "CPU_margin_if_Other30pct": 0.43288741238260553
+    }
+  ],
+  "Q3_conditional_margin_translation": {
+    "DCAI_revenue_B": 7.318,
+    "Other_rounded_B": 1.4,
+    "CPU_residual_B": 5.918,
+    "DCAI_operating_profit_B": 3.039,
+    "DCAI_margin": 0.4152773981962285,
+    "CPU_margin_if_Other20pct": 0.4662047989185536
+  },
+  "economic_interpretation": [
+    "The 2030 revenue forecast is 3.36 times the owned 2026 estimate, or 3.11 times Q3 annualized. It broadly follows management\u2019s aspiration but is not independently verified and extends the statement to a broader residual bucket.",
+    "At a hypothetical 20% Other operating margin, the selected 40% mature DCAI margin requires approximately the same CPU margin as the conditional Q3 2026 calculation. This preserves strong current economics through maturity; it does not establish them through a disclosed segment split.",
+    "Faster custom-silicon growth can be adverse for aggregate margin if its return is lower; growth alone does not validate 40% DCAI. The model must either show explicit mix assumptions or state that the aggregate margin is the owned judgment.",
+    "The purpose-built aspiration cannot independently justify both Other revenue growth and high total DCAI margins. Nor should all Other revenue be assigned zero profitability merely because its margin is undisclosed.",
+    "No standalone GPU jackpot or external-packaging revenue is added to this bucket. Incremental external packaging is modeled separately. Internal packaging costs remain inside product/foundry economics."
+  ],
+  "next_evidence": "Track separately disclosed Other revenue growth and total DCAI operating margin as the mix expands; seek customer program ramps and pricing/cost visibility. Until then, this is a conditional underwriting bridge rather than a validated product P&L.",
+  "no_new_equity_value_calculated": true
+}

@@ -1,0 +1,111 @@
+{
+  "prepared_utc": "2026-11-04T08:11:18.679785+00:00",
+  "scope": "Read and visually inspect actual winning student research examples. These are adjacent competitions with different formats, not an M37 rubric or causal evidence of winning features. No deck authored and no outreach conducted.",
+  "winner_verification": [
+    {
+      "url": "https://www.cfainstitute.org/insights/events/research-challenge/past-champions",
+      "facts": "Official archive names University of Waterloo2026 and Kozminski University2025 as global champions."
+    },
+    {
+      "url": "https://www.kenan-flagler.unc.edu/alpha-challenge-2/archives/",
+      "facts": "Official archive names Yale Middleby as first-place equity at December2025 Alpha Challenge. Investment-performance award is listed separately from judge evaluation."
+    }
+  ],
+  "examples": [
+    {
+      "name": "Waterloo2026 Lightspeed SELL",
+      "url": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/research-challenge/rc-2026-winning-presentation-university-of-waterloo_0.pdf",
+      "local_file": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/m37_examples/waterloo_2026_deck.pdf",
+        "sha256": "ba2cac49a17bb2cfa60008a085e89f291df72dbb1455123ea0decfaa6da62cd1"
+      },
+      "pages_reviewed": [
+        2,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        131,
+        170,
+        171
+      ],
+      "source_summary": "The May7 presentation links product competition and payments economics to explicit forecast differences:170K2029 customer locations versus186K consensus, and39% gross margin versus43% on slide35. It reports expert interviews, merchant/customer research and scraped reviews, then shows operating scenarios and acquisition risk. The deck includes a substantial appendix; its length is not an M37 template.",
+      "version_boundary": "The January8 written report has a10USD target, whereas the May7 presentation has7.11USD. They are different dated forecasts; do not combine their targets, methods or research sample counts as one contemporaneous submission.",
+      "root_lesson": "The transferable standard is a falsifiable chain from evidence to an operating disagreement and valuation. Counts of interviews or scraped records do not by themselves establish representativeness, causal identification or forecast skill. For SpaceX, we need matched paid capacity and rental yield, not just a list of technical facts."
+    },
+    {
+      "name": "Yale2025 Middleby LONG",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2025/12/Equity_Team10_Universe_MIDD.pdf",
+      "local_file": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/m37_examples/yale_midd_2025_deck.pdf",
+        "sha256": "4d37dca2785372c84fa278c50972d8090d46d0354c4806ccd7d9350de51cca53"
+      },
+      "pages_reviewed": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        19,
+        20,
+        21,
+        24,
+        25
+      ],
+      "source_summary": "The pitch attributes its forecast advantage to equipment replacement, customer expansion and product mix. Slide8 maps the first two operating arguments to a combined6% revenue and9% EBITDA difference versus2028 consensus; capital allocation separately changes per-share economics. Slide21 allocates incremental sales among replacement, customer growth and innovation. It supports the replacement view with asset-age data, dealer surveys and operating indicators, and gives a dated event path.",
+      "root_lesson": "Each SpaceX claim should specify what changes in the forecast and by how much. Keep operating improvement separate from financing and share count. Its reverseDCF and scenario weights are team assumptions, not observed market beliefs or calibrated probabilities. Do not copy a p-value cutoff as proof that an economic relationship is absent."
+    },
+    {
+      "name": "Kozminski2025 Dom Development BUY",
+      "url": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/research-challenge/rc-2025-winning-written-report-kozminski-university.pdf",
+      "local_file": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/m37_examples/kozminski_2025_report.pdf",
+        "sha256": "140198578dea7d0f0f7b6270082655b54f52763bd3d4d8db3e2d4f48e85bfebb"
+      },
+      "pages_reviewed": [
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_summary": "The report builds sales from project deliveries and regional transaction prices, connecting its land and construction pipeline to the forecast. It grounds its target in DCF and uses relative valuation, dividends and project valuation as crosschecks. It also allows margin compression while maintaining a positive recommendation. Expert interviews supplement the operating work.",
+      "root_lesson": "A strong long can admit economic pressure. For SpaceX, separate installed sites, commissioned usable capacity, customer acceptance and invoices. A pipeline limits near-term feasibility without identifying all future demand. Several valuation methods using the same optimistic forecast do not provide independent confirmation."
+    }
+  ],
+  "statistical_method_sources": [
+    {
+      "url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+      "lesson": "A p-value does not measure effect size or probability that a hypothesis is true. Passing or failing0.05 cannot replace economic reasoning and transparent reporting."
+    },
+    {
+      "url": "https://otexts.com/fpp3/toolbox.html#time-series-cross-validation",
+      "lesson": "Forecast evaluation should use time-ordered training and held-out observations, matching the intended horizon. Compare with simple benchmark forecasts; fitted residual accuracy is not future prediction accuracy."
+    }
+  ],
+  "M37_application_owned_by_root": [
+    "One headline should state the investment direction and the disputed economic mechanism; a list of unrelated technological achievements is insufficient.",
+    "Use a compact facts-to-forecast bridge with source dates and units. Our2027/28 larger-capacity case is above the dated public gross-sales reference, so label that disagreement explicitly.",
+    "Show rental price/paid capacity/internal capital allocation as the main valuation variables. Keep tax and monthly funding mechanics in supporting analysis unless they change the recommendation.",
+    "Choose a small number of evidence exhibits which survive hostile questioning. Do not substitute a large count of sources, a long horizon, high insampleR2 or a simulation for identified predictive power.",
+    "State what observation would change the thesis and distinguish a temporary timing miss from structural failure. Current capacityguidance and servicecontracts are conditional, not already realized growth.",
+    "A published winning deck can contain revisions and weak inferences. Use its communication structure critically, not as a certified template or evidence of90%winningprobability."
+  ],
+  "visual_review": {
+    "waterloo_research_slide": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/m37_examples/waterloo_research.png",
+    "waterloo_forecast_slide": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/m37_examples/waterloo_forecast.png",
+    "observations": "Visual review confirms the compact evidence categories and side-by-side team/consensus forecast table. Source values and units read directly; no layout claims inferred solely from extracted text."
+  },
+  "limitations": [
+    "Winning examples are selected on the outcome and do not identify causal predictors of winning.",
+    "M37 is first annual with unknown entrant quality and a different individualSTEM format.",
+    "No actual interviews or customer surveys were conducted in this work.",
+    "This artifact does not endorse the historical securities or claim their price forecasts later proved right."
+  ]
+}

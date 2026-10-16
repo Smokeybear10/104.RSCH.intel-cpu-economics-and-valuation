@@ -1,0 +1,77 @@
+{
+  "reviewed_utc": "2026-11-05T23:51:11.916059+00:00",
+  "artifact": "output/pdf/m37_intel_initial_screen.pdf",
+  "reviewed_sha256": "0026636d0001abb18d05310a2384ebd22b8820ebc495268e2dae8685f02150dc",
+  "read_scope": "All ten pages of the exact current screen; comparison against the previously fully reviewed WMS, MIDD and Lightspeed public narratives and relevant model appendices.",
+  "verdict": "The financial qualifications are warranted, but their repetition and position make the screen more defensive than necessary. Lead with the commercial mechanism, then give the evidence, model effect and boundary. Stronger phrasing should clarify the existing case without implying a price discount the valuation does not show.",
+  "one_affirmative_argument": {
+    "claim": "Richer server sales are already producing product profit, and forecast industry growth can permit Intel unit growth despite share loss. That can more than offset the modeled PC profit decline.",
+    "observed_support": "Current screen reports Q3 DCAI margin 41.5% and Intel attribution of $4.5B of YTD operating-profit improvement to product profit. Current richer mix is an observed operating development; persistence is not.",
+    "forecast_support": "TrendForce market/share assumptions imply roughly 18% Intel unit growth in 2027. The analyst model uses 20% units and 20% ASP, generating +$5.09B DCAI profit against −$1.38B CCPG profit, or +$3.71B net product profit.",
+    "cash_link": "The existing model translates product recovery and narrower factory losses through required investment and financial claims into owner cash. Preserve the explicit funding bridge.",
+    "unresolved_link": "Accepted output, buyer allocation, net price retention and long-run investment sufficiency still determine whether the recovery produces durable owner cash. This argument improves clarity; it does not establish current mispricing or the probability of its realization."
+  },
+  "comparator_lesson": [
+    {
+      "pitch": "WMS 2024",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "chain": "Customer installation economics and material conversion → supplier sales/mix → forecast difference → value.",
+      "application": "Make the operating reason for the Intel forecast visible before the limitations. Do not substitute a broad industry growth forecast for Intel customer capture."
+    },
+    {
+      "pitch": "MIDD 2025",
+      "pages": [
+        2,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16
+      ],
+      "chain": "Replacement/repair economics and customer payback → identifiable purchases and margins → forecast disagreement.",
+      "application": "Retain a specific commercial question. Intel certification and software licensing cases are too narrow to become the main affirmative moat claim."
+    },
+    {
+      "pitch": "Lightspeed 2026",
+      "pages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        35
+      ],
+      "chain": "Merchant acquisition constraints and payment economics → achievable location growth/costs → gross-profit forecast.",
+      "application": "Separate customer value, supplier revenue and retained profit. A performance score or software bill is not Intel pricing power."
+    }
+  ],
+  "parent_proposed_wording_receipt": {
+    "status": "Approved on substance; proposed wording was communicated by parent after the reviewed PDF and is not claimed to be visually verified in a rebuilt file.",
+    "page1": "Server growth can outweigh the PC decline.",
+    "page2": "Servers can add more profit than PCs lose.",
+    "page5": "Richer server sales are already lifting product profit.",
+    "opening_detail": "Include the observed Q3 DCAI margin of 41.5%, then clearly label the +$5.09B / −$1.38B 2027 amounts as forecasts.",
+    "retain": "Fair-entry disclosure, conditional 10% return, qualified mature 40% margin assumption, duration sensitivity and persistent-demand downside.",
+    "do_not_add": "Claims that Intel has already secured future allocations, that software licensing protects all Intel customers, or that recent margins establish a durable floor."
+  },
+  "cityu_addition_verdict": {
+    "recommendation": "Omit a separate CityU paragraph from the already crowded three-page comparison. Keep its full analysis in the research record. It is an exact-company cross-check, but is older, has no verified competition result and does not change the main lessons.",
+    "classification_correction": "Call it a 2020 club report with no verified award outcome. Do not label it a nonwinner: failure to find an award is not proof it lost a competition.",
+    "optional_one_sentence_if_parent_wants_exact_company_coverage_visible": "A 2020 CityU Intel club report adds a same-company check: customer concentration and workload-specific benchmarks are useful, but its old roadmap assumptions do not validate the current thesis.",
+    "url": "https://cityuinvestmentclub.wordpress.com/wp-content/uploads/2020/10/intel-equity-research.pdf",
+    "avoid": "Do not use its optimistic target, later Intel performance, or lack of a known award to imply a competition-quality ranking."
+  }
+}

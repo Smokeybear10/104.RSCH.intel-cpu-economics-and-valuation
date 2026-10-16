@@ -1,0 +1,41 @@
+{
+  "prepared_utc": "2026-11-04T23:27:30.231940+00:00",
+  "status": "Bounded source review; not independently rerun; excluded from compact pitch as a quantitative valuation input.",
+  "Intel_commissioned_study": {
+    "article": "https://signal65.com/research/ai/benchmarking-intel-xeon-6-for-agentic-ai-workloads/",
+    "report": "https://signal65.com/wp-content/uploads/2026/10/Signal65-Lab-Insight_The-CPU-Behind-the-Agents-Benchmarking-Intel-Xeon-6-for-Agentic-AI-Workloads.pdf",
+    "date": "2026-10-14",
+    "test_window": "July31\u2013September8,2026",
+    "method": "Signal65-provisioned AWS instances, 10 selected Terminal-Bench 2 tasks, fixed recorded responses, three runs; 8-vCPU and 64-vCPU configurations.",
+    "finding": "Xeon 6 m8i and Turin m8a had similar scheduled-batch compute cost at documented AWS rates; AMD consistently had lower elapsed time on 8-vCPU instances.",
+    "critical_status_scope": "All 81 measured 8-vCPU batches carry strict replay-harness Failed status because 3 of 10 recordings terminate mid-task. This is shared across all SKUs; Harbor exits cleanly and all scheduled trials run. It does not indicate hardware failure or every individual task failing. The baseline identifies four never-passing tasks, including those three.",
+    "economic_scope": "Complete-batch cost per scheduled trial, not per successfully completed task. Different aggregation narrows the featured 5.5% Intel cost advantage to 0.8%. No live inference, socket price, power, or production-fleet generalization.",
+    "locators": "PDF pp7\u20138 limitations and methods; pp12\u201313 scaling; final page discloses Intel commissioning."
+  },
+  "AWS_primary_configuration_check": {
+    "url": "https://docs.aws.amazon.com/ec2/latest/instancetypes/gp.html",
+    "m8i_2xlarge": {
+      "vCPU": 8,
+      "physical_cores": 4,
+      "threads_per_core": 2
+    },
+    "m8a_2xlarge": {
+      "vCPU": 8,
+      "physical_cores": 8,
+      "threads_per_core": 1
+    },
+    "interpretation": "Cloud-instance buyer cost comparison is meaningful at package level; equal vCPU is not equal physical cores and cannot establish normalized per-core CPU performance or chip ASP."
+  },
+  "Vera_validation": {
+    "url": "https://signal65.com/research/ai/validating-nvidia-vera-on-agentic-cpu-workloads/",
+    "date": "2026-09-15",
+    "scope": "Headline 1.64x per-core comparison uses NVIDIA paired bare-metal measurements: 88 Vera versus 128 EPYC 9755 physical cores; 69 matched successful tasks. Signal65 reviewed methods and reran Vera, without an independently repeated paired x86 run. No measured power, whole-socket throughput, price or full-system TCO.",
+    "interpretation": "Credible limited validation; calling the headline wholly independent measured fleet economics overstates it."
+  },
+  "Arm_study": {
+    "url": "https://signal65.com/research/ai/arm-agi-cpu-performance-rack-scale/",
+    "date": "2026-10-12",
+    "scope": "Arm commissioned the research. Approximately 1.99x modeled rack performance combines per-chip measurements with Arm-rated server power, not measured loaded-rack electricity. No Intel socket-price inference."
+  },
+  "decision": "These studies support heterogeneous workload and buyer-economics analysis, while requiring narrower language than a universal vendor ranking. Do not turn these ratios into Intel sales/margin inputs."
+}

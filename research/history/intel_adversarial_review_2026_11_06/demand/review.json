@@ -1,0 +1,191 @@
+{
+  "scope": "Adversarial review of current initial screen pages 3-5, with directly connected pages 1-2/8 and defense notes. Read-only work on all deliverables and main model.",
+  "review_date": "2026-11-07",
+  "overall_judgment": "No material arithmetic or CPU-versus-server-box error found on pages 3-5. The material weakness is evidentiary: a valid shipment identity plus a required ASP does not independently underwrite Intel-specific revenue. The PDF usually discloses this honestly. Disclosure prevents a misstatement; it does not close the investment objection.",
+  "ranked_attacks": [
+    {
+      "rank": 1,
+      "title": "The headline unit-share thesis can be exactly right while almost all the 2027 sales edge disappears",
+      "pages": {
+        "screen": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "defense": [
+          2
+        ]
+      },
+      "attack": "Page 3 establishes 17.6% Intel unit growth, then solves for 21.9% annual ASP to reconcile an already selected revenue path. Page 5 makes the required new pricing look smaller by comparing with an estimated Q4 exit; the implied 17.1% exit premium is itself unobserved. Thus the key economic bet is sustained price/mix and the chosen exit anchor, not merely market growth exceeding share loss.",
+      "evidence": [
+        "TrendForce original October 22 publication forecasts server-CPU shipments, not whole-server boxes; its original chart really does show Intel 50% to 42%. The 17.6% calculation is correct.",
+        "Intel Q3 10-Q reports Q3 server ASP +54% and units +10% YoY; most ASP improvement comes from premium mix, with higher unit costs. This is real evidence for a richer mix, but not a measured Q4 ASP level.",
+        "Intel Q3 prepared remarks page 7 guide DCAI to mid-teens sequential growth with purpose-built silicon growing faster. The pitch chooses DCAI +17% and Other DCAI +25%; these are favorable allocation assumptions, not a CPU revenue guide."
+      ],
+      "materiality": "Accept industry +40% and share 50% to 42%, but use illustrative annual ASP +10%: 2027 CPU sales are $28.646B and company sales $69.329B, only 0.09% above $69.267B consensus. That erases 98.0% of the owned 2027 beat. Carry the lower level through unchanged 2028 unit +25% and ASP +8%, without catch-up: company sales become $85.838B, 2.53% above $83.719B, erasing 66.3% of the original 2028 beat. Persistence is an assumption, not a source forecast.",
+      "classification": "Already disclosed, unresolved forecasting judgment. Not mathematical circularity in the valuation engine and not a false claim that 40% is guaranteed. The evidence circularity is treating an implied ASP reconciliation as affirmative forecast support.",
+      "strongest_honest_defense": "The page explicitly calls this a consistency check, and reports required ASP rather than hiding it. Intel has already achieved substantial mix gains; most annual growth can come from carrying a higher exit level through the next year.",
+      "does_defense_survive": "Yes against an allegation of misleading arithmetic; only partly against the investment challenge. The forecast remains possible, but the 4.1% in-year figure cannot independently validate the unmeasured Q4 price/mix anchor.",
+      "concrete_wording": "The shipment forecast supports unit growth. The above-consensus sales case additionally requires retention of the estimated Q4 mix premium and further mix gains; neither is independently measured.",
+      "discriminating_test": "At Q4 results, rebuild CPU revenue from reported DCAI less Other, and confront the implied unit/ASP split with reported YoY unit and ASP changes using feasible historical weights. Do not let a revenue beat alone validate both volume and price. If ASP/mix fails the anchor, rebase future CPU dollars without assuming catch-up.",
+      "calculation_file": "counterexample.json",
+      "sources": [
+        "trendforce",
+        "trendforce_chart",
+        "intel_q3_10q",
+        "intel_q3_prepared"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Industry growth does not establish Intel capture; new AMD evidence makes the missing competitive bridge more important",
+      "pages": {
+        "screen": [
+          1,
+          4,
+          5
+        ],
+        "defense": [
+          2,
+          4
+        ]
+      },
+      "attack": "The market/share evidence ends in 2027, while the selected CPU path assumes units +25%, +18% and +12% in 2028-30 and $108B of CPU revenue by 2040. It never establishes the industry path and resulting Intel share that make those dollar forecasts a continued share-loss thesis. Current competitive evidence is stronger than the defense notes acknowledge.",
+      "evidence": [
+        "AMD official November 3 Q3 prepared remarks page 1 say both cloud and enterprise server sales more than doubled YoY; page 5 raises 2027 server revenue growth from the prior >70% to doubling. The same document page 3 repeats approximately $220B CPU TAM for 2030. These are CPU-specific statements, separate from total Data Center GPU-inclusive growth.",
+        "The existing source ledger says Q2 was the latest verified written CPU-only quantified outlook. That provenance claim is now stale: the official Q3 written document exists.",
+        "The owned 2028-30 Intel unit path grows 65.2% cumulatively. Industry unit CAGR must exceed 18.2% merely to avoid Intel gaining share; a 42% to 35% decline requires 25.6% industry CAGR. At illustrative industry +15% annually, the same Intel path implies share rising to 45.6% in 2030."
+      ],
+      "materiality": "CPU sales add $28.33B of 2027-30 revenue growth, and 92.9% of operating value is after 2030. At an illustrative $150B 2030 CPU pool growing 4% annually thereafter, the model requires Intel revenue share to rise from 40.0% to 48.7% by 2040. The claim can quietly change from growth despite share loss to share recovery unless the industry denominator stays sufficiently strong.",
+      "classification": "Unresolved forecasting judgment, mostly disclosed in the PDF but insufficiently underwritten. Separate factual correction: the defense/source-ledger reliance on Q2 as the latest verified CPU-specific AMD outlook is stale.",
+      "strongest_honest_defense": "AMD doubling can validate the size of the market rather than imply zero-sum losses for Intel. Both companies can grow rapidly, and Intel capacity additions could unlock constrained demand. The pitch does not claim the TrendForce forecast proves 2028-40.",
+      "does_defense_survive": "It preserves plausibility, not the selected probability or Intel-specific share/mix path. AMD growth is stronger corroboration of demand and stronger evidence of competing capture at the same time.",
+      "concrete_wording": "AMD now expects its 2027 server revenue to double. That supports demand, but our 2028-30 Intel unit ramp and the market growth needed to sustain share loss remain separate assumptions.",
+      "discriminating_test": "Maintain one coherent annual table of total CPU packages, Intel packages and implied share through 2030, with an independent market denominator. Reconcile AMD doubling against the same TrendForce chart: AMD units would rise 45.2%, implying 37.8% ASP/mix growth if both forecasts hold. Investigate whether that mix/capture outcome crowds Intel out of the premium segment; do not call an AMD revenue growth headline Intel validation.",
+      "sources": [
+        "amd_q3_prepared",
+        "trendforce",
+        "trendforce_chart"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "The $150B TAM comfort test lacks a verified dollar denominator accessible to Intel",
+      "pages": {
+        "screen": [
+          4
+        ],
+        "defense": [
+          2
+        ]
+      },
+      "attack": "Page 4 correctly divides $60.07B by $150B, but the resulting 40.0% can look easier than the economic share actually required. TrendForce includes captive cloud chips in shipments; the AMD and Intel dollar TAM methods do not specify their treatment or valuation. A dollar market that includes imputed captive chips is not the same as a merchant sales opportunity.",
+      "evidence": [
+        "TrendForce names AWS Graviton and Google Axion and its original chart allocates them shipment share.",
+        "AMD Q3 prepared remarks page 3 specify $220B in 2030. Intel Q3 prepared remarks page 3 discuss more than $200B over five years. The pitch correctly distinguishes those dates. Neither disclosed methodology establishes a directly comparable merchant dollar pool."
+      ],
+      "materiality": "Conditional illustration only: if $150B includes 25% imputed captive value unavailable to merchant suppliers, the remaining pool is $112.5B and Intel needs 53.4% of it, not 40.0%. This does not prove the forecast wrong; it shows why an unverified denominator cannot establish conservatism.",
+      "classification": "Already disclosed denominator uncertainty; no demonstrated numerical or date error. The unresolved issue is whether the page supplies evidence or only a required-share illustration.",
+      "strongest_honest_defense": "The page labels all TAM values as scenarios, warns that captive Arm treatment is unclear, and explicitly calls long-run share an assumption. Vendor forecasts can still bound scale without supplying exact accounting definitions.",
+      "does_defense_survive": "Yes as an honest scenario. No as proof that the forecast is modest or that Intel retains only an undemanding share of the addressable business.",
+      "concrete_wording": "The 40% figure is a required share of an assumed comparable CPU revenue pool. Vendor TAM definitions do not yet establish the merchant pool Intel can sell into.",
+      "discriminating_test": "Before using TAM as positive valuation support, obtain a bridge identifying merchant revenue versus imputed captive CPU value and common period/valuation conventions. If that cannot be obtained publicly, present only the required-share scenario and remove any inference that choosing $150B validates the forecast.",
+      "sources": [
+        "trendforce",
+        "trendforce_chart",
+        "amd_q3_prepared",
+        "intel_q3_prepared"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "The consensus comparison proves a revenue disagreement, not a mispriced CPU thesis or superior shareholder cash",
+      "pages": {
+        "screen": [
+          1,
+          2,
+          5
+        ],
+        "defense": [
+          1
+        ]
+      },
+      "attack": "The $90.01B versus $83.72B comparison is correctly matched at total-company revenue, but it does not reveal whether the disagreement is CPU volumes, CPU prices, client recovery, packaging, or other DCAI. A company sales beat cannot be described as evidence that the market underestimates the CPU share-loss mechanism or the resulting cash economics.",
+      "evidence": [
+        "Current public S&P-distributed table still shows 2027 revenue $69.267B and 2028 $83.719B, with average analyst counts 47 and 36 respectively. No numerical mismatch found.",
+        "The publisher names S&P Global Market Intelligence as data provider, warns normalization can delay data, and exposes no CPU-unit/share consensus. These are distributor observations, not a directly accessed primary S&P feed.",
+        "The pitch explicitly disclaims matched share and parent-cash consensus. Therefore this is a limit to the investment edge, not an accusation that the comparison is fabricated."
+      ],
+      "materiality": "The main quantified variant perception is only +7.5% sales in 2028. The rank-1 counterexample reduces that to +2.53% while keeping the headline market expansion/share loss intact. Without a segment and cash-definition bridge, the source comparison cannot tell which of these regimes consensus already anticipates.",
+      "classification": "Already disclosed; comparison itself survives verification. Lower-priority analytical challenge, not a required factual correction.",
+      "strongest_honest_defense": "A pitch may own a total-company revenue forecast without knowing every analyst segment model. It clearly states the measurable difference and does not claim to have reverse-engineered the stock price.",
+      "does_defense_survive": "Yes as a revenue comparison. It does not establish an information advantage or a cash-flow valuation edge; the conditional entry recommendation must stand on its own economics.",
+      "concrete_wording": "I forecast 7.5% higher 2028 company sales than the displayed consensus. This is a total-revenue disagreement; the public series does not isolate the CPU mechanism or shareholder-cash expectations.",
+      "discriminating_test": "If a comparable analyst segment forecast becomes publicly available, build one bridge from CPU, client and other revenue to the $6.30B company gap. Otherwise preserve the limited claim and do not add more aggregator consensus sources as independent corroboration.",
+      "sources": [
+        "consensus_distributor"
+      ]
+    }
+  ],
+  "sources": {
+    "trendforce": {
+      "url": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "date": "2026-10-22",
+      "type": "Primary research-provider publication",
+      "verified": "Direct web text; server CPU shipment denominator and forecast status confirmed."
+    },
+    "trendforce_chart": {
+      "url": "https://img.trendforce.com/EDM/2026/10/20261022_133209_3.jpg",
+      "type": "Primary original chart",
+      "verified": "Visually inspected archived original chart. Inner 2026 estimated / outer 2027 forecast; Intel 50/42, AMD 27/28."
+    },
+    "intel_q3_10q": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "date": "2026-10-30",
+      "pages": [
+        33,
+        34
+      ],
+      "type": "Primary issuer SEC filing"
+    },
+    "intel_q3_prepared": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "pages": [
+        3,
+        7
+      ],
+      "type": "Primary issuer prepared remarks"
+    },
+    "amd_q3_prepared": {
+      "url": "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf?download=1",
+      "date": "2026-11-03",
+      "pages": [
+        1,
+        3,
+        5
+      ],
+      "type": "Primary issuer prepared remarks",
+      "specific_locators": "Page 1: server cloud/enterprise sales more than doubled. Page 3: approximately $220B CPU TAM by 2030. Page 5: 2027 server revenue expected to double, versus prior >70%."
+    },
+    "consensus_distributor": {
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+      "type": "Named S&P licensed distributor, not direct S&P primary feed",
+      "verified": "Table values and provider attribution verified; page analysis timestamp 2026-11-06 22:45 UTC."
+    }
+  },
+  "rejected_or_overstated_criticisms": [
+    "The 40% is server-box growth: false; original source expressly says server CPU shipments.",
+    "50% and 42% are x86-only shares: false; chart includes Arm suppliers.",
+    "Page 4 mixes CPU dollars with full-server/GPU spending: not shown; it expressly excludes them.",
+    "Page 5 hides that 43.3% annual growth includes carryover: false; $5.10B carryover is shown.",
+    "21.9% is a secured price increase or an independent source forecast: the PDF explicitly says it is implied.",
+    "S&P revenue comparison has a demonstrated period or unit mismatch: none found.",
+    "AMD total Data Center +97% is CPU-only: false, and the current pitch correctly avoids this. The newly located official Q3 server-specific commentary should replace the stale Q2 reliance."
+  ],
+  "files": [
+    "review.json",
+    "counterexample.json"
+  ]
+}

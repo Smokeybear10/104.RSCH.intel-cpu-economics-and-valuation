@@ -1,0 +1,65 @@
+{
+  "title": "Independent 2027 CPU revenue anchor: timing versus permanent share loss",
+  "status": "Specified before any new equity valuation; diagnostic, not a silently adopted central forecast",
+  "as_of": "2026-11-05",
+  "question": "Does an independently published, lower Intel CPU revenue forecast repair the absolute short when the same shortfall is either temporary or permanent and capital can respond?",
+  "selection_chronology": "Existing central, weak-demand, and duration-sensitivity values were known. No equity output for this new DIGITIMES-anchored diagnostic has been computed or inspected by this agent. Revenue assumptions are selected from the new source comparison, not an equity-price threshold.",
+  "anchor": {
+    "publisher": "DIGITIMES Research",
+    "author": "Stella Weng",
+    "published": "2026-10-27",
+    "url": "https://www.digitimes.com/reports/item.php?id=20261021RS400&q=amd",
+    "Intel_2027_CPU_revenue_B": 28.7,
+    "scope": "Public research abstract explicitly labels Intel server CPU revenue; closer to our server_CPU_revenue_proxy_B than whole-DCAI revenue. Detailed revenue definitions and underlying workbook are behind a subscription and were not accessed.",
+    "related_observations": "The abstract forecasts 52.6 million global CPU units in 2027, up 45.7%; Intel unit share of39%, AMD30.4%; AMD CPU revenue$31.2B. It identifies supply constraints despite rapid demand growth.",
+    "date_limit": "Published two days before Intel's October29 earnings update. It is one independent analyst model, not a consensus or revised post-earnings estimate."
+  },
+  "unchanged": {
+    "server_ASP_growth_2027_2030": [
+      0.2,
+      0.08,
+      0.04,
+      0.02
+    ],
+    "other_revenue_and_economics": "Client, Other DCAI, corporate, existing mature margin policy, external packaging, wafer-option boundary, claims, initial cash/debt, lease and minority policies remain fixed except where changed operating cash mechanically changes taxes and treasury.",
+    "why_keep_ASP": "Grant the existing rich-product and pricing recovery. Put the entire revenue shortfall into shipped units as a single identifiable diagnostic, rather than also inventing a lower future ASP path. The public source does not identify this decomposition."
+  },
+  "unit_policy": {
+    "2027_scale_q": "q = 28.7 / frozen2027serverCPURevenue",
+    "2027_units": "frozen2027unitsIndex * q",
+    "2027_ASP": "Frozen2027ASPIndex, unchanged",
+    "timing_branch": {
+      "2027_unit_level_factor": "q",
+      "2028_unit_level_factor": "(1+q)/2",
+      "2029_and_later_unit_level_factor": 1,
+      "meaning": "Half of the relative unit-level gap closes in2028; complete catch-up by2029. Rates are an owned normalization convention motivated by constraints into2028 and funded capacity expansions, not an announced Intel schedule.",
+      "physical_capex_2027_2030": "Unchanged. Original investment already funded the original output path; no extra capacity benefit or loss is layered on merely because shipped timing changed."
+    },
+    "permanent_branch": {
+      "all_years_from2027_unit_level_factor": "q",
+      "meaning": "The 2027 shipment gap becomes permanent customer/share loss. Subsequent unit and ASP growth rates match the frozen model on the lower level. This is a more bearish mechanism than a delay; current evidence makes it possible but does not establish it as most likely.",
+      "physical_capex_2027_2028": "Unchanged because committed capacity/supplier plans respond slowly and the industry remains supply constrained.",
+      "physical_capex_2029_2030": "Permit a funded response using the existing0.80 sales/net-operating-investment convention. Let D_t = changed CPU revenue minus frozen CPU revenue; let W_t =0.10*(D_t-D_(t-1)); then physical capex delta C_t = depreciation delta A_t +(D_t-D_(t-1))/0.80 - W_t. Because the early cohort rule gives A_t = sum(prior C)/8 + current C_t/16, solve C_t = [sum(prior C)/8 +(D_t-D_(t-1))*(1/0.80-0.10)]/(1-1/16). Set C_2027=C_2028=0. This is a declared response convention, not issuer guidance, and does not cut gross capex in proportion to all lost revenue.",
+      "capital_boundary": "Only the host CPU difference changes required host investment. Separate packaging, corporate, client, and other sales are not cut. Retained2027\u201328 investment is not refunded. Lower capex after2028 is allowed even though it can reduce downside."
+    }
+  },
+  "cash_and_tax_policy": {
+    "operating_profit": "Use an explicitly owned50% unit-revenue contribution approximation through2030, not an empirically validated unit gross margin. Earlier50% ASP/mix retention on unchanged packages does not validate this unit decremental. Attribute the single operating delta to Products; leave the Foundry dollar path and other groups unchanged. Reduce operating profit by incremental cohort D&A in2029\u201330, so a capex cut gives lower depreciation and higher EBIT; adjust the D&A add-back consistently.",
+    "decremental_sensitivity": "Run35%,50%,65% contribution on the same unit/revenue/capital paths through2030. These are declared uncertainty controls, not a fitted probability range. For each starting contribution c, use c_y = c +(0.35-c)*min((y-2030)/10,1) from2031 onward. All cases converge to35% by2040 and hold, so the changed DCAI revenue earns the same35% mature margin as the frozen baseline; no perpetual50% decremental is capitalized. If root uses only one display case, show the35\u201365% range beside it.",
+    "working_capital_2027_2030": "Existing combined supplier/trade envelope plus0.10 times the annual change in the CPU revenue difference. Set2026 revenue difference to zero. Catch-up therefore consumes the previously released working capital. Do not add supplier commitments again or assume all earlier advances are recoverable.",
+    "early_depreciation": "Eight-year life with half-year convention on changed physical capex, as in existing weak-demand policy; no early capex change means no early incremental D&A.",
+    "continuation_2031_plus": "Keep frozen unit/ASP growth on each branch's2030 level. Recompute host Products sales and normalized D&A at the frozen D&A/Products ratio. Recompute host working-capital investment at10% of annual host sales change and gross physical capex = normalized host D&A + annual host sales change/0.80 - host WC use. Keep separate packaging unchanged. Normalized host D&A replaces, rather than adds to, the early cohort calculation.",
+    "ordinary_tax": "Recompute operating taxes on changed operating earnings using existing loss/tax conventions; do not preserve taxes on revenue that is no longer earned.",
+    "AMIC": "For any2029\u201330 host physical-capex cut, reduce eligible basis proportionally using frozen eligible basis / frozen host physical capex. Preserve existing one-year cash-credit lag and origin-year21% basis-loss adjustment. No new/perpetual credit or subsidy invented.",
+    "treasury": "Recompute owner cash, ending cash and net debt. Keep principal schedules, acquisition/escrow policy, planned debt issues, leases, minorities and5.51B claims fixed. Flag negative available cash rather than hide a funding need or silently issue stock.",
+    "valuation": "If valued by root, use both existing corrected flat and maturing-risk schedules. Do not raise the discount rate as a second demand/share-loss penalty. Report2029 and2030 values and outright-short cash economics separately from2026 planning values."
+  },
+  "evidence_against_overreach": [
+    "TrendForce's October22 chart gives Intel50% global unit share in2026 and42% in2027; with >40% total unit growth, it implies >17.6% Intel unit growth. Thus the derived lower unit-growth branch is below that specific source implication and is not a restatement of TrendForce.",
+    "Intel's later October29 update describes improving output, shipping Clearwater Forest, Diamond Rapids sampling for2027, increased investment, and industry constraints into2028. These facts support substantial growth and possible catch-up as well as delivery risk.",
+    "Arm's November4 purchase-order and hyperscaler update establishes active competitive alternatives. Its top-hyperscaler share claim is not global CPU unit share and must not be inserted into the global share equation.",
+    "A 2027 lower revenue estimate alone does not choose whether the relative unit-level loss remains in2030. The two branches expose that mechanism instead of capitalizing a temporary miss forever."
+  ],
+  "decision_rule": "Do not adopt the permanent-loss branch merely if it yields a profitable short. Prefer a central change only if customer displacement and capacity evidence make permanence the owned best judgment. If only the permanent branch repairs the short, say the thesis depends on lasting share loss; if neither repairs it, this new independent near-term anchor is insufficient. A timing branch is not evidence for an outright long either.",
+  "frozen_utc": "2026-11-05T19:53:11.716794+00:00"
+}

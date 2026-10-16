@@ -1,0 +1,125 @@
+{
+  "observed_date": "2026-11-05",
+  "products": {
+    "Xeon 8592+": {
+      "cores": 64,
+      "threads": 128,
+      "price_USD": 12992,
+      "TDP_W": 350,
+      "package_mm": [
+        77.5,
+        56.5
+      ],
+      "core_class": "performance",
+      "source_file": "intel_8592plus.html"
+    },
+    "Xeon 6980P": {
+      "cores": 128,
+      "threads": 256,
+      "price_USD": 13955,
+      "TDP_W": 500,
+      "package_mm": [
+        104.5,
+        70.5
+      ],
+      "core_class": "performance",
+      "source_file": "intel_6980P.html"
+    },
+    "Xeon 6780E": {
+      "cores": 144,
+      "threads": 144,
+      "price_USD": 9535,
+      "TDP_W": 330,
+      "package_mm": [
+        77.5,
+        56.5
+      ],
+      "core_class": "efficiency",
+      "source_file": "intel_6780E.html"
+    },
+    "Xeon 6990E+": {
+      "cores": 288,
+      "threads": 288,
+      "price_USD": 14995,
+      "TDP_W": 450,
+      "package_mm": [
+        104.5,
+        70.5
+      ],
+      "core_class": "efficiency",
+      "source_file": "intel_6990Eplus.html"
+    }
+  },
+  "pair_illustrations": [
+    {
+      "old": "Xeon 8592+",
+      "new": "Xeon 6980P",
+      "recommended_customer_price_change": 0.07412253694581272,
+      "core_count_change": 1.0,
+      "recommended_price_per_core_change": -0.46293873152709364,
+      "TDP_change": 0.4285714285714286,
+      "package_footprint_change": 0.6825007136739938
+    },
+    {
+      "old": "Xeon 6780E",
+      "new": "Xeon 6990E+",
+      "recommended_customer_price_change": 0.572627163083377,
+      "core_count_change": 1.0,
+      "recommended_price_per_core_change": -0.2136864184583115,
+      "TDP_change": 0.36363636363636354,
+      "package_footprint_change": 0.6825007136739938
+    }
+  ],
+  "limitations": [
+    "Recommended customer prices are current advertised Intel guidance, not realized net prices or prices available to every buyer. This is not a historical launch-price series.",
+    "Selected high-core pairs illustrate content change. They do not represent sales-weighted product mix, replacement rates or actual average selling prices.",
+    "Cores are not interchangeable across generations or workload types. No throughput, latency, power consumed, system TCO or price-performance claim follows from core count or TDP alone.",
+    "Package footprint is not actual wafer area, yield, substrate-layer demand, cost or the limiting manufacturing resource. It indicates physical change only."
+  ],
+  "owned_model_requirement": {
+    "2027_package_unit_growth": 0.2,
+    "2027_realized_ASP_growth": 0.2,
+    "CPU_revenue_growth": 0.44,
+    "formula": "Completed-work capacity = package units * workload throughput per package. CPU revenue per unit of completed-work capacity = realized package ASP / workload throughput per package.",
+    "illustrative_workload_cases": [
+      {
+        "throughput_per_package_change": 0.1,
+        "total_workload_capacity_growth_required_by_20pct_more_packages": 0.32000000000000006,
+        "CPU_revenue_per_workload_capacity_change": 0.09090909090909083
+      },
+      {
+        "throughput_per_package_change": 0.25,
+        "total_workload_capacity_growth_required_by_20pct_more_packages": 0.5,
+        "CPU_revenue_per_workload_capacity_change": -0.040000000000000036
+      },
+      {
+        "throughput_per_package_change": 0.5,
+        "total_workload_capacity_growth_required_by_20pct_more_packages": 0.7999999999999998,
+        "CPU_revenue_per_workload_capacity_change": -0.20000000000000007
+      }
+    ],
+    "interpretation": "Richer packages can raise Intel revenue per package while lowering the customer's CPU expenditure per workload. That can support adoption, but a package-volume forecast additionally needs sufficiently expanding workload demand, replacement demand or share gains. The illustrative throughput gains are not measured Intel forecasts."
+  },
+  "share_volume_identity": {
+    "formula": "Intel package units = addressable package market units * Intel unit share. Required market growth = 1.20 / (1 + relative Intel share change) - 1.",
+    "cases": [
+      {
+        "relative_Intel_unit_share_change": 0,
+        "required_addressable_package_market_growth_for_20pct_Intel_units": 0.19999999999999996
+      },
+      {
+        "relative_Intel_unit_share_change": -0.05,
+        "required_addressable_package_market_growth_for_20pct_Intel_units": 0.26315789473684204
+      },
+      {
+        "relative_Intel_unit_share_change": -0.1,
+        "required_addressable_package_market_growth_for_20pct_Intel_units": 0.33333333333333326
+      },
+      {
+        "relative_Intel_unit_share_change": -0.2,
+        "required_addressable_package_market_growth_for_20pct_Intel_units": 0.4999999999999998
+      }
+    ],
+    "limitation": "Do not substitute hyperscaler Arm share, server-system shipment share, x86 revenue share or core share into a CPU-package unit-share identity. No particular market growth or future Intel share is forecast here."
+  }
+}

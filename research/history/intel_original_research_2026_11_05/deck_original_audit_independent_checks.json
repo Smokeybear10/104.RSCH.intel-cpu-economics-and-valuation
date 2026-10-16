@@ -1,0 +1,170 @@
+{
+  "as_of_utc": "2026-11-05T07:31:34.739109+00:00",
+  "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+  "sha256": "32abd69071100f78d88eb8bd60d87ba18dc7fe8c8c329c43ec0c026743f89b8a",
+  "scope": "Independent read-only numeric, source and disclosure audit of changedpage6 andpage5/page7 additions; visual QA delegatedtoroot. NoPDF/model edits.",
+  "checks": [
+    {
+      "name": "corrected PDF identity inspected",
+      "passed": true,
+      "evidence": "32abd69071100f78d88eb8bd60d87ba18dc7fe8c8c329c43ec0c026743f89b8a"
+    },
+    {
+      "name": "10-page limit",
+      "passed": true,
+      "evidence": 10
+    },
+    {
+      "name": "page6 verified resource/charge 64 / 1,024",
+      "passed": true,
+      "evidence": "Official Oracle shapes/API and visually checked Oct8 price PDFp56"
+    },
+    {
+      "name": "page6 verified resource/charge 120 / 1,152",
+      "passed": true,
+      "evidence": "Official Oracle shapes/API and visually checked Oct8 price PDFp56"
+    },
+    {
+      "name": "page6 verified resource/charge $2.5600",
+      "passed": true,
+      "evidence": "Official Oracle shapes/API and visually checked Oct8 price PDFp56"
+    },
+    {
+      "name": "page6 verified resource/charge $1.4280",
+      "passed": true,
+      "evidence": "Official Oracle shapes/API and visually checked Oct8 price PDFp56"
+    },
+    {
+      "name": "page6 verified resource/charge $1.5360",
+      "passed": true,
+      "evidence": "Official Oracle shapes/API and visually checked Oct8 price PDFp56"
+    },
+    {
+      "name": "page6 verified resource/charge $13.1328",
+      "passed": true,
+      "evidence": "Official Oracle shapes/API and visually checked Oct8 price PDFp56"
+    },
+    {
+      "name": "page6 verified resource/charge $4.0960",
+      "passed": true,
+      "evidence": "Official Oracle shapes/API and visually checked Oct8 price PDFp56"
+    },
+    {
+      "name": "page6 verified resource/charge $14.5608",
+      "passed": true,
+      "evidence": "Official Oracle shapes/API and visually checked Oct8 price PDFp56"
+    },
+    {
+      "name": "3.55x break-even",
+      "passed": true,
+      "evidence": "3.5548828125"
+    },
+    {
+      "name": "5x case 1.41x work/dollar",
+      "passed": true,
+      "evidence": "1.406516125487610570847755618"
+    },
+    {
+      "name": "6x case 1.69x work/dollar",
+      "passed": true,
+      "evidence": "1.687819350585132685017306741"
+    },
+    {
+      "name": "conditional29/41percent savings",
+      "passed": true,
+      "evidence": "28.90234375%,40.751953125%"
+    },
+    {
+      "name": "separate scenario maxima",
+      "passed": true,
+      "evidence": "Oracle5x:input128/output2048/concurrency16;6x:input128/output128/concurrency32"
+    },
+    {
+      "name": "accepted quality and latency condition",
+      "passed": true,
+      "evidence": "Vendor benchmarks not replicated at matchedquality/SLA"
+    },
+    {
+      "name": "noninterview and nonmeasured disclosure",
+      "passed": true,
+      "evidence": "Truthful status"
+    },
+    {
+      "name": "billing exclusions and authorclarification",
+      "passed": true,
+      "evidence": "ListCPU+memoryscope"
+    },
+    {
+      "name": "competitor arithmetic",
+      "passed": true,
+      "evidence": "2.894211576846307385229540900"
+    },
+    {
+      "name": "no margin identification claim",
+      "passed": true,
+      "evidence": "Endpointjudgmentsremainunidentified"
+    },
+    {
+      "name": "all four Oracle source hyperlinks",
+      "passed": true,
+      "evidence": [
+        "https://blogs.oracle.com/cloud-infrastructure/run-ai-inference-without-gpus",
+        "https://blogs.oracle.com/cloud-infrastructure/announcing-oci-x12-standard-acceleron-compute",
+        "https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/?currencyCode=USD",
+        "https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm"
+      ]
+    },
+    {
+      "name": "TechSearch Aug10 interpretation",
+      "passed": true,
+      "evidence": "Liveprimarypressrelease says shortagesincluding substrates/materials ease nextyear,mayrecur. Aug10,2026->2027"
+    },
+    {
+      "name": "p7endpoint range and limitations",
+      "passed": true,
+      "evidence": "Existing TSMCwindowreview0.357\u20131.091, mix/pricing/timingqualifications preserved; IntelQ3margin3.039/7.318=41.5277%;FY2025ASP\u22124%"
+    },
+    {
+      "name": "p7 endpoint sources",
+      "passed": true,
+      "evidence": "Page10 includes Intel10Q/FY2025 10K andTSMC2019/2021/2022/2025filings"
+    },
+    {
+      "name": "frozen model unchanged",
+      "passed": true,
+      "evidence": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    {
+      "name": "exact Ax competitor identity restored",
+      "passed": true,
+      "evidence": "BothpricecalculationsnowidentifyAxshapes"
+    },
+    {
+      "name": "article disclosure scoped correctly",
+      "passed": true,
+      "evidence": "No globalclaimthatdataareunavailable"
+    }
+  ],
+  "passed": 27,
+  "total": 27,
+  "findings": [
+    {
+      "severity": "minor factual specificity",
+      "page": 6,
+      "current": "AMD E6 $0.4008/hour",
+      "recommendation": "Change to AMD E6 Ax. The $0.4008 calculation specifically uses VM.Standard.E6.Ax.Flex; non-Ax E6 is a separate shape.",
+      "blocking": false,
+      "status": "resolved in corrected revision"
+    },
+    {
+      "severity": "minor wording",
+      "page": 6,
+      "current": "raw runs/quality controls unavailable",
+      "recommendation": "Use raw runs/quality controls not disclosed in the article. This describes source evidence scope without implying no data exist privately.",
+      "blocking": false,
+      "status": "resolved in corrected revision"
+    }
+  ],
+  "overall": "All quantitative, source and disclosure checks pass in corrected revision. Both minor wording findings resolved. No stronger Intel short inference warranted.",
+  "prior_requested_sha256": "648060fe53face63556671ea602eefd1d83f75dc9a37214f07cfabb44439dbc5"
+}

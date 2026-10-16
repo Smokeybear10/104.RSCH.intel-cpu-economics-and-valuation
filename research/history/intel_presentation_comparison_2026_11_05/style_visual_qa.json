@@ -1,0 +1,53 @@
+{
+  "pdf_sha256": "2636207878458100e91e6cfc162e64c44f265ad53c8d343d8e23067f5904bbcb",
+  "reviewed_png_pages": [
+    1,
+    2,
+    3,
+    7,
+    9,
+    10
+  ],
+  "visual_layout": "pass: no clipping, collisions or illegible body text seen on reviewed pages",
+  "style_comparison": "Now matches landscape investment-deck conventions seen in actual Waterloo/Yale examples: sans-serif hierarchy, navy/red/grey palette, numbered claims, side-by-side comparison panels, prominent numerical dashboard, exhibit-led pages, footer navigation. Own data and wording preserved.",
+  "required_fix": [
+    {
+      "page": 7,
+      "issue": "Greater-than characters between ascending scenario values read as mathematical comparisons.",
+      "fix": "Replace with explicit right-arrow shapes or progression word.",
+      "severity": "minor semantic diagram defect"
+    }
+  ],
+  "optional_wording": [
+    {
+      "page": 7,
+      "fix": "Subtitle: Each step changes the stated assumptions while keeping the rest consistent. The final step jointly changes two named operating assumptions."
+    }
+  ],
+  "scope": "Read-only; generator and PDF not edited.",
+  "root_resolution": {
+    "applied": [
+      "Page7progressionarrows",
+      "Page7pluralassumptionswording"
+    ],
+    "final_sha256": "ea665a5f1eff126ce1d7502f24ea2680662fb01874ab84261f62dfe13a8f4fdc",
+    "root_reviewed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "changed_pages_rechecked": [
+      3,
+      5,
+      7
+    ],
+    "remaining_visual_defects": []
+  }
+}

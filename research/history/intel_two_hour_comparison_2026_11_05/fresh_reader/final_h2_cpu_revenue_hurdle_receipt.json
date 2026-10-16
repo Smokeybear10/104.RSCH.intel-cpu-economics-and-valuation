@@ -1,0 +1,125 @@
+{
+  "computed_utc": "2026-11-05T23:56:04.317624+00:00",
+  "purpose": "Exact receipt for the conditional H2 CPU-revenue hurdle, with the operating model and all PDFs unchanged.",
+  "inputs": {
+    "Q4_CPU_proxy_B": 6.5257,
+    "FY2027_CPU_proxy_B": 31.475088000000003,
+    "FY2026_CPU_proxy_B": 21.8577,
+    "Q4_total_DCAI_B": 8.4157,
+    "Q4_Other_DCAI_B": 1.89
+  },
+  "central_calculation": {
+    "Q4_annualized_B": 26.1028,
+    "FY2027_growth_vs_Q4_annualized": 0.20581270974761345,
+    "assumed_Q1_CPU_B": 6.5257,
+    "assumed_Q2_CPU_B": 6.5257,
+    "conditional_H1_CPU_B": 13.0514,
+    "required_H2_CPU_B": 18.423688000000006,
+    "required_H2_average_quarter_B": 9.211844000000003,
+    "required_H2_growth_vs_Q4": 0.41162541949522713,
+    "identity": "Required H2 quarterly average = (FY2027 target - 2 * modeled Q4) / 2. With flat H1, H2 growth over Q4 equals 2 * FY2027 growth over Q4 annualized.",
+    "identity_error_B": 3.552713678800501e-15
+  },
+  "recommended_display": "My2027 CPU sales are20.6% above modeled Q4 annualized. If H1 stays at that$6.53B quarterly pace, H2 must average$9.21B per quarter, about41% higher. Q4 and flat H1 are assumptions, not observed results or quarterly guidance.",
+  "scope_guards": [
+    "This is a revenue timing identity, not a quarterly operating forecast, capacity proof or estimate of accepted units.",
+    "Changes in mix and pricing can change revenue without the same percentage change in units, wafers or packages.",
+    "The original annual target remains31.475088B; this calculation does not re-estimate it.",
+    "The Q4 revenue anchor already follows guidance net of the roughly300M Fab28 impact. The call says a similar total Q1 revenue drag is likely. That does not imply Q1 is another300M below the already-net Q4 pace.",
+    "Flat H1 is a chosen diagnostic. It is neither management guidance nor an assertion that Q1/Q2 revenue will be equal; do not label it empirically conservative.",
+    "The H2 average does not imply equal Q3 and Q4 revenues. It is the average necessary for their sum to reconcile.",
+    "H2 Oregon production and matching substrate availability are management plans; they do not prove this revenue hurdle can be cleared."
+  ],
+  "optional_additional_Q1_loss_diagnostics": [
+    {
+      "additional_Q1_loss_below_ALREADY_NET_Q4_pace_B": 0.1,
+      "Q1_B": 6.4257,
+      "Q2_B": 6.5257,
+      "H1_B": 12.9514,
+      "unchanged_FY2027_target_B": 31.475088000000003,
+      "required_H2_average_quarter_B": 9.261844000000002,
+      "required_H2_growth_vs_Q4": 0.4192874327658338,
+      "meaning": "Pure hypothetical extra shortfall relative to the already-net Q4 pace, NOT management's disclosed total Q1 impact. Do not add this to the base or call it the known Fab28 scenario."
+    },
+    {
+      "additional_Q1_loss_below_ALREADY_NET_Q4_pace_B": 0.3,
+      "Q1_B": 6.2257,
+      "Q2_B": 6.5257,
+      "H1_B": 12.7514,
+      "unchanged_FY2027_target_B": 31.475088000000003,
+      "required_H2_average_quarter_B": 9.361844000000001,
+      "required_H2_growth_vs_Q4": 0.4346114593070478,
+      "meaning": "Pure hypothetical extra shortfall relative to the already-net Q4 pace, NOT management's disclosed total Q1 impact. Do not add this to the base or call it the known Fab28 scenario."
+    }
+  ],
+  "extension_formula": "For an independently assumed additional Q1 shortfall d below the already-net Q4 pace, keeping Q2 at Q4 and the annual target unchanged, required H2 average rises by d/2. The disclosed similar300M total Q1 drag is not d.",
+  "rounding_control": {
+    "basis": "Illustrative rounded-disclosure sensitivity only: Q3 Other1.4B and YTD Other3.3B each varied by0.05B, while total DCAI,15% Q4 DCAI growth,35% Other growth and2027 1.44 revenue factor remain fixed. The annual target is recomputed consistently from each perturbed anchor.",
+    "corners": [
+      {
+        "Q3_Other_B": 1.35,
+        "YTD_Other_B": 3.25,
+        "Q4_CPU_proxy_B": 6.5931999999999995,
+        "FY2027_CPU_proxy_B": 31.644287999999996,
+        "H2_quarter_average_B": 9.228943999999998,
+        "H2_growth_over_Q4": 0.39976703270035774
+      },
+      {
+        "Q3_Other_B": 1.35,
+        "YTD_Other_B": 3.35,
+        "Q4_CPU_proxy_B": 6.5931999999999995,
+        "FY2027_CPU_proxy_B": 31.500287999999998,
+        "H2_quarter_average_B": 9.156944,
+        "H2_growth_over_Q4": 0.3888466905296366
+      },
+      {
+        "Q3_Other_B": 1.45,
+        "YTD_Other_B": 3.25,
+        "Q4_CPU_proxy_B": 6.4582,
+        "FY2027_CPU_proxy_B": 31.449888,
+        "H2_quarter_average_B": 9.266744000000001,
+        "H2_growth_over_Q4": 0.4348803072063425
+      },
+      {
+        "Q3_Other_B": 1.45,
+        "YTD_Other_B": 3.35,
+        "Q4_CPU_proxy_B": 6.4582,
+        "FY2027_CPU_proxy_B": 31.305888000000003,
+        "H2_quarter_average_B": 9.194744000000002,
+        "H2_growth_over_Q4": 0.4237316899445669
+      }
+    ],
+    "H2_growth_min": 0.3888466905296366,
+    "H2_growth_max": 0.4348803072063425,
+    "interpretation": "Not a confidence interval or forecast band. Approximate41% communicates the central model better than extra decimals."
+  },
+  "source_receipts": {
+    "anchor": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json",
+      "sha256": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d"
+    },
+    "current_policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "call_transcript": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/",
+    "call_timestamps": {
+      "Fab28_Q4_then_Q1_similar_early_assessment": [
+        "39:00",
+        "39:31"
+      ],
+      "Oregon_Intel3_H2_production_plan": "42:07",
+      "matching_substrates_required": "43:06"
+    }
+  },
+  "claims_overlay_independent_check": {
+    "Altera_payable_B": 0.21500000000000002,
+    "VLSI_recorded_liability_B": 1.0,
+    "total_B": 1.215,
+    "shares_B": 5.51,
+    "per_share_deduction_USD": 0.22050816696914702,
+    "new_base2030_from_prior_base": 77.46147983166225,
+    "new_planning2026_from_prior_base": 51.06659434427227,
+    "assessment": "Named amounts match Q3 Notes9/14. The exact per-share deduction and new base endpoints reconcile. The annual filing confirms EC guarantee funding in restricted accounts; not subtracting the EC fine again while excluding that collateral is internally coherent. This does not verify a future legal settlement amount or complete legal exposure."
+  }
+}

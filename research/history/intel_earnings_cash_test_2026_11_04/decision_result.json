@@ -1,0 +1,164 @@
+{
+  "as_of_utc": "2026-11-04T18:49:29.640888+00:00",
+  "status": "Focused Intel earnings-to-cash test completed. Earnings upside identified; LONG not established.",
+  "user_objective": "Develop the strongest defensible Intel or SpaceX pitch for the M37 competition. User authorized focusing this pass on Intel.",
+  "company_focus": "Intel",
+  "root_decision": {
+    "working_operating_thesis": "Intel\u2019s richer CPU mix could deliver earnings above published forecasts without a major new external wafer customer. The investment question is how much cash Intel must reinvest to deliver those earnings.",
+    "earnings_result": "The existing operating forecast produces conditional adjusted EPS proxies of about $2.50 in 2027 and $4.17 in 2028. The premium survives several tax, accounting-presentation and Foundry-cost controls. It is not solely an EBIT-versus-EPS comparison error.",
+    "investment_result": "No LONG recommendation established. These operating earnings already underpin the existing cash valuation; expressing them as adjusted EPS does not increase cash value. A higher P/E alone cannot resolve the economic disagreement.",
+    "why_the_edge_is_narrower_than_the_EPS_gap": "The matched 2027 DCAI growth difference explains only about 30% of the EPS gap to iFAST under our other conventions. The entire premium cannot be presented as one overlooked CPU pricing effect.",
+    "capital_review": "No demonstrated double counting of physical capital or justified asset-light cash uplift. Intel Products uses internal manufacturing and external suppliers; the custom-silicon manufacturing split is insufficiently disclosed to remove host capital spending.",
+    "prior_short": "The prior early-repricing SHORT remains withdrawn as the preferred submission. This test does not revive it.",
+    "submission_status": "The old PDF remains a superseded discussion draft. No current directional submission is endorsed; nothing was submitted.",
+    "competition_objective_complete": false,
+    "finite_test_complete": true
+  },
+  "annual_results": [
+    {
+      "year": 2027,
+      "independent_economic_EBIT_B": 14.429918272000002,
+      "reference_adjusted_EPS_proxy_USD": 2.4996601201597097,
+      "economic_parent_unlevered_cash_B": -10.182712883085713,
+      "economic_owner_cash_B": -11.692712883085713,
+      "issuer_style_zero_net_partner_proxy_B": -7.992712883085713,
+      "issuer_style_distributions_equal_reserve_proxy_B": -9.092712883085714,
+      "combined_adverse_presentation_EPS_USD": 1.9095888305066668,
+      "slower_Foundry_EBIT_B": 12.929918272000002,
+      "slower_Foundry_EPS_USD": 2.2573733687985484,
+      "slower_Foundry_operating_cash_tax_B": 1.9394877408000002,
+      "slower_Foundry_owner_cash_B": -12.967712883085714,
+      "slower_Foundry_ending_economic_cash_B": 33.46528711691429,
+      "slower_Foundry_new_borrowing_B": 0.0,
+      "tax_deduction_for_new_capitalized_interest_B": 0.0,
+      "financing_tax_benefit_B": 0.24
+    },
+    {
+      "year": 2028,
+      "independent_economic_EBIT_B": 24.72774958255801,
+      "reference_adjusted_EPS_proxy_USD": 4.167050295549297,
+      "economic_parent_unlevered_cash_B": 3.784903605352877,
+      "economic_owner_cash_B": 2.2936536053528767,
+      "issuer_style_zero_net_partner_proxy_B": 6.193653605352877,
+      "issuer_style_distributions_equal_reserve_proxy_B": 5.093653605352877,
+      "combined_adverse_presentation_EPS_USD": 3.327209109616261,
+      "slower_Foundry_EBIT_B": 21.97774958255801,
+      "slower_Foundry_EPS_USD": 3.722857918053834,
+      "slower_Foundry_operating_cash_tax_B": 3.2966624373837012,
+      "slower_Foundry_owner_cash_B": -0.043846394647123144,
+      "slower_Foundry_ending_economic_cash_B": 31.218440722267164,
+      "slower_Foundry_new_borrowing_B": 0.0,
+      "tax_deduction_for_new_capitalized_interest_B": 0.125,
+      "financing_tax_benefit_B": 0.25875
+    }
+  ],
+  "public_reference_comparison": [
+    {
+      "year": 2027,
+      "EPS_USD": 1.8,
+      "type": "S&P Global adjusted EPS aggregate via StockAnalysis, updated November 3",
+      "url": "https://stockanalysis.com/stocks/intc/forecast/"
+    },
+    {
+      "year": 2028,
+      "EPS_USD": 2.59,
+      "type": "iFAST individual analyst forecast dated November 2, not a full consensus",
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp"
+    }
+  ],
+  "specific_operating_disagreement": {
+    "our_2027_DCAI_revenue_growth_fraction": 0.4707,
+    "iFAST_2027_DCAI_revenue_growth_fraction": 0.37,
+    "our_CPU_ASP_growth_fraction": 0.2,
+    "CPU_ASP_growth_consistent_with_iFAST_aggregate_growth_if_other_inputs_ours": 0.09615638882407573,
+    "warning": "Reverse consistency calculation, not iFAST\u2019s disclosed CPU pricing forecast.",
+    "matched_iFAST_2027_EPS_USD": 1.77,
+    "EPS_gap_share_explained": 0.3014763794962748,
+    "2027_to_2028_profit_growth_share_from_DCAI_and_Foundry_approx": 0.892
+  },
+  "valuation_unchanged": {
+    "reference_price_USD": 60.55,
+    "price_date": "2026-11-03",
+    "end2026_value_flat12_USD": 44.067914052747014,
+    "end2028_value_flat12_USD": 54.57624488068242,
+    "end2030_value_flat12_USD": 67.57762169851729
+  },
+  "limits": [
+    {
+      "severity": "material for external comparison",
+      "finding": "The 2028 public EPS forecast does not disclose its full tax, adjustments and weighted-share methodology; the 2027 summary is adjusted EPS but constituent accounting choices are not reconstructed. The measured percentage premiums are arithmetic comparisons between proxies, not certified like-for-like analyst forecast errors.",
+      "proof_needed": "Original analyst income statements and definitions, normalized on the same timing, NCI, compensation and diluted-share basis."
+    },
+    {
+      "severity": "material for accounting precision",
+      "finding": "5.51B is existing planning claims, not independently forecast future weighted diluted shares. Future equity grants, vesting, cancellations, stock price and treasury-stock proceeds are not modeled.",
+      "proof_needed": "Dated weighted-share roll-forward and grant/vesting assumptions for each forecast year."
+    },
+    {
+      "severity": "known unallocated expense",
+      "finding": "The reference EPS omits a separately unallocated lease-interest expense; 1B is an all-in cash envelope, and assumed lease D&A inside total D&A is not independently itemized. The severe 1B control is not a book accounting forecast.",
+      "proof_needed": "Supplier/lease asset, liability, interest, cash and D&A schedules reconciled to EBIT and ordinary interest."
+    },
+    {
+      "severity": "known incomplete issuer cash bridge",
+      "finding": "Only identified corporate SBC is restored in the issuer-style cash proxy. Packaging central cost includes unsplit SBC, so exact issuer CFO would require its noncash portion and any tax-settlement effects. No numerical correction is justified without that split.",
+      "proof_needed": "Packaging compensation split and cash-flow reconciliation; do not add the full central cost as SBC."
+    },
+    {
+      "severity": "book and cash classification",
+      "finding": "Forward book credit depreciation benefit, capitalized-interest book life, financing PPE settlement timing and capital-tax classification are simplified or unallocated. Exact issuer adjusted FCF cannot be claimed from an economic reserve model.",
+      "proof_needed": "PPE/credit/interest cohort schedules, cash-purchase settlement mapping, actual partner funding/distributions and a complete CFO-to-adjusted-FCF bridge."
+    },
+    {
+      "severity": "economic interpretation",
+      "finding": "Slower Foundry is a cost-only control at unchanged product revenue, margins, capex and working capital. It is not a failed qualification, delayed shipment or joint macro downside. The 31.218B 2028 ending balance is economic liquidity after reserves, not measured bank cash.",
+      "proof_needed": "A separately frozen operating scenario to claim robustness to revenue or shipment failure; none is inferred here."
+    }
+  ],
+  "verification": {
+    "independent_audit_verdict": "PASS WITH COMPARABILITY LIMITS",
+    "checks_count": 316,
+    "numerical_errors": 0,
+    "audit": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/independent_earnings_cash_audit.json",
+      "sha256": "e01e9d877590933b438281b9e875386ad0edee1d41b7778adad7211e95e77d2a"
+    },
+    "audit_does_not_validate_business_forecasts": true,
+    "audit_metadata_precedence": "The bridge retains its original pre-audit pending field to preserve its audited SHA256. This record and the independent audit supersede that historical field.",
+    "all_audited_input_hashes_verified_at_close": true,
+    "source_model_modified": false,
+    "PDF_modified": false
+  },
+  "remaining_decision_boundary": "To endorse LONG, select and independently justify cash economics or investment risk assumptions that support an attractive 3\u20135 year return from the entry price. Do not choose them merely to raise the target. A forecast need not be certain, match exact consensus, or survive every adverse case.",
+  "artifacts": {
+    "capital_mapping_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/capital_mapping_review.json",
+      "sha256": "2449c2de7edc665cab8362d74fd18e53c937d72ef9608798ff9ccd0445d8b53d"
+    },
+    "cash_value_reverse_hurdle": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/cash_value_reverse_hurdle.json",
+      "sha256": "c788206b48308ea4726ebdfd81641b796d4af101fbe456ff059f65f9f9c3bde1"
+    },
+    "earnings_cash_bridge_results": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/earnings_cash_bridge_results.json",
+      "sha256": "f0f6cf45b96a790602b947a79d91ff8ba89d4f1c5d4a397eb1d5a50e81742978"
+    },
+    "earnings_gap_attribution_guard": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/earnings_gap_attribution_guard.json",
+      "sha256": "b1fc4f50016d1b3c42bc81075747fb81d9cc0857d6829a703b8fd42e375f3997"
+    },
+    "eps_accounting_policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/eps_accounting_policy.json",
+      "sha256": "055bdc41964fe43a861442df984ddb5092d282340f7a31b4733849990d7bc1c5"
+    },
+    "independent_earnings_cash_audit": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/independent_earnings_cash_audit.json",
+      "sha256": "e01e9d877590933b438281b9e875386ad0edee1d41b7778adad7211e95e77d2a"
+    },
+    "operating_gap_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/operating_gap_review.json",
+      "sha256": "5108942d98d233a0773f1247a887e57bf78d7f9779d29df1c7ac3e1a595ec03c"
+    }
+  },
+  "active_work": "This finite pass and its delegated reviews are complete. No promise of continuing background work or outgoing submission."
+}

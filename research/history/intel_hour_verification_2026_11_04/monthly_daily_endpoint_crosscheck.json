@@ -1,0 +1,292 @@
+{
+  "scope": "Compare vendor monthly adjusted closes with last daily adjusted close in the same completed month. All shared November 2021\u2013October 2026 endpoints; daily archive lacks October 2021.",
+  "rows": [
+    {
+      "symbol": "SPY",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 2.738279615277506e-07,
+      "max_return_difference": 3.278429563380314e-07,
+      "largest_differences": [
+        [
+          "2021-12",
+          445.7918701171875,
+          445.7919921875,
+          -2.738279615277506e-07
+        ],
+        [
+          "2023-03",
+          391.9728698730469,
+          391.9727783203125,
+          2.3356911360572497e-07
+        ],
+        [
+          "2024-09",
+          560.8177490234375,
+          560.81787109375,
+          -2.1766480495788443e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 2.527466185231475e-07,
+      "max_return_difference": 3.215900387099069e-07,
+      "largest_differences": [
+        [
+          "2022-01",
+          45.278900146484375,
+          45.27891159057617,
+          -2.527466185231475e-07
+        ],
+        [
+          "2022-07",
+          34.20106506347656,
+          34.201072692871094,
+          -2.2307471458926642e-07
+        ],
+        [
+          "2022-04",
+          40.736228942871094,
+          40.73622131347656,
+          1.8728773265586085e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "TSM",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 4.7273009196047155e-07,
+      "max_return_difference": 4.4909738283749334e-07,
+      "largest_differences": [
+        [
+          "2022-09",
+          64.55606079101562,
+          64.5560302734375,
+          4.7273009196047155e-07
+        ],
+        [
+          "2022-02",
+          99.19052124023438,
+          99.19049835205078,
+          2.3074975907810824e-07
+        ],
+        [
+          "2024-05",
+          146.39723205566406,
+          146.3972625732422,
+          -2.0845730031027188e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "GFS",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 1.190296512465494e-07,
+      "max_return_difference": 2.2068085936410853e-07,
+      "largest_differences": [
+        [
+          "2022-11",
+          64.0965805053711,
+          64.09658813476562,
+          -1.190296512465494e-07
+        ],
+        [
+          "2026-04",
+          64.34559631347656,
+          64.3456039428711,
+          -1.185690096106029e-07
+        ],
+        [
+          "2021-12",
+          64.71414947509766,
+          64.71414184570312,
+          1.1789377585280647e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "UMC",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 1.2876344157586317e-07,
+      "max_return_difference": 1.410141862168146e-07,
+      "largest_differences": [
+        [
+          "2023-12",
+          7.406404972076416,
+          7.406405925750732,
+          -1.2876344157586317e-07
+        ],
+        [
+          "2022-01",
+          7.4907660484313965,
+          7.49076509475708,
+          1.2731333898230446e-07
+        ],
+        [
+          "2021-11",
+          8.862421989440918,
+          8.862421035766602,
+          1.0760878010884767e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "TXN",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 5.637832198868153e-07,
+      "max_return_difference": 7.734753049160048e-07,
+      "largest_differences": [
+        [
+          "2022-06",
+          135.32504272460938,
+          135.32496643066406,
+          5.637832198868153e-07
+        ],
+        [
+          "2022-01",
+          157.0155487060547,
+          157.01560974121094,
+          -3.8872030849734784e-07
+        ],
+        [
+          "2023-07",
+          164.38934326171875,
+          164.38938903808594,
+          -2.784630288577006e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "STM",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 3.345080699101999e-07,
+      "max_return_difference": 3.7991994106256755e-07,
+      "largest_differences": [
+        [
+          "2023-01",
+          45.61559295654297,
+          45.61560821533203,
+          -3.345080699101999e-07
+        ],
+        [
+          "2023-05",
+          42.016510009765625,
+          42.01652145385742,
+          -2.723712340113593e-07
+        ],
+        [
+          "2022-07",
+          36.532135009765625,
+          36.532142639160156,
+          -2.0884059848125247e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "ON",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 0.0,
+      "max_return_difference": 0.0,
+      "largest_differences": [
+        [
+          "2021-11",
+          61.43000030517578,
+          61.43000030517578,
+          0.0
+        ],
+        [
+          "2021-12",
+          67.91999816894531,
+          67.91999816894531,
+          0.0
+        ],
+        [
+          "2022-01",
+          59.0,
+          59.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "symbol": "ADI",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 2.739665230233612e-07,
+      "max_return_difference": 3.374992834093149e-07,
+      "largest_differences": [
+        [
+          "2023-09",
+          167.08749389648438,
+          167.0874481201172,
+          2.739665230233612e-07
+        ],
+        [
+          "2022-03",
+          153.27003479003906,
+          153.2700653076172,
+          -1.9910983961590745e-07
+        ],
+        [
+          "2022-12",
+          154.33152770996094,
+          154.3314971923828,
+          1.9774043980014255e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "MCHP",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 4.5009326488099077e-07,
+      "max_return_difference": 4.808758093943766e-07,
+      "largest_differences": [
+        [
+          "2022-03",
+          67.80281829833984,
+          67.80278778076172,
+          4.5009326488099077e-07
+        ],
+        [
+          "2021-11",
+          75.01570129394531,
+          75.01567840576172,
+          3.051119989994078e-07
+        ],
+        [
+          "2023-08",
+          75.88024139404297,
+          75.88026428222656,
+          -3.0163552811046657e-07
+        ]
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "matched_month_ends": 60,
+      "max_adjusted_close_relative_difference": 0.0,
+      "max_return_difference": 0.0,
+      "largest_differences": [
+        [
+          "2021-11",
+          158.3699951171875,
+          158.3699951171875,
+          0.0
+        ],
+        [
+          "2021-12",
+          143.89999389648438,
+          143.89999389648438,
+          0.0
+        ],
+        [
+          "2022-01",
+          114.25,
+          114.25,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "interpretation": "All 660 shared monthly endpoints and 649 month returns agree within 0.00008 percentage point. The daily/weekly/monthly beta differences therefore are not explained by a material monthly-versus-daily price mismatch in the retrieved Yahoo dataset. Tiny deviations are consistent with numerical adjustment precision; their exact cause is not established."
+}

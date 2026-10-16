@@ -1,0 +1,65 @@
+{
+  "review": "Independent root raw-ratio reconstruction agrees after correcting the independent check to select on-demand prices rather than the first returned spot row. Underlying measurements are not independently executed or validated.",
+  "results": {
+    "redis": {
+      "m8a.4xlarge": {
+        "configs": 6,
+        "rental_cost_ratio_min": 0.5246025003179544,
+        "rental_cost_ratio_max": 0.6348819490903207,
+        "latency_no_worse": 6,
+        "worse_latency_configs": []
+      },
+      "m9g.4xlarge": {
+        "configs": 6,
+        "rental_cost_ratio_min": 0.5523323338395902,
+        "rental_cost_ratio_max": 0.6363254619984305,
+        "latency_no_worse": 6,
+        "worse_latency_configs": []
+      }
+    },
+    "static_web": {
+      "m8a.4xlarge": {
+        "configs": 69,
+        "rental_cost_ratio_min": 0.4642634891374422,
+        "rental_cost_ratio_max": 0.9264739637099059,
+        "latency_no_worse": 69,
+        "worse_latency_configs": []
+      },
+      "m9g.4xlarge": {
+        "configs": 69,
+        "rental_cost_ratio_min": 0.40030201584926906,
+        "rental_cost_ratio_max": 0.8818292714541598,
+        "latency_no_worse": 67,
+        "worse_latency_configs": [
+          {
+            "size": "256k",
+            "threads": "16",
+            "connections": "32"
+          },
+          {
+            "size": "256k",
+            "threads": "16",
+            "connections": "16"
+          }
+        ]
+      }
+    }
+  },
+  "publication_decision": "Exploratory appendix/research only. No validated successful-request unit-cost claim, no CPU-only or supplier-price/margin inference.",
+  "limitations": [
+    "3VMruns, not75independentexperiments",
+    "noncontemporaneoushardware/software",
+    "IntelSMTvsAMD/Armsinglethreadphysicalcorecountdiffers",
+    "Redisclientbuildunrecorded; clientexitfailuresnotfullychecked",
+    "staticwebonlyHTTPstatusfailurescaptured; socketerrorcoveragemissing",
+    "noSLAorproductiontail-latencytest",
+    "currentrentalpricesappliedtoarchivalbenchmarks"
+  ],
+  "prices_USD_per_hour": {
+    "m8i.4xlarge": 0.8467,
+    "m8a.4xlarge": 0.9738,
+    "m9g.4xlarge": 0.7827
+  },
+  "price_filter": "Linux us-east-1 USD hour ondemand; all returned ondemand AZ prices agree",
+  "max_absolute_difference_vs_agent": 1.1102230246251565e-16
+}

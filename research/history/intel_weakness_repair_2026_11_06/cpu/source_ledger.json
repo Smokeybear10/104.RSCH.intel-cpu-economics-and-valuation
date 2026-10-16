@@ -1,0 +1,82 @@
+{
+  "verified_utc": "2026-11-06T21:57:06.932490+00:00",
+  "policy": "Current primary documents and original research-provider publication, freshly opened. New work is a reproducible operating decomposition, not a newly discovered contract or proprietary shipment dataset.",
+  "sources": [
+    {
+      "id": "intel_q1_2026",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+      "locator": "MD&A pp28-29",
+      "facts": {
+        "DCAI_B": 5.052,
+        "Other_DCAI_B": 0.935,
+        "CPU_residual_B": 4.117,
+        "server_units_YoY": -0.05,
+        "server_ASP_YoY": 0.27
+      },
+      "interpretation": "Unit declines and richer mix coexist; ASP is not a pure list-price series."
+    },
+    {
+      "id": "intel_q2_2026",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "locator": "MD&A p30",
+      "facts": {
+        "DCAI_B": 6.262,
+        "Other_DCAI_B": 0.951,
+        "CPU_residual_B": 5.311,
+        "server_units_YoY": 0.09,
+        "server_ASP_YoY": 0.48,
+        "H1_server_units_YoY": 0.02,
+        "H1_server_ASP_YoY": 0.38
+      },
+      "interpretation": "Growth is accelerating but disclosure remains YoY; exact sequential ASP or physical shipment levels are absent."
+    },
+    {
+      "id": "intel_q3_2026",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "MD&A pp33-34",
+      "facts": {
+        "DCAI_B": 7.318,
+        "Other_DCAI_rounded_B": 1.4,
+        "CPU_residual_B": 5.918,
+        "YTD_DCAI_B": 18.632,
+        "YTD_Other_DCAI_rounded_B": 3.3,
+        "YTD_CPU_residual_B": 15.332,
+        "server_units_YoY": 0.1,
+        "server_ASP_YoY": 0.54,
+        "YTD_server_units_YoY": 0.04,
+        "YTD_server_ASP_YoY": 0.44
+      },
+      "interpretation": "Most ASP improvement came from premium mix, with lesser pricing actions. Higher premium-product unit costs partly offset product profit. Supply constraints persist. Q1/Q2/Q3 residual sum15.346 differs from YTD15.332 because rounded Other totals differ; neither series supplies unique unit weights."
+    },
+    {
+      "id": "intel_q3_prepared_remarks",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF pp1,3,5-7",
+      "facts": [
+        "Granite Rapids had become the largest server product family; Intel3 Ireland output was increasing.",
+        "Intel3 costs were about15% belowQ1; volumes rose in the mid-teens sequentially.",
+        "Q4 total revenue guidance15-16B; DCAI growth mid-teens sequentially; purpose-built silicon faster than DCAI; roughly300M Fab28 impact mostly10nm server.",
+        "Intel3 capacity, advanced substrates and Fab28 supply constrain deliveries; industry shortage expected through2027 into2028."
+      ],
+      "interpretation": "Supports direction of supply/mix improvement and explicit near-term checkpoints. It does not quantify Q4 CPU revenue or2027 finished-package capacity. The owned6.812B CPU anchor uses17%DCAI and25%Other growth."
+    },
+    {
+      "id": "trendforce_20261022",
+      "url": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "locator": "Press release and chart; inner2026E, outer2027F",
+      "facts": [
+        "Industry server CPU shipments forecast+31%in2026 and>40%in2027.",
+        "ChartIntelshipmentshare50%in2026E and42%in2027F; includes captiveArm suppliers.",
+        "Text explicitly warns Intel product/process/packaging constraints limit supply in2027."
+      ],
+      "interpretation": "Current17.6%unit bridge is correctly interpreted at40%growth. Rounded forecast shares are not observed shares or a strict lower bound. The source supports market demand while also warning the crucial Intel supply risk."
+    }
+  ],
+  "recommended_exhibit": {
+    "title": "The 2027 forecast requires a 16.5% lift above the modeled Q4 run-rate",
+    "left": "CPU quarterly revenue: Q1-Q3 2026 reported residuals4.117/5.311/5.918B; Q42026E6.812B; Q1-Q42027E6.812/7.296/8.266/9.365B. Clearly separate actual residuals from estimates.",
+    "right": "FY2026E22.144B +5.104B exit-rate carryover +4.491B further ramp =FY2027E31.739B. Carryover depends on reaching Q4anchor.",
+    "bottom": "H12027 14.108B; H22027 17.631B, requiring+18.3%units and+5.6%weightedASP. One-quarter delay with no catch-up produces29.186B in2027 and55.238B in2030."
+  },
+  "recommendation": "Replace generic adoption-first evidence with observed shipment/ASP trend, explicit Q4 allocation and quarterly delivery milestones. The forecast becomes easier to test, but public evidence does not prove the exact required capacity. Keep moderate conviction; no automatic upgrade to a high-confidence long."
+}

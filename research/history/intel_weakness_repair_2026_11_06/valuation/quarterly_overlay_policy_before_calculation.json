@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-11-06T21:59:38.935176+00:00",
+  "scope": "Overlaynewoperatingcasesonexistingverifiedcurrentlongquarterlycashschedules",
+  "case_paths": [
+    "CPU2027onequarterrampdelay,no catchup",
+    "Factorybreakevenonly;alsoappliestofactorybreakeven+terminalROCcasesbecauseROCchanges2041only"
+  ],
+  "CPU_quarters": "2027explicitdelayquartersfromCPUagent;2028-30current23/24/26/27%weightsappliedtodelayedannualtotals",
+  "profit": "Existing50%near-termCPUrevenuetogroupEBITresponse;factorydeltaallocatedequallybyquarter;otherprofitcomponentsunchanged.",
+  "tax": "ReallocatecaseannualordinaryoperatingtaxtopositivequarterEBITusinginheritedrule.",
+  "investment": "Useexistingbaseorconcentratedtimingcapexschedule,DA,credits;allocatecaseannualWCwithoriginalweights.",
+  "treasury": "Retainoriginalfixedinterest,cashincome,taxshield,escrow,principal,andacquisitiontiming. Recomputeownerandendingcash.",
+  "required_checks": "Zerooverlayreproducesall32baselinequartercashbalances;annualcasecashandparentcashreconcilestoadditionalvaluationmodel.",
+  "boundary": "Analyst20Bbuffer,notcovenant,unrestrictedcashmeasurementordailylow. Nofinancingproceedsorcashactionsassumed;bufferbreachdoesnotestablishinsolvency."
+}

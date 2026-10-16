@@ -1,0 +1,150 @@
+{
+  "updated_utc": "2026-11-07T05:40:50.092030+00:00",
+  "status": "Ten-page pitch strengthened with affirmative pricing/mix evidence, funded combined-risk returns and a recurring cash bridge. Conditional LONG at $40 or below; no new position at the November6 $56.28 reference quote. Forecast and workbook unchanged. Current resume remains the only documented missing required package item.",
+  "author": "Thomas Ou",
+  "class_year": 2028,
+  "class_year_source": "Explicit user correction in this chat, November 6, 2026",
+  "recommendation": "CONDITIONAL LONG AT OR BELOW $40",
+  "conviction": "Conditional entry; operating forecasts remain uncertain",
+  "reference_price_USD": 56.28,
+  "reference_price_date": "2026-11-06 regular close",
+  "planning_value_USD": 56.13928584556838,
+  "planning_value_date": "2026-12-31",
+  "target_USD": 82.47015162680006,
+  "target_date": "2030-12-31",
+  "annual_price_return": 0.0964291893107092,
+  "decision_policy": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/root/price_and_decision_policy.json",
+  "source_model": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+  "source_model_sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+  "current_deliverables": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "sha256": "82bd1581328c119f2ecf615e51dcbd83e1d267a3c5605b3f9e83f969c23460a2",
+      "words": 2650,
+      "links": 23,
+      "changed_pages": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "unchanged_pages_text_matched": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10
+      ],
+      "out_of_page_characters": []
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 10,
+      "sha256": "84af260b087f9ece29cbb4f5263e2ab9f87dac66e22188718c38487d5e673f6d",
+      "words": 3896,
+      "links": 25,
+      "changed_pages": [
+        6,
+        9,
+        10
+      ],
+      "unchanged_pages_text_matched": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "out_of_page_characters": []
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "pages": 3,
+      "sha256": "eb7ee4116153ef4b7b0585fed3aacc5a86c0a67e63c8c3e5bc12b188d70f91cf",
+      "links": 6,
+      "words": 908,
+      "out_of_page_characters": [],
+      "changed_pages": [
+        1,
+        2,
+        3
+      ],
+      "unchanged_pages_text_matched": []
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+      "sha256": "4b502e452579d2c32b50adede9f058481c9d4b5a9ba0fc124cbce829cb1f86d4",
+      "sheets": 7
+    }
+  ],
+  "verification": {
+    "pdf_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/defense_strengthening_review/document_checks.json",
+    "workbook_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_fundamental_rebuild_2026_11_06/factory/workbook/saved_workbook_independent_verification.json",
+    "model_reconciled": true,
+    "native_excel_ui_tested": false,
+    "prior_pdf_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_claim_math_rules_visual_qa.json",
+    "latest_main_pdf_pages_reviewed": 10,
+    "latest_change_scope": "Main5,7,8,9 and defense6,9,10. Observed mix and signed agreements; conditional flat-ASP control; funded joint scenarios; recurring cash waterfall. Forecast and workbook unchanged.",
+    "class_year_correction": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/class_year_correction/verification.json",
+    "latest_defense_pdf_pages_reviewed": 10,
+    "comparison_review": "All three current comparison pages reviewed",
+    "independent_numeric_audit": "Passed CPU source/math review,25 valuation checks, independent funding reconstruction and independent added-capital valuation. Maximum reconstruction error below2e-14.",
+    "research_receipt": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/root/completion_review.json",
+    "funding_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/valuation/independent_claims_funding_audit.json",
+    "review_coverage": "Main 5,7,9 and defense9,10 inspected; independent reviewer also inspected main8 and defense6. After final minor wording changes, root reinspected main5,7 and defense9,10. Other pages match prior reviewed text.",
+    "prior_to_closure_pdf_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/fundamental_rebuild_review/build_receipt.json",
+    "independent_closure_visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_case_closure_2026_11_06/rules/visual_review.json",
+    "prior_to_adversarial_pdf_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/case_closure_review/document_checks.json",
+    "prior_to_defense_strengthening_pdf_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/adversarial_review/document_checks.json"
+  },
+  "pitch_content_complete": true,
+  "submission_package_complete": false,
+  "submission_ready": false,
+  "remaining_submission_item": "Current r\u00e9sum\u00e9",
+  "deadline": "2026-11-09",
+  "deadline_time_timezone": "Not specified on the reviewed official page",
+  "rules_url": "https://www.m37.com/spc2026",
+  "sent": false,
+  "submitted": false,
+  "competition_win_probability": null,
+  "prior_manifest_archive": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/before_revision/m37_submission_manifest.json",
+  "limits": [
+    "Does not meet 12% in every modeled downside. Setting terminal return on modeled net investment equal to the discount rate requires an entry of about $39.01.",
+    "No asserted 20% margin of safety or contemporaneous fair value; no price decline or entry execution predicted.",
+    "The 12% and 15% hurdles are analyst judgments, not competition rules. A 9.6% return is not universally inadequate.",
+    "No large current-price valuation cushion established; conditional entry changes the investment decision, not business value.",
+    "Revolver capacity and maturities are verified. Amended pricing, fees and covenants were not located in reviewed filings; future access is assumed, incremental fees are not modeled, and quarter-end cash does not establish daily liquidity.",
+    "Reverse cash and margin thresholds are diagnostics, not adopted forecasts or unique market-implied expectations.",
+    "CPU growth, factory recovery and long-run cash generation remain forecasts with failure tests; closure means their treatment is decided, not that future outcomes are proven.",
+    "Flat estimated Q4 ASP through2027 leaves2028 company revenue5.5%above consensus, conditional on the unit path and unchanged2028growth. The exit level is not observed.",
+    "Selected$40entry retains the faster CPU path. Funded jointCPU/factory stress gives about10.0%annualreturn at40; adding weaker2031-40capital efficiency gives8.5%. These are sensitivities, not new central forecasts.",
+    "New funding controls assume8%interest, future legal access, no incremental fees and an unchanged cash-income convention. They do not establish daily liquidity."
+  ],
+  "style_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_style_revision",
+  "density_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_density_revision",
+  "analyst_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_analyst_revision",
+  "reference_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_reference_revision",
+  "weakness_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_weakness_repair",
+  "conditional_entry_limit_USD": 40,
+  "current_quote_action": "No new position",
+  "valuation_resolution_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_valuation_resolution",
+  "workbook_resolution_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/valuation/workbook_backup",
+  "fundamental_rebuild_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_fundamental_rebuild",
+  "workbook_rebuild_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_fundamental_rebuild_2026_11_06/factory/workbook/before_intel_revenue_to_cash_model.xlsx",
+  "administrative_blockers": [
+    "Current r\u00e9sum\u00e9"
+  ],
+  "investment_judgment_note": "Conditional entry is a completed decision under chosen return requirements. It does not establish a current-price bargain or a winning probability. No special organizer preapproval requirement was found.",
+  "case_closure_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_case_closure_2026_11_06/root/closure_decisions.json",
+  "research_decisions_settled": 7,
+  "active_further_research_action": null,
+  "case_closure_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_case_closure",
+  "adversarial_review_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_adversarial_review_2026_11_06/root/adversarial_verdict.json",
+  "adversarial_review_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_adversarial_review",
+  "defense_strengthening_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/root/completion_review.json",
+  "defense_strengthening_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_defense_strengthening"
+}

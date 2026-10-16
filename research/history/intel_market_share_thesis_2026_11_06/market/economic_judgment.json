@@ -1,0 +1,95 @@
+{
+  "saved_utc": "2026-11-06T16:54:44.652476+00:00",
+  "recommendation": "The existing favorable CPU path is reasonable enough to own as a moderate-conviction investment forecast. This market/share work strengthens a moderate LONG; it does not establish a strong valuation edge or force adoption of that case.",
+  "what_changed": "The original TrendForce chart identifies share loss compatible with substantial Intel unit growth. The official AMD transcript corroborates CPU demand with actual units and ASP both increasing. Intel revenue can now be explained as a retained share of a larger market, rather than only extrapolated company growth.",
+  "main_exhibit": {
+    "near_term": "At 40% market unit growth and rounded Intel 50% to 42% shipment shares, Intel units grow 17.6%. Selected 2027 CPU revenue needs 18.3% ASP growth; favorable needs 23.5% on the common FY2026E anchor, or 21.9% on its own anchor. These are forecast-consistency requirements.",
+    "2030_rows": [
+      {
+        "case": "selected",
+        "illustrative_CPU_market2030_B": 120.0,
+        "Intel_CPU2030_B": 49.87783483684855,
+        "required_Intel_revenue_share": 0.41564862364040456,
+        "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+        "illustrative_market_CAGR_from_40B2026": 0.3160740129524924,
+        "illustrative_revenue_share_change_pp_from_40B_common_baseline": -13.079387635959549
+      },
+      {
+        "case": "favorable",
+        "illustrative_CPU_market2030_B": 120.0,
+        "Intel_CPU2030_B": 60.07088322736725,
+        "required_Intel_revenue_share": 0.5005906935613937,
+        "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+        "illustrative_market_CAGR_from_40B2026": 0.3160740129524924,
+        "illustrative_revenue_share_change_pp_from_40B_common_baseline": -4.585180643860632
+      },
+      {
+        "case": "selected",
+        "illustrative_CPU_market2030_B": 150.0,
+        "Intel_CPU2030_B": 49.87783483684855,
+        "required_Intel_revenue_share": 0.33251889891232367,
+        "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+        "illustrative_market_CAGR_from_40B2026": 0.3915788418568702,
+        "illustrative_revenue_share_change_pp_from_40B_common_baseline": -21.39236010876764
+      },
+      {
+        "case": "favorable",
+        "illustrative_CPU_market2030_B": 150.0,
+        "Intel_CPU2030_B": 60.07088322736725,
+        "required_Intel_revenue_share": 0.400472554849115,
+        "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+        "illustrative_market_CAGR_from_40B2026": 0.3915788418568702,
+        "illustrative_revenue_share_change_pp_from_40B_common_baseline": -14.596994515088507
+      },
+      {
+        "case": "selected",
+        "illustrative_CPU_market2030_B": 180.0,
+        "Intel_CPU2030_B": 49.87783483684855,
+        "required_Intel_revenue_share": 0.27709908242693637,
+        "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+        "illustrative_market_CAGR_from_40B2026": 0.45647531512197026,
+        "illustrative_revenue_share_change_pp_from_40B_common_baseline": -26.934341757306367
+      },
+      {
+        "case": "favorable",
+        "illustrative_CPU_market2030_B": 180.0,
+        "Intel_CPU2030_B": 60.07088322736725,
+        "required_Intel_revenue_share": 0.33372712904092916,
+        "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+        "illustrative_market_CAGR_from_40B2026": 0.45647531512197026,
+        "illustrative_revenue_share_change_pp_from_40B_common_baseline": -21.27153709590709
+      }
+    ],
+    "display_sentence": "At a $150–180B comparable CPU revenue pool, the existing $60.1B favorable forecast requires 40.0–33.4% revenue share. This is consistent with continued competitiveness rather than dominance, but is not a prediction of actual market share.",
+    "date_correction": "Intel’s $200B discussion points roughly to 2031. An owned smooth $40B to $200B five-year interpolation gives about $145B after four years. That explains the scale of the $150B illustration but is not Intel 2030 guidance. AMD’s $220B forecast explicitly refers to 2030; its older $120B outlook is a downside reference, not its latest forecast."
+  },
+  "favorable_sequence": {
+    "near_term": "A constrained 2027 followed by a 2028 capacity ramp and deceleration is economically coherent. Favorable unit growth of 25%, 18%, and 12% in 2028–30 is not validated by TrendForce, which stops at 2027. Public market evidence makes the path plausible, not uniquely identified.",
+    "ASP": "Richer products can support ASP while Intel loses unit share. Reported ASP growth is principally mix, not pure pricing; higher product costs must remain in the profit bridge.",
+    "post2030": "The existing 6.04% nominal CPU revenue CAGR through 2040 is a gradual normalization, not a continuation of 30–50% industry growth. It permits further revenue-share loss if the global CPU dollar pool grows faster than 6.04%. No primary source inspected here forecasts that market through 2040.",
+    "relative_share_change_2030_2040_if_market_growth": {
+      "0.04": 0.2148745524159772,
+      "0.06": 0.004167532827071163,
+      "0.08": -0.1670340028587578,
+      "0.1": -0.30667321803524494
+    },
+    "tail_test": "At 8% market CAGR, favorable Intel share falls 16.7% relatively over the decade; at 10%, it falls 30.7%. If market growth settles at 4%, Intel must increase revenue share 21.5% relatively. That combination requires a stronger competitive thesis and is a fair countercase."
+  },
+  "strongest_fair_counterargument": "TAM is a forecast, and its rapid revision demonstrates uncertainty. More CPU capacity and better platforms do not guarantee Intel retains dollars or margin. In a $120B 2030 pool, favorable Intel needs 50.1% revenue share. This is demanding and cannot simultaneously coexist with AMD above 50% of the same pool and positive sales by other suppliers. Larger TAM and Intel share loss form a joint investment judgment.",
+  "contradictions_and_noncontradictions": [
+    "Intel forecasts industry units above 30% in 2027; TrendForce forecasts above 40%. These are different estimates, not arithmetic contradictions or observed outcomes.",
+    "AMD’s $220B in 2030 and Intel’s over $200B across five years have different dates and undisclosed methodologies. Do not average them or call them independent market measurements.",
+    "AMD global shipment share, AMD x86 revenue-share headlines, and Intel DCAI segment revenue have different denominators.",
+    "Revenue growth can coexist with unit-share loss if the required mix/ASP improvement and accepted output materialize.",
+    "Both selected and favorable paths can be reasonable. This exercise does not establish an immediate 2031 fade as the default or prove the favorable case is the mode."
+  ],
+  "practical_investment_wording": "Intel can grow without recovering unit share: expanding CPU demand and a richer product mix allow profit growth while competitors gain shipments. I underwrite the existing favorable delivery path and gradual normalization, while treating customer pricing, accepted output and consolidated manufacturing returns as conditions that must hold. This supports a moderate LONG with limited valuation room, rather than a claim of a large risk-adjusted edge.",
+  "what_this_does_not_do": [
+    "Change operating or valuation inputs",
+    "Choose the discount method by the target",
+    "Infer probability from scenario counts",
+    "Value unverified external foundry wins",
+    "Guarantee future customer contracts"
+  ],
+  "verification": "The reproducible calculation reads exact current model JSONs and saves input hashes. No parent model, PDF or builder was modified."
+}

@@ -1,0 +1,242 @@
+{
+  "computed_utc": "2026-11-05T22:39:35.125752+00:00",
+  "scope": "Deterministic threshold math only. No2028-2040industry forecast or market-share prediction is imputed.",
+  "identity": "Intelshare_t/Intelshare_t-1=(1+Intelunitgrowth_t)/(1+industryunitgrowth_t). Share rises if Intelunitgrowth exceeds industryunitgrowth. ASP changes revenue, not this shipment-unit identity.",
+  "2027_aligned_model_illustration": {
+    "2026_industry_units": 100,
+    "2026_Intel_units": 50,
+    "illustrative_industry_growth": 0.4,
+    "2027_industry_units": 140.0,
+    "model_Intel_unit_growth": 0.2,
+    "2027_Intel_units": 60.0,
+    "2027_Intel_unit_share": 0.42857142857142855,
+    "industry_growth_needed_for_exact42percent_share_with_model20percent_Intelgrowth": 0.4285714285714286,
+    "note": "The currentpage2leftillustration uses17.6%Intelgrowth to match40%industrygrowth and42%share, while the modeltableuses20%. Both arearithmeticallyvalid butareexplicitlydifferent examples. Align them at20%Intelgrowth and42.86%share forclearercommunication; retainTrendForce42% asitsseparateforecast."
+  },
+  "annual_thresholds": [
+    {
+      "year": 2027,
+      "Intel_unit_growth": 0.2,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.2,
+      "Intel_ASP_growth": 0.2,
+      "Intel_CPU_revenue_growth": 0.43999999999999995,
+      "Intel_CPU_revenue_B": 31.475088000000003
+    },
+    {
+      "year": 2028,
+      "Intel_unit_growth": 0.25,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.25,
+      "Intel_ASP_growth": 0.08,
+      "Intel_CPU_revenue_growth": 0.3500000000000001,
+      "Intel_CPU_revenue_B": 42.49136880000001
+    },
+    {
+      "year": 2029,
+      "Intel_unit_growth": 0.18,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.18,
+      "Intel_ASP_growth": 0.04,
+      "Intel_CPU_revenue_growth": 0.22720000000000007,
+      "Intel_CPU_revenue_B": 52.14540779136001
+    },
+    {
+      "year": 2030,
+      "Intel_unit_growth": 0.12,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.12,
+      "Intel_ASP_growth": 0.02,
+      "Intel_CPU_revenue_growth": 0.14240000000000008,
+      "Intel_CPU_revenue_B": 59.57091386084968
+    },
+    {
+      "year": 2031,
+      "Intel_unit_growth": 0.08,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.08,
+      "Intel_ASP_growth": 0.02,
+      "Intel_CPU_revenue_growth": 0.10160000000000013,
+      "Intel_CPU_revenue_B": 65.62331870911201
+    },
+    {
+      "year": 2032,
+      "Intel_unit_growth": 0.07,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.07,
+      "Intel_ASP_growth": 0.02,
+      "Intel_CPU_revenue_growth": 0.09140000000000015,
+      "Intel_CPU_revenue_B": 71.62129003912486
+    },
+    {
+      "year": 2033,
+      "Intel_unit_growth": 0.06,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.06,
+      "Intel_ASP_growth": 0.02,
+      "Intel_CPU_revenue_growth": 0.08120000000000016,
+      "Intel_CPU_revenue_B": 77.43693879030182
+    },
+    {
+      "year": 2034,
+      "Intel_unit_growth": 0.05,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.05,
+      "Intel_ASP_growth": 0.02,
+      "Intel_CPU_revenue_growth": 0.07100000000000017,
+      "Intel_CPU_revenue_B": 82.93496144441325
+    },
+    {
+      "year": 2035,
+      "Intel_unit_growth": 0.04,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.04,
+      "Intel_ASP_growth": 0.02,
+      "Intel_CPU_revenue_growth": 0.060799999999999965,
+      "Intel_CPU_revenue_B": 87.97740710023358
+    },
+    {
+      "year": 2036,
+      "Intel_unit_growth": 0.03,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.03,
+      "Intel_ASP_growth": 0.01980198019801982,
+      "Intel_CPU_revenue_growth": 0.05039603960396044,
+      "Intel_CPU_revenue_B": 92.4111199927107
+    },
+    {
+      "year": 2037,
+      "Intel_unit_growth": 0.025,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.025,
+      "Intel_ASP_growth": 0.01980198019801982,
+      "Intel_CPU_revenue_growth": 0.045297029702970226,
+      "Intel_CPU_revenue_B": 96.59706923990525
+    },
+    {
+      "year": 2038,
+      "Intel_unit_growth": 0.02,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.02,
+      "Intel_ASP_growth": 0.01980198019801982,
+      "Intel_CPU_revenue_growth": 0.040198019801980234,
+      "Intel_CPU_revenue_B": 100.48008014202422
+    },
+    {
+      "year": 2039,
+      "Intel_unit_growth": 0.015,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.015,
+      "Intel_ASP_growth": 0.01980198019801982,
+      "Intel_CPU_revenue_growth": 0.03509900990099002,
+      "Intel_CPU_revenue_B": 104.00683146978139
+    },
+    {
+      "year": 2040,
+      "Intel_unit_growth": 0.01,
+      "minimum_industry_unit_growth_for_no_annual_Intel_share_gain": 0.01,
+      "Intel_ASP_growth": 0.01980198019801982,
+      "Intel_CPU_revenue_growth": 0.030000000000000027,
+      "Intel_CPU_revenue_B": 107.12703641387483
+    }
+  ],
+  "2028_2030_compound_thresholds": {
+    "Intel_unit_growth_factor": 1.652,
+    "required_industry_CAGR_to_hold_2027_share_through2030": 0.1821429983992222,
+    "required_industry_CAGR_to_end2030_at_or_below2026_50percent_share_given40percent2027industrygrowth": 0.12293448160029818,
+    "interpretation": "Annualsharegainin2028doesnotnecessarilymean2030shareexceeds2026. Acompanycanregainpartofthe2027sharelosswhileendingbelowitsinitialshare."
+  },
+  "illustrative_industry_scenarios": [
+    {
+      "assumed_constant_industry_unit_growth_2028_2030": 0.1,
+      "annual": [
+        {
+          "year": 2028,
+          "market_units_index": 154.0,
+          "Intel_units_index": 75.0,
+          "Intel_unit_share": 0.487012987012987
+        },
+        {
+          "year": 2029,
+          "market_units_index": 169.4,
+          "Intel_units_index": 88.49999999999999,
+          "Intel_unit_share": 0.5224321133412041
+        },
+        {
+          "year": 2030,
+          "market_units_index": 186.34000000000003,
+          "Intel_units_index": 99.11999999999999,
+          "Intel_unit_share": 0.5319308790383169
+        }
+      ]
+    },
+    {
+      "assumed_constant_industry_unit_growth_2028_2030": 0.15,
+      "annual": [
+        {
+          "year": 2028,
+          "market_units_index": 161.0,
+          "Intel_units_index": 75.0,
+          "Intel_unit_share": 0.4658385093167702
+        },
+        {
+          "year": 2029,
+          "market_units_index": 185.14999999999998,
+          "Intel_units_index": 88.49999999999999,
+          "Intel_unit_share": 0.4779908182554685
+        },
+        {
+          "year": 2030,
+          "market_units_index": 212.92249999999996,
+          "Intel_units_index": 99.11999999999999,
+          "Intel_unit_share": 0.46552149256184766
+        }
+      ]
+    },
+    {
+      "assumed_constant_industry_unit_growth_2028_2030": 0.2,
+      "annual": [
+        {
+          "year": 2028,
+          "market_units_index": 168.0,
+          "Intel_units_index": 75.0,
+          "Intel_unit_share": 0.44642857142857145
+        },
+        {
+          "year": 2029,
+          "market_units_index": 201.6,
+          "Intel_units_index": 88.49999999999999,
+          "Intel_unit_share": 0.4389880952380952
+        },
+        {
+          "year": 2030,
+          "market_units_index": 241.92,
+          "Intel_units_index": 99.11999999999999,
+          "Intel_unit_share": 0.4097222222222222
+        }
+      ]
+    },
+    {
+      "assumed_constant_industry_unit_growth_2028_2030": 0.25,
+      "annual": [
+        {
+          "year": 2028,
+          "market_units_index": 175.0,
+          "Intel_units_index": 75.0,
+          "Intel_unit_share": 0.42857142857142855
+        },
+        {
+          "year": 2029,
+          "market_units_index": 218.75,
+          "Intel_units_index": 88.49999999999999,
+          "Intel_unit_share": 0.4045714285714285
+        },
+        {
+          "year": 2030,
+          "market_units_index": 273.4375,
+          "Intel_units_index": 99.11999999999999,
+          "Intel_unit_share": 0.362496
+        }
+      ]
+    }
+  ],
+  "2030_2040_compound_requirements": {
+    "Intel_unit_growth_factor": 1.4766742938804358,
+    "Intel_unit_CAGR": 0.03974890453274593,
+    "Intel_ASP_growth_factor": 1.2178116193658657,
+    "Intel_ASP_CAGR": 0.019900985293170637,
+    "CPU_revenue_growth_factor": 1.7983111131064802,
+    "CPU_revenue_CAGR": 0.06044093219044244,
+    "CPU_revenue_B_2030": 59.57091386084968,
+    "CPU_revenue_B_2040": 107.12703641387483,
+    "interpretation": "Large2040nominalrevenueisnotitselfproofthatgrowthassumptionsareimplausible. Afterthe2030recovery,themodelrequiresabout4%annualunitgrowthand2%annualASPgrowthoveradecade,withbothdecelerating. Theirinvestmentvaluealsodependsonretainedprofitsandfundedcapital."
+  },
+  "no_source_claim": "No analystsource supports theillustrative10/15/20/25%industry paths. Theyareconditionschosen toexplain theidentity, notbear/base/bull forecasts or probabilities."
+}

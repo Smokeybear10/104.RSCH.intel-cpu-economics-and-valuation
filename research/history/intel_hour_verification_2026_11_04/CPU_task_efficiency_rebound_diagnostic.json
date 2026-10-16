@@ -1,0 +1,322 @@
+{
+  "policy_frozen_at_utc": "2026-11-04 22:55:05 UTC",
+  "purpose": "Algebraic rebound and economic-value check requested by root. No industry demand elasticity or Intel valuation inferred. Parameters selected to span mechanisms, not fit a target.",
+  "quantities": {
+    "f": "CPU work per completed task after optimization, as a fraction of prior work.",
+    "k": "CPU portion of all-in task variable cost before optimization.",
+    "lambda": "Fraction of direct cost savings passed through into task price.",
+    "epsilon": "Absolute task-demand price elasticity.",
+    "a": "Additional task-demand multiplier due to latency, reliability or quality improvements, independent of price.",
+    "h": "Multiplier for CPU useful work per purchased socket from hardware throughput and occupancy.",
+    "s": "Intel share multiplier of purchased CPU units.",
+    "p": "Intel average selling price multiplier.",
+    "gamma": "Additional reduction in all-in task cost from less GPU waiting, less KV-cache pressure, or other non-CPU costs, as a fraction of original task cost; exclude overlap with direct CPU savings."
+  },
+  "formula": {
+    "task_price_ratio": "1 - lambda*k*(1-f)",
+    "task_quantity_ratio": "a * task_price_ratio**(-epsilon)",
+    "CPU_work_demand_ratio": "f * task_quantity_ratio",
+    "Intel_units_ratio": "CPU_work_demand_ratio / h * s",
+    "Intel_revenue_ratio": "Intel_units_ratio * p",
+    "price_only_rebound_threshold": "epsilon_star = ln(f)/ln(task_price_ratio), with a=h=s=p=1; if no price decline there is no finite price-only rebound threshold.",
+    "quality_rebound_threshold": "a_star = 1 / (f * task_price_ratio**(-epsilon)) before hardware/share/ASP effects.",
+    "general_task_price_ratio": "1 - lambda*(k*(1-f) + gamma), with total savings fraction between 0 and 1. Numeric grid sets gamma=0; it therefore isolates direct CPU cost pass-through."
+  },
+  "sensitivity_inputs": {
+    "f": [
+      0.75,
+      0.54
+    ],
+    "k": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "lambda": 1.0,
+    "epsilon": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "a": 1.0,
+    "h": 1.0,
+    "s": 1.0,
+    "p": 1.0,
+    "gamma": 0
+  },
+  "scope_guards": [
+    "0.75 and 0.54 mirror particular experimental tool-work reductions, not aggregate industry efficiency assumptions.",
+    "Full price pass-through is favorable to rebound; premium silicon could retain savings as provider profit or increase capital price instead.",
+    "CPU cost share is not CPU latency share. Time spent waiting can cost GPU utilization, user retention or training time beyond CPU COGS, so nonprice a can be material.",
+    "No fixed CPU:GPU ratio or fixed population of agents is assumed. The model isolates task demand and work per task; pooling can raise occupancy and hardware can improve work per socket.",
+    "Raw market growth can raise CPU demand even when the efficiency effect alone lowers it. This diagnostic is multiplicative relative to an otherwise identical demand path.",
+    "The existing Intel base already permits 2027 industry growth and Intel share loss; nothing here justifies subtracting another generic Arm-share penalty.",
+    "GPU idle-cost savings belong in gamma; latency and quality adoption effects belong in a. A low direct CPU cost share alone does not prove low all-in savings. Neither spillover is calibrated by these sources."
+  ],
+  "results": [
+    {
+      "remaining_CPU_work_per_task": 0.75,
+      "CPU_share_of_task_cost": 0.1,
+      "task_price_ratio": 0.975,
+      "break_even_price_elasticity": 11.362834911706898,
+      "cases": [
+        {
+          "elasticity": 0,
+          "tasks_ratio": 1.0,
+          "CPU_work_ratio": 0.75,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.3333333333333333
+        },
+        {
+          "elasticity": 1,
+          "tasks_ratio": 1.0256410256410258,
+          "CPU_work_ratio": 0.7692307692307694,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.2999999999999998
+        },
+        {
+          "elasticity": 2,
+          "tasks_ratio": 1.051939513477975,
+          "CPU_work_ratio": 0.7889546351084813,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.2674999999999998
+        },
+        {
+          "elasticity": 3,
+          "tasks_ratio": 1.0789123215158718,
+          "CPU_work_ratio": 0.8091842411369039,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.2358125
+        }
+      ]
+    },
+    {
+      "remaining_CPU_work_per_task": 0.75,
+      "CPU_share_of_task_cost": 0.25,
+      "task_price_ratio": 0.9375,
+      "break_even_price_elasticity": 4.457525015773974,
+      "cases": [
+        {
+          "elasticity": 0,
+          "tasks_ratio": 1.0,
+          "CPU_work_ratio": 0.75,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.3333333333333333
+        },
+        {
+          "elasticity": 1,
+          "tasks_ratio": 1.0666666666666667,
+          "CPU_work_ratio": 0.8,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.25
+        },
+        {
+          "elasticity": 2,
+          "tasks_ratio": 1.1377777777777778,
+          "CPU_work_ratio": 0.8533333333333333,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.171875
+        },
+        {
+          "elasticity": 3,
+          "tasks_ratio": 1.2136296296296296,
+          "CPU_work_ratio": 0.9102222222222223,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.0986328125
+        }
+      ]
+    },
+    {
+      "remaining_CPU_work_per_task": 0.75,
+      "CPU_share_of_task_cost": 0.5,
+      "task_price_ratio": 0.875,
+      "break_even_price_elasticity": 2.1544152786657076,
+      "cases": [
+        {
+          "elasticity": 0,
+          "tasks_ratio": 1.0,
+          "CPU_work_ratio": 0.75,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.3333333333333333
+        },
+        {
+          "elasticity": 1,
+          "tasks_ratio": 1.1428571428571428,
+          "CPU_work_ratio": 0.8571428571428571,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.1666666666666667
+        },
+        {
+          "elasticity": 2,
+          "tasks_ratio": 1.3061224489795917,
+          "CPU_work_ratio": 0.9795918367346939,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.0208333333333333
+        },
+        {
+          "elasticity": 3,
+          "tasks_ratio": 1.4927113702623906,
+          "CPU_work_ratio": 1.119533527696793,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 0.8932291666666666
+        }
+      ]
+    },
+    {
+      "remaining_CPU_work_per_task": 0.75,
+      "CPU_share_of_task_cost": 1.0,
+      "task_price_ratio": 0.75,
+      "break_even_price_elasticity": 1.0,
+      "cases": [
+        {
+          "elasticity": 0,
+          "tasks_ratio": 1.0,
+          "CPU_work_ratio": 0.75,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.3333333333333333
+        },
+        {
+          "elasticity": 1,
+          "tasks_ratio": 1.3333333333333333,
+          "CPU_work_ratio": 1.0,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.0
+        },
+        {
+          "elasticity": 2,
+          "tasks_ratio": 1.7777777777777777,
+          "CPU_work_ratio": 1.3333333333333333,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 0.75
+        },
+        {
+          "elasticity": 3,
+          "tasks_ratio": 2.3703703703703702,
+          "CPU_work_ratio": 1.7777777777777777,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 0.5625
+        }
+      ]
+    },
+    {
+      "remaining_CPU_work_per_task": 0.54,
+      "CPU_share_of_task_cost": 0.1,
+      "task_price_ratio": 0.954,
+      "break_even_price_elasticity": 13.084839777042813,
+      "cases": [
+        {
+          "elasticity": 0,
+          "tasks_ratio": 1.0,
+          "CPU_work_ratio": 0.54,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.8518518518518516
+        },
+        {
+          "elasticity": 1,
+          "tasks_ratio": 1.0482180293501049,
+          "CPU_work_ratio": 0.5660377358490567,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.7666666666666664
+        },
+        {
+          "elasticity": 2,
+          "tasks_ratio": 1.0987610370546173,
+          "CPU_work_ratio": 0.5933309600094934,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.6853999999999998
+        },
+        {
+          "elasticity": 3,
+          "tasks_ratio": 1.1517411289880686,
+          "CPU_work_ratio": 0.6219402096535571,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.6078715999999995
+        }
+      ]
+    },
+    {
+      "remaining_CPU_work_per_task": 0.54,
+      "CPU_share_of_task_cost": 0.25,
+      "task_price_ratio": 0.885,
+      "break_even_price_elasticity": 5.043775666097523,
+      "cases": [
+        {
+          "elasticity": 0,
+          "tasks_ratio": 1.0,
+          "CPU_work_ratio": 0.54,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.8518518518518516
+        },
+        {
+          "elasticity": 1,
+          "tasks_ratio": 1.1299435028248588,
+          "CPU_work_ratio": 0.6101694915254238,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.6388888888888888
+        },
+        {
+          "elasticity": 2,
+          "tasks_ratio": 1.2767723195761116,
+          "CPU_work_ratio": 0.6894570525711003,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.4504166666666665
+        },
+        {
+          "elasticity": 3,
+          "tasks_ratio": 1.4426805870916515,
+          "CPU_work_ratio": 0.7790475170294918,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.28361875
+        }
+      ]
+    },
+    {
+      "remaining_CPU_work_per_task": 0.54,
+      "CPU_share_of_task_cost": 0.5,
+      "task_price_ratio": 0.77,
+      "break_even_price_elasticity": 2.3575715780377404,
+      "cases": [
+        {
+          "elasticity": 0,
+          "tasks_ratio": 1.0,
+          "CPU_work_ratio": 0.54,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.8518518518518516
+        },
+        {
+          "elasticity": 1,
+          "tasks_ratio": 1.2987012987012987,
+          "CPU_work_ratio": 0.7012987012987013,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.4259259259259258
+        },
+        {
+          "elasticity": 2,
+          "tasks_ratio": 1.6866250632484399,
+          "CPU_work_ratio": 0.9107775341541576,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.0979629629629628
+        },
+        {
+          "elasticity": 3,
+          "tasks_ratio": 2.1904221600629086,
+          "CPU_work_ratio": 1.1828279664339707,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 0.8454314814814816
+        }
+      ]
+    },
+    {
+      "remaining_CPU_work_per_task": 0.54,
+      "CPU_share_of_task_cost": 1.0,
+      "task_price_ratio": 0.54,
+      "break_even_price_elasticity": 1.0,
+      "cases": [
+        {
+          "elasticity": 0,
+          "tasks_ratio": 1.0,
+          "CPU_work_ratio": 0.54,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.8518518518518516
+        },
+        {
+          "elasticity": 1,
+          "tasks_ratio": 1.8518518518518516,
+          "CPU_work_ratio": 1.0,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 1.0
+        },
+        {
+          "elasticity": 2,
+          "tasks_ratio": 3.4293552812071324,
+          "CPU_work_ratio": 1.8518518518518516,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 0.54
+        },
+        {
+          "elasticity": 3,
+          "tasks_ratio": 6.350657928161357,
+          "CPU_work_ratio": 3.429355281207133,
+          "extra_nonprice_task_demand_to_restore_CPU_work": 0.2916
+        }
+      ]
+    }
+  ],
+  "interpretation": [
+    "There is no automatic demand conclusion from lower work per task. At full CPU cost share and complete pass-through, elasticity above 1 creates more aggregate CPU work; below 1 creates less.",
+    "When CPU is a small part of overall task cost, direct CPU savings reduce the task price much less than CPU work. Price-only rebound then requires much higher elasticity. Latency/quality improvements can add demand independently and are not estimated here.",
+    "A premium CPU can create value even with flat or declining CPU unit count if it improves expensive GPU usage or customer responsiveness. The buyer may accept a higher chip price while lowering task TCO. The supplier captures only some of the benefit, depending on competing alternatives.",
+    "Actual evidence does not estimate k, epsilon, a, utilization or supplier capture. Hence experimental CPU savings cannot be used to revise aggregate Intel units or ASP numerically."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "computed_utc": "2026-11-05T06:40:57.798670+00:00",
+  "period": "2027\u20132030 forecasts, unchanged source model",
+  "EBIT_B": 111.25315092811026,
+  "DA_B": 72.24142857142857,
+  "physical_cash_capex_B": 124.5,
+  "WC_use_B": 18.01099621548313,
+  "net_tax_incentives_B": 1.2310273607834574,
+  "leases_NCI_B": 8.7,
+  "net_financing_B": -5.927500000000002,
+  "owner_cash_B": 27.587110644839157,
+  "net_operating_investment_B": 70.26956764405456,
+  "net_operating_investment_fraction_EBIT": 0.631618673788947,
+  "cash_identity_error_B": -2.1316282072803006e-14,
+  "interpretation": "Nominal cumulative economic cash bridge. Not GAAP FCF, distributions, investment return, ROIC, or a measured consensus miss. Growth investment supports later value. Short claim remains valuation-led and relative; no forecast changed."
+}

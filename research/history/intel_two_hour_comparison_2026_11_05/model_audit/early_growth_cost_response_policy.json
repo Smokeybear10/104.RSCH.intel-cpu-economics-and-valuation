@@ -1,0 +1,28 @@
+{
+  "specified_utc": "2026-11-06T00:12:56.739011+00:00",
+  "question": "Does the early-growth normalization result depend on assumed near-term cost flexibility?",
+  "input": "early_growth_deceleration_results.json",
+  "input_sha256": "17cb27661a55812f93958f2378834865892b5c488e8a648f945805fb980e920c",
+  "prespecified_cases": [
+    {
+      "name": "published50",
+      "2028_2030_lost_revenue_to_group_EBIT": 0.5
+    },
+    {
+      "name": "less_cost_flexibility75",
+      "2028_2030_lost_revenue_to_group_EBIT": 0.75
+    },
+    {
+      "name": "no_avoided_cost100",
+      "2028_2030_lost_revenue_to_group_EBIT": 1.0
+    }
+  ],
+  "unchanged": "All revenue paths; 2027; capex/DA/WC; taxes/financing policy; leases/minority reserves;2031-onward early-growth operating path;1.215B named claims. Changes affect2028\u201330 EBIT and resulting cash, not future terminal margins.",
+  "limits": [
+    "Illustrations, not empirically estimated decremental margins or probabilities.",
+    "100% means no dollar operating costs avoided on the lost revenue in those years, not a comprehensive worst-case loss bound.",
+    "No separate Foundry profit penalty is stacked; the change is consolidated EBIT.",
+    "Annual cash sufficiency does not establish intraquarter liquidity."
+  ],
+  "presentation_decision": "Supplemental audit only unless it contradicts a displayed claim. Do not crowd the screen with duplicate sensitivities."
+}

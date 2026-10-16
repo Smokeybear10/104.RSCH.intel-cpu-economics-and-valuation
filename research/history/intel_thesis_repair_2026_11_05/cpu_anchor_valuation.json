@@ -1,0 +1,3019 @@
+{
+  "as_of_utc": "2026-11-05T19:56:31.860897+00:00",
+  "method": "Full funded cash-flow deltas on frozen model; capex, depreciation, working capital, operating taxes, finite credits and retained cash recomputed under predeclared policy. All2000+ nominal values and macro assumptions otherwise unchanged.",
+  "sources": {
+    "policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_policy.json",
+      "sha256": "ec87a06ba18c081ebd6209b7338879a801fbcaa3c53cdf8fda45a32dbd610ddf"
+    },
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "rates": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "tax": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/root_corporate_tax_credit_valuation_policy.json",
+      "sha256": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031"
+    }
+  },
+  "scenarios": [
+    {
+      "branch": "unchanged",
+      "initial_decremental_contribution": 0.5,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 31.475088000000003,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": -10.182712883085713,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 34.74028711691429
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 42.49136880000001,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 3.784903605352879,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 34.830940722267165
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 52.14540779136001,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0.0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 16.576545150104643,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 46.64698587237181
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 59.57091386084968,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0.0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.33587477246735,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 65.77911064483916
+        },
+        {
+          "year": 2031,
+          "CPU_revenue_B": 65.62331870911201,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.129919191524117,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 88.04691670036328
+        },
+        {
+          "year": 2032,
+          "CPU_revenue_B": 71.62129003912486,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": -8.881784197001252e-16,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 25.546070948219004,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2033,
+          "CPU_revenue_B": 77.43693879030182,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 27.651203759792477,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2034,
+          "CPU_revenue_B": 82.93496144441325,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 29.85469892793316,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2035,
+          "CPU_revenue_B": 87.97740710023358,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 32.5157507910643,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2036,
+          "CPU_revenue_B": 92.4111199927107,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 35.48704857141074,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2037,
+          "CPU_revenue_B": 96.59706923990525,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 37.53816312170277,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2038,
+          "CPU_revenue_B": 100.48008014202422,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 39.5047344891523,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2039,
+          "CPU_revenue_B": 104.00683146978139,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 41.19975733447003,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2040,
+          "CPU_revenue_B": 107.12703641387483,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 42.78278762555405,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2041,
+          "CPU_revenue_B": 110.34084750629108,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": -1.7763568394002505e-15,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 44.06627125432069,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        }
+      ],
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 46.95806228358314,
+            "operating_PV_B": 249.46843232554565,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 53.77047718436613,
+            "operating_PV_B": 286.8209743654562,
+            "tax_benefit_PV_B": 2.772818151398819,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 64.1458230460918,
+            "operating_PV_B": 338.1972052327185,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 46.64698587237181,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.030845585008524745,
+                "short_price_PnL_per100": -10.064898843671589,
+                "short_net_proceeds_yield_breakeven": 0.030845585008524745,
+                "short_PnL_per100_after3pct_net_proceeds": -0.284752384149467,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.05797389315956214,
+                "short_price_PnL_per100": -19.45218444337393,
+                "short_net_proceeds_yield_breakeven": 0.05797389315956214,
+                "short_PnL_per100_after3pct_net_proceeds": -9.680921867052362,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.05253553172923975,
+                "short_price_PnL_per100": -17.52624229771309,
+                "short_net_proceeds_yield_breakeven": 0.05253553172923975,
+                "short_PnL_per100_after3pct_net_proceeds": -7.7549797213915195,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 73.60314582615611,
+            "operating_PV_B": 390.0518047942858,
+            "tax_benefit_PV_B": 2.9845428354625536,
+            "ending_economic_cash_B": 46.64698587237181,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.0767487771435651,
+                "short_price_PnL_per100": -26.29228865160622,
+                "short_net_proceeds_yield_breakeven": 0.0767487771435651,
+                "short_PnL_per100_after3pct_net_proceeds": -16.5121421920841,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.1051268925718889,
+                "short_price_PnL_per100": -37.063586268447125,
+                "short_net_proceeds_yield_breakeven": 0.1051268925718889,
+                "short_PnL_per100_after3pct_net_proceeds": -27.292323692125553,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.09944614798354534,
+                "short_price_PnL_per100": -34.8536933421695,
+                "short_net_proceeds_yield_breakeven": 0.09944614798354534,
+                "short_PnL_per100_after3pct_net_proceeds": -25.08243076584793,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 70.97777530967525,
+            "operating_PV_B": 353.9400175248918,
+            "tax_benefit_PV_B": 2.748413786579589,
+            "ending_economic_cash_B": 65.77911064483916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.048569270281402455,
+                "short_price_PnL_per100": -21.787534848447578,
+                "short_net_proceeds_yield_breakeven": 0.048569270281402455,
+                "short_PnL_per100_after3pct_net_proceeds": -8.71627166448814,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06947091936473204,
+                "short_price_PnL_per100": -32.17462813719785,
+                "short_net_proceeds_yield_breakeven": 0.06947091936473204,
+                "short_PnL_per100_after3pct_net_proceeds": -19.112515167806897,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06529359641684418,
+                "short_price_PnL_per100": -30.043560479434326,
+                "short_net_proceeds_yield_breakeven": 0.06529359641684418,
+                "short_PnL_per100_after3pct_net_proceeds": -16.98144751004338,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 81.52789173697595,
+            "operating_PV_B": 411.786416065798,
+            "tax_benefit_PV_B": 3.0331567601002503,
+            "ending_economic_cash_B": 65.77911064483916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.08412189724188424,
+                "short_price_PnL_per100": -39.88999954868899,
+                "short_net_proceeds_yield_breakeven": 0.08412189724188424,
+                "short_PnL_per100_after3pct_net_proceeds": -26.818736364729556,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10575653869558166,
+                "short_price_PnL_per100": -51.82102744315817,
+                "short_net_proceeds_yield_breakeven": 0.10575653869558166,
+                "short_PnL_per100_after3pct_net_proceeds": -38.75891447376723,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10143748515215867,
+                "short_price_PnL_per100": -49.3731984920776,
+                "short_net_proceeds_yield_breakeven": 0.10143748515215867,
+                "short_PnL_per100_after3pct_net_proceeds": -36.311085522686646,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_decremental_contribution": 0.35,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 28.7,
+          "CPU_revenue_delta_B": -2.775088000000003,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.2775088000000003,
+          "EBIT_delta_B": -0.9712808000000009,
+          "ordinary_tax_delta_B": -0.1456921200000001,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": -10.730792763085715,
+          "cash_delta_B": -0.5480798800000013,
+          "ending_economic_cash_B": 34.192207236914285
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 40.61818440000001,
+          "CPU_revenue_delta_B": -1.8731844000000022,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.09019036000000008,
+          "EBIT_delta_B": -0.6556145400000007,
+          "ordinary_tax_delta_B": -0.09834218100000003,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 3.137440886352878,
+          "cash_delta_B": -0.6474627190000009,
+          "ending_economic_cash_B": 33.635398123267166
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 52.14540779136001,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.18731844000000022,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0.0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 16.389226710104644,
+          "cash_delta_B": -0.18731843999999853,
+          "ending_economic_cash_B": 45.26412483337181
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 59.57091386084968,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0.0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.33587477246735,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 64.39624960583916
+        },
+        {
+          "year": 2031,
+          "CPU_revenue_B": 65.62331870911201,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.129919191524117,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 86.66405566136328
+        },
+        {
+          "year": 2032,
+          "CPU_revenue_B": 71.62129003912486,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": -8.881784197001252e-16,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 25.546070948219004,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2033,
+          "CPU_revenue_B": 77.43693879030182,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 27.651203759792477,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2034,
+          "CPU_revenue_B": 82.93496144441325,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 29.85469892793316,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2035,
+          "CPU_revenue_B": 87.97740710023358,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 32.5157507910643,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2036,
+          "CPU_revenue_B": 92.4111199927107,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 35.48704857141074,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2037,
+          "CPU_revenue_B": 96.59706923990525,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 37.53816312170277,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2038,
+          "CPU_revenue_B": 100.48008014202422,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 39.5047344891523,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2039,
+          "CPU_revenue_B": 104.00683146978139,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 41.19975733447003,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2040,
+          "CPU_revenue_B": 107.12703641387483,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 42.78278762555405,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2041,
+          "CPU_revenue_B": 110.34084750629108,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": -1.7763568394002505e-15,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 44.06627125432069,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        }
+      ],
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 46.74998241112432,
+            "operating_PV_B": 248.32191222829752,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 53.56239731190732,
+            "operating_PV_B": 285.67445426820814,
+            "tax_benefit_PV_B": 2.772818151398819,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 63.89485008075605,
+            "operating_PV_B": 338.1972052327185,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 45.26412483337181,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.029566220081585826,
+                "short_price_PnL_per100": -9.634265752841543,
+                "short_net_proceeds_yield_breakeven": 0.029566220081585826,
+                "short_PnL_per100_after3pct_net_proceeds": 0.14588070668057895,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.0566597206729158,
+                "short_price_PnL_per100": -18.984823241631375,
+                "short_net_proceeds_yield_breakeven": 0.0566597206729158,
+                "short_PnL_per100_after3pct_net_proceeds": -9.213560665309807,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.051228114555754045,
+                "short_price_PnL_per100": -17.066416417654917,
+                "short_net_proceeds_yield_breakeven": 0.051228114555754045,
+                "short_PnL_per100_after3pct_net_proceeds": -7.295153841333346,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 73.35217286082035,
+            "operating_PV_B": 390.0518047942858,
+            "tax_benefit_PV_B": 2.9845428354625536,
+            "ending_economic_cash_B": 45.26412483337181,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.07558434973254546,
+                "short_price_PnL_per100": -25.861655560776153,
+                "short_net_proceeds_yield_breakeven": 0.07558434973254546,
+                "short_PnL_per100_after3pct_net_proceeds": -16.08150910125403,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.10393073937663089,
+                "short_price_PnL_per100": -36.59622506670455,
+                "short_net_proceeds_yield_breakeven": 0.10393073937663089,
+                "short_PnL_per100_after3pct_net_proceeds": -26.824962490382976,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.09825614344038924,
+                "short_price_PnL_per100": -34.3938674621113,
+                "short_net_proceeds_yield_breakeven": 0.09825614344038924,
+                "short_PnL_per100_after3pct_net_proceeds": -24.622604885789734,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 70.72680234433949,
+            "operating_PV_B": 353.9400175248918,
+            "tax_benefit_PV_B": 2.748413786579589,
+            "ending_economic_cash_B": 64.39624960583916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.047675956509089845,
+                "short_price_PnL_per100": -21.356901757617507,
+                "short_net_proceeds_yield_breakeven": 0.047675956509089845,
+                "short_PnL_per100_after3pct_net_proceeds": -8.285638573658073,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06855919837704816,
+                "short_price_PnL_per100": -31.70726693545529,
+                "short_net_proceeds_yield_breakeven": 0.06855919837704816,
+                "short_PnL_per100_after3pct_net_proceeds": -18.645153966064342,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06438543658536844,
+                "short_price_PnL_per100": -29.583734599376132,
+                "short_net_proceeds_yield_breakeven": 0.06438543658536844,
+                "short_PnL_per100_after3pct_net_proceeds": -16.521621629985184,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 81.27691877164018,
+            "operating_PV_B": 411.786416065798,
+            "tax_benefit_PV_B": 3.0331567601002503,
+            "ending_economic_cash_B": 64.39624960583916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.08331795371976458,
+                "short_price_PnL_per100": -39.45936645785893,
+                "short_net_proceeds_yield_breakeven": 0.08331795371976458,
+                "short_PnL_per100_after3pct_net_proceeds": -26.38810327389949,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10493601141574116,
+                "short_price_PnL_per100": -51.353666241415596,
+                "short_net_proceeds_yield_breakeven": 0.10493601141574116,
+                "short_PnL_per100_after3pct_net_proceeds": -38.29155327202465,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10062016282850106,
+                "short_price_PnL_per100": -48.9133726120194,
+                "short_net_proceeds_yield_breakeven": 0.10062016282850106,
+                "short_PnL_per100_after3pct_net_proceeds": -35.85125964262845,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_decremental_contribution": 0.5,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 28.7,
+          "CPU_revenue_delta_B": -2.775088000000003,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.2775088000000003,
+          "EBIT_delta_B": -1.3875440000000014,
+          "ordinary_tax_delta_B": -0.20813160000000042,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": -11.084616483085716,
+          "cash_delta_B": -0.9019036000000025,
+          "ending_economic_cash_B": 33.838383516914284
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 40.61818440000001,
+          "CPU_revenue_delta_B": -1.8731844000000022,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.09019036000000008,
+          "EBIT_delta_B": -0.9365922000000011,
+          "ordinary_tax_delta_B": -0.1404888299999998,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 2.8986098753528773,
+          "cash_delta_B": -0.8862937300000016,
+          "ending_economic_cash_B": 33.04274339226716
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 52.14540779136001,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.18731844000000022,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0.0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 16.389226710104644,
+          "cash_delta_B": -0.18731843999999853,
+          "ending_economic_cash_B": 44.671470102371806
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 59.57091386084968,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0.0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.33587477246735,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 63.80359487483916
+        },
+        {
+          "year": 2031,
+          "CPU_revenue_B": 65.62331870911201,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.129919191524117,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 86.07140093036328
+        },
+        {
+          "year": 2032,
+          "CPU_revenue_B": 71.62129003912486,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": -8.881784197001252e-16,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 25.546070948219004,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2033,
+          "CPU_revenue_B": 77.43693879030182,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 27.651203759792477,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2034,
+          "CPU_revenue_B": 82.93496144441325,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 29.85469892793316,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2035,
+          "CPU_revenue_B": 87.97740710023358,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 32.5157507910643,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2036,
+          "CPU_revenue_B": 92.4111199927107,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 35.48704857141074,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2037,
+          "CPU_revenue_B": 96.59706923990525,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 37.53816312170277,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2038,
+          "CPU_revenue_B": 100.48008014202422,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 39.5047344891523,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2039,
+          "CPU_revenue_B": 104.00683146978139,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 41.19975733447003,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2040,
+          "CPU_revenue_B": 107.12703641387483,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 42.78278762555405,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2041,
+          "CPU_revenue_B": 110.34084750629108,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": -1.7763568394002505e-15,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 44.06627125432069,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        }
+      ],
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 46.6575884222187,
+            "operating_PV_B": 247.8128213494276,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 53.47000332300169,
+            "operating_PV_B": 285.16536338933815,
+            "tax_benefit_PV_B": 2.772818151398819,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 63.7872902384693,
+            "operating_PV_B": 338.1972052327185,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 44.671470102371806,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.02901686972172146,
+                "short_price_PnL_per100": -9.449708713914372,
+                "short_net_proceeds_yield_breakeven": 0.02901686972172146,
+                "short_PnL_per100_after3pct_net_proceeds": 0.33043774560774786,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.0560954246250609,
+                "short_price_PnL_per100": -18.784525583741708,
+                "short_net_proceeds_yield_breakeven": 0.0560954246250609,
+                "short_PnL_per100_after3pct_net_proceeds": -9.013263007420136,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.05066671918993104,
+                "short_price_PnL_per100": -16.869348183344268,
+                "short_net_proceeds_yield_breakeven": 0.05066671918993104,
+                "short_PnL_per100_after3pct_net_proceeds": -7.098085607022697,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 73.2446130185336,
+            "operating_PV_B": 390.0518047942858,
+            "tax_benefit_PV_B": 2.9845428354625536,
+            "ending_economic_cash_B": 44.671470102371806,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.07508447609246005,
+                "short_price_PnL_per100": -25.677098521849008,
+                "short_net_proceeds_yield_breakeven": 0.07508447609246005,
+                "short_PnL_per100_after3pct_net_proceeds": -15.896952062326886,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.10341724661213902,
+                "short_price_PnL_per100": -36.3959274088149,
+                "short_net_proceeds_yield_breakeven": 0.10341724661213902,
+                "short_PnL_per100_after3pct_net_proceeds": -26.624664832493327,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.09774529021101541,
+                "short_price_PnL_per100": -34.19679922780065,
+                "short_net_proceeds_yield_breakeven": 0.09774529021101541,
+                "short_PnL_per100_after3pct_net_proceeds": -24.425536651479085,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 70.61924250205274,
+            "operating_PV_B": 353.9400175248918,
+            "tax_benefit_PV_B": 2.748413786579589,
+            "ending_economic_cash_B": 63.80359487483916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.04729237073726145,
+                "short_price_PnL_per100": -21.17234471869036,
+                "short_net_proceeds_yield_breakeven": 0.04729237073726145,
+                "short_PnL_per100_after3pct_net_proceeds": -8.101081534730925,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06816770876933442,
+                "short_price_PnL_per100": -31.506969277565624,
+                "short_net_proceeds_yield_breakeven": 0.06816770876933442,
+                "short_PnL_per100_after3pct_net_proceeds": -18.44485630817467,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06399547612491108,
+                "short_price_PnL_per100": -29.386666365065484,
+                "short_net_proceeds_yield_breakeven": 0.06399547612491108,
+                "short_PnL_per100_after3pct_net_proceeds": -16.324553395674535,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 81.16935892935344,
+            "operating_PV_B": 411.786416065798,
+            "tax_benefit_PV_B": 3.0331567601002503,
+            "ending_economic_cash_B": 63.80359487483916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.08297282932570371,
+                "short_price_PnL_per100": -39.27480941893178,
+                "short_net_proceeds_yield_breakeven": 0.08297282932570371,
+                "short_PnL_per100_after3pct_net_proceeds": -26.203546234972343,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.1045837679141941,
+                "short_price_PnL_per100": -51.153368583525946,
+                "short_net_proceeds_yield_breakeven": 0.1045837679141941,
+                "short_PnL_per100_after3pct_net_proceeds": -38.091255614135,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10026929518003747,
+                "short_price_PnL_per100": -48.71630437770875,
+                "short_net_proceeds_yield_breakeven": 0.10026929518003747,
+                "short_PnL_per100_after3pct_net_proceeds": -35.6541914083178,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_decremental_contribution": 0.65,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 28.7,
+          "CPU_revenue_delta_B": -2.775088000000003,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.2775088000000003,
+          "EBIT_delta_B": -1.8038072000000018,
+          "ordinary_tax_delta_B": -0.2705710800000003,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": -11.438440203085715,
+          "cash_delta_B": -1.2557273200000019,
+          "ending_economic_cash_B": 33.48455979691428
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 40.61818440000001,
+          "CPU_revenue_delta_B": -1.8731844000000022,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.09019036000000008,
+          "EBIT_delta_B": -1.2175698600000016,
+          "ordinary_tax_delta_B": -0.182635479,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 2.659778864352877,
+          "cash_delta_B": -1.1251247410000018,
+          "ending_economic_cash_B": 32.45008866126716
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 52.14540779136001,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.18731844000000022,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0.0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 16.389226710104644,
+          "cash_delta_B": -0.18731843999999853,
+          "ending_economic_cash_B": 44.0788153713718
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 59.57091386084968,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0.0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.33587477246735,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 63.21094014383916
+        },
+        {
+          "year": 2031,
+          "CPU_revenue_B": 65.62331870911201,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.129919191524117,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": 85.47874619936329
+        },
+        {
+          "year": 2032,
+          "CPU_revenue_B": 71.62129003912486,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": -8.881784197001252e-16,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 25.546070948219004,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2033,
+          "CPU_revenue_B": 77.43693879030182,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 27.651203759792477,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2034,
+          "CPU_revenue_B": 82.93496144441325,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 29.85469892793316,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2035,
+          "CPU_revenue_B": 87.97740710023358,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 32.5157507910643,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2036,
+          "CPU_revenue_B": 92.4111199927107,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 35.48704857141074,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2037,
+          "CPU_revenue_B": 96.59706923990525,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 37.53816312170277,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2038,
+          "CPU_revenue_B": 100.48008014202422,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 39.5047344891523,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2039,
+          "CPU_revenue_B": 104.00683146978139,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 41.19975733447003,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2040,
+          "CPU_revenue_B": 107.12703641387483,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": 0.0,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 42.78278762555405,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2041,
+          "CPU_revenue_B": 110.34084750629108,
+          "CPU_revenue_delta_B": 0.0,
+          "physical_capex_delta_B": 0.0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": 0.0,
+          "EBIT_delta_B": 0.0,
+          "ordinary_tax_delta_B": -1.7763568394002505e-15,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 44.06627125432069,
+          "cash_delta_B": 0.0,
+          "ending_economic_cash_B": null
+        }
+      ],
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 46.565194433313096,
+            "operating_PV_B": 247.30373047055767,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 53.37760933409609,
+            "operating_PV_B": 284.6562725104683,
+            "tax_benefit_PV_B": 2.772818151398819,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 63.67973039618254,
+            "operating_PV_B": 338.1972052327185,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 44.0788153713718,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.028466886112163525,
+                "short_price_PnL_per100": -9.265151674987205,
+                "short_net_proceeds_yield_breakeven": 0.028466886112163525,
+                "short_PnL_per100_after3pct_net_proceeds": 0.5149947845349168,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.055530478361207836,
+                "short_price_PnL_per100": -18.584227925852037,
+                "short_net_proceeds_yield_breakeven": 0.055530478361207836,
+                "short_PnL_per100_after3pct_net_proceeds": -8.812965349530465,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.05010467695045073,
+                "short_price_PnL_per100": -16.67227994903362,
+                "short_net_proceeds_yield_breakeven": 0.05010467695045073,
+                "short_PnL_per100_after3pct_net_proceeds": -6.901017372712048,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 73.13705317624685,
+            "operating_PV_B": 390.0518047942858,
+            "tax_benefit_PV_B": 2.9845428354625536,
+            "ending_economic_cash_B": 44.0788153713718,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.0745841006740453,
+                "short_price_PnL_per100": -25.492541482921837,
+                "short_net_proceeds_yield_breakeven": 0.0745841006740453,
+                "short_PnL_per100_after3pct_net_proceeds": -15.712395023399717,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.10290323860586414,
+                "short_price_PnL_per100": -36.19562975092523,
+                "short_net_proceeds_yield_breakeven": 0.10290323860586414,
+                "short_PnL_per100_after3pct_net_proceeds": -26.42436717460366,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.09723392438838463,
+                "short_price_PnL_per100": -33.99973099349003,
+                "short_net_proceeds_yield_breakeven": 0.09723392438838463,
+                "short_PnL_per100_after3pct_net_proceeds": -24.228468417168457,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 70.51168265976598,
+            "operating_PV_B": 353.9400175248918,
+            "tax_benefit_PV_B": 2.748413786579589,
+            "ending_economic_cash_B": 63.21094014383916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.04690834104578867,
+                "short_price_PnL_per100": -20.98778767976317,
+                "short_net_proceeds_yield_breakeven": 0.04690834104578867,
+                "short_PnL_per100_after3pct_net_proceeds": -7.916524495803734,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06777576618963854,
+                "short_price_PnL_per100": -31.30667161967593,
+                "short_net_proceeds_yield_breakeven": 0.06777576618963854,
+                "short_PnL_per100_after3pct_net_proceeds": -18.24455865028498,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06360506446176739,
+                "short_price_PnL_per100": -29.189598130754835,
+                "short_net_proceeds_yield_breakeven": 0.06360506446176739,
+                "short_PnL_per100_after3pct_net_proceeds": -16.127485161363886,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 81.06179908706669,
+            "operating_PV_B": 411.786416065798,
+            "tax_benefit_PV_B": 3.0331567601002503,
+            "ending_economic_cash_B": 63.21094014383916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.08262735746288352,
+                "short_price_PnL_per100": -39.09025238000461,
+                "short_net_proceeds_yield_breakeven": 0.08262735746288352,
+                "short_PnL_per100_after3pct_net_proceeds": -26.018989196045172,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10423116985053049,
+                "short_price_PnL_per100": -50.95307092563628,
+                "short_net_proceeds_yield_breakeven": 0.10423116985053049,
+                "short_PnL_per100_after3pct_net_proceeds": -37.89095795624533,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.09991807435436706,
+                "short_price_PnL_per100": -48.519236143398125,
+                "short_net_proceeds_yield_breakeven": 0.09991807435436706,
+                "short_PnL_per100_after3pct_net_proceeds": -35.45712317400718,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_decremental_contribution": 0.35,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 28.7,
+          "CPU_revenue_delta_B": -2.775088000000003,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.2775088000000003,
+          "EBIT_delta_B": -0.9712808000000009,
+          "ordinary_tax_delta_B": -0.1456921200000001,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": -10.730792763085715,
+          "cash_delta_B": -0.5480798800000013,
+          "ending_economic_cash_B": 34.192207236914285
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 38.745000000000005,
+          "CPU_revenue_delta_B": -3.7463688000000044,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.09712808000000016,
+          "EBIT_delta_B": -1.3112290800000015,
+          "ordinary_tax_delta_B": -0.1966843619999996,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 2.7674869673528772,
+          "cash_delta_B": -1.0174166380000016,
+          "ending_economic_cash_B": 33.26544420426716
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 47.547864000000004,
+          "CPU_revenue_delta_B": -4.597543791360005,
+          "physical_capex_delta_B": -1.0441079894016008,
+          "DA_delta_B": -0.06525674933760005,
+          "WC_delta_B": -0.08511749913600007,
+          "EBIT_delta_B": -1.5438835776384017,
+          "ordinary_tax_delta_B": -0.23158253664575934,
+          "eligible_basis_delta_B": -0.4176431957606403,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": -0.03069677488840706,
+          "parent_unlevered_cash_B": 16.358909623200407,
+          "cash_delta_B": -0.21763552690423538,
+          "ending_economic_cash_B": 44.86385382746757
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 54.31867983360001,
+          "CPU_revenue_delta_B": -5.25223402724967,
+          "physical_capex_delta_B": -0.9423010879448687,
+          "DA_delta_B": -0.1894073166717544,
+          "WC_delta_B": -0.06546902358896647,
+          "EBIT_delta_B": -1.6488745928656299,
+          "ordinary_tax_delta_B": -0.24733118892984507,
+          "eligible_basis_delta_B": -0.2599451277089293,
+          "credit_receipt_delta_B": -0.14617511851622408,
+          "basis_loss_tax_delta_B": -0.019105966886606304,
+          "parent_unlevered_cash_B": 22.625625011764026,
+          "cash_delta_B": -0.7102497607033236,
+          "ending_economic_cash_B": 63.2857288392316
+        },
+        {
+          "year": 2031,
+          "CPU_revenue_B": 59.837457704693776,
+          "CPU_revenue_delta_B": -5.785861004418237,
+          "physical_capex_delta_B": -1.6840553095612263,
+          "DA_delta_B": -1.0703842858173738,
+          "WC_delta_B": -0.053362697716856734,
+          "EBIT_delta_B": -2.025051351546383,
+          "ordinary_tax_delta_B": -0.31590801084123576,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": -0.09098079469812526,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 21.996828777581555,
+          "cash_delta_B": -1.1330904139425613,
+          "ending_economic_cash_B": 84.42044448081316
+        },
+        {
+          "year": 2032,
+          "CPU_revenue_B": 65.3066013389028,
+          "CPU_revenue_delta_B": -6.314688700222065,
+          "physical_capex_delta_B": -1.807942703216594,
+          "DA_delta_B": -1.1997908530421924,
+          "WC_delta_B": -0.052882769580382766,
+          "EBIT_delta_B": -2.2101410450777226,
+          "ordinary_tax_delta_B": -0.3580428493025911,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 24.355007372198656,
+          "cash_delta_B": -1.1910635760203476,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2033,
+          "CPU_revenue_B": 70.60949736762173,
+          "CPU_revenue_delta_B": -6.827441422680098,
+          "physical_capex_delta_B": -1.9210167082493579,
+          "DA_delta_B": -1.3313510774226192,
+          "WC_delta_B": -0.051275272245803374,
+          "EBIT_delta_B": -2.389604497938034,
+          "ordinary_tax_delta_B": -0.401453555653589,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 26.303993720580575,
+          "cash_delta_B": -1.3472100392119017,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2034,
+          "CPU_revenue_B": 75.62277168072286,
+          "CPU_revenue_delta_B": -7.312189763690385,
+          "physical_capex_delta_B": -2.0016180704906805,
+          "DA_delta_B": -1.444157478328851,
+          "WC_delta_B": -0.048474834101028645,
+          "EBIT_delta_B": -2.5592664172916346,
+          "ordinary_tax_delta_B": -0.4453123566087438,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 28.34668029351313,
+          "cash_delta_B": -1.5080186344200293,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2035,
+          "CPU_revenue_B": 80.22063619891081,
+          "CPU_revenue_delta_B": -7.756770901322761,
+          "physical_capex_delta_B": -2.062622488541785,
+          "DA_delta_B": -1.5513541802645523,
+          "WC_delta_B": -0.044458113763237606,
+          "EBIT_delta_B": -2.7148698154629662,
+          "ordinary_tax_delta_B": -0.4886765667833348,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 30.84528396442514,
+          "cash_delta_B": -1.67046682663916,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2036,
+          "CPU_revenue_B": 84.26343855784603,
+          "CPU_revenue_delta_B": -8.147681434864671,
+          "physical_capex_delta_B": -2.0790834005461307,
+          "DA_delta_B": -1.629536286972934,
+          "WC_delta_B": -0.03909105335419101,
+          "EBIT_delta_B": -2.851688502202635,
+          "ordinary_tax_delta_B": -0.513303930396475,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 33.63730216653197,
+          "cash_delta_B": -1.849746404878772,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2037,
+          "CPU_revenue_B": 88.08032203707518,
+          "CPU_revenue_delta_B": -8.516747202830073,
+          "physical_capex_delta_B": -2.1277750737262275,
+          "DA_delta_B": -1.7033494405660148,
+          "WC_delta_B": -0.03690657679654024,
+          "EBIT_delta_B": -2.9808615209905254,
+          "ordinary_tax_delta_B": -0.5365550737782954,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 35.5551888844473,
+          "cash_delta_B": -1.9829742372554762,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2038,
+          "CPU_revenue_B": 91.62097656648632,
+          "CPU_revenue_delta_B": -8.859103575537898,
+          "physical_capex_delta_B": -2.1655305437215775,
+          "DA_delta_B": -1.7718207151075795,
+          "WC_delta_B": -0.03423563727078243,
+          "EBIT_delta_B": -3.100686251438264,
+          "ordinary_tax_delta_B": -0.5581235252588872,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 37.390117228857704,
+          "cash_delta_B": -2.114617260294594,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2039,
+          "CPU_revenue_B": 94.8367821301318,
+          "CPU_revenue_delta_B": -9.170049339649596,
+          "physical_capex_delta_B": -2.191597496658372,
+          "DA_delta_B": -1.8340098679299188,
+          "WC_delta_B": -0.03109457641116986,
+          "EBIT_delta_B": -3.2095172688773586,
+          "ordinary_tax_delta_B": -0.5777131083979246,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 38.95663537913022,
+          "cash_delta_B": -2.2431219553398094,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2040,
+          "CPU_revenue_B": 97.68188559403575,
+          "CPU_revenue_delta_B": -9.445150819839085,
+          "physical_capex_delta_B": -2.2053968661857297,
+          "DA_delta_B": -1.889030163967817,
+          "WC_delta_B": -0.027510148018948934,
+          "EBIT_delta_B": -3.30580278694368,
+          "ordinary_tax_delta_B": -0.5950445016498609,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 40.41590619049709,
+          "cash_delta_B": -2.3668814350569605,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2041,
+          "CPU_revenue_B": 100.61234216185683,
+          "CPU_revenue_delta_B": -9.728505344434257,
+          "physical_capex_delta_B": -2.271558772171299,
+          "DA_delta_B": -1.9457010688868515,
+          "WC_delta_B": -0.028335452459517185,
+          "EBIT_delta_B": -3.40497687055199,
+          "ordinary_tax_delta_B": -0.6128958366993587,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 41.62838337621202,
+          "cash_delta_B": -2.4378878781086684,
+          "ending_economic_cash_B": null
+        }
+      ],
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 44.402486083071615,
+            "operating_PV_B": 235.38720746072707,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 50.841084993553466,
+            "operating_PV_B": 270.68002339407843,
+            "tax_benefit_PV_B": 2.772818151398819,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 60.6437007989311,
+            "operating_PV_B": 320.6836436957673,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 44.86385382746757,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.012673888269701505,
+                "short_price_PnL_per100": -4.055766641954528,
+                "short_net_proceeds_yield_breakeven": 0.012673888269701505,
+                "short_PnL_per100_after3pct_net_proceeds": 5.724379817567593,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.03930793440015368,
+                "short_price_PnL_per100": -12.930541525011364,
+                "short_net_proceeds_yield_breakeven": 0.03930793440015368,
+                "short_PnL_per100_after3pct_net_proceeds": -3.159278948689792,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.03396552262495378,
+                "short_price_PnL_per100": -11.109748623911875,
+                "short_net_proceeds_yield_breakeven": 0.03396552262495378,
+                "short_PnL_per100_after3pct_net_proceeds": -1.3384860475903038,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 69.58207420023386,
+            "operating_PV_B": 369.6788321803584,
+            "tax_benefit_PV_B": 2.9845428354625536,
+            "ending_economic_cash_B": 44.86385382746757,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.057755309053047155,
+                "short_price_PnL_per100": -19.392714825384118,
+                "short_net_proceeds_yield_breakeven": 0.057755309053047155,
+                "short_PnL_per100_after3pct_net_proceeds": -9.612568365861996,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.08561607289574003,
+                "short_price_PnL_per100": -29.57555716989546,
+                "short_net_proceeds_yield_breakeven": 0.08561607289574003,
+                "short_PnL_per100_after3pct_net_proceeds": -19.80429459357389,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.08003562084758742,
+                "short_price_PnL_per100": -27.486394650483437,
+                "short_net_proceeds_yield_breakeven": 0.08003562084758742,
+                "short_PnL_per100_after3pct_net_proceeds": -17.715132074161865,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 67.10837683100915,
+            "operating_PV_B": 335.1130137130492,
+            "tax_benefit_PV_B": 2.748413786579589,
+            "ending_economic_cash_B": 63.2857288392316,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.034520866872124856,
+                "short_price_PnL_per100": -15.148210073797452,
+                "short_net_proceeds_yield_breakeven": 0.034520866872124856,
+                "short_PnL_per100_after3pct_net_proceeds": -2.076946889838016,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.05513310054579468,
+                "short_price_PnL_per100": -24.969044378043105,
+                "short_net_proceeds_yield_breakeven": 0.05513310054579468,
+                "short_PnL_per100_after3pct_net_proceeds": -11.906931408652156,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.051011780709810495,
+                "short_price_PnL_per100": -22.954153226473363,
+                "short_net_proceeds_yield_breakeven": 0.051011780709810495,
+                "short_PnL_per100_after3pct_net_proceeds": -9.892040257082414,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 77.07957927883241,
+            "operating_PV_B": 389.76959622703475,
+            "tax_benefit_PV_B": 3.0331567601002503,
+            "ending_economic_cash_B": 63.2857288392316,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.06958459142162332,
+                "short_price_PnL_per100": -32.257342619822246,
+                "short_net_proceeds_yield_breakeven": 0.06958459142162332,
+                "short_PnL_per100_after3pct_net_proceeds": -19.186079435862812,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.0909194193795908,
+                "short_price_PnL_per100": -43.537391580693495,
+                "short_net_proceeds_yield_breakeven": 0.0909194193795908,
+                "short_PnL_per100_after3pct_net_proceeds": -30.47527861130255,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08665831920159084,
+                "short_price_PnL_per100": -41.223120701415205,
+                "short_net_proceeds_yield_breakeven": 0.08665831920159084,
+                "short_PnL_per100_after3pct_net_proceeds": -28.161007732024256,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_decremental_contribution": 0.5,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 28.7,
+          "CPU_revenue_delta_B": -2.775088000000003,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.2775088000000003,
+          "EBIT_delta_B": -1.3875440000000014,
+          "ordinary_tax_delta_B": -0.20813160000000042,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": -11.084616483085716,
+          "cash_delta_B": -0.9019036000000025,
+          "ending_economic_cash_B": 33.838383516914284
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 38.745000000000005,
+          "CPU_revenue_delta_B": -3.7463688000000044,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.09712808000000016,
+          "EBIT_delta_B": -1.8731844000000022,
+          "ordinary_tax_delta_B": -0.28097766,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 2.2898249453528767,
+          "cash_delta_B": -1.4950786600000021,
+          "ending_economic_cash_B": 32.433958462267164
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 47.547864000000004,
+          "CPU_revenue_delta_B": -4.597543791360005,
+          "physical_capex_delta_B": -1.0441079894016008,
+          "DA_delta_B": -0.06525674933760005,
+          "WC_delta_B": -0.08511749913600007,
+          "EBIT_delta_B": -2.2335151463424023,
+          "ordinary_tax_delta_B": -0.3350272719513603,
+          "eligible_basis_delta_B": -0.4176431957606403,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": -0.03069677488840706,
+          "parent_unlevered_cash_B": 15.77272278980201,
+          "cash_delta_B": -0.8038223603026324,
+          "ending_economic_cash_B": 43.446181252069174
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 54.31867983360001,
+          "CPU_revenue_delta_B": -5.25223402724967,
+          "physical_capex_delta_B": -0.9423010879448687,
+          "DA_delta_B": -0.1894073166717544,
+          "WC_delta_B": -0.06546902358896647,
+          "EBIT_delta_B": -2.4367096969530806,
+          "ordinary_tax_delta_B": -0.36550645454296227,
+          "eligible_basis_delta_B": -0.2599451277089293,
+          "credit_receipt_delta_B": -0.14617511851622408,
+          "basis_loss_tax_delta_B": -0.019105966886606304,
+          "parent_unlevered_cash_B": 21.955965173289695,
+          "cash_delta_B": -1.3799095991776547,
+          "ending_economic_cash_B": 61.19839642535887
+        },
+        {
+          "year": 2031,
+          "CPU_revenue_B": 59.837457704693776,
+          "CPU_revenue_delta_B": -5.785861004418237,
+          "physical_capex_delta_B": -1.6840553095612263,
+          "DA_delta_B": -1.0703842858173738,
+          "WC_delta_B": -0.053362697716856734,
+          "EBIT_delta_B": -2.806142587142845,
+          "ordinary_tax_delta_B": -0.43775824359428395,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": -0.09098079469812526,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 21.337587774738143,
+          "cash_delta_B": -1.7923314167859736,
+          "ending_economic_cash_B": 81.67387106409701
+        },
+        {
+          "year": 2032,
+          "CPU_revenue_B": 65.3066013389028,
+          "CPU_revenue_delta_B": -6.314688700222065,
+          "physical_capex_delta_B": -1.807942703216594,
+          "DA_delta_B": -1.1997908530421924,
+          "WC_delta_B": -0.052882769580382766,
+          "EBIT_delta_B": -2.96790368910437,
+          "ordinary_tax_delta_B": -0.48080039763490845,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.720002276504324,
+          "cash_delta_B": -1.8260686717146797,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2033,
+          "CPU_revenue_B": 70.60949736762173,
+          "CPU_revenue_delta_B": -6.827441422680098,
+          "physical_capex_delta_B": -1.9210167082493579,
+          "DA_delta_B": -1.3313510774226192,
+          "WC_delta_B": -0.051275272245803374,
+          "EBIT_delta_B": -3.106485847319445,
+          "ordinary_tax_delta_B": -0.5218896223496667,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 25.707548437895245,
+          "cash_delta_B": -1.9436553218972321,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2034,
+          "CPU_revenue_B": 75.62277168072286,
+          "CPU_revenue_delta_B": -7.312189763690385,
+          "physical_capex_delta_B": -2.0016180704906805,
+          "DA_delta_B": -1.444157478328851,
+          "WC_delta_B": -0.048474834101028645,
+          "EBIT_delta_B": -3.2173634960237694,
+          "ordinary_tax_delta_B": -0.5598212483081362,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 27.803092106480385,
+          "cash_delta_B": -2.0516068214527756,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2035,
+          "CPU_revenue_B": 80.22063619891081,
+          "CPU_revenue_delta_B": -7.756770901322761,
+          "physical_capex_delta_B": -2.062622488541785,
+          "DA_delta_B": -1.5513541802645523,
+          "WC_delta_B": -0.044458113763237606,
+          "EBIT_delta_B": -3.2966276330621733,
+          "ordinary_tax_delta_B": -0.5933929739511914,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 30.368242553993785,
+          "cash_delta_B": -2.1475082370705145,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2036,
+          "CPU_revenue_B": 84.26343855784603,
+          "CPU_revenue_delta_B": -8.147681434864671,
+          "physical_capex_delta_B": -2.0790834005461307,
+          "DA_delta_B": -1.629536286972934,
+          "WC_delta_B": -0.03909105335419101,
+          "EBIT_delta_B": -3.340549388294515,
+          "ordinary_tax_delta_B": -0.6012988898930125,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 33.23643623993662,
+          "cash_delta_B": -2.250612331474116,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2037,
+          "CPU_revenue_B": 88.08032203707518,
+          "CPU_revenue_delta_B": -8.516747202830073,
+          "physical_capex_delta_B": -2.1277750737262275,
+          "DA_delta_B": -1.7033494405660148,
+          "WC_delta_B": -0.03690657679654024,
+          "EBIT_delta_B": -3.364115145117879,
+          "ordinary_tax_delta_B": -0.6055407261212178,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 35.240920912662865,
+          "cash_delta_B": -2.297242209039908,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2038,
+          "CPU_revenue_B": 91.62097656648632,
+          "CPU_revenue_delta_B": -8.859103575537898,
+          "physical_capex_delta_B": -2.1655305437215775,
+          "DA_delta_B": -1.7718207151075795,
+          "WC_delta_B": -0.03423563727078243,
+          "EBIT_delta_B": -3.366459358704401,
+          "ordinary_tax_delta_B": -0.6059626845667925,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 37.17218328089947,
+          "cash_delta_B": -2.3325512082528306,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2039,
+          "CPU_revenue_B": 94.8367821301318,
+          "CPU_revenue_delta_B": -9.170049339649596,
+          "physical_capex_delta_B": -2.191597496658372,
+          "DA_delta_B": -1.8340098679299188,
+          "WC_delta_B": -0.03109457641116986,
+          "EBIT_delta_B": -3.3470680089721023,
+          "ordinary_tax_delta_B": -0.6024722416149775,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 38.84384377225253,
+          "cash_delta_B": -2.355913562217502,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2040,
+          "CPU_revenue_B": 97.68188559403575,
+          "CPU_revenue_delta_B": -9.445150819839085,
+          "physical_capex_delta_B": -2.2053968661857297,
+          "DA_delta_B": -1.889030163967817,
+          "WC_delta_B": -0.027510148018948934,
+          "EBIT_delta_B": -3.30580278694368,
+          "ordinary_tax_delta_B": -0.5950445016498609,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 40.41590619049709,
+          "cash_delta_B": -2.3668814350569605,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2041,
+          "CPU_revenue_B": 100.61234216185683,
+          "CPU_revenue_delta_B": -9.728505344434257,
+          "physical_capex_delta_B": -2.271558772171299,
+          "DA_delta_B": -1.9457010688868515,
+          "WC_delta_B": -0.028335452459517185,
+          "EBIT_delta_B": -3.40497687055199,
+          "ordinary_tax_delta_B": -0.6128958366993587,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 41.62838337621202,
+          "cash_delta_B": -2.4378878781086684,
+          "ending_economic_cash_B": null
+        }
+      ],
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 43.810158246227374,
+            "operating_PV_B": 232.12348107971533,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 50.24459505472236,
+            "operating_PV_B": 267.393363831119,
+            "tax_benefit_PV_B": 2.772818151398819,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 59.84711720401483,
+            "operating_PV_B": 317.712140663177,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 43.446181252069174,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.008441017397148975,
+                "short_price_PnL_per100": -2.6889450995450037,
+                "short_net_proceeds_yield_breakeven": 0.008441017397148975,
+                "short_PnL_per100_after3pct_net_proceeds": 7.091201359977117,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.03495997289563202,
+                "short_price_PnL_per100": -11.447145631312527,
+                "short_net_proceeds_yield_breakeven": 0.03495997289563202,
+                "short_PnL_per100_after3pct_net_proceeds": -1.6758830549909565,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.02963991118625109,
+                "short_price_PnL_per100": -9.650269703215164,
+                "short_net_proceeds_yield_breakeven": 0.02963991118625109,
+                "short_PnL_per100_after3pct_net_proceeds": 0.12099287310640694,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 68.77971257469163,
+            "operating_PV_B": 366.6754921990192,
+            "tax_benefit_PV_B": 2.9845428354625536,
+            "ending_economic_cash_B": 43.446181252069174,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.053876151591736754,
+                "short_price_PnL_per100": -18.015979023149665,
+                "short_net_proceeds_yield_breakeven": 0.053876151591736754,
+                "short_PnL_per100_after3pct_net_proceeds": -8.235832563627543,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.08163129063350172,
+                "short_price_PnL_per100": -28.081401442628717,
+                "short_net_proceeds_yield_breakeven": 0.08163129063350172,
+                "short_PnL_per100_after3pct_net_proceeds": -18.310138866307145,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.0760713217809208,
+                "short_price_PnL_per100": -26.016329378328386,
+                "short_net_proceeds_yield_breakeven": 0.0760713217809208,
+                "short_PnL_per100_after3pct_net_proceeds": -16.245066802006814,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 66.24947795924788,
+            "operating_PV_B": 332.4678133435174,
+            "tax_benefit_PV_B": 2.748413786579589,
+            "ending_economic_cash_B": 61.19839642535887,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.0313194348281054,
+                "short_price_PnL_per100": -13.674464583472679,
+                "short_net_proceeds_yield_breakeven": 0.0313194348281054,
+                "short_PnL_per100_after3pct_net_proceeds": -0.6032013995132424,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.051865732726006586,
+                "short_price_PnL_per100": -23.369605138264205,
+                "short_net_proceeds_yield_breakeven": 0.051865732726006586,
+                "short_PnL_per100_after3pct_net_proceeds": -10.307492168873257,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.0477571751356578,
+                "short_price_PnL_per100": -21.38050194072534,
+                "short_net_proceeds_yield_breakeven": 0.0477571751356578,
+                "short_PnL_per100_after3pct_net_proceeds": -8.31838897133439,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 76.21423472500638,
+            "operating_PV_B": 387.08888014932603,
+            "tax_benefit_PV_B": 3.0331567601002503,
+            "ending_economic_cash_B": 61.19839642535887,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.0666829557803621,
+                "short_price_PnL_per100": -30.772537276949862,
+                "short_net_proceeds_yield_breakeven": 0.0666829557803621,
+                "short_PnL_per100_after3pct_net_proceeds": -17.701274092990428,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08795795704054954,
+                "short_price_PnL_per100": -41.925949208577975,
+                "short_net_proceeds_yield_breakeven": 0.08795795704054954,
+                "short_PnL_per100_after3pct_net_proceeds": -28.863836239187023,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08370842425009051,
+                "short_price_PnL_per100": -39.63765981129788,
+                "short_net_proceeds_yield_breakeven": 0.08370842425009051,
+                "short_PnL_per100_after3pct_net_proceeds": -26.575546841906927,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_decremental_contribution": 0.65,
+      "annual_rows": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 28.7,
+          "CPU_revenue_delta_B": -2.775088000000003,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.2775088000000003,
+          "EBIT_delta_B": -1.8038072000000018,
+          "ordinary_tax_delta_B": -0.2705710800000003,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": -11.438440203085715,
+          "cash_delta_B": -1.2557273200000019,
+          "ending_economic_cash_B": 33.48455979691428
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 38.745000000000005,
+          "CPU_revenue_delta_B": -3.7463688000000044,
+          "physical_capex_delta_B": 0,
+          "DA_delta_B": 0.0,
+          "WC_delta_B": -0.09712808000000016,
+          "EBIT_delta_B": -2.435139720000003,
+          "ordinary_tax_delta_B": -0.365270958,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 1.8121629233528758,
+          "cash_delta_B": -1.972740682000003,
+          "ending_economic_cash_B": 31.60247272026716
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 47.547864000000004,
+          "CPU_revenue_delta_B": -4.597543791360005,
+          "physical_capex_delta_B": -1.0441079894016008,
+          "DA_delta_B": -0.06525674933760005,
+          "WC_delta_B": -0.08511749913600007,
+          "EBIT_delta_B": -2.923146715046403,
+          "ordinary_tax_delta_B": -0.43847200725696034,
+          "eligible_basis_delta_B": -0.4176431957606403,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": -0.03069677488840706,
+          "parent_unlevered_cash_B": 15.186535956403608,
+          "cash_delta_B": -1.3900091937010348,
+          "ending_economic_cash_B": 42.02850867667077
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 54.31867983360001,
+          "CPU_revenue_delta_B": -5.25223402724967,
+          "physical_capex_delta_B": -0.9423010879448687,
+          "DA_delta_B": -0.1894073166717544,
+          "WC_delta_B": -0.06546902358896647,
+          "EBIT_delta_B": -3.224544801040531,
+          "ordinary_tax_delta_B": -0.48368172015607946,
+          "eligible_basis_delta_B": -0.2599451277089293,
+          "credit_receipt_delta_B": -0.14617511851622408,
+          "basis_loss_tax_delta_B": -0.019105966886606304,
+          "parent_unlevered_cash_B": 21.28630533481536,
+          "cash_delta_B": -2.0495694376519893,
+          "ending_economic_cash_B": 59.111064011486135
+        },
+        {
+          "year": 2031,
+          "CPU_revenue_B": 59.837457704693776,
+          "CPU_revenue_delta_B": -5.785861004418237,
+          "physical_capex_delta_B": -1.6840553095612263,
+          "DA_delta_B": -1.0703842858173738,
+          "WC_delta_B": -0.053362697716856734,
+          "EBIT_delta_B": -3.587233822739307,
+          "ordinary_tax_delta_B": -0.5596084763473321,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": -0.09098079469812526,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 20.678346771894727,
+          "cash_delta_B": -2.4515724196293895,
+          "ending_economic_cash_B": 78.92729764738087
+        },
+        {
+          "year": 2032,
+          "CPU_revenue_B": 65.3066013389028,
+          "CPU_revenue_delta_B": -6.314688700222065,
+          "physical_capex_delta_B": -1.807942703216594,
+          "DA_delta_B": -1.1997908530421924,
+          "WC_delta_B": -0.052882769580382766,
+          "EBIT_delta_B": -3.725666333131018,
+          "ordinary_tax_delta_B": -0.6035579459672249,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 23.084997180809996,
+          "cash_delta_B": -2.461073767409008,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2033,
+          "CPU_revenue_B": 70.60949736762173,
+          "CPU_revenue_delta_B": -6.827441422680098,
+          "physical_capex_delta_B": -1.9210167082493579,
+          "DA_delta_B": -1.3313510774226192,
+          "WC_delta_B": -0.051275272245803374,
+          "EBIT_delta_B": -3.8233671967008553,
+          "ordinary_tax_delta_B": -0.6423256890457436,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 25.111103155209907,
+          "cash_delta_B": -2.5401006045825696,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2034,
+          "CPU_revenue_B": 75.62277168072286,
+          "CPU_revenue_delta_B": -7.312189763690385,
+          "physical_capex_delta_B": -2.0016180704906805,
+          "DA_delta_B": -1.444157478328851,
+          "WC_delta_B": -0.048474834101028645,
+          "EBIT_delta_B": -3.875460574755904,
+          "ordinary_tax_delta_B": -0.6743301400075268,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 27.25950391944764,
+          "cash_delta_B": -2.595195008485522,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2035,
+          "CPU_revenue_B": 80.22063619891081,
+          "CPU_revenue_delta_B": -7.756770901322761,
+          "physical_capex_delta_B": -2.062622488541785,
+          "DA_delta_B": -1.5513541802645523,
+          "WC_delta_B": -0.044458113763237606,
+          "EBIT_delta_B": -3.8783854506613804,
+          "ordinary_tax_delta_B": -0.698109381119048,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 29.891201143562437,
+          "cash_delta_B": -2.624549647501862,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2036,
+          "CPU_revenue_B": 84.26343855784603,
+          "CPU_revenue_delta_B": -8.147681434864671,
+          "physical_capex_delta_B": -2.0790834005461307,
+          "DA_delta_B": -1.629536286972934,
+          "WC_delta_B": -0.03909105335419101,
+          "EBIT_delta_B": -3.829410274386395,
+          "ordinary_tax_delta_B": -0.6892938493895517,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 32.835570313341286,
+          "cash_delta_B": -2.651478258069453,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2037,
+          "CPU_revenue_B": 88.08032203707518,
+          "CPU_revenue_delta_B": -8.516747202830073,
+          "physical_capex_delta_B": -2.1277750737262275,
+          "DA_delta_B": -1.7033494405660148,
+          "WC_delta_B": -0.03690657679654024,
+          "EBIT_delta_B": -3.747368769245232,
+          "ordinary_tax_delta_B": -0.674526378464142,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 34.926652940878434,
+          "cash_delta_B": -2.6115101808243395,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2038,
+          "CPU_revenue_B": 91.62097656648632,
+          "CPU_revenue_delta_B": -8.859103575537898,
+          "physical_capex_delta_B": -2.1655305437215775,
+          "DA_delta_B": -1.7718207151075795,
+          "WC_delta_B": -0.03423563727078243,
+          "EBIT_delta_B": -3.632232465970538,
+          "ordinary_tax_delta_B": -0.653801843874696,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 36.95424933294124,
+          "cash_delta_B": -2.55048515621106,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2039,
+          "CPU_revenue_B": 94.8367821301318,
+          "CPU_revenue_delta_B": -9.170049339649596,
+          "physical_capex_delta_B": -2.191597496658372,
+          "DA_delta_B": -1.8340098679299188,
+          "WC_delta_B": -0.03109457641116986,
+          "EBIT_delta_B": -3.484618749066846,
+          "ordinary_tax_delta_B": -0.6272313748320322,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 38.73105216537484,
+          "cash_delta_B": -2.4687051690951876,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2040,
+          "CPU_revenue_B": 97.68188559403575,
+          "CPU_revenue_delta_B": -9.445150819839085,
+          "physical_capex_delta_B": -2.2053968661857297,
+          "DA_delta_B": -1.889030163967817,
+          "WC_delta_B": -0.027510148018948934,
+          "EBIT_delta_B": -3.30580278694368,
+          "ordinary_tax_delta_B": -0.5950445016498609,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 40.41590619049709,
+          "cash_delta_B": -2.3668814350569605,
+          "ending_economic_cash_B": null
+        },
+        {
+          "year": 2041,
+          "CPU_revenue_B": 100.61234216185683,
+          "CPU_revenue_delta_B": -9.728505344434257,
+          "physical_capex_delta_B": -2.271558772171299,
+          "DA_delta_B": -1.9457010688868515,
+          "WC_delta_B": -0.028335452459517185,
+          "EBIT_delta_B": -3.40497687055199,
+          "ordinary_tax_delta_B": -0.6128958366993587,
+          "eligible_basis_delta_B": 0,
+          "credit_receipt_delta_B": 0.0,
+          "basis_loss_tax_delta_B": 0.0,
+          "parent_unlevered_cash_B": 41.62838337621202,
+          "cash_delta_B": -2.4378878781086684,
+          "ending_economic_cash_B": null
+        }
+      ],
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 43.21783040938315,
+            "operating_PV_B": 228.8597546987036,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 49.64810511589125,
+            "operating_PV_B": 264.1067042681596,
+            "tax_benefit_PV_B": 2.772818151398819,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 59.05053360909855,
+            "operating_PV_B": 314.7406376305867,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 42.02850867667077,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.004169476385929682,
+                "short_price_PnL_per100": -1.3221235571354573,
+                "short_net_proceeds_yield_breakeven": 0.004169476385929682,
+                "short_PnL_per100_after3pct_net_proceeds": 8.458022902386663,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.03057230588193094,
+                "short_price_PnL_per100": -9.963749737613693,
+                "short_net_proceeds_yield_breakeven": 0.03057230588193094,
+                "short_PnL_per100_after3pct_net_proceeds": -0.19248716129212085,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.025274798338782656,
+                "short_price_PnL_per100": -8.190790782518409,
+                "short_net_proceeds_yield_breakeven": 0.025274798338782656,
+                "short_PnL_per100_after3pct_net_proceeds": 1.580471793803162,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 67.9773509491494,
+            "operating_PV_B": 363.67215221767987,
+            "tax_benefit_PV_B": 2.9845428354625536,
+            "ending_economic_cash_B": 42.02850867667077,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.04996595200637555,
+                "short_price_PnL_per100": -16.639243220915233,
+                "short_net_proceeds_yield_breakeven": 0.04996595200637555,
+                "short_PnL_per100_after3pct_net_proceeds": -6.859096761393113,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.07761463389290801,
+                "short_price_PnL_per100": -26.587245715361995,
+                "short_net_proceeds_yield_breakeven": 0.07761463389290801,
+                "short_PnL_per100_after3pct_net_proceeds": -16.815983139040426,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.07207531208203388,
+                "short_price_PnL_per100": -24.546264106173332,
+                "short_net_proceeds_yield_breakeven": 0.07207531208203388,
+                "short_PnL_per100_after3pct_net_proceeds": -14.77500152985176,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 65.39057908748664,
+            "operating_PV_B": 329.82261297398566,
+            "tax_benefit_PV_B": 2.748413786579589,
+            "ending_economic_cash_B": 59.111064011486135,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.02808632726853455,
+                "short_price_PnL_per100": -12.20071909314797,
+                "short_net_proceeds_yield_breakeven": 0.02808632726853455,
+                "short_PnL_per100_after3pct_net_proceeds": 0.8705440908114648,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.0485660437964226,
+                "short_price_PnL_per100": -21.770165898485374,
+                "short_net_proceeds_yield_breakeven": 0.0485660437964226,
+                "short_PnL_per100_after3pct_net_proceeds": -8.708052929094423,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.0444703746970434,
+                "short_price_PnL_per100": -19.80685065497736,
+                "short_net_proceeds_yield_breakeven": 0.0444703746970434,
+                "short_PnL_per100_after3pct_net_proceeds": -6.7447376855864105,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 75.34889017118034,
+            "operating_PV_B": 384.4081640716173,
+            "tax_benefit_PV_B": 3.0331567601002503,
+            "ending_economic_cash_B": 59.111064011486135,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.06375619284268041,
+                "short_price_PnL_per100": -29.287731934077456,
+                "short_net_proceeds_yield_breakeven": 0.06375619284268041,
+                "short_PnL_per100_after3pct_net_proceeds": -16.21646875011802,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08497085470342047,
+                "short_price_PnL_per100": -40.31450683646245,
+                "short_net_proceeds_yield_breakeven": 0.08497085470342047,
+                "short_PnL_per100_after3pct_net_proceeds": -27.2523938670715,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08073298944960472,
+                "short_price_PnL_per100": -38.05219892118055,
+                "short_net_proceeds_yield_breakeven": 0.08073298944960472,
+                "short_PnL_per100_after3pct_net_proceeds": -24.9900859517896,
+                "return_definition": "Short PnL is per100 of original short notional, not return on margin or all invested capital. Netproceeds illustration is before other costs/tax and is not a borrow quote."
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "baseline_value_checks": 6,
+  "maximum_baseline_value_difference": 0.0,
+  "source_files_unchanged": true,
+  "price_snapshots": [
+    {
+      "price": 53.7,
+      "at": "2026-11-05 14:25 America/New_York",
+      "source": "https://stockanalysis.com/stocks/intc/history/"
+    },
+    {
+      "price": 54.58,
+      "at": "2026-11-05 14:55 America/New_York",
+      "source": "https://stockanalysis.com/stocks/intc/history/",
+      "verified_by": "independent reviewer"
+    }
+  ],
+  "limitations": [
+    "New quote snapshots are intraday, not closing prices; no real transaction was entered.",
+    "Earlier macro calibration is retained as a declared control, not refreshed intraday.",
+    "Permanent relative unit loss is a scenario, not established by one2027 forecast.",
+    "Minority cash waterfall remains an aggregate reserve; no unverified legal obligation stacked onto this diagnostic.",
+    "2026 valuations areDec31planning values, not exact Nov4/5 fairvalues."
+  ]
+}

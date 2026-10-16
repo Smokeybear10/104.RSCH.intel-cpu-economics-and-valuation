@@ -1,0 +1,124 @@
+{
+  "audited_utc": "2026-11-06T07:48:23.312142+00:00",
+  "input_sha256": {
+    "base": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8",
+    "quarters": "ced1c5bff4f7f561cc522d6832d244b5a7301b69dc4ab08c318b686db4506e24",
+    "policy": "0ca51f47b97423d7d3865e240511f200242c4b32832077bf6a79e67b25f77ee0",
+    "stress": "8b0ddcc036501b935321fe935827992ccaf71563a5233d6fac5249ec2b90e932",
+    "pack": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+  },
+  "method": "Independent residual cash-cost and capital rebuild from selected model and frozen packaging policy. No imports or execution of source model functions. DCF differences independently sum each revised FCFF and terminal cash plus accumulated pre-target cash once.",
+  "comparison_count": 414,
+  "maximum_difference": 2.842170943040401e-14,
+  "mismatches": [],
+  "cases": {
+    "proportional_cash_cost_avoidance": {
+      "values": {
+        "2026": {
+          "price_USD": 33.76806334618067,
+          "operating_PV_change_B": -9.017609408439473,
+          "economic_cash_change_B": 0.0
+        },
+        "2030": {
+          "price_USD": 50.90807188240516,
+          "operating_PV_change_B": -12.578607144238408,
+          "economic_cash_change_B": -1.3135517492711375
+        }
+      },
+      "2030_packaging": {
+        "stressed_gross_sales_B": 4.0,
+        "stressed_net_sales_B": 2.0,
+        "lost_sales_B": 3.0,
+        "stressed_net_incremental_EBIT_B": 0.09714285714285698,
+        "selected_incremental_cash_operating_cost_B": 3.2035714285714287,
+        "avoided_cash_cost_B": 1.9221428571428572,
+        "unchanged_incremental_DA_B": 0.6214285714285714,
+        "group_EBIT_delta_B": -1.077857142857143,
+        "stressed_incremental_capex_B": 1.0,
+        "incremental_capex_delta_B": 0.0,
+        "stressed_incremental_WC_cash_B": 0.09642857142857149,
+        "incremental_WC_cash_delta_B": -0.1285714285714285,
+        "group_EBIT_B": 31.96368575538499,
+        "FCFF_delta_B": -0.7876071428571432,
+        "FCFF_B": 17.506321825144813
+      },
+      "terminal_cash_scaling_error_B": -2.1316282072803006e-14,
+      "quarterly_controls": {
+        "base": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 29.304008594210654,
+          "owned_buffer_shortfall_B": 0.0,
+          "negative_cash": false
+        },
+        "concentrated_timing_stress": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 18.001508594210645,
+          "owned_buffer_shortfall_B": 1.9984914057893555,
+          "negative_cash": false
+        }
+      }
+    },
+    "no_cash_cost_avoidance": {
+      "values": {
+        "2026": {
+          "price_USD": 30.88357010648554,
+          "operating_PV_change_B": -24.911167159159625,
+          "economic_cash_change_B": 0.0
+        },
+        "2030": {
+          "price_USD": 46.50780919021191,
+          "operating_PV_change_B": -33.12332061320864,
+          "economic_cash_change_B": -5.014285714285715
+        }
+      },
+      "2030_packaging": {
+        "stressed_gross_sales_B": 4.0,
+        "stressed_net_sales_B": 2.0,
+        "lost_sales_B": 3.0,
+        "stressed_net_incremental_EBIT_B": -1.8250000000000002,
+        "selected_incremental_cash_operating_cost_B": 3.2035714285714287,
+        "avoided_cash_cost_B": 0.0,
+        "unchanged_incremental_DA_B": 0.6214285714285714,
+        "group_EBIT_delta_B": -3.0,
+        "stressed_incremental_capex_B": 1.0,
+        "incremental_capex_delta_B": 0.0,
+        "stressed_incremental_WC_cash_B": 0.09642857142857149,
+        "incremental_WC_cash_delta_B": -0.1285714285714285,
+        "group_EBIT_B": 30.041542898242135,
+        "FCFF_delta_B": -2.421428571428572,
+        "FCFF_B": 15.872500396573384
+      },
+      "terminal_cash_scaling_error_B": -3.197442310920451e-14,
+      "quarterly_controls": {
+        "base": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 28.74280414814651,
+          "owned_buffer_shortfall_B": 0.0,
+          "negative_cash": false
+        },
+        "concentrated_timing_stress": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 17.440304148146502,
+          "owned_buffer_shortfall_B": 2.5596958518534976,
+          "negative_cash": false
+        }
+      }
+    }
+  },
+  "findings": [
+    "The accounting is coherent: gross program sales fall7B to4B, shadow2B stays, incremental sales fall5B to2B. Consolidated revenue and net incremental revenue fall equally, leaving host capital and Foundry profit unchanged.",
+    "Only lost net sales less avoided cash-equivalent operating cost reduces EBIT. The shadow-profit reservation is not subtracted again; no CPU decremental or second host Foundry penalty is applied.",
+    "2030 incremental D&A remains0.6214285714B. Scaling cash cost, rather than EBIT, gives incremental EBIT0.0971428571B under proportional avoidance and -1.825B under no avoidance. This preserves depreciation on committed assets.",
+    "All2027-30 capex is retained. Smaller WC needs reduce cash use once. Later capex equals original D&A maintenance plus85% of revised net-sales growth, while WC funds15%; total net reinvestment therefore equals revised net-sales growth at turnover1.",
+    "Unchanged finite credits are consistent with the original packaging policy, which credited no additional AMIC to this wholly owned overlay. If the reduced capacity instead changes the separate eligible project pool, a jointly specified tax-credit case would be required.",
+    "Both terminal profit and capital cash components scale3%; the independent2042 FCFF check matches2041 cash times1.03. Retained maintenance on underused assets is conservative within this declared capital convention, not a physical tool-vintage forecast.",
+    "Cash-equivalent SBC is inside the operating-cost residual. Proportional avoidance assumes it can flex along with the residual; this is an explicit optimistic convention, not evidence of actual contracts.",
+    "The range bounds two specified cost responses only. Yield problems, penalties, collateral effects on host production, different program mix and credit eligibility could produce other outcomes. No probability is calibrated.",
+    "Concentrated timing still breaches the owned20B buffer while economic cash stays positive. Annual no-financing flags do not certify intra-year liquidity; these are not covenant or insolvency results."
+  ],
+  "all_inputs_unchanged": true
+}

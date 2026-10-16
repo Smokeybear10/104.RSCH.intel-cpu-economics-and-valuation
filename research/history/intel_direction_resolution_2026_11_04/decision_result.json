@@ -1,0 +1,133 @@
+{
+  "as_of_utc": "2026-11-04T22:13:11.075418+00:00",
+  "status": "Completed substantive direction review and three-page working pitch. Qualified valuation SHORT selected as current candidate; no proven trading alpha or winning probability.",
+  "company_focus": "Intel",
+  "root_decision": {
+    "working_recommendation": "SHORT, qualified valuation thesis for competition review",
+    "thesis": "Intel can recover operationally while its equity offers insufficient compensation for manufacturing and cyclical risk at the entry price. The existing funded forecast supports a lower end-2026 planning value than the dated quote.",
+    "working_fair_value_reference_USD": [
+      44.067914052747014,
+      49.96887374853764
+    ],
+    "fair_value_date": "2026-12-31 planning reference, not a 2030 target or predicted price-convergence date",
+    "reference_price": {
+      "price_USD": 58.28,
+      "date": "2026-11-04",
+      "time": "16:00 America/New_York close",
+      "source": "https://stockanalysis.com/stocks/intc/forecast/",
+      "retrieved_after_close_UTC": "2026-11-04T21:48:06+00:00",
+      "prior_reference_USD": 60.55,
+      "prior_reference_date": "2026-11-03"
+    },
+    "why_direction_selected_now": "A fundamental valuation opinion can be a legitimate directional competition candidate without exact consensus, a guaranteed catalyst or positive price-only unhedged short PnL in every future year. Our higher operating-risk allowance supports the bearish stance; that remains a judgment rather than proven mispricing.",
+    "limits_on_selection": "Risk-adjusted underperformance has not been established by a specified hedged trade. No counter-long, hedge ratio, broker borrow/carry, margin return or portfolio alpha is modeled. Do not subtract the operating discount rate from shareholder CAGR and label the difference alpha.",
+    "primary_counterargument": "The central 2030 value is $67.58, above the $58.28 entry, implying 3.63% annual long price appreciation and a $9.30 price-only short loss before carry. Risk maturation raises the conditional 2030 value to $76.86 and long price CAGR to 6.89%.",
+    "risk_sensitivity": "At 10% operating discount, unchanged central cash supports $60.09 at end-2026; the dated quote matches about 10.17846%. The short view is materially exposed to the risk assumption.",
+    "what_is_not_the_thesis": [
+      "A permanent structural cash drain",
+      "An undiscovered negative 2027 FCF forecast",
+      "Intel unit-share loss automatically means declining units",
+      "A promised 2027/2028 repricing",
+      "A new LONG earned by adding back compensation in EPS"
+    ],
+    "old_short_draft_status": "Old early-convergence PDF remains historical and superseded. This new working pitch does not reinstate its unsupported timing claim.",
+    "new_draft_status": "Three-page review draft with business overview, recommendation, forecasts, horizon economics, countercases, falsifiers and sources. Not submitted; no claim of final competition readiness.",
+    "competition_objective_complete": false
+  },
+  "new_research_findings": [
+    "TrendForce primary chart reconciles Intel unit-share loss with roughly 17.6% unit growth at 40% total-market growth; our 20% unit assumption is consistent with that mechanism.",
+    "New public aggregate FCF table already anticipates negative 2027 and modest positive 2028 cash. Own-versus-public cash comparison requires compensation/minority/partner adjustments.",
+    "Current mature policy implies roughly 21% incremental after-tax operating returns. Weak ramp cash is not evidence of permanent poor returns.",
+    "Asset-cohort consistency and TSMC/Intel evidence do not justify deleting capital spending or replacing the 0.80 host capital coefficient.",
+    "Fair cash-income controls raise 2030 value by less than $1; current APV cash at par already values fair cash returns, so no double-count uplift is justified.",
+    "Refreshed November 4 closing price lowers the central planning-value gap to 24.39%; the maturation control gap is 14.26%. Neither is a guaranteed realized short return."
+  ],
+  "primary_rule_source": "https://www.m37.com/spc2026",
+  "rule_interpretation": "The official rules require a clear LONG or SHORT based on 3-5-year fundamentals and judgment. They do not explicitly require guaranteed convergence, wholly original facts or a prescribed return. This does not establish that judges will accept any particular implementation or weaker horizon economics.",
+  "operating_falsifier_dashboard": [
+    {
+      "measure": "Realized server units and blended ASP",
+      "base": "2027:+20%/+20%;2028:+25%/+8%",
+      "update": "Persistent premium revenue with disclosed cost control supports stronger retained economics; share loss alone does not establish failure."
+    },
+    {
+      "measure": "Host Foundry operating result, separated from incremental packaging",
+      "base": "2027:-4B;2028:-0.75B",
+      "update": "Materially faster profitable ramp without offsetting Product margin deterioration weakens the short. Transfer-pricing effects must be reconciled."
+    },
+    {
+      "measure": "Economic owner cash under the same conventions",
+      "base": "2028:+2.294B;2030:+21.882B",
+      "update": "Durable cash above forecast without moving investment outside the forecast window weakens the short. Issuer adjusted FCF requires a bridge for SBC, partner capital and NCI."
+    },
+    {
+      "measure": "Physical cash capex",
+      "base": "2027:30.5B;2028:32.75B;2030:30B including net packaging overlay, excluding separately charged capitalized interest",
+      "update": "Equal or better funded output at lower investment is positive evidence only if outsourced wafer costs, lease funding and future replacement are included."
+    },
+    {
+      "measure": "Mature incremental host sales/net operating capital",
+      "base": "0.80 including working capital",
+      "update": "Sustained evidence nearer1.0 or better, coupled with margins, weakens capital-intensity thesis; it is not inferred from a one-year capex deferral."
+    }
+  ],
+  "model_preservation": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+    "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+  },
+  "new_numeric_check": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/refreshed_price_and_cash_independent_review.json",
+    "checks": 49,
+    "max_difference": 2.17e-13,
+    "errors": 0,
+    "scope": "Arithmetic and interpretation; not validity of business forecasts or the investment call."
+  },
+  "working_pitch": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "c43026665a84c9e47fcf26965d197c2c64c02fe0e1f52c0c21fb32e661d3ebb0",
+    "qa": {
+      "pages": 3,
+      "all_pages_rendered_and_visually_inspected": true,
+      "layout_defects_observed": false,
+      "key_numbers_checked": [
+        "$58.28",
+        "$44.07",
+        "$49.97",
+        "$60.09",
+        "$67.58",
+        "$76.86",
+        "$86.30",
+        "3.63%",
+        "6.89%",
+        "$9.30",
+        "10.18%",
+        "11.91%"
+      ],
+      "source_hyperlinks": 10,
+      "original_PDF_preserved": true
+    }
+  },
+  "artifacts": {
+    "return_economics_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/return_economics_review.json",
+      "sha256": "0b041e808376507566b0cf3a7380c063e39259090ed1d3f1ea862e64e78a09a7"
+    },
+    "position_judgment": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/position_judgment.json",
+      "sha256": "e8571b803f7587704be51ca86fa4f7d3c889ee00a0d85dae7812bb2ef9b9883d"
+    },
+    "cycle_capital_evidence": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/cycle_capital_evidence.json",
+      "sha256": "7389b73da991dcb9db1b8dd07873d817e2561ac2883571105113003ef46d6914"
+    },
+    "refreshed_price_and_cash_independent_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/refreshed_price_and_cash_independent_review.json",
+      "sha256": "5f8597abee70fe9552e540f20a7d5d4c01fc158310383adabf0a7b19419e5b94"
+    },
+    "refreshed_price_and_cash_expectations": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/refreshed_price_and_cash_expectations.json",
+      "sha256": "eb7e585d64f700fc705233d6b8e740c6680449744d175c6830e17cd71c911c26"
+    }
+  },
+  "active_work": "This research pass, independent reviews and working-draft creation are complete; no outgoing submission or promise of background work."
+}

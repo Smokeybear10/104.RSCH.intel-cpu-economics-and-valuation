@@ -1,0 +1,416 @@
+{
+  "updated_utc": "2026-11-06T09:18:32.482018+00:00",
+  "decision": "The Foundry and packaging recovery is a defensible execution hypothesis with observable technical and customer-engagement support. Its selected profit and revenue amounts are not independently established by the available evidence. Expose this as a major valuation requirement, not a footnote or a proof supplied by DCAI profit.",
+  "materiality": {
+    "group_EBIT_increase2027to2030_B": 19.9624525273773,
+    "host_Foundry_EBIT_increase2027to2030_B": 6.5,
+    "share_of_group_EBIT_increase": 0.3256112940574632,
+    "net_packaging_EBIT_increase2027to2030_B": 1.22875,
+    "host_Foundry_plus_net_packaging_share_of_group_EBIT_increase": 0.38716435214563366,
+    "selected_host_Foundry_profit_to_Products_ratio2030": 0.025645715399669863
+  },
+  "scope": {
+    "host_Foundry": "Aggregate host Foundry includes internal manufacturing, legacy external services, and an owned embedded packaging allowance. It is not an internal-only profit series.",
+    "packaging_overlap_2030_B": {
+      "gross_new_program_sales": 7,
+      "already_embedded_sales": 2,
+      "net_incremental_sales": 5,
+      "gross_program_EBIT": 1.75,
+      "already_embedded_profit": 0.5,
+      "additional_central_and_SBC": 0.075,
+      "net_incremental_EBIT": 1.175
+    },
+    "attribution_limit": "The 2B sales and .5B profit overlap are owned allocations inside aggregate Foundry, not separately disclosed results. No full 1.75B program EBIT is stacked on host profit.",
+    "capital": "Host physical capex is 29/31/30/29B for 2027\u201330, plus separately funded packaging additions 1.5/1.75/1.25/1B. No new credits, prepayments, free equipment or capital refunds are inferred."
+  },
+  "actual_Foundry_bridge": {
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "locator": "Note 2 and MD&A Intel Foundry, printed pages 9\u201311 and 34\u201335",
+    "Q3_2026_B": {
+      "gross_segment_revenue": 6.697,
+      "internal_revenue": 6.286,
+      "external_revenue": 0.411,
+      "operating_loss": -1.853,
+      "total_cost": 8.55
+    },
+    "YTD_2026_vs_2025_B": {
+      "revenue_increase": 4.564,
+      "operating_profit_increase": 1.43,
+      "lower_period_charges_rounded": 2.6,
+      "product_profit_change": -0.936,
+      "higher_opex": -0.231,
+      "rounding_residual": -0.003
+    },
+    "period_charge_details_B": {
+      "absence_of_prior_impairment_and_accelerated_DA": 0.797,
+      "lower_inventory_charges_with_early_18A_reserved_inventory_sellthrough": 0.601,
+      "remaining_unsplit_rounded": 1.202
+    },
+    "interpretation": "The reported YTD improvement is not evidence that current product-level manufacturing profitability already improved by 1.43B. Lower period charges more than explain that improvement, offset by richer 18A mix costs and process-development expense. Some period costs can be real cash or continuing process costs; the whole 2.6B must not be labeled noncash or nonrecurring.",
+    "consolidated_crosscheck_B": {
+      "Q3_gross_profit_increase": 1.878,
+      "YTD_gross_profit_increase": 5.52
+    },
+    "consolidated_interpretation": "Integrated economic improvement exists; a mere transfer-price change cannot create consolidated gross profit. Its external price, mix, physical cost, and inventory-timing components remain incompletely separated."
+  },
+  "positive_evidence": [
+    {
+      "claim": "Physical cost learning is already visible.",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF page 6, Foundry cost paragraph",
+      "observed": "Management reports Intel 3 costs about 15% below Q1 and Intel 18A about 40% below Q1, with better yields, cycle times and utilization.",
+      "economic_bridge": "Lower physical cost per saleable unit and faster tools can increase combined Products plus Foundry contribution. This is a valid mechanism for future profit recovery.",
+      "boundary": "These reductions are already reflected in current results and use node-level denominators. They are not a new 15%/40% forecast reduction to every 2027 manufacturing dollar."
+    },
+    {
+      "claim": "Maturing internal products provide utilization without requiring all revenue to come from a new external wafer anchor.",
+      "source": "https://download.intel.com/newsroom/2026/earnings/Intel-Q22026-Earnings-Call.pdf",
+      "locator": "PDF pages 2 and 4\u20135, manufacturing and Foundry paragraphs",
+      "observed": "Q2 18A output exceeded its target by about 25% and rose more than 50% sequentially; internal 14A high-volume ramps were committed for 2028.",
+      "economic_bridge": "Internal product demand can spread factory and process-development costs over higher output. Existing fab space can shorten expansion compared with a new greenfield plant.",
+      "boundary": "Node output is not total CPU shipments, accepted packaged output or cash return. The latest client slowdown can reduce starts even while server substrates remain scarce."
+    },
+    {
+      "claim": "New package demand is more than an unsupported market-size story.",
+      "source": "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+      "locator": "PDF page 4, advanced packaging backlog/Malaysia paragraph",
+      "observed": "Intel described added advanced-packaging backlog and capacity expansion supporting committed demand with revenue conversion beginning in 2027.",
+      "economic_bridge": "Contracted demand can justify dedicated equipment and qualification work, reducing the risk of purely speculative capacity.",
+      "boundary": "No dollar minimum, customer count, cancellation terms or net fee is disclosed here. This supports existence and timing, not the model\u2019s 7B gross sales."
+    },
+    {
+      "claim": "Capacity work continues against the customer ramp.",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF page 3, capacity build-out paragraph",
+      "observed": "Intel identifies New Mexico and Malaysia capacity additions for advanced-packaging customer ramps in 2027.",
+      "economic_bridge": "Named capacity locations make the planned ramp operationally concrete.",
+      "boundary": "Tool installation, qualification, accepted good packages and profitable delivery are different milestones; capacity construction does not identify any of their dollar values."
+    },
+    {
+      "claim": "Customer-side engineering work corroborates an advanced-packaging program.",
+      "source": "https://www.mediatek.com/hubfs/MediaTek-Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q3/Transcript.pdf",
+      "locator": "PDF pages 7\u20138, Rick Tsai response to Gokul Hariharan; page 15 final CFO response",
+      "observed": "Revalidated MediaTek testimony prioritizes a US IDM packaging process for its second accelerator and assigns manufacturing experts alongside substrate suppliers to solve yield defects. It reiterates 1Q28 production timing and confidence in supply.",
+      "economic_bridge": "A customer\u2019s own engineering resources and product timetable are stronger adoption evidence than supplier opportunity claims alone. Identified defects and shared implementation provide a concrete yield-improvement mechanism.",
+      "boundary": "Management does not name Intel/EMIB-T in these answers. Analyst questions do. This is indirect corroboration, not a confirmed Intel contract, guaranteed yield or packaging-fee disclosure.",
+      "prior_archive": "Already analyzed in intel_two_hour_comparison_2026_11_05/economic_underwriting/incremental_upside_adjudication.json; revalidated here, not newly discovered."
+    },
+    {
+      "claim": "The timing and margin hypothesis has a stated management reference.",
+      "source": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+      "official_event": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference",
+      "locator": "CFO packaging and Foundry breakeven discussions",
+      "observed": "CFO describes late-2027 packaging revenue, scale in 2028\u201329, multibillion sales per customer and 30% operating-margin aspiration. Foundry internally targets late-2027 breakeven, possibly late-2028 with more startup investment.",
+      "economic_bridge": "The selected full-year Foundry loss in 2028 and positive profit in 2029 are not faster than that management timetable; selected packaging margins also sit below the aspiration.",
+      "boundary": "Third-party transcript of an issuer-confirmed event, not independently audio-verified. An aspiration is not a customer commitment or an independently calibrated margin. October client weakness also limits reliance on August margin expectations."
+    }
+  ],
+  "cost_recovery_stresses": {
+    "selected": {
+      "planning_value_USD": 35.40465307548003,
+      "target2030_USD": 53.42933483948493,
+      "target_change_vs_selected_USD": 0.0,
+      "annual_price_return": 0.0053884915192619065,
+      "EBIT2030_B": 33.041542898242135,
+      "Foundry_profit2030_B": 2.5,
+      "Foundry_profit2040_B": 3.841935930759028,
+      "owner_cash2027to2030_B": 16.109197740185994,
+      "minimum_annual_cash_B": 32.05252873278004,
+      "requires_financing_extension": false
+    },
+    "flat_2027_loss": {
+      "planning_value_USD": 26.775240852886213,
+      "target2030_USD": 40.27699204279877,
+      "target_change_vs_selected_USD": -13.152342796686163,
+      "annual_price_return": -0.060740056527394226,
+      "EBIT2030_B": 26.541542898242135,
+      "Foundry_profit2030_B": -4.0,
+      "Foundry_profit2040_B": -4.0,
+      "owner_cash2027to2030_B": 3.5716977401859937,
+      "minimum_annual_cash_B": 29.290028732780037,
+      "requires_financing_extension": false
+    },
+    "two_year_recovery_delay": {
+      "planning_value_USD": 33.6701000123363,
+      "target2030_USD": 50.95478661953229,
+      "target_change_vs_selected_USD": -2.474548219952638,
+      "annual_price_return": -0.0060254186018727784,
+      "EBIT2030_B": 29.791542898242135,
+      "Foundry_profit2030_B": -0.75,
+      "Foundry_profit2040_B": 3.4498590241399834,
+      "owner_cash2027to2030_B": 6.334197740185993,
+      "minimum_annual_cash_B": 29.290028732780037,
+      "requires_financing_extension": false
+    },
+    "breakeven_without_mature_profit": {
+      "planning_value_USD": 31.478306607903136,
+      "target2030_USD": 47.45040173415244,
+      "target_change_vs_selected_USD": -5.978933105332487,
+      "annual_price_return": -0.02293245129913246,
+      "EBIT2030_B": 30.541542898242135,
+      "Foundry_profit2030_B": 0.0,
+      "Foundry_profit2040_B": 0.0,
+      "owner_cash2027to2030_B": 10.79669774018599,
+      "minimum_annual_cash_B": 30.56502873278004,
+      "requires_financing_extension": false
+    }
+  },
+  "stress_interpretation": "These are cost misses with the selected deliveries unchanged. Group EBIT changes only by the host Foundry-profit difference; ordinary taxes are recalculated. No second CPU/client revenue decremental or absorption penalty is applied. They are not probabilities or independent stock recommendations. D&A is fixed, so these are cash operating-cost stresses; a pure additional depreciation or impairment charge cannot be represented without adding back its noncash portion.",
+  "packaging_7B_test": {
+    "selected_formation": "Two large program families at 3B annual fees each plus 1B smaller programs by 2030; 0.5/2.5/5/7B gross sales in 2027\u201330. None of these allocations has a named, publicly quantified buyer commitment.",
+    "revenue_identity": "Intel-recognized packaging revenue = accepted billable package quantity \u00d7 net package/test/material fee plus recognized qualification/services, with customer-consigned logic and HBM excluded.",
+    "not_valid_substitutes": [
+      "MediaTek\u2019s 16B 2027 accelerator revenue is chip-sales revenue, not Intel\u2019s packaging fees.",
+      "Analysts naming Google/Intel/EMIB-T do not establish a disclosed buyer minimum.",
+      "A technical reticle-size claim does not establish yield, paid throughput, price or operating margin.",
+      "Intel\u2019s external Foundry revenue includes other services and non-recurring programs; it does not isolate recurring EMIB sales."
+    ],
+    "what_is_supported": "Technical capability, backlog/committed-demand language, capacity preparation, plausible late-2027/2028 scale timing and customer-side yield work.",
+    "what_is_not_publicly_supported": "The two 3B customer allocations, 7B total fee base, 25\u201327% realized program margin, cancellation protection and the exact accepted-good-package capacity required.",
+    "classification": "Credible large opportunity; selected 7B is a favorable operating assumption, not contracted revenue.",
+    "example_of_stronger_public_commercial_disclosure": {
+      "source": "https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/",
+      "date": "2026-10-08",
+      "fact": "GF names TSMC, a multi-year 2B manufacturing agreement, an initial five-year term and expected 1H2028 silicon-interposer production ramp.",
+      "use": "Illustrates customer/amount/term/timing evidence that could strengthen a commercial underwriting claim.",
+      "boundary": "The narrower interposer component scope is not an Intel full-package fee comparable. The release still does not prove accepted future output, every contract protection, or realized profit.",
+      "provenance": "Already captured in Nov5 economic underwriting; revalidated here."
+    }
+  },
+  "proof_by_deadline": [
+    {
+      "claim": "The latest segment results and period-charge bridge reconcile.",
+      "status": "Already verifiable and reconciled from filings.",
+      "action": "Use the exact bridges and preserve rounding; no interview needed."
+    },
+    {
+      "claim": "Intel has advanced-packaging committed demand and is funding capacity.",
+      "status": "Verifiable as management disclosure; existence/timing supported.",
+      "action": "Cite the Q1 and Q3 prepared remarks, distinguishing supplier capital commitments from customer purchase commitments."
+    },
+    {
+      "claim": "A customer is spending engineering effort on the relevant packaging class.",
+      "status": "Revalidated from MediaTek primary transcript, with unnamed-US-IDM boundary.",
+      "action": "Use the CEO answer, not the analyst\u2019s Intel attribution."
+    },
+    {
+      "claim": "The 7B program fees or 2.5B Foundry profit are guaranteed.",
+      "status": "Cannot be proven by more public-source accumulation before Nov 9.",
+      "action": "Require a disclosed quantity/fee/minimum or later realized financial results; otherwise own the forecast and stress it."
+    },
+    {
+      "claim": "Manufacturing recovery will persist after 2030.",
+      "status": "Future outcome, not currently provable.",
+      "action": "Track repeatable product-profit improvement, cost/throughput milestones, consolidated cash conversion and required capital after startup charges normalize."
+    }
+  ],
+  "recommended_pitch_sentence": "I expect node learning and internal product volume to turn Foundry profitable, but this is a major execution requirement: host Foundry supplies 6.5B of the 20.0B operating-profit increase through 2030. Keeping product sales unchanged, a two-year recovery delay lowers our 2030 value from 53.43 to 50.95; reaching only breakeven lowers it to 47.45. Packaging backlog is real, while our 7B sales estimate is an explicit customer-scale assumption.",
+  "unproven_but_reasonable_steelman": "The bullish view need not claim zero-cost capacity or a guaranteed external wafer anchor. Intel has demonstrated node learning, internal products already consuming advanced capacity, and committed packaging demand. If these repeat at scale while process-development costs grow more slowly, aggregate Foundry can cross breakeven and packaging can earn differentiated margins. The evidence supports the causal route; it does not yet quantify the complete retained-profit bridge.",
+  "artifacts": [
+    "foundry_stress_policy.json",
+    "foundry_recovery_audit.py",
+    "foundry_recovery_results.json",
+    "proof_matrix.json"
+  ],
+  "conditional_quantitative_hurdle": {
+    "method": "Use historical internal Foundry revenue/Products revenue as a conditional future revenue proxy; add only legacy external services and embedded packaging. Allocate 75%, 90% or 100% of host consolidated D&A to Foundry. Derive the cost level required by the already-selected profit forecast; do not use it to claim the profit forecast is independently proven.",
+    "identity": "Operating profit = proxy revenue \u2212 cost before D&A \u2212 allocated D&A.",
+    "2027_to_2030_results_file": "foundry_recovery_results.json: conditional_revenue_cost_bridges",
+    "main_Q3_intensity_example_B": {
+      "proxy_revenue_2027": 27.947325795506245,
+      "proxy_revenue_2030": 42.68573035825642,
+      "profit_2027": -4,
+      "profit_2030": 2.5,
+      "host_total_DA_2027": 14,
+      "host_total_DA_2030": 21.1875
+    },
+    "conclusion": "For 2027\u201330 the forecast needs 11.891\u201313.688B more annual contribution before D&A, depending on the stated D&A share. Under the Q3 revenue intensity, only 1.051\u20132.848B of extra cost before D&A is affordable on 14.738B additional proxy revenue. Revenue expansion and fixed-cost spreading can produce this outcome without an absolute 2027\u201330 cost cut, but the required cost restraint is substantial.",
+    "Q3_actual_level_crosscheck": "The original total-D&A allocation gives a flat-to-2.274B lower cost-before-D&A proxy at roughly 59% more revenue by 2030. That historical baseline includes amortization excluded from segment profit. Using only consolidated depreciation in the actual baseline instead implies 0.779\u20133.034B lower residual cost, still conditional on the stated allocation. Neither is actual segment cash cost; future host D&A allocation and inventory timing remain unidentifiable.",
+    "not_identified": "Future net transfer prices, saleable wafer/package volume, physical variable unit cost, fixed cost, process R&D and segment D&A are not disclosed sufficiently to validate the hurdle independently.",
+    "guard": "Book cost before D&A is not literal cash cost, and historical internal revenue intensity is not a wafer-volume forecast. Inventory, outsourcing, node mix and transfer terms can change.",
+    "circularity_audit": {
+      "judgment": "Valid conditional hurdle; invalid as independent underwriting proof.",
+      "why": "Future Foundry profit is selected first, future host D&A is an owned capital-life policy, and revenue is estimated from a historical internal-revenue ratio multiplied by forecast Products revenue. The resulting cost residual is solved, not forecast independently.",
+      "appropriate_use": "State the economic cost restraint required and stress its failure. Do not describe the residual as source-backed savings or independently validated margins.",
+      "historical_ratio_limit": "The Q3 and YTD ratios are two observed anchors, not a statistically identified range for future transfer prices, manufacturing intensity or wafer output.",
+      "DA_limit": "75/90/100% are analyst allocation sensitivities. Intel discloses a substantial majority of depreciation in Foundry; it does not disclose these percentages, and acquisition-related amortization is excluded from segment results. The 100% total-D&A case is a loose upper diagnostic only."
+    },
+    "source_DA_components": {
+      "YTD_depreciation_B": 8.933,
+      "H1_depreciation_B": 5.891,
+      "Q3_depreciation_B": 3.042,
+      "YTD_amortization_B": 0.659,
+      "H1_amortization_B": 0.469,
+      "Q3_amortization_B": 0.19000000000000006,
+      "Q3_total_DA_B": 3.232,
+      "source_Q3": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "source_Q2": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "locator": "Consolidated cash-flow statements and Note 2 depreciation/allocation policy",
+      "boundary": "Substantial majority applies to depreciation, not all amortization. Acquisition-related amortization is corporate unallocated. A 100% total-D&A allocation is an upper diagnostic, not a faithful segment accounting estimate. D&A absorbed in inventory further prevents direct mapping to segment-period cost."
+    },
+    "group_crosscheck": {
+      "rows": [
+        {
+          "period": "Q3_2026_annualized",
+          "external_revenue_B": 66.052,
+          "consolidated_EBIT_B": 10.088,
+          "total_DA_B": 12.928,
+          "cost_less_total_DA_proxy_B": 43.036,
+          "host_Foundry_profit_B": -7.412
+        },
+        {
+          "period": "2027",
+          "external_revenue_B": 69.84503199772968,
+          "consolidated_EBIT_B": 13.079090370864835,
+          "total_DA_B": 14.093214285714286,
+          "cost_less_total_DA_proxy_B": 42.67272734115056,
+          "host_Foundry_profit_B": -4.0
+        },
+        {
+          "period": "2030",
+          "external_revenue_B": 108.19617045378982,
+          "consolidated_EBIT_B": 33.041542898242135,
+          "total_DA_B": 21.80892857142857,
+          "cost_less_total_DA_proxy_B": 53.34569898411911,
+          "host_Foundry_profit_B": 2.5
+        },
+        {
+          "period": "2040",
+          "external_revenue_B": 165.9585051594393,
+          "consolidated_EBIT_B": 49.721532464747,
+          "total_DA_B": 31.31702276725538,
+          "cost_less_total_DA_proxy_B": 84.91994992743693,
+          "host_Foundry_profit_B": 3.841935930759028
+        }
+      ],
+      "Q3_annualized_to_2030_revenue_growth": 0.6380453347936446,
+      "Q3_annualized_to_2030_cost_less_DA_proxy_growth": 0.23955987973136694,
+      "Q3_annualized_to_2027_EBIT_change_B": 2.9910903708648355,
+      "Q3_annualized_to_2027_Foundry_profit_change_B": 3.412,
+      "scope": "Whole-group arithmetic avoids the assumed internal transfer-price denominator. It remains a hurdle derived from forecast profit, not a cost forecast. Q3 annualization is not a full-year forecast or a normalized comparable quarter. Cash-flow D&A, inventory timing, actual period charges and forecast economic-SBC policies prevent this residual from being literal cash cost."
+    }
+  },
+  "packaging_scale_stress": {
+    "selected": {
+      "planning_value_USD": 35.40465307548003,
+      "target2030_USD": 53.42933483948493,
+      "target_change_vs_selected_USD": 0.0,
+      "annual_price_return": 0.0053884915192619065,
+      "gross_packaging2030_B": 7.0,
+      "net_incremental_packaging2030_B": 5.0,
+      "net_incremental_packaging_EBIT2030_B": 1.175,
+      "group_EBIT2030_B": 33.041542898242135,
+      "owner_cash2027to2030_B": 16.109197740185994,
+      "minimum_annual_cash_B": 32.05252873278004,
+      "requires_financing_extension": false
+    },
+    "conditional_results": {
+      "proportional_cash_cost_avoidance": {
+        "planning_value_USD": 33.76806334618067,
+        "target2030_USD": 50.90807188240515,
+        "target_change_vs_selected_USD": -2.5212629570797773,
+        "annual_price_return": -0.006244901176019391,
+        "gross_packaging2030_B": 4.0,
+        "net_incremental_packaging2030_B": 2.0,
+        "net_incremental_packaging_EBIT2030_B": 0.0971428571428572,
+        "group_EBIT2030_B": 31.963685755384994,
+        "owner_cash2027to2030_B": 14.795645990914853,
+        "minimum_annual_cash_B": 31.95346641499578,
+        "requires_financing_extension": false
+      },
+      "no_cash_cost_avoidance": {
+        "planning_value_USD": 30.883570106485543,
+        "target2030_USD": 46.507809190211894,
+        "target_change_vs_selected_USD": -6.921525649273036,
+        "annual_price_return": -0.027641296794348236,
+        "gross_packaging2030_B": 4.0,
+        "net_incremental_packaging2030_B": 2.0,
+        "net_incremental_packaging_EBIT2030_B": -1.825,
+        "group_EBIT2030_B": 30.041542898242135,
+        "owner_cash2027to2030_B": 11.094912025900275,
+        "minimum_annual_cash_B": 31.120385875637176,
+        "requires_financing_extension": false
+      }
+    },
+    "files": [
+      "packaging_scale_stress_policy.json",
+      "packaging_scale_audit.py",
+      "packaging_scale_results.json"
+    ],
+    "independent_audit": "../consolidation/independent_packaging_scale_audit.json",
+    "interpretation": "One assumed 3B customer family fails. Gross 2030 sales 4B, embedded 2B unchanged, net incremental sales 2B. The cost endpoints preserve D&A and all 2027\u201330 capex. Maintenance remains funded thereafter; growth capital/WC resizes once. No actual lost contract is asserted and this is not a probability range.",
+    "liquidity_limit": "Annual cash stays above the existing buffer under unchanged timing assumptions; combined timing controls can breach the owned 20B buffer while staying cash-positive. Do not describe annual output as intrayear liquidity proof."
+  },
+  "favorable_lower_rate_cross_stresses": {
+    "rate": 0.10625,
+    "source_case": "joint_anchor_old_CPU2028plus_growth_pooled_old_growth",
+    "summaries": {
+      "favorable_unchanged": {
+        "planning_value_USD": 56.139285845568374,
+        "planning_value_minus_entry_USD": 3.8892858455683736,
+        "planning_value_over_entry_minus_one": 0.07443609273815066,
+        "planning_value_change_vs_favorable_USD": 0.0,
+        "target2030_USD": 82.47015162680005,
+        "annual_price_return": 0.11615212704256206,
+        "ending2030_cash_B": 65.5404655626873,
+        "owner_cash2027to2030_B": 27.195637562687313,
+        "minimum_annual_cash_B": 34.9570282289772,
+        "requires_financing_extension": false,
+        "2030_Foundry_profit_B": 2.5,
+        "2030_net_packaging_profit_B": 1.175,
+        "2030_group_EBIT_B": 38.942007896513076
+      },
+      "missing_program_proportional_cash_cost_avoidance": {
+        "planning_value_USD": 54.25211977117707,
+        "planning_value_minus_entry_USD": 2.002119771177071,
+        "planning_value_over_entry_minus_one": 0.03831808174501572,
+        "planning_value_change_vs_favorable_USD": -1.8871660743913026,
+        "target2030_USD": 79.65599414802945,
+        "annual_price_return": 0.10686068672331128,
+        "ending2030_cash_B": 64.22691381341618,
+        "owner_cash2027to2030_B": 25.882085813416182,
+        "minimum_annual_cash_B": 34.91656350686257,
+        "requires_financing_extension": false,
+        "2030_Foundry_profit_B": 2.5,
+        "2030_net_packaging_profit_B": 0.0971428571428572,
+        "2030_group_EBIT_B": 37.864150753655935
+      },
+      "missing_program_no_cash_cost_avoidance": {
+        "planning_value_USD": 50.969341918777666,
+        "planning_value_minus_entry_USD": -1.2806580812223345,
+        "planning_value_over_entry_minus_one": -0.02451020251143221,
+        "planning_value_change_vs_favorable_USD": -5.169943926790708,
+        "target2030_USD": 74.80075769252828,
+        "annual_price_return": 0.0902269311328796,
+        "ending2030_cash_B": 60.5261798484016,
+        "owner_cash2027to2030_B": 22.181351848401604,
+        "minimum_annual_cash_B": 34.08348296750397,
+        "requires_financing_extension": false,
+        "2030_Foundry_profit_B": 2.5,
+        "2030_net_packaging_profit_B": -1.825,
+        "2030_group_EBIT_B": 35.942007896513076
+      },
+      "two_year_Foundry_cost_recovery_delay": {
+        "planning_value_USD": 54.08704913609682,
+        "planning_value_minus_entry_USD": 1.837049136096823,
+        "planning_value_over_entry_minus_one": 0.035158835140609135,
+        "planning_value_change_vs_favorable_USD": -2.0522367094715506,
+        "target2030_USD": 79.59075188586728,
+        "annual_price_return": 0.10664234173332798,
+        "ending2030_cash_B": 55.76546556268731,
+        "owner_cash2027to2030_B": 17.420637562687318,
+        "minimum_annual_cash_B": 32.25312582464683,
+        "requires_financing_extension": false,
+        "2030_Foundry_profit_B": -0.75,
+        "2030_net_packaging_profit_B": 1.175,
+        "2030_group_EBIT_B": 35.692007896513076
+      }
+    },
+    "source_files": [
+      "favorable_cross_stress_policy.json",
+      "favorable_cross_stress_audit.py",
+      "favorable_cross_stress_results.json"
+    ],
+    "interpretation": "The favorable case at the lower published ERP rate is not erased by every commercial miss. With proportional packaging cash-cost avoidance or a Foundry recovery delay, the December planning values remain about 3.5\u20133.8% above the November reference quote. With no packaging cash-cost avoidance, the planning value falls below it. This is thin, assumption-sensitive support for the favorable LONG, not evidence of a robust expected edge or a current-date margin of safety."
+  }
+}

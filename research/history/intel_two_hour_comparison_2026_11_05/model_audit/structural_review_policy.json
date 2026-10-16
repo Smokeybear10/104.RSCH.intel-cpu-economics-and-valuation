@@ -1,0 +1,18 @@
+{
+  "selected_utc": "2026-11-05T22:47:36.959056+00:00",
+  "scope": "Independent diagnostics of hidden central-cost operating leverage and valuation duration; not new preferred forecasts. Base remains unchanged.",
+  "cases": {
+    "SBC_scales_with_Products_after2030": {
+      "policy": "Retain the 2030 economic SBC-to-Products-revenue ratio from 2031 onward rather than growing SBC 3%. Subtract only the incremental cost from consolidated EBIT, deduct ordinary cash tax, preserve revenues, foundry, capital, claims and other costs. No extra share dilution.",
+      "base2030_SBC_B": 3.2,
+      "rationale": "Tests whether central compensation must scale with the same product franchise supporting margin retention. It does not assert that revenue-proportional compensation is uniquely appropriate."
+    },
+    "SBC_and_corporate_cash_scale_with_Products_after2030": {
+      "policy": "As above but scale the combined 2030 $3.2B SBC and $1.6B other corporate cash cost with Products sales. Preserve corporate acquisition amortization and cash restructuring at original 3% growth.",
+      "base2030_cost_B": 4.8,
+      "rationale": "Tests the second central operating-leverage assumption hidden outside the product margin."
+    }
+  },
+  "minority_unit_exposure": "Compute present value of an additional $0.1B annual minority cash amount in 2031, growing 3% thereafter under unchanged operating discount rate. A unit exposure, not a forecast of confidential Arizona cash rights. Do not add NCI book equity.",
+  "duration": "At 2026 and 2030 endpoints compute PV cash generated after several explicit calendar cutoffs divided by operating value and equity separately. No change to underlying forecasts. This prevents comparing unequal terminal dates and denominators."
+}

@@ -1,0 +1,83 @@
+{
+  "prepared_utc": "2026-11-04T12:06:35.733438+00:00",
+  "scope": "Independent arithmetic and convention audit; not economic endorsement. The producer valuation script was not imported or executed.",
+  "method": "45-digit Decimal reconstruction from frozen product, corporate, Foundry, transition, tax and treasury inputs. Post2030 product revenue rebuilt from unit, ASP and category-growth drivers. DCF tails summed through3000 instead of the producer Gordon formula.",
+  "output_sha256": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+  "execution_policy_sha256": "128d7fb23fa3a29a3a490d29354e3a77bbb90dad50d7d8ee271e829cbca53137",
+  "producer_script_sha256": "40305ed7c67c4201855061202f077118d0d1818841df0ac34a16b06ac3ff9d21",
+  "result": "PASS within declared forecast conventions",
+  "value_comparisons": [
+    {
+      "date": "2026-12-31",
+      "independent_price_USD": 31.614663004540457,
+      "reported_price_USD": 31.614663004540414,
+      "absolute_price_error_USD": 4.4156630026255265e-14
+    },
+    {
+      "date": "2029-12-31",
+      "independent_price_USD": 43.3221446241136,
+      "reported_price_USD": 43.32214462411354,
+      "absolute_price_error_USD": 5.816816814546143e-14,
+      "independent_annual_price_return": -0.10054707837784627
+    },
+    {
+      "date": "2030-12-31",
+      "independent_price_USD": 47.98787380872783,
+      "reported_price_USD": 47.98787380872777,
+      "absolute_price_error_USD": 5.885086539985601e-14,
+      "independent_annual_price_return": -0.05437641484038824
+    },
+    {
+      "date": "2031-12-31",
+      "independent_price_USD": 52.9509415844856,
+      "reported_price_USD": 52.95094158448553,
+      "absolute_price_error_USD": 6.463357706887959e-14,
+      "independent_annual_price_return": -0.02566353762962159
+    }
+  ],
+  "rate_controls": [
+    {
+      "rate": 0.11,
+      "independent_end2030_price_USD": 53.85124619049788,
+      "absolute_price_error_USD": 7.441212342700988e-14
+    },
+    {
+      "rate": 0.13,
+      "independent_end2030_price_USD": 43.318032376226256,
+      "absolute_price_error_USD": 1.3923092943036946e-15
+    }
+  ],
+  "checks": {
+    "frozen_input_hashes_match": true,
+    "tested_numeric_fields": 300,
+    "maximum_numeric_difference": {
+      "section": "rate_control",
+      "year": 2030,
+      "field": "equity_with_financing_tax_benefits_B",
+      "absolute_error": 4.131108000828244e-13
+    },
+    "new_borrowing_B": 0,
+    "end2030_cash_B": 58.86362264921293,
+    "end2030_debt_B": 37.097,
+    "end2030_net_cash_B": 21.766622649212923,
+    "post2030_debt_constant_in2031_control": true
+  },
+  "findings": [
+    "Operating tax is recomputed before ordinary debt effects; SBC remains economically charged.",
+    "Minority reserves and all-in lease cash are deducted once, without duplicate NCI or associated lease liability subtraction.",
+    "Capitalized interest is removed from physical capex and retained once in treasury. The separate next-year eight-year tax recovery is included once per valuation date.",
+    "Historical financing benefits reside in endpoint cash; only future benefits enter endpoint PV. Fixed nominal debt supports a flat nominal benefit tail.",
+    "Capital-credit collections and basis-loss charges are dated and finite; no duplicate receivable asset is added.",
+    "Working capital is included once in capital productivity, and terminal growth is funded.",
+    "Escrow cash is paired with full pending shares. Classiq is charged at its dates, with no second charge after its payments enter cash."
+  ],
+  "limitations": [
+    "End2026 reference is not November3 fair value.",
+    "Economic cash after cash-equivalent SBC and minority reserves is not bank cash or an intrayear liquidity test.",
+    "Tax rates, credit eligibility, capitalization recovery and D&A are normalizations, not statutory schedules.",
+    "Claims, private assets, debt carrying values and supplier-capacity allowance remain approximations.",
+    "Operating recovery, terminal margins and capital productivity are prospective judgments. Passing arithmetic does not validate them or establish an attractive short."
+  ],
+  "audit_iteration_note": "An initial direct tail ending2300 left about5e-7B truncation error in the11% control. Extending the independent tail to3000 removed this numerical truncation; producer inputs and output were unchanged.",
+  "no_policy_or_producer_files_modified": true
+}

@@ -1,0 +1,269 @@
+{
+  "title": "Intel mature DCAI margin adjudication after the richer-mix forecast",
+  "frozen_utc": "2026-11-04T17:29:16.923358+00:00",
+  "chronology": "Selected before viewing any new equity output or reverse margin hurdle. No equity calculation, source-model mutation or valuation-based tuning in this task. Earlier published/researched operating outcomes are known.",
+  "owned_judgment": {
+    "preferred_mature_DCAI_operating_margin": 0.35,
+    "defensible_operating_range": [
+      0.3,
+      0.4
+    ],
+    "range_meaning": "An owned business-outcome range, not an estimated confidence interval or prescribed valuation grid.32% remains a defensible cautious case; it is not established as the most likely mature margin by the available evidence.",
+    "reason": "The current internal-transfer model has already produced DCAI margins above40%. Richer CPU mix and demand provide operating leverage, while the model continues substantial node R&D/manufacturing costs in Foundry and corporate SBC separately. Competition and a larger custom-silicon mix justify some normalization, but32% embeds considerably more CPU margin erosion than mix dilution alone.35% balances persistent CPU IP/value and scale against procurement bargaining and custom mix.",
+    "why_not40central": "Q3 is a scarcity/ramp quarter, not a normalized cycle. Competitive2025 ASP reductions, customer concentration, AMD/Arm alternatives and continued costly product transitions prevent treating40%+ as protected. Lower-margin purpose-built silicon grows faster, and its mature segment profit is undisclosed.",
+    "why_not32central": "With mature Other DCAI near one-quarter of sales,32% implies CPU operating margin about36% if Other earns20%.35% instead implies roughly40% CPU margin. Neither is observed segment disaggregation, but the latter is more consistent with a durable high-value CPU franchise after market-like fabrication charges, without assuming the current blended42% persists.",
+    "group_boundary": "35% is the DCAI segment margin, not consolidated group cash margin. Preserve Foundry manufacturing/process-R&D costs, corporate cash-equivalent SBC/overhead, leases/NCI and other existing costs once. Do not add the same process improvement to both DCAI and Foundry. No new consolidated-margin target is asserted.",
+    "cost_basis": "Existing physical output, host capital/D&A/WC and packaging investment remain unchanged. The revised margin is a different retained-product-economics forecast on the same accepted sales, not additional free capacity or a separate yield-reduction credit."
+  },
+  "implementation_if_adopted": {
+    "base_policy": "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+    "near_term": "Preserve all2027\u20132030 operating rows exactly.",
+    "post2030": "For each year2031\u20132040, add0.003*(year-2030) to the original aggregate DCAI margin; from2040 onward add0.03. This is equivalent to moving both the paired underlying DCAI terminal margin and the incremental ASP-retention terminal margin from32% to35%, retaining their prior linear fade timing. Products EBIT increases by the margin addition times DCAI sales; all other operating fields remain unchanged.",
+    "no_changes": "No revenue, unit, ASP, physical capital, D&A, WC, Foundry dollar profit, separate packaging, corporate, tax, financing or claim policy changes. There is no tax or equity calculation in this addendum.",
+    "annual_operating_changes": [
+      {
+        "year": 2027,
+        "original_DCAI_margin": 0.38791247099481013,
+        "preferred_DCAI_margin": 0.38791247099481013,
+        "DCAI_revenue_B": 39.779088,
+        "original_DCAI_operating_profit_B": 15.43080432,
+        "preferred_DCAI_operating_profit_B": 15.43080432,
+        "Products_operating_profit_addition_B": 0.0,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2028,
+        "original_DCAI_margin": 0.3948237931657769,
+        "preferred_DCAI_margin": 0.3948237931657769,
+        "DCAI_revenue_B": 54.11696880000001,
+        "original_DCAI_operating_profit_B": 21.366666896250006,
+        "preferred_DCAI_operating_profit_B": 21.366666896250006,
+        "Products_operating_profit_addition_B": 0.0,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2029,
+        "original_DCAI_margin": 0.3910143606284041,
+        "preferred_DCAI_margin": 0.3910143606284041,
+        "DCAI_revenue_B": 66.67740779136001,
+        "original_DCAI_operating_profit_B": 26.071823975898006,
+        "preferred_DCAI_operating_profit_B": 26.071823975898006,
+        "Products_operating_profit_addition_B": 0.0,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2030,
+        "original_DCAI_margin": 0.3863485847912473,
+        "preferred_DCAI_margin": 0.3863485847912473,
+        "DCAI_revenue_B": 77.00931386084969,
+        "original_DCAI_operating_profit_B": 29.75243942588426,
+        "preferred_DCAI_operating_profit_B": 29.75243942588426,
+        "Products_operating_profit_addition_B": 0.0,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2031,
+        "original_DCAI_margin": 0.3796131097358172,
+        "preferred_DCAI_margin": 0.3826131097358172,
+        "DCAI_revenue_B": 85.677478709112,
+        "original_DCAI_operating_profit_B": 32.52429412709027,
+        "preferred_DCAI_operating_profit_B": 32.78132656321761,
+        "Products_operating_profit_addition_B": 0.257032436127336,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2032,
+        "original_DCAI_margin": 0.37293462887743284,
+        "preferred_DCAI_margin": 0.37893462887743284,
+        "DCAI_revenue_B": 94.08194923912487,
+        "original_DCAI_operating_profit_B": 35.08641682355851,
+        "preferred_DCAI_operating_profit_B": 35.650908518993255,
+        "Products_operating_profit_addition_B": 0.5644916954347492,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2033,
+        "original_DCAI_margin": 0.3662854815972972,
+        "preferred_DCAI_margin": 0.3752854815972972,
+        "DCAI_revenue_B": 102.14366391030183,
+        "original_DCAI_operating_profit_B": 37.41374112749737,
+        "preferred_DCAI_operating_profit_B": 38.333034102690085,
+        "Products_operating_profit_addition_B": 0.9192929751927166,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2034,
+        "original_DCAI_margin": 0.3596597332150514,
+        "preferred_DCAI_margin": 0.3716597332150514,
+        "DCAI_revenue_B": 109.61822457401325,
+        "original_DCAI_operating_profit_B": 39.4252614057972,
+        "preferred_DCAI_operating_profit_B": 40.74068010068536,
+        "Products_operating_profit_addition_B": 1.315418694888159,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2035,
+        "original_DCAI_margin": 0.35303808618009525,
+        "preferred_DCAI_margin": 0.36803808618009526,
+        "DCAI_revenue_B": 116.52849864890558,
+        "original_DCAI_operating_profit_B": 41.13899814844944,
+        "preferred_DCAI_operating_profit_B": 42.88692562818302,
+        "Products_operating_profit_addition_B": 1.7479274797335838,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2036,
+        "original_DCAI_margin": 0.34642056596808085,
+        "preferred_DCAI_margin": 0.36442056596808087,
+        "DCAI_revenue_B": 122.67527703430302,
+        "original_DCAI_operating_profit_B": 42.49723890051436,
+        "preferred_DCAI_operating_profit_B": 44.70539388713182,
+        "Products_operating_profit_addition_B": 2.208154986617455,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2037,
+        "original_DCAI_margin": 0.3398117485953034,
+        "preferred_DCAI_margin": 0.3608117485953034,
+        "DCAI_revenue_B": 128.3744341335772,
+        "original_DCAI_operating_profit_B": 43.623140937863475,
+        "preferred_DCAI_operating_profit_B": 46.319004054668596,
+        "Products_operating_profit_addition_B": 2.6958631168051217,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2038,
+        "original_DCAI_margin": 0.33320793644121993,
+        "preferred_DCAI_margin": 0.35720793644121995,
+        "DCAI_revenue_B": 133.52853963144304,
+        "original_DCAI_operating_profit_B": 44.49276914660279,
+        "preferred_DCAI_operating_profit_B": 47.69745409775742,
+        "Products_operating_profit_addition_B": 3.204684951154633,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2039,
+        "original_DCAI_margin": 0.32660399435670545,
+        "preferred_DCAI_margin": 0.3536039943567055,
+        "DCAI_revenue_B": 138.21198704132985,
+        "original_DCAI_operating_profit_B": 45.14058703567554,
+        "preferred_DCAI_operating_profit_B": 48.87231068579144,
+        "Products_operating_profit_addition_B": 3.7317236501159057,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2040,
+        "original_DCAI_margin": 0.32000000000000006,
+        "preferred_DCAI_margin": 0.3500000000000001,
+        "DCAI_revenue_B": 142.35834665256976,
+        "original_DCAI_operating_profit_B": 45.55467092882233,
+        "preferred_DCAI_operating_profit_B": 49.82542132839943,
+        "Products_operating_profit_addition_B": 4.270750399577093,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      },
+      {
+        "year": 2041,
+        "original_DCAI_margin": 0.32,
+        "preferred_DCAI_margin": 0.35,
+        "DCAI_revenue_B": 146.62909705214685,
+        "original_DCAI_operating_profit_B": 46.921311056686996,
+        "preferred_DCAI_operating_profit_B": 51.3201839682514,
+        "Products_operating_profit_addition_B": 4.398872911564405,
+        "Foundry_profit_change_B": 0.0,
+        "capital_DA_WC_change_B": 0.0
+      }
+    ]
+  },
+  "primary_evidence": [
+    {
+      "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000068/a04022024form8-kexhibit991.htm",
+      "date": "2024-04-02",
+      "locator": "Recast MD&A pages2\u20134, segment accounting and annual segment table",
+      "facts": "Recast2021\u20132023 applies internal foundry market-like transfer charges and separates Altera. DCAI2021 revenue20.786B/operating profit9.071B;2022 revenue16.856B/profit4.198B;2023 revenue12.635B/profit1.620B. These correspond to43.64%,24.91%,12.82%. They establish possible cyclicality under the transfer model, not a directly invariant current DCAI series; subsequent NEX/other reallocations changed scope."
+    },
+    {
+      "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "date": "2026-01",
+      "locator": "Intel Products MD&A table and Note3 Operating Segments",
+      "facts": "Latest annual recast DCAI revenue/profit:B2023 15.980/.945;2024 16.125/1.414;2025 16.919/3.422, or5.91%/8.77%/20.23%. Products margins23%/26%/26% rounded.2025 DCAI improvement included1.5B lower operating expenses and lower Gaudi inventory charges; higher server unit costs largely offset higher revenue. Intersegment charges aim to approximate market prices; manufacturing/process-development/excess-capacity costs reside in Foundry. Corporate SBC is not in segment margins."
+    },
+    {
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "date": "2026-07-24",
+      "locator": "Note3 segment tables; Intel Products MD&A",
+      "facts": "H1 DCAI revenue11.314B/profit4.016B;Q2 revenue6.262B/profit2.474B. Therefore Q1 by subtraction5.052B/1.542B. Margins30.52%Q1,39.51%Q2,35.50%H1. Revenue/ramp leverage is already visible; no assumption that every subsequent quarter compounds this improvement."
+    },
+    {
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "date": "2026-10-30",
+      "locator": "Note3 segment table; MD&A pages33\u201334",
+      "facts": "Q3 DCAI revenue7.318B/profit3.039B=41.53%. Reported product profit rose2.2B despite higher premium unit costs;segment profit rose2.1B. Premium mix dominates ASP gains and input-cost pricing contributes less. Corporate unallocated includes SBC. These observations support operating leverage, but not a measured long-run CPU/custom margin split."
+    },
+    {
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "locator": "CFO segment discussion and Q4 gross-margin discussion",
+      "facts": "Granite Rapids became largest server family; DCAI demand still exceeded supply. Purpose-built silicon grew above50% sequentially and above100%YoY;its strong expected Q4 growth makes gross-margin comparisons more difficult. This is evidence for mix pressure, not an explicit20% operating-margin disclosure."
+    },
+    {
+      "source": "https://www.intel.com/content/www/us/en/newsroom/news/intel-outlines-new-financial-reporting-structure.html",
+      "date": "2024-04-02",
+      "locator": "Intel Products financial framework",
+      "facts": "Historical management aspiration was60% Products non-GAAP gross margin/40% operating margin by2030, with market-priced manufacturing charges. This was a prior leadership target, not current confirmed guidance or the basis for adopting35%. Its scope differs from DCAI and excludes adjustments."
+    },
+    {
+      "source": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "date": "2026-10-22",
+      "locator": "Server CPU supply and competitive-share forecast",
+      "facts": "Independent primary market-research forecast supports strong market growth but constrained Intel supply and growing competitors. It informs competitive risk, not a future profit-margin measurement."
+    }
+  ],
+  "mix_diagnostic": {
+    "source": "Frozen ASP policy annual operating rows, not observed future mix",
+    "Q3_2026_Other_DCAI_share_approx": 0.19130910084722602,
+    "modeled_2040_Other_DCAI_share": 0.2474832777081776,
+    "formula": "DCAI margin=(1-other_share)*CPU margin+other_share*Other margin. Illustrative Other margin is not publicly disclosed and includes more than a single custom-silicon product.",
+    "illustrative_splits": [
+      {
+        "assumed_Other_operating_margin": 0.15,
+        "CPU_margin_for32percent_blend": 0.3759086010504293,
+        "CPU_margin_for35percent_blend": 0.41577482476521094
+      },
+      {
+        "assumed_Other_operating_margin": 0.2,
+        "CPU_margin_for32percent_blend": 0.3594648948591266,
+        "CPU_margin_for35percent_blend": 0.3993311185739082
+      },
+      {
+        "assumed_Other_operating_margin": 0.25,
+        "CPU_margin_for32percent_blend": 0.3430211886678238,
+        "CPU_margin_for35percent_blend": 0.3828874123826054
+      }
+    ],
+    "interpretation": "A rise in Other sales share alone does not explain the full42-to32point decline; lower CPU profitability must also be assumed.35% still allows meaningful erosion and custom mix dilution. Neither blend should be represented as source-calibrated to a precise mature margin."
+  },
+  "falsifiers": {
+    "lower_view": "Sustained ASP gains fail to translate into absolute product profit after cost pass-through, premium-chip costs stay elevated as volume scales, or custom revenue rises while CPU pricing/renewal economics deteriorate. Those would favor30\u201332%.",
+    "higher_view": "CPU gross profit grows with accepted output after supply shortages ease, custom margins improve with scale, and incremental product spending remains disciplined without shifting unrecognized costs into Foundry/corporate. Those would favor high30s/40%.",
+    "strongest_objection": "The scale and mix in2040 are far beyond current observations. Powerful hyperscalers and architectural alternatives may capture much of the value;35% is still a business judgment, not demonstrated durable market power.",
+    "competition_use": "A3\u20135-year pitch should rely on observable2027\u20132029 product-profit conversion and paid capacity delivery. A terminal margin choice alone is not a defensible directional catalyst."
+  },
+  "source_hashes": {
+    "intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+  },
+  "no_equity_output_viewed_or_calculated": true
+}

@@ -1,0 +1,110 @@
+{
+  "compiled_utc": "2026-11-06T00:12:16.354478+00:00",
+  "baseline": "tmp/pdfs/intel_long/before_two_hour/m37_intel_initial_screen.pdf",
+  "baseline_sha256": "98631d1e6f4d9df2e90ec41a96f02159f4d994d0df697ff832312ccac3e1d303",
+  "comparison_scope": {
+    "verified_winners": [
+      "WMS / UNC 2024",
+      "JBI / Columbia 2023",
+      "Cargojet / Waterloo CFA 2024",
+      "Middleby / Yale UNC 2025",
+      "Lightspeed / Waterloo CFA 2026",
+      "Garrett Motion / Notre Dame Cornell 2023"
+    ],
+    "controls": "Same-event alternate WMS, ranked runners-up, semiconductor club/research reports and older CFA winning HOLD/lower-return recommendations; award status and horizon explicitly separated.",
+    "limit": "These are selected public presentations, not a representative sample or verified M37 initial screens. No causal winning model, score or numerical win probability is inferred."
+  },
+  "new_or_materially_strengthened_this_session": [
+    {
+      "change": "2026E-to-2027 Products profit bridge",
+      "effect": "DCAI +5.09368132B versus CCPG -1.384231048B makes the long business mechanism explicit; operating forecast itself retained."
+    },
+    {
+      "change": "Conditional H2 delivery hurdle",
+      "effect": "Flat H1 at forecast Q4 CPU sales requires9.211844B per quarter in H2,41.1625% higher. Revenue hurdle, not unit forecast or observed run rate."
+    },
+    {
+      "change": "Supply calendar and real disruption",
+      "effect": "Fab28 Q4 guidance treatment and early similar Q1 revenue impact; planned H2 Oregon Intel3 output and much of40% substrate capacity expansion; separates company claims from qualified CPU deliveries."
+    },
+    {
+      "change": "Growth and margin stress timing",
+      "effect": "Added early2028\u201330 unit-growth slowdown to10% annually, held2027 unchanged, preserved lowerlaterlevel and explicit50% near-term group EBIT decremental; target66.1259242,annual5.8492%. Earlier marginerosion andFoundrydelay also shown."
+    },
+    {
+      "change": "Explicit financial claims policy",
+      "effect": "Separate215MAltera/SLP and1B VLSIreserve; payment releasesreserve once; no duplicate ECfine afterrestrictedcash exclusion. Target77.4614798 from77.6819880,minus0.2205082/share; no operating forecast change."
+    },
+    {
+      "change": "Durability and price/cost diagnostic",
+      "effect": "Contrasting SAP certification friction and Datadog Arm migration;10% CPU ASP decline at fixedquantities/cost gives35.15% DCAIillustration; restoring40%needs11.16% CPUexpense reduction under assumed Othermargin20%. No empirical marginfloor."
+    },
+    {
+      "change": "Consolidated profit check",
+      "effect": "DCAI andFoundry forecasts are linked; noextra profitfrom internaltransfer repricing;futureinventoryprofiteliminationsnormalizedzero andphysicalreconciliation incomplete."
+    },
+    {
+      "change": "Research-method honesty",
+      "effect": "AuditedTPC-H licensing/system disclosures; customer efficiency does not prove Intel ASP/pricing power. No interviews or fresh workload experiments claimed."
+    },
+    {
+      "change": "Market-baseline discipline",
+      "effect": "PreearningsDIGITIMES CPUforecast is notcurrentconsensus. UBS question onOct29 already contemplated10\u201315BDCAIgrowth; own12.731388Bincrease liesinside it. Notformal analystforecast ormanagementguidance."
+    },
+    {
+      "change": "Presentation and defense",
+      "effect": "Ten-page claim-led narrative; five-page private defense; three-page comparison with direct links and one-based PDF locators. Allfinalpagesrendered andvisuallychecked."
+    }
+  ],
+  "retained_not_new": [
+    "Core operating forecast",
+    "2027units20% andASP20%",
+    "40%matureDCAI margin",
+    "0.80capitalproductivity",
+    "11.555%flatoperatingdiscountrate",
+    "Original cumulativecashbridge",
+    "2027\u201328DCAI/Foundry89%profit-attributioncalculation",
+    "52.22regularclosingreference",
+    "Moderate-convictionLONG"
+  ],
+  "verdict": "Closer to strong examples in explanation, dated valuation, disclosure and challengeability. Still lacks independent physical proof of deliverable sustained CPU growth and a demonstrated strong risk-adjusted price advantage at52.22. This is a credible initial screen, not evidence of a9/10thesis or90%chance ofwinning.",
+  "supplemental_final_audits": [
+    {
+      "receipt": "model_audit/early_growth_cost_response_results.json",
+      "finding": "At unchanged2031onwardpath, stronger2028\u201330 EBITdecrementals75%/100%lower the earlygrowthtarget to65.12/64.12; not downsidebounds."
+    },
+    {
+      "receipt": "economic_underwriting/substrate_calendar_carryover_diagnostic.json",
+      "finding": "Hypothetical H2stepversuslinearramp tosame40%capacityaddition yieldsdifferentannualandnextyeargrowth; capacity headlinecannotidentifyCPUshipments."
+    },
+    {
+      "receipt": "final_rules_and_comparison_calibration.json",
+      "finding": "Rulesdo notsetminimumreturnorquantitativewinningrubric; subsequentJBIforecastmissdistinguishesawardfrominvestmentcorrectness."
+    },
+    {
+      "receipt": "blind_review/final_late_call_claim_check.json",
+      "finding": "Latefirst-personcapacityandUBSquestionclaims independentlymatched;PDFwordingpasses."
+    }
+  ],
+  "source_citation_map_review": "Root checked main page1\u20139 claim references against sourcepage1\u201318. P4 and18 reflect new Q&A coverage; annualforecast, industryforecast, managementstatement and observedresults remain labeled separately.",
+  "artifact_checks": [
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "visual_qa": "passed",
+      "sha256": "2020ecf0ab40e120382ce4a72a083bc16bcb15169a5b5e75e98aff8324ffa64b"
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 5,
+      "visual_qa": "passed",
+      "sha256": "a8b9186e3273ba0f9d614ce6cf26532d55f91e7628d56dddfcf7d3b3f3e21ff7"
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "pages": 3,
+      "visual_qa": "passed",
+      "sha256": "5378d3640870836d427f900a69925213df90cb99e8a930e8fd9b49c2c5c6d09d"
+    }
+  ]
+}

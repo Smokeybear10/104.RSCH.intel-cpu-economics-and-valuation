@@ -1,0 +1,41 @@
+{
+  "reviewed_utc": "2026-11-05T23:09:48.721934+00:00",
+  "pdf_sha256": "8d1b7200e33cce9996442c0a083596c0715f6cddc4bac876edeb26e41ebe68f4",
+  "pages": 5,
+  "status": "Key quantitative claims and scenario identities pass; two visible punctuation defects reported to root.",
+  "independent_mature_mix_calculation": {
+    "conditional_Q3_CPU_margin": 0.4662047989185536,
+    "Other_mature_revenue_share": 0.2474832777081776,
+    "blended_margin": 0.40032356274054365,
+    "margin_after10pct_CPU_ASP_cut_fixed_costs": 0.3515247129940468,
+    "required_CPU_cost_reduction_to_retain_blend": 0.11234204354863762
+  },
+  "checks": [
+    "Futuretarget77.68notimmediateundervaluation;planning51.29and56daydatemismatchexplicit.",
+    "Base10.0%conditionalpriceCAGRnotprobabilityweightedexpectedreturn.",
+    "Temporaryshipment77.48restores2028absoluteunitsandrequires36.4%;missedsalesnotrecaptured.",
+    "Early35%margin45.22/68.36distinctfrommature-only35%70.98.",
+    "Operatingvalue92.3%post2030and46.3%post2040usesconsistentDec2026operatingdenominator.",
+    "CPUrevenue2030\u2013406.0%CAGRvs3%scenario69.85correct.",
+    "Knownshadowpackagingfundingcost0.16doesnotcompleteexternalFoundrysalesreconciliation.",
+    "Grosspackaging7B2030contains2Bembeddedallowance;only5Bincremental.",
+    "Current40%maturemixconditionaldiagnosticnotclaimedreportedCPU/Othermargins.",
+    "23.5%terminalincrementalaccountingratioexplicitR&DexpensingnotfulleconomicROIC."
+  ],
+  "visual_review": [
+    "Renderedpages3and4:tablelegible,noclip,adequatefontandsourceplacement."
+  ],
+  "wording_fixes": [
+    {
+      "page": 4,
+      "current": "D&A; is reduced",
+      "suggested": "D&A is reduced"
+    },
+    {
+      "page": 4,
+      "current": "R&D; expensed",
+      "suggested": "R&D expensed"
+    }
+  ],
+  "optional_precision": "23.5%ischangeinNOPAT/sameyearnetinvestment;conventionalg/reinvestmentfractiongives24.18%differenttiming. Neither is measuredhistoricalaverageROIC."
+}

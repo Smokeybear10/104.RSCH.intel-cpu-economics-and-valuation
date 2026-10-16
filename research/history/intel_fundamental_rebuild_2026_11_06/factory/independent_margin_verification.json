@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-11-07T01:10:00.633412+00:00",
+  "independent_checks": 20,
+  "max_error_USD": 2.4868995751603507e-14,
+  "method": "Independently discount after-tax EBIT differences and accumulate2030 cash; no model valuation function called. Financing and capital unchanged.",
+  "reverse_margin_hurdle": {
+    "0.10625": [
+      {
+        "required_annual_price_return": 0.12,
+        "required_2030_target_USD": 90.08189582091165,
+        "required_flat_program_margin_from2030": 0.6998317969685532,
+        "economically_impossible_above100pct": false,
+        "status": "Unrealistic or impossible reverse hurdle, not a proposed forecast"
+      },
+      {
+        "required_annual_price_return": 0.15,
+        "required_2030_target_USD": 100.52762905267535,
+        "required_flat_program_margin_from2030": 1.2922082020372248,
+        "economically_impossible_above100pct": true,
+        "status": "Unrealistic or impossible reverse hurdle, not a proposed forecast"
+      }
+    ],
+    "0.11555": [
+      {
+        "required_annual_price_return": 0.12,
+        "required_2030_target_USD": 90.08189582091165,
+        "required_flat_program_margin_from2030": 1.312231117954662,
+        "economically_impossible_above100pct": true,
+        "status": "Unrealistic or impossible reverse hurdle, not a proposed forecast"
+      },
+      {
+        "required_annual_price_return": 0.15,
+        "required_2030_target_USD": 100.52762905267535,
+        "required_flat_program_margin_from2030": 1.9724855445535765,
+        "economically_impossible_above100pct": true,
+        "status": "Unrealistic or impossible reverse hurdle, not a proposed forecast"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-11-06T06:59:23.492732+00:00",
+  "checks": [
+    {
+      "series": "CPU_quarterly",
+      "quarters": 16,
+      "checks": "Unique contiguous quarters; every unit and ASP transition; direct revenue identity; annual sales ties all passed"
+    },
+    {
+      "series": "client_quarterly",
+      "quarters": 16,
+      "checks": "Unique contiguous quarters; every unit and ASP transition; direct revenue identity; annual sales ties all passed"
+    }
+  ],
+  "note": "Independent read-only arithmetic validation; no inference about forecast accuracy."
+}

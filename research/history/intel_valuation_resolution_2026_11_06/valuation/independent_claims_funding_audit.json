@@ -1,0 +1,19 @@
+{
+  "audited_utc": "2026-11-06T22:49:54.356262+00:00",
+  "method": "Read-only independent bisection solve for minimum loan draw; reconstruct cash, debt, contractual financing NPV, shields, target and entry arithmetic without importing producer.",
+  "source_sha256": "6a18ec3121fe30177e02e8d4a34539eef1fb5832cd4778c015cf061bad563870",
+  "script_sha256": "bc629db6f8285ffc7d5c30a8fc88b9602a4aa7e491b459103575246247e74143",
+  "policy_sha256": "4003cf8e553cc8771cd5150bab4658db554c3badc4c5eb02bb549b6e996c53e8",
+  "quarterly_rows_checked": 384,
+  "numeric_comparisons": 2616,
+  "maximum_error": 7.105427357601002e-15,
+  "maximum_pretax_financing_NPV_residual_B": 4.440892098500626e-16,
+  "status": "PASS, conditional-method interpretation",
+  "findings": [
+    "The paired loan proceeds and contractual debt service have zero pretax NPV only under the assumed fair-loan discount rate equal to the coupon. This is a financing identity, not evidence that financing has zero cash cost or is available at that rate.",
+    "Unlevered APV should not receive a second interest expense deduction after paired financing has been valued; ending2030 cash correctly falls by cumulative after-tax interest.",
+    "No access guarantee, daily liquidity coverage, fee schedule, spread-at-stress or refinancing uncertainty is established. The reported cost is illustrative interest cost, not all-in funding cost.",
+    "Full-quarter interest on start-quarter draws and end-quarter repayment follow the stated policy. Modeling an intraperiod cash trough would require a different timing schedule.",
+    "Zero planning uplift is consistent with declining to credit unverified incremental shields. Do not say this new financing analysis independently validates the operating target."
+  ]
+}

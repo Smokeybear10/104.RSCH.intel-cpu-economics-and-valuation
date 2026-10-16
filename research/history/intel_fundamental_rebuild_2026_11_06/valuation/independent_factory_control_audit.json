@@ -1,0 +1,130 @@
+{
+  "status": "passed",
+  "numeric_comparisons": 670,
+  "maximum_error": 2.842170943040401e-14,
+  "method": "Independent frozen-row APV rebuild plus direct discounted aftertax EBITdelta identity; no factory engine imported.",
+  "control_sha256": "5f5e47f3d3fcc8500e834f0acfd9ef949f5c7951a6e577aafd2fb9238f4d65f3",
+  "results": [
+    {
+      "case": "unchanged_owned_case",
+      "rate": 0.10625,
+      "endpoint": 2026,
+      "verified_price_USD": 56.13928584556836
+    },
+    {
+      "case": "unchanged_owned_case",
+      "rate": 0.10625,
+      "endpoint": 2030,
+      "verified_price_USD": 82.47015162680005
+    },
+    {
+      "case": "rounded_Amkor_company_Q3_margin11_3pct_control",
+      "rate": 0.10625,
+      "endpoint": 2026,
+      "verified_price_USD": 54.312290268123604
+    },
+    {
+      "case": "rounded_Amkor_company_Q3_margin11_3pct_control",
+      "rate": 0.10625,
+      "endpoint": 2030,
+      "verified_price_USD": 79.73393403411599
+    },
+    {
+      "case": "rounded_ASE_ATM_Q3_margin20pct_control",
+      "rate": 0.10625,
+      "endpoint": 2026,
+      "verified_price_USD": 55.336637731676454
+    },
+    {
+      "case": "rounded_ASE_ATM_Q3_margin20pct_control",
+      "rate": 0.10625,
+      "endpoint": 2030,
+      "verified_price_USD": 81.2680579178282
+    },
+    {
+      "case": "flat25pct_from2030_no_mature27pct",
+      "rate": 0.10625,
+      "endpoint": 2026,
+      "verified_price_USD": 55.92534317049992
+    },
+    {
+      "case": "flat25pct_from2030_no_mature27pct",
+      "rate": 0.10625,
+      "endpoint": 2030,
+      "verified_price_USD": 82.14973831076625
+    },
+    {
+      "case": "Intel_attributed_aspiration30pct_control",
+      "rate": 0.10625,
+      "endpoint": 2026,
+      "verified_price_USD": 56.5140486093234
+    },
+    {
+      "case": "Intel_attributed_aspiration30pct_control",
+      "rate": 0.10625,
+      "endpoint": 2030,
+      "verified_price_USD": 83.0314187037043
+    },
+    {
+      "case": "unchanged_owned_case",
+      "rate": 0.11555,
+      "endpoint": 2026,
+      "verified_price_USD": 48.557681488026326
+    },
+    {
+      "case": "unchanged_owned_case",
+      "rate": 0.11555,
+      "endpoint": 2030,
+      "verified_price_USD": 73.56082736404235
+    },
+    {
+      "case": "rounded_Amkor_company_Q3_margin11_3pct_control",
+      "rate": 0.11555,
+      "endpoint": 2026,
+      "verified_price_USD": 46.97457710773589
+    },
+    {
+      "case": "rounded_Amkor_company_Q3_margin11_3pct_control",
+      "rate": 0.11555,
+      "endpoint": 2030,
+      "verified_price_USD": 71.1091364773475
+    },
+    {
+      "case": "rounded_ASE_ATM_Q3_margin20pct_control",
+      "rate": 0.11555,
+      "endpoint": 2026,
+      "verified_price_USD": 47.863349793766226
+    },
+    {
+      "case": "rounded_ASE_ATM_Q3_margin20pct_control",
+      "rate": 0.11555,
+      "endpoint": 2030,
+      "verified_price_USD": 72.48554344192434
+    },
+    {
+      "case": "flat25pct_from2030_no_mature27pct",
+      "rate": 0.11555,
+      "endpoint": 2026,
+      "verified_price_USD": 48.37413869378367
+    },
+    {
+      "case": "flat25pct_from2030_no_mature27pct",
+      "rate": 0.11555,
+      "endpoint": 2030,
+      "verified_price_USD": 73.27658192731336
+    },
+    {
+      "case": "Intel_attributed_aspiration30pct_control",
+      "rate": 0.11555,
+      "endpoint": 2026,
+      "verified_price_USD": 48.88492759380111
+    },
+    {
+      "case": "Intel_attributed_aspiration30pct_control",
+      "rate": 0.11555,
+      "endpoint": 2030,
+      "verified_price_USD": 74.06762041270234
+    }
+  ],
+  "limits": "Arithmetic audit only. ASE/Amkor margin scope differs from Intel; controls do not validate Intel fees, program scale or forecast margins. No selected forecast changed."
+}

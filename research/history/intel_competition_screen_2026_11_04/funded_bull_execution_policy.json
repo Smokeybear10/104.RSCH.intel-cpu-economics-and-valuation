@@ -1,0 +1,29 @@
+{
+  "selected_utc": "2026-11-04T12:11:56.744146+00:00",
+  "scope": "Execution rules for hardware-agent funded bullish alternative, selected before its equity output. Base stock value is already known. This is an adversarial economic countercase, not a probability-weighted revised base.",
+  "base_value_sha256": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+  "valuation_method": "Recompute each operating cash row and value its difference from the independently checked base. Add the finite cumulative cash differences to endpoint cash. Debt and tax shields may be held unchanged ONLY if the alternative never hits the20B economic liquidity floor and taxable income covers the same financing deductions. Otherwise stop and model the financing change.",
+  "rates": [
+    0.11,
+    0.12,
+    0.13
+  ],
+  "primary_rate": 0.12,
+  "dates": [
+    2026,
+    2029,
+    2030,
+    2031
+  ],
+  "unchanged_rules": [
+    "Entry60.55 on2026-11-03; planning claims5.51B.",
+    "Root ordinary tax rates, finite AMIC eligible basis/collections and credit basis-loss charges remain unchanged. No automatic extra subsidy for additional capex.",
+    "Base corporate cash costs, SBC, Other earnings, lease and minority reserves remain unchanged. Extra output comes from productive use of existing organization plus manufacturing/product costs already inside alternative segment margins. This is an assumption, not proof that central costs never increase.",
+    "New capitalized financing interest1B, its8year tax recovery and ordinary debt coupon/principal policies unchanged subject to liquidity/tax-capacity checks.",
+    "No additional acquisition franchise, external14A award, share issuance, dividend or buyback.",
+    "Cash income remains the finite1B/year normalization; larger modeled cash does not automatically earn additional projected income.",
+    "Capital includes the full alternative physical spending and WC plus the existing separately modeled financing interest.",
+    "End2026 is a planning reference, not November3 current fair value."
+  ],
+  "countercase_boundary": "Bullish means stronger operating execution. The scenario is not promised to imply an attractive long return. Do not tune parameters after seeing its value."
+}

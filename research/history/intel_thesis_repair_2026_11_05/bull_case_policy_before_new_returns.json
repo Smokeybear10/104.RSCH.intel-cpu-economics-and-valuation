@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-11-05T19:53:35.353903+00:00",
+  "chronology": "Prior audited price sensitivities are known, including the40%/maturing-risk89.64 endpoint supplied by the parent. This is not a blind experiment. The following operating and risk judgments are recorded before any new return arithmetic or forecast revaluation in this reassessment; no desired target or probability is fitted.",
+  "selected_business_judgment": "The recovery and richer mix are credible.40% mature DCAI margin is a legitimate bullish underwriting choice, but this review does not prefer it strongly enough over35% to make a higher-margin long the default. Current41.5% quarter and37.9% YTD result, actual multigeneration customer adoption and lower wafer costs support persistence. Supply shortages, mix-specific economics, rising lower-gross-margin custom silicon and concurrent customer adoption of competing CPUs limit permanence.",
+  "bull_case_to_evaluate": {
+    "mature_DCAI_margin": 0.4,
+    "host_capital_productivity": 0.8,
+    "revenue_path": "Keep existing already-strong accepted unit/ASP/custom growth through2030 and its existing long-run fade. Do not add Oracle or Google again as new revenue on top of this path.",
+    "risk_path": "Show both existing flat11.555% and existing maturing risk; prefer flat as the valuation convention for an adopted recommendation until a reason is supplied for reducing systematic operating risk. Funding improvement alone does not mechanically lower asset beta.",
+    "extra_external_wafer_or_packaging_value": "Zero incremental value in this reassessment. Existing overlay remains; no unannounced customer win or binding future volume is assumed.",
+    "near_term_capital": "Unchanged. Equipment reuse and improved yield support output/cost recovery already modeled, while issuer still says capex and supplier commitments increase."
+  },
+  "capital_upside_control": {
+    "host_capital_productivity": 1.0,
+    "classification": "Upside scenario only. Customer deposits and equity funding improve financing but do not themselves change sales per dollar of physical net investment. No independent upward central capital-productivity revision."
+  },
+  "decision_standard": "Choose a clear long or short only if the owned operating judgment and appropriate risk/holding-period comparison make it attractive. No requirement to survive every reasonable sensitivity, possess a unique provable terminal margin, produce statistically estimated probabilities, or guarantee a contest win."
+}

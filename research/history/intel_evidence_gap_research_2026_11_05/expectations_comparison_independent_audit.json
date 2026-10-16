@@ -1,0 +1,270 @@
+{
+  "audited_utc": "2026-11-05T07:14:07.150389+00:00",
+  "auditor": "independent peer_crosscheck_research agent",
+  "status": "PASS arithmetic and source attribution, WITH scope and forecast-base conditions",
+  "read_only_model_and_PDF": true,
+  "source_files": {
+    "target": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_evidence_gap_research_2026_11_05/expectations_comparison_result.json",
+      "sha256": "7841d1bb291d789123820203560fabb139f0374287d642f5fcd0d672729d5a78"
+    },
+    "original_policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_policy_2026_11_04.json",
+      "sha256": "8a350e92f2f7519809f1eb59a213e8c7c1c401435ce3f25822733f39c9297a41"
+    },
+    "original_forecast": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json",
+      "sha256": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d"
+    },
+    "current_policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "frozen_model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "EPS_bridge": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/earnings_cash_bridge_results.json",
+      "sha256": "f0f6cf45b96a790602b947a79d91ff8ba89d4f1c5d4a397eb1d5a50e81742978"
+    }
+  },
+  "checks": [
+    {
+      "check": "DCAI FY2026 estimate reconstructed",
+      "independent_value": 27.0477,
+      "recorded_value": 27.0477,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "CCPG FY2026 estimate reconstructed",
+      "independent_value": 30.77375,
+      "recorded_value": 30.77375,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "DCAI base",
+      "independent_value": 27.0477,
+      "recorded_value": 27.0477,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "DCAI 2027 revenue",
+      "independent_value": 39.779088,
+      "recorded_value": 39.779088,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "DCAI 2027 growth",
+      "independent_value": 0.4707013165629612,
+      "recorded_value": 0.4707013165629612,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "DCAI growth percentage-point gap",
+      "independent_value": 10.070131656296121,
+      "recorded_value": 10.070131656296121,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "DCAI comparator growth on own base",
+      "independent_value": 37.055349,
+      "recorded_value": 37.055349,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "DCAI same-base dollar difference",
+      "independent_value": 2.723739000000002,
+      "recorded_value": 2.723739000000002,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "CCPG base",
+      "independent_value": 30.77375,
+      "recorded_value": 30.77375,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "CCPG 2027 revenue",
+      "independent_value": 28.553599800000004,
+      "recorded_value": 28.553599800000004,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "CCPG 2027 growth",
+      "independent_value": -0.07214428530809525,
+      "recorded_value": -0.07214428530809525,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "CCPG growth percentage-point gap",
+      "independent_value": 4.785571469190475,
+      "recorded_value": 4.785571469190475,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "CCPG comparator growth on own base",
+      "independent_value": 27.0809,
+      "recorded_value": 27.0809,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "CCPG same-base dollar difference",
+      "independent_value": 1.4726998000000044,
+      "recorded_value": 1.4726998000000044,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2027 gross cash PPE",
+      "independent_value": 31.5,
+      "recorded_value": 31.5,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2027 gross capex difference",
+      "independent_value": 1.5,
+      "recorded_value": 1.5,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2027 gross capex fraction",
+      "independent_value": 0.050000000000000044,
+      "recorded_value": 0.050000000000000044,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2028 gross cash PPE",
+      "independent_value": 33.75,
+      "recorded_value": 33.75,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2028 gross capex difference",
+      "independent_value": 1.75,
+      "recorded_value": 1.75,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2028 gross capex fraction",
+      "independent_value": 0.0546875,
+      "recorded_value": 0.0546875,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2027 Products revenue",
+      "independent_value": 68.3326878,
+      "recorded_value": 68.3326878,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2027 Products minus public consolidated",
+      "independent_value": -0.9343121999999937,
+      "recorded_value": -0.9343121999999937,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2028 Products revenue",
+      "independent_value": 84.74132528580002,
+      "recorded_value": 84.74132528580002,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2028 Products minus public consolidated",
+      "independent_value": 1.0223252858000222,
+      "recorded_value": 1.0223252858000222,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2027 reference_earnings_bridge EPS",
+      "independent_value": 2.4996601201597093,
+      "recorded_value": 2.4996601201597093,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "check": "2027 combined_adverse_presentation EPS",
+      "independent_value": 1.9095888305066666,
+      "recorded_value": 1.9095888305066664,
+      "absolute_error": 2.220446049250313e-16,
+      "pass": true
+    }
+  ],
+  "all_arithmetic_checks_pass": true,
+  "primary_reported_anchor_verification": {
+    "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "location": "Note 2 segment revenue table; Q3 and nine months ended September 26, 2026",
+    "Q3_CCPG_B": 8.097,
+    "Q3_DCAI_B": 7.318,
+    "YTD_CCPG_B": 24.701,
+    "YTD_DCAI_B": 18.632,
+    "FY2026_CCPG_estimate_formula": "24.701 + 8.097*(1-0.25) = 30.77375",
+    "FY2026_DCAI_estimate_formula": "18.632 + 7.318*(1+0.15) = 27.0477",
+    "boundary": "2026 totals are own estimates using reported nine-month results and own Q4 judgments informed by management guidance. Neither full-year figure is an actual result or an exact consensus base. Growth comparisons use separate forecast bases; translating iFAST growth onto our base is explicitly hypothetical."
+  },
+  "gross_capex_source_quality": {
+    "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+    "publication_date": "2026-11-02",
+    "data_as_of": "2026-10-30",
+    "verified_forecasts": {
+      "DCAI_2027_growth": 0.37,
+      "CCPG_2027_growth": -0.12,
+      "2027_stated_gross_capex_B": 30,
+      "2028_stated_gross_capex_B": 32
+    },
+    "assessment": "Primary source for iFAST own forecast, not issuer guidance or aggregate consensus. Future gross label is explicit; detailed cash/financing/interest classification is unavailable.",
+    "historical_classification_problem": "iFAST 9M capex 10.2B aligns with Intel investing PP&E 10.216B, while issuer gross PP&E is 11.834B including financing PP&E 1.618B. Its implied Q4 capex near9.8B also reflects the narrow9M baseline. Thus gross intention does not establish exact matched cash classification.",
+    "our_reconciliation": "Our 30.5/32.75B physical cash PPE includes packaging overlay; add 1B annual capitalized interest from treasury to obtain gross cash PPE proxy31.5/33.75. Do not use host-only29/31 or silently compare physical-only values with analyst gross.",
+    "use": "Secondary estimate context; do not make5% difference a precise causal driver or claim matched consensus spending."
+  },
+  "Products_scope_verdict": {
+    "primary_location": "Intel 10Q Note2, Intel Products: CCPG and DCAI, segment revenue definition",
+    "primary_short_quote": "Segment revenue: consists of revenues from external customers.",
+    "verdict": "PASS as directional lower-bound or scale observation. Products is external customer revenue, not gross internal Foundry sales. Products forecast84.741B exceeds public whole-company forecast83.719B by1.022B. This is deliberately unequal scope and cannot be labeled an exact consolidated consensus beat.",
+    "guard": "Do not add gross Foundry revenue. A strict future consolidated lower bound additionally assumes consistent external-revenue classification and nonnegative other external net sales. Prefer wording: Products alone is84.7B, versus about83.7B public whole-company sales."
+  },
+  "EPS_scope_verdict": {
+    "url": "https://stockanalysis.com/stocks/intc/forecast/",
+    "vendor": "S&P Global financial forecast distributed through StockAnalysis",
+    "page_update_label": "2026-11-03",
+    "page_last_checked_label": "2026-11-02",
+    "verified_2027_adjusted_EPS": 1.8,
+    "classification": "Page explicitly calls EPS and forward P/E non-GAAP adjusted.",
+    "verdict": "PASS as benchmark of the direction of forecast optimism, not fully matched accounting forecast. Own2.49966 proxy uses own tax, share, NCI and addback policies; adverse1.90959 is a chosen sensitivity with unchanged operations, not a confidence bound or analyst reconstruction.",
+    "guard": "No measured operating earnings miss follows from an EPS proxy gap. No49-analyst EPS-contributor assertion;49 refers to ratings/price target coverage."
+  },
+  "recommended_page3": {
+    "headline": "My short case does not require an earnings miss.",
+    "rows": [
+      "2027 DCAI growth:47.1% own estimate vs37% iFAST",
+      "2027 CCPG growth:-7.2% own estimate vs-12% iFAST",
+      "2027 adjusted EPS:2.50 own proxy vs1.80 S&P benchmark"
+    ],
+    "footnote": "2027 growth uses our estimated FY2026 base; iFAST is one analyst. EPS is an issuer-style proxy; tax, shares and addbacks are not fully matched.",
+    "avoid": "Do not label the two segment forecasts market consensus. Do not say all public forecasts are weaker: the named operating comparator is itself a SELL case."
+  },
+  "overall_implication": "The comparison strengthens the honesty of the pitch and weakens an earnings-miss rationale. It does not independently prove the short, estimate a win probability, or validate the central discount. A return-on-investment/cash-duration valuation argument still bears the burden of proof."
+}

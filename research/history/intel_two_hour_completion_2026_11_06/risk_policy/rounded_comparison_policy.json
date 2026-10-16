@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-11-06T07:48:06.218268+00:00",
+  "purpose": "Root requested equal published-rounded precision in both ERP methods. This is a presentation consistency control after exact-method outputs, not a new method selected to clear a value.",
+  "selected": {
+    "Treasury": 0.0494,
+    "asset_beta": 1.5,
+    "ERP": 0.0441
+  },
+  "alternative": {
+    "Treasury": 0.0494,
+    "asset_beta": 1.5,
+    "ERP": 0.0379
+  },
+  "source": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx",
+  "locator": "Historical ERP row220, Nov1 2026; C220 Treasury, I220 sustainable-payout ERP, J220 plainT12 ERP"
+}

@@ -1,0 +1,195 @@
+{
+  "as_of": "2026-11-05",
+  "question": "Can the current LONG retain premium CPU profit after supply expands, given lower workload costs, supplier bargaining and manufacturing learning?",
+  "verdict": "Public evidence strengthens the case for real CPU demand and current execution, but does not identify Intel net prices or CPU profitability after supply normalizes. The decisive variable remains retained economics, not a transient delivery delay.",
+  "strongest_bull": [
+    "Actual deployments and signed relationships support useful Xeon 6 workloads: Google C4, SAS private cloud, IBM premium instances and SambaNova host/action CPUs.",
+    "Intel reports genuine manufacturing learning in prepared remarks, not just a third-party transcript: Intel 3 costs fell about 15% and Intel 18A about 40% from Q1 to Q3 2026.",
+    "Customer deposits and supplier-backed expansion show willingness to fund scarce supply. Dense CPUs can raise package ASP while reducing customer workload cost; these are compatible outcomes.",
+    "Software integration, certified platforms, memory bandwidth, operational familiarity and accelerators can matter more than a generic integer benchmark."
+  ],
+  "strongest_bear": [
+    "Intel says Q3 ASP growth primarily reflects premium mix; richer products carry higher unit costs. The absolute package price is not a measure of price charged for equal work.",
+    "Supplier primary disclosures show substrate scarcity, rising substrate prices, material pass-through and increasing production complexity. A portion of higher CPU revenue can pay for richer inputs and financing rather than become shareholder profit.",
+    "Intel itself reports increased hyperscaler purchasing power, concentrated sales and routinely negotiable net prices. Current deposits do not disclose a permanent price floor.",
+    "AMD and Arm are credible current alternatives. Public workload examples show software changes alter which hardware attribute deserves a premium. Neither a benchmark win nor a customer logo estimates Intel price elasticity.",
+    "A 40% mature blended DCAI assumption with lower-margin Other revenue essentially preserves the conditional Q3 CPU margin; it is not a large normalization haircut."
+  ],
+  "cost_learning_frontier": {
+    "classification": "Algebraic sensitivity, not a forecast and not an incremental valuation overlay.",
+    "inputs": {
+      "Q3_DCAI_revenue_B": 7.318,
+      "Q3_DCAI_OI_B": 3.039,
+      "Q3_Other_revenue_B": 1.4,
+      "assumed_Other_margin": 0.2,
+      "conditional_Q3_CPU_margin": 0.4662047989185537,
+      "mature_Other_revenue_share_before_price_change": 0.2474832777081776,
+      "baseline_mature_DCAI_margin": 0.4003235627405437
+    },
+    "policy": "Fix CPU quantity and Other revenue/profit. Normalize initial mature revenue to 1. Let CPU price change, allowing revenue mix to change. Solve for CPU costs required to keep DCAI operating margin at 40%.",
+    "formula": "Required CPU cost = initial CPU revenue*(1-price decline) - [target DCAI margin*(1-initial CPU revenue share*price decline) - Other operating profit].",
+    "rows": [
+      {
+        "CPU_ASP_decline": 0,
+        "new_DCAI_revenue_index": 1.0,
+        "required_further_DCAI_booked_CPU_cost_decline_for_40pct_margin": -0.0008055039694467858,
+        "required_wafer_cost_share_if_15pct_further_wafer_decline_and_full_pass_through": -0.005370026462978572
+      },
+      {
+        "CPU_ASP_decline": 0.05,
+        "new_DCAI_revenue_index": 0.9623741638854089,
+        "required_further_DCAI_booked_CPU_cost_decline_for_40pct_margin": 0.05539582556521605,
+        "required_wafer_cost_share_if_15pct_further_wafer_decline_and_full_pass_through": 0.369305503768107
+      },
+      {
+        "CPU_ASP_decline": 0.1,
+        "new_DCAI_revenue_index": 0.9247483277708177,
+        "required_further_DCAI_booked_CPU_cost_decline_for_40pct_margin": 0.11159715509987911,
+        "required_wafer_cost_share_if_15pct_further_wafer_decline_and_full_pass_through": 0.7439810339991941
+      },
+      {
+        "CPU_ASP_decline": 0.15,
+        "new_DCAI_revenue_index": 0.8871224916562266,
+        "required_further_DCAI_booked_CPU_cost_decline_for_40pct_margin": 0.16779848463454194,
+        "required_wafer_cost_share_if_15pct_further_wafer_decline_and_full_pass_through": 1.1186565642302797
+      }
+    ],
+    "key_result": "A 10% realized CPU price decline requires a further 11.1597% decline in the DCAI-booked CPU cost pool to preserve 40% blended DCAI margin under this convention.",
+    "critical_limits": [
+      "The Q3 anchor already incorporates historical learning and existing transfer conventions. Do not reuse the 15%/40% historical node-cost improvements as future savings.",
+      "The CPU cost pool is a residual from an assumed Other margin and includes booked manufacturing cost and allocated operating costs. It is not a disclosed CPU bill of materials or consolidated physical cost.",
+      "A hypothetical further 15% wafer-cost decline only delivers the required 11.16% total reduction if wafer cost represents 74.4% of this cost pool and all savings pass through with no other cost increase. The share and pass-through are undisclosed; this is only a scale check.",
+      "Foundry and DCAI allocate profit internally. Existing model credits manufacturing learning to Foundry. Adding this sensitivity to both segments would double count; use one consolidated policy.",
+      "At zero price decline the tiny negative required cost decline reflects the illustrative 40.0324% anchor being slightly above the 40% target, not a meaningful forecast."
+    ]
+  },
+  "buyer_and_workload_source_ledger": [
+    {
+      "source": "Google Cloud C4 GA",
+      "date": "2025-07-31",
+      "url": "https://cloud.google.com/blog/products/compute/c4-vms-based-on-intel-6th-gen-xeon-granite-rapids-now-ga",
+      "accepted": "Real Xeon 6 instance availability and low-friction adoption using existing CUDs, instance groups and GKE classes. Google quotes customers using C4.",
+      "rejected_inference": "beloFX 50% render speedup uses older N2/N2D baselines and incompletely specified C4 shape; SAS AI and Deutsche Boerse storage claims do not establish CPU-only price/performance versus current AMD."
+    },
+    {
+      "source": "IBM Cloud Xeon 6 announcement",
+      "date": "2026-02-11",
+      "url": "https://www.ibm.com/new/announcements/intel-xeon-6-on-ibm-cloud-the-right-silicon-for-the-right-workload",
+      "accepted": "IBM differentiates Xeon 6 for demanding AI/data workloads while retaining 4th generation Xeon for traditional applications.",
+      "rejected_inference": "Not all customers require premium CPUs; network and memory improvements are system attributes. No net CPU prices or volumes."
+    },
+    {
+      "source": "SAS private R&D cloud case study",
+      "date": "2026-07-15 content page; PDF footer July 2026",
+      "url": "https://cdrdv2-public.intel.com/923573/xeon-sas-case-study-1.pdf",
+      "local_file": "sources/sas_private_cloud.pdf",
+      "accepted": "A real SAS internal private-cloud modernization uses Xeon 6; reported Viya execution improved 27\u201334%.",
+      "rejected_inference": "p3 footnote identifies proprietary SAS configurations not audited by Intel. No disclosed matched baseline, full TCO, Intel purchase price, or AMD alternative. Modernization bundled automation and consolidation."
+    },
+    {
+      "source": "SAS Retrieval Agent Manager presentation",
+      "date": "2026-05-15 posted, May 19 modified",
+      "url": "https://communities.sas.com/kntur85557/attachments/kntur85557/sas-eventstkb-board/195/1/Pure%20CPU%20Power-SAS%20Retrieval%20Agent%20Manager%20on%20Intel%20Xeon%206.pdf",
+      "local_file": "sources/sas_retrieval_xeon6.pdf",
+      "accepted": "Demonstrates useful CPU inference and retrieval integration for specific smaller models.",
+      "rejected_inference": "p10 6.5x embedding gain changes HuggingFace runtime to ESP/OpenVINO, not the CPU vendor or generation. p20 up to 800 concurrent requests uses eight dual-CPU systems, particular token lengths and TPOT below 100ms; concurrency is not tokens/sec, customer demand, or CPU sales. Workflow demo also uses Claude on AWS Bedrock."
+    },
+    {
+      "source": "HPE small-language-model technical brief",
+      "date": "2026; exact publication day not established",
+      "url": "https://www.hpe.com/psnow/doc/a00157626enw",
+      "accepted": "Source for SAS concurrency chart specifies 2x64-core 6767P, 1TB memory, Llama 3.1 8B, vLLM and OpenShift; software stack and SLO are described.",
+      "rejected_inference": "No alternative CPU/GPU cost control, no production demand distribution, no Intel realized revenue or margin; 4/8 server entries are sizing guidance, not independent proof of linear production scaling."
+    },
+    {
+      "source": "Cloudflare Gen 13 engineering selection",
+      "date": "2026-03-23 published; 2026-07-15 modified (page metadata verified)",
+      "url": "https://blog.cloudflare.com/gen13-config/",
+      "local_file": "sources/cloudflare_gen13.html",
+      "accepted": "Production buyer evaluated three AMD Turin SKUs and chose 9965 after software rewrite reduced L3 dependence. Density, power and operational overhead determined choice.",
+      "rejected_inference": "Comparison is AMD versus AMD and changes memory/network/storage; it is not a controlled rejection of Xeon 6. No disclosed dollar CPU prices."
+    },
+    {
+      "source": "SambaNova signed Xeon 6 collaboration",
+      "date": "2026-04-08",
+      "url": "https://sambanova.ai/press/sambanova-announces-collaboration-with-intel-on-ai-solution?hs_amp=true",
+      "accepted": "Signed standardization on Xeon 6 host/action CPUs and clear role separation among CPU, GPU and RDU.",
+      "rejected_inference": "50% LLVM and 70% vector claims lack disclosed matching systems and methods. Intel Capital participates in financing, so do not label this economically independent validation. No chip count or price."
+    },
+    {
+      "source": "SambaNova Supermicro agreement",
+      "date": "2026-11-03",
+      "url": "https://sambanova.ai/press/sambanova-and-supermicro-partnership",
+      "accepted": "Plans initially for 10,000 SN50 RDU chips and systems integration, support and distribution.",
+      "rejected_inference": "RDU plans are not Xeon orders; the release does not specify Xeon package ratio or revenue. Planning is not shipment."
+    },
+    {
+      "source": "SambaNova OCI plan",
+      "date": "2026-10-27",
+      "url": "https://sambanova.ai/press/sambanova-and-oracle-collaborate-to-bring-high-performance-inference-to-oracle-cloud-infrastructure",
+      "accepted": "Another prospective inference deployment channel.",
+      "rejected_inference": "No Intel CPU configuration or purchase amount. Explicit future-product disclaimer; do not count as current Intel CPU sales."
+    },
+    {
+      "source": "scikit-learn benchmark methodology update",
+      "date": "2026-10-22",
+      "url": "https://blog.scikit-learn.org/updates/intel-benchmarks-update/",
+      "local_file": "sources/scikit_learn_oct22.html",
+      "accepted": "Public maintainer research shows many-core utilization depends strongly on outer parallelism, algorithm, build and numerical correctness; software changes may benefit multiple vendors.",
+      "rejected_inference": "Intel-funded, primarily Intel hardware; not an AMD comparison. Some speed gains change algorithms or convergence, and unoptimized tests can favor fewer cores. No investment margin inference."
+    },
+    {
+      "source": "phoenixNAP chuck-stack case",
+      "date": "PDF path June 2025; web page publication day not established",
+      "url": "https://phoenixnap.com/customer-experience/chuck-stack",
+      "accepted": "Actual buyer values simpler bare-metal deployment using Xeon 6 E-cores.",
+      "rejected_inference": "Claimed 75% cloud saving compares service models and multi-year spending, not Intel versus AMD silicon at matched service levels. Excluded from quantitative CPU moat evidence."
+    },
+    {
+      "source": "Red Hat AI Inference CPU deployment guide",
+      "date": "2026-10-06",
+      "url": "https://next.redhat.com/2026/10/06/deploying-llm-inference-on-cpu-with-red-hat-ai-inference/",
+      "accepted": "Enterprise software distribution supports practical CPU inference and validates a Xeon6 AWS instance.",
+      "rejected_inference": "Guide explicitly supports AMD EPYC AVX512 too. It is a deployment and benchmarking guide, not a matched vendor comparison or a new production customer win. Do not confuse48vCPUs with48physicalcores."
+    },
+    {
+      "source": "Intel/HPE virtual-desktop comparison",
+      "date": "2026-05-04; tests February2026",
+      "url": "https://community.intel.com/t5/Blogs/Tech-Innovation/Data-Center/Intel-Xeon-6-Processors-vs-AMD-EPYC-for-VDI-What-Real-World/post/1746734?profile.language=es",
+      "accepted": "Selected Xeon6SKUs support more measured desktops at a stated experience threshold than the selected EPYC9335configuration; one tested Xeon6SKU supports fewer. Workload and SKU matter.",
+      "rejected_inference": "Headline says same software/network/storage, but disclosed configurations differ: ESXi9versus8.0.3,LoginEnterprise6.3.14versus5.13.6,Horizon2503versus8.16.0,4TBversus2.3TBmemory,NVMeversusFCSAN. AtEUX>=7.5,198versus187is5.88%,and6730P174versus187is-6.95%. This is not a controlled CPU-vendor advantage or quantifiedTCO. Original unqualifiedURLredirected;language-queryURLreturnedfullprimarytext."
+    }
+  ],
+  "customer_bargaining": {
+    "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+    "as_of": "2025 annual report filed January 23, 2026",
+    "facts": "Three anonymous customers were 43% of total revenue, at 19%,12%,12%. Intel explicitly links cloud/AI trends to greater hyperscaler purchasing power. Standard commitments can generally be cancelled or changed without penalty; negotiated exceptions and rebates exist.",
+    "limits": "Not DCAI concentration, not identified Dell/HP/Lenovo, not proof every 2026 contract is cancellable. The later $1.7B customer deposits strengthen commitment but do not publicly identify minimum purchases, SKU prices or margin protection. The deposit disclosure is company-level, not a published DCAI-only deposit balance; do not allocate it to server CPUs without a more specific source.",
+    "interpretation": "Customer funding supports a demand thesis while large-buyer bargaining limits inference from list prices to durable net ASP."
+  },
+  "missing_evidence_ranked": [
+    {
+      "rank": 1,
+      "evidence": "Realized net CPU price and cost by comparable performance/content after supply relief, or defensible consolidated retained-profit bridge.",
+      "public_fill": "Cannot be fully reconstructed from current disclosures. Use explicit price/cost frontier and margin valuation sensitivities; state what future disclosure would change the judgment."
+    },
+    {
+      "rank": 2,
+      "evidence": "Good-package output capacity by bottleneck, customer allocation and richer package resource demand.",
+      "public_fill": "Supplier schedules and manufacturing disclosures narrow timing but cannot identify Intel package volumes."
+    },
+    {
+      "rank": 3,
+      "evidence": "Customer workload value under matched quality, latency and lifetime system costs versus current alternatives.",
+      "public_fill": "Use buyer selection cases and controlled benchmark methodology. Archived cloud tests remain exploratory and do not estimate chip margins."
+    }
+  ],
+  "what_is_original_and_defensible": [
+    "Reconstruction of archived benchmark data with harness and pricing audit; prominently retain methodological limits.",
+    "Conditional mature-margin and price/cost threshold algebra with fixed quantities and changing revenue weights.",
+    "Supplier funding accounting check distinguishing liabilities, receivables and actual cash.",
+    "Supply/resource/content bridge and dated capacity calendar, without equating substrate load to CPU packages."
+  ],
+  "what_would_not_improve_the_pitch": "Additional benchmark percentages or customer logos without a financial bridge do not establish mispricing. The current long needs a better supported retained-profit case or a more attractive entry; research quantity alone does not make a thin expected return compelling.",
+  "software_claim_verification": "mlperf_cpu_claim_verification.json"
+}

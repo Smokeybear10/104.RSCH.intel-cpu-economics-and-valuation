@@ -1,0 +1,293 @@
+{
+  "audit_time_utc": "2026-11-05T07:46:24.485255+00:00",
+  "verdict": "PASS \u2014 arithmetic and implementation match the frozen model. Interpretation is conditional; this audit does not establish that the economic assumptions or relative short are correct.",
+  "independence": "Did not import or execute calculate_operating_bridge.py. Rebuilt full operating cash flows from components, removed the existing 32%-to-35% margin addendum before inserting each requested endpoint, replaced baseline host net investment from source rows, and used backward-recursive discounting. Compared against bridge output and independently stored prior model scenarios.",
+  "sources": {
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "rates": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "joint": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/joint_scenario_results.json",
+      "sha256": "ad3425c3b29bc928ecf8eea1f1b6ee85fa064f2547feaf577c304e0454c9faa4"
+    },
+    "bridge": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/operating_value_bridge.json",
+      "sha256": "a8f5e5b3d13e1fc4a5febf77b59b5773c54662a1a700fb594bb7837e1c04b50c"
+    },
+    "author_script": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/calculate_operating_bridge.py",
+      "sha256": "7ed7dd9d6b678b6dd87d018ac2290975e9da562b33d152c05345d6424013c9a9"
+    }
+  },
+  "checks": {
+    "total_numeric_comparisons": 823,
+    "by_group": {
+      "independent_rate_schedule": {
+        "comparisons": 30,
+        "max_absolute_error": 0
+      },
+      "claims_and_other_assets": {
+        "comparisons": 6,
+        "max_absolute_error": 0
+      },
+      "frozen_35pct_margin_addendum": {
+        "comparisons": 15,
+        "max_absolute_error": 4.440892098500626e-16
+      },
+      "central_full_cash_reconstruction": {
+        "comparisons": 15,
+        "max_absolute_error": 2.842170943040401e-14
+      },
+      "capital_sales_denominator_identity": {
+        "comparisons": 11,
+        "max_absolute_error": 7.105427357601002e-15
+      },
+      "existing_joint_scenario_operating_rows": {
+        "comparisons": 180,
+        "max_absolute_error": 2.1316282072803006e-14
+      },
+      "existing_corrected_rate_APV_components": {
+        "comparisons": 180,
+        "max_absolute_error": 1.1368683772161603e-13
+      },
+      "bridge_decomposition_APV_components": {
+        "comparisons": 120,
+        "max_absolute_error": 2.2737367544323206e-13
+      },
+      "bridge_decomposition_deltas": {
+        "comparisons": 24,
+        "max_absolute_error": 4.263256414560601e-14
+      },
+      "independent_additivity": {
+        "comparisons": 6,
+        "max_absolute_error": 4.263256414560601e-14
+      },
+      "bridge_24_point_grid": {
+        "comparisons": 120,
+        "max_absolute_error": 1.4210854715202004e-13
+      },
+      "margin_threshold_bisection": {
+        "comparisons": 2,
+        "max_absolute_error": 1.27675647831893e-15
+      },
+      "threshold_price_target": {
+        "comparisons": 3,
+        "max_absolute_error": 3.552713678800501e-14
+      },
+      "capital_limit": {
+        "comparisons": 2,
+        "max_absolute_error": 0
+      },
+      "capital_threshold_bisection": {
+        "comparisons": 1,
+        "max_absolute_error": 4.440892098500626e-15
+      },
+      "unchanged_2027_2030_cash": {
+        "comparisons": 48,
+        "max_absolute_error": 0
+      },
+      "2041_cash_growth": {
+        "comparisons": 12,
+        "max_absolute_error": 4.440892098500626e-16
+      },
+      "2040_margin_endpoint": {
+        "comparisons": 12,
+        "max_absolute_error": 5.551115123125783e-17
+      },
+      "2041_margin_endpoint": {
+        "comparisons": 12,
+        "max_absolute_error": 0
+      },
+      "2035_capital_endpoint": {
+        "comparisons": 12,
+        "max_absolute_error": 0
+      },
+      "2041_capital_endpoint": {
+        "comparisons": 12,
+        "max_absolute_error": 0
+      }
+    },
+    "max_absolute_numeric_error": 2.2737367544323206e-13,
+    "source_hashes_unchanged": true,
+    "no_model_or_PDF_edits": true,
+    "min_operating_tax_B_across_grid": 2.1644877408,
+    "min_tax_capacity_after_financing_benefit_B": 1.9244877407999998
+  },
+  "recomputed_decomposition": [
+    {
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "prices_USD": {
+        "central": 46.95806228358315,
+        "margin_only": 51.28710251124143,
+        "capital_only": 48.62581078710861,
+        "both": 52.9548510147669
+      },
+      "margin_delta_USD": 4.329040227658275,
+      "capital_delta_USD": 1.6677485035254591,
+      "joint_delta_USD": 5.996788731183749,
+      "margin_share_of_joint_delta": 0.7218930700604714
+    },
+    {
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "prices_USD": {
+        "central": 53.77047718436612,
+        "margin_only": 59.005978893709724,
+        "capital_only": 55.669054532426685,
+        "both": 60.904556241770294
+      },
+      "margin_delta_USD": 5.235501709343602,
+      "capital_delta_USD": 1.898577348060563,
+      "joint_delta_USD": 7.134079057404172,
+      "margin_share_of_joint_delta": 0.7338721182112338
+    },
+    {
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "prices_USD": {
+        "central": 64.1458230460918,
+        "margin_only": 70.1556053857056,
+        "capital_only": 66.46107191797083,
+        "both": 72.47085425758462
+      },
+      "margin_delta_USD": 6.009782339613793,
+      "capital_delta_USD": 2.315248871879021,
+      "joint_delta_USD": 8.325031211492814,
+      "margin_share_of_joint_delta": 0.7218930700604714
+    },
+    {
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "prices_USD": {
+        "central": 73.6031458261561,
+        "margin_only": 80.87132169359332,
+        "capital_only": 76.23884242788003,
+        "both": 83.50701829531728
+      },
+      "margin_delta_USD": 7.268175867437222,
+      "capital_delta_USD": 2.635696601723936,
+      "joint_delta_USD": 9.903872469161186,
+      "margin_share_of_joint_delta": 0.7338721182112318
+    },
+    {
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "prices_USD": {
+        "central": 70.97777530967525,
+        "margin_only": 77.6819879986314,
+        "capital_only": 73.56055118869989,
+        "both": 80.26476387765605
+      },
+      "margin_delta_USD": 6.704212688956147,
+      "capital_delta_USD": 2.582775879024638,
+      "joint_delta_USD": 9.2869885679808,
+      "margin_share_of_joint_delta": 0.72189307006047
+    },
+    {
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "prices_USD": {
+        "central": 81.52789173697597,
+        "margin_only": 89.63590532589556,
+        "capital_only": 84.46814308102908,
+        "both": 92.57615666994872
+      },
+      "margin_delta_USD": 8.10801358891959,
+      "capital_delta_USD": 2.9402513440531095,
+      "joint_delta_USD": 11.048264932972742,
+      "margin_share_of_joint_delta": 0.7338721182112328
+    }
+  ],
+  "recomputed_reverse_thresholds": [
+    {
+      "risk": "corrected_central_flat",
+      "mature_margin_at_080_matching_quote": 0.48076729622516423,
+      "capital_productivity_at35pct_matching_quote": null,
+      "capital_zero_net_investment_limit_price_USD": 57.44187090362888
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "mature_margin_at_080_matching_quote": 0.3930667686306538,
+      "capital_productivity_at35pct_matching_quote": 1.477430251664782,
+      "capital_zero_net_investment_limit_price_USD": 65.4171165754756
+    }
+  ],
+  "implementation_findings": [
+    {
+      "item": "Mature margin glide",
+      "status": "PASS",
+      "detail": "The host policy ends at32%; the frozen model adds3percentage points linearly in2031\u20132040 to reach35%. The bridge adds target minus35% on the same glide. Independently removing the old addendum and applying target minus32% gives the same EBIT. In2031 only10% of the terminal margin change applies; in2040 and2041 it is fully applied. Ordinary operating tax is recomputed; no duplicate Foundry gain is added."
+    },
+    {
+      "item": "Capital increment",
+      "status": "PASS with source-field warning",
+      "detail": "Net host investment equals year-over-year change in the revised capital-denominator sales divided by turnover. The scenario replaces that baseline investment while retaining separate packaging, WC and D&A conventions. Turnover phases20% per year in2031\u20132035. The stored host incremental_external_revenue_B field is stale after the ASP revision; the bridge correctly avoids it. Recomputed sales changes reconcile to the frozen baseline net investment.",
+      "examples": [
+        {
+          "year": 2031,
+          "recomputed_sales_change_B": 10.211345447355086,
+          "stored_incremental_external_revenue_B": 9.501001546783328,
+          "frozen_net_investment_B": 12.764181809193856,
+          "correct_baseline_ratio": 0.8000000000000002
+        },
+        {
+          "year": 2035,
+          "recomputed_sales_change_B": 8.423869789868348,
+          "stored_incremental_external_revenue_B": 7.832060318199439,
+          "frozen_net_investment_B": 10.529837237335428,
+          "correct_baseline_ratio": 0.8000000000000005
+        },
+        {
+          "year": 2040,
+          "recomputed_sales_change_B": 5.6633132557735735,
+          "stored_incremental_external_revenue_B": 5.2971086468391775,
+          "frozen_net_investment_B": 7.079141569716965,
+          "correct_baseline_ratio": 0.8000000000000002
+        }
+      ]
+    },
+    {
+      "item": "Risk schedules",
+      "status": "PASS",
+      "detail": "Flat11.555% and maturing11.555% through2030, then minus0.15percentage point annually through2040 to10.055%, fixed in2041. Each operating comparison holds one selected schedule fixed. Backward recursion reproduces cumulative discount-product results."
+    },
+    {
+      "item": "Terminal convention",
+      "status": "PASS",
+      "detail": "Operating terminal value uses2041 cash divided by terminal rate minus3%, valued at2040. Financing-tax-benefit tail uses2041 benefit divided by terminal rate with zero growth. All24 grid cases retain3% operating cash growth from2040 to2041."
+    },
+    {
+      "item": "APV and claims",
+      "status": "PASS",
+      "detail": "Adds separately discounted financing benefits, endpoint cash,5.717B other assets and future escrow; subtracts endpoint debt and future acquisition cash. Divides by5.51B planning claims.2026 uses opening2027 cash/debt;2029 and2030 use their own ending treasury balances. All operating scenarios are identical through2030, so the fixed endpoint balances are internally consistent."
+    },
+    {
+      "item": "Dated units",
+      "status": "PASS if labels retained",
+      "detail": "53.77,59.01,55.67,60.90 and39.31%/48.08% thresholds refer toDecember31,2026 planning values compared withNovember4 close58.28. The57-day mismatch is explicit. They are neither2030 exit targets nor holding-period returns.2030 central value is70.98 with flat risk and81.53 with maturing risk."
+    }
+  ],
+  "approved_deck_wording": [
+    "At the December2026 planning date, reducing the assumed risk over time raises central value to$53.77. Holding that risk path and0.8x capital productivity fixed, a40% mature DCAI margin raises value by$5.24 to$59.01.",
+    "Moving capital productivity alone from0.8x to1.0x adds$1.90. Combining both operating changes gives$60.90; the margin change accounts for73.4% of the$7.13 operating uplift.",
+    "At0.8x capital productivity, the mature margin that matches$58.28 is39.31% under maturing risk, versus48.08% at a flat11.555%. These are conditional break-even calculations, not unique market-implied forecasts."
+  ],
+  "limits_that_must_survive_editing": [
+    "A35%-to40% margin change means5percentage points, not5% relative growth; it is phased in after2030.",
+    "The73.4% share refers only to the joint operating uplift at fixed maturing risk. It is not a share of the total valuation including risk reduction.",
+    "39.31% falls within the existing30%-40% scenario range only with the maturing-risk path.48.08% lies above that range under flat risk. Neither threshold is an observed probability or unique inferred market expectation.",
+    "Capital productivity alone needs1.477x under maturing risk, above the adopted0.6x\u20131.0x range. Under flat risk, even zero post2030 host net investment produces only$57.44, below$58.28.",
+    "The denominator follows the frozen host convention and is not fully reconciled to GAAP sales. Normalized D&A and tax depreciation are not rebuilt as asset cohorts. These limit economic interpretation despite correct arithmetic.",
+    "The bridge changes continuation cash after2030. It supplies a sensitivity and falsifier, not evidence of a near-term earnings miss, catalyst, or a robust short recommendation."
+  ]
+}

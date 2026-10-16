@@ -1,0 +1,194 @@
+{
+  "as_of_utc": "2026-11-05T19:58:06.113836+00:00",
+  "scope": "Primary-source reassessment of manufacturer capital economics, segment-margin attribution and minority cash claims. No frozen model, PDF, email or valuation policy changed.",
+  "answer": {
+    "capital_080": "Economically plausible planning convention; not a measured or independently identified marginal capital coefficient. Historical flows and cohort consistency bound plausibility, but cannot underwrite a precise permanent 0.80.",
+    "DCAI_margin_035": "Plausible mature product-segment margin before centrally booked costs. Neither 35% nor a firm ceiling below 40% is established by public evidence. A competition argument cannot treat this five-point choice as a demonstrated edge.",
+    "new_missing_assumption": "The model converts NCI earnings guidance into a continuing economic cash reserve without a contractual parent-cash reconciliation. Arizona SCIP has a specific distribution waterfall and asymmetric unbudgeted funding obligations; a smooth reserve is not proof of actual remittable cash.",
+    "importance_order": "The operating bridge shows mature product margin matters substantially more than the 0.80-to-1.00 capital change. The strongest repair is to identify the source of incremental consolidated profit, then separately reconcile partner cash. The new contract finding does not establish enough unmodeled cost to rescue an outright short."
+  },
+  "new_primary_evidence": [
+    {
+      "id": "SCIP_EXECUTED_2022",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-22-291100/d412415dex101.htm",
+      "date": "2022-11-22",
+      "locator": "Executed Exhibit 10.1, sections 2.6(e), 4.1(b)(ii), 4.1(d), 4.1(h); Exhibit A and Schedule SD",
+      "facts": "From April 1, 2027, section 4.1(h) diverts otherwise Intel-distributable cash to Brookfield until the Special Distribution Amount is met. Schedule SD omits that amount. Section 4.1(b)(ii)(3) provides a later Intel catch-up after the O&M initial term. Section 2.6(e) generally puts unbudgeted funding on Intel, subject to Brookfield elections/exceptions; section 4.1(b)(ii)(2) gives Intel priority distributions targeting 9.4% IRR on that funding. Incentive-account benefits are allocated to Intel, not automatically split 51/49.",
+      "limit": "The executed terms, not the earlier August form, were checked. Public information does not establish the special amount, operative O&M end date, resulting distribution schedule, or whether earnings guidance incorporates every effect. No exact incremental liability can be assigned.",
+      "verification": "FY2025 Exhibit 10.13 still incorporates this agreement. Bounded 2026 filing/web searches found no superseding public amendment; this is not a legal certification that no modification exists."
+    },
+    {
+      "id": "INTEL_Q3_2026",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "date": "2026-10-30",
+      "locator": "Notes 2 and 3; MD&A Non-Controlling Interests",
+      "facts": "Arizona production obligations began Q1 2026, including minimum output and inventory constraints. Q3 Arizona NCI income was $197M; YTD income $556M and declared distributions $322M. Its assets included $14.7B in service and $5.9B construction in progress. Internal Products charges approximate market prices; substantial Foundry depreciation passes through inventory, preventing practical Products attribution.",
+      "limit": "These accounting figures are not a completed contractual cash forecast. Do not add a separate depreciation claim or automatic damages provision."
+    },
+    {
+      "id": "INTEL_Q3_GUIDANCE",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "locator": "CFO remarks, NCI guidance paragraph",
+      "facts": "Management guided approximately $250M NCI for Q4 and $1.1B in each of 2027 and 2028.",
+      "implication": "This supports the near-term earnings-reserve anchor. It does not disclose distributions, future partner contributions or a terminal 3% escalator."
+    },
+    {
+      "id": "AMD_Q3_2026",
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/q32026991.htm",
+      "date": "2026-11-03",
+      "locator": "Financial Information segment table and footnote 1",
+      "facts": "AMD Data Center revenue was $8.546B and segment operating income $2.882B. Its segment includes CPUs and AI accelerators; stock compensation and acquisition amortization are largely in All Other.",
+      "calculated_segment_margin": 0.3372337935876434,
+      "implication": "A product-segment margin around 35% is commercially possible. AMD is not a clean CPU-only or integrated-manufacturer margin benchmark, and one growth quarter is not a steady-state estimate."
+    },
+    {
+      "id": "IRELAND_CLOSED",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000072/intc-20260408.htm",
+      "date": "2026-04-08",
+      "locator": "Item 8.01",
+      "facts": "Intel completed its $14.2B Apollo-interest repurchase using cash and a $6.5B bridge loan.",
+      "implication": "The completed purchase is historical. Its balance-sheet effects are already upstream of the model opening bridge; do not deduct $14.2B again or retain Ireland minority distributions."
+    }
+  ],
+  "cash_claim_repair": {
+    "missing_equation": "Parent distributable cash = consolidated operating cash - gross operating investment - external minority distributions + external minority contributions, with separate cash taxes, financing and contract-specific timing. Economic NCI earnings can be used as a proxy only with a reconciliation to the value of the minority cash claim.",
+    "near_term_audit_point": {
+      "Arizona_YTD2026_NCI_income_B": 0.556,
+      "Arizona_YTD2026_distributions_declared_B": 0.322,
+      "difference_B": 0.234,
+      "caution": "Declared distributions are not necessarily same-period cash paid. The difference proves nonidentity, not a recurring 0.234B cash benefit."
+    },
+    "no_direction_without_waterfall": "A net-income reserve can exceed current distributions while missing later capital returns or timing shifts. Conversely, charging all future consolidated gross investment to Intel with no partner contribution may be conservative. Resolve both sides together.",
+    "what_to_request_from_public_IR_material": "Reconcile 2027/28 guided NCI income to expected partner cash distributions and net partner contributions; identify any scheduled cash redirection and later catch-up included in guidance. This is a public-information clarification request, not a request for confidential commercial terms.",
+    "unit_cash_materiality": {
+      "per_unmodeled_1B_of_net_parent_cash_at_same_date_USD_per_share": 0.18148820326678766,
+      "description": "A sizing identity only, before time value, tax consequences, funding interactions and any later cash recovery. The contract does not establish a 1B incremental cost."
+    },
+    "model_action_now": "Do not insert an invented reserve increase. Label the current NCI line an economic proxy; separate it from a claimed bank-cash forecast. Preserve the current model pending a paired distribution/contribution schedule.",
+    "special_distribution_not_automatically_extra": "The cash-redirection finding must not simply be added on top of guided NCI. It may already affect income allocation or the model reserve, and later Intel catch-up can offset the nominal amount. The gap is the missing reconciliation, not a proved unrecorded loss."
+  },
+  "margin_attribution_repair": {
+    "current_frozen_host_foundry_EBIT_B": {
+      "2027": -4.0,
+      "2028": -0.75,
+      "2029": 1.0,
+      "2030": 2.5,
+      "2040": 5.343132930379423,
+      "2041": 5.503426918290804
+    },
+    "avoid_stale_baseline": "Earlier files contain 2030 Foundry breakeven. The current host instead has 2.5B profit in 2030; use the frozen current path, not that obsolete policy.",
+    "identity": "A reduction X in internal wafer charges raises Products EBIT by X and reduces Foundry EBIT by X. Consolidated EBIT and cash do not improve merely because segment attribution changes.",
+    "2041_five_point_diagnostic": {
+      "DCAI_revenue_B": 146.62909705214685,
+      "product_EBIT_gain_B": 7.331454852607343,
+      "after_18pct_tax_if_real_group_profit_B": 6.011792979138021,
+      "current_Foundry_profit_B": 5.503426918290804,
+      "Foundry_profit_if_entire_gain_is_internal_transfer_B": -1.8280279343165384,
+      "group_EBIT_gain_if_entire_gain_is_internal_transfer_B": 0
+    },
+    "bridge_decomposition_existing_not_new_target": {
+      "planning_date": "2026-12-31; compare with November 4 quote only with the existing 57-day mismatch disclosure",
+      "current_maturing_risk_central_value_USD": 53.77047718436613,
+      "35_to40_margin_only_value_gain_USD": 5.235501709343616,
+      "080_to100_capital_only_value_gain_USD": 1.8985773480605772,
+      "margin_share_of_joint_gain": 0.7338721182112343,
+      "causal_warning": "The margin gain is valid only for additional consolidated earnings after all production costs, not a segment reclassification. If half the apparent margin change is offset in Foundry, only half of this incremental margin valuation survives, before any other changes."
+    },
+    "underwrite_with": "Separate premium-price/mix retention, product development and sales cost leverage, real fabrication cost savings, and transfer-price changes. Attribute each saving once. Require comparable product cost or disclosed cost-bridge evidence; headline DCAI margin alone does not discriminate.",
+    "mix_hurdle_2040": {
+      "Other_DCAI_share": 0.2474832777081776,
+      "CPU_margin_needed_for35pct_blend_if_Other20pct": 0.39933111857390813,
+      "status": "Algebra on owned mix; 20% Other margin is not disclosed."
+    },
+    "not_a_detected_double_count": "The existing host policy already describes incremental ASP profit as consolidated and forbids an extra Foundry credit. This diagnostic is a condition for underwriting future margins, not evidence that the frozen arithmetic currently double counts profit."
+  },
+  "capital_productivity_reassessment": {
+    "identity": "Host net investment = capex - normalized D&A + incremental working capital = incremental host external sales / 0.80. Separate external packaging remains independently funded.",
+    "080_vs100_per_1B_added_sales": {
+      "net_investment_at080_B": 1.25,
+      "net_investment_at100_B": 1.0,
+      "reduction_B": 0.25,
+      "investment_reduction_fraction": 0.2
+    },
+    "why_prior_evidence_is_not_precise_underwriting": "The 2018-20 flow ratio around 0.727 mixes construction timing, depreciation lives, product scope and capacity later monetized. A cohort schedule compatible with 8-year tools and long-lived buildings is a consistency check, not proof of accepted die output or future economic replacement cost.",
+    "what_is_already_funded": "The current terminal cash calculation includes continuing reinvestment; no free-growth or depreciation-double-charge error was found. Its implied incremental after-tax return near 21% describes a successful manufacturer, not inherently weak capital economics.",
+    "2041_current_group_diagnostic": {
+      "EBIT_B": 66.82397919943156,
+      "DandA_B": 40.67562049982564,
+      "physical_capex_B": 47.59983232556716,
+      "WC_use_B": 0.6214419608054539,
+      "net_operating_investment_B": 7.5456537865469695
+    },
+    "economic_missing_schedule": "Need an asset-vintage and product-demand schedule: in-service tools/shells, cash replacements and upgrades, accepted output/yield, internal versus outsourced fabrication, supplier advances and ownership of cash claims. Reported net PP&E or a useful-life extension cannot identify all of these.",
+    "conditional_revision_rules": [
+      "Raise turnover only for demonstrated output/cash savings from existing tools or lower required investment, preserving any corresponding wafer or outsourcing expense.",
+      "Lower turnover only for identified extra tool, replacement, qualification or working-capital needs absent from existing budgets; no arbitrary penalty layered onto the same cost.",
+      "Treat minimum-production and inventory obligations as downside cash rigidity, not an automatic base-case damages expense.",
+      "Do not infer future replacement capex from book depreciation alone; change physical cash and EBIT/tax effects consistently."
+    ],
+    "recommended_status": "Retain 0.80 as an explicit judgment and 0.60-1.00 as planning scenarios, not a fitted estimate or confidence interval. No new coefficient is selected by this reassessment."
+  },
+  "what_changed_from_prior_work": [
+    "Executed Arizona cash-waterfall review identifies a specific cash-attribution uncertainty absent from the previous generic NCI caution.",
+    "Fresh AMD primary results provide an external product-margin plausibility check, with scope and central-cost exclusions.",
+    "An explicit transfer-neutral test shows which part of the existing margin sensitivity is an economic claim rather than a reported-segment presentation.",
+    "Current Foundry profit levels are verified from the frozen host, avoiding obsolete breakeven policies."
+  ],
+  "pitch_repair_recommendation": {
+    "defensible_claim": "Intel can show strong product profits before common shareholders receive the corresponding cash. The investment case depends on real product-level earnings retention, accepted output from paid capacity, and the parent cash claim after partner obligations.",
+    "unsupported_claim_to_remove": "Manufacturing is capital intensive, therefore the stock is expensive; 35% is a proven mature ceiling; NCI guidance is identical to cash distributions.",
+    "strongest_objection": "Intel and AMD currently demonstrate high product-segment margins, and reuse/scale may improve cash returns. Public evidence does not yet prove the lower-margin/capital-efficiency scenario is more likely than the upside.",
+    "competition_utility": "This improves the causal defense and exposes an honest diligence gap. It does not establish a high-confidence short or a probability of winning."
+  },
+  "inputs": {
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "bridge": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/operating_value_bridge.json",
+      "sha256": "a8f5e5b3d13e1fc4a5febf77b59b5773c54662a1a700fb594bb7837e1c04b50c"
+    },
+    "capital_mapping": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/capital_mapping_review.json",
+      "sha256": "2449c2de7edc665cab8362d74fd18e53c937d72ef9608798ff9ccd0445d8b53d"
+    },
+    "structural_audit": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/structural_model_audit.json",
+      "sha256": "40b221493bc5012cbff424456db8b10ebd7790ffffa916066e45bf3753379ae1"
+    },
+    "cycle_capital": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/cycle_capital_evidence.json",
+      "sha256": "7389b73da991dcb9db1b8dd07873d817e2561ac2883571105113003ef46d6914"
+    },
+    "capital_adjudication": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/capital_productivity_adjudication_2026_11_04.json",
+      "sha256": "5eb1b83b525e984cf3e23757d3bb70e532ae61b8e30f8e647c242cc3dde7fbe7"
+    },
+    "claims_policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json",
+      "sha256": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea"
+    },
+    "current_remarks": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/q3_remarks.txt",
+      "sha256": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb"
+    }
+  },
+  "new_source_files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/sources/amd_q3_2026_earnings.html",
+      "sha256": "f530566b88a2361424ff83f10acc0e0173a8c38709ca5a36c34a9ea0827ba2fa"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/sources/arizona_scip_executed_agreement_2022_11_22.html",
+      "sha256": "c9872246e8a9fd592c1f7a263de832fad0cb319359e4d45215742c0decd82dff"
+    }
+  ],
+  "frozen_files_unchanged": true,
+  "no_new_interviews": "Only public documents were reviewed. No expert responses or interviews were received or represented."
+}

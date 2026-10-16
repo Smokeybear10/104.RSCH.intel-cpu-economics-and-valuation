@@ -1,0 +1,931 @@
+{
+  "computed_utc": "2026-11-06T07:11:40.439412+00:00",
+  "input_sha256": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/margin/selected_margin_policy.json": "f83ec1232dd0245f0d001ccb21b044a0bd062d34f2763bc86da8b4698aad89c6",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/selected_quarterly_forecast.json": "9f1b9d01a2baf6b809eaf1a4cd74307006cf4e7cc779a4bb006897cd162c26b9",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/client_quarterly_results.json": "533fb5d3a892f87353327fa408d35b8679e07c8498fd46eb1d53041af808fce9",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/margin_evidence.json": "ae89b955b88c85f2e7e94d9e7dedef0a19202413d7fb89e1066729646fcfbea5"
+  },
+  "scope": "Operating bridge only. No equity valuation or target calculation. Near-term Products/Foundry allocations are not disclosed forecasts.",
+  "selected_CPU_margin": 0.4171014870858335,
+  "pooled_recent_CPU_margin": 0.4490871849674949,
+  "selected_erosion_from_pooled_percentage_points": 3.198569788166139,
+  "historical_anchor_sensitivities": [
+    {
+      "anchor": "Q1 2026",
+      "DCAI_revenue_B": 5.052,
+      "DCAI_operating_profit_B": 1.542,
+      "DCAI_margin": 0.30522565320665085,
+      "Other_DCAI_revenue_B": 0.935,
+      "Other_margin_assumption": 0.1,
+      "CPU_margin_residual": 0.3518338596065097,
+      "2040_blend_at_preferred_revenue_mix": 0.2791023984627209
+    },
+    {
+      "anchor": "Q1 2026",
+      "DCAI_revenue_B": 5.052,
+      "DCAI_operating_profit_B": 1.542,
+      "DCAI_margin": 0.30522565320665085,
+      "Other_DCAI_revenue_B": 0.935,
+      "Other_margin_assumption": 0.15,
+      "CPU_margin_residual": 0.3404785037648774,
+      "2040_blend_at_preferred_revenue_mix": 0.28546691828169923
+    },
+    {
+      "anchor": "Q1 2026",
+      "DCAI_revenue_B": 5.052,
+      "DCAI_operating_profit_B": 1.542,
+      "DCAI_margin": 0.30522565320665085,
+      "Other_DCAI_revenue_B": 0.935,
+      "Other_margin_assumption": 0.2,
+      "CPU_margin_residual": 0.32912314792324515,
+      "2040_blend_at_preferred_revenue_mix": 0.2918314381006775
+    },
+    {
+      "anchor": "Q1 2026",
+      "DCAI_revenue_B": 5.052,
+      "DCAI_operating_profit_B": 1.542,
+      "DCAI_margin": 0.30522565320665085,
+      "Other_DCAI_revenue_B": 0.935,
+      "Other_margin_assumption": 0.25,
+      "CPU_margin_residual": 0.31776779208161293,
+      "2040_blend_at_preferred_revenue_mix": 0.29819595791965586
+    },
+    {
+      "anchor": "Q1 2026",
+      "DCAI_revenue_B": 5.052,
+      "DCAI_operating_profit_B": 1.542,
+      "DCAI_margin": 0.30522565320665085,
+      "Other_DCAI_revenue_B": 0.935,
+      "Other_margin_assumption": 0.3,
+      "CPU_margin_residual": 0.30641243623998066,
+      "2040_blend_at_preferred_revenue_mix": 0.30456047773863415
+    },
+    {
+      "anchor": "Q2 2026",
+      "DCAI_revenue_B": 6.262,
+      "DCAI_operating_profit_B": 2.474,
+      "DCAI_margin": 0.39508144362823383,
+      "Other_DCAI_revenue_B": 0.951,
+      "Other_margin_assumption": 0.1,
+      "CPU_margin_residual": 0.44791941254001133,
+      "2040_blend_at_preferred_revenue_mix": 0.34743774071930295
+    },
+    {
+      "anchor": "Q2 2026",
+      "DCAI_revenue_B": 6.262,
+      "DCAI_operating_profit_B": 2.474,
+      "DCAI_margin": 0.39508144362823383,
+      "Other_DCAI_revenue_B": 0.951,
+      "Other_margin_assumption": 0.15,
+      "CPU_margin_residual": 0.4389662963660328,
+      "2040_blend_at_preferred_revenue_mix": 0.3555107158144357
+    },
+    {
+      "anchor": "Q2 2026",
+      "DCAI_revenue_B": 6.262,
+      "DCAI_operating_profit_B": 2.474,
+      "DCAI_margin": 0.39508144362823383,
+      "Other_DCAI_revenue_B": 0.951,
+      "Other_margin_assumption": 0.2,
+      "CPU_margin_residual": 0.43001318019205426,
+      "2040_blend_at_preferred_revenue_mix": 0.3635836909095684
+    },
+    {
+      "anchor": "Q2 2026",
+      "DCAI_revenue_B": 6.262,
+      "DCAI_operating_profit_B": 2.474,
+      "DCAI_margin": 0.39508144362823383,
+      "Other_DCAI_revenue_B": 0.951,
+      "Other_margin_assumption": 0.25,
+      "CPU_margin_residual": 0.4210600640180757,
+      "2040_blend_at_preferred_revenue_mix": 0.37165666600470115
+    },
+    {
+      "anchor": "Q2 2026",
+      "DCAI_revenue_B": 6.262,
+      "DCAI_operating_profit_B": 2.474,
+      "DCAI_margin": 0.39508144362823383,
+      "Other_DCAI_revenue_B": 0.951,
+      "Other_margin_assumption": 0.3,
+      "CPU_margin_residual": 0.41210694784409724,
+      "2040_blend_at_preferred_revenue_mix": 0.37972964109983387
+    },
+    {
+      "anchor": "Q3 2026",
+      "DCAI_revenue_B": 7.318,
+      "DCAI_operating_profit_B": 3.039,
+      "DCAI_margin": 0.4152773981962285,
+      "Other_DCAI_revenue_B": 1.4,
+      "Other_margin_assumption": 0.1,
+      "CPU_margin_residual": 0.4898614396755661,
+      "2040_blend_at_preferred_revenue_mix": 0.37726660355809577
+    },
+    {
+      "anchor": "Q3 2026",
+      "DCAI_revenue_B": 7.318,
+      "DCAI_operating_profit_B": 3.039,
+      "DCAI_margin": 0.4152773981962285,
+      "Other_DCAI_revenue_B": 1.4,
+      "Other_margin_assumption": 0.15,
+      "CPU_margin_residual": 0.4780331192970599,
+      "2040_blend_at_preferred_revenue_mix": 0.3832947544587948
+    },
+    {
+      "anchor": "Q3 2026",
+      "DCAI_revenue_B": 7.318,
+      "DCAI_operating_profit_B": 3.039,
+      "DCAI_margin": 0.4152773981962285,
+      "Other_DCAI_revenue_B": 1.4,
+      "Other_margin_assumption": 0.2,
+      "CPU_margin_residual": 0.4662047989185537,
+      "2040_blend_at_preferred_revenue_mix": 0.3893229053594939
+    },
+    {
+      "anchor": "Q3 2026",
+      "DCAI_revenue_B": 7.318,
+      "DCAI_operating_profit_B": 3.039,
+      "DCAI_margin": 0.4152773981962285,
+      "Other_DCAI_revenue_B": 1.4,
+      "Other_margin_assumption": 0.25,
+      "CPU_margin_residual": 0.45437647854004737,
+      "2040_blend_at_preferred_revenue_mix": 0.39535105626019285
+    },
+    {
+      "anchor": "Q3 2026",
+      "DCAI_revenue_B": 7.318,
+      "DCAI_operating_profit_B": 3.039,
+      "DCAI_margin": 0.4152773981962285,
+      "Other_DCAI_revenue_B": 1.4,
+      "Other_margin_assumption": 0.3,
+      "CPU_margin_residual": 0.44254815816154114,
+      "2040_blend_at_preferred_revenue_mix": 0.40137920716089187
+    },
+    {
+      "anchor": "PooledQ2Q3_2026",
+      "DCAI_revenue_B": 13.58,
+      "DCAI_operating_profit_B": 5.513,
+      "DCAI_margin": 0.40596465390279823,
+      "Other_DCAI_revenue_B": 2.351,
+      "Other_margin_assumption": 0.1,
+      "CPU_margin_residual": 0.4700240448837831,
+      "2040_blend_at_preferred_revenue_mix": 0.36315839351830337
+    },
+    {
+      "anchor": "PooledQ2Q3_2026",
+      "DCAI_revenue_B": 13.58,
+      "DCAI_operating_profit_B": 5.513,
+      "DCAI_margin": 0.40596465390279823,
+      "Other_DCAI_revenue_B": 2.351,
+      "Other_margin_assumption": 0.15,
+      "CPU_margin_residual": 0.459555614925639,
+      "2040_blend_at_preferred_revenue_mix": 0.3701536885366119
+    },
+    {
+      "anchor": "PooledQ2Q3_2026",
+      "DCAI_revenue_B": 13.58,
+      "DCAI_operating_profit_B": 5.513,
+      "DCAI_margin": 0.40596465390279823,
+      "Other_DCAI_revenue_B": 2.351,
+      "Other_margin_assumption": 0.2,
+      "CPU_margin_residual": 0.4490871849674949,
+      "2040_blend_at_preferred_revenue_mix": 0.3771489835549205
+    },
+    {
+      "anchor": "PooledQ2Q3_2026",
+      "DCAI_revenue_B": 13.58,
+      "DCAI_operating_profit_B": 5.513,
+      "DCAI_margin": 0.40596465390279823,
+      "Other_DCAI_revenue_B": 2.351,
+      "Other_margin_assumption": 0.25,
+      "CPU_margin_residual": 0.4386187550093508,
+      "2040_blend_at_preferred_revenue_mix": 0.3841442785732291
+    },
+    {
+      "anchor": "PooledQ2Q3_2026",
+      "DCAI_revenue_B": 13.58,
+      "DCAI_operating_profit_B": 5.513,
+      "DCAI_margin": 0.40596465390279823,
+      "Other_DCAI_revenue_B": 2.351,
+      "Other_margin_assumption": 0.3,
+      "CPU_margin_residual": 0.4281503250512067,
+      "2040_blend_at_preferred_revenue_mix": 0.39113957359153756
+    },
+    {
+      "anchor": "YTD2026",
+      "DCAI_revenue_B": 18.632,
+      "DCAI_operating_profit_B": 7.055,
+      "DCAI_margin": 0.3786496350364963,
+      "Other_DCAI_revenue_B": 3.3,
+      "Other_margin_assumption": 0.1,
+      "CPU_margin_residual": 0.43862509783459425,
+      "2040_blend_at_preferred_revenue_mix": 0.3408276921007076
+    },
+    {
+      "anchor": "YTD2026",
+      "DCAI_revenue_B": 18.632,
+      "DCAI_operating_profit_B": 7.055,
+      "DCAI_margin": 0.3786496350364963,
+      "Other_DCAI_revenue_B": 3.3,
+      "Other_margin_assumption": 0.15,
+      "CPU_margin_residual": 0.4278632924602139,
+      "2040_blend_at_preferred_revenue_mix": 0.34761434066940844
+    },
+    {
+      "anchor": "YTD2026",
+      "DCAI_revenue_B": 18.632,
+      "DCAI_operating_profit_B": 7.055,
+      "DCAI_margin": 0.3786496350364963,
+      "Other_DCAI_revenue_B": 3.3,
+      "Other_margin_assumption": 0.2,
+      "CPU_margin_residual": 0.4171014870858335,
+      "2040_blend_at_preferred_revenue_mix": 0.3544009892381092
+    },
+    {
+      "anchor": "YTD2026",
+      "DCAI_revenue_B": 18.632,
+      "DCAI_operating_profit_B": 7.055,
+      "DCAI_margin": 0.3786496350364963,
+      "Other_DCAI_revenue_B": 3.3,
+      "Other_margin_assumption": 0.25,
+      "CPU_margin_residual": 0.4063396817114531,
+      "2040_blend_at_preferred_revenue_mix": 0.36118763780680996
+    },
+    {
+      "anchor": "YTD2026",
+      "DCAI_revenue_B": 18.632,
+      "DCAI_operating_profit_B": 7.055,
+      "DCAI_margin": 0.3786496350364963,
+      "Other_DCAI_revenue_B": 3.3,
+      "Other_margin_assumption": 0.3,
+      "CPU_margin_residual": 0.39557787633707275,
+      "2040_blend_at_preferred_revenue_mix": 0.3679742863755108
+    }
+  ],
+  "rounding_sensitivity_YTD_Other3_3_plus_minus_0_05B": [
+    {
+      "Other_B": 3.25,
+      "CPU_margin": 0.4163957872838382
+    },
+    {
+      "Other_B": 3.3,
+      "CPU_margin": 0.4171014870858335
+    },
+    {
+      "Other_B": 3.35,
+      "CPU_margin": 0.4178118047375997
+    }
+  ],
+  "near_term_2027_2030": [
+    {
+      "year": 2027,
+      "CPU_revenue_B": 30.405023813218303,
+      "Other_DCAI_revenue_B": 8.304,
+      "Other_DCAI_growth": 0.6,
+      "CCPG_revenue_B": 26.92200818451138,
+      "Products_revenue_B": 65.63103199772968,
+      "CPU_revenue_delta_B": -1.0700641867816998,
+      "Other_DCAI_revenue_delta_B": 0.0,
+      "client_revenue_delta_B": -1.6315916154886239,
+      "CPU_group_EBIT_delta_B": -0.5350320933908499,
+      "Other_DCAI_group_EBIT_delta_B": 0.0,
+      "client_group_EBIT_delta_B": -0.8157958077443119,
+      "DCAI_allocated_operating_profit_B": 14.89577222660915,
+      "CCPG_allocated_operating_profit_B": 6.037068144255689,
+      "Foundry_allocated_operating_profit_B": -4.0,
+      "Products_plus_Foundry_profit_B": 16.932840370864838,
+      "DCAI_margin": 0.3848139467036253,
+      "CPU_margin_implied_by_20pct_Other": 0.43528899394761755,
+      "CCPG_margin": 0.22424286118926676,
+      "Foundry_profit_per_Products_revenue": -0.06094677895874575,
+      "CPU_ASP_gap_2028plus_B": 0.0,
+      "extra_group_EBIT_loss_if_that_ASP_gap_is_pure_price_B": 0.0,
+      "cost_stress_group_EBIT_delta_vs_preferred_B": {
+        "0.75": -0.6754139505675809,
+        "1.0": -1.3508279011351618
+      }
+    },
+    {
+      "year": 2028,
+      "CPU_revenue_B": 39.401633347812215,
+      "Other_DCAI_revenue_B": 10.795200000000001,
+      "Other_DCAI_growth": 0.3,
+      "CCPG_revenue_B": 28.876921865611692,
+      "Products_revenue_B": 79.07375521342391,
+      "CPU_revenue_delta_B": -3.0897354521877958,
+      "Other_DCAI_revenue_delta_B": -0.8303999999999991,
+      "client_revenue_delta_B": -1.7474346201883115,
+      "CPU_group_EBIT_delta_B": -1.5448677260938979,
+      "Other_DCAI_group_EBIT_delta_B": -0.16607999999999984,
+      "client_group_EBIT_delta_B": -0.8737173100941558,
+      "DCAI_allocated_operating_profit_B": 19.655719170156107,
+      "CCPG_allocated_operating_profit_B": 7.088615376213846,
+      "Foundry_allocated_operating_profit_B": -0.75,
+      "Products_plus_Foundry_profit_B": 25.994334546369952,
+      "DCAI_margin": 0.3915728913408197,
+      "CPU_margin_implied_by_20pct_Other": 0.444059742795602,
+      "CCPG_margin": 0.24547683472646642,
+      "Foundry_profit_per_Products_revenue": -0.009484815764417835,
+      "CPU_ASP_gap_2028plus_B": -0.7674936421327132,
+      "extra_group_EBIT_loss_if_that_ASP_gap_is_pure_price_B": -0.3837468210663566,
+      "cost_stress_group_EBIT_delta_vs_preferred_B": {
+        "0.75": -1.2092925180940268,
+        "1.0": -2.4185850361880536
+      }
+    },
+    {
+      "year": 2029,
+      "CPU_revenue_B": 44.8465874896954,
+      "Other_DCAI_revenue_B": 12.95424,
+      "Other_DCAI_growth": 0.2,
+      "CCPG_revenue_B": 30.974110506070126,
+      "Products_revenue_B": 88.77493799576553,
+      "CPU_revenue_delta_B": -7.298820301664605,
+      "Other_DCAI_revenue_delta_B": -1.5777599999999996,
+      "client_revenue_delta_B": -1.8715024782216787,
+      "CPU_group_EBIT_delta_B": -3.6494101508323027,
+      "Other_DCAI_group_EBIT_delta_B": -0.31555199999999994,
+      "client_group_EBIT_delta_B": -0.9357512391108394,
+      "DCAI_allocated_operating_profit_B": 22.106861825065703,
+      "CCPG_allocated_operating_profit_B": 8.261020396490867,
+      "Foundry_allocated_operating_profit_B": 1.0,
+      "Products_plus_Foundry_profit_B": 31.36788222155657,
+      "DCAI_margin": 0.3824661823225085,
+      "CPU_margin_implied_by_20pct_Other": 0.4351727727232308,
+      "CCPG_margin": 0.2667072681513137,
+      "Foundry_profit_per_Products_revenue": 0.011264440421774206,
+      "CPU_ASP_gap_2028plus_B": -1.5963402976715884,
+      "extra_group_EBIT_loss_if_that_ASP_gap_is_pure_price_B": -0.7981701488357942,
+      "cost_stress_group_EBIT_delta_vs_preferred_B": {
+        "0.75": -2.292580694971571,
+        "1.0": -4.585161389943142
+      }
+    },
+    {
+      "year": 2030,
+      "CPU_revenue_B": 49.87783483684855,
+      "Other_DCAI_revenue_B": 14.897376,
+      "Other_DCAI_growth": 0.15,
+      "CCPG_revenue_B": 32.706959616941276,
+      "Products_revenue_B": 97.48217045378982,
+      "CPU_revenue_delta_B": -9.693079024001129,
+      "Other_DCAI_revenue_delta_B": -2.5410239999999984,
+      "client_revenue_delta_B": -1.966200503619696,
+      "CPU_group_EBIT_delta_B": -4.8465395120005645,
+      "Other_DCAI_group_EBIT_delta_B": -0.5082047999999997,
+      "client_group_EBIT_delta_B": -0.983100251809848,
+      "DCAI_allocated_operating_profit_B": 24.397695113883692,
+      "CCPG_allocated_operating_profit_B": 9.418847784358443,
+      "Foundry_allocated_operating_profit_B": 2.5,
+      "Products_plus_Foundry_profit_B": 36.31654289824213,
+      "DCAI_margin": 0.37665172831833726,
+      "CPU_margin_implied_by_20pct_Other": 0.4294135858932759,
+      "CCPG_margin": 0.2879768677575199,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "CPU_ASP_gap_2028plus_B": -1.7693838517224023,
+      "extra_group_EBIT_loss_if_that_ASP_gap_is_pure_price_B": -0.8846919258612012,
+      "cost_stress_group_EBIT_delta_vs_preferred_B": {
+        "0.75": -2.9148198819052062,
+        "1.0": -5.8296397638104125
+      }
+    }
+  ],
+  "illustrative_post2030_component_transition": [
+    {
+      "year": 2031,
+      "CPU_revenue_B": 51.89289936425723,
+      "Other_DCAI_revenue_B": 17.1319824,
+      "CCPG_revenue_B": 34.086705715687785,
+      "Products_revenue_B": 103.11158747994502,
+      "Other_DCAI_share": 0.2482000977344862,
+      "CPU_margin": 0.4281823760125317,
+      "DCAI_margin": 0.3715474879849341,
+      "CCPG_margin": 0.2871791809817679,
+      "DCAI_operating_profit_B": 25.646021427966858,
+      "CCPG_operating_profit_B": 9.788992229797765,
+      "Foundry_operating_profit_B": 2.644370426918832,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 38.079384084683454
+    },
+    {
+      "year": 2032,
+      "CPU_revenue_B": 53.989372498573225,
+      "Other_DCAI_revenue_B": 19.187820288,
+      "CCPG_revenue_B": 35.38383844807424,
+      "Products_revenue_B": 108.56103123464747,
+      "Other_DCAI_share": 0.2622103903871076,
+      "CPU_margin": 0.42695116613178746,
+      "DCAI_margin": 0.36744221226156215,
+      "CCPG_margin": 0.28638149420601594,
+      "DCAI_operating_profit_B": 26.888389604589296,
+      "CCPG_operating_profit_B": 10.133276525503778,
+      "Foundry_operating_profit_B": 2.78412531053844,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 39.805791440631516
+    },
+    {
+      "year": 2033,
+      "CPU_revenue_B": 56.17054314751558,
+      "Other_DCAI_revenue_B": 21.106602316800004,
+      "CCPG_revenue_B": 36.66440212364317,
+      "Products_revenue_B": 113.94154758795875,
+      "Other_DCAI_share": 0.27312864870955206,
+      "CPU_margin": 0.4257199562510432,
+      "DCAI_margin": 0.36406936961341657,
+      "CCPG_margin": 0.2855838074302639,
+      "DCAI_operating_profit_B": 28.134241634717668,
+      "CCPG_operating_profit_B": 10.47075955562427,
+      "Foundry_operating_profit_B": 2.9221125016387304,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 41.52711369198067
+    },
+    {
+      "year": 2034,
+      "CPU_revenue_B": 58.43983309067521,
+      "Other_DCAI_revenue_B": 22.795130502144005,
+      "CCPG_revenue_B": 37.99143026409375,
+      "Products_revenue_B": 119.22639385691296,
+      "Other_DCAI_share": 0.28060738251083533,
+      "CPU_margin": 0.424488746370299,
+      "DCAI_margin": 0.3614955468481906,
+      "CCPG_margin": 0.2847861206545119,
+      "DCAI_operating_profit_B": 29.366077587179035,
+      "CCPG_operating_profit_B": 10.819432043027678,
+      "Foundry_operating_profit_B": 3.0576461649833373,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 43.24315579519005
+    },
+    {
+      "year": 2035,
+      "CPU_revenue_B": 60.800802347538486,
+      "Other_DCAI_revenue_B": 24.390789637294088,
+      "CCPG_revenue_B": 39.330352067183995,
+      "Products_revenue_B": 124.52194405201656,
+      "Other_DCAI_share": 0.28630512787736845,
+      "CPU_margin": 0.42325753648955466,
+      "DCAI_margin": 0.3593377589553265,
+      "CCPG_margin": 0.28398843387875994,
+      "DCAI_operating_profit_B": 30.612555745666292,
+      "CCPG_operating_profit_B": 11.16936508745983,
+      "Foundry_operating_profit_B": 3.1934543381716303,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 44.975375171297756
+    },
+    {
+      "year": 2036,
+      "CPU_revenue_B": 63.25715476237904,
+      "Other_DCAI_revenue_B": 25.854237015531734,
+      "CCPG_revenue_B": 40.51026262919951,
+      "Products_revenue_B": 129.62165440711027,
+      "Other_DCAI_share": 0.2901339155376156,
+      "CPU_margin": 0.42202632660881045,
+      "DCAI_margin": 0.3576089591173628,
+      "CCPG_margin": 0.28319074710300796,
+      "DCAI_operating_profit_B": 31.86703205919819,
+      "CCPG_operating_profit_B": 11.472131539302072,
+      "Foundry_operating_profit_B": 3.3242400585591128,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 46.663403657059376
+    },
+    {
+      "year": 2037,
+      "CPU_revenue_B": 65.81274381477915,
+      "Other_DCAI_revenue_B": 27.14694886630832,
+      "CCPG_revenue_B": 41.72557050807549,
+      "Products_revenue_B": 134.68526318916298,
+      "Other_DCAI_share": 0.2920292449700765,
+      "CPU_margin": 0.4207951167280662,
+      "DCAI_margin": 0.35631648549688916,
+      "CCPG_margin": 0.282393060327256,
+      "DCAI_operating_profit_B": 33.12307098899598,
+      "CCPG_operating_profit_B": 11.783011549676136,
+      "Foundry_operating_profit_B": 3.4540999282789056,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 48.36018246695102
+    },
+    {
+      "year": 2038,
+      "CPU_revenue_B": 68.47157866489623,
+      "Other_DCAI_revenue_B": 28.232826820960653,
+      "CCPG_revenue_B": 42.97733762331776,
+      "Products_revenue_B": 139.68174310917465,
+      "Other_DCAI_share": 0.2919497480917737,
+      "CPU_margin": 0.419563906847322,
+      "DCAI_margin": 0.35546227955320064,
+      "CCPG_margin": 0.281595373551504,
+      "DCAI_operating_profit_B": 34.37476841683973,
+      "CCPG_operating_profit_B": 12.102219442287272,
+      "Foundry_operating_profit_B": 3.58223823030769,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 50.05922608943469
+    },
+    {
+      "year": 2039,
+      "CPU_revenue_B": 71.23783044295803,
+      "Other_DCAI_revenue_B": 29.220975759694273,
+      "CCPG_revenue_B": 44.266657752017295,
+      "Products_revenue_B": 144.72546395466958,
+      "Other_DCAI_share": 0.2908752041184697,
+      "CPU_margin": 0.4183326969665777,
+      "DCAI_margin": 0.3548251291706884,
+      "CCPG_margin": 0.28079768677575206,
+      "DCAI_operating_profit_B": 35.64530888718926,
+      "CCPG_operating_profit_B": 12.42997509806037,
+      "Foundry_operating_profit_B": 3.711588059666635,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 51.786872044916265
+    },
+    {
+      "year": 2040,
+      "CPU_revenue_B": 74.11583879285354,
+      "Other_DCAI_revenue_B": 30.097605032485102,
+      "CCPG_revenue_B": 45.594657484577816,
+      "Products_revenue_B": 149.80810130991645,
+      "Other_DCAI_share": 0.28880731628952383,
+      "CPU_margin": 0.4171014870858335,
+      "DCAI_margin": 0.3544009892381092,
+      "CCPG_margin": 0.28,
+      "DCAI_operating_profit_B": 36.933347583610136,
+      "CCPG_operating_profit_B": 12.766504095681789,
+      "Foundry_operating_profit_B": 3.841935930759027,
+      "Foundry_profit_per_Products_revenue": 0.025645715399669863,
+      "Products_plus_Foundry_profit_B": 53.54178761005095
+    }
+  ],
+  "post_LTA_product_price_cost_hurdles": [
+    {
+      "realized_same_mix_price_change_vs_pooled_Q2Q3": 0,
+      "required_all_in_product_cost_per_unit_change_for_selected_CPU_margin": 0.05805945516038524,
+      "CPU_margin_if_all_in_cost_unchanged": 0.4490871849674949,
+      "boundary": "Conditional same-unit product-profit hurdle, not an observed physical wafer-cost forecast. Transfer changes must be offset in Foundry."
+    },
+    {
+      "realized_same_mix_price_change_vs_pooled_Q2Q3": -0.05,
+      "required_all_in_product_cost_per_unit_change_for_selected_CPU_margin": 0.005156482402365992,
+      "CPU_margin_if_all_in_cost_unchanged": 0.4200917736499946,
+      "boundary": "Conditional same-unit product-profit hurdle, not an observed physical wafer-cost forecast. Transfer changes must be offset in Foundry."
+    },
+    {
+      "realized_same_mix_price_change_vs_pooled_Q2Q3": -0.1,
+      "required_all_in_product_cost_per_unit_change_for_selected_CPU_margin": -0.04774649035565315,
+      "CPU_margin_if_all_in_cost_unchanged": 0.3878746499638832,
+      "boundary": "Conditional same-unit product-profit hurdle, not an observed physical wafer-cost forecast. Transfer changes must be offset in Foundry."
+    },
+    {
+      "realized_same_mix_price_change_vs_pooled_Q2Q3": -0.15,
+      "required_all_in_product_cost_per_unit_change_for_selected_CPU_margin": -0.10064946311367251,
+      "CPU_margin_if_all_in_cost_unchanged": 0.35186727643234694,
+      "boundary": "Conditional same-unit product-profit hurdle, not an observed physical wafer-cost forecast. Transfer changes must be offset in Foundry."
+    }
+  ],
+  "post2030_margin_implied_cost_growth_hurdles": [
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.1,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.4705864141067241,
+      "fixed_operating_cost_annual_growth_assumption": 0,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.02936083524634192,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.1,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.4705864141067241,
+      "fixed_operating_cost_annual_growth_assumption": 0.02,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.026380015908266108,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.1,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.4705864141067241,
+      "fixed_operating_cost_annual_growth_assumption": 0.03,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.02464410673406392,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.15,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.42058641410672404,
+      "fixed_operating_cost_annual_growth_assumption": 0,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.033987050408079034,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.15,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.42058641410672404,
+      "fixed_operating_cost_annual_growth_assumption": 0.02,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.029143450169228924,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.15,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.42058641410672404,
+      "fixed_operating_cost_annual_growth_assumption": 0.03,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.0262857925254405,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.2,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.37058641410672405,
+      "fixed_operating_cost_annual_growth_assumption": 0,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.0396053543923911,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.2,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.37058641410672405,
+      "fixed_operating_cost_annual_growth_assumption": 0.02,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.03255901230066227,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "selected_CPU_margin",
+      "CPU_margin2040": 0.4171014870858335,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.2,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.37058641410672405,
+      "fixed_operating_cost_annual_growth_assumption": 0.03,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.02833698557853137,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.1,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.4705864141067241,
+      "fixed_operating_cost_annual_growth_assumption": 0,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.01578215259337923,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.1,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.4705864141067241,
+      "fixed_operating_cost_annual_growth_assumption": 0.02,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.012416626946929465,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.1,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.4705864141067241,
+      "fixed_operating_cost_annual_growth_assumption": 0.03,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.010450751373750178,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.15,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.42058641410672404,
+      "fixed_operating_cost_annual_growth_assumption": 0,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.01933113889179139,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.15,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.42058641410672404,
+      "fixed_operating_cost_annual_growth_assumption": 0.02,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.013805275481699741,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.15,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.42058641410672404,
+      "fixed_operating_cost_annual_growth_assumption": 0.03,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.010527400256384878,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.2,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.37058641410672405,
+      "fixed_operating_cost_annual_growth_assumption": 0,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.023683259114743116,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.2,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.37058641410672405,
+      "fixed_operating_cost_annual_growth_assumption": 0.02,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.015544325478587862,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    },
+    {
+      "case": "40pct_DCAI_hypothesis",
+      "CPU_margin2040": 0.481217741100131,
+      "2030_fixed_operating_cost_fraction_of_CPU_revenue_assumption": 0.2,
+      "2030_variable_booked_product_cost_fraction_of_CPU_revenue_residual": 0.37058641410672405,
+      "fixed_operating_cost_annual_growth_assumption": 0.03,
+      "required_variable_booked_product_cost_per_unit_CAGR": 0.010624656924937748,
+      "unit_factor2030to2040": 1.2189944199947573,
+      "ASP_factor2030to2040": 1.2189944199947573,
+      "boundary": "Algebraic cost requirement, not disclosed CPU cost structure. Booked product cost includes internal charges; only physical cost improvement retained across Products plus Foundry creates group value. No added valuation overlay."
+    }
+  ],
+  "custom_growth_scope_hurdles": [
+    {
+      "case": "preferred",
+      "2026_custom_share_of_Other_assumption": 0.4,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 5.487736784999999,
+      "required_custom_CAGR": 0.5305528068889485,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "old",
+      "2026_custom_share_of_Other_assumption": 0.4,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 6.711736784999999,
+      "required_custom_CAGR": 0.6095657758892525,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "preferred",
+      "2026_custom_share_of_Other_assumption": 0.5,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 4.615291189999999,
+      "required_custom_CAGR": 0.465715824583099,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "old",
+      "2026_custom_share_of_Other_assumption": 0.5,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 5.594491189999999,
+      "required_custom_CAGR": 0.5379426771820022,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "preferred",
+      "2026_custom_share_of_Other_assumption": 0.6,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 4.033660793333333,
+      "required_custom_CAGR": 0.41717944119436434,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "old",
+      "2026_custom_share_of_Other_assumption": 0.6,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 4.849660793333333,
+      "required_custom_CAGR": 0.4839792924099071,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "preferred",
+      "2026_custom_share_of_Other_assumption": 0.7,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 3.6182105099999995,
+      "required_custom_CAGR": 0.37918796158497337,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "old",
+      "2026_custom_share_of_Other_assumption": 0.7,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 4.317639081428571,
+      "required_custom_CAGR": 0.4414898344163001,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "preferred",
+      "2026_custom_share_of_Other_assumption": 0.8,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 3.3066227974999993,
+      "required_custom_CAGR": 0.34848513666712466,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "old",
+      "2026_custom_share_of_Other_assumption": 0.8,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 3.9186227975,
+      "required_custom_CAGR": 0.40696523077756686,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "preferred",
+      "2026_custom_share_of_Other_assumption": 1.0,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 2.8703999999999996,
+      "required_custom_CAGR": 0.30162417262579666,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    },
+    {
+      "case": "old",
+      "2026_custom_share_of_Other_assumption": 1.0,
+      "legacy_growth_assumption": 0.03,
+      "required_custom_2030_over_2026": 3.36,
+      "required_custom_CAGR": 0.3538944855424797,
+      "scope": "Conditional hurdle, not custom share estimation. Actual share and timing undisclosed."
+    }
+  ],
+  "Other_revenue_runrate": {
+    "Q4_2026_assumed_Other_B": 1.89,
+    "2027_Other_B": 8.304,
+    "2027_growth_over_four_times_Q4_exit": 0.09841269841269851,
+    "preferred_2030_over_2026": 2.8703999999999996,
+    "old_2030_over_2026": 3.36,
+    "literal_custom3x_plus_legacy3pct_maximum_aggregate": 3.0,
+    "required_custom_share_for_preferred_if_custom_exactly3x_by2030": 0.9308612381368405,
+    "required_custom_share_for_old_if_custom3x_in3years_and_sameCAGR_in_year4": 0.6980080403709451
+  },
+  "historical_cost_response_context": {
+    "Q3_group_product_profit_change_over_revenue_change_approx": 0.5594405594405593,
+    "YTD_group_product_profit_change_over_revenue_change_approx": 0.4119903395368659,
+    "CFO_incremental_gross_profit_rule_of_thumb": [
+      0.4,
+      0.6
+    ],
+    "rule_locator": "Q3 earnings Q&A47:19, original webcast linked on Intel IR event page; transcript reproduction cross-check.",
+    "limits": "Not a regression or same-mix CPU unit response. Product-profit attribution and revenue include different businesses and rounded management components. EBIT follows GP only with opex fixed."
+  },
+  "transfer_price_checks": [
+    {
+      "internal_charge_change_B": -2.0,
+      "group_profit_change_B": 0.0
+    },
+    {
+      "internal_charge_change_B": -1.0,
+      "group_profit_change_B": 0.0
+    },
+    {
+      "internal_charge_change_B": 0.5,
+      "group_profit_change_B": 0.0
+    },
+    {
+      "internal_charge_change_B": 1.0,
+      "group_profit_change_B": 0.0
+    },
+    {
+      "internal_charge_change_B": 2.0,
+      "group_profit_change_B": 0.0
+    }
+  ],
+  "checks": {
+    "no_equity_value_computed": true,
+    "transfer_cancellation_error_max_B": 0.0,
+    "mature_component_weighting_identity_passed": true,
+    "no_fixed40pct_DCAI_overlay": true,
+    "no_additional_Foundry_absorption_overlay": true,
+    "no_capex_DA_taxcredit_changes": true,
+    "only_owned_output_written": true
+  }
+}

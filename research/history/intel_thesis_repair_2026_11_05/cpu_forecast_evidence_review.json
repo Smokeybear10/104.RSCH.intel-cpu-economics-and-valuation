@@ -1,0 +1,83 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "Substantive challenge to Intel CPU sales assumptions using newly located primary research and current issuer evidence. No equity valuation, frozen model or PDF edits.",
+  "main_finding": "There is a new, closely matched independent challenge to the2027 CPU sales forecast: DIGITIMES forecasts$28.7B versus the retained model's$31.48B. That supports testing an8.8% lower revenue level, not a collapse. The unresolved investment issue is whether a supply-constrained miss becomes durable customer/share loss or catches up as funded capacity comes online.",
+  "new_primary_sources": [
+    {
+      "publisher": "DIGITIMES Research",
+      "date": "2026-10-27",
+      "url": "https://www.digitimes.com/reports/item.php?id=20261021RS400&q=amd",
+      "facts": "The public abstract forecasts2027 Intel server CPU revenue$28.7B and39% global shipment share, versus AMD$31.2B and30.4%. Global units reach52.6M, growing45.7%; x86 grows35.3%, Arm79.1%. Component and manufacturing limits constrain shipments despite strong demand.",
+      "novelty": "First retained source in this research pass to give a direct competing2027 Intel server-CPU revenue forecast, rather than all-DCAI earnings or an industry TAM.",
+      "limits": "One analyst, published before Intel'sOctober29 report. Full methodology and2026 vendor unit base are paywalled; no access attempted. Do not infer its2026 Intel units by combining another publisher's share estimate."
+    },
+    {
+      "publisher": "Arm",
+      "date": "2026-11-04",
+      "url": "https://newsroom.arm.com/news/arm-q2-fye27-results",
+      "facts": "Arm says AGI CPU orders extend through calendar2027, with initial commercial deliveries scheduled forQ4 FYE27 and up to$2B revenue over FYE27/FYE28. OCI plans2027 instances. Arm claims more than50% share at top hyperscalers in calendar2025 and expects over60% by end2026.",
+      "novelty": "Current purchase-order and customer-deployment evidence makes architecture substitution a commercial risk, rather than only a distant roadmap claim.",
+      "limits": "Top-hyperscaler share is not global server-CPU share. The summary does not define the denominator precisely enough to splice it into the global shipment equation. Licensing, proprietary silicon, and partner CPUs are different economic scopes."
+    },
+    {
+      "publisher": "TrendForce",
+      "date": "2026-11-05",
+      "url": "https://www.trendforce.com.tw/presscenter/news/20261105-13295.html",
+      "facts": "Its2027 outlook's DRAM section says server-CPU shipments grow over30%, compared with roughly25% server-DRAM bit supply growth. The same update forecasts36% AI-server shipment growth.",
+      "novelty": "Fresh component-constrained growth comparison supports pressure on deployment, but not a CPU-demand crash.",
+      "limits": "Over30% does not logically contradict theOctober22 over40% CPU forecast. No explicit downward revision is stated. AI servers, physical CPU packages, and DRAM bits have different denominators."
+    }
+  ],
+  "reverified_primary_counterevidence": [
+    {
+      "publisher": "TrendForce",
+      "date": "2026-10-22",
+      "url": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "facts": "The publisher forecasts more than40% global CPU shipment growth in2027. Its chart gives Intel unit share50% in2026 and42% in2027. It describes Intel manufacturing and packaging constraints and rapid Arm expansion.",
+      "analyst_inference": "At exactly40% market growth, Intel units grow17.6% from the share equation. Since the published growth is greater than40%, the associated Intel growth is greater than17.6%, subject to rounded shares. The retained20% Intel-unit assumption is compatible with this source; declining share alone does not invalidate it."
+    },
+    {
+      "publisher": "Intel",
+      "date": "2026-10-29",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "facts": "Intel says Clearwater Forest ships for revenue, Diamond Rapids samples for a2027 ramp, and capacity is expanding. It expects industry constraints into2028, over30% industry CPU unit growth in2027, and sharply higher capital spending. Its five-year CPU TAM opportunity exceeds$200B.",
+      "analyst_inference": "This later issuer update is a serious counterargument to adopting the older external lower forecast as uniquely correct. Constraints can delay sales, but new capacity and qualified products can also restore them. Intel's TAM is management's opportunity estimate, not customer orders or Intel-specific revenue guidance."
+    },
+    {
+      "publisher": "AMD",
+      "date": "2026-08-04",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_76e60a688092d06ccab8a780191eae46/amd/db/841/9237/webcast_transcript/AMD2Q26EarningsCallTranscript.pdf",
+      "facts": "AMD's issuer transcript projects server CPU revenue growth above70% in2027 and a2030 CPU market around$220B.",
+      "limits": "This is an older issuer forecast. MultipleNovember3 transcript reproductions report an increase to doubling, but no new issuer-hostedQ3 transcript was located in this pass; that stronger figure is not used to calibrate the frozen diagnostic. AMD data-center revenue includes accelerators and cannot be treated as CPU sales."
+    }
+  ],
+  "assessment_of_original_forecast": {
+    "2027_units": "20% growth is not contradicted by the strongest matched public unit forecast. The new external revenue anchor warrants a lower delivery branch; its exact unit/ASP decomposition is not observable.",
+    "2027_ASP": "20% remains an owned assumption supported by premium-family adoption and stronger2026 pricing, but it is not mechanically implied by54% Q3 year-over-year ASP growth. The new branch grants that20% rather than stacking a second pricing shock.",
+    "2028_2030": "The retained25%/18%/12% unit growth and8%/4%/2% ASP growth are not directly calibrated to an independently published Intel-specific multi-year series. That warrants explicit uncertainty, not an automatic lower central forecast. Current vendor TAMs and active product ramps provide a credible strong-recovery countercase.",
+    "permanence": "A lost2027 shipment can be deferred business, a competitor's permanent installed-base win, or demand that disappears. Only the second mechanism automatically lowers the long-run level; the new two-branch policy separates them.",
+    "capital": "A shipment constraint can retain capital commitments while temporarily reducing revenue. Permanent share loss should eventually permit some capital and working-capital savings; denying all savings overstates downside. Price-only shortfalls would require different capital treatment from the selected unit-shortfall diagnostic."
+  },
+  "specified_next_calculation": {
+    "policy_file": "cpu_anchor_policy.json",
+    "operating_rows_file": "cpu_anchor_operating_rows.json",
+    "anchor": "2027 CPU revenue exactly$28.7B with existing ASP path; implied2027 unit growth9.4199%. This is a declared diagnostic decomposition, not a disclosed DIGITIMES volume forecast.",
+    "timing": "Close half the relative unit-level gap in2028 and all by2029. Retain funded physical investment and consume released working capital as sales catch up.",
+    "permanent_loss": "Retain the relative unit-level loss; allow capital response from2029 and funded continuation.2030 CPU revenue becomes$54.3187B before any valuation, versus$59.5709B frozen baseline.",
+    "margin_uncertainty": "35/50/65% owned revenue contribution through2030, each converging to the same35% mature economics by2040. Do not mislabel the existing50% ASP/mix retention as observed unit decremental profitability."
+  },
+  "decision_before_new_valuation": {
+    "preferred_central_change": "None solely on the current source set. Retain the frozen case while explicitly testing the independent lower anchor; choosing a permanent lower path requires an owned judgment about lost customers, not just lower near-term shipments.",
+    "absolute_short": "Not established yet. The new evidence can materially test the existing optimistic sales level, but it cannot choose permanence or force a favorable short value.",
+    "absolute_long": "Not established merely because central2030 intrinsic value exceeds the current quote. The expected return must compensate for execution and capital risk; a feasible recovery is not enough.",
+    "strongest_counterargument_to_bearish_revision": "Both suppliers and independent industry researchers describe rapidly expanding CPU demand; Intel has shipping premium products, funded supply additions, and further product ramps. Intel can lose share while shipping more units, charging more per unit, and eventually earning more cash. The direct lower2027 research estimate predates the latest Intel report.",
+    "what_would_make_permanence_the_best_judgment": "Repeated deployments or commitments moving new workloads to rivals across customers; failed Intel ramp/qualification milestones after expected supply additions; and an inability to recover accepted output despite funded capacity. A single current market-share statistic or vendor benchmark does not establish this."
+  },
+  "prior_work_reviewed": [
+    "intel_hour_verification_2026_11_04/CPU_forecast_scope_comparison.json",
+    "intel_hour_verification_2026_11_04/weak_demand_policy.json",
+    "intel_position_resolution_2026_11_05/long_run_operating_review.json",
+    "pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json"
+  ],
+  "not_repeated": "No new inverse equity-price solve, no re-audit of earlier bridge arithmetic, no recycled assumption that falling share forces falling revenue, and no use of complete-server spending or cloud tool latency as physical CPU unit demand."
+}

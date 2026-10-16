@@ -1,0 +1,724 @@
+{
+  "completed_utc": "2026-11-05T21:55:53.571423+00:00",
+  "status": "PASS: no remaining material numerical errors found in actual final10page screen and2page defense notes. The previously reported page7window-label defect is corrected in reviewed finalhash.",
+  "scope": "Numerical and accounting-scope review. Fresh primary filing checks for mix; reconstruction of attribution,EPS,margin40APV and joined downside directly from frozen operating inputs. Producer scripts were not run. This is not a guarantee of forecasts or competition success. Visual QA is separately owned by parent.",
+  "pdfs": {
+    "m37_intel_initial_screen.pdf": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "cfeb26a895dc0486ab9cc8ee12e0a57e5170bf4cf9a43349a6add3c25dfc513c",
+      "pages": 10
+    },
+    "m37_intel_defense_notes.pdf": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "75703d9d71f62b6410e03dde85fb57b1541d26dcd99bbfb672b66620ede97cf5",
+      "pages": 2
+    }
+  },
+  "resolved_findings": [
+    {
+      "page": 7,
+      "original_issue": "2027\u20132040rowlabel was wrong for2030column.",
+      "resolution": "Changed to remaining operating cash through2040; explicit2027\u201340/2031\u201340 windows added. Verified in actual finalPDF.",
+      "status": "resolved"
+    },
+    {
+      "page": 5,
+      "original_issue": "Q2anchor needed direct source.",
+      "resolution": "Finalpage5 references[7], and reference7isIntelQ2filing.",
+      "status": "resolved"
+    }
+  ],
+  "remaining_material_findings": [],
+  "page3": {
+    "economic_EBIT_growth_2027_2028_B": 10.29783131055801,
+    "DCAI_profit_growth_B": 5.935862576250006,
+    "Foundry_loss_reduction_B": 3.25,
+    "DCAI_sales_at_prior_margin_effect_B": 5.561842769957048,
+    "DCAI_further_margin_effect_B": 0.37401980629295833,
+    "sales_effect_share": 0.9369898137821705,
+    "segment_revenue_growth_2027": {
+      "DCAI": 0.4707013165629612,
+      "CCPG": -0.07214428530809525
+    },
+    "EPS_proxy": [
+      {
+        "year": 2027,
+        "EPS": 2.4996601201597093,
+        "formula": "((economic_EBIT+identified_addbacks-new_capitalized_interest_book_DA-1.6+1.0)*(1-.11)-1.1-.15)/5.51"
+      },
+      {
+        "year": 2028,
+        "EPS": 4.167050295549298,
+        "formula": "((economic_EBIT+identified_addbacks-new_capitalized_interest_book_DA-1.6+1.0)*(1-.11)-1.1-.15)/5.51"
+      }
+    ],
+    "grosscashcapex2027_B": 31.5,
+    "interpretation": "The10.3/5.94/3.25B and94% disclosures round correctly. EPS2.50/4.17 reproduces11%presentationtax,5.51Bshares and specifiedadjustments. These are not GAAPEPS or matchedanalystconventions, and the PDF says so."
+  },
+  "page5": {
+    "future_Other_share": 0.2474832777081776,
+    "primary_inputs": {
+      "Q2": [
+        6.262,
+        2.474,
+        0.951
+      ],
+      "Q3": [
+        7.318,
+        3.039,
+        1.4
+      ],
+      "YTD": [
+        18.632,
+        7.055,
+        3.3
+      ]
+    },
+    "independent_mix_reconstruction": [
+      {
+        "period": "Q2 2026",
+        "Other_margin": 0.15,
+        "inferred_CPU_margin": 0.4389662963660328,
+        "mature_DCAI_blend": 0.3674519701941743
+      },
+      {
+        "period": "Q2 2026",
+        "Other_margin": 0.2,
+        "inferred_CPU_margin": 0.43001318019205426,
+        "mature_DCAI_blend": 0.37308876444204303
+      },
+      {
+        "period": "Q2 2026",
+        "Other_margin": 0.25,
+        "inferred_CPU_margin": 0.4210600640180757,
+        "mature_DCAI_blend": 0.3787255586899117
+      },
+      {
+        "period": "Q3 2026",
+        "Other_margin": 0.15,
+        "inferred_CPU_margin": 0.4780331192970599,
+        "mature_DCAI_blend": 0.39685040773658586
+      },
+      {
+        "period": "Q3 2026",
+        "Other_margin": 0.2,
+        "inferred_CPU_margin": 0.4662047989185537,
+        "mature_DCAI_blend": 0.4003235627405437
+      },
+      {
+        "period": "Q3 2026",
+        "Other_margin": 0.25,
+        "inferred_CPU_margin": 0.45437647854004737,
+        "mature_DCAI_blend": 0.40379671774450143
+      },
+      {
+        "period": "Nine months 2026",
+        "Other_margin": 0.15,
+        "inferred_CPU_margin": 0.4278632924602139,
+        "mature_DCAI_blend": 0.35909677408737417
+      },
+      {
+        "period": "Nine months 2026",
+        "Other_margin": 0.2,
+        "inferred_CPU_margin": 0.4171014870858335,
+        "mature_DCAI_blend": 0.36337249946651184
+      },
+      {
+        "period": "Nine months 2026",
+        "Other_margin": 0.25,
+        "inferred_CPU_margin": 0.4063396817114531,
+        "mature_DCAI_blend": 0.3676482248456495
+      }
+    ],
+    "CPU_margin_erosion_for35blend_percentage_points": 6.687368034464552,
+    "interpretation": "39.7/40.0/40.4 andQ2/YTD37.3/36.3 all round correctly. Other margins and futuremix are illustrative/forecast; inferred CPU profit is not disclosed. Those limits are stated."
+  },
+  "page7_and9_reconstruction": [
+    {
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "base40": {
+        "explicit_operating_PV_B": 146.6785135044461,
+        "terminal_operating_PV_B": 126.64293047549663,
+        "net_claims_tax_benefits_B": 9.270490856997487,
+        "equity_B": 282.5919348369402,
+        "price_USD": 51.287102511241415
+      },
+      "joined": {
+        "explicit_operating_PV_B": 86.69958600604522,
+        "terminal_operating_PV_B": 71.81000633167386,
+        "net_claims_tax_benefits_B": 9.270490856997487,
+        "equity_B": 167.78008319471658,
+        "price_USD": 30.450105842961268
+      }
+    },
+    {
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "base40": {
+        "explicit_operating_PV_B": 150.25384046321363,
+        "terminal_operating_PV_B": 165.41474832072583,
+        "net_claims_tax_benefits_B": 9.454354920401162,
+        "equity_B": 325.1229437043406,
+        "price_USD": 59.00597889370974
+      },
+      "joined": {
+        "explicit_operating_PV_B": 88.75734715132617,
+        "terminal_operating_PV_B": 93.79468778608091,
+        "net_claims_tax_benefits_B": 9.454354920401162,
+        "equity_B": 192.00638985780824,
+        "price_USD": 34.84689471103598
+      }
+    },
+    {
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "base40": {
+        "explicit_operating_PV_B": 194.75335216328136,
+        "terminal_operating_PV_B": 196.12687727775878,
+        "net_claims_tax_benefits_B": 37.14752443141875,
+        "equity_B": 428.02775387245885,
+        "price_USD": 77.68198799863137
+      },
+      "joined": {
+        "explicit_operating_PV_B": 116.10595574848797,
+        "terminal_operating_PV_B": 111.20930514042615,
+        "net_claims_tax_benefits_B": 24.441372123988813,
+        "equity_B": 251.7566330129029,
+        "price_USD": 45.69085898600779
+      }
+    },
+    {
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "base40": {
+        "explicit_operating_PV_B": 200.2903190436058,
+        "terminal_operating_PV_B": 256.17125189713926,
+        "net_claims_tax_benefits_B": 37.43226740493942,
+        "equity_B": 493.89383834568446,
+        "price_USD": 89.63590532589555
+      },
+      "joined": {
+        "explicit_operating_PV_B": 119.29272871790802,
+        "terminal_operating_PV_B": 145.25610826958598,
+        "net_claims_tax_benefits_B": 24.72611509750947,
+        "equity_B": 289.27495208500346,
+        "price_USD": 52.49999130399337
+      }
+    }
+  ],
+  "page9_returns": [
+    {
+      "scenario": "joint",
+      "2030_USD": 45.69085898600779,
+      "total_price_return": -0.12503142500942566,
+      "annual_price_return": -0.03164756169553917
+    },
+    {
+      "scenario": "margin35",
+      "2030_USD": 70.97777530967525,
+      "total_price_return": 0.3592067274928237,
+      "annual_price_return": 0.07669159138792825
+    },
+    {
+      "scenario": "base40",
+      "2030_USD": 77.68198799863137,
+      "total_price_return": 0.48759073149428134,
+      "annual_price_return": 0.10034547227789314
+    },
+    {
+      "scenario": "mature_risk",
+      "2030_USD": 89.63590532589555,
+      "total_price_return": 0.7165052724223584,
+      "annual_price_return": 0.1389267837121122
+    }
+  ],
+  "defense_notes": {
+    "12pct_hurdle_target": 83.60938864861446,
+    "years": 4.153319644079398,
+    "joint2026planningvalue": 30.450105842961268,
+    "joint2026planning_spread": -0.4168880535625954,
+    "Oracle_ratio": 3.5548828125,
+    "Oracle_workperdollar5x": 1.4065161254876106,
+    "Oracle_workperdollar6x": 1.6878193505851327,
+    "assessment": "Repeatedprice,EPS,mix,cash andrisk numbers agree withscreen and source model. Nonewfinancialscope contradiction found."
+  },
+  "checks": {
+    "count": 69,
+    "max_absolute_error": 1.7053025658242404e-13,
+    "results": [
+      {
+        "label": "DCAI attribution sums",
+        "got": 5.935862576250006,
+        "expected": 5.935862576250006,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "2027 EPS",
+        "got": 2.4996601201597093,
+        "expected": 2.4996601201597093,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "2028 EPS",
+        "got": 4.167050295549298,
+        "expected": 4.167050295549298,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q2 2026 inferred CPU at0.15",
+        "got": 0.4389662963660328,
+        "expected": 0.43896629636603274,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "label": "Q2 2026 mature blend at0.15",
+        "got": 0.3674519701941743,
+        "expected": 0.3674519701941743,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q2 2026 inferred CPU at0.2",
+        "got": 0.43001318019205426,
+        "expected": 0.43001318019205426,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q2 2026 mature blend at0.2",
+        "got": 0.37308876444204303,
+        "expected": 0.37308876444204303,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q2 2026 inferred CPU at0.25",
+        "got": 0.4210600640180757,
+        "expected": 0.4210600640180757,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q2 2026 mature blend at0.25",
+        "got": 0.3787255586899117,
+        "expected": 0.3787255586899117,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q3 2026 inferred CPU at0.15",
+        "got": 0.4780331192970599,
+        "expected": 0.4780331192970599,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q3 2026 mature blend at0.15",
+        "got": 0.39685040773658586,
+        "expected": 0.39685040773658586,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q3 2026 inferred CPU at0.2",
+        "got": 0.4662047989185537,
+        "expected": 0.46620479891855365,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "label": "Q3 2026 mature blend at0.2",
+        "got": 0.4003235627405437,
+        "expected": 0.40032356274054365,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "label": "Q3 2026 inferred CPU at0.25",
+        "got": 0.45437647854004737,
+        "expected": 0.45437647854004737,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Q3 2026 mature blend at0.25",
+        "got": 0.40379671774450143,
+        "expected": 0.40379671774450143,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Nine months 2026 inferred CPU at0.15",
+        "got": 0.4278632924602139,
+        "expected": 0.4278632924602139,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Nine months 2026 mature blend at0.15",
+        "got": 0.35909677408737417,
+        "expected": 0.35909677408737417,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Nine months 2026 inferred CPU at0.2",
+        "got": 0.4171014870858335,
+        "expected": 0.4171014870858335,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Nine months 2026 mature blend at0.2",
+        "got": 0.36337249946651184,
+        "expected": 0.36337249946651184,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "Nine months 2026 inferred CPU at0.25",
+        "got": 0.4063396817114531,
+        "expected": 0.40633968171145307,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "label": "Nine months 2026 mature blend at0.25",
+        "got": 0.3676482248456495,
+        "expected": 0.36764822484564946,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "label": "CPU erosion35 case",
+        "got": 6.687368034464552,
+        "expected": 6.687368034464547,
+        "absolute_error": 5.329070518200751e-15
+      },
+      {
+        "label": "joined annualcash2027",
+        "got": -11.816575958085716,
+        "expected": -11.816575958085712,
+        "absolute_error": 3.552713678800501e-15
+      },
+      {
+        "label": "joined annualcash2028",
+        "got": 1.800385210027067,
+        "expected": 1.8003852100270696,
+        "absolute_error": 2.6645352591003757e-15
+      },
+      {
+        "label": "joined annualcash2029",
+        "got": 12.993932031783539,
+        "expected": 12.993932031783537,
+        "absolute_error": 1.7763568394002505e-15
+      },
+      {
+        "label": "joined annualcash2030",
+        "got": 17.83071705368434,
+        "expected": 17.830717053684324,
+        "absolute_error": 1.4210854715202004e-14
+      },
+      {
+        "label": "joined annualcash2031",
+        "got": 15.62889151353189,
+        "expected": 15.628891513531881,
+        "absolute_error": 8.881784197001252e-15
+      },
+      {
+        "label": "joined annualcash2032",
+        "got": 16.992377715266265,
+        "expected": 16.992377715266283,
+        "absolute_error": 1.7763568394002505e-14
+      },
+      {
+        "label": "joined annualcash2033",
+        "got": 17.711977428716192,
+        "expected": 17.711977428716192,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "joined annualcash2034",
+        "got": 18.545032530830877,
+        "expected": 18.545032530830888,
+        "absolute_error": 1.0658141036401503e-14
+      },
+      {
+        "label": "joined annualcash2035",
+        "got": 19.83153172560318,
+        "expected": 19.831531725603178,
+        "absolute_error": 3.552713678800501e-15
+      },
+      {
+        "label": "joined annualcash2036",
+        "got": 22.24479714923495,
+        "expected": 22.244797149234962,
+        "absolute_error": 1.0658141036401503e-14
+      },
+      {
+        "label": "joined annualcash2037",
+        "got": 23.754884273993742,
+        "expected": 23.75488427399376,
+        "absolute_error": 1.7763568394002505e-14
+      },
+      {
+        "label": "joined annualcash2038",
+        "got": 25.23472669913782,
+        "expected": 25.234726699137802,
+        "absolute_error": 1.7763568394002505e-14
+      },
+      {
+        "label": "joined annualcash2039",
+        "got": 26.430391610362186,
+        "expected": 26.430391610362175,
+        "absolute_error": 1.0658141036401503e-14
+      },
+      {
+        "label": "joined annualcash2040",
+        "got": 27.568575221079616,
+        "expected": 27.568575221079616,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "joined annualcash2041",
+        "got": 28.395632477712034,
+        "expected": 28.395632477712038,
+        "absolute_error": 3.552713678800501e-15
+      },
+      {
+        "label": "base402026corrected_central_flatexplicit_operating_PV_B",
+        "got": 146.6785135044461,
+        "expected": 146.67851350444613,
+        "absolute_error": 2.842170943040401e-14
+      },
+      {
+        "label": "base402026corrected_central_flatterminal_operating_PV_B",
+        "got": 126.64293047549663,
+        "expected": 126.6429304754967,
+        "absolute_error": 7.105427357601002e-14
+      },
+      {
+        "label": "base402026corrected_central_flatequity_B",
+        "got": 282.5919348369402,
+        "expected": 282.5919348369403,
+        "absolute_error": 1.1368683772161603e-13
+      },
+      {
+        "label": "base402026corrected_central_flatprice_USD",
+        "got": 51.287102511241415,
+        "expected": 51.287102511241436,
+        "absolute_error": 2.1316282072803006e-14
+      },
+      {
+        "label": "joined2026corrected_central_flatexplicit_operating_PV_B",
+        "got": 86.69958600604522,
+        "expected": 86.69958600604522,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "joined2026corrected_central_flatterminal_operating_PV_B",
+        "got": 71.81000633167386,
+        "expected": 71.81000633167388,
+        "absolute_error": 1.4210854715202004e-14
+      },
+      {
+        "label": "joined2026corrected_central_flatequity_B",
+        "got": 167.78008319471658,
+        "expected": 167.78008319471658,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "joined2026corrected_central_flatprice_USD",
+        "got": 30.450105842961268,
+        "expected": 30.450105842961268,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "base402026corrected_maturing_riskexplicit_operating_PV_B",
+        "got": 150.25384046321363,
+        "expected": 150.25384046321363,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "base402026corrected_maturing_riskterminal_operating_PV_B",
+        "got": 165.41474832072583,
+        "expected": 165.4147483207259,
+        "absolute_error": 5.684341886080802e-14
+      },
+      {
+        "label": "base402026corrected_maturing_riskequity_B",
+        "got": 325.1229437043406,
+        "expected": 325.1229437043407,
+        "absolute_error": 5.684341886080802e-14
+      },
+      {
+        "label": "base402026corrected_maturing_riskprice_USD",
+        "got": 59.00597889370974,
+        "expected": 59.005978893709745,
+        "absolute_error": 7.105427357601002e-15
+      },
+      {
+        "label": "joined2026corrected_maturing_riskexplicit_operating_PV_B",
+        "got": 88.75734715132617,
+        "expected": 88.75734715132617,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "joined2026corrected_maturing_riskterminal_operating_PV_B",
+        "got": 93.79468778608091,
+        "expected": 93.79468778608093,
+        "absolute_error": 1.4210854715202004e-14
+      },
+      {
+        "label": "joined2026corrected_maturing_riskequity_B",
+        "got": 192.00638985780824,
+        "expected": 192.00638985780827,
+        "absolute_error": 2.842170943040401e-14
+      },
+      {
+        "label": "joined2026corrected_maturing_riskprice_USD",
+        "got": 34.84689471103598,
+        "expected": 34.846894711035986,
+        "absolute_error": 7.105427357601002e-15
+      },
+      {
+        "label": "base402030corrected_central_flatexplicit_operating_PV_B",
+        "got": 194.75335216328136,
+        "expected": 194.75335216328136,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "base402030corrected_central_flatterminal_operating_PV_B",
+        "got": 196.12687727775878,
+        "expected": 196.1268772777589,
+        "absolute_error": 1.1368683772161603e-13
+      },
+      {
+        "label": "base402030corrected_central_flatequity_B",
+        "got": 428.02775387245885,
+        "expected": 428.027753872459,
+        "absolute_error": 1.7053025658242404e-13
+      },
+      {
+        "label": "base402030corrected_central_flatprice_USD",
+        "got": 77.68198799863137,
+        "expected": 77.6819879986314,
+        "absolute_error": 2.842170943040401e-14
+      },
+      {
+        "label": "joined2030corrected_central_flatexplicit_operating_PV_B",
+        "got": 116.10595574848797,
+        "expected": 116.10595574848799,
+        "absolute_error": 1.4210854715202004e-14
+      },
+      {
+        "label": "joined2030corrected_central_flatterminal_operating_PV_B",
+        "got": 111.20930514042615,
+        "expected": 111.20930514042618,
+        "absolute_error": 2.842170943040401e-14
+      },
+      {
+        "label": "joined2030corrected_central_flatequity_B",
+        "got": 251.7566330129029,
+        "expected": 251.75663301290297,
+        "absolute_error": 5.684341886080802e-14
+      },
+      {
+        "label": "joined2030corrected_central_flatprice_USD",
+        "got": 45.69085898600779,
+        "expected": 45.6908589860078,
+        "absolute_error": 7.105427357601002e-15
+      },
+      {
+        "label": "base402030corrected_maturing_riskexplicit_operating_PV_B",
+        "got": 200.2903190436058,
+        "expected": 200.2903190436058,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "base402030corrected_maturing_riskterminal_operating_PV_B",
+        "got": 256.17125189713926,
+        "expected": 256.1712518971393,
+        "absolute_error": 5.684341886080802e-14
+      },
+      {
+        "label": "base402030corrected_maturing_riskequity_B",
+        "got": 493.89383834568446,
+        "expected": 493.89383834568457,
+        "absolute_error": 1.1368683772161603e-13
+      },
+      {
+        "label": "base402030corrected_maturing_riskprice_USD",
+        "got": 89.63590532589555,
+        "expected": 89.63590532589556,
+        "absolute_error": 1.4210854715202004e-14
+      },
+      {
+        "label": "joined2030corrected_maturing_riskexplicit_operating_PV_B",
+        "got": 119.29272871790802,
+        "expected": 119.29272871790803,
+        "absolute_error": 1.4210854715202004e-14
+      },
+      {
+        "label": "joined2030corrected_maturing_riskterminal_operating_PV_B",
+        "got": 145.25610826958598,
+        "expected": 145.25610826958598,
+        "absolute_error": 0.0
+      },
+      {
+        "label": "joined2030corrected_maturing_riskequity_B",
+        "got": 289.27495208500346,
+        "expected": 289.2749520850035,
+        "absolute_error": 5.684341886080802e-14
+      },
+      {
+        "label": "joined2030corrected_maturing_riskprice_USD",
+        "got": 52.49999130399337,
+        "expected": 52.49999130399338,
+        "absolute_error": 1.4210854715202004e-14
+      }
+    ]
+  },
+  "primary_sources_reopened": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "use": "Q3/YTD DCAI revenue,profit and rounded Otherrevenue."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "use": "Q2DCAI revenue,profit and951MOtherrevenue."
+    },
+    {
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "use": "Dated analyst37% DCAI growth,-12%CCPG growth,2027/2028EPS1.77/2.59 andgrosscapex30/32B allreverifiedinthepublicarticle."
+    }
+  ],
+  "source_hashes": {
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "product": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json",
+      "sha256": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d"
+    },
+    "bridge": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/operating_value_bridge.json",
+      "sha256": "a8f5e5b3d13e1fc4a5febf77b59b5773c54662a1a700fb594bb7837e1c04b50c"
+    },
+    "rates": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "weak": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/weak_demand_results.json",
+      "sha256": "e7a3115ac8e08b07ac9a7a7b076bcc9b7ede34656341a96b8093cc18b4e0cf6a"
+    },
+    "joined": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/joint_downside_results.json",
+      "sha256": "3a5ae36a6f522906894fb9a0e15bf68a703c3b16bee7a7fe4f21dc121f5cb945"
+    },
+    "underwriting": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/independent_long_underwriting.json",
+      "sha256": "9f5e147dfdff4a2bbb19a42a88f97bff4577a1e13c8469cffeae9231706f1dd2"
+    },
+    "eps": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/earnings_cash_bridge_results.json",
+      "sha256": "f0f6cf45b96a790602b947a79d91ff8ba89d4f1c5d4a397eb1d5a50e81742978"
+    }
+  },
+  "limits": [
+    "Nofullindependentreforecast ofthebusiness inthis numericreview.40%maturemargin remains anowned judgment withQ3anchor risk.",
+    "Approximately10%conditionalpriceCAGRdoesnotestablishriskadjustedalpha or currentundervaluation;51.29planningvaluebelow52.22 is disclosed.",
+    "The joined downside is a chosen jointstress, not an exhaustive loss floor. The actualpage9warnsaboutlower planningvalueandworselosses.",
+    "Publicanalyst1.77/2.59EPS,-12%CCPGgrowthand30Bcapex references were freshlyrechecked. Theiradjustment/tax/shareconventionsremainincompletelymatched,asdisclosed."
+  ]
+}

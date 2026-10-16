@@ -1,0 +1,122 @@
+{
+  "prepared_utc": "2026-11-05T06:55:19.587476+00:00",
+  "scope": "Independent review of numerical exhibit and honest benchmark wording. No model or PDF edits; no new channel research.",
+  "input_integrity": {
+    "frozen_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "rates_sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39",
+    "earnings_bridge_sha256": "f0f6cf45b96a790602b947a79d91ff8ba89d4f1c5d4a397eb1d5a50e81742978"
+  },
+  "recommended_exhibit": {
+    "headline": "Better durability can close the valuation gap.",
+    "subhead": "Sequential sensitivity of December 31, 2026 conditional value; USD per share.",
+    "steps": [
+      {
+        "label": "Central economics and risk",
+        "value_USD": 46.95806228358314,
+        "conditions": "35% mature DCAI operating margin; 0.80 incremental sales / net capital; 11.555% operating discount rate."
+      },
+      {
+        "label": "Same operations, declining risk",
+        "increment_USD": 6.81241490078299,
+        "value_USD": 53.77047718436613,
+        "conditions": "11.555% through 2030, then falls 0.15 percentage point annually to 10.055% in 2040."
+      },
+      {
+        "label": "Stronger margins AND capital efficiency",
+        "increment_USD": 7.134079057404186,
+        "value_USD": 60.904556241770315,
+        "conditions": "40% mature DCAI operating margin AND 1.00 incremental sales / net capital, under the same declining-risk curve."
+      }
+    ],
+    "reference_quote_USD": 58.28,
+    "reference_quote_date": "2026-11-04 close",
+    "signed_value_gap_USD": [
+      -11.321937716416862,
+      -4.509522815633872,
+      2.624556241770314
+    ],
+    "signed_value_gap_fraction_quote": [
+      -0.19426797728923917,
+      -0.07737684995940064,
+      0.04503356626235955
+    ],
+    "presentation": "Three value columns with incremental arrows, plus horizontal $58.28 reference line. Label rate change and joint operating change separately. Small callout: favorable case exceeds the quote without adding a new external wafer program.",
+    "limits": [
+      "Scenario sensitivity, not separate independent alpha sources.",
+      "Operating increment jointly changes margins and capital efficiency; do not label it pure margin impact.",
+      "Sequential attribution depends on path because operations and discount rates interact.",
+      "Values use forecast Dec.31 cash; quote is 57 days earlier. Neither $46.96 nor $60.90 is a 3-5 year exit target.",
+      "Central 2030 conditional value is $70.97777531, so current valuation gap is not a passive short profit forecast."
+    ]
+  },
+  "benchmark_panel": {
+    "headline": "The forecast already allows a strong earnings recovery.",
+    "column_labels": [
+      "Fiscal year",
+      "My adjusted EPS proxy",
+      "iFAST published EPS"
+    ],
+    "rows": [
+      {
+        "year": 2027,
+        "our_EPS_proxy": 2.4996601201597093,
+        "iFAST_EPS": 1.77
+      },
+      {
+        "year": 2028,
+        "our_EPS_proxy": 4.167050295549298,
+        "iFAST_EPS": 2.59
+      }
+    ],
+    "source_url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+    "source_date": "2026-11-02",
+    "directly_reverified_today": true,
+    "source_locators": [
+      "Table 6 and valuation paragraph: EPS 1.77/2.59",
+      "Cash conversion paragraph and valuation text: 2027 FCF negative, capex 30B/32B"
+    ],
+    "required_footnote": "One analyst, not consensus. My EPS is an adjusted proxy using 5.51B planning claims; tax, share and adjustment conventions are not fully matched.",
+    "interpretation": "This is evidence that the short does not rely on weak headline earnings. It is not a measured consensus miss. Negative 2027 free cash flow and large capital spending are already public concerns.",
+    "exclude": [
+      "No percentage EPS beat banners.",
+      "Do not compare Products-only revenue with iFAST consolidated revenue.",
+      "Do not reuse iFAST $70.87 reference or SELL label as confirmation at our $58.28 quote.",
+      "Do not equate our economic owner cash to reported adjusted FCF.",
+      "Do not attribute the entire EPS difference to CPU mix."
+    ]
+  },
+  "honest_thesis_forecast_chain": [
+    {
+      "evidence": "Intel Q3 2026 reports premium mix driving most of 54% server ASP growth; 2025 ASP fell 4% on pricing and mix.",
+      "judgment": "Credit recovery, then normalize price/mix gains.",
+      "forecast": "2027-2030 ASP +20%, +8%, +4%, +2%; mature DCAI margin 35%.",
+      "boundary": "Timing and exact path are author assumptions; current profit strength and persistent shortages support the opposing case."
+    },
+    {
+      "evidence": "Tools, substrates and packaging remain necessary; Intel Ireland expansion uses existing cleanrooms but adds tools and upgrades.",
+      "judgment": "Existing buildings do not eliminate the funding requirement.",
+      "forecast": "2027-2030 operating profit $111.25B; net operating investment $70.27B; economic owner cash $27.59B.",
+      "boundary": "These cumulative forecast quantities are not measured market expectations or incremental ROIC."
+    },
+    {
+      "evidence": "DCF can be recalculated under matched operations and risk alternatives.",
+      "judgment": "Require compensation for durability and manufacturing risk.",
+      "forecast": "$46.96 central; $53.77 declining risk; $60.90 stronger economics plus declining risk.",
+      "boundary": "This is one linked conditional valuation argument, with modest position economics, not two proven independent edges."
+    }
+  ],
+  "gaps_fillable_now": [
+    "Clear recommendation and dated value dashboard, with current valuation vs horizon cover separated.",
+    "Explicit evidence -> judgment -> forecast mapping, with observed and forecast inputs labeled.",
+    "Sequential value sensitivity bridge quantifying the strongest opposing case.",
+    "Named public-estimate benchmark with visible accounting limitations.",
+    "Compact what-changes-the-view matrix using existing 2027/2028 output, profit, investment and cash thresholds."
+  ],
+  "gaps_not_fillable_by_rewording": [
+    "Original expert or customer interviews and representative channel evidence have not been conducted.",
+    "No fully matched consensus cash-flow/mature-margin/capital-expenditure dataset establishing an overlooked operating forecast gap.",
+    "No demonstrated dated catalyst for repricing; operating checkpoints are not automatic price catalysts.",
+    "No robust expected relative-return advantage across reasonable matched-method alternatives; scenario arithmetic does not estimate probabilities."
+  ],
+  "bottom_line": "A more recognizable competition-deck structure can improve communication. It cannot honestly manufacture the operating evidence or measured expectations gap found in stronger research examples."
+}

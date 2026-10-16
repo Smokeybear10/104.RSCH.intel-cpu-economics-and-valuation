@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-11-06T21:54:53.133319+00:00",
+  "scope": "Quantify existing owned CPU forecast. Do not change current model or choose inputs to obtain valuation.",
+  "revenue_carryover": "Compare actual Q3 residual and model Q4 anchor annualized with current FY2026E and FY2027 forecast. A model Q4 run-rate is not observed.",
+  "ASP_carryover": "Compute 2027 unit-weighted ASP from existing quarterly indices relative to Q42026=100. Divide the independently calculated annual ASP factor (under17.6% annualunit growth) by this within-year weighted ASP factor. The implied exit-over-FY26 average is a conditional reconciliation, not a measured historical ASP.",
+  "delay_policy": "Shift current 2027 CPU revenue ramp by one quarter: Q1=existingQ1, Q2=existingQ1, Q3=existingQ2,Q4=existingQ3. Retain all existing2028-30annual CPU growth multipliers and post2030 growth, so no catch-up occurs and level gap persists. Leaveotherrevenues, marginrules,capex unchanged; valuationagent appliesexistingprofitcashrules.",
+  "H1_monitor": "Hold31.73925349266314 annualCPUtargetfixed; calculate H2required after0/5/10%shortfalls versuscurrentH1. Do not assume catch-up in downside valuation.",
+  "source_rounding": "OtherDCAIQ3 1.4B andYTD3.3B rounded. Quarterresiduals andYTDresidualdo notnecessarilyaddexactly. No inventedsequentialhistoricalunit/ASPseries.",
+  "capital_clarification_before_valuation": {
+    "recorded_utc": "2026-11-06T21:56:28.192596+00:00",
+    "policy": "Unchanged existing capital policy: fixed physical capex in 2027-30; retain existing 0.8 host sales/capital rule after 2030. No new all-year capex freeze."
+  }
+}

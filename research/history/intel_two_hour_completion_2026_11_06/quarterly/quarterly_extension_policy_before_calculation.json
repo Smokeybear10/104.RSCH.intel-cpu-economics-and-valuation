@@ -1,0 +1,35 @@
+{
+  "selected_utc": "2026-11-06T06:48:09.524723+00:00",
+  "boundary": "Timing allocation of preselected annual cases, not independent capacity or delivery validation; no equity values examined.",
+  "CPU_2028_2030": {
+    "unit_shape": "For each year solve a constant sequential unit growth rate from priorQ4 so summed quarterlyunits match selected annualgrowth.",
+    "ASP_shape": "Solve a constant sequential ASP growth rate from priorQ4 so unit-weighted annualASP matches selected annualgrowth.",
+    "reason": "Smooth delivery progression exposes what the selected annualassumptions imply after theH22027ramp; disclosed supplyconstraints do not quantify quarter-by-quarter2028\u201330output."
+  },
+  "client_2028_2030": {
+    "unit_weights": [
+      0.23,
+      0.24,
+      0.26,
+      0.27
+    ],
+    "ASP_shape": "Solve a constant sequential ASP growth rate from priorQ4 so unit-weighted annualASP matches selected annualgrowth.",
+    "reason": "Normalize client seasonality to53%of units inH2 after2026/27inventorydisruption; 23/24/26/27are analysttimingweights, not measured orders. Annual2028+5%meansquarterlyvolumebelowflatQ42027exit,soQ1seasonalresetmustbevisible.",
+    "Other_CCPG_quarter_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  "old_target_favorable_control": "Startfromexplicit2027hurdleschedule; applyoriginal2028\u201330annualunit/ASP assumptions, withsameforecasttimingallocation. Thispreservesoldannualrevenuesandseparatestimingchoicefromyearlypolicy.",
+  "later_market_diagnostic": {
+    "assumed_industry_CPU_unit_CAGR_2028_2030": [
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "scope": "Conditionalshareindexrelative2027,notmarketforecastorshareprediction. MarketdollarCAGRs,serverboxes,wafercapacityandUSenergyreportsdonotidentifyglobalCPUunits."
+  }
+}

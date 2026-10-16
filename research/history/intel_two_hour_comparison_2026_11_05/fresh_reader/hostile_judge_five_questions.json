@@ -1,0 +1,144 @@
+{
+  "created_utc": "2026-11-05T23:26:04.684216+00:00",
+  "task": "Independent hostile-judge test of the opening LONG at52.22 using the current builder draft, verified primary-source review and original M37 rules.",
+  "current_builder_sha256": "24f13898ed77a5c2028a62ebc34fa70199e1a5241120987583c063a0f3bffb36",
+  "source_policy": "No source PDFs, builder or model files edited. No new wafer wins, lower discount rates, invented market beliefs or probabilities assumed. Competition outcomes were not consulted.",
+  "original_M37_rules": {
+    "url": "https://www.m37.com/spc2026",
+    "read_again_this_pass": true,
+    "relevant_requirements": [
+      "Individual STEM entrant; choose Intel or SpaceX; fundamental long or short over3-5years.",
+      "Round1: clear, concise recommendation, business overview, thesis drivers and risks in no more than10PDFpages; dueNovember9.",
+      "Round2 and final assess investment theses, judgment, supporting evidence, assumptions, counterarguments and changes of view rather than modeling skill."
+    ],
+    "not_requirements": [
+      "No minimum return hurdle is specified.",
+      "No requirement for proprietary information or a large upside percentage is specified.",
+      "No stated requirement to assign numerical scenario probabilities."
+    ],
+    "interpretation": "A fair-valued asset can rationally be owned. The absence of an immediate discount does not mechanically mandate a short. But a positive future target alone does not explain why this particular uncertain investment should be recommended at the reference price."
+  },
+  "overall_judgment": {
+    "business_case": "Defensible, conditional recovery case: current product profits, a larger market despite share loss, richer mix, and future factory productivity can produce more owner cash without a client-volume boom or a newly assumed external wafer customer.",
+    "price_case": "The current draft can defend a moderate-conviction directional LONG. It does not yet establish a compelling allocation decision or demonstrated risk-adjusted price advantage at52.22. The draft now says this accurately; more confident phrasing would not close the gap.",
+    "what_the_judge_should_not_demand": "Neither proof of future cash nor a fabricated probability distribution. The fair demand is a clear investment decision criterion and evidence for the assumptions doing the economic work.",
+    "what_would_not_fix_it": [
+      "Relabeling a12% preference as an8% hurdle solely to fit the entry.",
+      "Adding an external wafer program already overlapping aggregate Foundry or packaging recovery.",
+      "Using the89.64 case without admitting that it lowers future discount rates.",
+      "Calling10% conditional price CAGR expected return or the49% cumulative price increase immediate undervaluation."
+    ]
+  },
+  "five_questions": [
+    {
+      "rank": 1,
+      "question": "Your planning value is51.29 and the stock is52.22. You prefer12%, while the base delivers10%. Why should I buy it now?",
+      "fair_answer": "The affirmative case is a larger server profit pool despite Intel losing share, supported by actual2026 product-profit growth. My2027 DCAI margin is38.8%, below Q3's41.5%, and2027 CPU sales are about21% above my modeled Q4 annualized level. That makes the recovery plausible without a new wafer customer. At this entry, however, I am accepting approximately fair value rather than demonstrating a bargain. The10% is conditional, not a probability-weighted or risk-adjusted return. The present work does not establish that it adequately compensates for the risks. If12% is my required return rather than a preference, the unchanged forecast supports an entry near48.52, not52.22.",
+      "judge_assessment": "Honest and analytically coherent, but incomplete as an affirmative purchase decision. The answer cannot be strengthened without making a genuine judgment about acceptable return or improving the supported operating economics.",
+      "evidence": [
+        "Current builder pp1,7; defense p1",
+        "extended_scenario_results.json decision_boundary",
+        "Verified Intel Q3 filing and prepared remarks"
+      ],
+      "reasoning_change": "State which return criterion actually governs the recommendation and why. Then evaluate the existing permanent-loss cases against it. Do not infer expected return from the base or select a hurdle after seeing the result."
+    },
+    {
+      "rank": 2,
+      "question": "What exactly do you believe will happen that creates value, and which part is more than extrapolating a shortage quarter?",
+      "fair_answer": "My near-term hypothesis is that market expansion and richer products can offset share loss and weak PCs. The forecast has2027 server units and ASP each up20%, producing31.48B CPU sales, and a5.09B DCAI profit increase against a1.38B client-profit decline. The audited revenue bridge is21.86B FY2026E to26.10B modeled Q4 annualized to31.48B FY2027E. This separates the inherited exit level from the remaining20.6% growth hurdle; it does not measure ASP carryover. TrendForce's market/share outlook supports the direction of unit growth, but accepted packages and realized mix still have to deliver it. The older28.7B DIGITIMES estimate is a dated comparison, not evidence of current consensus or market mispricing.",
+      "judge_assessment": "This is now a useful affirmative mechanism. It establishes feasibility and a testable forecast, not an information edge. The weakest remaining link is forward price/mix and accepted capacity after2027.",
+      "evidence": [
+        "Current builder pp2-4",
+        "fresh_reader/q4_cpu_exit_run_rate_bridge.json",
+        "Intel Q3 filing/prepared remarks; TrendForceOctober22; dated DIGITIMESOctober27 comparison"
+      ],
+      "reasoning_change": "Organize the thesis around market growth times Intel share times realized revenue per shipment, then show funded profit from those sales. Keep forecast and observed exit levels distinct. Validate later share and mix paths rather than assuming that a2027 revenue beat validates2031-40."
+    },
+    {
+      "rank": 3,
+      "question": "Why should40% DCAI margin survive after shortages ease, competition strengthens and lower-margin Other revenue becomes larger?",
+      "fair_answer": "The favorable evidence is real: Q2 and Q3 DCAI margins were39.5% and41.5%, and Intel attributes4.5B of the4.88B year-to-date profit increase to product profit. But those observations do not prove a durable floor. Under the illustrative20% Other margin, Q3 implies46.6% CPU margin; retaining that CPU margin as Other grows to24.7% of mature revenue produces about40% blended margin. In that same diagnostic, a10% CPU-ASP decline with fixed quantities and dollar costs reduces blended margin to35.2%; retaining40% needs about11.2% future all-in CPU cost reduction. The already-reported15% Intel3 cost improvement cannot be credited again. The long therefore requires future cost and customer economics to offset pricing pressure, not merely continued demand.",
+      "judge_assessment": "This is the central underwriting question. Certification and migration costs explain selected customer retention, but do not establish the blended profit margin or segment-wide pricing power.",
+      "evidence": [
+        "Current builder p5 and defense p3",
+        "Verified Intel Q1/Q2/Q3 filings and Q3 remarks p6",
+        "Microsoft SAP HANA support scope; SAP HANA Cloud Graviton; Datadog migration"
+      ],
+      "reasoning_change": "Replace the peak-quarter anchor as the main rationale with a forward price/mix/all-in-cost bridge. Give only supported future cost reductions; reconcile benefits between Products and Foundry. If the bridge does not sustain40%, change the economic forecast rather than appending another caveat."
+    },
+    {
+      "rank": 4,
+      "question": "Are you paying for all the capacity and partner claims needed to earn these profits, and does your answer quietly require an unannounced wafer win?",
+      "fair_answer": "The base already spends124.5B physical capex and18.0B working capital during2027-30. Starting from111.3B EBIT and adding72.2B D&A, taxes/incentives and deductions for leases, minorities and financing leave27.6B owner cash. That is neither a dividend nor GAAP free cash flow. Existing cash provides a funding buffer, but funding does not prove usable output. The0.80 capital-productivity rule is not a factory-capacity model, and the Arizona partner reserve is not an exact payout schedule. The forecast also already contains aggregate Foundry recovery and7B gross external-packaging sales by2030, including5B incremental to an embedded allowance. A new wafer program is not needed for the stated case and cannot be added without distinct revenue, costs, capacity and claims.",
+      "judge_assessment": "The cash reconciliation is a comparative strength. Capital sufficiency and the speed of recurring Foundry improvement remain assumptions. Q3 Foundry loss improvement was helped by a larger decline in period charges, so reported loss narrowing alone is not recurring cost proof.",
+      "evidence": [
+        "Current builder pp4,6,10 and defense p4",
+        "Cumulative cash bridge and model capital conventions",
+        "Intel Q3 filing commitments and prepared remarks"
+      ],
+      "reasoning_change": "Tie the additional output actually required by the forecast to the capacity budget and recurring factory economics. Treat aggregate external-packaging and Foundry recovery as already funded obligations of the case, not as a pool of free optionality."
+    },
+    {
+      "rank": 5,
+      "question": "If your2027 numbers come through, have I won? Conversely, when would you abandon the long rather than call the miss temporary?",
+      "fair_answer": "A good2027 would validate an early step, not the whole valuation:92.3% of December2026 operating value comes from cash after2030. The distinguishing evidence is repeat customer deployment, retained product economics and output delivered for the planned investment. A temporary2027 unit delay with a return to the base volume in2028 leaves a77.48 target, but requires36.4%2028 unit growth. Permanent damage matters more:DCAI margin eroding from2028 to35% by2030 gives68.36 and6.7% annual price appreciation;3% CPU growth from2031 gives69.85 and7.3%; persistent lower demand gives59.05 and3.0%. The joint case gives45.69, but is not a loss bound. Repeated share/customer losses, lower realized profit or greater capital needs for the same output would change the forecast and can invalidate the long.",
+      "judge_assessment": "The timing-versus-franchise distinction is strong. The present checkpoints are operating tests, not promised stock-price catalysts; the decision rule must specify how worsening forecasts affect willingness to own at the then-current price.",
+      "evidence": [
+        "Current builder pp7-9 and defense pp2,4",
+        "extended_scenario_results.json",
+        "return_value_bridge.json paired_scenarios"
+      ],
+      "reasoning_change": "Track the durability variables that drive post2030 cash rather than letting a near-term revenue beat stand in for the thesis. Treat price and fundamentals jointly at each review; a lower price helps only if the underlying economics remain acceptable."
+    }
+  ],
+  "quantitative_decision_test": {
+    "purpose": "Illustrate how little adverse-state headroom the unchanged base offers at a chosen10% annual price-return threshold. This is not a probability estimate, not a recommendation to use10%, and not a requirement imposed by M37.",
+    "entry": 52.22,
+    "horizon_years": 4.153319644079398,
+    "base_2030_target": 77.6819879986314,
+    "early_35pct_margin_target": 68.3625828221679,
+    "joint_target": 45.6908589860078,
+    "thresholds": [
+      {
+        "chosen_hurdle": 0.08,
+        "required_2030_price": 71.88800107276043,
+        "base_target_headroom_dollars": 5.793986925870968,
+        "additional_equity_value_to_reach_threshold_B": -31.92486796154903,
+        "binary_base_vs_35pct_margin_max_adverse_weight": 0.6217120960148713,
+        "binary_base_vs_joint_max_adverse_weight": 0.18111229908718376,
+        "base_alone_meets_chosen_hurdle": true
+      },
+      {
+        "chosen_hurdle": 0.1,
+        "required_2030_price": 77.58074037439181,
+        "base_target_headroom_dollars": 0.10124762423959055,
+        "additional_equity_value_to_reach_threshold_B": -0.5578744095601439,
+        "binary_base_vs_35pct_margin_max_adverse_weight": 0.010864172371783458,
+        "binary_base_vs_joint_max_adverse_weight": 0.003164865616328781,
+        "base_alone_meets_chosen_hurdle": true
+      },
+      {
+        "chosen_hurdle": 0.12,
+        "required_2030_price": 83.60938864861446,
+        "base_target_headroom_dollars": -5.927400649983056,
+        "additional_equity_value_to_reach_threshold_B": 32.659977581406636,
+        "binary_base_vs_35pct_margin_max_adverse_weight": null,
+        "binary_base_vs_joint_max_adverse_weight": null,
+        "base_alone_meets_chosen_hurdle": false,
+        "binary_feasibility": "No weight between0and1 satisfies this hurdle using these two endpoints."
+      }
+    ],
+    "interpretation": "At10%, required2030 price is77.58074 versus77.68199 base: only0.10125 dollars of terminal headroom. In a deliberately incomplete two-state world with only base and early35% margin, the maximum adverse weight for10% terminal expected-wealth growth is about1.09%; with base and joint it is0.32%. These are mathematical diagnostics, not credible probabilities or a complete distribution. They show why the base10% cannot be described as a10% expected return when adverse states receive weight and no operating upside is specified. Real evidence-backed upside could change the result; fabricating it or assigning arbitrary weights would not.",
+    "twelve_percent_gap": "At52.22,12% requires83.60939 in2030,5.92740 above base, equivalent to about32.66B additional2030 equity value at5.51B shares. The existing one-variable model solves that gap at about44.42% mature DCAI margin with other assumptions fixed. This is a dependency, not a recommended forecast. The unchanged base instead reaches12% at48.52."
+  },
+  "priority_reasoning_change": {
+    "statement": "Make the thesis about maintaining an investable spread between future realized revenue and the full funded cost of delivering it, then apply an explicit purchase criterion. The current revenue carryover bridge improves feasibility; the forward price/mix/cost and capacity bridge would determine whether the economics justify the price.",
+    "already_improved_in_current_draft": [
+      "The exit-rate comparison and affirmative explanation in the defense opening.",
+      "Separation of temporary delay from persistent competitive damage.",
+      "Full dated price/cash reconciliation and no use of unearned wafer optionality."
+    ],
+    "not_yet_fixed": "The current forecast supplies approximately fair value and a10% conditional return. Nothing in this independent pass creates extra value or demonstrates that the risk is sufficiently rewarded at52.22.",
+    "do_not_force_direction": "Failure to establish a strong long does not prove a short. The final recommendation should follow the author's genuine investment criterion and supported forecast, not a desire to sound as confident as public competition decks."
+  }
+}

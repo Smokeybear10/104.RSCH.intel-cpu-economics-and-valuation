@@ -1,0 +1,43 @@
+{
+  "recorded_before_new_scenario_values_utc": "2026-11-06T07:29:47Z",
+  "chronology": "Defined after prior integrated values were known, before calculating these new cost-recovery scenarios. This is not valuation-blind research.",
+  "base": "Root selected quarterly delivery, revised Other DCAI, component margins and normalized CPU growth.",
+  "scope": "Host Foundry cost recovery fails or arrives later despite unchanged selected CPU/client deliveries. This is a distinct cost/process/depreciation outcome, not another penalty for the same missing revenue.",
+  "scenarios": {
+    "flat_2027_loss": {
+      "annual_host_Foundry_profit_2027_2040_B": -4.0,
+      "terminal2041_B": -4.12,
+      "reason": "No nominal reduction of the selected 2027 loss through 2040. Terminal loss grows 3% consistently with the model's perpetual scale convention. This is a persistent cost failure, not a probability-weighted forecast."
+    },
+    "two_year_recovery_delay": {
+      "annual_host_Foundry_profit_2027_2032_B": [
+        -4.0,
+        -4.0,
+        -4.0,
+        -0.75,
+        1.0,
+        2.5
+      ],
+      "after2032": "Hold 2.5B divided by actual selected 2032 Products revenue, scaling profit with actual Products sales thereafter.",
+      "reason": "The original 2028/2029/2030 dollar recovery milestones occur in 2030/2031/2032. No immediate catch-up to the original normalized profit level is assumed."
+    },
+    "breakeven_without_mature_profit": {
+      "annual_host_Foundry_profit_2027_2030_B": [
+        -4.0,
+        -2.5,
+        -1.0,
+        0.0
+      ],
+      "after2030_B": 0.0,
+      "reason": "A meaningful recovery reaches breakeven by 2030, but host manufacturing contributes no positive mature profit. Packaging overlay remains separately unchanged."
+    }
+  },
+  "held_fixed": [
+    "All CPU, client, Other DCAI and external revenue paths",
+    "DCAI, CCPG, corporate and net incremental packaging profit",
+    "Physical capital budgets, depreciation, working capital, leases and minority claims",
+    "Finite tax credits and financing assumptions; recalculate ordinary operating tax only through existing engine"
+  ],
+  "accounting": "Replace the host Foundry profit line; change group EBIT by exactly the difference. Do not add a separate 50% revenue response or factory-absorption penalty. Holding booked Products margins fixed assumes the cost miss remains at Foundry under unchanged transfer conventions; the consolidated delta is what matters.",
+  "limitations": "Constant deliveries with different cash operating costs can occur through yields, input costs, ramp expenses or process R&D. With D&A held fixed, this stress does not represent an additional noncash depreciation or impairment charge: such a charge would require its corresponding cash-flow addback. The scenario does not identify the cost mechanism or refund committed investment. Any financing-floor breach is flagged rather than silently funded."
+}

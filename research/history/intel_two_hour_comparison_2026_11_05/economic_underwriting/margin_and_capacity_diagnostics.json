@@ -1,0 +1,170 @@
+{
+  "formula": "CPU operating margin = 1 - (1 - baseline CPU margin) * (1 + all-in unit cost change) / (1 + realized ASP change); fixed-weight mature blend = (1 - mature Other share) * CPU margin + mature Other share * Other margin.",
+  "baseline": {
+    "DCAI_margin": 0.4152773981962285,
+    "current_Other_share": 0.19130910084722602,
+    "illustrative_Other_margin": 0.2,
+    "inferred_CPU_margin": 0.46620479891855365,
+    "mature_Other_share": 0.2474832777081776
+  },
+  "conditional_grid": [
+    {
+      "ASP_change": 0,
+      "all_in_unit_cost_change": 0,
+      "CPU_margin": 0.4662047989185536,
+      "mature_DCAI_blend": 0.40032356274054365
+    },
+    {
+      "ASP_change": 0,
+      "all_in_unit_cost_change": -0.05,
+      "CPU_margin": 0.4928945589726259,
+      "mature_DCAI_blend": 0.42040805349518934
+    },
+    {
+      "ASP_change": 0,
+      "all_in_unit_cost_change": -0.1,
+      "CPU_margin": 0.5195843190266982,
+      "mature_DCAI_blend": 0.440492544249835
+    },
+    {
+      "ASP_change": 0,
+      "all_in_unit_cost_change": -0.15,
+      "CPU_margin": 0.5462740790807705,
+      "mature_DCAI_blend": 0.4605770350044808
+    },
+    {
+      "ASP_change": -0.05,
+      "all_in_unit_cost_change": 0,
+      "CPU_margin": 0.43811031465110906,
+      "mature_DCAI_blend": 0.3791819935251271
+    },
+    {
+      "ASP_change": -0.05,
+      "all_in_unit_cost_change": -0.05,
+      "CPU_margin": 0.4662047989185536,
+      "mature_DCAI_blend": 0.40032356274054365
+    },
+    {
+      "ASP_change": -0.05,
+      "all_in_unit_cost_change": -0.1,
+      "CPU_margin": 0.49429928318599814,
+      "mature_DCAI_blend": 0.4214651319559602
+    },
+    {
+      "ASP_change": -0.05,
+      "all_in_unit_cost_change": -0.15,
+      "CPU_margin": 0.5223937674534427,
+      "mature_DCAI_blend": 0.4426067011713767
+    },
+    {
+      "ASP_change": -0.1,
+      "all_in_unit_cost_change": 0,
+      "CPU_margin": 0.4068942210206151,
+      "mature_DCAI_blend": 0.35569136106355315
+    },
+    {
+      "ASP_change": -0.1,
+      "all_in_unit_cost_change": -0.05,
+      "CPU_margin": 0.4365495099695843,
+      "mature_DCAI_blend": 0.37800746190204837
+    },
+    {
+      "ASP_change": -0.1,
+      "all_in_unit_cost_change": -0.1,
+      "CPU_margin": 0.4662047989185536,
+      "mature_DCAI_blend": 0.40032356274054365
+    },
+    {
+      "ASP_change": -0.1,
+      "all_in_unit_cost_change": -0.15,
+      "CPU_margin": 0.4958600878675229,
+      "mature_DCAI_blend": 0.4226396635790389
+    },
+    {
+      "ASP_change": -0.15,
+      "all_in_unit_cost_change": 0,
+      "CPU_margin": 0.3720056457865336,
+      "mature_DCAI_blend": 0.3294371247829705
+    },
+    {
+      "ASP_change": -0.15,
+      "all_in_unit_cost_change": -0.05,
+      "CPU_margin": 0.4034053634972069,
+      "mature_DCAI_blend": 0.35306593743549486
+    },
+    {
+      "ASP_change": -0.15,
+      "all_in_unit_cost_change": -0.1,
+      "CPU_margin": 0.4348050812078802,
+      "mature_DCAI_blend": 0.37669475008801917
+    },
+    {
+      "ASP_change": -0.15,
+      "all_in_unit_cost_change": -0.15,
+      "CPU_margin": 0.4662047989185536,
+      "mature_DCAI_blend": 0.40032356274054365
+    }
+  ],
+  "target_margin_thresholds": [
+    {
+      "target_DCAI_margin": 0.35,
+      "required_CPU_margin": 0.3993311185739082,
+      "ASP_change_at_unchanged_unit_cost": -0.11133202070644277
+    },
+    {
+      "target_DCAI_margin": 0.4,
+      "required_CPU_margin": 0.465774824765211,
+      "ASP_change_at_unchanged_unit_cost": -0.0008048556550216412
+    }
+  ],
+  "fixed_quantities_and_other_revenue_diagnostic": {
+    "formula": "New DCAI margin = (baseline DCAI margin + baseline CPU revenue share * ASP change) / (1 + baseline CPU revenue share * ASP change).",
+    "assumptions": "CPU packages and all-in dollar costs unchanged; Other revenue and dollar profit unchanged. CPU revenue share changes mechanically when ASP changes. This repairs the fixed-mix simplification in the separate grid.",
+    "unchanged_ASP_DCAI_margin": 0.40032356274054365,
+    "margin_at_10pct_ASP_decline": 0.3515247129940468,
+    "ASP_change_for_35pct_DCAI_margin": -0.1028825851456084
+  },
+  "limitations": [
+    "Other profitability and standalone CPU profitability are not disclosed. This reexpresses an existing conditional margin illustration, not a new forecast.",
+    "Holding all-in cost per CPU implicitly holds allocated OpEx per unit; real fixed cost leverage, volumes, customer/SKU mix and transfer prices can differ.",
+    "Intel 3 cost learning is a manufacturing cost metric, not a proportional reduction in all DCAI costs; it cannot be dropped directly into this grid.",
+    "The conditional grid holds mature Other revenue share fixed. The separate fixed-quantities diagnostic allows share weights to change mechanically with ASP."
+  ],
+  "capacity_calendar_diagnostic": {
+    "equation": "Annual good-package factor = starting run-rate carryover * calendar-weighted capacity factor * yield/utilization factor / resource use per good-package factor; the tightest wafer/substrate/assembly stage binds.",
+    "cases": [
+      {
+        "calendar_weighted_capacity_increase": 0.1,
+        "resources_per_good_package_increase": 0,
+        "required_carryover_times_yield_factor_for_20pct_units": 1.0909090909090908
+      },
+      {
+        "calendar_weighted_capacity_increase": 0.1,
+        "resources_per_good_package_increase": 0.1,
+        "required_carryover_times_yield_factor_for_20pct_units": 1.2
+      },
+      {
+        "calendar_weighted_capacity_increase": 0.1,
+        "resources_per_good_package_increase": 0.2,
+        "required_carryover_times_yield_factor_for_20pct_units": 1.3090909090909089
+      },
+      {
+        "calendar_weighted_capacity_increase": 0.2,
+        "resources_per_good_package_increase": 0,
+        "required_carryover_times_yield_factor_for_20pct_units": 1.0
+      },
+      {
+        "calendar_weighted_capacity_increase": 0.2,
+        "resources_per_good_package_increase": 0.1,
+        "required_carryover_times_yield_factor_for_20pct_units": 1.1
+      },
+      {
+        "calendar_weighted_capacity_increase": 0.2,
+        "resources_per_good_package_increase": 0.2,
+        "required_carryover_times_yield_factor_for_20pct_units": 1.2
+      }
+    ],
+    "interpretation": "An illustrative 40% capacity addition active for a full half-year contributes 20% annual capacity if the other half is unchanged; a linear ramp from 0 to 40% during the half contributes 10%. Exact Intel capacity units, timing, baseline and mix are not disclosed, so this is not an Intel shipment estimate.",
+    "warning": "Management's reported ~40% substrate capacity remark is from Q&A transcriptions; prepared remarks directly verify bottlenecks but not that numerical capacity specification. Do not assert capacity equals CPU units."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "computed_utc": "2026-11-05T22:40:19.043423+00:00",
+  "scope": "Exact algebraic roll-forward of selectedAPV and treasury conventions; not an independent equity cost-of-capital or statisticalexpectedreturn estimate.",
+  "identity": "E[t+1]-E[t] = k_u*(operatingPV[t]+financing-shieldPV[t]+futureescrow/acquisitionPV[t]) - totalcashinterest[t+1] + aftertaxcashincome[t+1], with otherassetvaluesheldflat and nopayouts. Operatingcash, financingtaxbenefits, escrow/acquisitioncash and principal changes cancel between remainingvalue and retainedcash as modeled.",
+  "annual_values": {
+    "2026": {
+      "operating_value_B": 273.3214439799427,
+      "financing_shield_PV_B": 2.58895408799514,
+      "net_future_financing_events_PV_B": 0.2595367690023498,
+      "cash_B": 50.839,
+      "debt_B": 50.134,
+      "net_other_assets_B": 5.717,
+      "equity_B": 282.5919348369402,
+      "price_USD": 51.287102511241415,
+      "risk_discounted_APV_subtotal_B": 276.16993483694023
+    },
+    "2027": {
+      "operating_value_B": 315.0864497149108,
+      "financing_shield_PV_B": 2.6481077328629783,
+      "net_future_financing_events_PV_B": 0.8695262426605711,
+      "cash_B": 34.74028711691429,
+      "debt_B": 46.308,
+      "net_other_assets_B": 5.717,
+      "equity_B": 312.7533708073487,
+      "price_USD": 56.761047333457114,
+      "risk_discounted_APV_subtotal_B": 318.6040836904344
+    },
+    "2028": {
+      "operating_value_B": 347.709785374116,
+      "financing_shield_PV_B": 2.6953465813952953,
+      "net_future_financing_events_PV_B": 0.0,
+      "cash_B": 34.830940722267165,
+      "debt_B": 43.135,
+      "net_other_assets_B": 5.717,
+      "equity_B": 347.81807267777845,
+      "price_USD": 63.12487707400698,
+      "risk_discounted_APV_subtotal_B": 350.4051319555113
+    },
+    "2029": {
+      "operating_value_B": 371.31110592399034,
+      "financing_shield_PV_B": 2.729293878875522,
+      "net_future_financing_events_PV_B": 0.0,
+      "cash_B": 46.646985872371815,
+      "debt_B": 39.847,
+      "net_other_assets_B": 5.717,
+      "equity_B": 386.5573856752377,
+      "price_USD": 70.15560538570557,
+      "risk_discounted_APV_subtotal_B": 374.04039980286586
+    },
+    "2030": {
+      "operating_value_B": 390.88022944104017,
+      "financing_shield_PV_B": 2.7484137865795892,
+      "net_future_financing_events_PV_B": 0,
+      "cash_B": 65.77911064483916,
+      "debt_B": 37.097,
+      "net_other_assets_B": 5.717,
+      "equity_B": 428.0277538724589,
+      "price_USD": 77.68198799863139,
+      "risk_discounted_APV_subtotal_B": 393.62864322761976
+    }
+  },
+  "annual_return_bridge": [
+    {
+      "year": 2027,
+      "equity_value_change_B": 30.16143597040849,
+      "discount_roll_forward_B": 31.911435970408444,
+      "cash_interest_paid_B": 2.6,
+      "aftertax_cash_income_B": 0.85,
+      "reconstructed_change_B": 30.161435970408444,
+      "intrinsic_equity_value_growth": 0.10673141109923075,
+      "asset_discount_rate": 0.11555,
+      "identity_error_B": 4.618527782440651e-14
+    },
+    {
+      "year": 2028,
+      "equity_value_change_B": 35.06470187042976,
+      "discount_roll_forward_B": 36.814701870429694,
+      "cash_interest_paid_B": 2.6,
+      "aftertax_cash_income_B": 0.85,
+      "reconstructed_change_B": 35.064701870429694,
+      "intrinsic_equity_value_growth": 0.11211614372025132,
+      "asset_discount_rate": 0.11555,
+      "identity_error_B": 6.394884621840902e-14
+    },
+    {
+      "year": 2029,
+      "equity_value_change_B": 38.73931299745925,
+      "discount_roll_forward_B": 40.48931299745933,
+      "cash_interest_paid_B": 2.6,
+      "aftertax_cash_income_B": 0.85,
+      "reconstructed_change_B": 38.73931299745933,
+      "intrinsic_equity_value_growth": 0.1113780911360166,
+      "asset_discount_rate": 0.11555,
+      "identity_error_B": -7.815970093361102e-14
+    },
+    {
+      "year": 2030,
+      "equity_value_change_B": 41.470368197221205,
+      "discount_roll_forward_B": 43.22036819722115,
+      "cash_interest_paid_B": 2.6,
+      "aftertax_cash_income_B": 0.85,
+      "reconstructed_change_B": 41.47036819722115,
+      "intrinsic_equity_value_growth": 0.10728127241646372,
+      "asset_discount_rate": 0.11555,
+      "identity_error_B": 5.684341886080802e-14
+    }
+  ],
+  "four_year_intrinsic_value_CAGR": 0.10937414954054958,
+  "market_entry_price_CAGR": 0.10034547227789314,
+  "four_year_intrinsic_holding_years": 4,
+  "market_entry_holding_years": 4.153319644079398,
+  "entry_over_December_planning_value": 0.018189709363169992,
+  "per_share_value_growth_bridge": {
+    "December2026_value": 51.287102511241415,
+    "operating_value_growth_to2030": 21.335532751560336,
+    "other_APV_and_financial_change_to2030": 5.059352735829631,
+    "December2030_value": 77.68198799863139
+  },
+  "interpretation": [
+    "11.555%applies tooperatingcash and thechosenAPVbenefits, notdirectly to totalstockequity. Cash,debt,interest,otherassets and changingfinancialcomposition alterequityvaluegrowth.",
+    "The reconstructed4-yearintrinsicvaluegrowth is approximately10.94%, different from11.555%withoutanyarithmeticcontradiction. Actualentry-to-target10.03%also uses ahigherentrythan theDecemberplanningvalue and a56daylongerhorizon.",
+    "Because thisis oneconditionalcashflowpath anditsratejudgments, itdoesnotestablish that10% isadequate compensationforrisk. It shows onlythat comparing10.03%directlyto11.555%andcallingthegapalpha isinvalid.",
+    "The model gives approximatelyfaircurrentplanningvalue and normalvaluegrowth. A positivefuturetarget doesnot byitselfestablishmispricing. A coherentmoderateLONGstillrequiresanownedrisk/returnpreference or additionalevidenceof misestimatedfundamentals.",
+    "No exactNovember5intrinsicvalue isderived: theQ4stubcashanddate-specificfinancialbridgehave notbeenreconstructed."
+  ]
+}

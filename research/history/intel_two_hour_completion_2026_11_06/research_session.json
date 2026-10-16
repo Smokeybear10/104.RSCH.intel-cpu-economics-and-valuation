@@ -1,0 +1,73 @@
+{
+  "objective": "Spend the next two hours closing the Intel M37 thesis gaps, completing the quarterly revenue-to-cash model, and verifying the final pitch",
+  "status": "complete_research_pass",
+  "started_utc": "2026-11-06T06:31:26+00:00",
+  "not_before_completion_utc": "2026-11-06T08:31:26+00:00",
+  "requirements": [
+    {
+      "id": "R1",
+      "requirement": "At least two hours of genuine research, modeling and review from goal start",
+      "status": "complete"
+    },
+    {
+      "id": "R2",
+      "requirement": "Complete historical/consolidated annual revenue bridge with explicit forecast policies for missing external Foundry and AllOther eliminations",
+      "status": "complete"
+    },
+    {
+      "id": "R3",
+      "requirement": "Complete internally consistent quarterly CPU forecast including timing, rounded-data limits, volume/ASP and revenue",
+      "status": "complete"
+    },
+    {
+      "id": "R4",
+      "requirement": "Underwrite retained group profit, margin/mix and capital needs with positive and disconfirming evidence",
+      "status": "complete"
+    },
+    {
+      "id": "R5",
+      "requirement": "Integrate selected policies into profit, taxes, investment, treasury and dated valuation; preserve baseline comparison",
+      "status": "complete"
+    },
+    {
+      "id": "R6",
+      "requirement": "Reassess recommendation and specific disagreement with current external forecasts without target fitting",
+      "status": "complete"
+    },
+    {
+      "id": "R7",
+      "requirement": "Deliver a reproducible editable model, revised ten-page pitch and aligned defense/comparison artifacts",
+      "status": "complete",
+      "boundary": "Revised research artifacts complete; not falsely presented as a final LONG/SHORT submission."
+    },
+    {
+      "id": "R8",
+      "requirement": "Independent calculation/claim reviews, rendered artifact QA and requirement-by-requirement completion audit",
+      "status": "complete"
+    }
+  ],
+  "completion_boundary": "The two-hour research, model completion, revisions and independent verification are complete. This does not certify an investment edge, future forecast, competition win or submission-ready LONG/SHORT decision.",
+  "prior_goal_turn_classification": "initial goal turn; prior conversational review yielded actionable gap inventory",
+  "workstreams": {
+    "root": "integration, valuation, workbook, final recommendation and artifact QA",
+    "consolidation_completion": "annual sales and reinvestment reconciliation",
+    "quarterly_delivery_completion": "quarterly volume/ASP/revenue schedule",
+    "margin_completion": "retained group economics and long-term margin policy",
+    "risk_policy": "Independent riskmethodsourceverification, fundedterminalgrowthand reversehurdles.",
+    "workload": "Matchedpublicworkload reanalysis, not anoriginalpaidexperiment."
+  },
+  "prohibited_unrequested_actions": [
+    "submission",
+    "messages to third parties",
+    "paid datasets or experiments",
+    "commits",
+    "pushes"
+  ],
+  "last_updated_utc": "2026-11-06T16:31:14.706364+00:00",
+  "timing_basis": "Require goal-tool tracked active time>=7200seconds; do not count unexplained wall-clock jumps as research.",
+  "completed_utc": "2026-11-06T16:34:23.126419+00:00",
+  "minimum_observed_goal_active_seconds": 7401,
+  "minimum_active_requirement_seconds": 7200,
+  "submission_ready": false,
+  "recommendation_finalized": false
+}

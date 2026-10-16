@@ -1,0 +1,234 @@
+{
+  "scope": "Deep narrative and forecast review of three public semiconductor pitches; historical methods, not current investment recommendations or outcome backtests. Root separately reviews UConn TSM2023.",
+  "method": "Read all 18 Carleton pages; full 23-page indexed AMAT text including valuation cases; full six-page indexed Golden Flyer text. AMAT and Golden Flyer origin files are currently error HTML, so no new visual audit is claimed for those two. Numerical model inputs below are transcribed and used for independent comparisons, not endorsed forecasts.",
+  "award_status": "No verified competition award for any of the three. Notre Dame AMAT was recorded PASS by the club on February 14, 2019; that is an investment decision, not a competition rank. Do not frame these examples as winners.",
+  "high_value_conclusion": "The useful distinction is whether the forecast expresses the economic mechanism and its failure mode. A familiar deck format, detailed DCF, industry TAM chart, and technical vocabulary can coexist with an unsupported margin or reinvestment assumption. The Intel gap is not solved by matching their number of charts.",
+  "pitches": [
+    {
+      "name": "Carleton Sprott Student Investment Fund Micron, November2020",
+      "url": "https://sprott.carleton.ca/wp-content/uploads/SSIF-MU_REPORT.pdf",
+      "local": "tmp/pdfs/public_pitch_benchmark/carleton_mu_2020.pdf",
+      "stance": "HOLD at61.40; current DCF77.13; future2027 value130.16 and11.2% modeled annual return are presented separately.",
+      "date_scope": "Cover prints November20,2020; model valuation date is November24,2020. Do not assume perfect date consistency.",
+      "claim_evidence_model": [
+        {
+          "pages": [
+            1,
+            10,
+            13,
+            15,
+            16,
+            18
+          ],
+          "claim": "Cyclicality and competitive risk can outweigh apparent DCF upside.",
+          "evidence": "Product ASP history and multi-year margin/ROIC history, followed by a forecast containing negative and uneven FCF.",
+          "model_effect": "Revenue is not extrapolated as a smooth secular CAGR; current value and holding-period return are distinguished.",
+          "judgment": "Strong method worth copying: the recommendation is allowed to disagree with a favorable point estimate. HOLD is not evidence the model is correct, but it is better reasoning discipline than automatically buying every stock with positive target upside."
+        },
+        {
+          "pages": [
+            10,
+            13
+          ],
+          "claim": "Memory growth does not guarantee durable profitability.",
+          "evidence": "2018/2019/2020 DRAM ASP changes +36%/-30%/-34%; gross margins58.87%/45.72%/30.57%; ROIC42.41%/16.70%/6.20%.",
+          "model_effect": "Forces the analyst to distinguish bits delivered, selling price and cost decline.",
+          "intel_translation": "Use Intel segment-consistent price/volume/mix/cost history. Do not import memory volatility mechanically into differentiated CPUs; establish the actual mechanism that preserves or removes pricing power."
+        },
+        {
+          "pages": [
+            15,
+            16
+          ],
+          "claim": "Shareholders need dated cash and share-count consequences, not only an enterprise-value point estimate.",
+          "evidence": "Rolling enterprise value, cash, debt/leases, diluted shares and an entry-price/exit-multiple IRR grid.",
+          "model_effect": "Shows negative-return outcomes at weak exit multiples and how dilution affects the exit.",
+          "intel_translation": "A current-value vs2030-exit exhibit is worthwhile if it visibly explains funded cash accumulation, dilution and the date convention. A detailed table does not substitute for checking the cash-flow roll-forward."
+        },
+        {
+          "pages": [
+            2,
+            3,
+            6,
+            7,
+            16
+          ],
+          "claim": "Industry structure and technical progress support the recommendation.",
+          "evidence": "Describes DRAM/NAND technologies, manufacturing value chain and broad semiconductor share data.",
+          "model_effect": "No demonstrated wafer-start, bit-density, yield or product-ASP forecast bridge; broad chip peers drive a second valuation.",
+          "judgment": "Reject the broad semiconductor-market denominator as evidence of memory fragmentation. Reject broad analog/microcontroller/logic multiples as interchangeable with memory. Technology description alone is not a differentiated forecast."
+        }
+      ],
+      "first_ten_pages": "Too much background and business description for M37. The decisive cycle, valuation, IRR and final judgment exhibits largely arrive after page10. Borrow the economic tests and move them forward; do not copy the narrative order.",
+      "what_to_copy": "One compact historical mechanism chart; explicit current-vs-future valuation; holding-period return grid; permission to say HOLD when evidence cannot justify BUY.",
+      "what_not_to_copy": "A generic five-forces essay; broad semiconductor market shares and comps; a point forecast labeled a margin of safety without sensitivity to underlying industry economics."
+    },
+    {
+      "name": "Notre Dame Investment Club Applied Materials, February2019",
+      "url": "https://investmentclub.nd.edu/assets/466895/02.14.19_amat_deck.pdf",
+      "origin_status": "Original URL currently404; search-indexed full PDF text accessible. Local named .pdf is not a usable PDF. Sections, not unverified appendix page numbers, are supplied when page boundaries are unavailable.",
+      "stance": "BUY39.78\u219247.72,19.96% total upside; date of future target is not clearly pinned to the DCF present-value convention.",
+      "claim_evidence_model": [
+        {
+          "pages": [
+            4,
+            5,
+            8,
+            9
+          ],
+          "sections": [
+            "Company/production overview",
+            "Historically Cheap",
+            "Importance of R&D"
+          ],
+          "claim": "A cyclical equipment downturn leaves a long-term opportunity.",
+          "evidence": "Equipment value-chain diagram; historical multiple chart; WFE market contracts55B2018\u219250B2019\u219248B2020 before recovering66B2025.",
+          "model_effect": "Base revenue17.253B2018\u219215.721B2019, then recovery and another2024 decline.",
+          "judgment": "The near-term cycle is explicitly acknowledged, an improvement over a one-direction semiconductor growth story. Historical cheapness still needs normalized earnings; it is not automatically a price error."
+        },
+        {
+          "sections": [
+            "Importance of R&D",
+            "Solutions and Tailwinds"
+          ],
+          "claim": "R&D and process complexity allow AMAT to benefit from memory/AI demand.",
+          "evidence": "Cross-company R&D chart, technology-center investment and a list of17 fab projects.",
+          "model_effect": "No equipment-intensity, deposition/etch share, tool shipment or customer-return bridge is demonstrated.",
+          "judgment": "A project list is a demand map, not orders. Require funding/ramp/tool-install dates and addressable process steps. A large R&D budget measures input, not technical or economic output."
+        },
+        {
+          "sections": [
+            "Broad Product Portfolio",
+            "Headwinds"
+          ],
+          "claim": "Diversified end markets and service revenue reduce risk.",
+          "evidence": "Revenue by segment, customer geography, memory capex/EUV risks.",
+          "model_effect": "Aggregate growth and margin assumptions do not show segment-level covariance.",
+          "judgment": "Useful revenue map, but a larger number of categories does not establish diversification if customers share the same capex cycle."
+        },
+        {
+          "sections": [
+            "Valuation DCF Base",
+            "Valuation DCF Downside"
+          ],
+          "claim": "Limited downside despite a lower revenue path.",
+          "evidence": "2025 downside revenue16.577B versus26.755B base; both use48.5% gross margin and32.8% EBIT margin.",
+          "model_effect": "A38% lower terminal revenue level is not accompanied by a lower percentage margin.",
+          "judgment": "This fails to test combined demand, pricing and fixed-cost absorption risk. It can be an isolated revenue sensitivity; it should not be sold as a complete semiconductor downturn. The lesson is scenario correlation, not a need for more valuation methods."
+        }
+      ],
+      "reinvestment": "Capex3.5% of sales and D&A3% are explicit, with R&D and working capital. These suit an equipment-supplier model only if justified; they cannot be imported into Intel owning leading-edge fabs.",
+      "valuation_assumptions": "Base47.72 blends50% comps39.91,25% Gordon53.06 and25% exit DCF57.99. Averaging methods does not create independent evidence because they share earnings assumptions and can share market multiples.",
+      "first_ten_pages": "Production-flow explanation helps orientation; a full governance page and repeated industry background would be expensive within M37 ten-page limit. The forecast disagreement should be visible earlier.",
+      "what_to_copy": "One clear value-chain diagram and an explicit downturn/recovery path, then connect the technical driver to revenue, costs and funding.",
+      "what_not_to_copy": "Generic AI TAM, blanket R&D leadership, unfunded fab project count, or a revenue-only stress that keeps optimistic operating margins."
+    },
+    {
+      "name": "Henry McKinney / Golden Flyer Investment Fund Micron, February2022",
+      "url": "https://henrymckinney.com/pdf/MU_Stock_Pitch.pdf",
+      "origin_status": "Origin currently502; search-indexed full six-page PDF text accessible. No new visual inspection claimed.",
+      "stance": "LONG with12-month target130 from90.57; headline upside arithmetic is not used as a quality benchmark.",
+      "claim_evidence_model": [
+        {
+          "pages": [
+            1,
+            2
+          ],
+          "claim": "The market underestimates Micron growth and overlooks its positioning.",
+          "evidence": "Low multiples versus broad semiconductor peers, industry shortages, financial strength and a claimed market-implied growth rate.",
+          "model_effect": "Revenue27.705B2021\u219257.148B2026, about15.6%CAGR; forecast annual growth18/18/15/14/13%.",
+          "judgment": "A clearly stated disagreement is better than an entirely implicit bull case. However, no reproduced reverse valuation establishes the claimed market-implied8%, and memory-vs-logic peer discounts may reflect different economics."
+        },
+        {
+          "pages": [
+            2
+          ],
+          "claim": "Reliable supply and annual volume agreements support share gains.",
+          "evidence": "Pitch cites75% of revenue under annual volume agreements and inventory coverage.",
+          "model_effect": "Supports volume growth qualitatively, but does not quantify committed units, contractual pricing, cancellations or mix.",
+          "primary_crosscheck": "Micron2021 10-K Item1 says customers generally avoid long-term fixed-price contracts and pricing/quantity/terms can adjust to market conditions at shipment. Annual-volume language is therefore not a fixed-price margin guarantee.",
+          "intel_translation": "Segment available capacity, negotiated framework, accepted order, delivered CPU and recurring gross profit separately. Customer loyalty may protect volume without protecting price."
+        },
+        {
+          "pages": [
+            4,
+            5
+          ],
+          "claim": "Rapid growth turns into much stronger free cash flow.",
+          "evidence": "Explicit capex, D&A, tax and working-capital schedules.",
+          "model_effect": "Gross margin fixed48%; EBIT margin37\u219240%;2022\u201326 capex11/12/13/13/13B versus D&A7.429/8.502/9.294/10.644/12.191B.",
+          "independent_calculation": "Net capex falls3.571B\u21920.809B while sales grow32.692B\u219257.148B. Net-capex/sales10.92%\u21921.42%; capex/sales33.65%\u219222.75%.",
+          "judgment": "This embeds a large capital-productivity improvement. It may be achievable through density, reuse or mix, but the pitch does not supply a physical bridge. Detailed spreadsheet lines alone do not validate it."
+        },
+        {
+          "pages": [
+            3,
+            5
+          ],
+          "claim": "Scenario analysis defines manageable downside.",
+          "evidence": "Discrete scenario/risk probabilities and a bear target that recovers after a lower six-month value.",
+          "model_effect": "No calibrated likelihood model or clear joint cycle-pricing-margin-capex stress.",
+          "judgment": "Treat probabilities as analyst assumptions, not confidence evidence. Do not borrow them to claim a chance of winning M37 or investment success."
+        }
+      ],
+      "first_ten_pages": "The entire six-page document fits. Its concision and visible thesis/valuation/risk structure are useful; its shortness does not establish evidentiary sufficiency.",
+      "what_to_copy": "State the market disagreement in one sentence, then display the assumptions that convert it to cash.",
+      "what_not_to_copy": "A long-term agreement treated as guaranteed economics; fixed favorable gross margins through a full cycle; a growth-plus-low-reinvestment forecast without unit/capacity proof; arbitrary outcome probabilities."
+    }
+  ],
+  "primary_source_checks": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312521000065/mu-20210902.htm",
+      "date": "2021-10-08 filing, fiscal year ended2021-09-02",
+      "sections": [
+        "Item1 Marketing and Customers",
+        "Item1 Competitive Conditions",
+        "Item1 Manufacturing",
+        "Inventory note"
+      ],
+      "supports": "Pre-pitch evidence that terms can adjust at shipment; supply growth from yield/die-size/capacity can pressure price; manufacturing cost depends on process complexity, yield, utilization and packaging. Inventory4.487B includes3.469B WIP and only0.513B finished goods.",
+      "interpretation": "An inventory-days statistic cannot be assumed to represent ready-to-ship demand insurance. Customer benefits, supplier volume and durable supplier margin are distinct claims."
+    }
+  ],
+  "ranked_changes_for_intel": [
+    {
+      "priority": 1,
+      "change": "Show the narrow claim that makes LONG attractive at the actual entry price, or explicitly downgrade the recommendation.",
+      "why": "Current base planning value about51.29 is near/below52.22 entry. More industry evidence cannot turn near-fair value into a demonstrated discount by presentation alone.",
+      "decision_test": "Which evidence changes accepted CPU revenue, sustainable margin or capital funding enough to make the current return superior under plausible alternatives?"
+    },
+    {
+      "priority": 2,
+      "change": "Build a coupled downside with lower accepted CPU volume/ASP, lower contribution margin and slower factory-loss absorption; preserve physically required investment.",
+      "why": "AMAT revenue-only stress and Golden Flyer capital productivity demonstrate how plausible-looking downside cases can leave the optimistic mechanism intact.",
+      "decision_test": "Does the downside actually break the same demand/cost assumptions that produce the bull thesis?"
+    },
+    {
+      "priority": 3,
+      "change": "Make the2031\u201340 margin and capital-productivity assumptions auditable through indicators observable by2030.",
+      "why": "A3\u20135-year investor can capitalize later cash, but must have evidence that later economics will be credible to buyers at exit.",
+      "decision_test": "Specify product cohorts, competitive replacement decisions, customer certification/fleet retention, accepted output, cost declines and required reinvestment; no aggregate workload case directly proves40% margin."
+    },
+    {
+      "priority": 4,
+      "change": "Use a compact product/price/cost/cash history rather than a generic technology-market chart.",
+      "why": "Carleton ASP/ROIC history exposes the economic variable that matters.",
+      "decision_test": "Use consistent Intel segment accounting and avoid stitching incompatible historical disclosures into a misleading trend."
+    },
+    {
+      "priority": 5,
+      "change": "Keep current value, future price and holding return visibly distinct.",
+      "why": "Carleton does this more clearly than several winning or public decks.",
+      "decision_test": "One valuation date, one quote timestamp, correct annualization, and no comparison of unmatched terminal-value denominators."
+    }
+  ],
+  "rejected_analogies": [
+    "Memory cyclicality is not a numerical proxy for CPU margins; use its analytical decomposition, not its volatility magnitude.",
+    "AMAT capex intensity does not proxy Intel fab ownership.",
+    "Annual volume agreements do not equal fixed-price backlog or a margin floor.",
+    "R&D scale and technical novelty do not establish investment return without market share, price, cost or capital effects.",
+    "A HOLD with valuation upside is not proof Intel must be HOLD; it demonstrates recommendation discipline when business risk overwhelms a narrow modeled advantage.",
+    "Publication on a university site or competition victory does not validate all valuation methods or prove future stock performance."
+  ],
+  "not_done": "No recommendation is based on subsequent stock returns; no direct outreach; no PDF edits; no fabricated interviews; no numerical win probability."
+}

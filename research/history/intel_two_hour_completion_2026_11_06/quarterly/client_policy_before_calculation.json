@@ -1,0 +1,113 @@
+{
+  "selected_utc": "2026-11-06T06:45:24.820125+00:00",
+  "selection_boundary": "Operating policy selected before calculating these client quarterly revenue totals or any updated equity value. Root floated a different seasonal example; this owned policy uses round recovery increments and is not fitted to an annual target.",
+  "Q4_2026_anchor": {
+    "CCPG_revenue_B": 6.07275,
+    "client_revenue_B": 4.87575,
+    "Other_CCPG_revenue_B": 1.197,
+    "classification": "Existing analyst estimate, CCPG Q3 revenue times 0.75; company guided a greater-than-20% sequential decline, not this exact amount. Other CCPG held at Q3 residual.",
+    "client_unit_index": 100,
+    "client_ASP_index": 100
+  },
+  "preferred_2027_QoQ": {
+    "units": [
+      -0.05,
+      0.1,
+      0.15,
+      0.05
+    ],
+    "ASP": [
+      0.0,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "reasons": [
+      "Q1: seasonal decline and continued OEM inventory correction described by CFO. Five percent is a modest analyst decline allowance from an already depressed Q4, not guidance.",
+      "Q2: assume destocking wanes after Q1 and a 10% unit rebound; this is a normalization allowance, not measured inventory replenishment.",
+      "Q3: 15% seasonal/product-launch recovery after weak H1. Nova Lake and better availability provide upside; neither disclosed accepted orders nor current PC demand establish this exact increment.",
+      "Q4: 5% additional units, below Q3 rebound because replacement pull-forward, component inflation and market contraction limit acceleration. No second 10\u201315% recovery increment assumed without evidence.",
+      "ASP: flat Q1 then 1% per quarter. Newer mix and price pass-through support modest increases, while larger retail memory bills and AMD/Arm competition constrain CPU pricing. PC-system ASP growth is not imported into Intel CPU ASP."
+    ]
+  },
+  "slower_2027_QoQ": {
+    "units": [
+      -0.1,
+      0.05,
+      0.1,
+      0.0
+    ],
+    "ASP": [
+      0.0,
+      0.0,
+      0.01,
+      0.01
+    ],
+    "reason": "Longer destocking, weak end demand, limited post-Q3 recovery; no automatic catchup."
+  },
+  "preferred_2028_2030_annual": {
+    "unit_growth": [
+      0.05,
+      0.05,
+      0.03
+    ],
+    "ASP_growth": [
+      0.02,
+      0.02,
+      0.02
+    ],
+    "reason": "Retain the prior modest recovery assumptions on a reset 2027 level; not a forecast sourced from market research. Do not mechanically restore missed 2027 revenue."
+  },
+  "slower_2028_2030_annual": {
+    "unit_growth": [
+      0.02,
+      0.03,
+      0.03
+    ],
+    "ASP_growth": [
+      0.01,
+      0.01,
+      0.01
+    ]
+  },
+  "Other_CCPG_policy": {
+    "2027_annual_B": 4.8279,
+    "2027_quarter_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "2028_2030_annual_growth": [
+      0.08,
+      0.08,
+      0.08
+    ],
+    "classification": "Retain prior 5% 2027 and 8% later growth for isolation; equal quarter weights are bookkeeping, not timing evidence."
+  },
+  "historical_normalization": {
+    "2026_client_revenue_B": 26.17575,
+    "Q4_2026_ASP_over_full2026_weighted_ASP_chosen": 1.0,
+    "Q4_2026_ASP_over_full2026_weighted_ASP_sensitivity": [
+      0.95,
+      1.0,
+      1.05
+    ],
+    "boundary": "Neutral level calibration, not observed. Quarterly and YTD year-over-year ASP growth alone do not identify Q4 versus the 2026 annual weighted ASP. Sequential forecast dollars do not depend on this calibration."
+  },
+  "old_2027_control": {
+    "client_revenue_B": 23.7256998,
+    "CCPG_revenue_B": 28.5535998,
+    "unit_growth": -0.12,
+    "ASP_growth": 0.03,
+    "use": "Hold old annual target as favorable recovery diagnostic. With chosen preferred H1 and ASP path, solve required H2 unit multiplier. This reverse hurdle is not independent proof or preferred forecast."
+  },
+  "source_urls": [
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/",
+    "https://www.trendforce.com/presscenter/news/20261008-13264.html",
+    "https://www.trendforce.com/presscenter/news/20260904-13217.html",
+    "https://www.idc.com/resource-center/blog/pc-market-enters-volatile-territory-as-memory-shortage-persists-through-2027/",
+    "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "scope": "Review diagnostics; no assigned probabilities, root model or recommendation changes.",
+  "favorable_values": {
+    "2026": {
+      "explicit_operating_PV_B": 140.5634889862962,
+      "terminal_operating_PV_B": 118.78101715573138,
+      "total_operating_value_B": 259.34450614202757,
+      "financing_shield_PV_B": 2.58895408799514,
+      "cash_B": 50.991828,
+      "debt_B": 50.134,
+      "net_other_assets_B": 4.502,
+      "remaining_escrow_PV_B": 2.2439808391052574,
+      "remaining_acquisition_PV_B": 1.9844440701029076,
+      "equity_B": 267.55282499902506,
+      "price_USD": 48.557681488026326
+    },
+    "2030": {
+      "explicit_operating_PV_B": 185.6748351007273,
+      "terminal_operating_PV_B": 183.95144432587907,
+      "total_operating_value_B": 369.6262794266064,
+      "financing_shield_PV_B": 2.748413786579589,
+      "cash_B": 65.5404655626873,
+      "debt_B": 37.097,
+      "net_other_assets_B": 4.502,
+      "remaining_escrow_PV_B": 0.0,
+      "remaining_acquisition_PV_B": 0.0,
+      "equity_B": 405.3201587758733,
+      "price_USD": 73.56082736404235
+    }
+  },
+  "return_hurdle_terminal_prices": [
+    {
+      "chosen_return": 0,
+      "required2030_price": 52.25,
+      "favorable_binary_weight_required_if_only_favorable_and_slow_outcomes": 0.3985791679988488
+    },
+    {
+      "chosen_return": 0.05,
+      "required2030_price": 63.98707041137746,
+      "favorable_binary_weight_required_if_only_favorable_and_slow_outcomes": 0.7298154232358088
+    },
+    {
+      "chosen_return": 0.08,
+      "required2030_price": 71.92930019248817,
+      "favorable_binary_weight_required_if_only_favorable_and_slow_outcomes": 0.9539560612928509
+    },
+    {
+      "chosen_return": 0.1,
+      "required2030_price": 77.62530993033266,
+      "favorable_binary_weight_required_if_only_favorable_and_slow_outcomes": 1.1147052831368258
+    },
+    {
+      "chosen_return": 0.12,
+      "required2030_price": 83.65742161796447,
+      "favorable_binary_weight_required_if_only_favorable_and_slow_outcomes": 1.2849397638506352
+    }
+  ],
+  "binary_weight_warning": "Algebraic requirements in a deliberately incomplete two-state illustration, not estimated probabilities or scenario bounds. Weight above one means these two outcomes cannot meet that selected return hurdle.",
+  "segment_profit_bridge": [
+    {
+      "component": "DCAI_profit_B",
+      "2027_B": 14.89577222660915,
+      "2030_B": 24.3976951138837,
+      "change_B": 9.50192288727455,
+      "share_of_total_EBIT_change": 0.47598975497841434
+    },
+    {
+      "component": "CCPG_profit_B",
+      "2027_B": 6.037068144255689,
+      "2030_B": 9.418847784358443,
+      "change_B": 3.381779640102754,
+      "share_of_total_EBIT_change": 0.16940702228169843
+    },
+    {
+      "component": "Foundry_profit_B",
+      "2027_B": -4.0,
+      "2030_B": 2.5,
+      "change_B": 6.5,
+      "share_of_total_EBIT_change": 0.3256112940574632
+    },
+    {
+      "component": "net_packaging_profit_B",
+      "2027_B": -0.053750000000000006,
+      "2030_B": 1.175,
+      "change_B": 1.22875,
+      "share_of_total_EBIT_change": 0.061553058088170444
+    },
+    {
+      "component": "Other_profit_less_corporate_B",
+      "2027_B": -3.8000000000000025,
+      "2030_B": -4.450000000000004,
+      "change_B": -0.6500000000000012,
+      "share_of_total_EBIT_change": -0.03256112940574638
+    },
+    {
+      "component": "EBIT_B",
+      "2027_B": 13.079090370864835,
+      "2030_B": 33.041542898242135,
+      "change_B": 19.9624525273773,
+      "share_of_total_EBIT_change": 1.0
+    }
+  ],
+  "packaging_revenue_2027_B": 0.5,
+  "packaging_revenue2030_B": 7.0
+}

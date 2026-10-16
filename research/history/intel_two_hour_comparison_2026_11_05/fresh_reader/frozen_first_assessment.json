@@ -1,0 +1,142 @@
+{
+  "frozen_at_utc": "2026-11-05T23:12:38.564980+00:00",
+  "outcomes_accessed": false,
+  "scope": "Independent first assessment of four frozen supplied PDFs. No other analyst notes read. No external verification yet.",
+  "read_coverage": {
+    "intel_pitch": "all 10 pages",
+    "intel_defense": "all 5 pages",
+    "unc_wms": "main narrative 1-10; narrative and thesis appendices 11-37; model pages 38-49; primary research summary 51; other appendix headings inspected",
+    "columbia_jbi": "main narrative 1-12; appendices 13-20; product/R3 material 21-26 partly text/visual; model 27-28; remaining headings inspected"
+  },
+  "visual_reviewed_pages": {
+    "intel_pitch": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8
+    ],
+    "unc_wms": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      22
+    ],
+    "columbia_jbi": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      23
+    ]
+  },
+  "overall": "Intel is the strongest of the three at disclosing valuation dates, separating cash from accounting profit, admitting limitations, and distinguishing transient delays from permanent damage. It is less convincing as an actionable LONG at its stated entry: the stated forecast offers about fair value now and ~10% annual appreciation while critical duration and capital assumptions remain unevidenced. WMS and JBI give clearer economic reasons why customer choices favor the company and why estimates/multiples should differ; their superiority is in argument construction, not proven forecast accuracy.",
+  "strongest_for_intel": {
+    "case": "The recovery already has reported revenue, ASP and operating-profit support. A large CPU market can let Intel grow despite share loss, richer server mix can offset a shrinking PC business, and narrower Foundry losses can convert the group recovery into cash without an assumed external-wafer breakthrough. Temporary production delays matter far less to value than durable demand or pricing loss, so an investor with evidence of customer retention could rationally own a recovery through near-term noise.",
+    "evidence_pages": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "limits": "The reasonable mechanism is not yet a return advantage at $52.22. Public facts must be verified."
+  },
+  "strongest_against_intel": {
+    "case": "The long asks for a demanding recovery and durable ~40% DCAI economics, yet the model only gives $51.29 at Dec 2026 against a $52.22 entry. 92.3% of operating value is after 2030, while visible evidence is concentrated in 2026-27. The main argument proves that recovery is possible, not that the price underestimates it. The defense explicitly cannot claim a strong risk-adjusted edge. This is a recommendation/evidence inconsistency rather than a demand to become short.",
+    "evidence_pages": [
+      1,
+      3,
+      5,
+      7,
+      8,
+      9
+    ],
+    "defense_pages": [
+      1,
+      3,
+      4
+    ]
+  },
+  "substantive_improvements": [
+    {
+      "priority": "high",
+      "proposal": "Underwrite the margin path as a product-level mix/cost bridge using observed generations, current CPU/Other weights, disclosed cost learning and a bounded competitive ASP path. Show what combined price, unit and all-in cost assumptions produce 40% blended DCAI margin, and translate a coherent lower-price case into sales, investment and value.",
+      "why": "The defense already contains a useful 46.6% implied CPU-margin diagnostic, but the main deck merely repeats recent segment margins plus two nonrepresentative customer anecdotes. Promoting the diagnostic and finding evidence for future all-in cost improvement could substantively change the outcome."
+    },
+    {
+      "priority": "high",
+      "proposal": "Reconcile 2027-30 shipments and richer products to a funded capacity/learning path: Intel 3 output constraints, substrate funding, package load, yields and ramp dates. Quantify the minimum required capacity/yield improvement rather than stopping at no capacity proof.",
+      "why": "Allows identification of either a funded upside or an unrealistic base, rather than adding another caveat."
+    },
+    {
+      "priority": "medium",
+      "proposal": "Make the actual investment judgment explicit: what supported forecast improvement or price discount pays the owner for uncertainty? A conditional long entry rule could be defensible if no evidence creates upside at the current quote; do not invent optionality or lower discount rates to preserve LONG.",
+      "why": "Neither model complexity nor a 49% distant target resolves the price/recommendation tension."
+    },
+    {
+      "priority": "medium",
+      "proposal": "Replace part of the qualification-heavy main narrative with one concrete current customer adoption/renewal or deployment economics example linked to Intel shipment/ASP retention; keep its representativeness bounded.",
+      "why": "JBI explains why a customer spends and how it increases JBI content; WMS links approvals and distribution to share capture. Intel presently stops at the industry demand and capacity mechanism."
+    }
+  ],
+  "benchmark_strengths": {
+    "wms": "Forecast disagreement is measured: FY26 revenue +3.1%, EPS +8.9% vs identified consensus. Regulatory approvals expand usable geography; distribution and lower installed cost explain who captures conversion. Margin bridge separates mix (60bp) and recycled inputs (20bp), with model support. This is more informative than simply forecasting a growing TAM.",
+    "jbi": "The spend-substitution thesis is the clearest: expensive greenfield construction makes renovation attractive; JBI captures more dollars per square foot ($20 vs $8), has distribution/installation scale, and asset-light operations can convert growth to cash. Customer testimony and an R3 before/after example show a plausible mechanism. Valuation multiples requested (11x earnings/8x EBITDA) remain far below premium peers."
+  },
+  "benchmark_weaknesses": [
+    {
+      "deck": "wms",
+      "pages": [
+        7,
+        8,
+        45
+      ],
+      "issue": "Most target upside requires multiple rerating. P/E 23x vs quoted 18.1x FY26 and EV/EBITDA 14.5x vs 10.9x; modest earnings disagreement alone does not explain 31% appreciation. The appendix DCF is only $153.30 rather than the headline $172."
+    },
+    {
+      "deck": "wms",
+      "pages": [
+        22,
+        41
+      ],
+      "issue": "FY24 implied WMS market share appears internally inconsistent: 1,586,618 / 4,064,075 =39.04%, but p22 prints 40.5%; p41 correctly prints 39.0%. This exaggerates apparent consensus share loss."
+    },
+    {
+      "deck": "wms",
+      "pages": [
+        38,
+        40,
+        42,
+        44
+      ],
+      "issue": "Some appendix profitability ratios appear to use inconsistent denominators: FY26 operating income 812,262 / sales 3,225,410 =25.18% as p44 says, while p38 EBIT margin says 27.9%; p42 EBITDA margin 33.8% does not equal 1,002,951 / 3,225,410 =31.10%. FCFE section adds net borrowing to FCFF without visibly deducting after-tax interest. These weaken the precision impression."
+    },
+    {
+      "deck": "jbi",
+      "pages": [
+        8,
+        9,
+        28
+      ],
+      "issue": "Valuation labels use 2025 EBITDA of 295/303/243, exactly the EBIT figures on p28; p9 separately shows 2024 EBITDA314 and EBIT276 is on p28. This is an unresolved EBIT/EBITDA mismatch, not proof the whole conclusion is wrong."
+    },
+    {
+      "deck": "jbi",
+      "pages": [
+        6,
+        8,
+        11,
+        27,
+        28
+      ],
+      "issue": "Calling self-storage exposure low risk rests on the same R3 growth thesis it is meant to mitigate. 95% FCF conversion is undefined in the main narrative and no full cash-flow reconciliation is provided. R3 segment revenue growth is forecast, not quantitatively tied to operator budgets/contracts."
+    }
+  ],
+  "readability": "Intel uses substantially cleaner typography, whitespace and date labels. WMS/JBI are dense, with small tables, many visual boxes and promotional phrases. Their strongest diagrams and customer examples nevertheless communicate the business more concretely. Intel can become more persuasive by replacing caveat repetition with economic evidence rather than increasing confidence words.",
+  "no_inference_from": "School, team size, long/short direction, apparent model sophistication, source count or competition placement."
+}

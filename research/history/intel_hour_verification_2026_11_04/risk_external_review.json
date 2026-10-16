@@ -1,0 +1,294 @@
+{
+  "status": "rate_policy_frozen_before_new_equity_price_outputs",
+  "frozen_utc": "2026-11-04T22:46:28.826723+00:00",
+  "reviewer": "intel_risk_rate_external_hour",
+  "scope": "External verification of Intel operating discount rate. Source workbooks and frozen valuation/PDF are unchanged. No new Intel equity values were computed by this reviewer before policy selection.",
+  "decision": {
+    "central_unlevered_operating_risk_rate": 0.11555,
+    "central_asset_beta": 1.5,
+    "central_riskfree_rate": 0.0494,
+    "central_equity_risk_premium": 0.0441,
+    "central_basis": "Retain existing 1.50 cash-adjusted US semiconductor operating beta as a judgment. Correct the Nov1 NYU riskfree input to4.94% using linked primaryworkbooks; retain published rounded adjusted-payout ERP4.41%. Do not raisebeta to1.60 just to retain12%.",
+    "central_presentational_rounding": "About11.5%; retain11.555% for controlled recalculation, not as a measuredrequiredreturn.",
+    "prior_12_percent_assessment": "Plausible operating-risk sensitivity, but the old argument5.29%+1.50*4.41%=11.905% used staleOctoberTreasury. It no longer substantiates12% as a straightforward rounding of the retained inputs.",
+    "judgment_range": [
+      0.1,
+      0.13
+    ],
+    "range_meaning": "Method-and-business-risk sensitivity range, not confidenceinterval or provenbounds. Even thisrange isnot exhaustive.",
+    "controls": [
+      {
+        "name": "plain_T12_cash_ERP",
+        "rate": 0.10631495183175221,
+        "riskfree": 0.0494,
+        "ERP": 0.03794330122116814,
+        "asset_beta": 1.5,
+        "meaning": "Same November source workbook, alternativecashflow method without sustainable-payout increase. Derivedindependently from originalformulas. Shows method risk at fixedbeta."
+      },
+      {
+        "name": "Kroll_paired20year_USD",
+        "rate": 0.128,
+        "riskfree": 0.053,
+        "ERP": 0.05,
+        "asset_beta": 1.5,
+        "meaning": "Independent KrollSept8 guidance effectiveSept2 pairs5.0%ERP withspot20yearTreasury. Nov4Treasury20year5.30%. Alternativeframework, notnewmixedERP or averagewithNYU."
+      },
+      {
+        "name": "prior_12_percent",
+        "rate": 0.12,
+        "meaning": "Retained historicalassumption sensitivity, no longer sourcearithmeticcentral."
+      },
+      {
+        "name": "flat_10_percent",
+        "rate": 0.1,
+        "meaning": "Stronglower-rate challenge, plausible underotherERP/beta choices; notimmediatecentral."
+      }
+    ],
+    "maturing_rate_control": {
+      "initial_rate": 0.11555,
+      "terminal_rate_2040": 0.10055,
+      "decline_percentage_points": 1.5,
+      "meaning": "Preserve prior150bp maturationcontrol from correctedcentral. Followexistingpath timing whenrootrecalculates. Diagnostic only; no claim thisisuniquelyeconomicallycalibrated."
+    },
+    "unchanged_quote_implied_operating_rate": 0.10178462875398701,
+    "quote_implied_asset_beta_with_corrected_pair": 1.187860062448685,
+    "prohibited_inference": "A cash-adjusted assetcost is not the required return on a margined short. Do not subtract it fromsharepriceCAGR and call the difference realizedalpha. No inference of a competitionwin probability."
+  },
+  "material_new_source_correction": {
+    "homepage_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm",
+    "homepage_observed": "Nov1ERP4.41% alongsideTreasury5.29%. Previousmonth paragraph also5.29%.",
+    "primary_workbook_evidence": [
+      {
+        "file": "ERPNov26.xlsx",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPNov26.xlsx",
+        "cells": {
+          "Impl premium calculator!B3": "November",
+          "Impl premium calculator!B10": 0.0494,
+          "Impl premium calculator!A10": "Enter current10-yearUS Treasury rate"
+        }
+      },
+      {
+        "file": "ERPbymonth.xlsx",
+        "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx",
+        "cells": {
+          "Historical ERP!A219": "2026-10-01",
+          "Historical ERP!C219": 0.0529,
+          "Historical ERP!A220": "2026-11-01",
+          "Historical ERP!C220": 0.0494,
+          "Historical ERP!I220": 0.0441,
+          "Historical ERP!J220": 0.0379
+        },
+        "method_labels": {
+          "I1": "ERP(T12m with sustainablepayout)",
+          "J1": "ERP(T12m)"
+        }
+      }
+    ],
+    "formula_reconstruction": {
+      "adjusted_payout_ERP": 0.04414788836941819,
+      "plaincash_ERP": 0.03794330122116814,
+      "normalized_ERP": 0.033869450308949195,
+      "stockindex_level_reconciled": 7580.07,
+      "initial_payout": 0.6351999785022489,
+      "sustainable_terminal_payout": 0.7459542424807535,
+      "scope": "Read originalformulas andcachedsourceinputs; reimplemented scalarcalculations and bisection inPython withoutediting/exportingsourceworkbooks. AllfiveERPmethods reconcile publishedroundedvalues. Persistedcalculator initially selectsNORM, soitsC45=3.3869%is nottheheadline4.41%."
+    },
+    "treasury_primary_crosscheck": {
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "Oct30_10year": 0.0494,
+      "Nov3_10year": 0.0495,
+      "Nov4_10year": 0.049,
+      "Nov4_20year": 0.053,
+      "meaning": "Nov1NYUsnapshotproperlyusesOct30close. Retainthatpairedsnapshot; do notreplaceonlyriskfree withNov4rateandclaimfullyupdatedERP."
+    }
+  },
+  "peer_evidence": {
+    "selection": "Manufacturing check usesTSM,GFS,UMC,TXN,STM,ON,ADI,MCHP. AMD separatelytestsCPU-designexposure. Intel excludedfrompeergroup. Exclude memoryandsemiconductorequipment fromcoremanufacturinggroup; no claimgroupisuniquematch.",
+    "business_fit": [
+      {
+        "group": "TSM",
+        "meaning": "Leading-edgepureplayfoundry, strongestmanufacturingcomparison; largeestablished profitablefranchise withdifferentcustomerandgeographicrisk."
+      },
+      {
+        "group": "GFS andUMC",
+        "meaning": "Specialty/maturenodefoundries, notleading-edgeCPU fabs. Usefulfixed-assetcomparison, imperfecttechnologyandmarginmatch."
+      },
+      {
+        "group": "TXN STM ON ADI MCHP",
+        "meaning": "Analog,power,embeddedIDM/hybridbusinesses. Usefulcyclicalfabricationcomparison butdifferentendmarkets,nodeobsolescence,andmanufacturingsourcing. ADIhybridstrategycanreducefixedmanufacturingrisk."
+      },
+      {
+        "group": "AMD",
+        "meaning": "ClosestlistedCPU-designcompetitor; fablessAI/designexposure differsfromIntelassetbase. Do not equateits beta withIntel withoutbusinessvaluationweights."
+      }
+    ],
+    "vendor_snapshot": "StockAnalysisNov4statisticslabelsBeta(5Y) andcreditsS&PGlobalforstatistics. Exactfield-levelbenchmark/frequency not independentlyverified. Samevendorbetas arecrosscheck, notmatchedregressionproof.",
+    "matched_price_data": "YahooFinance adjustedcloses, USDUSlistedsecurities; SPYbenchmark. RawJSONsaved. MonthlyNov2021\u2013Oct2026:60completedreturns. Weekly260completedweeks throughOct30. Daily1257returns throughNov4. OLSintercept included; no riskfreereturnsubtraction.",
+    "primary_8peer_results": {
+      "fiveyear_weekly": {
+        "raw_equity_beta": 1.3970962500968598,
+        "HC3_SE": 0.10121307584116786,
+        "cash_corrected_asset_beta_current_capital": 1.4635341748519506,
+        "rate_at_corrected_NYU_pair": 0.11394185711097102
+      },
+      "fiveyear_daily": {
+        "raw_equity_beta": 1.5917472942807345,
+        "HC3_SE": 0.04254471521675763,
+        "cash_corrected_asset_beta_current_capital": 1.667441711869509,
+        "rate_at_corrected_NYU_pair": 0.12293417949344534
+      },
+      "fiveyear_monthly": {
+        "raw_equity_beta": 1.687083067651956,
+        "HC3_SE": 0.2729735416502173,
+        "cash_corrected_asset_beta_current_capital": 1.7673111105634427,
+        "rate_at_corrected_NYU_pair": 0.12733841997584783
+      },
+      "monthly_mechanical_shrinkage_control": {
+        "method": "2/3rawpeer-equitybeta+1/3, thenunlever/cashcorrect. Diagnosticnotcalibratedforecast.",
+        "asset_beta": 1.527392171454073,
+        "rate": 0.11675799476112463
+      }
+    },
+    "cash_and_debt_method": "Average regressionbetas first usingequalweights, unleverwithmedianD/E, common25%marginaltax, then divideby1-medianCash/(marketEquity+Debt). Check15\u201335%marginaltax andaggregatecapital ratios. Bookdebt,currentcash andcurrentmarketvalues areapproximations; nothistoricallymatchedcapitalstructure.",
+    "GFS_cash_reconciliation": {
+      "primary_url": "https://investors.gf.com/node/11351/pdf",
+      "cash_B": 0.997,
+      "current_marketable_securities_B": 1.258,
+      "noncurrent_marketable_securities_B": 0.957,
+      "total_cash_and_securities_B": 3.212,
+      "vendor_current_cash_securities_B": 2.26,
+      "reason": "Vendorheadline cash omits noncurrentsecurities. Correctedcash3.212 usedin groupdiagnostics. Vendor1.66debt includes1.136borrowings+.524leaseobligations, so debtdefinitiondiffersfromstrictborrowings."
+    },
+    "core_limitations": [
+      "Allpeers profitablemarketlistedbusinesses have imperfectIntelbusinessfit; no directmarketvalueweights forIntelCPUdesignversusmanufacturing can beobserved. Do notweightintersegmentrevenueasindependentbusinessvalue.",
+      "Portfolio standarderrors preservecross-firmresidualcorrelation; do notassume8peers reduceuncertainty bysqrt8 independently.",
+      "HC3intervals addressconditionalhistoricalregressionnoise, notfuturebetauncertainty orserialcorrelation. Theyare notconfidenceintervals forInteltrueforwardassetbeta.",
+      "Frequencyandwindowchangeestimates. No cherry-pickedobservations removedfromprimaryregressions.",
+      "Cash treatedbeta0 anddebtbeta0; marketvalueofdebt notestimated. TaxshieldandAPVconventions mustremainconsistent withfrozencashmodel.",
+      "Selection supportsbeta1.5 asjudgment; doesnotprove a lowerbound abovequote-impliedbeta1.188 ormarketmispricing."
+    ]
+  },
+  "hedge_evidence": {
+    "INTC_SPY_daily_betas": {
+      "fiveyear": 1.6215991817118156,
+      "twoyear": 2.048904550199502,
+      "oneyear": 3.2883863726285383,
+      "63day": 4.399949037280788
+    },
+    "INTC_SPY_weekly_betas": {
+      "fiveyear": 1.6273918286978386,
+      "twoyear": 2.104673572011015,
+      "oneyear": 3.7314801402836455,
+      "13week": 4.671932912909622
+    },
+    "INTC_SPY_monthly_beta_5year": 2.4185341937923077,
+    "INTC_SPY_monthly_HC3_SE_5year": 0.8533593996197003,
+    "influence_check": {
+      "April2026_INTC_return": 1.140947225700323,
+      "April2026_SPY_return": 0.10505264083288113,
+      "INTC_monthly_beta_without_April2026": 1.6326235486999894,
+      "meaning": "Illustratesestimationfragility, notjustificationforexcludingthemonth."
+    },
+    "suggested_diagnostic_equity_hedge_ratios": [
+      1,
+      1.5,
+      2,
+      2.5,
+      3.5
+    ],
+    "ratio_meaning": "ShowbroadillustrativerangeifrootbuildsbenchmarkrelativePnL. Neitherassetbeta1.5norhistoricalregression2.43 isuniquevalidhedge.1.0islowcaseand3.5recenthigher-risksensitivity; notvalidatedbounds. Expectedbenchmarkreturnandfinancing/collateralassumptionsmustbeseparate.",
+    "economic_beta_conversion_only": {
+      "Intel_market_equity_B": 309.76,
+      "primary_cash_and_ST_B": 54.005,
+      "primary_debt_B": 50.134,
+      "common_tax_assumption": 0.25,
+      "asset_to_equity_beta_factor_under_simplecash_Hamada": 0.9531129030656572,
+      "asset_beta1_5_to_equitybeta": 1.4296693545984858,
+      "warning": "Simplifiedcurrentbalance diagnostic, excludesexplicitbetasofnonoperatingholdings andfuturecapitalstructurechanges; notempiricalhedgeratio."
+    }
+  },
+  "counterevidence": [
+    {
+      "source": "KPMG2026CostofCapitalStudy",
+      "url": "https://kpmg.com/ch/en/insights/deals/cost-capital-study.html",
+      "finding": "DACHtechnologysurveyWACC9.4%,leveredbeta1.14; lowerthanourrate.",
+      "assessment": "Notdrop-inUSDunleveredIntelrate: mixedtechnologyfirms,currencies/localriskfree,riskpremia,financing,andaccountingvaluationpurpose. Shows lowratesexistwithoutprovingIntel12wrong."
+    },
+    {
+      "source": "EuropeanCommissionChipsAct2impactassessmentcitingDecision/YoleNov2025",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CONSIL%3AST_10094_2026_ADD_4",
+      "finding": "QuotesUSsemiconductormanufacturerWACC7.3%.",
+      "assessment": "UnderlyingNovember2025inputconstructionnotretrieved; WACC/assetrate/datecurrencypeercompositionnotmatched. Retainascounterevidencenotcalibratedreplacement; no claimallmanufacturersmusthave12%."
+    },
+    {
+      "source": "SameNYUmonthlyERPmethods",
+      "finding": "Atbeta1.5 normalizedERP3.39%implies10.025%,plainT12ERP3.7943%implies10.6315%,sustainablepayout4.41%implies11.555%.",
+      "assessment": "Theprice-implied10.178% cancorrespond toassetbeta1.545 undernormalizedERP,1.382underplainT12ERP,or1.188underchosenadjustedpayoutERP. Callingmarketunreasonablysafer dependsontheERPframework, notjustobservablebetas."
+    }
+  ],
+  "sources": [
+    {
+      "type": "primary_methodology",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/TenQs/TenQsBottomupBetas.htm",
+      "use": "Averagebeforeunlever,simplepeerweights,median/aggregateD/E,marginaltax,cashadjustment,businessvalueweights."
+    },
+    {
+      "type": "primary_methodology",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/AppldCF/derivn/ch4deriv.html",
+      "use": "Historicalbetasreflectpastbusiness/capitalmix; frequencyandwindowmatter."
+    },
+    {
+      "type": "primary_vendor_guidance",
+      "url": "https://www.kroll.com/en/publications/valuation/kroll-assesses-effect-us-monetary-fiscal-policies",
+      "use": "September8guidance,effectiveSeptember2:ERP5.0pairedspot20yearTreasury."
+    },
+    {
+      "type": "primary_vendor_method",
+      "url": "https://help.yahoo.com/kb/SLN28256.html",
+      "use": "Adjustedclose includesapplicablesplit/dividendadjustments."
+    },
+    {
+      "type": "vendor_statistics",
+      "url": "https://stockanalysis.com/data-sources/",
+      "use": "Data provenancewithfieldmethodologylimitations."
+    },
+    {
+      "type": "primary_company",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+      "use": "TSMCbusiness/technologycontext."
+    },
+    {
+      "type": "primary_company",
+      "url": "https://www.analog.com/en/who-we-are/resilient-hybrid-manufacturing.html",
+      "use": "ADIhybridmanufacturing ratherthanuniformIDM."
+    },
+    {
+      "type": "primary_company",
+      "url": "https://investor.ti.com/static-files/8c327c57-cd94-439d-a276-ef7cffcdc438",
+      "use": "TI300mm,maturenodes28\u2013130nm,ownmanufacturingcontext."
+    },
+    {
+      "type": "primary_company",
+      "url": "https://investors.gf.com/news-releases/news-release-details/globalfoundries-reshapes-technology-portfolio-intensify-focus",
+      "use": "GFS exited7nmleading-edgeprogram in2018."
+    },
+    {
+      "type": "primary_company",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "use": "Intel54.005Bcash/STand50.134Bdebt; do not useunreconciledvendor4.18Bnetcash."
+    }
+  ],
+  "review_conclusion": "Externalriskwork improvesdefensibility andfinds arealinputerror. It supportsroughly11.5% asretainedmethodcentral and12%asreasonablecontrol, but doesnotestablishstockalpha or90%winningconfidence. Strongestthesismustsurviveopenframeworkuncertainty instead ofclaiminga preciselyproven12% hurdle.",
+  "supporting_files": [
+    "beta_influence_diagnostic.json",
+    "matched_peer_daily_weekly_beta_diagnostic.json",
+    "matched_monthly_equity_beta_diagnostic.json",
+    "intel_weekly_hedge_beta_diagnostic.json",
+    "matched_peer_portfolio_beta_diagnostic.json",
+    "erp_formula_reconstruction.json",
+    "paired_macro_rate_audit.json",
+    "peer_risk_group_diagnostic.json",
+    "peer_risk_vendor_snapshot.json",
+    "intel_hedge_beta_diagnostic.json"
+  ]
+}

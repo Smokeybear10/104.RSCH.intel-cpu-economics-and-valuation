@@ -1,0 +1,54 @@
+{
+  "selected_utc": "2026-11-06T07:01:49.498194+00:00",
+  "chronology": "Root requested these favorable scenarios and cash conventions after seeing the prior revenue-only anchor grid. This file precedes the dependent favorable cash/output computation. It is not a blind forecast and no favorable equity target is sought.",
+  "source_boundary": "DCAI17% is an illustrative favorable interpretation at the upper edge of mid-teens guidance; CCPG-21% satisfies greater-than20% decline. OtherDCAI25% is faster thanDCAI but remains a broad residual assumption, not a purpose-built-silicon guide.",
+  "cases": {
+    "client_anchor": {
+      "CCPG_QoQ": -0.21,
+      "DCAI_QoQ": 0.15,
+      "Other_DCAI_QoQ": 0.35
+    },
+    "DCAI_growth_anchor": {
+      "CCPG_QoQ": -0.25,
+      "DCAI_QoQ": 0.17,
+      "Other_DCAI_QoQ": 0.35
+    },
+    "Other_DCAI_mix_anchor": {
+      "CCPG_QoQ": -0.25,
+      "DCAI_QoQ": 0.15,
+      "Other_DCAI_QoQ": 0.25
+    },
+    "server_anchor_joint": {
+      "CCPG_QoQ": -0.25,
+      "DCAI_QoQ": 0.17,
+      "Other_DCAI_QoQ": 0.25
+    },
+    "joint_favorable": {
+      "CCPG_QoQ": -0.21,
+      "DCAI_QoQ": 0.17,
+      "Other_DCAI_QoQ": 0.25
+    }
+  },
+  "Q3_anchors": {
+    "CCPG_B": 8.097,
+    "DCAI_B": 7.318,
+    "Other_DCAI_B": 1.4,
+    "Other_CCPG_B": 1.197
+  },
+  "YTD2026_bases": {
+    "CPU_B": 15.332,
+    "client_B": 21.3,
+    "Other_DCAI_B": 3.3
+  },
+  "Q4_cash_convention": {
+    "group_profit_response_to_net_consolidated_sales_delta": 0.5,
+    "tax_rate_on_incremental_profit": 0.15,
+    "incremental_WC_as_fraction_of_incremental_sales": 0.1,
+    "cash_formula": "IncrementalCFO = salesdelta*profitresponse*(1-taxrate) - salesdelta*WCfraction. No capex,credit,insurance or financing change. Opening2027economiccash changes by same amount.",
+    "caution": "Analyst convention, not quarter-specific guidance. OtherDCAI reclassification at unchangedDCAItotal gives noQ4profitwindfall."
+  },
+  "future_path": "Keep all selected2027\u201330quarterlyunit/ASPindices. ScaleCPU andclient dollar revenue by respective revisedQ4anchor/originalQ4anchor. RecomputeOtherDCAI2026base as unchangedYTD3.3+newQ4Other, then apply existingannualgrowth60/30/20/15%. OtherCCPGunchanged.",
+  "guidance_check": "Compare revisedQ4consolidatedrevenue with15\u201316Bcompanyrange using unchangedAllOtherexternal0.695 andexternalFoundry0.2335; do notfitto15.5midpoint.",
+  "selection_assessment": "Preferred lowerforecast is a coherent planningcase, not uniquely established bypublicevidence. Favorableanchors are also consistent withqualitativeguidance. OnlyreportedQ4resultsandcomponentmixcanresolvewhichanchorwascloser.",
+  "equity_scope": "Root integratesvaluation andfuturecash. This workstream produces onlyoperatingdata andopeningcashdelta."
+}

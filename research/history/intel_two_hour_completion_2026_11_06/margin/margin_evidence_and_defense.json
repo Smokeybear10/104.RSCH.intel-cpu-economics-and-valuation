@@ -1,0 +1,91 @@
+{
+  "review_date": "2026-11-06",
+  "verdict": "The current product recovery is real; its duration is not established. The new policy can be defended as an explicit forecast with measurable hurdles, rather than a claim that40% blended DCAI margin has been proven. No primary source identifies2031–40 Intel CPU growth.",
+  "evidence": [
+    {
+      "id": "2026_product_recovery",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "MD&A33–35; Note2",
+      "facts": "YTD DCAI profit rose4.883B, attributed approximately4.5B to product profit and403M to lower period charges. Q3 server ASP rose54% and units10%; richer product mix supplied most of the ASP gain. Foundry's468M Q3 profit improvement included793M lower period charges, offset by219M higher operating expenses and106M lower product profit. Internal manufacturing prices approximate market transactions; group accounts eliminate internal activity.",
+      "inference": "This is positive evidence that improved product sales now matter more than disappearing DCAI charges. It does not identify same-product pricing, standalone CPU margin, or physical manufacturing profit by customer. Foundry remains a separate economic hurdle."
+    },
+    {
+      "id": "history_and_cost_commitment",
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "MD&A22–25; business6; capital discussion",
+      "facts": "2025 DCAI profit improvement was supported by1.5B lower operating expenses; higher revenue was substantially offset by higher server unit costs. Server ASP declined4% amid competition and product mix, while units rose9%. Construction in progress was34.5B at year-end and will start depreciating as placed in service. DCAI includes CPUs, accelerators, NICs, IPUs and custom ASICs.",
+      "inference": "Through-cycle pricing pressure and cost burden are observed risks. Other DCAI is broader than custom silicon. R&D cuts are not an unlimited recurring source of future incremental profit."
+    },
+    {
+      "id": "2026_operating_context",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_ae41de1e3c92a2d70014908a6d92f612/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "CEOpage2; CFOpages5–7",
+      "facts": "Purpose-built silicon tripled over the prior three years; management anticipates another tripling over an unspecified next few years. Q3 growth exceeded50% sequentially and100% annually. Q4 purpose-built mix hurts gross margin. Intel3 cost declined approximately15% and18A approximately40% fromQ1. Management forecasts industry server units above30% growth in2026 and2027, and sees continued shortages into2028. It forecasts NCI about1.1B in2027 and2028.",
+      "inference": "There is real demand and manufacturing learning, but no disclosed absolute purpose-built revenue, profitability, or2031–40 CPU path. Prior cost improvements cannot be credited again as fresh future savings. A lower gross margin does not itself establish lower operating margin."
+    },
+    {
+      "id": "incremental_gp_rule",
+      "url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
+      "supporting_transcript": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/",
+      "locator": "CFOQ&A47:19",
+      "facts": "CFO discusses40–60% fall-through in the context of2027 annual growth versus2026 and distinguishes yearly trends from quarterly mix/loading patterns.",
+      "inference": "Use50% total-group gross-profit response as a broad center. With scenario operating expenses fixed, deltaEBIT equals deltaGP. It is not a measured CPU-only unit elasticity, and it does not imply only50% profit loss from a pure price cut."
+    },
+    {
+      "id": "marvell_margin_counterexample",
+      "url": "https://investor.marvell.com/_assets/_da667c3a8a3190ba2b293219dc0fb94d/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf",
+      "locator": "FY2026 non-GAAP financial summary",
+      "facts": "Marvell'sFY2026 non-GAAP gross margin fell from61.0% to59.5%, while non-GAAP operating margin rose from28.9% to35.3%; operating expenses grew7% against42% revenue growth.",
+      "inference": "Lower gross margin can coexist with stronger operating margin through scale. This refutes treating Intel's purpose-built gross-margin warning as proof of20% operating margin. Marvell's mix, customer contracts, SBC exclusions and outsourced manufacturing differ; its margin is not imported into Intel."
+    },
+    {
+      "id": "buyer_has_multiple_paths",
+      "url": "https://docs.cloud.google.com/compute/docs/general-purpose-machines",
+      "locator": "C4,C4D,C4A descriptions",
+      "facts": "Google currently offers C4 on Intel Granite/Emerald Rapids, C4D on AMD Turin, and C4A on its Arm-based Axion.",
+      "inference": "An existing Intel relationship does not imply exclusive procurement or guaranteed renewal economics. This is product availability, not a measured redistribution of Google CPU spending."
+    },
+    {
+      "id": "new_competing_capacity",
+      "url": "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd/",
+      "facts": "Microsoft announced Azure HDv2 and HXv2 using sixth-generation AMD EPYC for agentic/data workloads and technical computing.",
+      "inference": "The same new workloads supporting Intel demand have an active alternative supplier. Announcement and planned deployments do not identify actual unit volume or the price Intel must charge."
+    },
+    {
+      "id": "graviton_current_generation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-c9g-c9gd-instances-graviton5-processors-available/",
+      "facts": "AWS announced general availability of Graviton5 C9g/C9gd inJune2026.",
+      "inference": "Arm competition is a shipped current-generation offering, not solely a hypothetical long-term risk. Availability does not establish broad superiority or Intel customer economics."
+    }
+  ],
+  "positive_margin_case": {
+    "product_mix": "Premium platforms deliver more compute and differentiated features per socket; management says mix, not only scarcity pricing, dominates ASP gains. Therefore not every dollar of the current ASP step-up must disappear when shortages ease.",
+    "manufacturing": "Observed yield/cycle-time improvements make future lower physical cost plausible, but a new-node roadmap also creates new ramp costs. Keep current gains in the earnings base; require separate evidence for additional cost reductions.",
+    "cost_discipline": "Lower product operating expenses have already supported the recovery. Retain the reduced expense base but do not assume another matching wave of cuts. Higher sales can spread development expense, offset by continuing roadmap investment.",
+    "selection": "Prefer the fullYTD CPU residual41.71% with Other20%, not the highestQ3 residual46.62%. The selected CPU margin is3.20pp below pooledQ2/Q3. It preserves substantial platform improvement and gives back some recent profitability. This is analyst judgment; the observations do not prove the duration.",
+    "price_cost_hurdle": "Relative to pooledQ2/Q3, maintaining the selected CPU margin after a5% same-mix price decline needs approximately flat all-in product cost per unit; after10% price decline it needs4.77% lower cost, and after15% price decline it needs10.06% lower cost. These are conditional hurdles, not forecasts of physical wafer cost. Any internal transfer-price cost reduction must be canceled in Foundry.",
+    "group_boundary": "DCAI margin alone is insufficient. The consolidated case must also carry physical depreciation, Foundry process development, corporate/SBC and minority cash claims once. The forecast Foundry turnaround is not established by product-margin algebra."
+  },
+  "other_growth_policy_defense": {
+    "2027": "The8.304B forecast is60% above the5.19B2026 estimate but only9.84% above four times the1.89BQ4 estimate. This makes carryover explicit, without pretendingQ4 is actual or all revenue is contracted.",
+    "2028_2030": "30/20/15% is an analyst fade of the aggregate business, producing2.8704x2026 by2030. It is not a transcription of the purpose-built triple statement.",
+    "scope_hurdle": "If custom merely triples by2030 and everything else grows3%, even the preferred aggregate factor requires93.1% custom share initially. That share is not disclosed. A smaller custom share requires faster custom growth, better legacy growth or a shorter tripling timeline. The old3.36x requires more than a literal triple even if allOther were custom.",
+    "interpretation": "The revised path remains optimistic, despite being lower than the old forecast. It should be challenged with custom contribution, shipment timing and customer acceptance, not labeled proven or conservative."
+  },
+  "source_to_model_map": [
+    {"cost_or_profit": "Revenue per CPU", "observed": "OverallASP and management qualitative mix/pricing explanation", "model": "QuarterlyASP index", "unidentified": "Same-SKU netprice, rebates, customerLTA coverage"},
+    {"cost_or_profit": "Physical factory cost", "observed": "Node cost improvements, Foundry combinedexpense and periodcharges", "model": "Totalgroup50% near-term response and explicitFoundry profit allowance", "unidentified": "MarginalCPU die cost, exactfixed/variablecostsplit, yieldsbySKU"},
+    {"cost_or_profit": "Product R&D/opex", "observed": "Segment includesdirect/allocatedexpense; groupR&Dreported", "model": "Included insegment margins; fixed in near-term response", "unidentified": "CPU-onlyR&Dand customerprogramamortization"},
+    {"cost_or_profit": "SBC", "observed": "Corporate/unallocatedratherthansegmentcost", "model": "Keep corporateeconomicSBConce", "unidentified": "Futuregrantvolume and stockprice"},
+    {"cost_or_profit": "NCI", "observed": "Management2027/28expectation and SCIPagreements", "model": "Deduct parentcashclaimafter groupoperatingprofit", "unidentified": "Fullfuturefactoryownershipcashprofile"},
+    {"cost_or_profit": "Periodcharge comparisons", "observed": "Gaudiinventory, impairment, reservedsellthroughandnodecostchanges", "model": "Currentlevelalreadyincorporated; no repeatincrement", "unidentified": "Recurring portionofnewfutureperiodcharges"}
+  ],
+  "what_future_data_can_test": [
+    "Actual2027 quarterly CPUrevenue and price/volume disclosures against the explicit quarterly path; annualunitdecomposition remains conditional until more precise historicallevels are disclosed.",
+    "CombinedProducts+Foundry profit and actualconsolidatedgrossprofit rather than DCAImarginalone; check whether productimprovement survivesmanufacturingcosts.",
+    "DCAIproductprofit attribution and recurringopex versus reserve/impairment comparisons; a reserve reversal is not evidence of durable customerpricingpower.",
+    "NamedLTA renewals, coverage,minimums and costpass-through if disclosed; three-to-five-year contractdurations do not prove2031–40economics.",
+    "Purpose-built revenue scope, explicitabsoluteamounts, program acceptance and contributionmargin; the presentgenerictriplestatement is insufficient to identifybroadOther.",
+    "Capital placedinservice, depreciation andminoritypayments versusproductshipments; higherreportedmarginswithout parentcashconversion would weaken the thesis."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "prepared_utc": "2026-11-05T22:58:28.259037+00:00",
+  "purpose": "Reconcile the current selected manufacturing-recovery hurdle to the older unchanged Foundry policy diagnostic. No extra cash saving or equity valuation is added.",
+  "rows": [
+    {
+      "year": 2027,
+      "selected_host_Foundry_operating_profit_B": -4.0,
+      "host_total_DA_B": 14.0,
+      "change_in_Foundry_profit_B": 4.5,
+      "change_in_total_DA_B": 1.0719999999999992,
+      "required_pre_DA_operating_improvement_if_all_incremental_DA_in_Foundry_B": 5.571999999999999
+    },
+    {
+      "year": 2028,
+      "selected_host_Foundry_operating_profit_B": -0.75,
+      "host_total_DA_B": 16.5,
+      "change_in_Foundry_profit_B": 3.25,
+      "change_in_total_DA_B": 2.5,
+      "required_pre_DA_operating_improvement_if_all_incremental_DA_in_Foundry_B": 5.75
+    },
+    {
+      "year": 2029,
+      "selected_host_Foundry_operating_profit_B": 1.0,
+      "host_total_DA_B": 19.0625,
+      "change_in_Foundry_profit_B": 1.75,
+      "change_in_total_DA_B": 2.5625,
+      "required_pre_DA_operating_improvement_if_all_incremental_DA_in_Foundry_B": 4.3125
+    },
+    {
+      "year": 2030,
+      "selected_host_Foundry_operating_profit_B": 2.5,
+      "host_total_DA_B": 21.1875,
+      "change_in_Foundry_profit_B": 1.5,
+      "change_in_total_DA_B": 2.125,
+      "required_pre_DA_operating_improvement_if_all_incremental_DA_in_Foundry_B": 3.625
+    }
+  ],
+  "2026_baseline": {
+    "owned_Foundry_operating_profit_B": -8.5,
+    "annualized_Q3_total_DA_B": 12.928,
+    "status": "Q4 Foundry loss2.1B is owned;12.928B is annualized Q3 depreciation plus amortization, not full-year actual."
+  },
+  "interpretation": [
+    "This is a $19.2595B increase in the annual level of operating contribution before depreciation from the 2026 anchor to 2030, after ongoing manufacturing/process expenses. It is not $19B of cumulative cash flow and not $19B of cost cuts. Additional revenue and volume absorption can produce much of it.",
+    "The public source does not disclose how much normalized D&A belongs to each segment. Attributing all growth to Foundry is an explicit diagnostic, not observed segment EBITDA. Incremental external-packaging D&A/profit is excluded because it is independently funded and modeled.",
+    "A consistent internal-transfer convention is essential: any manufacturing improvement credited to Foundry cannot also be added as a new Products wafer-cost saving.",
+    "The lack of a complete Foundry revenue/wafer-cost bridge means node milestones and the total cash-capex allowance do not independently validate this dollar contribution hurdle."
+  ],
+  "source": "Selected intel_server_ASP_mix_operating_policy.json annual rows; original foundry_operating_policy.json DA_cash_consistency and Q3 primary disclosures",
+  "increase_in_annual_pre_DA_contribution_from_2026_anchor_to_2030_B": 19.2595
+}

@@ -1,0 +1,225 @@
+{
+  "computed_utc": "2026-11-06T07:16:44.839816+00:00",
+  "engine_sha256": "98366c147368965f1c9f445f8c9366f740c17e1152312cb3349816c94b377526",
+  "independent_operating_comparisons": 80,
+  "maximum_difference_B": 1.4210854715202004e-14,
+  "margin_growth_bracket": [
+    {
+      "margin_anchor": "YTD2026_selected",
+      "mature_CPU_margin": 0.4171014870858335,
+      "CPU_growth_path": "2pct_units_2pct_ASP",
+      "planning_value_USD": 35.40465307548003,
+      "target2030_USD": 53.42933483948493,
+      "annual_price_return": 0.0053884915192619065,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.3544009892381092,
+      "Foundry_profit2040_B": 3.841935930759028
+    },
+    {
+      "margin_anchor": "YTD2026_selected",
+      "mature_CPU_margin": 0.4171014870858335,
+      "CPU_growth_path": "prior_fading_unit_growth",
+      "planning_value_USD": 38.82111453892024,
+      "target2030_USD": 58.72027303594412,
+      "annual_price_return": 0.028507657229390304,
+      "CPU_revenue2040_B": 89.69586468479429,
+      "DCAI_margin2040": 0.36255565227784425,
+      "Foundry_profit2040_B": 4.2414968407032285
+    },
+    {
+      "margin_anchor": "Q2Q3_pooled",
+      "mature_CPU_margin": 0.4490871849674949,
+      "CPU_growth_path": "2pct_units_2pct_ASP",
+      "planning_value_USD": 36.85085305070596,
+      "target2030_USD": 55.66900731070203,
+      "annual_price_return": 0.015378011538206282,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.3771489835549205,
+      "Foundry_profit2040_B": 3.841935930759028
+    },
+    {
+      "margin_anchor": "Q2Q3_pooled",
+      "mature_CPU_margin": 0.4490871849674949,
+      "CPU_growth_path": "prior_fading_unit_growth",
+      "planning_value_USD": 40.567525401476416,
+      "target2030_USD": 61.42487018661865,
+      "annual_price_return": 0.03971927598189562,
+      "CPU_revenue2040_B": 89.69586468479429,
+      "DCAI_margin2040": 0.38650507820075314,
+      "Foundry_profit2040_B": 4.2414968407032285
+    },
+    {
+      "margin_anchor": "Q3_only",
+      "mature_CPU_margin": 0.4662047989185537,
+      "CPU_growth_path": "2pct_units_2pct_ASP",
+      "planning_value_USD": 37.6248081153582,
+      "target2030_USD": 56.867600784602416,
+      "annual_price_return": 0.02059922103202072,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.3893229053594939,
+      "Foundry_profit2040_B": 3.841935930759028
+    },
+    {
+      "margin_anchor": "Q3_only",
+      "mature_CPU_margin": 0.4662047989185537,
+      "CPU_growth_path": "prior_fading_unit_growth",
+      "planning_value_USD": 41.5021427124938,
+      "target2030_USD": 62.87227490136535,
+      "annual_price_return": 0.04556606545748454,
+      "CPU_revenue2040_B": 89.69586468479429,
+      "DCAI_margin2040": 0.3993219636979703,
+      "Foundry_profit2040_B": 4.2414968407032285
+    }
+  ],
+  "allocation_sensitivity_not_new_profit_scenario": [
+    {
+      "Other_margin": 0.1,
+      "CPU_margin_inferred_to_reconcile_same_YTDprofit": 0.43862509783459425,
+      "planning_value_USD": 34.55218267371573,
+      "target2030_USD": 52.10914778094163,
+      "annual_price_return": -0.0006497210678491072,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.34082769210070757,
+      "Foundry_profit2040_B": 3.841935930759028
+    },
+    {
+      "Other_margin": 0.2,
+      "CPU_margin_inferred_to_reconcile_same_YTDprofit": 0.4171014870858335,
+      "planning_value_USD": 35.40465307548003,
+      "target2030_USD": 53.42933483948493,
+      "annual_price_return": 0.0053884915192619065,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.3544009892381092,
+      "Foundry_profit2040_B": 3.841935930759028
+    },
+    {
+      "Other_margin": 0.3,
+      "CPU_margin_inferred_to_reconcile_same_YTDprofit": 0.39557787633707275,
+      "planning_value_USD": 36.25712347724432,
+      "target2030_USD": 54.749521898028206,
+      "annual_price_return": 0.011314468699995084,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.3679742863755108,
+      "Foundry_profit2040_B": 3.841935930759028
+    }
+  ],
+  "foundry_sensitivity": [
+    {
+      "Foundry_profit_to_Products_revenue_target": 0,
+      "planning_value_USD": 33.055100418086276,
+      "target2030_USD": 49.790675942662766,
+      "annual_price_return": -0.011540987053901386,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.3544009892381092,
+      "Foundry_profit2040_B": 0.0
+    },
+    {
+      "Foundry_profit_to_Products_revenue_target": 0.03,
+      "planning_value_USD": 35.803574329744826,
+      "target2030_USD": 54.04712834430137,
+      "annual_price_return": 0.008175283235654529,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.3544009892381092,
+      "Foundry_profit2040_B": 4.494243039297494
+    }
+  ],
+  "forty_percent_DCAI_hypothesis_hurdles": [
+    {
+      "CPU_growth_path": "2pct_units_2pct_ASP",
+      "Other_share2040": 0.28880731628952383,
+      "Other_margin": 0.1,
+      "CPU_margin_required_for40pct_DCAI2040": 0.5218266116501964,
+      "extra_CPU_margin_vs_Q3_residual_at_same_Other_allocation": 0.03196517197463028,
+      "planning_value_USD": 38.31405235884994,
+      "target2030_USD": 57.935005973744516,
+      "annual_price_return": 0.02517908483035436,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.39999999999999997,
+      "Foundry_profit2040_B": 3.841935930759028
+    },
+    {
+      "CPU_growth_path": "2pct_units_2pct_ASP",
+      "Other_share2040": 0.28880731628952383,
+      "Other_margin": 0.2,
+      "CPU_margin_required_for40pct_DCAI2040": 0.481217741100131,
+      "extra_CPU_margin_vs_Q3_residual_at_same_Other_allocation": 0.015012942181577282,
+      "planning_value_USD": 38.30360264069239,
+      "target2030_USD": 57.91882291020535,
+      "annual_price_return": 0.025110129138333992,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.4,
+      "Foundry_profit2040_B": 3.841935930759028
+    },
+    {
+      "CPU_growth_path": "2pct_units_2pct_ASP",
+      "Other_share2040": 0.28880731628952383,
+      "Other_margin": 0.3,
+      "CPU_margin_required_for40pct_DCAI2040": 0.4406088705500655,
+      "extra_CPU_margin_vs_Q3_residual_at_same_Other_allocation": -0.0019392876114756596,
+      "planning_value_USD": 38.29315292253484,
+      "target2030_USD": 57.902639846666155,
+      "annual_price_return": 0.025041158816801135,
+      "CPU_revenue2040_B": 74.11583879285354,
+      "DCAI_margin2040": 0.39999999999999997,
+      "Foundry_profit2040_B": 3.841935930759028
+    },
+    {
+      "CPU_growth_path": "prior_fading_unit_growth",
+      "Other_share2040": 0.25124579080577153,
+      "Other_margin": 0.1,
+      "CPU_margin_required_for40pct_DCAI2040": 0.5006655272400337,
+      "extra_CPU_margin_vs_Q3_residual_at_same_Other_allocation": 0.010804087564467546,
+      "planning_value_USD": 41.558051582243166,
+      "target2030_USD": 62.95885874773486,
+      "annual_price_return": 0.04591256838339586,
+      "CPU_revenue2040_B": 89.69586468479429,
+      "DCAI_margin2040": 0.39999999999999997,
+      "Foundry_profit2040_B": 4.2414968407032285
+    },
+    {
+      "CPU_growth_path": "prior_fading_unit_growth",
+      "Other_share2040": 0.25124579080577153,
+      "Other_margin": 0.2,
+      "CPU_margin_required_for40pct_DCAI2040": 0.4671103514933557,
+      "extra_CPU_margin_vs_Q3_residual_at_same_Other_allocation": 0.0009055525748020155,
+      "planning_value_USD": 41.551585649743465,
+      "target2030_USD": 62.94884521484287,
+      "annual_price_return": 0.04587251338391063,
+      "CPU_revenue2040_B": 89.69586468479429,
+      "DCAI_margin2040": 0.39999999999999997,
+      "Foundry_profit2040_B": 4.2414968407032285
+    },
+    {
+      "CPU_growth_path": "prior_fading_unit_growth",
+      "Other_share2040": 0.25124579080577153,
+      "Other_margin": 0.3,
+      "CPU_margin_required_for40pct_DCAI2040": 0.43355517574667785,
+      "extra_CPU_margin_vs_Q3_residual_at_same_Other_allocation": -0.008992982414863293,
+      "planning_value_USD": 41.54511971724377,
+      "target2030_USD": 62.93883168195087,
+      "annual_price_return": 0.04583245354654464,
+      "CPU_revenue2040_B": 89.69586468479429,
+      "DCAI_margin2040": 0.39999999999999997,
+      "Foundry_profit2040_B": 4.2414968407032285
+    }
+  ],
+  "remaining_profit_hurdle": {
+    "Q3_2026_annualized_Products_revenue_B": 61.66,
+    "Q3_2026_annualized_Products_plus_Foundry_profit_B": 13.884,
+    "2030_Products_revenue_B": 97.48217045378982,
+    "2030_Products_plus_Foundry_profit_B": 36.31654289824213,
+    "incremental_profit_per_incremental_revenue": 0.6262195342736099,
+    "limits": "Q3 annualization is an illustrative level comparator, not a2026 forecast; mix shifts, client changes and manufacturing costs matter. Ratio is not a measured future incremental margin."
+  },
+  "adversarial_findings": [
+    "No duplicated Foundry loss or old post2030 decremental was found in the component case. Independent near-term component arithmetic reproduces integrated values.",
+    "2%units+2%ASP after2030 is a subjective normalization convention. No primary source identifies it, nor the priorfading8%-to1% unitpath. Display the bracket; do not call either measured.",
+    "Using fullYTD rather than Q3 alone is a positive retention judgment plus earnings-cycle allowance, not an empirically identified through-cycle margin. Recent quarter preservation remains a legitimate favorablecase.",
+    "Other20% is not observed. If changing the unknownhistoricalallocation, re-inferCPU margin to reconcile the sameDCAI profit. HoldingCPU fixed and loweringfutureOther margin is a distinct operationalunderperformance stress.",
+    "Lower CPU sales also save future investment under the capital-turnover rule. This benefit is already included; the valuation reduction is not simply lost revenue timesa margin.",
+    "The post2030 proportionaldepreciation schedule is a capital-allocation convention, not a physical retirementforecast. In the engineDA cancels with the replacementcapex base in netinvestment; it is not separately a cashbonus.",
+    "Preferred still assumes a substantial manufacturingturnaround by2030. Loweringthe maturemargin andgrowth does not make every survivingoperating assumption conservative.",
+    "Periodcharge reductions can create a recurring lowercost level, but the same year-over-year improvement cannot be added repeatedly. Currentmargins alreadycontain observedcost gains."
+  ],
+  "policy_status": "Diagnostic only. No policy changed in response to these equity values. This file must not be described as valuation-blind."
+}

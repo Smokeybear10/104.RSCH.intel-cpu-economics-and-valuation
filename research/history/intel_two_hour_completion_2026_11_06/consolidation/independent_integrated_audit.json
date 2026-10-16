@@ -1,0 +1,142 @@
+{
+  "audited_utc": "2026-11-06T06:58:14.864200+00:00",
+  "root_output_computed_utc": "2026-11-06T06:56:04.633489+00:00",
+  "root_output_sha256": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8",
+  "method": "Separate implementation from selected source data; no import or execution of root engine functions. Corporate expense is reconstructed from corporate policy, tax shields from financing policy and the capitalized-interest deduction convention, claims from treasury policy and prior claim reserve. All annual cash and APV values are recalculated.",
+  "source_hashes": {
+    "raw": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "host": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "pack": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb",
+    "prior": "803149f67f03d3399a01f84c177dcc3c0ad3c67bbe72cfac7857d0275120674a",
+    "cpu": "68eeed1be6d59ecc2c18a7370ef5181e1b74d7585b94bea3b9677fb268974cad",
+    "client": "533fb5d3a892f87353327fa408d35b8679e07c8498fd46eb1d53041af808fce9",
+    "quarters": "492e1dd49f2ab206c2ca2c197f54ff9597d2a3a7ca2141050088e384226e1e07",
+    "selected_quarters": "9f1b9d01a2baf6b809eaf1a4cd74307006cf4e7cc779a4bb006897cd162c26b9",
+    "margin": "f83ec1232dd0245f0d001ccb21b044a0bd062d34f2763bc86da8b4698aad89c6",
+    "policy": "98a8ed8512b3dfa3b7b42bddeddc0dd4df64c25b6725531224eeeaa1f31d9fbc",
+    "finance": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea",
+    "corporate": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a",
+    "grant": "fc04a51553a0a31325b0499ae9ebb74b5c222329c7aeb65aff696f2c7573e6fe",
+    "consolidation": "300e4c4691673a3a0d54789659a6a53b8c4f5fcbe85effaddcd04bd13e840468",
+    "treasury_calendar": "ae259a90cdaff2f70c9226b3e790328b23bed9a9cc31b280e78711df96b53a57"
+  },
+  "root_source_hash_mismatches": [],
+  "case_comparisons": [
+    {
+      "case": "prior_frozen",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 2.842170943040401e-14,
+      "independent_planning_value_USD": 51.066594344272275,
+      "independent_target_USD": 77.46147983166226,
+      "independent_minimum_annual_economic_cash_B": 34.74028711691429
+    },
+    {
+      "case": "accounting_completed",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 8.526512829121202e-14,
+      "independent_planning_value_USD": 50.916904257458015,
+      "independent_target_USD": 77.22966073859413,
+      "independent_minimum_annual_economic_cash_B": 34.74028711691429
+    },
+    {
+      "case": "quarterly_delivery_only",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 1.1368683772161603e-13,
+      "independent_planning_value_USD": 43.78391166786072,
+      "independent_target_USD": 66.39932348621777,
+      "independent_minimum_annual_economic_cash_B": 32.11065673278004
+    },
+    {
+      "case": "delivery_and_other_mix",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 5.684341886080802e-14,
+      "independent_planning_value_USD": 43.19745952286981,
+      "independent_target_USD": 65.49774472243737,
+      "independent_minimum_annual_economic_cash_B": 32.05252873278004
+    },
+    {
+      "case": "retained_margin_components",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 5.684341886080802e-14,
+      "independent_planning_value_USD": 38.82111453892024,
+      "independent_target_USD": 58.72027303594412,
+      "independent_minimum_annual_economic_cash_B": 32.05252873278004
+    },
+    {
+      "case": "preferred",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 3.8191672047105385e-14,
+      "independent_planning_value_USD": 35.40465307548003,
+      "independent_target_USD": 53.42933483948493,
+      "independent_minimum_annual_economic_cash_B": 32.05252873278004
+    },
+    {
+      "case": "annual_growth_control",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 3.907985046680551e-14,
+      "independent_planning_value_USD": 36.20704554779614,
+      "independent_target_USD": 54.677394558430784,
+      "independent_minimum_annual_economic_cash_B": 31.816434739125512
+    },
+    {
+      "case": "slower_delivery",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 3.552713678800501e-14,
+      "independent_planning_value_USD": 25.21532019789896,
+      "independent_target_USD": 38.1266916804923,
+      "independent_minimum_annual_economic_cash_B": 25.337581271961568
+    },
+    {
+      "case": "preferred_capital_turnover_060",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 4.440892098500626e-14,
+      "independent_planning_value_USD": 32.96041545077048,
+      "independent_target_USD": 49.644041093839625,
+      "independent_minimum_annual_economic_cash_B": 32.05252873278004
+    },
+    {
+      "case": "preferred_CPU_margin35",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 3.8191672047105385e-14,
+      "independent_planning_value_USD": 32.37072930992125,
+      "independent_target_USD": 48.73081758468284,
+      "independent_minimum_annual_economic_cash_B": 32.05252873278004
+    },
+    {
+      "case": "preferred_Other_margin10",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 4.973799150320701e-14,
+      "independent_planning_value_USD": 33.57901505840237,
+      "independent_target_USD": 50.60204174081266,
+      "independent_minimum_annual_economic_cash_B": 32.05252873278004
+    },
+    {
+      "case": "lost_sales_response75",
+      "numeric_comparisons": 322,
+      "max_absolute_error": 5.684341886080802e-14,
+      "independent_planning_value_USD": 33.615883888156134,
+      "independent_target_USD": 50.7860604920686,
+      "independent_minimum_annual_economic_cash_B": 30.450528234417675
+    }
+  ],
+  "max_absolute_error": 1.1368683772161603e-13,
+  "all_compared_values_match": true,
+  "unreviewed_cases": [],
+  "accounting_conclusions": [
+    "Consolidation includes Products, net All Other, legacy external Foundry and gross new packaging once. Shadow and net packaging are not both added on top of gross sales.",
+    "Existing external services receive no new EBIT. Corporate economic SBC is included once. No second standalone Mobileye SBC deduction appears.",
+    "After 2030, host growth is funded at the selected turnover including working capital, and net incremental packaging is funded separately. D&A is added once and offsets the maintenance component in capex.",
+    "Finite capex and D&A remain unchanged after delivery revisions; working-capital corrections use changes in the annual revenue delta, avoiding repeated deductions of the same stock.",
+    "Grant receivable changes remain inside aggregate operating-capital cash use; there is no extra grant income, capital-tax collection or duplicate asset addition.",
+    "Ordinary and capitalized financing interest are excluded from unlevered operations and deducted once in finite treasury. Debt, escrow shares, acquisition cash and the 1.215B extra claim reserve are not duplicated."
+  ],
+  "limits": [
+    "A consistent cash-flow model is not a complete linked income statement, balance sheet and cash-flow forecast. It does not independently validate capacity, capex sufficiency, future margins, grant eligibility or future receivable recovery.",
+    "Quarterly treasury calendar is complete as a separate input. Root still needs to integrate operating timing and inspect interim economic liquidity; calendar-year aggregate totals cannot prove intrayear access.",
+    "Preferred CPU and client revenue were reconstructed by summing selected quarterly rows, independently of the annual rows consumed by the root engine. The earlier unused-quarter-input issue is resolved in this version.",
+    "The integration policy had a manually estimated timestamp inconsistent with calculation time. Its correction retains the erroneous value and separately records filesystem evidence; exact selection time is not claimed."
+  ],
+  "verification": {
+    "frozen_sources_unchanged_during_audit": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-06T07:16:00.290222+00:00",
+  "scope": "Other-profit sensitivity only; no base forecast replacement and no changes to frozen/root files. Record before computing valuation controls.",
+  "root_results_sha256": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8",
+  "preferred_annual_other_profit_B": 0.7,
+  "controls_annual_other_profit_B": [
+    0.6,
+    0.63,
+    0.7,
+    0.76
+  ],
+  "basis": {
+    "lower_controls": "Rounded 0.4B Mobileye FY2026 adjusted profit midpoint plus annualized YTD non-Mobileye proxy of 0.205\u20130.229B after alternative RSU-grant mapping. Not a forecast probability interval.",
+    "upper_control": "Rounded 0.4B Mobileye midpoint plus Q3 non-Mobileye proxy annualized around 0.36B.",
+    "scope_limit": "Mobileye explicitly says Intel segment reporting can differ for overhead and materiality. These proxies cannot isolate IMS exactly. Current aggregate Other profit offers stronger matched-scope anchoring than the decomposition."
+  },
+  "treatment": {
+    "years_2027_2030": "Replace only the 0.7B aggregate Other operating-profit budget; all revenue, capital, financing and minority reserves unchanged.",
+    "years_2031plus": "Grow profit difference at existing 3% nominal convention; keep terminal rate and discount rate unchanged.",
+    "tax": "Recompute positive-EBIT ordinary operating taxes using each existing annual rate.",
+    "cash": "Difference in 2027\u201330 after-tax operating cash changes 2030 economic cash once; no cash-income feedback, financing draw, grant duplication or additional SBC deduction.",
+    "limits": "Partial profit sensitivity, not a full subsidiary operating model or statistically identified bound. Holding minority reserves fixed is conservative if their claims would fall with profit."
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "input": "F87",
+    "original": 0,
+    "changed": 0.01,
+    "target_before": 82.47015162680006,
+    "target_after": 83.22049150439015,
+    "actuals_unchanged": true
+  },
+  {
+    "input": "G39",
+    "original": 0.25,
+    "changed": 0.26,
+    "target_before": 82.47015162680006,
+    "target_after": 83.05083997820408,
+    "actuals_unchanged": true
+  },
+  {
+    "input": "G40",
+    "original": 0.08,
+    "changed": 0.09,
+    "target_before": 82.47015162680006,
+    "target_after": 83.14224355469587,
+    "actuals_unchanged": true
+  },
+  {
+    "input": "N39",
+    "original": 0.04,
+    "changed": 0.05,
+    "target_before": 82.47015162680006,
+    "target_after": 82.84712006038858,
+    "actuals_unchanged": true
+  },
+  {
+    "input": "I111",
+    "original": 0.25,
+    "changed": 0.26,
+    "target_before": 82.47015162680006,
+    "target_after": 82.47786487543891,
+    "actuals_unchanged": true
+  },
+  {
+    "input": "D9",
+    "original": 0.10625,
+    "changed": 0.11624999999999999,
+    "target_before": 82.47015162680006,
+    "target_after": 72.96914231382429,
+    "actuals_unchanged": true
+  },
+  {
+    "input": "D19",
+    "original": 0.2,
+    "changed": 0.21000000000000002,
+    "target_before": 82.47015162680006,
+    "target_after": 82.2023797648355,
+    "actuals_unchanged": true
+  }
+]

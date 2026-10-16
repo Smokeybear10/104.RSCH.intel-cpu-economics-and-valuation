@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-11-05T22:28:16.383579+00:00",
+  "question": "Do published general-integer throughput results support assuming premium Intel packages have durable competitive customer value?",
+  "not_tested": "Not realized CPU ASP, actual Intel profit, customer procurement, a matched proprietary experiment, or agentic-AI throughput.",
+  "known_before_data": [
+    "AMD blog used2510 Intel6980P and2840 EPYC9755 and3230EPYC9965 inMarch2025 selected results.",
+    "CurrentIntel6980P ARK RCP13955 mentioned by collaborating agent."
+  ],
+  "families": [
+    "6980P",
+    "6990E+",
+    "6780E",
+    "8592+",
+    "9755",
+    "9965",
+    "9996"
+  ],
+  "selection": "All available SPEC CPU2017 integer-rate base submissions for listed models, fullenabledcores and two enabledchips, publication on or before2026-11-05. Retain onechipseparately if useful. Screenallconfigurations; no best-result cherry picking.",
+  "aggregation": "Show full count/range and vendor-level medians to reduce repeated-submission weighting. No confidence intervals or causal claims.",
+  "limitations": [
+    "System memory,compiler,tuning and vendor selection affect results.",
+    "Cores and threads are not comparable units of application work.",
+    "Listprices differ from realized or contracted prices and exclude memory,licensing,power and migration.",
+    "Arm customchips lack comparablepublicpricing and are not represented.",
+    "CPU2026 is a different suite; never combine scores across suites."
+  ],
+  "decision": "Use only if data quality and scope add investment-relevant evidence; otherwise retain as rejectedanalysis."
+}

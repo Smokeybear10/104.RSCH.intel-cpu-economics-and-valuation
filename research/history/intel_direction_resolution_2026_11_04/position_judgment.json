@@ -1,0 +1,192 @@
+{
+  "as_of_utc": "2026-11-04T22:08:32.023819+00:00",
+  "scope": "Independent position judgment, official-rule review and new primary server-CPU share cross-check. Original models unchanged.",
+  "owned_judgment": {
+    "directional_ranking": "Choose qualified valuation SHORT as the current competition candidate. Existing cash economics and the selected risk policy support an overvaluation/relative-underperformance judgment. This is a defensible thesis, not a demonstrated high-conviction standalone short trade.",
+    "what_i_would_pitch_if_required_to_choose_now": "SHORT Intel: a real earnings recovery can still be a poor equity investment. Our forecast already grants strong server CPU growth, richer product mix and smaller manufacturing losses. After funding the manufacturing system and charging economic shareholder costs, the resulting cash flows support about44\u201350 dollars per share at the end2026 planning reference, below the November4close58.28. The3\u20135year thesis is that earnings recovery will deliver insufficient risk-adjusted shareholder returns unless Intel achieves materially better capital productivity or a lower operating-risk profile than we underwrite.",
+    "what_i_would_not_claim": "Do not label $44 as the 2030 target, claim a guaranteed 2027/2028 catalyst, assume the stock must fall because current fair value is lower, or treat an earnings beat as proof of investment upside.",
+    "central_failure_of_strong_short": "The base2030conditional value67.58 implies a3.63% annual long price return from58.28; the central risk-maturation case76.86 implies6.89%. Those figures support a risk-compensation debate, not a claim of absolute price downside in2030. They must remain visible in the pitch.",
+    "why_previous_withdrawal_was_not_purely_mathematical_error": "The previous review explicitly corrected carry. Higher terminal price alone does not rule out positive short trading PnL. It nonetheless left convergence, execution costs and benchmark-relative returns unresolved.",
+    "readiness_standard_correction": "A defensible competition pitch does not require exact consensus, a proven catalyst or certainty that price converges. These are not stated rules. It does require a clear directional recommendation, transparent horizon economics and defendable assumptions. Holding a valuation opinion is valid; calling it a high-conviction trade needs more.",
+    "preferred_next_substantive_decision": "Build a concise working SHORT screen around the cash/valuation disagreement and its strongest countercase. Label the dated planning values accurately. Revalidate any economic modeling issues discovered by sibling reviewers before publishing the model output; no tuning merely to strengthen direction.",
+    "selected_option": "1: Working competition SHORT valuation thesis, with explicit horizon and path caveats.",
+    "why_choose_now": "M37 asks for a reasoned directional investment view, not guaranteed positive unhedged PnL. A stock can deserve a short allocation in a long-short portfolio because its conditional returns undercompensate for its systematic and operating risk. Exact consensus, wholly novel facts and guaranteed convergence are not necessary gates.",
+    "strongest_judge_objection": "Your model beats published earnings estimates, improves cash materially by2030, and gives2030values above today\u2019s price. Why should I short a recovering company, especially when a lower discount rate can explain the quote?",
+    "answer_to_judge": "Because the recommendation concerns the return paid for bearing Intel\u2019s risk, not whether earnings or the share price can rise. The basecase only offers about3.6% annual price appreciation to2030 despite the recovery already assumed. I prefer the higher operating-risk allowance because demand is cyclical and fabs create fixed-cost exposure; I show the lower-risk countercase explicitly. I cannot promise an absolute profitable short or a convergence date. Strong cash conversion with less reinvestment or credible evidence of lower operating risk would change my view.",
+    "portfolio_qualification": "No actual counter-long, broker borrow rate, eligible short-proceeds yield or margin-return forecast has been supplied. Do not report a portfolio alpha number or executable short-account IRR. Poor risk-adjusted long returns are the thesis; actual short implementation remains separate."
+  },
+  "official_rules": {
+    "url": "https://www.m37.com/spc2026",
+    "observed": "Round1 due November9, individual STEM students, Intel or SpaceX, LONG or SHORT addressing3\u20135year fundamentals, PDF maximum10pages plus identifying materials/resume. Evaluation emphasizes judgment and thesis; final Q&A tests counterarguments and what changes the view.",
+    "interpretation": "A3\u20135year fundamental assessment does not state that every position must remain open until the final day. Earlier exit can be a forecast, but must not be presented as an established event."
+  },
+  "refreshed_entry": {
+    "price_USD": 58.28,
+    "date": "2026-11-04",
+    "time": "16:00 EST close",
+    "source": "https://stockanalysis.com/stocks/intc/",
+    "independently_opened": true,
+    "old_model_entry_fields_unmodified": true
+  },
+  "new_primary_operating_evidence": {
+    "source": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+    "date": "2026-10-22",
+    "original_chart_url": "https://img.trendforce.com/EDM/2026/10/20261022_133209_3.jpg",
+    "local_chart": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/trendforce_server_cpu_share.jpg",
+    "chart_visually_inspected": true,
+    "source_claims": {
+      "2026_server_CPU_unit_growth": 0.31,
+      "2027_server_CPU_unit_growth": "more than40%",
+      "Intel_unit_share_2026": 0.5,
+      "Intel_unit_share_2027": 0.42,
+      "AMD_unit_share_2026": 0.27,
+      "AMD_unit_share_2027": 0.28,
+      "non_x86_or_other_share_2026": 0.23,
+      "non_x86_or_other_share_2027": 0.3
+    },
+    "diagnostics": {
+      "Intel2027_units_growth_at_exact40pct_TAM": 0.17599999999999993,
+      "industry2027_growth_needed_for_our20pct_units_at42pct_share": 0.4285714285714286,
+      "our2026_to2030_units_multiple": 1.9824000000000002,
+      "our2026_to2030_ASP_multiple": 1.3747968000000002,
+      "our2026_to2030_CPU_revenue_multiple": 2.7253971763200004,
+      "post2027_industry_unit_CAGR_needed_for2030share42pct": 0.19013069339117572
+    },
+    "2030_unit_share_conditionals": [
+      {
+        "industry_unit_growth2028_to2030": 0.1,
+        "Intel2030share": 0.531930879038317
+      },
+      {
+        "industry_unit_growth2028_to2030": 0.15,
+        "Intel2030share": 0.46552149256184777
+      },
+      {
+        "industry_unit_growth2028_to2030": 0.2,
+        "Intel2030share": 0.4097222222222223
+      },
+      {
+        "industry_unit_growth2028_to2030": 0.25,
+        "Intel2030share": 0.36249600000000004
+      }
+    ],
+    "conclusion": "The20% Intel2027unit forecast can coexist with material share loss and is close to this primary industry forecast. Doubling units by2030 is not on its own evidence of an implausible success case. With20% industry unit CAGR after2027, modeled2030Intelshare falls to about41%.",
+    "limits": "TrendForce figures are forecasts, not measured future outcomes; its CPU scope must not be mixed with physical servers, cores, Mercury x86-only share, revenue share or AMD GPU-inclusive segment sales. The2028\u20132030 market-growth controls are diagnostics, not assigned likelihoods."
+  },
+  "other_primary_evidence": [
+    {
+      "source": "https://ir.amd.com/news-events/press-releases/detail/1266/amd-unveils-strategy-to-lead-the-1-trillion-compute-market-and-accelerate-next-phase-of-growth",
+      "date": "2025-11-11",
+      "finding": "AMD targeted more than50% server CPU revenue share over3\u20135years. This is a competitive ambition, not a unit-share forecast or realized outcome."
+    },
+    {
+      "source": "https://investors.arm.com/static-files/673c8e81-66f9-4411-adb8-571a63f811b2",
+      "date": "2026-07-29",
+      "finding": "Arm reported rapid Neoverse adoption and customer deliveries of its own CPU. Core counts and royalties cannot be converted directly into CPU-package share."
+    },
+    {
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "finding": "Intel described a possible server CPU dollar market expanding from40B to more than200B over5years. Our2030CPUrevenue59.57B does not mechanically require a dominant majority share of that projected market. Management TAM is not an independent forecast and its five-year endpoint is about2031, not2030."
+    }
+  ],
+  "conditional_horizon_economics": [
+    {
+      "case": "less_productive",
+      "risk": "flat12",
+      "end2030_intrinsic_value_USD": 57.429165594921415,
+      "conditional_long_price_CAGR": -0.003532363457080634,
+      "price_only_short_PnL_USD": 0.8508344050785865
+    },
+    {
+      "case": "less_productive",
+      "risk": "maturing_risk",
+      "end2030_intrinsic_value_USD": 64.95732944683729,
+      "conditional_long_price_CAGR": 0.02644321781349701,
+      "price_only_short_PnL_USD": -6.677329446837291
+    },
+    {
+      "case": "central",
+      "risk": "flat12",
+      "end2030_intrinsic_value_USD": 67.57762169851732,
+      "conditional_long_price_CAGR": 0.03625679068129917,
+      "price_only_short_PnL_USD": -9.297621698517318
+    },
+    {
+      "case": "central",
+      "risk": "maturing_risk",
+      "end2030_intrinsic_value_USD": 76.86289602242353,
+      "conditional_long_price_CAGR": 0.06886034945884623,
+      "price_only_short_PnL_USD": -18.582896022423526
+    },
+    {
+      "case": "more_productive",
+      "risk": "flat12",
+      "end2030_intrinsic_value_USD": 76.31086901446875,
+      "conditional_long_price_CAGR": 0.06700822277587504,
+      "price_only_short_PnL_USD": -18.03086901446875
+    },
+    {
+      "case": "more_productive",
+      "risk": "maturing_risk",
+      "end2030_intrinsic_value_USD": 87.14427714083533,
+      "conditional_long_price_CAGR": 0.10163995896043132,
+      "price_only_short_PnL_USD": -28.864277140835327
+    }
+  ],
+  "usable_thesis_structure": [
+    "Accept strong server demand and improving Intel earnings; show units, realized mix and production costs separately.",
+    "State the actual valuation disagreement: retained cash after funded fabs, packaging, working capital and economic compensation does not support the same risk-adjusted value as a large headline EPS multiple.",
+    "Show the market can be reconciled by lower operating risk or better capital productivity; explain why the chosen central assumptions deserve preference.",
+    "Present both current planning fair value and2030conditional value, with dates and carry limitations, rather than using one as the other.",
+    "Specify operational falsifiers: shipment/mix conversion, Foundry cost learning, and gross capex-to-cash conversion over2027\u20132029. Treat reporting dates as observation points, not guaranteed repricing events."
+  ],
+  "falsification": {
+    "supports_bearish_view": "CPU ASP growth fades as new supply arrives, economic earnings convert poorly into cash after correctly classified investment, and mature incremental capital efficiency remains weak.",
+    "breaks_bearish_view": "Profitable premium CPU growth converts to durable shareholder cash with substantially less reinvestment, external manufacturing revenue earns attractive returns without duplicative capital, or a lower operating-risk estimate becomes better supported.",
+    "insufficient_alone": [
+      "A single EPS beat",
+      "A new design announcement without economic terms",
+      "Intel unit-share loss in a rapidly growing total market",
+      "A bookkeeping increase in adjusted FCF"
+    ]
+  },
+  "research_increment": "Added original market-research chart and explicit total-market/share consistency math. Re-read rules and refreshed price; did not rerun an accounting presentation loop.",
+  "source_model_SHA256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "source_host_SHA256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+  "models_modified": false,
+  "PDF_modified": false,
+  "winning_probability_established": false,
+  "three_to_five_year_defense": {
+    "horizon": "November2026 through2029\u20132031, with end2030 as central reference.",
+    "years2027_2028": "Observe CPU sales mix, actual manufacturing profit improvement, physical investment and the complete adjusted-earnings-to-economic-cash bridge.",
+    "years2029_2030": "Assess whether investments produce durable cash at the forecast capital efficiency and whether the business earns its assumed return on capital. Short thesis can be wrong even if EPS rises precisely as expected.",
+    "avoid": "Do not substitute a1year repricing target for this horizon, conflate current planning fair value with2030futurevalue, or invent annual return probabilities."
+  },
+  "measurable_falsifier_dashboard": [
+    {
+      "measure": "Realized server units and blended ASP",
+      "base": "2027:+20%/+20%;2028:+25%/+8%",
+      "update": "Persistent premium revenue with disclosed cost control supports stronger retained economics; share loss alone does not establish failure."
+    },
+    {
+      "measure": "Host Foundry operating result, separated from incremental packaging",
+      "base": "2027:-4B;2028:-0.75B",
+      "update": "Materially faster profitable ramp without offsetting Product margin deterioration weakens the short. Transfer-pricing effects must be reconciled."
+    },
+    {
+      "measure": "Economic owner cash under the same conventions",
+      "base": "2028:+2.294B;2030:+21.882B",
+      "update": "Durable cash above forecast without moving investment outside the forecast window weakens the short. Issuer adjusted FCF requires a bridge for SBC, partner capital and NCI."
+    },
+    {
+      "measure": "Physical cash capex",
+      "base": "2027:30.5B;2028:32.75B;2030:30B including net packaging overlay, excluding separately charged capitalized interest",
+      "update": "Equal or better funded output at lower investment is positive evidence only if outsourced wafer costs, lease funding and future replacement are included."
+    },
+    {
+      "measure": "Mature incremental host sales/net operating capital",
+      "base": "0.80 including working capital",
+      "update": "Sustained evidence nearer1.0 or better, coupled with margins, weakens capital-intensity thesis; it is not inferred from a one-year capex deferral."
+    }
+  ]
+}

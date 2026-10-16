@@ -1,0 +1,165 @@
+{
+  "title": "Intel technical competition screen, bounded comparison with SpaceX",
+  "as_of_information": "2026-11-02 end of day",
+  "researched_utc": "2026-11-04",
+  "scope": "Technical and commercial-stage screen only; no full Intel valuation, price target, project switch or claim of privileged information.",
+  "judgment": {
+    "operating": "Primary evidence supports a genuine product-led recovery; a blanket process-failure short is not defensible. External-foundry profitability remains a separate underwriting problem.",
+    "selection": "Intel offers a finite, auditable technical-to-cash bridge, but this pass alone does not establish a stronger directional stock recommendation than SpaceX. Do not switch merely because SpaceX has uncertain assumptions.",
+    "best_candidate": "Product recovery before external-foundry success, tested against complete-package supply and cash investment.",
+    "strongest_objection": "The recovery may already be priced, while persistent capital needs, PC weakness and competing ARM/custom CPUs limit owner cash. A technical success can still be an expensive stock.",
+    "next_decision": "Use the financial agent\u2019s independently constructed owner-cash hurdle; only prefer Intel if plausible product economics clear it without assigning unexplained external-foundry value."
+  },
+  "claims_ranked": [
+    {
+      "rank": 1,
+      "candidate": "Product manufacturing recovery can create earnings before a large external 14A business.",
+      "owned_forecast_position": "Use Intel 3/18A product shipment and cost progress as the 2027\u201328 operating base; do not require a heroic external-foundry win to recognize recovery. Do not extrapolate the reported 40% cost reduction as a repeating annual law.",
+      "evidence": [
+        "q3_remarks",
+        "asml_hvm",
+        "oracle"
+      ],
+      "technical_work_for_a_defensible_pitch": "Connect good-die output, package availability and product mix to consolidated product profit; separate inventory reserve effects and internal transfer pricing. A process-name or cores-per-rack comparison is insufficient.",
+      "falsifier": "Revenue-qualified product ramps and unit-cost improvement stall, or package/memory limits prevent their conversion to sellable systems.",
+      "variant_perception_status": "Not yet established: these improvements are public and may already be reflected in the stock. Strongest candidate for a long case only if the financial hurdle works without large external-foundry value."
+    },
+    {
+      "rank": 2,
+      "candidate": "Packaging supply and upfront funding can delay cash conversion even while wafer economics improve.",
+      "owned_forecast_position": "Treat 2027 server growth as constrained by the complete package, with identified substrate funding ahead of delivery. Do not infer a numerical CPU ceiling from supplier capex.",
+      "evidence": [
+        "q3_10q",
+        "ibiden"
+      ],
+      "technical_work_for_a_defensible_pitch": "Build a finite delivery/cash bridge: wafers, package substrates, assembly/test, customer acceptance and supplier/customer prepayments. Reconcile funding against capex and working capital before adding it.",
+      "falsifier": "Earlier supplier qualification/capacity, customers financing a greater share, or actual cash requirements/terms proving smaller than the disclosed estimates.",
+      "variant_perception_status": "Concrete and material, but not independently a short: shortages can preserve pricing and the supply spend can unlock profitable demand."
+    },
+    {
+      "rank": 3,
+      "candidate": "External foundry milestones are real options, not yet a demonstrated recurring profit stream.",
+      "owned_forecast_position": "Do not place material recurring external 14A production revenue in a 2027 base while the disclosed process is preparing for risk production. Preserve upside for later customer conversion rather than assigning all agreements zero.",
+      "evidence": [
+        "q3_10q",
+        "q3_remarks",
+        "aws_framework",
+        "microsoft_design",
+        "nvidia",
+        "fortinet",
+        "ramp_c",
+        "synopsys"
+      ],
+      "technical_work_for_a_defensible_pitch": "Classify each program as tool/IP readiness, design selection, tapeout, qualified silicon, accepted volume and recurring gross profit. Value internal products and external services without double counting foundry transfers.",
+      "falsifier": "Named external production schedules, accepted volumes, minimum procurement or recurring customer revenue establish faster conversion.",
+      "variant_perception_status": "Useful guardrail, weaker standalone edge. The old claim that Intel must abandon 14A without an external anchor is superseded by its Q2 commitment to internal products."
+    }
+  ],
+  "sources": {
+    "q3_remarks": {
+      "date": "2026-10-29",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF pages 1\u20133, 6\u20138 (one-based)",
+      "facts": "Clearwater Forest ships for revenue; Diamond Rapids samples for a 2027 ramp. 18A-P internal launch targeted by year-end. 14A 0.9 PDK released in October; risk production targeted next year. Since Q1, reported Intel 3 cost fell about 15% and 18A cost about 40%; 18A client CPUs rose from under 5% to nearly one-third of client CPU revenue. These are different metrics from product yield or free cash flow. Intel expects industry server CPU units to grow over 30% in 2027, while PC units decline about 10%. Q4 gross-margin guidance is 38% non-GAAP. Equipment purchase orders rose nearly 40% sequentially; 2027 gross capex expected to rise strongly."
+    },
+    "q3_10q": {
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "locator": "Future Node Development; Industry Supply Constraints; Intel Products/Foundry MD&A; Note 14; Liquidity. Local PDF pages 27, 33, 35, 37, 46 (one-based).",
+      "facts": "Q2 committed completion of 14A for future internal products; expansion remains demand-dependent. Q3 server ASP +54%, volume +10%; premium mix dominates ASP increase. External foundry revenue $411M: its $379M YoY increase primarily reflects a nonrecurring contract. YTD external revenue $878M: its increase primarily reflects Altera becoming external. Substrate constraints restrict server deliveries. Two post-quarter supply agreements require an estimated $5.3\u20136.1B total, about $3.3B by end2027; some terms unfinished. Customer deposits $1.7B received Q2; supplier prepayments $1.2B YTD."
+    },
+    "asml_hvm": {
+      "date": "2026-07-15",
+      "url": "https://investor.asml.com/news-releases/news-release-details/high-na-euv-reaches-new-readiness-milestone",
+      "locator": "Opening bullets and production description",
+      "facts": "ASML confirms shipping Panther Lake subsets using selected High-NA layers, dual-qualified with NXE-matched yields. This independently supports actual production, not just a roadmap. It does not establish total 18A good-die yield, absolute manufacturing cost or 14A economics."
+    },
+    "asml_million": {
+      "date": "2026-09-08",
+      "url": "https://investor.asml.com/news-releases/news-release-details/intel-foundry-and-asml-collaborate-accelerate-industry-readiness-high-na-euv",
+      "locator": "First update bullet",
+      "facts": "More than one million wafers processed includes certification/testing, R&D and production on select layers. It cannot be treated as one million distinct saleable wafers or external customer shipments."
+    },
+    "oracle": {
+      "date": "2026-10-27",
+      "url": "https://www.oracle.com/ca-fr/news/announcement/ai-world-intel-and-oracle-plan-expanded-collaboration-to-support-enterprise-and-agentic-ai-on-oracle-cloud-infrastructure-2026-10-27/",
+      "locator": "Opening announcement and Future Product Disclaimer",
+      "facts": "Customer confirms planned multiyear Xeon collaboration including future OCI X14 based on Diamond Rapids. No disclosed price, units, minimum procurement or accepted deployment. Product direction is explicitly not a contractual delivery commitment."
+    },
+    "aws_framework": {
+      "date": "2024-09-16",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-strategic-collaboration.html",
+      "locator": "Joint announcement paragraphs 1\u20135 and future exploration",
+      "facts": "Multi-year, multibillion-dollar co-investment framework covers products and wafers: an 18A AI fabric chip and an Intel 3 custom Xeon. AWS CEO confirms co-development. Dollar amount is not allocated by node; future 14A is exploratory. This bounded review found no newer primary acceptance/volume update for the fabric chip; that is not evidence of cancellation."
+    },
+    "microsoft_design": {
+      "date": "2024-02-21",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/foundry-news-roadmaps-updates.html",
+      "locator": "News highlights and Satya Nadella statement",
+      "facts": "Microsoft selected a design it planned to manufacture on 18A. This is evidence of design selection, not identified wafer volume, product acceptance or recurring foundry margin."
+    },
+    "nvidia": {
+      "date": "2025-09-18",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-and-nvidia-to-jointly-develop-ai-infrastructure-and-personal-computing-products.html",
+      "locator": "Datacenter and client product paragraphs",
+      "facts": "Intel to build NVIDIA-custom x86 CPUs and client SoCs incorporating RTX chiplets. $5B equity agreement separate. The release does not award Intel manufacture of NVIDIA GPUs on 14A, or disclose processor units and margins."
+    },
+    "fortinet": {
+      "date": "2026-07-21",
+      "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/intel-and-fortinet-collaborate-to-advance-cybersecurity-innovation-and-strengthen-global-supply-chain-resilience",
+      "date_source": "Same joint announcement dated July21 at https://www.intc.com/news-events/press-releases/detail/1775/intel-and-fortinet-collaborate-to-advance-cybersecurity",
+      "locator": "News Summary, Ken Xie statement and collaboration description",
+      "facts": "SP6 development collaboration covers design, packaging and manufacturing. No disclosed wafer volumes, fees or production date. The reviewed primary release does not identify Intel 4; secondary press attribution of that node is excluded from the verified ledger."
+    },
+    "ramp_c": {
+      "date": "2026-07-28",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-completes-ramp-c-program-accelerating-momentum-for-secure-enclave.html",
+      "locator": "Three phases and What It Means",
+      "facts": "Completed test-chip/prototype tapeout, testing and production-readiness program. Supports technical/customer enablement; no commercial volume or profitability denominator."
+    },
+    "synopsys": {
+      "date": "2026-07-27",
+      "url": "https://investor.synopsys.com/news/news-details/2026/Synopsys-and-Intel-Foundry-Fast-Track-Customer-Readiness-from-Silicon-to-Systems-on-Intel-14A/default.aspx",
+      "locator": "Highlights and opening announcement",
+      "facts": "Partner certifies 14A EDA flows and builds on production-ready 18A/18A-P tools/IP. Certification reduces design friction; it is not a customer tapeout, qualification or purchase commitment."
+    },
+    "ibiden": {
+      "date": "2026-02-03",
+      "url": "https://www.ibiden.com/company/2026/02/notice-regarding-capital-investment-plan-for-high-performance-ic-package-substrates.html",
+      "locator": "Investment plan table",
+      "facts": "Supplier approved approximately JPY500B FY2026\u201328 expansion; initial JPY220B plan includes mass production starting sequentially FY2027. Customer-specific allocation and units undisclosed. Do not identify it as one of Intel\u2019s two agreements or convert spend into Intel CPU output."
+    },
+    "amazon_competitor": {
+      "date": "2026-10-30",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-custom-chips-demand-q3-2026-earnings",
+      "locator": "Q3 earnings remarks excerpt",
+      "facts": "Amazon reports strong Graviton commitments and prior-generation backlog. Its CPU/agentic demand thesis supports the market but also a competing architecture. Claimed 30\u201340% price-performance advantage is vendor-specific, not a matched Intel workload benchmark.",
+      "date_verification": "HTML datePublished and article:published_time both 2026-10-30T16:31:49.470Z, inspected Nov4."
+    }
+  },
+  "scope_guards": [
+    "Industry CPU TAM or unit growth is not Intel unit growth. Amazon\u2019s own CPU progress prevents assigning the entire agentic opportunity to x86.",
+    "A 46,000-core rack at 133kW is a density figure, not matched task performance, energy per completed agent job or economic customer value.",
+    "External foundry INCREASE being primarily nonrecurring does not make all $411M nonrecurring; no exact recurring residual was calculated.",
+    "No empirical die yield, external wafer price, capacity allocation or substrate unit count was invented.",
+    "The Intel4/Fortinet node attribution, 14A absolute yield anecdotes and an exact 2028 HVM calendar were not used as verified primary facts. Public Q2 remarks PDF fetch failed; current Q3 risk-production wording is sufficient for the narrow 2027 judgment."
+  ],
+  "local_source_hashes": {
+    "q3_remarks.pdf": "b019d10f31a896d23586350df12407ee32442094f544c3e6d92c753d30df2210",
+    "q3_remarks.txt": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb",
+    "q3_10q.pdf": "b7d287cf335157f894cd4b91a07a75420b332ac257593586239b17576becf318",
+    "q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+    "q3_deck.pdf": "2e0013eb865484ae27925a2fc0390afef182b1fd600faf27a913a3e2a5acd739"
+  },
+  "coordination": "Financial bridge/current quote owned by valuation_examples; no edits to their files.",
+  "prospective_owned_judgment": {
+    "status": "Analyst expectation selected from current evidence, not observed future outcomes or company guidance. Current $60.55 quote was known; no Intel valuation result was used to choose this expectation.",
+    "2027": "I expect greater saleable Intel 3/18A output and lower manufacturing cost per comparable good die than Q3 2026, with internal 18A-P products progressing into a meaningful ramp. I expect advanced-package substrate availability to remain a binding constraint, especially early in the year: more wafers alone will not satisfy demand. Product operating earnings should improve over 2026 on that combination, while PC weakness offsets part of the server improvement.",
+    "2028": "I expect a larger and more stable internal 18A/18A-P product base, further but slower cost improvement, and less severe packaging constraints as supplier and Intel capacity comes online. I do not assume shortages disappear or that newly installed capacity immediately runs at mature yields. External 14A profitability remains upside rather than the foundation of this expectation.",
+    "most_material_mechanism": "More qualified, fully packaged premium Xeons delivered and accepted is the main route to greater product cash profit. Wafer learning improves their economics, but a missing substrate blocks the entire sale. Internal client cost recovery matters; another large repeated increase in scarcity pricing or a headline foundry revenue transfer is not the central mechanism.",
+    "cash_conversion": "I expect higher product cash earning capacity, not necessarily higher consolidated free cash flow in 2027. Capacity procurement and the identified substrate funding precede the receipts they enable. I would carry that timing burden rather than call the recovery self-financing.",
+    "what_i_do_not_assume": "No repeat 40% cost decline, no quantitative yield inferred from High-NA select-layer results, no automatic industry-unit growth share, no full ASP-growth repetition, and no immediate external-foundry margin from design wins.",
+    "confidence": "Moderate on the direction of product output/cost recovery; lower on how much arrives during 2027 and how much becomes free cash flow. The evidence is materially stronger than a technology-failure premise but does not establish mispricing.",
+    "countercase": "A prolonged package bottleneck, weak client absorption and higher input costs can leave expensive capacity underutilized; ARM/custom CPUs can capture incremental agent demand even if the CPU market grows. That could make a technically successful node earn inadequate owner returns."
+  }
+}

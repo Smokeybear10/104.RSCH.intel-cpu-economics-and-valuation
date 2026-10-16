@@ -1,0 +1,276 @@
+{
+  "prepared_utc": "2026-11-05T23:34:02.025673+00:00",
+  "verdict": "Historical consolidated sales can be reconciled exactly. Existing forecast lacks a legacy external Foundry series and future Other-internal eliminations; it cannot be transformed into a fully specified consolidated forecast from public facts alone. No large new numerical valuation error identified. Treasury finite normalizations are coarse but have small target effects under transparent internal-consistency controls.",
+  "historical_and_2026_anchor": {
+    "actual_rows": [
+      {
+        "quarter2026": 1,
+        "Products_external_B": 12.779,
+        "Foundry_total_B": 5.421,
+        "Foundry_external_B": 0.174,
+        "Foundry_internal_B": 5.247,
+        "AllOther_segment_B": 0.628,
+        "residual_Other_internal_B": 0.004000000000000448,
+        "Other_external_B": 0.6239999999999996,
+        "consolidated_external_B": 13.577
+      },
+      {
+        "quarter2026": 2,
+        "Products_external_B": 15.139,
+        "Foundry_total_B": 5.765,
+        "Foundry_external_B": 0.293,
+        "Foundry_internal_B": 5.4719999999999995,
+        "AllOther_segment_B": 0.701,
+        "residual_Other_internal_B": 0.005000000000000782,
+        "Other_external_B": 0.6959999999999992,
+        "consolidated_external_B": 16.128
+      },
+      {
+        "quarter2026": 3,
+        "Products_external_B": 15.415,
+        "Foundry_total_B": 6.697,
+        "Foundry_external_B": 0.411,
+        "Foundry_internal_B": 6.2860000000000005,
+        "AllOther_segment_B": 0.692,
+        "residual_Other_internal_B": 0.004999999999999893,
+        "Other_external_B": 0.687,
+        "consolidated_external_B": 16.513
+      }
+    ],
+    "YTD_identity_B": "43.333 Products + 0.878 external Foundry + (2.021 All Other \u2212 0.014 residual internal Other) = 46.218 consolidated.",
+    "nonrecurring_warning": "Q3 external Foundry revenue of $0.411B rose primarily because of a nonrecurring contract; the YTD increase primarily reflects Altera becoming an external customer. Neither Q3 multiplied by four nor YTD annualization establishes a recurring base.",
+    "conditional_full_year_anchor": {
+      "basis": "Guide-anchored illustration only; frozen model explicitly does not force owned segment forecasts to consolidated guidance. No new customer revenue assigned.",
+      "YTD2026_actual_consolidated_B": 46.218,
+      "owned_Q4_Products_B": 14.488449999999998,
+      "owned2026E_Products_B": 57.82145,
+      "Q4_consolidated_guidance_low_mid_high_B": [
+        15.0,
+        15.5,
+        16.0
+      ],
+      "guide_anchored2026_consolidated_low_mid_high_B": [
+        61.218,
+        61.718,
+        62.218
+      ],
+      "Q4_revenue_outside_Products_at_guidance_midpoint_B": 1.0115500000000015,
+      "2026_revenue_outside_Products_at_guidance_midpoint_B": 3.896550000000005,
+      "why_not_forecast_completion": "The residual combines external Foundry and external AllOther, and guidance may differ from analyst product assumptions. It does not reveal recurring legacy Foundry revenue, its standalone profit or its2030level.",
+      "capital_impact": "No direct mechanical valuation effect:2027\u201330 physical capex/WC are independently selected budgets;2031growth reinvestment starts from2030forecast, not this2026guideanchor."
+    }
+  },
+  "forecast_algebra": {
+    "exact_identity": "True consolidated external sales = existing modeled capital denominator + shadow packaging sales + remaining legacy external Foundry sales \u2212 AllOther internal sales. The final two series are not forecast; no public disclosure uniquely supplies them.",
+    "existing_known_rows": [
+      {
+        "year": 2027,
+        "Products_B": 68.3326878,
+        "AllOther_proxy_B": 2.8,
+        "gross_packaging_B": 0.5,
+        "shadow_packaging_B": 0.25,
+        "existing_capital_denominator_B": 71.3826878,
+        "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 71.6326878
+      },
+      {
+        "year": 2028,
+        "Products_B": 84.74132528580002,
+        "AllOther_proxy_B": 2.8,
+        "gross_packaging_B": 2.5,
+        "shadow_packaging_B": 0.75,
+        "existing_capital_denominator_B": 89.29132528580001,
+        "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 90.04132528580001
+      },
+      {
+        "year": 2029,
+        "Products_B": 99.52302077565182,
+        "AllOther_proxy_B": 2.8,
+        "gross_packaging_B": 5.0,
+        "shadow_packaging_B": 1.5,
+        "existing_capital_denominator_B": 105.82302077565181,
+        "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 107.32302077565181
+      },
+      {
+        "year": 2030,
+        "Products_B": 111.68247398141065,
+        "AllOther_proxy_B": 2.8,
+        "gross_packaging_B": 7.0,
+        "shadow_packaging_B": 2.0,
+        "existing_capital_denominator_B": 119.48247398141064,
+        "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 121.48247398141065
+      },
+      {
+        "year": 2031,
+        "Products_B": 121.8098194287657,
+        "AllOther_proxy_B": 2.884,
+        "gross_packaging_B": 7.700000000000001,
+        "shadow_packaging_B": 2.06,
+        "existing_capital_denominator_B": 130.3338194287657,
+        "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 132.3938194287657
+      },
+      {
+        "year": 2040,
+        "Products_B": 190.6774559193952,
+        "AllOther_proxy_B": 3.762965862163542,
+        "gross_packaging_B": 11.159098416638756,
+        "shadow_packaging_B": 2.6878327586882444,
+        "existing_capital_denominator_B": 202.91168743950922,
+        "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 205.5995201981975
+      },
+      {
+        "year": 2041,
+        "Products_B": 196.397779596977,
+        "AllOther_proxy_B": 3.8758548380284483,
+        "gross_packaging_B": 11.493871369137919,
+        "shadow_packaging_B": 2.768467741448892,
+        "existing_capital_denominator_B": 208.9990380626945,
+        "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 211.76750580414335
+      }
+    ],
+    "unknowns": [
+      "Annual legacy external Foundry sales outside the gross new packaging programs.",
+      "Annual All Other internal sales: historically $4M, $5M and $5M in the first three quarters of 2026, with no future series.",
+      "Profit, cash costs and physical capacity attributable to those external services."
+    ],
+    "what_cannot_be_inferred": [
+      "Aggregate Foundry profit of \u22124/\u22120.75/+1/+2.5B does not identify internal versus external revenue or profit.",
+      "Internal transfers cannot be added to consolidated sales.",
+      "The difference between consolidated guidance and owned product forecasts cannot be assigned automatically to a new wafer customer.",
+      "Existing external revenue contains legacy Altera and nonrecurring contract effects; it is not all recurring new packaging."
+    ]
+  },
+  "capital_consequence": {
+    "mechanical_condition": "If 0.8 literally applies to ALL host external-sales growth, omitted shadow packaging growth requires additional net investment equal to its sales increase divided by 0.8. Growing legacy sales require an analogous term, but their forecast is missing.",
+    "proxy_condition": "If 0.8 intentionally applies only to Products plus the All Other proxy, the arithmetic is consistent, but a full-consolidated label is wrong. Enlarging the denominator changes the meaning of the chosen productivity coefficient. The $0.159 effect is a definition-consistency diagnostic, not a uniquely proved physical spending error.",
+    "known_shadow_target_effect_USD": -0.1591071331970669,
+    "unit_effect": {
+      "additional2031_net_investment_B": 0.0375,
+      "2030_target_delta_USD": -0.07955356659853345,
+      "Dec2026_planning_value_delta_USD": -0.05136928167956256
+    },
+    "flat_revenue_rule": "Adding a constant external-sales level does not change annual sales growth or modeled net growth investment. Existing D&A and operating profit must still cover its maintenance; public disclosures do not establish that independently.",
+    "bounds": "History provides no reliable finite upper bound on 2030 external revenue or its growth. Report unit exposure; do not describe historical annualization as a guaranteed range.",
+    "exhibit_recommendation": "Keep Products revenue for forecast comparisons. Call the capital denominator a modeled sales proxy. Publishing a consolidated revenue forecast requires explicitly owning the missing series."
+  },
+  "treasury_economic_review": {
+    "normalizations": "Fixed pretax cash income of $1B implies yields of 1.967%, 2.879%, 2.871% and 2.144% on opening economic cash in 2027\u201330. Fixed total interest of $2.6B implies costs of 5.186%, 5.614%, 6.028% and 6.525% on opening carrying debt. Total interest then falls to $1.929B in 2031 under the 5.2% policy.",
+    "interpretation": "These are finite cash budgets, not constant-yield or instrument-level coupon forecasts. Declining principal does not require proportionate interest reductions: remaining coupon mix, $14.7B of pay-variable hedges and future floating rates matter. The 2031 normalization is a smoothing judgment rather than a contractual step.",
+    "reported_support": {
+      "Q3_2026_interest_income_B": 0.461,
+      "Q3_end_liquid_assets_B": 54.005,
+      "Q2_end_liquid_assets_B": 29.727,
+      "annualized_Q3_income_divided_by_end_liquidity_NOT_realized_yield": 0.0341449865753171,
+      "annualized_Q3_income_divided_by_two_endpoint_average_NOT_realized_yield": 0.0440452873453399,
+      "YTD_cash_interest_excluding_capitalized_B": 1.088,
+      "YTD_accounting_capitalized_interest_B": 0.806,
+      "annualized_sum_cash_interest_and_accounting_capitalization_approx_B": 2.5253333333333337,
+      "capitalized_interest_cash_vs_accounting_limit": "Cashflowordinaryinterestplusaccountingcapitalization is a scalecheck, not an exact totalcash-interestreconstruction.",
+      "2031_base_total_interest_B": 1.929044,
+      "2030_base_total_interest_B": 2.6
+    },
+    "target_controls": {
+      "base_fixed_budgets": {
+        "2030_cash_delta_B": 0.0,
+        "2030_target_delta_USD": 0.0,
+        "2030_target_USD": 77.6819879986314,
+        "annual_price_return": 0.10034547227789337,
+        "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": 0.0,
+        "same2031_onward_operating_and_financing_values": true
+      },
+      "5_2pct_opening_debt_cost": {
+        "2030_cash_delta_B": 0.9094591999999864,
+        "2030_target_delta_USD": 0.1650561161524476,
+        "2030_target_USD": 77.84704411478384,
+        "annual_price_return": 0.10090793661504738,
+        "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": -0.020310744580266986,
+        "same2031_onward_operating_and_financing_values": true
+      },
+      "constant_opening_cash_yield": {
+        "2030_cash_delta_B": -0.6204462571082843,
+        "2030_target_delta_USD": -0.11260367642618589,
+        "2030_target_USD": 77.56938432220521,
+        "annual_price_return": 0.09996123007842095,
+        "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": 0.0,
+        "same2031_onward_operating_and_financing_values": true
+      },
+      "joint_consistency_control": {
+        "2030_cash_delta_B": 0.2992864926278287,
+        "2030_target_delta_USD": 0.05431696780904332,
+        "2030_target_USD": 77.73630496644044,
+        "annual_price_return": 0.10053066914952868,
+        "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": -0.020310744580266986,
+        "same2031_onward_operating_and_financing_values": true
+      },
+      "cash_yield_plus100bp_unit_exposure": {
+        "2030_cash_delta_B": 0.8486677713370767,
+        "2030_target_delta_USD": 0.15402318899039505,
+        "2030_target_USD": 77.83601118762179,
+        "annual_price_return": 0.10087036778787262,
+        "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": 0.0,
+        "same2031_onward_operating_and_financing_values": true
+      }
+    },
+    "100bp_yield_exposure_vs_constant_yield_control_target_USD": 0.2666268654165833,
+    "APV_boundary": "Do not add the present value of future cash income to cash already valued at face. The mechanical planning APV shield change of \u2212$0.0203 from the lower-coupon control is not a full fair-value repricing while the debt claim remains at book value. A matched market-value debt and cash convention is required before claiming a current-value gain."
+  },
+  "debt_and_hedges": {
+    "2025_face_principal_B": 47.235,
+    "known2026_scheduled_principal_paid_B": 2.5,
+    "2026_new_senior_notes_B": 6.5,
+    "implied_Sep2026_face_principal_B": 51.235,
+    "Sep2026_carrying_debt_B": 50.134,
+    "face_minus_carrying_B": 1.101,
+    "designated_interest_rate_swap_liability_B": 0.69,
+    "paired_debt_fair_value_hedge_basis_adjustment_B": 0.69,
+    "remaining_face2030_after_selected_principal_B": 38.198,
+    "remaining_modeled_carrying_debt2030_B": 37.097,
+    "plain_face_minus_carrying_per_share_NOT_complete_correction_USD": 0.1998185117967332,
+    "all_non_escrow_derivatives_net_before_collateral_B": -0.07600000000000018,
+    "reported_debt_fair_value_B": 43.4,
+    "interpretation": "Carrying-value/par runoff is an acknowledged proxy. Replacing carrying value with face or fair value alone would ignore hedges, collateral and other financial assets and claims. The difference is not automatically an additive valuation correction. Annual principal buckets include tender and remarketing obligations; cash repayment instead of rollover is a forecast choice."
+  },
+  "source_evidence": [
+    {
+      "file": "intel_competition_screen_2026_11_04/q3_10q.txt",
+      "lines": "548\u2013564; 625\u2013674",
+      "printed_pages": "9, 11",
+      "supports": "External Products and Foundry scope; segment and consolidated revenue reconciliation."
+    },
+    {
+      "file": "intel_competition_screen_2026_11_04/q3_10q.txt",
+      "lines": "2039\u20132048",
+      "printed_page": 35,
+      "supports": "Nonrecurring Q3 contract and Altera classification effects."
+    },
+    {
+      "file": "intel_competition_screen_2026_11_04/q3_10q.txt",
+      "lines": "945\u2013955; 1264\u20131286; 1362; 1380\u20131405; 1446\u20131454",
+      "printed_pages": "15, 21, 23, 24",
+      "supports": "Interest, capitalization, new notes, debt fair value, pay-variable hedges and the paired $690M swap liability/debt basis adjustment."
+    },
+    {
+      "file": "intel_competition_screen_2026_11_04/2025_10k.txt",
+      "locator": "Note 13, printed pages 92\u201393; one-line text extraction",
+      "supports": "Instrument coupons, remarketing and tender features, annual principal buckets."
+    },
+    {
+      "file": "intel_competition_screen_2026_11_04/root_valuation_execution_policy_v2.json",
+      "keys": [
+        "post2030_debt_policy",
+        "new_capitalized_interest_tax_basis",
+        "cash_asset_rule"
+      ],
+      "supports": "Existing par refinancing, 5.2% coupon, eight-year deductions of capitalized interest, cash valuation at face."
+    },
+    {
+      "file": "intel_competition_screen_2026_11_04/q3_remarks.txt",
+      "lines": "324\u2013328",
+      "supports": "Q4 consolidated revenue guidance of $15\u201316B, midpoint $15.5B."
+    }
+  ],
+  "primary_urls": [
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+  ],
+  "investment_implication": "The missing sales series weakens claims about capital funding and comparison accuracy. The known packaging growth adjustment and finite financial budget controls are much smaller than CPU profit-retention and growth-duration risks. They do not justify stronger conviction at $52.22."
+}

@@ -1,0 +1,573 @@
+{
+  "computed_utc": "2026-11-05T23:16:55.515266+00:00",
+  "policy": {
+    "selected_before_results": true,
+    "selected_utc": null,
+    "purpose": "Test whether prior-year quarterly unit growth narrows the existing2026ASPcarryover diagnostic without assuming equal quarterly shipments. No valuation or frozen forecast edits.",
+    "existing_policy": "../model_audit/ASP_carryover_identification_policy.json",
+    "new_unit_growth_2025_vs_2024": {
+      "Q1": 0.16,
+      "Q2": 0.13,
+      "H1": 0.15,
+      "YTD_Q3": 0.1,
+      "Q3": "roughly flat"
+    },
+    "numerical_rounding_band": 0.005,
+    "roughly_flat_bands_to_test": [
+      0.005,
+      0.01,
+      0.02
+    ],
+    "method": "Add three latent positive2024quarterly unit variables. Constrain2025/2024quarter and aggregate unit growth within the stated bands, while retaining all2026/2025quarter/aggregate unit and ASP constraints. Normalize2026Q3units to1. Solve linear programs at1001candidateQ3Otheramounts. Report numerical bounds and witness identities; no claim of exact global extrema.",
+    "boundaries": [
+      "Roughly flat has no disclosed numerical tolerance. All three bands are analyst conventions, not issuer definitions.",
+      "2025quarterly DCAI totals match2026comparatives, but issuer server-volume scope consistency is still assumed.",
+      "Do not import unrecast2024volume/ASP ratios: reorganization changed historical series.",
+      "Retain ownedQ4CPUrevenue6.5257B and prior Q4/Q3unit scenarios0.9/1.0/1.1/1.2; these are not actualQ4observations."
+    ],
+    "sources": [
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000074/intc-20250329.htm",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000109/intc-20250628.htm",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000179/intc-20250927.htm"
+    ],
+    "policy_file_created_utc_evidence": "2026-11-05T23:16:53.298359+00:00",
+    "timestamp_correction": {
+      "corrected_utc": "2026-11-05T23:30:10.715820+00:00",
+      "erroneous_manual_selected_utc": "2026-11-05T23:18:00Z",
+      "explanation": "The selected_utc string was manually entered incorrectly and postdated the calculation. It was not a clock measurement and must not be treated as exact preregistration evidence. No numerical result changed.",
+      "policy_file_birthtime_utc_before_correction": "2026-11-05T23:16:53.298359+00:00",
+      "policy_file_mtime_utc_before_correction": "2026-11-05T23:16:53.298578+00:00",
+      "script_file_birthtime_utc": "2026-11-05T23:16:53.298702+00:00",
+      "result_file_birthtime_utc_before_correction": "2026-11-05T23:16:55.515962+00:00",
+      "result_computed_utc_as_recorded": "2026-11-05T23:16:55.515266+00:00",
+      "sequence_statement": "The policy was written before the calculation output. The preserved filesystem creation/modification times support that file sequence. The exact mental policy-selection time was not measured."
+    }
+  },
+  "results": [
+    {
+      "band": 0.005,
+      "feasible_grid_endpoints": 532,
+      "min_Q3_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            0.7513194476959725,
+            0.7560499714365044,
+            0.9026616998982249
+          ],
+          [
+            0.8752871565658078,
+            0.8581167175804324,
+            0.9071750083977159
+          ],
+          [
+            0.8271463629546884,
+            0.9322585693037456,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.06809887964287586,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.1649999999999998,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.004999999999999893,
+            "unit_growth_2026": 0.10232313582605723
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14995292603444943,
+            "unit_growth_2026": 0.015000000000000124
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.09566173718370052,
+            "unit_growth_2026": 0.04499999999999993
+          }
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      },
+      "max_Q3_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            1.051645444018385,
+            1.260387246766358,
+            0.9026775413547515
+          ],
+          [
+            1.2167379058687144,
+            1.430539525079816,
+            0.9049773755656109
+          ],
+          [
+            1.149817321045935,
+            1.5541390858154047,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.43371190004241456,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.15698490664258835,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.002547791548472178,
+            "unit_growth_2026": 0.10499999999999998
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14500000000000002,
+            "unit_growth_2026": 0.021410289397776117
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.1050000000000002,
+            "unit_growth_2026": 0.042705720341065456
+          }
+        ],
+        "max_constraint_violation": 2.220446049250313e-16
+      },
+      "Q4_flat_exit_carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ]
+    },
+    {
+      "band": 0.01,
+      "feasible_grid_endpoints": 532,
+      "min_Q3_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            0.7513194476959725,
+            0.7560499714365044,
+            0.8981930776215009
+          ],
+          [
+            0.8752871565658078,
+            0.8581167175804324,
+            0.9071750083977159
+          ],
+          [
+            0.8271463629546884,
+            0.9322585693037456,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.06809887964287586,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.1649999999999998,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.010000000000000009,
+            "unit_growth_2026": 0.10232313582605723
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14995292603444943,
+            "unit_growth_2026": 0.015000000000000124
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.09769706091905972,
+            "unit_growth_2026": 0.04499999999999993
+          }
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      },
+      "max_Q3_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            1.051645444018385,
+            1.260387246766358,
+            0.9026775413547515
+          ],
+          [
+            1.2167379058687144,
+            1.430539525079816,
+            0.9049773755656109
+          ],
+          [
+            1.149817321045935,
+            1.5541390858154047,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.43371190004241456,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.15698490664258835,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.002547791548472178,
+            "unit_growth_2026": 0.10499999999999998
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14500000000000002,
+            "unit_growth_2026": 0.021410289397776117
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.1050000000000002,
+            "unit_growth_2026": 0.042705720341065456
+          }
+        ],
+        "max_constraint_violation": 2.220446049250313e-16
+      },
+      "Q4_flat_exit_carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ]
+    },
+    {
+      "band": 0.02,
+      "feasible_grid_endpoints": 532,
+      "min_Q3_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            0.7513194476959725,
+            0.7560499714365044,
+            0.8893872631350156
+          ],
+          [
+            0.8752871565658078,
+            0.8581167175804324,
+            0.9071750083977159
+          ],
+          [
+            0.8271463629546884,
+            0.9322585693037456,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.06809887964287586,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.1649999999999998,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.020000000000000018,
+            "unit_growth_2026": 0.10232313582605723
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14995292603444943,
+            "unit_growth_2026": 0.015000000000000124
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.10173005965953608,
+            "unit_growth_2026": 0.04499999999999993
+          }
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      },
+      "max_Q3_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            1.051645444018385,
+            1.260387246766358,
+            0.9026775413547515
+          ],
+          [
+            1.2167379058687144,
+            1.430539525079816,
+            0.9049773755656109
+          ],
+          [
+            1.149817321045935,
+            1.5541390858154047,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.43371190004241456,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.15698490664258835,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.002547791548472178,
+            "unit_growth_2026": 0.10499999999999998
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14500000000000002,
+            "unit_growth_2026": 0.021410289397776117
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.1050000000000002,
+            "unit_growth_2026": 0.042705720341065456
+          }
+        ],
+        "max_constraint_violation": 2.220446049250313e-16
+      },
+      "Q4_flat_exit_carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ]
+    }
+  ],
+  "conclusion_boundary": "Numerical feasible-set diagnostic conditional on common server-volume scope and analyst rounding bands. Not a forecast or statistical confidence interval. Q4 remains unobserved.",
+  "policy_sha256_as_executed": "cd64e746637c4033b1f8d42978a2498a6834a938b745d1b858c214c53c6b6f23",
+  "policy_snapshot_as_executed_with_erroneous_timestamp": {
+    "selected_before_results": true,
+    "selected_utc": "2026-11-05T23:18:00Z",
+    "purpose": "Test whether prior-year quarterly unit growth narrows the existing2026ASPcarryover diagnostic without assuming equal quarterly shipments. No valuation or frozen forecast edits.",
+    "existing_policy": "../model_audit/ASP_carryover_identification_policy.json",
+    "new_unit_growth_2025_vs_2024": {
+      "Q1": 0.16,
+      "Q2": 0.13,
+      "H1": 0.15,
+      "YTD_Q3": 0.1,
+      "Q3": "roughly flat"
+    },
+    "numerical_rounding_band": 0.005,
+    "roughly_flat_bands_to_test": [
+      0.005,
+      0.01,
+      0.02
+    ],
+    "method": "Add three latent positive2024quarterly unit variables. Constrain2025/2024quarter and aggregate unit growth within the stated bands, while retaining all2026/2025quarter/aggregate unit and ASP constraints. Normalize2026Q3units to1. Solve linear programs at1001candidateQ3Otheramounts. Report numerical bounds and witness identities; no claim of exact global extrema.",
+    "boundaries": [
+      "Roughly flat has no disclosed numerical tolerance. All three bands are analyst conventions, not issuer definitions.",
+      "2025quarterly DCAI totals match2026comparatives, but issuer server-volume scope consistency is still assumed.",
+      "Do not import unrecast2024volume/ASP ratios: reorganization changed historical series.",
+      "Retain ownedQ4CPUrevenue6.5257B and prior Q4/Q3unit scenarios0.9/1.0/1.1/1.2; these are not actualQ4observations."
+    ],
+    "sources": [
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000074/intc-20250329.htm",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000109/intc-20250628.htm",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000179/intc-20250927.htm"
+    ]
+  },
+  "corrected_policy_sha256": "71888805f5ae4d52f6cb9b30e11ad9c6bf1e06783c1820f6637c938148734f79",
+  "timestamp_correction": {
+    "corrected_utc": "2026-11-05T23:30:10.715820+00:00",
+    "erroneous_manual_selected_utc": "2026-11-05T23:18:00Z",
+    "explanation": "The selected_utc string was manually entered incorrectly and postdated the calculation. It was not a clock measurement and must not be treated as exact preregistration evidence. No numerical result changed.",
+    "policy_file_birthtime_utc_before_correction": "2026-11-05T23:16:53.298359+00:00",
+    "policy_file_mtime_utc_before_correction": "2026-11-05T23:16:53.298578+00:00",
+    "script_file_birthtime_utc": "2026-11-05T23:16:53.298702+00:00",
+    "result_file_birthtime_utc_before_correction": "2026-11-05T23:16:55.515962+00:00",
+    "result_computed_utc_as_recorded": "2026-11-05T23:16:55.515266+00:00",
+    "sequence_statement": "The policy was written before the calculation output. The preserved filesystem creation/modification times support that file sequence. The exact mental policy-selection time was not measured."
+  }
+}

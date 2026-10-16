@@ -1,0 +1,63 @@
+{
+  "audited_utc": "2026-11-04T22:10:03.274193+00:00",
+  "verdict": "PASS: arithmetic and stated interpretation limits are sound. No new strong actionable mispricing established.",
+  "scope": "Independent Decimal reconstruction of reverse risk, reverse cash hurdle, dated price returns and joint-case transfers. Public quote and vendor cash observations are accepted as root-retrieved source observations, not independently fetched by this audit.",
+  "comparisons": 49,
+  "failures": [],
+  "max_absolute_difference": 2.1683626304665637e-13,
+  "independent_key_results": {
+    "risk_rate": 0.10178462875090165,
+    "asset_beta_equivalent": 1.1084949830136428,
+    "equity_PV_gap_B": 78.30859356936374,
+    "first_incremental2029_cash_B": 8.840726979606888,
+    "returns": [
+      {
+        "endpoint": "2027-12-31",
+        "days": 422,
+        "annualized_price_return": -0.14093258718154195
+      },
+      {
+        "endpoint": "2028-12-31",
+        "days": 788,
+        "annualized_price_return": -0.02997606685368969
+      },
+      {
+        "endpoint": "2029-12-31",
+        "days": 1153,
+        "annualized_price_return": 0.01383849738783714
+      },
+      {
+        "endpoint": "2030-12-31",
+        "days": 1518,
+        "annualized_price_return": 0.03625679068129904
+      }
+    ]
+  },
+  "interpretation_checks": [
+    "The 10.17846% matching rate is an operating asset rate conditional on all cash forecasts. It does not identify investor beliefs or an equity expected return.",
+    "The $8.84073B additional cash starts at end-2029, is capitalized to end-2028 and discounted two years to end-2026. It requires perpetual 3% growth and is not a feasible savings forecast.",
+    "The 24.39% current valuation gap compares an end-2026 planning balance sheet with a November 4 quote. It is not an exactly date-matched valuation or guaranteed short profit.",
+    "All nine joint values and refreshed relative-price differences match the earlier audited scenario source. Cases are not assigned probabilities.",
+    "Public negative 2027 FCF and modest positive 2028 FCF undermine a claim that low cash generation itself is overlooked. The vendor FCF/CFO figures and owner-economic cash are not directly comparable; subtraction is not independently a gross-capex forecast.",
+    "The 2028 roughly issuer-style cash proxy exceeds the quoted public FCF aggregate, so the existing central model does not straightforwardly predict a same-basis 2028 cash miss."
+  ],
+  "long_short_position_judgment": {
+    "principle": "A stock with positive expected absolute return can be a valid short leg in a specified long-short portfolio if its expected return is sufficiently below that of the chosen, appropriately risk-matched hedge after implementation costs.",
+    "what_this_does_not_prove": "A low forecast price CAGR alone does not demonstrate positive unhedged short P&L, negative alpha, or positive return on margin capital. No hedge, hedge ratio, covariance, borrow cost, rebate, collateral or financing policy is specified here.",
+    "rate_boundary": "Do not subtract the 12% unlevered operating discount rate from the 3.63% shareholder price CAGR and label the difference alpha. They refer to different claims and risk exposure. Likewise the 5.29% macro input is not a verified matched-maturity investment return over the holding period.",
+    "competition_boundary": "A qualified SHORT may be presented as a relative-underperformance recommendation if consistent with actual rules and clearly described. The long-short context cannot silently relax a required absolute trade objective or substitute for a demonstrable recommendation.",
+    "appropriate_disclosure": "At the refreshed $58.28 reference, the central cash model implies positive price appreciation to $67.58 by end-2030; an unhedged short loses about $9.30/share on price before any carry. Earlier price convergence and relative-portfolio gains remain separate judgments."
+  },
+  "actionable_edge_assessment": {
+    "new_analysis_value": "The work quantifies exactly what must be believed: a more expensive recovery can still generate low shareholder returns, and current price is approximately consistent with a 10.18% asset rate under the same cash forecast.",
+    "current_strength": "An evidence-informed valuation opinion with a clear risk disagreement, rather than a demonstrated proprietary forecast edge. Sector risk data provide a reason for 12%, so the rate is not arbitrary, but that does not prove the market rate is wrong.",
+    "missing_for_stronger_trade": "A differentiated, defensible operating or risk judgment large enough to separate the preferred outcome from plausible alternatives, plus a truthful explanation of how it supports the selected position. This does not require a guaranteed catalyst or proof of future outcomes.",
+    "recommended_presentation": "If choosing SHORT, lead with conditional overvaluation despite recovery, identify the risk/capital assumptions openly, and show the strong lower-rate/more-productive countercase. Do not claim an earnings or cash surprise that the model and public forecasts do not support."
+  },
+  "source_hashes": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/refreshed_price_and_cash_expectations.json": "eb7e585d64f700fc705233d6b8e740c6680449744d175c6830e17cd71c911c26",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/joint_scenario_results.json": "ad3425c3b29bc928ecf8eea1f1b6ee85fa064f2547feaf577c304e0454c9faa4"
+  },
+  "source_models_modified": false
+}

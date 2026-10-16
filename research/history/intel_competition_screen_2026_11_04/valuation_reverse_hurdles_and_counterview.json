@@ -1,0 +1,129 @@
+{
+  "computed_utc": "2026-11-04T12:04:56.266536+00:00",
+  "scope": "Post-output reverse hurdles, not adopted forecasts or observed economics. Preserve frozen base. All changes begin2031, so end2030 treasury, claim count and prior cash are fixed.",
+  "base_sha256": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+  "base_end2030_price_USD": 47.98787380872777,
+  "entry_USD": 60.55,
+  "equity_gap_to_unchanged_entry_price_B": 69.21731531390996,
+  "investment_reduction_only": {
+    "PV_of_post2030_net_operating_growth_investment_B": 96.55814484323867,
+    "uniform_remaining_fraction_to_reach_entry": 0.28315404747798656,
+    "uniform_reduction_fraction": 0.7168459525220134,
+    "corresponding_mature_incremental_sales_to_capital": 2.1189878984394395,
+    "interpretation": "Multiply each post2030 net growth investment including WC by this fraction while keeping operating profit, D&A, revenue, financing and terminal growth unchanged. It scales productivity across the transition too. This tests capital efficiency at fixed output, not a free cancellation of gross equipment replacement or a proved achievable factory program."
+  },
+  "extra_cash_only": {
+    "additional2031_aftertax_cash_B_growing3pct_forever": 6.229558378251896,
+    "additional2031_pretax_EBIT_B_growing3pct_under_owned_tax_schedule_no_extra_capital": 7.556023531995103,
+    "interpretation": "No extra reinvestment, working capital, minority claims or debt assumed for the added cash. This is an optimistic conversion hurdle, not a funded external Foundry valuation."
+  },
+  "fixed_rate_controls": {
+    "0.11": {
+      "price_USD": 53.85124619049781,
+      "annual_price_change": -0.02779811897137885
+    },
+    "0.13": {
+      "price_USD": 43.318032376226256,
+      "annual_price_change": -0.07737115179403031
+    }
+  },
+  "professional_counterview": {
+    "source": "https://www.morningstar.com/stocks/intel-earnings-pc-winter-has-arrived-offsetting-healthy-ai-growth",
+    "published": "2026-10-30",
+    "author": "Brian Colello",
+    "current_fair_value_USD": 85,
+    "previous_fair_value_USD": 105,
+    "uncertainty": "Very High",
+    "moat": "None",
+    "summary": "Morningstar cut value for PC weakness and recognizes server growth plus manufacturing/substrate constraints. Its published conclusion is modest undervaluation.",
+    "comparison_limit": "Their current fair-value estimate differs in date from our end2030 conditional exit. Our end2026 reference is31.61, but it too is not exact November fair value. Public excerpt does not disclose a matched complete cash/capital model. Do not attribute the gap to any one Morningstar assumption or call this market consensus."
+  },
+  "rate_only_reverse_hurdle": {
+    "operating_and_financing_benefit_rate_to_match_unchanged_entry": 0.10101999553244079,
+    "interpretation": "Reverse-implied rate, not adopted WACC/required return or evidence risk will fall. All operating cash and claims fixed."
+  },
+  "joint_diagnostics": [
+    {
+      "operating_rate": 0.11,
+      "post2030_net_investment_remaining_fraction": 1.0,
+      "implied_mature_incremental_turnover": 0.6,
+      "end2030_price_USD": 53.85124619049781
+    },
+    {
+      "operating_rate": 0.11,
+      "post2030_net_investment_remaining_fraction": 0.7499999999999999,
+      "implied_mature_incremental_turnover": 0.8,
+      "end2030_price_USD": 58.67580311373503
+    },
+    {
+      "operating_rate": 0.11,
+      "post2030_net_investment_remaining_fraction": 0.6,
+      "implied_mature_incremental_turnover": 1.0,
+      "end2030_price_USD": 61.57053726767735
+    },
+    {
+      "operating_rate": 0.12,
+      "post2030_net_investment_remaining_fraction": 1.0,
+      "implied_mature_incremental_turnover": 0.6,
+      "end2030_price_USD": 47.98787380872777
+    },
+    {
+      "operating_rate": 0.12,
+      "post2030_net_investment_remaining_fraction": 0.7499999999999999,
+      "implied_mature_incremental_turnover": 0.8,
+      "end2030_price_USD": 52.36891486332118
+    },
+    {
+      "operating_rate": 0.12,
+      "post2030_net_investment_remaining_fraction": 0.6,
+      "implied_mature_incremental_turnover": 1.0,
+      "end2030_price_USD": 54.99753949607722
+    },
+    {
+      "operating_rate": 0.13,
+      "post2030_net_investment_remaining_fraction": 1.0,
+      "implied_mature_incremental_turnover": 0.6,
+      "end2030_price_USD": 43.318032376226256
+    },
+    {
+      "operating_rate": 0.13,
+      "post2030_net_investment_remaining_fraction": 0.7499999999999999,
+      "implied_mature_incremental_turnover": 0.8,
+      "end2030_price_USD": 47.33896493492708
+    },
+    {
+      "operating_rate": 0.13,
+      "post2030_net_investment_remaining_fraction": 0.6,
+      "implied_mature_incremental_turnover": 1.0,
+      "end2030_price_USD": 49.75152447014756
+    }
+  ],
+  "joint_diagnostic_limit": "0.8 and1.0 are illustrative capital-productivity controls, not separately researched alternative forecasts. Each uniformly scales post2030 net investment relative to the adopted phased path; all revenues, margins, terminal growth and shares remain fixed. Joint improvements can erase a gap even if any one-variable threshold looks demanding.",
+  "external_program_cash_hurdle_addendum": {
+    "computed_utc": "2026-11-04T12:33:07.231480+00:00",
+    "purpose": "Size the omitted external-business risk in net cash terms; not value a contract, assign probabilities or revise either stock estimate.",
+    "rows": [
+      {
+        "case": "central",
+        "end2030_price_USD": 47.98787380872777,
+        "extra_equity_value_to_match_entry_B": 69.21731531390996,
+        "additional_aftertax_2031_cash_B_growing3pct_forever": 6.229558378251896
+      },
+      {
+        "case": "funded_faster_recovery",
+        "end2030_price_USD": 57.115821450274886,
+        "extra_equity_value_to_match_entry_B": 18.92232380898536,
+        "additional_aftertax_2031_cash_B_growing3pct_forever": 1.7030091428086824
+      }
+    ],
+    "each_extra1B_2031_net_cash_growing3pct_adds2030_price_USD": 2.0165355918531964,
+    "formula": "Additional end2030 equity = net incremental2031aftertaxcash/(.12-.03); divide by5.51Bclaims. Only applies when the netcash stream already pays all incremental replacement/growth capital, WC, tax, lease and minority claims.",
+    "cash_definition": "Net NEW shareholder-attributable unlevered cash, not revenue, EBITDA or gross profit. Exclude any already modeled service/product cash. No separate free credit for internal transfers or existing model expenditure.",
+    "upfront_cost_rule": "The reported hurdle assumes no additional unmodeled pre2031outlay/claim change. Every1Bnetextra end2030equitycost raises required2031cash by0.09B at these fixedrates; actual earlier funding, newdebt/dilution or covenants require paired cash/claims modeling.",
+    "interpretation": "The central case has materially more headroom than the faster case. This does not demonstrate that either amount is impossible or likely. A large positive-NPV external program can invalidate the short; absence of disclosed terms is not proof of zero value.",
+    "provenance": {
+      "base_sha256": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+      "bull_sha256": "5a55146ce8cd7d4b20f52b85997fd616aa05573aa373eddd3905f35429471521"
+    }
+  }
+}

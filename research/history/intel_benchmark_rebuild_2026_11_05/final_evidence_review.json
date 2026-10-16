@@ -1,0 +1,54 @@
+{
+  "reviewed_utc": "2026-11-05T22:14:29.854859+00:00",
+  "scope": "Semantic/source evidence review of revised main pages3/5/8, relevant cover and defense notes; no edits",
+  "status": "PASS: prior cover attribution finding closed; no evidence blockers",
+  "passed_checks": [
+    "QuarterlyDCAIactuals andASP/units reconcile toQ1/Q2/Q3filings; segment scope disclosed",
+    "YTDprofitbridge2.172+4.500+.403-.020=7.055B matches issuerrounded attribution;92% ratio correct",
+    "Restated2023/2024/2025DCAImargins verified from2025Form10-K; explicit long-run uncertainty retained",
+    "Quarterlyhistory is not represented as proof of40%longrunfloor; conditionalmixremains innotes",
+    "Intel3/18Acostdeclines and industryserverCPUgrowth>30% are management claims matching preparedremarks",
+    "2027unit/ASP forecasts distinct from measuredhistory; full-year/quarterdifference and notsamechippricing madeclear",
+    "IBIDENadditionalGamainvestment secondhalfFY2029ramp/FY2030contribution verified; fiscalyears andAIASIC/GPU scope retained",
+    "OriginalOracleaudit now supporting calculation with unmatchedworkload/pricingpowerlimits retained",
+    "Cashfunding and supplierclaims distinguished from acceptedoutput; no newdoublecountedclaims found"
+  ],
+  "remaining_gap": "Evidence now supports currentproduct-led earnings recovery and makes exact forecast dependencies transparent. It does not independently demonstrate futureIntelqualifiedpackagevolume,2028Foundrynearbreakeven,40%marginpostscarcity,oradequatecompensationforriskatafairvalueentry. Those are explicit operating/investment judgments rather than solved empirical claims.",
+  "files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "98631d1e6f4d9df2e90ec41a96f02159f4d994d0df697ff832312ccac3e1d303"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "d279319cc936473fe1aa8f938c9955729eba7adb0b4448338315fc2017c5b862"
+    }
+  ],
+  "primary_sources": [
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+    "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf",
+    "https://www.ibiden.com/ir/items/en_kessannsetsumei2026Q2.pdf",
+    "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+  ],
+  "final_recheck_utc": "2026-11-05T22:15:27.100893+00:00",
+  "resolved_findings": [
+    {
+      "page": 1,
+      "text": "Server sales and lower Foundry losses drive89% of my2027-28profit increase",
+      "issue": "89.2% includes allDCAI profitgrowth, including0.374B marginchange; sales-only5.562B plus3.25B Foundry equals85.6%.",
+      "fix": "Replace Server sales with DCAI profit, retaining89%; or retain sales and use86%.",
+      "type": "Semantic attribution, no model change required",
+      "resolution": "Final cover correctly says DCAI profit and lower Foundry losses drive89%; claim matches allDCAIprofit +Foundry attribution."
+    }
+  ],
+  "blocking_findings": [],
+  "final_recheck": {
+    "hashes_match_parent": true,
+    "cover_attribution_corrected": true,
+    "server_CPU_scope_clarified": true,
+    "YTD_profit_display_7_06": true
+  }
+}

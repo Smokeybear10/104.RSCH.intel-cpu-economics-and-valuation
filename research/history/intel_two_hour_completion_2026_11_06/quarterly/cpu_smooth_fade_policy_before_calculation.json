@@ -1,0 +1,21 @@
+{
+  "selected_utc": "2026-11-06T06:51:40.788094+00:00",
+  "selection_boundary": "Additional sensitivity chosen after annual-to-quarter reconciliation exposed2029reacceleration, before computing this sensitivity or examining equityvalues. Existingannualpreferred retainedascontrol.",
+  "starting_case": "preferred2027quarterlyschedule",
+  "annual_sequential_rates": {
+    "2028": {
+      "units": 0.03,
+      "ASP": 0.0075
+    },
+    "2029": {
+      "units": 0.025,
+      "ASP": 0.005
+    },
+    "2030": {
+      "units": 0.02,
+      "ASP": 0.005
+    }
+  },
+  "reason": "A genuinely smooth post-ramp path: 2027H2+10%sequentialunitgrowth slows to3%then2.5%then2%, rather than reacceleratingin2029. Unitgrowth remains positive as installedcapacity, yieldsandproductsdevelop; exactincrements areanalystjudgment, notcapacityconversion. ASPincrementsfadeasproductmixnormalizesandcompetitioncontinues.",
+  "scope": "Diagnostic alternative to20/15/10%annualunitgrowth, not automaticnewbaseorprice-targetfit."
+}

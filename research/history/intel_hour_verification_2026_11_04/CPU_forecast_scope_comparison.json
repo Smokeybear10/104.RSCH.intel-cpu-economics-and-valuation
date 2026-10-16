@@ -1,0 +1,51 @@
+{
+  "prepared_utc": "2026-11-04T23:27:30.231940+00:00",
+  "scope": "Dated forecasts and measurement boundaries; no operating-model changes or assigned probabilities.",
+  "intel_2030_CPU_revenue_B_rounded": 59.57,
+  "sources": [
+    {
+      "publisher": "Counterpoint Research",
+      "date": "2026-05-06",
+      "url": "https://counterpointresearch.com/key-takeaways.../insights/agentic-ai-driven-cpu-renaissance-helps-amd-outpace-intel-in-q1-2026-cements-two-horse-race-with-nvidia",
+      "forecast_2030_server_CPU_TAM_B": [
+        110,
+        120
+      ],
+      "classification": "Publisher forecast, older than mid2026 revisions; not current consensus.",
+      "implied_Intel_revenue_fraction_if_scope_matched": [
+        0.5415454545454546,
+        0.4964166666666667
+      ]
+    },
+    {
+      "publisher": "AMD",
+      "date": "2026-08-04",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_870e8358a2a27f7ebbdfaf3a34db5f50/amd/db/841/9237/webcast_transcript/AMD2Q26EarningsCallTranscript.pdf",
+      "forecast_2030_server_CPU_TAM_B": 220,
+      "classification": "Vendor forecast already reviewed in prior source_scope_adjudication; not newly discovered.",
+      "implied_Intel_revenue_fraction_if_scope_matched": 0.2707727272727273
+    },
+    {
+      "publisher": "Futurum",
+      "date": "2026-10-01",
+      "url": "https://futurumgroup.com/insights/the-246-billion-cpu-opportunitys-winning-chip-has-not-been-designed-yet/",
+      "report_url": "https://futurumgroup.com/wp-content/uploads/2026/10/The-246-Billion-CPU-Opportunitys-Winning-Chip-Has-Not-Been-Designed-Yet_AIOBB202609.docx.pdf",
+      "forecast_2030_server_CPU_TAM_B": 245.9,
+      "forecast_2030_standalone_AI_CPU_B": 164.7,
+      "forecast_2026_standalone_AI_CPU_B": 23.7,
+      "classification": "New outside analyst model, not customer orders. Vendor advisory relationships disclosed. Uses the same Azure studies; not independent replication of their measurements.",
+      "implied_Intel_revenue_fraction_if_scope_matched": 0.24225294835298902,
+      "read_scope": "Full11pagepublicPDFtext read; no underlying TAM workbook or price/volume sensitivity exposed. Architecture comparison recognizes Intel memory uniformity and priority cores, while judging Vera strongest on tested loaded per-core latency. No single microarchitecture wins every role."
+    }
+  ],
+  "new_production_study": {
+    "url": "https://arxiv.org/html/2608.00101v1",
+    "date": "2026-07-30",
+    "authors": "UIUC and Microsoft Azure Research",
+    "sample": "13.5M sampled sessions from3.2M Copilot users, first weekJune2026, US regions.",
+    "finding": "Near1:1 LLM/tool calls and long-tail tool latency substantiate real agent execution beyond inference.92%aggregate tool wall-clock lies outside active LLM windows.",
+    "limits": "Section11 explicitly identifies client-side traces and no server-side view. Tool wall-clock includes CPU/IO and is not CPU utilization, billed cloud core-hours, or CPU purchase value. Neither all activity residing in new datacenter sockets nor any particular Intel share follows. No quality signals; retry and scheduling improvements can change work per successful task.",
+    "bull_relevance": "Observed production behavior strengthens the value of CPU-side latency and memory. It does not select an industry TAM, elasticities, Intel unit growth, or premium ASP."
+  },
+  "interpretation": "A wide range of published TAM forecasts does not prove the Intel forecast conservative or aggressive without matching merchant, captive, bundled-CPU allocation, date, pricing and share definitions. Do not average these forecasts or assign equal likelihood. Future role-specific performance and customer economics determine capture."
+}

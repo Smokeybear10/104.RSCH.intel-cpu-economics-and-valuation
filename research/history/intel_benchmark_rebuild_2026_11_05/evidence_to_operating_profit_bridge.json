@@ -1,0 +1,117 @@
+{
+  "completed_utc": "2026-11-05T22:09:00.182522+00:00",
+  "scope": "Source verification and exact frozen-model operating attribution; no forecast ordeliverable mutation.",
+  "sources": {
+    "q3_10q": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "MD&A printed33-35 and Note14",
+      "facts": "Server ASP rose54% and units10% year-on-year; premium mix dominates ASP, with higher product unit costs. Foundry Q3 loss1.853B versus2.321B prior year. Lower period charges793M included process cost progress and reserved-inventory sellthrough; operating expense rose219M. External Foundry411M mainly includes a nonrecurring contract. Substrate commitments total5.3-6.1B, about3.3B due by end2027.",
+      "limits": "Product profit includes internal manufacturing charges. Period-charge improvement is not wholly recurring cost savings; no disclosed absolute process cost or package capacity denominator."
+    },
+    "q3_remarks": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF5-7",
+      "facts": "Granite Rapids is largest server family; Clearwater ships for revenue. Intel3 costs declined15% and18A40% sinceQ1; Intel3 volume grew midteens sequentially. Management expects industryCPU units >30% growth2027 and constraints into2028. Planned equipment orders rose nearly40% sequentially.",
+      "limits": "Issuer commentary supports real product/manufacturing progress, not exact2027Intel unitgrowth or futureFoundry dollarprofit. Portfolio costs can rise despite same-node cost improvement."
+    },
+    "ibiden_qa": {
+      "url": "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf",
+      "date": "2026-10-30",
+      "locator": "PDF3-5",
+      "facts": "Additional150BJPY Gama investment ramps second-halfFY2029 and contributesFY2030 onward. New-building lead time at least4years. Supplier expects CPU substrate demand to exceed aggregate capacity despite competitor additions.",
+      "limits": "Supplier outlook, not guaranteed customer orders. FY convention retained rather than silently translated to calendar dates."
+    },
+    "ibiden_presentation": {
+      "url": "https://www.ibiden.com/ir/items/en_kessannsetsumei2026Q2.pdf",
+      "date": "2026-10-30",
+      "locator": "PDF12-13, visually inspected",
+      "facts": "GamaCell6 startsFY2029 forAIASIC; OnoCell8 startsFY2027 forAIGPU. CPU substrate-demand illustration separates1.3xmarket growth and1.9xproduction load into2.5xSAP demandCY2026-30.",
+      "limits": "Do not identify AIASIC/GPU plant capacity as2027IntelCPU capacity. SAP load is not CPUunitvolume and industry-wide demand is not Intel accepted output. Avoid using these multipliers to calibrate Intel unitgrowth."
+    },
+    "google_compute": {
+      "url": "https://cloud.google.com/blog/products/compute/whats-new-in-compute-at-next26",
+      "date": "2026-04-22",
+      "facts": "Google states Xeon6 support across allC4 shapes and simultaneously expands Arm-basedAxion offerings.",
+      "limits": "Actual product availability is stronger than a prospective roadmap, but neither netIntelCPUprices nor exclusive purchases are disclosed. Cloudprice-performance claims do not measure Intel grossprofit."
+    },
+    "oracle_roadmap": {
+      "url": "https://www.oracle.com/news/announcement/ai-world-intel-and-oracle-plan-expanded-collaboration-to-support-enterprise-and-agentic-ai-on-oracle-cloud-infrastructure-2026-10-27/",
+      "date": "2026-10-27",
+      "facts": "Planned multiyearXeon collaboration includes planned DiamondRapids-basedX14.",
+      "limits": "Intent and roadmap coordination; no minimum volume, price or binding completion guarantee."
+    }
+  },
+  "recommended_page3_rows": [
+    {
+      "driver": "Premium server mix",
+      "observed": "Q3 premium-led ASP+54%; Granite Rapids largest server family; buyer Google offersXeon6 acrossC4 shapes.",
+      "source_ids": [
+        "q3_10q",
+        "q3_remarks",
+        "google_compute"
+      ],
+      "owned_forecast": "2027CPUunits+20%,ASP+20%; ASPgrowth slows8/4/2% through2030.",
+      "financial_consequence": "Estimated2026CPU21.8577B \u00d71.20units\u00d71.20ASP =31.475088B in2027.",
+      "counterevidence": "FY2025ASPfell4% on repricing/mix; publicDIGITIMES2027CPU28.7B is8.8% below forecast. SameSKU prices and supplier margin not disclosed."
+    },
+    {
+      "driver": "Volume turns manufacturing spend into profit",
+      "observed": "Intel3 and18A costs improved sinceQ1; supplier bottleneck remains.",
+      "source_ids": [
+        "q3_remarks",
+        "ibiden_qa",
+        "ibiden_presentation"
+      ],
+      "owned_forecast": "Foundryloss4.0B in2027 narrows to0.75B in2028.",
+      "financial_consequence": "3.25B contribution to2027-28 consolidatedEBITgrowth.",
+      "counterevidence": "Q3reported improvement partly periodcharges/reservedinventory; newGama capacity too late and wrong disclosed productscope to validate2027/28Xeon output. Nearbreakeven timing not demonstrated."
+    },
+    {
+      "driver": "Fund the ramp before counting the reward",
+      "observed": "Intel has5.3-6.1B substrate commitments; about3.3B byend2027.",
+      "source_ids": [
+        "q3_10q"
+      ],
+      "owned_forecast": "Charge physical investment, workingcapital, partnerclaims once.",
+      "financial_consequence": "2027-30 ownercash27.6B versus111.3B EBIT in existing bridge; incremental2027ASPpoint adds0.2622924B sales and0.1311462B groupEBIT under owned50%retention, before tax/investment.",
+      "counterevidence": "Funding is necessary but not sufficient for qualified, completed and accepted shipments. Substratecommitments are within existing forecast envelope; do not stack an extra5.3-6.1B charge without reconciliation."
+    }
+  ],
+  "recommended_page6_bridge": {
+    "period": "2027 to2028",
+    "units": "USD billions",
+    "start_group_EBIT_B": 14.429918271999998,
+    "DCAI_sales_growth_at_2027_margin_B": 5.561842769957048,
+    "DCAI_margin_change_on_2028_sales_B": 0.37401980629295833,
+    "DCAI_total_profit_increase_B": 5.935862576250006,
+    "Foundry_loss_reduction_B": 3.25,
+    "CCPG_and_all_other_net_B": 1.1119687343080038,
+    "end_group_EBIT_B": 24.72774958255801,
+    "total_change_B": 10.29783131055801,
+    "share_DCAI_and_Foundry": 0.8920191348281321,
+    "DCAI_growth_share_from_sales": 0.9369898137821705,
+    "formula": "DCAIdelta = (R28-R27)*m27 +R28*(m28-m27). Other is consolidated residual includingCCPG,corporate,other andseparatepackaging. No additional foundry credit for product changes.",
+    "error_B": 3.552713678800501e-15
+  },
+  "recommended_page6_negative_test": {
+    "label": "2028Foundryloss stays4.0B; allother2028operationsunchanged",
+    "base_Foundry_loss_B": 0.75,
+    "stress_Foundry_loss_B": 4.0,
+    "group_EBIT_reduction_B": 3.25,
+    "base_group_EBIT_B": 24.72774958255801,
+    "stress_group_EBIT_B": 21.47774958255801,
+    "decline_fraction": 0.13143128893105677,
+    "scope": "One-year pre-tax operating diagnostic only. No stocktarget, cashforecast, likelihood orpermanentloss claim. Do not infer retainedfuturemargin orautomaticfundingcost changes."
+  },
+  "recommended_page8_checkpoint": "Require supplier-specific qualified CPU-package output and customer acceptance to support2027/28unitgrowth. Generic waferstarts orGama/Onoheadlinecapex are not sufficient. If2028Foundrylossremains4B, groupEBITfalls3.25Bbeforetax.",
+  "new_to_presentation": "Explicit profitbridge and dollar-valued falsifier; supplier timing/productscope now visible. These improve defensibility without pretending sparse public data proves40% maturemargin.",
+  "current_evidence_assessment": "Supports premium-product and manufacturing-improvement mechanisms; doesnot independently validate40% terminalDCAI or2028nearbreakeven. Best economicforecast remains ownedjudgment.",
+  "input_hashes": {
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+  },
+  "visual_sources": [
+    "tmp/pdfs/intel_benchmark_rebuild/ibiden-12.png",
+    "tmp/pdfs/intel_benchmark_rebuild/ibiden-13.png"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "computed_utc": "2026-11-06T00:13:19.219204+00:00",
+  "policy_sha256": "0a1309cde97f1b752f4f86d9ec19ceebc2ea23b069c36247b5e8d1b1a2956a10",
+  "cases": [
+    {
+      "name": "published50",
+      "decremental_group_EBIT_fraction": 0.5,
+      "planning_value_USD": 43.65139776112325,
+      "target_2030_USD": 66.12592419619423,
+      "annual_price_return": 0.0584916927601955,
+      "target_delta_USD": 0.0,
+      "independent_closed_form_cash_delta_B": 0.0,
+      "independent_check_error_USD": 0.0,
+      "minimum_annual_cash_before_named_claim_payments_B": 33.17377733906717
+    },
+    {
+      "name": "less_cost_flexibility75",
+      "decremental_group_EBIT_fraction": 0.75,
+      "planning_value_USD": 42.94485906737015,
+      "target_2030_USD": 65.1215558198322,
+      "annual_price_return": 0.054598260065053195,
+      "target_delta_USD": -1.004368376362038,
+      "independent_closed_form_cash_delta_B": -5.534069753754889,
+      "independent_check_error_USD": 1.1102230246251565e-14,
+      "minimum_annual_cash_before_named_claim_payments_B": 32.09024743466717
+    },
+    {
+      "name": "no_avoided_cost100",
+      "decremental_group_EBIT_fraction": 1.0,
+      "planning_value_USD": 42.238320373617064,
+      "target_2030_USD": 64.11718744347014,
+      "annual_price_return": 0.05065896646173762,
+      "target_delta_USD": -2.00873675272409,
+      "independent_closed_form_cash_delta_B": -11.068139507509779,
+      "independent_check_error_USD": 7.993605777301127e-15,
+      "minimum_annual_cash_before_named_claim_payments_B": 31.006717530267174
+    }
+  ],
+  "interpretation": "Reducing assumed2028\u201330 cost flexibility further weakens the early-growth case. The endpoint effect is modest relative to persistent revenue/margin changes because this isolates three years and preserves the later operating path. It is not evidence that all factory costs are flexible or that downside is bounded.",
+  "PDF_decision": "No change required: displayed5.8% case already labels50% EBIT response and warns it may understate factory losses. More parallel scenarios would obscure the main uncertainty."
+}
