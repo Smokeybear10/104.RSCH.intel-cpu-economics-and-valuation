@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-06 07:13:45 UTC",
+  "question": "Can public raw records close the current-generation matched-workload economic gap?",
+  "selection_rule": "Inspect all standard EBS m8i and m8a sizes common to the Rust suite (2,4,8 vCPU). Primary comparison: 8vCPU/32GiB m8i.2xlarge versus m8a.2xlarge. Retain 2/4 sizes and all observed successes/failures as robustness. Add same-resource Graviton5 if directly comparable. No cherry-picked synthetic score.",
+  "workload": "Pinned spotify-player Rust cold build including successful tests, formatting and lint stages. Use raw GitHub job records and exact harness SHA, not chart percentages.",
+  "economic_metric": "On-demand EC2 plus exact EBS billed-window estimate per successful job. Actual cost estimates and observations kept separately. Reconstruct from raw billedSeconds, ec2 and ebs rates. If these are missing use no imputation and label incomplete. This is not complete invoice or enterprise TCO.",
+  "time_metric": "Full job seconds and workload-phase seconds reported separately; include queue and billed instance lifetime where available. No fabricated SLA: give observed completion-time distribution and conditional threshold comparison.",
+  "uncertainty": "Published third-party cloud tests, not independently rerun by us. Record provider self-interest, varying AMIs and dates, physical-core mapping, failures and discarded rows. No calibrated population significance from a small sample.",
+  "failure_rule": "Exclude failed executions from successful-work numerator, include their raw cost in cost-per-success if available; disclose missing failure cost.",
+  "full_cost_gate": "No full-cost winner unless required storage, networking/IP, controller, licenses and applicable setup/teardown/warmup/retry costs identified. Common fixed fees may cancel in a defined choice but do not silently become zero.",
+  "source_selection_timing": "Established after seeing RunsOn website summary. Not claimed blind to its ranking. No root valuation outputs read or modified."
+}

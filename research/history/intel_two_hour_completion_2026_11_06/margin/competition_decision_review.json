@@ -1,0 +1,59 @@
+{
+  "as_of": "2026-11-06",
+  "recommendation": "Do not preserve the old high-conviction LONG label merely to finish the submission. The research supports a real operating recovery and a coherent favorable LONG hypothesis, but has not established an attractive entry at $52.25. Preserve the distinction between a completed research review and a completed competition recommendation.",
+  "rules": {
+    "official_urls": ["https://www.m37.com/spc2026", "https://www.pennwitg.com/m37"],
+    "rechecked": "2026-11-06",
+    "required": "An individual Initial Screen PDF of no more than 10 pages, due November 9, must recommend LONG or SHORT in Intel or SpaceX over a 3–5-year horizon, explain the business and main investment drivers, and identify risks. Name, class year, and resume accompany the entry.",
+    "judgment_standard": "The organizer emphasizes investment judgment and defense of assumptions. It does not specify a minimum upside, prescribe a valuation method, require proof of future forecasts, or demand proprietary research.",
+    "pass_boundary": "PASS is a legitimate research outcome. It does not satisfy the stated LONG-or-SHORT recommendation field. Do not present a neutral research report as a compliant finished entry.",
+    "deadline_precision": "The published pages give November 9, 2026 without a cutoff time or timezone. Do not invent one."
+  },
+  "current_decision": {
+    "selected_case": "The integrated selected case produces a $53.43 December 2030 value from a $52.25 reference entry, approximately 0.54% annual price appreciation. It is a conditional model output, not a calibrated expected return.",
+    "favorable_case": "Root's coherent favorable execution case is $73.56, approximately 8.58% annual price appreciation. That demonstrates upside is possible. It does not make the selected case a compelling LONG or prove that the favorable inputs are the most likely ones.",
+    "negative_inference_to_avoid": "A weak LONG does not automatically establish SHORT. A short needs its own positive mispricing mechanism, valuation path, timing argument and relevant carrying/risk assumptions. No new short recommendation is made here.",
+    "what_is_still_defensible": "A modest-conviction LONG can satisfy the rules if the analyst explicitly chooses the favorable execution hypothesis, defends each causal assumption, explains why its prospective reward is sufficient, and shows what invalidates it. The thesis would be a judgment call about a successful platform and manufacturing transition, not a proven pricing anomaly.",
+    "what_is_not_defensible": "Calling the favorable case verified, treating scenario labels as probabilities, hiding the selected weak-return case, or raising assumptions solely to reproduce the old target. No winning probability follows from any of these values.",
+    "submission_readiness": "A mechanically polished PDF can be ready while the recommendation is not. Any submission labeled LONG needs a clear, affirmative answer to why this price adequately compensates for the identified execution risk. The current research has not established that answer strongly."
+  },
+  "strongest_steelman_of_prior_long": [
+    "The recovery has a product basis: customers report workload, licensing and migration benefits from current Xeon platforms, while Intel's filings attribute most of the 2026 DCAI profit gain to product profit. This is more than a temporary removal of old inventory charges.",
+    "Richer package content can raise Intel revenue per socket while reducing the buyer's cost per task. There is no contradiction between customer savings and Intel premium mix. Scarcity ending does not logically require the entire ASP increase to reverse.",
+    "Q2/Q3 may better describe the post-transition regime than a full-YTD average containing Q1. A mature 40% blended DCAI margin remains a coherent favorable hypothesis: with the revised long-run mix and 20% Other margin, it needs CPU margin only 1.50 percentage points above the corresponding Q3 residual.",
+    "The margin mechanism need not require falling absolute input costs. Under explicitly assumed fixed-cost allocations, 2% annual CPU prices and modest expense leverage permit 40% blended DCAI if booked variable cost per unit grows about 1.05% annually. That is plausible but is not a disclosed physical cost forecast, and transfer-price changes create no group profit.",
+    "Multi-year customer agreements and current-node manufacturing learning can support much of the competition's 3–5-year operating horizon. The key positive bet is converting actual capacity and richer platforms into retained group cash, while already-funded assets improve utilization.",
+    "The more cautious post-2030 unit-growth path is itself an analyst convention. Continued CPU demand from new workflows could justify faster growth, but current industry forecasts do not identify Intel's 2030s units, prices or share."
+  ],
+  "why_the_steelman_is_not_yet_a_strong_entry_edge": [
+    "The positive evidence establishes product usefulness and a recovery mechanism more directly than it establishes the price an investor should pay today.",
+    "The integrated forecast still needs a large manufacturing profit recovery, substantial Other DCAI growth, capital productivity, and retained margins. Those demands should be assessed together rather than treating each uncertainty as a small independent risk.",
+    "Even granting a 40% mature DCAI margin and the previous post-2030 growth path, the updated near-term delivery model produces about $62.95 in 2030, only 4.59% annual appreciation. The old strong LONG cannot be restored merely by arguing that the YTD margin anchor is too cautious.",
+    "The stronger $73.56 favorable case requires additional favorable execution. Selecting it as the central recommendation must be justified by evidence and investment judgment, not by the fact that it produces a more attractive number."
+  ],
+  "comparison_with_verified_winners": [
+    {
+      "example": "UNC WMS, 2024 Alpha Challenge first place equity",
+      "award_url": "https://www.kenan-flagler.unc.edu/alpha-challenge-2/archives/",
+      "deck_url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2024/12/First-Place-Equity_Team1_Universe_WMS.pdf",
+      "reviewed": "Primary saved PDF pages 1, 3, 6 and 8; the live award page confirms the winner. Web PDF fetch exceeded its size limit.",
+      "lesson": "The deck links a stated disagreement with consensus to specific mix and recycled-input contributions, then carries those into valuation. Its assumptions are forecasts, not proven outcomes. The useful standard is an explicit evidence-to-profit-to-price chain, not certainty or a particular target return."
+    },
+    {
+      "example": "Columbia JBI, 2023 Alpha Challenge first place equity",
+      "award_url": "https://www.kenan-flagler.unc.edu/alpha-challenge-2/archives/",
+      "deck_url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2023/12/Equity-1st-place_Columbia-_JBI.pdf",
+      "reviewed": "Primary PDF pages 4–9 and 14.",
+      "lesson": "It explains why the business may be misclassified by investors, connects renovation content to economics, and shows base/bull/bear assumptions. Its 32% one-year base upside cannot be compared directly with Intel's multi-year headline upside. Two valuation methods sharing assumptions are not independent proof."
+    },
+    {
+      "example": "Waterloo Cargojet, 2024 CFA Research Challenge global winner",
+      "award_url": "https://www.cfainstitute.org/insights/events/research-challenge/past-champions",
+      "deck_url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2024-winning-presentation-university-of-waterloo.pdf",
+      "reviewed": "Primary presentation, operating and fleet discussion; prior visual review of PDF pages 28 and 33 retained in the local comparison notes.",
+      "lesson": "Operational observations, contract structure and existing fleet capacity support the profit/cash mechanism. The transferable feature is that the distinctive research bears on the disputed financial assumption. It does not establish that interviews or a long appendix cause competition success."
+    }
+  ],
+  "practical_decision_rule": "If retaining LONG, write one affirmative sentence selecting the favorable operating regime and one sentence explaining the return required at $52.25. Then show the selected weak-return case and the exact observations that would force a view change. If that affirmative investment judgment cannot be defended, retain the honest pass conclusion internally and continue underwriting a permitted LONG or SHORT rather than declaring this a finished competitive entry.",
+  "scope_limits": "No model assumptions, PDF, frozen artifacts, or recommendations were changed by this review. The $73.56 favorable figure is parent-provided during this review; other numerical sensitivities are reproduced in integrated_margin_audit_results.json. Historical winning pitches were inspected as reasoning examples, not re-underwritten or used to estimate the chance of winning M37."
+}

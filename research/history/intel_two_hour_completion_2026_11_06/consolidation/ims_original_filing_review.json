@@ -1,0 +1,73 @@
+{
+  "checked_utc": "2026-11-06T07:14:20.215478+00:00",
+  "primary_document": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/sources/ims_2025_filed_report.pdf",
+    "sha256": "94b8bbca4034b47d34015bd2eee76c7a9b652ed89a722b81e253182bcfbb2ce7",
+    "title": "IMS Nanofabrication GmbH, audit report and financial statements for year ended 31 December 2025",
+    "report_date": "2026-06-15",
+    "auditor": "Ernst & Young Wirtschaftspr\u00fcfungsgesellschaft m.b.H.",
+    "obtained_from": "https://www.firmenatlas.com/firma/208021p",
+    "register_confirmation": "https://www.evi.gv.at/f/208021p",
+    "catalogue_filing_date": "2026-08-21",
+    "register_entry_date": "2026-09-22",
+    "access": "Public download, no payment or account creation",
+    "pages_visually_checked": [
+      13,
+      15,
+      21,
+      28,
+      30,
+      31
+    ]
+  },
+  "entity_results_EUR_M": {
+    "2025_revenue": 363.94720527,
+    "2024_revenue": 378.22981857,
+    "2025_operating_result": 2.86177726,
+    "2024_operating_result": -42.95600183,
+    "2025_net_result": -1.49810987,
+    "2024_net_result": -47.3989188,
+    "source_pdf_page": 13
+  },
+  "scope": {
+    "source_pdf_page": 15,
+    "statement": "The Austrian GmbH is wholly owned by IMS Nanofabrication Global LLC. The US sales/service LLC became a sister under the Global holding structure in 2023. These are Austrian UGB entity accounts, not consolidated Intel IMS or All Other segment accounts."
+  },
+  "revenue_notes": {
+    "source_pdf_page": 21,
+    "tool_sales_and_services_EUR_M": 225.738,
+    "intercompany_recharges_EUR_M": 95.251,
+    "caution": "The note describes the main components rather than a complete reconciliation. Do not equate Austrian revenue with external IMS sales or treat the difference as a separately disclosed business."
+  },
+  "issuer_outlook": [
+    {
+      "source_pdf_page": 28,
+      "paraphrase": "A competitor gained share; the issuer expects sustained market sharing and makes its longer-term share ambition conditional on better reliability and usability."
+    },
+    {
+      "source_pdf_page": 30,
+      "paraphrase": "Management cites weak conditions, fewer masks for current AI applications, and a competing product as negative influences on incoming orders."
+    },
+    {
+      "source_pdf_page": 31,
+      "paraphrase": "Management expects order recovery only in 2026/27, with earnings effects in following years."
+    }
+  ],
+  "intel_residual_control": {
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "other_source": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-third-quarter-2026-results-updates-guidance",
+    "Q3_AllOther_segment_operating_profit_B": 0.179,
+    "YTD_AllOther_segment_operating_profit_B": 0.511,
+    "Q3_Mobileye_adjusted_operating_profit_B": 0.089,
+    "YTD_Mobileye_adjusted_operating_profit_B": 0.339,
+    "Q3_residual_proxy_B": 0.09,
+    "YTD_residual_proxy_B": 0.172,
+    "planned_other_profit_B": 0.7,
+    "planned_Mobileye_adjusted_profit_proxy_B": 0.4,
+    "planned_non_Mobileye_residual_B": 0.3,
+    "limitation": "Subtracting Mobileye adjusted profit from Intel aggregate segment profit gives an approximate residual, not audited IMS standalone operating profit. Different adjustments, start-ups and eliminations remain. The $0.7B annual Other-profit policy is close to annualized $0.511B YTD aggregate profit; the Austrian report cautions against presenting its residual as independently proved IMS earnings."
+  },
+  "model_recommendation": "Retain the aggregate Other policy as an explicitly owned forecast unless replacing it with a complete segment bridge. Remove any assertion that IMS has an uncontested monopoly, mechanically benefits from all AI demand, or independently verifies $0.3B of recurring segment profit. Do not append the Austrian entity profit or revenue to consolidated Intel totals.",
+  "model_changed": false,
+  "source_strength": "Original filed issuer report with auditor, primary government identity and filing confirmation, six relevant pages visually checked. Management outlook is dated June 2026 and predates the stronger Intel Q3 figures; it is counterevidence to a blanket narrative, not a November trading update."
+}

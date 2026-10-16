@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-11-05T22:23:58.342245+00:00",
+  "scope": "Independent read-only economic reconstruction. No selected-model or PDF edits. Known base price and preceding scenario outputs were visible before diagnostics; no blindness claim.",
+  "questions": [
+    "Does the absolute APV reconstruct and does the treasury cash identity close?",
+    "How much operating scale and persistent economic excess return are embedded?",
+    "What is exposed to terminal-period capital productivity, ordinary taxes and finite capital-credit assumptions?",
+    "Does the target really depend on a multiple rerating or normal earned return?"
+  ],
+  "diagnostics_selected_before_new_outputs": [
+    {
+      "name": "capital_productivity_060",
+      "rule": "From2031 change host incremental sales/net operating investment from0.80to0.60, leave packaging capital separate; charge the incremental net reinvestment once with no extra tax benefit or depreciation addback. All revenue, EBIT, minority, tax and financial policies unchanged."
+    },
+    {
+      "name": "mature_tax_21",
+      "rule": "Keep2027-2030 ordinary tax15%; linearly raise to21%by2035 instead of18%, hold21%thereafter. Recompute ordinary operating tax and the financing tax benefit rate for each year. Finite capital-credit amounts and basis-loss cash charges remain unchanged. This is a labeled scope sensitivity, not a prediction of Intel statutory cash taxes."
+    },
+    {
+      "name": "no_new_capital_credits",
+      "rule": "Remove only the new-credit cash collections and paired basis-loss charges from2027on. Preserve oldreceivablecollections. Rebuild economic cash through2030 to avoid retaining cash from removed credits. Not an assertion the credits are unavailable."
+    },
+    {
+      "name": "terminal_incremental_return_equal_operating_rate",
+      "rule": "Pure terminal diagnostic starting2041: retain2040profitandall2041growth; replace2041netoperatinginvestment with (NOPAT2041-NOPAT2040)/11.555%. Keep minority/lease cash unchanged. New perpetual cash uses existing3%growth. This uses same-year delta-NOPAT/net-investment definition and is not a selectedbase, empiricalforecast, or precise full replacement-cost model."
+    }
+  ],
+  "exclusions": "No probabilities, no win estimates, no tuning a hurdle or parameter to get LONG/SHORT.",
+  "additional_diagnostics_selected_before_outputs": [
+    {
+      "name": "embedded_packaging_sales_capital_denominator",
+      "rule": "Known shadow externalpackagingsales allowance0.25/0.75/1.5/2B2027-2030then3%alreadycarriesprofitinhostbutisexcludedfromreportedcapitaldenominator. Addthisknownseriesbacktosalesforlabelonly; after2030chargeitsincrementalrevenue/.8netinvestment, leavingnear-termexplicitcapitalunchanged and all EBITtaxfunding unchanged. Shows consequence IF .8 is claimed to cover all hostexternal sales; cannot identify othermissinglegacyexternalwafer revenue."
+    },
+    {
+      "name": "remove_external_packaging_overlay",
+      "rule": "Remove exactly separate incrementalpackagingrevenue,netEBIT,physicalcapital,D&A,WCfromselectedmodel, retainingaggregatehostFoundryprofitincludingitsownembeddedshadowallowance. Recomputetax,owner cash and netcash; no hostrevenueorphysicalcapitalchange. Not a nopackagingcase, becausehostalreadycontainsanunmeasuredsmallerpackagingopportunity."
+    },
+    {
+      "name": "temporary_2027_unit_shortfall_restore_2028",
+      "selected_by": "deep_economic_underwriting agent before output",
+      "rule": "2027units+10%,ASP+20%=28.852164BCPUsales. RestorebaseabsoluteCPUsalesfrom2028,withoutrecoveringlost2027revenueabovebase. Retainbasephysicalcapex,D&AanddollarFoundryprofitpath. EBITdrops50%ofmissing2027CPUsales. WCstockis10%ofincrementalsales; release0.2622924Bin2027and reinvestsame2028vsbase. No extra inventory,penaltiesorcredits. Rebuildtaxandtreasury. Describesone-yearmissedshipmentswithlevelrestoration,notfullbacklogcatchup;2028shipmentgrowthconsequentlyhigherthanbasebutabsoluteoutputsame."
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "created_utc": "2026-11-05T21:47:35.682283+00:00",
+  "scope": "Adversarial method choice and refreshed entry-price interpretation. All underlying models and risk schedules remain frozen; no probability, margin, revenue or discount rate fitted to obtain a desired direction.",
+  "decision": {
+    "preferred_risk_convention": "Use the dated approximately 11.5% flat operating asset rate as primary; show the existing maturing-risk schedule and plain-T12 ERP as serious alternative conventions. This is an owned preference, not proof that 11.555% is uniquely correct.",
+    "preferred_operating_base_for_this_review": {
+      "mature_DCAI_margin": 0.35,
+      "host_sales_to_net_operating_capital": 0.8,
+      "reason": "Both are plausible owned forecasts, not measured conservative limits. The existing revenue/Foundry recovery already assumes substantial operating success. Evidence supports a real 40% upside but does not make 35% an arithmetic error."
+    },
+    "directional_implication": "The prior short remains unsupported at the new entry. A margin-durability long is a legitimate competition candidate, especially under risk maturation, but it is a distinct operating/risk judgment. At the preferred 35%/.8 flat convention, the modeled 2030 return is 7.67%; no model defect converts that into a compelling 12% long.",
+    "usable_long_formulation": "Own the claim that consolidated DCAI economics can retain approximately 40% mature margin, funded at existing .8 productivity, and explain whether the surviving business deserves a mature lower beta. At 52.22 the 40% case gives 10.03% under flat risk and 13.89% under maturing risk. Present the flat result prominently so the argument does not hide behind a discount-rate choice.",
+    "no_certainty_gate": "A directional pitch need not survive every plausible scenario or wait for future evidence. It needs an explicit preferred economic forecast and a credible reason for selecting it; the review does not require source documents to dictate an exact terminal margin."
+  },
+  "dated_entry": {
+    "USD": 52.22,
+    "date": "2026-11-05",
+    "time": "4:00 PM EST close",
+    "url": "https://stockanalysis.com/stocks/intc/history/",
+    "verified": "The history page displays 52.22 close and 52.25 after-hours at 4:35 PM. The frozen 58.28 reference and earlier 54.58 intraday observation are historical, not current.",
+    "source_note": "StockAnalysis attributes historical data to S&P Global. Its Nov.4 close now shows58.27, one cent below the original frozen reference."
+  },
+  "return_method": {
+    "endpoint": "2030-12-31",
+    "days": 1517,
+    "years": 4.153319644079398,
+    "formula": "(conditional_2030_value / 52.22) ** (365.25 / 1517) - 1",
+    "interpretation": "Conditional price CAGR assuming endpoint value becomes market price and no interim dividend. Not probability-weighted expected return, guaranteed return, total portfolio return, or risk-adjusted alpha.",
+    "hurdles": "10% and12% are transparent investor hurdle choices, not independently estimated expected equity returns. Do not compare this price CAGR directly with the unlevered operating discount rate.",
+    "macro_scope": "Underlying risk-free/ERP pair is the Nov.1 snapshot. These are new-entry sensitivities, not a full Nov.5 macro revaluation.",
+    "date_scope": "2026 planning values are December31 values and are not exact November5 intrinsic values."
+  },
+  "risk_method_reasoning": [
+    {
+      "issue": "Asset beta versus turnaround risk",
+      "finding": "The1.50 beta is an operating covariance estimate supported by established manufacturing peers; it is not an explicit company-specific execution surcharge that must disappear after turnaround. Peer matched weekly asset beta1.4635, daily1.6674 and monthly shrinkage1.5274 support a range near1.5, with imperfect business/capital matching. Diversifiable operating failures should be modeled in cash-flow scenarios instead of a second arbitrary rate premium."
+    },
+    {
+      "issue": "Maturity and systematic risk",
+      "finding": "Damodaran explicitly recommends moving mature-company betas toward1 as growth stabilizes. That is meaningful counterevidence to treating a high flat terminal beta as mandatory. However, declining nominal growth alone does not eliminate cyclical manufacturing covariance, and the existing peers are already established businesses. The current150bp fade implies terminal asset beta1.15998 under the retained RF/ERP; defensible favorable control, not a calibrated fact.",
+      "primary_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/littlebook/terminalvalue.htm"
+    },
+    {
+      "issue": "ERP method",
+      "finding": "The preferred sustainable-payout ERP4.41% normalizes terminal payout upward as growth-related retention falls; this is coherent with a mature valuation. PlainT12 ERP3.7943% holds current payout63.52% in the terminal. Both methods reproduce the same index price under their own cash assumptions. Choosing the lower ERP solely because Intel then becomes a long is not an economic correction. Show its10.6315% asset-rate result as a method control.",
+      "primary_url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPNov26.xlsx"
+    },
+    {
+      "issue": "Matched frameworks",
+      "finding": "Do not mix Kroll ERP with NYU Treasury/terminal conventions or substitute a quoted WACC while retaining the APV financing shield. The existing Kroll12.8% control uses its separate20-year Treasury/5%ERP pair."
+    },
+    {
+      "issue": "Equity hurdle",
+      "finding": "The unlevered rate discounts operations, while cash,debt,nonoperating holdings and financing shields change equity risk. A fixed12% target return is a defensible explicit investor hurdle, but cannot be described as the mechanically proven equity cost from11.555%. The same CAPM inputs imply historical-weekly equity-beta control around12.12%, while simplified current cash/Hamada capital adjustment gives closer11.2%; neither is a four-year hedged-return forecast."
+    }
+  ],
+  "is_prior_base_arbitrarily_conservative": {
+    "answer": "Not uniformly. Its judgment parameters can be challenged, but the overall operating forecast already describes strong commercial success and persistent economic rents.",
+    "margin": "35% product margin is not a demonstrated ceiling. Q3 DCAI41.53% andYTD37.87% support40% plausibility, but custom-silicon mix, scarcity normalization and competition make permanence contestable. A five-point product margin uplift only creates value if it is real consolidated profit; changing internal wafer charges alone does not.",
+    "capital": ".8 is not a directly measured marginal capital coefficient. It still implies approximately21% incremental after-tax operating return in maturity. Moving to1.0 reduces net investment per added revenue dollar20%, a meaningful efficiency claim; financing/deposits alone do not deliver that efficiency.",
+    "terminal_return_context": "The near21% mature incremental return is substantially above either11.555% or10.055% operating risk. Damodaran warns that perpetual excess returns need durable competitive advantage and suggests modest spreads as a rule of thumb. That makes the existing central terminal economics a success case, not a blanket pessimistic assumption. This is a methodological caution, not a mandate to revise ROIC to a chosen number.",
+    "prior_revenue_success": "The frozen2030 CPU revenue is59.57B and DCAI77.01B, with rapid OtherDCAI growth andFoundry2.5B profit. Lowering the2027CPU anchor to28.7B in a coherent permanent-gap case still gives2030value66.25 under flat risk; no plausible arithmetic rescue of the short was found."
+  },
+  "same_horizon_preferred_display": [
+    {
+      "label": "Demand downside",
+      "case": "weak_demand",
+      "risk": "corrected_central_flat",
+      "value_USD": 54.01653275663778,
+      "purpose": "Lower accepted unit/ASP growth and coherent capex/tax/cash adjustment. This is a specified downside, not a floor or comprehensive failure case."
+    },
+    {
+      "label": "Base",
+      "case": "central35_080",
+      "risk": "corrected_central_flat",
+      "value_USD": 70.97777530967525,
+      "purpose": "Preferred35% mature margin and.8 capital judgment with manufacturing risk retained."
+    },
+    {
+      "label": "Margin upside",
+      "case": "margin40_080",
+      "risk": "corrected_central_flat",
+      "value_USD": 77.6819879986314,
+      "purpose": "Isolates durable real product margin without lowering risk or improving capital."
+    },
+    {
+      "label": "Margin plus mature-risk upside",
+      "case": "margin40_080",
+      "risk": "corrected_maturing_risk",
+      "value_USD": 89.63590532589556,
+      "purpose": "A separate favorable business/risk scenario, not the same operating improvement counted twice."
+    }
+  ],
+  "all_return_controls": [
+    {
+      "case": "less_productive",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_sales_to_net_capital": 0.6,
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 60.19714887701973,
+      "price_change_fraction": 0.15276041510953142,
+      "price_CAGR_no_dividends": 0.03482041982192485,
+      "maximum_entry_for_10pct_CAGR_USD": 40.51901411597754,
+      "maximum_entry_for_12pct_CAGR_USD": 37.59739384734831
+    },
+    {
+      "case": "less_productive",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_sales_to_net_capital": 0.6,
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 68.7490514920971,
+      "price_change_fraction": 0.3165272212197836,
+      "price_CAGR_no_dividends": 0.06845263321693706,
+      "maximum_entry_for_10pct_CAGR_USD": 46.27534426189027,
+      "maximum_entry_for_12pct_CAGR_USD": 42.938664268977455
+    },
+    {
+      "case": "less_productive",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_sales_to_net_capital": 0.6,
+      "risk": "plain_T12_cash_ERP",
+      "conditional_2030_value_USD": 66.97958713105953,
+      "price_change_fraction": 0.2826424192083403,
+      "price_CAGR_no_dividends": 0.06176577241642045,
+      "maximum_entry_for_10pct_CAGR_USD": 45.084308593920774,
+      "maximum_entry_for_12pct_CAGR_USD": 41.83350813248521
+    },
+    {
+      "case": "less_productive",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_sales_to_net_capital": 0.6,
+      "risk": "Kroll_framework",
+      "conditional_2030_value_USD": 53.09000430501757,
+      "price_change_fraction": 0.01666036585633046,
+      "price_CAGR_no_dividends": 0.003986212547984369,
+      "maximum_entry_for_10pct_CAGR_USD": 35.73515812596099,
+      "maximum_entry_for_12pct_CAGR_USD": 33.15847741046675
+    },
+    {
+      "case": "central",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_sales_to_net_capital": 0.8,
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 70.97777530967525,
+      "price_change_fraction": 0.3592067274928237,
+      "price_CAGR_no_dividends": 0.07669159138792825,
+      "maximum_entry_for_10pct_CAGR_USD": 47.7755098595925,
+      "maximum_entry_for_12pct_CAGR_USD": 44.33066054636992
+    },
+    {
+      "case": "central",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_sales_to_net_capital": 0.8,
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 81.52789173697595,
+      "price_change_fraction": 0.5612388306582907,
+      "price_CAGR_no_dividends": 0.11322219779753118,
+      "maximum_entry_for_10pct_CAGR_USD": 54.87684811925539,
+      "maximum_entry_for_12pct_CAGR_USD": 50.91995737939696
+    },
+    {
+      "case": "central",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_sales_to_net_capital": 0.8,
+      "risk": "plain_T12_cash_ERP",
+      "conditional_2030_value_USD": 79.31566117706879,
+      "price_change_fraction": 0.5188751661637072,
+      "price_CAGR_no_dividends": 0.1058731151862411,
+      "maximum_entry_for_10pct_CAGR_USD": 53.38778421910623,
+      "maximum_entry_for_12pct_CAGR_USD": 49.53826231254437
+    },
+    {
+      "case": "central",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_sales_to_net_capital": 0.8,
+      "risk": "Kroll_framework",
+      "conditional_2030_value_USD": 62.25117763367518,
+      "price_change_fraction": 0.1920945544556718,
+      "price_CAGR_no_dividends": 0.043214042324405844,
+      "maximum_entry_for_10pct_CAGR_USD": 41.901591559231136,
+      "maximum_entry_for_12pct_CAGR_USD": 38.88028065475382
+    },
+    {
+      "case": "more_productive",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_sales_to_net_capital": 1.0,
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 80.26476387765602,
+      "price_change_fraction": 0.5370502466039071,
+      "price_CAGR_no_dividends": 0.10904487805497598,
+      "maximum_entry_for_10pct_CAGR_USD": 54.02663018507003,
+      "maximum_entry_for_12pct_CAGR_USD": 50.13104434128232
+    },
+    {
+      "case": "more_productive",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_sales_to_net_capital": 1.0,
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 92.57615666994872,
+      "price_change_fraction": 0.77281035369492,
+      "price_CAGR_no_dividends": 0.14781191876670552,
+      "maximum_entry_for_10pct_CAGR_USD": 62.31349272996186,
+      "maximum_entry_for_12pct_CAGR_USD": 57.82038332587228
+    },
+    {
+      "case": "more_productive",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_sales_to_net_capital": 1.0,
+      "risk": "plain_T12_cash_ERP",
+      "conditional_2030_value_USD": 89.9667800743846,
+      "price_change_fraction": 0.7228414414857258,
+      "price_CAGR_no_dividends": 0.1399376050167429,
+      "maximum_entry_for_10pct_CAGR_USD": 60.557107766853974,
+      "maximum_entry_for_12pct_CAGR_USD": 56.19064235990223
+    },
+    {
+      "case": "more_productive",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_sales_to_net_capital": 1.0,
+      "risk": "Kroll_framework",
+      "conditional_2030_value_USD": 70.12057390940956,
+      "price_change_fraction": 0.3427915340752501,
+      "price_CAGR_no_dividends": 0.073546327183164,
+      "maximum_entry_for_10pct_CAGR_USD": 47.19852313703925,
+      "maximum_entry_for_12pct_CAGR_USD": 43.795277405249244
+    },
+    {
+      "case": "margin_only",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_sales_to_net_capital": 0.8,
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 77.6819879986314,
+      "price_change_fraction": 0.487590731494282,
+      "price_CAGR_no_dividends": 0.10034547227789337,
+      "maximum_entry_for_10pct_CAGR_USD": 52.288150302668896,
+      "maximum_entry_for_12pct_CAGR_USD": 48.517917411608245
+    },
+    {
+      "case": "capital_only",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_sales_to_net_capital": 1,
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 73.56055118869989,
+      "price_change_fraction": 0.408666242602449,
+      "price_CAGR_no_dividends": 0.08599722455518766,
+      "maximum_entry_for_10pct_CAGR_USD": 49.51398974199365,
+      "maximum_entry_for_12pct_CAGR_USD": 45.943787476044
+    },
+    {
+      "case": "margin_only",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_sales_to_net_capital": 0.8,
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 89.63590532589556,
+      "price_change_fraction": 0.7165052724223586,
+      "price_CAGR_no_dividends": 0.1389267837121122,
+      "maximum_entry_for_10pct_CAGR_USD": 60.3343942520987,
+      "maximum_entry_for_12pct_CAGR_USD": 55.98398758529655
+    },
+    {
+      "case": "capital_only",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_sales_to_net_capital": 1,
+      "risk": "corrected_maturing_risk",
+      "conditional_2030_value_USD": 84.46814308102908,
+      "price_change_fraction": 0.6175439119308519,
+      "price_CAGR_no_dividends": 0.12275899008661395,
+      "maximum_entry_for_10pct_CAGR_USD": 56.85594659711854,
+      "maximum_entry_for_12pct_CAGR_USD": 52.75635311997267
+    },
+    {
+      "case": "weak_demand",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_sales_to_net_capital": 0.8,
+      "risk": "corrected_central_flat",
+      "conditional_2030_value_USD": 54.01653275663778,
+      "price_change_fraction": 0.03440315504859792,
+      "price_CAGR_no_dividends": 0.008177243695425718,
+      "maximum_entry_for_10pct_CAGR_USD": 36.35880924749087,
+      "maximum_entry_for_12pct_CAGR_USD": 33.73716021781208
+    }
+  ],
+  "long_thresholds": [
+    {
+      "owned_equity_return_hurdle": 0.08,
+      "required_2030_price_USD": 71.88800107276043,
+      "margin_thresholds_at_capital_080": [
+        {
+          "risk": "corrected_central_flat",
+          "mature_DCAI_margin": 0.3567884612654413
+        },
+        {
+          "risk": "corrected_maturing_risk",
+          "mature_DCAI_margin": 0.290553314578867
+        }
+      ]
+    },
+    {
+      "owned_equity_return_hurdle": 0.1,
+      "required_2030_price_USD": 77.58074037439181,
+      "margin_thresholds_at_capital_080": [
+        {
+          "risk": "corrected_central_flat",
+          "mature_DCAI_margin": 0.39924489549379616
+        },
+        {
+          "risk": "corrected_maturing_risk",
+          "mature_DCAI_margin": 0.32565894951151597
+        }
+      ]
+    },
+    {
+      "owned_equity_return_hurdle": 0.12,
+      "required_2030_price_USD": 83.60938864861446,
+      "margin_thresholds_at_capital_080": [
+        {
+          "risk": "corrected_central_flat",
+          "mature_DCAI_margin": 0.44420653792612563
+        },
+        {
+          "risk": "corrected_maturing_risk",
+          "mature_DCAI_margin": 0.3628360472562791
+        }
+      ]
+    },
+    {
+      "owned_equity_return_hurdle": 0.15,
+      "required_2030_price_USD": 93.31133441592907,
+      "margin_thresholds_at_capital_080": [
+        {
+          "risk": "corrected_central_flat",
+          "mature_DCAI_margin": 0.5165636230712363
+        },
+        {
+          "risk": "corrected_maturing_risk",
+          "mature_DCAI_margin": 0.42266541027420285
+        }
+      ]
+    }
+  ],
+  "planning_date_checks": [
+    {
+      "risk": "corrected_central_flat",
+      "planning_date": "2026-12-31",
+      "central_value_USD": 46.95806228358314,
+      "margin40_only_value_USD": 51.287102511241436,
+      "margin_to_match_52_22": 0.4107748766435371
+    },
+    {
+      "risk": "corrected_maturing_risk",
+      "planning_date": "2026-12-31",
+      "central_value_USD": 53.77047718436613,
+      "margin40_only_value_USD": 59.005978893709745,
+      "margin_to_match_52_22": 0.3351926589805228
+    }
+  ],
+  "model_limitations_not_fixes": [
+    "The NCI reserve proxies economic partner cash from guided earnings; public contract distributions and contributions are not fully reconciled. Error can run either way. Do not add a second arbitrary partner liability.",
+    "Fixed1B interest income on growing economic cash is a normalization rather than an instrument-level forecast. A defensible yield update could modestly change values, but economic cash already includes nonbank reserves; applying Treasury yield to all cash without scope reconciliation is not valid.",
+    "Financing tax shields are discounted at the operating rate. Lower specific shield risk could add value, but requires a justified liability schedule. This is not a missing tens-of-dollars correction.",
+    "No duplicate physical capex, free terminal growth, or omitted SBC addback correction was found in prior structural audit. Do not subtract all2030cash again or re-add already funded Apollo repurchase.",
+    "Scenario endpoints are not an exhaustive distribution. A downside value slightly above entry still has very low annualized return and does not bound mark-to-market loss or failure risk."
+  ],
+  "inputs": {
+    "rates": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "bridge": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/operating_value_bridge.json",
+      "sha256": "a8f5e5b3d13e1fc4a5febf77b59b5773c54662a1a700fb594bb7837e1c04b50c"
+    },
+    "weak_demand": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/weak_demand_results.json",
+      "sha256": "e7a3115ac8e08b07ac9a7a7b076bcc9b7ede34656341a96b8093cc18b4e0cf6a"
+    },
+    "risk_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/risk_external_review.json",
+      "sha256": "6f5d2618a6d1bac68e5c12083d15e9af2b106a312533324d002a04eddd95b75c"
+    },
+    "erp": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/erp_formula_reconstruction.json",
+      "sha256": "c414b0eb3d317257332c409c56775a54c23e7af8145b4c24f57602020fcd62a4"
+    },
+    "capital_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/capital_and_margin_reassessment.json",
+      "sha256": "c1f31ac05b6ddffebb649721de0f705e211a002ab53352852eaee1e508b824ab"
+    },
+    "cpu_anchor": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_valuation.json",
+      "sha256": "579bbd0ffd1091ce40c8a5d9fd078cf4815129771e9ca7a710d84fa44ddbc271"
+    },
+    "structural_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/structural_model_audit.json",
+      "sha256": "40b221493bc5012cbff424456db8b10ebd7790ffffa916066e45bf3753379ae1"
+    }
+  }
+}

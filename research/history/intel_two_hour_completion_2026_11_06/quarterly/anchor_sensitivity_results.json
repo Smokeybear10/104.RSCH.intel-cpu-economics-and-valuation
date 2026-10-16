@@ -1,0 +1,383 @@
+{
+  "computed_utc": "2026-11-06T06:58:00.965116+00:00",
+  "policy_sha256": "6792bb4da3dcbd3e2a3612be6d84281936a34059c1c854111fbcaf536d8785a9",
+  "CPU_anchor_cases": [
+    {
+      "Q4_DCAI_growth": 0.13,
+      "Q4_Other_DCAI_growth": 0.25,
+      "Q4_DCAI_B": 8.269339999999998,
+      "Q4_Other_DCAI_B": 1.75,
+      "Q4_CPU_B": 6.519339999999998,
+      "Q4_CPU_delta_vs_selected_B": -0.006360000000001698,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 30.375390831093455,
+          "delta_vs_selected_CPU_B": -0.02963298212484955
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 39.36323219727018,
+          "delta_vs_selected_CPU_B": -0.03840115054203632
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 44.80287964280778,
+          "delta_vs_selected_CPU_B": -0.043707846887621964
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 49.82922349560356,
+          "delta_vs_selected_CPU_B": -0.04861134124499425
+        }
+      ]
+    },
+    {
+      "Q4_DCAI_growth": 0.13,
+      "Q4_Other_DCAI_growth": 0.35,
+      "Q4_DCAI_B": 8.269339999999998,
+      "Q4_Other_DCAI_B": 1.89,
+      "Q4_CPU_B": 6.379339999999998,
+      "Q4_CPU_delta_vs_selected_B": -0.14636000000000138,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 29.723092482433458,
+          "delta_vs_selected_CPU_B": -0.6819313307848459
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 38.5179238520055,
+          "delta_vs_selected_CPU_B": -0.8837094958067097
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 43.84075722704283,
+          "delta_vs_selected_CPU_B": -1.00583026265257
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 48.75916252480214,
+          "delta_vs_selected_CPU_B": -1.1186723120464035
+        }
+      ]
+    },
+    {
+      "Q4_DCAI_growth": 0.13,
+      "Q4_Other_DCAI_growth": 0.45,
+      "Q4_DCAI_B": 8.269339999999998,
+      "Q4_Other_DCAI_B": 2.03,
+      "Q4_CPU_B": 6.2393399999999986,
+      "Q4_CPU_delta_vs_selected_B": -0.28636000000000106,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 29.070794133773457,
+          "delta_vs_selected_CPU_B": -1.3342296794448456
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 37.672615506740826,
+          "delta_vs_selected_CPU_B": -1.7290178410713872
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 42.87863481127788,
+          "delta_vs_selected_CPU_B": -1.9679526784175227
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 47.68910155400073,
+          "delta_vs_selected_CPU_B": -2.1887332828478185
+        }
+      ]
+    },
+    {
+      "Q4_DCAI_growth": 0.15,
+      "Q4_Other_DCAI_growth": 0.25,
+      "Q4_DCAI_B": 8.4157,
+      "Q4_Other_DCAI_B": 1.75,
+      "Q4_CPU_B": 6.665699999999999,
+      "Q4_CPU_delta_vs_selected_B": 0.13999999999999968,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 31.0573221618783,
+          "delta_vs_selected_CPU_B": 0.6522983486599964
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 40.24694169307689,
+          "delta_vs_selected_CPU_B": 0.8453083452646732
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 45.80870990546035,
+          "delta_vs_selected_CPU_B": 0.9621224157649478
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 50.94789580764996,
+          "delta_vs_selected_CPU_B": 1.0700609708014093
+        }
+      ]
+    },
+    {
+      "Q4_DCAI_growth": 0.15,
+      "Q4_Other_DCAI_growth": 0.35,
+      "Q4_DCAI_B": 8.4157,
+      "Q4_Other_DCAI_B": 1.89,
+      "Q4_CPU_B": 6.5257,
+      "Q4_CPU_delta_vs_selected_B": 0.0,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 30.405023813218303,
+          "delta_vs_selected_CPU_B": 0.0
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 39.401633347812215,
+          "delta_vs_selected_CPU_B": 0.0
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 44.8465874896954,
+          "delta_vs_selected_CPU_B": 0.0
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 49.87783483684855,
+          "delta_vs_selected_CPU_B": 0.0
+        }
+      ]
+    },
+    {
+      "Q4_DCAI_growth": 0.15,
+      "Q4_Other_DCAI_growth": 0.45,
+      "Q4_DCAI_B": 8.4157,
+      "Q4_Other_DCAI_B": 2.03,
+      "Q4_CPU_B": 6.3857,
+      "Q4_CPU_delta_vs_selected_B": -0.13999999999999968,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 29.752725464558303,
+          "delta_vs_selected_CPU_B": -0.6522983486599997
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 38.55632500254754,
+          "delta_vs_selected_CPU_B": -0.8453083452646777
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 43.88446507393045,
+          "delta_vs_selected_CPU_B": -0.9621224157649528
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 48.807773866047135,
+          "delta_vs_selected_CPU_B": -1.0700609708014148
+        }
+      ]
+    },
+    {
+      "Q4_DCAI_growth": 0.17,
+      "Q4_Other_DCAI_growth": 0.25,
+      "Q4_DCAI_B": 8.562059999999999,
+      "Q4_Other_DCAI_B": 1.75,
+      "Q4_CPU_B": 6.812059999999999,
+      "Q4_CPU_delta_vs_selected_B": 0.2863599999999993,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 31.73925349266314,
+          "delta_vs_selected_CPU_B": 1.3342296794448354
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 41.13065118888359,
+          "delta_vs_selected_CPU_B": 1.7290178410713741
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 46.81454016811291,
+          "delta_vs_selected_CPU_B": 1.9679526784175079
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 52.06656811969635,
+          "delta_vs_selected_CPU_B": 2.1887332828478017
+        }
+      ]
+    },
+    {
+      "Q4_DCAI_growth": 0.17,
+      "Q4_Other_DCAI_growth": 0.35,
+      "Q4_DCAI_B": 8.562059999999999,
+      "Q4_Other_DCAI_B": 1.89,
+      "Q4_CPU_B": 6.672059999999999,
+      "Q4_CPU_delta_vs_selected_B": 0.1463599999999996,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 31.08695514400314,
+          "delta_vs_selected_CPU_B": 0.6819313307848391
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 40.28534284361891,
+          "delta_vs_selected_CPU_B": 0.8837094958067009
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 45.85241775234796,
+          "delta_vs_selected_CPU_B": 1.00583026265256
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 50.99650714889494,
+          "delta_vs_selected_CPU_B": 1.1186723120463926
+        }
+      ]
+    },
+    {
+      "Q4_DCAI_growth": 0.17,
+      "Q4_Other_DCAI_growth": 0.45,
+      "Q4_DCAI_B": 8.562059999999999,
+      "Q4_Other_DCAI_B": 2.03,
+      "Q4_CPU_B": 6.5320599999999995,
+      "Q4_CPU_delta_vs_selected_B": 0.006359999999999921,
+      "annual": [
+        {
+          "year": 2027,
+          "CPU_revenue_B": 30.434656795343145,
+          "delta_vs_selected_CPU_B": 0.029632982124842798
+        },
+        {
+          "year": 2028,
+          "CPU_revenue_B": 39.440034498354244,
+          "delta_vs_selected_CPU_B": 0.03840115054202757
+        },
+        {
+          "year": 2029,
+          "CPU_revenue_B": 44.890295336583016,
+          "delta_vs_selected_CPU_B": 0.043707846887612006
+        },
+        {
+          "year": 2030,
+          "CPU_revenue_B": 49.926446178093535,
+          "delta_vs_selected_CPU_B": 0.048611341244983175
+        }
+      ]
+    }
+  ],
+  "client_anchor_cases": [
+    {
+      "Q4_CCPG_growth": -0.21,
+      "Q4_CCPG_B": 6.39663,
+      "Q4_client_B": 5.19963,
+      "Q4_client_delta_vs_selected_B": 0.32387999999999995,
+      "annual": [
+        {
+          "year": 2027,
+          "client_revenue_B": 23.56174695983816,
+          "CCPG_revenue_B": 28.38964695983816,
+          "delta_vs_selected_client_B": 1.4676387753267799
+        },
+        {
+          "year": 2028,
+          "client_revenue_B": 25.23463099398668,
+          "CCPG_revenue_B": 30.44876299398668,
+          "delta_vs_selected_client_B": 1.5718411283749818
+        },
+        {
+          "year": 2029,
+          "client_revenue_B": 27.026289794559744,
+          "CCPG_revenue_B": 32.65755235455975,
+          "delta_vs_selected_client_B": 1.683441848489606
+        },
+        {
+          "year": 2030,
+          "client_revenue_B": 28.39382005816445,
+          "CCPG_revenue_B": 34.47558362296445,
+          "delta_vs_selected_client_B": 1.7686240060231793
+        }
+      ]
+    },
+    {
+      "Q4_CCPG_growth": -0.25,
+      "Q4_CCPG_B": 6.072749999999999,
+      "Q4_client_B": 4.875749999999999,
+      "Q4_client_delta_vs_selected_B": -8.881784197001252e-16,
+      "annual": [
+        {
+          "year": 2027,
+          "client_revenue_B": 22.094108184511377,
+          "CCPG_revenue_B": 26.922008184511377,
+          "delta_vs_selected_client_B": -4.90587752300073e-15
+        },
+        {
+          "year": 2028,
+          "client_revenue_B": 23.662789865611696,
+          "CCPG_revenue_B": 28.876921865611695,
+          "delta_vs_selected_client_B": -5.2541948271337845e-15
+        },
+        {
+          "year": 2029,
+          "client_revenue_B": 25.34284794607013,
+          "CCPG_revenue_B": 30.97411050607013,
+          "delta_vs_selected_client_B": -5.627242659860285e-15
+        },
+        {
+          "year": 2030,
+          "client_revenue_B": 26.625196052141266,
+          "CCPG_revenue_B": 32.70695961694127,
+          "delta_vs_selected_client_B": -5.911981138449212e-15
+        }
+      ]
+    },
+    {
+      "Q4_CCPG_growth": -0.3,
+      "Q4_CCPG_B": 5.6678999999999995,
+      "Q4_client_B": 4.470899999999999,
+      "Q4_client_delta_vs_selected_B": -0.4048500000000006,
+      "annual": [
+        {
+          "year": 2027,
+          "client_revenue_B": 20.259559715352903,
+          "CCPG_revenue_B": 25.087459715352903,
+          "delta_vs_selected_client_B": -1.8345484691584784
+        },
+        {
+          "year": 2028,
+          "client_revenue_B": 21.69798845514297,
+          "CCPG_revenue_B": 26.91212045514297,
+          "delta_vs_selected_client_B": -1.9648014104687312
+        },
+        {
+          "year": 2029,
+          "client_revenue_B": 23.238545635458124,
+          "CCPG_revenue_B": 28.869808195458123,
+          "delta_vs_selected_client_B": -2.104302310612012
+        },
+        {
+          "year": 2030,
+          "client_revenue_B": 24.414416044612295,
+          "CCPG_revenue_B": 30.496179609412295,
+          "delta_vs_selected_client_B": -2.2107800075289785
+        }
+      ]
+    }
+  ],
+  "old_target_recovery_via_anchor_only": {
+    "CPU_Q4_anchor_B": 6.7553632920460185,
+    "implied_Q4_DCAI_growth_holdingOther1_89": 0.18138334135638412,
+    "implied_Q4_Other_DCAI_growth_holdingDCAI15percent": 0.1859547913957007,
+    "client_Q4_anchor_B": 5.235811277548895,
+    "implied_Q4_CCPG_decline_holdingOther1_197": -0.20553152061888413,
+    "boundary": "Reverse hurdle, not a newly selected forecast. A less severeQ4clientreset cannearlyrestoreold2027target evenwithselectedrecoveryrates."
+  },
+  "valuation_boundary": "Noequityvalue. Avaluationimplementationmustupdate2026Q4profit/cash/workingcapitaland2027openingliquidityconsistently, notonly2027sales."
+}

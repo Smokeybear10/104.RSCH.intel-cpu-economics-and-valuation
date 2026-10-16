@@ -1,0 +1,214 @@
+{
+  "checked_utc": "2026-11-07T05:39:29.071513+00:00",
+  "status": "pass",
+  "scope": "Direct text and numeric QA of current main7/9 and defense6/10 against reviewer computations, active model and independent root funding audit; no sharedartifact/model edits. Not a visual-layout or fresh external-source audit.",
+  "input_sha256": {
+    "main_pdf": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "93208f107eceb7b476908cfc2d1669f149f08f9217ffd0257b62981b9884299b"
+    },
+    "defense_pdf": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "8e063c1f542a1a93dbfbf783ec97fbdc7f65d6f2bc84c60ebd8d77e1ee595cd2"
+    },
+    "active_model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+      "sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7"
+    },
+    "calculations": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/valuation/funded_cash_bridge_results.json",
+      "sha256": "af533b9d59c95cdbb4223be4b137269a9c0a9e5451d6a9cd86776ded08f0f725"
+    },
+    "independent_root_audit": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/root/independent_funding_audit.json",
+      "sha256": "70c5bf0e27cfb1d776578819ebf2b345e08a1cb3d7a146368ad0d59d83566666"
+    }
+  },
+  "checks": [
+    {
+      "name": "main7_core",
+      "status": "pass",
+      "evidence": {
+        "target": "$73.56",
+        "annual_return_at40": "15.8%"
+      }
+    },
+    {
+      "name": "main7_selected_joint",
+      "status": "pass",
+      "evidence": {
+        "target": "$64.74",
+        "annual_return_at40": "12.3%"
+      }
+    },
+    {
+      "name": "main7_joint_plus_CPU_delay",
+      "status": "pass",
+      "evidence": {
+        "target": "$59.50",
+        "annual_return_at40": "10.0%"
+      }
+    },
+    {
+      "name": "main7_joint_plus_CPU_delay_plus_2031_2040_capital060",
+      "status": "pass",
+      "evidence": {
+        "target": "$56.08",
+        "annual_return_at40": "8.5%"
+      }
+    },
+    {
+      "name": "main9_cash_ramp_2027",
+      "status": "pass",
+      "evidence": [
+        "(12.24)",
+        "2.12",
+        "(10.12)"
+      ]
+    },
+    {
+      "name": "main9_cash_ramp_2028",
+      "status": "pass",
+      "evidence": [
+        "(2.42)",
+        "6.17",
+        "3.75"
+      ]
+    },
+    {
+      "name": "main9_cash_ramp_2030",
+      "status": "pass",
+      "evidence": [
+        "19.45",
+        "3.61",
+        "23.06"
+      ]
+    },
+    {
+      "name": "main9_cash_bridge_value_38.94",
+      "status": "pass",
+      "evidence": "38.94"
+    },
+    {
+      "name": "main9_cash_bridge_value_5.84",
+      "status": "pass",
+      "evidence": "5.84"
+    },
+    {
+      "name": "main9_cash_bridge_value_11.35",
+      "status": "pass",
+      "evidence": "11.35"
+    },
+    {
+      "name": "main9_cash_bridge_value_2.30",
+      "status": "pass",
+      "evidence": "2.30"
+    },
+    {
+      "name": "main9_cash_bridge_value_19.45",
+      "status": "pass",
+      "evidence": "19.45"
+    },
+    {
+      "name": "main9_cash_bridge_value_3.61",
+      "status": "pass",
+      "evidence": "3.61"
+    },
+    {
+      "name": "main9_cash_bridge_value_23.06",
+      "status": "pass",
+      "evidence": "23.06"
+    },
+    {
+      "name": "main9_cash_bridge_value_30.00",
+      "status": "pass",
+      "evidence": "30.00"
+    },
+    {
+      "name": "main9_cash_bridge_value_21.81",
+      "status": "pass",
+      "evidence": "21.81"
+    },
+    {
+      "name": "main9_cash_bridge_value_3.16",
+      "status": "pass",
+      "evidence": "3.16"
+    },
+    {
+      "name": "main9_cash_bridge_value_124.5",
+      "status": "pass",
+      "evidence": "124.5"
+    },
+    {
+      "name": "main9_cash_bridge_value_15.33",
+      "status": "pass",
+      "evidence": "15.33"
+    },
+    {
+      "name": "main9_combined_funding",
+      "status": "pass",
+      "evidence": {
+        "peak_B": 2.6515567929590174,
+        "interest_B": 0.1257387879085155,
+        "draw_quarters": [
+          "Q2 2028",
+          "Q3 2028"
+        ],
+        "repayment": "Q4 2028"
+      }
+    },
+    {
+      "name": "funding_not_double_counted",
+      "status": "pass",
+      "evidence": {
+        "funding_target_cost_USD": 0.022820106698460164,
+        "unlevered_cash_bridge_excludes_financing": true,
+        "incremental_debt_2030_B": 0.0,
+        "no_extra_proceeds_value": true
+      }
+    },
+    {
+      "name": "capital_stress_does_not_change2030_cash_or_financing",
+      "status": "pass",
+      "evidence": "Added capital need starts2031; terminal cash unchanged versus CPU/factory joint."
+    },
+    {
+      "name": "base_forecast_unchanged",
+      "status": "pass",
+      "evidence": {
+        "core_Dec2026_value_USD": 56.13928584556836,
+        "core_Dec2030_target_USD": 82.47015162680005
+      }
+    },
+    {
+      "name": "labels_keep_cash_forecast_and_credit_financing_scope",
+      "status": "pass",
+      "evidence": "Recurring is explicitly defined as model parent operating cash excluding finite credits and financing, not guaranteed durable cash."
+    },
+    {
+      "name": "source_audit_agreement",
+      "status": "pass",
+      "evidence": {
+        "root_funding_implementation_max_error": 7.105427357601002e-15
+      }
+    }
+  ],
+  "failed_checks": [],
+  "optional_wording_clarifications": [
+    {
+      "page": "defense10",
+      "current": "Entry is the lower of...",
+      "recommendation": "Use updated entry ceiling rather than Entry, preserving current rounding down from40.45 to40.",
+      "classification": "Optional wording precision; prior notesp6 supplies the rounding."
+    },
+    {
+      "page": "defense10",
+      "current": "If the slower CPU case becomes my preferred forecast...Its funded12%ceiling is37.17",
+      "recommendation": "Label37.17 as the joint stress withCPUdelay to distinguish from standaloneCPUdelay.",
+      "classification": "Optional antecedent clarification; table already identifies combined scenario."
+    }
+  ],
+  "material_findings": [],
+  "no_financing_or_operating_profit_doublecount_established": true,
+  "no_new_central_forecast_or_adopted_entry_ceiling": true
+}

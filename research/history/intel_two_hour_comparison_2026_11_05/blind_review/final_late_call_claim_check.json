@@ -1,0 +1,70 @@
+{
+  "checked_utc": "2026-11-06T00:09:23.501388+00:00",
+  "reviewer": "independent final_blind_screen agent",
+  "scope": "Focused review of late substrate capacity and UBS question additions; no model or PDF edits.",
+  "files": {
+    "m37_intel_initial_screen.pdf": {
+      "sha256": "2020ecf0ab40e120382ce4a72a083bc16bcb15169a5b5e75e98aff8324ffa64b",
+      "pages_reviewed": [
+        4
+      ],
+      "page_count": 10
+    },
+    "m37_intel_defense_notes.pdf": {
+      "sha256": "a8b9186e3273ba0f9d614ce6cf26532d55f91e7628d56dddfcf7d3b3f3e21ff7",
+      "pages_reviewed": [
+        1,
+        2
+      ],
+      "page_count": 5
+    }
+  },
+  "live_source_checks": [
+    {
+      "url": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/",
+      "locator": "31:56,32:22,33:01",
+      "status": "independently reopened; first-person transcript statements match added paraphrases"
+    },
+    {
+      "url": "https://earningscalls.dev/transcripts/intel-corporation_intc_earnings_call_transcript_2026-10-29",
+      "locator": "Timothy Arcuri segment7; David Zinsner segment8",
+      "status": "independently reopened; matches same underlying call, not independent economic corroboration"
+    }
+  ],
+  "substrate_claim": {
+    "pass": true,
+    "support": "CFO described40% more substrate capacity with much arriving in H2 2027, while first-half constraints and Intel3 constraints remain.",
+    "scope": "The statement does not specify a matched CPU allocation, capacity denominator, good-die yields or accepted-package schedule. It must not be equated with the41.2% H2 CPU revenue hurdle.",
+    "fair_comparison_effect": "Adds affirmative supply-timing evidence missing from a purely risk-focused account; improves balance without validating the annual unit/ASP forecast."
+  },
+  "UBS_question": {
+    "pass": true,
+    "2027_DCAI_B": 39.779088,
+    "frozen2026_DCAI_B": 27.0477,
+    "growth_B": 12.731388000000003,
+    "display_growth_B": 12.73,
+    "range_B": [
+      10,
+      15
+    ],
+    "scope": "An analyst question about total DCAI revenue growth, not CPU-only growth, company guidance, a formal UBS estimate or measured consensus.",
+    "fair_comparison_effect": "Shows comparable public bullish expectations were discussed at the post-results call. It limits claims of differentiated revenue expectations; it does not independently establish the forecast or investor pricing.",
+    "minor_receipt_correction": "Parent task message used27.0487B rather than the frozen27.0477B anchor. The1M difference leaves displayed12.73B unchanged. No PDF correction required.",
+    "model_locators": [
+      {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json",
+        "field": "FY2026_estimated_anchor.DCAI_revenue_B",
+        "value": 27.0477,
+        "sha256": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d"
+      },
+      {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+        "field": "annual_rows[0].DCAI_revenue_B; annual_rows[0].year == 2027",
+        "value": 39.779088,
+        "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+      }
+    ]
+  },
+  "assessment": "Current final wording is accurate and appropriately qualified. These additions improve evidentiary balance and honesty, not proof of a valuation gap or competition-winning readiness.",
+  "changes_required": []
+}

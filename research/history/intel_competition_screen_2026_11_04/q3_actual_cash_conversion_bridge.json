@@ -1,0 +1,143 @@
+{
+  "prepared_utc": "2026-11-04T10:54:58.183920+00:00",
+  "scope": "Q3 actual reconciliation, derived from Q3YTD minus Q2YTD consolidated cash-flow statements. Historical accounting bridge, not normalized forecast or ownerFCFE.",
+  "units": "USD billions unless source_signed_YTD_USD_M fields explicitly say millions.",
+  "operating_profit_to_net_income_B": {
+    "consolidated_operating_profit": 2.522,
+    "equity_investment_gains": 0.33,
+    "interest_and_other_net": 1.13,
+    "tax_provision": -0.462,
+    "consolidated_net_income": 3.52,
+    "NCI_profit_not_yet_subtracted_in_consolidated_CFO": 0.2,
+    "Intel_net_income": 3.32
+  },
+  "source_signed_YTD_USD_M_Q3_then_Q2": {
+    "net_income": [
+      -11609,
+      -15129
+    ],
+    "depreciation": [
+      8933,
+      5891
+    ],
+    "SBC_addback": [
+      1894,
+      1307
+    ],
+    "restructuring_and_other_addback": [
+      3969,
+      3967
+    ],
+    "intangible_amortization": [
+      659,
+      469
+    ],
+    "equity_investment_gain_loss_adjustment": [
+      -219,
+      111
+    ],
+    "escrow_mark_to_market_adjustment": [
+      12614,
+      13619
+    ],
+    "divestiture_gain_loss_adjustment": [
+      18,
+      0
+    ],
+    "deferred_tax": [
+      56,
+      -27
+    ],
+    "PPE_impairment_disposal_adjustment": [
+      140,
+      165
+    ],
+    "accounts_receivable_change": [
+      -281,
+      -221
+    ],
+    "inventories_change": [
+      -1450,
+      -874
+    ],
+    "accounts_payable_change": [
+      821,
+      310
+    ],
+    "accrued_compensation_change": [
+      -207,
+      -372
+    ],
+    "income_taxes_change": [
+      -405,
+      -477
+    ],
+    "other_assets_liabilities_change": [
+      -1749,
+      -637
+    ]
+  },
+  "Q3_indirect_CFO_bridge_B": {
+    "net_income": 3.52,
+    "depreciation": 3.042,
+    "SBC_addback": 0.587,
+    "restructuring_and_other_addback": 0.002,
+    "intangible_amortization": 0.19,
+    "equity_investment_gain_loss_adjustment": -0.33,
+    "escrow_mark_to_market_adjustment": -1.005,
+    "divestiture_gain_loss_adjustment": 0.018,
+    "deferred_tax": 0.083,
+    "PPE_impairment_disposal_adjustment": -0.025,
+    "accounts_receivable_change": -0.06,
+    "inventories_change": -0.576,
+    "accounts_payable_change": 0.511,
+    "accrued_compensation_change": 0.165,
+    "income_taxes_change": 0.072,
+    "other_assets_liabilities_change": -1.112
+  },
+  "Q3_CFO_B": 5.082,
+  "Q3_cash_capital_partner_bridge_B": {
+    "PPE_cash_investing": 4.024,
+    "PPE_cash_financing_extended_terms": 0.195,
+    "finance_lease_cash": 0.119,
+    "capital_incentive_cash": 0.048,
+    "partner_contributions": 0.95,
+    "partner_distributions": 0.103
+  },
+  "Q3_total_gross_cash_PPE_B": 4.219,
+  "Q3_after_cash_PPE_and_lease_before_incentives_and_partner_flows_B": 0.7439999999999998,
+  "Q3_reported_adjusted_FCF_reproduced_B": 1.6389999999999998,
+  "additional_observations_B": {
+    "Q3_non_cash_PPE_acquisition": 0.067,
+    "Q3_capital_incentives_recognized": 1.293,
+    "Q3_cash_interest_paid_net_of_capitalized_interest": 0.557,
+    "Q3_cash_income_taxes_paid_net_refunds": 0.223,
+    "Q3_income_statement_SBC": 0.586,
+    "Q3_cashflow_SBC_addback": 0.587
+  },
+  "scope_traps": [
+    "CFO starts with consolidated net income beforeNCI. Do not subtract both anNCI income allocation and the same partner distribution when constructing cash attributable to common holders.",
+    "Q3 cash-flow SBC addback587M differs from income-statement SBC586M. Preserve each reported scope; future ownercash built from EBIT already charging economicSBC must not add SBC back permanently or deduct it twice.",
+    "Q3 gross capex4.219B reconciles exactly to4.024B investingPPE plus195M financing-classified extended-term capital payments. A forecast of all cashPPE must not subtract those financing payments again.",
+    "Partner contributions are financing from minority capital, not customer operating profit. Partner cash distributions and continuing minority economics need separate owner treatment.",
+    "Capital incentives recognized1.293B duringQ3 are not48M cash received. NoncashPPE67M is not additional current cash capex.",
+    "Actual cash taxes and interest differ from accounting expenses due timing/classification. The indirect bridge reconciles totalCFO but does not identify a universal cash-tax rate.",
+    "Government escrow mark-to-market and portfolio/disposal gains are not operating cash generation and are reversed in the indirect bridge.",
+    "The computed744M is before incentives and minority partner flows, not common-owner FCFE. It is not a steady-state or annualized cash forecast."
+  ],
+  "sources": {
+    "Q3_10Q": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "Q2_10Q": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
+    "Q3_release": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm"
+  },
+  "locators": {
+    "Q3": "Consolidated cash-flow statement and supplemental disclosures printedpp6\u20137; release adjustedFCF reconciliation p13.",
+    "Q2": "Consolidated cash-flow statement and supplemental disclosures; retained HTML tables18 and20."
+  },
+  "source_hashes": {
+    "q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+    "q2_10q.html": "23bf9b8f45c8a4412245f9919fcbf124d0aa1af3bd949af671a4cce68fc2acda",
+    "q2_10q_extracted.txt": "5057c788f7279154f01b2c7376f297de6fa77cb97e748fb4fc9fe8d63581dbbb",
+    "q3_remarks.txt": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb"
+  }
+}

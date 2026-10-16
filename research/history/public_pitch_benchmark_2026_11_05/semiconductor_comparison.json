@@ -1,0 +1,90 @@
+{
+  "scope": "Read-only comparison of new public semiconductor pitches with current Intel LONG screen. Ordinary fund work is not represented as a competition winner. Historical ideas not current recommendations.",
+  "examples": [
+    {
+      "name": "UConn Student Managed Fund TSM one-pager, 2023 archive",
+      "url": "https://smf-business.media.uconn.edu/wp-content/uploads/sites/818/2023/04/TSM-One-Pager.pdf",
+      "status": "Ordinary fund summary, no verified award",
+      "pages_read": [
+        1
+      ],
+      "visual_pages": [
+        1
+      ],
+      "useful": "Compact quote/target/valuation/risk/economic-driver map, recognizable investment-research structure.",
+      "limitations": "Extremely dense paragraphs and embedded spreadsheet. Mostly technological leadership and end-market demand; does not identify a quantified forecast disagreement. A one-page fund summary is not a direct test of their underlying research depth.",
+      "comparison": "Our ten-page screen is easier to scan and has a specific margin decomposition, cash funding and downside case. Should not add logo clusters, ESG boilerplate or compressed model screenshots to imitate this."
+    },
+    {
+      "name": "Carleton Sprott Student Investment Fund Micron Hold, 2020",
+      "url": "https://sprott.carleton.ca/wp-content/uploads/SSIF-MU_REPORT.pdf",
+      "status": "Student fund research report, no verified award",
+      "pages_read": [
+        1,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "visual_pages": [
+        10,
+        16
+      ],
+      "useful": "PDFpage10 (printed9) supports cyclicality with five years of DRAM/NAND price changes. PDFpage16 (printed15) separates present value from holding-period IRR and shows entry-price versus exit-multiple sensitivities, including negative-return cells. PDFpage18 retains HOLD despite valuation upside because business risk weakens conviction.",
+      "limitations": "Do not copy its broad semiconductor peer universe as a fully comparable memory-chip group; broad industry shares on p6 do not describe DRAM-specific structure. Several company-description pages are unsuitable for a ten-page screen.",
+      "comparison": "We already separate planning value and2030 target, but a compact investment-history chart would strengthen the case that40% is durable rather than extrapolating Q3. Need fixed perimeter accounting when comparing old Intel margins. Entry-price sensitivity could make moderate conviction more decision-useful."
+    },
+    {
+      "name": "Notre Dame Investment Club Applied Materials, February2019",
+      "url": "https://investmentclub.nd.edu/assets/466895/02.14.19_amat_deck.pdf",
+      "status": "Ordinary club investment pitch, no verified award",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "visual_pages": [],
+      "access_note": "Web returned text of23-pagePDF initially; later origin404 prevents complete visual inspection. Claims limited to reviewed text.",
+      "useful": "p8 displays historical price/sales andEV/EBITDA with an explicit why-now discussion; p9 compares R&D spending to competitors and industry wafer-equipment growth. p4-5 explain where the business fits in chip production.",
+      "limitations": "Historical cheapness is not proof of mispricing, particularly at a cycle peak; R&D spending alone is not return on R&D.",
+      "comparison": "Current Intel screen describes improving business but does not demonstrate a large initial discount. Better why-now explanation must admit this, not borrow AMAT historical-multiple argument without support."
+    }
+  ],
+  "additional_quality_warning": {
+    "name": "HenryMcKinney / GoldenFlyer Micron2022",
+    "url": "https://henrymckinney.com/pdf/MU_Stock_Pitch.pdf",
+    "status": "Author-hosted student pitch, award not verified; first two pages inspected viaweb; origin later502",
+    "finding": "Page1 states130 target from90.57 entry and calls upside31%; arithmetic is43.54%. Shows why a public pitch is not a vetted gold standard. Do not reproduce its numerical risk probabilities without calibration."
+  },
+  "our_strengths": "Specific assumptions, funded cash bridge, negative scenarios, explicit uncertainty and readable evidence tables. More disciplined than the reviewed ordinary examples, with unequal lengths/formats acknowledged.",
+  "our_main_gaps": [
+    "p5 demonstrates40% is possible if Q3 profitability persists; it does not independently prove persistence. An across-cycle competitive-margin or cost/mix exhibit is the right next evidentiary improvement.",
+    "p6 Oracle billing audit is original but explicitly does not establish chip pricing power or40%margin; avoid letting it stand in as proof of the central long.",
+    "p3 uses a single analyst reference with unmatchedEPS conventions, not clean consensus; quantify a comparable same-basis disagreement or label it accurately.",
+    "p7 means current price near modeled fair value. A10%return can be an investment case, but cannot be presented as demonstrated mispricing or a high-confidence winning edge."
+  ],
+  "unchanged_files": [
+    "output/pdf/m37_intel_initial_screen.pdf",
+    "output/pdf/m37_intel_defense_notes.pdf"
+  ],
+  "visual_evidence": [
+    "tmp/pdfs/public_pitch_benchmark/uconn_tsm_2023_1.png",
+    "tmp/pdfs/public_pitch_benchmark/carleton_mu_2020_16.png",
+    "tmp/pdfs/intel_long/screen-05.png"
+  ],
+  "not_claimed": [
+    "Any pitch price target eventually proved correct",
+    "These ordinary examples won competitions",
+    "A causal predictor or probability of winningM37"
+  ]
+}

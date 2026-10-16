@@ -1,0 +1,576 @@
+{
+  "reviewed_utc": "2026-11-05T06:23:18.358854+00:00",
+  "source_snapshot": {
+    "path": "work/three_hour/active_research/intel_position_resolution_2026_11_05/relative_framework_review.json",
+    "sha256": "b5e616a7e598b9d56f5528f6ffbb7db1a5f7adad25f955b52175a4e2f8d05eb1",
+    "status_at_read": "complete_conditional_relative_framework_with_independent_arithmetic_review"
+  },
+  "verdict": {
+    "economic_coherence": "PASS as an explicitly conditional fully funded relative allocation. Original short proceeds and own collateral cash are separate; SPY is paid for with investor capital; opening/closing fees and capital opportunity cost are included.",
+    "recommendation_edit": "May present relative-value SHORT INTC with an illustrative initially beta-sized broad-market long. Do not call the resulting strategy continuously market-neutral or the return gap empirically solved. Its payoff is conditional on market returns, financing, relative-price convergence and business outcomes.",
+    "not_spurious_by_construction": "The same-SPY/no-short portfolio has greater initial market exposure. Its higher forecast return is not a risk-matched disproof of the short. Conversely beating a cash hurdle in one assumed joint state does not establish positive expected alpha.",
+    "remaining_investment_judgment": "The model must own the lower Intel return relative to market, and the reliability/value of the hedge. The new position specification supplies a coherent payoff mechanism, not independent evidence selecting the forecast."
+  },
+  "independent_arithmetic": {
+    "rows_checked": 46,
+    "max_terminal_wealth_error": 5.684341886080802e-14,
+    "base_decomposition_rows": [
+      {
+        "case": "weak_CPU",
+        "control": null,
+        "endpoint": "2029-12-31",
+        "equity_wealth_error_per100short": 0.0,
+        "CAGR": 0.09667874411960953,
+        "factor_replication_residual": 58.34958600810158,
+        "proceeds_spread": -6.660745163475257,
+        "own_cash_spread": -5.377126265034815,
+        "fees_and_fee_opportunity_cost": 0.6048277484237964,
+        "excess_vs_hurdle": 45.70688683116771,
+        "initial_long_ratio": 1.6273918286978386,
+        "terminal_factor_exposure_using_fixed_measured_beta": 78.86326980171367,
+        "source_terminal_factor_exposure": 78.86326980171363
+      },
+      {
+        "case": "central",
+        "control": null,
+        "endpoint": "2029-12-31",
+        "equity_wealth_error_per100short": 0.0,
+        "CAGR": 0.06997703228351138,
+        "factor_replication_residual": 32.02881281872083,
+        "proceeds_spread": -6.660745163475257,
+        "own_cash_spread": -5.377126265034815,
+        "fees_and_fee_opportunity_cost": 0.6311485216131771,
+        "excess_vs_hurdle": 19.359792868597594,
+        "initial_long_ratio": 1.6273918286978386,
+        "terminal_factor_exposure_using_fixed_measured_beta": 36.02905858830627,
+        "source_terminal_factor_exposure": 36.02905858830625
+      },
+      {
+        "case": "central_maturing_risk",
+        "control": null,
+        "endpoint": "2029-12-31",
+        "equity_wealth_error_per100short": 0.0,
+        "CAGR": 0.052770977035973665,
+        "factor_replication_residual": 15.801423010786198,
+        "proceeds_spread": -6.660745163475257,
+        "own_cash_spread": -5.377126265034815,
+        "fees_and_fee_opportunity_cost": 0.6473759114211117,
+        "excess_vs_hurdle": 3.116175670855,
+        "initial_long_ratio": 1.6273918286978386,
+        "terminal_factor_exposure_using_fixed_measured_beta": 9.620737013778864,
+        "source_terminal_factor_exposure": 9.620737013778813
+      },
+      {
+        "case": "favorable_core_maturing_risk",
+        "control": null,
+        "endpoint": "2029-12-31",
+        "equity_wealth_error_per100short": 0.0,
+        "CAGR": 0.034077432098568394,
+        "factor_replication_residual": -1.1921810886667883,
+        "proceeds_spread": -6.660745163475257,
+        "own_cash_spread": -5.377126265034815,
+        "fees_and_fee_opportunity_cost": 0.6643695155205647,
+        "excess_vs_hurdle": -13.894422032697435,
+        "initial_long_ratio": 1.6273918286978386,
+        "terminal_factor_exposure_using_fixed_measured_beta": -18.034515437797012,
+        "source_terminal_factor_exposure": -18.03451543779704
+      },
+      {
+        "case": "weak_CPU",
+        "control": null,
+        "endpoint": "2030-12-31",
+        "equity_wealth_error_per100short": 0.0,
+        "CAGR": 0.0855287352287748,
+        "factor_replication_residual": 65.68262566181417,
+        "proceeds_spread": -9.117775714351929,
+        "own_cash_spread": -7.373930626318748,
+        "fees_and_fee_opportunity_cost": 0.6487505337087119,
+        "excess_vs_hurdle": 48.54216878743483,
+        "initial_long_ratio": 1.6273918286978386,
+        "terminal_factor_exposure_using_fixed_measured_beta": 84.19352564841108,
+        "source_terminal_factor_exposure": 84.1935256484111
+      },
+      {
+        "case": "central",
+        "control": null,
+        "endpoint": "2030-12-31",
+        "equity_wealth_error_per100short": 0.0,
+        "CAGR": 0.06431301715281323,
+        "factor_replication_residual": 36.5796013772612,
+        "proceeds_spread": -9.117775714351929,
+        "own_cash_spread": -7.373930626318748,
+        "fees_and_fee_opportunity_cost": 0.677853557993265,
+        "excess_vs_hurdle": 19.410041478597293,
+        "initial_long_ratio": 1.6273918286978386,
+        "terminal_factor_exposure_using_fixed_measured_beta": 36.83150173733483,
+        "source_terminal_factor_exposure": 36.831501737334825
+      },
+      {
+        "case": "central_maturing_risk",
+        "control": null,
+        "endpoint": "2030-12-31",
+        "equity_wealth_error_per100short": 0.0,
+        "CAGR": 0.0504116270212418,
+        "factor_replication_residual": 18.47713667701978,
+        "proceeds_spread": -9.117775714351929,
+        "own_cash_spread": -7.373930626318748,
+        "fees_and_fee_opportunity_cost": 0.6959560226935062,
+        "excess_vs_hurdle": 1.28947431365566,
+        "initial_long_ratio": 1.6273918286978386,
+        "terminal_factor_exposure_using_fixed_measured_beta": 7.371698604870886,
+        "source_terminal_factor_exposure": 7.371698604870858
+      },
+      {
+        "case": "favorable_core_maturing_risk",
+        "control": null,
+        "endpoint": "2030-12-31",
+        "equity_wealth_error_per100short": 5.684341886080802e-14,
+        "CAGR": 0.035203040885840364,
+        "factor_replication_residual": -0.4800783761249816,
+        "proceeds_spread": -9.117775714351929,
+        "own_cash_spread": -7.373930626318748,
+        "fees_and_fee_opportunity_cost": 0.714913237746651,
+        "excess_vs_hurdle": -17.68669795454224,
+        "initial_long_ratio": 1.6273918286978386,
+        "terminal_factor_exposure_using_fixed_measured_beta": -23.47911826748455,
+        "source_terminal_factor_exposure": -23.479118267484587
+      }
+    ],
+    "definition": "Factor-replication residual is an exact algebraic attribution using cumulative terminal returns and initial dollar weights. It is not an estimated Jensen alpha or proof of future beta-neutrality."
+  },
+  "material_controls": {
+    "capital_per100_initial_short": 263.00192205265364,
+    "central2030_CAGR": 0.06431301715281323,
+    "cash_hurdle": 0.0494,
+    "central2030_minimum_index_CAGR_for_cash_hurdle": 0.07103113490661817,
+    "central2030_maximum_Intel_cover_for_cash_hurdle": 82.27864661209932,
+    "central2030_maximum_premium_to_intrinsic_value": 0.159217040166707,
+    "maturing2030": {
+      "case": "central_maturing_risk",
+      "endpoint": "2030-12-31",
+      "years": 4.15605749486653,
+      "conditional_Intel_cover_USD": 81.52789173697595,
+      "long_SPY_per_short_notional": 1.6273918286978386,
+      "index_total_return_assumption": 0.0935,
+      "net_short_proceeds_yield": 0.03,
+      "capital_hurdle": 0.0494,
+      "capital_per_100_short": 263.00192205265364,
+      "ending_wealth_per_100_short": 322.6489951538791,
+      "strategy_CAGR_on_original_capital": 0.0504116270212418,
+      "all_cash_hurdle_ending_wealth": 321.35952084022347,
+      "excess_wealth_vs_hurdle_per_100_short": 1.28947431365566,
+      "excess_wealth_vs_hurdle_fraction_original_capital": 0.004902908327025473,
+      "same_SPY_and_cash_without_Intel_short_wealth": 349.72243662642927,
+      "incremental_wealth_from_Intel_short_leg": -27.073441472550144,
+      "same_no_short_portfolio_CAGR": 0.07097497187676804,
+      "break_even_index_total_return_for_cash_hurdle": 0.09205198423421224,
+      "maximum_Intel_cover_for_cash_hurdle": 82.27864661209932,
+      "terminal_factor_dollar_exposure_if_beta_unchanged_per_100_short": 7.371698604870858,
+      "fee_paid_at_open": 0.26273918286978387,
+      "fee_paid_at_close": 0.3749175403356406,
+      "initial_factor_dollar_exposure_at_selected_Intel_beta_per_100_short": 0.0,
+      "factor_exposure_basis": "Hedge notional ratio may vary; Intel equity beta held at selected 1.6273918286978386 in this exposure diagnostic.",
+      "return_attribution_per_100_short": {
+        "factor_relative_cover_spread": 18.47713667701978,
+        "short_proceeds_yield_vs_hurdle": -9.117775714351929,
+        "own_cash_buffer_yield_vs_hurdle": -7.373930626318748,
+        "transaction_costs_including_opening_opportunity_cost": -0.6959560226935062,
+        "sum": 1.2894743136555962,
+        "identity_error": -6.372680161348399e-14
+      },
+      "conditional_Intel_price_CAGR": 0.08412189724188424,
+      "initial_beta_replica_ending_value_per_100": 158.36713622570878,
+      "initial_beta_replica_equivalent_CAGR": 0.11697110806201971,
+      "horizon_conditional_Jensen_style_residual_per_100": -18.47713667701978,
+      "break_even_net_short_proceeds_yield_for_capital_hurdle": 0.027161393373291487
+    },
+    "favorable2030": {
+      "case": "favorable_core_maturing_risk",
+      "endpoint": "2030-12-31",
+      "years": 4.15605749486653,
+      "conditional_Intel_cover_USD": 92.57615666994872,
+      "long_SPY_per_short_notional": 1.6273918286978386,
+      "index_total_return_assumption": 0.0935,
+      "net_short_proceeds_yield": 0.03,
+      "capital_hurdle": 0.0494,
+      "capital_per_100_short": 263.00192205265364,
+      "ending_wealth_per_100_short": 303.67282288568117,
+      "strategy_CAGR_on_original_capital": 0.035203040885840364,
+      "all_cash_hurdle_ending_wealth": 321.35952084022347,
+      "excess_wealth_vs_hurdle_per_100_short": -17.686697954542296,
+      "excess_wealth_vs_hurdle_fraction_original_capital": -0.06724931063812292,
+      "same_SPY_and_cash_without_Intel_short_wealth": 349.72243662642927,
+      "incremental_wealth_from_Intel_short_leg": -46.0496137407481,
+      "same_no_short_portfolio_CAGR": 0.07097497187676804,
+      "break_even_index_total_return_for_cash_hurdle": 0.11277674821245287,
+      "maximum_Intel_cover_for_cash_hurdle": 82.27864661209932,
+      "terminal_factor_dollar_exposure_if_beta_unchanged_per_100_short": -23.479118267484587,
+      "fee_paid_at_open": 0.26273918286978387,
+      "fee_paid_at_close": 0.39387475538878547,
+      "initial_factor_dollar_exposure_at_selected_Intel_beta_per_100_short": 0.0,
+      "factor_exposure_basis": "Hedge notional ratio may vary; Intel equity beta held at selected 1.6273918286978386 in this exposure diagnostic.",
+      "return_attribution_per_100_short": {
+        "factor_relative_cover_spread": -0.4800783761249816,
+        "short_proceeds_yield_vs_hurdle": -9.117775714351929,
+        "own_cash_buffer_yield_vs_hurdle": -7.373930626318748,
+        "transaction_costs_including_opening_opportunity_cost": -0.7149132377466512,
+        "sum": -17.68669795454231,
+        "identity_error": -1.4210854715202004e-14
+      },
+      "conditional_Intel_price_CAGR": 0.11778489027880923,
+      "initial_beta_replica_ending_value_per_100": 158.36713622570878,
+      "initial_beta_replica_equivalent_CAGR": 0.11697110806201971,
+      "horizon_conditional_Jensen_style_residual_per_100": 0.4800783761249816,
+      "break_even_net_short_proceeds_yield_for_capital_hurdle": 0.06665434708033158
+    },
+    "unchanged_entry_valuation_premium_control": {
+      "control": "terminal_price_to_conditional_value",
+      "terminal_value_multiple": 1.2411074300307126,
+      "endpoint": "2029-12-31",
+      "years": 3.156741957563313,
+      "conditional_Intel_cover_USD": 79.61185758793985,
+      "long_SPY_per_short_notional": 1.6273918286978386,
+      "index_total_return_assumption": 0.0935,
+      "net_short_proceeds_yield": 0.03,
+      "capital_hurdle": 0.0494,
+      "capital_per_100_short": 263.00192205265364,
+      "ending_wealth_per_100_short": 299.0375735306432,
+      "strategy_CAGR_on_original_capital": 0.04151600344079731,
+      "all_cash_hurdle_ending_wealth": 306.2417830237305,
+      "excess_wealth_vs_hurdle_per_100_short": -7.204209493087262,
+      "excess_wealth_vs_hurdle_fraction_original_capital": -0.027392231345157097,
+      "same_SPY_and_cash_without_Intel_short_wealth": 326.1074569406792,
+      "incremental_wealth_from_Intel_short_leg": -27.06988341003597,
+      "same_no_short_portfolio_CAGR": 0.07050337294471731,
+      "break_even_index_total_return_for_cash_hurdle": 0.10498034021535707,
+      "maximum_Intel_cover_for_cash_hurdle": 75.41743871424231,
+      "terminal_factor_dollar_exposure_if_beta_unchanged_per_100_short": -7.157794939082285,
+      "fee_paid_at_open": 0.26273918286978387,
+      "fee_paid_at_close": 0.3517501393334112,
+      "initial_factor_dollar_exposure_at_selected_Intel_beta_per_100_short": 0.0,
+      "factor_exposure_basis": "Hedge notional ratio may vary; Intel equity beta held at selected 1.6273918286978386 in this exposure diagnostic.",
+      "return_attribution_per_100_short": {
+        "factor_relative_cover_spread": 5.491347921932821,
+        "short_proceeds_yield_vs_hurdle": -6.660745163475257,
+        "own_cash_buffer_yield_vs_hurdle": -5.377126265034815,
+        "transaction_costs_including_opening_opportunity_cost": -0.6576859865099651,
+        "sum": -7.204209493087216,
+        "identity_error": 4.618527782440651e-14
+      }
+    }
+  },
+  "assumption_audit": {
+    "market_return": "9.35% is the chosen4.94%Treasury plus4.41%impliedERP converted to a constant finite-horizon total-return CAGR. It is a reasoned model control, not a known3-5yearSPYreturn or a probability distribution.",
+    "capital_hurdle": "4.94% is a stated opportunity-cost reference, not a locked3-5yearcashdeposit or a risk-adjusted hurdle for all residual risks. Comparing also with3.38%broker cash is informative but does not eliminate risk.",
+    "financing": "3%net proceeds credit is after assumed borrow/program costs. Actual daily collateral and loan-fee bases, tier blending, securities availability and future rates are unmodeled. Treat this as a sensitivity, not an executable quote.",
+    "own_cash": "At10MUSDnormalcash, current3.38%marginal rate implies3.37662%initial blended rate after first10Kzero interest. The rounding is immaterial at chosen institutional scale, but no user capital is assumed.",
+    "short_proceeds_tiers": "At10MUSDshort proceeds, current0/2.63/3.38/3.63%marginal tiers imply3.4537%gross blended interest initially. A3%net credit therefore leaves about45.37bp for fees on initial proceeds before collateral-base differences. Neither actual INTC fees nor persistence is verified.",
+    "ETF": "SPY0.0945%annual expense was verified on issuer page. Multiplying annual gross index growth by1-expense is an approximation; taxes and tracking differences are omitted.",
+    "margin": "Full initial own funding removes a margin loan for the SPY purchase. It does not guarantee sufficient margin/collateral on every interim price path, and fixed endpoint values do not establish a realizable path.",
+    "rebalancing": "No rebalancing. Adding a dynamic hedge later changes cash flows and transaction costs; do not retain these exact payoff numbers while claiming continuous neutrality.",
+    "co_movement": "Holding Intel terminal value fixed while varying market returns is a one-variable sensitivity, not a joint macro/Intel outcome model. Historical beta does not by itself generate correlated future endpoints."
+  },
+  "beta_audit": {
+    "measured_5year_weekly_beta": 1.6273918286978386,
+    "sample_observations": 260,
+    "HC3_standard_error": 0.17109044694516237,
+    "R_squared": 0.22088607662357007,
+    "other_samples": {
+      "2year_weekly_beta": 2.104673572011015,
+      "1year_weekly_beta": 3.7314801402836455
+    },
+    "meaning": "The5yearregression is a defensible initial sizing reference but explains only22.1%of weekly Intel variation in sample. Shorter windows differ materially; these are sample diagnostics, not future beta confidence bounds.",
+    "terminal_local_exposure_controls": [
+      {
+        "terminal_INTC_equity_beta_assumption": 1.2,
+        "local_terminal_factor_dollar_exposure_per100short": 88.88249896881459,
+        "local_terminal_portfolio_beta_given_computed_wealth": 0.26082874997402783
+      },
+      {
+        "terminal_INTC_equity_beta_assumption": 1.6273918286978386,
+        "local_terminal_factor_dollar_exposure_per100short": 36.83150173733483,
+        "local_terminal_portfolio_beta_given_computed_wealth": 0.10808330851707827
+      },
+      {
+        "terminal_INTC_equity_beta_assumption": 2.104673572011015,
+        "local_terminal_factor_dollar_exposure_per100short": -21.295465208946467,
+        "local_terminal_portfolio_beta_given_computed_wealth": -0.06249227502608532
+      },
+      {
+        "terminal_INTC_equity_beta_assumption": 3.7314801402836455,
+        "local_terminal_factor_dollar_exposure_per100short": -219.42022683413288,
+        "local_terminal_portfolio_beta_given_computed_wealth": -0.6438962017060825
+      }
+    ],
+    "initial_no_short_portfolio_market_beta_approx": 0.6187756408761266,
+    "initial_proposed_portfolio_beta_if_sizing_beta_correct": 0,
+    "risk_control_label_issue": {
+      "rows": [
+        {
+          "case": null,
+          "control": "initial_long_notional_ratio",
+          "endpoint": "2029-12-31",
+          "equity_wealth_error_per100short": 0.0,
+          "CAGR": 0.06293797914226329,
+          "factor_replication_residual": 22.139141879024304,
+          "proceeds_spread": -6.660745163475257,
+          "own_cash_spread": -5.377126265034815,
+          "fees_and_fee_opportunity_cost": 0.47515072281236226,
+          "excess_vs_hurdle": 9.626119727701877,
+          "initial_long_ratio": 1.0,
+          "terminal_factor_exposure_using_fixed_measured_beta": -46.914676281949454,
+          "source_terminal_factor_exposure": -46.91467628194943
+        },
+        {
+          "case": null,
+          "control": "initial_long_notional_ratio",
+          "endpoint": "2029-12-31",
+          "equity_wealth_error_per100short": 0.0,
+          "CAGR": 0.06816057412014187,
+          "factor_replication_residual": 28.912083979131452,
+          "proceeds_spread": -6.660745163475257,
+          "own_cash_spread": -5.377126265034815,
+          "fees_and_fee_opportunity_cost": 0.5819858304175205,
+          "excess_vs_hurdle": 16.29222672020387,
+          "initial_long_ratio": 1.4296693545984858,
+          "terminal_factor_exposure_using_fixed_measured_beta": 9.88934857068324,
+          "source_terminal_factor_exposure": 9.889348570683243
+        },
+        {
+          "case": null,
+          "control": "initial_long_notional_ratio",
+          "endpoint": "2029-12-31",
+          "equity_wealth_error_per100short": 0.0,
+          "CAGR": 0.07339042947160723,
+          "factor_replication_residual": 39.55227610113046,
+          "proceeds_spread": -6.660745163475257,
+          "own_cash_spread": -5.377126265034815,
+          "fees_and_fee_opportunity_cost": 0.7498222083891164,
+          "excess_vs_hurdle": 26.76458246423124,
+          "initial_long_ratio": 2.104673572011015,
+          "terminal_factor_exposure_using_fixed_measured_beta": 99.12763361748071,
+          "source_terminal_factor_exposure": 99.12763361748071
+        },
+        {
+          "case": null,
+          "control": "initial_long_notional_ratio",
+          "endpoint": "2030-12-31",
+          "equity_wealth_error_per100short": 0.0,
+          "CAGR": 0.0551611036430637,
+          "factor_replication_residual": 22.63222727792953,
+          "proceeds_spread": -9.117775714351929,
+          "own_cash_spread": -7.373930626318748,
+          "fees_and_fee_opportunity_cost": 0.5105853747714474,
+          "excess_vs_hurdle": 5.629935562487418,
+          "initial_long_ratio": 1.0,
+          "terminal_factor_exposure_using_fixed_measured_beta": -53.77627692323975,
+          "source_terminal_factor_exposure": -53.77627692323974
+        },
+        {
+          "case": null,
+          "control": "initial_long_notional_ratio",
+          "endpoint": "2030-12-31",
+          "equity_wealth_error_per100short": 0.0,
+          "CAGR": 0.06196268650705261,
+          "factor_replication_residual": 32.1840877795901,
+          "proceeds_spread": -9.117775714351929,
+          "own_cash_spread": -7.373930626318748,
+          "fees_and_fee_opportunity_cost": 0.6251390062380014,
+          "excess_vs_hurdle": 15.06724243268144,
+          "initial_long_ratio": 1.4296693545984858,
+          "terminal_factor_exposure_using_fixed_measured_beta": 8.276469060867555,
+          "source_terminal_factor_exposure": 8.27646906086754
+        },
+        {
+          "case": null,
+          "control": "initial_long_notional_ratio",
+          "endpoint": "2030-12-31",
+          "equity_wealth_error_per100short": 0.0,
+          "CAGR": 0.06870879403054864,
+          "factor_replication_residual": 47.18991971466517,
+          "proceeds_spread": -9.117775714351929,
+          "own_cash_spread": -7.373930626318748,
+          "fees_and_fee_opportunity_cost": 0.805101071328964,
+          "excess_vs_hurdle": 29.89311230266543,
+          "initial_long_ratio": 2.104673572011015,
+          "terminal_factor_exposure_using_fixed_measured_beta": 105.76041757388634,
+          "source_terminal_factor_exposure": 105.76041757388637
+        }
+      ],
+      "description": "Pure initial-long-sizing sensitivity should hold measured INTC beta fixed. The source exposure field instead uses the changed long ratio as if it were also the underlying stock beta. Cash payoffs are unaffected. Relabel rows as alternative equity-beta assumptions with matched hedges, or recompute risk exposure with fixed measured beta.",
+      "example_h1_correct_terminal_exposure_if_beta_fixed": -53.77627692323975,
+      "resolved": true,
+      "resolution_addendum": {
+        "resolved": true,
+        "checked_utc": "2026-11-05T06:27:52.514402+00:00",
+        "latest_source_sha256": "b5e616a7e598b9d56f5528f6ffbb7db1a5f7adad25f955b52175a4e2f8d05eb1",
+        "description": "All 8 hedge-notional controls now retain the selected underlying Intel equity beta for initial and terminal market-exposure diagnostics. Changing long notional no longer changes the assumed underlying equity beta. Cash payoffs are unchanged.",
+        "independent_exposure_rows": [
+          {
+            "endpoint": "2029-12-31",
+            "long_ratio": 1.0,
+            "fixed_Intel_beta": 1.6273918286978386,
+            "initial_factor_exposure_per_100_short": -62.73918286978386,
+            "terminal_factor_exposure_per_100_short": -46.914676281949454,
+            "initial_error": 0.0,
+            "terminal_error": -2.1316282072803006e-14
+          },
+          {
+            "endpoint": "2029-12-31",
+            "long_ratio": 1.4296693545984858,
+            "fixed_Intel_beta": 1.6273918286978386,
+            "initial_factor_exposure_per_100_short": -19.77224740993529,
+            "terminal_factor_exposure_per_100_short": 9.88934857068324,
+            "initial_error": -7.105427357601002e-15,
+            "terminal_error": -3.552713678800501e-15
+          },
+          {
+            "endpoint": "2029-12-31",
+            "long_ratio": 1.6273918286978386,
+            "fixed_Intel_beta": 1.6273918286978386,
+            "initial_factor_exposure_per_100_short": 0.0,
+            "terminal_factor_exposure_per_100_short": 36.02905858830627,
+            "initial_error": 0.0,
+            "terminal_error": 2.1316282072803006e-14
+          },
+          {
+            "endpoint": "2029-12-31",
+            "long_ratio": 2.104673572011015,
+            "fixed_Intel_beta": 1.6273918286978386,
+            "initial_factor_exposure_per_100_short": 47.72817433131763,
+            "terminal_factor_exposure_per_100_short": 99.12763361748071,
+            "initial_error": -7.105427357601002e-15,
+            "terminal_error": 0.0
+          },
+          {
+            "endpoint": "2030-12-31",
+            "long_ratio": 1.0,
+            "fixed_Intel_beta": 1.6273918286978386,
+            "initial_factor_exposure_per_100_short": -62.73918286978386,
+            "terminal_factor_exposure_per_100_short": -53.77627692323975,
+            "initial_error": 0.0,
+            "terminal_error": -7.105427357601002e-15
+          },
+          {
+            "endpoint": "2030-12-31",
+            "long_ratio": 1.4296693545984858,
+            "fixed_Intel_beta": 1.6273918286978386,
+            "initial_factor_exposure_per_100_short": -19.77224740993529,
+            "terminal_factor_exposure_per_100_short": 8.276469060867555,
+            "initial_error": -7.105427357601002e-15,
+            "terminal_error": 1.4210854715202004e-14
+          },
+          {
+            "endpoint": "2030-12-31",
+            "long_ratio": 1.6273918286978386,
+            "fixed_Intel_beta": 1.6273918286978386,
+            "initial_factor_exposure_per_100_short": 0.0,
+            "terminal_factor_exposure_per_100_short": 36.83150173733483,
+            "initial_error": 0.0,
+            "terminal_error": 7.105427357601002e-15
+          },
+          {
+            "endpoint": "2030-12-31",
+            "long_ratio": 2.104673572011015,
+            "fixed_Intel_beta": 1.6273918286978386,
+            "initial_factor_exposure_per_100_short": 47.72817433131763,
+            "terminal_factor_exposure_per_100_short": 105.76041757388634,
+            "initial_error": -7.105427357601002e-15,
+            "terminal_error": -2.842170943040401e-14
+          }
+        ],
+        "maximum_absolute_initial_exposure_error": 7.105427357601002e-15,
+        "maximum_absolute_terminal_exposure_error": 2.842170943040401e-14
+      }
+    }
+  },
+  "concrete_PDF_edits": [
+    "State the proposed expression and own capital per dollar short, alongside the conditional unhedged outcomes.",
+    "Use conditionalCAGR6.43% versus4.94%referencehurdle, not expected/guaranteed6.43%return or demonstratedalpha.",
+    "Show central-maturing5.04% and favorable3.52% outcomes beside central6.43%; favorable success does not clear the selected cashhurdle.",
+    "State minimum market CAGR7.10% in the central2030control and that preserving the currentIntelprice/valuepremium fails the cashhurdle.",
+    "Keep initialbeta-sizingscope and equitybetafrequency/windowinstability visible; do not use assetbeta1.50as the hedge ratio.",
+    "Retain one sentence that same-market-long/no-short has more beta and is an attribution comparator, not a risk-matched verdict.",
+    "Do not replace the Intel business thesis with an unsupported forecast that the index will rally."
+  ],
+  "primary_sources_rechecked": [
+    {
+      "url": "https://www.interactivebrokers.com/en/accounts/fees/pricing-interest-rates.php",
+      "date": "2026-11-05",
+      "supports": "NormalUSDcash3.38%above10Kfor qualifying accounts; blended eligibility."
+    },
+    {
+      "url": "https://www.interactivebrokers.com/en/pricing/short-sale-cost.php",
+      "date": "2026-11-05",
+      "supports": "Separate borrow fees and short-proceeds interest with tiered pricing; actual loan rates vary."
+    },
+    {
+      "url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "date": "2026-11-05",
+      "supports": "Gross expense ratio0.0945%; index tracking objective and fund risks."
+    }
+  ],
+  "mutations": "Only this independent audit file. No strategy policy, valuation sources or PDF edited.",
+  "final_10page_PDF_addendum": {
+    "reviewed_utc": "2026-11-05T06:27:52.514402+00:00",
+    "source_sha256": "b5e616a7e598b9d56f5528f6ffbb7db1a5f7adad25f955b52175a4e2f8d05eb1",
+    "PDF_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "PDF_sha256": "7503171faf54e0ee65d333fa9cff786f9798085a9be3e42350c57cb17db5730f",
+    "page_count": 10,
+    "pages_reviewed": [
+      1,
+      8,
+      9
+    ],
+    "status": "PASS; no material arithmetic or framing correction required on reviewed pages",
+    "base_and_sensitivity_rows_reproduced": 46,
+    "maximum_absolute_wealth_error_per_100_short": 0.0,
+    "maximum_absolute_CAGR_error": 0.0,
+    "joint_ERP_method_independent_check": [
+      {
+        "endpoint": "2029-12-31",
+        "years_actual_days_over_365_25": 3.156741957563313,
+        "Intel_cover_USD": 72.19895158370909,
+        "index_total_return": 0.08734330122116814,
+        "investor_capital_per_100_short": 263.00192205265364,
+        "independent_ending_wealth_per_100_short": 307.9728411195267,
+        "independent_CAGR": 0.05127547987729186,
+        "independent_excess_vs_4_94_hurdle_per_100_short": 1.7310580957960724,
+        "source_wealth_error": 0.0,
+        "source_CAGR_error": 0.0
+      },
+      {
+        "endpoint": "2030-12-31",
+        "years_actual_days_over_365_25": 4.15605749486653,
+        "Intel_cover_USD": 79.31566117706879,
+        "index_total_return": 0.08734330122116814,
+        "investor_capital_per_100_short": 263.00192205265364,
+        "independent_ending_wealth_per_100_short": 321.0031938318329,
+        "independent_CAGR": 0.04911990845087866,
+        "independent_excess_vs_4_94_hurdle_per_100_short": -0.35632700839090603,
+        "source_wealth_error": 0.0,
+        "source_CAGR_error": 0.0
+      }
+    ],
+    "early_normalization_check": {
+      "root_2030_flat_price_USD": 67.4711015073358,
+      "independently_audited_2030_flat_price_USD": 67.47110150733577,
+      "difference_USD": 2.842170943040401e-14,
+      "displayed_USD": "67.47",
+      "meaning": "Separately copied funded-growth sensitivity, not a replacement for frozen operations."
+    },
+    "presentation_findings": [
+      "Page 1 explicitly recommends an initially market-hedged short and discloses that its central 2030 value implies a rising Intel price; the 2026 value and 2030 endpoint are not conflated.",
+      "Page 8 fully funds the market long and own cash, keeps short-sale proceeds separate, and reports returns on all initial investor capital, including opening fees.",
+      "Page 8 identifies beta matching as initial only, discloses assumed yields/market return, and does not guarantee interim margin sufficiency.",
+      "Page 9 correctly rounds the joint ERP control to 4.91%, below the 4.94% reference hurdle, and presents the persistent-premium and declining-risk failures alongside the selected case.",
+      "The no-short comparator is clearly identified as having greater initial market exposure. It is a useful attribution comparator rather than a matched-risk rejection criterion.",
+      "The narrative labels the recommendation moderate and conditional, avoids claimed probability of winning or demonstrated expected alpha, and does not treat financing yields as secured terms."
+    ],
+    "material_corrections_required": [],
+    "scope_limit": "Arithmetic and text review of pages 1, 8 and 9. Root owns visual QA; this is not a forecast-certainty, executable borrow, margin-path, or probability-of-winning claim.",
+    "mutations": [
+      "Appended this addendum and resolution status to existing independent audit JSON only. No PDF, generator or frozen source edits."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "reviewed_utc": "2026-11-05T22:14:25.473037+00:00",
+  "verdict": "PASS: material improvement in investment reasoning and explanation; no blocking semantic or recommendation inconsistency found.",
+  "scope": "Read all10screen pages and3defense-note pages as extracted, compare prior screen, verify core statements against evidence bridge and benchmark lessons. Numeric and visual reviews owned separately; no independent whole-model recomputation claimed.",
+  "input_hashes": {
+    "output/pdf/m37_intel_initial_screen.pdf": "ae49ca4715eb9f6cdddc1de85ff195bf0509c2b21531af0eb816851fb7a668c7",
+    "output/pdf/m37_intel_defense_notes.pdf": "7929ee403f878be8ded1f3f8590d411740fb4cabafe4024e696bcdedb561a74c",
+    "tmp/pdfs/intel_long/extracted.txt": "c89661691da637fe48a41c2dcc245f236b1b353a1d3e385ef78bad9a0a32b073",
+    "tmp/pdfs/intel_long/defense_extracted.txt": "10ae929820873244171763abb3ceb52e044fd70e5b5f4dbaabde14072cc03549"
+  },
+  "material_blockers": [],
+  "improvements": [
+    {
+      "pages": [
+        1,
+        3
+      ],
+      "finding": "The LONG recommendation is explicit. Unit growth, ASP/mix and manufacturing recovery are distinct owned forecasts tied to observations and financial effects. The outdated unmatchedEPS comparison no longer masquerades as a clean consensus disagreement."
+    },
+    {
+      "pages": [
+        5
+      ],
+      "finding": "Two observed quarters and issuerYTD profit attribution now support an operating mechanism. Earlier-year profitability and lower Q2/YTD mature blends remain visible.40percent is described as an underwriting judgment, not established durability."
+    },
+    {
+      "pages": [
+        6,
+        8
+      ],
+      "finding": "Full consolidatedEBIT attribution reveals89percentDCAI/Foundry dependence. The delayedFoundry recovery test has a precise one-yearprofit consequence, explicitly not an equityvalue. Supplier dates/productscope prevent blanketcapacityclaims from validating2027-28deliveries."
+    },
+    {
+      "pages": [
+        7,
+        9
+      ],
+      "finding": "Near-termplanningvalue and2030target remain distinct. Entryceilings at10/12/15percent show the reward choice. Neither screen nor notes claim a10percenthurdle was chosen exante, that risk adequacy is proven, or that the operating discount rate minus equityCAGR measures alpha."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "finding": "Mature-margin price contribution and lower-demand scenario expose where equityvalue is sensitive. Decliningdiscount rates remain an upside scenario; no additionalhighermargin, multipleexpansion orfreecapital added to createheadlineupside."
+    },
+    {
+      "artifact": "defense notes",
+      "finding": "Oracle work remains available with important constraints; it no longer occupies a core thesispage or stands in as proof ofpricingpower."
+    }
+  ],
+  "nonblocking_editorial_suggestion": {
+    "pages": [
+      6,
+      9
+    ],
+    "current_wording": "The sales forecast matters more than the long-run margin choice.",
+    "suggested_wording": "In these scenarios, the sales forecast matters more than the margin choice.",
+    "reason": "The comparison uses a particular persistent demandshock and a5percentagepoint marginchange; the magnitudes do not establish a universal parameterimportance ranking. Existing scenario disclosures make current wording understandable, so this is a precision improvement, not a blocker."
+  },
+  "remaining_substantive_limits": [
+    "The public evidence still does not independently validate40percent matureDCAI or2028Foundry nearbreakeven. Better presentation makes the judgment auditable; it does not turn the forecast into fact.",
+    "At approximatelyfairvalue and10percentmodeledannualreturn, the reward-for-risk argument remains moderate. Explicitlyacceptingthatreturn is coherent but is not a discoveredmispricing or demonstratedwinningedge.",
+    "The DIGITIMES comparison is one datedanalystestimate, not a uniquelyidentifiedmarketexpectationsmeasure. It is correctly labeled."
+  ],
+  "final_reporting_guidance": "Say the benchmark gaps in forecast linkage, operating attribution and entry-price transparency were materially bridged; do not claim the underlyinginvestmentuncertainty orwinninggap is eliminated.",
+  "files_modified": [
+    "this reviewJSON only"
+  ]
+}

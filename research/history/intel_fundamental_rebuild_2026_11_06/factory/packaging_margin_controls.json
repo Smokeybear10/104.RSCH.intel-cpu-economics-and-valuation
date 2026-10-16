@@ -1,0 +1,1340 @@
+{
+  "computed_utc": "2026-11-07T01:09:30.341759+00:00",
+  "purpose": "Margin-only economic sensitivity; peer outcomes contextualize an owned forecast, not estimate Intel expected margins.",
+  "unchanged_central_model": true,
+  "inputs": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_model.py": "98366c147368965f1c9f445f8c9366f740c17e1152312cb3349816c94b377526",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+  },
+  "method": "Keep 2027-29 and all revenue/capital unchanged; from2030 replace the total program margin. Charge embedded-program EBIT change to host Foundry and remaining program change to net packaging. Recalculate tax, treasury and value once. Do not assume internal Foundry silently offsets the embedded margin miss.",
+  "sources": {
+    "ASE": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326016324/dp255760_6k.htm",
+    "Amkor": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm",
+    "Intel_aspiration_primary_event_only": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference"
+  },
+  "limits": [
+    "ASE ATM is a blended assembly/test/material business; Amkor is a broader packaging/test company. Neither isolates Intel-equivalent EMIB-T services.",
+    "Materials, process IP, testing, geography, utilization, D&A and R&D scope differ. These are economic controls, not a statistical peer band or bounds.",
+    "Intel30pct aspiration comes from a third-party transcript of an issuer-confirmed event, not independently audio-verified.",
+    "The return sensitivity has no forecast probabilities and does not validate7B future fees or accepted output.",
+    "Fixed capital at unchanged output isolates retained cost/pricing economics. Sustained high margins could require extra investment; none is claimed free.",
+    "December2026 planning value is not an exact November6 fair-value estimate."
+  ],
+  "results": {
+    "0.10625": {
+      "unchanged_owned_case": {
+        "Dec2026_planning_value_USD": 56.139285845568374,
+        "Dec2030_target_USD": 82.47015162680005,
+        "annual_price_return_from_Nov6_56_28": 0.0964291893107092,
+        "EBIT2030_B": 38.942007896513076,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.5,
+        "net_packaging_EBIT2030_B": 1.175,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.26,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          }
+        ]
+      },
+      "rounded_Amkor_company_Q3_margin11_3pct_control": {
+        "Dec2026_planning_value_USD": 54.31229026812362,
+        "Dec2030_target_USD": 79.733934034116,
+        "annual_price_return_from_Nov6_56_28": 0.08755216113059294,
+        "EBIT2030_B": 37.98300789651307,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.226,
+        "net_packaging_EBIT2030_B": 0.49,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -0.9590000000000001,
+            "embedded_host_EBIT_delta_B": -0.274,
+            "incremental_EBIT_delta_B": -0.685
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.1319000000000004,
+            "embedded_host_EBIT_delta_B": -0.30282000000000003,
+            "incremental_EBIT_delta_B": -0.8290800000000002
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.3056120000000007,
+            "embedded_host_EBIT_delta_B": -0.33312260000000005,
+            "incremental_EBIT_delta_B": -0.9724894000000005
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.3839487200000007,
+            "embedded_host_EBIT_delta_B": -0.34311627800000005,
+            "incremental_EBIT_delta_B": -1.0408324420000006
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.453146156000001,
+            "embedded_host_EBIT_delta_B": -0.3534097663400001,
+            "incremental_EBIT_delta_B": -1.0997363896600008
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.511272002240001,
+            "embedded_host_EBIT_delta_B": -0.3640120593302001,
+            "incremental_EBIT_delta_B": -1.147259942909801
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.556610162307201,
+            "embedded_host_EBIT_delta_B": -0.3749324211101061,
+            "incremental_EBIT_delta_B": -1.1816777411970951
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.603308467176417,
+            "embedded_host_EBIT_delta_B": -0.3861803937434093,
+            "incremental_EBIT_delta_B": -1.2171280734330079
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.6514077211917098,
+            "embedded_host_EBIT_delta_B": -0.3977658055557116,
+            "incremental_EBIT_delta_B": -1.2536419156359981
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.700949952827461,
+            "embedded_host_EBIT_delta_B": -0.409698779722383,
+            "incremental_EBIT_delta_B": -1.291251173105078
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.751978451412285,
+            "embedded_host_EBIT_delta_B": -0.42198974311405446,
+            "incremental_EBIT_delta_B": -1.3299887082982305
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.8045378049546537,
+            "embedded_host_EBIT_delta_B": -0.4346494354074761,
+            "incremental_EBIT_delta_B": -1.3698883695471773
+          }
+        ]
+      },
+      "rounded_ASE_ATM_Q3_margin20pct_control": {
+        "Dec2026_planning_value_USD": 55.33663773167647,
+        "Dec2030_target_USD": 81.2680579178282,
+        "annual_price_return_from_Nov6_56_28": 0.09255723940933902,
+        "EBIT2030_B": 38.592007896513074,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.4,
+        "net_packaging_EBIT2030_B": 0.925,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.3499999999999999,
+            "embedded_host_EBIT_delta_B": -0.09999999999999998,
+            "incremental_EBIT_delta_B": -0.24999999999999994
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.462,
+            "embedded_host_EBIT_delta_B": -0.1236,
+            "incremental_EBIT_delta_B": -0.33840000000000003
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.5821200000000002,
+            "embedded_host_EBIT_delta_B": -0.14852600000000002,
+            "incremental_EBIT_delta_B": -0.4335940000000002
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.6170472000000002,
+            "embedded_host_EBIT_delta_B": -0.15298178,
+            "incremental_EBIT_delta_B": -0.46406542000000023
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.6478995600000004,
+            "embedded_host_EBIT_delta_B": -0.15757123340000004,
+            "incremental_EBIT_delta_B": -0.49032832660000025
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.6738155424000004,
+            "embedded_host_EBIT_delta_B": -0.16229837040200001,
+            "incremental_EBIT_delta_B": -0.5115171719980004
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.6940300086720005,
+            "embedded_host_EBIT_delta_B": -0.16716732151406002,
+            "incremental_EBIT_delta_B": -0.5268626871579404
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.7148509089321604,
+            "embedded_host_EBIT_delta_B": -0.17218234115948183,
+            "incremental_EBIT_delta_B": -0.5426685677726787
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.7362964362001253,
+            "embedded_host_EBIT_delta_B": -0.1773478113942663,
+            "incremental_EBIT_delta_B": -0.5589486248058589
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.7583853292861291,
+            "embedded_host_EBIT_delta_B": -0.1826682457360943,
+            "incremental_EBIT_delta_B": -0.5757170835500347
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.781136889164713,
+            "embedded_host_EBIT_delta_B": -0.18814829310817713,
+            "incremental_EBIT_delta_B": -0.5929885960565359
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.8045709958396544,
+            "embedded_host_EBIT_delta_B": -0.19379274190142246,
+            "incremental_EBIT_delta_B": -0.6107782539382319
+          }
+        ]
+      },
+      "flat25pct_from2030_no_mature27pct": {
+        "Dec2026_planning_value_USD": 55.92534317049993,
+        "Dec2030_target_USD": 82.14973831076625,
+        "annual_price_return_from_Nov6_56_28": 0.09540134635793973,
+        "EBIT2030_B": 38.942007896513076,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.5,
+        "net_packaging_EBIT2030_B": 1.175,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.07700000000000008,
+            "embedded_host_EBIT_delta_B": -0.020600000000000018,
+            "incremental_EBIT_delta_B": -0.056400000000000054
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.1663200000000002,
+            "embedded_host_EBIT_delta_B": -0.042436000000000036,
+            "incremental_EBIT_delta_B": -0.12388400000000015
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.1762992000000002,
+            "embedded_host_EBIT_delta_B": -0.04370908000000004,
+            "incremental_EBIT_delta_B": -0.13259012000000017
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.18511416000000025,
+            "embedded_host_EBIT_delta_B": -0.04502035240000005,
+            "incremental_EBIT_delta_B": -0.14009380760000018
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.19251872640000026,
+            "embedded_host_EBIT_delta_B": -0.046370962972000045,
+            "incremental_EBIT_delta_B": -0.14614776342800023
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.1982942881920003,
+            "embedded_host_EBIT_delta_B": -0.047762091861160046,
+            "incremental_EBIT_delta_B": -0.15053219633084025
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.20424311683776028,
+            "embedded_host_EBIT_delta_B": -0.04919495461699485,
+            "incremental_EBIT_delta_B": -0.15504816222076545
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.2103704103428931,
+            "embedded_host_EBIT_delta_B": -0.0506708032555047,
+            "incremental_EBIT_delta_B": -0.1596996070873884
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.21668152265317991,
+            "embedded_host_EBIT_delta_B": -0.052190927353169846,
+            "incremental_EBIT_delta_B": -0.16449059530001006
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.22318196833277532,
+            "embedded_host_EBIT_delta_B": -0.05375665517376493,
+            "incremental_EBIT_delta_B": -0.16942531315901035
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.22987742738275857,
+            "embedded_host_EBIT_delta_B": -0.05536935482897789,
+            "incremental_EBIT_delta_B": -0.17450807255378067
+          }
+        ]
+      },
+      "Intel_attributed_aspiration30pct_control": {
+        "Dec2026_planning_value_USD": 56.51404860932341,
+        "Dec2030_target_USD": 83.03141870370432,
+        "annual_price_return_from_Nov6_56_28": 0.09822237646823573,
+        "EBIT2030_B": 39.29200789651308,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.6,
+        "net_packaging_EBIT2030_B": 1.425,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.3499999999999999,
+            "embedded_host_EBIT_delta_B": 0.09999999999999998,
+            "incremental_EBIT_delta_B": 0.24999999999999994
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.3079999999999999,
+            "embedded_host_EBIT_delta_B": 0.08239999999999996,
+            "incremental_EBIT_delta_B": 0.2255999999999999
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.24947999999999984,
+            "embedded_host_EBIT_delta_B": 0.06365399999999993,
+            "incremental_EBIT_delta_B": 0.18582599999999988
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.2644487999999998,
+            "embedded_host_EBIT_delta_B": 0.06556361999999993,
+            "incremental_EBIT_delta_B": 0.19888517999999988
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.2776712399999999,
+            "embedded_host_EBIT_delta_B": 0.06753052859999994,
+            "incremental_EBIT_delta_B": 0.2101407113999999
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.28877808959999984,
+            "embedded_host_EBIT_delta_B": 0.06955644445799994,
+            "incremental_EBIT_delta_B": 0.21922164514199993
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.29744143228799985,
+            "embedded_host_EBIT_delta_B": 0.07164313779173993,
+            "incremental_EBIT_delta_B": 0.22579829449625993
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.30636467525663985,
+            "embedded_host_EBIT_delta_B": 0.07379243192549215,
+            "incremental_EBIT_delta_B": 0.23257224333114773
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.3155556155143391,
+            "embedded_host_EBIT_delta_B": 0.0760062048832569,
+            "incremental_EBIT_delta_B": 0.23954941063108215
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.32502228397976923,
+            "embedded_host_EBIT_delta_B": 0.07828639102975461,
+            "incremental_EBIT_delta_B": 0.24673589295001463
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.33477295249916234,
+            "embedded_host_EBIT_delta_B": 0.08063498276064726,
+            "incremental_EBIT_delta_B": 0.2541379697385151
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.3448161410741372,
+            "embedded_host_EBIT_delta_B": 0.08305403224346668,
+            "incremental_EBIT_delta_B": 0.2617621088306705
+          }
+        ]
+      }
+    },
+    "0.11555": {
+      "unchanged_owned_case": {
+        "Dec2026_planning_value_USD": 48.557681488026326,
+        "Dec2030_target_USD": 73.56082736404235,
+        "annual_price_return_from_Nov6_56_28": 0.06664122580714049,
+        "EBIT2030_B": 38.942007896513076,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.5,
+        "net_packaging_EBIT2030_B": 1.175,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.26,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.27,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          }
+        ]
+      },
+      "rounded_Amkor_company_Q3_margin11_3pct_control": {
+        "Dec2026_planning_value_USD": 46.97457710773589,
+        "Dec2030_target_USD": 71.1091364773475,
+        "annual_price_return_from_Nov6_56_28": 0.057965693696300225,
+        "EBIT2030_B": 37.98300789651307,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.226,
+        "net_packaging_EBIT2030_B": 0.49,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -0.9590000000000001,
+            "embedded_host_EBIT_delta_B": -0.274,
+            "incremental_EBIT_delta_B": -0.685
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.1319000000000004,
+            "embedded_host_EBIT_delta_B": -0.30282000000000003,
+            "incremental_EBIT_delta_B": -0.8290800000000002
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.3056120000000007,
+            "embedded_host_EBIT_delta_B": -0.33312260000000005,
+            "incremental_EBIT_delta_B": -0.9724894000000005
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.3839487200000007,
+            "embedded_host_EBIT_delta_B": -0.34311627800000005,
+            "incremental_EBIT_delta_B": -1.0408324420000006
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.453146156000001,
+            "embedded_host_EBIT_delta_B": -0.3534097663400001,
+            "incremental_EBIT_delta_B": -1.0997363896600008
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.511272002240001,
+            "embedded_host_EBIT_delta_B": -0.3640120593302001,
+            "incremental_EBIT_delta_B": -1.147259942909801
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.556610162307201,
+            "embedded_host_EBIT_delta_B": -0.3749324211101061,
+            "incremental_EBIT_delta_B": -1.1816777411970951
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.603308467176417,
+            "embedded_host_EBIT_delta_B": -0.3861803937434093,
+            "incremental_EBIT_delta_B": -1.2171280734330079
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.6514077211917098,
+            "embedded_host_EBIT_delta_B": -0.3977658055557116,
+            "incremental_EBIT_delta_B": -1.2536419156359981
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.700949952827461,
+            "embedded_host_EBIT_delta_B": -0.409698779722383,
+            "incremental_EBIT_delta_B": -1.291251173105078
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.751978451412285,
+            "embedded_host_EBIT_delta_B": -0.42198974311405446,
+            "incremental_EBIT_delta_B": -1.3299887082982305
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.113,
+            "gross_program_EBIT_delta_B": -1.8045378049546537,
+            "embedded_host_EBIT_delta_B": -0.4346494354074761,
+            "incremental_EBIT_delta_B": -1.3698883695471773
+          }
+        ]
+      },
+      "rounded_ASE_ATM_Q3_margin20pct_control": {
+        "Dec2026_planning_value_USD": 47.863349793766226,
+        "Dec2030_target_USD": 72.48554344192435,
+        "annual_price_return_from_Nov6_56_28": 0.06286368257252883,
+        "EBIT2030_B": 38.592007896513074,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.4,
+        "net_packaging_EBIT2030_B": 0.925,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.3499999999999999,
+            "embedded_host_EBIT_delta_B": -0.09999999999999998,
+            "incremental_EBIT_delta_B": -0.24999999999999994
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.462,
+            "embedded_host_EBIT_delta_B": -0.1236,
+            "incremental_EBIT_delta_B": -0.33840000000000003
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.5821200000000002,
+            "embedded_host_EBIT_delta_B": -0.14852600000000002,
+            "incremental_EBIT_delta_B": -0.4335940000000002
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.6170472000000002,
+            "embedded_host_EBIT_delta_B": -0.15298178,
+            "incremental_EBIT_delta_B": -0.46406542000000023
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.6478995600000004,
+            "embedded_host_EBIT_delta_B": -0.15757123340000004,
+            "incremental_EBIT_delta_B": -0.49032832660000025
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.6738155424000004,
+            "embedded_host_EBIT_delta_B": -0.16229837040200001,
+            "incremental_EBIT_delta_B": -0.5115171719980004
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.6940300086720005,
+            "embedded_host_EBIT_delta_B": -0.16716732151406002,
+            "incremental_EBIT_delta_B": -0.5268626871579404
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.7148509089321604,
+            "embedded_host_EBIT_delta_B": -0.17218234115948183,
+            "incremental_EBIT_delta_B": -0.5426685677726787
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.7362964362001253,
+            "embedded_host_EBIT_delta_B": -0.1773478113942663,
+            "incremental_EBIT_delta_B": -0.5589486248058589
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.7583853292861291,
+            "embedded_host_EBIT_delta_B": -0.1826682457360943,
+            "incremental_EBIT_delta_B": -0.5757170835500347
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.781136889164713,
+            "embedded_host_EBIT_delta_B": -0.18814829310817713,
+            "incremental_EBIT_delta_B": -0.5929885960565359
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": -0.8045709958396544,
+            "embedded_host_EBIT_delta_B": -0.19379274190142246,
+            "incremental_EBIT_delta_B": -0.6107782539382319
+          }
+        ]
+      },
+      "flat25pct_from2030_no_mature27pct": {
+        "Dec2026_planning_value_USD": 48.37413869378367,
+        "Dec2030_target_USD": 73.27658192731336,
+        "annual_price_return_from_Nov6_56_28": 0.06564675009712562,
+        "EBIT2030_B": 38.942007896513076,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.5,
+        "net_packaging_EBIT2030_B": 1.175,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.07700000000000008,
+            "embedded_host_EBIT_delta_B": -0.020600000000000018,
+            "incremental_EBIT_delta_B": -0.056400000000000054
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.1663200000000002,
+            "embedded_host_EBIT_delta_B": -0.042436000000000036,
+            "incremental_EBIT_delta_B": -0.12388400000000015
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.1762992000000002,
+            "embedded_host_EBIT_delta_B": -0.04370908000000004,
+            "incremental_EBIT_delta_B": -0.13259012000000017
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.18511416000000025,
+            "embedded_host_EBIT_delta_B": -0.04502035240000005,
+            "incremental_EBIT_delta_B": -0.14009380760000018
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.19251872640000026,
+            "embedded_host_EBIT_delta_B": -0.046370962972000045,
+            "incremental_EBIT_delta_B": -0.14614776342800023
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.1982942881920003,
+            "embedded_host_EBIT_delta_B": -0.047762091861160046,
+            "incremental_EBIT_delta_B": -0.15053219633084025
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.20424311683776028,
+            "embedded_host_EBIT_delta_B": -0.04919495461699485,
+            "incremental_EBIT_delta_B": -0.15504816222076545
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.2103704103428931,
+            "embedded_host_EBIT_delta_B": -0.0506708032555047,
+            "incremental_EBIT_delta_B": -0.1596996070873884
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.21668152265317991,
+            "embedded_host_EBIT_delta_B": -0.052190927353169846,
+            "incremental_EBIT_delta_B": -0.16449059530001006
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.22318196833277532,
+            "embedded_host_EBIT_delta_B": -0.05375665517376493,
+            "incremental_EBIT_delta_B": -0.16942531315901035
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.25,
+            "gross_program_EBIT_delta_B": -0.22987742738275857,
+            "embedded_host_EBIT_delta_B": -0.05536935482897789,
+            "incremental_EBIT_delta_B": -0.17450807255378067
+          }
+        ]
+      },
+      "Intel_attributed_aspiration30pct_control": {
+        "Dec2026_planning_value_USD": 48.88492759380111,
+        "Dec2030_target_USD": 74.06762041270235,
+        "annual_price_return_from_Nov6_56_28": 0.0684071047859025,
+        "EBIT2030_B": 39.29200789651308,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.6,
+        "net_packaging_EBIT2030_B": 1.425,
+        "audit": [
+          {
+            "year": 2027,
+            "selected_gross_margin": -0.1,
+            "control_gross_margin": -0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2028,
+            "selected_gross_margin": 0.1,
+            "control_gross_margin": 0.1,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2029,
+            "selected_gross_margin": 0.2,
+            "control_gross_margin": 0.2,
+            "gross_program_EBIT_delta_B": 0.0,
+            "embedded_host_EBIT_delta_B": 0.0,
+            "incremental_EBIT_delta_B": 0.0
+          },
+          {
+            "year": 2030,
+            "selected_gross_margin": 0.25,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.3499999999999999,
+            "embedded_host_EBIT_delta_B": 0.09999999999999998,
+            "incremental_EBIT_delta_B": 0.24999999999999994
+          },
+          {
+            "year": 2031,
+            "selected_gross_margin": 0.26,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.3079999999999999,
+            "embedded_host_EBIT_delta_B": 0.08239999999999996,
+            "incremental_EBIT_delta_B": 0.2255999999999999
+          },
+          {
+            "year": 2032,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.24947999999999984,
+            "embedded_host_EBIT_delta_B": 0.06365399999999993,
+            "incremental_EBIT_delta_B": 0.18582599999999988
+          },
+          {
+            "year": 2033,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.2644487999999998,
+            "embedded_host_EBIT_delta_B": 0.06556361999999993,
+            "incremental_EBIT_delta_B": 0.19888517999999988
+          },
+          {
+            "year": 2034,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.2776712399999999,
+            "embedded_host_EBIT_delta_B": 0.06753052859999994,
+            "incremental_EBIT_delta_B": 0.2101407113999999
+          },
+          {
+            "year": 2035,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.28877808959999984,
+            "embedded_host_EBIT_delta_B": 0.06955644445799994,
+            "incremental_EBIT_delta_B": 0.21922164514199993
+          },
+          {
+            "year": 2036,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.29744143228799985,
+            "embedded_host_EBIT_delta_B": 0.07164313779173993,
+            "incremental_EBIT_delta_B": 0.22579829449625993
+          },
+          {
+            "year": 2037,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.30636467525663985,
+            "embedded_host_EBIT_delta_B": 0.07379243192549215,
+            "incremental_EBIT_delta_B": 0.23257224333114773
+          },
+          {
+            "year": 2038,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.3155556155143391,
+            "embedded_host_EBIT_delta_B": 0.0760062048832569,
+            "incremental_EBIT_delta_B": 0.23954941063108215
+          },
+          {
+            "year": 2039,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.32502228397976923,
+            "embedded_host_EBIT_delta_B": 0.07828639102975461,
+            "incremental_EBIT_delta_B": 0.24673589295001463
+          },
+          {
+            "year": 2040,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.33477295249916234,
+            "embedded_host_EBIT_delta_B": 0.08063498276064726,
+            "incremental_EBIT_delta_B": 0.2541379697385151
+          },
+          {
+            "year": 2041,
+            "selected_gross_margin": 0.27,
+            "control_gross_margin": 0.3,
+            "gross_program_EBIT_delta_B": 0.3448161410741372,
+            "embedded_host_EBIT_delta_B": 0.08305403224346668,
+            "incremental_EBIT_delta_B": 0.2617621088306705
+          }
+        ]
+      }
+    }
+  }
+}

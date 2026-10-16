@@ -1,0 +1,132 @@
+{
+  "as_of": "2026-11-06",
+  "completed_utc": "2026-11-06T06:15:30.466110+00:00",
+  "conclusion": "New primary management testimony makes the wafer-side ramp more concrete, but does not establish a finished-CPU quantity bridge or justify increasing the forecast. No new numerical forecast cut is uniquely identified either. The useful change is a quantified production plan plus explicit package/mix conversion tests, not a claimed investment edge.",
+  "read_inputs": [
+    "output/pdf/m37_intel_initial_screen.pdf, especially pp3-4 and 9",
+    "prior economic_underwriting/substrate_H2_capacity_primary_check.json",
+    "prior economic_underwriting/ibiden_pricing_capacity_update.json",
+    "prior economic_underwriting/ats_nov5_supplier_update.json",
+    "prior economic_underwriting/substrate_calendar_carryover_diagnostic.json",
+    "prior economic_underwriting/prior_year_unit_constraint_results.json"
+  ],
+  "findings": [
+    {
+      "id": "D1",
+      "status": "NEW_TO_REVIEW; older dated public testimony, not new information to market",
+      "exact_claim": "At the Aug26 conference, CFO David Zinsner said Intel aimed to more than double Ireland output in 2027, in the discussion of Intel3/Granite Rapids. The shell already existed and the output ramp was underway.",
+      "short_quote": "more than double the output there next year",
+      "event_date": "2026-08-26",
+      "sources": [
+        {
+          "url": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference",
+          "locator": "Official event page; Audio/Webcast link",
+          "proves": "Event identity and primary webcast location, not a written transcript"
+        },
+        {
+          "url": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+          "locator": "David Zinsner answer to demand question: webpage lines198-205; next answer lines227-233",
+          "proves": "Published Quartr transcript"
+        },
+        {
+          "url": "https://earningsapi.io/transcripts/intel-corporation_intc_earnings_call_transcript_2026-08-26",
+          "locator": "David Zinsner speaker segments12 and14; local intel_aug26_earningsapi.txt lines115-124",
+          "proves": "Matching published transcript; several transcription errors elsewhere"
+        },
+        {
+          "url": "https://equibles.com/stocks/intc/events/1ba4f15b-a5ac-482b-96b3-c87eb51d73d3",
+          "locator": "Dave Zinsner demand/supply answer, webpage lines297-304",
+          "proves": "Third published transcription matching output statement"
+        }
+      ],
+      "what_changes": "Adds a quantified Ireland ramp to a page currently centered on Oregon and substrates. The investment is not entirely waiting for a new Oregon process line.",
+      "limits": [
+        "The unit of output, annual-average versus exit-rate baseline, absolute amount and family allocation are undefined.",
+        "Ireland is a wafer manufacturing site; this cannot be labeled twice as many qualified Xeon packages.",
+        "Three transcript providers recount the same event, not three independent confirmations of production. Official audio link was located but audio was not listened to.",
+        "Oct29 prepared remarks say Ireland tool installation is progressing and output is increasing; they do not reaffirm the numerical doubling target."
+      ],
+      "falsifier": "Withdrawal/delay of the Ireland target, tool/ramp shortfall, or rising wafers without corresponding same-scope qualified CPU shipments."
+    },
+    {
+      "id": "D2",
+      "status": "UNDERUSED_PRIMARY_CONTEXT",
+      "exact_claim": "In the same Aug26 discussion, Zinsner said server ASP per core had stabilized and sometimes rose on a like-for-like basis. He also said Ireland had little remaining client capacity to reallocate; greater Granite output required capacity, throughput and yield improvement.",
+      "event_date": "2026-08-26",
+      "source": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+      "locator": "Zinsner lines198-203 and254-258; matching earningsapi speaker segments12 and18",
+      "what_changes": "The near-term ASP explanation may include relief from declining per-core pricing, not only richer CPU mix. PC weakness does not free immediately fungible Granite capacity; the October Oregon conversion is a separate physical project.",
+      "limits": [
+        "No numerical current realized per-core price series, weighted cores per shipped CPU, contract duration or 2027 price guide is provided.",
+        "A stabilization observation during shortage cannot establish post-shortage pricing power or +20/+8/+4/+2% package ASP.",
+        "Do not multiply a core-growth forecast into CPU-unit growth."
+      ],
+      "falsifier": "Comparable realized per-core pricing declines, or package ASP fails despite continued mix migration."
+    },
+    {
+      "id": "D3",
+      "status": "NEW_TO_REVIEW; corroborating project evidence only",
+      "exact_claim": "Intel announced EUR5B of Leixlip investment for Xeon6 and next-generation Xeon on Intel3; work had begun earlier in 2026 using existing cleanroom space.",
+      "event_date": "2026-07-13",
+      "sources": [
+        {
+          "url": "https://newsroom.intel.com/intel-foundry/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe",
+          "locator": "Opening four paragraphs; browser search retrieved primary text, direct open failed redirect"
+        },
+        {
+          "url": "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results",
+          "date": "2026-07-23",
+          "locator": "Business Highlights; Ireland investment bullet; local HTML/text saved"
+        }
+      ],
+      "what_changes": "Corroborates a named, underway project behind the August aim.",
+      "limits": [
+        "No disclosed CPU quantity or quarter-by-quarter acceptance plan.",
+        "Do not add EUR5B to the model capex again; project belongs inside the existing Intel investment budget unless reconciled otherwise."
+      ]
+    },
+    {
+      "id": "D4",
+      "status": "NEW_TO_REVIEW; does not support 2027 output",
+      "exact_claim": "Shinko agreed to buy the Mobara display fab for advanced flip-chip package production; property transfer is scheduled for end-March 2027 and production start for FY 2028.",
+      "event_date": "2026-09-30",
+      "source": "https://www.shinko.co.jp/english/news/docs/20260930-01_en.pdf",
+      "locator": "PDF p1 reasons; p3 Schedule",
+      "what_changes": "A concrete supplier conversion project joins the later supply response. It provides no 2027 capacity for the pitch to count.",
+      "limits": [
+        "No customer, Intel allocation, package count, CPU mix, usable capacity or yields disclosed.",
+        "FY2028 is Shinko fiscal terminology, not a promised January2028 production date.",
+        "Larger/more-layered product demand is resource consumption, not CPU package volume."
+      ]
+    }
+  ],
+  "known_not_repackaged": [
+    "Intel Oct29 40% substrate capacity, much in H2, and Oregon Intel3 production in H2 remain known.",
+    "Ibiden 1.3x market/1.9x load decomposition and H2FY2029 added Gama timing remain known.",
+    "AT&S Nov5 named AMD/Marvell lines and unidentified three-line Kulim2 customer were already audited. No Intel allocation may be invented.",
+    "Intel Oct29 >30% industry server CPU-unit growth in2026/27 remains near-term management expectation; it does not supply 2028-30 matched unit growth."
+  ],
+  "bounded_bridge": {
+    "calculation_file": "conditional_delivery_bridge.json",
+    "headline": "With assumed flat H1 CPU revenue, H2 needs $9.211844B/quarter: +41.16% revenue. That requires +41.16% units at flat H2/H1 ASP, +28.33% units at +10% ASP, or +17.64% units at +20% ASP.",
+    "boundary": "These are combinations required by the same target, not estimated outcomes. The model annual ASP+20% cannot be assigned to H2/H1.",
+    "ireland_threshold": "Only if comparable Irish good-silicon output doubles and conversion to shipped CPUs is unchanged, a 2026 associated unit share of20% covers total units+20% with legacy units flat; legacy units-20% requires33.3%. Neither share nor conversion is disclosed.",
+    "longer_term": "Forecast units nearly double by2030 versus2026 (1.9824x). New evidence does not establish the2028-30 unit-growth average18.21% or continued market-share loss without a matched market forecast."
+  },
+  "proposed_operating_policy_change": {
+    "immediate": "Keep the numerical forecast as an analyst case; upgrade the wafer evidence, not its certainty. Add the Ireland2027 output aim and distinguish it from the bottleneck at substrates/qualified packages.",
+    "quarterly_rule": "After each2027 result, calculate required remaining CPU revenue from the unchanged annual target and actual realized revenue proxy, then test unit/ASP combinations. Reconcile reported ASP and unit changes before adjusting the annual forecast.",
+    "no_automatic_catchup": "A2027 miss does not preserve the2028 absolute unit target unless the same product/customer backlog and incremental qualified capacity are independently supported.",
+    "promotion_gate": [
+      "Ireland output definition and measured ramp, including relevant mix and yields",
+      "Intel-assigned substrate deliveries in the required quarters",
+      "qualified/accepted CPU shipments and realized ASP sufficient for the remaining annual hurdle"
+    ],
+    "valuation_policy": "No valuation change before an operating-policy choice. No price target was solved or adjusted here."
+  },
+  "search_limits": [
+    "No new Intel-specific substrate allocation or finished-CPU schedule found. This is a bounded public-source search, not proof none exists.",
+    "AMD revenue growth, Arm cores, aggregate substrate sales and supplier floor area were not converted into Intel CPU packages.",
+    "No paid datasets, outreach, commits, PDF edits, model edits or builder edits."
+  ]
+}

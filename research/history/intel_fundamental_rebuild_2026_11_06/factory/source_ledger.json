@@ -1,0 +1,75 @@
+{
+  "checked_utc": "2026-11-07T01:11:11.207279+00:00",
+  "sources": [
+    {
+      "id": "ase_q3_2026",
+      "title": "ASE Q3 2026 SEC-filed results",
+      "date": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1122411/000095010326016324/dp255760_6k.htm",
+      "locator": "ATM highlights and ATM income statement, printed pages2,5,7",
+      "facts": {
+        "ATM_revenue_NTD_million": 151485,
+        "ATM_operating_income_NTD_million": 30243,
+        "ATM_operating_margin_reported": 0.2,
+        "ATM_prior_quarter_margin": 0.157,
+        "ATM_material_cost_NTD_million": 40974,
+        "ATM_material_share_reported": 0.27,
+        "ATM_equipment_capex_USD_million": 2063
+      },
+      "interpretation": "A large actual assembly/test/material business reached20% operating margin. Supports economic plausibility of substantial packaging profit, not Intel25% or27%.",
+      "limits": "Mixed technology, test, materials, geography and capital base differ; single-quarter outcome is not a through-cycle margin.",
+      "novelty": "Incremental external benchmark versus prior archived Intel research."
+    },
+    {
+      "id": "amkor_q3_2026",
+      "title": "Amkor Q3 2026 Form10-Q",
+      "date": "2026-10-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm",
+      "locator": "Note1; MD&A operating margin/materials and Liquidity, printed pages9,26-28,30-31",
+      "facts": {
+        "operating_margin": 0.113,
+        "material_share": 0.507,
+        "contract_liabilities_Sep30_B": 0.5476,
+        "advance_payments_expected_as_of_Sep30_next12months_B": 1.9,
+        "additional_October_agreement_expected_2027_B": 1.3
+      },
+      "interpretation": "Quantified expected customer advances demonstrate the type of commercial financing disclosure Intel could provide. Gross operating margins differ with materials content; lower material mix helped Amkor margin.",
+      "limits": "Do not add the two advance figures into a common-year cash forecast; periods differ. Advances are neither recognized profit nor unconditional free cash; customer name and full protections are not disclosed here.",
+      "novelty": "11.3% margin was already cited in Nov4 policy. Quantified advances now verified in primary filing; Nov5 review had only an unrelied-on transcript snippet."
+    },
+    {
+      "id": "intel_q3_2026",
+      "title": "Intel Q3 2026 Form10-Q",
+      "date": "2026-10-30",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Notes5 and14, printed pages15,24-25",
+      "facts": {
+        "customer_deposits_B": 1.2,
+        "capital_purchase_commitments_B": 19.6,
+        "other_purchase_commitments_B": 9.8,
+        "subsequent_substrate_funding_low_B": 5.3,
+        "subsequent_substrate_funding_high_B": 6.1,
+        "substrate_funding_by_end2027_B": 3.3
+      },
+      "interpretation": "Customer deposits support real demand, while supplier commitments and substrate funding show paid capacity expansion.",
+      "limits": "Deposits secure product supply and are not allocated to external packaging. Supplier orders are Intel obligations, not evidence of7B customer fees. These cash obligations already enter prior research and are not new deductions.",
+      "novelty": "Revalidated existing evidence; not newly discovered."
+    },
+    {
+      "id": "tsmc_q3_2026",
+      "title": "TSMC Q3 2026 official earnings transcript",
+      "date": "2026-10-15",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf",
+      "locator": "Printed pages12-14",
+      "fact": "Management describes5x-reticle production, larger-package development and willingness to help customers whose alternative packaging supply falls short; capital spending and tool costs are rising.",
+      "interpretation": "A supply-gap opportunity can coexist with a capable alternative; domestic location or bridge architecture alone does not establish durable Intel pricing.",
+      "limits": "Not evidence any Intel customer switched or that backup capacity is reserved. No matched yield or per-package economics.",
+      "novelty": "Already in Nov5 economic underwriting; revalidated."
+    }
+  ],
+  "access_notes": [
+    "Amkor hosted transcript direct download returned403; not claimed reviewed. SEC10-Q supplied quantitative facts.",
+    "ASE quarterly IR endpoint returned403; SEC6-K supplied the actual financial evidence."
+  ],
+  "search_outcome": "No newly verified named, quantified Intel packaging customer minimum or package fee found."
+}

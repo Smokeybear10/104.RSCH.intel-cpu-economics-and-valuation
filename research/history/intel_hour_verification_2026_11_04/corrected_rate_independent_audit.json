@@ -1,0 +1,422 @@
+{
+  "audited_utc": "2026-11-04T22:49:35.561136+00:00",
+  "status": "passed independent numerical reproduction; economic and date qualifications remain",
+  "method": "Rebuilt 54 discounted-cash valuations from frozen scenario annual operating cash, original treasury/financing benefit rows, and newly frozen risk policy. No use of updated component subtotals as inputs. Sequential annual discount factors and an independent 1000-year operating terminal sum used. Original models and PDF unchanged.",
+  "source_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "source_scenarios_sha256": "ad3425c3b29bc928ecf8eea1f1b6ee85fa064f2547feaf577c304e0454c9faa4",
+  "updated_valuation_sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39",
+  "comparison_count": 54,
+  "max_price_error_USD": 0.0,
+  "max_component_error": 0.0,
+  "max_1000_year_terminal_sum_error_B": 3.979039320256561e-13,
+  "max_cash_row_identity_error_B": 1.4210854715202004e-14,
+  "claims_B": 5.51,
+  "terminal_growth": 0.03,
+  "policy_arithmetic": {
+    "central": 0.11555,
+    "central_frozen": 0.11555,
+    "maturing_initial": 0.11555,
+    "maturing_terminal": 0.10055,
+    "maturing_decline": 0.015,
+    "maturing_path": "Flat through 2030; decline 15 basis points each year 2031\u20132040; terminal rate held after 2040. Preserves previous diagnostic timing.",
+    "plaincash_exact": 0.10631495183175221,
+    "plaincash_root_truncated": 0.10631495183,
+    "plaincash_rate_difference": -1.7522094886146533e-12,
+    "plaincash_2026_price_difference_USD": 1.5228707184178347e-09
+  },
+  "quote_implied_rate": 0.1017846287509016,
+  "quote_implied_asset_beta": 1.1878600623787212,
+  "date_qualification": {
+    "valuation_anchor": "2026-12-31",
+    "quote_date": "2026-11-04",
+    "calendar_days_apart": 57,
+    "correct_description": "Year-end 2026 value proxy compared with Nov4 spot. Quote-implied rate and asset beta inherit this mismatch and are not exact contemporaneous estimates.",
+    "not_applied": "No 57-day discount using the operating asset rate is silently applied to equity."
+  },
+  "qualifications": [
+    "All scenarios retain the same treasury and financing benefits through 2030 because operating differences begin in 2031. This is internally correct for requested endpoints 2026, 2029 and 2030.",
+    "Maturing rate path is a diagnostic sensitivity, not an empirically proven forecast of beta or rates.",
+    "Model discounts financing tax benefits, escrow inflows and acquisition costs at the same operating rate. This preserves the existing policy; reproduction does not establish identical economic risk for all components.",
+    "This is a model arithmetic audit, not a forecast accuracy test, market-alpha test, or competition-win probability."
+  ],
+  "comparisons": [
+    {
+      "scenario": "less_productive",
+      "endpoint": 2026,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2026,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2026,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2026,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2026,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2026,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2029,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2029,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2029,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2029,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2029,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2029,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2030,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2030,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2030,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2030,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2030,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "less_productive",
+      "endpoint": 2030,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2026,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2026,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2026,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2026,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2026,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2026,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2029,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2029,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2029,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2029,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2029,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2029,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2030,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2030,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2030,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2030,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2030,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "central",
+      "endpoint": 2030,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2026,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2026,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2026,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2026,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2026,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2026,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2029,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2029,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2029,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2029,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2029,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2029,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2030,
+      "rate_policy": "corrected_central_flat",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2030,
+      "rate_policy": "corrected_maturing_risk",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2030,
+      "rate_policy": "plain_T12_cash_ERP",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2030,
+      "rate_policy": "Kroll_framework",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2030,
+      "rate_policy": "old_flat_12pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    },
+    {
+      "scenario": "more_productive",
+      "endpoint": 2030,
+      "rate_policy": "flat_10pct",
+      "max_absolute_component_error": 0.0,
+      "price_error_USD": 0.0
+    }
+  ]
+}

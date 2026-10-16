@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-06T21:54:16.734454+00:00",
+  "chronology": "Current owned-case values and historical lower-case factory-stress results known before selecting these scenarios; not valuation-blind. Defined before computing new owned-case factory-stress values.",
+  "scope": "Replace only host Foundry EBIT, hold revenue/deliveries/product margins/packaging/capex/D&A/working capital/claims constant, and recalculate ordinary operating tax. This is a distinct cash-cost execution miss, not an additional volume or noncash depreciation penalty.",
+  "cases": {
+    "owned_base": "Unchanged active_case annual rows",
+    "two_year_delay": "2027-32 Foundry EBIT [-4,-4,-4,-0.75,1,2.5]; after2032, profit scales with Products revenue at2032 ratio.",
+    "breakeven_only": "2027-30 Foundry EBIT [-4,-2.5,-1,0]; 2031 onward zero. Packaging profit remains unchanged.",
+    "persistent_loss": "-4B Foundry EBIT annually2027-40, -4.12B2041 consistent with terminal3%scale."
+  },
+  "rates": [
+    0.10625,
+    0.11555
+  ],
+  "constraints": [
+    "Reproduce active_case values at10.625% within1e-9.",
+    "Do not call conditional cash-cost misses probabilities.",
+    "Do not extrapolate quarterly actuals into guidance.",
+    "Do not add historical node cost improvements again."
+  ]
+}

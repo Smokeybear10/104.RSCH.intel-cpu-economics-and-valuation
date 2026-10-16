@@ -1,0 +1,456 @@
+{
+  "title": "Long-run Intel CPU and Other DCAI operating trajectory review",
+  "policy_saved_utc": "2026-11-05T06:09:26.312368+00:00",
+  "selection_chronology": "Exact policy sent to root before this file was written and before this child computed any new revenue or equity outputs. Existing base and prior weak-case equity values were already known. No new equity value has been seen by this child.",
+  "status": "Complete operating-only review. Exact earlier-normalization policy was selected and saved before these sales computations. No new equity value calculated or seen by this child.",
+  "earlier_normalization_policy": {
+    "classification": "Prospective duration sensitivity, not selected central forecast or source-proven most likely case.",
+    "unchanged_through_2030": true,
+    "years": [
+      2031,
+      2032,
+      2033,
+      2034,
+      2035
+    ],
+    "server_unit_growth": [
+      0.08,
+      0.0625,
+      0.045,
+      0.0275,
+      0.01
+    ],
+    "server_ASP_growth": [
+      0.02,
+      0.02,
+      0.02,
+      0.02,
+      0.01980198019801982
+    ],
+    "Other_DCAI_growth": [
+      0.15,
+      0.12,
+      0.09,
+      0.06,
+      0.03
+    ],
+    "from_2036": {
+      "server_unit_growth": 0.01,
+      "server_ASP_growth": 0.01980198019801982,
+      "Other_DCAI_growth": 0.03
+    },
+    "preserve": "All other revenue categories, adopted margin paths, capital efficiency 0.8, working-capital rules, tax/credit/claims/financing and external packaging/wafer boundaries. Root recomputes funded investment on revised sales. No equity outputs or threshold fitting here.",
+    "rationale": "Replace the uncalibrated ten-year post2030 growth fade with a five-year fade toward the same previously selected mature economics. Public product roadmaps and CPU TAM forecasts mainly end around2030–31. This is a transparent test of the duration of competitive growth, not a claim that absent long-term forecasts establish a downturn or that product refresh cycles force market maturity in2035.",
+    "bull_countercase": "Preserve the old longer fade as a credible recovery countercase: the current industry can continue creating new CPU/custom demand and easing supply constraints after2030. The new test does not prove that growth must normalize faster."
+  },
+  "operating_arithmetic_computed_utc": "2026-11-05T06:11:32.094176+00:00",
+  "original_path_audit": {
+    "annual_rows": [
+      {
+        "year": 2027,
+        "server_unit_growth": 0.2,
+        "server_ASP_growth": 0.2,
+        "Other_DCAI_growth": 0.6,
+        "server_CPU_revenue_proxy_B": 31.475088000000003,
+        "Other_DCAI_revenue_B": 8.304,
+        "DCAI_revenue_B": 39.779088,
+        "server_units_index": 1.2,
+        "server_ASP_index": 1.2
+      },
+      {
+        "year": 2028,
+        "server_unit_growth": 0.25,
+        "server_ASP_growth": 0.08,
+        "Other_DCAI_growth": 0.4,
+        "server_CPU_revenue_proxy_B": 42.49136880000001,
+        "Other_DCAI_revenue_B": 11.6256,
+        "DCAI_revenue_B": 54.11696880000001,
+        "server_units_index": 1.5,
+        "server_ASP_index": 1.2960000000000005
+      },
+      {
+        "year": 2029,
+        "server_unit_growth": 0.18,
+        "server_ASP_growth": 0.04,
+        "Other_DCAI_growth": 0.25,
+        "server_CPU_revenue_proxy_B": 52.14540779136001,
+        "Other_DCAI_revenue_B": 14.532,
+        "DCAI_revenue_B": 66.67740779136001,
+        "server_units_index": 1.7699999999999998,
+        "server_ASP_index": 1.3478400000000004
+      },
+      {
+        "year": 2030,
+        "server_unit_growth": 0.12,
+        "server_ASP_growth": 0.02,
+        "Other_DCAI_growth": 0.2,
+        "server_CPU_revenue_proxy_B": 59.57091386084968,
+        "Other_DCAI_revenue_B": 17.438399999999998,
+        "DCAI_revenue_B": 77.00931386084969,
+        "server_units_index": 1.9824,
+        "server_ASP_index": 1.3747968000000004
+      },
+      {
+        "year": 2031,
+        "server_unit_growth": 0.08,
+        "server_ASP_growth": 0.02,
+        "Other_DCAI_growth": 0.15,
+        "server_CPU_revenue_proxy_B": 65.62331870911201,
+        "Other_DCAI_revenue_B": 20.054159999999996,
+        "DCAI_revenue_B": 85.677478709112,
+        "server_units_index": 2.140992,
+        "server_ASP_index": 1.4022927360000004
+      },
+      {
+        "year": 2032,
+        "server_unit_growth": 0.07,
+        "server_ASP_growth": 0.02,
+        "Other_DCAI_growth": 0.12,
+        "server_CPU_revenue_proxy_B": 71.62129003912486,
+        "Other_DCAI_revenue_B": 22.4606592,
+        "DCAI_revenue_B": 94.08194923912487,
+        "server_units_index": 2.2908614400000005,
+        "server_ASP_index": 1.4303385907200006
+      },
+      {
+        "year": 2033,
+        "server_unit_growth": 0.06,
+        "server_ASP_growth": 0.02,
+        "Other_DCAI_growth": 0.1,
+        "server_CPU_revenue_proxy_B": 77.43693879030182,
+        "Other_DCAI_revenue_B": 24.70672512,
+        "DCAI_revenue_B": 102.14366391030183,
+        "server_units_index": 2.4283131264000004,
+        "server_ASP_index": 1.4589453625344004
+      },
+      {
+        "year": 2034,
+        "server_unit_growth": 0.05,
+        "server_ASP_growth": 0.02,
+        "Other_DCAI_growth": 0.08,
+        "server_CPU_revenue_proxy_B": 82.93496144441325,
+        "Other_DCAI_revenue_B": 26.683263129600004,
+        "DCAI_revenue_B": 109.61822457401325,
+        "server_units_index": 2.5497287827200004,
+        "server_ASP_index": 1.4881242697850885
+      },
+      {
+        "year": 2035,
+        "server_unit_growth": 0.04,
+        "server_ASP_growth": 0.02,
+        "Other_DCAI_growth": 0.07,
+        "server_CPU_revenue_proxy_B": 87.97740710023358,
+        "Other_DCAI_revenue_B": 28.551091548672005,
+        "DCAI_revenue_B": 116.52849864890558,
+        "server_units_index": 2.6517179340288006,
+        "server_ASP_index": 1.5178867551807902
+      },
+      {
+        "year": 2036,
+        "server_unit_growth": 0.03,
+        "server_ASP_growth": 0.01980198019801982,
+        "Other_DCAI_growth": 0.06,
+        "server_CPU_revenue_proxy_B": 92.4111199927107,
+        "Other_DCAI_revenue_B": 30.264157041592327,
+        "DCAI_revenue_B": 122.67527703430302,
+        "server_units_index": 2.7312694720496644,
+        "server_ASP_index": 1.5479439186497168
+      },
+      {
+        "year": 2037,
+        "server_unit_growth": 0.025,
+        "server_ASP_growth": 0.01980198019801982,
+        "Other_DCAI_growth": 0.05,
+        "server_CPU_revenue_proxy_B": 96.59706923990525,
+        "Other_DCAI_revenue_B": 31.777364893671944,
+        "DCAI_revenue_B": 128.3744341335772,
+        "server_units_index": 2.799551208850906,
+        "server_ASP_index": 1.5785962734744636
+      },
+      {
+        "year": 2038,
+        "server_unit_growth": 0.02,
+        "server_ASP_growth": 0.01980198019801982,
+        "Other_DCAI_growth": 0.04,
+        "server_CPU_revenue_proxy_B": 100.48008014202422,
+        "Other_DCAI_revenue_B": 33.048459489418825,
+        "DCAI_revenue_B": 133.52853963144304,
+        "server_units_index": 2.8555422330279243,
+        "server_ASP_index": 1.6098556056224729
+      },
+      {
+        "year": 2039,
+        "server_unit_growth": 0.015,
+        "server_ASP_growth": 0.01980198019801982,
+        "Other_DCAI_growth": 0.035,
+        "server_CPU_revenue_proxy_B": 104.00683146978139,
+        "Other_DCAI_revenue_B": 34.20515557154848,
+        "DCAI_revenue_B": 138.21198704132985,
+        "server_units_index": 2.898375366523343,
+        "server_ASP_index": 1.6417339344466801
+      },
+      {
+        "year": 2040,
+        "server_unit_growth": 0.01,
+        "server_ASP_growth": 0.01980198019801982,
+        "Other_DCAI_growth": 0.03,
+        "server_CPU_revenue_proxy_B": 107.12703641387483,
+        "Other_DCAI_revenue_B": 35.23131023869494,
+        "DCAI_revenue_B": 142.35834665256976,
+        "server_units_index": 2.927359120188576,
+        "server_ASP_index": 1.6742435173070105
+      }
+    ],
+    "source_status": "Original post2030_operating_capital_policy.json explicitly says all2031+ rates, margins, capital efficiency and time paths are owned forecasts, not issuer guidance. Subsequent ASP policy retains its growth rates on the revised2030 level.",
+    "post2030_CAGR": {
+      "server_CPU_revenue_proxy_B": 0.06044093219044244,
+      "Other_DCAI_revenue_B": 0.07285793079533454,
+      "DCAI_revenue_B": 0.06336893344343975,
+      "server_units_index": 0.03974890453274593,
+      "server_ASP_index": 0.019900985293170637
+    },
+    "Other_DCAI_2026_to2030_multiple": 3.3599999999999994,
+    "Other_DCAI_2026_to2030_CAGR": 0.3538944855424797,
+    "Other_DCAI_2026_to2040_multiple": 6.78830640437282,
+    "central_excess_2040_revenue_vs_immediate3pct_after2030_B": {
+      "CPU": 27.068709543781154,
+      "Other_DCAI": 11.795558849140399
+    },
+    "interpretation": "The model already fades strongly: CPU units only grow about4% annually after2030 and ASP about2%. It does not compound the initial20%/20% assumption forever. The unresolved choice is how long growth above maturity persists and how much share/mix Intel captures. A large2040 revenue level alone is not proof of implausibility."
+  },
+  "earlier_normalization_operating_rows": [
+    {
+      "year": 2031,
+      "server_unit_growth": 0.08,
+      "server_ASP_growth": 0.02,
+      "Other_DCAI_growth": 0.15,
+      "server_units_index": 2.1409920000000002,
+      "server_ASP_index": 1.4022927360000004,
+      "server_CPU_revenue_proxy_B": 65.62331870911201,
+      "Other_DCAI_revenue_B": 20.054159999999996,
+      "DCAI_revenue_B": 85.67747870911201,
+      "CPU_change_vs_existing_B": 0.0,
+      "Other_DCAI_change_vs_existing_B": 0.0
+    },
+    {
+      "year": 2032,
+      "server_unit_growth": 0.0625,
+      "server_ASP_growth": 0.02,
+      "Other_DCAI_growth": 0.12,
+      "server_units_index": 2.274804,
+      "server_ASP_index": 1.4303385907200004,
+      "server_CPU_revenue_proxy_B": 71.11927165100015,
+      "Other_DCAI_revenue_B": 22.4606592,
+      "DCAI_revenue_B": 93.57993085100014,
+      "CPU_change_vs_existing_B": -0.5020183881247107,
+      "Other_DCAI_change_vs_existing_B": 0.0
+    },
+    {
+      "year": 2033,
+      "server_unit_growth": 0.045,
+      "server_ASP_growth": 0.02,
+      "Other_DCAI_growth": 0.09,
+      "server_units_index": 2.37717018,
+      "server_ASP_index": 1.4589453625344004,
+      "server_CPU_revenue_proxy_B": 75.80603165280105,
+      "Other_DCAI_revenue_B": 24.482118528,
+      "DCAI_revenue_B": 100.28815018080105,
+      "CPU_change_vs_existing_B": -1.6309071375007704,
+      "Other_DCAI_change_vs_existing_B": -0.22460659200000066
+    },
+    {
+      "year": 2034,
+      "server_unit_growth": 0.0275,
+      "server_ASP_growth": 0.02,
+      "Other_DCAI_growth": 0.06,
+      "server_units_index": 2.44254235995,
+      "server_ASP_index": 1.4881242697850885,
+      "server_CPU_revenue_proxy_B": 79.44851147371816,
+      "Other_DCAI_revenue_B": 25.951045639680004,
+      "DCAI_revenue_B": 105.39955711339816,
+      "CPU_change_vs_existing_B": -3.486449970695091,
+      "Other_DCAI_change_vs_existing_B": -0.73221748992
+    },
+    {
+      "year": 2035,
+      "server_unit_growth": 0.01,
+      "server_ASP_growth": 0.01980198019801982,
+      "Other_DCAI_growth": 0.03,
+      "server_units_index": 2.4669677835495,
+      "server_ASP_index": 1.5175920771075655,
+      "server_CPU_revenue_proxy_B": 81.8319668179297,
+      "Other_DCAI_revenue_B": 26.729577008870404,
+      "DCAI_revenue_B": 108.5615438268001,
+      "CPU_change_vs_existing_B": -6.1454402823038805,
+      "Other_DCAI_change_vs_existing_B": -1.8215145398016013
+    },
+    {
+      "year": 2036,
+      "server_unit_growth": 0.01,
+      "server_ASP_growth": 0.01980198019801982,
+      "Other_DCAI_growth": 0.03,
+      "server_units_index": 2.491637461384995,
+      "server_ASP_index": 1.5476434053671213,
+      "server_CPU_revenue_proxy_B": 84.2869258224676,
+      "Other_DCAI_revenue_B": 27.531464319136518,
+      "DCAI_revenue_B": 111.81839014160411,
+      "CPU_change_vs_existing_B": -8.1241941702431,
+      "Other_DCAI_change_vs_existing_B": -2.732692722455809
+    },
+    {
+      "year": 2037,
+      "server_unit_growth": 0.01,
+      "server_ASP_growth": 0.01980198019801982,
+      "Other_DCAI_growth": 0.03,
+      "server_units_index": 2.516553835998845,
+      "server_ASP_index": 1.578289809433797,
+      "server_CPU_revenue_proxy_B": 86.81553359714162,
+      "Other_DCAI_revenue_B": 28.357408248710612,
+      "DCAI_revenue_B": 115.17294184585224,
+      "CPU_change_vs_existing_B": -9.781535642763629,
+      "Other_DCAI_change_vs_existing_B": -3.4199566449613314
+    },
+    {
+      "year": 2038,
+      "server_unit_growth": 0.01,
+      "server_ASP_growth": 0.01980198019801982,
+      "Other_DCAI_growth": 0.03,
+      "server_units_index": 2.5417193743588333,
+      "server_ASP_index": 1.6095430729869415,
+      "server_CPU_revenue_proxy_B": 89.41999960505588,
+      "Other_DCAI_revenue_B": 29.208130496171933,
+      "DCAI_revenue_B": 118.62813010122781,
+      "CPU_change_vs_existing_B": -11.060080536968343,
+      "Other_DCAI_change_vs_existing_B": -3.8403289932468923
+    },
+    {
+      "year": 2039,
+      "server_unit_growth": 0.01,
+      "server_ASP_growth": 0.01980198019801982,
+      "Other_DCAI_growth": 0.03,
+      "server_units_index": 2.5671365681024216,
+      "server_ASP_index": 1.6414152130460888,
+      "server_CPU_revenue_proxy_B": 92.10259959320756,
+      "Other_DCAI_revenue_B": 30.08437441105709,
+      "DCAI_revenue_B": 122.18697400426464,
+      "CPU_change_vs_existing_B": -11.904231876573832,
+      "Other_DCAI_change_vs_existing_B": -4.12078116049139
+    },
+    {
+      "year": 2040,
+      "server_unit_growth": 0.01,
+      "server_ASP_growth": 0.01980198019801982,
+      "Other_DCAI_growth": 0.03,
+      "server_units_index": 2.5928079337834458,
+      "server_ASP_index": 1.673918484591556,
+      "server_CPU_revenue_proxy_B": 94.86567758100378,
+      "Other_DCAI_revenue_B": 30.986905643388805,
+      "DCAI_revenue_B": 125.85258322439259,
+      "CPU_change_vs_existing_B": -12.261358832871053,
+      "Other_DCAI_change_vs_existing_B": -4.244404595306133
+    }
+  ],
+  "new_path_operating_summary": {
+    "CPU_2040_B": 94.86567758100378,
+    "Other_DCAI_2040_B": 30.986905643388805,
+    "DCAI_2040_B": 125.85258322439259,
+    "CPU_post2030_CAGR": 0.0476289353082715,
+    "Other_DCAI_post2030_CAGR": 0.059173624499700095,
+    "same_2030_cash_and_revenue": true,
+    "no_price_or_EV_output": true,
+    "funding_warning": "Root must lower growth investment consistently with lower sales; retaining the old higher capex while lowering revenue would turn this duration test into an additional stranded-investment case. Conversely, do not delete maintenance spending or fixed-cost burdens automatically. Preserve existing0.8 marginal capital, DA and margins as this test specifies."
+  },
+  "source_review": [
+    {
+      "id": "intel_longer_term_TAM_and_custom",
+      "date": "2026-10-29",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF page2 purpose-built silicon; page3 five-year CPU market; page7 gross-margin mix",
+      "novelty": "Already researched; re-scoped for horizon and category boundaries.",
+      "finding": "Intel says purpose-built silicon tripled over the last three years and could triple over the next few; it describes server CPU TAM rising from$40B to more than$200B over five years. Purpose-built growth weighs on consolidated gross-margin mix.",
+      "boundary": "Five years fromOctober2026 is approximately2031, not2040. Purpose-built silicon is only part of OtherDCAI. Tripling an entire mixed bucket, exact annual timing, and extending its growth through2040 are model choices; newer products/IP can expand the bucket but are not quantified guidance."
+    },
+    {
+      "id": "AMD_roadmap_2030",
+      "date": "2026-07-23",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era",
+      "locator": "Accelerating Next-Generation AI Infrastructure, CPU bullets",
+      "novelty": "Newly focused primary roadmap comparison beyond2027.",
+      "finding": "AMD extends an annual platform cadence through2030 and names Zen7 CPU families for2028 and Zen8 Ravenna for2030, alongside more specialized CPU roles.",
+      "boundary": "Supports continuing competition and renewal costs through the explicit forecast. It is a roadmap, not achieved performance, market share, or2031–40 Intel unit demand."
+    },
+    {
+      "id": "Marvell_custom_long_run",
+      "date": "2026-10-06",
+      "url": "https://investor.marvell.com/_assets/_cd04b2bf10bec6a0a104a70c97eae19a/marvell/files/654831/marvell-investor-day-2026-presentaion-deck-print-version.pdf",
+      "locator": "Slides27–28,32,43; PDF164pages, sameprintedpage numbers",
+      "novelty": "New primary competitor market-size and custom-business countercase.",
+      "retrieval": "Webtool hit10.7MBsize cap; downloaded into memory withurllib and extracted selected pages usingpypdf; no additional file saved.",
+      "finding": "Marvell targets more than$12B custom revenue inFY2029 and roughly$30B at itsFY2031 midpoint. ItsCY2030 custom TAM estimate is about$235B, including XPUs and XPU-attach, with55%2025–30 market growth.",
+      "boundary": "Issuer forecast, not an independent audit or Intel opportunity estimate. Fiscal2031 roughly overlapscalendar2030. Cannot divide allOtherDCAI by thisTAM as a clean share. Nevertheless, Intel17.44BOtherDCAI2030 is not demonstrably too large from industry scale alone."
+    },
+    {
+      "id": "IDC_latest_server_scope",
+      "date": "2026-10-09",
+      "url": "https://www.idc.com/promo/servers/",
+      "locator": "Opening current forecast and baseline/risk paragraphs",
+      "novelty": "New primary market-research scope cross-check.",
+      "finding": "IDC reports much stronger server spending than unit growth, forecasting2026 shipments about12% higher and a28.4% spendingCAGR through2030. It expects moderation from2027 and identifies rich configurations and component costs as important growth drivers, plus upside fromnew applications and downside fromROI/capex weakness.",
+      "boundary": "Complete servers include GPUs, memory and other components, not justCPUs. The page has differing headline/table2026 revenue totals, so no exact spending total is used to calibrate Intel. SpendingCAGR is not physicalCPUunitgrowth. Its horizon ends2030."
+    },
+    {
+      "id": "IEA_2026_updated_outlook",
+      "date": "2026",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "locator": "Updated data-centre electricity demand outlook; bottleneck discussion",
+      "novelty": "New primary cross-check of longer-run infrastructure direction.",
+      "finding": "Updated central electricity demand roughly doubles from485TWh2025 to950TWh2030; AI-focused demand triples. Bottlenecks limit aggressive near-term outcomes, but investment and new uses create potential additional upside after2030.",
+      "boundary": "Power demand is not CPU units or chip revenue. CPU share of IT power, performance perwatt, utilization, replacement and rebound matter. This source does not justify copying aTWh growth rate into Intel sales or assume constraints become permanent."
+    },
+    {
+      "id": "IEA_latest_policy_survey",
+      "date": "2026-10-14",
+      "url": "https://www.iea.org/reports/powering-artificial-intelligence/executive-summary",
+      "locator": "Policy efforts focus on improving demand visibility; energy makers; sustainability",
+      "novelty": "New latest primary infrastructure context.",
+      "finding": "Connection queues contain duplicate/speculative projects; actual loads ramp gradually. Operators and governments are also responding through grid reform, onsitepower, procurement and flexibility. Model efficiency and expanding usage operate simultaneously.",
+      "boundary": "Supports cautious treatment of announced capacity and explicit bull/downside alternatives. Does not identify a market collapse, firm global power ceiling, or a particular2035 CPU growth rate."
+    },
+    {
+      "id": "IEA_older_scenarios",
+      "date": "2025-04-10",
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-aI",
+      "locator": "Electricity demand in sensitivity cases",
+      "novelty": "Older primary scenario framework used to prevent a single energy-path interpretation.",
+      "finding": "The2025 scenarios include a post2030 headwinds plateau in ITstock/power, efficiency gains with similar service demand, and a lift-off case with muchhigher2035 power demand.",
+      "boundary": "These are conditional scenarios, not probabilities. Later2026 outlook must be considered; an older low-growth scenario is not a current most-likely forecast. No electricity number is used to select the earlier-normalization rates."
+    }
+  ],
+  "long_run_identification": {
+    "2027_to2030": "Current supply, premium products, custom-silicon growth and market forecasts support a substantial recovery scenario. Exact2028–30 accepted units, ASPs andOtherDCAI growth remain judgment. Near-term misses that eventually catch up are different from a permanent revenue-level cut.",
+    "2031_to2040": "No reviewed primary issuer or independent forecast provides an Intel-specific physical-unit, blendedASP orOtherDCAI trajectory. Industry and competitor TAMs predominantly end2030–31. The original path cannot be called independently calibrated.",
+    "ASP": "Approximately2% nominal long-runASP growth already represents little real increase under2%inflation. Higher performance perchip can support more revenue perpackage but reduce package requirements; lower real cost peruseful task can expand usage. No separately measured elasticity chooses the net result.",
+    "custom": "The current model turns$5.19BOtherDCAI2026 into$17.44B2030, near a3.36x increase, and$35.23B2040. Company near-term tripling language does not prove everynonCPUcategory participates, but industry custom-market expansion supports a credible upside path. Gross versus operating margin and merchant versus captive scope prevent simple peer copying.",
+    "share": "A company-level unit path can coexist with falling share if industry demand grows faster. Declining share alone cannot select a lower revenue trajectory without an independently matched global market path.",
+    "maturity_timing": "2035 versus2040 is an explicit judgment about the duration of growth above the existing3%maturity assumption. It is not dictated by a contract expiry, product lifetime, source forecast, or required price target."
+  },
+  "recommendation": {
+    "adopted_central_change": "None based solely on this audit.",
+    "concrete_new_analysis": "Value the frozen earlier-normalization path as a separately funded sensitivity. It tests whether short economics depend on an extra fiveyears of above-mature growth without manufacturing a near-term miss.",
+    "decision_rule": "If the short still needs a substantially lower operating path, weaker margins or an assigned high failure probability after this test, say the current case is not a strong absolute short. Do not revise the normalization rates until a desired price appears.",
+    "bull_countercase": "Keep the original longer fade as economically credible, with external wafer/packaging options handled separately. NewCPUroles, custom chips, easingcapacity and broader adoption can sustain above-mature growth. Public long-run uncertainty is two-sided.",
+    "what_is_fixed": "The duration assumption is now explicit, independently frozen, and testable instead of hidden within2040continuation. This improves reasoning quality; it does not by itself guarantee the original trade direction."
+  },
+  "input_hashes": {
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/post2030_operating_capital_policy.json": "dd14ddfd2a758a70f30c3c9ecc395610c32ea9c28a120594a735efa1d4a383db",
+    "work/three_hour/active_research/intel_hour_verification_2026_11_04/CPU_forecast_scope_comparison.json": "f88acc100c03001527bc56ffa6720f934854f75961ce8e107a8dc3acb79fe400"
+  },
+  "checks": {
+    "no_new_equity_output": true,
+    "preserved_2027_2030": true,
+    "mature_CPU_growth_from2035": 0.030000000000000027,
+    "old_files_unchanged_by_child": true,
+    "only_new_JSON_written": true
+  }
+}

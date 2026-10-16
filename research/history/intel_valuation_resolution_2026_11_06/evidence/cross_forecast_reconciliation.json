@@ -1,0 +1,83 @@
+{
+  "computed_utc": "2026-11-06T22:48:49.721574+00:00",
+  "status": "NEW conditional arithmetic, not new independently confirmed Q3 AMD guidance; no probability and no valuation input change",
+  "inputs": {
+    "TrendForce_date": "2026-10-22",
+    "industry_unit_growth_illustrative": 0.4,
+    "AMD_2026_share": 0.27,
+    "AMD_2027_share": 0.28,
+    "Intel_2026_share": 0.5,
+    "Intel_2027_share": 0.42,
+    "other_suppliers_2027_share": 0.3,
+    "official_Q2_AMD_2027_CPU_revenue_growth_lower_marker": 0.7,
+    "Q3_AMD_2027_CPU_revenue_growth_conditional": 1.0
+  },
+  "formulas": {
+    "unit_ratio": "(1 + market_unit_growth) * current_share / prior_share",
+    "ASP_ratio": "revenue_ratio / unit_ratio",
+    "share_given_revenue_and_ASP": "prior_share * revenue_ratio / ASP_ratio / market_unit_ratio",
+    "market_ratio_given_revenue_ASP_share": "prior_share * revenue_ratio / ASP_ratio / current_share",
+    "residual_Intel_share": "1 - AMD_share - other_suppliers_share"
+  },
+  "older_TrendForce_AMD_unit_growth": 0.4518518518518517,
+  "ASP_growth_for_official_Q2_70pct_marker_with_older_TrendForce_units": 0.17091836734693877,
+  "ASP_growth_for_conditional_Q3_doubling_with_older_TrendForce_units": 0.37755102040816335,
+  "conditional_Q3_doubling_rows": [
+    {
+      "assumed_AMD_ASP_growth": 0,
+      "required_AMD_unit_growth": 1.0,
+      "required_AMD_share_with_market_growth_40": 0.3857142857142858,
+      "required_market_unit_growth_with_AMD_share_28": 0.9285714285714286,
+      "illustrative_Intel_share_if_other_suppliers_remain_30": 0.31428571428571417,
+      "illustrative_Intel_unit_growth_if_other_suppliers_remain_30": -0.12000000000000044,
+      "required_Intel_ASP_for_unchanged_2027_revenue_if_other_suppliers_remain_30": 0.628758841621182
+    },
+    {
+      "assumed_AMD_ASP_growth": 0.1,
+      "required_AMD_unit_growth": 0.8181818181818181,
+      "required_AMD_share_with_market_growth_40": 0.35064935064935066,
+      "required_market_unit_growth_with_AMD_share_28": 0.753246753246753,
+      "illustrative_Intel_share_if_other_suppliers_remain_30": 0.3493506493506493,
+      "illustrative_Intel_unit_growth_if_other_suppliers_remain_30": -0.02181818181818207,
+      "required_Intel_ASP_for_unchanged_2027_revenue_if_other_suppliers_remain_30": 0.46527747090084004
+    },
+    {
+      "assumed_AMD_ASP_growth": 0.2,
+      "required_AMD_unit_growth": 0.6666666666666667,
+      "required_AMD_share_with_market_growth_40": 0.3214285714285715,
+      "required_market_unit_growth_with_AMD_share_28": 0.6071428571428572,
+      "illustrative_Intel_share_if_other_suppliers_remain_30": 0.37857142857142845,
+      "illustrative_Intel_unit_growth_if_other_suppliers_remain_30": 0.05999999999999961,
+      "required_Intel_ASP_for_unchanged_2027_revenue_if_other_suppliers_remain_30": 0.35217715153456597
+    },
+    {
+      "assumed_AMD_ASP_growth": 0.3,
+      "required_AMD_unit_growth": 0.5384615384615383,
+      "required_AMD_share_with_market_growth_40": 0.2967032967032967,
+      "required_market_unit_growth_with_AMD_share_28": 0.48351648351648335,
+      "illustrative_Intel_share_if_other_suppliers_remain_30": 0.40329670329670325,
+      "illustrative_Intel_unit_growth_if_other_suppliers_remain_30": 0.12923076923076904,
+      "required_Intel_ASP_for_unchanged_2027_revenue_if_other_suppliers_remain_30": 0.2692780073669152
+    },
+    {
+      "assumed_AMD_ASP_growth": 0.4,
+      "required_AMD_unit_growth": 0.4285714285714286,
+      "required_AMD_share_with_market_growth_40": 0.2755102040816327,
+      "required_market_unit_growth_with_AMD_share_28": 0.37755102040816313,
+      "illustrative_Intel_share_if_other_suppliers_remain_30": 0.4244897959183673,
+      "illustrative_Intel_unit_growth_if_other_suppliers_remain_30": 0.1885714285714284,
+      "required_Intel_ASP_for_unchanged_2027_revenue_if_other_suppliers_remain_30": 0.2059079885079902
+    }
+  ],
+  "interpretation": "A later stronger AMD revenue outlook cannot simultaneously validate Intel demand and preserve every older shipment-share assumption without a unit/mix reconciliation. At 20% AMD package ASP growth, doubling revenue needs 66.7% AMD units and 32.1% share if industry grows 40%, versus the older 28%. Alternatively the industry must grow 60.7% if AMD share stays 28%. The residual-Intel rows deliberately hold other shares fixed only as an adverse diagnostic, not a forecast.",
+  "boundaries": [
+    "The original TrendForce growth forecast is above 40%; 40% is an illustration, not a precise upper bound.",
+    "AMD core-count mix is part of package ASP; core-count growth is not a third independent multiplicative factor.",
+    "Rounded shares and scope may differ. These dated forecasts are not actual market observations.",
+    "The Q3 doubling report remains outside primary-confirmed inputs because the issuer does not publish a transcript and its audio requires registration. Published direct-call transcripts match the relevant broad statement but contain transcription errors.",
+    "Neither diagnostic justifies changing Intel 2027 $31.739B or 2030 $60.07B without a separately chosen operating policy."
+  ],
+  "input_sha256": {
+    "work/three_hour/active_research/intel_weakness_repair_2026_11_06/cpu/cpu_ramp_results.json": "da0f7983a9cdedee6983225e0741529a061976423ca264cf815145d5df55b55c"
+  }
+}

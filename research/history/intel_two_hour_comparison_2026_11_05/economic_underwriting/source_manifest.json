@@ -1,0 +1,1768 @@
+{
+  "observed_date": "2026-11-05",
+  "raw_benchmark_repository_commit": "6269fa20c43f9bfd67952a0481e772ae4abba471",
+  "files": [
+    {
+      "file": "amd_financial_results_index_nov5.html",
+      "bytes": 117734,
+      "sha256": "560e33f72cdfaf784102f3bbd42bf914e8f456bb3928cc3b5bce3d8aae06ff6a",
+      "source_url": "https://ir.amd.com/financial-information/financial-results"
+    },
+    {
+      "file": "amd_financial_results_index_nov5.txt",
+      "bytes": 4849,
+      "sha256": "8adcf1739fcba0d30debcdc23354d185226cd15f2ec3bf665c98be27ea358fc5",
+      "source_url": "https://ir.amd.com/financial-information/financial-results"
+    },
+    {
+      "file": "amd_oracle_oct27.html",
+      "bytes": 107941,
+      "sha256": "80d5ccb65c7e5b80686c7cea9b58b9b74769afb584c3e43adbbd9a0cc2b5b8c9",
+      "source_url": "https://newsroom.amd.com/news/amd-expands-ai-cloud-infrastructure-oracle/"
+    },
+    {
+      "file": "amd_oracle_oct27.txt",
+      "bytes": 11729,
+      "sha256": "db64b4ad07bc3a3d49a15a84ead024d7d0dc709f13fd77d6f0691366026dffe3",
+      "source_url": "https://newsroom.amd.com/news/amd-expands-ai-cloud-infrastructure-oracle/"
+    },
+    {
+      "file": "amd_q3_2026.html",
+      "bytes": 293009,
+      "sha256": "f1f7aed0ec2ec66f8bcf48cd9f205522e8e79c8e85fb17b25bd16961b0d1a55d",
+      "source_url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+    },
+    {
+      "file": "amd_q3_2026_10q.html",
+      "bytes": 1504421,
+      "sha256": "02e497a988c98c8572e0409811a83afa7a33196595a86be2c380bab6a305d5e7",
+      "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm"
+    },
+    {
+      "file": "amd_q3_2026_10q.txt",
+      "bytes": 276184,
+      "sha256": "3a38537966a9965f3caea9ad85d1e03a88caa768f535a0a5a59dc287b82a1706",
+      "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm"
+    },
+    {
+      "file": "amd_q3_2026_body.txt",
+      "bytes": 32613,
+      "sha256": "6c754711ffacd7ef96a551d2a704f448760379ffbae3054c329c8850b106524f"
+    },
+    {
+      "file": "amd_q3_2026_slides.pdf",
+      "bytes": 938211,
+      "sha256": "4a0bb9ca09f3fe374220dbc8a361b0655bea18dc9e0947fc233f999f3d32a77a",
+      "source_url": "https://d1io3yog0oux5.cloudfront.net/_76e60a688092d06ccab8a780191eae46/amd/db/841/9247/presentation/AMD_Q3_2026_Earnings_Slides_FINAL.pdf"
+    },
+    {
+      "file": "amd_q3_2026_slides.txt",
+      "bytes": 25400,
+      "sha256": "323c41da1d6c03ae20c7a050e896de54616b6de7f5cf8288a62b2b17ac267139",
+      "source_url": "https://d1io3yog0oux5.cloudfront.net/_76e60a688092d06ccab8a780191eae46/amd/db/841/9247/presentation/AMD_Q3_2026_Earnings_Slides_FINAL.pdf"
+    },
+    {
+      "file": "amkor_q3_2026_transcript.download_error.html",
+      "bytes": 437,
+      "sha256": "60c3adfdf952d2c19777dcdd4e7ebd05846cef770883acdab98ae1527d34d2b8",
+      "kind": "download error body, not evidentiary source"
+    },
+    {
+      "file": "arm_fy27q2_news.html",
+      "bytes": 627333,
+      "sha256": "52e9e4009be9f70c770af5112a7c7a94eecc083e17a1d2f5d853f53ee046f3b9",
+      "source_url": "https://newsroom.arm.com/news/arm-q2-fye27-results"
+    },
+    {
+      "file": "arm_fy27q2_news_body.txt",
+      "bytes": 10128,
+      "sha256": "d16b635561f3a30e50eb8c7d1c5699bea9a371ff4adb99bd9967beac0a405284"
+    },
+    {
+      "file": "arm_oci.html",
+      "bytes": 610858,
+      "sha256": "7a3c0ab4632bde49dcfa0255fd2d143a448b11423e6cd51f38d3929e02a0a03b",
+      "source_url": "https://newsroom.arm.com/news/arm-agi-cpu-oracle-cloud-infrastructure"
+    },
+    {
+      "file": "ats_halfyear_2026_27.pdf",
+      "bytes": 964250,
+      "sha256": "f1932c88d96fd4cca9b6311f3a6c4789330a0651a0210a309dfa9da1704dfcaa",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "ats_halfyear_2026_27.txt",
+      "bytes": 60667,
+      "sha256": "c748006960f97c2a4ecc7f284aa54678802fc0607a3bc8f89f89be828e3f430b",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "ats_halfyear_2026_27_p10.png",
+      "bytes": 110036,
+      "sha256": "09a0ab71cc8be8a68182b23366f99b44390c0a10a62faa763033f830d6dac66b",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_halfyear_2026_27_p11.png",
+      "bytes": 115550,
+      "sha256": "fff3c9fc038f741138cf6477636a696e68fed9ea395ff24d124b0bb09484dfa3",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_halfyear_2026_27_p18.png",
+      "bytes": 159008,
+      "sha256": "c03283d3484af253f91beba0f5d5258cd4ebafb28457e818d4a4ee63df1aa968",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_halfyear_2026_27_p19.png",
+      "bytes": 253704,
+      "sha256": "db165f1a34b01d6588cc68d5f27b804183be1fe0d798cea4932b0e6c0e15040e",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_halfyear_2026_27_p21.png",
+      "bytes": 218162,
+      "sha256": "7a2b590b9116e7d0263429818f2b0cd46df716ed7a2fe5ac5491bf66d9321681",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_halfyear_2026_27_p22.png",
+      "bytes": 216991,
+      "sha256": "1f3d1f427185f2602e0da1b8896612c3c1df5e507a36289eaf509b5c488a0eb2",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_presentation_2026_27.pdf",
+      "bytes": 1398753,
+      "sha256": "32a76350b0d812ea2111a8a5b169ea54c06dd84f566b8276665c90a129fa1d1e",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "ats_presentation_2026_27.txt",
+      "bytes": 11008,
+      "sha256": "850714d577dc8b3e75fbcb2002dc49ec1fa0d4b6dbb764d9f9b5974a6d444bfd",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "ats_presentation_2026_27_p12.png",
+      "bytes": 81128,
+      "sha256": "8a35bee778a0cd65796d2bd218004410a970148c3a5fe447fa00865c7067a16c",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_presentation_2026_27_p5.png",
+      "bytes": 532164,
+      "sha256": "f1730521893f934ccccadac72e58e2962653c8789d9793c42773f6e7dd589434",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_presentation_2026_27_p7.png",
+      "bytes": 53381,
+      "sha256": "ce634dc95f9702e42e51a3ec0e2f0acad34e54bd092e875183d074c7a6e5cc2e",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_presentation_2026_27_p9.png",
+      "bytes": 65390,
+      "sha256": "cb4b6f116fa916542937e8932d3a074224256d50f862b1891d2db1cfd1a6fe8a",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ats_reports_page.html",
+      "bytes": 1285144,
+      "sha256": "425d87490c7803572b7d0577978c57409f70e625c93cb1c40fdb53826272e036"
+    },
+    {
+      "file": "ats_statements_2026_27.xlsx",
+      "bytes": 54945,
+      "sha256": "2f426844113e731fdaf5fe82b48d4afffaa7fa579f53f290972439e849347307"
+    },
+    {
+      "file": "aws_crawler_b253fef.py",
+      "bytes": 106333,
+      "sha256": "135a64c3f5f4517ab36696bf7f2099f9bfbab995a5344dfbd9811817f033347c"
+    },
+    {
+      "file": "aws_meta.html",
+      "bytes": 149534,
+      "sha256": "387c28850dc29bbaad5fc54d73f07364a8768b56982be65781fcd9fe28829798",
+      "source_url": "https://press.aboutamazon.com/aws/2026/4/meta-signs-agreement-with-aws-to-power-agentic-ai-on-amazons-graviton-chips"
+    },
+    {
+      "file": "aws_r6i_3rd_gen_spec.html",
+      "bytes": 478774,
+      "sha256": "f291b281de52bc0629d82d884664390cce5ce9984afa7d4877066674675168ca",
+      "source_url": "https://aws.amazon.com/ec2/instance-types/r6i/"
+    },
+    {
+      "file": "aws_r6i_3rd_gen_spec.txt",
+      "bytes": 7871,
+      "sha256": "73daabf996efd57bce43f8ab5e6cb284343350c27712a1c55f1d4b946a79acc7",
+      "source_url": "https://aws.amazon.com/ec2/instance-types/r6i/"
+    },
+    {
+      "file": "aws_toyota_case_study_generation_conflict.html",
+      "bytes": 370032,
+      "sha256": "250b5662ffa443bd1d224a2ec4570d687ce83ab9c4d4142b49eeaa4964bcd6fa",
+      "source_url": "https://aws.amazon.com/solutions/case-studies/toyota-intel-case-study/"
+    },
+    {
+      "file": "aws_toyota_case_study_generation_conflict.txt",
+      "bytes": 6938,
+      "sha256": "cbe5cc5066a57f2480e77e6e124b1b158de2c684439c30d66240ad6b15e0e20a",
+      "source_url": "https://aws.amazon.com/solutions/case-studies/toyota-intel-case-study/"
+    },
+    {
+      "file": "aws_u7i_4th_gen_spec.html",
+      "bytes": 383324,
+      "sha256": "3fbea9ab78a626c41eb42fe5d89cd5799b156b36a927929e41dd80176cc9c24b",
+      "source_url": "https://aws.amazon.com/ec2/instance-types/u7i/"
+    },
+    {
+      "file": "aws_u7i_4th_gen_spec.txt",
+      "bytes": 7107,
+      "sha256": "f0d9eb6f3ac9b09d62a75f6d3eb373d2792fbc235d672309480b71e8a39566a7",
+      "source_url": "https://aws.amazon.com/ec2/instance-types/u7i/"
+    },
+    {
+      "file": "azure_hana_directory_source_of_truth.html",
+      "bytes": 60233,
+      "sha256": "cd531d327bb1187836de2867eca12987c2cb5a1c9ebf00221ea8876a2ec2a927",
+      "source_url": "https://learn.microsoft.com/en-us/azure/sap/workloads/hana-get-started"
+    },
+    {
+      "file": "azure_hana_directory_source_of_truth.txt",
+      "bytes": 9691,
+      "sha256": "2cec3859681ebc4d78dba748510bb03089ec497d4aeae2d944a9b040177890b2",
+      "source_url": "https://learn.microsoft.com/en-us/azure/sap/workloads/hana-get-started"
+    },
+    {
+      "file": "azure_hana_faq_current.html",
+      "bytes": 109276,
+      "sha256": "34dd8930e5f45e219771b2b5d5fbdbc4ad6ac070a418dbcad2562bcfafc3b504",
+      "source_url": "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started"
+    },
+    {
+      "file": "azure_hana_faq_current.txt",
+      "bytes": 38157,
+      "sha256": "4fdc29b5d10561996d14baa1f970f6360d126cb54f1c8def56dd25b17b4ca311",
+      "source_url": "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started"
+    },
+    {
+      "file": "azure_mdsv4_preview_current.html",
+      "bytes": 61428,
+      "sha256": "a7867fe4bbe6c4e6be82af6b0e90a2e52421bd4a98f0cfaf1745ba09dc67a8eb",
+      "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/mdsv4-series"
+    },
+    {
+      "file": "azure_mdsv4_preview_current.txt",
+      "bytes": 8240,
+      "sha256": "4f658d690107d12e5c38629cde569b2f32d7e1f6408fc383a1a756a94dc846cc",
+      "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/mdsv4-series"
+    },
+    {
+      "file": "azure_msv4_preview_current.html",
+      "bytes": 59240,
+      "sha256": "88bd804b0cfbc7a80922fc2efc7e4703237589445836bc20066497d2d22d18f6",
+      "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/msv4-series"
+    },
+    {
+      "file": "azure_msv4_preview_current.txt",
+      "bytes": 6012,
+      "sha256": "6dd4e315acea65f69cc08f681a62ce05926e5d8732e2609560e38b53a50e1076",
+      "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/msv4-series"
+    },
+    {
+      "file": "buyer_and_mlperf_source_urls.json",
+      "bytes": 568,
+      "sha256": "623cd7bdda3a91ee20172b4a5055306d1be44f1c36de1d55b4f379559945d712"
+    },
+    {
+      "file": "cloudflare_gen13.html",
+      "bytes": 318779,
+      "sha256": "f4dee8b1c200490e789a4657c2440d2ea9c49f1ed0d76e88a019a4b98bc1ce48"
+    },
+    {
+      "file": "datadog_arm_migration.html",
+      "bytes": 403028,
+      "sha256": "426f8de7b4b62bf31e0529abca2a3334a1fca036122f756af626841b68daa083"
+    },
+    {
+      "file": "download_manifest.json",
+      "bytes": 1876,
+      "sha256": "3691ccbc7e8266bb691e4cccbec7ad0cf812356be1926efd749b9ad09c466ecf"
+    },
+    {
+      "file": "foundry_mda_excerpt_cache.json",
+      "bytes": 9234,
+      "sha256": "9557654cbba4158dafe59817c61b643455dfc3e42acfba7dedb99c4d0f082ca0",
+      "kind": "derived source excerpt cache, not an independent source"
+    },
+    {
+      "file": "google_c4_ga.html",
+      "bytes": 251682,
+      "sha256": "f417345ae9ff20d79d50d58c7a4b9ddfa39b616a7da3178eb5d40e1ab1dba611"
+    },
+    {
+      "file": "google_compute.html",
+      "bytes": 262465,
+      "sha256": "eee1523002fbc1223cd71cab9aafd3b708f0c6c809cff2d48b26cf2348b97eab",
+      "source_url": "https://cloud.google.com/blog/products/compute/whats-new-in-compute-at-next26"
+    },
+    {
+      "file": "ibiden_h1_2026_financials.pdf",
+      "bytes": 351595,
+      "sha256": "4ba7d23f15f26a58354ff21979a77c26058d89383b4bdf8c8638d96dfa6af3d8",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "ibiden_nov2_qa.html",
+      "bytes": 34587,
+      "sha256": "76eea58a6d648b81c653c2017515b83421412c83ac0f2b4d95a61c94ffe0fb1d"
+    },
+    {
+      "file": "ibiden_oct29_capex.html",
+      "bytes": 34680,
+      "sha256": "5b6c3c8a98be27951da4892c5c01bb187bc75c424d2bbbcbe275e1113d1533c9"
+    },
+    {
+      "file": "ibiden_oct30_results.html",
+      "bytes": 34581,
+      "sha256": "57e5de5b60630fc1acbd982edf15c378e02f871bb69386432f2ed70cd39dca4b"
+    },
+    {
+      "file": "ibiden_q1_2026_qa.pdf",
+      "bytes": 196001,
+      "sha256": "47514a69f44bcd4e87011cc109714b7f8e0644c9e7c812e77c3a0853479553fd",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "ibiden_q1_2026_qa.txt",
+      "bytes": 5140,
+      "sha256": "cb05c2373e3ff3191c0b80f3bab5f5e3043cfd95911dc40109e5f532fa4c9972",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "ibiden_q2_2026_presentation.pdf",
+      "bytes": 1659017,
+      "sha256": "8c28c88707652adf91e0d2c79f6a6c26ef4a016762d7fc3c31ef9b87f0b215e6",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "ibiden_q2_2026_presentation.txt",
+      "bytes": 7872,
+      "sha256": "e504971781a6a43abed6f4f5272c2e79c331c51102160c08aa597cd653697b4f",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "ibiden_q2_2026_presentation_p11.png",
+      "bytes": 156577,
+      "sha256": "a131fd57331ad38a7bdea66a96ebd7ce4a4b67c03d22a8d98f28a1176eb1d023",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ibiden_q2_2026_presentation_p12.png",
+      "bytes": 171861,
+      "sha256": "03678b60a9a0f8fd183b4bcb2befb0b814c9806617de9147f8b698296f60d25d",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ibiden_q2_2026_presentation_p13.png",
+      "bytes": 1149371,
+      "sha256": "a7225c011d5ab9a70bd66d45b712bba967c1b36c35f218667a7fe493d1abcb18",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ibiden_q2_2026_presentation_p14.png",
+      "bytes": 157677,
+      "sha256": "78d076285ed50c1f365a91fc3856513f4e48cedbdce7600f9bf0871c54a725eb",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ibiden_q2_2026_presentation_p4.png",
+      "bytes": 271432,
+      "sha256": "ec6b75e377aabb581418b98611cb6b1188f3dddc2b56199afbd8001d3b36f97e",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ibiden_q2_2026_presentation_p8.png",
+      "bytes": 280769,
+      "sha256": "ba6dddd73a14a42bcf7c7fdae420fab7bc9a10dc8c9f64908d63f23314a78e86",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "ibiden_q2_2026_qa.pdf",
+      "bytes": 199777,
+      "sha256": "bb23c0bc6b0824f4bf61a24fd9fa9b37e5deebd932e0ed6f5b83e879a097fa76",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "ibiden_q2_2026_qa.txt",
+      "bytes": 6371,
+      "sha256": "7e4ca2f7d176e6ed8dc359210b1f0c624b5eb5b76e33813abf90bf6dee2b2e2b",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "intel_2025_annual.html",
+      "bytes": 3320720,
+      "sha256": "67af52d83cdc32a0c52d6007ba0b1031f25c50bc1cae5ee0d626721c9989e42d"
+    },
+    {
+      "file": "intel_2025_q1_10q.html",
+      "bytes": 1404483,
+      "sha256": "906819a9f37065e96d305bf761903aa4d15cc373dfec4447dbdf1eef646c4121",
+      "source_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000074/intc-20250329.htm"
+    },
+    {
+      "file": "intel_2025_q1_10q.txt",
+      "bytes": 152746,
+      "sha256": "418abc2b9ee2827ca8d7e4defb44cdf2f5123856b4d8c70a0b0d0215630222ec",
+      "kind": "text extracted from adjacent HTML filing, not an independent source"
+    },
+    {
+      "file": "intel_2025_q2_10q.html",
+      "bytes": 1756134,
+      "sha256": "a4c7e99b7f6853d7a6dd6ad8dc541d6841739538777ad794a40cb192361ab455",
+      "source_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000109/intc-20250628.htm"
+    },
+    {
+      "file": "intel_2025_q2_10q.txt",
+      "bytes": 202937,
+      "sha256": "b3361950d34d1f4b4e1dbf62cb35590c01eb325e5eafee9a5fbb4c18fbfe006d",
+      "kind": "text extracted from adjacent HTML filing, not an independent source"
+    },
+    {
+      "file": "intel_2025_q3_10q.html",
+      "bytes": 1899617,
+      "sha256": "8cf07d4e5f1078cfe44e771362d84f8096a764f48a9155b623680395dea46db4",
+      "source_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000179/intc-20250927.htm"
+    },
+    {
+      "file": "intel_2025_q3_10q.txt",
+      "bytes": 220642,
+      "sha256": "5b4769d366a036f0ef7f35a265f979e1dae07c80105df9788249c4ab64a90b3e",
+      "kind": "text extracted from adjacent HTML filing, not an independent source"
+    },
+    {
+      "file": "intel_6780E.html",
+      "bytes": 273740,
+      "sha256": "8c7d3cc1c307e3992c08818e3d8badf9f30097fe7064d53f4431ed94c19509cf",
+      "source_url": "https://www.intel.com/content/www/us/en/products/sku/240362/intel-xeon-6780e-processor-108m-cache-2-20-ghz/specifications.html"
+    },
+    {
+      "file": "intel_6980P.html",
+      "bytes": 295665,
+      "sha256": "37c99750e2ddd25d495bbdb289bc9c2d986fda0656522ce2eaecfe6f8e24a705",
+      "source_url": "https://www.intel.com/content/www/us/en/products/sku/240777/intel-xeon-6980p-processor-504m-cache-2-00-ghz/specifications.html"
+    },
+    {
+      "file": "intel_6990Eplus.html",
+      "bytes": 270932,
+      "sha256": "b3bd8badf8207b584988668817e6a33854ec00a7c50926b71b4ae0ba21dfb0ea",
+      "source_url": "https://www.intel.com/content/www/us/en/products/sku/246074/intel-xeon-6990e-processor-576m-cache-2-20-ghz/specifications.html"
+    },
+    {
+      "file": "intel_8592plus.html",
+      "bytes": 290894,
+      "sha256": "ab7e99e15dda201ac0e0b1dd4545105249b035b71be5d5e5093cef39547df03d",
+      "source_url": "https://www.intel.com/content/www/us/en/products/sku/237261/intel-xeon-platinum-8592-processor-320m-cache-1-90-ghz/specifications.html"
+    },
+    {
+      "file": "intel_apr2024_foundry_model.pdf",
+      "bytes": 2781997,
+      "sha256": "f45013bcf070026e034395bfae060157622d40a3abbd8f70efb5208f9791dc6a",
+      "source_url": "https://d1io3yog0oux5.cloudfront.net/_fd379efef431a168250b57352aab72ec/intel/db/861/9015/pdf/Intel_New_Segment_Reporting_Webinar_-_for_posting_to_INTC.com.pdf"
+    },
+    {
+      "file": "intel_apr2024_foundry_model.txt",
+      "bytes": 16986,
+      "sha256": "e995ba031ba81e6b8e951f24c81f3333a77fcca1d274aab73a91e16b8922d7c4",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p13.png",
+      "bytes": 361709,
+      "sha256": "fc05f3a3cf17d0e82ff448d6caa3c7f13c2aa3ae18609a585c2a98f64fc873f8",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p19.png",
+      "bytes": 274476,
+      "sha256": "e98b67beecd8cb7eefcabf9a44a3600c16b98ad10693236b38ffed5e3ef74fb9",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p2.png",
+      "bytes": 513230,
+      "sha256": "9bae17e07a04e1feea95bb885dca21e2412aaf54afb3ee06934b7db0ae047525",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p21.png",
+      "bytes": 290667,
+      "sha256": "b01a3b5ba79db4e5df67b9d0a0734fa824cd66686941397238d7fabb236a3dfa",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p27.png",
+      "bytes": 319582,
+      "sha256": "55838712cd2708d368d2184005c60aca860ee0ce4796ab48581ffa93200a23fd",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p28.png",
+      "bytes": 261114,
+      "sha256": "054940db6eb92790333742b50e591ee47643ba19b4265b135c82e2e18f73303c",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p29.png",
+      "bytes": 265320,
+      "sha256": "82fd0bf867083cb4477680ec34231ed3d11b9710e7f27a207661ad5753c8f1ad",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p30.png",
+      "bytes": 351843,
+      "sha256": "0237497c8dd6010b7261589c31f4761883ce70d9cb8b11ff1719dbdbe01fb41e",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p7.png",
+      "bytes": 364029,
+      "sha256": "824fc22837be067033535639c6f14ec0e2e4c863ff4b991c4b09a39540617549",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_apr2024_foundry_model_p9.png",
+      "bytes": 359866,
+      "sha256": "e4b216b3af85d8dfe9e4f0d8f6779ddc698c0748a0b5c9a3e9cf14afdd88b11a",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "intel_q1_2026_10q.html",
+      "bytes": 1486263,
+      "sha256": "7e503a71a183a15ce714f9a4c3707d0622caae50fc0cc400b1c1c0d49d671244",
+      "source_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm"
+    },
+    {
+      "file": "intel_q1_2026_prepared.pdf",
+      "bytes": 100300,
+      "sha256": "a1437b84608faee3e2f3ff524a562409527d5fa0093d90b0de878312d9987d05",
+      "source_url": "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "intel_q1_2026_prepared.txt",
+      "bytes": 19236,
+      "sha256": "4f395bf94b4faaab31cd207ba43ca2536cfb350e38b93380d726c64e9852434f",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "intel_q3_2026_earningscalls_dev_transcript.html",
+      "bytes": 113146,
+      "sha256": "991c0c4247ed13963bc82e7a721daa4334433ef88451da2b6eebdd8a6898c43e",
+      "source_url": "https://earningscalls.dev/transcripts/intel-corporation_intc_earnings_call_transcript_2026-10-29"
+    },
+    {
+      "file": "intel_q3_2026_earningscalls_dev_transcript.txt",
+      "bytes": 55966,
+      "sha256": "2a35a972c6232be7fe9fddca3fcb9a6aa6834cf7a6b9f918a400f5d14d575d62",
+      "source_url": "https://earningscalls.dev/transcripts/intel-corporation_intc_earnings_call_transcript_2026-10-29"
+    },
+    {
+      "file": "intel_q3_2026_official_event.html",
+      "bytes": 30964,
+      "sha256": "1e20798277857a821146d7fbeb95ee95de1b5d39ac399f585ae7f318e6e460a0",
+      "source_url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call"
+    },
+    {
+      "file": "intel_q3_2026_official_event.txt",
+      "bytes": 1364,
+      "sha256": "01464ce8ebae3f2ab68a08cb66d0cbd0decb1c5ac18967112e3ca2df176539fc",
+      "source_url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call"
+    },
+    {
+      "file": "intel_q3_prepared.pdf",
+      "bytes": 113981,
+      "sha256": "b019d10f31a896d23586350df12407ee32442094f544c3e6d92c753d30df2210",
+      "source_url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "intel_q3_prepared.txt",
+      "bytes": 24601,
+      "sha256": "55f69a583d18c11d4a8623b2bf926dbd841738283650ce75376aeab2ac6c6cfa",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "m8a.4xlarge_lscpu_meta.json",
+      "bytes": 237,
+      "sha256": "2f7d88a1d9f477c1fd15e9cde03631a575b00d9daacd8c6449dfd3565e9b993a",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8a.4xlarge/0/lscpu/meta.json"
+    },
+    {
+      "file": "m8a.4xlarge_lscpu_stdout.txt",
+      "bytes": 4485,
+      "sha256": "37fd71b7f7749064be0a703b16e9d25c35c7bd68a17fc0db8380b04aa7d522fc",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8a.4xlarge/0/lscpu/stdout"
+    },
+    {
+      "file": "m8a.4xlarge_prices.json",
+      "bytes": 2815,
+      "sha256": "b3d06300d8e0d14f7bd859bf6db80564f65ef009b43c2e3e51b6138188cc40e4",
+      "source_url": "https://keeper.sparecores.net/server/aws/m8a.4xlarge/prices?vendor_regions=aws~us-east-1&currency=USD&only_active=true"
+    },
+    {
+      "file": "m8a.4xlarge_redis_meta.json",
+      "bytes": 318,
+      "sha256": "9dd70be2f750fa127c1acf851c6b6ec470dee08df71f33cff0cc64348a2dd773",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8a.4xlarge/0/redis/meta.json"
+    },
+    {
+      "file": "m8a.4xlarge_redis_stdout.txt",
+      "bytes": 390,
+      "sha256": "9482ab0815da95a79390481883bec4c0a752fbd4c2ef860a80905a6eac0fbf03",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8a.4xlarge/0/redis/stdout"
+    },
+    {
+      "file": "m8a.4xlarge_static_web_meta.json",
+      "bytes": 256,
+      "sha256": "4a7e75d1268518c644f7ab1c82269a7dddc2b5b140cba1f348e3f4ff1752729b",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8a.4xlarge/0/static_web/meta.json"
+    },
+    {
+      "file": "m8a.4xlarge_static_web_stdout.txt",
+      "bytes": 4064,
+      "sha256": "73c9ac28303c511df3b0bf47914a093f1181ba966ad070c2c85fef561f32c43b",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8a.4xlarge/0/static_web/stdout"
+    },
+    {
+      "file": "m8i.4xlarge_lscpu_meta.json",
+      "bytes": 237,
+      "sha256": "7ad15373014e98a7aaa8485e81c440bc8f6f7a4729762eaddad9222a5cab3818",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8i.4xlarge/0/lscpu/meta.json"
+    },
+    {
+      "file": "m8i.4xlarge_lscpu_stdout.txt",
+      "bytes": 4475,
+      "sha256": "5d8e455e1e77cbc929a9d26c42ef84576a7de1907f63b908bfa69831e93cda1d",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8i.4xlarge/0/lscpu/stdout"
+    },
+    {
+      "file": "m8i.4xlarge_prices.json",
+      "bytes": 2816,
+      "sha256": "580417054d176f29a0c822e3528d2203058bd32fc590a8480b4cfedd29b2430b",
+      "source_url": "https://keeper.sparecores.net/server/aws/m8i.4xlarge/prices?vendor_regions=aws~us-east-1&currency=USD&only_active=true"
+    },
+    {
+      "file": "m8i.4xlarge_redis_meta.json",
+      "bytes": 318,
+      "sha256": "2f79772bdcd1bc15dbc5f8b83ffd883cf472d21cca0432daaf2f5b7e59a09fde",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8i.4xlarge/0/redis/meta.json"
+    },
+    {
+      "file": "m8i.4xlarge_redis_stdout.txt",
+      "bytes": 390,
+      "sha256": "224a295b02a3be7bd14bf74e18dd5d5aea9a3b97348fcb1aeb11dba3fd1ebf0d",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8i.4xlarge/0/redis/stdout"
+    },
+    {
+      "file": "m8i.4xlarge_static_web_meta.json",
+      "bytes": 256,
+      "sha256": "36dcc1552d084573a57aecba32c577e9a6cbcf0913ac7188942e0ca738ec1cba",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8i.4xlarge/0/static_web/meta.json"
+    },
+    {
+      "file": "m8i.4xlarge_static_web_stdout.txt",
+      "bytes": 4065,
+      "sha256": "aee51668e2e588af22cbf9afbd6071a2d343912897c044056ce4a710e4f16937",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m8i.4xlarge/0/static_web/stdout"
+    },
+    {
+      "file": "m9g.4xlarge_lscpu_meta.json",
+      "bytes": 272,
+      "sha256": "5057aaaa55eba6f717b4a89ae4ec2b2f672102ee996abd6b1652372cbd63b66b",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m9g.4xlarge/0/lscpu/meta.json"
+    },
+    {
+      "file": "m9g.4xlarge_lscpu_stdout.txt",
+      "bytes": 3662,
+      "sha256": "ffbaaae43da6324a6316cbf6299dc689ee831fa64fc5beb479572536bbcb3597",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m9g.4xlarge/0/lscpu/stdout"
+    },
+    {
+      "file": "m9g.4xlarge_prices.json",
+      "bytes": 2253,
+      "sha256": "c2f61cd5398e82c211222fe9ae13b3deee21f42105ece4032de830b6de6d336b",
+      "source_url": "https://keeper.sparecores.net/server/aws/m9g.4xlarge/prices?vendor_regions=aws~us-east-1&currency=USD&only_active=true"
+    },
+    {
+      "file": "m9g.4xlarge_redis_meta.json",
+      "bytes": 353,
+      "sha256": "d3c133fab11cadec116661a0469432b811d60d5b1c975eb601faa5ef885afb2c",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m9g.4xlarge/0/redis/meta.json"
+    },
+    {
+      "file": "m9g.4xlarge_redis_stdout.txt",
+      "bytes": 391,
+      "sha256": "70de45530d51f739e3d10eb82105bc1d3c1f52b57ff6e6e961dcb9f00a8802fa",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m9g.4xlarge/0/redis/stdout"
+    },
+    {
+      "file": "m9g.4xlarge_static_web_meta.json",
+      "bytes": 291,
+      "sha256": "5db44053c0c19c988c4091248cb5e48d01f7b2476fd5122f90417e5e1084accb",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m9g.4xlarge/0/static_web/meta.json"
+    },
+    {
+      "file": "m9g.4xlarge_static_web_stdout.txt",
+      "bytes": 4095,
+      "sha256": "c1303add2d87a9a5854150652af7c3d4ddb87e4917b5971a5ae99f4f3ab82b1a",
+      "source_url": "https://github.com/SpareCores/sc-inspector-data/blob/6269fa20c43f9bfd67952a0481e772ae4abba471/data/aws/m9g.4xlarge/0/static_web/stdout"
+    },
+    {
+      "file": "mediatek_financial_information.html",
+      "bytes": 639712,
+      "sha256": "c420e37af2a9aa8aa9286823c16763cbc13bea62e52ddc2f2936f3a9aabfab45"
+    },
+    {
+      "file": "mediatek_q3_2026_p11.png",
+      "bytes": 185672,
+      "sha256": "2e1b7e9a189dcf84766f8deced04db679bdcd2fce2d4b4919a11f029e6371aed",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "mediatek_q3_2026_p12.png",
+      "bytes": 182419,
+      "sha256": "5412cbb1b169bd6a5c3d6c873f657e169b613bbdca4d80677c3b718d6b978e2a",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "mediatek_q3_2026_p7.png",
+      "bytes": 185645,
+      "sha256": "6c03ed6331d5322ab2e55d847b7eb17087851fccdcfbdb983fc462ad7f13d855",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "mediatek_q3_2026_p8.png",
+      "bytes": 177996,
+      "sha256": "fa8341c684f55676cc1bb1add5488812b632fb2de762d53ec8b250665294257b",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "mediatek_q3_2026_p9.png",
+      "bytes": 174343,
+      "sha256": "4f044a3c4a8cacaa331bfb6b018653eaaecfdf4b98c85cd3f877393aec73b2c4",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "mediatek_q3_2026_transcript.pdf",
+      "bytes": 316576,
+      "sha256": "991c4a867a06803b8c02db4c89e058b937902a47634cc89e2869310782342a9c",
+      "source_url": "https://www.mediatek.com/hubfs/MediaTek-Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q3/Transcript.pdf",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "mediatek_q3_2026_transcript.txt",
+      "bytes": 44202,
+      "sha256": "2da2e137bccbfb3c26d690dd79ee8e7855f58697d0a902bd02e95dbf7378b934",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "microsoft_fy27q1.html",
+      "bytes": 343722,
+      "sha256": "b1a1657c426f6d06d858a7baddcaed54cdd99c1120b9fe5186acd1636bf25e9f",
+      "source_url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1"
+    },
+    {
+      "file": "microsoft_sap_azure_get_started.html",
+      "bytes": 109643,
+      "sha256": "e6975fb5c8a63baad30b33c5c97ea172aa32d3e609e9b4b2939ace8054ab6eb0"
+    },
+    {
+      "file": "mlperf_compatibility.adoc",
+      "bytes": 4428,
+      "sha256": "cbcc4d620d3d65cb4456bafbd92d29d60ba6e13f2980e919cf6c2e03f89bcebe"
+    },
+    {
+      "file": "mlperf_messaging_guidelines.adoc",
+      "bytes": 22886,
+      "sha256": "62892fc8b5fb4958be49e94a736e10dce2d4226508a825e093154d7c7048f842"
+    },
+    {
+      "file": "mlperf_result_downloads.json",
+      "bytes": 25277,
+      "sha256": "a7dddb87c0deb848d55661c758a8fc08504f2be804511a73a04b6c7bc864ca81"
+    },
+    {
+      "file": "mlperf_result_logs/v6.0/closed/Intel/results/1-node-2S-GNR_128C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 635,
+      "sha256": "7b9ee42c7c2222d458e52589bdc2a95a944e12812d65a1a43d2e217b3a3ef13a"
+    },
+    {
+      "file": "mlperf_result_logs/v6.0/closed/Intel/results/1-node-2S-GNR_128C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1913,
+      "sha256": "358a229cf389c27a4c2cc232caea28cd0ac1cd405f01aef89be79f70d6b6bd0f"
+    },
+    {
+      "file": "mlperf_result_logs/v6.0/closed/Intel/results/1-node-2S-GNR_128C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 542,
+      "sha256": "93f8236487d25f69a09972c0d84059c86c8683f12a5ab562e1dd20b92f6ec979"
+    },
+    {
+      "file": "mlperf_result_logs/v6.0/closed/Intel/results/1-node-2S-GNR_128C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3163,
+      "sha256": "3c86046668bfae51a4b3331a0e7a0a4fe232ee89936707bec9ed0dab8dd65509"
+    },
+    {
+      "file": "mlperf_result_logs/v6.0/closed/Intel/systems/1-node-2S-GNR_128C.json",
+      "bytes": 1349,
+      "sha256": "503ef50597f37fb153e30e7c6c76949469aa7a95bbc109987300a3860e53d265"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Cisco/results/X410M8_1_node_4S_GNR_86C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 961,
+      "sha256": "bac544fb73e3e6c62dadb7f3d8210a624b9540392ba9aef69b81c34589dc79fb"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Cisco/results/X410M8_1_node_4S_GNR_86C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1906,
+      "sha256": "9c5e54ef5d3483b80be8d73d39ccd9cef620250ccc0814b7e7fd056f6517640e"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Cisco/results/X410M8_1_node_4S_GNR_86C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 962,
+      "sha256": "ae0be5367cd79c131d094cb091a78cf66a195995c72b65cc5fffce3531605f24"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Cisco/results/X410M8_1_node_4S_GNR_86C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3165,
+      "sha256": "12fa6a89701121b45964be60e686ee68bf011377bc9ed0af70761b01d922ca53"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Dell/results/1-node-2S-GNR_86C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 1054,
+      "sha256": "d3cc279850e191d20e7e9c192e71b91097077626b5c4ddcc2fe7df2de13eea0e"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Dell/results/1-node-2S-GNR_86C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1914,
+      "sha256": "8c1acc7dcd5c3dee20b1efbc5fb64bf8663e935ad0b1c74d4b343f634c540780"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Dell/results/1-node-2S-GNR_86C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 1054,
+      "sha256": "3147eef01bfd7d57c80872ebfadf2e1b82d67260e16f810283b961e207ceebcd"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Dell/results/1-node-2S-GNR_86C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3158,
+      "sha256": "74001adf2b3f8673534846d178fa0a1fff0c230fa405a2607dfe9994dc0cdee5"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Intel/results/1-node-2S-GNR_128C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 1054,
+      "sha256": "7e9599b5eff398770198bcf967f58efdf49896b970c60ac06dccd4b99b867f14"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Intel/results/1-node-2S-GNR_128C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1906,
+      "sha256": "ff53cbe92d2344bdc45fd8a6e192ebc3a6d89971b4840e96bdae837bf597dc3b"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Intel/results/1-node-2S-GNR_128C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 962,
+      "sha256": "ee5c457de84d07447cd96bc42f4f333f3e4c96c349381578f9649a3d504fd4f2"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Intel/results/1-node-2S-GNR_128C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3167,
+      "sha256": "5b4979e91c0124cd94cee851e3449a57bedccc0b8adafc9579c6cc0cbcf614f9"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Intel/systems/1-node-2S-GNR_128C.json",
+      "bytes": 1242,
+      "sha256": "d0cfe593f2cdcdc0d1c56a7e0f5eab7cfd90d875c15013a4d18029bb9ea78f7a"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Oracle/results/1-node-1S-GNR_120C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 1053,
+      "sha256": "a8db671e5bc8736384cd6cac8ac2694594ec3f2b3b3a76167a070a9e712ce1a0"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Oracle/results/1-node-1S-GNR_120C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1914,
+      "sha256": "9677d2c7fb5ed78300812a1faf8566ae8dd23b951b5cec1f20f93caaf84d118d"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Oracle/results/1-node-1S-GNR_120C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 962,
+      "sha256": "dbb0ad6a2cb5848b68cb78366f04190b82da905a8fd2d81ce78d9a2f9a516899"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Oracle/results/1-node-1S-GNR_120C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3163,
+      "sha256": "8e5af05ec2c88b16c94aa6c2b9d60a35aeb26c05fe2c22ce664def3104d80d83"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Quanta_Cloud_Technology/results/1-node-2S-GNR_86C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 542,
+      "sha256": "6911cf122c3ed58dbcc3c2fd2727f99cae651a7f4703dbec1bd81ea29e455758"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Quanta_Cloud_Technology/results/1-node-2S-GNR_86C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1915,
+      "sha256": "b22db93d957ffc26707de0591d5ebbe32584ed45c15f84d1b1220d700f11907d"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Quanta_Cloud_Technology/results/1-node-2S-GNR_86C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 543,
+      "sha256": "1bd32accb64e1b38f7fbe3d911670592478f4422c76198a6da0304ac854666a0"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Quanta_Cloud_Technology/results/1-node-2S-GNR_86C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3158,
+      "sha256": "cfe5ad34f0358595de3b3906c21f909ef189223c640a75c95d88f1602256f57e"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/RedHat_Intel/results/1-node-2S-GNR_96C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 954,
+      "sha256": "40ee1886da50176936f5487c5edbe0f47773cd729aa9fd64f74577738e93e6d6"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/RedHat_Intel/results/1-node-2S-GNR_96C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1915,
+      "sha256": "e006ccdc6686662317e19d66c3101a39bfeea3dd9cd0dde5480df91c7c56cc8d"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/RedHat_Intel/results/1-node-2S-GNR_96C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 953,
+      "sha256": "d68b996679b4f4531e78812277a99c2c3ac7f816a829b5dc935296923d5868a6"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/RedHat_Intel/results/1-node-2S-GNR_96C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3161,
+      "sha256": "bcb8279876f8dbd38775e98e9ebfbb925107054eee460fea4fdee872cfdbc857"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-2S-GNR_128C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 1054,
+      "sha256": "27ba077df809ee638dccaffa4016e01b197f2f19ffbf5cfdb5cd08e1179c152e"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-2S-GNR_128C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1906,
+      "sha256": "4604d32e487e078ddf545b615c6da5b8f94380a04becec0b3ca6a57617f8df32"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-2S-GNR_128C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 962,
+      "sha256": "019d88f0cf0117015f64248dea598da4aabacf6d8c671bf2b1e4cf3780d19936"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-2S-GNR_128C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3165,
+      "sha256": "cde8d74778d092d2075d40ef38d4da07aa56a677943f03c239014fb54efa2099"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-2S-GNR_86C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 962,
+      "sha256": "b33c8087871a819d7e79e9bda90506e94acf09e83104be7e400fffa51d41fb63"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-2S-GNR_86C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1915,
+      "sha256": "451cbd7dcefa14c50985e22c6ac9704dcb472925dcdbc41cabfd7a68ec821712"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-2S-GNR_86C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 961,
+      "sha256": "b50d1417fd3cfb9c101131b8eec970cd3e415976aaceb4769a132d4818c8d7b5"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-2S-GNR_86C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3158,
+      "sha256": "aa74b212ac1965331b927ca484f7c12c96c70f2dc524ccc1942d8349e3b6935c"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-4S-GNR_86C/llama3_1-8b/Offline/accuracy/accuracy.txt",
+      "bytes": 962,
+      "sha256": "8e51b793652c9f2783fc2740639b50bf5399e7e76ba456d2106f41aa9d5b65ed"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-4S-GNR_86C/llama3_1-8b/Offline/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 1906,
+      "sha256": "255c2cd3d21c0445a4e4ae66dd7fdbf8baf35fa56a457ffd952834c269200b28"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-4S-GNR_86C/llama3_1-8b/Server/accuracy/accuracy.txt",
+      "bytes": 962,
+      "sha256": "2bae00fb75ca348962c70519944bebb972d7e0e8a7ad4a908663e8f6b0b36749"
+    },
+    {
+      "file": "mlperf_result_logs/v6.1/closed/Supermicro/results/1-node-4S-GNR_86C/llama3_1-8b/Server/performance/run_1/mlperf_log_summary.txt",
+      "bytes": 3161,
+      "sha256": "71c9327e2cd8481d038e39fd89d5551c9a998b6d72eb16340266ffecf7d8ab50"
+    },
+    {
+      "file": "mlperf_v6.0_commit.json",
+      "bytes": 6322,
+      "sha256": "a7b2d297adbf146a5373c4f986691469e8e901a34525e2e84b626e1dd781077b"
+    },
+    {
+      "file": "mlperf_v6.0_summary.json",
+      "bytes": 784457,
+      "sha256": "52fa813a27834e8de38eca9fd381688df1cf9cd95020d2bd9e951f6cc16384ae"
+    },
+    {
+      "file": "mlperf_v6.0_tree.json",
+      "bytes": 9566683,
+      "sha256": "eb9f970787eb67ed042325e9a6c17402c2235df8decdb4e3c46b55302cdd62d1"
+    },
+    {
+      "file": "mlperf_v6.1_commit.json",
+      "bytes": 28482,
+      "sha256": "25755a5bdcd9a153cff64579f884b22839c82cf0eb73643cc4ed4f2de7a3271a"
+    },
+    {
+      "file": "mlperf_v6.1_summary.json",
+      "bytes": 670139,
+      "sha256": "f40d71a728a8c1e647d5fef9869ec1fcbb54550433efbc12e96f90b09a2dd561"
+    },
+    {
+      "file": "mlperf_v6.1_system_metadata.json",
+      "bytes": 273308,
+      "sha256": "9b62b78804ea6930a031a7ce502d90205dd7fb22b44adad649a0b8ba69f7f09d"
+    },
+    {
+      "file": "mlperf_v6.1_systems/AMD__8xMI350X_2xEPYC_9575F.json",
+      "bytes": 2497,
+      "sha256": "93c397033b4e0b99ccfd6119f4eb384b6c7dad76191442d3e8aed9a2c8927207"
+    },
+    {
+      "file": "mlperf_v6.1_systems/AMD__8xMI350X_2xEPYC_9655.json",
+      "bytes": 1854,
+      "sha256": "ba55ae32c969b813c4cdd1f8604d2bc866e2084d459714473aeb1ce635e0302c"
+    },
+    {
+      "file": "mlperf_v6.1_systems/AMD__8xMI355X_2xEPYC_9575F.json",
+      "bytes": 2032,
+      "sha256": "0195a0d101dc097b49dee41cc19d1ea6c230326605fa015577e5beba3284e094"
+    },
+    {
+      "file": "mlperf_v6.1_systems/AMD__9x8xMI355X_2xEPYC_9575F.json",
+      "bytes": 2451,
+      "sha256": "987ebb08655b253ff70f87b75c84e238ee7b016f395f272d5b0b5f4029f32418"
+    },
+    {
+      "file": "mlperf_v6.1_systems/ASUSTeK__XA_NB3I-E12_B300x8_TRT.json",
+      "bytes": 1962,
+      "sha256": "b6adcac559bae4ed9ad543e779732a800cd2fcff1afa4d5b1b202fa1ab913566"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Atlas_Inference__DGX_Spark_GB10.json",
+      "bytes": 2200,
+      "sha256": "5f7d06d10d33d41366bd9be90e0e3a175a5c48cc7cb81a1a93fa60be131c4b8b"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Atlas_Inference__Strix_Halo.json",
+      "bytes": 2111,
+      "sha256": "92776508de43c0595b0cb23080b8186804744f20fb516fa2a39161feea56e273"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Azure__Azure-GB200-NVL72_186GBx288.json",
+      "bytes": 2348,
+      "sha256": "4a0d6e57d582ba98c1ab5b8c62fcbf9ae8bf47137db7f9056de8005cf7e85f48"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Azure__Azure-GB200-NVL72_186GBx72.json",
+      "bytes": 2346,
+      "sha256": "c3d15724b55ce9c7c59a9dbf3be670f8c5289d7e80d3fe28fda567d6562fa81f"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Azure__Azure-GB300-NVL72_288GBx72.json",
+      "bytes": 2343,
+      "sha256": "aabc8b7aaa4ef0f85a46ac0d729aeaf75a977bae5c2a3b8767656547ae078910"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__C240M8_RTXPro4500_32GBx5_TRT.json",
+      "bytes": 1981,
+      "sha256": "e212d93ff8a7d9feecf41b7a97ce4bd49dae24e855ec98285eb77ce0e20d13d8"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__C845A_M8_RTXPro4500_32GBx8_TRT.json",
+      "bytes": 1979,
+      "sha256": "f7c99e66caaec6dab42adca6525fef8bb8a851bda926ccc9ebdd45fce1c14e53"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__C845A_M8_RTXPro6000_96GBx8_TRT.json",
+      "bytes": 2041,
+      "sha256": "1398aeb05a34a147cca23b6926d86874cd27ecd031a615aa6db7f71a3cf16567"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__C880A_M8_B300_270GBx8_TRT.json",
+      "bytes": 2104,
+      "sha256": "e3b59016060904e3b6b53c51061d153cae0f2e83e42dc893d06ef50bafddc512"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__Cisco_UCS_B300x16_G200_4x2_RO.json",
+      "bytes": 3114,
+      "sha256": "e057bdb221d999f64344fc091b5c789f7609595a2e7767a2b3d067542b9f169a"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__Cisco_UCS_H200x8_MI350Xx8_G200_2x2_TOR.json",
+      "bytes": 2361,
+      "sha256": "a6c52a458103eccaf8b9cad4dfffa23fd66d7f040fa4c15cbe8c08e95eb28874"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__X210M8_X580P_RTXPro4500_32GBx4_TRT.json",
+      "bytes": 1995,
+      "sha256": "215e47704233ce3e5729875f51b1ff66f1f2fb4ee5f78cdd48ecf636fa864330"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__X210M8_X580P_RTXPro6000_96GBx4_TRT.json",
+      "bytes": 2066,
+      "sha256": "2f65baeb620b3e736e063323b0cbb9702916a72fb217ff4da09f3c0335e75fcb"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__X215M8_X580P_RTXPro6000_96GBx4_TRT.json",
+      "bytes": 2059,
+      "sha256": "7fe2bc8e125b325d996b7d7e0c6abfdc48d6bfb3152a553cb753afcfe5fb7a47"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Cisco__X410M8_1_node_4S_GNR_86C.json",
+      "bytes": 1349,
+      "sha256": "7d6201d921b73606375954ab46d9e5662bfef96cd309d1def16899cd563411c3"
+    },
+    {
+      "file": "mlperf_v6.1_systems/CoreWeave__B200-SXM-180GBx8_TRT.json",
+      "bytes": 2660,
+      "sha256": "793d180a8ba99ba2a23c7c7b325878432b2679be1a27e0557f92486c947dfa78"
+    },
+    {
+      "file": "mlperf_v6.1_systems/CoreWeave__B300-SXM-270GBx8_TRT.json",
+      "bytes": 2802,
+      "sha256": "c0282729bea1cc0757077010ff07d5c46b8104265a63a0e1edd7eddc0b4f425e"
+    },
+    {
+      "file": "mlperf_v6.1_systems/CoreWeave__GB200-NVL72_GB200-186GB_aarch64x72_TRT.json",
+      "bytes": 2778,
+      "sha256": "77ec6cd71fad32295ab40acaa4e8aabd373b5c487155b601f22a3fa24ae4ad55"
+    },
+    {
+      "file": "mlperf_v6.1_systems/CoreWeave__GB300-NVL72_GB300-288GB_aarch64x4_TRT.json",
+      "bytes": 2735,
+      "sha256": "b7540495eae05b2e188eed0728d110d225fc396ed63beb915023ec8d18060b5c"
+    },
+    {
+      "file": "mlperf_v6.1_systems/CoreWeave__GB300-NVL72_GB300-288GB_aarch64x72_TRT.json",
+      "bytes": 2895,
+      "sha256": "98ae97a37403514feb0f455c54e656c9517b58ececfb1fac304b3757c4e470bb"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Crusoe__512xMI355X_Crusoe_DS.json",
+      "bytes": 2333,
+      "sha256": "532f0b470db71d2580613abaf26fbe088f3cebb26852a22656baa3d31955a0b8"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Crusoe__512xMI355X_Crusoe_GPT.json",
+      "bytes": 2280,
+      "sha256": "d5ed1aa04c5a6e0b1a14e6a72f2d88a3b39eb5fd18f641bdc58765f1337d1af0"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Crusoe__GB200-NVL72_GB200-186GB_aarch64x16_Dynamo.json",
+      "bytes": 2740,
+      "sha256": "4ab6f5f6810337863e7fa96f1a385a28f5a395b8087342c39fab48cc0c71e4aa"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Crusoe__GB200-NVL72_GB200-186GB_aarch64x4_Dynamo.json",
+      "bytes": 2696,
+      "sha256": "b6f3d88f902c62bca8c31c6915faf083fdbf083ed0db066fa71b25f1f1b28986"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Crusoe__GB200-NVL72_GB200-186GB_aarch64x4_TRT.json",
+      "bytes": 2677,
+      "sha256": "1efc0ce2fd5fa105ae61f5bf1b54fd8a081dbd5e162f3c6fb195701feb468f87"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell_AMD__XE7745_8xMI350P_2xEPYC-9455.json",
+      "bytes": 2204,
+      "sha256": "ec45c426ead725bb91fdd306d1c334965f7d45ef1a202e989871999f4783e191"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell_MangoBoost__2x8xMI355X_2x8xMI300X.json",
+      "bytes": 2138,
+      "sha256": "44cdb86f408aa98d6396c9bce6accf9269187a3cf1d171a5306832bf17864922"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell_MangoBoost__XE9785.json",
+      "bytes": 1812,
+      "sha256": "4c36ee8599d3bcee75a835f5610e6013844a00390940579f42530c5ba04b7835"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell_MangoBoost__XE9785L.json",
+      "bytes": 1817,
+      "sha256": "5f5cf52a049158a2c0b8a4d06e8f338688607ee9774bf46f46406b396308ae6b"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__1-node-2S-GNR_128C.json",
+      "bytes": 1387,
+      "sha256": "9c89245f607eedb8388bfe1c76d79ae278a685c469e9430907d8d8111055c710"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__1-node-2S-GNR_86C.json",
+      "bytes": 1406,
+      "sha256": "2b567634ca70d8665a09a4d674c85231e1e74be8c0abaf8d092658a3073ef961"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__Dell_Pro_Max_GB10x1.json",
+      "bytes": 1810,
+      "sha256": "c95f5737cdc8d261a200bbdfb4ddfbee01de5309629fea1f3972309b9d07616e"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__XE7740_RTXPro6000_PCIe_96GBx8_TRT.json",
+      "bytes": 2324,
+      "sha256": "da55d04243547239ce4e5b656cd138d188333c7b495bbb68d7a734582607be81"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__XE7745_RTXPRO4500_32GBx8_TRT.json",
+      "bytes": 1816,
+      "sha256": "9e3541093de596395c2f4609bdb4185ab4c96fe04a05cbf28cb08d307b336503"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__XE9712x18.json",
+      "bytes": 2335,
+      "sha256": "c9eaeaf25d573d5cb086ae70c344a23817e65aa513e7559e37a32f678a3aedfa"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__XE9780-B300-SXM-270GBx8_TRT.json",
+      "bytes": 2262,
+      "sha256": "b401b55c128ff17185a20fe5457b94513df9890121f75163371716e555e7c215"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__XE9780L-B300-SXM-270GBx8_TRT.json",
+      "bytes": 2277,
+      "sha256": "331c8aa5712768ba7a0e031399e124cf156d5eff4bfd9d8982a4f528c8890258"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__XE9780LAP-B300-SXM-270GBx8_TRT.json",
+      "bytes": 2281,
+      "sha256": "f02c7f92d49ec1780024cdc067eb53a4ceb2d17b891cbf7dcb47d37c5664f39d"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__XE9785L_8xMI355X.json",
+      "bytes": 2186,
+      "sha256": "b6f1abaeaa94edb3147b2b00768c63ffcae850c948fefa8209046e019e66aa6c"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Dell__XE9785L_x86_B300-SXM-270GBx8_TRT.json",
+      "bytes": 2212,
+      "sha256": "33740954dc2b98865776ad9a871382e0d4defb85a86a919be939a5b0199f815c"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Fujitsu__PRIMERGY_CDI_RTX_PRO_6000_PCIE_96GBx8_TRT.json",
+      "bytes": 2038,
+      "sha256": "9a47af05a67ea44ed726cb67f36452b85b09c9f4ac6d70eae18f8893fa7609e1"
+    },
+    {
+      "file": "mlperf_v6.1_systems/GigaComputing__G894-AD3-AAX7_B300-SXM-270GBx8_TRT.json",
+      "bytes": 2217,
+      "sha256": "408aa987f1085f7ecd0317300e117841f5f5d9f90b3123e6be0812cf8092e075"
+    },
+    {
+      "file": "mlperf_v6.1_systems/GigaComputing__G894-ZD3-AAX7_B300-SXM-270GBx8_TRT.json",
+      "bytes": 2255,
+      "sha256": "5778915eeab254ec73e2aa7b024b3a93340f0b40b79053f237ae194a2dc42b4f"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__B200-SXM-180GBx8_TRT.json",
+      "bytes": 2265,
+      "sha256": "16be704f06fb0dafa693333c3127d35594418fc476cc1b0295000898fd00634a"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__B300-SXM-270GBx8_TRT.json",
+      "bytes": 2266,
+      "sha256": "8a0291f2ee6935a6d6f26f6df011491bd8982e08960c225d492a81a402956a6c"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__GB200-NVL72_GB200-186GB_aarch64x4_TRT.json",
+      "bytes": 2436,
+      "sha256": "79b94e80a4d2d878e391cf448a9f278bbbf0b419e4c00f62cf903c9b31a66a66"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__GB200-NVL72_GB200-186GB_aarch64x72_TRT.json",
+      "bytes": 2781,
+      "sha256": "89d2dbcb53c40f39986f59f73ca57f9288f8dbe5fc3abb5b489652fbf9649a0e"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__GB300-NVL72_GB300-288GB_aarch64x288_TRT.json",
+      "bytes": 2418,
+      "sha256": "7ebcd448f6750a6bbb49993bd2b01bf5cbc33b13e431cc75b1c15c68e79c90a3"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__GB300-NVL72_GB300-288GB_aarch64x4_TRT.json",
+      "bytes": 2434,
+      "sha256": "f6460337b9521496b70606d79c2fb5862731eea90b657a0c0ded06f30dbd7bab"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__GB300-NVL72_GB300-288GB_aarch64x72_TRT.json",
+      "bytes": 2437,
+      "sha256": "fa04416505f24dec38945b540178f36d9e73651b0aef0c1419c236e0afcf6122"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__GB300-NVL72_GB300-288GB_aarch64x8_TRT.json",
+      "bytes": 2434,
+      "sha256": "127820ce61f597fd508da850ddbd22085a7c476f2b4eb1e82b9ea0f125dc2ad8"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Google__Test_Dummy_System.json",
+      "bytes": 2262,
+      "sha256": "7728132214c153040cf4548ec2b5dfce5725e80135e73b6690669a34759469c2"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_GB200-NVL72_GB200-186GB_aarch64x8.json",
+      "bytes": 2353,
+      "sha256": "70ab337eeb23739150c751a612aa5a589e9bc3533089e079b35711126c5be76f"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_PROLIANT_DL145_RTX_PRO_4500_PCIE_32GBx1.json",
+      "bytes": 1854,
+      "sha256": "1d093e2218e6bb94c93e0fff37c7a263b6df2f519bf6313d08b29b06d55d5ce1"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_PROLIANT_DL345_GEN12_RTX_PRO_4500_PCIE_32GBx1.json",
+      "bytes": 1879,
+      "sha256": "5fcb18cb49149e001ca653fa8362f03f4aeedb8dcd2f44f1e4ef83f0406facd1"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_PROLIANT_DL345_GEN12_RTX_PRO_4500_PCIE_32GBx4_AGENTIC.json",
+      "bytes": 1880,
+      "sha256": "50a4f827b8b81774844faa06317372b3909875690474f756991a988087aaff62"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_PROLIANT_DL345_GEN12_RTX_PRO_4500_PCIE_32GBx4_TRT.json",
+      "bytes": 1918,
+      "sha256": "dbdc16d20435c139bfe59dbc9437c913d664253860aeee5b78fb357fdbb4e6e6"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_PROLIANT_DL380A_RTX_PRO_6000_PCIE_96GBx8.json",
+      "bytes": 2163,
+      "sha256": "a9fe24c381c0ed829c429583e18c6affae608e79ecc9f1d3165a2fd4db4ebb8e"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_PROLIANT_DL380_RTX_PRO_4500_PCIE_32GBx1_TRT.json",
+      "bytes": 1868,
+      "sha256": "68d2d2965d4e73edbb1ce622bdfbaba610f24d9f99c61afc4006f6530ae52506"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_PROLIANT_DL380_RTX_PRO_4500_PCIE_32GBx5_TRT.json",
+      "bytes": 1915,
+      "sha256": "4070a2d8ad409cef194bc58a8fab2b4698607b65116e91da8f74fcc62ecbaf2b"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_XD685_MI355X_288GBx8_vLLM.json",
+      "bytes": 2372,
+      "sha256": "3fb6ffcbb1998c0e42624269940d9d538fffb31e9da95f9b3698178f4a5857ce"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_XD690_B300_SXM_270GBx16_TRT.json",
+      "bytes": 2399,
+      "sha256": "d9aa7f8be2dcd5399106452276f1a1ac4ff938098cc400f4fd7c2f7e010e1785"
+    },
+    {
+      "file": "mlperf_v6.1_systems/HPE__HPE_XD690_B300_SXM_270GBx8_TRT.json",
+      "bytes": 2398,
+      "sha256": "5a0fcfd4293129fec50d2693bb6cacf9c940750863c646b7de19db216c5d5090"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Intel__1-node-2S-GNR_128C.json",
+      "bytes": 1302,
+      "sha256": "ffd0e7c23da7edc9f8f9b8c6ae87a2b33349a7499149c6003dce1a46ab3687e7"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Intel__1-node-2S-Xeon_6787P.json",
+      "bytes": 1834,
+      "sha256": "92dbab68225ce16dd0619e5ee3c61fa30271549ef84558ce4e87312ef4ce75f0"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Intel__1-node-4x-BMG-B70.json",
+      "bytes": 1364,
+      "sha256": "5ec2d5e4fb6bf09e88eac68158154c5dd42a97ac18a95518257629ab1074ba22"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Inventec__P5800G7-B300-SXM-270GBx8_TRT.json",
+      "bytes": 2294,
+      "sha256": "40baa81bdf76011c6d37b95e51696bd83227f651b46588fbfba2dd17db9bd144"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Inventec__P9000G7-B300-SXM-270GBx8_TRT.json",
+      "bytes": 2296,
+      "sha256": "c4948137e7a509bf24292ccb98f079e8ac30751d402275628b7e00a276247a3a"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Lambda__B200-SXM-180GBx8_TRT.json",
+      "bytes": 2227,
+      "sha256": "0c3936f2b7c663736b6c85bd21da2e4b24a3c6f617a30b12e97da5033dfab839"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Lambda__GB300-NVL4_GB300-288GB_aarch64x4.json",
+      "bytes": 3170,
+      "sha256": "b110d6d4df2cb715a0816af7e6b3b355e56bc73a01da2d0fae36f1310e10f1b9"
+    },
+    {
+      "file": "mlperf_v6.1_systems/MangoBoost__16xMI355X_2xEPYC_9575F.json",
+      "bytes": 2181,
+      "sha256": "4d240e29ad2a0838c4718479c8e4aa9bd221101164a0097338bfdf7009cd805d"
+    },
+    {
+      "file": "mlperf_v6.1_systems/MangoBoost__8xMI300X_2xEPYC_9534.json",
+      "bytes": 2266,
+      "sha256": "9b6ddbdc17ab1beed6d40fe522ec57f7b6cfb54a9c7f56abd31f48a01f46b57e"
+    },
+    {
+      "file": "mlperf_v6.1_systems/MiTAC__8xMI350X_2xEPYC-9755.json",
+      "bytes": 2271,
+      "sha256": "c1fc80339a0cc577df1ca94bbfe2691b4a5fb6044148a9ebe520a6cd08aa7de2"
+    },
+    {
+      "file": "mlperf_v6.1_systems/MiTAC__8xMI355X_2xEPYC-9755.json",
+      "bytes": 1996,
+      "sha256": "57a929a16a4a869e226dd119c5b5485e5e4f1a22000d609ae40b0427f44d19b6"
+    },
+    {
+      "file": "mlperf_v6.1_systems/MiTAC__MiTAC_G4520G6_RTX_PRO_6000_PCIE_96GBx8_TRT.json",
+      "bytes": 1894,
+      "sha256": "837ba0d00562555d73a44695b9396411ff1470051f275892771996382e748dc6"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__B200-SXM-180GBx8_TRT.json",
+      "bytes": 2265,
+      "sha256": "cb818a18b527f30f0f1566a40a7268e0075b8f8d875a9a0120cb09a96b5de1f9"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__B300-SXM-270GBx8_TRT.json",
+      "bytes": 2266,
+      "sha256": "cc28eb395e5f037120c07eb1b6e714e3b72b5b0b75457f14947b3084ebecb72c"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__GB200-NVL72_GB200-186GB_aarch64x4_TRT.json",
+      "bytes": 2436,
+      "sha256": "68cbfab019f1ba671283939e7650723f627b6ced64e527b970084fa02254b7fa"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__GB200-NVL72_GB200-186GB_aarch64x72_TRT.json",
+      "bytes": 2439,
+      "sha256": "460264e1ff349e2a3bd4d3ef37cc6f7a4ac1217c3c8556dab7ef14ab1a0421af"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__GB300-NVL72_GB300-288GB_aarch64x288_TRT.json",
+      "bytes": 2418,
+      "sha256": "2ed5e05d4588333277880747bd4c20d01a4e40fca1308aa4b10bec2f97bac655"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__GB300-NVL72_GB300-288GB_aarch64x72_TRT.json",
+      "bytes": 2437,
+      "sha256": "4b64a1459a8f017a83c2703eae32b09a50db1054e66584e81e269537a4cbe03a"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__GB300-NVL72_GB300-288GB_aarch64x8_TRT.json",
+      "bytes": 2434,
+      "sha256": "3b38133dff4c6866c28f21486ecca51393da87d87687716bb6f10b1c7168aa7f"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__Jetson-Thor.json",
+      "bytes": 1827,
+      "sha256": "e8315a5df918f3181519ff3842f5979ae1c444808ef24453eadb5a6bd64eb6ed"
+    },
+    {
+      "file": "mlperf_v6.1_systems/NVIDIA__VR-NVL72_VR-288GB_aarch64x72_TRT.json",
+      "bytes": 2229,
+      "sha256": "e02ea889326946c109d5fa9e6c43b833476ea122f090f31facb5d3de457e1db2"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Naeem Khoshnevis__H200.json",
+      "bytes": 3017,
+      "sha256": "144aa0f526345f932e8ddbcbe5f33b015daccb39e0713c2de43761207e583806"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Nebius__B200-SXM-180GBx8_TRT.json",
+      "bytes": 2505,
+      "sha256": "2752029c39e3a939bce91d974fe9b2073e327e77cc6b84fe8a9f455b3d36a916"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Nebius__B300-SXM-270GBx8_TRT.json",
+      "bytes": 2265,
+      "sha256": "c52aba6dfb0a110bace9a0986740c534ccf3e8da2224dbd553f5542f9c827d67"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Nebius__GB300-NVL72_GB300-288GB_aarch64x4_TRT.json",
+      "bytes": 2434,
+      "sha256": "68597051c5c2ef34aa1dfd24d7b172e58fc95662241233b95424fe5ef31db0a9"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Nebius__GB300-NVL72_GB300-288GB_aarch64x72_TRT.json",
+      "bytes": 2437,
+      "sha256": "df2b62aa78d8c56899443098d4a64edb16394a7d6f83e7196107feaf39166e03"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Nebius__GB300-NVL72_GB300-288GB_aarch64x8_TRT.json",
+      "bytes": 2434,
+      "sha256": "9b1dbd8c02dd458731968ca983702cc053d12d13b74bda355f0ca2ba441d2523"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Nebius__RTX_PRO_6000_PCIE_96GBx8_TRT.json",
+      "bytes": 3238,
+      "sha256": "115ac682fdf625990aa51263b003d73a6f17e17d66855427f3108be155876de9"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Nebius__VR200-NVL72_aarch64x36.json",
+      "bytes": 2122,
+      "sha256": "6e75ff2337e4be4f230f7bef482340aeca43612f4726c51be8a84e2f5c3482ca"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Oracle__1-node-1S-GNR_120C.json",
+      "bytes": 1307,
+      "sha256": "ba97ac0b75ab7907387c3bc24c01a3da1adb4fbaad32818c2ff09c640f7e3d58"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Oracle__8xMI355X_2xEPYC-9575F.json",
+      "bytes": 2266,
+      "sha256": "8dccb05e7894361c4e3b374a71e77ac992060e82a2dfdb62d140d19c3c617bc5"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Oracle__B300-SXM-270GBx8_TRT.json",
+      "bytes": 2266,
+      "sha256": "26cfa9c3b875d97ac37a5da42e0a5d638ed4d0686327a8cb076b03aad47cdc72"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Oracle__GB300-NVL72_GB300-288GB_aarch64x4_TRT.json",
+      "bytes": 2434,
+      "sha256": "46e5cec23d6b0390dda1f4b9c438fe48b724212326dcb8cab4e676f2caf557f3"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Oracle__GB300-NVL72_GB300-288GB_aarch64x72_TRT.json",
+      "bytes": 2437,
+      "sha256": "aca8fdc6113a6967c5c88da8ae401205b1046a2a6f596e24eb1d469a8e3b7fe2"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Oracle__GB300-NVL72_GB300-288GB_aarch64x8_TRT.json",
+      "bytes": 2434,
+      "sha256": "abcdfef7c1f8f212d324f9eaabddcabad25ee67a87deb9fe7001f1a3f25b3517"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Quanta_Cloud_Technology__1-node-2S-GNR_86C.json",
+      "bytes": 1346,
+      "sha256": "c54c04873a926ef82f581d845171122ed63c9d4e0149ef0bfcd42bb48eac2b5a"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Quanta_Cloud_Technology__1-node-4x-BMG-B70.json",
+      "bytes": 1366,
+      "sha256": "a2de766c80a302cc95d17af54fafc48e9c7e15baf4604811b5a00f5257a96a5f"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Quanta_Cloud_Technology__D75H-10U_B300-270GBx8_TRT.json",
+      "bytes": 2301,
+      "sha256": "0e14d2af61d1c113b45c31f245f6866434ca0a86e363b52521ad551d5f7af0d4"
+    },
+    {
+      "file": "mlperf_v6.1_systems/RedHat_Intel__1-node-2S-GNR_96C.json",
+      "bytes": 1303,
+      "sha256": "5a746c3d32f817fbd7a82b4992f78bc891f7650cea4d17976e6a802ef7fb8414"
+    },
+    {
+      "file": "mlperf_v6.1_systems/RedHat_Supermicro__GB200-NVL4-192GB_aarch64x4_VLLM.json",
+      "bytes": 2041,
+      "sha256": "68e20852ec0db44b87a763d6faff66bba2cedd6eb87fcb1052c0bc6d6ea9594b"
+    },
+    {
+      "file": "mlperf_v6.1_systems/RedHat_Supermicro__GB200-NVL4_186GB_Openshift_VLLM.json",
+      "bytes": 1735,
+      "sha256": "0dc16860fe33783eff02b0d6f8276ca2c17fc4d02e998c793ee4762ad9326cce"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Supermicro__1-node-2S-GNR_128C.json",
+      "bytes": 1428,
+      "sha256": "2c0806805898b10a0e0a8e3d7648fa67d1d77406c20322a6beef4d16fa9aa5ef"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Supermicro__1-node-2S-GNR_86C.json",
+      "bytes": 1416,
+      "sha256": "372d696592a145d0513bac91d37ffb25749962704f5fc010188b0c61eb33009c"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Supermicro__1-node-4S-GNR_86C.json",
+      "bytes": 1420,
+      "sha256": "d7aa11474bdda743e17587014c5a4f26f1865b3e9b6521e79ea74b4e46869d14"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Supermicro__1-node-4x-BMG-B70.json",
+      "bytes": 1483,
+      "sha256": "9e27563606204d3b3772db472df295e44302dc8b304073066a029fbfa1945ad5"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Supermicro__8xMI355X_2xEPYC-9575F.json",
+      "bytes": 1628,
+      "sha256": "401922928e9e3ab054803704727306188e49528d018a0f1be322246aaf4968af"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Supermicro__AS-8126GS-NB3RT_B300-SXM-288GB_TRT.json",
+      "bytes": 2007,
+      "sha256": "4cdaaaa4711dd6b9d6b66bca4c8b108387246e2c3b8449d1c8c78e2b73fc961f"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Supermicro__SYS-822GS-NB3RT.json",
+      "bytes": 2038,
+      "sha256": "388ab1099dbc48a1bb0fcba77caaa82cf8940beb2767e4e237699e405f127401"
+    },
+    {
+      "file": "mlperf_v6.1_systems/TTA__DeepGadget_dg5W_RTXPro6000_96GBx4_TRT.json",
+      "bytes": 2231,
+      "sha256": "840724f7e45793f9e3d1ef80542c1daf6a89a71d06ae191b817dac8b9e19b088"
+    },
+    {
+      "file": "mlperf_v6.1_systems/VibeHPC__B300-SXM-270GBx1_TRT.json",
+      "bytes": 2243,
+      "sha256": "e10e59d41e7b26cf6d0ec1f2495914632566d93d5eec566c486b5870eb60e1f8"
+    },
+    {
+      "file": "mlperf_v6.1_systems/VibeHPC__B300-SXM-270GBx8_TRT.json",
+      "bytes": 2031,
+      "sha256": "81674c1fd7fdbe941607f678a615b57604d3e9f092aea605bc71b367f155ef9c"
+    },
+    {
+      "file": "mlperf_v6.1_systems/Wiwynn__GB300-NVL72_GB300-288GB_aarch64x4_TRT.json",
+      "bytes": 2317,
+      "sha256": "ec9b490cec47e99514cce8cf3e16e51cbadc905a27221d5845ce1455863ff1b7"
+    },
+    {
+      "file": "mlperf_v6.1_tree.json",
+      "bytes": 14146317,
+      "sha256": "0a27f94f73902716de08f14fcfaba3af20c8a8640e243c017d9f548cdf1377c8"
+    },
+    {
+      "file": "oracle_oct27_cross_architecture.html",
+      "bytes": 38350,
+      "sha256": "cd2d91f91ddd3413b5c1789177cac0e185aad94c6b5c314b01490536780aa135",
+      "source_url": "https://www.oracle.com/news/announcement/blog/ai-world-building-the-next-decade-of-oracle-cloud-infrastructure-2026-10-27/"
+    },
+    {
+      "file": "oracle_oct27_cross_architecture.txt",
+      "bytes": 9511,
+      "sha256": "dcadd611584e9b2519d435f926e482fc77a88289422c1b857052c7c39ba9b5b2",
+      "source_url": "https://www.oracle.com/news/announcement/blog/ai-world-building-the-next-decade-of-oracle-cloud-infrastructure-2026-10-27/"
+    },
+    {
+      "file": "redis_harness_363a474.py",
+      "bytes": 6790,
+      "sha256": "b8e6c61f380b3f62f0f6db5f3072cd1c5288013dc5a8cbfd0ee3b73b801b95cd"
+    },
+    {
+      "file": "sambanova_apr8_blueprint.html",
+      "bytes": 134761,
+      "sha256": "428040a38824e6c54534fa8f27866078f7f2b8669fa01f3794bff0c3231f83b3"
+    },
+    {
+      "file": "sap_hana_graviton.html",
+      "bytes": 103938,
+      "sha256": "e24c8a7ba8dc996f190ff66201099e77508a4e1b5183eb9aa39645de504e8641"
+    },
+    {
+      "file": "sas_private_cloud.pdf",
+      "bytes": 554860,
+      "sha256": "fc6827ff1bec26718731c82de68d47196ca40f9b1ee7a75c0ec8ef1b1213d50f",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "sas_private_cloud.txt",
+      "bytes": 7624,
+      "sha256": "53367848bac60044bd7a3114d91c9799c356853b15c4f5bea2e87c72947ac405",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "sas_private_cloud_p1.png",
+      "bytes": 398342,
+      "sha256": "7f21acf74d6c741b4b193a9ab6aac0df74d0837d2e6ee1d4a7519965aa36797c",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "sas_private_cloud_p2.png",
+      "bytes": 479701,
+      "sha256": "9d2fae6432582cda1aa79801aef040580b1737931fe402cc3a84d3fc0bad16fb",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "sas_private_cloud_p3.png",
+      "bytes": 344690,
+      "sha256": "08725bc52653055217a50628c79767ddde4657ecac7194beaae108d2ddded240",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "sas_retrieval_xeon6.pdf",
+      "bytes": 3191126,
+      "sha256": "83218b49e59c2721d3955e317727ef0ddf31b3abf39d52b97a82a2b2bb75c13e",
+      "kind": "downloaded PDF"
+    },
+    {
+      "file": "sas_retrieval_xeon6.txt",
+      "bytes": 8337,
+      "sha256": "8120cab990158b62240a025c2544257703889b8919299b66c31c61ddf1c7761a",
+      "kind": "text extracted from adjacent PDF"
+    },
+    {
+      "file": "sas_retrieval_xeon6_p10.png",
+      "bytes": 114124,
+      "sha256": "0a5773c44b31d57a369c67d6d9f52e3f05b1e9534f2e01a0463ced2e1deb601c",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "sas_retrieval_xeon6_p20.png",
+      "bytes": 850105,
+      "sha256": "b46a02923a2111d17b16d27670854bfeadc75cafce9740c38b9c0cb01ace26de",
+      "kind": "rendered source page, not an independent source"
+    },
+    {
+      "file": "sc_openapi.json",
+      "bytes": 369061,
+      "sha256": "b8e2bc352c1bd452a4ac07c0387f89c9f45fae0028faceed394ffa025fae7457"
+    },
+    {
+      "file": "scikit_learn_oct22.html",
+      "bytes": 66220,
+      "sha256": "d317f7baaa197d2f7049fb55d25afa762579a7aead362b81ebe64cdbd6f38cfa"
+    },
+    {
+      "file": "second_download_manifest.json",
+      "bytes": 1355,
+      "sha256": "4fdaaf81ca35369353486d97d3e3ecb3cf58b3e2de570cb37857fca51454b7a7"
+    },
+    {
+      "file": "upside_source_downloads.json",
+      "bytes": 1033,
+      "sha256": "98b0a517f8e4ea9d0b9f1f461e12d269e1b3cfb3b22bda32b149209286fcdffd"
+    },
+    {
+      "file": "vmware_vsan_xeon6_hana_2026_05_12.html",
+      "bytes": 93317,
+      "sha256": "d6334870ff2bf2262cf63aea10f5818956d37fa04e9b2086456a0104fe7e1798",
+      "source_url": "https://blogs.vmware.com/cloud-foundation/2026/05/12/vsan-for-sap-on-vcf-9-1/"
+    },
+    {
+      "file": "vmware_vsan_xeon6_hana_2026_05_12.txt",
+      "bytes": 9896,
+      "sha256": "542300989b3adbe9e59758d698041e6f8fda181685f673423d738fe33ad7ed9e",
+      "source_url": "https://blogs.vmware.com/cloud-foundation/2026/05/12/vsan-for-sap-on-vcf-9-1/"
+    },
+    {
+      "file": "web_harness_6c183f7.py",
+      "bytes": 7298,
+      "sha256": "29629f304cb7f6932f7fb8bd929a8fdd01fd91e8179d4b5d891c9e0ed4db241c"
+    }
+  ],
+  "updated_utc": "2026-11-05T23:57:57.799022+00:00",
+  "archived_file_count": 309,
+  "count_warning": "Files include HTML/text duplicates; this is not a count of independent sources.",
+  "web_only_sources": "See incremental_upside_adjudication.json and final_primary_economic_context_audit.json for URLs, facts and access boundaries. Some issuer downloads returned403 while web extraction was readable.",
+  "file_count": 325
+}

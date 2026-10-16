@@ -1,0 +1,122 @@
+{
+  "selected_utc": "2026-11-04T10:56:42.126057+00:00",
+  "status": "One prospective analyst operating case selected before any equity valuation of this case. Not management guidance, a calibrated probability, or a full Intel model.",
+  "prior_information": "The earlier illustrative reverse-Gordon cash requirement was already known. This is not a blind exercise. Drivers were chosen from operating evidence and discussed with the manufacturing reviewer without calculating stock value.",
+  "source_files": {
+    "q3_10q.pdf": "b7d287cf335157f894cd4b91a07a75420b332ac257593586239b17576becf318",
+    "q3_remarks.pdf": "b019d10f31a896d23586350df12407ee32442094f544c3e6d92c753d30df2210"
+  },
+  "source_urls": {
+    "10Q": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "remarks": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+  },
+  "reporting_scope": {
+    "CCPG": "Exact reported segment total. Split into rounded disclosed client revenue and a residual Other CCPG proxy solely for revenue forecasting.",
+    "DCAI": "Exact reported segment total. Split into rounded disclosed Other DCAI revenue and a residual server CPU proxy. Other DCAI growth is attributed primarily to purpose-built silicon, but the entire bucket is not asserted to be pure custom silicon.",
+    "profit": "Only CCPG and DCAI operating profit are forecast, because server versus Other DCAI and client versus Other CCPG operating profits are not disclosed. No invented precise subsegment profit attribution.",
+    "rounding": "Disclosed subsegment revenues are rounded to0.1B. Subtracting them from exact segment totals creates allocation proxies, not newly disclosed precision."
+  },
+  "reported_anchors_USD_B": {
+    "YTD2026": {
+      "CCPG": 24.701,
+      "client_rounded": 21.3,
+      "DCAI": 18.632,
+      "Other_DCAI_rounded": 3.3,
+      "CCPG_operating_profit": 7.144,
+      "DCAI_operating_profit": 7.055
+    },
+    "Q3_2026": {
+      "CCPG": 8.097,
+      "client_rounded": 6.9,
+      "DCAI": 7.318,
+      "Other_DCAI_rounded": 1.4,
+      "CCPG_operating_profit": 2.285,
+      "DCAI_operating_profit": 3.039
+    }
+  },
+  "Q4_2026_bridge_judgments": {
+    "CCPG_sequential_revenue_growth": -0.25,
+    "Other_CCPG_revenue_equals_Q3_residual": true,
+    "DCAI_sequential_revenue_growth": 0.15,
+    "Other_DCAI_sequential_revenue_growth": 0.35,
+    "CCPG_operating_margin": 0.18,
+    "DCAI_operating_margin": 0.39,
+    "rationale": "Management guides CCPG down more than20% and DCAI up midteens sequentially. Choose25% and15%, respectively. Keep Other CCPG flat, making client the weak driver. Choose Other DCAI35% growth to reflect faster purpose-built silicon growth; server is the remaining revenue. The margin estimates are analyst assumptions, reflecting weaker client loading/inventory risk and lower-margin DCAI mix. They are not inferred precisely from consolidated gross-margin guidance.",
+    "no_force_fit": "Do not force these product estimates to reproduce consolidated15.5B revenue or38% non-GAAP gross margin. External foundry, Other, eliminations, corporate costs and reporting definitions remain separate."
+  },
+  "annual_driver_policy": [
+    {
+      "year": 2027,
+      "client_unit_growth": -0.12,
+      "client_ASP_growth": 0.03,
+      "Other_CCPG_revenue_growth": 0.05,
+      "server_unit_growth": 0.2,
+      "server_ASP_growth": 0.1,
+      "Other_DCAI_revenue_growth": 0.6,
+      "CCPG_operating_margin": 0.24,
+      "DCAI_operating_margin": 0.38
+    },
+    {
+      "year": 2028,
+      "client_unit_growth": 0.05,
+      "client_ASP_growth": 0.02,
+      "Other_CCPG_revenue_growth": 0.08,
+      "server_unit_growth": 0.2,
+      "server_ASP_growth": 0.05,
+      "Other_DCAI_revenue_growth": 0.4,
+      "CCPG_operating_margin": 0.26,
+      "DCAI_operating_margin": 0.38
+    },
+    {
+      "year": 2029,
+      "client_unit_growth": 0.05,
+      "client_ASP_growth": 0.02,
+      "Other_CCPG_revenue_growth": 0.08,
+      "server_unit_growth": 0.15,
+      "server_ASP_growth": 0.03,
+      "Other_DCAI_revenue_growth": 0.25,
+      "CCPG_operating_margin": 0.28,
+      "DCAI_operating_margin": 0.375
+    },
+    {
+      "year": 2030,
+      "client_unit_growth": 0.03,
+      "client_ASP_growth": 0.02,
+      "Other_CCPG_revenue_growth": 0.08,
+      "server_unit_growth": 0.1,
+      "server_ASP_growth": 0.02,
+      "Other_DCAI_revenue_growth": 0.2,
+      "CCPG_operating_margin": 0.3,
+      "DCAI_operating_margin": 0.37
+    }
+  ],
+  "causal_judgments": {
+    "client": "2027 unit decline12% is slightly worse than management forecast PC-market decline10%, allowing Intel competitive pressure.3% ASP growth assumes limited premium carryover, not repeated inflation-led9%/17% increases. Modest unit normalization begins2028; the selected sequence returns the2030 client unit index approximately to2026, rather than a PC-demand boom. Some recovery from a depressedQ4 exit is implicit and is a forecast, not observed demand.",
+    "Other_CCPG": "5% growth in2027 and8% thereafter allow modest expansion of the residual business, without assigning an unsupported large physical-AI opportunity or separate margins.",
+    "server": "Manufacturing reviewer independently proposes20% unit growth in2027/28, below management forecast of greater than30% industry growth while Intel substrates constrain output. H1_2027 remains constrained, H2 improves,2028 benefits more broadly. ASP10%/5% reflects richer, larger/core-dense packages and annual carryover, with higher component costs; it is not pure price or an extra uplift on top of a separately modeled node-mix benefit.2029/30 units15%/10% and ASP3%/2% deliberately decelerate as supply and competition improve.",
+    "Other_DCAI": "60%/40%/25%/20% growth continues a strong observed purpose-built trend, including carryover from theQ4 bridge, but decelerates. It roughly accords with management aspiration for purpose-built silicon to triple over the next few years without treating that aspiration as a precise forecast for the whole Other DCAI bucket. No separate new-GPU windfall is added.",
+    "CCPG_margin": "24% in2027 retains pressure from weak units, inventory and product costs;26/28/30% thereafter allows gradual end-customer inventory normalization and product-design/sales/R&D operating leverage.30% is around historical segment profitability rather than a new record. No separate reversal of the763M Q3 inventory charge is added.",
+    "DCAI_margin": "38/38/37.5/37% stays below the Q3_2026 peak of about41.5% and allows the rising lower-margin purpose-built mix, richer CPU component costs, competition and new-product spending to consume much of product operating leverage. The model does not hold Q3 profitability while compounding all DCAI revenue."
+  },
+  "accounting_and_double_count_guards": [
+    "Product costs include internal Foundry market-like transfer charges, external manufacturing and components, product development and allocated sales/general expenses.",
+    "Do not add a second direct18A/Intel3 wafer-cost saving to Products. Manufacturing yield and factory-cost improvement is credited in the separately owned Foundry bridge under the market-like internal transfer convention.",
+    "Product operating margins exclude corporate SBC, restructuring and specified acquisition costs, following segment disclosure. Root must charge corporate items once; cash conversion must treat recurring SBC consistently with future share claims.",
+    "DCAI and CCPG component revenues are not added again to segment totals. Foundry internal sales must be eliminated from consolidated revenue.",
+    "Depreciation is embedded in internal charges and cannot be precisely split to Products from public disclosures. Add consolidated D&A once in the cash bridge, not a guessed D&A for each product proxy.",
+    "No separate inventory reserve releases are added beyond the margin forecasts. Consolidated eliminations and actual working capital remain separate.",
+    "The annual operating cost is the residual revenue minus selected operating profit; this is an explicit segment-cost judgment, not a measured split between wafer cost, components, development and fixed costs."
+  ],
+  "decisive_downside_mechanism": "Premium CPU package value fails to offset slower accepted unit growth and increasing lower-margin custom silicon, while client weakness lasts and suppliers/factories are funded ahead of delivery. Products then generate less profit and Foundry receives less productive internal demand at the same time. That linked outcome would invalidate the case more directly than a generic absence of external14A customers.",
+  "falsifiable_checkpoints": [
+    "2027 filings should show server unit growth accelerating materially from Q3_2026 10%, while product profit remains healthy after richer package costs; if revenue growth remains mostly ASP at flat output, the selected volume path is wrong.",
+    "As Other DCAI revenue expands, check aggregate DCAI operating margin against the selected high30s path. Faster custom growth is not automatically upside if its contribution is weaker.",
+    "Client revenue can remain down in2027, but ongoing new inventory charges and no stabilization in end-market ordering would undermine the assumed2028-2030 margin recovery.",
+    "Track working capital, supplier payments and capital installation separately from sales. Higher commitments without shipments/cash do not validate the operating forecast."
+  ],
+  "review_before_freeze": {
+    "hardware_research_resume": "Agreed20%/20% server units and10%/5% ASP for2027/28; found2029/30 deceleration coherent. Manufacturing improvement to be credited once in Foundry.",
+    "root": "Assigned Foundry/corporate/cash ownership separately; flagged adverse purpose-built silicon gross-margin mix, incorporated above."
+  },
+  "no_equity_calculation": true
+}

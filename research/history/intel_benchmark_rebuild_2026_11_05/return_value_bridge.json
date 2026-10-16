@@ -1,0 +1,298 @@
+{
+  "computed_utc": "2026-11-05T22:08:37.184555+00:00",
+  "scope": "Read-only independent reconstruction and presentation diagnostics; selected model and recommendation unchanged.",
+  "source_files": {
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "rates": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "weak": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/weak_demand_results.json",
+      "sha256": "e7a3115ac8e08b07ac9a7a7b076bcc9b7ede34656341a96b8093cc18b4e0cf6a"
+    },
+    "old_bridge": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/operating_value_bridge.json",
+      "sha256": "a8f5e5b3d13e1fc4a5febf77b59b5773c54662a1a700fb594bb7837e1c04b50c"
+    },
+    "joint": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/joint_downside_results.json",
+      "sha256": "3a5ae36a6f522906894fb9a0e15bf68a703c3b16bee7a7fe4f21dc121f5cb945"
+    }
+  },
+  "dates": {
+    "entry_date": "2026-11-05",
+    "planning_value_date": "2026-12-31",
+    "target_date": "2030-12-31",
+    "holding_years": 4.153319644079398,
+    "planning_date_mismatch_days": 56
+  },
+  "fixed_assumptions": {
+    "entry_USD": 52.22,
+    "mature_capital_productivity": 0.8,
+    "flat_operating_discount_rate": 0.11555,
+    "terminal_operating_growth": 0.03,
+    "planning_shares_B": 5.51,
+    "no_interim_dividends": true
+  },
+  "by_endpoint": {
+    "2026": {
+      "values": {
+        "base_demand_margin35": {
+          "price_USD": 46.95806228358315,
+          "explicit_operating_PV_B": 138.02878680013643,
+          "terminal_operating_PV_B": 111.43964552540922,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "net_financial_claims_and_tax_benefits_B": 9.270490856997489,
+          "equity_B": 258.73892318254315,
+          "terminal_share_of_operating_value": 0.4467084050938567,
+          "terminal_share_of_equity_value": 0.43070305833648126,
+          "terminal_value_per_share_USD": 20.22498103909423
+        },
+        "base_demand_margin40": {
+          "price_USD": 51.287102511241436,
+          "explicit_operating_PV_B": 146.67851350444613,
+          "terminal_operating_PV_B": 126.6429304754967,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "net_financial_claims_and_tax_benefits_B": 9.270490856997489,
+          "equity_B": 282.5919348369403,
+          "terminal_share_of_operating_value": 0.4633479489622122,
+          "terminal_share_of_equity_value": 0.44814771712636287,
+          "terminal_value_per_share_USD": 22.984197908438603
+        },
+        "lower_demand_margin35": {
+          "price_USD": 35.826154955303544,
+          "explicit_operating_PV_B": 99.89094244914038,
+          "terminal_operating_PV_B": 88.24068049758465,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "net_financial_claims_and_tax_benefits_B": 9.270490856997489,
+          "equity_B": 197.40211380372253,
+          "terminal_share_of_operating_value": 0.46903693868931634,
+          "terminal_share_of_equity_value": 0.4470098055045277,
+          "terminal_value_per_share_USD": 16.014642558545308
+        },
+        "lower_demand_margin40": {
+          "price_USD": 39.07346602199764,
+          "explicit_operating_PV_B": 106.375980131084,
+          "terminal_operating_PV_B": 99.64832679312549,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "net_financial_claims_and_tax_benefits_B": 9.270490856997489,
+          "equity_B": 215.294797781207,
+          "terminal_share_of_operating_value": 0.4836726708649154,
+          "terminal_share_of_equity_value": 0.4628459573574692,
+          "terminal_value_per_share_USD": 18.084995788226042
+        },
+        "lower_demand_margin30": {
+          "price_USD": 32.57884388860946,
+          "explicit_operating_PV_B": 93.40590476719677,
+          "terminal_operating_PV_B": 76.83303420204383,
+          "financing_tax_benefit_PV_B": 2.58895408799514,
+          "net_financial_claims_and_tax_benefits_B": 9.270490856997489,
+          "equity_B": 179.50942982623812,
+          "terminal_share_of_operating_value": 0.4513246773461523,
+          "terminal_share_of_equity_value": 0.4280167023894891,
+          "terminal_value_per_share_USD": 13.94428932886458
+        }
+      },
+      "margin35_to40_contribution": {
+        "per_share_USD": 4.3290402276582824,
+        "equity_B": 23.853011654397164,
+        "explicit_cash_PV_B": 8.6497267043097,
+        "post2040_PV_B": 15.203284950087479,
+        "share_of_selected_equity_value": 0.08440797034126496,
+        "per_mature_margin_percentage_point_USD": 0.8658080455316565,
+        "2027_2030_cash_change_B": 0
+      }
+    },
+    "2030": {
+      "values": {
+        "base_demand_margin35": {
+          "price_USD": 70.97777530967524,
+          "explicit_operating_PV_B": 181.3578639078155,
+          "terminal_operating_PV_B": 172.5821536170763,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "net_financial_claims_and_tax_benefits_B": 37.14752443141875,
+          "equity_B": 391.08754195631053,
+          "terminal_share_of_operating_value": 0.48760282836607755,
+          "terminal_share_of_equity_value": 0.4412877811289523,
+          "terminal_value_per_share_USD": 31.321624975875917
+        },
+        "base_demand_margin40": {
+          "price_USD": 77.6819879986314,
+          "explicit_operating_PV_B": 194.75335216328136,
+          "terminal_operating_PV_B": 196.1268772777589,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "net_financial_claims_and_tax_benefits_B": 37.14752443141875,
+          "equity_B": 428.02775387245896,
+          "terminal_share_of_operating_value": 0.5017569641683358,
+          "terminal_share_of_equity_value": 0.4582106545740479,
+          "terminal_value_per_share_USD": 35.59471456946623
+        },
+        "lower_demand_margin35": {
+          "price_USD": 54.01653275663778,
+          "explicit_operating_PV_B": 136.53488562659655,
+          "terminal_operating_PV_B": 136.6548377384888,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "net_financial_claims_and_tax_benefits_B": 24.441372123988813,
+          "equity_B": 297.63109548907414,
+          "terminal_share_of_operating_value": 0.5002195399417202,
+          "terminal_share_of_equity_value": 0.459141668359398,
+          "terminal_value_per_share_USD": 24.80124096887274
+        },
+        "lower_demand_margin40": {
+          "price_USD": 59.04551445083071,
+          "explicit_operating_PV_B": 146.5780059556408,
+          "terminal_operating_PV_B": 154.32140654444757,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "net_financial_claims_and_tax_benefits_B": 24.441372123988813,
+          "equity_B": 325.3407846240772,
+          "terminal_share_of_operating_value": 0.5128670915713478,
+          "terminal_share_of_equity_value": 0.4743377216685635,
+          "terminal_value_per_share_USD": 28.007514799355278
+        },
+        "lower_demand_margin30": {
+          "price_USD": 48.98755106244485,
+          "explicit_operating_PV_B": 126.49176529755229,
+          "terminal_operating_PV_B": 118.98826893253002,
+          "financing_tax_benefit_PV_B": 2.748413786579589,
+          "net_financial_claims_and_tax_benefits_B": 24.441372123988813,
+          "equity_B": 269.9214063540711,
+          "terminal_share_of_operating_value": 0.48471668706468113,
+          "terminal_share_of_equity_value": 0.4408256112019749,
+          "terminal_value_per_share_USD": 21.594967138390203
+        }
+      },
+      "margin35_to40_contribution": {
+        "per_share_USD": 6.7042126889561615,
+        "equity_B": 36.94021191614843,
+        "explicit_cash_PV_B": 13.395488255465864,
+        "post2040_PV_B": 23.544723660682592,
+        "share_of_selected_equity_value": 0.08630330996516562,
+        "per_mature_margin_percentage_point_USD": 1.3408425377912323,
+        "2027_2030_cash_change_B": 0
+      }
+    }
+  },
+  "paired_scenarios": [
+    {
+      "label": "Joint downside",
+      "December2026_planning_value_USD": 30.450105842961268,
+      "December2030_target_USD": 45.6908589860078,
+      "planning_value_change_from_reference": -0.4168880535625954,
+      "total_price_change_to2030": -0.12503142500942555,
+      "annual_price_change_to2030": -0.03164756169553906
+    },
+    {
+      "label": "Lower CPU demand; retain 40% mature margin and 0.80 capital productivity",
+      "December2026_planning_value_USD": 39.07346602199764,
+      "December2030_target_USD": 59.04551445083071,
+      "planning_value_change_from_reference": -0.2517528528916576,
+      "total_price_change_to2030": 0.13070690254367512,
+      "annual_price_change_to2030": 0.030018813175364478
+    },
+    {
+      "label": "Competitive margin erosion: 35%, base sales and investment",
+      "December2026_planning_value_USD": 46.95806228358315,
+      "December2030_target_USD": 70.97777530967524,
+      "planning_value_change_from_reference": -0.10076479732701737,
+      "total_price_change_to2030": 0.35920672749282345,
+      "annual_price_change_to2030": 0.07669159138792825
+    },
+    {
+      "label": "Base LONG: 40%, base sales and investment",
+      "December2026_planning_value_USD": 51.287102511241436,
+      "December2030_target_USD": 77.6819879986314,
+      "planning_value_change_from_reference": -0.017864754667915816,
+      "total_price_change_to2030": 0.487590731494282,
+      "annual_price_change_to2030": 0.10034547227789337
+    },
+    {
+      "label": "Lower-risk upside: same operations as base",
+      "December2026_planning_value_USD": 59.005978893709745,
+      "December2030_target_USD": 89.63590532589556,
+      "planning_value_change_from_reference": 0.12994980646705767,
+      "total_price_change_to2030": 0.7165052724223586,
+      "annual_price_change_to2030": 0.1389267837121122
+    }
+  ],
+  "conditional_reverse_margin": {
+    "mature_DCAI_margin_matching_reference": 0.4107748766435372,
+    "all_other_parameters": "Base sales and investment,0.80 productivity,flat11.555% operating rate",
+    "interpretation": "One-variable conditional diagnostic, not a uniquely identified market forecast. Matches a December31,2026 planning value to a November5 quote, with56day mismatch. Not adopted as a forecast."
+  },
+  "entry_price_matrix": [
+    {
+      "annual_price_return_required": 0.08,
+      "maximum_entry_USD": 56.428796916786546,
+      "change_from_reference_entry": 0.08059741319009084
+    },
+    {
+      "annual_price_return_required": 0.1,
+      "maximum_entry_USD": 52.288150302668896,
+      "change_from_reference_entry": 0.0013050613303120517
+    },
+    {
+      "annual_price_return_required": 0.12,
+      "maximum_entry_USD": 48.517917411608245,
+      "change_from_reference_entry": -0.07089395994622283
+    },
+    {
+      "annual_price_return_required": 0.15,
+      "maximum_entry_USD": 43.473319063327445,
+      "change_from_reference_entry": -0.16749676247936718
+    }
+  ],
+  "entry_matrix_interpretation": "Illustrative investor-chosen annual price-return requirements, not M37 rules, inferred market hurdles or justified cost-of-equity estimates. All use exactly the same conditional2030target. Lower price does not improve fundamentals; costs,taxes,dividends and scenario probabilities excluded.",
+  "ordered_2030_downside_bridge": [
+    {
+      "label": "Base sales; 40% mature margin; 0.80 capital productivity",
+      "price_USD": 77.6819879986314,
+      "step_change_USD": 0.0,
+      "price_CAGR": 0.10034547227789337
+    },
+    {
+      "label": "Lower CPU demand with modeled cost/capital responses; keep 40% and 0.80",
+      "price_USD": 59.04551445083071,
+      "step_change_USD": -18.63647354780069,
+      "price_CAGR": 0.030018813175364478
+    },
+    {
+      "label": "Also reduce mature margin from 40% to 30%; keep 0.80",
+      "price_USD": 48.98755106244485,
+      "step_change_USD": -10.057963388385858,
+      "price_CAGR": -0.015267382260516826
+    },
+    {
+      "label": "Also reduce mature capital productivity to 0.60: existing joint downside",
+      "price_USD": 45.6908589860078,
+      "step_change_USD": -3.296692076437054,
+      "price_CAGR": -0.03164756169553906
+    }
+  ],
+  "downside_bridge_interpretation": "Order-dependent attribution: CPU weakness reduces the revenue base on which margin changes act. Lower-demand case includes specified cost,capital,working-capital and tax responses, so it is not a pure demand coefficient. All risk rates remain flat; scenarios are not floors or probability bounds.",
+  "suggested_use": {
+    "margin_slide": "Preserving40% rather than35% adds4.33 per share to December2026 value and6.70 to December2030 target. It does not change cash through2030. This quantifies the belief instead of treating latest-quarter margins as proof.",
+    "price_slide": "The current entry roughly clears a chosen10% annual hurdle; it does not clear12% or15%. Show the choice rather than claim a valuation discount.",
+    "risk_slide": "The largest stress contribution is weaker CPU demand with cost/capital responses, not the mature-margin choice. Preserve a separate near-term stress value to avoid implying endpoint downside bounds drawdowns."
+  },
+  "limits": [
+    "A future target above the entry can reflect normal discount-rate roll-forward and accumulated cash; it is not by itself evidence of mispricing.",
+    "Operating cash after2040 contributes44.8%of selectedDecember2026equity value and45.8%of selectedDecember2030equity value. Long-run margin and investment assumptions remain consequential.",
+    "All40-versus35cash differences begin2031 and phase through2040. This is continuation-value sensitivity, not evidence of2027profit or a dated stock-price catalyst.",
+    "A coherent LONGatfairvalue is a moderate-return investment choice, but this analysis does not establish that10% sufficiently compensates for Intel-specific risks or beats alternatives.",
+    "Do not subtract11.555% operating-asset discount rate from10% shareholder price CAGR to infer alpha.",
+    "Changing the chosen required return is a judgment and must not be represented as research evidence or a way to tune valuation into the recommendation."
+  ],
+  "verification": {
+    "independent_comparisons": 109,
+    "maximum_absolute_error": 5.684341886080802e-14,
+    "all_source_files_unchanged": true
+  }
+}

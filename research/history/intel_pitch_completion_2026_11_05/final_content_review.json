@@ -1,0 +1,101 @@
+{
+  "reviewed_utc": "2026-11-05T07:54:34.572523+00:00",
+  "verdict": "PASS — no outstanding semantic correction identified in the specified final PDFs.",
+  "scope": "Read-only semantic review against the previously verified research and calculations. PDF hashes and text-extraction identity were checked. Visual layout and fresh external-fact verification remain outside this review.",
+  "artifacts": {
+    "main": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "d11462d41b631287a0e5bef71cd37e144601d99c9e23c2b7f42487cf63eb2809",
+      "matches_requested_sha256": true,
+      "pages": 10,
+      "stored_extraction_matches_PDF": true,
+      "relevant_links": [
+        {
+          "page": 9,
+          "url": "https://www.interactivebrokers.com/en/accounts/fees/pricing-interest-rates.php"
+        },
+        {
+          "page": 10,
+          "url": "https://www.m37.com/spc2026"
+        }
+      ]
+    },
+    "preparation": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_defense_notes.pdf",
+      "sha256": "bd4c827be7dcac8628bb207b243b11f029be2258f34094ffb7b51899b252a14f",
+      "matches_requested_sha256": true,
+      "pages": 2,
+      "stored_extraction_matches_PDF": true,
+      "relevant_links": [
+        {
+          "page": 2,
+          "url": "https://www.m37.com/spc2026"
+        },
+        {
+          "page": 2,
+          "url": "https://www.m37.com/spc2026"
+        }
+      ]
+    }
+  },
+  "outstanding_findings": [],
+  "resolved_finding": {
+    "page": 8,
+    "issue": "The earlier statement that market repricing was not assumed conflicted with the terminal convergence assumption used in portfolio returns.",
+    "resolution": "The final wording disclaims a scheduled catalyst while page 9 explicitly retains the modeled year-end pricing assumption."
+  },
+  "checks": [
+    {
+      "item": "Recommendation and holding period",
+      "status": "PASS",
+      "evidence": "The cover labels $70.98 as central December 2030 value and $58.28 as the November 4 reference. It expressly states the standalone short loses before carry. The 6.43% return belongs to the whole illustrated portfolio; the alternative-method 4.91% CAGR is prominent."
+    },
+    {
+      "item": "Conditional valuation threshold",
+      "status": "PASS",
+      "evidence": "Page 7 retains the December 2026 planning date, 0.80 productivity condition, 39.3% margin threshold, maturing-risk path, 48.1% flat-rate threshold and 57-day date mismatch. The 35% and 0.80 endpoints are identified as judgments."
+    },
+    {
+      "item": "Operating decomposition",
+      "status": "PASS",
+      "evidence": "The eight table values match the independent audit. Risk, margin and capital changes add $6.81, $5.24 and $1.90 respectively under their specified comparisons. Margin and capital changes phase in after 2030."
+    },
+    {
+      "item": "Evidence connected to forecast updates",
+      "status": "PASS",
+      "evidence": "Page 8 identifies sustained margins, matched output with lower required investment, and repeat customer-economic wins. It distinguishes financing or deferred spending from efficiency and does not infer market share from one customer."
+    },
+    {
+      "item": "Oracle billing scope",
+      "status": "PASS",
+      "evidence": "Page 6 now focuses on memory omitted from quoted hourly costs. At-5x and At-6x scenarios preserve the distinction between assumed performance and measured results. The note retains separate vendor up-to cases and quality/latency conditions. The AMD break-even is a separate defined basket with no measured workload claim."
+    },
+    {
+      "item": "Portfolio implementation and comparators",
+      "status": "PASS",
+      "evidence": "Page 9 specifies $263 total own capital, initial beta matching only, the index hurdle through 2030, the selected index return, fees, net proceeds yield, own-cash yield and transaction costs. The no-short comparator retains greater initial market exposure. The alternative 4.91% result is compared with the 4.94% hurdle."
+    },
+    {
+      "item": "Convergence versus catalyst",
+      "status": "PASS after correction",
+      "evidence": "Page 8 now says no exact future reporting date or scheduled repricing catalyst is asserted. Page 9 and the preparation notes separately disclose that calculated returns assume Intel trades at modeled year-end values. The earlier contradiction is removed."
+    },
+    {
+      "item": "APV units and date",
+      "status": "PASS",
+      "evidence": "Page 10 now labels the equity bridge as December 2026 present values in billions. It reconciles $258.74 billion divided by 5.51 billion claims to $46.96 per share, distinguishes asset and equity beta, and states the different operating and financing-benefit terminal growth assumptions."
+    },
+    {
+      "item": "Preparation fidelity",
+      "status": "PASS",
+      "evidence": "The notes retain the relative-short qualification, $70.98 versus $58.28, alternative 4.91%, conditional 39.31%, operating bridge, billing limits, no completed interviews or workloads, convergence assumption, and unverified borrow/collateral. The 2025 ASP decline is treated as evidence of risk rather than a margin estimate."
+    },
+    {
+      "item": "Submission separation and links",
+      "status": "PASS within supplied evidence",
+      "evidence": "The main document has 10 pages; preparation has 2 and is explicitly outside the screen. The official M37 rules link and IBKR cash-interest link are present in PDF annotations. This semantic review did not independently fetch current submission rules or reverify market facts."
+    }
+  ],
+  "remaining_investment_limit": "Presentation consistency does not establish investment merit. The final materials appropriately describe a modest conditional relative-short case; the alternative equity-premium method and plausible higher-margin/lower-risk case continue to limit conviction.",
+  "changes_made": "Only this review JSON was written. PDFs, generators, models and outreach were not edited."
+}

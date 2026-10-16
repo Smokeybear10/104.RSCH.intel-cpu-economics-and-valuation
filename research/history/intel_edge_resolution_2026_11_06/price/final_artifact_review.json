@@ -1,0 +1,310 @@
+{
+  "completed_utc": "2026-11-06T06:22:08.319487+00:00",
+  "scope": "Independent full-text review of all18pages using bundled Python pypdf. Price-derived displays checked against exact52.25overlay and early-growth scenario. Current-consensus scope and LTA duration reviewed against delivery and retained-profit receipts. No PDF/model/builder edits; visual QA is root-owned.",
+  "verdict": "PASS: no actionable numerical, price-date, market-belief or contractual-duration misstatement found in the reviewed versions.",
+  "artifact_hashes": {
+    "screen": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "cfdcee9280c33127147537434c8084598443bd43c1bc2ae3dd97afecaab7621c",
+      "pages": 10
+    },
+    "defense": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "75ee940d190ecb0f8785cf6c29370c49338e0dd30c7e938cd3e0cfd4e2ce68e6",
+      "pages": 5
+    },
+    "comparison": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "198616f61d56a3eb1b845a8e123c4664ea6fe3aac4197aa729c90334d69129dc",
+      "pages": 3
+    }
+  },
+  "price_display_checks": [
+    {
+      "document": "screen",
+      "page": 1,
+      "display": "$52.25",
+      "passed": true,
+      "basis": "Schwab regular close and current Stock Analysis history agree."
+    },
+    {
+      "document": "screen",
+      "page": 1,
+      "display": "$77.46",
+      "passed": true,
+      "basis": "Unchanged $77.46147983166225 December2030 value."
+    },
+    {
+      "document": "screen",
+      "page": 1,
+      "display": "+48.3%",
+      "passed": true,
+      "basis": "77.46147983166225/52.25-1=48.2516360415%; rounds to48.3%."
+    },
+    {
+      "document": "screen",
+      "page": 1,
+      "display": "9.9%",
+      "passed": true,
+      "basis": "Annual price return9.9440582669%; rounds to9.9% at one decimal."
+    },
+    {
+      "document": "screen",
+      "page": 1,
+      "display": "4.15 years",
+      "passed": true,
+      "basis": "Holding period4.153319644079398 years, Nov5,2026 to Dec31,2030."
+    },
+    {
+      "document": "screen",
+      "page": 7,
+      "display": "9.94%",
+      "passed": true,
+      "basis": "Same exact CAGR rounded to two decimals."
+    },
+    {
+      "document": "screen",
+      "page": 7,
+      "display": "41.4%",
+      "passed": true,
+      "basis": "Conditional base-growth mature margin41.3668221979%."
+    },
+    {
+      "document": "screen",
+      "page": 7,
+      "display": "48.8%",
+      "passed": true,
+      "basis": "Conditional3%post2030CPUgrowth mature margin48.8126881899%."
+    },
+    {
+      "document": "screen",
+      "page": 7,
+      "display": "10% $52.14",
+      "passed": true,
+      "basis": "Entry ceiling depends on unchanged future target and selected return hurdle; purchase-price refresh does not change it."
+    },
+    {
+      "document": "screen",
+      "page": 7,
+      "display": "12% $48.38",
+      "passed": true,
+      "basis": "Entry ceiling depends on unchanged future target and selected return hurdle; purchase-price refresh does not change it."
+    },
+    {
+      "document": "screen",
+      "page": 7,
+      "display": "15% $43.35",
+      "passed": true,
+      "basis": "Entry ceiling depends on unchanged future target and selected return hurdle; purchase-price refresh does not change it."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "$51.07 $77.46 +9.9%",
+      "passed": true,
+      "basis": "Exact overlay scenario base."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "$49.70 $75.76 +9.4%",
+      "passed": true,
+      "basis": "Exact overlay scenario foundry_recovery_delayed_one_year."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "$45.00 $68.14 +6.6%",
+      "passed": true,
+      "basis": "Exact overlay scenario profit_retention_erosion_from_2028."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "$43.65 $66.13 +5.8%",
+      "passed": true,
+      "basis": "Exact overlay scenario early_CPU_growth_10."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "$46.01 $69.63 +7.2%",
+      "passed": true,
+      "basis": "Exact overlay scenario CPU_growth_normalizes_2031."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "$38.85 $58.83 +2.9%",
+      "passed": true,
+      "basis": "Exact overlay scenario persistent_lower_CPU_demand."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "$30.23 $45.47 -3.3%",
+      "passed": true,
+      "basis": "Exact overlay scenario joint_downside."
+    },
+    {
+      "document": "defense",
+      "page": 4,
+      "display": "$51.07 $77.46 9.9%",
+      "passed": true,
+      "basis": "Exact overlay scenario base."
+    },
+    {
+      "document": "defense",
+      "page": 4,
+      "display": "$45.00 $68.14 6.6%",
+      "passed": true,
+      "basis": "Exact overlay scenario profit_retention_erosion_from_2028."
+    },
+    {
+      "document": "defense",
+      "page": 4,
+      "display": "$43.65 $66.13 5.8%",
+      "passed": true,
+      "basis": "Exact overlay scenario early_CPU_growth_10."
+    },
+    {
+      "document": "defense",
+      "page": 4,
+      "display": "$38.85 $58.83 2.9%",
+      "passed": true,
+      "basis": "Exact overlay scenario persistent_lower_CPU_demand."
+    },
+    {
+      "document": "defense",
+      "page": 4,
+      "display": "$30.23 $45.47 -3.3%",
+      "passed": true,
+      "basis": "Exact overlay scenario joint_downside."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "about 42% below entry",
+      "passed": true,
+      "basis": "Joint planning value30.22959767599212/52.25-1=-42.14431066796%; round42%."
+    },
+    {
+      "document": "screen",
+      "page": 8,
+      "display": "$1.70",
+      "passed": true,
+      "basis": "Base target77.46147983166225 minus Foundry-delay75.76456513111778=1.69691470054."
+    },
+    {
+      "document": "defense",
+      "page": 2,
+      "display": "$77.26",
+      "passed": true,
+      "basis": "Temporary2027shortfall target77.25916718193447."
+    },
+    {
+      "document": "defense",
+      "page": 4,
+      "display": "$70.76",
+      "passed": true,
+      "basis": "Mature-only35%target70.75726714270608."
+    },
+    {
+      "document": "defense",
+      "page": 4,
+      "display": "about $0.16",
+      "passed": true,
+      "basis": "Embeddedpackagingfunding target impact0.159107133197; unchanged by referenceprice."
+    },
+    {
+      "document": "defense",
+      "page": 1,
+      "display": "9.9% figure",
+      "passed": true,
+      "basis": "Refreshed exact annual return displayed consistently."
+    },
+    {
+      "document": "screen",
+      "page": 1,
+      "display": "56 days",
+      "passed": true,
+      "basis": "December31 minus November5 is56days; correct separation of quote and planningdates."
+    },
+    {
+      "document": "screen",
+      "page": 7,
+      "display": "56 days",
+      "passed": true,
+      "basis": "December31 minus November5 is56days; correct separation of quote and planningdates."
+    },
+    {
+      "document": "defense",
+      "page": 1,
+      "display": "56 days",
+      "passed": true,
+      "basis": "December31 minus November5 is56days; correct separation of quote and planningdates."
+    },
+    {
+      "document": "screen",
+      "page": 3,
+      "display": "$0.94B",
+      "passed": true,
+      "basis": "69.27-68.3326878=0.9373122B; residual only, not a matched revenuebeat."
+    },
+    {
+      "document": "defense",
+      "page": 1,
+      "display": "$0.94B",
+      "passed": true,
+      "basis": "69.27-68.3326878=0.9373122B; residual only, not a matched revenuebeat."
+    },
+    {
+      "document": "comparison",
+      "page": 1,
+      "display": "$0.94B",
+      "passed": true,
+      "basis": "69.27-68.3326878=0.9373122B; residual only, not a matched revenuebeat."
+    },
+    {
+      "document": "comparison",
+      "page": 3,
+      "display": "$0.94B",
+      "passed": true,
+      "basis": "69.27-68.3326878=0.9373122B; residual only, not a matched revenuebeat."
+    }
+  ],
+  "check_count": 36,
+  "check_failures": 0,
+  "stale_reference_hits": [],
+  "all_price_derived_displays_adjudication": [
+    "Screen1:52.25entry/77.46target/+48.3%total/9.9%annual/4.15years all correct. About10%prose is legitimate whole-percent approximation of9.944%, not an unchanged10.0%display.",
+    "Screen7:51.07and77.46APVs,52.14/48.38/43.35entryceilings,41.4%/48.8%reverse margins,9.94%preciseCAGR and56-day planning gap all correct.",
+    "Screen8:all seven scenario price/return rows match exact52.25entry calculation; earlyCPU10%case checked separately at5.8345%approximately, rounding5.8%. Joint planning decline rounds42%.",
+    "Defense1/4:currententry and base9.9%correct; all five scenario rows correct. Defense2temporarytarget77.26 and mature-only35%target70.76 remain price-independent.",
+    "Comparison1/3:52.25references and unchanged51.07/77.46values correct. Whole-percent10%prose is rounding;12%/15%entrythresholds correct and conditional. No analystfairvalue imported as own target."
+  ],
+  "market_and_accounting_scope": {
+    "screen_page3": "PASS:69.27S&P total-sales estimate and68.33owned Products leave0.94B. Explicitly identifies optimism check, not matched sales beat or segmentconsensus.",
+    "defense_page1": "PASS:2.80BAllOther described as segmentproxy before revenueeliminations; omittedlegacyexternalFoundry disclosed. Does not claim unconditional lower-bound beat.",
+    "comparison_pages1_3": "PASS:disagreement is framed as ownedoptimism/remainingheadroom. Thetext does not say consensus specifically missesCPUgrowth or treats survey as price-impliedforecast.",
+    "valuation_boundaries": "PASS:futuretarget andplanningvalue distinguished; reverse margin solutions conditional/not uniquemarketexpectations; no probabilityweights or importedanalysttargets."
+  },
+  "agreement_and_output_scope": {
+    "screen_pages1_4": "PASS:Ireland>2xtarget explicitly AugustCFOplan, different denominator from acceptedCPUs; outputdefinition/mix/customerconversion limitations stated. No multiplication ofwafer andsubstrategrowth.",
+    "screen_page5": "PASS:Google signing attributed originalQ1remarks;3-5yearterms attributed publishedtranscripts; exactstarts andcoverageunknown;2026start/2029-31expiry conditional. Contracts explicitly do not prove40%margins2031-40.",
+    "defense_page3": "PASS:minimums/cancellation/costprotection unspecified;Oracleprospective roadmap not turned into signedpricingcontract; no extra pricebenefit added.",
+    "comparison_page3": "PASS:limitedterm visibility is distinct from maturemarginpersistence."
+  },
+  "recommendation_support": {
+    "status": "Conditional moderate LONG remains coherent and candid, without a demonstrated superior risk-adjusted price advantage.",
+    "basis": "The revised PDFs preserve the original numerical economics, admit near-fair entry, maintain funded uncertainty and require actualdelivery/renewalevidence. Newresearch supports existing near-term forecast mechanisms; it does not purport to close the long-duration price gap. No forcedSHORT or inflatedtarget."
+  },
+  "findings": [],
+  "nonblocking_qualification": "This review validates displayed arithmetic and evidence boundaries, not the40%maturemargin,0.8capitalproductivity or recoveryforecast itself. Underlying economics remain assumptions exactly as the PDFs disclose.",
+  "references": [
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_edge_resolution_2026_11_06/price/price_refresh_52_25_overlay.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_edge_resolution_2026_11_06/delivery/consensus_residual_independent_audit.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_edge_resolution_2026_11_06/retained_profit/retained_profit_findings.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/early_growth_deceleration_results.json"
+  ]
+}

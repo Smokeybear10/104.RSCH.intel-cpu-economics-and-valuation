@@ -1,0 +1,350 @@
+{
+  "as_of": "2026-11-05",
+  "question": "When Intel is supply constrained, will customers wait, return later, or adopt alternatives? What supports DCAI margin durability after capacity relief?",
+  "conclusion": {
+    "answer": "Public customer evidence supports a segmented outcome. Certification, live-migration restrictions, large-memory requirements, specialized instructions and costly operational changes can retain some Intel workloads. Cloud-native buyers have demonstrated large migrations and built infrastructure that makes subsequent architecture changes easier. Shortages can therefore finance durable rival adoption, while multiarchitecture deployment also leaves a route back to x86. Neither permanent customer loss nor automatic return is established.",
+    "largest_model_gap": "Recurring demand for compute is not the same as recurring Intel sockets, and Intel sockets are not the same as a 40% DCAI operating margin. None of the customer sources reviewed discloses enough Intel CPU volume, negotiated price, unit manufacturing cost or segment mix to underwrite that long-run margin.",
+    "confidence_scope": "High confidence in the described technical and procurement mechanisms; no quantified population-wide switching rate, win probability, or 2027 customer wait-time prediction.",
+    "most_decisive_followup": "Observe repeat paid Xeon deployments and stable mix-adjusted economics after alternate capacity is available. A launch, partnership or compatibility claim alone does not answer the duration question."
+  },
+  "method": {
+    "selection": "Purposive mechanism sample, not a statistical sample of Intel customers. Prioritized named production workloads and buyer engineering accounts; included counterexamples to both universal stickiness and universal interchangeability.",
+    "limits": [
+      "Vendor case studies are selected success stories. Buyer engineering accounts still select successful projects and do not report the full procurement alternatives.",
+      "Historical migration results do not directly predict behavior during a prospective 2027 shortage.",
+      "Current dynamic documentation was checked on the as-of date; it can change.",
+      "No interviews, private orders, confidential pricing or new outreach were used.",
+      "Cloud price/performance and end-user savings do not identify CPU manufacturer profit."
+    ]
+  },
+  "cases": [
+    {
+      "id": "datadog_aws_arm",
+      "source": {
+        "url": "https://www.datadoghq.com/blog/arm-migration-aws/",
+        "date": "2024-12-02",
+        "type": "Buyer engineering account",
+        "authors": [
+          "Matthieu Jaillais",
+          "Aaron Kaplan"
+        ],
+        "locators": [
+          "The migration pipeline",
+          "Verifying instance availability and deploying to production",
+          "Pinpointing our savings",
+          "Within Arm’s reach"
+        ]
+      },
+      "observations": [
+        "By year-end 2023, roughly 2,000 services representing 70% of AWS workloads had migrated to Arm; Datadog reports a 10% AWS bill reduction.",
+        "Teams built dual-architecture images and validated dependencies, performance and capacity. Some services were excluded for degraded performance or missing specialized instance shapes.",
+        "Graviton3 scarcity required x86 fallback. Some migrations spanned multiple quarters."
+      ],
+      "status": "Actual production migration; not merely availability or recommendation.",
+      "inference": "Initial porting is costly, but its output is a reusable option to allocate across architectures. Capacity scarcity can trigger substitution. A later return to x86 remains technically possible, though Intel must earn it economically.",
+      "limits": [
+        "AWS workloads are not all Datadog infrastructure.",
+        "The source does not identify the x86 fallback vendor, so this is not proof of Intel retention.",
+        "Cloud bill savings are not CPU chip-cost savings."
+      ],
+      "model_use": "Support a contestable workload bucket and distinguish first-time migration cost from ongoing allocation friction."
+    },
+    {
+      "id": "uber_oci_ampere_coengineering",
+      "source": {
+        "url": "https://www.uber.com/us/en/blog/how-uber-oci-and-ampere-co-optimized-oci-ampereone-m-a4-compute/",
+        "date": "2025-12-15",
+        "type": "Buyer engineering account",
+        "locators": [
+          "Introduction",
+          "Key Learnings",
+          "Applying Learnings to Design OCI A4 Instances from Silicon to System"
+        ]
+      },
+      "observations": [
+        "Uber describes 24 months of joint work with OCI and Ampere after its 2023 cloud transition began. Experience on A1/A2 informed A4 silicon and configurations.",
+        "Early Arm adoption exposed cross-socket, cache, garbage-collection and single-thread performance problems. Gurobi-based services were slower on A1 than existing x86.",
+        "A4 development targeted higher-frequency options, cache and workload-specific memory configurations."
+      ],
+      "status": "Actual earlier-generation production use and coengineering; not a quantified A4 purchase contract.",
+      "inference": "Rival adoption can become a multi-generation engineering relationship. Intel can retain workload niches, but evidence of an old rival weakness is not proof that the weakness persists.",
+      "limits": [
+        "Existing x86 vendor is unspecified.",
+        "No binding duration, purchased chips, prices or share of total fleet is disclosed here.",
+        "Coengineering is stronger evidence than a catalog listing but weaker than contracted revenue."
+      ],
+      "model_use": "Require workload-specific evidence for enduring advantage and track whether competing generations solve the cited bottleneck."
+    },
+    {
+      "id": "uber_normalized_stateful_fleet",
+      "source": {
+        "url": "https://www.uber.com/us/en/blog/diverse-server-fleet/",
+        "date": "2026-10-13",
+        "type": "Buyer engineering account",
+        "author": "Kristoffer Andersen",
+        "locators": [
+          "Introduction",
+          "Table 1: Kafka performance factors",
+          "Performance-Aware Scheduling in Action"
+        ]
+      },
+      "observations": [
+        "Odin spans approximately five million cores across on-premises/cloud and x86/Arm. Performance-aware allocation was rolling out across about 1.4 million automatically scaled cores.",
+        "For Kafka, the newest cloud x86 factor is 196 versus 127 for newest Arm, a 1.54x ratio.",
+        "Production data required revisions to synthetic benchmark factors; Kafka and Cassandra differed. Kafka allocated cores fell about 8%."
+      ],
+      "status": "Actual mixed-fleet operation and rollout.",
+      "inference": "Recurring workload demand can coexist with vendor-neutral scheduling and fewer required cores. Buyers seek delivered service capacity, not a constant number of nominal cores.",
+      "limits": [
+        "CPU models, vendor identity of x86, contracts and prices are undisclosed.",
+        "Do not attribute the 1.54x difference to Intel or treat it as a universal benchmark.",
+        "An allocated core is not a newly purchased CPU."
+      ],
+      "model_use": "Normalize forecast demand by workload performance and utilization before translating it into manufacturer units."
+    },
+    {
+      "id": "amadeus_azure_cobalt",
+      "source": {
+        "url": "https://www.microsoft.com/en/customers/story/25613-amadeus-sas-azure-databricks",
+        "date": "2025-11-07",
+        "type": "CSP-published customer case study",
+        "locators": [
+          "Journey from datacenter to Arm",
+          "Production rollout and customer quotations"
+        ]
+      },
+      "observations": [
+        "Amadeus reports 90% of its shopping engine on Cobalt100; the separate 95% figure refers to production workloads on Azure, not Arm share.",
+        "It first used Ampere in production in early 2024, then Cobalt in December2024.",
+        "The first C++ port required recompilation and extensive validation. Ampere-to-Cobalt required no recompilation.",
+        "The case reports roughly 20% throughput improvement and 8% response-time improvement."
+      ],
+      "status": "Actual critical production deployment; further Java/Couchbase exploration is prospective.",
+      "inference": "A mission-critical recurring service need not remain x86-bound. Once the architecture migration cost is paid, changing suppliers within Arm may be easier.",
+      "limits": [
+        "Selected Microsoft success story.",
+        "Not a controlled comparison with current Intel/AMD alternatives; no CPU procurement economics."
+      ],
+      "model_use": "Avoid treating enterprise criticality alone as an Intel moat."
+    },
+    {
+      "id": "toyota_sap_refresh",
+      "source": {
+        "url": "https://aws.amazon.com/solutions/case-studies/toyota-intel-case-study/",
+        "date": null,
+        "date_note": "Publication date not displayed or found in retrieved metadata; current page checked 2026-11-05.",
+        "type": "CSP-published customer case study",
+        "locators": [
+          "Opportunity",
+          "Solution: U7i and R6i",
+          "Outcome"
+        ]
+      },
+      "observations": [
+        "Toyota describes SAP supporting 14 North American facilities and approximately 30,000 employees, with database size rising from 6TB in 2020 to 24TB in 2024.",
+        "It refreshed earlier Intel U-1 instances with U7i/R6i. Coordinated facility downtime, testing and controls checks preceded migration in under two weeks.",
+        "The narrative says R8i/R8i-flex/X8i are being evaluated."
+      ],
+      "status": "Actual Intel-to-Intel refresh; newest Xeon6 adoption is not established by the body.",
+      "inference": "Operational change risk, certification and memory scale can make incumbent refresh economically attractive. This is a concrete retention mechanism, not proof customers accept indefinite supply delays.",
+      "limits": [
+        "Title/overview claim Xeon6; body names U7i/R6i and only future evaluation of Xeon6.",
+        "No negotiated price, committed volume or guaranteed future choice."
+      ],
+      "model_use": "Supports a sticky enterprise bucket, conditional on certified availability and total ownership economics.",
+      "generation_checks": [
+        {
+          "url": "https://aws.amazon.com/ec2/instance-types/high-memory/",
+          "fact": "U7i uses fourth-generation Intel Xeon Scalable processors, not Xeon6."
+        },
+        {
+          "url": "https://aws.amazon.com/ec2/instance-types/r6i/",
+          "fact": "R6i uses third-generation Intel Xeon Scalable processors."
+        }
+      ]
+    },
+    {
+      "id": "sap_certification_boundary",
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started",
+          "date": "2026-07-09",
+          "type": "Microsoft technical documentation",
+          "locator": "FAQ: why AMD-based VM families are not certified for SAP HANA"
+        },
+        {
+          "url": "https://news.sap.com/2023/11/sap-hana-cloud-now-supports-aws-graviton/",
+          "date": "2023-11-07",
+          "type": "Software vendor primary announcement",
+          "locator": "SAP HANA Cloud on Graviton"
+        },
+        {
+          "url": "https://www.aboutamazon.com/news/aws/aws-graviton-5-cpu-amazon-ec2",
+          "date": "2026-06-10",
+          "type": "CSP announcement with named SAP executive quotation",
+          "locator": "SAP HANA Cloud customer statement"
+        },
+        {
+          "url": "https://lenovopress.lenovo.com/lp1728-sap-certifications-of-lenovo-servers",
+          "date": "2026-10-19",
+          "type": "OEM certification matrix",
+          "locator": "Separate SAP HANA and Business Suite/NetWeaver lists"
+        }
+      ],
+      "observations": [
+        "Azure documentation states AMD is unsupported for SAP HANA, including virtualized scenarios. Lenovo separately lists Intel for HANA and AMD for Business Suite/NetWeaver.",
+        "SAP HANA Cloud, a managed service, has supported Graviton since November2023. SAP reports continued work through Graviton5 in June2026."
+      ],
+      "status": "Current certification boundary plus actual managed-service architecture adoption; not all SAP products have the same hardware requirements.",
+      "inference": "Certification can protect a specific installed workload without protecting all future spending in that software ecosystem. Moving to a managed service can move the architecture decision from enterprise customer to service provider.",
+      "limits": [
+        "Do not equate SAP-certified AMD instances with HANA certification.",
+        "Do not infer that Toyota can switch its exact deployment directly to HANA Cloud without a separate application/migration assessment.",
+        "No revenue share establishes how large this protected niche is for Intel."
+      ],
+      "model_use": "Define exactly which deployment classes are sticky and quantify their economic weight before extrapolating a segment margin."
+    },
+    {
+      "id": "google_c4_refresh",
+      "source": {
+        "url": "https://cloud.google.com/blog/products/compute/c4-vms-based-on-intel-6th-gen-xeon-granite-rapids-now-ga",
+        "date": "2025-07-31",
+        "type": "CSP product announcement with customer tests",
+        "locators": [
+          "C4 VMs on Intel Xeon6",
+          "SAS quotation",
+          "beloFX quotation",
+          "C4-LSSD quotation"
+        ]
+      },
+      "observations": [
+        "Google introduced Xeon6 shapes inside the existing C4 family, allowing existing committed-use discounts to continue.",
+        "SAS reported testing improvements and intended production expansion; beloFX reported render tests against older N2/N2D machines.",
+        "Deutsche Börse reported lower write latency on C4-LSSD; the improvement includes Titanium SSDs."
+      ],
+      "status": "General availability and named testing; no disclosed ordered volume or fleet adoption share.",
+      "inference": "Keeping the instance family and commercial commitment can reduce refresh friction. Differentiated instructions and complete-system performance may sustain some willingness to pay.",
+      "limits": [
+        "Prior-generation comparisons do not prove superiority to current AMD/Arm.",
+        "Storage improvement must not be assigned wholly to the CPU.",
+        "Forward production intent is not a completed sale."
+      ],
+      "model_use": "Useful mechanism evidence, insufficient to set a long-run Intel ASP premium or DCAI margin."
+    },
+    {
+      "id": "aws_intel_framework",
+      "source": {
+        "url": "https://press.aboutamazon.com/aws/2024/9/intel-and-aws-expand-strategic-collaboration-helping-advance-u-s-based-chip-manufacturing",
+        "date": "2024-09-16",
+        "type": "Joint announcement hosted by direct customer",
+        "locators": [
+          "Framework description",
+          "Custom Xeon6 and AI fabric scope",
+          "Forward-looking statement risks"
+        ]
+      },
+      "observations": [
+        "The parties announced a multiyear, multibillion-dollar co-investment framework covering Intel products and wafers. It included custom Xeon6 on Intel3 and an AI fabric chip on Intel18A.",
+        "The release does not disclose a CPU-only dollar split, annual delivery schedule, minimum purchases or pricing. Its risk section explicitly includes noncompletion of contemplated transactions."
+      ],
+      "status": "Substantive announced commercial/development framework, not publicly auditable CPU backlog.",
+      "inference": "This is stronger evidence of strategic Intel retention than a cloud instance catalog. It is still not equivalent to Garrett awarded program revenue with identifiable timing and economics.",
+      "limits": [
+        "Do not allocate the full framework value to DCAI or confuse AWS Ohio datacenter spending with Intel orders.",
+        "Foundry wafer economics and Xeon product economics must remain separate."
+      ],
+      "model_use": "Supports customer relationship duration qualitatively; use no incremental quantified revenue without delivery/commitment evidence."
+    }
+  ],
+  "cross_cutting_mechanisms": [
+    {
+      "name": "VM live-migration compatibility",
+      "sources": [
+        {
+          "url": "https://knowledge.broadcom.com/external/article/313545/vmware-evc-and-cpu-compatibility-faq.html",
+          "date": "2026-10-15",
+          "locator": "Does EVC allow AMD and Intel CPUs to be vMotion compatible?"
+        },
+        {
+          "url": "https://knowledge.broadcom.com/external/article/316536/migration-to-a-different-processor.html",
+          "locator": "Live versus cold migration"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/processor-compatibility-mode-hyper-v",
+          "locator": "Moving running/saved-state VMs between manufacturers"
+        }
+      ],
+      "fact": "Broadcom EVC requires one CPU vendor per compatible cluster. Intel-to-AMD live migration is unsupported; powered-off migration is a different option. Hyper-V also restricts cross-manufacturer running/saved-state moves.",
+      "bull_inference": "An installed Intel cluster can have an incremental refresh advantage where downtime is costly.",
+      "bear_boundary": "This is switching friction, not impossibility. Planned maintenance, replication, new application deployment or a platform redesign can bypass it. The mechanism is symmetric once a buyer installs AMD.",
+      "model_relevance": "Ask how much revenue comes from these deployments and what customers pay to avoid migration. Neither quantity is disclosed by the compatibility rule."
+    },
+    {
+      "name": "Spend commitments are not CPU purchase contracts",
+      "sources": [
+        {
+          "url": "https://docs.aws.amazon.com/savingsplans/latest/userguide/plan-types.html",
+          "locator": "Compute versus EC2 Instance Savings Plans"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/savingsplans/latest/userguide/sp-ris.html",
+          "locator": "Term length and capacity-reservation comparison"
+        },
+        {
+          "url": "https://docs.cloud.google.com/compute/docs/instances/committed-use-discounts-overview",
+          "locator": "Compute flexible CUD eligible machine series"
+        }
+      ],
+      "fact": "AWS Compute Savings Plans cover different instance families; EC2 Instance Savings Plans are family/region specific. Terms are one or three years, and Savings Plans do not reserve capacity. Google flexible CUDs include C4, C4A and C4D and operate across eligible machine configurations.",
+      "bull_inference": "A family-specific commitment can delay a switch because discounts may be stranded.",
+      "bear_boundary": "Flexible spend commitments retain the cloud vendor without necessarily retaining the processor vendor. Even a family-specific cloud commitment is not a disclosed Intel CPU order or manufacturer-margin guarantee.",
+      "model_relevance": "Do not use cloud contracted revenue or generic multiyear commitments as Intel backlog."
+    }
+  ],
+  "decision_framework": {
+    "status": "Analytical framework, not measured estimates or a fitted forecasting model.",
+    "wait_if": "Expected disruption, porting, validation and stranded-commitment costs exceed the cost of delayed capacity and any alternative operating advantage, conditional on acceptable Intel delivery timing.",
+    "switch_if": "Expected value of earlier capacity plus lifecycle operating savings exceeds migration and commitment costs, with acceptable performance and support.",
+    "return_if": "Intel later delivers a sufficient workload-adjusted total-cost or performance advantage to justify the remaining reallocation cost. Sunk first-port costs should not be counted again if dual-architecture capability is retained.",
+    "what_to_measure": [
+      "Useful work per dollar at required latency and reliability, including software licenses, memory, network, power and operational support.",
+      "Time to production and availability of validated replacement capacity.",
+      "Incremental engineering and downtime cost, separately from historic sunk migration spending.",
+      "Actual repeat deployment share and paid usage after alternatives become available.",
+      "CPU manufacturer revenue and costs separately from customer cloud invoices."
+    ]
+  },
+  "counterevidence_that_would_support_40_percent_duration": [
+    {
+      "test": "Same-workload repeat purchases after supply normalization",
+      "required_evidence": "Named customers repeatedly selecting paid Xeon capacity after AMD/Arm alternatives are available, with deployment scale or usage share.",
+      "why_it_matters": "Separates preference from lack of alternatives."
+    },
+    {
+      "test": "Price retention after performance/mix normalization",
+      "required_evidence": "Comparable CPU ASP or negotiated economics, paired with core counts, capabilities, workload mix and generation.",
+      "why_it_matters": "Separates structural pricing power from richer SKU mix and temporary scarcity."
+    },
+    {
+      "test": "Workload economics favor Intel at the assumed premium",
+      "required_evidence": "Production useful-work TCO including licenses, memory, power, utilization, migration and failure costs; current competitor comparison.",
+      "why_it_matters": "Establishes a reason customers voluntarily pay more."
+    },
+    {
+      "test": "Sticky niche economic weight",
+      "required_evidence": "Credible share of DCAI sales/profit from certified, specialized or expensive-to-migrate deployments.",
+      "why_it_matters": "A real moat in a small niche cannot by itself support a whole-segment margin."
+    },
+    {
+      "test": "Delivery and cost bridge",
+      "required_evidence": "Product revenue, mix, yields, external component costs and allocated expense support the margin after capacity expands.",
+      "why_it_matters": "Customer retention alone does not establish supplier profitability."
+    }
+  ],
+  "benchmark_translation": {
+    "what_to_copy_from_winners": "Choose one falsifiable mechanism and show the complete chain from customer decision to forecast to present valuation. A named repeated deployment and a bounded switching barrier are more useful than a large partnership-logo collection.",
+    "what_not_to_copy": "Do not manufacture contract visibility, normalize every kind of compute into identical cores, or turn a product announcement into backlog. More case studies cannot repair a missing economic mapping.",
+    "suggested_main_deck_exhibit": "One table with protected deployment classes, contestable deployment classes, observed primary evidence, and the specific forecast assumption each can or cannot justify. Keep detailed cases in defense material.",
+    "first_ten_pages_priority": "Replace low-value generic ecosystem descriptions with two opposing concrete cases and the unresolved aggregate-mix test. This improves defensibility without pretending the evidence proves 40%."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-05T22:40:51.539818+00:00",
+  "purpose": "Separate descriptive cross-check using CPU2026 results. No score comparisons across major versions. No new experiment.",
+  "selection": "Same exact model list and full-core, two-socket gating as CPU2017 study; report missing models. Explore complete schema before filtering; no outcome-selected additionalmodels.",
+  "models": [
+    "Intel Xeon 6980P",
+    "Intel Xeon 6990E+",
+    "Intel Xeon 6780E",
+    "Intel Xeon Platinum 8592+",
+    "AMD EPYC 9755",
+    "AMD EPYC 9965",
+    "AMD EPYC 9996"
+  ],
+  "metric": "SPECrate2026_int_base",
+  "date_cutoff": "2026-11-05",
+  "limits": [
+    "OEM/compilers/memory/system versions confounded",
+    "Submission selection not representative shipment mix",
+    "No conversion from throughput to net ASP or DCAI margin"
+  ]
+}

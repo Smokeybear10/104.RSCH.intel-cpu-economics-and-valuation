@@ -1,0 +1,46 @@
+{
+  "reviewed_utc": "2026-11-05T23:56:36.985890+00:00",
+  "read_coverage": "All10 pages of the latest Initial Screen and all5 pages of latest defense notes, plus relevant current builder sections; visually inspected current screen p4 and defense p5.",
+  "reviewed_pdf_sha256": {
+    "m37_intel_initial_screen.pdf": "d332c6fead90cd48d15038ef609bbb5528be431c27a0bbfca59130ea8bbc8a13",
+    "m37_intel_defense_notes.pdf": "1dcc574506508c6cae85796f6b2d1aecd5c4549c7adf513021bcb298295b8705"
+  },
+  "single_most_material_remaining_inference": {
+    "finding": "The annual2027 CPU revenue forecast does not yet establish a feasible shipment and mix path through known H1 constraints and the planned H2 Oregon/substrate ramp. The20.6% increase over modeled Q4 annualized is correct, but by itself understates the back-half execution requirement under a flat-H1 diagnostic.",
+    "classification": "Material underwriting gap, not a newly discovered factual error. The draft explicitly labels the forecast and absence of quarterly reconciliation; do not imply it concealed this limitation.",
+    "conditional_receipt": "final_h2_cpu_revenue_hurdle_receipt.json",
+    "exact_math": "(31.475088 - 2*6.5257)/2 =9.211844B average quarterly CPU revenue in H2,41.1625% above modeled Q4; H1 flat is only a diagnostic assumption.",
+    "proposed_exact_fix": "My2027 CPU sales are20.6% above modeled Q4 annualized. If H1 stays at that$6.53B quarterly pace, H2 must average$9.21B per quarter, about41% higher. Q4 and flat H1 are assumptions, not observed results or quarterly guidance.",
+    "placement": "The page3 exit-rate box is the most natural place; it makes the capacity timing on page4 economically meaningful without introducing a new forecast.",
+    "why_substantive": "It converts a generic capacity warning into the production/mix hurdle implied by the author's existing annual sales forecast. It changes what must be believed and monitored, not the valuation."
+  },
+  "optional_precision_fix": {
+    "location": "Page4 temporary-delay box",
+    "concern": "Placed immediately below Fab28 facts, the77.26 catch-up target could be mistaken for a quantified estimate of the accident's impact even though it is a generic unit-growth stress.",
+    "replacement_leadin": "Illustrative catch-up case, not a Fab28 estimate.",
+    "priority": "Minor clarification once the H2 hurdle is included; the current full sentence already discloses restoration to the base2028 volume and36.4% required growth."
+  },
+  "two_exact_edits_sourcechecked": {
+    "source18": {
+      "result": "Supported by the published call transcript.39:00-39:31 gives an early300M Q4 impact likely similar in Q1, with most wafer scrapping/200bp in Q4.42:07 says Oregon Intel3 production planned in H22027;43:06 adds the substrate constraint.",
+      "source": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/",
+      "limit": "Published transcript checked; original call audio not independently replayed."
+    },
+    "claims": {
+      "result": "Q3 Note9 identifies169M current plus46M long-term SLP payable; Note14 records1.0B VLSI liability. Total1.215B divided by5.51B shares is0.22050817 per share.77.681987999 becomes77.461479832;51.287102511 becomes51.066594344. Annual filing identifies340M EC guarantee deposits in restricted accounts. Current restricted-cash exclusion and no second EC deduction are internally coherent under the stated policy.",
+      "sources": [
+        "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+        "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+      ],
+      "limit": "Book reserves are not settlement predictions or maximum loss. No complete legal exposure audit performed."
+    }
+  },
+  "narrative_assessment": {
+    "headings": "The affirmative opening and product-profit heading are supported by reported recovery and clearly identified forecasts. They improve readability without making a new return or margin promise.",
+    "cash": "Named claims are now visibly outside owner cash and inside equity valuation. That distinction avoids implying the27.6B bridge is already after those payments.",
+    "customer_economics": "The defense TPC-H discussion expressly limits matched-hardware and current-price inference. I read and visually checked its presentation; I did not independently re-audit the TPC source PDFs in this final pass.",
+    "public_comparison": "The most useful comparator lesson remains the explicit connection between an operational mechanism, timing and financial consequence. Adding the H2 hurdle improves that connection. Do not import the comparator decks' confident language as evidence.",
+    "other_required_changes": "No additional new factual correction identified in this final read beyond the timing inference above. Known current-price and long-run margin concerns remain separate."
+  },
+  "edits": "No source PDF, builder, operating policy or valuation model changed. Notes and review renders only."
+}

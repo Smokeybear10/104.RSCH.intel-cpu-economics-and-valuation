@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-11-05T22:33:07.334803+00:00",
+  "scope": "New economically distinct scenarios selected before new scenario values. Existing base and previous sensitivity results known. No frozen model or PDF changes.",
+  "cases": {
+    "foundry_recovery_delayed_one_year": {
+      "question": "What if the existing manufacturing profit recovery arrives one year later, but matches the original level from2031?",
+      "host_Foundry_profit_B": {
+        "2026_anchor": -8.5,
+        "2027": -8.5,
+        "2028": -4,
+        "2029": -0.75,
+        "2030": 1,
+        "2031_on": "Restore exact selected base host Foundry dollars from2031. No above-base recovery of previously lost profit."
+      },
+      "anchor": "foundry_operating_policy.json historical_anchor.rounded_2026_planning_operating_profit_B=-8.5. This is an old owned2026 full-year forecast, not a reported actual. Delayed path copies each prior-year originalhost number through2030.",
+      "preserved": "All Products revenue, product margins, physical capex, D&A, WC, independent incremental packaging program, credits, tax rates, NCI, leases and legal claims stay unchanged. Extra manufacturing expense is charged once as consolidated EBIT loss. No transfer-price benefit. Recompute operating taxes and economic treasury.",
+      "interpretation": "Temporary loss of cost absorption or process efficiency at unchanged accepted shipments, not a wafer-volume shortfall or delay in every external packaging program. It is plausible that products are still delivered at higher costs. Restoring2031profit is an explicit favorable recovery condition."
+    },
+    "profit_retention_erosion_from_2028": {
+      "question": "What if competition reduces retained DCAI product economics before2030, although the base CPU revenue arrives?",
+      "margin_rule": "Keep selected2027 DCAI margin38.791247099481%. Starting2028, decline linearly from that2027anchor to35%in2030, then hold35%. Formula for2028on:35%+(selected2027margin-35%)*max((2030-year)/3,0). This is an explicit three-year normalization tied to the timing of the supply expansion under discussion, not an empirical forecast of realized pricing. No outputs were viewed before replacing the less clear preliminary wedge/floor rule.",
+      "preserved": "Revenue, Foundry profit, physical capital, D&A, WC, external packaging, credit eligibility and claims unchanged. Lower retained profit represents higher product development/support/customer-service costs or less profitable configurations within the same aggregated revenue; do not label it a pure chip-price cut. Recompute taxes and cash.",
+      "important": "This is an earlier operating-margin stress, distinct from the current35%maturitycase whose cash impact begins2031. No additional factory-loss charge is stacked."
+    },
+    "CPU_growth_normalizes_2031": {
+      "question": "How much value requires another decade of rapid CPU expansion after the2030recovery?",
+      "revenue": "From2031 onward CPU revenue=selected2030CPUrevenue times1.03^(year-2030). Units1%and ASP1.980198%yield exactly3% nominal annual CPU growth. Preserve all client, OtherCCPG, OtherDCAI, Mobileye/IMS-type and external-packaging revenue paths.",
+      "profit": "Consolidated EBIT changes by CPUrevenue_delta times retention[50%-1pp*(year-2030)] from2031to2040, then40%thereafter. This is one group decremental margin after variable costs, fixed-cost responses and D&A; assign it to DCAI for decomposition, do not additionally reduceFoundryprofit. It matches the existing selected40%weak-case mature retention and the chosen40%terminal product margin. The coefficient is owned, not empirically estimated.",
+      "capital": "Recompute host Products revenue. D&A remains the existing annual D&A/Products ratio times revised Products. Host net operating investment=change in revisedhostcapital-denominator revenue/.8. Host WCcash=10%of that annual change. Physicalcapex=D&A+netinvestment-WC. Preserve separately fundedpackagingcapital/D&A/WC. No second D&A earnings benefit because decremental EBIT already includes all costs.",
+      "tax_and_finance": "Preserve the absolute existing eligible domesticprojectbasis and all finitecredits; changesstart2031andfundedphysicalspendstillmustexceedthe5B/2B2031/32eligiblebasis. Preserve debt, cash income conventions, NCI, leases, claims. No impact on2027-2030treasury. Reprice remaining cash at same risk.",
+      "interpretation": "Persistent reduction in growth duration, not near-term operatingfailure. Starting2030product level is preserved, but no deferredgrowthbacklog is restored. Capital response uses the existing steady investment rule and is a favorable flexibility assumption relative to sticky capacity."
+    }
+  },
+  "decision_boundary": {
+    "method": "Calculate one-variable conditional break-even diagnostics against52.22 using December31,2026planningvalue and disclose56daydatemismatch. Do not claimunique marketexpectations.",
+    "variables": [
+      "MatureDCAImargin with unchanged revenue/capital/risk (existing linearwedge2031-2040).",
+      "CPU revenue path scale from2027 onward with a single specified decremental-profit/capital response; choose policybefore anyroot solving.",
+      "Separately reportmaximumentryprices for10/12/15%annualprice-returnchoices; these are investor preferences, not estimatedrisk compensation."
+    ],
+    "do_not": "Do not combine a favorable solution from different independentroots or claimconditionalbreak-even givescertainty orimpliedconsensus.",
+    "additional_prespecified_frontier": "For each of the already defined base-CPU-growth and CPU-growth-normalizes2031 paths, calculate the mature DCAI margin that matches52.22 at the2026planningdate under hostcapitalproductivity0.6,0.8,1.0. Keepriskandtaxunchanged. Recomputehostnetinvestmentfromeachpath\u2019sownannualsalesgrowth; packagingstillseparate. Maturemarginmoveslinearly2031-2040relative to each path\u2019s existing40%terminal margin. Thegrid is a conditional dependency map, not a joint probability distribution, calibration or statement that eachcombination is physicallyfeasible."
+  }
+}

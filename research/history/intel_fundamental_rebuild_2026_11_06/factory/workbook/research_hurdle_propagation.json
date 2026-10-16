@@ -1,0 +1,16 @@
+[
+  {
+    "hurdle": 0.15,
+    "required_price": 100.52762905267535,
+    "extra_core_cash": 7.5866234220136795,
+    "extra_higher_rate_cash": 12.711624463388668,
+    "core_forecast_unchanged": true
+  },
+  {
+    "hurdle": 0,
+    "required_price": 56.28,
+    "extra_core_cash": -11.003464829104708,
+    "extra_higher_rate_cash": -8.145845043275965,
+    "core_forecast_unchanged": true
+  }
+]

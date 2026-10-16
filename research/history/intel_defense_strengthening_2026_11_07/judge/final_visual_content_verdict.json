@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-07",
+  "scope": "Direct visual and argument-boundary review of the seven assigned PNG renders. No artifact edits. Not a fresh source verification or full numerical model audit.",
+  "verdict": "pass; no blocking visual or content-boundary defects found",
+  "blocking_defects": [],
+  "minor_nonblocking_labels": [
+    {
+      "page": "main 7",
+      "observed": "Upper-right table labels the final column Return, while values are annualized.",
+      "suggestion": "Use Annual return, or change the section title to Annual returns at $40 under weaker outcomes.",
+      "impact": "Existing horizon and surrounding text establish the meaning, so this is precision/readability polish rather than a material error."
+    }
+  ],
+  "argument_verdict": {
+    "affirmative_defense": "Yes. The revision gives observed premium mix and signed customer agreements as reasons for continuation, then uses flat-exit and normalization controls to explain the competing regimes.",
+    "forecast_boundary": "Preserved. Estimated Q4 mix, later unit/ASP growth, cash conversion and capital productivity remain forecast choices rather than claimed facts.",
+    "entry_boundary": "Preserved. $40 is a conditional decision, not a floor or automatic order after adverse news. Selected hurdles apply to named underwriting cases; weaker outcomes can miss them.",
+    "cash_boundary": "Preserved. Recurring cash excludes finite credits and financing; the bridge displays investment and lease/minority deductions, and near-term recurring cash remains negative.",
+    "funding_boundary": "Preserved. Borrowing addresses timing and creates a matching liability; access, fees and daily liquidity are not asserted as established.",
+    "competition_boundary": "No claim of guaranteed success, quantified winning chance, or an official 12% return requirement appears in reviewed pages.",
+    "remaining_judgment": "The revised reasoning is stronger, but it still asks the investor to prefer persistence of a premium-mix transition and durable capital efficiency. The pages no longer imply that reconciling the model proves those assumptions."
+  },
+  "pages": [
+    {
+      "render": "tmp/pdfs/intel_long/defense_strengthening_review/main-05.png",
+      "sha256": "dc9097fca0dab5029947c4a02c35b02af996dca2521842797bac92a74e4da450",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "comment": "Quarterly chart and right-side evidence bullets fit cleanly. Observed premium mix and signed DCAI agreements provide affirmative rationale; Q4 is explicitly estimated and 2028 assumptions remain forecasts. Flat-exit control correctly shows $88.32B."
+    },
+    {
+      "render": "tmp/pdfs/intel_long/defense_strengthening_review/main-07.png",
+      "sha256": "a1eadf366a516463680f4461e471d907e08ad255a5094f89262f1cda76146183",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "comment": "APV, return scenarios and hurdle matrix are readable and separated. Selected stress retains faster CPU path; funded combined targets $59.50 and $56.08 are visible. $40 is not presented as a floor. Minor nonblocking annual-return label suggestion recorded separately."
+    },
+    {
+      "render": "tmp/pdfs/intel_long/defense_strengthening_review/main-08.png",
+      "sha256": "affac6b043ce90cc839e6083d4ccb66077e3f2d30b2fc4f3ad371654a57a87b7",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "comment": "Downside chart, reference-quote marker and monitoring table do not collide. Footer distinguishes pre-incremental-funding table from broader funded cases on pages 7 and 9."
+    },
+    {
+      "render": "tmp/pdfs/intel_long/defense_strengthening_review/main-09.png",
+      "sha256": "fead6ebbbd4950376fa81e3c6f1dbb1b1c09bb6f347c1385f35b92cbacee86ab",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "comment": "Cash waterfall aligns and labels are legible. EBIT-to-recurring-cash bridge and separate finite credits are clear. Cash-ramp table explicitly shows negative recurring cash in 2027 and 2028. Funding box fits above the footer; future access remains conditional."
+    },
+    {
+      "render": "tmp/pdfs/intel_long/defense_strengthening_review/defense-06.png",
+      "sha256": "b6835546e42c3686365508db3b8c4696e9eaece0a7f0fa5fbc831e32081f9144",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "comment": "Dense but readable. Funding answer distinguishes $1.50B timing-only draw from $2.65B combined draw. No footer collision; footer reads 6 / 10."
+    },
+    {
+      "render": "tmp/pdfs/intel_long/defense_strengthening_review/defense-09.png",
+      "sha256": "cd2e063a7e96b1db6067839b1c0d28d0c36124799fe529c1f89cc773e386095f",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "comment": "Counterexample table and four answers fit. Positive argument is retention of observed premium-product adoption, while estimated Q4 anchor and future growth are explicitly conditional. 2028 exit arithmetic is not presented as evidence of delivery. Footer reads 9 / 10."
+    },
+    {
+      "render": "tmp/pdfs/intel_long/defense_strengthening_review/defense-10.png",
+      "sha256": "2215a812a5b56cdc9c663ac0c801b74e09257d003f04aaa0afb97840e677224b",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "comment": "Funded scenarios, cash explanation and updating rule fit. $53.43 lower case remains in preparation notes. Hurdles stay fixed, operating forecasts change with evidence; no implication that every downside must clear 12%. Footer reads 10 / 10."
+    }
+  ],
+  "current_pdf_metadata": [
+    {
+      "path": "output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "sha256": "93208f107eceb7b476908cfc2d1669f149f08f9217ffd0257b62981b9884299b"
+    },
+    {
+      "path": "output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 10,
+      "sha256": "8e063c1f542a1a93dbfbf783ec97fbdc7f65d6f2bc84c60ebd8d77e1ee595cd2"
+    }
+  ]
+}

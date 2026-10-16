@@ -1,0 +1,384 @@
+{
+  "prepared_utc": "2026-11-05T23:21:48.147237+00:00",
+  "question": "Can internal CPU conversion and manufacturing learning deliver the forecast Foundry recovery while Products margins remain high, without assuming a major new external wafer customer?",
+  "answer": "Possible in principle, not independently underwritten by the disclosed cost bridge. Consolidated profit genuinely improved, and Intel reports manufacturing learning. But recent Foundry profit recovery is dominated by period-charge relief, while product profit declined due to higher-cost 18A mix. The model has no explicit extra node-saving line, yet separately chosen segment profit paths do not demonstrate that every manufacturing benefit is counted exactly once.",
+  "recommended_pitch_wording": "No extra node-cost saving is added on top of the segment forecasts. The joint Products/Foundry profit path still requires validation against external revenue, manufacturing cash costs, process R&D, depreciation and inventory timing.",
+  "financial_units": "USD millions unless field states B; all quarterly comparisons are year over year, not sequential.",
+  "foundry_observed_bridge": [
+    {
+      "period": "Q1",
+      "revenue_2026_M": 5421,
+      "revenue_2025_M": 4667,
+      "OI_2026_M": -2437,
+      "OI_2025_M": -2320,
+      "lower_period_charges_M": 372,
+      "product_profit_change_M": -489,
+      "disclosed_extra_opex_M": null,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+      "OI_change_M": -117,
+      "revenue_change_M": 754,
+      "sum_quantified_drivers_M": -117,
+      "residual_M": 0
+    },
+    {
+      "period": "Q2",
+      "revenue_2026_M": 5765,
+      "revenue_2025_M": 4417,
+      "OI_2026_M": -2089,
+      "OI_2025_M": -3168,
+      "lower_period_charges_M": 1400,
+      "product_profit_change_M": -340,
+      "disclosed_extra_opex_M": null,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "rounding": "Period-charge benefit stated as $1.4B; residual is not necessarily an omitted economic driver.",
+      "OI_change_M": 1079,
+      "revenue_change_M": 1348,
+      "sum_quantified_drivers_M": 1060,
+      "residual_M": 19
+    },
+    {
+      "period": "H1",
+      "revenue_2026_M": 11186,
+      "revenue_2025_M": 9084,
+      "OI_2026_M": -4526,
+      "OI_2025_M": -5488,
+      "lower_period_charges_M": 1800,
+      "product_profit_change_M": -830,
+      "disclosed_extra_opex_M": null,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "rounding": "Period-charge benefit stated as $1.8B; Q1+Q2 product-profit changes sum to $829M vs H1 $830M.",
+      "OI_change_M": 962,
+      "revenue_change_M": 2102,
+      "sum_quantified_drivers_M": 970,
+      "residual_M": -8
+    },
+    {
+      "period": "Q3",
+      "revenue_2026_M": 6697,
+      "revenue_2025_M": 4235,
+      "OI_2026_M": -1853,
+      "OI_2025_M": -2321,
+      "lower_period_charges_M": 793,
+      "product_profit_change_M": -106,
+      "disclosed_extra_opex_M": 219,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "inference": "Product-profit decline inferred from YTD $936M less H1 $830M; not separately stated in the Q3-only paragraph. It equals the arithmetic residual in the Q3 bridge.",
+      "OI_change_M": 468,
+      "revenue_change_M": 2462,
+      "sum_quantified_drivers_M": 468,
+      "residual_M": 0
+    },
+    {
+      "period": "YTD",
+      "revenue_2026_M": 17883,
+      "revenue_2025_M": 13319,
+      "OI_2026_M": -6379,
+      "OI_2025_M": -7809,
+      "lower_period_charges_M": 2600,
+      "product_profit_change_M": -936,
+      "disclosed_extra_opex_M": 231,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "rounding": "Period-charge benefit stated as $2.6B; residual $3M is within reporting precision.",
+      "OI_change_M": 1430,
+      "revenue_change_M": 4564,
+      "sum_quantified_drivers_M": 1433,
+      "residual_M": -3
+    }
+  ],
+  "period_charge_disaggregation": {
+    "YTD_reported_total_lower_period_charges_M_rounded": 2600,
+    "absence_of_prior_non_cash_asset_impairment_and_accelerated_DA_M": 797,
+    "lower_inventory_charges_from_intersegment_sellthrough_of_early_18A_reserved_inventory_M": 601,
+    "remainder_after_those_two_named_items_M_approx": 1202,
+    "named_items_as_fraction_of_total_OI_improvement": 0.9776223776223776,
+    "important_limit": "Do not call 97.8% of improvement non-cash or non-recurring cash flow. The numerator is selected gross favorable items, not a net attributable contribution. Inventory timing has consolidation counterparts. Lower period charges also include real process costs, and the remainder is not a pure yield or cash-cost statistic.",
+    "H1_lower_inventory_charges_M": 391,
+    "Q3_implied_incremental_inventory_charge_relief_M": 210,
+    "Q3_inventory_inference_limit": "Difference of YTD comparisons, not a cash receipt or total Q3 cost saving. No exact mapping of the $210M to external customer sales is provided.",
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "locator": "MD&A Intel Foundry, printed page 35; compare Q2 printed page 32"
+  },
+  "consolidated_control": {
+    "GP_Q3_2026_M": 7096,
+    "GP_Q3_2025_M": 5218,
+    "GP_Q3_change_M": 1878,
+    "Q3_higher_product_profit_M_rounded": 1600,
+    "Q3_lower_period_charges_M": 328,
+    "Q3_residual_M": -50,
+    "GP_YTD_2026_M": 18952,
+    "GP_YTD_2025_M": 13432,
+    "GP_YTD_change_M": 5520,
+    "YTD_higher_product_profit_M_rounded": 2900,
+    "YTD_lower_period_charges_M_rounded": 2600,
+    "YTD_residual_M": 20,
+    "interpretation": "Consolidated gross profit already removes internal sales and profit effects. It supports real integrated-franchise improvement; the gain cannot be dismissed as merely a higher transfer price. However product-profit improvements combine external revenue, mix and higher premium unit costs. Neither management bridge isolates cash wafer learning by product.",
+    "rounding": "The $1.6B, $2.9B and $2.6B narrative amounts are rounded; residuals must not receive causal labels.",
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "locator": "MD&A consolidated gross profit, printed page 39"
+  },
+  "joint_operating_profit_reconciliation": [
+    {
+      "period": "Q3",
+      "2026_segment_OI_M": {
+        "CCPG": 2285,
+        "DCAI": 3039,
+        "Foundry": -1853,
+        "All_Other": 179,
+        "Corporate": -1058,
+        "Eliminations": -70
+      },
+      "2025_segment_OI_M": {
+        "CCPG": 2694,
+        "DCAI": 964,
+        "Foundry": -2321,
+        "All_Other": 100,
+        "Corporate": -782,
+        "Eliminations": 28
+      },
+      "2026_consolidated_OI_M": 2522,
+      "2025_consolidated_OI_M": 683,
+      "change_by_segment_M": {
+        "CCPG": -409,
+        "DCAI": 2075,
+        "Foundry": 468,
+        "All_Other": 79,
+        "Corporate": -276,
+        "Eliminations": -98
+      },
+      "consolidated_OI_change_M": 1839,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note 2 segment reconciliation tables, printed page 11"
+    },
+    {
+      "period": "YTD",
+      "2026_segment_OI_M": {
+        "CCPG": 7144,
+        "DCAI": 7055,
+        "Foundry": -6379,
+        "All_Other": 511,
+        "Corporate": -7554,
+        "Eliminations": 405
+      },
+      "2025_segment_OI_M": {
+        "CCPG": 7108,
+        "DCAI": 2172,
+        "Foundry": -7809,
+        "All_Other": 272,
+        "Corporate": -4797,
+        "Eliminations": 260
+      },
+      "2026_consolidated_OI_M": 1182,
+      "2025_consolidated_OI_M": -2794,
+      "change_by_segment_M": {
+        "CCPG": 36,
+        "DCAI": 4883,
+        "Foundry": 1430,
+        "All_Other": 239,
+        "Corporate": -2757,
+        "Eliminations": 145
+      },
+      "consolidated_OI_change_M": 3976,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note 2 segment reconciliation tables, printed page 11"
+    }
+  ],
+  "accounting_mechanics": {
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "locator": "Note 2, printed pages 9-11",
+    "disclosed": [
+      "Internal wafer revenue is recognized on transfer of ownership, generally wafer sorting; assembly/test revenue follows completion milestones.",
+      "Intersegment pricing is intended to approximate market pricing. Intel does not disclose exact node-level transfer prices, price revisions, a cost-plus rule or a fixed profit split.",
+      "Products expenses include charges from Foundry, external manufacturing, product development and allocated/direct operating costs.",
+      "Foundry expenses include technology development, manufacturing and services, allocations and excess-capacity charges.",
+      "Most consolidated depreciation is incurred by Foundry, absorbed through overhead into inventory. Intel says determination of embedded depreciation in each Products segment is impracticable.",
+      "Intersegment sales and related profit in inventory or sold to third parties are eliminated. Certain inventory reserves are recorded by Products only when inventory transfers from Foundry, requiring consolidation adjustments.",
+      "SBC, restructuring and certain acquisition costs are excluded from reported segment operating profit, so a group valuation requires corporate deductions."
+    ],
+    "steady_state_identity": "For one sold-through unit, Products contribution = external selling price P \u2212 internal transfer T \u2212 other product costs L; Foundry contribution = T \u2212 physical manufacturing cost C \u2212 process costs F. Combined = P \u2212 C \u2212 L \u2212 F. Timing, inventory and allocations complicate the reported-quarter bridge.",
+    "mechanisms": [
+      {
+        "change": "Wafer cost declines while transfer price stays fixed",
+        "Products": "No automatic new saving",
+        "Foundry": "Retains saving",
+        "consolidated": "One saving"
+      },
+      {
+        "change": "Transfer price declines with unchanged physical cost",
+        "Products": "Profits rise",
+        "Foundry": "Profits fall by offsetting amount before timing",
+        "consolidated": "No new economic saving"
+      },
+      {
+        "change": "Cost declines and transfer price partly passes through",
+        "Products": "Receives part of benefit",
+        "Foundry": "Retains remaining benefit",
+        "consolidated": "Single total cost reduction"
+      },
+      {
+        "change": "Higher premium die/package content raises both external and transfer prices",
+        "Products": "Depends on external price less higher charges and other costs",
+        "Foundry": "Depends on higher transfer revenue less extra fabrication/packaging costs",
+        "consolidated": "Only customer value retained after real incremental costs matters"
+      },
+      {
+        "change": "Volume increases against a partly fixed factory base",
+        "Products": "Incremental units and contribution may rise",
+        "Foundry": "Absorption may improve; total variable cost and needed capacity also rise",
+        "consolidated": "Higher output can raise profit without a cut in total fixed cash costs; no free capex assumption"
+      },
+      {
+        "change": "Reserved inventory sells through",
+        "Products": "Recognition depends on inventory transfer and costs",
+        "Foundry": "Reported period charges may improve",
+        "consolidated": "Must use consolidated reserve/sell-through accounting; do not copy the segment benefit as an extra cash saving"
+      }
+    ]
+  },
+  "strongest_bull_case": [
+    "Q3 primary prepared remarks report roughly 15% lower Intel 3 costs and 40% lower Intel 18A costs since Q1. This is real management-reported learning, accompanied by better yields/cycle time and factory utilization.",
+    "Public external customer sales grew, and consolidated gross profit increased $5.520B YTD. Products and Foundry can both improve if customers pay for more valuable product content and physical manufacturing costs improve faster than internal price changes.",
+    "Internal server growth can supply fab demand. A large external wafer anchor is not an accounting necessity for every stage of Foundry recovery, especially with external packaging revenue already modeled separately.",
+    "Q2/Q3 2026 state that Intel committed to completing 14A with multiple internal products planned. This differs from the more conditional 2025 disclosure and means the earlier external-anchor statement should not be repeated as an unchanged hard cancellation rule."
+  ],
+  "strongest_countercase": [
+    "Foundry product profit remained negative year over year through Q3 as 18A mix raised costs, even while reported node costs improved. Recent margin recovery therefore does not quantify sustainable utilization gains at the eventual product mix.",
+    "The 2025 $797M impairment/accelerated-depreciation comparison benefit does not repeat as an additional 2027 saving. Inventory-reserve sell-through benefits cannot be mechanically extrapolated or counted twice.",
+    "Intel 14A process development expenses are rising before major external revenue. A technical node milestone does not remove that cash burden or establish a profitable volume commitment.",
+    "Q4 guidance explicitly says lower overall revenue and reduced client wafer starts pressure the fixed-cost base. Scarce server capacity can coexist with weaker absorption elsewhere; server-package shortages do not prove all fab assets are fully utilized.",
+    "A 14A commitment is not customer funding. Expansion pace still depends on committed internal and external demand, and acceptable returns remain a management objective rather than a published wafer economics model.",
+    "The forecast already includes substantial physical capital spending and a funded $7B gross packaging program by 2030. Existing cost learning, cleanroom reuse and packaging adoption are not separate free upside credits."
+  ],
+  "current_forecast_hurdle": {
+    "source_file": "../model_audit/selected_foundry_cash_contribution_hurdle.json",
+    "2026_owned_host_Foundry_OI_B": -8.5,
+    "2030_host_Foundry_OI_B": 2.5,
+    "OI_improvement_B": 11,
+    "2026_DA_anchor_annualized_Q3_total_B": 12.928,
+    "2030_host_DA_B": 21.1875,
+    "DA_increase_B": 8.2595,
+    "pre_DA_contribution_improvement_if_all_incremental_DA_in_Foundry_B": 19.2595,
+    "interpretation": "An implied $19.2595B increase in annual operating contribution before D&A from the 2026 anchor to 2030. This is not $19.2595B of cost cuts and is not a sum of four years of cash flows. Revenue growth and fixed-cost absorption can contribute. Attribution of all incremental total D&A to Foundry is an explicit diagnostic, not disclosed segment EBITDA.",
+    "packaging_scope": "The independently funded net incremental external-packaging profit and D&A are excluded from this host hurdle; add them only through their existing model overlay.",
+    "gap": "No public node-level wafer volume, net internal price, mature cash cost, factory utilization, per-product depreciation or 14A R&D bridge validates that annual dollar hurdle while preserving the forecast Products economics."
+  },
+  "public_data_research_can_do": [
+    "Maintain this quarterly bridge so repeatable product-profit improvement can be distinguished from period-charge relief.",
+    "Track consolidated gross profit and operating cash flow against segment profit, inventories and depreciation. A transfer-price reshuffle alone cannot raise consolidated profit.",
+    "Track external customer revenue excluding disclosed non-recurring contracts and Altera reclassification, without inventing an undisclosed numerical split.",
+    "Compare wafer-output/cost commentary with product revenue, unit growth, mix and starts, explicitly preserving different denominators.",
+    "Use joint downside scenarios that change Products retention, Foundry recovery and capital consistently rather than adding an independent node-saving line.",
+    "Treat acceptable returns, design starts and PDK milestones as gates; use disclosed orders, actual production revenue and cash-cost improvement as later evidence."
+  ],
+  "what_public_data_cannot_close_today": [
+    "Exact premium CPU net realized price by SKU/customer and incremental cost of that richer content.",
+    "The split of manufacturing learning retained in Foundry versus passed to Products through future internal price revisions.",
+    "Profit margins of legacy external wafer/services versus internal production or external packaging.",
+    "Exact good-die/good-package output, mature per-node cash manufacturing costs and usable capacity by node.",
+    "A demonstrated 14A volume and R&D/capex plan that achieves the selected Foundry profits without additional external wafer wins."
+  ],
+  "sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+      "locator": "Note 2 and Foundry MD&A pages 29-30",
+      "review": "Full HTML foundry section read and archived"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "locator": "Note 2 and Foundry MD&A pages 31-32; consolidated GP pages 36",
+      "review": "Previously archived full HTML read for exact bridge"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note 2 pages 9-11; MD&A pages 34-35,37,39-40",
+      "review": "Previously archived full HTML plus current web primary text read"
+    },
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "Prepared remarks pages 6-7",
+      "review": "Cached primary PDF/text read; cost reductions and Q4 utilization warning verified"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "Business Intel 14A strategy",
+      "review": "Earlier external-volume necessity statement checked against updated Q2/Q3 commitment; not treated as unchanged cancellation policy"
+    }
+  ],
+  "rejected_claims": [
+    "Foundry improvement proves manufacturing volume leverage at the selected mature mix.",
+    "Both segment profits rise, therefore manufacturing savings are double counted.",
+    "No extra savings line proves all underlying segment economics are fully reconciled.",
+    "The entire Foundry revenue increase is third-party demand.",
+    "The $411M Q3 external revenue can be annualized as recurring wafer revenue.",
+    "The $19.2595B contribution hurdle is a measured future cost-saving opportunity.",
+    "The absence of a major named external wafer customer makes any internal-led recovery impossible."
+  ],
+  "historical_cost_saving_claim_check": {
+    "reason": "Test whether old operational-efficiency targets provide an independent incremental 2027-2030 saving pool.",
+    "2023_primary_update": {
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-update-internal-foundry-model.html",
+      "date": "2023-06-21",
+      "claims_as_of_that_date": {
+        "annual_fewer_expedited_wafers_savings_B_range": [
+          0.5,
+          1.0
+        ],
+        "annual_test_time_savings_B_approx": 0.5,
+        "annual_fewer_wafer_steppings_savings_B_range": [
+          0.5,
+          1.0
+        ]
+      },
+      "status": "Historical management opportunities, not current unachieved savings; market-based charges change incentives but their accounting transfer is not itself a group saving."
+    },
+    "2024_primary_webinar": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_fd379efef431a168250b57352aab72ec/intel/db/861/9015/pdf/Intel_New_Segment_Reporting_Webinar_-_for_posting_to_INTC.com.pdf",
+      "date": "2024-04-02",
+      "visual_review": "PDF pages 28,29,30 rendered and inspected.",
+      "page30": {
+        "production_expedites_reported_reduction_pct": 95,
+        "next_generation_client_test_time_plan_of_record_reduction_pct": 75,
+        "engineering_sample_demand_reduction_2024_pct_lower_bound": 10,
+        "capital_efficiency_same_volume_capex_reduction_pct_range": [
+          5,
+          10
+        ],
+        "faster_TD_to_HVM_wafer_cost_improvement_pct_range": [
+          10,
+          15
+        ]
+      },
+      "page28_break_even_margin_levers_pct_points": {
+        "transistor_leadership": [
+          9,
+          11
+        ],
+        "internal_mix_scale": [
+          7,
+          9
+        ],
+        "capital_cost_efficiency": [
+          12,
+          14
+        ],
+        "opex_leverage": [
+          5,
+          7
+        ]
+      },
+      "page29_target_gross_margin_pct_ranges": {
+        "EUV_nodes": [
+          40,
+          50
+        ],
+        "advanced_packaging": [
+          30,
+          40
+        ],
+        "pre_EUV_nodes_approx": 20
+      },
+      "interpretation": "The slide itself mixes achieved operational changes, design plans and opportunity estimates. These historical metrics do not establish remaining cash savings in November 2026. The break-even margin table is a 2024 management target with no current wafer-price/cost-dollar bridge; using it as independent validation would recycle the same turnaround premise.",
+      "specific_caution": "Production expedites down 95% is not a 95% cost reduction. A 75% reduction in planned test time is not proof that total test costs fell 75%. The 2030 packaging gross-margin target is not the current model operating margin."
+    },
+    "conclusion": "Useful evidence that specific operational mechanisms exist and incentives changed. Not an incremental upside amount that can be added to the current segment forecasts."
+  }
+}

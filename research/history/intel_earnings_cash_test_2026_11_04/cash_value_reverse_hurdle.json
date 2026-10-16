@@ -1,0 +1,37 @@
+{
+  "computed_utc": "2026-11-04T18:43:46.943611+00:00",
+  "scope": "Reverse economic hurdle only, not a new cash-flow forecast, identified market expectation or feasible cost-saving claim.",
+  "model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "reference_price_USD": 60.55,
+  "reference_price_date": "2026-11-03",
+  "model_end2026_planning_value_USD": 44.067914052747014,
+  "equity_PV_gap_B": 90.81629356936395,
+  "formula": "Additional cashC firstpaidatendY andgrowing3%forever hasend2026PV=C/(12%-3%)/(1.12)^(Y-2027). SolveforPVgap;holdshares,claims,capitalandallothercashflowsfixed.",
+  "controls": [
+    {
+      "first_extra_cash_year": 2027,
+      "first_annual_extra_parent_unlevered_cash_B": 8.173466421242756,
+      "nominal_growth_thereafter": 0.03,
+      "PV_at_end2026_B": 90.81629356936395
+    },
+    {
+      "first_extra_cash_year": 2029,
+      "first_annual_extra_parent_unlevered_cash_B": 10.252796278806914,
+      "nominal_growth_thereafter": 0.03,
+      "PV_at_end2026_B": 90.81629356936395
+    },
+    {
+      "first_extra_cash_year": 2031,
+      "first_annual_extra_parent_unlevered_cash_B": 12.861107652135392,
+      "nominal_growth_thereafter": 0.03,
+      "PV_at_end2026_B": 90.81629356936395
+    }
+  ],
+  "interpretation": "Atunchanged12%riskandallotherassumptions,closingtheplanningvaluationgaprequires~10.25Bextraannualcashfrom2029,growing3%thereafter. Thiscouldonlycome fromeconomicallyconsistent higherprofits/lowerreinvestment/othernetcash; not fromrelabelingadjustedEPS.",
+  "limits": [
+    "Thevalueusesforecastend2026balancesagainstNov3price,so thisisapproximateplanningcomparison.",
+    "Aperpetualincrementisstrongerthan aoneoffcashimprovement. Temporarysavingswouldrequirelargerannualamounts.",
+    "Arealoperatingrevisionmayaltercapital,taxes,shares,financingandfutureeconomicrisk;theone-variablehurdledoesnotcapturethoseinteractions.",
+    "Noactualforecast,valuationorPDFchanged."
+  ]
+}

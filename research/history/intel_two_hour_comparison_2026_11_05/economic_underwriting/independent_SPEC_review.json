@@ -1,0 +1,65 @@
+{
+  "reviewed_at": "2026-11-05",
+  "disposition": "Pass as descriptive published-system benchmark research with explicit scope. No data-selection or arithmetic error found in the inspected results. Do not treat it as a CPU-only causal experiment or a retained-profit forecast.",
+  "independent_recalculation": {
+    "raw_rows": 13407,
+    "exact_selected_model_rows": 167,
+    "accepted_full_core_dual_socket": 119,
+    "accepted_counts": {
+      "Intel Xeon Platinum 8592+": 39,
+      "AMD EPYC 9965": 29,
+      "AMD EPYC 9755": 25,
+      "Intel Xeon 6780E": 16,
+      "Intel Xeon 6980P": 9,
+      "Intel Xeon 6990E+": 1
+    },
+    "duplicate_accepted_URLs": 0,
+    "benchmark_field": "CINT2017rate for all accepted rows",
+    "copies_check": "Every accepted row's Base Copies equals # Cores times # Enabled Threads Per Core. Full-core systems were not accidentally compared using low-copy throughput runs.",
+    "verified": "All per-vendor medians and equal-vendor medians exactly match a separate Python calculation from accepted_records.json. Independent selection from the raw CSV produces exactly 119 rows.",
+    "common_OEM_9755_to_6980P_median_ratios": {
+      "Dell Inc.": 1.1644444444444444,
+      "GIGA-BYTE TECHNOLOGY CO., LTD.": 1.1147540983606556,
+      "Kaytus Systems Pte. Ltd.": 1.124,
+      "Supermicro": 1.0767634854771784,
+      "xFusion": 1.1354581673306774
+    },
+    "date_check": "Accepted records have publication months no later than October 2026. Therefore the month-only source field does not create a November 5 cutoff ambiguity for accepted rows. Capture date should still be reported."
+  },
+  "methodology": {
+    "selection": "Exact named SKU choice was written before bulk scoring and includes both prior/current Intel packages and selected AMD competitors. That controls a limited research question; it is not a representative survey of every shipping CPU or actual sales mix.",
+    "output_units": "SPECrate2017_int_base is a dimensionless normalized throughput metric, not GHz, operations per second, per-core IPC, inference tokens or an agentic-workload metric. Never describe a 1.1x ratio as universal application performance.",
+    "baseline": "Using Base avoids mixing Peak scores. Base still permits compiler- and architecture-specific implementations under benchmark rules. It is not an unoptimized or identical-binary comparison.",
+    "aggregation": "A median of each OEM's submission median reduces repeated-submission weighting, but does not estimate a shipment-weighted population. The same underlying board/configuration may reappear, and OEM overlap does not match memory, compiler, OS, BIOS, power settings or dates.",
+    "system_comparison": "SPEC itself states that the benchmark intentionally measures processor, memory hierarchy and compilers together. Those are part of an available system package but confound attributing a result to CPU silicon alone.",
+    "thin_group": "6990E+ has one accepted 2-socket submission; it should be a labeled example, not a stable cross-OEM median estimate. 9996 has no accepted data and must not be assigned an inferred score.",
+    "energy_records": "Three accepted records also report energy metrics (6780E Lenovo; 9965 Supermicro twice). Their Baseline field is still the ordinary integer-rate score. Such configurations may reflect different power policies. Do not relabel the energy metric as measured watts or CPU efficiency.",
+    "no_independence": "119 published submissions are vendor-selected configurations, not 119 independent experiments or a statistical sample. No p-value, confidence interval or market-level win probability follows.",
+    "suite_boundary": "CPU2017 and CPU2026 cannot be pooled. Absence of a new-model CPU2017 score can reflect the suite transition or submission selection rather than product inferiority."
+  },
+  "relevance_to_ASP": {
+    "supported": "The data illustrates that useful performance can rise when Intel package content rises, supporting the plausibility of an upgrade proposition. AMD's higher 9755 median at each shared OEM is a concrete counterexample to assuming broad Intel integer-throughput leadership.",
+    "not_supported": "Neither a benchmark score nor recommended list price identifies customer net price, shipment mix, unit elasticity, Intel margin, substrate cost or the share of customer surplus captured by Intel.",
+    "recommended_phrase": "Published system benchmarks support a real Intel generation upgrade, while also showing competitive alternatives. The investment case therefore rests on retained economics and delivery, not a claim that Intel wins every workload.",
+    "pricing_caution": "Any current recommended-price/score ratio is a dated CPU-price illustration. It excludes the rest of the system and does not measure system TCO or realized Intel ASP."
+  },
+  "sources": [
+    {
+      "url": "https://www.spec.org/cpu2017/Docs/overview.html",
+      "sections": "Q6, Q15, Q16",
+      "paraphrase": "CPU2017 depends on CPU, memory and compiler. Rate scores aggregate concurrent copies relative to a reference system and combine component results geometrically. Base rules constrain build flags but do not standardize all hardware/software choices."
+    },
+    {
+      "local": "../spec_research/policy_before_bulk_data.json"
+    },
+    {
+      "local": "../spec_research/rint2017_dump.csv"
+    },
+    {
+      "local": "../spec_research/accepted_records.json"
+    },
+    {
+      "local": "../spec_research/selected_analysis.json"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "checked_utc": "2026-11-05T22:59:43.299159+00:00",
+  "PDF_sha256": "57c1be128bbfce27b4641f85dcd9281ccda93f7e6a9e0a93203dce3f1902b0e4",
+  "PDF_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+  "pages_reviewed": [
+    4,
+    7,
+    8
+  ],
+  "numerical_checks": [
+    {
+      "page": 4,
+      "display": "$77.48",
+      "present": true,
+      "basis": "Temporary2027shipment case, same capital and demand restoration from2028; independent operating cash/tax/WC/treasury reconstruction."
+    },
+    {
+      "page": 4,
+      "display": "36.4%",
+      "present": true,
+      "basis": "2028 required units=2026index1.5 /2027shortfallindex1.1 \u22121; no missed2027sales recovered abovebase."
+    },
+    {
+      "page": 7,
+      "display": "92.3%",
+      "present": true,
+      "basis": "PVof2031+operatingcash /Dec2026operatingvalue; equity and terminal-only denominators not used."
+    },
+    {
+      "page": 7,
+      "display": "41.1%",
+      "present": true,
+      "basis": "Conditional margin root for base; row-specific reinvestment rebuilt, all remaining conventions preserved."
+    },
+    {
+      "page": 7,
+      "display": "48.5%",
+      "present": true,
+      "basis": "Conditional margin root for CPU_growth_normalizes_2031; row-specific reinvestment rebuilt, all remaining conventions preserved."
+    },
+    {
+      "page": 8,
+      "display": "$51.29",
+      "present": true,
+      "basis": "base planningvalue"
+    },
+    {
+      "page": 8,
+      "display": "$77.68",
+      "present": true,
+      "basis": "base futurevalue"
+    },
+    {
+      "page": 8,
+      "display": "+10.0%",
+      "present": true,
+      "basis": "base actualdated priceCAGR"
+    },
+    {
+      "page": 8,
+      "display": "$49.92",
+      "present": true,
+      "basis": "foundry_recovery_delayed_one_year planningvalue"
+    },
+    {
+      "page": 8,
+      "display": "$75.99",
+      "present": true,
+      "basis": "foundry_recovery_delayed_one_year futurevalue"
+    },
+    {
+      "page": 8,
+      "display": "+9.5%",
+      "present": true,
+      "basis": "foundry_recovery_delayed_one_year actualdated priceCAGR"
+    },
+    {
+      "page": 8,
+      "display": "$45.22",
+      "present": true,
+      "basis": "profit_retention_erosion_from_2028 planningvalue"
+    },
+    {
+      "page": 8,
+      "display": "$68.36",
+      "present": true,
+      "basis": "profit_retention_erosion_from_2028 futurevalue"
+    },
+    {
+      "page": 8,
+      "display": "+6.7%",
+      "present": true,
+      "basis": "profit_retention_erosion_from_2028 actualdated priceCAGR"
+    },
+    {
+      "page": 8,
+      "display": "$46.23",
+      "present": true,
+      "basis": "CPU_growth_normalizes_2031 planningvalue"
+    },
+    {
+      "page": 8,
+      "display": "$69.85",
+      "present": true,
+      "basis": "CPU_growth_normalizes_2031 futurevalue"
+    },
+    {
+      "page": 8,
+      "display": "+7.3%",
+      "present": true,
+      "basis": "CPU_growth_normalizes_2031 actualdated priceCAGR"
+    }
+  ],
+  "all_numerical_checks_passed": true,
+  "interpretive_review": [
+    "The temporary shipment stress clearly conditions on restoration of base absolute2028units, retainscapex and does not recover2027missedrevenue. A36.4%2028catch-up is an additionalexecution assumption, not automatic.",
+    "The manufacturing recovery delay holds productdeliveries fixed and delaysfactoryprofit. Its restored2031continuation\u2014not a general assurance that delays are harmless\u2014explains the smalltargeteffect. Caption identifies that restoration.",
+    "The early35%case is explicitly retained productprofit atbase sales, not a falsely labeled10%ASPcut.",
+    "The3%growthcase means CPUrevenue, withinvestment responding. Prefer table wordingCPUrevenuegrowth to prevent confusing units withrevenue.",
+    "The92.3%value is correctly datedDecember2026andusesoperatingvalue. It is not beingcompared directly to unequalwinnerterminalshares.",
+    "The41.1%versus48.5%numbers are conditional solutions, notuniquelyidentifiedmarketexpectations;56daymismatch disclosed.",
+    "Currentbasehas noclearcurrentvaluationdiscount. Revisedheadline stateslittle roomtomiss, rather thanclaiming49%presentundervaluation.",
+    "Downsidecasesareconditionalandnotaddedtogether. Near-datejointvalue30.45andpotentiallargerlosses prevent2030endpointbeingpresentedaslossfloor."
+  ],
+  "requested_wording_fixes": [
+    {
+      "page": 7,
+      "existing": "Base path: 6.0% CAGR",
+      "replacement": "2030\u201340: 6.0% CAGR",
+      "reason": "The6.04%is2030\u20132040CAGR; cashafter2040grows3%."
+    },
+    {
+      "page": 8,
+      "existing": "CPU growth becomes 3% from 2031",
+      "replacement": "CPU revenue grows 3% from 2031",
+      "reason": "Clarifyrevenue, notunitgrowth. Existingbodycaptionisalreadycorrect."
+    }
+  ],
+  "visual_review": "Renderedpages4/7/8inspectedat1.5x: no clippedtext, inconsistenttablesorunreadablesourceblockfound. Densefootertextremainsasdefinitionalnotesratherthancoreargument.",
+  "frozen_models_edited": false
+}

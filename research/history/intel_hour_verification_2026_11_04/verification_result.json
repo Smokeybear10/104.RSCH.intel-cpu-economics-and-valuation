@@ -1,0 +1,89 @@
+{
+  "status": "Completed requested full-hour verification, independent reviews, corrected working PDF and final QA",
+  "start_utc": "2026-11-04T22:34:02+00:00",
+  "minimum_end_utc": "2026-11-04T23:34:02+00:00",
+  "updated_utc": "2026-11-04T23:31:03.451469+00:00",
+  "owned_judgment": {
+    "recommendation": "Retain qualified valuation-led Intel SHORT as working competition thesis. Moderate investment conviction; credible and potentially competitive after correction.",
+    "thesis": "A substantial CPU and manufacturing recovery can still offer insufficient compensation for capital requirements and business risk at the reference quote.",
+    "confidence_in_arithmetic": "High within the stated model; independently reproduced corrected valuations and cash identities.",
+    "confidence_in_forecasts": "Moderate. Operating and discount assumptions are reasoned, not identified future facts.",
+    "confidence_in_winning": "Not calibrated. No entry-pool, scoring distribution or observed personal-defense evidence supports numerical odds, a guarantee or a90%claim.",
+    "confidence_in_absolute_short_profit": "Not established by the selected conditional value path. Do not equate negative present NPV with assured unhedged short gains.",
+    "readiness": "Corrected four-page working investment review, not sent or represented as organizer-approved."
+  },
+  "current_values": {
+    "date": "2026-12-31 conditional planning value",
+    "reference_quote": {
+      "date": "2026-11-04 close",
+      "USD": 58.28
+    },
+    "central_flat_11_555": 46.95806228358314,
+    "central_maturing_risk": 53.77047718436613,
+    "more_productive_maturing": 60.904556241770315,
+    "weak_demand_flat": 35.826155,
+    "central_end2030_flat": 70.97777530967525,
+    "date_limit": "Year-end values use forecast Q4 cash; comparison with Nov4 spot has57day difference."
+  },
+  "new_material_corrections": [
+    "Matched NYU November Treasury is4.94%, not stale homepage5.29%; retained beta1.50 and published ERP4.41 imply11.555%.12% remains plausible sensitivity, not uniquely correct source-derived central.",
+    "PDF sales label replaced with actual model Intel Products revenue; old external_revenue_B mixes scopes and is not fully reconciled consolidated revenue.",
+    "Merchant-wafer increment explicitly added to central OPERATING case with maturing risk53.77, notflat central46.96.",
+    "Oracle150,000CPU figure labeled announced rollout, not completed installation."
+  ],
+  "new_verification": [
+    "Matched peer beta and ERP-method controls; all54corrected valuations independently reproduced.",
+    "TSMC historical multiyear cash-capital comparisons across pre-AI and AI windows, including low2016-19control.",
+    "Funded merchant-wafer cohort and growth/risk-maturation controls.",
+    "Joint weaker CPU demand, pricing and delayed capital cuts, with unchanged initial funding and independently checked treasury/credits.",
+    "Historical public FCF classification verified against2025andQ32026TTM;2027forecastgap remains unmatched, not established surprise.",
+    "Original production/benchmark studies and buyer Vera evidence; no CPU-latency-to-TAM shortcut.",
+    "Official rules and actual winning stock pitches compared; no invented catalyst, hedge, exact-consensus or all-sensitivities-must-agree gates."
+  ],
+  "source_quality_limits": [
+    "Quarterly statements and technical benchmarks are not long-run cash forecasts.",
+    "Statistical betas are sample-sensitive and do not establish a hard risk-rate floor.",
+    "Hypothetical wafer program is not a confirmed customer revenue forecast.",
+    "No new numerical ranking of Intel versus SpaceX was produced in this bounded verification pass."
+  ],
+  "artifact": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "b8070751fdd60b15c3125ed6c23d1463486b3ebab855c404e12e56b75d9285de",
+    "pages": 4,
+    "submitted": false,
+    "qa": {
+      "pages": 4,
+      "all_pages_rendered_and_visually_inspected": true,
+      "layout_defects_observed": false,
+      "source_hyperlinks": 12,
+      "source_model_unchanged": true,
+      "old_text_removed_from_PDF_content_stream": true,
+      "key_numbers": [
+        "$58.28",
+        "$46.96",
+        "$53.77",
+        "$60.90",
+        "$35.83",
+        "$64.15",
+        "$70.98",
+        "11.555%",
+        "10.055%",
+        "10.18%",
+        "4.94%",
+        "4.41%",
+        "0.66",
+        "0.73",
+        "0.36",
+        "$4.20"
+      ],
+      "initial_PDF_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/intel_working_thesis_review_before_hour.pdf",
+      "final_verified_utc": "2026-11-04T23:34:21.890281+00:00"
+    }
+  },
+  "frozen_model_preserved": {
+    "path": "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+    "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+  },
+  "completed_utc": "2026-11-04T23:34:21.890281+00:00",
+  "elapsed_wall_minutes": 60.331504683333335
+}

@@ -1,0 +1,41 @@
+{
+  "frozen_utc": "2026-11-04T22:49:19.542727+00:00",
+  "status": "Frozen before calculating new outputs; diagnostic, not selected forecast or probability model",
+  "question": "Does plausible weaker CPU recovery still create material downside after allowing capital cuts and working-capital relief, while retaining early committed investment?",
+  "policy": {
+    "server_unit_growth_2027_2030": [
+      0.1,
+      0.15,
+      0.12,
+      0.08
+    ],
+    "server_ASP_growth_2027_2030": [
+      0.1,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "client_and_other_DCAI": "Unchanged; this isolates server demand/mix rather than stacking all possible bearish shocks.",
+    "cash_capex_delta_2027_2030_B": [
+      0,
+      -2,
+      -3,
+      -3
+    ],
+    "capital_logic": "2027 physical capital stays funded despite weaker revenue;2028 onward cuts are limited and lagging.19.6Bexistingcommitments and3.3Bsubstratefundingarecontainedinexistingcashbudget,notadded. These constraints do not legally establish chosenbudgets.",
+    "decremental_group_EBIT_retention": "50%ofserverrevenuedelta2027-30;fade linearly to35%by2040 andhold. Includesvariablecosts,fixed-costabsorptionandcostresponsesonce;noadditionalFoundrylossstack. This is an owned stress assumption, not observedfuturemargin.",
+    "early_depreciation": "Each cutcapitalcohort8yearlife withhalfyearconvention;adjustEBITbynegativeDAchangeandDAaddbackbyDAchange.",
+    "post2030_growth": "Retainbaselinegrowthratesonlower2030serverlevel.",
+    "post2030_capital": "Retain.80incrementalsales/netcapital;newhostDAequalsbaselineDAfractionofProducts\u00d7newProducts. Preservepackaging. Hostgrosscapex=DA+salesgrowth/.80\u2212WCchange.",
+    "working_capital": "Retainexistingcombinedadvance/nettradeenvelope plus10%ofthechangeinserverrevenuedelta;prepaymentsnotchargedtwiceandnoassumedfullrecoveryofoldadvances.",
+    "new_AMIC": "2028-30eligiblebasisreducedproportionatelytocaphostcutsusingoldeligiblebasis/oldhostphysicalcapital. One-yearcashcreditlagand21%originyearbasis-lossadjustmentpreserved. Noextraorperpetualcredit.",
+    "other": "NCI,leases,otherassets,claims,debtprincipal,andinitialcashunchanged. Recomputeclosingcashfromchangedownercash;negativecashrequiresflaggingunfundedscenario.",
+    "risk": "Usecorrectedflat11.555%asdiagnosticonly;nodemandcaseprobabilityorautomaticextradiscountratepremium.",
+    "interpretation": "Jointdemand/pricing/capitalresponsecontroladdsmissingdownside,doesnotestablishthatitismorelikelythansectorupcycleorjustifyforcingSHORT."
+  },
+  "primary_context": {
+    "Intel_Q3": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "Intel_prepared_remarks": "https://www.intc.com/financial-info/financial-results"
+  },
+  "source_distinction": "Filinganchorscommitmentstickiness;exactgrowth,decrementalmarginandcapexcutsarejudgments.Nopublicsourcequantifiestheseoutcomes."
+}

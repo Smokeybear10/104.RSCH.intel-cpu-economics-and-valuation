@@ -1,0 +1,29 @@
+{
+  "recordCount": 1,
+  "truncated": false,
+  "metadata": {
+    "revision": "ggb4d4",
+    "target": {
+      "id": "wb/wa5zyy",
+      "beforeLines": 0,
+      "afterLines": 0
+    },
+    "kind": {
+      "requested": "table",
+      "tokens": [
+        "table"
+      ]
+    },
+    "include": {
+      "requested": "values,formulas",
+      "tokens": [
+        "values",
+        "formulas"
+      ]
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  }
+}

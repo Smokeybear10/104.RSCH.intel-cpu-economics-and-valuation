@@ -1,0 +1,7 @@
+{
+  "frozen_utc": "2026-11-05T23:08:46.401114+00:00",
+  "scope": "Conditional discount-rate identification at current52.22quote using unchanged40%maturemargin and all current operating/treasury assumptions. No prospective ratechange, customer award, probability or valueupgrade.",
+  "method": "Solve constant operating/APV rate soDec312026planning equity value equals52.22. Same rate convention applies to operatingcash and separatefinancingtaxshield as frozenbase. Preserve3%operatinggrowth andzero-growthfinancingtaxshield.",
+  "date_limit": "Nov52026quote precedesDec31planning valuation56days. This is a planning-framework implied rate, not an exactNov5market-implied operating cost; fullQ4cash and financing stub needed for alignedquote-datevalue.",
+  "hurdle": "10.0345%basefuturepricereturn is conditional on achievingbase. It is not probability-weightedexpectedreturn. Assetdiscount11.555%cannot be directly treated as equityrequiredreturn because cash/debt/claims and horizons differ."
+}

@@ -1,0 +1,243 @@
+{
+  "computed_utc": "2026-11-04T11:01:13.966520+00:00",
+  "scope": "One finite 2027\u20132030 product-to-owner-cash forecast. Policies selected before cash results. No enterprise value, share-price target, Gordon multiple, probability, full financing solve or project switch.",
+  "units": "USD billions except explicit per-share diagnostics.",
+  "source_hashes": {
+    "cash_conversion_policy_2026_11_04.json": "cadc8a93f26ea92e9d9539c064c2ca12533fa34a649f06be23c0bff875dc9fc4",
+    "product_operating_forecast_2026_11_04.json": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d",
+    "corporate_other_policy.json": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a",
+    "foundry_operating_policy.json": "fd17c6573519d6b2db78b9defa51bceb479b690a085aef90d5bc9f48fe855a81",
+    "q3_actual_cash_conversion_bridge.json": "e0fb48a74226f626f2c4fff4d5591631901ad3daac41cfc251879eb8d08e4733"
+  },
+  "formulas": {
+    "EBIT": "Products operating profit + Foundry operating profit + Other operating profit - corporate expense + intersegment operating elimination.",
+    "cash_tax": "15% * max(0, EBIT - ordinary cash interest excluding capitalized interest + cash interest income).",
+    "pre_incentive_owner_cash": "EBIT + normalized total D&A - ordinary cash interest + cash interest income - ordinary cash income tax - working-capital cash use - total cash PPE - finance-lease principal - minority-owner cash reserve.",
+    "collection_overlay": "Add the separately selected realization of previously recognized capital-tax receivables; total selected pool is8B, no new accrual or perpetual benefit.",
+    "SBC_check": "Accounting-like CFO proxy adds recurring SBC once; remove exactly that addback before computing economic owner cash. Starting EBIT already charges it.",
+    "per_share": "Divide by5.44B guided current diluted shares only as a fixed-claims diagnostic, not a future legal share-count forecast."
+  },
+  "annual_rows": [
+    {
+      "year": 2027,
+      "consolidated_operating_profit_bridge_B": {
+        "CCPG_profit": 6.852863952000001,
+        "DCAI_profit": 14.119342320000001,
+        "Products_profit": 20.972206272,
+        "Foundry_profit": -5.5,
+        "Other_profit": 0.7,
+        "corporate_expense": 4.5,
+        "intersegment_elimination": 0,
+        "consolidated_EBIT_after_recurring_SBC": 11.672206272
+      },
+      "cash_conversion_B": {
+        "consolidated_EBIT_after_recurring_SBC": 11.672206272,
+        "total_normalized_DA_addback": 13.5,
+        "ordinary_cash_interest_excluding_capitalized_interest": 1.6,
+        "cash_interest_income": 1,
+        "ordinary_cash_income_tax_before_capital_incentive_collections": 1.6608309408000002,
+        "cash_working_capital_use_including_supplier_advances": 5,
+        "economic_operating_cash_before_capital_after_SBC": 17.9113753312,
+        "accounting_like_CFO_proxy_with_SBC_addback": 20.5113753312,
+        "SBC_addback_removed_for_owner_cash": 2.6,
+        "total_cash_PPE": 28,
+        "finance_lease_principal": 1,
+        "minority_owner_cash_reserve": 1.1,
+        "pre_capital_incentive_owner_cash_proxy": -12.188624668800001,
+        "existing_capital_tax_receivable_collection_overlay": 3,
+        "owner_cash_proxy_including_limited_receivable_collection": -9.188624668800001,
+        "remaining_selected_receivable_pool": 5.0
+      },
+      "per_5_44B_fixed_guided_shares_diagnostic": {
+        "pre_incentive_owner_cash_USD_per_share": -2.240556005294118,
+        "including_limited_collection_USD_per_share": -1.6890854170588236
+      },
+      "cumulative_2027_onward_B": {
+        "pre_incentive_cash": -12.188624668800001,
+        "selected_receivable_collections": 3,
+        "cash_including_selected_collection": -9.188624668800001,
+        "cumulative_deficit_if_negative_before_incentives": 12.188624668800001,
+        "cumulative_deficit_if_negative_with_collections": 9.188624668800001
+      },
+      "checks_B": {
+        "SBC_cash_bridge_error": 0.0,
+        "product_profit_identity": 0.0,
+        "corporate_cost_identity": 0.0
+      }
+    },
+    {
+      "year": 2028,
+      "consolidated_operating_profit_bridge_B": {
+        "CCPG_profit": 7.9623326863080015,
+        "DCAI_profit": 18.2321441232,
+        "Products_profit": 26.194476809508004,
+        "Foundry_profit": -3.5,
+        "Other_profit": 0.7,
+        "corporate_expense": 4.7,
+        "intersegment_elimination": 0,
+        "consolidated_EBIT_after_recurring_SBC": 18.694476809508004
+      },
+      "cash_conversion_B": {
+        "consolidated_EBIT_after_recurring_SBC": 18.694476809508004,
+        "total_normalized_DA_addback": 15.5,
+        "ordinary_cash_interest_excluding_capitalized_interest": 1.6,
+        "cash_interest_income": 1,
+        "ordinary_cash_income_tax_before_capital_incentive_collections": 2.7141715214262003,
+        "cash_working_capital_use_including_supplier_advances": 4,
+        "economic_operating_cash_before_capital_after_SBC": 26.8803052880818,
+        "accounting_like_CFO_proxy_with_SBC_addback": 29.6803052880818,
+        "SBC_addback_removed_for_owner_cash": 2.8,
+        "total_cash_PPE": 30,
+        "finance_lease_principal": 1,
+        "minority_owner_cash_reserve": 1.1,
+        "pre_capital_incentive_owner_cash_proxy": -5.2196947119182,
+        "existing_capital_tax_receivable_collection_overlay": 3,
+        "owner_cash_proxy_including_limited_receivable_collection": -2.2196947119181996,
+        "remaining_selected_receivable_pool": 2.0
+      },
+      "per_5_44B_fixed_guided_shares_diagnostic": {
+        "pre_incentive_owner_cash_USD_per_share": -0.9595027043967278,
+        "including_limited_collection_USD_per_share": -0.4080321161614337
+      },
+      "cumulative_2027_onward_B": {
+        "pre_incentive_cash": -17.4083193807182,
+        "selected_receivable_collections": 6,
+        "cash_including_selected_collection": -11.4083193807182,
+        "cumulative_deficit_if_negative_before_incentives": 17.4083193807182,
+        "cumulative_deficit_if_negative_with_collections": 11.4083193807182
+      },
+      "checks_B": {
+        "SBC_cash_bridge_error": 0.0,
+        "product_profit_identity": 0.0,
+        "corporate_cost_identity": 0.0
+      }
+    },
+    {
+      "year": 2029,
+      "consolidated_operating_profit_bridge_B": {
+        "CCPG_profit": 9.196771635601706,
+        "DCAI_profit": 21.597370951905,
+        "Products_profit": 30.794142587506705,
+        "Foundry_profit": -1.5,
+        "Other_profit": 0.7,
+        "corporate_expense": 4.9,
+        "intersegment_elimination": 0,
+        "consolidated_EBIT_after_recurring_SBC": 25.094142587506703
+      },
+      "cash_conversion_B": {
+        "consolidated_EBIT_after_recurring_SBC": 25.094142587506703,
+        "total_normalized_DA_addback": 17.5,
+        "ordinary_cash_interest_excluding_capitalized_interest": 1.6,
+        "cash_interest_income": 1,
+        "ordinary_cash_income_tax_before_capital_incentive_collections": 3.674121388126005,
+        "cash_working_capital_use_including_supplier_advances": 2,
+        "economic_operating_cash_before_capital_after_SBC": 36.3200211993807,
+        "accounting_like_CFO_proxy_with_SBC_addback": 39.3200211993807,
+        "SBC_addback_removed_for_owner_cash": 3.0,
+        "total_cash_PPE": 28,
+        "finance_lease_principal": 1,
+        "minority_owner_cash_reserve": 1.2,
+        "pre_capital_incentive_owner_cash_proxy": 6.120021199380697,
+        "existing_capital_tax_receivable_collection_overlay": 2,
+        "owner_cash_proxy_including_limited_receivable_collection": 8.120021199380698,
+        "remaining_selected_receivable_pool": 0.0
+      },
+      "per_5_44B_fixed_guided_shares_diagnostic": {
+        "pre_incentive_owner_cash_USD_per_share": 1.125003896944981,
+        "including_limited_collection_USD_per_share": 1.4926509557685106
+      },
+      "cumulative_2027_onward_B": {
+        "pre_incentive_cash": -11.288298181337503,
+        "selected_receivable_collections": 8,
+        "cash_including_selected_collection": -3.2882981813375025,
+        "cumulative_deficit_if_negative_before_incentives": 11.288298181337503,
+        "cumulative_deficit_if_negative_with_collections": 3.2882981813375025
+      },
+      "checks_B": {
+        "SBC_cash_bridge_error": 0.0,
+        "product_profit_identity": 0.0,
+        "corporate_cost_identity": 0.0
+      }
+    },
+    {
+      "year": 2030,
+      "consolidated_operating_profit_bridge_B": {
+        "CCPG_profit": 10.40194803616829,
+        "DCAI_profit": 24.328547058596914,
+        "Products_profit": 34.7304950947652,
+        "Foundry_profit": 0.0,
+        "Other_profit": 0.7,
+        "corporate_expense": 5.15,
+        "intersegment_elimination": 0,
+        "consolidated_EBIT_after_recurring_SBC": 30.280495094765207
+      },
+      "cash_conversion_B": {
+        "consolidated_EBIT_after_recurring_SBC": 30.280495094765207,
+        "total_normalized_DA_addback": 19,
+        "ordinary_cash_interest_excluding_capitalized_interest": 1.6,
+        "cash_interest_income": 1,
+        "ordinary_cash_income_tax_before_capital_incentive_collections": 4.45207426421478,
+        "cash_working_capital_use_including_supplier_advances": 2,
+        "economic_operating_cash_before_capital_after_SBC": 42.22842083055043,
+        "accounting_like_CFO_proxy_with_SBC_addback": 45.42842083055043,
+        "SBC_addback_removed_for_owner_cash": 3.2,
+        "total_cash_PPE": 26,
+        "finance_lease_principal": 1,
+        "minority_owner_cash_reserve": 1.3,
+        "pre_capital_incentive_owner_cash_proxy": 13.928420830550426,
+        "existing_capital_tax_receivable_collection_overlay": 0,
+        "owner_cash_proxy_including_limited_receivable_collection": 13.928420830550426,
+        "remaining_selected_receivable_pool": 0.0
+      },
+      "per_5_44B_fixed_guided_shares_diagnostic": {
+        "pre_incentive_owner_cash_USD_per_share": 2.5603714762041223,
+        "including_limited_collection_USD_per_share": 2.5603714762041223
+      },
+      "cumulative_2027_onward_B": {
+        "pre_incentive_cash": 2.6401226492129233,
+        "selected_receivable_collections": 8,
+        "cash_including_selected_collection": 10.640122649212923,
+        "cumulative_deficit_if_negative_before_incentives": 0,
+        "cumulative_deficit_if_negative_with_collections": 0
+      },
+      "checks_B": {
+        "SBC_cash_bridge_error": 0.0,
+        "product_profit_identity": 0.0,
+        "corporate_cost_identity": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "2030_EBIT_B": 30.280495094765207,
+    "2030_pre_incentive_owner_cash_proxy_B": 13.928420830550426,
+    "cumulative_2027_2030_pre_incentive_owner_cash_B": 2.6401226492129233,
+    "cumulative_2027_2030_selected_receivable_collections_B": 8,
+    "cumulative_2027_2030_cash_including_collection_B": 10.640122649212923,
+    "largest_year_end_cumulative_deficit_pre_incentive_B": 17.4083193807182,
+    "largest_year_end_cumulative_deficit_including_collection_B": 11.4083193807182,
+    "first_positive_annual_pre_incentive_cash_year": 2029
+  },
+  "owned_cash_conversion_judgment": [
+    "The selected operating recovery produces substantially better accounting profit before it generates common-owner cash. Heavy tooling and supplier/working-capital funding absorb the early improvement; pre-incentive annual cash turns positive in2029 under these assumptions.",
+    "The selected2027\u201328 cash deficit is a funding use, not proof of insolvency or automatic equity issuance. Existing cash/investments, refinancing, partner contributions or revised spending can fund it; this exercise does not forecast those transactions or match intra-year maturities.",
+    "Collections of already recognized tax receivables improve the early cash trough but do not raise recurring operating earnings. Their selected8B total is a finite balance-sheet realization, not a recurring subsidy rate.",
+    "2030 cash improvement depends jointly on product growth, approximate Foundry breakeven and a modest capex taper while D&A rises. This is an execution-dependent recovery forecast, not a conservative floor.",
+    "Neither the2030 cash amount nor its gap to the separate34.27B immediate-perpetuity illustration determines a stock recommendation. Recovery may continue beyond2030; further growth requires explicit capital and claims assumptions."
+  ],
+  "remaining_scope_limits": [
+    "Future capital incentives are unestimated, not asserted zero. The pre-incentive line and limited collection overlay are not a complete statutory cash-tax or FCFE forecast.",
+    "The NCI reserve is an earnings-anchored approximation of cash belonging to minority owners; actual retention and distribution timing can differ. No additional NCI deduction or partner distribution is made.",
+    "No new partner/equity funding is credited. Debt net issuance is held at zero as a financing convention; ordinary interest and cash income are normalized rather than solved from a detailed treasury schedule.",
+    "Cash PPE includes financing-classified purchase payments and capitalized interest. Supplier commitments are contained in the combined capital/WC envelope and are not added again.",
+    "Existing capital-tax receivables, Secure Enclave share-linked cash and government contingent warrants are distinct. The selected collection overlay includes no escrow-share financing.",
+    "Classiq acquisition, other discretionary transactions, debt principal timing and a required minimum-cash reserve are not funding-model inputs here. Cumulative cash need is not a calibrated external-capital requirement.",
+    "D&A/inventory absorption and working-capital cash are normalized annual approximations, not a full asset-vintage or inventory rollforward."
+  ],
+  "checks": {
+    "source_hashes_unchanged": true,
+    "selected_receivable_pool_fully_used_once": true,
+    "no_stock_valuation_computed": true,
+    "no_new_operating_or_cash_assumptions_after_results": true,
+    "maximum_arithmetic_identity_error_B": 0.0
+  }
+}

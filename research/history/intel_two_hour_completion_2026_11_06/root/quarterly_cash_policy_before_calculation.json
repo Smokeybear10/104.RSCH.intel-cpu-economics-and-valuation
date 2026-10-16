@@ -1,0 +1,90 @@
+{
+  "selected_utc": "2026-11-06T06:58:03.478858+00:00",
+  "scope": "Quarterly timing bridge for the already-selected annual operating case; forecasts and timing conventions, not guidance. Annual totals unchanged.",
+  "calendar": "Calendar quarters; financial-year reporting dates may differ. Specific debt months are source-based.",
+  "revenue": {
+    "CPU_client": "Direct unit-index times ASP-index with selected quarterly drivers. Not physical chip counts.",
+    "Other_DCAI_weights": [
+      0.23,
+      0.24,
+      0.26,
+      0.27
+    ],
+    "Other_CCPG_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "legacy_external_Foundry_and_netOther_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "gross_and_shadow_packaging_weights": [
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ]
+  },
+  "profit": {
+    "CPU_and_CCPG": "50% contribution on quarter revenue less one-quarter of the annual retained-cost allowance; all OtherDCAI at20%. This timing allocation is not separately disclosed product-cost accounting.",
+    "Foundry_and_netOtherCorporate_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "packaging_profit_weights": [
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ],
+    "tax": "Annual ordinary tax allocated by positive quarterly groupEBIT; no interim tax refund credited. Financing shield allocated equally, within positive annual tax capacity."
+  },
+  "investment": {
+    "physical_capex_weights": [
+      0.3,
+      0.25,
+      0.25,
+      0.2
+    ],
+    "DA_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "WC_cash_use_weights": [
+      0.35,
+      0.3,
+      0.2,
+      0.15
+    ],
+    "reason": "Front-loaded cash investment and inventory allowance for the supply ramp. Selected to expose interim funding, not sourced construction invoicing. WC includes grant receivables; no second grant charge.",
+    "lease_and_NCI_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "old_and_new_credit_cash_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "credit_basis_loss_tax_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  "treasury": "Use sourced-calendar base: principal exactmonth; ordinaryinterest,capitalizedinterest,cashincome,escrow uniform;Classiq1.9B Q22027 and0.35B Q42028 analysttiming.",
+  "concentrated_timing_stress": "Use agent earlyoutflow/latereceipt calendar; shift all annual new/old creditcash toQ4 and physicalcapexweights40/30/20/10. Sameannualcash, noextra economiccharge.",
+  "boundary": "Quarter-end cash sufficiency is not proof of daily liquidity or unrestricted legal access. No dividends,buybacks,newdebt,insuranceornewpartnerfunding."
+}

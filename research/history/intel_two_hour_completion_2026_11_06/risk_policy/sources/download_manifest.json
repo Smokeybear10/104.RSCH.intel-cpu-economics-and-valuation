@@ -1,0 +1,102 @@
+[
+  {
+    "file": "ERPNov26.xlsx",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPNov26.xlsx",
+    "retrieved_utc": "2026-11-06T07:42:08.954933+00:00",
+    "status": 200,
+    "bytes": 1855255,
+    "sha256": "919b7cc8e99dfb3ca7cbac17407fa1cb39070691b634c9a3e5699bfb2e953d9f"
+  },
+  {
+    "file": "ERPbymonth.xlsx",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPbymonth.xlsx",
+    "retrieved_utc": "2026-11-06T07:42:08.707041+00:00",
+    "status": 200,
+    "bytes": 47651,
+    "sha256": "dbada71c8bcd309c8199c49540d17c9d943cf238e29a7effb7aef508829b6288"
+  },
+  {
+    "file": "treasury_nov5_2026.html",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+    "retrieved_utc": "2026-11-06T07:42:09.519084+00:00",
+    "status": 200,
+    "bytes": 1363972,
+    "sha256": "069beaee76173766108ce6d5bc6d7c907fe08f6e8f48a9ec75bd36127710c878"
+  },
+  {
+    "file": "kroll_sept8_2026.html",
+    "url": "https://www.kroll.com/en/publications/valuation/kroll-assesses-effect-us-monetary-fiscal-policies",
+    "retrieved_utc": "2026-11-06T07:42:08.641256+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "kroll_latest_recommendations.html",
+    "url": "https://www.kroll.com/en/reports/cost-of-capital/recommended-us-equity-risk-premium-and-corresponding-risk-free-rates",
+    "retrieved_utc": "2026-11-06T07:42:08.637720+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "nyu_bottom_up_beta.html",
+    "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/TenQs/TenQsBottomupBetas.htm",
+    "retrieved_utc": "2026-11-06T07:42:08.720148+00:00",
+    "status": 200,
+    "bytes": 11453,
+    "sha256": "1d309567258ef18e23f51257aecd5d042c1a973a8c2e0c66afb798dd77ed7fde"
+  },
+  {
+    "file": "nyu_apv.html",
+    "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/apv.htm",
+    "retrieved_utc": "2026-11-06T07:42:08.737557+00:00",
+    "status": 200,
+    "bytes": 39691,
+    "sha256": "9e1fce6dc72bd75bbfc652a877f1618e04dae5860ab1ed02892058cb874271e8"
+  },
+  {
+    "file": "kroll_current_policy_sept2026.pdf",
+    "url": "https://edge.sitecorecloud.io/krollllc17bf0-kroll6fee-proda464-0e9b/media/cost-of-capital/kroll-cost-of-capital-recommendations-updated-to-use-spot-risk-free-rates-september-2026.pdf",
+    "retrieved_utc": "2026-11-06T07:46:30.780518+00:00",
+    "status": 200,
+    "bytes": 150516,
+    "sha256": "e00ec2dbfa06411a3f1b323c4fc916311f3687af034c9758de1232e9607bf489"
+  },
+  {
+    "file": "kroll_historical_rate_table_sept2026.pdf",
+    "url": "https://edge.sitecorecloud.io/krollllc17bf0-kroll6fee-proda464-0e9b/media/cost-of-capital/kroll-us-erp-rf-and-corresponding-risk-free-rates-2026.pdf",
+    "retrieved_utc": "2026-11-06T07:46:30.780994+00:00",
+    "status": 200,
+    "bytes": 55307,
+    "sha256": "fed98f2aaacac43dfab83be545baedddbc372e7640a1092bdca7f82b124a8928"
+  },
+  {
+    "file": "nyu_us_sector_betas_jan2026.html",
+    "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html",
+    "retrieved_utc": "2026-11-06T07:46:30.781151+00:00",
+    "status": 200,
+    "bytes": 464334,
+    "sha256": "10993bab71504e2449ccdd9e3d67fa4da983bed380b2f4486e5200a7b258616b"
+  },
+  {
+    "file": "nyu_riskvalue.pdf",
+    "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/riskvalue.pdf",
+    "retrieved_utc": "2026-11-06T07:46:30.781240+00:00",
+    "status": 200,
+    "bytes": 1039941,
+    "sha256": "c8cd529c8f1677fc2ec247e428e8ce8c42c4df83e949801c32b082d264be91ab"
+  },
+  {
+    "file": "nyu_stablegrowth.html",
+    "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/stablegrowthrate.htm",
+    "retrieved_utc": "2026-11-06T07:46:30.781326+00:00",
+    "status": 200,
+    "bytes": 12700,
+    "sha256": "fe40f8cfb4a0b0e39932f0e55bd5451bc4b983b9ac3c671f01db8a82871b95ad"
+  },
+  {
+    "file": "nyu_terminal_excess_returns.html",
+    "url": "https://pages.stern.nyu.edu/adamodar/New_Home_Page/littlebook/terminalvalue.htm",
+    "retrieved_utc": "2026-11-06T07:46:30.781560+00:00",
+    "status": 200,
+    "bytes": 39969,
+    "sha256": "df175d070e0c1d91e07f9e32cc9e9036164533519fef1d88aeba16f3038770f4"
+  }
+]

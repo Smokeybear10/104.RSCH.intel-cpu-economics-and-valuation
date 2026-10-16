@@ -1,0 +1,98 @@
+{
+  "review_date": "2026-11-07",
+  "scope": "Visual QA of current rendered defense pages 1\u20138 only: readable text, footer count, clipping, overlap. No redesign or content re-audit.",
+  "method": "Direct visual inspection of all eight full-page PNG renders.",
+  "result": "pass",
+  "actual_defects": [],
+  "required_fixes": [],
+  "notes": [
+    "All eight pages display the correct n / 10 footer and the research-preparation exclusion footer.",
+    "Body text, headings, tables, hyperlinks, and footer text are readable in the supplied renders.",
+    "No clipped text, overlapping text, table overflow, footer collision, or off-page elements were observed.",
+    "Page 2 visibly contains the updated AMD Q3 prepared-remarks wording and source label; source accuracy was outside this visual check.",
+    "Page 6 is the fullest page reviewed, but its final source link remains clearly above the footer rule with no collision.",
+    "Main slides and defense pages 9\u201310 were left to the root reviewer as assigned."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "render": "tmp/pdfs/intel_long/adversarial_review/defense-01.png",
+      "sha256": "038a1443daa5991ff9b8ccc10ebdd06ec5408c5c5870e02ed7cc034f9cc8b4a9",
+      "footer": "1 / 10",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "footer_collision": false
+    },
+    {
+      "page": 2,
+      "render": "tmp/pdfs/intel_long/adversarial_review/defense-02.png",
+      "sha256": "ebc28542af8ccd734b63ebbf3fa739a6af3dd27c4bce3f871e7d7bde966409b8",
+      "footer": "2 / 10",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "footer_collision": false
+    },
+    {
+      "page": 3,
+      "render": "tmp/pdfs/intel_long/adversarial_review/defense-03.png",
+      "sha256": "eb01f96fe1bfc808dccec6147017eb1f9363af036827fe85c432a5f1248abe32",
+      "footer": "3 / 10",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "footer_collision": false
+    },
+    {
+      "page": 4,
+      "render": "tmp/pdfs/intel_long/adversarial_review/defense-04.png",
+      "sha256": "c65c3ef85ba6bf31eb72dda19da93ed99de5208b1f462dbc9fcdd9a554d014ae",
+      "footer": "4 / 10",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "footer_collision": false
+    },
+    {
+      "page": 5,
+      "render": "tmp/pdfs/intel_long/adversarial_review/defense-05.png",
+      "sha256": "51119b17ec48f532c06a096eeb0233339f11650efba18aa76ee935469133dac7",
+      "footer": "5 / 10",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "footer_collision": false
+    },
+    {
+      "page": 6,
+      "render": "tmp/pdfs/intel_long/adversarial_review/defense-06.png",
+      "sha256": "9ead595ee2f671f8564e9aa09bce8cb2240826ab32d1538f8a5d82e9e04ebf8b",
+      "footer": "6 / 10",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "footer_collision": false
+    },
+    {
+      "page": 7,
+      "render": "tmp/pdfs/intel_long/adversarial_review/defense-07.png",
+      "sha256": "f8da97ed5801b704395e37dd6d6c5aa876c1eca62aed39526ea6d3de2cdd0ee5",
+      "footer": "7 / 10",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "footer_collision": false
+    },
+    {
+      "page": 8,
+      "render": "tmp/pdfs/intel_long/adversarial_review/defense-08.png",
+      "sha256": "62bb6de39bc893d6a847aab13ca7aedff97ddb986146f0572b93b7b03af2ef04",
+      "footer": "8 / 10",
+      "readable": true,
+      "clipping": false,
+      "overlap": false,
+      "footer_collision": false
+    }
+  ]
+}

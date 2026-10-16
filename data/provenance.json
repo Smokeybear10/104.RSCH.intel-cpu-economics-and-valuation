@@ -1,0 +1,95 @@
+{
+  "scope": "Frozen reviewed inputs; original absolute paths retained inside metadata for provenance only. The portable CLI uses repository-relative data files.",
+  "files": [
+    {
+      "path": "data/active_case.json",
+      "original_relative_path": "work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+      "sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7"
+    },
+    {
+      "path": "data/cpu_ramp.json",
+      "original_relative_path": "work/three_hour/active_research/intel_weakness_repair_2026_11_06/cpu/cpu_ramp_results.json",
+      "sha256": "da0f7983a9cdedee6983225e0741529a061976423ca264cf815145d5df55b55c"
+    },
+    {
+      "path": "data/host_policy.json",
+      "original_relative_path": "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    {
+      "path": "data/packaging_policy.json",
+      "original_relative_path": "work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json",
+      "sha256": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+    },
+    {
+      "path": "data/quarterly_base.json",
+      "original_relative_path": "work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/owned_quarterly_cash_results.json",
+      "sha256": "3ea5c6fe2b84027655be3b1c2d1b13be81bba1cf0d874f42667f236c60759f89"
+    },
+    {
+      "path": "data/quarterly_policy.json",
+      "original_relative_path": "work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/quarterly_cash_policy_before_calculation.json",
+      "sha256": "36280437fdc7a30d2ac51528fa97fdd4f2342def0cc80e6257c3d1560126f3bc"
+    },
+    {
+      "path": "data/decision_policy.json",
+      "original_relative_path": "work/three_hour/active_research/intel_valuation_resolution_2026_11_06/root/price_and_decision_policy.json",
+      "sha256": "17befdc0af3bf445c448483d3532e3827b40d0fabb133868799c678573fb8a6c"
+    },
+    {
+      "path": "data/expected_results.json",
+      "original_relative_path": "work/three_hour/active_research/intel_defense_strengthening_2026_11_07/valuation/funded_cash_bridge_results.json",
+      "sha256": "af533b9d59c95cdbb4223be4b137269a9c0a9e5451d6a9cd86776ded08f0f725"
+    },
+    {
+      "path": "data/expected_mix_results.json",
+      "original_relative_path": "work/three_hour/active_research/intel_defense_strengthening_2026_11_07/cpu/carry_forward_math.json",
+      "sha256": "63c868dd672b5a60a07af9aed981fa046fec90eb705c3902a66db8892d1ee3a2"
+    },
+    {
+      "path": "artifacts/m37_intel_initial_screen.pdf",
+      "original_relative_path": "output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "82bd1581328c119f2ecf615e51dcbd83e1d267a3c5605b3f9e83f969c23460a2"
+    },
+    {
+      "path": "artifacts/m37_intel_defense_notes.pdf",
+      "original_relative_path": "output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "84af260b087f9ece29cbb4f5263e2ab9f87dac66e22188718c38487d5e673f6d"
+    },
+    {
+      "path": "artifacts/m37_intel_pitch_comparison.pdf",
+      "original_relative_path": "output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "eb7ee4116153ef4b7b0585fed3aacc5a86c0a67e63c8c3e5bc12b188d70f91cf"
+    },
+    {
+      "path": "artifacts/intel_revenue_to_cash_model.xlsx",
+      "original_relative_path": "outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+      "sha256": "4b502e452579d2c32b50adede9f058481c9d4b5a9ba0fc124cbce829cb1f86d4"
+    },
+    {
+      "path": "data/funding_policy.json",
+      "original_relative_path": "work/three_hour/active_research/intel_valuation_resolution_2026_11_06/claims/policy_before_calculation.json",
+      "sha256": "4003cf8e553cc8771cd5150bab4658db554c3badc4c5eb02bb549b6e996c53e8"
+    },
+    {
+      "path": "research/builders/build_initial_screen.py",
+      "original_relative_path": "tmp/pdfs/intel_long/build_initial_screen.py",
+      "sha256": "2a3d15b1e4aea8232e01e7005802b5db7a8714de99f0805a5c87ebbfad479fe9"
+    },
+    {
+      "path": "research/builders/build_model.mjs",
+      "original_relative_path": "tmp/spreadsheets/intel_completion/build_model.mjs",
+      "sha256": "0a04277356885aaf2832d1ea4754c2a4f3abb1dfc972a690375459c5d8a1d405"
+    },
+    {
+      "path": "research/history/workspace/tmp/pdfs/m37_submission_manifest.json",
+      "original_relative_path": "tmp/pdfs/m37_submission_manifest.json",
+      "sha256": "c8017105db40f4777ea854cb6eb6d45b988b5bf04930ab643e09bef749b32b60"
+    },
+    {
+      "path": "research/history/workspace/tmp/pdfs/intel_long/defense_strengthening_review/document_checks.json",
+      "original_relative_path": "tmp/pdfs/intel_long/defense_strengthening_review/document_checks.json",
+      "sha256": "cbfefea6e330eee49c305a9291b3c90fc3442b29dc82eaa0d653a3b4f5029973"
+    }
+  ]
+}

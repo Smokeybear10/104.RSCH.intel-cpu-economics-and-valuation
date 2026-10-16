@@ -1,0 +1,84 @@
+{
+  "completed_utc": "2026-11-06T22:48:49.734245+00:00",
+  "scope": "Incremental evidence search for a defensible increase in Intel cash forecasts or reduction in delivery risk; no pitch, workbook, active forecast, price target, or model changes.",
+  "conclusion": "No new primary-confirmed Intel-specific quantity, realized price, package yield, CPU standalone profit, or customer purchase minimum was found that warrants raising the current cash forecast. The new useful work is cross-forecast reconciliation and a precise catalyst decision rule. More supply commitments are not themselves free cash or pricing power.",
+  "fresh_inspection_new_to_this_pass_but_not_new_public_information": [
+    {
+      "id": "AMD_Q3_commitments_quantified",
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm",
+      "date": "2026-11-04",
+      "locator": "Note 11, printed pp20-21; MD&A Data Center p28",
+      "status": "Exact amounts newly extracted for this pass; the Nov4 addendum had already inspected this filing and noted supply obligations generally. Not a new disclosure.",
+      "facts": {
+        "2027_unconditional_purchase_commitments_B": 22.206,
+        "total_unconditional_purchase_commitments_B": 48.761,
+        "2027_additional_cloud_compute_commitments_B": 1.419,
+        "additional_cloud_compute_commitments_total_B": 6.175
+      },
+      "meaning": "The competing supplier is making material supply and ecosystem commitments, which is firmer activity than a TAM forecast alone.",
+      "limits": [
+        "Purchase commitments aggregate wafers, substrates, memory, assembly/testing, internal cloud compute, licenses and services. No CPU-only allocation or delivered package count is stated.",
+        "Additional cloud capacity commitments are maxima reducible as third parties buy capacity; not CPU end-demand.",
+        "Do not count AMD spending as Intel revenue, use it to derive Intel share, or add it to a market dollar TAM."
+      ],
+      "valuation_effect": "No justified change to Intel revenue, margin, capital productivity or valuation. It argues against assuming competitor supply is static."
+    }
+  ],
+  "lead_rechecked_not_admitted_as_new_evidence": {
+    "claim": "AMD Q3 call discusses roughly doubling 2027 server CPU revenue, chiefly units/core count with lesser ASP contribution, and says AMD expects share gains in traditional cloud/enterprise, agents, and head nodes.",
+    "official_event": "https://ir.amd.com/news-events/ir-calendar/detail/20261103-amd-fiscal-third-quarter-2026-financial-results",
+    "official_audio": "https://edge.media-server.com/mmc/p/3p98okid/",
+    "published_first_person_transcripts": [
+      "https://stockanalysis.com/stocks/amd/transcripts/724028-q3-2026/",
+      "https://longbridge.com/en/news/304179083"
+    ],
+    "locator": "Lisa Su responses to Timothy Arcuri, CJ Muse, Joe Moore; StockAnalysis lines284-317 and397-404",
+    "prior_record": "work/three_hour/active_research/intel_competition_screen_2026_11_04/amd_cpu_counterfactual_addendum_2026_11_04.json",
+    "verification_limit": "The issuer index still has no Q3 transcript. The official webcast returned authentication_required=true with name/email/company registration. No registration, listening, ASR, or audio verification was completed. Third-party hosts quote the same event and do not provide independent economic confirmation.",
+    "new_work": "cross_forecast_reconciliation.json supplies a conditional reconciliation; the underlying unverified lead was already noted Nov4."
+  },
+  "previously_known_excluded_from_new_findings": [
+    "Ireland 2027 output-doubling aim and EUR5B investment",
+    "Oregon Intel3 in H2 2027 and ~40% substrate capacity concentrated in H2",
+    "Intel3 costs down15% and Intel18A down40% since Q1, already in reported economics",
+    "Intel Q3 $5.3-6.1B substrate arrangements, $3.3B cash by end2027, $1.7B received customer deposits",
+    "Google and Oracle multiyear relationships with no public unit minimum, realized fee, Intel allocation, or cancellation protection",
+    "AT&S Nov5, Ibiden demand/load, Shinko FY2028 conversion",
+    "Arm Q2 FY2027, OCI AGI roadmap, Meta/Graviton and existing public cloud comparison evidence",
+    "Q1-Q3 Intel ASP, unit and CPU-residual calculations; conditional Q4 carryover; H1/H2 revenue milestones"
+  ],
+  "search_limits": [
+    "No public absolute Intel3 wafer-start, good-die or qualified finished-CPU schedule matched to the forecast.",
+    "No observed sequential realized price per identical CPU, complete cores-per-package mix series, or customer-specific price duration.",
+    "No matched 2028-2030 unit-share/ASP series or customer purchase minimum supports the exact $60.07B endpoint.",
+    "Product/rack benchmark claims can support customer value but cannot identify retained supplier profit.",
+    "Negative search result is bounded, not proof no contract exists."
+  ],
+  "catalyst_policy": [
+    {
+      "window": "Next Q4 2026 results and Q1 2027 outlook, expected reporting sequence, not an announced date",
+      "observe": "DCAI less Other; total cash spend, supplier prepayments and updated 2027 capacity/capex schedule.",
+      "model_threshold": "Current Q4 CPU allocation6.812B; actual results replace this estimate rather than preserving its carryover.",
+      "valuation_consequence": "Re-anchor the full quarterly path and cash schedule. A claimed recovery from Fab28 must not be added if already present in the new starting point."
+    },
+    {
+      "window": "H1 2027 results, within roughly9 months",
+      "observe": "H1 CPU residual and separately disclosed units/ASPs; gross/group profit after Foundry; customer deposits versus new supply prepayments.",
+      "model_threshold": "H1 CPU14.108B. A5% miss leaves13.402B and raises H2 required revenue to18.337B (+36.8% vsH1).",
+      "valuation_consequence": "No automatic catch-up: lower absolute revenue level unless Intel-specific qualified supply and same-customer demand support recovery. Existing one-quarter-delay stress prices this risk."
+    },
+    {
+      "window": "H2 2027 ramp, within roughly15 months",
+      "observe": "Oregon/Ireland production milestone plus qualified substrate/package output and reported CPU residuals; revenue alone does not establish volume.",
+      "model_threshold": "Q3 CPU8.266B and Q4 9.365B; H2 total17.631B,18.3% units and5.6% weighted ASP aboveH1 within the owned model.",
+      "valuation_consequence": "A factory opening or tool delivery is insufficient. Promote delivery confidence only if shipped economics support the annual totals."
+    },
+    {
+      "window": "Full-year2027 andQ1 2028 reporting, within roughly18 months",
+      "observe": "Foundry EBIT improvement net of the disclosed period-charge bridge, group EBIT/cash and 2028 capex commitments; same-definition CPU ASP/volume as supply expands.",
+      "model_threshold": "2027 Foundry loss4.0B; 2028 CPU42.848B requires25% annual units and8% ASP. Exact annual CPU total must use the active file if rounded values change.",
+      "valuation_consequence": "Meeting a near-term sales milestone validates an early period, not2031-2040 growth or terminal ROC. Do not automatically raise terminal value or reduce discount rate."
+    }
+  ],
+  "proposed_pitch_consequence": "Use these as a short catalyst-to-estimate table or defense policy. The valuation cushion cannot be repaired by restating known demand evidence or by changing the meaning of forecasts into secured revenue."
+}

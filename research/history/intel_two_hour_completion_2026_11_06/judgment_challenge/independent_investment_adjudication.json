@@ -1,0 +1,177 @@
+{
+  "saved_utc": "2026-11-06T16:33:02.786725+00:00",
+  "reviewer": "Independent fresh comparative reader",
+  "scope": "Current November 6 screen, defense, exact favorable control, reverse-growth policy, current primary evidence, and previously independently reviewed WMS/JBI pitch standards. No PDF, builder or model edits; no outreach; no paid experiments.",
+  "duration_boundary": "Work occurred in several active research blocks separated by an apparent environment wall-clock gap. No duration claim is made and the gap is not counted as research.",
+  "current_pdf_sha256": {
+    "output/pdf/m37_intel_initial_screen.pdf": "8c84a53e2f81d8b090c878a4d0df6c635303f32af379d5b3b52597b3d283bd5c",
+    "output/pdf/m37_intel_defense_notes.pdf": "8131067455417de528f6225714c8f0aaeda0f6f4feca66d620baccdb6efb2b8e"
+  },
+  "verdict": {
+    "recommendation": "Do not promote the entire favorable control to the central actionable LONG solely because it clears a return target. A favorable CPU regime is a reasonable central candidate, not a disproven upside fantasy. Current evidence supports recovery more strongly than it establishes an attractive purchase edge at the stated entry; my independent judgment remains restraint, not an automatic SHORT.",
+    "main_reason": "The most consequential uncertainty is how long CPU demand translates into Intel revenue and retained consolidated profit after capacity normalizes. Actual adoption, richer mix and node learning support a regime change. They do not select the full faster-delivery and longer-duration bundle sufficiently to make its narrow current-value advantage robust.",
+    "fairness_to_bull": "Selected YTD margin and immediate post-2030 normalization are owned judgments, not established truth. Recent pooled margin can reasonably be more representative during a product transition. A nine-to-thirteen-percent later revenue hurdle is not inherently impossible against current industry forecasts. No binding ten-year contract or precise forecast probability is required.",
+    "competition_implication": "A no-view research revision is honest interim work but is not the clear long/short recommendation M37 requests. That submission issue should be resolved through an owned investment judgment, not by treating arithmetic audits as evidence for one recommendation."
+  },
+  "strongest_positive_mechanism": {
+    "argument": "New Xeon generations offer customers useful performance, memory and software economics. Deployed cloud products and multigeneration relationships support continuing sales; richer configurations and improved manufacturing costs can raise profit as Intel ships constrained demand. This can work without an external-wafer breakthrough.",
+    "why_more_than_a_story": "The chain has current customer deployments, reported product profit and disclosed node cost improvements. It is stronger than a generic AI TAM claim or a claim that the stock fell too far.",
+    "remaining_inference": "Supplier capture must persist after buyers have more available choices. Product margin and Foundry economics must be reconciled at the consolidated level."
+  },
+  "strongest_counterargument": {
+    "argument": "The customer benefit can be real while Intel shareholder returns disappoint. New processors do more work per core; IPUs offload CPU tasks; customers deploy competing architectures; fabrication and packaging consume capital. A larger workload pool can coexist with slower unit growth, lower revenue share, and weaker cash retained per dollar of sales.",
+    "why_fair": "This does not deny CPU demand or assume AMD wins everything. It questions the economic bridge that determines the forecast duration and distinguishes an attractive business recovery from an attractive entry price."
+  },
+  "exact_favorable_scope": {
+    "case": "joint_anchor_old_CPU2028plus_growth_pooled_old_growth",
+    "changes_vs_selected": [
+      "Joint stronger Q4 CPU/client anchors and rebased Other DCAI dollars",
+      "Old 2028–30 CPU unit growth of 25%, 18%, 12% and ASP growth of 8%, 4%, 2%",
+      "Pooled recent conditional CPU-margin endpoint instead of YTD endpoint",
+      "Prior gradual post-2030 CPU growth fade instead of immediate 2% unit growth"
+    ],
+    "not_added": [
+      "No extra Other DCAI growth uplift beyond selected 60/30/20/15% path",
+      "No new external-wafer customer win",
+      "No separate new Foundry terminal-margin uplift"
+    ],
+    "discount_rate": "The alternate ERP methodology is pre-existing and legitimate, but should be chosen on methodological grounds independent of which operating outcome it helps."
+  },
+  "specific_reasoning_improvement": {
+    "proposal": "Replace the unsupported choice between an immediate 2031 fade and the old fade with a revenue-pool and share bridge, used to challenge rather than mechanically set the forecast. Separate workload growth, CPU sockets or packages per workload, revenue per package, Intel revenue share, and all-in retained profit. Keep growth funded.",
+    "why_substantive": "It can justify a higher central forecast or reject it. More caveats, more source counts, or changing a heading cannot answer how much of the expanding market Intel earns.",
+    "illustrative_checks_only": {
+      "selected_CPU2030_B": 49.87783483684855,
+      "favorable_CPU2030_B": 60.07088322736725,
+      "selected_share_of_200B_pool": 0.24938917418424275,
+      "favorable_share_of_200B_pool": 0.3003544161368362,
+      "selected_CPU2031_2040_CAGR": 0.04039999999999999,
+      "favorable_CPU2031_2040_CAGR": 0.06044093219044244,
+      "boundary": "Intel management describes more than $200B over five years from October2026, approximately2031 rather than a precise2030 endpoint. The $200B denominator here is only an illustrative scale check; it is not a matched consensus or adopted forecast. Earlier AMD $120B2030 forecast has a different date and scope. No share conclusion follows without denominator reconciliation."
+    }
+  },
+  "strongest_honest_competition_argument": "If the analyst ultimately owns a LONG, center it on durable consolidated Xeon economics: deployed products and manufacturing learning can keep a useful share of an expanding CPU revenue pool profitable through the supply transition. State why recent economics deserve more weight, identify the market/forecast disagreement, fund the capacity, and specify what would invalidate that view. Treat packaging and external foundry upside as separately underwritten, not as a substitute for the CPU argument. Do not call the current evidence proof that the market is wrong.",
+  "what_market_already_knows": "Google/Oracle cooperation, AI orchestration demand, supply constraints, current margin recovery and aggressive vendor TAM forecasts are public. Public evidence can still support an analytical edge; it need not be proprietary. The pitch must explain why its interpretation of duration, capture or capital conversion differs, rather than assert that the market has overlooked CPU relevance. A reverse DCF establishes a conditional hurdle, not a uniquely priced market forecast.",
+  "falsifiable_forecast_quality": {
+    "good_current_progress": [
+      "Quarterly CPU revenue and normalized unit/ASP paths now distinguish delivery timing from annual growth",
+      "Selected and favorable cases have exact scopes and funded cash economics",
+      "Mature CPU/Other allocations are labeled conditional"
+    ],
+    "monitor": [
+      "CPU shipment/revenue trajectory versus the H1/H2 path, allowing disclosed Fab28 timing only once",
+      "Combined Products plus Foundry profit and normalized cost bridge, not segment margin alone",
+      "Net CPU price/mix retention as supply broadens and competitor platforms reach the same customers",
+      "Cash and committed capex relative to revenue acceptance"
+    ],
+    "decision_rule": "A delay that shifts sales is not automatically a thesis failure. Persistent loss of net pricing, supplier share or consolidated cash conversion is more damaging. Precommit the operating triggers before subsequent results rather than moving the forecast to protect the recommendation."
+  },
+  "remaining_research_that_would_change_judgment": [
+    {
+      "priority": 1,
+      "question": "Is the old faster CPU path a plausible retained share of a consistently defined server-CPU revenue pool?",
+      "work": "Reconcile Intel and AMD current CPU-TAM definitions, dates, units versus dollars and inclusion of Arm/custom CPU products; pair with customer deployments and publicly disclosed production supply. Derive a range of market growth and Intel share, then compare both current paths.",
+      "changes_judgment": "A plausible share-loss path that still supports the favorable cash forecast would materially strengthen LONG; a path requiring share recovery against customer adoption would weaken it.",
+      "limit": "Vendor TAM claims alone are not independent validation; no exact2031forecast can be proven."
+    },
+    {
+      "priority": 2,
+      "question": "Can current mix and cost learning sustain consolidated profit as constraints ease?",
+      "work": "Use sequential reported Products/Foundry bridges to separate price/mix, node cost learning, period charges, depreciation, operating expense and internal transfers. Test the pooled margin with a fixed net-price scenario and funded depreciation rather than automatically reverting to YTD.",
+      "changes_judgment": "Repeated cost-driven improvement across both units would strengthen the pooled regime; improvement explained by charges or transfer allocation would weaken it."
+    },
+    {
+      "priority": 3,
+      "question": "Does Intel retain customer surplus relative to the next-best qualified platform?",
+      "work": "Use public, workload-matched current-generation customer or operator comparisons including software licensing, memory, migration work, availability and price. Favor repeated procurement/deployment decisions over one benchmark.",
+      "changes_judgment": "Evidence of Intel maintaining net price or repeat selection despite an available alternative would strengthen duration; systematic displacement at equivalent service would weaken it.",
+      "limit": "Public customer economics cannot reveal confidential Intel net ASP or contract coverage, and unavailable contracts should not be demanded as proof."
+    },
+    {
+      "priority": 4,
+      "question": "What forecast disagreement is the recommendation actually monetizing?",
+      "work": "Locate a dated, definition-matched public profit/cash expectation as well as company sales expectations; explain the specific expected operating surprise and its timing. Keep any reverse-growth inference conditional.",
+      "changes_judgment": "A demonstrable profit-duration disagreement supported by the first three checks would make the competition thesis more distinctive than a general recovery narrative."
+    }
+  ],
+  "public_pitch_comparison": {
+    "WMS": "Approvals, installed cost, regional distribution and material substitution connect a customer decision to company share; margin contributions separate mix and recycled inputs. Forecasts and rerating still require judgment.",
+    "JBI": "Renovation economics explain customer spending and higher supplier content; the thesis connects operator ROI to Janus revenue. It is not backed by contracts covering every forecast year.",
+    "standard_for_Intel": "Apply the same reasonable-basis standard: a coherent, evidenced causal bridge and owned forecast. Do not demand certainty from Intel while accepting inferred capex shifts or rerating from comparators. Conversely, comparator confidence does not establish Intel valuation."
+  },
+  "sources": {
+    "m37": {
+      "url": "https://www.m37.com/spc2026",
+      "finding": "Requires a clear fundamental long or short over 3–5 years, at most 10 pages; explicitly evaluates investment judgment rather than modeling skills. No numerical return hurdle or probability estimate is prescribed."
+    },
+    "intel_q3": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "pages": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "finding": "Granite Rapids is the largest server family, Clearwater ships for revenue, Intel 3 and 18A costs improved, and management forecasts supply constraints into 2028 and a CPU market potentially above $200B in five years. Product adoption and cost changes are current observations; the TAM and future growth are management forecasts."
+    },
+    "intel_q1": {
+      "url": "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+      "pages": [
+        4
+      ],
+      "finding": "Intel disclosed multiple signed long-term DCAI agreements, including Google. No publicly disclosed minimum revenue, net-price coverage or renewal margin was located in this review."
+    },
+    "google_intel": {
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-google-deepen-collaboration-to-advance-ai-infrastructure.html",
+      "finding": "Multiyear, multigeneration Xeon cooperation and existing C4/N4 deployment are positive evidence. The same partnership expands IPUs that offload CPU tasks and improve utilization; workload growth does not map mechanically to CPU unit growth."
+    },
+    "google_c4": {
+      "url": "https://cloud.google.com/blog/products/compute/c4-vms-based-on-intel-6th-gen-xeon-granite-rapids-now-ga",
+      "finding": "A customer-side production launch supports actual Xeon 6 adoption and performance improvements, not merely a supplier roadmap. Comparisons are primarily to prior generations, not proof of superiority to the next-best qualified supplier."
+    },
+    "aws_x8i": {
+      "url": "https://aws.amazon.com/ec2/instance-types/x8i/",
+      "finding": "Named customer Orion reports meeting the same performance threshold with half as many cores and lower SQL Server licensing costs. This establishes customer utility, but also illustrates why more useful compute need not mean proportional processor units or supplier profit."
+    },
+    "oracle_intel": {
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-oracle-collaborate-on-enterprise-and-agentic-ai.html",
+      "finding": "Planned current and future Xeon cooperation, including Diamond Rapids, is useful roadmap validation, not accepted volume or exclusivity."
+    },
+    "amd_q3": {
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "finding": "Actual EPYC demand and current Oracle, Google and Microsoft offerings demonstrate competition at the same customers. AMD Data Center growth includes GPUs and must not be presented as server-CPU growth or market-share proof."
+    },
+    "amd_agentic": {
+      "url": "https://www.amd.com/en/blogs/2026/agentic-ai-changes-the-cpu-gpu-equation.html",
+      "finding": "In May AMD raised its server-CPU TAM forecast to more than $120B by 2030, supported by a thesis of separate CPU racks for agent workloads. This corroborates direction but is another interested supplier forecast, not independent proof of an exact market size."
+    },
+    "idc": {
+      "url": "https://www.idc.com/promo/servers/",
+      "finding": "October update reports Q2 server spending up 52% versus units up 15.4%, with configurations/component prices explaining much of the difference. Whole servers, CPU units and CPU revenue have different denominators; this is a mechanism check, not a direct contradiction of Intel guidance."
+    },
+    "lbnl": {
+      "url": "https://www.energy.gov/documents/united-states-data-center-energy-usage-report-2025-update",
+      "pages": [
+        14
+      ],
+      "finding": "June report explains rising single-socket shares as more capable CPUs replace dual-processor systems. Its US scope, older IDC inputs, and 2030 extrapolation prevent direct application as current global CPU TAM."
+    },
+    "mediatek": {
+      "url": "https://www.mediatek.com/hubfs/MediaTek-Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q3/Transcript.pdf",
+      "pages": [
+        7,
+        8
+      ],
+      "finding": "The customer describes serious engineering work with an unnamed US IDM and unresolved yield problems. This supports technical engagement; it does not identify Intel net packaging fees or contracted volumes."
+    },
+    "cfa_grading": {
+      "url": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/rc-grader-guidelines.pdf",
+      "finding": "Contextual benchmark, not M37 rules: research quality, economics, sound reasoning, recommendation, valuation and risks matter; bold calls are not required in that separate competition."
+    },
+    "cfa_reasonable_basis": {
+      "url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards/standards-of-practice-v-a",
+      "finding": "A rational, well-considered research process supports reasonable differing opinions from the same facts; certainty and unanimous forecasts are not the standard."
+    }
+  }
+}

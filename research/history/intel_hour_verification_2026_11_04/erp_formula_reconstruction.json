@@ -1,0 +1,95 @@
+{
+  "scope": "Independently evaluate original source formulas in Python; downloadedworkbooks notmodified. This is notnewERPprediction and notfullExcelliveenginevalidation.",
+  "results": [
+    {
+      "mode": "normalized",
+      "treasury": 0.0494,
+      "erp": 0.033869450308949195,
+      "implied_market_return": 0.0832694503089492,
+      "price_reconciled": 7580.07,
+      "payout_initial": 0.565871815424192,
+      "payout_terminal": 0.565871815424192,
+      "roe10yr": 0.19445315868444465,
+      "yearly_cashflows": [
+        170.92483894657744,
+        197.4484910085727,
+        228.08801132612123,
+        263.4820891512717,
+        304.36852379872624
+      ],
+      "terminal_cf": 319.4043288743833
+    },
+    {
+      "mode": "T12_cash",
+      "treasury": 0.0494,
+      "erp": 0.03794330122116814,
+      "implied_market_return": 0.08734330122116814,
+      "price_reconciled": 7580.069999999999,
+      "payout_initial": 0.6351999785022489,
+      "payout_terminal": 0.6351999785022489,
+      "roe10yr": 0.19445315868444465,
+      "yearly_cashflows": [
+        191.86580964980274,
+        221.6390246436454,
+        256.03236623892644,
+        295.76277312761226,
+        341.65843659978606
+      ],
+      "terminal_cf": 358.53636336781545
+    },
+    {
+      "mode": "T12_sustainable_payout",
+      "treasury": 0.0494,
+      "erp": 0.04414788836941819,
+      "implied_market_return": 0.09354788836941819,
+      "price_reconciled": 7580.07,
+      "payout_initial": 0.6351999785022489,
+      "payout_terminal": 0.7459542424807535,
+      "roe10yr": 0.19445315868444465,
+      "yearly_cashflows": [
+        198.55660223468587,
+        237.09712783892672,
+        282.8176407072884,
+        337.01842723166754,
+        401.2304296072164
+      ],
+      "terminal_cf": 421.05121282981287
+    },
+    {
+      "mode": "average10y_cash",
+      "treasury": 0.0494,
+      "erp": 0.05812825726539696,
+      "implied_market_return": 0.10752825726539696,
+      "price_reconciled": 7580.069999999994,
+      "payout_initial": 0.9824363714338986,
+      "payout_terminal": 0.9824363714338986,
+      "roe10yr": 0.19445315868444465,
+      "yearly_cashflows": [
+        296.75056079037944,
+        342.79950646799415,
+        395.99420240930533,
+        457.44350672343427,
+        528.42834710783
+      ],
+      "terminal_cf": 554.5327074549567
+    },
+    {
+      "mode": "netcash",
+      "treasury": 0.0494,
+      "erp": 0.03426979262649302,
+      "implied_market_return": 0.08366979262649302,
+      "price_reconciled": 7580.07,
+      "payout_initial": 0.5726732418619211,
+      "payout_terminal": 0.5726732418619211,
+      "roe10yr": 0.19445315868444465,
+      "yearly_cashflows": [
+        172.9792489503773,
+        199.82169877441405,
+        230.82948702446407,
+        266.648979599205,
+        308.0268437011328
+      ],
+      "terminal_cf": 323.24336977996876
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-11-06T21:56:42.905939+00:00",
+  "purpose": "Additional independent operating stresses requested before viewing combinedvaluation outputs",
+  "rates": [
+    0.10625,
+    0.11555
+  ],
+  "CPU_delay": "Use cpu/cpu_ramp_results.json delay_no_catchup annualpath. One-quarter2027rampdelay, preserve annualgrowthafter2027 with no catchup.2027-30groupEBITchange50%ofCPUrevenuedelta; WC10%ofannualdeltachange; physicalcapexandDAunchanged. Post2030CPUmarginstartsatrevised2030andfadestooriginal2040margin;Foundryprofit/Productsratio anchoredtorevised2030;0.8hostgrowthcapitalturnover retained. Otherrevenuesunchanged. Financingcashincomeandinterestunchanged.",
+  "factory_breakeven": "Factoryprofit2027-30 -4,-2.5,-1,0;0thereafter; allotherrevenue/physicalcapex/DAunchanged. Ordinaryoperatingtaxrecomputed. Replicatefactoryagentstandalonecasebeforecombinedcase.",
+  "joint": "ApplyterminalROC15%andterminalROC=caseassetrateonlytofactorybreakevencase2041NOPAT. Replace2041netinvestmentwith3%NOPAT/ROC, retainlease/minority deductions. Explicit2031-40cashunchangedfromfactorystress. RecomputeallNPVand2030treasury;do notsumlosses.",
+  "note": "Theseareunweightedassumptiontests,notforecastsorprobabilities; noactivecaseedited."
+}

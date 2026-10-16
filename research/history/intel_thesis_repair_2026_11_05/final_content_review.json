@@ -1,0 +1,117 @@
+{
+  "reviewed_utc": "2026-11-05T20:09:03.170993+00:00",
+  "verdict": "PASS as a clearly labeled research review. No outstanding material semantic blocker identified. NOT a completed M37 submission because the required directional recommendation is intentionally absent.",
+  "scope": "Read-only review of the generator, repair_defense_content.json, the rebuilt main/notes extracted text, and PDF identity. Selected labels independently recomputed from existing audited data. No new broad external research or visual-layout review.",
+  "artifacts": {
+    "main": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "29885889baab42e0722912a7775045196155f2ec54de252663df671680d744e7",
+      "pages": 10,
+      "stored_extraction_matches_PDF": true
+    },
+    "notes": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_defense_notes.pdf",
+      "sha256": "5798cc77a4626ac88cb04a62e9439e24b1e4b29236483b73d45de5a0f1455813",
+      "pages": 2,
+      "stored_extraction_matches_PDF": true
+    }
+  },
+  "source_files": {
+    "generator": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_editorial/build_pitch.py",
+      "sha256": "c19c8b97b050269e224266b742559aedf11d01b758314a8559d5c766c0ee7ba9"
+    },
+    "notes_content": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/repair_defense_content.json",
+      "sha256": "3f535c4f13f00902522821d31ea6177f7e0d196b7db6dd7d6b86c19dec8d8833"
+    }
+  },
+  "blockers": [],
+  "addressed_corrections": [
+    {
+      "issue": "Observed price grouped with model outputs",
+      "status": "VERIFIED RESOLVED",
+      "final_text": "Valuation figures are conditional model outputs. The price is a dated intraday observation, not a closing price or an executed trade."
+    },
+    {
+      "issue": "Preference for35%/flat risk stated without rationale",
+      "status": "VERIFIED RESOLVED",
+      "final_text": "The cover andpage7 now state pricing/mix normalization. Notes explain that customer funding does not itself establish lower operating risk and retain35%/flat risk as the owned central judgment."
+    },
+    {
+      "issue": "Dangling hedge reference after hedge exhibit removed",
+      "status": "VERIFIED RESOLVED",
+      "final_text": "Asset beta measures operating business risk."
+    }
+  ],
+  "checks": [
+    {
+      "item": "Withdrawn recommendation versus completed pitch",
+      "status": "PASS",
+      "detail": "Cover, page9, final footer and both notes pages identify the work as research, withdraw the previous short, and state that a directional M37 entry remains unfinished. No residual affirmative SHORT recommendation remains."
+    },
+    {
+      "item": "Owned central versus legitimate bull case",
+      "status": "PASS",
+      "detail": "35% margin,0.80 productivity and flat risk remain the owned center. Pricing/mix normalization supplies an explicit rationale.40% with lower risk is shown as credible and quantified, but not adopted. Funding is not treated as proof of lower operating risk."
+    },
+    {
+      "item": "CPU anchor and mechanisms",
+      "status": "PASS within reviewed scope",
+      "detail": "The benchmark is identified as CPU-only, from one research provider, predating Intel’s earnings update. The unit interpretation, timing/catch-up and permanent-level branches are labeled diagnostics rather than the provider’s disclosed mechanism or an independently proven consensus miss."
+    },
+    {
+      "item": "Funded weaker-volume results",
+      "status": "PASS",
+      "detail": "The review reports permanent and timing cases with investment, taxes and retained cash recomputed. The contribution range is identified as sensitivity rather than probability. It limits the conclusion to the tested scenarios rather than claiming no conceivable short can work."
+    },
+    {
+      "item": "Dates, prices and risks",
+      "status": "PASS",
+      "detail": "$54.58 is explicitly an intraday observation at2:55PM EST onNovember5, not a closing or executed price. December2026 planning values andDecember2030 endpoint values remain distinct;56-day mismatch and frozenNovember1 macro inputs are disclosed."
+    },
+    {
+      "item": "Updated numeric labels",
+      "status": "PASS",
+      "detail": "Independently recomputed the35.8%/43.8% displayed reverse margins,8.87%/12.69% bull-case appreciation andminus21.4% price-only short result from the retained inputs. These match the rendered text."
+    },
+    {
+      "item": "Economic cash and partner claims",
+      "status": "PASS as limitation disclosure",
+      "detail": "Economic SBC/NCI reserves are distinguished from exact cash distributions. Arizona redirection, omitted amount and later catch-up are disclosed without adding an invented incremental loss. The unresolved reconciliation is not portrayed as evidence for a quantified short."
+    },
+    {
+      "item": "Profit attribution",
+      "status": "PASS",
+      "detail": "Internal product/foundry profit shifts are distinguished from additional consolidated earnings. The margin sensitivity is conditioned on real group profit after production costs; no allegation of an established duplicate current-model credit is made."
+    },
+    {
+      "item": "Original billing analysis",
+      "status": "PASS",
+      "detail": "Separate vendor throughput scenarios remain conditional. No original workload, interview,AMD performance advantage or direct chip-margin implication is claimed."
+    },
+    {
+      "item": "Decision standard",
+      "status": "PASS",
+      "detail": "The notes explicitly reject an all-adverse-sensitivity survival requirement. PASS is presented as an investment judgment, not a proof that directional analysis is impossible."
+    }
+  ],
+  "selected_independent_calculations": {
+    "corrected_central_flat_break_even_margin_pct": 43.803265060601824,
+    "corrected_maturing_risk_break_even_margin_pct": 35.773109112149776,
+    "corrected_central_flat_40pct_margin_price_CAGR": 0.08869707429671148,
+    "corrected_maturing_risk_40pct_margin_price_CAGR": 0.126869959030822,
+    "price_only_short_loss_using_displayed_66_25": -0.21381458409673876
+  },
+  "competition_requirements": {
+    "directional_recommendation": "INTENTIONALLY MISSING. A clear long or short recommendation over3–5years remains required before submission. PASS is valid research output but not a substitute for that competition requirement.",
+    "company_overview": "PRESENT onpage2.",
+    "drivers_and_risks": "PRESENT as research scenarios and limits, but not yet assembled behind an adopted direction.",
+    "format_and_length": "MainPDF has10pages; separate notes have2pages and explicitly are not part of an entry.",
+    "name_class_year_resume": "Name is present. Class year and resume are separate required entry materials; their availability was not checked in this review.",
+    "judgment_not_certainty": "No invented requirement for a unique true terminal margin, a proprietary interview, a guaranteed return, or survival under every plausible sensitivity.",
+    "official_rules": "https://www.m37.com/spc2026"
+  },
+  "remaining_substantive_gap": "The author needs a genuinely preferred directional economic judgment and attractive3–5year return at its stated entry. Further styling or qualifications cannot supply that choice. The materials now accurately acknowledge this gap.",
+  "changes_made": "Only this review JSON was created. PDFs,generator,notes content,models andoutreach were not edited."
+}

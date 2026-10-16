@@ -1,0 +1,36 @@
+{
+  "recorded_before_outcome_data": true,
+  "status": "prespecified public-data diagnostic; no benchmark executed by Thomas or the assistant",
+  "question": "Does a matched cloud product price or core count by itself establish the cheapest completed workload, and can public measurements supply a more specific countercheck?",
+  "dataset": "SpareCores/sc-inspector-data",
+  "commit": "6269fa20c43f9bfd67952a0481e772ae4abba471",
+  "commit_utc": "2026-11-05T22:18:14Z",
+  "instances": ["m8i.4xlarge", "m8a.4xlarge", "m9g.4xlarge"],
+  "selection": "AWS general-purpose 16-vCPU, 64-GiB products using recent Intel, AMD and Arm architectures; a purchasable-cloud-product comparison, not equal physical cores or isolated CPU causality.",
+  "workloads": ["redis", "static_web"],
+  "outcome_selection": "Include every common valid workload/configuration in these two task outputs. Do not choose only favorable tests. Report measured server-plus-client throughput and paired latency, not extrapolated server-only performance. No universal winner or cross-workload composite will be called production economics.",
+  "matching_gates": [
+    "Inspect CPU model, threads per core, memory and virtualization before interpretation.",
+    "Require matching task hash and software version for each task; architecture-specific binary builds may differ and must be disclosed.",
+    "Compare common payload, pipeline and concurrency settings; retain all common settings.",
+    "If pricing is added, use the same region, OS, tenancy and on-demand term and disclose pricing date separately from benchmark date.",
+    "No synthetic score is allowed to infer Intel realized ASP, shipment share or segment margin."
+  ],
+  "metadata_already_seen": {
+    "intel_date": "2025-08-28",
+    "amd_date": "2025-10-08",
+    "arm_date": "2026-06-11",
+    "redis_task_hash": "3017390de7f0afebf68b42df4039403fa012bc91",
+    "redis_version": "7.4.0",
+    "static_task_hash": "37c10ffddb142963b705ffc3385491fcff540474",
+    "static_versions": "binserve 0.2.1, wrk 4.2.0"
+  },
+  "known_limits_before_scores": [
+    "These are noncontemporaneous archival observations, not a randomized simultaneous experiment.",
+    "One saved machine variant per instance; no independent-machine sampling confidence interval.",
+    "Client and server share the same instance; CPU scheduling is part of the observed product result.",
+    "PostgreSQL excluded because matched observations are not present in all three selected instances.",
+    "Arm kernel is disclosed; older x86 metadata lacks that field, so software environment is incompletely matched."
+  ],
+  "license": "Raw records CC BY-SA 4.0; attribute Spare Cores and mark any derived calculations."
+}

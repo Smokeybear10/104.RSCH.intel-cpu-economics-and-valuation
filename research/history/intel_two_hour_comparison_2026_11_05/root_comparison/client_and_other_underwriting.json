@@ -1,0 +1,43 @@
+{
+  "reviewed_utc": "2026-11-05T22:49:20.755278+00:00",
+  "question": "Does the CPU-focused narrative hide the PC contraction, or require an unsupported PC boom?",
+  "source_facts": [
+    {
+      "source": "Intel Q3 2026 prepared remarks pp6\u20137",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "facts": [
+        "Management plans2027PCunitmarketroughly\u221210%;2026roughly\u221212%;H2_2026morethan\u221220%.",
+        "Q4CCPGrevenueguidancegreaterthan20%sequentialdecline,withinventoryadjustment.",
+        "NovaLakedesignwinsexpected2xPantherLakeatlaunch;notshippedunitsorbookedrevenue.",
+        "OtherDCAIpurpose-builtsiliconexpectedtotripleovernextfewyears;broaderOtherbuckethasnosplitprofitdisclosure."
+      ]
+    },
+    {
+      "source": "TrendForce Oct8,2026",
+      "url": "https://www.trendforce.com/presscenter/news/20261008-13264.html",
+      "facts": [
+        "Notebookforecastlow-single-digitdecline2027, high-single-digitdownside ifpricingpressurepersists.",
+        "Scopeisnotebooks, notwholePCmarketorIntelCPUshipments.",
+        "Pull-forwardanddepletionofcheapinventorycanmakefutureunitdemandweakerdespitehigherASPs."
+      ]
+    }
+  ],
+  "owned_forecast": {
+    "2027_client_units": -0.12,
+    "2027_client_ASP": 0.03,
+    "2027_Other_CCPG_growth": 0.05,
+    "2027_CCPG_total_revenue_growth": -0.07214428530809525,
+    "2027_CCPG_margin": 0.24,
+    "2030_client_units_relative_to_2026": 0.9993060000000001,
+    "2030_CCPG_margin": 0.3
+  },
+  "Products_profit_bridge_B": {
+    "2026E": 18.574218000000002,
+    "DCAI_change": 5.09368132,
+    "CCPG_change": -1.3842310479999993,
+    "2027": 22.283668272
+  },
+  "conclusion": "The existing model does include a weak2027PCmarket and only restores2030clientunitsapproximatelyto2026. This is not a hiddenPCvolume boom. Its2028onwardnormalization and30%marginremain judgments; weakerenddemand/newinventorychargeswouldchallengeit. MainpitchshouldshowtheprofitheadwindratherthandescribeIntelonlyasserverrecovery.",
+  "outside_comparison_warning": "iFASTNov2CCPG\u221212%forecastisoneanalyst,notconsensus;our2027segment\u22127.2%mixforecastneednotmatchCPUunit\u221212%. No inference of uniquely market-priced expectations.",
+  "other_DCAI_warning": "OtherDCAI5.19B2026E\u219217.44B2030(3.36x)roughlymatchesmanagementaspirationbutisnotanindependentlyverifiedcustomerpipeline. Do not labelentirebucketpurecustomASICorclaimstandaloneOtheroperatingmarginreported."
+}

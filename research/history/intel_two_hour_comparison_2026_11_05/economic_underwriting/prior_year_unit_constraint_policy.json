@@ -1,0 +1,43 @@
+{
+  "selected_before_results": true,
+  "selected_utc": null,
+  "purpose": "Test whether prior-year quarterly unit growth narrows the existing2026ASPcarryover diagnostic without assuming equal quarterly shipments. No valuation or frozen forecast edits.",
+  "existing_policy": "../model_audit/ASP_carryover_identification_policy.json",
+  "new_unit_growth_2025_vs_2024": {
+    "Q1": 0.16,
+    "Q2": 0.13,
+    "H1": 0.15,
+    "YTD_Q3": 0.1,
+    "Q3": "roughly flat"
+  },
+  "numerical_rounding_band": 0.005,
+  "roughly_flat_bands_to_test": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "method": "Add three latent positive2024quarterly unit variables. Constrain2025/2024quarter and aggregate unit growth within the stated bands, while retaining all2026/2025quarter/aggregate unit and ASP constraints. Normalize2026Q3units to1. Solve linear programs at1001candidateQ3Otheramounts. Report numerical bounds and witness identities; no claim of exact global extrema.",
+  "boundaries": [
+    "Roughly flat has no disclosed numerical tolerance. All three bands are analyst conventions, not issuer definitions.",
+    "2025quarterly DCAI totals match2026comparatives, but issuer server-volume scope consistency is still assumed.",
+    "Do not import unrecast2024volume/ASP ratios: reorganization changed historical series.",
+    "Retain ownedQ4CPUrevenue6.5257B and prior Q4/Q3unit scenarios0.9/1.0/1.1/1.2; these are not actualQ4observations."
+  ],
+  "sources": [
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000074/intc-20250329.htm",
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000109/intc-20250628.htm",
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000179/intc-20250927.htm"
+  ],
+  "policy_file_created_utc_evidence": "2026-11-05T23:16:53.298359+00:00",
+  "timestamp_correction": {
+    "corrected_utc": "2026-11-05T23:30:10.715820+00:00",
+    "erroneous_manual_selected_utc": "2026-11-05T23:18:00Z",
+    "explanation": "The selected_utc string was manually entered incorrectly and postdated the calculation. It was not a clock measurement and must not be treated as exact preregistration evidence. No numerical result changed.",
+    "policy_file_birthtime_utc_before_correction": "2026-11-05T23:16:53.298359+00:00",
+    "policy_file_mtime_utc_before_correction": "2026-11-05T23:16:53.298578+00:00",
+    "script_file_birthtime_utc": "2026-11-05T23:16:53.298702+00:00",
+    "result_file_birthtime_utc_before_correction": "2026-11-05T23:16:55.515962+00:00",
+    "result_computed_utc_as_recorded": "2026-11-05T23:16:55.515266+00:00",
+    "sequence_statement": "The policy was written before the calculation output. The preserved filesystem creation/modification times support that file sequence. The exact mental policy-selection time was not measured."
+  }
+}

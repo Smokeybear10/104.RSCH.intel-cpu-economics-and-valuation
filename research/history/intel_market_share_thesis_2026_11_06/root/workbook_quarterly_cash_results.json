@@ -1,0 +1,285 @@
+{
+  "computed_utc": "2026-11-06T17:01:44.923Z",
+  "scope": "Recalculated workbook results; independent Python cash rebuild is separate.",
+  "quarterly_rows": [
+    {
+      "year": 2027,
+      "quarter": 1,
+      "CPU_revenue_B": 6.81206,
+      "CPU_unit_index": 100,
+      "CPU_ASP_index": 100,
+      "EBIT_B": 2.547777842999999,
+      "parent_unlevered_cash_B": -5.556569499858976,
+      "owner_cash_B": -5.9340694998589765,
+      "ending_cash_B": 44.38775850014102,
+      "ending_debt_B": 49.134
+    },
+    {
+      "year": 2027,
+      "quarter": 2,
+      "CPU_revenue_B": 7.295716260000001,
+      "CPU_unit_index": 105,
+      "CPU_ASP_index": 102,
+      "EBIT_B": 3.07454146475,
+      "parent_unlevered_cash_B": -3.2838226731089675,
+      "owner_cash_B": -3.6613226731089674,
+      "ending_cash_B": 38.15643582703205,
+      "ending_debt_B": 48.134
+    },
+    {
+      "year": 2027,
+      "quarter": 3,
+      "CPU_revenue_B": 8.266046522580002,
+      "CPU_unit_index": 115.50000000000001,
+      "CPU_ASP_index": 105.06,
+      "EBIT_B": 4.029803516832626,
+      "parent_unlevered_cash_B": -1.8718544323137225,
+      "owner_cash_B": -2.2493544323137225,
+      "ending_cash_B": 34.41108139471832,
+      "ending_debt_B": 46.308
+    },
+    {
+      "year": 2027,
+      "quarter": 4,
+      "CPU_revenue_B": 9.365430710083142,
+      "CPU_unit_index": 127.05000000000003,
+      "CPU_ASP_index": 108.21180000000001,
+      "EBIT_B": 4.783101773668024,
+      "parent_unlevered_cash_B": 0.5934468342588718,
+      "owner_cash_B": 0.21594683425887176,
+      "ending_cash_B": 34.957028228977194,
+      "ending_debt_B": 46.308
+    },
+    {
+      "year": 2028,
+      "quarter": 1,
+      "CPU_revenue_B": 9.855038209471907,
+      "CPU_unit_index": 128.670625,
+      "CPU_ASP_index": 112.43471863523631,
+      "EBIT_B": 5.392433324261191,
+      "parent_unlevered_cash_B": -1.8687513749356648,
+      "owner_cash_B": -2.241563874935665,
+      "ending_cash_B": 31.295464354041528,
+      "ending_debt_B": 44.558
+    },
+    {
+      "year": 2028,
+      "quarter": 2,
+      "CPU_revenue_B": 10.283518131622857,
+      "CPU_unit_index": 134.265,
+      "CPU_ASP_index": 112.43471863523631,
+      "EBIT_B": 5.7754870441324435,
+      "parent_unlevered_cash_B": 0.35775347887130193,
+      "owner_cash_B": -0.0150590211286981,
+      "ending_cash_B": 31.187405332912828,
+      "ending_debt_B": 44.135
+    },
+    {
+      "year": 2028,
+      "quarter": 3,
+      "CPU_revenue_B": 11.140477975924764,
+      "CPU_unit_index": 145.45375,
+      "CPU_ASP_index": 112.43471863523631,
+      "EBIT_B": 6.5207120681440545,
+      "parent_unlevered_cash_B": 1.518013133113977,
+      "owner_cash_B": 1.145200633113977,
+      "ending_cash_B": 31.662605966026803,
+      "ending_debt_B": 43.135
+    },
+    {
+      "year": 2028,
+      "quarter": 4,
+      "CPU_revenue_B": 11.568957898075714,
+      "CPU_unit_index": 151.048125,
+      "CPU_ASP_index": 112.43471863523631,
+      "EBIT_B": 6.9053121076612705,
+      "parent_unlevered_cash_B": 3.745832358620013,
+      "owner_cash_B": 3.3730198586200126,
+      "ending_cash_B": 35.01562582464681,
+      "ending_debt_B": 43.135
+    },
+    {
+      "year": 2029,
+      "quarter": 1,
+      "CPU_revenue_B": 12.094102890663926,
+      "CPU_unit_index": 151.83133750000002,
+      "CPU_ASP_index": 116.93210738064575,
+      "EBIT_B": 7.139244602045631,
+      "parent_unlevered_cash_B": 1.3891960359988524,
+      "owner_cash_B": 1.0210710359988524,
+      "ending_cash_B": 36.03669686064566,
+      "ending_debt_B": 43.135
+    },
+    {
+      "year": 2029,
+      "quarter": 2,
+      "CPU_revenue_B": 12.619933451127572,
+      "CPU_unit_index": 158.4327,
+      "CPU_ASP_index": 116.93210738064575,
+      "EBIT_B": 7.646405096677594,
+      "parent_unlevered_cash_B": 3.546309408072338,
+      "owner_cash_B": 3.178184408072338,
+      "ending_cash_B": 38.776881268718,
+      "ending_debt_B": 42.696999999999996
+    },
+    {
+      "year": 2029,
+      "quarter": 3,
+      "CPU_revenue_B": 13.671594572054872,
+      "CPU_unit_index": 171.635425,
+      "CPU_ASP_index": 116.93210738064575,
+      "EBIT_B": 8.579033622123866,
+      "parent_unlevered_cash_B": 4.666097557974303,
+      "owner_cash_B": 4.297972557974303,
+      "ending_cash_B": 42.2248538266923,
+      "ending_debt_B": 41.846999999999994
+    },
+    {
+      "year": 2029,
+      "quarter": 4,
+      "CPU_revenue_B": 14.19742513251852,
+      "CPU_unit_index": 178.23678750000002,
+      "CPU_ASP_index": 116.93210738064575,
+      "EBIT_B": 9.090766103289031,
+      "parent_unlevered_cash_B": 6.82709711860101,
+      "owner_cash_B": 6.45897211860101,
+      "ending_cash_B": 46.683825945293314,
+      "ending_debt_B": 39.846999999999994
+    },
+    {
+      "year": 2030,
+      "quarter": 1,
+      "CPU_revenue_B": 13.816303142294466,
+      "CPU_unit_index": 170.05109800000002,
+      "CPU_ASP_index": 119.27074952825866,
+      "EBIT_B": 8.595282836499702,
+      "parent_unlevered_cash_B": 2.979786570757143,
+      "owner_cash_B": 2.6163490707571433,
+      "ending_cash_B": 46.55017501605046,
+      "ending_debt_B": 37.096999999999994
+    },
+    {
+      "year": 2030,
+      "quarter": 2,
+      "CPU_revenue_B": 14.417011974568139,
+      "CPU_unit_index": 177.444624,
+      "CPU_ASP_index": 119.27074952825866,
+      "EBIT_B": 9.197312595708842,
+      "parent_unlevered_cash_B": 5.149574149388447,
+      "owner_cash_B": 4.786136649388447,
+      "ending_cash_B": 51.336311665438906,
+      "ending_debt_B": 37.096999999999994
+    },
+    {
+      "year": 2030,
+      "quarter": 3,
+      "CPU_revenue_B": 15.618429639115483,
+      "CPU_unit_index": 192.23167600000002,
+      "CPU_ASP_index": 119.27074952825866,
+      "EBIT_B": 10.272150271991418,
+      "parent_unlevered_cash_B": 6.379310740835706,
+      "owner_cash_B": 6.015873240835706,
+      "ending_cash_B": 57.352184906274616,
+      "ending_debt_B": 37.096999999999994
+    },
+    {
+      "year": 2030,
+      "quarter": 4,
+      "CPU_revenue_B": 16.219138471389158,
+      "CPU_unit_index": 199.62520200000003,
+      "CPU_ASP_index": 119.27074952825866,
+      "EBIT_B": 10.877262192313113,
+      "parent_unlevered_cash_B": 8.551718156412683,
+      "owner_cash_B": 8.188280656412683,
+      "ending_cash_B": 65.5404655626873,
+      "ending_debt_B": 37.096999999999994
+    }
+  ],
+  "minimum_cash_B": 31.187405332912828,
+  "annual_checks": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1.7763568394002505e-15,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1.7763568394002505e-15,
+      4.440892098500626e-16,
+      0,
+      0
+    ],
+    [
+      -1.7763568394002505e-15,
+      0,
+      0,
+      0
+    ],
+    [
+      -1.4210854715202004e-14,
+      -2.1316282072803006e-14,
+      -2.1316282072803006e-14,
+      -1.4210854715202004e-14
+    ],
+    [
+      0,
+      0,
+      -7.105427357601002e-15,
+      -7.105427357601002e-15
+    ],
+    [
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      null,
+      0,
+      0,
+      0
+    ]
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "title": "External customer programs and reopened Intel directional judgment",
+  "prepared_utc": "2026-11-04T15:47:47.452824+00:00",
+  "information_cutoff": "2026-11-04; fresh customer sources read through this date",
+  "scope": "Additive research judgment. No frozen operating, cash, valuation or policy file changed; no webcast registration or outreach.",
+  "chronology": "Base and funded-bull values were already known. The late-discovered August conference remarks changed the evidence assessment after those valuations; no new forecast was fitted to close a price gap.",
+  "owned_recommendation": {
+    "direction": "Withdraw Intel as a highest-confidence SHORT candidate on the present evidence. The strongest supported operating thesis is CPU output recovery plus an independently saleable advanced-packaging business. I would prioritize that LONG research direction over a capital-returns SHORT, but the current frozen model does not yet establish an attractive long entry.",
+    "operating_preference_update": "The new disclosed packaging backlog and reported plan to more than double Ireland output make faster absorption a more credible center of the next operating review than the earlier constrained-base preference. This does not mechanically adopt every funded-bull row or management target and changes no numerical policy.",
+    "why": "The earlier short rested too heavily on slow conversion of reused manufacturing capacity and treated external upside as mostly unquantified design interest. Committed packaging demand and a concrete output expansion plan materially challenge that premise. Reported packaging economics offer a route to cash outside the most capital-intensive leading-node wafer business.",
+    "stock_boundary": "Neither a successful CPU ramp nor packaging revenue alone proves stock upside. Current Products and aggregate Foundry forecasts already permit substantial improvement; an incremental contribution must be reconciled against those allowances and paid capacity, startup costs, working capital and recurring reinvestment.",
+    "strongest_objection": "Management may be describing prospective economics before customer qualification and mature utilization. Package substrates, client underloading, new depreciation and node R&D can still delay consolidated cash. A recovered business can remain expensive; the external packaging margin and revenue aspirations are not signed cash guarantees.",
+    "submission_decision": "Do not present the existing approximately $48 base as a high-confidence short merely because it is mathematically audited. A defensible pitch would need to own the packaging/absorption disagreement explicitly. Current evidence supports recovery more firmly than it supports either a high-conviction stock long or short."
+  },
+  "fresh_primary_evidence": [
+    {
+      "id": "intel_q1_packaging",
+      "date": "2026-04-23",
+      "url": "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+      "locator": "PDF page 4, Foundry paragraph, lines 150\u2013154 in web extraction",
+      "finding": "Intel says advanced-packaging backlog increased and Malaysia expansion supports committed demand beginning revenue conversion in 2027. This establishes more than design interest, but gives no customer names, minimum quantities, price or margin. The same page describes long-term Google business, NVIDIA host CPUs and SambaNova collaboration; those are not an additional packaging profit stream automatically."
+    },
+    {
+      "id": "mediatek",
+      "date": "Document metadata created/modified 2026-04-02; exact original public posting date not established; retrieved 2026-11-04",
+      "url": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Data%20Center%20Solutions%20Overview.pdf?hsLang=en",
+      "locator": "Pages 2 and 5, visually inspected; page 4 supply-chain map",
+      "finding": "Page 5 assigns IFS16 tapeout in 2024 and mass production in 2025 to Intel. Page 2 separately lists Intel EMIB in the 2025 technology history; it does not identify EMIB volume acceptance, fees or margins. The world-class D0/capacity-allocation bullet belongs to TSMC, not Intel. MediaTek whole-company AI ASIC sales cannot be assigned to Intel.",
+      "raw_pdf_sha256": "a9974f718084996c53591f8ca70f7012e65e4aad4fb01f84cf2c77ac5bf6ce41",
+      "visual_files": [
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/customer_program_sources/mediatek_page2.png",
+        "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/customer_program_sources/mediatek_page5.png"
+      ]
+    },
+    {
+      "id": "tower_current",
+      "date": "2026-11-02",
+      "url": "https://towersemi.com/2026/11/02/11022026/",
+      "locator": "Forward-looking risk factor xxxvii",
+      "finding": "Tower still identifies the dispute over Intel determining not to perform the New Mexico capacity-corridor agreement. Its February 11 release says customers were redirected to Fab 7 Japan. This particular 2023 announced corridor should not be counted as an intact future Intel revenue stream.",
+      "prior_detail_url": "https://towersemi.com/2026/02/11/02112026/",
+      "interpretation_limit": "Nonperformance does not establish technical incapacity or an economically bad decision. Reprioritization toward more valuable packaging is possible, but the reviewed Tower disclosures do not state that reason. Front-end wafer capacity and advanced back-end packaging are not automatically fungible; no quantitative transfer or profit is assumed."
+    },
+    {
+      "id": "google",
+      "date": "2026-04-09",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-google-deepen-collaboration-to-advance-ai-infrastructure.html",
+      "locator": "Multiyear Xeon and IPU collaboration description",
+      "finding": "Current Xeon 6 deployment and continued CPU/custom IPU collaboration support Products demand. The release does not confirm a Google TPU EMIB order, quantities or standalone packaging economics."
+    }
+  ],
+  "material_conference_counterevidence": {
+    "event_date": "2026-08-26",
+    "official_event_url": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference",
+    "official_event_announcement": "https://www.intc.com/news-events/press-releases/detail/1780/intel-corporation-to-participate-in-upcoming-investor",
+    "official_replay_url": "https://event.webcasts.com/starthere.jsp?ei=1772132&tp_key=c6c7a0f610&tp_special=8",
+    "transcript_url": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+    "verification": "The issuer event/replay chain is verified. Replay requests registration; none was submitted. Exact CFO remarks were read in a third-party-hosted first-person transcript and are not independently audio-verified. They remain meaningful attributed management evidence rather than a verified contract.",
+    "reported_claims": "Packaging starts ramping in H2 2027 and scales in 2028\u201329; management envisages multiple billions of annual revenue per customer, about 40% gross and 30% operating margin, and lower capital intensity than front-end manufacturing. It also targets more than doubling Ireland output in 2027 using existing shells and tools. These are forward expectations, not delivered volumes.",
+    "stage_and_scope": "No named customer dollar allocation, enforceable minimum, detailed cost allocation or recurring capital intensity is disclosed in this passage. An external package service can be sold without manufacturing the main customer logic die; this makes it economically distinct from waiting for a large 14A wafer award.",
+    "not_independent_sources": "Syndicated or reposted versions of the same CFO remarks are not additional customer confirmations."
+  },
+  "materiality_and_double_count_control": {
+    "root_hurdles_not_forecasts": {
+      "prior_entry_funded_bull_extra_2031_net_cash_B": 1.703,
+      "prior_entry_base_extra_2031_net_cash_B": 6.23,
+      "new_quote_funded_bull_extra_2031_net_cash_B_root_supplied_approx": 0.493,
+      "scope": "These root diagnostics assume cash grows 3% perpetually at 12% with no additional unmodeled upfront investment; they are not limits on actual earnings."
+    },
+    "scale_illustration": {
+      "formula": "At a hypothetical achieved 30% operating margin and mature 18% tax, $1B of truly incremental revenue supplies $0.246B after-tax operating profit BEFORE incremental net investment (capex minus D&A plus working capital).",
+      "net_cash_equivalence_requires": "Only if incremental net investment is zero or already fully charged elsewhere can that profit equal the additional owner cash used in the hurdle. No such condition is asserted as observed.",
+      "revenue_equivalent_of_1_703B_under_that_condition_B": 6.922764227642277,
+      "revenue_equivalent_of_0_493B_under_that_condition_B": 2.004065040650407,
+      "judgment": "A portfolio of the management-described customer programs is economically material versus the old funded-bull hurdle; at the lower current quote, even one multibillion-scale program could be material if substantially incremental and efficiently funded. This is not a forecast of revenue, a verified price target or evidence that the hurdle is met."
+    },
+    "already_in_forecast": "Google Xeon/IPU, NVIDIA host CPU/custom x86 and related CPU recovery belong in Products, not an additive Foundry upside line. Existing Intel16 services are already part of reported external Foundry activity. The frozen bull already reaches $3.5B Foundry operating profit in 2030 and carries positive later Foundry profits. Its aggregate line does not separately identify packaging; neither all-included nor all-incremental can be claimed.",
+    "capital_rule": "Existing front-end and packaging investments may fund higher utilization; they cannot be charged twice. Conversely, growth beyond installed/paid capacity must carry its equipment, qualification, working capital and replacement cash before claiming incremental owner cash.",
+    "misstatement_to_avoid": "The 2024 greater-than-$15B lifetime expected foundry deal value was an aggregate wafer-plus-packaging measure, not a disclosed Microsoft-only annual revenue or profit commitment."
+  },
+  "ranked_defensible_claims": [
+    {
+      "rank": 1,
+      "claim": "CPU and packaging recovery has actual customers and a funded reuse route.",
+      "evidence": "Committed 2027 packaging conversion, MediaTek production, deployed Xeon and reported Ireland expansion.",
+      "direction": "Supports operating LONG; does not alone establish stock mispricing."
+    },
+    {
+      "rank": 2,
+      "claim": "Complete-package output and accepted customer economics, not fab milestones alone, determine the cash payoff.",
+      "evidence": "Substrate constraints, equipment funding and mixed qualification stages; existing physical-reuse ledger.",
+      "direction": "Best discriminating forecast question. Faster absorption could defeat the SHORT without a huge new 14A award."
+    },
+    {
+      "rank": 3,
+      "claim": "Treat every announced external program as an accepted profitable volume award is wrong.",
+      "evidence": "Tower corridor dispute, MediaTek EMIB stage distinction, unallocated AWS/Microsoft/14A economics.",
+      "direction": "Useful discipline, insufficient standalone SHORT thesis."
+    }
+  ],
+  "next_observable_test": "2027 external packaging revenue conversion and underlying Foundry margin improvement relative to the paid tools/substrate budget. Customer prepayments and accepted shipment disclosures help distinguish funded absorption from additional investment. A lower loss driven only by intersegment reserves or one-time contracts does not satisfy the test.",
+  "source_hashes": {
+    "foundry_operating_policy.json": "fd17c6573519d6b2db78b9defa51bceb479b690a085aef90d5bc9f48fe855a81",
+    "bullish_absorption_operating_policy.json": "6857dbbc5e3d724a3dde2b0ef0ce5914d40a87a09ac4afd6aa0369c32113bf65",
+    "physical_reuse_capacity_bridge_2026_11_04.json": "ca8205854ccdc64441fe92b3e80d31220e256d10aa12319bb41245e5e7b344ea",
+    "funded_bull_valuation_2026_11_04.json": "5a55146ce8cd7d4b20f52b85997fd616aa05573aa373eddd3905f35429471521"
+  }
+}

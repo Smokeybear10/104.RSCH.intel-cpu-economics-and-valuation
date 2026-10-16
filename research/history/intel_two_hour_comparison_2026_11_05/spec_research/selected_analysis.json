@@ -1,0 +1,741 @@
+{
+  "computed_utc": "2026-11-05T22:29:25.868950+00:00",
+  "total_database_rows": 13407,
+  "models_screened": [
+    "Intel Xeon 6980P",
+    "Intel Xeon 6990E+",
+    "Intel Xeon 6780E",
+    "Intel Xeon Platinum 8592+",
+    "AMD EPYC 9755",
+    "AMD EPYC 9965",
+    "AMD EPYC 9996"
+  ],
+  "selected_exact_model_rows": 167,
+  "accepted_fullcore_dualsocket_rows": 119,
+  "unavailable_selected_models": [
+    "AMD EPYC 9996"
+  ],
+  "excluded": [
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Aug-2025",
+      "Baseline": 1630.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250728-49211.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Oct-2025",
+      "Baseline": 1410.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20250922-49713.html"
+    },
+    {
+      "Processor": "Intel Xeon 6780E",
+      "# Chips": 1,
+      "# Cores": 144,
+      "Published": "Dec-2024",
+      "Baseline": 697.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241115-45420.html"
+    },
+    {
+      "Processor": "Intel Xeon 6780E",
+      "# Chips": 1,
+      "# Cores": 144,
+      "Published": "Jul-2025",
+      "Baseline": 697.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250630-48928.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jul-2025",
+      "Baseline": 1410.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250616-48697.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Nov-2025",
+      "Baseline": 853.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251018-50028.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Dec-2025",
+      "Baseline": 1260.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251120-50517.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jul-2025",
+      "Baseline": 1400.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250714-49076.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Dec-2025",
+      "Baseline": 1150.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251117-50383.html"
+    },
+    {
+      "Processor": "Intel Xeon 6990E+",
+      "# Chips": 1,
+      "# Cores": 288,
+      "Published": "Nov-2026",
+      "Baseline": 1550.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q4/cpu2017-20261016-51979.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jan-2026",
+      "Baseline": 153.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20251120-50509.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jan-2026",
+      "Baseline": 154.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20251120-50510.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jan-2026",
+      "Baseline": 162.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20251120-50511.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jan-2026",
+      "Baseline": 153.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20251120-50512.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jan-2026",
+      "Baseline": 153.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20251120-50513.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jan-2026",
+      "Baseline": 154.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20251120-50514.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jan-2026",
+      "Baseline": 163.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20251120-50515.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jan-2026",
+      "Baseline": 154.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20251120-50516.html"
+    },
+    {
+      "Processor": "Intel Xeon Platinum 8592+",
+      "# Chips": 1,
+      "# Cores": 64,
+      "Published": "Jun-2024",
+      "Baseline": 550.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q2/cpu2017-20240520-43522.html"
+    },
+    {
+      "Processor": "Intel Xeon 6780E",
+      "# Chips": 1,
+      "# Cores": 144,
+      "Published": "Nov-2024",
+      "Baseline": 712.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241020-45051.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jul-2025",
+      "Baseline": 1600.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250615-48684.html"
+    },
+    {
+      "Processor": "Intel Xeon 6980P",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Nov-2024",
+      "Baseline": 1230.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241104-45161.html"
+    },
+    {
+      "Processor": "Intel Xeon 6980P",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Nov-2024",
+      "Baseline": 1220.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241022-45100.html"
+    },
+    {
+      "Processor": "Intel Xeon Platinum 8592+",
+      "# Chips": 1,
+      "# Cores": 64,
+      "Published": "Aug-2024",
+      "Baseline": 563.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240729-44257.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jun-2025",
+      "Baseline": 1610.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250505-48028.html"
+    },
+    {
+      "Processor": "Intel Xeon 6780E",
+      "# Chips": 1,
+      "# Cores": 144,
+      "Published": "Oct-2024",
+      "Baseline": 691.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240929-44967.html"
+    },
+    {
+      "Processor": "Intel Xeon Platinum 8592+",
+      "# Chips": 1,
+      "# Cores": 64,
+      "Published": "Feb-2024",
+      "Baseline": 527.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240115-40697.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jun-2025",
+      "Baseline": 1530.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250519-48154.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Jun-2025",
+      "Baseline": 1520.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250520-48239.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Dec-2024",
+      "Baseline": 1510.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241118-45545.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Feb-2025",
+      "Baseline": 1290.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250210-46340.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Mar-2025",
+      "Baseline": 1360.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250309-46687.html"
+    },
+    {
+      "Processor": "Intel Xeon 6980P",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Dec-2024",
+      "Baseline": 1230.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241202-45744.html"
+    },
+    {
+      "Processor": "Intel Xeon 6980P",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Oct-2024",
+      "Baseline": 1220.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241008-45004.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Mar-2025",
+      "Baseline": 1370.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250225-46673.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Aug-2025",
+      "Baseline": 1610.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250727-49208.html"
+    },
+    {
+      "Processor": "Intel Xeon 6780E",
+      "# Chips": 2,
+      "# Cores": 144,
+      "Published": "Sep-2024",
+      "Baseline": 1350.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240910-44725.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Oct-2024",
+      "Baseline": 1250.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240920-44758.html"
+    },
+    {
+      "Processor": "Intel Xeon 6990E+",
+      "# Chips": 1,
+      "# Cores": 288,
+      "Published": "Jun-2026",
+      "Baseline": 1410.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260602-51563.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Nov-2025",
+      "Baseline": 1280.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251104-50319.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Oct-2024",
+      "Baseline": 1260.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240924-44944.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Oct-2024",
+      "Baseline": 1450.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240924-44949.html"
+    },
+    {
+      "Processor": "Intel Xeon 6780E",
+      "# Chips": 1,
+      "# Cores": 144,
+      "Published": "Aug-2024",
+      "Baseline": 695.0,
+      "url": "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240729-44260.html"
+    },
+    {
+      "Processor": "Intel Xeon 6980P",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Jan-2025",
+      "Baseline": 1220.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241216-45825.html"
+    },
+    {
+      "Processor": "Intel Xeon 6990E+",
+      "# Chips": 1,
+      "# Cores": 288,
+      "Published": "Jun-2026",
+      "Baseline": 1400.0,
+      "url": "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260519-51523.html"
+    },
+    {
+      "Processor": "Intel Xeon Platinum 8592+",
+      "# Chips": 1,
+      "# Cores": 64,
+      "Published": "Dec-2023",
+      "Baseline": 522.0,
+      "url": "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231127-40036.html"
+    },
+    {
+      "Processor": "AMD EPYC 9755",
+      "# Chips": 1,
+      "# Cores": 128,
+      "Published": "Jul-2025",
+      "Baseline": 1400.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250616-48687.html"
+    },
+    {
+      "Processor": "AMD EPYC 9965",
+      "# Chips": 1,
+      "# Cores": 192,
+      "Published": "Apr-2025",
+      "Baseline": 1610.0,
+      "url": "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250324-47097.html"
+    }
+  ],
+  "summaries": [
+    {
+      "processor": "AMD EPYC 9755",
+      "cores_per_socket": 128,
+      "socket_count": 2,
+      "submissions": 25,
+      "unique_vendors": 9,
+      "submission_min": 2480.0,
+      "submission_median": 2740.0,
+      "submission_max": 2850.0,
+      "equal_vendor_median": 2790.0,
+      "vendor_medians": {
+        "ASUSTeK Computer Inc.": 2795.0,
+        "Dell Inc.": 2620.0,
+        "GIGA-BYTE TECHNOLOGY CO., LTD.": 2720.0,
+        "IEIT Systems Co., Ltd.": 2790.0,
+        "Kaytus Systems Pte. Ltd.": 2810.0,
+        "Maginfra Co., Ltd.": 2810.0,
+        "Quanta Cloud Technology": 2490.0,
+        "Supermicro": 2595.0,
+        "xFusion": 2850.0
+      },
+      "published_months": [
+        "Apr-2025",
+        "Aug-2025",
+        "Jan-2025",
+        "Jul-2026",
+        "Jun-2025",
+        "Jun-2026",
+        "Mar-2025",
+        "Mar-2026",
+        "May-2026",
+        "Nov-2025",
+        "Oct-2024",
+        "Oct-2025"
+      ],
+      "memory_configurations": 3,
+      "compiler_configurations": 1,
+      "urls": [
+        "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20260309-51156.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241230-45858.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250310-46826.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250602-48575.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240923-44827.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250210-46306.html",
+        "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250725-49179.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240923-44824.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250324-47223.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250221-46473.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250324-47224.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250221-46475.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250325-47255.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250407-47519.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250310-46705.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250407-47502.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250310-46710.html",
+        "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260615-51622.html",
+        "https://www.spec.org/cpu2017/results/res2026q3/cpu2017-20260629-51655.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240922-44790.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251020-50100.html",
+        "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260616-51631.html",
+        "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260504-51449.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240920-44768.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20250928-49776.html"
+      ]
+    },
+    {
+      "processor": "AMD EPYC 9965",
+      "cores_per_socket": 192,
+      "socket_count": 2,
+      "submissions": 29,
+      "unique_vendors": 8,
+      "submission_min": 2200.0,
+      "submission_median": 3130.0,
+      "submission_max": 3260.0,
+      "equal_vendor_median": 3140.0,
+      "vendor_medians": {
+        "ASUSTeK Computer Inc.": 3180.0,
+        "Dell Inc.": 2985.0,
+        "GIGA-BYTE TECHNOLOGY CO., LTD.": 3100.0,
+        "IEIT Systems Co., Ltd.": 3190.0,
+        "Kaytus Systems Pte. Ltd.": 3190.0,
+        "New H3C Technologies Co., Ltd.": 3185.0,
+        "Supermicro": 2490.0,
+        "Tyrone Systems": 2200.0
+      },
+      "published_months": [
+        "Apr-2025",
+        "Aug-2026",
+        "Dec-2025",
+        "Feb-2026",
+        "Jan-2025",
+        "Jul-2025",
+        "Jun-2025",
+        "Jun-2026",
+        "Mar-2025",
+        "Nov-2024",
+        "Oct-2024",
+        "Oct-2026"
+      ],
+      "memory_configurations": 9,
+      "compiler_configurations": 2,
+      "urls": [
+        "https://www.spec.org/cpu2017/results/res2026q4/cpu2017-20261005-51950.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250324-47086.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241230-45850.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240923-44837.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250310-46810.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250602-48586.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241104-45213.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240923-44831.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250210-46307.html",
+        "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250518-48106.html",
+        "https://www.spec.org/cpu2017/results/res2026q3/cpu2017-20260727-51779.html",
+        "https://www.spec.org/cpu2017/results/res2026q1/cpu2017-20260206-51017.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241004-44979.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250324-47225.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250113-45918.html",
+        "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250615-48682.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250324-47227.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20250113-45920.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250407-47501.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241230-45865.html",
+        "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250701-49040.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250407-47504.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241230-45867.html",
+        "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260518-51509.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251130-50540.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240920-44771.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240923-44852.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240924-44951.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251014-49928.html"
+      ]
+    },
+    {
+      "processor": "Intel Xeon 6780E",
+      "cores_per_socket": 144,
+      "socket_count": 2,
+      "submissions": 16,
+      "unique_vendors": 11,
+      "submission_min": 1130.0,
+      "submission_median": 1390.0,
+      "submission_max": 1440.0,
+      "equal_vendor_median": 1380.0,
+      "vendor_medians": {
+        "ASUSTeK Computer Inc.": 1430.0,
+        "Compal Electronics, Inc.": 1370.0,
+        "Dell Inc.": 1315.0,
+        "GIGA-BYTE TECHNOLOGY CO., LTD.": 1380.0,
+        "Hewlett Packard Enterprise": 1380.0,
+        "IEIT Systems Co., Ltd.": 1400.0,
+        "Kaytus Systems Pte. Ltd.": 1410.0,
+        "Lenovo Global Technology": 1240.0,
+        "Maginfra Co., Ltd.": 1410.0,
+        "New H3C Technologies Co., Ltd.": 1410.0,
+        "Supermicro": 1360.0
+      },
+      "published_months": [
+        "Aug-2024",
+        "Aug-2026",
+        "Dec-2024",
+        "Jul-2024",
+        "May-2026",
+        "Nov-2025",
+        "Oct-2024",
+        "Oct-2025",
+        "Sep-2024"
+      ],
+      "memory_configurations": 2,
+      "compiler_configurations": 2,
+      "urls": [
+        "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260420-51387.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251020-50067.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20250907-49415.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240712-44047.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240712-44052.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240827-44637.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20241202-45687.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240730-44361.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240811-44406.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240715-44181.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240923-44841.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240909-44713.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240812-44469.html",
+        "https://www.spec.org/cpu2017/results/res2026q3/cpu2017-20260727-51785.html",
+        "https://www.spec.org/cpu2017/results/res2024q4/cpu2017-20240923-44862.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240729-44337.html"
+      ]
+    },
+    {
+      "processor": "Intel Xeon 6980P",
+      "cores_per_socket": 128,
+      "socket_count": 2,
+      "submissions": 9,
+      "unique_vendors": 6,
+      "submission_min": 2250.0,
+      "submission_median": 2430.0,
+      "submission_max": 2510.0,
+      "equal_vendor_median": 2425.0,
+      "vendor_medians": {
+        "Dell Inc.": 2250.0,
+        "GIGA-BYTE TECHNOLOGY CO., LTD.": 2440.0,
+        "Kaytus Systems Pte. Ltd.": 2500.0,
+        "Lenovo Global Technology": 2400.0,
+        "Supermicro": 2410.0,
+        "xFusion": 2510.0
+      },
+      "published_months": [
+        "Apr-2025",
+        "Apr-2026",
+        "Dec-2025",
+        "Jan-2025",
+        "Nov-2025"
+      ],
+      "memory_configurations": 8,
+      "compiler_configurations": 3,
+      "urls": [
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251103-50275.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241230-45863.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251126-50522.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20251103-50270.html",
+        "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20251215-50873.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241216-45816.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241216-45819.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241216-45811.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250324-47099.html"
+      ]
+    },
+    {
+      "processor": "Intel Xeon 6990E+",
+      "cores_per_socket": 288,
+      "socket_count": 2,
+      "submissions": 1,
+      "unique_vendors": 1,
+      "submission_min": 3050.0,
+      "submission_median": 3050.0,
+      "submission_max": 3050.0,
+      "equal_vendor_median": 3050.0,
+      "vendor_medians": {
+        "Supermicro": 3050.0
+      },
+      "published_months": [
+        "Jun-2026"
+      ],
+      "memory_configurations": 1,
+      "compiler_configurations": 1,
+      "urls": [
+        "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260518-51499.html"
+      ]
+    },
+    {
+      "processor": "Intel Xeon Platinum 8592+",
+      "cores_per_socket": 64,
+      "socket_count": 2,
+      "submissions": 39,
+      "unique_vendors": 14,
+      "submission_min": 839.0,
+      "submission_median": 1070.0,
+      "submission_max": 1130.0,
+      "equal_vendor_median": 1085.0,
+      "vendor_medians": {
+        "ASUSTeK Computer Inc.": 1130.0,
+        "Cisco Systems": 1050.0,
+        "Dell Inc.": 1060.0,
+        "Fujitsu": 1060.0,
+        "GIGA-BYTE TECHNOLOGY CO., LTD.": 1100.0,
+        "Hewlett Packard Enterprise": 1090.0,
+        "IEIT Systems Co., Ltd.": 1130.0,
+        "Lenovo Global Technology": 1030.0,
+        "New H3C Technologies Co., Ltd.": 1120.0,
+        "Quanta Cloud Technology": 1020.0,
+        "Supermicro": 1080.0,
+        "Tyrone Systems": 839.0,
+        "ZTE Corporation": 1100.0,
+        "xFusion": 1130.0
+      },
+      "published_months": [
+        "Apr-2024",
+        "Apr-2025",
+        "Aug-2024",
+        "Aug-2025",
+        "Dec-2023",
+        "Feb-2024",
+        "Jan-2024",
+        "Jan-2025",
+        "Jul-2024",
+        "Jun-2026",
+        "Mar-2024",
+        "May-2024",
+        "Oct-2025"
+      ],
+      "memory_configurations": 6,
+      "compiler_configurations": 5,
+      "urls": [
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231127-40064.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240312-42303.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240227-41861.html",
+        "https://www.spec.org/cpu2017/results/res2025q2/cpu2017-20250324-47103.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240112-40544.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20231218-40244.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240112-40537.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20231218-40324.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231128-40081.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231128-40086.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240212-41144.html",
+        "https://www.spec.org/cpu2017/results/res2025q4/cpu2017-20250922-49648.html",
+        "https://www.spec.org/cpu2017/results/res2025q3/cpu2017-20250811-49332.html",
+        "https://www.spec.org/cpu2017/results/res2024q2/cpu2017-20240409-42834.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240312-42337.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240312-42339.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20231226-40463.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240212-41112.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231127-40032.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240212-41227.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231127-40031.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240115-40673.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240130-40926.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240114-40628.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240109-40515.html",
+        "https://www.spec.org/cpu2017/results/res2024q1/cpu2017-20240115-40692.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231127-40055.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231127-40043.html",
+        "https://www.spec.org/cpu2017/results/res2026q2/cpu2017-20260601-51555.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231127-40052.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241230-45875.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241230-45877.html",
+        "https://www.spec.org/cpu2017/results/res2025q1/cpu2017-20241230-45881.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231205-40204.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231127-40034.html",
+        "https://www.spec.org/cpu2017/results/res2023q4/cpu2017-20231128-40073.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240720-44243.html",
+        "https://www.spec.org/cpu2017/results/res2024q2/cpu2017-20240501-43197.html",
+        "https://www.spec.org/cpu2017/results/res2024q3/cpu2017-20240701-43948.html"
+      ]
+    }
+  ],
+  "note": "Observed submissions are vendor-selected, overlapping system designs, not independent randomized tests. Month-granularity publication data retrievedNovember5; recordswithlatermonths excluded. CPU2026 results not pooled."
+}

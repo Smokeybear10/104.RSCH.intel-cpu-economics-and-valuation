@@ -1,0 +1,248 @@
+{
+  "computed_utc": "2026-11-05T22:54:19.367148+00:00",
+  "question": "Does the modeled mature margin and implied return require economics beyond Intel\u2019s historical integrated franchise?",
+  "conclusion": "The 2030 modeled EBIT ratio is approximately Intel\u2019s 2018 peak reported margin. The 2040 ratio is about 2.6 points higher on an incomplete revenue denominator. The 23.5% implied incremental accounting return is not numerically unprecedented relative to a simple normalized historical capital proxy, but the comparison cannot validate sustained future economic returns.",
+  "Intel_actuals": [
+    {
+      "year": 2017,
+      "revenue_B": 62.761,
+      "GAAP_operating_income_B": 18.05,
+      "R_and_D_expense_B": 13.035,
+      "book_equity_B": 69.019,
+      "ordinary_debt_B": 26.813,
+      "cash_B": 3.433,
+      "short_investments_B": 1.814,
+      "trading_assets_B": 8.755,
+      "nonoperating_equity_investments_B": 8.579,
+      "other_long_term_investments_B": 3.712,
+      "temporary_equity_B": 0.866,
+      "GAAP_operating_margin": 0.2875989866318255,
+      "common18pct_normalized_NOPAT_B": 14.801,
+      "book_operating_capital_proxy_B": 70.405,
+      "year_end_normalized_accounting_return": 0.21022654641005611
+    },
+    {
+      "year": 2018,
+      "revenue_B": 70.848,
+      "GAAP_operating_income_B": 23.316,
+      "R_and_D_expense_B": 13.543,
+      "book_equity_B": 74.563,
+      "ordinary_debt_B": 26.359,
+      "cash_B": 3.019,
+      "short_investments_B": 2.788,
+      "trading_assets_B": 5.843,
+      "nonoperating_equity_investments_B": 6.042,
+      "other_long_term_investments_B": 3.388,
+      "temporary_equity_B": 0.419,
+      "GAAP_operating_margin": 0.32909891598915986,
+      "common18pct_normalized_NOPAT_B": 19.11912,
+      "book_operating_capital_proxy_B": 80.26100000000001,
+      "year_end_normalized_accounting_return": 0.23821183389192754,
+      "average_book_operating_capital_proxy_B": 75.333,
+      "average_capital_normalized_accounting_return": 0.2537947513042093
+    },
+    {
+      "year": 2019,
+      "revenue_B": 71.965,
+      "GAAP_operating_income_B": 22.035,
+      "R_and_D_expense_B": 13.362,
+      "book_equity_B": 77.504,
+      "ordinary_debt_B": 29.001,
+      "cash_B": 4.194,
+      "short_investments_B": 1.082,
+      "trading_assets_B": 7.847,
+      "nonoperating_equity_investments_B": 3.967,
+      "other_long_term_investments_B": 3.276,
+      "temporary_equity_B": 0.155,
+      "GAAP_operating_margin": 0.3061905092753422,
+      "common18pct_normalized_NOPAT_B": 18.0687,
+      "book_operating_capital_proxy_B": 86.29400000000001,
+      "year_end_normalized_accounting_return": 0.20938535703525155,
+      "average_book_operating_capital_proxy_B": 83.2775,
+      "average_capital_normalized_accounting_return": 0.21696976974572962
+    },
+    {
+      "year": 2020,
+      "revenue_B": 77.867,
+      "GAAP_operating_income_B": 23.678,
+      "R_and_D_expense_B": 13.556,
+      "book_equity_B": 81.038,
+      "ordinary_debt_B": 36.401,
+      "cash_B": 5.865,
+      "short_investments_B": 2.292,
+      "trading_assets_B": 15.738,
+      "nonoperating_equity_investments_B": 5.152,
+      "other_long_term_investments_B": 2.192,
+      "temporary_equity_B": 0,
+      "GAAP_operating_margin": 0.3040826023861199,
+      "common18pct_normalized_NOPAT_B": 19.41596,
+      "book_operating_capital_proxy_B": 86.19999999999999,
+      "year_end_normalized_accounting_return": 0.2252431554524362,
+      "average_book_operating_capital_proxy_B": 86.247,
+      "average_capital_normalized_accounting_return": 0.22512040998527483
+    },
+    {
+      "year": 2021,
+      "revenue_B": 79.024,
+      "GAAP_operating_income_B": 19.456,
+      "R_and_D_expense_B": 15.19,
+      "book_equity_B": 95.391,
+      "ordinary_debt_B": 38.101,
+      "cash_B": 4.827,
+      "short_investments_B": 2.103,
+      "trading_assets_B": 21.483,
+      "nonoperating_equity_investments_B": 6.298,
+      "other_long_term_investments_B": 0.84,
+      "temporary_equity_B": 0,
+      "GAAP_operating_margin": 0.2462036849564689,
+      "common18pct_normalized_NOPAT_B": 15.953919999999998,
+      "book_operating_capital_proxy_B": 97.94100000000002,
+      "year_end_normalized_accounting_return": 0.16289317037808473,
+      "average_book_operating_capital_proxy_B": 92.07050000000001,
+      "average_capital_normalized_accounting_return": 0.1732793891637386
+    }
+  ],
+  "forecast_ratios": [
+    {
+      "year": 2030,
+      "model_capital_denominator_revenue_B": 119.48247398141064,
+      "consolidated_normalized_EBIT_after_SBC_B": 39.37938746205255,
+      "EBIT_over_incomplete_capital_revenue_denominator": 0.3295829601601594,
+      "difference_from2018_reported_margin_percentage_points": 0.048404417099956465,
+      "gross_capex_B": 30.0,
+      "gross_capex_fraction_of_capital_denominator": 0.2510828492274731,
+      "DA_fraction_of_capital_denominator": 0.18252826414375764
+    },
+    {
+      "year": 2040,
+      "model_capital_denominator_revenue_B": 202.91168743950922,
+      "consolidated_normalized_EBIT_after_SBC_B": 71.99556704081449,
+      "EBIT_over_incomplete_capital_revenue_denominator": 0.35481232229305354,
+      "difference_from2018_reported_margin_percentage_points": 2.5713406303893684,
+      "gross_capex_B": 46.21342944229824,
+      "gross_capex_fraction_of_capital_denominator": 0.22775144214438167,
+      "DA_fraction_of_capital_denominator": 0.19462108953642163
+    }
+  ],
+  "TSMC_limited_comparison": {
+    "source_year": 2025,
+    "currency": "NTD billions",
+    "revenue_B": 3809.0543,
+    "operating_income_B": 1936.0917,
+    "operating_margin": 0.5082867156816326,
+    "R_and_D_expense_B": 246.4272,
+    "R_and_D_fraction": 0.06469511343012359,
+    "gross_profit_B": 2281.294,
+    "gross_margin": 0.5989134888415741,
+    "2023_operating_margin_rounded": 0.426,
+    "2024_operating_margin_rounded": 0.457,
+    "interpretation": "High manufacturing economics exist, but TSMC sells foundry services across many customers; its mix, process scale, geography, R&D burden, supplier ecosystem and IFRS basis differ. Its 50.8% margin is neither a directly usable Intel margin nor a neutral industry average."
+  },
+  "return_definition": {
+    "formula": "18%-tax-normalized GAAP operating income divided by average book equity + temporary equity + ordinary debt \u2212 cash \u2212 short investments \u2212 trading assets \u2212 nonoperating equity investments \u2212 other long-term investments.",
+    "scope": "A transparent approximate accounting return. Goodwill and acquired intangibles remain in capital. R&D stays expensed. No claim to a fully adjusted economic ROIC, marginal return, replacement-value asset return, or vendor-comparable metric. Historical pension/deferred-tax/lease and derivative adjustments are not fully reconstructed.",
+    "model_ratio": "The 23.4717% modeled quantity is next-year increase in accounting NOPAT / next-year physical-plus-WC net investment. It is incremental, not average; the alternative conventional growth/reinvestment-rate calculation is 24.1758%. Neither is directly identical to the historical average-capital statistic."
+  },
+  "historical_prior": [
+    "History does not make the modeled return impossible: the rough 2018\u20132020 average-capital returns are in the low-to-mid20s using one common tax rate.",
+    "It does show that the long case needs restoration of strong integrated franchise profitability, then retention over a far larger business. A temporary supply shortage does not independently establish that durability.",
+    "The mature mix is much more data-center-heavy. Losing low-margin businesses and changing product mix can support a higher group margin, but this requires explicit economics rather than a direct historical-margin ceiling.",
+    "The model also assumes large remaining physical spending, so it is not simply reverting to the old cash-light capital regime. However, displayed gross capex follows a constructed D&A-plus-net-investment identity; it is not a separate output-capacity proof.",
+    "R&D capitalization would change both NOPAT and invested capital. A consistent reclassification leaves cash valuation unchanged. We should not describe the uncapitalized 23.5% ratio as a fully measured economic rent or compare it mechanically to a capitalized-return source."
+  ],
+  "source_notes": [
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-21-000010/0000050863-21-000010.pdf",
+      "locator": "Printed pages 50 and 76; PDF pages 52 and 78",
+      "verification": "Selected financial data and balance sheet visually inspected. 2017 EBIT is 18.050B after retrospective pension presentation change; original 17.936B should not silently mix with recast data."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/xbrl_doc_only/1800",
+      "locator": "Consolidated balance sheets 2018/2017",
+      "verification": "Primary issuer XBRL table read for 2017\u201318 cash, investments, equity and temporary equity."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/xbrl_doc_only/2028",
+      "locator": "Consolidated balance sheets 2019/2018",
+      "verification": "Primary issuer XBRL table cross-check for 2019/18."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-22-000007/0000050863-22-000007.pdf",
+      "locator": "Printed pages 72 and 74; PDF pages 74 and 76; fair-value note printed97",
+      "verification": "Income and balance-sheet tables visually inspected; fair-value table confirms trading assets and other long-term investments are financial assets."
+    },
+    {
+      "url": "https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf",
+      "locator": "Printed page30/PDF36; income statement F-6/PDF101",
+      "verification": "Operating margin table visually inspected; exact operating income and revenue read from financial statement."
+    }
+  ],
+  "denominator_warning": "The forecast capital denominator omits embedded external Foundry service sales. It must not be labeled fully reconciled consolidated revenue. Ratios shown are upper ratios relative to the incomplete sales denominator, not precise GAAP consolidated margins. Known embedded packaging adds 2B in2030 and grows 3%, while other missing external foundry sales are not independently forecast.",
+  "GAAP_warning": "Historical EBIT includes GAAP SBC and restructuring. Forecast EBIT is normalized after economic SBC with modest recurring restructuring allowances, not a full forecast of all future GAAP charges.",
+  "mature_margin_contribution_bridge": {
+    "2030": {
+      "components": {
+        "CCPG_product_profit": {
+          "B": 10.40194803616829,
+          "fraction_of_capital_denominator": 0.08705835834790841
+        },
+        "DCAI_product_profit": {
+          "B": 29.752439425884262,
+          "fraction_of_capital_denominator": 0.24901090875062745
+        },
+        "host_Foundry_profit": {
+          "B": 2.5,
+          "fraction_of_capital_denominator": 0.02092357076895609
+        },
+        "net_incremental_external_packaging_profit": {
+          "B": 1.175,
+          "fraction_of_capital_denominator": 0.009834078261409362
+        },
+        "Other_consolidated_profit": {
+          "B": 0.7,
+          "fraction_of_capital_denominator": 0.005858599815307704
+        },
+        "corporate_expenses": {
+          "B": -5.15,
+          "fraction_of_capital_denominator": -0.04310255578404955
+        }
+      },
+      "EBIT_sum_B": 39.37938746205255,
+      "sum_error_B": 0.0,
+      "known_embedded_packaging_sales_B": 2.0,
+      "ratio_if_known_shadow_packaging_sales_restored": 0.32415694356108044
+    },
+    "2040": {
+      "components": {
+        "CCPG_product_profit": {
+          "B": 13.529350594711111,
+          "fraction_of_capital_denominator": 0.06667605383127277
+        },
+        "DCAI_product_profit": {
+          "B": 56.943338661027916,
+          "fraction_of_capital_denominator": 0.28063114244221893
+        },
+        "host_Foundry_profit": {
+          "B": 5.343132930379423,
+          "fraction_of_capital_denominator": 0.02633230740822795
+        },
+        "net_incremental_external_packaging_profit": {
+          "B": 2.1601727427773803,
+          "fraction_of_capital_denominator": 0.010645876391035177
+        },
+        "Other_consolidated_profit": {
+          "B": 0.9407414655408854,
+          "fraction_of_capital_denominator": 0.004636211336132787
+        },
+        "corporate_expenses": {
+          "B": -6.92116935362223,
+          "fraction_of_capital_denominator": -0.03410926911583408
+        }
+      },
+      "EBIT_sum_B": 71.99556704081449,
+      "sum_error_B": 0.0,
+      "known_embedded_packaging_sales_B": 2.6878327586882444,
+      "ratio_if_known_shadow_packaging_sales_restored": 0.35017380863248576
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-11-06T00:06:23.132976+00:00",
+  "speaker": "Dave Zinsner, CFO; response to Timothy Arcuri",
+  "event_date": "2026-10-29",
+  "primary_statement_paraphrase": "Intel described adding 40% substrate capacity, much arriving in the back half of 2027, while first-half substrate and Intel 3 constraints persist.",
+  "transcripts": [
+    {
+      "url": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/",
+      "locator": "32:22\u201333:01"
+    },
+    {
+      "url": "https://earningscalls.dev/transcripts/intel-corporation_intc_earnings_call_transcript_2026-10-29",
+      "locator": "David Zinsner speaker segment 8"
+    }
+  ],
+  "scope_limitations": [
+    "Both providers transcribe the same company call; not independent economic confirmation.",
+    "Exact capacity baseline, CPU allocation, yields and qualified shipment ramp are not specified by this statement.",
+    "40% substrate capacity cannot be substituted for 40% CPU unit growth or equated to the calculated 41.2% H2 CPU revenue hurdle.",
+    "Distinct from the separate prepared-remarks statement that equipment purchase orders increased nearly 40% sequentially.",
+    "Official call audio was not accessed; evidence is matched published first-person transcript text."
+  ],
+  "decision": "Add the affirmative supply-timing evidence with a shipment boundary. Do not increase the operating forecast or remove capacity uncertainty."
+}

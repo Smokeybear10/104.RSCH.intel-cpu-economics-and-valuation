@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-11-05T23:04:59.313080+00:00",
+  "scope": "Other DCAI attribution and duration diagnostics. Not a new preferred forecast, management guidance, or unsupported upside. Outputs not calculated before freezing these rules.",
+  "source_claim": "Management purpose-built silicon tripled in past three years and is positioned to triple in next few years. Other DCAI is a broader disclosed bucket. Neither exact base period nor a2030 total-bucket forecast is supplied.",
+  "cases": {
+    "whole_other_tripling_2030": {
+      "2027": "Keep base Other revenue and all CPU/client paths.",
+      "2028_2030": "Multiply each base annual Other growth factor by (3/3.36)^(1/3), so2030 Other equals3x2026E5.19B. This retains selected2027front-loading;3x is only a literal broad-bucket diagnostic, not management total-bucket guidance.",
+      "2031_on": "Keep base Other annual growth rates on revised2030level."
+    },
+    "other_growth_normalizes_2031": {
+      "through2030": "Keep all base rows.",
+      "2031_on": "Other DCAI revenue grows3% annually from base2030level. No further extraordinary broad-bucket growth after the management claim horizon. This does not assert competition eliminates custom demand."
+    }
+  },
+  "operating_delta": "Apply20%of changed Other sales as the total consolidated EBIT delta. This is an owned marginal-profit diagnostic, not a disclosed standalone Other margin. Assign the delta to DCAI solely to reconcile aggregation; do not also change Foundry profit, reverse transfers, or credit wafer savings.20%includes recurring product/platform costs and existing manufacturing transfer convention.",
+  "margin_uncertainty": "Also report10%and30%retention unit sensitivities under exactly the same revenue/capital paths, without choosing a preferred result. These are not probability cases or independent forecasts.",
+  "funding_2027_2030": "Hold all physical capex, D&A, leases, NCI and fixed treasury policy. Adjust host WC cash use by10%of annual change in Other revenue delta; lower sales balances are avoided, not an inventory disposal or sale of stranded factory assets. Tax recalculates. A positive required-minimum-cash check must pass.",
+  "funding_2031_on": "Host net operating investment equals revised host annual sales change/0.8. WC equals10%of revised sales change. Gross capex equals unchanged base consolidated D&A plus revised net investment minus revised WC. Keeping base D&A explicitly retains depreciation of previously installed assets; lower growth reduces future additions without receiving a one-off asset-sale windfall. This is a normalized maintenance/growth convention, not a tool-vintage proof. External packaging overlay stays unchanged and separately funded at1.0.",
+  "tax_and_claims": "Same tax rates, old/new credits and paired basis losses, ordinary debt/interest, cash income, leases, minority reserve,5.51Bclaims and11.555%risk. Check early credit eligible-basis does not exceed remaining physical capex; financing shield cannot exceed positive operating tax.",
+  "terminal": "All2041cash lines must grow3%versus2040. At normalized3%Other growth this condition should hold. No discount-rate compression or external-wafer award.",
+  "interpretation": "The mix identity f*3+(1-f)*1.03^4 cannot reach3.36 for any f in[0,1]. That exposes the logical insufficiency of the narrower triple claim to establish broad-bucket3.36x, but does not disprove the owned forecast because timing, starting population and growth of residual businesses are not disclosed."
+}

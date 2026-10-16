@@ -1,0 +1,53 @@
+{
+  "checked_utc": "2026-11-07T05:24:35.961448+00:00",
+  "method": "Independent implementation from active row values and original capital-policy inputs; no import of reviewer calculation or shared valuation code.",
+  "active_model_sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+  "comparisons": 8,
+  "max_error": 2.1316282072803006e-14,
+  "results": {
+    "selected_joint_before_funding": {
+      "target_USD_before_incremental_financing": 64.74344660904002,
+      "annual_return_at40": 0.12301901708933216,
+      "entry_ceiling12": 40.44942817811909,
+      "operating_PV_B": 326.3550114665436,
+      "terminal_parent_cash_B": 40.0616322102563,
+      "capex2027_2030_B": 124.5
+    },
+    "joint_plus_CPU_delay": {
+      "target_USD_before_incremental_financing": 59.52247661411036,
+      "annual_return_at40": 0.10049884632798212,
+      "entry_ceiling12": 37.18754976584849,
+      "operating_PV_B": 303.506085629823,
+      "terminal_parent_cash_B": 37.42458602372838,
+      "capex2027_2030_B": 124.5
+    },
+    "joint_with_2031_2040_capital060": {
+      "target_USD_before_incremental_financing": 61.14373379303541,
+      "annual_return_at40": 0.107647260152536,
+      "entry_ceiling12": 38.20045422571134,
+      "operating_PV_B": 306.5205938503582,
+      "terminal_parent_cash_B": 40.0616322102563,
+      "capex2027_2030_B": 124.5
+    }
+  },
+  "CPU_threshold_fraction_before_incremental_financing": 0.011084336303931186,
+  "demand_counterexample": {
+    "annual_ASP_growth": 0.1,
+    "CPU2027_B": 28.645556015999997,
+    "CPU2028_B": 38.671500621599996,
+    "company_revenue_B": {
+      "2027": 69.32920297583816,
+      "2028": 85.83826361558667
+    },
+    "company_vs_consensus_pct": {
+      "2027": 0.0008980174662993612,
+      "2028": 0.025314010148074884
+    }
+  },
+  "boundaries": [
+    "Counterexamples are unweighted scenarios, not expected outcomes.",
+    "New combined cases are before incremental financing costs and keep existing cash-income assumptions.",
+    "The delayed CPU case retains the original policy for lower sales and later investment; no second factory absorption charge is added.",
+    "Capital060 is sensitivity, not an observed replacement estimate; terminal cash unchanged."
+  ]
+}

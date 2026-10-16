@@ -1,0 +1,313 @@
+{
+  "computed_utc": "2026-11-04T12:15:51.616241+00:00",
+  "scope": "Funded bullish operating countercase, not a new base recommendation or probability. Forecast choices were frozen before this output; base valuation was already known.",
+  "input_hashes": {
+    "owned_intel_valuation_2026_11_04.json": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+    "funded_bull_execution_policy.json": "ae6b3b69badafeb75fe6ab6c883d2316194ff1aeb0eb9c3901fe85700d862671",
+    "bullish_absorption_operating_policy.json": "6857dbbc5e3d724a3dde2b0ef0ce5914d40a87a09ac4afd6aa0369c32113bf65"
+  },
+  "reproducer_sha256": "824627f72b81bbb6a151c275482b372ada4db43c10befca7def2fd7b3c7d0b58",
+  "entry": {
+    "date": "2026-11-03",
+    "price_USD": 60.55,
+    "source": "https://www.intc.com/stock-info/historical-data"
+  },
+  "operating_rows": [
+    {
+      "year": 2027,
+      "external_revenue_B": 70.9141108,
+      "EBIT_after_corporate_SBC_B": 14.783660687000001,
+      "DA_B": 14,
+      "physical_capex_B": 29,
+      "WC_B": 6,
+      "ordinary_tax_B": 2.21754910305,
+      "parent_unlevered_cash_B": -8.415888416049999,
+      "cash_difference_vs_base_B": 0.14473625275000046
+    },
+    {
+      "year": 2028,
+      "external_revenue_B": 86.07412717330001,
+      "EBIT_after_corporate_SBC_B": 24.495743254433005,
+      "DA_B": 16.5,
+      "physical_capex_B": 31,
+      "WC_B": 5,
+      "ordinary_tax_B": 3.6743614881649505,
+      "parent_unlevered_cash_B": 5.392381766268054,
+      "cash_difference_vs_base_B": 2.9310764781862515
+    },
+    {
+      "year": 2029,
+      "external_revenue_B": 100.03839003787931,
+      "EBIT_after_corporate_SBC_B": 31.787990801232898,
+      "DA_B": 19,
+      "physical_capex_B": 30,
+      "WC_B": 3,
+      "ordinary_tax_B": 4.7681986201849345,
+      "parent_unlevered_cash_B": 16.83779218104796,
+      "cash_difference_vs_base_B": 3.1897709816672606
+    },
+    {
+      "year": 2030,
+      "external_revenue_B": 111.87251182657936,
+      "EBIT_after_corporate_SBC_B": 37.72370168445527,
+      "DA_B": 21,
+      "physical_capex_B": 29,
+      "WC_B": 3,
+      "ordinary_tax_B": 5.6585552526682905,
+      "parent_unlevered_cash_B": 22.377146431786976,
+      "cash_difference_vs_base_B": 3.3267256012365536
+    },
+    {
+      "year": 2031,
+      "external_revenue_B": 121.81868511900356,
+      "EBIT_after_corporate_SBC_B": 41.00159660472904,
+      "DA_B": 22.002916747015657,
+      "physical_capex_B": 34.26986380767217,
+      "WC_B": 0.9946173292424206,
+      "ordinary_tax_B": 6.3962490703377295,
+      "parent_unlevered_cash_B": 21.407283144492368,
+      "cash_difference_vs_base_B": 5.4884941712438575
+    },
+    {
+      "year": 2032,
+      "external_revenue_B": 131.4162320211306,
+      "EBIT_after_corporate_SBC_B": 44.04312935541681,
+      "DA_B": 24.404685284014818,
+      "physical_capex_B": 37.15571188255504,
+      "WC_B": 0.959754690212705,
+      "ordinary_tax_B": 7.134986955577523,
+      "parent_unlevered_cash_B": 22.36029111108636,
+      "cash_difference_vs_base_B": 5.366819373629323
+    },
+    {
+      "year": 2033,
+      "external_revenue_B": 140.66758669608183,
+      "EBIT_after_corporate_SBC_B": 46.84862912323586,
+      "DA_B": 26.833550463735957,
+      "physical_capex_B": 40.14126834231963,
+      "WC_B": 0.9251354674951217,
+      "ordinary_tax_B": 7.870569692703624,
+      "parent_unlevered_cash_B": 22.93193398445344,
+      "cash_difference_vs_base_B": 5.160042481870711
+    },
+    {
+      "year": 2034,
+      "external_revenue_B": 149.39748037771926,
+      "EBIT_after_corporate_SBC_B": 49.350764071860084,
+      "DA_B": 28.883596002669556,
+      "physical_capex_B": 41.97843652512571,
+      "WC_B": 0.8729893681637435,
+      "ordinary_tax_B": 8.587032948503653,
+      "parent_unlevered_cash_B": 24.207230969736532,
+      "cash_difference_vs_base_B": 4.924030962401876
+    },
+    {
+      "year": 2035,
+      "external_revenue_B": 157.60042704459798,
+      "EBIT_after_corporate_SBC_B": 51.55846560247301,
+      "DA_B": 30.870891927311597,
+      "physical_capex_B": 43.72217503875492,
+      "WC_B": 0.8202946666878717,
+      "ordinary_tax_B": 9.28052380844514,
+      "parent_unlevered_cash_B": 25.940033645006665,
+      "cash_difference_vs_base_B": 4.620869652945075
+    },
+    {
+      "year": 2036,
+      "external_revenue_B": 164.90074619408176,
+      "EBIT_after_corporate_SBC_B": 53.11999697763201,
+      "DA_B": 32.311479952760116,
+      "physical_capex_B": 43.74864662028471,
+      "WC_B": 0.7300319149483784,
+      "ordinary_tax_B": 9.561599455973761,
+      "parent_unlevered_cash_B": 28.644878657168572,
+      "cash_difference_vs_base_B": 4.461614209403717
+    },
+    {
+      "year": 2037,
+      "external_revenue_B": 171.80473305990878,
+      "EBIT_after_corporate_SBC_B": 54.43284639546832,
+      "DA_B": 33.67221724734383,
+      "physical_capex_B": 44.4884633371395,
+      "WC_B": 0.6903986865827023,
+      "ordinary_tax_B": 9.797912351184296,
+      "parent_unlevered_cash_B": 30.299579377428454,
+      "cash_difference_vs_base_B": 4.14426289769596
+    },
+    {
+      "year": 2038,
+      "external_revenue_B": 178.2185876932709,
+      "EBIT_after_corporate_SBC_B": 55.4723878997244,
+      "DA_B": 34.93432629307712,
+      "physical_capex_B": 44.98269855201111,
+      "WC_B": 0.6413854633362122,
+      "ordinary_tax_B": 9.985029821950393,
+      "parent_unlevered_cash_B": 31.88402916831228,
+      "cash_difference_vs_base_B": 4.100287637215672
+    },
+    {
+      "year": 2039,
+      "external_revenue_B": 184.22028915896917,
+      "EBIT_after_corporate_SBC_B": 56.2778119061691,
+      "DA_B": 36.113384848849456,
+      "physical_capex_B": 45.516050478443404,
+      "WC_B": 0.6001701465698261,
+      "ordinary_tax_B": 10.130006143110437,
+      "parent_unlevered_cash_B": 33.14399166408763,
+      "cash_difference_vs_base_B": 4.027449042692087
+    },
+    {
+      "year": 2040,
+      "external_revenue_B": 189.74689783373825,
+      "EBIT_after_corporate_SBC_B": 57.18118393129678,
+      "DA_B": 37.19678639431494,
+      "physical_capex_B": 45.8551399847865,
+      "WC_B": 0.5526608674769079,
+      "ordinary_tax_B": 10.29261310763342,
+      "parent_unlevered_cash_B": 34.58654869322341,
+      "cash_difference_vs_base_B": 3.707789670362608
+    },
+    {
+      "year": 2041,
+      "external_revenue_B": 195.4393047687504,
+      "EBIT_after_corporate_SBC_B": 58.89661944923568,
+      "DA_B": 38.312689986144385,
+      "physical_capex_B": 47.23079418433008,
+      "WC_B": 0.5692406935012144,
+      "ordinary_tax_B": 10.601391500862421,
+      "parent_unlevered_cash_B": 35.62414515402013,
+      "cash_difference_vs_base_B": 3.819023360473494
+    }
+  ],
+  "treasury_rows": [
+    {
+      "year": 2027,
+      "owner_cash_B": -9.925888416049998,
+      "cash_difference_vs_base_B": 0.14473625275000046,
+      "ending_economic_cash_B": 36.50711158395,
+      "ending_ordinary_debt_B": 46.308,
+      "new_borrowing_B": 0.0
+    },
+    {
+      "year": 2028,
+      "owner_cash_B": 3.901131766268054,
+      "cash_difference_vs_base_B": 3.075812730936252,
+      "ending_economic_cash_B": 38.20524335021805,
+      "ending_ordinary_debt_B": 43.135,
+      "new_borrowing_B": 0.0
+    },
+    {
+      "year": 2029,
+      "owner_cash_B": 15.365292181047959,
+      "cash_difference_vs_base_B": 6.2655837126035125,
+      "ending_economic_cash_B": 50.282535531266014,
+      "ending_ordinary_debt_B": 39.847,
+      "new_borrowing_B": 0.0
+    },
+    {
+      "year": 2030,
+      "owner_cash_B": 20.923396431786973,
+      "cash_difference_vs_base_B": 9.592309313840065,
+      "ending_economic_cash_B": 68.45593196305298,
+      "ending_ordinary_debt_B": 37.097,
+      "new_borrowing_B": 0.0
+    },
+    {
+      "year": 2031,
+      "owner_cash_B": 20.545170008492367,
+      "cash_difference_vs_base_B": 15.080803485083923,
+      "ending_economic_cash_B": 89.00110197154534,
+      "ending_ordinary_debt_B": 37.097,
+      "new_borrowing_B": 0.0
+    }
+  ],
+  "values_at12pct": {
+    "2026": {
+      "date": "2026-12-31",
+      "rate": 0.12,
+      "explicit_operating_PV_change_B": 24.03501180679936,
+      "terminal_operating_PV_change_B": 8.682753826620479,
+      "endpoint_cash_change_B": 0.0,
+      "equity_change_B": 32.71776563341984,
+      "equity_B": 206.91455878843752,
+      "price_USD": 37.552551504253636,
+      "base_price_USD": 31.614663004540414
+    },
+    "2029": {
+      "date": "2029-12-31",
+      "rate": 0.12,
+      "explicit_operating_PV_change_B": 27.113327275017557,
+      "terminal_operating_PV_change_B": 12.198643968126259,
+      "endpoint_cash_change_B": 6.2655837126035125,
+      "equity_change_B": 45.57755495574733,
+      "equity_B": 284.2825718346129,
+      "price_USD": 51.593933182325394,
+      "base_price_USD": 43.32214462411354,
+      "annual_price_appreciation_from_entry": -0.04940002453309178
+    },
+    "2030": {
+      "date": "2030-12-31",
+      "rate": 0.12,
+      "explicit_operating_PV_change_B": 27.040200946783116,
+      "terminal_operating_PV_change_B": 13.66248124430141,
+      "endpoint_cash_change_B": 9.592309313840065,
+      "equity_change_B": 50.294991504924596,
+      "equity_B": 314.7081761910146,
+      "price_USD": 57.115821450274886,
+      "base_price_USD": 47.98787380872777,
+      "annual_price_appreciation_from_entry": -0.013941619513762271
+    },
+    "2031": {
+      "date": "2031-12-31",
+      "rate": 0.12,
+      "explicit_operating_PV_change_B": 24.79653088915323,
+      "terminal_operating_PV_change_B": 15.301978993617581,
+      "endpoint_cash_change_B": 15.080803485083923,
+      "equity_change_B": 55.17931336785473,
+      "equity_B": 346.93900149837,
+      "price_USD": 62.96533602511252,
+      "base_price_USD": 52.95094158448553,
+      "annual_price_appreciation_from_entry": 0.00761200509726323
+    }
+  },
+  "end2030_rate_controls": {
+    "0.11": {
+      "date": "2030-12-31",
+      "rate": 0.11,
+      "explicit_operating_PV_change_B": 28.100231127100358,
+      "terminal_operating_PV_change_B": 16.812509395448384,
+      "endpoint_cash_change_B": 9.592309313840065,
+      "equity_change_B": 54.50504983638881,
+      "equity_B": 351.22541634603175,
+      "price_USD": 63.743269754270734,
+      "base_price_USD": 53.85124619049781,
+      "annual_price_appreciation_from_entry": 0.012434613068676548
+    },
+    "0.13": {
+      "date": "2030-12-31",
+      "rate": 0.13,
+      "explicit_operating_PV_change_B": 26.04414387252354,
+      "terminal_operating_PV_change_B": 11.250397832169714,
+      "endpoint_cash_change_B": 9.592309313840065,
+      "equity_change_B": 46.88685101853332,
+      "equity_B": 285.56920941154,
+      "price_USD": 51.82744272441742,
+      "base_price_USD": 43.318032376226256,
+      "annual_price_appreciation_from_entry": -0.03671174402035893
+    }
+  },
+  "checks": {
+    "unchanged_debt_and_financing_shield_valid_under_frozen_policies": true,
+    "minimum_yearend_economic_cash_B": 36.50711158395,
+    "terminal_cash_growth": 0.03000000000000025,
+    "extra_physical_capex_2027_2030_B": 11.0,
+    "extra_WC_2027_2030_B": 4.0
+  },
+  "limitations": [
+    "Additional manufacturing spending is charged; extra AMIC benefits are not assumed.",
+    "Corporate/SBC, lease, minority reserve, cash income and financial claims follow the frozen base conventions. Higher central costs or minority profit sharing would reduce the improvement.",
+    "Mature margins and capital productivity converge to the same conventions as the base. Faster timing and a higher accepted sales level persist.",
+    "This is a coherent forecast countercase, not proof that packaging qualification, CPU demand or yields will meet it.",
+    "End2026 is a planning reference, not current November3 fair value."
+  ]
+}

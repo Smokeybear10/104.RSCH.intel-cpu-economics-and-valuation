@@ -1,0 +1,509 @@
+{
+  "prepared_at_utc": "2026-11-04 22:51 UTC",
+  "purpose": "New primary-source multiyear comparison for the owned Intel incremental net-capital turnover assumptions 0.8 base and 1.0 bull. No equity valuation was rerun or assumption selected to reach a stock price.",
+  "units": "NTD millions except ratios and wafer shipments; consolidated company, not unconsolidated parent. Annual revenue rounded to NTD million as issuer MD&A; cash-flow inputs to one decimal.",
+  "sources": [
+    {
+      "id": "tsmc_2022_20f",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312523107214/d428519d20f.htm",
+      "locations": [
+        "MD&A revenue and wafer shipments 2020\u20132022",
+        "consolidated cash flows, 2021 and 2022 columns",
+        "Note 23 contract liabilities and temporary customer receipts",
+        "Note 32 PP&E additions to cash acquisitions reconciliation"
+      ]
+    },
+    {
+      "id": "tsmc_2025_20f",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "locations": [
+        "MD&A revenue and wafer shipments 2023\u20132025",
+        "consolidated cash flows F-11\u2013F-13",
+        "Note 23 customer contract balances",
+        "Note 30 government grants",
+        "Note 31 PP&E additions to cash acquisitions reconciliation"
+      ]
+    },
+    {
+      "id": "tsmc_2026_q3_condensed",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/3a94d1034b9e6b22446b674f7aaf3d088a12a193/FS.pdf",
+      "locations": [
+        "page 1 balance sheet",
+        "page 4 cash flow statement"
+      ]
+    }
+  ],
+  "method": {
+    "formula": "(Revenue_end \u2212 Revenue_start) / SUM_over_intervening_years(cash PP&E + cash acquired intangibles \u2212 PP&E/intangible sale proceeds + lease principal \u2212 depreciation \u2212 amortization + operating WC investment).",
+    "trade_WC": "Negative sum of cash-flow changes in ordinary and related receivables, inventories, and ordinary and related trade payables. These CFO changes avoid most noncash balance-sheet translation effects.",
+    "broad_WC": "Trade WC plus selected other operating asset and liability changes; excludes financial assets, derivatives, pensions and taxes. Includes customer advances inside accrued/other liabilities. Broad scope is less clean than trade scope.",
+    "trade_cash_changes_order": [
+      "accounts_and_notes_receivable",
+      "related_receivable",
+      "inventory",
+      "accounts_payable",
+      "related_payable"
+    ],
+    "other_operating_cash_changes_order_2021_2022": [
+      "other_related_receivable",
+      "other_current_assets",
+      "salary_bonus",
+      "profit_sharing_bonus",
+      "accrued_other_current_liabilities",
+      "other_noncurrent_liabilities"
+    ],
+    "other_operating_cash_changes_order_2023_2025": [
+      "other_related_receivable",
+      "other_current_assets",
+      "other_noncurrent_assets",
+      "salary_bonus",
+      "profit_sharing_bonus",
+      "accrued_other_current_liabilities",
+      "other_noncurrent_liabilities"
+    ],
+    "other_noncurrent_assets_early_years": "No separate other noncurrent asset line in the 2022 cash-flow statement; not asserted economically zero. This is one limit of broad cross-period scope.",
+    "capitalized_interest": "PP&E cash payments already exclude capitalized interest in Note 31/32 reconciliations; do not subtract it again. Interest paid is financing. D&A still reflects historical capitalized interest, a remaining small mismatch.",
+    "grants": "Use gross PP&E cash acquisitions, with no deduction for government PPE receipts or minority equity funding; comparable to operating reinvestment before financing. Grant accounting can reduce future reported D&A, so gross economic depreciation is not identified perfectly.",
+    "leases": "Includes lease principal to counter D&A on right-of-use assets; lease prepayment sensitivity shown separately. Debt principal, dividends and financing proceeds excluded.",
+    "time_alignment": "Start-year revenue is the baseline; investment only in following years through end-year. This deliberately avoids mixing stock PP&E or one-quarter annualization with incremental cash investment."
+  },
+  "annual_inputs_and_derived": {
+    "2021": {
+      "revenue": 1587415,
+      "depreciation": 414187.7,
+      "amortization": 8207.2,
+      "cash_ppe": 839195.7,
+      "cash_intangibles": 9040.7,
+      "ppe_disposals": 390.4,
+      "intangible_disposals": 0,
+      "lease_principal": 1985.3,
+      "trade_cash_changes": [
+        -52105.9,
+        -157.2,
+        -55748.9,
+        8298.3,
+        -670.5
+      ],
+      "other_operating_cash_changes": [
+        -10.9,
+        -3899,
+        3730.9,
+        843.7,
+        84322.7,
+        154086
+      ],
+      "lease_prepayments": 1200,
+      "government_ppe_grants": 821.3,
+      "wafer_shipments_thousands": 14179,
+      "net_fixed_investment": 427436.3999999999,
+      "trade_WC_investment": 100384.2,
+      "broad_operating_WC_investment": -138689.2,
+      "DA_revenue_ratio": 0.26608977488558444,
+      "cash_ppe_revenue_ratio": 0.5286555185631986
+    },
+    "2022": {
+      "revenue": 2263891,
+      "depreciation": 428498.2,
+      "amortization": 8756.1,
+      "cash_ppe": 1082672.1,
+      "cash_intangibles": 6954.3,
+      "ppe_disposals": 983.3,
+      "intangible_disposals": 12.6,
+      "lease_principal": 2428.3,
+      "trade_cash_changes": [
+        -32169.9,
+        -868.7,
+        -28046.8,
+        7594.1,
+        205.4
+      ],
+      "other_operating_cash_changes": [
+        -7.5,
+        -4450.9,
+        12633.4,
+        25223.9,
+        46578.8,
+        101390.5
+      ],
+      "lease_prepayments": 0,
+      "government_ppe_grants": 7046.1,
+      "wafer_shipments_thousands": 15253,
+      "net_fixed_investment": 653804.5000000001,
+      "trade_WC_investment": 53285.899999999994,
+      "broad_operating_WC_investment": -128082.30000000002,
+      "DA_revenue_ratio": 0.1931428235723363,
+      "cash_ppe_revenue_ratio": 0.4782350828728062
+    },
+    "2023": {
+      "revenue": 2161736,
+      "depreciation": 522932.7,
+      "amortization": 9258.2,
+      "cash_ppe": 949816.8,
+      "cash_intangibles": 5518.4,
+      "ppe_disposals": 703.9,
+      "intangible_disposals": 3.1,
+      "lease_principal": 2854.3,
+      "trade_cash_changes": [
+        28442,
+        959.5,
+        -29847.9,
+        847,
+        -76.3
+      ],
+      "other_operating_cash_changes": [
+        -2.9,
+        -12530.9,
+        -720.3,
+        -3234.9,
+        -11031.6,
+        -44466.7,
+        13329.9
+      ],
+      "lease_prepayments": 63.2,
+      "government_ppe_grants": 47544.7,
+      "wafer_shipments_thousands": 12002,
+      "net_fixed_investment": 425291.6000000001,
+      "trade_WC_investment": -324.29999999999853,
+      "broad_operating_WC_investment": 58333.1,
+      "DA_revenue_ratio": 0.2461868146711717,
+      "cash_ppe_revenue_ratio": 0.43937687118130986
+    },
+    "2024": {
+      "revenue": 2894308,
+      "depreciation": 653610.5,
+      "amortization": 9186.1,
+      "cash_ppe": 956006.5,
+      "cash_intangibles": 8875.7,
+      "ppe_disposals": 894.6,
+      "intangible_disposals": 57.2,
+      "lease_principal": 2873.7,
+      "trade_cash_changes": [
+        -69369.4,
+        -780.1,
+        -36871.7,
+        17073.8,
+        -140.3
+      ],
+      "other_operating_cash_changes": [
+        71.7,
+        -15537.3,
+        -3862,
+        14250.9,
+        20154.3,
+        74659.4,
+        16768.7
+      ],
+      "lease_prepayments": 99.4,
+      "government_ppe_grants": 75164,
+      "wafer_shipments_thousands": 12910,
+      "net_fixed_investment": 304007.5,
+      "trade_WC_investment": 90087.7,
+      "broad_operating_WC_investment": -16417.99999999999,
+      "DA_revenue_ratio": 0.22900002349438967,
+      "cash_ppe_revenue_ratio": 0.3303057242007416
+    },
+    "2025": {
+      "revenue": 3809054,
+      "depreciation": 679684,
+      "amortization": 8412.4,
+      "cash_ppe": 1272410.5,
+      "cash_intangibles": 10146.9,
+      "ppe_disposals": 797,
+      "intangible_disposals": 0,
+      "lease_principal": 3496.5,
+      "trade_cash_changes": [
+        -8368.3,
+        -1335,
+        -240.7,
+        9751,
+        352.7
+      ],
+      "other_operating_cash_changes": [
+        -267.9,
+        -74620.3,
+        -38798.1,
+        16421.4,
+        32484.1,
+        -103215.5,
+        385.1
+      ],
+      "lease_prepayments": 39.8,
+      "government_ppe_grants": 76258.8,
+      "wafer_shipments_thousands": 15022,
+      "net_fixed_investment": 597160.4999999999,
+      "trade_WC_investment": -159.7,
+      "broad_operating_WC_investment": 167451.5,
+      "DA_revenue_ratio": 0.18064758336321826,
+      "cash_ppe_revenue_ratio": 0.3340489528371086
+    }
+  },
+  "baseline_2020": {
+    "revenue": 1339255,
+    "wafer_shipments_thousands": 12398
+  },
+  "period_results": [
+    {
+      "start_year": 2020,
+      "end_year": 2025,
+      "delta_annual_revenue": 2469799,
+      "cumulative_net_fixed_investment": 2407700.5,
+      "cumulative_trade_WC_investment": 243273.8,
+      "cumulative_broad_operating_WC_investment": -57404.899999999994,
+      "trade_turnover": 0.9316570892445092,
+      "broad_turnover": 1.0508461148461494,
+      "trade_turnover_also_including_lease_prepayments": 0.9311644910770028
+    },
+    {
+      "start_year": 2021,
+      "end_year": 2025,
+      "delta_annual_revenue": 2221639,
+      "cumulative_net_fixed_investment": 1980264.1,
+      "cumulative_trade_WC_investment": 142889.59999999998,
+      "cumulative_broad_operating_WC_investment": 81284.3,
+      "trade_turnover": 1.0463863261524589,
+      "broad_turnover": 1.0776555136905832,
+      "trade_turnover_also_including_lease_prepayments": 1.046286583771794
+    },
+    {
+      "start_year": 2022,
+      "end_year": 2025,
+      "delta_annual_revenue": 1545163,
+      "cumulative_net_fixed_investment": 1326459.6,
+      "cumulative_trade_WC_investment": 89603.7,
+      "cumulative_broad_operating_WC_investment": 209366.6,
+      "trade_turnover": 1.0911680289998336,
+      "broad_turnover": 1.006079333716276,
+      "trade_turnover_also_including_lease_prepayments": 1.091012089045156
+    },
+    {
+      "start_year": 2020,
+      "end_year": 2023,
+      "delta_annual_revenue": 822481,
+      "cumulative_net_fixed_investment": 1506532.5,
+      "cumulative_trade_WC_investment": 153345.8,
+      "cumulative_broad_operating_WC_investment": -208438.4,
+      "trade_turnover": 0.49550680914377876,
+      "broad_turnover": 0.6336066083344805,
+      "trade_turnover_also_including_lease_prepayments": 0.49513000548117064
+    },
+    {
+      "start_year": 2021,
+      "end_year": 2023,
+      "delta_annual_revenue": 574321,
+      "cumulative_net_fixed_investment": 1079096.1,
+      "cumulative_trade_WC_investment": 52961.6,
+      "cumulative_broad_operating_WC_investment": -69749.20000000001,
+      "trade_turnover": 0.5073248474878974,
+      "broad_turnover": 0.5690025896943854,
+      "trade_turnover_also_including_lease_prepayments": 0.5072965263692243
+    },
+    {
+      "start_year": 2022,
+      "end_year": 2024,
+      "delta_annual_revenue": 630417,
+      "cumulative_net_fixed_investment": 729299.1000000001,
+      "cumulative_trade_WC_investment": 89763.4,
+      "cumulative_broad_operating_WC_investment": 41915.100000000006,
+      "trade_turnover": 0.769681190385349,
+      "broad_turnover": 0.8174343781533068,
+      "trade_turnover_also_including_lease_prepayments": 0.7695284238727548
+    }
+  ],
+  "customer_funding_balances": {
+    "2021": {
+      "temporary_customer_receipts": 185994.2,
+      "contract_liabilities": 39762.6
+    },
+    "2022": {
+      "temporary_customer_receipts": 276122.8,
+      "contract_liabilities": 70806.6
+    },
+    "2024": {
+      "temporary_customer_receipts": 291101.8,
+      "contract_liabilities": 89435.4
+    },
+    "2025": {
+      "temporary_customer_receipts": 189858.2,
+      "contract_liabilities": 49954.4
+    }
+  },
+  "customer_funding_neutralized_diagnostic": {
+    "method": "Add increase in customer temporary receipts + contract liability balance to broad investment, removing the reduction in funding requirement from deposit inflows. This endpoint balance adjustment is approximate because FX and classification changes need not equal cash movements.",
+    "results": [
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "delta_customer_funding_balance": 14055.799999999988,
+        "net_investment_customer_funding_approximately_neutralized": 2075604.2000000002,
+        "turnover": 1.070357730052772
+      },
+      {
+        "start_year": 2022,
+        "end_year": 2025,
+        "delta_customer_funding_balance": -107116.80000000002,
+        "net_investment_customer_funding_approximately_neutralized": 1428709.4000000001,
+        "turnover": 1.0815096477982156
+      }
+    ]
+  },
+  "2026_YTD_update": {
+    "revenue": 3898727,
+    "DA": 584192,
+    "cash_PPE": 1289971,
+    "cash_PPE_disposals": 2373,
+    "DA_revenue_ratio": 0.14984173039045823,
+    "cash_PPE_revenue_ratio": 0.33086979416614704,
+    "cash_WC_and_others": -251447,
+    "cash_WC_warning": "Condensed Changes in Working Capital & Others is not a clean WC input, so no comparable marginal turnover is calculated.",
+    "september_2026_trade_WC_stocks": {
+      "AR": 483557,
+      "inventory": 427753,
+      "AP": 122630
+    },
+    "september_2025_trade_WC_stocks": {
+      "AR": 307814,
+      "inventory": 288689,
+      "AP": 86386
+    },
+    "year_over_year_trade_WC_balance_increase": 278563,
+    "interpretation": "Recent revenue growth outpaces D&A, but trade funding has risen materially. Do not extend 2025 near-zero annual trade-WC cash use forever."
+  },
+  "economic_interpretation": [
+    "A 1.0 revenue/net-investment case is economically credible: several 3\u20135-year leader windows cluster near 0.93\u20131.09 using narrow trade WC. This improves external support for the existing bull, rather than proving Intel will attain it.",
+    "Ending in a trough instead yields roughly 0.50. The denominator contains capacity built for later years; revenue includes node/mix/pricing and FX. These are broad cash-efficiency diagnostics, not calibrated marginal-capital coefficients or probability bounds.",
+    "2021\u21922025 total revenue rose about 140%, while 12-inch-equivalent wafer shipments rose only about 6%. Mix, technology value, packaging and pricing therefore matter enormously. The ratio does not prove a physical volume growth rate can be financed at that efficiency.",
+    "Intel combines merchant CPU design value and internal manufacturing, giving it potentially greater sales per physical wafer, but also greater competitive, startup, outside-foundry and development burden. TSMC revenue/net capital cannot mechanically set Intel Products turnover.",
+    "The earlier single-quarter TSMC annualized sales/average net PP&E 1.4 is a stock ratio and remains inadmissible as direct support for an incremental 1.4 parameter.",
+    "Existing Intel 0.8 remains a reasonable owned planning assumption; 1.0 is a credible favorable case, and a fair thesis must retain it. Sources do not establish that 0.8 is the expected value or make 1.0 unlikely.",
+    "TSMC discloses customers generally do not submit product purchase orders far in advance, while some pay capacity-retention advances. Forecast judgment can rely on design/customer/equipment readiness and funding terms; requiring signed volume contracts for every future wafer dollar is an unreasonable blanket rule."
+  ],
+  "not_done": "No exact forecast distribution, Intel target-price revision, or same-company capital calibration inferred from this benchmark.",
+  "last_verified_at_utc": "2026-11-04 22:53 UTC",
+  "pre_AI_comparison": {
+    "purpose": "Check whether ~1.0 leader productivity is solely the current AI-era mix window. Same narrow trade-WC methodology; no forecast edit.",
+    "sources": [
+      {
+        "url": "https://investor.tsmc.com/static/secFillings/20F-2019.pdf",
+        "locator": "selected data PDF p6, consolidated cash flows PDF p80\u201382; printed F-9\u2013F-11"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312522104891/d204786d20f.htm",
+        "locator": "2020 CFS column, printed F-9\u2013F-11"
+      }
+    ],
+    "annual_inputs": {
+      "2017": {
+        "revenue": 977447,
+        "cash_ppe": 330588.2,
+        "cash_intangibles": 4480.6,
+        "ppe_disposals": 326.2,
+        "intangible_disposals": 0,
+        "depreciation": 255796,
+        "amortization": 4346.7,
+        "lease_principal": 0,
+        "lease_or_land_prepayments": 819.7,
+        "trade_cash_changes": [
+          1061.8,
+          -214.6,
+          -25229.1,
+          2572.1,
+          394.2
+        ],
+        "net_fixed_investment": 74599.89999999998,
+        "trade_WC_investment": 21415.6
+      },
+      "2018": {
+        "revenue": 1031474,
+        "cash_ppe": 315581.9,
+        "cash_intangibles": 7100.3,
+        "ppe_disposals": 181.5,
+        "intangible_disposals": 0.5,
+        "depreciation": 288124.9,
+        "amortization": 4421.4,
+        "lease_principal": 0,
+        "lease_or_land_prepayments": 0,
+        "trade_cash_changes": [
+          -13271.3,
+          599.7,
+          -29370,
+          4540.6,
+          -279.9
+        ],
+        "net_fixed_investment": 29953.899999999987,
+        "trade_WC_investment": 37780.9
+      },
+      "2019": {
+        "revenue": 1069985,
+        "cash_ppe": 460422.2,
+        "cash_intangibles": 9329.9,
+        "ppe_disposals": 287.3,
+        "intangible_disposals": 0,
+        "depreciation": 281411.8,
+        "amortization": 5472.4,
+        "lease_principal": 2930.6,
+        "lease_or_land_prepayments": 0,
+        "trade_cash_changes": [
+          -18119.6,
+          -277.7,
+          20249.8,
+          5860.1,
+          58.4
+        ],
+        "net_fixed_investment": 185511.20000000004,
+        "trade_WC_investment": -7771.0
+      },
+      "2020": {
+        "revenue": 1339255,
+        "cash_ppe": 507238.7,
+        "cash_intangibles": 9542.4,
+        "ppe_disposals": 606.7,
+        "intangible_disposals": 0,
+        "depreciation": 324538.4,
+        "amortization": 7186.2,
+        "lease_principal": 2615.7,
+        "lease_or_land_prepayments": 4693.4,
+        "trade_cash_changes": [
+          -8082.7,
+          304,
+          -54372.2,
+          404.6,
+          672.8
+        ],
+        "net_fixed_investment": 187065.5,
+        "trade_WC_investment": 61073.49999999999
+      }
+    },
+    "baseline_2016_revenue": 947938,
+    "results": [
+      {
+        "start_year": 2016,
+        "end_year": 2020,
+        "delta_annual_revenue": 391317,
+        "net_fixed_investment": 477130.5,
+        "trade_WC_investment": 112499.0,
+        "trade_turnover": 0.6636659122381089,
+        "trade_turnover_with_lease_or_land_prepayments": 0.6575180469353059
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2020,
+        "delta_annual_revenue": 361808,
+        "net_fixed_investment": 402530.60000000003,
+        "trade_WC_investment": 91083.4,
+        "trade_turnover": 0.7329775897766271,
+        "trade_turnover_with_lease_or_land_prepayments": 0.7260739053845076
+      },
+      {
+        "start_year": 2016,
+        "end_year": 2019,
+        "delta_annual_revenue": 122047,
+        "net_fixed_investment": 290065.0,
+        "trade_WC_investment": 51425.5,
+        "trade_turnover": 0.3573950080602535,
+        "trade_turnover_with_lease_or_land_prepayments": 0.3565391858028186
+      }
+    ],
+    "accounting_scope": "IFRS 16 lease capitalization starts 2019. Lease principal added from 2019; earlier operating rent remains expensed. Land/lease prepayment sensitivity supplied. Historical process mix, depreciation age and overseas footprint differ.",
+    "conclusion": "Pre-AI windows are below current 2025-ended windows. This is additional support for 0.8 as a planning center and 1.0 as favorable, not proof of an expected value or statistical bounds."
+  }
+}

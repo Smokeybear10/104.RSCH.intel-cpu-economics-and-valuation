@@ -1,0 +1,95 @@
+{
+  "scope": "Influence check, not exclusion policy or new preferred beta. No observations removed from primary matchedbetas. Pre2026 diagnostic predeclared forregime rather thanoptimization, but exploratorynotoutofsample.",
+  "results": [
+    {
+      "symbol": "INTC",
+      "base60month_beta": 2.4185341937923077,
+      "pre2026_50month_beta": 1.586138152006799,
+      "pre2026_n": 50,
+      "leave_one_out_min_beta": 1.6326235486999894,
+      "leave_one_out_max_beta": 2.6080001745817856,
+      "top_influence_months": [
+        {
+          "excluded_month": "2026-04",
+          "beta_after_exclusion": 1.6326235486999894,
+          "beta_change": -0.7859106450923183,
+          "stock_or_portfolio_return": 1.140947225700323,
+          "SPY_return": 0.10505264083288113
+        },
+        {
+          "excluded_month": "2022-07",
+          "beta_after_exclusion": 2.6080001745817856,
+          "beta_change": 0.18946598078947785,
+          "stock_or_portfolio_return": -0.029403992437114446,
+          "SPY_return": 0.09208748987821336
+        },
+        {
+          "excluded_month": "2024-04",
+          "beta_after_exclusion": 2.3227304022583257,
+          "beta_change": -0.095803791533982,
+          "stock_or_portfolio_return": -0.31016523950801467,
+          "SPY_return": -0.04031956475801812
+        },
+        {
+          "excluded_month": "2022-04",
+          "beta_after_exclusion": 2.5029281459909685,
+          "beta_change": 0.08439395219866075,
+          "stock_or_portfolio_return": -0.12046008252823004,
+          "SPY_return": -0.08776909064902705
+        },
+        {
+          "excluded_month": "2025-05",
+          "beta_after_exclusion": 2.5021390699213004,
+          "beta_change": 0.0836048761289927,
+          "stock_or_portfolio_return": -0.02736324049606631,
+          "SPY_return": 0.0628449014337158
+        }
+      ]
+    },
+    {
+      "symbol": "eight_manufacturing_peers",
+      "base60month_beta": 1.687083067651956,
+      "pre2026_50month_beta": 1.4183015573430373,
+      "pre2026_n": 50,
+      "leave_one_out_min_beta": 1.4608035895273888,
+      "leave_one_out_max_beta": 1.7577802777221943,
+      "top_influence_months": [
+        {
+          "excluded_month": "2026-04",
+          "beta_after_exclusion": 1.4608035895273888,
+          "beta_change": -0.22627947812456717,
+          "stock_or_portfolio_return": 0.43161143227488785,
+          "SPY_return": 0.10505264083288113
+        },
+        {
+          "excluded_month": "2022-10",
+          "beta_after_exclusion": 1.7577802777221943,
+          "beta_change": 0.07069721007023833,
+          "stock_or_portfolio_return": 0.025963286802380844,
+          "SPY_return": 0.08127542520142628
+        },
+        {
+          "excluded_month": "2022-11",
+          "beta_after_exclusion": 1.6323762444689438,
+          "beta_change": -0.05470682318301212,
+          "stock_or_portfolio_return": 0.23065807495100085,
+          "SPY_return": 0.05559165193521021
+        },
+        {
+          "excluded_month": "2024-11",
+          "beta_after_exclusion": 1.7309167036058426,
+          "beta_change": 0.043833635953886674,
+          "stock_or_portfolio_return": -0.00102665920625164,
+          "SPY_return": 0.05963347281694742
+        },
+        {
+          "excluded_month": "2026-05",
+          "beta_after_exclusion": 1.6459642877303795,
+          "beta_change": -0.04111877992157642,
+          "stock_or_portfolio_return": 0.19899525483989855,
+          "SPY_return": 0.05262574755586291
+        }
+      ]
+    }
+  ]
+}

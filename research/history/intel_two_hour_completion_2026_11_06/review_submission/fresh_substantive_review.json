@@ -1,0 +1,61 @@
+{
+  "reviewed_utc": "2026-11-06T07:52:34.189432+00:00",
+  "snapshot": "All 18 PDF pages rebuilt about07:43UTC were extracted and read in full. Visual recheck is pending the final freeze; contents may subsequently change.",
+  "claim_review": [
+    {
+      "claim": "Business overview and segment-profit contribution",
+      "status": "Resolved in revised screenp2. The32.6% Foundry contribution is an arithmetic attribution of the selected forecast, not observed future profit. Host Foundry scope now correctly includes embedded packaging and legacy external work."
+    },
+    {
+      "claim": "Foundry technical and customer support",
+      "status": "Support is appropriately bounded: issuer node-cost learning and capacity/backlog disclosures explain a mechanism; MediaTek primary answer corroborates work on an unnamed US IDM process. It does not name Intel or validate the7B fee forecast."
+    },
+    {
+      "claim": "Manufacturing and packaging stresses",
+      "status": "No scope flaw found. Foundry cost-miss controls keep product deliveries and fixed D&A/capex unchanged, so losses are cash-cost misses rather than depreciation-only charges. Packaging endpoints retain sunk capital and distinguish cost avoidance; gross and net incremental revenue are not conflated."
+    },
+    {
+      "claim": "Matched successful workload",
+      "status": "Revised screenp9/defensep5 now use completed result with narrow qualifications: matched purchasable cloud shape, different physical cores, public raw reanalysis, estimated EC2+EBS rather than paid bill or procurement ASP. No supplier-margin inference is claimed."
+    },
+    {
+      "claim": "Alternative market-risk convention",
+      "status": "Legitimate serious counterexample to an unconditional no-entry-edge conclusion. Directly inspected NYU primary workbook monthly labels andNov1row: Treasury4.94%, sustainable-payout ERP4.41%, plainT12ERP3.79%. Prior dated review already documented this alternative. Neither market calibration identifies the correct future discount rate or the most likely operating case."
+    },
+    {
+      "claim": "Favorable valuation under alternative rate",
+      "status": "Independently reproduced original precise-rate results exactly, then matched published precision at10.625%. Favorable planning56.1393,target82.4702,conditionalCAGR11.6152%. Unchanged favorable operations at11.555%remain48.5577,73.5608,8.5848%."
+    }
+  ],
+  "narrative_corrections_for_final_freeze": [
+    "Show rate-method sensitivity in the main screen, defense and comparison; do not leave any universal statement that even favorable conditions produce value below entry.",
+    "Describe the remaining decision as jointly dependent on operating selection and risk convention. Do not call the lower ERP new evidence that favorable operations are likely.",
+    "Use December2026 planning value, not current intrinsic value, for the56-day-forward estimate.",
+    "Fix literal D&A; rendering in screenp8 and defensep2.",
+    "Keep all joint cases unweighted. The same quoted entry and horizon must be used in every displayed return."
+  ],
+  "joint_closure": {
+    "question": "Does the positive planning cushion at the lower rate survive one previously assumed3B packaging program missing?",
+    "method": "Apply existing packaging cash-flow deltas to favorable rows only after confirming identical packaging revenue and tax paths; retain all near-term capital and adjust retained2030cash once. No root-model change.",
+    "published_rounded_rate": 0.10625,
+    "no_miss": {
+      "planning": 56.13928584556836,
+      "target": 82.47015162680005,
+      "CAGR": 0.11615212704256206
+    },
+    "costs_flex": {
+      "planning": 54.25211977117705,
+      "target": 79.65599414802945,
+      "CAGR": 0.10686068672331128
+    },
+    "costs_committed": {
+      "planning": 50.96934191877766,
+      "target": 74.80075769252826,
+      "CAGR": 0.0902269311328796
+    },
+    "conclusion": "The cushion survives the flexible-cost endpoint and fails the committed-cost endpoint. This supports neither a guaranteed long nor a blanket rejection. These endpoints are modeled conventions, not known probabilities or evidence of an actual lost customer."
+  },
+  "controllable_research_closure": "Current disclosures, exact source boundaries, model identities, successful-work arithmetic and concrete joint sensitivities can be closed now. Accepted future output, net contract fees, long-run renewal economics, realized returns and judge outcomes cannot be proved today. A completed research review is a valid output for the latest question; a competition entry still requires an owned LONG/SHORT judgment.",
+  "parent_model_mutations": false,
+  "PDF_mutations": false
+}

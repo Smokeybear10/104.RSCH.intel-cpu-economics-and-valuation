@@ -1,0 +1,40 @@
+{
+  "selected_utc": "2026-11-05T21:56:11.302689+00:00",
+  "recommendation": "LONG, moderate conviction",
+  "scope": "Fundamental competition recommendation; not an executed transaction or a claim of demonstrated alpha.",
+  "business_thesis": "Premium server-platform profitability can persist while a growing CPU market and factory cost absorption turn funded capacity into shareholder cash.",
+  "selected_mature_DCAI_margin": 0.4,
+  "selected_host_capital_productivity": 0.8,
+  "selected_operating_risk_rate": 0.11555,
+  "risk_path": "Flat. Maturation remains an upside scenario.",
+  "what_changed_since_PASS": [
+    "New explicit mix decomposition distinguishes dilution from CPU-margin erosion. Preserving inferred Q3 CPU operating profitability as Other mix grows gives39.7-40.4% mature DCAI, depending on illustrative Other margins15-25%.",
+    "Primary customer roadmaps and the latest premium server mix motivate choosing persistence of newer platform profitability over the earlier35% assumption. This is an economic judgment; a Q2/YTD baseline gives lower margins and is prominently shown.",
+    "The verified November5 closing price52.22 is lower than the prior54.58intraday reference. This improves return arithmetic; it is not proof fundamentals improved.",
+    "The objective is a defensible directional investment pitch under uncertainty; absence of statistically proven alpha does not prohibit choosing a moderate-conviction position."
+  ],
+  "why_risk_unchanged": "The1.50 operating beta is informed by mature cyclical businesses, so successful funding alone does not justify lowering systematic operating risk.",
+  "reference_quote": {
+    "USD": 52.22,
+    "date": "2026-11-05",
+    "time": "16:00 America/New_York",
+    "type": "regular-session close",
+    "url": "https://stockanalysis.com/stocks/intc/history/"
+  },
+  "base_target_2030_USD": 77.6819879986314,
+  "annual_price_return": 0.10034547227789337,
+  "December2026_planning_value_USD": 51.287102511241436,
+  "critical_valuation_limit": "Approximately fair entry with little initial valuation cushion. The primary scenario does not meet an owned12% annual-return hurdle. Do not label it a deeply undervalued or established market-beating trade.",
+  "risk_scenarios": {
+    "35pct_margin_flat_2030": 70.97777530967525,
+    "same_operations_maturing_risk_2030": 89.63590532589556,
+    "joint_downside_2030": 45.6908589860078,
+    "joint_downside_Dec2026": 30.450105842961268
+  },
+  "cash_constraints": "Gross physical investment, working capital, economic SBC and partner reserves retained. Cash claims need further reconciliation where contracts omit amounts; no invented charge or unpaid free capital.",
+  "model_provenance": "Adopt the existing audited margin-only40%/.8/flat case. Frozen historical35% model remains unchanged. No new revenue, cost savings, valuation multiple or wafer customer is stacked on top.",
+  "conviction": "Moderate; forecast and required-return judgment, not a numerical winning probability.",
+  "current_pitch_content_complete": true,
+  "resume_package_checked": false,
+  "submitted": false
+}

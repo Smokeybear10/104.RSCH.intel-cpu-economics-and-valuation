@@ -1,0 +1,134 @@
+{
+  "as_of": "2026-11-06",
+  "scope": "Retained DCAI profit after shortages ease; no PDF, forecast, model or investment recommendation changed.",
+  "verdict": {
+    "input_change_justified": false,
+    "key_new_information": "Management described 3–5-year volume-and-pricing agreements in April, explicit price and volume locks in June, and stabilized or rising like-for-like ASP per core in June/August. This materially improves the near-term contractual-economics argument relative to citing customer logos and deposits alone.",
+    "remaining_edge": "Neither executed contract economics nor the aggregate coverage/renewal economics is public in the reviewed material. These statements do not identify the consolidated profit retained after input costs, or establish 40% blended DCAI operating margin through 2031–40.",
+    "forecast_implication": "Keep numerical assumptions unchanged pending quantified evidence. Acknowledge stronger contract visibility when defending the 2027 ramp; do not credit another price increase beyond the model’s mix/pricing forecast. Treat 40% mature margin as an underwriting assumption, not a contractual floor."
+  },
+  "new_vs_already_known": [
+    {
+      "id": "q1_signed_dcai_ltas",
+      "novelty": "Newly emphasized primary corroboration; multiple LTAs and deposits were already known, but contractual scope was missing from prior retained_profit_deepening.json.",
+      "source": "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+      "date": "2026-04-23",
+      "locator": "Prepared remarks p4",
+      "source_class": "Issuer original prepared remarks, downloaded and extracted",
+      "fact": "Intel says DCAI signed multiple long-term agreements in Q1, including Google.",
+      "economic_use": "Confirms the agreements belong to DCAI. It does not allocate the separate company-level $1.7B deposit balance exclusively to DCAI, nor disclose CPU versus ASIC contract dollars.",
+      "confidence": "High for the existence of signed agreements; no numeric price protection."
+    },
+    {
+      "id": "q1_lta_term",
+      "novelty": "New to the reviewed prior analytical notes.",
+      "source": "https://storage.googleapis.com/magi-store/earnings/INTC/2026-04-23_Q1_FY2026/03_outputs/transcript.html",
+      "event_source": "https://www.intc.com/news-events/ir-calendar/detail/20260423-q1-2026-intel-corporation-earnings-conference-call",
+      "date": "2026-04-23",
+      "locator": "CFO David Zinsner, first Q&A response to Benjamin Reitzes",
+      "source_class": "Direct management statement in a third-party transcript; official event verified, original audio not independently checked",
+      "fact": "The CFO says most agreements contain volume and pricing terms and generally last three to five years; some customers want confidentiality.",
+      "economic_use": "More contractual visibility than routine purchase orders. If starting in 2026, a three-to-five-year term generally runs into 2029–31, not through the mature forecast horizon. Start dates, renewal, coverage, enforceability and termination exceptions remain unspecified.",
+      "verification_limit": "Do not present as an executed customer contract. The 3–5-year description is not in the original prepared remarks."
+    },
+    {
+      "id": "june_price_and_volume_locks",
+      "novelty": "New to the reviewed prior analytical notes.",
+      "source": "https://earningsapi.io/transcripts/intel-corporation_intc_earnings_call_transcript_2026-06-02",
+      "event_source": "https://www.intc.com/news-events/ir-calendar/detail/20260602-bofa-global-technology-conference",
+      "date": "2026-06-02",
+      "locator": "CFO speaker segments 15–19",
+      "source_class": "Direct management statement in a third-party transcript; official BofA event verified, original webcast requires registration",
+      "fact": "The CFO describes LTAs locking prices and volume commitments, and says ASP per core has stabilized with some like-for-like increases. He also distinguishes near-term supply scarcity from the need for competitive products later.",
+      "economic_use": "A genuine price-retention mechanism, stronger than aggregate package mix. Unquantified coverage and duration prevent converting it into a segment margin. Fixed prices can hurt margins if input costs rise; performance per core and content still evolve.",
+      "verification_limit": "The official webcast landing page and embed were retrieved; embed specifies passportRegistration. No registration or outreach performed. Hosted transcript summary incorrectly calls this Q2 earnings; rely only on the identifiable BofA speaker discussion."
+    },
+    {
+      "id": "aug_price_per_core",
+      "novelty": "New to prior retained-profit notes; supplied independently by the delivery research agent and re-read here.",
+      "source": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+      "event_source": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference",
+      "date": "2026-08-26",
+      "locator": "CFO discussion after demand/CPU density question",
+      "source_class": "Direct management statement in a third-party transcript; official event verified, original audio not independently checked",
+      "fact": "The CFO says historical ASP/core declines sometimes approached 20%, whereas ASP/core has stabilized and sometimes risen like-for-like. He places supply-led competition in 2026–27 and potentially 2028.",
+      "economic_use": "Corroborates June’s direction, not the magnitude, customer coverage or post-shortage persistence. This is not evidence for assuming 20% future price declines or an automatic 20-point pricing improvement."
+    },
+    {
+      "id": "google_multi_generation",
+      "novelty": "Relationship already known; exact economic boundary rechecked.",
+      "source": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-google-deepen-collaboration-to-advance-ai-infrastructure.html",
+      "date": "2026-04-09",
+      "source_class": "Issuer original joint announcement with named Google executive",
+      "fact": "The collaboration covers multiple Xeon generations and custom IPUs, with Google already deploying Xeon 6.",
+      "economic_use": "Program co-development can create switching friction. The announcement publishes neither minimum purchases nor pricing. Offloading to IPUs also changes required CPU capacity; combined platform value cannot be credited entirely to CPU margin."
+    },
+    {
+      "id": "oracle_not_executed_contract",
+      "novelty": "Roadmap already in prior research; contract-status distinction newly made explicit.",
+      "source": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-oracle-collaborate-on-enterprise-and-agentic-ai.html",
+      "date": "2026-10-27",
+      "source_class": "Issuer original joint announcement",
+      "locator": "Opening, Forward-Looking Statements, Future Product Disclaimer",
+      "fact": "The release describes a planned multiyear collaboration and prospective Diamond Rapids OCI X14. It warns contemplated transactions may not complete and says Oracle product direction is not a contractual delivery commitment.",
+      "economic_use": "Do not attach the generic Q1 or June LTA terms to this specific Oracle roadmap. No incremental backlog, price lock or margin assigned."
+    },
+    {
+      "id": "elastic_current_arm_comparison",
+      "novelty": "New current-generation technical counterexample found; not forecast-changing.",
+      "source": "https://developer.arm.com/community/arm-community-blogs/b/servers-and-cloud-computing-blog/posts/elasticsearch-on-arm-based-graviton5-better-performance-and-higher-cost-efficiency-for-agentic-ai",
+      "date": "2026-08-04",
+      "source_class": "Primary benchmark by Arm with an Elastic engineer as co-author",
+      "fact": "Elasticsearch 9.3.0 tests compare AWS m8id.16xlarge Xeon 6 with m9gd.16xlarge Graviton5, reporting workload-specific Arm advantages. Software versions and three ESRally tracks are disclosed.",
+      "economic_use": "Current Xeon competition exists in a relevant search workload; do not extend an old x86 migration story into an assumed current Xeon advantage.",
+      "limits": "Vendor-sponsored benchmark, not buyer procurement or production deployment. VM shapes do not establish equal physical resources or CPU-only causation. No raw run distribution, procurement prices, Intel net ASP or retained margin inferred. PMC throughput is target-limited; latency is the more useful statistic."
+    }
+  ],
+  "later_disclosure_crosscheck": {
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "source_class": "Issuer original Q3 10-Q",
+    "locator": "Intel Products MD&A; Funding Requirements",
+    "already_known": true,
+    "fact": "Q3 server ASP rose 54% and units 10%. Intel attributes most ASP growth to premium mix; pricing actions contributed less and partly offset input costs. Richer products have higher unit costs. The filing reports company-level deposits without customer-specific price schedules.",
+    "reconciliation": "Consistent with some same-product/core pricing improvement, while rejecting an interpretation that all 54% is pricing power. Later Q3 disclosure does not quantify the LTA fraction or establish a mature margin floor.",
+    "cost_double_count_rule": "Q3 already contains the historical Intel 3 cost improvement. Do not add its roughly 15% reduction again. Internal DCAI/Foundry prices cancel at consolidation; future inventory eliminations remain normalized to zero."
+  },
+  "disconfirming_evidence": [
+    "Intel’s 2025 10-K records a 4% server ASP decline with competitive pricing and lower-core mix. Strong 2026 outcomes do not prove competition disappeared.",
+    "The same CFO who described pricing gains said current results are supply constrained and that product competitiveness matters later. Contract terms ending near 2029–31 do not resolve renewal pricing.",
+    "Existing primary buyer evidence remains two-sided: Azure SAP HANA certification protects a specific installed workload, while managed HANA Cloud supports Graviton; Datadog actually migrated much of its AWS workload to Arm. Neither sets Intel’s aggregate margin.",
+    "Oracle concurrently plans Intel, AMD and Arm offerings in the prior source ledger. A multigenerational relationship does not establish exclusive purchasing.",
+    "Lower customer cost can coexist with higher Intel package ASP, but savings can accrue to the buyer, CSP, OEM or component vendors. Public cloud rates do not reveal the CPU supplier’s economics."
+  ],
+  "what_would_actually_fix_the_edge": [
+    {
+      "test": "Contract coverage and contribution economics",
+      "needed": "Disclosed share of CPU revenue covered, delivery schedule, minimum volume, net price path, remedies/cancellation, rebates and input-cost escalation. Reconcile expected profit at the consolidated level.",
+      "model_use": "Could change 2027–30 price/volume downside or validate an explicit protected revenue cohort; contract renewals still need separate treatment."
+    },
+    {
+      "test": "Repeat selection after supply relief",
+      "needed": "Named buyers renewing or expanding paid Xeon deployments when current AMD/Arm supply is available, with scale and workload-level alternatives documented.",
+      "model_use": "Supports retention and renewal probabilities; customer logos alone do not."
+    },
+    {
+      "test": "Normalized net price versus consolidated cost",
+      "needed": "A repeated same-content or useful-work price series paired with manufacturing/component cost, not list price, CSP rate or the disclosed node-cost percentage alone.",
+      "model_use": "Can support a retained operating-margin path; count physical cost improvement once across DCAI/Foundry."
+    },
+    {
+      "test": "Economic weight of sticky deployments",
+      "needed": "Revenue/profit share from certified/licensed/migration-sensitive workloads, plus Other DCAI economics.",
+      "model_use": "Only then can niche stickiness support a 40% blended margin rather than a narrow qualitative advantage."
+    }
+  ],
+  "recommended_defense_language": "Intel has more near-term pricing protection than a purchase-order-only description suggests: management describes multi-year volume and pricing agreements and stabilized like-for-like ASP per core. Coverage and renewal economics are undisclosed, so those agreements support the delivery ramp without proving the 40% mature DCAI margin.",
+  "reviewed_prior_files": [
+    "output/pdf/m37_intel_initial_screen.pdf",
+    "output/pdf/m37_intel_defense_notes.pdf",
+    "work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/economic_underwriting/retained_profit_deepening.json",
+    "work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/economic_underwriting/economic_underwriting_review.json",
+    "work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/customer_stickiness/customer_decision_evidence.json"
+  ],
+  "artifact_limits": "Only original issuer/buyer/vendor material used for technical observations. Financial management statements accessed through third-party transcripts are clearly identified and not silently upgraded to executed contracts or original-audio verification. No outreach, paid experiment, commit, model edit or PDF edit."
+}

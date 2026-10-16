@@ -1,0 +1,31 @@
+{
+  "captured_utc": "2026-11-06T16:49:43.346420+00:00",
+  "sources": [
+    {
+      "id": "ifast_nov2",
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "status": 200,
+      "local_file": "work/three_hour/active_research/intel_market_share_thesis_2026_11_06/expectations/sources/ifast_nov2.html",
+      "sha256": "6a49b222885f7a818abcd9e94af94f5f00d471401058bfa89c44a902b9ee8d2b",
+      "PDF_links": []
+    },
+    {
+      "id": "m37_rules",
+      "url": "https://www.m37.com/spc2026",
+      "status": 200,
+      "local_file": "work/three_hour/active_research/intel_market_share_thesis_2026_11_06/expectations/sources/m37_rules.html",
+      "sha256": "547e566f216bd13495df69bca399abc1ba4fe97b5ce9069783bc6d82576e7f64",
+      "PDF_links": []
+    },
+    {
+      "id": "sws_intel_future",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "stockanalysis_forecast",
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

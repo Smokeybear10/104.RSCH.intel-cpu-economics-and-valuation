@@ -1,0 +1,73 @@
+{
+  "updated_utc": "2026-11-05T22:34:34.661681+00:00",
+  "status": "Interim research, not final verdict; two-hour session remains active until at least00:18:52UTC.",
+  "additional_winner_review": [
+    {
+      "name": "NotreDame GarrettMotion2023Cornellwinner",
+      "url": "https://investmentclub.nd.edu/assets/541030/gtx_deck.pdf",
+      "scope": "All32pages extracted and read; keyDCFpage25rendered and inspected. Mainnarrativepages1\u201314.",
+      "strength": "Pairs long customer-development cycle and already-awarded future revenue with cash generation, capital structure repair and identifiable investor-neglect explanation.",
+      "limits": [
+        "Expert quotations and customer awards do not guarantee realized demand or margins.",
+        "Headline59.2%return is labelled4\u20135years onpages2and14, whilepage25 builds12.09 from discounted2023\u20132028cash andcurrentdebt/cash. Do not copy ambiguous present-value/target-date framing.",
+        "Page25 impliedexitmultiple4.4 appears to dividePVterminal3088.6 by2028EBITDA694.6; undiscountedterminal5021.1/694.6is7.23. Treat as likely presentation-method inconsistency, not proof entirecasefails.",
+        "Current5.2xEV/EBITDA, baseexit6.0x,bull6.5x. Capitalappreciationisnotsolelyoperatinggrowth.",
+        "Page10 claiminstitutionalowners eliminate harmfulmanagement risk is unsupported."
+      ],
+      "transfer_to_Intel": "Seek customer-specific persistence evidence and distinguish date of intrinsicvalue from forecast exitprice. Do not manufacture acquiredcontracts or copyconfidence."
+    },
+    {
+      "name": "KozminskiDomDevelopment2025winningwrittenreport",
+      "url": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/research-challenge/rc-2025-winning-written-report-kozminski-university.pdf",
+      "scope": "21pages extracted; fullmaintextthroughvaluationandrisksread, appendixreviewcontinuing.",
+      "strength": "Projectpipelinebyregion and unitprices connect operatingresearch to revenue; terminalgrowthlinked to newinvestmentreturn, andspecificoperatingrisksmappedtovalue.",
+      "limits": [
+        "11experts andmultiplevaluationmethods do not create independent proof if cashassumptionsshared.",
+        "Mainnarrative repeats broad leadershipclaims andusespromotional certainty thatIntelshouldnotcopy.",
+        "Text and tables have some differingmargin andgearingfigures; consistencyneedsreview independent ofaward."
+      ],
+      "transfer_to_Intel": "Replace hypotheticalsharemath with explicit qualified-output assumptions, preserveunits/pricefundinglogic, discloseeconomicreturnsimpliedbyterminalcapitalproductivity."
+    }
+  ],
+  "competition_standard": {
+    "M37": "https://www.m37.com/spc2026",
+    "facts": "IndividualSTEM;IntelorSpaceX;LONGorSHORT3\u20135years;initialPDFmax10pagesdueNov9;thesesandjudgmentratherthanmodelcomplexity;liveassumptiondefense later.",
+    "CFA_judge_guidelines": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/research-challenge/rc-judge-guidelines.pdf",
+    "use": "Outsidebenchmarkguidance\u2014notM37rubric\u2014emphasizesdifferentexpectations,growthdrivers,competitiveposition,historicalsupport,andvaluationsensitivities."
+  },
+  "consensus_read_but_NOT_compared": {
+    "StockAnalysis": "https://stockanalysis.com/stocks/intc/forecast/",
+    "StockAnalysis_retrieval": "2026-11-05",
+    "FY2027_revenue_B": 69.27,
+    "SimplyWallSt": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+    "SWS_analysis_timestamp": "2026-11-04 22:28UTC",
+    "SWS_FY2027_revenue_B": 69.267,
+    "SWS_FY2028_revenue_B": 83.719,
+    "same_upstream_provider": "S&PGlobal;notindependentcorroboration",
+    "why_no_directcomparison": "Our external_revenue_B is a capitaldenominator and omits embeddedexternalFoundrysales. It is not fullyreconciledconsolidatedrevenue. Productsrevenueisclearlylabelledinscreen; do notcompareitwithconsolidatedconsensus."
+  },
+  "possible_clean_comparison": {
+    "source": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+    "dated": "2026-11-02report;figuresasofOct30",
+    "metric": "2027DCAIrevenuegrowth",
+    "outside_forecast": 0.37,
+    "our_forecast": 0.4707013165629612,
+    "difference_percentage_points": 10.07013165629612,
+    "limits": "Onepublishedresearchhouse,notconsensus;our2026estimatedsegmentbaseisowned andmaydiffer. RatecomparisoniscleanerthanunmatchedadjustedEPS;doesnotprovepricedexpectations."
+  },
+  "2026E_to_2027_product_profit_bridge": {
+    "forecast_not_actual": true,
+    "2026E_total_B": 18.574218,
+    "DCAI_increase_B": 5.09368132,
+    "CCPG_decrease_B": -1.384231048,
+    "2027_total_B": 22.283668272,
+    "net_increase_B": 3.709450272,
+    "purpose": "ExplainwhyservergrowthcanoutweighPCweakness,withoutclaimingthePCbusinessrecoversin2027. GroupFoundry/corporatecostsremainseparate."
+  },
+  "interim_judgment": "Currentfair-valueLONGhasawell-explainedfinancialmodelbutnotsufficientlyestablishedpriceattractivenessorpermanentcompetitiveadvantage. Winningpitchescontainmistakes;theyarestudyexamples,notproofthatourcaseisstrongbecausewearemorecautious. Researchmusttestactualdriversbeforechangingvaluation.",
+  "GTX_provenance_correction": {
+    "status": "The32pagePDForiginallyreviewedismatchingtheSept26clubPASSversion,notexactawardlinkedCornellversion.",
+    "record": "../selection_bias/gtx_version_provenance.json",
+    "use_rule": "Treatearlier12.09target7.59entryandappendixcommentsasclubversionanalysis. Theofficialwinningversionhas7.61entry12.18target; verifyitsownappendixbeforetransferringclaims."
+  }
+}

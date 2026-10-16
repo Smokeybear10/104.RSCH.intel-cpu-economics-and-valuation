@@ -1,0 +1,98 @@
+{
+  "reviewed_utc": "2026-11-05T23:33:38.196857+00:00",
+  "task": "Independent audit of known Fab28 accident disclosure and its treatment in current narrative/model; no base re-estimation or artifact edits.",
+  "provenance_correction": "Root highlighted this issue during the present review. My earlier source read recorded the300M guidance effect but did not give the incident sufficient prominence in the comparative assessment or analyze its H12027 implications. This is a correction to my coverage, not newly disclosed company information.",
+  "source_verification": [
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "pages": [
+        2,
+        6,
+        7
+      ],
+      "confirmed": [
+        "October accident caused an extended shutdown at the Israel factory and affects Q4 10nm server shipments.",
+        "Q4 consolidated revenue guidance15.0-16.0B; midpoint15.5B; non-GAAP gross margin38%.",
+        "Guidance includes roughly300M revenue impact and200basis points gross-margin impact from an early Fab28 assessment.",
+        "Almost all of the300M revenue impact concerns10nm server products.",
+        "DCAI Q4 revenue is guided up mid-teens sequentially with purpose-built silicon faster.",
+        "Management attributes the broader sequential Q4 gross-margin decline primarily to lower revenue/fixed-cost absorption following client wafer-start adjustments, plus revenue mix, partly offset by yield/cost improvements."
+      ]
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "section": "MD&A p32, Israel Fab Business Disruption",
+      "confirmed": [
+        "Mid-October accident at Kiryat Gat caused employee casualties and injuries and halted operations.",
+        "At the filing date, operations had been suspended approximately two weeks and were expected to resume by endOctober. This is an expectation, not proof that restart occurred.",
+        "Expected Q4 charges include scrapped inventory, remediation/cleanup and excess-capacity overhead under-absorption.",
+        "Reduced output and operating inefficiencies are expected to affect manufacturing costs, gross profit and operating results in Q4 and through H12027.",
+        "Ultimate financial impact and insurance recoveries cannot yet be reasonably estimated. Insurance applies to certain losses but amount/timing are uncertain."
+      ]
+    }
+  ],
+  "materiality_and_placement": {
+    "conclusion": "Promote to the main capacity page. Prefer replacing most of the large Ibiden2030 demand illustration, rather than squeezing another footnote into an already full page.",
+    "why": "This is an identified, current disruption to Intel server production and costs through the first half of the forecast year. It is more directly informative about2027 execution than a supplier industry-demand/resource illustration ending2030. It also gives the timing-versus-permanent-loss distinction a concrete operating basis.",
+    "retain_from_Ibiden": "Retain a compact sentence or source note that supplier investment dates do not establish Intel-specific good-package allocation. The Gama FY2029/FY2030 timing is still useful, but should not visually dominate a known present disruption.",
+    "no_inference": "The incident does not by itself establish a permanent franchise loss, quantify2027 sales damage, or demonstrate that the existing temporary-delay stress is appropriately calibrated."
+  },
+  "model_counting_audit": {
+    "Q4_DCAI_revenue_B": 8.4157,
+    "Q4_CPU_revenue_proxy_B": 6.5257,
+    "Q4_Other_DCAI_revenue_B": 1.89,
+    "Q4_DCAI_growth": 0.15,
+    "Q4_DCAI_operating_margin": 0.39,
+    "Q3_DCAI_operating_margin": 0.4152773981962285,
+    "Q4_DCAI_operating_margin_change_bps": -252.77398196228484,
+    "FY2027_DCAI_operating_margin": 0.38791247099481013,
+    "FY2027_CPU_unit_growth": 0.2,
+    "FY2027_CPU_ASP_growth": 0.2,
+    "FY2027_CPU_revenue_B": 31.475088000000003,
+    "revenue_conclusion": "The15% Q4 DCAI revenue assumption explicitly follows management mid-teens guidance, which already reflects Fab28. Subtracting300M again from Q4 DCAI or CPU revenue would double count the announced guidance effect. The CPU residual and FY2026E anchor inherit the guidance-based level.",
+    "margin_conclusion": "The39% Q4 DCAI operating margin is an analyst judgment. The policy expressly says it is not derived precisely from consolidated gross-margin guidance. Therefore do not claim the model has specifically reconciled the200bp Fab28 gross-margin effect or all incident charges. Group non-GAAP gross margin and segment operating margin have different revenue scopes and expense definitions; subtracting200bp from39% is invalid.",
+    "2027_conclusion": "The20% unit/20% ASP growth and38.79% DCAI margin are annual assumptions applied to the guidance-based2026 anchor. Prior policy acknowledges generic H12027 constraints and H2 improvement, but supplies no Fab28-specific quarterly production, cost, remediation or insurance schedule. This makes the known H12027 disruption an explicit test of the annual forecast, not a separately quantified deduction and not a proven inclusion.",
+    "Q4_gross_margin_decline_context": {
+      "Q3_nonGAAP_gross_margin": 0.441,
+      "Q4_guidance_nonGAAP_gross_margin": 0.38,
+      "total_sequential_decline_bps": 610,
+      "approximate_incident_component_bps": 200,
+      "residual_bps_arithmetic_only": 410,
+      "interpretation": "Do not attribute the full610bp decline to the accident. The410bp remainder is an arithmetic residual, not a disclosed independent attribution; client loading, mix and offsetting cost/yield gains also matter."
+    },
+    "do_not_do": [
+      "Do not deduct300M a second time from the guidance-based Q4 revenue anchor.",
+      "Do not add300M back to create an unaffected exit rate and then call it observed or guided.",
+      "Do not mechanically apply300M to each2027 quarter or annualize it to1.2B.",
+      "Do not subtract200bp from DCAI operating margin or treat it as an estimate of2027 margin damage.",
+      "Do not assume insurance makes the economics whole or record an unquantified recovery.",
+      "Do not call the generic10%-unit-delay case a calibrated Fab28 scenario.",
+      "Do not assume the announced expected endOctober restart has been confirmed by these disclosures."
+    ],
+    "no_changes": "No model re-estimation was performed and the base numbers are unchanged."
+  },
+  "recommended_wording": {
+    "page4_heading": "Known disruption reaches into2027",
+    "page4_primary_block": "Fab28's October accident is already reflected in Q4 guidance: about$300M lower revenue, almost entirely10nm server products, and about200bp lower group non-GAAP gross margin. The10-Q expects manufacturing-cost and operating-result effects through H12027; total cost and insurance recoveries remain unquantified.",
+    "page4_model_line": "My15% Q4 DCAI growth follows that net guidance. The39% Q4 segment operating margin and2027 shipment path remain analyst judgments; they do not separately reconcile the incident's full costs or recovery schedule.",
+    "compact_alternative": "Fab28's October accident is included in Q4 guidance (~$300M revenue; ~200bp group gross margin), with cost/operating effects expected through H12027. My15% Q4 DCAI growth uses that net guide;2027 recovery remains unproven.",
+    "defense_answer": "I do not subtract the300M again because my Q4 DCAI growth follows guidance that already includes it. But I also cannot claim that my39% segment operating margin maps the full incident cost: management's200bp estimate is group non-GAAP gross margin, and the filing says effects continue through H12027 with total cost and insurance unresolved. The2027 forecast is therefore a recovery judgment that must be checked against accepted output, recurring cost and customer retention.",
+    "checkpoint_line": "Confirm production restoration and quantify residual cost/volume effects through H12027 before treating a missed shipment as recoverable timing."
+  },
+  "price_context": {
+    "source": "https://stockanalysis.com/stocks/intc/history/",
+    "source_type": "Secondary market-data display attributed to S&P Global Market Intelligence; independently opened this pass, not exchange-verified.",
+    "October29_close": 92.07,
+    "November5_close": 52.22,
+    "close_to_close_change": -0.4328228521776909,
+    "what_it_supports": "The43.28% decline is useful dated context for why the entry is being reassessed.",
+    "what_it_does_not_support": "Neither causation of the entire decline by Fab28 nor evidence of undervaluation, excessive investor pessimism or a required rebound to the old price.",
+    "optional_wording": "The shares fell43.3% between the October29 and November5 closes. At52.22, my model still estimates roughly fair value; the investment decision rests on the cash that survives the operating disruption."
+  },
+  "input_hashes": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/build_initial_screen.py": "7c8f21058ecabcff6e71248d577ef55ad6def68778844618f9520f3892409347",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_policy_2026_11_04.json": "8a350e92f2f7519809f1eb59a213e8c7c1c401435ce3f25822733f39c9297a41",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+  }
+}

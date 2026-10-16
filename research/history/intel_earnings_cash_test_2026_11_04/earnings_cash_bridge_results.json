@@ -1,0 +1,384 @@
+{
+  "computed_utc": "2026-11-04T18:42:30.070767+00:00",
+  "scope": "Conditional issuer-style EPS proxy, economiccashreconciliation and slowerFoundrycostcontrol. No newLONGrecommendation or changedDCF.",
+  "sources": {
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "accounting_policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/eps_accounting_policy.json",
+      "sha256": "055bdc41964fe43a861442df984ddb5092d282340f7a31b4733849990d7bc1c5"
+    },
+    "operating_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/operating_gap_review.json",
+      "sha256": "5108942d98d233a0773f1247a887e57bf78d7f9779d29df1c7ac3e1a595ec03c"
+    }
+  },
+  "annual_results": [
+    {
+      "year": 2027,
+      "reference_earnings_bridge": {
+        "economic_EBIT_B": 14.429918271999998,
+        "identified_addbacks_B": 3.05,
+        "new_capitalized_interest_book_DA_B": 0.0,
+        "new_credit_book_benefit_B": 0.0,
+        "extra_unallocated_expense_B": 0.0,
+        "ordinary_interest_B": 1.6,
+        "interest_income_B": 1.0,
+        "adjusted_pretax_B": 16.879918271999998,
+        "presentation_tax_rate": 0.11,
+        "presentation_tax_B": 1.8567910099199998,
+        "GAAP_NCI_proxy_B": 1.1,
+        "minority_adjustments_B": 0.15,
+        "adjusted_parent_net_income_proxy_B": 13.773127262079997,
+        "planning_shares_B": 5.51,
+        "adjusted_EPS_proxy_USD": 2.4996601201597093,
+        "reverse_reconstructed_economic_EBIT_B": 14.429918271999998
+      },
+      "public_EPS_reference_USD": 1.8,
+      "public_reference_type": "S&P Global adjustedEPS summary viaStockAnalysis,updatedNov3",
+      "proxy_premium_fraction": 0.38870006675539404,
+      "cash_bridge": {
+        "operating_cash_tax_B": 2.1644877408,
+        "DA_addback_B": 14.093214285714286,
+        "physical_capex_B": 30.5,
+        "WC_use_B": 6.0593577,
+        "lease_cash_B": 1.0,
+        "economic_minority_reserve_B": 1.1,
+        "net_capital_credit_cash_B": 2.1180000000000003,
+        "parent_unlevered_cash_B": -10.182712883085715,
+        "net_financing_cash_effect_B": -1.51,
+        "economic_owner_cash_B": -11.692712883085715,
+        "economic_owner_cash_per_planning_claim_USD": -2.122089452465647
+      },
+      "issuer_style_FCF_proxy_B": {
+        "zero_net_partner_cash": -7.992712883085716,
+        "partner_distributions_equal_NCIreserve": -9.092712883085715,
+        "scope": "Illustrative remapping ofeconomicreserves, notfullGAAPcashstatement; allother timing/classification unchanged. No neweconomiccash/value."
+      },
+      "one_way_presentation_controls": {
+        "tax": [
+          {
+            "tax": 0.11,
+            "EPS": 2.4996601201597093
+          },
+          {
+            "tax": 0.15,
+            "EPS": 2.3771198786206895
+          },
+          {
+            "tax": 0.18,
+            "EPS": 2.2852146974664245
+          }
+        ],
+        "shares": [
+          {
+            "shares_B": 5.44,
+            "EPS": 2.5318248643529406
+          },
+          {
+            "shares_B": 5.51,
+            "EPS": 2.4996601201597093
+          },
+          {
+            "shares_B": 5.6,
+            "EPS": 2.459487011085714
+          },
+          {
+            "shares_B": 5.75,
+            "EPS": 2.3953264803617387
+          },
+          {
+            "shares_B": 6.0,
+            "EPS": 2.2955212103466662
+          }
+        ],
+        "minority_adjustment": [
+          {
+            "adjustment_B": 0,
+            "EPS": 2.5268833506497272
+          },
+          {
+            "adjustment_B": 0.15,
+            "EPS": 2.4996601201597093
+          },
+          {
+            "adjustment_B": 0.3,
+            "EPS": 2.4724368896696913
+          }
+        ],
+        "unallocated_expense": [
+          {
+            "expense_B": 0,
+            "EPS": 2.4996601201597093
+          },
+          {
+            "expense_B": 0.25,
+            "EPS": 2.459278994932849
+          },
+          {
+            "expense_B": 1.0,
+            "EPS": 2.3381356192522684
+          }
+        ],
+        "illustrative_credit_book_benefit_EPS": 2.5420603016479126,
+        "retain_restructuring_EPS": 2.467355219978221
+      },
+      "combined_adverse_presentation": {
+        "economic_EBIT_B": 14.429918271999998,
+        "identified_addbacks_B": 2.85,
+        "new_capitalized_interest_book_DA_B": 0.0,
+        "new_credit_book_benefit_B": 0.0,
+        "extra_unallocated_expense_B": 1.0,
+        "ordinary_interest_B": 1.6,
+        "interest_income_B": 1.0,
+        "adjusted_pretax_B": 15.679918271999998,
+        "presentation_tax_rate": 0.18,
+        "presentation_tax_B": 2.8223852889599996,
+        "GAAP_NCI_proxy_B": 1.1,
+        "minority_adjustments_B": 0.3,
+        "adjusted_parent_net_income_proxy_B": 11.457532983039998,
+        "planning_shares_B": 6.0,
+        "adjusted_EPS_proxy_USD": 1.9095888305066664,
+        "reverse_reconstructed_economic_EBIT_B": 14.429918271999998
+      },
+      "slower_Foundry_cost_learning": {
+        "earnings_bridge": {
+          "economic_EBIT_B": 12.929918271999998,
+          "identified_addbacks_B": 3.05,
+          "new_capitalized_interest_book_DA_B": 0.0,
+          "new_credit_book_benefit_B": 0.0,
+          "extra_unallocated_expense_B": 0.0,
+          "ordinary_interest_B": 1.6,
+          "interest_income_B": 1.0,
+          "adjusted_pretax_B": 15.379918271999998,
+          "presentation_tax_rate": 0.11,
+          "presentation_tax_B": 1.6917910099199998,
+          "GAAP_NCI_proxy_B": 1.1,
+          "minority_adjustments_B": 0.15,
+          "adjusted_parent_net_income_proxy_B": 12.438127262079998,
+          "planning_shares_B": 5.51,
+          "adjusted_EPS_proxy_USD": 2.2573733687985476,
+          "reverse_reconstructed_economic_EBIT_B": 12.929918271999998
+        },
+        "cash_bridge": {
+          "operating_cash_tax_B": 1.9394877407999997,
+          "DA_addback_B": 14.093214285714286,
+          "physical_capex_B": 30.5,
+          "WC_use_B": 6.0593577,
+          "lease_cash_B": 1.0,
+          "economic_minority_reserve_B": 1.1,
+          "net_capital_credit_cash_B": 2.1180000000000003,
+          "parent_unlevered_cash_B": -11.457712883085716,
+          "net_financing_cash_effect_B": -1.51,
+          "economic_owner_cash_B": -12.967712883085715,
+          "economic_owner_cash_per_planning_claim_USD": -2.3534869116308013
+        },
+        "annual_owner_cash_delta_B": -1.275,
+        "ending_economic_cash_B": 33.46528711691429,
+        "new_borrowing_B": 0
+      },
+      "reverse_public_EPS_under_our_conventions": {
+        "equivalent_economic_EBIT_B": 10.098314606741573,
+        "EBIT_gap_B": 4.331603665258425,
+        "warning": "Conditional consistencydiagnostic, not measured analystEBIT or proof a specific source assumption."
+      }
+    },
+    {
+      "year": 2028,
+      "reference_earnings_bridge": {
+        "economic_EBIT_B": 24.72774958255801,
+        "identified_addbacks_B": 3.2,
+        "new_capitalized_interest_book_DA_B": 0.125,
+        "new_credit_book_benefit_B": 0.0,
+        "extra_unallocated_expense_B": 0.0,
+        "ordinary_interest_B": 1.6,
+        "interest_income_B": 1.0,
+        "adjusted_pretax_B": 27.20274958255801,
+        "presentation_tax_rate": 0.11,
+        "presentation_tax_B": 2.992302454081381,
+        "GAAP_NCI_proxy_B": 1.1,
+        "minority_adjustments_B": 0.15,
+        "adjusted_parent_net_income_proxy_B": 22.96044712847663,
+        "planning_shares_B": 5.51,
+        "adjusted_EPS_proxy_USD": 4.167050295549298,
+        "reverse_reconstructed_economic_EBIT_B": 24.72774958255801
+      },
+      "public_EPS_reference_USD": 2.59,
+      "public_reference_type": "iFAST Nov2 analystestimate; fulltax/share/adjustmentmethodnotdisclosed",
+      "proxy_premium_fraction": 0.6088997280113118,
+      "cash_bridge": {
+        "operating_cash_tax_B": 3.7091624373837013,
+        "DA_addback_B": 16.795178571428572,
+        "physical_capex_B": 32.75,
+        "WC_use_B": 5.34986211125,
+        "lease_cash_B": 1.0,
+        "economic_minority_reserve_B": 1.1,
+        "net_capital_credit_cash_B": 6.170999999999999,
+        "parent_unlevered_cash_B": 3.7849036053528793,
+        "net_financing_cash_effect_B": -1.49125,
+        "economic_owner_cash_B": 2.2936536053528793,
+        "economic_owner_cash_per_planning_claim_USD": 0.41627107175188377
+      },
+      "issuer_style_FCF_proxy_B": {
+        "zero_net_partner_cash": 6.193653605352879,
+        "partner_distributions_equal_NCIreserve": 5.09365360535288,
+        "scope": "Illustrative remapping ofeconomicreserves, notfullGAAPcashstatement; allother timing/classification unchanged. No neweconomiccash/value."
+      },
+      "one_way_presentation_controls": {
+        "tax": [
+          {
+            "tax": 0.11,
+            "EPS": 4.167050295549298
+          },
+          {
+            "tax": 0.15,
+            "EPS": 3.969571169723105
+          },
+          {
+            "tax": 0.18,
+            "EPS": 3.8214618253534605
+          }
+        ],
+        "shares": [
+          {
+            "shares_B": 5.44,
+            "EPS": 4.220670428028792
+          },
+          {
+            "shares_B": 5.51,
+            "EPS": 4.167050295549298
+          },
+          {
+            "shares_B": 5.6,
+            "EPS": 4.100079844370827
+          },
+          {
+            "shares_B": 5.75,
+            "EPS": 3.993121239735066
+          },
+          {
+            "shares_B": 6.0,
+            "EPS": 3.826741188079438
+          }
+        ],
+        "minority_adjustment": [
+          {
+            "adjustment_B": 0,
+            "EPS": 4.194273526039316
+          },
+          {
+            "adjustment_B": 0.15,
+            "EPS": 4.167050295549298
+          },
+          {
+            "adjustment_B": 0.3,
+            "EPS": 4.139827065059279
+          }
+        ],
+        "unallocated_expense": [
+          {
+            "expense_B": 0,
+            "EPS": 4.167050295549298
+          },
+          {
+            "expense_B": 0.25,
+            "EPS": 4.126669170322438
+          },
+          {
+            "expense_B": 1.0,
+            "EPS": 4.005525794641857
+          }
+        ],
+        "illustrative_credit_book_benefit_EPS": 4.301317536928607,
+        "retain_restructuring_EPS": 4.142821620413181
+      },
+      "combined_adverse_presentation": {
+        "economic_EBIT_B": 24.72774958255801,
+        "identified_addbacks_B": 3.05,
+        "new_capitalized_interest_book_DA_B": 0.125,
+        "new_credit_book_benefit_B": 0.0,
+        "extra_unallocated_expense_B": 1.0,
+        "ordinary_interest_B": 1.6,
+        "interest_income_B": 1.0,
+        "adjusted_pretax_B": 26.05274958255801,
+        "presentation_tax_rate": 0.18,
+        "presentation_tax_B": 4.689494924860441,
+        "GAAP_NCI_proxy_B": 1.1,
+        "minority_adjustments_B": 0.3,
+        "adjusted_parent_net_income_proxy_B": 19.96325465769757,
+        "planning_shares_B": 6.0,
+        "adjusted_EPS_proxy_USD": 3.3272091096162613,
+        "reverse_reconstructed_economic_EBIT_B": 24.72774958255801
+      },
+      "slower_Foundry_cost_learning": {
+        "earnings_bridge": {
+          "economic_EBIT_B": 21.97774958255801,
+          "identified_addbacks_B": 3.2,
+          "new_capitalized_interest_book_DA_B": 0.125,
+          "new_credit_book_benefit_B": 0.0,
+          "extra_unallocated_expense_B": 0.0,
+          "ordinary_interest_B": 1.6,
+          "interest_income_B": 1.0,
+          "adjusted_pretax_B": 24.45274958255801,
+          "presentation_tax_rate": 0.11,
+          "presentation_tax_B": 2.689802454081381,
+          "GAAP_NCI_proxy_B": 1.1,
+          "minority_adjustments_B": 0.15,
+          "adjusted_parent_net_income_proxy_B": 20.51294712847663,
+          "planning_shares_B": 5.51,
+          "adjusted_EPS_proxy_USD": 3.7228579180538346,
+          "reverse_reconstructed_economic_EBIT_B": 21.97774958255801
+        },
+        "cash_bridge": {
+          "operating_cash_tax_B": 3.2966624373837017,
+          "DA_addback_B": 16.795178571428572,
+          "physical_capex_B": 32.75,
+          "WC_use_B": 5.34986211125,
+          "lease_cash_B": 1.0,
+          "economic_minority_reserve_B": 1.1,
+          "net_capital_credit_cash_B": 6.170999999999999,
+          "parent_unlevered_cash_B": 1.4474036053528796,
+          "net_financing_cash_effect_B": -1.49125,
+          "economic_owner_cash_B": -0.0438463946471205,
+          "economic_owner_cash_per_planning_claim_USD": -0.007957603384232396
+        },
+        "annual_owner_cash_delta_B": -2.3375,
+        "ending_economic_cash_B": 31.218440722267164,
+        "new_borrowing_B": 0
+      },
+      "reverse_public_EPS_under_our_conventions": {
+        "equivalent_economic_EBIT_B": 14.964213483146068,
+        "EBIT_gap_B": 9.763536099411942,
+        "warning": "Conditional consistencydiagnostic, not measured analystEBIT or proof a specific source assumption."
+      }
+    }
+  ],
+  "verification": {
+    "baseline_cash_max_error_B": 2.5e-15,
+    "inverse_EBIT_identity_checked": true,
+    "slower_Foundry_keeps_liquidity_above20B": true,
+    "independent_audit": "pending"
+  },
+  "unchanged_value_references": {
+    "reference_price_USD": 60.55,
+    "price_date": "2026-11-03",
+    "end2026_value_flat12_USD": 44.067914052747014,
+    "end2028_value_flat12_USD": 54.57624488068242,
+    "end2030_value_flat12_USD": 67.57762169851729
+  },
+  "interpretation_limits": [
+    "The economicDCF continues expensing recurringSBC; adding itback for an adjustedEPS comparison does not increase ownercash or value.",
+    "Future weighted dilutedshares depend on grants, vesting, price and assumedproceeds. The5.51planningclaimcount includes existingnetaward andescrow conventions, notfuturegrant issuance. Denominator controls are not a fully specifiedgrant model.",
+    "Minoritycashreserve is an economic attribution allowance. It is not actualpartnerdistributions; do not replaceonewiththeother silently.",
+    "Original1Ball-inleasecash allowance is chargedonce in cash. EPS expense mapping ofthatcash is incomplete. LeaseassetD&A is assumed within totalD&A already.",
+    "IssueradjustedFCF includespartnercapitalcontributions/netdistributions andgovernmentcash; parentowner cash convention differs. No exactreportedFCFforecast is claimed.",
+    "Capitalcreditbookbenefit lowersdepreciation and raisesadjustedearnings; it doesnot manufactureextraFCFF beyond already modeled cashcredits.",
+    "MarketEPS reference2027S&PviaStockAnalysis is explicitly nonGAAPadjusted. iFAST2028EPS2.59 is a publishedanalystestimate but fullfuture adjustments/tax/share methodology is notdisclosed. The comparison remains a normalizedproxy, not exact apples-to-apples certification.",
+    "AnEPScomparisondoesnotautomaticallyimplyachangeinoperatingcashorvalue.",
+    "ReversepublicEPSunderourtax/claimsconventions isnot the analystsactualoperatingbridge.",
+    "TheEPSproxyincludesanoptimisticbutplausibleFoundryrecovery;itsselectedcoststressdoesnotspanrevenue/qualificationfailures.",
+    "AlloriginalmodelandPDFfilespreserved."
+  ]
+}

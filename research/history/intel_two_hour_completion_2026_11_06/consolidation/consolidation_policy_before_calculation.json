@@ -1,0 +1,66 @@
+{
+  "selected_utc": "2026-11-06T06:36:13.856492+00:00",
+  "scope": "Owned completion of previously missing external revenue series and consolidation algebra; no new operating profit, cash or valuation has been computed in this workstream before this policy.",
+  "chronology": "Existing public quote and frozen77.46target are known. Assumptions chosen to complete accounting and normalize observable businesses, not to solve a higher target. Root may adopt or reject with stated reasons.",
+  "base_policy": {
+    "2026Q4": {
+      "Products_external_B": 14.48845,
+      "AllOther_segment_B": 0.7,
+      "AllOther_internal_B": 0.005,
+      "legacy_external_Foundry_B": 0.2335,
+      "gross_new_packaging_B": 0.0,
+      "rationale": "Keep owned ProductsQ4. Other uses rounded latest-quarter scale; internalOther5M latestquarter; existingexternalFoundry equalsH1quarterlyaverage. Do not force result to guidance midpoint."
+    },
+    "legacy_external_Foundry": {
+      "2027_to2030_B_each": 0.934,
+      "construction": "2*(Q12026external.174+Q22026external.293); includes existing wafer, assembly/test and Altera external-customer activity, excludes separately defined new2027onwardpackaging programs.",
+      "post2030_nominal_growth": 0.03,
+      "classification": "Analyst normalization, not an identified recurring revenue disclosure or customer minimum. H1may contain nonrecurring activity;Q3explicitnonrecurring effect is not projected.",
+      "finite_run_rate_controls_B": [
+        0.696,
+        1.172
+      ],
+      "controls_definition": "Q1x4 and Q2x4; historical-scope sensitivity anchors, not confidence bounds or forecastprobabilities."
+    },
+    "AllOther": {
+      "gross_segment2027_to2030_B_each": 2.8,
+      "internal_sales2027_to2030_B_each": 0.02,
+      "external2027_to2030_B_each": 2.78,
+      "post2030_growth_both": 0.03,
+      "basis": "Preserve old gross2.8. New revenue eliminations at latestquarter5Mx4; distinguish from zero operatingprofit elimination.",
+      "supporting_scale": "Mobileye2026guidance1.995\u20132.020B, midpoint2.0075B; remainder0.7925B is a broad IMS/startups/other allowance, not an observed IMSforecast. No incremental self-driving windfall or divestment value."
+    },
+    "packaging": "Use gross new-program revenue from existing policy exactly once in consolidated revenue. Shadow allowance is already part of aggregateFoundry economics but missing in prior revenue denominator. Do not add gross and net packaging together.",
+    "profit": "Retain current aggregate Foundry and AllOther EBIT. Existing external services are already included in aggregate Foundry; completion does not create an extra profit stream or newly priced asset.",
+    "capital": "Finite2027\u201330 cashcapex/WC/D&A budgets remain aggregate envelopes. After2030 use0.8turnover on hostexternalrevenue = Products+netAllOther+legacyexternalFoundry+shadowpackaging; retain1.0separateturnover on netincrementalpackaging. Add only delta omitted-host-revenue /0.8 to netinvestment; allocate10%ofdelta toWC and remainderphysicalcapex. No secondcharge on incrementalpackaging.",
+    "2026_starting_capital": "Do not infer missing capital stock from sales level or retroactively charge all existing businesses acquisition cost. Existing balance-sheet assets, cost/depreciation and finitecapital budgets carry maintenance; this remains an aggregate assumption."
+  },
+  "sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note2pp9\u201311;FoundryMD&App35;AllOtherp36",
+      "facts": "Products is external;Foundry411Mquarter/878MYTDexternal;Otherincludesinternal;Q3externalboostprimarilynonrecurring;AllOther692M;Mobileye493M."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "locator": "Note2externalFoundry",
+      "facts": "Q2external293M;H1external467M."
+    },
+    {
+      "url": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-third-quarter-2026-results-updates-guidance",
+      "locator": "Oct29release:2026guidance and cash timing",
+      "facts": "FYrevenue1.995\u20132.020B;adjustedoperatingincome380\u2013420Mincludes~190MR&Dgrant;2026grantcashstarts2028."
+    }
+  ],
+  "remaining_risks": [
+    "Revenuecompletion is an ownedforecast, not proof of future service orders.",
+    "AllOther sourceprofit and SBC accounting require group reconciliation; do not transplant standaloneMobileyeGAAPprofit.",
+    "Mobileye R&Dgrant receivables have a lag; isolate cash-timing diagnostic before claiming complete cashconversion.",
+    "Growthcapital0.8 and normalizedD&A remain forecast conventions, not proof of physicalcapacity."
+  ],
+  "not_authorized": [
+    "Editing frozen models or rootPDFbuilder",
+    "New economic benefit from already embeddedservices",
+    "Outreach, paiddata, trades, commits or pushes"
+  ]
+}

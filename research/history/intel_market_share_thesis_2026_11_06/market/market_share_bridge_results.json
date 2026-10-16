@@ -1,0 +1,1103 @@
+{
+  "computed_utc": "2026-11-06T16:52:45.475904+00:00",
+  "input_sha256": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/anchor_valuation_overlay_results.json": "721aa9b7a7445065317b17590eba55659558563664040651672c0fdf933b03f7",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/favorable_anchor_case_results.json": "c0b694e757204bcbd3896ef430244738c588012d4ac433c829adf8a859d90579",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d"
+  },
+  "case_names": {
+    "selected": "unchanged_anchor__YTD_normalized_growth",
+    "favorable": "joint_anchor_old_CPU2028plus_growth_pooled_old_growth"
+  },
+  "formulas": {
+    "Intel_unit_growth": "(1 + industry unit growth) * Intel ending unit share / Intel starting unit share - 1",
+    "required_ASP_growth": "Intel revenue2027 / Intel revenue2026E / (1 + Intel unit growth) - 1",
+    "revenue_share": "Intel CPU revenue / comparable total CPU revenue pool",
+    "relative_ASP": "Intel revenue share / Intel unit share",
+    "tail_market": "market2030 * (1 + scenario market revenue CAGR)^10"
+  },
+  "source_chart_shares": {
+    "2026_estimate": {
+      "Intel": 0.5,
+      "AMD": 0.27,
+      "NVIDIA": 0.12,
+      "AWS": 0.04,
+      "Google": 0.03,
+      "Others": 0.04
+    },
+    "2027_forecast": {
+      "Intel": 0.42,
+      "AMD": 0.28,
+      "NVIDIA": 0.12,
+      "AWS": 0.05,
+      "Google": 0.06,
+      "Others": 0.07
+    }
+  },
+  "FY2026_baselines": {
+    "selected_estimate_B": 21.8577,
+    "favorable_estimate_B": 22.14406
+  },
+  "near_term_forecast_consistency": [
+    {
+      "case": "selected",
+      "market_unit_growth": 0.4,
+      "Intel_unit_growth_from_rounded_share_forecasts": 0.17599999999999993,
+      "Intel_CPU2027_B": 30.405023813218303,
+      "common_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_common_anchor": 0.18286059768731322,
+      "case_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_matched_anchor": 0.18286059768731322,
+      "AMD_unit_growth_from_same_market": 0.4518518518518517,
+      "AMD_ASP_growth_at_70pct_CPU_revenue_growth": 0.17091836734693877
+    },
+    {
+      "case": "favorable",
+      "market_unit_growth": 0.4,
+      "Intel_unit_growth_from_rounded_share_forecasts": 0.17599999999999993,
+      "Intel_CPU2027_B": 31.73925349266314,
+      "common_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_common_anchor": 0.23476674733466707,
+      "case_FY2026_estimate_B": 22.14406,
+      "required_ASP_growth_matched_anchor": 0.21879913318591804,
+      "AMD_unit_growth_from_same_market": 0.4518518518518517,
+      "AMD_ASP_growth_at_70pct_CPU_revenue_growth": 0.17091836734693877
+    },
+    {
+      "case": "selected",
+      "market_unit_growth": 0.45,
+      "Intel_unit_growth_from_rounded_share_forecasts": 0.21799999999999997,
+      "Intel_CPU2027_B": 30.405023813218303,
+      "common_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_common_anchor": 0.14207230121533687,
+      "case_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_matched_anchor": 0.14207230121533687,
+      "AMD_unit_growth_from_same_market": 0.5037037037037038,
+      "AMD_ASP_growth_at_70pct_CPU_revenue_growth": 0.13054187192118216
+    },
+    {
+      "case": "favorable",
+      "market_unit_growth": 0.45,
+      "Intel_unit_growth_from_rounded_share_forecasts": 0.21799999999999997,
+      "Intel_CPU2027_B": 31.73925349266314,
+      "common_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_common_anchor": 0.1921885836334718,
+      "case_FY2026_estimate_B": 22.14406,
+      "required_ASP_growth_matched_anchor": 0.17677157686916223,
+      "AMD_unit_growth_from_same_market": 0.5037037037037038,
+      "AMD_ASP_growth_at_70pct_CPU_revenue_growth": 0.13054187192118216
+    },
+    {
+      "case": "selected",
+      "market_unit_growth": 0.5,
+      "Intel_unit_growth_from_rounded_share_forecasts": 0.26,
+      "Intel_CPU2027_B": 30.405023813218303,
+      "common_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_common_anchor": 0.10400322450815902,
+      "case_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_matched_anchor": 0.10400322450815902,
+      "AMD_unit_growth_from_same_market": 0.5555555555555556,
+      "AMD_ASP_growth_at_70pct_CPU_revenue_growth": 0.09285714285714275
+    },
+    {
+      "case": "favorable",
+      "market_unit_growth": 0.5,
+      "Intel_unit_growth_from_rounded_share_forecasts": 0.26,
+      "Intel_CPU2027_B": 31.73925349266314,
+      "common_FY2026_estimate_B": 21.8577,
+      "required_ASP_growth_common_anchor": 0.15244896417902254,
+      "case_FY2026_estimate_B": 22.14406,
+      "required_ASP_growth_matched_anchor": 0.13754585764019,
+      "AMD_unit_growth_from_same_market": 0.5555555555555556,
+      "AMD_ASP_growth_at_70pct_CPU_revenue_growth": 0.09285714285714275
+    }
+  ],
+  "market_revenue_share_grid": [
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_CPU2030_B": 49.87783483684855,
+      "required_Intel_revenue_share": 0.4987783483684855,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+      "illustrative_market_CAGR_from_40B2026": 0.2574334296829355,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -4.766415163151455
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_CPU2030_B": 60.07088322736725,
+      "required_Intel_revenue_share": 0.6007088322736724,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+      "illustrative_market_CAGR_from_40B2026": 0.2574334296829355,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": 5.426633227367239
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_CPU2030_B": 49.87783483684855,
+      "required_Intel_revenue_share": 0.41564862364040456,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+      "illustrative_market_CAGR_from_40B2026": 0.3160740129524924,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -13.079387635959549
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_CPU2030_B": 60.07088322736725,
+      "required_Intel_revenue_share": 0.5005906935613937,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+      "illustrative_market_CAGR_from_40B2026": 0.3160740129524924,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -4.585180643860632
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_CPU2030_B": 49.87783483684855,
+      "required_Intel_revenue_share": 0.33251889891232367,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+      "illustrative_market_CAGR_from_40B2026": 0.3915788418568702,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -21.39236010876764
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_CPU2030_B": 60.07088322736725,
+      "required_Intel_revenue_share": 0.400472554849115,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+      "illustrative_market_CAGR_from_40B2026": 0.3915788418568702,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -14.596994515088507
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_CPU2030_B": 49.87783483684855,
+      "required_Intel_revenue_share": 0.27709908242693637,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+      "illustrative_market_CAGR_from_40B2026": 0.45647531512197026,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -26.934341757306367
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_CPU2030_B": 60.07088322736725,
+      "required_Intel_revenue_share": 0.33372712904092916,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+      "illustrative_market_CAGR_from_40B2026": 0.45647531512197026,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -21.27153709590709
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_CPU2030_B": 49.87783483684855,
+      "required_Intel_revenue_share": 0.24938917418424275,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+      "illustrative_market_CAGR_from_40B2026": 0.4953487812212205,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -29.70533258157573
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_CPU2030_B": 60.07088322736725,
+      "required_Intel_revenue_share": 0.3003544161368362,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+      "illustrative_market_CAGR_from_40B2026": 0.4953487812212205,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -24.608808386316383
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_CPU2030_B": 49.87783483684855,
+      "required_Intel_revenue_share": 0.22671743107658432,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.22906763615369274,
+      "illustrative_market_CAGR_from_40B2026": 0.531407156804393,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -31.972506892341574
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_CPU2030_B": 60.07088322736725,
+      "required_Intel_revenue_share": 0.27304946921530565,
+      "Intel_revenue_CAGR2026E_2030_matched_anchor": 0.2833694354710361,
+      "illustrative_market_CAGR_from_40B2026": 0.531407156804393,
+      "illustrative_revenue_share_change_pp_from_40B_common_baseline": -27.33930307846944
+    }
+  ],
+  "unit_share_and_relative_ASP_grid": [
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 1.995113393473942
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 1.6625944945616185
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 1.4250809953385302
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 1.2469458709212138
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 1.1875674961154417
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 2.4028353290946898
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 2.002362774245575
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 1.71631094935335
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 1.501772080684181
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 100.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 1.430259124461125
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 1.6625944945616182
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 1.3854954121346819
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 1.1875674961154417
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 1.0391215591010112
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.9896395800962013
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 2.002362774245575
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 1.6686356452046458
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 1.4302591244611251
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 1.2514767339034842
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 120.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 1.1918826037176042
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 1.3300755956492947
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 1.1083963297077457
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 0.9500539968923534
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 0.8312972472808091
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.7917116640769611
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 1.60189021939646
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 1.3349085161637166
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 1.1442072995689
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 1.0011813871227875
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 150.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.9535060829740833
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 1.1083963297077455
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 0.923663608089788
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 0.7917116640769611
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 0.6927477060673409
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.6597597200641342
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 1.3349085161637166
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 1.112423763469764
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 0.9535060829740833
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 0.8343178226023229
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 180.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.7945884024784028
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 0.997556696736971
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 0.8312972472808092
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 0.7125404976692651
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 0.6234729354606069
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.5937837480577208
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 1.2014176645473449
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 1.0011813871227875
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 0.858155474676675
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 0.7508860403420905
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 200.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.7151295622305625
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 0.9068697243063373
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 0.7557247702552811
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 0.6477640887902409
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 0.5667935776914608
+    },
+    {
+      "case": "selected",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.5398034073252008
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.25,
+      "required_Intel_ASP_over_market_average": 1.0921978768612226
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.3,
+      "required_Intel_ASP_over_market_average": 0.9101648973843522
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.35,
+      "required_Intel_ASP_over_market_average": 0.780141340615159
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.4,
+      "required_Intel_ASP_over_market_average": 0.6826236730382641
+    },
+    {
+      "case": "favorable",
+      "illustrative_CPU_market2030_B": 220.0,
+      "Intel_unit_share2030_scenario": 0.42,
+      "required_Intel_ASP_over_market_average": 0.6501177838459659
+    }
+  ],
+  "reverse_market_size_by_share": [
+    {
+      "case": "selected",
+      "Intel_revenue_share_scenario": 0.25,
+      "required_CPU_market2030_B": 199.5113393473942
+    },
+    {
+      "case": "selected",
+      "Intel_revenue_share_scenario": 0.3,
+      "required_CPU_market2030_B": 166.25944945616183
+    },
+    {
+      "case": "selected",
+      "Intel_revenue_share_scenario": 0.35,
+      "required_CPU_market2030_B": 142.508099533853
+    },
+    {
+      "case": "selected",
+      "Intel_revenue_share_scenario": 0.4,
+      "required_CPU_market2030_B": 124.69458709212137
+    },
+    {
+      "case": "selected",
+      "Intel_revenue_share_scenario": 0.45,
+      "required_CPU_market2030_B": 110.83963297077455
+    },
+    {
+      "case": "selected",
+      "Intel_revenue_share_scenario": 0.5,
+      "required_CPU_market2030_B": 99.7556696736971
+    },
+    {
+      "case": "favorable",
+      "Intel_revenue_share_scenario": 0.25,
+      "required_CPU_market2030_B": 240.283532909469
+    },
+    {
+      "case": "favorable",
+      "Intel_revenue_share_scenario": 0.3,
+      "required_CPU_market2030_B": 200.2362774245575
+    },
+    {
+      "case": "favorable",
+      "Intel_revenue_share_scenario": 0.35,
+      "required_CPU_market2030_B": 171.631094935335
+    },
+    {
+      "case": "favorable",
+      "Intel_revenue_share_scenario": 0.4,
+      "required_CPU_market2030_B": 150.1772080684181
+    },
+    {
+      "case": "favorable",
+      "Intel_revenue_share_scenario": 0.45,
+      "required_CPU_market2030_B": 133.49085161637166
+    },
+    {
+      "case": "favorable",
+      "Intel_revenue_share_scenario": 0.5,
+      "required_CPU_market2030_B": 120.1417664547345
+    }
+  ],
+  "post2030_share_consistency": [
+    {
+      "case": "selected",
+      "CPU_market2030_B": 100.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 148.02442849183444,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.5007000503092098,
+      "share_change_pp_2030_2040": 0.19217019407243296
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 100.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 179.08476965428545,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.41385897268612293,
+      "share_change_pp_2030_2040": -8.491937568236258
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 100.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 215.89249972727882,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.34329973892783977,
+      "share_change_pp_2030_2040": -15.547860944064574
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 100.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 259.3742460100002,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.28574864287025625,
+      "share_change_pp_2030_2040": -21.302970549822923
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 100.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 148.02442849183444,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.7297858737408018,
+      "share_change_pp_2030_2040": 12.90770414671294
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 100.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 179.08476965428545,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.6032123060516844,
+      "share_change_pp_2030_2040": 0.25034737780119665
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 100.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 215.89249972727882,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.5003700314663907,
+      "share_change_pp_2030_2040": -10.033880080728174
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 100.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 259.3742460100002,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.41648752157811103,
+      "share_change_pp_2030_2040": -18.42213106955614
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 120.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 177.6293141902013,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.41725004192434156,
+      "share_change_pp_2030_2040": 0.1601418283937006
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 120.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 214.90172358514255,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.34488247723843574,
+      "share_change_pp_2030_2040": -7.076614640196882
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 120.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 259.07099967273456,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.28608311577319984,
+      "share_change_pp_2030_2040": -12.956550786720472
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 120.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 311.24909521200027,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.23812386905854685,
+      "share_change_pp_2030_2040": -17.75247545818577
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 120.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 177.6293141902013,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.6081548947840015,
+      "share_change_pp_2030_2040": 10.75642012226078
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 120.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 214.90172358514255,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.502676921709737,
+      "share_change_pp_2030_2040": 0.208622814834325
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 120.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 259.07099967273456,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.41697502622199223,
+      "share_change_pp_2030_2040": -8.361566733940151
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 120.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 311.24909521200027,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.3470729346484258,
+      "share_change_pp_2030_2040": -15.351775891296793
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 150.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 222.03664273775166,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.33380003353947324,
+      "share_change_pp_2030_2040": 0.12811346271495716
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 150.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 268.6271544814282,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.2759059817907486,
+      "share_change_pp_2030_2040": -5.661291712157507
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 150.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 323.8387495909182,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.22886649261855985,
+      "share_change_pp_2030_2040": -10.365240629376382
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 150.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 389.06136901500037,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.19049909524683747,
+      "share_change_pp_2030_2040": -14.20198036654862
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 150.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 222.03664273775166,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.4865239158272012,
+      "share_change_pp_2030_2040": 8.605136097808625
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 150.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 268.6271544814282,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.40214153736778957,
+      "share_change_pp_2030_2040": 0.16689825186745888
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 150.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 323.8387495909182,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.33358002097759376,
+      "share_change_pp_2030_2040": -6.689253387152122
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 150.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 389.06136901500037,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.27765834771874065,
+      "share_change_pp_2030_2040": -12.281420713037432
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 180.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 266.443971285302,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.27816669461622767,
+      "share_change_pp_2030_2040": 0.10676121892913004
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 180.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 322.3525853777138,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.22992165149229052,
+      "share_change_pp_2030_2040": -4.717743093464585
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 180.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 388.60649950910187,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.19072207718213322,
+      "share_change_pp_2030_2040": -8.637700524480316
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 180.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 466.8736428180004,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.15874924603903123,
+      "share_change_pp_2030_2040": -11.834983638790513
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 180.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 266.443971285302,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.40543659652266767,
+      "share_change_pp_2030_2040": 7.170946748173851
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 180.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 322.3525853777138,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.33511794780649135,
+      "share_change_pp_2030_2040": 0.1390818765562185
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 180.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 388.60649950910187,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.27798335081466147,
+      "share_change_pp_2030_2040": -5.5743778226267695
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 180.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 466.8736428180004,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.23138195643228388,
+      "share_change_pp_2030_2040": -10.234517260864529
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 200.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 296.0488569836689,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.2503500251546049,
+      "share_change_pp_2030_2040": 0.09608509703621648
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 200.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 358.1695393085709,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.20692948634306146,
+      "share_change_pp_2030_2040": -4.245968784118129
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 200.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 431.78499945455764,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.17164986946391989,
+      "share_change_pp_2030_2040": -7.773930472032287
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 200.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 518.7484920200004,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.14287432143512813,
+      "share_change_pp_2030_2040": -10.651485274911462
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 200.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 296.0488569836689,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.3648929368704009,
+      "share_change_pp_2030_2040": 6.45385207335647
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 200.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 358.1695393085709,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.3016061530258422,
+      "share_change_pp_2030_2040": 0.12517368890059832
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 200.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 431.78499945455764,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.25018501573319535,
+      "share_change_pp_2030_2040": -5.016940040364087
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 200.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 518.7484920200004,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.20824376078905552,
+      "share_change_pp_2030_2040": -9.21106553477807
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 220.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 325.6537426820358,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.22759093195873173,
+      "share_change_pp_2030_2040": 0.087350088214741
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 220.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 393.986493239428,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.1881177148573286,
+      "share_change_pp_2030_2040": -3.859971621925573
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 220.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 474.9634994000134,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.1560453358762908,
+      "share_change_pp_2030_2040": -7.067209520029352
+    },
+    {
+      "case": "selected",
+      "CPU_market2030_B": 220.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 570.6233412220005,
+      "Intel_CPU2040_B": 74.11583879285354,
+      "required_Intel_revenue_share2040": 0.1298857467592074,
+      "share_change_pp_2030_2040": -9.683168431737693
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 220.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.04,
+      "CPU_market2040_B": 325.6537426820358,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.33172085170036447,
+      "share_change_pp_2030_2040": 5.867138248505882
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 220.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.06,
+      "CPU_market2040_B": 393.986493239428,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.2741874118416747,
+      "share_change_pp_2030_2040": 0.11379426263690706
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 220.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.08,
+      "CPU_market2040_B": 474.9634994000134,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.22744092339381392,
+      "share_change_pp_2030_2040": -4.560854582149173
+    },
+    {
+      "case": "favorable",
+      "CPU_market2030_B": 220.0,
+      "market_revenue_CAGR2031_2040_scenario": 0.1,
+      "CPU_market2040_B": 570.6233412220005,
+      "Intel_CPU2040_B": 108.02613688189624,
+      "required_Intel_revenue_share2040": 0.18931250980823228,
+      "share_change_pp_2030_2040": -8.373695940707337
+    }
+  ],
+  "Intel_smooth_path_illustration": {
+    "current_TAM_B": 40,
+    "five_year_endpoint_B": 200,
+    "constant_annual_growth": 0.3797296614612149,
+    "four_year_market_B": 144.9559327355391,
+    "scope": "Owned interpolation of rounded management endpoints; not Intel guidance for2030. The statement was October2026 over five years, roughly2031."
+  },
+  "case_tail_CAGRs": {
+    "selected": 0.04039999999999999,
+    "favorable": 0.06044093219044244
+  },
+  "boundaries": [
+    "All market sizes, future share paths and future relative ASPs are conditional scenarios, not measured outcomes or probabilities.",
+    "TrendForce chart uses rounded annual2026 estimates and2027 forecasts;17.6% is a calculation at40% market growth, not a strict real-world lower bound.",
+    "Intel FY2026 CPU amounts are model estimates using reported DCAI minus rounded Other DCAI plus a modeledQ4. They are not filed full-yearCPU totals.",
+    "Intel current$40B TAM is an approximate management snapshot, not a consistently measuredFY2026 market total; shares derived from it are illustrations only.",
+    "A comparable dollar pool must treat merchant CPUs, captive designs, bundles and architecture consistently. Public vendorTAM methodology does not fully resolve this.",
+    "Revenue share is not shipment share. CPU revenue is not DCAI/DataCenter segment revenue or whole-server spending.",
+    "No profit, reinvestment, discount rate or valuation policy was changed by this bridge."
+  ]
+}

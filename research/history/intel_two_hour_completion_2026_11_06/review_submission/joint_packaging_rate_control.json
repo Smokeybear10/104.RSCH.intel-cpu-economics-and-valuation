@@ -1,0 +1,43 @@
+{
+  "computed_utc": "2026-11-06T07:50:26.901868+00:00",
+  "scope": "Joint review controls under stated policy; no probabilities or news of lost customer. Both risk and cash inputs are existing, not fitted.",
+  "results": [
+    {
+      "packaging_policy": "proportional_cash_cost_avoidance",
+      "rate": 0.11555,
+      "planning_value_USD": 46.92109175872696,
+      "target2030_USD": 71.03956440696257,
+      "annual_price_return": 0.07676828536878344,
+      "retained_cash_delta_B": -1.3135517492711366,
+      "planning_difference_vs_entry_USD": -5.328908241273041
+    },
+    {
+      "packaging_policy": "proportional_cash_cost_avoidance",
+      "rate": 0.10631495183175221,
+      "planning_value_USD": 54.19441151942511,
+      "target2030_USD": 79.5884215705234,
+      "annual_price_return": 0.10663454039987941,
+      "retained_cash_delta_B": -1.3135517492711366,
+      "planning_difference_vs_entry_USD": 1.9444115194251097
+    },
+    {
+      "packaging_policy": "no_cash_cost_avoidance",
+      "rate": 0.11555,
+      "planning_value_USD": 44.03659851903184,
+      "target2030_USD": 66.63930171476932,
+      "annual_price_return": 0.06031785159942449,
+      "retained_cash_delta_B": -5.014285714285714,
+      "planning_difference_vs_entry_USD": -8.213401480968159
+    },
+    {
+      "packaging_policy": "no_cash_cost_avoidance",
+      "rate": 0.10631495183175221,
+      "planning_value_USD": 50.914756421318806,
+      "target2030_USD": 74.7367471893252,
+      "annual_price_return": 0.0900022286226656,
+      "retained_cash_delta_B": -5.014285714285714,
+      "planning_difference_vs_entry_USD": -1.3352435786811938
+    }
+  ],
+  "checks": "Original favorable and selected package sales and tax rates matched in all stress years. Changed packaging economics once, retained pre-2031 capex, and adjusted retained 2030 cash once."
+}

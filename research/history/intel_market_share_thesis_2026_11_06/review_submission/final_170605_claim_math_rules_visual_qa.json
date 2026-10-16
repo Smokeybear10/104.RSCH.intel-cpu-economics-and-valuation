@@ -1,0 +1,304 @@
+{
+  "checked_utc": "2026-11-06T17:08:18.001580+00:00",
+  "reviewed_build_utc": "2026-11-06T17:06:05.194079+00:00",
+  "reviewer": "submission_readiness_review",
+  "result": "PASS",
+  "scope": "Independent claim/math/rules preflight plus complete final18-page text and visual/hash QA. Current18pages rendered at100dpi;15are pixel-identical to visually inspected17:03:06pages;the3changed finalpages were re-inspected at full size.",
+  "files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "1620d611cfd87891e19be704e44e369dcfce1251d36a560ab5e6410e59b1d73f",
+      "matches_current_manifest": true,
+      "pages": 10,
+      "links": 31,
+      "page_review": [
+        {
+          "page": 1,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Recommendation, target, annual return and limited dated planning cushion readable.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-01.png",
+          "current_render_sha256": "9f75059315a5077b98ca61ec2a7fc13ee794ae4b3831800818a355a001a492f8",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 2,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Business overview and dated sales-consensus comparison align; other revenue categories retained.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-02.png",
+          "current_render_sha256": "233d92ad2b2601ab5616b657af655011d5a707d0397c207dc2ab5d204ae3104c",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 3,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Shipment-share consistency arithmetic clearly separated from measured shipments and quarterly forecast.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-03.png",
+          "current_render_sha256": "aac4e99b578252f1e4547a3b53afdf3dc04f1cca5eeb4efa35f1829ffb9225c7",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 4,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Illustrative CPU-dollar pools, revenue shares and vendor date/scope caveats fit.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-04.png",
+          "current_render_sha256": "9ac3e76711721fa444308467dce79e00669ec46b46c06e5724680908a91a88a7",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 5,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Owned delivery, price/mix and conditional product-margin forecasts fit; no clipping.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-05.png",
+          "current_render_sha256": "ce38937ec276e8ef51bb1a9c81b2c4a4ecd1d372f4a82cf298ee3119afa3c9db",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 6,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Active-case cash bridge,124.5Bcapex and31.5%factory/packaging uplift reconcile.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-06.png",
+          "current_render_sha256": "a3c6088854616ee99b13c1496a3c0655debe8ba35cc3ca410c6777349adace00",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 7,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "APV bridge, rate-method sensitivity, dated premium and long-run concentration are visible.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-07.png",
+          "current_render_sha256": "20fa35bbc0e9a2152f6afee2dea138212245bbdfad771dbacfdb89daa4629621",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 8,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "All seven scenario rows align; exact-result8.8% correction rendered; workload limitations fit.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-08.png",
+          "current_render_sha256": "0b29d1a5cf9739363fdf7af86881e479909f2644cc106235eb0cddfbb0fb2184",
+          "pixel_identical_to_reviewed170306_page": false,
+          "review_method": "Current final image visually inspected at full size"
+        },
+        {
+          "page": 9,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Model milestones and actions fit; FY2030 marked post-target audit.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-09.png",
+          "current_render_sha256": "52fe41bbff13a86c1194fc653b20c32037db801a76f2770c6b96b941392b3054",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 10,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Source links, owned-case status, class year and missing resume requirement visible.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_initial_screen-10.png",
+          "current_render_sha256": "7b0c6234d934ba41fac4c76ecc6c112d63d43c78c6d833a0cfa6a9b46a933fb9",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        }
+      ]
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "364b56da6c492112d7ed5432d63a5a92d950e067af3f1ff9fa4912ef5b5f214b",
+      "matches_current_manifest": true,
+      "pages": 5,
+      "links": 12,
+      "page_review": [
+        {
+          "page": 1,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Moderate LONG, decision chronology and specific forecast disagreement clear.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-1.png",
+          "current_render_sha256": "8c6c195cd9d90d730b199385b4c2ab2830e33a826b5afce7451f577a8cb58558",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 2,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Market-share/ASP arithmetic and separate CPU-dollar denominator limitations clear.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-2.png",
+          "current_render_sha256": "e7df71bff21c30e0508ed416d4af49ced4bffd45cd7ec1ba048112edb347a4fb",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 3,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Profit/cash reconciliation and new quarterly stress paragraph fit without collision; timing scope broad enough.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-3.png",
+          "current_render_sha256": "bf2ab17c649bec3b9e64841d7e383e5cec82b6b883087766c64fda11c24f9c03",
+          "pixel_identical_to_reviewed170306_page": false,
+          "review_method": "Current final image visually inspected at full size"
+        },
+        {
+          "page": 4,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Exact valuation controls, dates and repaired56 days text fit; no clipping.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-4.png",
+          "current_render_sha256": "b0d9d79f6e40b3a6803c450ca91ae3434e9b76b3ea41d7a408b5209ab4257bfd",
+          "pixel_identical_to_reviewed170306_page": false,
+          "review_method": "Current final image visually inspected at full size"
+        },
+        {
+          "page": 5,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Evidence/workload scope, monitoring and resume requirement remain explicit.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_defense_notes-5.png",
+          "current_render_sha256": "0d5532bbf03ce8e0c0dd62af35371c071b051a2e1c62c0d1d78bb09edf1e2c25",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        }
+      ]
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "1019d88b9b85d5e694cf9632f23a9d5c20b1577ff4b0b6f1027ab3f08465ca49",
+      "matches_current_manifest": true,
+      "pages": 3,
+      "links": 6,
+      "page_review": [
+        {
+          "page": 1,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Comparison table aligns; no S&P escape or Business spacing artifacts.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_pitch_comparison-1.png",
+          "current_render_sha256": "b6b473f3554b2ace0511a935b1e7f30b2cabc1d3a78300bb9cdcce1df79d5409",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 2,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Winner examples are clearly examples, not odds or target prescriptions.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_pitch_comparison-2.png",
+          "current_render_sha256": "4c898fe759bc0241de4f050a9d29ce3dc558a371918efecda33509d16137b37a",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        },
+        {
+          "page": 3,
+          "visual_pass": true,
+          "out_of_bounds_characters": 0,
+          "observation": "Decision change, provenance, numerical comparisons and submission boundary fit.",
+          "current_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_pitch_comparison-3.png",
+          "current_render_sha256": "719e45debfe11c475a5ad5ca68e01a486120dde610c26ec6cb270bf1569144e3",
+          "pixel_identical_to_reviewed170306_page": true,
+          "review_method": "Previously visually inspected page and exact pixel identity"
+        }
+      ]
+    }
+  ],
+  "active_case": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+    "sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "matches_manifest": true
+  },
+  "numeric_validation": {
+    "preflight_receipt": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/preflight_claim_math_rules_receipt.json",
+    "preflight_component_APV_comparisons": 60,
+    "cash_and_returns_receipt": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_numeric_crosscheck.json",
+    "quarterly_component_and_annual_comparisons": 168,
+    "max_quarterly_error_B": 2.1316282072803006e-14,
+    "p8_all_displayed_returns_from_exact_outputs": [
+      {
+        "case": "Owned LONG",
+        "exact_target_USD": 82.47015162680005,
+        "exact_annual_price_return_pct": 11.615212704256205,
+        "displayed_return": "11.6%",
+        "passed": true
+      },
+      {
+        "case": "Lower 2028-30 CPU delivery; other thesis inputs kept",
+        "exact_target_USD": 73.19975491696474,
+        "exact_annual_price_return_pct": 8.45623649554732,
+        "displayed_return": "8.5%",
+        "passed": true
+      },
+      {
+        "case": "CPU growth normalizes to 4.04% after 2030",
+        "exact_target_USD": 74.30835273825012,
+        "exact_annual_price_return_pct": 8.849461920879653,
+        "displayed_return": "8.8%",
+        "passed": true
+      },
+      {
+        "case": "Use YTD CPU margin instead of pooled Q2/Q3",
+        "exact_target_USD": 78.68904522748791,
+        "exact_annual_price_return_pct": 10.361060950359867,
+        "displayed_return": "10.4%",
+        "passed": true
+      },
+      {
+        "case": "Use 11.555% sustainable-payout risk method",
+        "exact_target_USD": 73.56082736404235,
+        "exact_annual_price_return_pct": 8.584804308364792,
+        "displayed_return": "8.6%",
+        "passed": true
+      },
+      {
+        "case": "One $3B packaging program missing; costs committed",
+        "exact_target_USD": 74.80075769252826,
+        "exact_annual_price_return_pct": 9.02269311328796,
+        "displayed_return": "9.0%",
+        "passed": true
+      },
+      {
+        "case": "Earlier slower-delivery case + 11.555% rate",
+        "exact_target_USD": 38.1266916804923,
+        "exact_annual_price_return_pct": -7.306618377337526,
+        "displayed_return": "(7.3%)",
+        "passed": true
+      }
+    ]
+  },
+  "resolved_findings": [
+    "Market-size table is described as share requirements, not validation of feasible market size.",
+    "FY2030 milestone is labeled post-target audit.",
+    "S&P/D&A escaping, broken words and missing56days space repaired.",
+    "Growth-normalization annual return corrected8.9%to8.8%using exact case target.",
+    "Quarterly stress prose describes front-loaded spending and delayed receipts across the full timing policy.",
+    "OldSHORT email draft nowLONG; no message sent."
+  ],
+  "rule_assessment": {
+    "clear_LONG": true,
+    "fundamental_horizon_years": 4.153319644079398,
+    "screen_pages": 10,
+    "overview_drivers_risks_present": true,
+    "class_year2027_supported_by_public_expected_BS_date": true,
+    "resume_package_complete": false,
+    "submitted": false
+  },
+  "remaining_material_limits": [
+    "Moderate LONG is an owned conditional judgment, not a measured central probability or demonstrated market-price error.",
+    "Planning value is only7.4%above reference with56day date mismatch; the higher rate or lower delivery/growth removes that premium.",
+    "Future accepted output, cost recovery, packaging fees and capital efficiency remain forecasts; cash timing is an allocation, not assured daily liquidity.",
+    "Current resume still must accompany entry."
+  ],
+  "unresolved_document_defects": [],
+  "pdf_or_model_edits_by_reviewer": false
+}

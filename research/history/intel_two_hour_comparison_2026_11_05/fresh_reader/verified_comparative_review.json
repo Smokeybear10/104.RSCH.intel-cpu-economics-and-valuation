@@ -1,0 +1,155 @@
+{
+  "completed_utc": "2026-11-05T23:19:33.491801+00:00",
+  "started_utc": "2026-11-05T23:10:46.569808+00:00",
+  "elapsed_wall_minutes": 8.782033216666667,
+  "duration_statement": "This is one fresh independent pass within the parent two-hour review. It is not itself a two-hour review. No idle time is represented as analysis.",
+  "first_assessment": "frozen_first_assessment.json",
+  "outcomes_accessed": false,
+  "artifacts_edited": "No source PDFs, builders, or models edited. Local snapshots, extracted text, renders, source captures and JSON notes only.",
+  "bottom_line": "The Intel recovery is plausible and has more demonstrated operating support than its defensive phrasing conveys. The present price case remains less compelling than the business-recovery case. Preserve the honest dated valuation, cash economics and conditional scenarios; improve the causal evidence and affirmative mechanism rather than adding model complexity or confidence.",
+  "strongest_case_for_updated": [
+    "The recovery is not hypothetical: reported DCAI revenues and product profits have strengthened across2026, and both Intel3 and18A manufacturing costs have fallen. More server output and richer products can offset a shrinking client business.",
+    "The 2027 forecast does not need a further margin surge from current quarterly levels: modeled DCAI38.8% is below Q3 actual41.5%. Modeled2027 DCAI profit15.43B is26.9% above annualized actualQ3 profit12.156B.",
+    "The annual revenue hurdle contains material modeled exit-level carryover: CPU2027 is44% above FY26E but20.6% above modeledQ4 annualized. Total DCAI2027 is18.2% above modeledQ4 annualized; Other is9.8% above. These are inherited forecast comparisons, not observed carryover.",
+    "The balance sheet has54.005B cash/short-term investments against50.134B total debt atQ3; the23B August offering supplies an existing funding buffer. This helps distinguish near-term negative owner cash from immediate financing distress, although obligations and future investment still matter.",
+    "A recovery long can be rational without multiple expansion or an external wafer breakthrough. Owning through temporary delivery delays could be justified if customer usefulness and retained profit persist. The model rightly distinguishes timing loss from durable franchise damage."
+  ],
+  "strongest_case_against_updated": "At52.22 the stated forecast gives51.29 Dec2026 value and about10% conditional annual price appreciation, while the author prefers12% at48.52. The pitch does not demonstrate an adequate return advantage for the uncertain duration and funded capacity path. This is an underexplained selection of the stock at this entry, not a mathematical rule that a fair-valued asset cannot be owned or that Intel must be short.",
+  "important_nuance": "A high fraction of value after the investment horizon is normal in long-lived businesses and not a standalone indictment. WMS has81.3% of its appendixDCF enterprisePV in its post2029 terminal value. Intel is stronger at disclosing duration; its issue is evidence for the future economics, not the number of forecast years.",
+  "primary_verification": [
+    {
+      "claim": "Q3 DCAI7.318B revenue and3.039B operating profit; consolidated16.513B revenue and2.522B EBIT",
+      "status": "confirmed",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "segment table",
+      "calculation": "3.039/7.318 =41.5277%"
+    },
+    {
+      "claim": "Q1 andQ2 DCAI margins30.5% and39.5%; server ASP27% and48%",
+      "status": "confirmed",
+      "sources": [
+        "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+        "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm"
+      ],
+      "calculations": [
+        "1.542/5.052 =30.5226%",
+        "2.474/6.262 =39.5081%"
+      ]
+    },
+    {
+      "claim": "Q3 server ASP54% and units10%; YTD DCAI product-profit improvement4.5B",
+      "status": "confirmed",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Intel Products MD&A pp33-34",
+      "qualification": "ASP primarily reflects premium mix; input costs also rose. Product profit is not the same as group free cash."
+    },
+    {
+      "claim": "FY2023/24/25 DCAI margins5.9/8.8/20.2%",
+      "status": "confirmed",
+      "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "segment tables",
+      "calculations": [
+        "(15.980-15.035)/15.980",
+        "(16.125-14.711)/16.125",
+        "(16.919-13.497)/16.919"
+      ]
+    },
+    {
+      "claim": "Intel3 costs down15% and18A costs down40% sinceQ1; Granite largest family; purpose-built silicon expected to triple again",
+      "status": "confirmed as management statements",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "pp1-2,5-6",
+      "qualification": "Forward triple outlook concerns purpose-built silicon, not all Other DCAI."
+    },
+    {
+      "claim": "2027 industry server CPU unit demand above30%; DCAI Q4 mid-teens sequential growth",
+      "status": "confirmed as management outlook",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "pp6-7"
+    },
+    {
+      "claim": "Substrate funding5.3-6.1B,3.3B expected byend2027",
+      "status": "confirmed",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note14 subsequent commitments",
+      "qualification": "Some terms remain unfinalized; not identified as an increment outside all existing modeled cash uses."
+    },
+    {
+      "claim": "Ibiden1.3\u00d7market \u00d71.9\u00d7production load \u22482.5\u00d7SAP demand; Gama additional investment second-halfFY2029 ramp/FY2030 contribution",
+      "status": "confirmed",
+      "sources": [
+        "https://www.ibiden.com/ir/items/en_kessannsetsumei2026Q2.pdf",
+        "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf"
+      ],
+      "locators": [
+        "results pp12-13",
+        "Q&A p3"
+      ],
+      "qualification": "Results map GamaCell6 to AI ASIC substrate capacity; not an Intel CPU allocation. The chart is general-purpose server CPU demand, not all server CPUs."
+    },
+    {
+      "claim": "TrendForce forecasts morethan40% shipment growth2027",
+      "status": "confirmed as external research forecast",
+      "source": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "qualification": "The same source expects Arm30% share2027 and AMD share gains, while warning Intel supply remains constrained. Growth is not an Intel shipment guarantee."
+    },
+    {
+      "claim": "Azure SAP HANA does not support AMD; HANA Cloud supportsAWSGraviton",
+      "status": "confirmed for stated scopes",
+      "sources": [
+        "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started",
+        "https://news.sap.com/2023/11/sap-hana-cloud-now-supports-aws-graviton/"
+      ]
+    },
+    {
+      "claim": "Datadog migratedroughly2000services/70%AWSworkloadsbyend2023,10%AWSbill reduction,retainedmultiarchitectureflexibility",
+      "status": "confirmed",
+      "source": "https://www.datadoghq.com/blog/arm-migration-aws/",
+      "qualification": "Historicalfleetmigration; no attributedIntelversusAMDshare and not a currentXeon6 comparison."
+    },
+    {
+      "claim": "Nov5close52.22",
+      "status": "confirmed against cited price history viawebtool; directdownload403",
+      "source": "https://stockanalysis.com/stocks/intc/history/",
+      "qualification": "Secondary market-data provider; not independently exchange-verified."
+    },
+    {
+      "claim": "OfficialM37eligibility/format/horizon/deadlines",
+      "status": "confirmed",
+      "source": "https://www.m37.com/spc2026",
+      "details": "IndividualSTEMstudent,IntelorSpaceX,longorshort3-5years;Round1PDFatmost10pagesNov9;name,classyear,resumeoutsidepagecount;Round2Nov30;finalDec5;no timeofdayorzonegiven."
+    }
+  ],
+  "model_and_display_checks": {
+    "q4_bridge": "q4_cpu_exit_run_rate_bridge.json",
+    "valuation_rounding": "Dec2026(146.7+126.6+9.3)/5.51\u224851.29;Dec2030(194.8+196.1+37.1)/5.51\u224877.68. Priceappreciation\u224848.8%.",
+    "scope": "Checked disclosed arithmetic and causal definitions. Did not independently audit the complete valuation engine, tax schedule, partner waterfall or capital sufficiency."
+  },
+  "new_evidence_candidates": [
+    {
+      "name": "IBM currentXeon6offering",
+      "url": "https://www.ibm.com/new/announcements/intel-xeon-6-on-ibm-cloud-the-right-silicon-for-the-right-workload",
+      "finding": "IBM introducedXeon6P-core VPCinstances Feb11,2026,with deployment availability. Explains workload fit via cache,memory locality,NUMA and networking.",
+      "use": "More concrete current platform adoption evidence than a generic compatibility moat. Still not a reported customer margin,volume or renewal rate."
+    },
+    {
+      "name": "ToyotaSAPproductionrefresh",
+      "urls": [
+        "https://aws.amazon.com/solutions/case-studies/toyota-intel-case-study/",
+        "https://aws.amazon.com/ec2/instance-types/u7i/"
+      ],
+      "finding": "Operationalcustomerstory supportsIntel usefulness in a high-memorySAPdeployment. HoweverheadlinecallsXeon6 while body describesU7i/R6i,and currentU7iproductpage identifies4th-genXeon. Body saysR8i/X8iXeon6are beingevaluated.",
+      "use": "Do not present as provenXeon6productionadoption. Could use narrowly asIntelretention example,oromit toavoidgenerationalambiguity."
+    }
+  ],
+  "substantive_priority": "Add the audited21.9\u219226.1\u219231.5B revenue bridge with forecast labels, then strengthen the40%maturemargin thesis with an explicitprice/mix/all-in-costpath. This adds a comprehensible affirmative argument while exposing the remaining hurdle. It does not create new valuation upside.",
+  "do_not_import_from_comparators": [
+    "Reratingbecausepeersareexpensive",
+    "Unsupportedmarketbeliefstatements",
+    "UndefinedFCFconversion",
+    "Risksmitigatedbyrestatingthethesis",
+    "Apparentmodelprecision",
+    "Competitionplacementasproof"
+  ],
+  "comparison_relevance": "WMS andJBIareteamone-yearpubliccompetitiondecks,notdirectM37formatprecedents. Comparetheircausalargumentsandreadability,notpagecountsorheadlineupside."
+}

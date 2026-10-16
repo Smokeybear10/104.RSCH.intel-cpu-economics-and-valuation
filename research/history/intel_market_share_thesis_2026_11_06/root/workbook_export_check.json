@@ -1,0 +1,140 @@
+{
+  "checked_utc": "2026-11-06T17:02:55.077620+00:00",
+  "output": "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+  "sha256": "f80d638e8a64ecdd5b1e31a92e892d238c77f6f2d78a9b62462f852ec7fdf31a",
+  "sheet_names": [
+    "Valuation",
+    "Assumptions",
+    "Annual model",
+    "Quarterly model",
+    "Sources",
+    "Checks"
+  ],
+  "formula_count_in_export": 1965,
+  "error_cells": [],
+  "valuation": {
+    "D9": {
+      "type": "n",
+      "value": "56.13928584556838",
+      "formula": "D40"
+    },
+    "D10": {
+      "type": "n",
+      "value": "82.47015162680006",
+      "formula": "E40"
+    },
+    "D14": {
+      "type": "n",
+      "value": "31.187405332912828",
+      "formula": "MIN('Quarterly model'!F60:U60)"
+    },
+    "D55": {
+      "type": "n",
+      "value": "0.17599999999999993",
+      "formula": "(1+D52)*D54/D53-1"
+    },
+    "D57": {
+      "type": "n",
+      "value": "0.21879913318591804",
+      "formula": "'Annual model'!F7/D56/(1+D55)-1"
+    },
+    "D60": {
+      "type": "n",
+      "value": "0.400472554849115",
+      "formula": "'Annual model'!I7/D59"
+    }
+  },
+  "annual_inputs": {
+    "D9": {
+      "type": "n",
+      "value": "0.10625",
+      "formula": null
+    },
+    "D15": {
+      "type": "n",
+      "value": "0.4490871849674949",
+      "formula": "(SUM('Sources'!G8:H8)-D19*SUM('Sources'!G7:H7))/(SUM('Sources'!G6:H6)-SUM('Sources'!G7:H7))"
+    },
+    "G39": {
+      "type": "n",
+      "value": "0.25",
+      "formula": null
+    },
+    "I39": {
+      "type": "n",
+      "value": "0.12",
+      "formula": null
+    },
+    "G40": {
+      "type": "n",
+      "value": "0.08",
+      "formula": null
+    },
+    "I40": {
+      "type": "n",
+      "value": "0.02",
+      "formula": null
+    }
+  },
+  "quarterly_formulas": {
+    "J7": {
+      "type": "n",
+      "value": "128.670625",
+      "formula": "SUM(F7:I7)*(1+'Assumptions'!G39)*'Assumptions'!J96"
+    },
+    "M7": {
+      "type": "n",
+      "value": "151.048125",
+      "formula": "SUM(F7:I7)*(1+'Assumptions'!G39)*'Assumptions'!M96"
+    },
+    "J8": {
+      "type": "n",
+      "value": "112.43471863523631",
+      "formula": "SUMPRODUCT(F7:I7,F8:I8)/SUM(F7:I7)*(1+'Assumptions'!G40)"
+    },
+    "M8": {
+      "type": "n",
+      "value": "112.43471863523631",
+      "formula": "SUMPRODUCT(F7:I7,F8:I8)/SUM(F7:I7)*(1+'Assumptions'!G40)"
+    },
+    "K60": {
+      "type": "n",
+      "value": "31.187405332912828",
+      "formula": "K56+K54+K57-K58-K59"
+    }
+  },
+  "original_source_cells_unchanged": true,
+  "source_cells_compared": [
+    "F55",
+    "F56",
+    "F57",
+    "F58",
+    "F59",
+    "F6",
+    "F60",
+    "F61",
+    "F7",
+    "F8",
+    "G6",
+    "G7",
+    "G8",
+    "H6",
+    "H7",
+    "H8",
+    "I6",
+    "I7",
+    "I8"
+  ],
+  "visual_review": {
+    "views": [
+      "valuation",
+      "market bridge",
+      "annual drivers",
+      "quarterly operating schedule",
+      "annual revenue",
+      "cash balances",
+      "global assumptions"
+    ],
+    "finding": "Numeric displays and notes readable. Market diagnostics explicitly separate from forecast inputs."
+  }
+}

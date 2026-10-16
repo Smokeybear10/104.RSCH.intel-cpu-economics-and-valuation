@@ -1,0 +1,110 @@
+{
+  "completed_utc": "2026-11-07T01:12:30.328350+00:00",
+  "conclusion": "No new primary evidence found that warrants increasing the Intel CPU forecast or valuation. Existing near-term mix carryover is possible but underidentified. The useful correction is economic framing: rising package ASP does not require same-product pricing power or universal benchmark superiority, and it does not by itself prove retained margin.",
+  "sources": [
+    {
+      "id": "intel_q1_2026",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+      "publication_date": "2026-04-24",
+      "locator": "MD&A pp28-29",
+      "type": "Issuer filing",
+      "facts": "Server ASP+27%YoY, volume-5%; DCAI5.052B less Other0.935B. Mix and pricing both contribute; partly offsets input costs.",
+      "novelty": "Previously researched; rechecked."
+    },
+    {
+      "id": "intel_q2_2026",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "publication_date": "2026-07-24",
+      "locator": "MD&A p30",
+      "type": "Issuer filing",
+      "facts": "Quarter server ASP+48%, units+9%; H1ASP+38%, units+2%. Premium mix contributes most; price actions lesser.",
+      "novelty": "Previously researched; rechecked."
+    },
+    {
+      "id": "intel_q3_2026",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "publication_date": "2026-10-30",
+      "locator": "MD&A pp33-34",
+      "type": "Issuer filing",
+      "facts": "Quarter server ASP+54%, units+10%; YTDASP+44%, units+4%. Higher premium mix is the major ASP driver; unit costs also increase.",
+      "novelty": "Previously researched; rechecked."
+    },
+    {
+      "id": "intel_8592_spec",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/237261/intel-xeon-platinum-8592-processor-320m-cache-1-90-ghz/specifications.html",
+      "access_date": "2026-11-06",
+      "type": "Issuer product specification",
+      "facts": {
+        "cores": 64,
+        "RCP_USD": 12992,
+        "node": "Intel7",
+        "TDP_W": 350
+      },
+      "novelty": "Exact current two-SKU normalization newly inspected this pass; current catalog, not historical realized prices."
+    },
+    {
+      "id": "intel_6980_spec",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/240777/intel-xeon-6980p-processor-504m-cache-2-00-ghz/specifications.html",
+      "access_date": "2026-11-06",
+      "type": "Issuer product specification",
+      "facts": {
+        "cores": 128,
+        "RCP_USD": 13955,
+        "node": "Intel3",
+        "TDP_W": 500
+      },
+      "novelty": "Exact current two-SKU normalization newly inspected this pass; not a fleet price/mix series."
+    },
+    {
+      "id": "google_next26",
+      "url": "https://cloud.google.com/blog/products/compute/whats-new-in-compute-at-next26/",
+      "publication_date": "2026-04-22",
+      "type": "Customer/platform operator publication",
+      "facts": "One offering announcement supports both Intel Xeon6 C4 for AMX-based inference/vector search and Arm Axion N4A for cost-sensitive workloads and agent sandboxes. Flexible committed-use discounts can move among eligible VM families.",
+      "novelty": "Page newly read, underlying multivendor/portable commitment evidence already present in Nov5 customer research.",
+      "limit": "Platform performance claims are not independently rerun benchmarks. No CPU purchase quantity or negotiated Intel ASP disclosed."
+    },
+    {
+      "id": "amd_q3_event",
+      "url": "https://ir.amd.com/news-events/ir-calendar/detail/20261103-amd-fiscal-third-quarter-2026-financial-results",
+      "publication_date": "2026-11-03",
+      "type": "Issuer event index",
+      "facts": "Official index provides release, slides and audio, still no written Q3 transcript.",
+      "novelty": "Previously researched; rechecked. No registration or audio verification performed."
+    },
+    {
+      "id": "amd_q3_slides",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_76e60a688092d06ccab8a780191eae46/amd/db/841/9247/presentation/AMD_Q3_2026_Earnings_Slides_FINAL.pdf",
+      "publication_date": "2026-11-03",
+      "type": "Issuer presentation",
+      "facts": "25-page financial presentation; text has no2027CPU doubling outlook.",
+      "novelty": "Rechecked as possible primary confirmation; does not confirm the third-party-transcribed claim."
+    }
+  ],
+  "new_catalog_normalization": {
+    "RCP_per_package_increase": 0.07412253694581272,
+    "cores_per_package_increase": 1,
+    "RCP_per_nominal_core_change": -0.46293873152709364,
+    "interpretation": "The 128-core product lists7.4%higher per package but46.3%lower per nominal core than the64-core predecessor flagship. This is a concrete counterexample to treating higher package ASP as higher price per compute unit.",
+    "limits": [
+      "Two selected SKUs do not represent the sales mix; RCP is guidance, not negotiated or realized Intel revenue.",
+      "Nominal cores across generations are not identical useful-work units. TDP and memory capabilities differ.",
+      "This comparison does not establish actual customerTCO, Intel gross margin, or future averageCPUprice."
+    ],
+    "valuation_effect": "None; do not derive21.9%forecastASP from this pair."
+  },
+  "novelty_audit": {
+    "ASP_identification_already_completed": "work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/ASP_carryover_identification_results.json",
+    "2025_2024_constraints_already_completed": "work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/economic_underwriting/prior_year_ASP_extension_results.json",
+    "finding": "The historical constraints had already retained low and high feasible endpoints. Independent exploratory interval work this pass agrees, but is not presented as new evidence.",
+    "current_rebase": "current_witness_results.json updates the old witnesses for currentQ4sales6.81206B and annualunitgrowth17.6%. No change to the model."
+  },
+  "concrete_investment_test": {
+    "hypothesis": "Intel need not win every workload to grow revenue; a richer package mix and constrained aggregate supply may support sales despite share loss. The investment depends on delivered CPU growth with retained consolidated profit, not benchmark leadership.",
+    "support": "Actual CPU residual grows while volume/mix reconcile with the modeled path, and group gross/operating cash profit rises after Foundry costs and new capital needs.",
+    "reject_or_reduce": "Revenue growth chiefly reflects price/mix with insufficient finished shipments, or product segmentprofit is offset by Foundry/inputcapital costs; actual CPU revenue miss is not repaired by automaticcatchup.",
+    "observability": "The next Q4 results should replace the estimated CPUanchor and report volume/ASPchanges on compatible scopes. ACPUrevenuebeat alone does not verify the specific17.6%unit+21.9%ASPin2027decomposition.",
+    "benchmark_role": "The AMD-cheaper Rust result rejects a universal Intel cost-advantage claim for that workload. It neither proves Intel cannot sell CPUs nor estimates supplierpricingpower. Keep the test as a limitation, not the economicfoundation."
+  },
+  "parent_recommendation": "No new bullish forecast change. Preserve current recommendation unless other research independently resolves valuation. Use concise defense wording to distinguish package mix from like-for-like pricing; do not add another main-deck sensitivity table or sell the witness arithmetic as original alpha."
+}

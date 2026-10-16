@@ -1,0 +1,46 @@
+[
+  {
+    "name": "arm_fy27q2_shareholder.pdf",
+    "url": "https://investors.arm.com/static-files/0b5baa2e-fc47-4d05-b724-e49de7bd4356",
+    "status": 403,
+    "archived": false,
+    "fallback": "Read official PDF via web tool; no binary archive."
+  },
+  {
+    "name": "arm_fy27q2_transcript.pdf",
+    "url": "https://investors.arm.com/static-files/6f3ab670-7d16-479b-948a-7b1df5ff5b32",
+    "status": 403,
+    "archived": false,
+    "fallback": "Read official PDF via web tool; no binary archive."
+  },
+  {
+    "name": "oracle_oct27_cross_architecture.html",
+    "url": "https://www.oracle.com/news/announcement/blog/ai-world-building-the-next-decade-of-oracle-cloud-infrastructure-2026-10-27/",
+    "bytes": 38350,
+    "archived": true
+  },
+  {
+    "name": "amd_oracle_oct27.html",
+    "url": "https://newsroom.amd.com/news/amd-expands-ai-cloud-infrastructure-oracle/",
+    "bytes": 107941,
+    "archived": true
+  },
+  {
+    "name": "amd_q3_2026_10q.html",
+    "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm",
+    "bytes": 1504421,
+    "archived": true
+  },
+  {
+    "name": "amd_q3_2026_slides.pdf",
+    "url": "https://d1io3yog0oux5.cloudfront.net/_76e60a688092d06ccab8a780191eae46/amd/db/841/9247/presentation/AMD_Q3_2026_Earnings_Slides_FINAL.pdf",
+    "bytes": 938211,
+    "archived": true
+  },
+  {
+    "name": "amd_financial_results_index_nov5.html",
+    "url": "https://ir.amd.com/financial-information/financial-results",
+    "bytes": 117734,
+    "archived": true
+  }
+]

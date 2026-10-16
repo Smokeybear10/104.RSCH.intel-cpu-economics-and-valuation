@@ -1,0 +1,61 @@
+{
+  "computed_utc": "2026-11-04T17:26:48.311139+00:00",
+  "scope": "One-variable reverse-valuation diagnostic, not a revised forecast or a measured market expectation. Hardware reviewer has not seen these results before independent margin judgment.",
+  "policy_sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+  "valuation_sha256": "5c0cd2116ad3efc49bc02be0dc8241902a9b11b3b9c0c5cf49e1594186eabfe2",
+  "fixed": "All revenues,2027\u20132030margins,capital,WC,taxes,claims,financing andpackaging fixed. Increase group EBIT by a rising incremental margin on the whole DCAI revenue base from2031, reaching the target in2040. No double manufacturing benefit.",
+  "method": "Each extra terminal percentage point adds DCAI revenue \u00d70.01\u00d7min((year\u22122030)/10,1) to EBIT after2030, taxed at the existing operating rate. All extra cash is after2030, so endpoint2026/2030 net cash is unchanged.",
+  "results": {
+    "0.11": {
+      "points": {
+        "2026": {
+          "baseline_USD": 48.14361380986452,
+          "value_per_percentage_point_terminal_DCAI_margin_USD": 0.9638716343910634
+        },
+        "2030": {
+          "baseline_USD": 71.36557946059254,
+          "value_per_percentage_point_terminal_DCAI_margin_USD": 1.4632250072074122
+        }
+      },
+      "mature_margin_implied_if_sole_changed_assumption": 0.42339951747238475,
+      "required_change_percentage_points": 10.339951747238475,
+      "conditional_end2030_value_USD_under_same_change": 86.49525543046985
+    },
+    "0.12": {
+      "points": {
+        "2026": {
+          "baseline_USD": 41.676596681774164,
+          "value_per_percentage_point_terminal_DCAI_margin_USD": 0.7971057903242826
+        },
+        "2030": {
+          "baseline_USD": 63.814837519387204,
+          "value_per_percentage_point_terminal_DCAI_margin_USD": 1.2542613930433597
+        }
+      },
+      "mature_margin_implied_if_sole_changed_assumption": 0.5261633915811892,
+      "required_change_percentage_points": 20.61633915811892,
+      "conditional_end2030_value_USD_under_same_change": 89.6731157913038
+    },
+    "0.13": {
+      "points": {
+        "2026": {
+          "baseline_USD": 36.55062073519966,
+          "value_per_percentage_point_terminal_DCAI_margin_USD": 0.6682688207343762
+        },
+        "2030": {
+          "baseline_USD": 57.78579710982629,
+          "value_per_percentage_point_terminal_DCAI_margin_USD": 1.0895946765932207
+        }
+      },
+      "mature_margin_implied_if_sole_changed_assumption": 0.6426153696817433,
+      "required_change_percentage_points": 32.261536968174326,
+      "conditional_end2030_value_USD_under_same_change": 92.93779604906443
+    }
+  },
+  "limits": [
+    "End2026 value uses forecast financial balances; matching58.11 is not an exact as-of-November4market-implied inversion.",
+    "Many combinations of revenue, capital productivity, operating risk, packaging and margins can explain a share price. This diagnostic identifies only one conditional combination.",
+    "Higher margins do not themselves require extra volume in this diagnostic; it is not evidence that the resulting costs are achievable.",
+    "Do not select a central margin simply to match the price or create an attractive target."
+  ]
+}

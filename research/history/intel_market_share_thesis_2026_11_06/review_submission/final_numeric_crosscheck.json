@@ -1,0 +1,59 @@
+{
+  "checked_utc": "2026-11-06T17:06:24.254573+00:00",
+  "active_case_sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+  "quarterly_source_sha256": "3ea5c6fe2b84027655be3b1c2d1b13be81bba1cf0d874f42667f236c60759f89",
+  "quarterly_cash_recomputed_from_components": {
+    "base": {
+      "year": 2028,
+      "quarter": 2,
+      "cash_B": 31.18740533291283
+    },
+    "concentrated_timing_stress": {
+      "year": 2028,
+      "quarter": 3,
+      "cash_B": 20.360105966026808
+    }
+  },
+  "quarterly_comparisons": 168,
+  "max_absolute_error": 2.1316282072803006e-14,
+  "annual_conservation_pass": true,
+  "scope": "Component and annual reconciliation, not independent verification of supplier payment dates. Stress includes capex, credits and treasury timing.",
+  "p8_exact_return_crosscheck": [
+    {
+      "label": "owned_LONG",
+      "planning_USD": 56.139285845568374,
+      "target_USD": 82.47015162680005,
+      "annual_return": 0.11615212704256206,
+      "display_annual_return": "11.6%"
+    },
+    {
+      "label": "lower2028_2030delivery",
+      "planning_USD": 49.90787788891778,
+      "target_USD": 73.19975491696474,
+      "annual_return": 0.0845623649554732,
+      "display_annual_return": "8.5%"
+    },
+    {
+      "label": "normalize_CPUgrowth",
+      "planning_USD": 50.6895838506525,
+      "target_USD": 74.30835273825012,
+      "annual_return": 0.08849461920879653,
+      "display_annual_return": "8.8%"
+    },
+    {
+      "label": "YTDmargin",
+      "planning_USD": 53.614609194171315,
+      "target_USD": 78.68904522748791,
+      "annual_return": 0.10361060950359868,
+      "display_annual_return": "10.4%"
+    },
+    {
+      "label": "higher_rate",
+      "planning_USD": 48.557681488026326,
+      "target_USD": 73.56082736404235,
+      "annual_return": 0.0858480430836479,
+      "display_annual_return": "8.6%"
+    }
+  ],
+  "repaired_presentation_issue": "Normalize_CPUgrowth has8.849461920879653% exact CAGR; display8.8%, not8.9% from roundedtarget."
+}

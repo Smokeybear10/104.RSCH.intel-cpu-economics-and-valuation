@@ -1,0 +1,67 @@
+{
+  "started_utc": "2026-11-05T22:18:52Z",
+  "not_before_finish_utc": "2026-11-06T00:18:52Z",
+  "requested_elapsed_hours": 2,
+  "status": "complete",
+  "input_artifacts": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "98631d1e6f4d9df2e90ec41a96f02159f4d994d0df697ff832312ccac3e1d303"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "d279319cc936473fe1aa8f938c9955729eba7adb0b4448338315fc2017c5b862"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/build_initial_screen.py",
+      "sha256": "266a19a2a9c53615e2ca1b02a25ced38deb35e6278c660a3368f3223738be7ac"
+    }
+  ],
+  "workstreams": [
+    "Full winner evidence and valuation comparison",
+    "Independent reconstruction of Intel model and timing",
+    "Primary-source evidence for delivery/margin/cash forecast",
+    "Price attractiveness, reverse valuation and risk",
+    "Judge defense and document revision"
+  ],
+  "time_policy": "Wall clock; parallel work does not multiply elapsed time. No claim of research time spent idle.",
+  "last_research_checkpoint_utc": "2026-11-06T00:17:55.330778+00:00",
+  "completed_workstreams": [
+    "Verified winner and same-event counterexample comparisons",
+    "Independent operating and APV reconstruction",
+    "Primary supplier, customer and company evidence audit",
+    "Dated price, duration, claims and scenario review",
+    "10-page screen revision, private defense and comparison brief",
+    "Full visual and numerical artifact QA",
+    "Final scope/calibration and source mapping review"
+  ],
+  "deliverables_ready": true,
+  "latest_artifact_manifest": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/final_visual_qa.json",
+  "finished_utc": "2026-11-06T00:18:59.891037+00:00",
+  "actual_elapsed_seconds": 7207.891037,
+  "actual_elapsed_minutes": 120.13151728333334,
+  "final_artifacts": [
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "visual_qa": "passed",
+      "sha256": "2020ecf0ab40e120382ce4a72a083bc16bcb15169a5b5e75e98aff8324ffa64b"
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 5,
+      "visual_qa": "passed",
+      "sha256": "a8b9186e3273ba0f9d614ce6cf26532d55f91e7628d56dddfcf7d3b3f3e21ff7"
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "pages": 3,
+      "visual_qa": "passed",
+      "sha256": "5378d3640870836d427f900a69925213df90cb99e8a930e8fd9b49c2c5c6d09d"
+    }
+  ],
+  "final_comparative_verdict": "Substantially improved presentation, evidence-to-forecast linkage and defensibility; sustained accepted-output growth and a strong risk-adjusted price advantage at52.22 remain unproven. No empirical probability of winning is claimed.",
+  "research_receipt": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/final_comparison_and_revision_receipt.json",
+  "external_actions": "No emails, interviews, paid workloads or competition submission performed.",
+  "forecast_policy": "Original operating forecast preserved; explicit1.215B additionalclaimsreserve lowers all endpoints0.2205082/share. New scenarios are labeledconditional."
+}

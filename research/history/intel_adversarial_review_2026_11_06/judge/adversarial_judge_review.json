@@ -1,0 +1,225 @@
+{
+  "review_date": "2026-11-07",
+  "role": "Skeptical M37 judge; initial screen read before defense notes and comparison",
+  "scope": "Investment thesis and judgment, not a new accounting audit. No deck/model edits, outreach, quality score, or estimated winning probability.",
+  "overall_judgment": "The screen contains a coherent conditional business thesis: industry growth and richer Xeon mix can outweigh lost shipment share, while factory improvement lets more product earnings reach shareholders. It also reaches a coherent decision not to initiate at the current quote. What it has not established is a persuasive reason to favor its faster operating path over competing expectations, or a current-price mispricing. The supplements explain calculations and limitations unusually candidly, but do not close that evidentiary gap. More controls around the same forecast would improve auditability without necessarily improving the investment thesis.",
+  "source_order_and_verification": {
+    "initial_objections_saved_before_supplements": "blind_initial_objections.json",
+    "main_pdf": {
+      "path": "output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "sha256": "d86e612e73608861c099465b5e12e72abb6ad8006347d1e0cc93c78bba7ed206"
+    },
+    "defense_pdf": {
+      "path": "output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 8,
+      "sha256": "6ac900a790f4a0fd10ff78e60a0f790ff0de94c2f162704d4ffb6ab3035b9470"
+    },
+    "comparison_pdf": {
+      "path": "output/pdf/m37_intel_pitch_comparison.pdf",
+      "pages": 3,
+      "sha256": "eb7ee4116153ef4b7b0585fed3aacc5a86c0a67e63c8c3e5bc12b188d70f91cf"
+    },
+    "text_verification": "Bundled pypdf extraction from all three current PDFs matched the supplied case_closure_review text copies after whitespace normalization. Main screen quotations below preserve wording, with line breaks normalized.",
+    "visual_limit": "This is a content/judgment review, not a fresh visual-layout audit. The PDF page count was verified."
+  },
+  "official_scope": {
+    "url": "https://www.m37.com/spc2026",
+    "checked": "2026-11-06 session; environment date changed to 2026-11-07 during review",
+    "explicit_requirements_relevant_here": [
+      "An individual eligible student must select Intel or SpaceX and recommend long or short on fundamental analysis over a 3–5-year horizon.",
+      "Round 1 requires a PDF of no more than 10 pages with a clear, concise recommendation, business overview, thesis drivers, and thesis risks.",
+      "Name, class year, and resume accompany the entry; those materials are excluded from the page limit."
+    ],
+    "published_judgment_scope": "The Round 2 description prioritizes investment theses and judgment over modeling skill. The final round tests defense of assumptions, responses to counterarguments, and what changes the investment view. These statements inform the critique but should not be invented into extra Round 1 formal requirements.",
+    "no_explicit_published_requirement_found_for": [
+      "An immediate position at the current quote",
+      "A particular hurdle rate or minimum upside",
+      "Assigned scenario probabilities",
+      "Proprietary interviews or original experiments",
+      "A separately labeled catalyst slide",
+      "Special approval for a conditional entry price"
+    ],
+    "rule_finding": "No explicit-rule violation is established by the reviewed screen. It is ten pages and its November 2026-to-December 2030 horizon is within 3–5 years. Whether the conditional recommendation is compelling is a competition judgment. Eligibility and the full submission packet, including a current resume, were not independently audited."
+  },
+  "dimension_assessment": {
+    "coherent_investment_thesis": "Yes at the mechanism level, incomplete at the conviction level. Market size times share times mix is a coherent revenue identity; it is not independent proof of the selected revenue forecast. Factory recovery is coherent, but the important question is sustained consolidated cash after all investment.",
+    "market_disagreement": "The dated +4.6% and +7.5% aggregate revenue differences are real stated forecast differences. They do not establish what consensus assumes about units/mix, what investors already price, or why the candidate's path is more likely. Consensus revenue is not a full market-implied valuation.",
+    "recommendation_actionability": "No new position at $56.28 is actionable portfolio judgment. Conditional buying at $40 is an explicit watchlist rule, not a present trade or a predicted opportunity. The deck should not confuse a positive business outlook with a current-price long opportunity.",
+    "originality": "The share-loss interpretation is analytical rather than merely descriptive, but uses public industry forecasts. The reproducible public Rust-log reanalysis is original work with candid scope; it supplies adverse evidence and cannot calibrate the global share decline or support the bullish mix assumption. No proprietary-information requirement exists.",
+    "catalysts_and_what_market_misses": "The materials provide measurable falsification milestones, especially Q4 and H1 CPU sales. They do not yet articulate a well-supported sequence of evidence that should cause investors to revise a mistaken belief. Earnings can resolve uncertainty; a forecast achievement is not automatically a catalyst if it is expected or already priced. This is a judgment weakness, not a formal missing-section violation.",
+    "model_vs_conviction": "The arithmetic is transparent, and the supplements distinguish facts from assumptions. Nevertheless, precise ASP requirements, revolver interest to thousandths per share, and many stress targets occupy attention that could explain why the faster CPU path and long-run economics deserve conviction. Disclosure of an uncertainty does not underwrite it."
+  },
+  "strongest_attacks": [
+    {
+      "id": "J1",
+      "title": "The recommendation has discipline but does not identify a current mispricing",
+      "classification": "Competition judgment; no explicit rule violation identified",
+      "exact_slide_wording": [
+        {"slide": 1, "quote": "Conditional LONG at $40 or below | $82.47 December 2030 target"},
+        {"slide": 1, "quote": "No new position at $56.28."},
+        {"slide": 7, "quote": "At $56.28, core return is 9.6%; the higher-rate case returns 6.7%"},
+        {"slide": 7, "quote": "At 11.555%, December 2026 value falls to $48.56."}
+      ],
+      "judge_attack": "Why should I select this as an investment idea now when your own core planning value is $56.14 against a $56.28 quote, your higher-rate value is $48.56, and your own recommendation is to wait for $40? The $82.47 future target looks impressive until I recognize retained cash and the passage of time. A patient limit price can be sensible without demonstrating an unusual opportunity.",
+      "strongest_honest_defense": "The candidate explicitly refuses to increase a target to chase the price. The current recommendation is no new position, with a conditional long only if price and unchanged operating evidence satisfy chosen hurdles. A 9.6% forecast return is not inherently unacceptable; 12% is the candidate's hurdle, not M37's. The rules allow a long or short recommendation but do not explicitly demand immediate execution or prohibit an entry condition. Selecting a defensible price is investment judgment.",
+      "what_remains_after_defense": "This defense defeats a claim of automatic disqualification and shows discipline. It does not explain why this is the strongest opportunity to advance, nor why the market will supply the entry while preserving the thesis. It is acceptable to say there is no predicted path to $40; the consequence is that the idea is currently a conditional watchlist opportunity. A future target is not current upside without time and risk adjustment.",
+      "specific_implementable_fix": [
+        "Put the present action in the first line: 'At $56.28: do not initiate. Conditional long at $40 or below, after re-underwriting operating evidence.' Keep the $82.47 December 2030 target and its dated return beside it.",
+        "In the recommendation box, separate the business judgment from the security judgment: Intel sales can grow through share loss; the current price does not meet the chosen return requirements.",
+        "Show current planning value at both rates next to the future target, with the 55-day date difference already disclosed. This prevents the target itself from doing persuasive work it cannot support.",
+        "Do not invent a near-term selloff catalyst, lower the hurdle merely to obtain a LONG, or add unsupported cash to fix competition appeal. If no stronger evidence exists, accept that this objection is only clarified, not eliminated."
+      ],
+      "test_for_resolution": "A reader can state the action at today's quote, the conditional action, and the evidence that must remain intact, without mistaking target appreciation for a present margin of safety. A compelling current-price long would require new evidence, not just rewriting."
+    },
+    {
+      "id": "J2",
+      "title": "The CPU thesis is arithmetically possible but its key mix and adoption choices are not sufficiently underwritten",
+      "classification": "Competition judgment and evidence sufficiency",
+      "exact_slide_wording": [
+        {"slide": 1, "quote": "25% unit growth and 8% ASP growth in 2028 lift company sales to $90.01B, versus $83.72B consensus."},
+        {"slide": 2, "quote": "The measurable disagreement is sales. I have not established a comparable consensus forecast for CPU shipment share or parent cash."},
+        {"slide": 3, "quote": "Annual ASP / mix must rise 21.9%."},
+        {"slide": 3, "quote": "The shipment bridge checks the quarterly sales forecast rather than independently producing it."},
+        {"slide": 5, "quote": "The 21.9% annual ASP check includes an implied exit premium, not a measured or secured price increase."},
+        {"slide": 10, "quote": "This result is consistent with competitive pressure; it cannot estimate the size of those losses or Intel's supplier margins."}
+      ],
+      "judge_attack": "Your most memorable insight is that share can fall while revenue grows. The market can do that multiplication too. What information or better interpretation supports the particular 2027 exit mix, another 25% units and 8% ASP in 2028, and $60B of 2030 CPU sales? Is 21.9% ASP a forecast derived from customer economics, or the residual required to make the existing revenue forecast work? Why does adoption evidence support your quantities rather than consensus quantities?",
+      "strongest_honest_defense": "The thesis is not an assertion that every investor misunderstands share. TrendForce supplies an independent industry shipment forecast; AMD CPU commentary and Intel's cloud deployment/customer relationships corroborate demand and adoption. Annual ASP growth includes a hypothesized Q4 exit premium, so only 4.1% weighted ASP growth above the modeled Q4 level is needed in 2027. A richer package can have a higher price and a lower cost per nominal core. The negative workload result is retained, not suppressed, and a long can coexist with share loss.",
+      "what_remains_after_defense": "These observations establish plausibility and keep the mechanisms consistent. They do not verify the Q4 premium, customer quantities, realized mix or net pricing. The catalog pair illustrates pricing possibility but does not measure delivered mix. Public demand forecasts can share assumptions; deployments do not establish scale. Most critically, the screen does not explain why the modeled 2028 acceleration and 2030 level should be the selected investment case rather than a favorable scenario. The original benchmark constrains a broad cost-leadership claim but does not provide the affirmative variant view.",
+      "specific_implementable_fix": [
+        "Use part of slides 3–5 for an underwriting table with four fields: observed evidence, the mechanism it supports, the modeled assumption it does not establish, and the dated observation that would change that assumption. Explicitly distinguish the Q4 estimate, the unobserved exit premium, 2027 volume/mix, and 2028 volume/mix.",
+        "Explain the 2028 acceleration, currently compressed into the opening slide. Build a 2027-to-2028 bridge from existing model outputs and identify which product transitions or delivered configurations support each step. Do not relabel this as a segment-level consensus bridge when no matched segment consensus exists.",
+        "State the variant interpretation narrowly: public evidence permits Intel growth despite lost unit share; the candidate forecasts more sales than aggregate consensus because of specified adoption/mix timing. Do not claim that the market ignores TAM, capex, or a mathematical identity.",
+        "Retain the AMD-cheaper benchmark as a concise adverse-evidence box and say whether it changes any underwriting choice. If it cannot calibrate share, explicitly state that the forecast share path is externally sourced or judgmental. Reallocate its full page if the missing causal explanation needs space.",
+        "Add an evidence-resolution sequence: Q4 residual CPU sales tests the starting level; H1 delivery tests the ramp; group profit/cash tests whether mix benefits survive factory costs. Label these as expected disclosure opportunities and thesis tests, not guaranteed stock-price catalysts."
+      ],
+      "test_for_resolution": "For each material above-consensus assumption, a judge can trace evidence to a causal inference and then to a forecast choice, and distinguish the candidate's insight from a solved revenue identity. If no evidence differentiates the faster path, the honest resolution is a less confident case selection, not more decimal places."
+    },
+    {
+      "id": "J3",
+      "title": "The target depends on sustained post-horizon economics more than the three presented operating claims establish",
+      "classification": "Competition judgment; long-duration value is not itself a rule violation",
+      "exact_slide_wording": [
+        {"slide": 1, "quote": "Foundry and added packaging contribute $7.73B of EBIT growth. That is 31.5% of the 2027-30 increase, with $124.5B of capex over the same period."},
+        {"slide": 4, "quote": "$60.07B to $108.03B of CPU sales in 2030-40."},
+        {"slide": 4, "quote": "With 92.9% of operating value coming after 2030, sustained profitability matters more than the near-term ramp alone."},
+        {"slide": 6, "quote": "A two-year delay lowers the target to $79.59; breakeven alone gives $75.32"},
+        {"slide": 8, "quote": "Terminal return means return on modeled net investment; R&D remains expensed. Changes start in 2041."}
+      ],
+      "judge_attack": "Why should I believe the $82.47 target because of a three-to-five-year Xeon ramp and factory recovery when 92.9% of operating value arrives after 2030? Your factory stress barely changes the target because the CPU franchise keeps compounding. Are you underwriting a turnaround or assuming a durable cash franchise that the near-term evidence cannot yet establish? Where is the evidence for the margins and reinvestment efficiency that make those later sales valuable?",
+      "strongest_honest_defense": "A going concern normally derives substantial value beyond a four-year holding period; a 3–5-year investment horizon does not require all underlying cash to arrive within it. The deck discloses duration and uses rate and operating stresses. The defense notes bridge 2030 EBIT of $38.94B to $19.45B of parent operating cash after tax, investment, leases and minorities, plus $3.61B of finite net credits. They explicitly retain $124.5B of near-term physical capex and do not pretend that product-segment margin includes all consolidated factory economics. Return on modeled net investment is correctly distinguished from fully capitalized economic ROIC.",
+      "what_remains_after_defense": "The bridge establishes accounting consistency, not durability of the inputs. The defense discloses that 49.8% of operating value is after 2040, that terminal assumptions imply 23.1% return on modeled net investment, and that the post-2030 rule generates $0.80 of incremental sales per dollar of net investment. Those are material economic judgments. A stress beginning in 2041 does not answer whether growth needs more investment or lower margins during 2031–2040. The main screen spends a page on a $0.012-per-share liquidity cost while the decisive recurring-cash economics remain in the supplement. No independent cash-yield comparison establishes cheapness.",
+      "specific_implementable_fix": [
+        "Bring the existing 2030 EBIT-to-parent-cash bridge into the ten-page screen: $38.94B EBIT less $5.84B tax, $11.35B net investment, and $2.30B lease/minority cash equals $19.45B recurring operating cash; $3.61B finite credits are separate. Do not present finite credits as a permanent yield.",
+        "Place both duration facts and the core reinvestment convention beside valuation. Explain why the chosen growth, margin, and capital intensity should persist, using evidence if available and labeling judgment otherwise.",
+        "Show the already-computed lower post-2030 CPU-growth diagnostic from the defense notes: 4.04% growth normalization produces a $74.31 target with other inputs fixed. Explain that this is a sensitivity, not an independently established conservative valuation.",
+        "Compress the revolver page into a funding-risk box and move the interest-rate table to backup. Use the recovered space for cash conversion and the difference between temporary earnings recovery and durable economics.",
+        "If further model work is authorized, prioritize an economically coherent 2031–2040 persistence/reinvestment case over another discount-rate or packaging-margin control. Do not describe an isolated margin or cash-yield sensitivity as independent proof of value."
+      ],
+      "test_for_resolution": "A judge can identify which recurring cash economics support the target, which are observed, and what evidence would invalidate them before 2030. A coherent reduced-persistence case should expose the dependence without implying that long duration itself is inappropriate."
+    },
+    {
+      "id": "J4",
+      "title": "The $40 cutoff retains the favorable operating path in its binding stresses",
+      "classification": "Competition judgment about case selection and risk acceptance; scenario probabilities are not a rule",
+      "exact_slide_wording": [
+        {"slide": 1, "quote": "A $40 entry clears my 12% return hurdle in the joint stress on page 7; it is not a forecast of a price decline."},
+        {"slide": 7, "quote": "Joint stress uses Foundry breakeven, 15% return on modeled net investment from 2041, higher rate and funded timing."},
+        {"slide": 8, "quote": "Joint downside: slower case + 11.555%"},
+        {"slide": 8, "quote": "The joint downside is a separate adverse bundle."}
+      ],
+      "judge_attack": "Your $40 rule sounds like a downside-tested price, but the binding $64.74 stress keeps the faster CPU operating path. Your separate adverse operating bundle targets $38.13, and the defense's lower operating case targets $53.43 at the higher rate. Why does the optimistic operating path get to determine entry, while the lower operating path does not? What evidence made the previously favorable case the investment case?",
+      "strongest_honest_defense": "The choice is not numerically arbitrary. Defense page 6 requires 15% in the higher-rate core and 12% in the joint factory/investment/financing stress; their ceilings are $41.18 and $40.45, rounded down to $40. It explicitly says this is neither a floor nor protection against every scenario. No sensible investor must demand a positive hurdle return in every adverse case. Price alone is insufficient: operating evidence must be re-underwritten, misses reduce targets, and a later entry changes the investment horizon. The scenario values were known before the faster forecast was selected, which is disclosed.",
+      "what_remains_after_defense": "The defense explains the formula but not the empirical reason for the preferred operating case. At $40, the disclosed higher-rate lower-case target of $53.43 implies about 7.2% annual appreciation over the same 4.1506 years, and the adverse $38.13 bundle implies about -1.1%. Thus the cutoff does not cover modestly weaker delivery under all disclosed cases. That can be a legitimate risk choice, but the pitch must own it and explain why the faster trajectory is the basis for investment. A label such as 'joint stress' can conceal this distinction even when its components are footnoted.",
+      "specific_implementable_fix": [
+        "Label the $64.74 column 'Faster CPU path + factory/terminal/rate stress' so the operating assumption retained by the stress is visible.",
+        "Put the entry returns from defense page 6 into the main recommendation matrix: at $40, core 19.0%, higher-rate core 15.8%, chosen joint stress 12.3%, adverse bundle -1.1%. Add the disclosed lower operating case at the higher rate: $53.43 target and approximately 7.2% annual return.",
+        "Write one short case-selection paragraph: identify the observations that justify preferring the faster operating path and explicitly state which risks $40 does not compensate to the chosen hurdle. If those observations are insufficient, recategorize the faster path rather than calling additional sensitivities conviction.",
+        "Use a decision rule triggered by new evidence: re-estimate CPU revenue and cash after Q4/H1 reports; do not preserve the $40 limit mechanically when the stock falls on adverse fundamentals. The defense already states this; surface it next to the limit.",
+        "Do not fabricate probabilities. Optional subjective weights may expose risk preference if the candidate can defend them, but clearly ordered scenarios and an explicit case-selection rationale are sufficient to make the judgment reviewable."
+      ],
+      "derived_arithmetic": {
+        "formula": "annual_return = (target / 40)^(1 / 4.1506) - 1",
+        "source_of_target_53_43": "Defense notes, page 4, lower operating case at 11.555%",
+        "annual_return_for_53_43_target": "7.22%",
+        "annual_return_for_38_13_target": "-1.15%",
+        "interpretation_limit": "These reuse disclosed targets and horizon; they are not newly forecast outcomes or assigned probabilities."
+      },
+      "test_for_resolution": "The chosen entry condition visibly depends on a particular operating case, the alternative cases remain decision-relevant, and the candidate can defend why that case deserves preference without relying on its higher valuation."
+    }
+  ],
+  "five_minute_mock_qa": [
+    {
+      "time": "0:00–0:55",
+      "focus": "Present recommendation",
+      "judge": "Give me your trade today in one sentence.",
+      "best_honest_candidate_answer": "I would not initiate at $56.28; I would consider a long at $40 or below if the operating thesis survives re-underwriting, with an $82.47 core December 2030 target.",
+      "judge_follow_up": "Then why is this a long investment idea I should advance instead of a company you might like after a 29% price decline?",
+      "best_honest_follow_up_answer": "The business mechanism is attractive at an appropriate price, and refusing today's quote is part of my judgment. I cannot claim a present margin of safety or predict that the entry will occur.",
+      "judge_second_follow_up": "What part of your research tells me the market is wrong today?",
+      "honest_boundary": "The research supports a higher aggregate sales forecast; the current valuation does not establish that the stock is underpriced to my required return. Claiming otherwise would contradict the recommendation.",
+      "corner_exposed": "A well-defined conditional idea is not yet a present mispricing. This is a competition appeal issue, not proof of rule violation."
+    },
+    {
+      "time": "0:55–2:05",
+      "focus": "Evidence behind the variant forecast",
+      "judge": "You are 7.5% above 2028 consensus. Which assumption do other investors get wrong?",
+      "best_honest_candidate_answer": "My forecast assumes a stronger Xeon volume and mix ramp: 25% units and 8% ASP in 2028. Public CPU demand forecasts and cloud adoption support the direction, but I do not have matched unit or mix consensus.",
+      "judge_follow_up": "Then how do you know those are different assumptions rather than your guess about their model? And why is 21.9% 2027 ASP credible?",
+      "best_honest_follow_up_answer": "The verified disagreement is aggregate revenue. The 21.9% is the annual ASP/mix needed for my forecast given the shipment bridge, including a modeled Q4 exit premium; it is not an observed or contracted increase.",
+      "judge_second_follow_up": "What customer purchase quantities or realized prices establish that premium?",
+      "honest_boundary": "The supplied materials do not establish them. Deployments and selected list-price examples show plausibility, not delivery or realized prices. Q4 and H1 sales are the near-term evidence tests.",
+      "corner_exposed": "The candidate can explain every multiplication yet still lack the reason to select the inputs. Answering with another sensitivity would evade the question."
+    },
+    {
+      "time": "2:05–3:05",
+      "focus": "Why growth creates shareholder value",
+      "judge": "Suppose you are right on sales. What makes them worth $82.47 per share?",
+      "best_honest_candidate_answer": "In 2030 the model converts $38.94B of group EBIT to $19.45B of recurring parent operating cash after tax, investment, leases and minority costs, plus $3.61B of finite credits. Factory recovery matters, and I retain $124.5B of near-term capex.",
+      "judge_follow_up": "But 92.9% of value comes after 2030. Are you showing me a four-year turnaround or a long-run franchise forecast?",
+      "best_honest_follow_up_answer": "The holding period is through 2030, but the terminal stock value depends on a continuing franchise. CPU growth and the reinvestment convention are material assumptions; duration is not proof those assumptions are right.",
+      "judge_second_follow_up": "What proves the return on investment stays high when Intel must keep designing chips and rebuilding factories?",
+      "honest_boundary": "Nothing here proves it. R&D is expensed, the 23.1% terminal metric is return on modeled net investment rather than fully capitalized ROIC, and the cost/capital conventions need continuing operating confirmation.",
+      "corner_exposed": "Accounting reconciliation cannot establish persistent economic rents. The target is more sensitive to a durable franchise than the near-term factory-recovery story suggests."
+    },
+    {
+      "time": "3:05–4:10",
+      "focus": "Entry price and scenario selection",
+      "judge": "Why exactly $40?",
+      "best_honest_candidate_answer": "It rounds below the $41.18 ceiling for a 15% return in the higher-rate core and the $40.45 ceiling for a 12% return in the selected joint stress. It is a chosen risk budget, not a downside floor.",
+      "judge_follow_up": "That joint stress keeps your faster CPU path. The lower operating case at the higher rate targets $53.43, only about 7.2% from $40. Why is it not the underwriting case?",
+      "best_honest_follow_up_answer": "The selected case reflects my interpretation of demand and adoption, but the lower path is a genuine alternative. The $40 rule does not clear my hurdle in every operating outcome.",
+      "judge_second_follow_up": "Your notes say the selected case was previously favorable. What new evidence, rather than the desire for a long, made it central?",
+      "honest_boundary": "The supplied screen and defenses do not identify a decisive new quantity or pricing observation that resolves that selection. The candidate must defend it as a judgment with limited evidence, or reduce confidence in the preferred case; citing the higher target is circular.",
+      "corner_exposed": "The entry rule is mathematically disciplined but inherits the unproved operating preference."
+    },
+    {
+      "time": "4:10–5:00",
+      "focus": "Original work and what changes the view",
+      "judge": "Your original work finds AMD 11.2% cheaper. What did that change in your model?",
+      "best_honest_candidate_answer": "It rules out a broad Intel cost-leadership claim and is consistent with allowing share loss. These five public Rust build pairs cannot estimate global share loss, realized Intel pricing, or margins.",
+      "judge_follow_up": "So the original evidence did not produce the bullish inputs. What is the next event that can demonstrate your insight?",
+      "best_honest_follow_up_answer": "Q4 residual CPU sales test the $6.81B starting estimate; H1 CPU sales test $14.11B of delivery. Group profit and cash must then show that richer mix survives factory costs. I would lower the forecast after a miss rather than presume catch-up.",
+      "judge_second_follow_up": "If it falls to $40 because H1 misses, do you buy?",
+      "honest_boundary": "No automatic purchase. I would rebuild the operating forecast and entry ceiling with the new information and remaining horizon. Price alone is not the thesis.",
+      "corner_exposed": "This final answer demonstrates sound discipline. It still leaves the candidate needing affirmative evidence for the forecast before treating the limit as an investable opportunity."
+    }
+  ],
+  "priority_order_for_revision": [
+    "First make the present decision and the risk accepted at $40 unmistakable.",
+    "Then explain why the selected CPU path deserves preference; this is the most important unresolved substantive issue.",
+    "Bring recurring parent cash and long-run reinvestment economics into the main screen.",
+    "Use original evidence and disclosure milestones to test the causal thesis, reducing space devoted to already-audited small valuation mechanics."
+  ],
+  "do_not_claim": [
+    "That a conditional LONG is prohibited by M37's published rules",
+    "That 12% is a competition requirement or 9.6% is intrinsically inadequate",
+    "That a long-duration valuation is automatically invalid",
+    "That the candidate must invent scenario probabilities",
+    "That consensus revenue is the unique market-implied cash forecast",
+    "That the negative benchmark invalidates every Intel long thesis",
+    "That price-target arithmetic, uncertainty labels, or completed checks independently establish conviction",
+    "That a complete investment decision guarantees a compelling competition submission"
+  ]
+}

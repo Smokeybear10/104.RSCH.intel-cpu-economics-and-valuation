@@ -1,0 +1,21 @@
+{
+  "recorded_before_cross_values_utc": "2026-11-06T07:51:15.927193+00:00",
+  "chronology": "Existing favorable valuation 56.1393 planning / 82.4702 target and selected-case stress values are known. Policy fixes new combinations before computing them.",
+  "favorable_source": "../quarterly/anchor_valuation_overlay_results.json",
+  "favorable_case": "joint_anchor_old_CPU2028plus_growth_pooled_old_growth",
+  "rate": 0.10625,
+  "rate_definition": "Nov 5 Treasury 4.94% + owned asset beta 1.5 \u00d7 published rounded plain-T12 ERP 3.79%; preserve the same source method/rate for all cross-controls.",
+  "growth": 0.03,
+  "scenarios": [
+    "favorable unchanged",
+    "missing assumed 3B packaging family with proportional cash-cost avoidance",
+    "missing assumed 3B packaging family with no cash-cost avoidance",
+    "two-year host Foundry cash-cost recovery delay"
+  ],
+  "method": "Reconstruct all favorable annual rows, preserve favorable Q4 cash-anchor delta, apply existing stress policies to those rows, recalculate taxes/cash/treasury, then reevaluate all cash flows at 10.625%. Do not subtract selected-case valuation deltas from favorable value.",
+  "policy_dependencies": [
+    "packaging_scale_stress_policy.json",
+    "foundry_stress_policy.json"
+  ],
+  "interpretation": "Separate conditional cross-stresses, not a joint probability distribution, new central forecast or a confirmed lost customer. Packaging scale and Foundry cost stress are not combined with each other."
+}

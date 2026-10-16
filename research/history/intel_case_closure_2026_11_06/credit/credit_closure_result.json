@@ -1,0 +1,43 @@
+{
+  "case_id": "REVOLVER_CURRENT_CONTRACT_TERMS",
+  "as_of": "2026-11-06",
+  "closure": "Search complete. Capacity/maturities are verified. Pricing, fees and covenants of amended agreements are a documented public-disclosure limit in sources reviewed. Future draw access remains an explicitly conditional 2028 forecast, not an unfinished fact check.",
+  "page9_footnote": "Intel discloses $15B of revolver capacity ($5B due August 2029; $10B due August 2031). The 6%/8%/10% rates are analyst sensitivities. Current amended pricing, fees and covenants were not located in reviewed public filings; the modeled 2028 draw assumes access.",
+  "notes_paragraph": "The public-source review confirms the size and maturity of both facilities from Intel\u2019s October 30, 2026 Form10-Q. It does not establish their amended interest margins, fee schedules, covenant thresholds or draw conditions: no matching parent-revolver agreement was located in the reviewed 2026 reports and exhibit lists or SEC full-text results. Consequently, the 8% case is an interest-cost sensitivity, not a contracted revolver rate. Future access depends on circumstances and applicable terms at the time of the 2028 draw. The modeled peak draw of $1.498B is below the smaller $5B facility and is repaid by Q4 2028, before both disclosed maturities; that establishes modeled capacity/maturity fit, not legal availability.",
+  "known_fee_impact_on_64M_stress": "No actual contractual fee amount was established, so no supported numeric fee adjustment can be made. Retain $64.405M at 8% as interest only; do not label it total financing cost or infer fees are zero.",
+  "incremental_fee_accounting": "If a later source supplies fees, compare drawn and undrawn costs: an existing fee on the whole commitment may already be a base cost; an undrawn-commitment fee may decline when borrowed. Do not add the entire facility fee to the draw case without checking the baseline. Any genuinely incremental cash fee should reduce cash once and, if paid during buffer stress, be incorporated into the draw/interest timing.",
+  "current_model_cases": [
+    {
+      "annual_simple_rate": 0.06,
+      "peak_revolver_B": 1.488914188147903,
+      "first_draw_period": "Q2 2028",
+      "fully_repaid_period": "Q4 2028",
+      "total_gross_interest_B": 0.04802376006044096,
+      "Dec2030_per_share_delta_USD": -0.008715745927484747
+    },
+    {
+      "annual_simple_rate": 0.08,
+      "peak_revolver_B": 1.4976755976237388,
+      "first_draw_period": "Q2 2028",
+      "fully_repaid_period": "Q4 2028",
+      "total_gross_interest_B": 0.06440496866653297,
+      "Dec2030_per_share_delta_USD": -0.011688742044742812
+    },
+    {
+      "annual_simple_rate": 0.1,
+      "peak_revolver_B": 1.5065388767598986,
+      "first_draw_period": "Q2 2028",
+      "fully_repaid_period": "Q4 2028",
+      "total_gross_interest_B": 0.08097820776921513,
+      "Dec2030_per_share_delta_USD": -0.014696589431799485
+    }
+  ],
+  "arithmetic_scale_not_fee_estimate": {
+    "shares_B": 5.51,
+    "extra_cash_fee_for_0_01_USD_per_share_B": 0.0551,
+    "extra_cash_fee_for_0_10_USD_per_share_B": 0.551,
+    "note": "Simple fee / 5.51B shares; no tax shield or financing carry. Not an estimate, contract term, upper bound or replacement funding simulation."
+  },
+  "required_numeric_changes": [],
+  "reopen_only_if": "A new issuer filing or authoritative agreement source supplies current amended terms, or the pitch changes its assumption about financing availability."
+}

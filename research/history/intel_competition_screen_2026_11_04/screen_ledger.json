@@ -1,0 +1,245 @@
+{
+  "created_utc": "2026-11-04T10:50:16.573632+00:00",
+  "scope": "Bounded M37 company-selection screen, not a switch, full Intel valuation, or investment recommendation. No frozen model changes.",
+  "sources": {
+    "q3_10q": {
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "official_pdf": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/0000050863-26-000191.pdf",
+      "filed": "2026-10-30",
+      "period_end": "2026-09-26"
+    },
+    "prepared_remarks": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29"
+    },
+    "earnings_release": {
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",
+      "date": "2026-10-29"
+    },
+    "price_history": {
+      "url": "https://www.intc.com/stock-info/historical-data",
+      "retrieval": "2026-11-04, approximately 10:45 UTC",
+      "method": "Issuer-hosted QuoteMedia unadjusted history widget, rendered in Chrome; dated row and 4:00 PM EST banner directly observed. Static HTML did not contain the values.",
+      "rows": [
+        {
+          "date": "2026-11-03",
+          "close": 60.55,
+          "volume_M": 149.05
+        },
+        {
+          "date": "2026-11-02",
+          "close": 59.97
+        },
+        {
+          "date": "2026-10-30",
+          "close": 65.76
+        },
+        {
+          "date": "2026-10-29",
+          "close": 92.07
+        }
+      ]
+    },
+    "amd_q3": {
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "date": "2026-11-03",
+      "cutoff_note": "After Nov2 historical cutoff; allowed for current Nov4 company-selection diligence.",
+      "finding": "Data Center revenue 8.5B, +97%, includes EPYC CPUs and newly launched MI450 GPUs. This corroborates broad AI/server demand and strong competition but does not identify CPU market share against Intel DCAI."
+    }
+  },
+  "local_source_sha256": {
+    "q3_deck.pdf": "2e0013eb865484ae27925a2fc0390afef182b1fd600faf27a913a3e2a5acd739",
+    "q3_remarks.pdf": "b019d10f31a896d23586350df12407ee32442094f544c3e6d92c753d30df2210",
+    "q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+    "q3_remarks.txt": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb",
+    "q3_10q.pdf": "b7d287cf335157f894cd4b91a07a75420b332ac257593586239b17576becf318",
+    "q3_deck.txt": "e2a224e84dab7d33450904f5b75bd5f87057ebc4dec8aa936636bba04e127c9f"
+  },
+  "price_and_claim_reference": {
+    "selected_price": 60.55,
+    "date": "2026-11-03",
+    "session": "Regular-session unadjusted close, 16:00 EST",
+    "source": "price_history",
+    "separate_live_quote": {
+      "price": 60.55,
+      "latest_trade_time_UTC": "2026-11-04 10:27:27",
+      "source": "Web finance tool",
+      "note": "Not used as a substitute for the dated close; the tool change/prior-close field was inconsistent with issuer-hosted history."
+    },
+    "issued_outstanding_B_at_Sep26": 5.31,
+    "basic_market_cap_using_that_count_B": 321.52049999999997,
+    "Q4_diluted_share_guidance_B": 5.44,
+    "price_times_guided_share_scale_B": 329.392,
+    "share_basis_caveat": "Guided weighted-average diluted shares are a normalization convention, not an observed Nov3 fully diluted legal capitalization or a forecast of 2030 shares.",
+    "offering": {
+      "date": "2026-08-12",
+      "shares_M_rounded": 242,
+      "price": 95,
+      "gross_B": 23,
+      "net_B": 22.617,
+      "note": "Already reflected in cash and outstanding shares. Historical price decline does not identify which risks the market currently prices."
+    },
+    "other_claims": [
+      "132M escrow shares remain:66M are already treated noncontingent in basic EPS;66M depend on Secure Enclave cash disbursement. Do not blindly add 132M to 5.44B.",
+      "The 13.705B escrow derivative liability represents the same share-linked obligation; do not deduct it as debt and also add corresponding shares.",
+      "Government warrants for up to 241M shares at 20 become exercisable only if Intel no longer owns at least 51% of foundry; cash or net-share settlement. Not automatic current dilution.",
+      "Ireland minority interest was repurchased for 14.2B in April; do not retain a continuing Apollo minority haircut. Arizona Brookfield 49% remains, with minimum-production/inventory obligations and minority economics."
+    ],
+    "locators": "10-Q Notes3-4, printedpp12-14; prepared remarks p7; balance sheet printedp4."
+  },
+  "observed_operating_bridge": {
+    "USD_B_Q3": {
+      "CCPG_revenue": 8.097,
+      "CCPG_operating_profit": 2.285,
+      "DCAI_revenue": 7.318,
+      "DCAI_operating_profit": 3.039,
+      "Products_profit": 5.324,
+      "Foundry_profit": -1.853,
+      "Other_profit": 0.179,
+      "Corporate_unallocated": -1.058,
+      "Eliminations_profit": -0.07,
+      "Consolidated_profit": 2.522,
+      "Consolidated_revenue": 16.513
+    },
+    "identity": "5.324 -1.853 +0.179 -1.058 -0.070 =2.522B. Internal manufacturing charges and eliminations must remain in a consolidated valuation.",
+    "server_volume_yoy": 0.1,
+    "server_ASP_yoy": 0.54,
+    "rounded_server_revenue_growth_identity": 0.6940000000000002,
+    "mix_interpretation": "The majority of server ASP growth came from richer premium mix; pricing actions contributed less. This is real revenue and can be durable. It is neither78% CPU unit growth nor proof of same-SKU pricing power.",
+    "client_volume_yoy": -0.14,
+    "client_ASP_yoy": 0.09,
+    "foundry_total_revenue": 6.697,
+    "external_foundry_revenue": 0.411,
+    "external_fraction": 0.06137076302822159,
+    "external_precision": "The 379M YoY INCREASE was primarily due to a nonrecurring contract. The 118M sequential INCREASE was also primarily nonrecurring. No amount is disclosed that permits subtracting a precise nonrecurring component from all 411M.",
+    "external_YTD": 0.878,
+    "external_YTD_interpretation": "Growth primarily reflects Altera becoming an external customer after its 2025 deconsolidation; not a clean measure of newly won external customers.",
+    "foundry_cost_bridge": "Q3 loss improved468M, including793M lower period charges, partly offset by219M more operating expense and other effects. Genuine process cost improvement and inventory-reserve effects coexist; neither all recurring nor all one-time is justified.",
+    "node_cost_claims": {
+      "Intel3_reduction_since_Q1": 0.15,
+      "18A_reduction_since_Q1": 0.4,
+      "boundary": "Management disclosed relative costs, not absolute wafer economics or customer-qualified yields. Do not extrapolate the same percentage reduction indefinitely."
+    },
+    "guidance": {
+      "Q4_revenue_range_B": [
+        15,
+        16
+      ],
+      "Q4_nonGAAP_gross_margin": 0.38,
+      "Q3_nonGAAP_gross_margin": 0.441,
+      "Q4_DCAI_growth_qoq": "midteens",
+      "Q4_CCPG_growth_qoq": "decline greater than20%",
+      "2027_PC_unit_market_growth_claim": -0.1,
+      "2027_server_unit_market_growth_claim": "greater than30%",
+      "2026_gross_capex_B": 20,
+      "2027_capex": "up strongly; no exact annual figure in reviewed remarks"
+    },
+    "locators": "10-Q Note2 printedpp9-11; MD&A printedpp33-35; prepared remarks pp5-7.",
+    "material_forward_margin_mix_issue": "Prepared remarks pp6-7 say purpose-built silicon grows faster than the core DCAI business in Q4 and has an adverse effect on consolidated gross-margin mix. Q4 non-GAAP gross margin 38% also reflects lower client factory loading and roughly 200bp from Fab28. Holding the Q3 DCAI operating margin constant while compounding all DCAI sales is not justified by these disclosures; product and operating-versus-gross margin definitions differ."
+  },
+  "cash_bridge": {
+    "Q3_USD_B": {
+      "CFO": 5.082,
+      "gross_capex": 4.219,
+      "finance_lease_payments": 0.119,
+      "capital_incentive_cash": 0.048,
+      "net_SCIP_contributions": 0.847,
+      "reported_adjusted_FCF": 1.639,
+      "CFO_minus_capex_and_lease_before_incentives_and_SCIP": 0.744,
+      "same_plus_cash_incentives": 0.792,
+      "ordinary_SBC": 0.586
+    },
+    "YTD_USD_B": {
+      "CFO": 13.184,
+      "investing_PPE_cash": 10.216,
+      "financing_extended_term_PPE_cash": 1.618,
+      "finance_lease_cash": 0.951,
+      "capital_incentive_cash": 0.215,
+      "cash_after_those_items_before_SCIP": 0.614,
+      "SCIP_contributions": 5.032,
+      "SCIP_distributions": 14.442,
+      "Ireland_buyout_in_distributions_rounded": 14.2
+    },
+    "liquidity": {
+      "cash_and_ST_investments": 54.005,
+      "reported_debt": 50.134,
+      "arithmetic_difference": 3.871,
+      "undrawn_revolvers_at_Oct1": 15
+    },
+    "new_substrate_commitment": "Two post-Q3 arrangements imply5.3-6.1B total funding, about3.3B cash by end2027, partly unfinished terms. YTD supplier prepayments1.2B;1.7B customer deposits receivedQ2. Do not add these amounts mechanically to capital guidance without resolving classification and overlap.",
+    "boundary": "Adjusted FCF includes partner funding and is not internally generated owner FCFE. Cash after capital still needs consistent minority/SBC/claims treatment. Cash minus debt is not a full EV-equity bridge. Gross capex is not automatically Intel-parent cash burden; noncash additions and recognized incentives are not current cash. Do not annualize the one-time Ireland buyout.",
+    "locators": "Earnings release reconciliation printedp13;10-Q cashflow printedp5, Notes3-4/14, liquidity printedpp43-44; prepared remarks p7.",
+    "independent_reviewer": "/root/three_hour_financing_claims independently confirmed the cash bridge and share-claim traps."
+  },
+  "three_candidate_disagreements": [
+    {
+      "rank": 1,
+      "question": "Can Xeon-led product recovery and internal manufacturing improvement generate enough cash without a major external 14A business?",
+      "direction_to_research_first": "LONG, conditional on a price-to-owner-cash bridge.",
+      "owned_judgment": "I expect further product and process-cost recovery, rather than18A commercial failure. Actual server profit and shipping products support this. I would not extrapolate 54% ASP growth or assume a 2027 PC rebound. This is a better grounded starting hypothesis than a generic foundry-hype short.",
+      "strong_countercase": "AMD and other architectures share strong demand; higher-value mix need not keep increasing indefinitely, substrate constraints limit units, and client weakness can absorb server gains. New fab/depreciation/capital needs can leave shareholder cash far below segment profit. Purpose-built silicon is outgrowing the core DCAI business and management identifies it as an adverse consolidated gross-margin mix. A model cannot retain Q3 DCAI profitability mechanically as the revenue composition changes.",
+      "public_test": "Reproduce the quarterly server units x ASP/mix bridge, DCAI operating margin, consolidated gross margin and manufacturing period-charge changes. Separate demand growth from Intel share and cost improvement.",
+      "claim_not_yet_defended": "That this recovery is undervalued at 60.55; neither a TAM claim nor current process progress establishes it."
+    },
+    {
+      "rank": 2,
+      "question": "How much external-foundry option value is justified before recurring customer-volume economics exist?",
+      "direction": "Conservative valuation treatment; could support either direction depending on product value.",
+      "owned_judgment": "Give internal manufacturing progress credit in consolidated profit, but do not capitalize 6.7B internal-inclusive foundry revenue as independent merchant sales or treat a PDK/sample as volume revenue. External success can be an explicit upside scenario instead of a central dependency.",
+      "strong_countercase": "A small external revenue base does not imply no future franchise; advanced packaging and signed frameworks can mature into meaningful business. Intel committed to complete 14A in Q2 using its own future products; the old no-anchor-customer cancellation argument is stale.",
+      "public_test": "A milestone ladder from design kit/customer engagement to qualification, production, recognized external sales and cash margin, retaining the nonrecurring and Altera reclassification caveats.",
+      "claim_not_yet_defended": "That the current stock price embeds a particular external-foundry valuation. This needs reverse valuation, not an assertion about market enthusiasm."
+    },
+    {
+      "rank": 3,
+      "question": "Does increased supply create per-share owner cash, or only larger factories supported by new claims?",
+      "direction": "Potential skeptical cash-conversion thesis, not a financing-crisis short.",
+      "owned_judgment": "Funding capacity is real, with executed equity and substantial liquidity. The key dispute is returns on incremental capital after minority claims and dilution. Q3 adjusted FCF alone overstates internally generated post-capital cash because it includes net partner contributions.",
+      "strong_countercase": "Partner contributions genuinely reduce Intel funding and the Ireland buyout removes future minority payments; treating all consolidated capex as parent-funded or retaining exited minority claims would exaggerate the burden.",
+      "public_test": "One cash waterfall separating operations, gross/economic capital, incentives, partner contributions/distributions, share issuance and the final per-share claim base.",
+      "claim_not_yet_defended": "A2027 cash cliff, automatic further dilution, or certain permanent failure to earn adequate returns."
+    }
+  ],
+  "bounded_reverse_owner_cash_requirement": {
+    "status": "Conditional diagnostic approved before calculation; not a target, calibrated fair multiple, or full DCF.",
+    "endpoint": "2030-12-31",
+    "holding_years": 4.158795345653662,
+    "selected_price": 60.55,
+    "fixed_share_convention_B": 5.44,
+    "illustrative_holding_return": 0.1,
+    "independent_illustrative_terminal_cost_of_equity": 0.1,
+    "illustrative_terminal_nominal_growth": 0.03,
+    "no_interim_dividend_or_further_net_issuance_assumption": true,
+    "formula": "P2030=Pentry*(1+h)^T; ownerFCFE2031=P2030*N2030*(ke-g).",
+    "endpoint_price_required": 90.00317992109876,
+    "owner_FCFE2031_required_B": 34.273210913954415,
+    "owner_FCFE2031_per_share": 6.300222594476914,
+    "current_price_immediate_perpetuity_equivalent_FCFE_B": 23.057440000000003,
+    "definition": "Owner FCFE is after cash taxes, interest, net financing policy, working capital, maintenance and growth reinvestment, minority economics and an economic charge for recurring SBC consistent with fixed shares. No separate cash, noncore holding or external-foundry option value is added in this whole-equity diagnostic.",
+    "limits": [
+      "The two 10% parameters are chosen separately; neither is inferred from the other or from observed market pricing.",
+      "Three-percent growth requires funded reinvestment.",
+      "The 5.44B guided weighted-average denominator is not a fully developed future claims model.",
+      "The immediate perpetuity equivalent is not a delayed2031 cashflow supporting today without interim discounting.",
+      "Interim dividends, new capital, changing share claims, separate asset values or a different capitalization convention change the requirement.",
+      "The 34.27B requirement is conditional on entering 3% perpetual owner-cash growth immediately after 2031. It is NOT a universal necessary condition for 10% shareholder return: a credible longer period of faster profitable growth or separately valued assets changes the endpoint capitalization. No alternative continuation has been valued in this screen."
+    ],
+    "static_scale_check": {
+      "calculation": "4*(5.324 +0.179 -1.058 -0.070), setting Foundry segment operating loss to zero and holding otherQ3 items constant",
+      "pretax_operating_profit_B": 17.5,
+      "interpretation": "17.5B is annualized pretax operating profit under a deliberately static accounting illustration, NOT FCFE or a forecast. Operating profit is not an upper bound on owner cash: depreciation, maintenance and growth investment, taxes, working capital and net financing must be bridged. This comparison alone does not prove foundry breakeven insufficient or establish any stock return. It shows why a product/foundry profit reconciliation must be followed by a cash bridge."
+    },
+    "review": "/root/three_hour_financing_claims independently reproduced the holding period,90.00318 price and34.2732109B owner-cash requirement. Reviewer also corrected the interpretation: comparing17.5B pretax profit with34.27B owner FCFE cannot itself prove insufficiency because accounting profit is not a cash-flow upper bound."
+  },
+  "decision": {
+    "company_selection": "Intel is worth one bounded product-to-cash valuation bridge because its crucial operating variables are more directly reported. Do not switch merely because SpaceX remains unpersuasive.",
+    "owned_directional_view": "Investigate a product-led LONG first. Genuine shipping/product profit and internal cost improvement make this more economically credible than a claim18A has failed. However the required owner-cash scale is demanding: current public evidence supports recovery, not yet an owned forecast near 34B of 2031 owner FCFE. I would not present either a whole-stock long or short as established by this screen. The reverse-Gordon convention is not a rejection rule: profitable recovery continuing after 2031 could support value with lower 2031 cash. My preference is a forecast about operating recovery, not a declaration that every model must reach the displayed cash figure.",
+    "specific_missing_work": "Choose and defend a finite2027-2031 consolidated product/margin/capital/claims forecast against the 34B-scale diagnostic, with external foundry success optional. This is the recommendation requirement still missing, not another predictor or secret customer dataset.",
+    "three_exhibits": [
+      "Units, mix and process costs into consolidated operating profit, including client weakness and all eliminations.",
+      "Internal manufacturing value versus genuinely external foundry/packaging milestones and revenue.",
+      "Cash and claim waterfall into owner cash per share, beside the declared reverse requirement."
+    ],
+    "stop_rule": "Do not promote a switch if the entry-price case still relies mainly on an unpriced external-foundry option, untethered terminal margins, or omitted minority/capital costs. Equally, do not reject a qualified long merely because the recovery forecast is uncertain or misses a privately chosen 15% hurdle."
+  }
+}

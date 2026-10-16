@@ -1,0 +1,126 @@
+{
+  "prepared_utc": "2026-11-04T10:59:07.648508+00:00",
+  "owner": "hardware_research_resume",
+  "scope": "One prospective2027\u20132030 Foundry operating policy for the bounded Intel product-to-cash exercise. No stock valuation, target, frozen SpaceX edit or claim of a proven market disagreement.",
+  "selection_chronology": "Annual losses/profit selected and sent to root/other agents before integrated Intel cash results. Current quote and public technical progress were known. This is not blind to public market information.",
+  "decision": "Own losses of 5.5B,3.5B,1.5B and approximately breakeven in 2027\u20132030. This is a meaningful recovery requiring execution, not a mechanical extrapolation of the reported node cost declines.",
+  "historical_anchor": {
+    "actual_Q3_2026_revenue_B": 6.697,
+    "actual_Q3_2026_cost_and_operating_expense_B": 8.55,
+    "actual_Q3_2026_operating_profit_B": -1.853,
+    "actual_9M_2026_revenue_B": 17.883,
+    "actual_9M_2026_operating_profit_B": -6.379,
+    "owned_Q4_2026_loss_approx_B": 2.1,
+    "rounded_2026_planning_operating_profit_B": -8.5,
+    "rounding": "6.379+2.1=8.479B, rounded to8.5B solely as a planning comparison. Not a reported full-year result and not a new2026 cash charge.",
+    "Q4_judgment": "Client underabsorption and the disclosed factory disruption offset some continuing process improvement; a roughly2.1B Foundry loss is plausible. This is not management segment guidance."
+  },
+  "annual_rows": [
+    {
+      "year": 2027,
+      "foundry_operating_profit_B": -5.5,
+      "change_from_prior_planning_profit_B": 3.0,
+      "consolidated_DA_reference_B": 13.5,
+      "cash_capital_reference_B": 28,
+      "all_incremental_DA_in_foundry_diagnostic_only": {
+        "incremental_total_DA_B": 0.572,
+        "required_net_pre_DA_operating_improvement_B": 3.572
+      },
+      "rationale": "Intel 3 and 18A learning plus more completed server packages improve absorption. Client weakness and new-node spending keep a substantial loss; no repeat reserve-release benefit."
+    },
+    {
+      "year": 2028,
+      "foundry_operating_profit_B": -3.5,
+      "change_from_prior_planning_profit_B": 2.0,
+      "consolidated_DA_reference_B": 15.5,
+      "cash_capital_reference_B": 30,
+      "all_incremental_DA_in_foundry_diagnostic_only": {
+        "incremental_total_DA_B": 2.0,
+        "required_net_pre_DA_operating_improvement_B": 4.0
+      },
+      "rationale": "Internal 18A-P product ramp and broader supplier/fab availability improve utilization. New-capacity depreciation and14A development/startup consume much of the benefit."
+    },
+    {
+      "year": 2029,
+      "foundry_operating_profit_B": -1.5,
+      "change_from_prior_planning_profit_B": 2.0,
+      "consolidated_DA_reference_B": 17.5,
+      "cash_capital_reference_B": 28,
+      "all_incremental_DA_in_foundry_diagnostic_only": {
+        "incremental_total_DA_B": 2.0,
+        "required_net_pre_DA_operating_improvement_B": 4.0
+      },
+      "rationale": "A larger stable internal product base spreads fixed factory/process costs. The owned case still carries a loss rather than presuming rapid external foundry profitability."
+    },
+    {
+      "year": 2030,
+      "foundry_operating_profit_B": 0.0,
+      "change_from_prior_planning_profit_B": 1.5,
+      "consolidated_DA_reference_B": 19.0,
+      "cash_capital_reference_B": 26,
+      "all_incremental_DA_in_foundry_diagnostic_only": {
+        "incremental_total_DA_B": 1.5,
+        "required_net_pre_DA_operating_improvement_B": 3.0
+      },
+      "rationale": "Approximate operating breakeven from internal manufacturing scale and cumulative cost discipline; continued process research and asset depreciation prevent treating manufacturing as free."
+    }
+  ],
+  "manufacturing_expectations": {
+    "output": "2027 good-die and fully packaged output improves, but substrates remain binding especially early. 2028 capacity and qualification gains relax rather than eliminate that bottleneck.2029\u201330 require continued conversion of the Products agent\u2019s forecast into real internal fabrication/assembly demand.",
+    "cost_definition": "Expect lower comparable same-node good-die manufacturing cost and better utilization. The reported Intel 3/18A cost changes do not disclose absolute die yields or a precise cost-per-good-die denominator. A shift toward larger/newer wafers and richer packages can raise portfolio average cost despite progress within a process.",
+    "cash_cost_and_research": "No separate numerical savings credit is added to the profit rows. They include recurring manufacturing labor/material/support, continuing14A and successor process research, startup costs and normal factory depreciation. New product volume does not make leading-node R&D disappear.",
+    "client": "Weak2027 client volume can leave portions of the network underutilized. Server demand does not instantly repurpose all client tools or eliminate manufacturing lead times; the proposed loss trajectory carries this friction.",
+    "external": "No large external14A contract, NVIDIA GPU-foundry award or unannounced customer volume is required. Existing external services are not assumed to vanish, but this policy does not separately fabricate a recurring external revenue residual from the 411M quarter."
+  },
+  "transfer_and_consolidation_rules": [
+    "Products retain their market-like Foundry manufacturing/service transfer charges. Their chosen operating margins do not get an additional wafer-learning credit.",
+    "Manufacturing efficiency and utilization gains affect Foundry once. Internal revenue is eliminated from consolidated sales; no Foundry revenue multiple or incremental consolidated revenue is added.",
+    "Do not improve Foundry by increasing transfer prices while holding Products costs unchanged. The aggregate exercise assumes one consistent market-like transfer framework; it does not reconstruct undisclosed wafer prices.",
+    "Forward intersegment operating eliminations are zero per root policy. No repeating inventory reserve releases, intersegment profit windfalls or extra reversal of2026charges is used to reach the selected operating profits.",
+    "Ordinary SBC remains in root\u2019s corporate expense once. Corporate restructuring, acquisition amortization and Other operations are outside this Foundry line; process technology R&D is inside it.",
+    "Substrate prepayments/capacity funding are counted once in the cash agent\u2019s capital/working-capital envelope. Their upfront cash is not also a full expense in this operating line; consumption and ordinary manufacturing cost remain included."
+  ],
+  "DA_cash_consistency": {
+    "baseline": "Cash agent verified Q3 depreciation 3.042B plus amortization 0.190B=3.232B, annualized total 12.928B. Earlier 12.168B reference was depreciation only.",
+    "forward": "Cash agent owns total D&A 13.5/15.5/17.5/19B and cash capital 28/30/28/26B. This policy includes rising factory depreciation but does not assert those consolidated amounts are all Foundry depreciation.",
+    "inventory": "The filing says most depreciation is in Foundry overhead, absorbed into inventory; segment attribution is impracticable. Matching aggregate annual cash D&A to operating expense is an explicit normalization, not an exact reported inventory schedule.",
+    "diagnostic": "For transparency, if ALL growth in total D&A from the 12.928B run rate were attributed to Foundry, the selected profit improvement requires 3.572/4/4/3B yearly net pre-D&A operating improvements, cumulative 14.572B by 2030. These are implied hurdles, not separately measured savings or cash-flow additions. Exact attribution changes if non-Foundry amortization changes.",
+    "interpretation": "This large hurdle requires real fixed-cost absorption from product volume plus further process economics after ongoing research costs. It is the strongest objection to treating breakeven as assured. A node milestone or accounting reserve reversal cannot substitute for it."
+  },
+  "countercase_and_falsifiers": {
+    "most_material": "If internal volume arrives later, new depreciation and continued process R&D can keep losses substantial through 2030 even with technically working nodes. The case is not rescued automatically by unspecified external customers.",
+    "tests": [
+      "Completed-package deliveries versus inventory/wafer output; dated substrate capacity and qualification milestones.",
+      "Same-node cost trends and utilization alongside portfolio mix, instead of treating every change as yield.",
+      "Underlying Foundry loss improvement excluding reserve-release and impairment comparisons.",
+      "Continued process R&D and installed-asset depreciation relative to accepted internal demand."
+    ],
+    "uncertainty": "Moderate confidence in improvement direction; lower confidence in breakeven timing. The annual values are owned aggregate forecasts, not externally estimated unit economics."
+  },
+  "sources": {
+    "q3_10q": {
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "locators": [
+        "Note 2, printed pages 9\u201310: segment costs, transfer prices, depreciation absorption and corporate allocations.",
+        "Foundry MD&A, printed page 35: actual loss and period/mix effects.",
+        "Note 14 and Liquidity: substrate funding.",
+        "Future Node Development/Industry Supply Constraints."
+      ]
+    },
+    "q3_remarks": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locators": [
+        "PDFpage 6: node cost progress and continued Foundry work.",
+        "PDFpages 7\u20138: client weakness, capacity and equipment procurement."
+      ]
+    },
+    "supplier_customer_audit": "../intel_technical_competition_screen.json"
+  },
+  "source_hashes": {
+    "q3_10q.pdf": "b7d287cf335157f894cd4b91a07a75420b332ac257593586239b17576becf318",
+    "q3_remarks.pdf": "b019d10f31a896d23586350df12407ee32442094f544c3e6d92c753d30df2210",
+    "corporate_other_policy.json": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a",
+    "product_operating_policy_2026_11_04.json": "8a350e92f2f7519809f1eb59a213e8c7c1c401435ce3f25822733f39c9297a41",
+    "product_operating_forecast_2026_11_04.json": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d"
+  }
+}

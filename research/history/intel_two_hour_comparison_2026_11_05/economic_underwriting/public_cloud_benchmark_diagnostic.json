@@ -1,0 +1,2708 @@
+{
+  "hardware": {
+    "m8i.4xlarge": {
+      "Model name:": "Intel(R) Xeon(R) 6975P-C",
+      "BIOS Model name:": "Intel(R) Xeon(R) 6975P-C  CPU @ 2.7GHz",
+      "CPU(s):": "16",
+      "Thread(s) per core:": "2",
+      "Core(s) per socket:": "8",
+      "NUMA node(s):": "1"
+    },
+    "m8a.4xlarge": {
+      "Model name:": "AMD EPYC 9R45",
+      "BIOS Model name:": "AMD EPYC 9R45  CPU @ 2.6GHz",
+      "CPU(s):": "16",
+      "Thread(s) per core:": "1",
+      "Core(s) per socket:": "16",
+      "NUMA node(s):": "1"
+    },
+    "m9g.4xlarge": {
+      "Model name:": "Neoverse-V3",
+      "BIOS Model name:": "AWS Graviton5 AWS Graviton5 CPU @ 3.3GHz",
+      "CPU(s):": "16",
+      "Thread(s) per core:": "1",
+      "Core(s) per socket:": "16",
+      "NUMA node(s):": "1"
+    }
+  },
+  "prices": {
+    "m8i.4xlarge": {
+      "price_per_hour_USD": 0.8467,
+      "observed_at": "2026-11-05T18:40:42.390064"
+    },
+    "m8a.4xlarge": {
+      "price_per_hour_USD": 0.9738,
+      "observed_at": "2026-11-05T18:40:42.731066"
+    },
+    "m9g.4xlarge": {
+      "price_per_hour_USD": 0.7827,
+      "observed_at": "2026-11-05T18:40:42.181599"
+    }
+  },
+  "workloads": {
+    "redis": {
+      "metadata": {
+        "m8i.4xlarge": {
+          "start": "2025-08-28T19:57:18.704012",
+          "end": "2025-08-28T19:58:30.276872",
+          "exit_code": 0,
+          "error_msg": null,
+          "task_hash": "3017390de7f0afebf68b42df4039403fa012bc91",
+          "version": "Redis server v=7.4.0 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=dc6a05d96600ad92",
+          "stdout_bytes": 389,
+          "stderr_bytes": 0,
+          "outputs": [
+            "stdout"
+          ]
+        },
+        "m8a.4xlarge": {
+          "start": "2025-10-08T05:23:07.829003",
+          "end": "2025-10-08T05:24:19.577672",
+          "exit_code": 0,
+          "error_msg": null,
+          "task_hash": "3017390de7f0afebf68b42df4039403fa012bc91",
+          "version": "Redis server v=7.4.0 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=dc6a05d96600ad92",
+          "stdout_bytes": 389,
+          "stderr_bytes": 0,
+          "outputs": [
+            "stdout"
+          ]
+        },
+        "m9g.4xlarge": {
+          "start": "2026-06-11T12:37:31.666820",
+          "end": "2026-06-11T12:38:48.184049",
+          "exit_code": 0,
+          "error_msg": null,
+          "task_hash": "3017390de7f0afebf68b42df4039403fa012bc91",
+          "version": "Redis server v=7.4.0 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=86eb6afc7b1d3b21",
+          "kernel_version": "6.17.0-1017-aws",
+          "stdout_bytes": 390,
+          "stderr_bytes": 0,
+          "outputs": [
+            "stdout"
+          ]
+        }
+      },
+      "all_common_configurations": [
+        {
+          "config": {
+            "operation": "SET",
+            "threads": "1",
+            "pipeline": "1"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 1427448.0,
+              "mean_latency": 0.56,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 2585875.0,
+              "mean_latency": 0.31,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.811537092769754,
+              "rental_cost_per_operation_relative_to_Intel": 0.6348819490903207,
+              "mean_latency_relative_to_Intel": 0.5535714285714285
+            },
+            "m9g.4xlarge": {
+              "rps": 2389052.0,
+              "mean_latency": 0.34,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.6736525603734778,
+              "rental_cost_per_operation_relative_to_Intel": 0.5523323338395902,
+              "mean_latency_relative_to_Intel": 0.6071428571428571
+            }
+          }
+        },
+        {
+          "config": {
+            "operation": "SET",
+            "threads": "1",
+            "pipeline": "16"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 8176569.0,
+              "mean_latency": 1.56,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 17504373.0,
+              "mean_latency": 0.73,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 2.1407968305532554,
+              "rental_cost_per_operation_relative_to_Intel": 0.5372355675666084,
+              "mean_latency_relative_to_Intel": 0.4679487179487179
+            },
+            "m9g.4xlarge": {
+              "rps": 13437310.0,
+              "mean_latency": 0.95,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.643392234566846,
+              "rental_cost_per_operation_relative_to_Intel": 0.5625026121358903,
+              "mean_latency_relative_to_Intel": 0.6089743589743589
+            }
+          }
+        },
+        {
+          "config": {
+            "operation": "SET",
+            "threads": "1",
+            "pipeline": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 12254626.0,
+              "mean_latency": 16.64,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 25196210.0,
+              "mean_latency": 8.1,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 2.0560570351147396,
+              "rental_cost_per_operation_relative_to_Intel": 0.5593775759449648,
+              "mean_latency_relative_to_Intel": 0.4867788461538461
+            },
+            "m9g.4xlarge": {
+              "rps": 17891480.0,
+              "mean_latency": 11.41,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.4599776443605867,
+              "rental_cost_per_operation_relative_to_Intel": 0.6331688901390988,
+              "mean_latency_relative_to_Intel": 0.6856971153846154
+            }
+          }
+        },
+        {
+          "config": {
+            "operation": "SET",
+            "threads": "1",
+            "pipeline": "4"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 4317695.0,
+              "mean_latency": 0.78,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 8098202.0,
+              "mean_latency": 0.39,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.8755845422152329,
+              "rental_cost_per_operation_relative_to_Intel": 0.6132020041862198,
+              "mean_latency_relative_to_Intel": 0.5
+            },
+            "m9g.4xlarge": {
+              "rps": 6865712.0,
+              "mean_latency": 0.47,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.5901336245380926,
+              "rental_cost_per_operation_relative_to_Intel": 0.5813426057047344,
+              "mean_latency_relative_to_Intel": 0.6025641025641025
+            }
+          }
+        },
+        {
+          "config": {
+            "operation": "SET",
+            "threads": "1",
+            "pipeline": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 12329800.0,
+              "mean_latency": 33.13,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 24381958.0,
+              "mean_latency": 16.75,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.9774820353939238,
+              "rental_cost_per_operation_relative_to_Intel": 0.5816043735021678,
+              "mean_latency_relative_to_Intel": 0.5055840627829761
+            },
+            "m9g.4xlarge": {
+              "rps": 17911935.0,
+              "mean_latency": 22.8,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.452735243069636,
+              "rental_cost_per_operation_relative_to_Intel": 0.6363254619984307,
+              "mean_latency_relative_to_Intel": 0.688198007847872
+            }
+          }
+        },
+        {
+          "config": {
+            "operation": "SET",
+            "threads": "1",
+            "pipeline": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 11473543.0,
+              "mean_latency": 4.45,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 25154020.0,
+              "mean_latency": 2.03,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 2.192349826030198,
+              "rental_cost_per_operation_relative_to_Intel": 0.5246025003179545,
+              "mean_latency_relative_to_Intel": 0.4561797752808988
+            },
+            "m9g.4xlarge": {
+              "rps": 18030386.0,
+              "mean_latency": 2.83,
+              "latency_unit": "ms",
+              "throughput_relative_to_Intel": 1.5714750012267353,
+              "rental_cost_per_operation_relative_to_Intel": 0.5882450716594713,
+              "mean_latency_relative_to_Intel": 0.6359550561797753
+            }
+          }
+        }
+      ],
+      "summary": {
+        "m8a.4xlarge": {
+          "comparison_count": 6,
+          "lower_cost_configurations": 6,
+          "cost_ratio_range": [
+            0.5246025003179545,
+            0.6348819490903207
+          ],
+          "throughput_ratio_range": [
+            1.811537092769754,
+            2.192349826030198
+          ],
+          "no_worse_mean_latency_configurations": 6,
+          "mean_latency_ratio_range": [
+            0.4561797752808988,
+            0.5535714285714285
+          ],
+          "lower_cost_and_no_worse_mean_latency_configurations": 6
+        },
+        "m9g.4xlarge": {
+          "comparison_count": 6,
+          "lower_cost_configurations": 6,
+          "cost_ratio_range": [
+            0.5523323338395902,
+            0.6363254619984307
+          ],
+          "throughput_ratio_range": [
+            1.452735243069636,
+            1.6736525603734778
+          ],
+          "no_worse_mean_latency_configurations": 6,
+          "mean_latency_ratio_range": [
+            0.6025641025641025,
+            0.688198007847872
+          ],
+          "lower_cost_and_no_worse_mean_latency_configurations": 6
+        }
+      }
+    },
+    "static_web": {
+      "metadata": {
+        "m8i.4xlarge": {
+          "start": "2025-08-28T19:45:33.188616",
+          "end": "2025-08-28T19:57:15.985604",
+          "exit_code": 0,
+          "error_msg": null,
+          "task_hash": "37c10ffddb142963b705ffc3385491fcff540474",
+          "version": "binserve 0.2.1, wrk 4.2.0",
+          "stdout_bytes": 4064,
+          "stderr_bytes": 0,
+          "outputs": [
+            "stdout"
+          ]
+        },
+        "m8a.4xlarge": {
+          "start": "2025-10-08T05:11:23.168937",
+          "end": "2025-10-08T05:23:05.352023",
+          "exit_code": 0,
+          "error_msg": null,
+          "task_hash": "37c10ffddb142963b705ffc3385491fcff540474",
+          "version": "binserve 0.2.1, wrk 4.2.0",
+          "stdout_bytes": 4063,
+          "stderr_bytes": 0,
+          "outputs": [
+            "stdout"
+          ]
+        },
+        "m9g.4xlarge": {
+          "start": "2026-06-11T12:25:37.491303",
+          "end": "2026-06-11T12:37:27.867998",
+          "exit_code": 0,
+          "error_msg": null,
+          "task_hash": "37c10ffddb142963b705ffc3385491fcff540474",
+          "version": "binserve 0.2.1, wrk 4.2.0",
+          "kernel_version": "6.17.0-1017-aws",
+          "stdout_bytes": 4094,
+          "stderr_bytes": 0,
+          "outputs": [
+            "stdout"
+          ]
+        }
+      },
+      "all_common_configurations": [
+        {
+          "config": {
+            "size": "16k",
+            "threads": "16",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 738202.0,
+              "mean_latency": 0.00018117,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 982511.0,
+              "mean_latency": 0.00013064,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3309514198010843,
+              "rental_cost_per_operation_relative_to_Intel": 0.8641278586103188,
+              "mean_latency_relative_to_Intel": 0.7210906883038031
+            },
+            "m9g.4xlarge": {
+              "rps": 1195797.0,
+              "mean_latency": 0.00011202,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6198777570366918,
+              "rental_cost_per_operation_relative_to_Intel": 0.570668015343796,
+              "mean_latency_relative_to_Intel": 0.618314290445438
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "16",
+            "connections": "16"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 776041.0,
+              "mean_latency": 2.066e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1171948.0,
+              "mean_latency": 1.382e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5101624785288406,
+              "rental_cost_per_operation_relative_to_Intel": 0.761581761339669,
+              "mean_latency_relative_to_Intel": 0.6689254598257502
+            },
+            "m9g.4xlarge": {
+              "rps": 1210185.0,
+              "mean_latency": 1.265e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5594343597825373,
+              "rental_cost_per_operation_relative_to_Intel": 0.5927870056913441,
+              "mean_latency_relative_to_Intel": 0.6122942884801549
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "16",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 761111.0,
+              "mean_latency": 0.00037108,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1030470.0,
+              "mean_latency": 0.00028279,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3539023874310054,
+              "rental_cost_per_operation_relative_to_Intel": 0.8494794092869447,
+              "mean_latency_relative_to_Intel": 0.762072868384176
+            },
+            "m9g.4xlarge": {
+              "rps": 1249736.0,
+              "mean_latency": 0.00028043,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6419891448159336,
+              "rental_cost_per_operation_relative_to_Intel": 0.5629832740528348,
+              "mean_latency_relative_to_Intel": 0.7557130537889405
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "16",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 912868.0,
+              "mean_latency": 5.274e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1219934.0,
+              "mean_latency": 2.655e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3363750290293888,
+              "rental_cost_per_operation_relative_to_Intel": 0.8606208402011244,
+              "mean_latency_relative_to_Intel": 0.5034129692832765
+            },
+            "m9g.4xlarge": {
+              "rps": 956950.0,
+              "mean_latency": 3.091e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0482895665090681,
+              "rental_cost_per_operation_relative_to_Intel": 0.8818292714541598,
+              "mean_latency_relative_to_Intel": 0.5860826697004171
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "16",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 759285.0,
+              "mean_latency": 0.00065274,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1077768.0,
+              "mean_latency": 0.00052526,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4194511942156107,
+              "rental_cost_per_operation_relative_to_Intel": 0.8102513175471503,
+              "mean_latency_relative_to_Intel": 0.8047001869044338
+            },
+            "m9g.4xlarge": {
+              "rps": 1261510.0,
+              "mean_latency": 0.00053775,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.661444648583865,
+              "rental_cost_per_operation_relative_to_Intel": 0.5563907443414459,
+              "mean_latency_relative_to_Intel": 0.8238349112969943
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "16",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 726259.0,
+              "mean_latency": 8.29e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1004915.0,
+              "mean_latency": 6.039e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.383686811454316,
+              "rental_cost_per_operation_relative_to_Intel": 0.8311940178849112,
+              "mean_latency_relative_to_Intel": 0.7284680337756334
+            },
+            "m9g.4xlarge": {
+              "rps": 1106821.0,
+              "mean_latency": 5.416e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5240031448835747,
+              "rental_cost_per_operation_relative_to_Intel": 0.6065685807874815,
+              "mean_latency_relative_to_Intel": 0.653317249698432
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "32",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 705294.0,
+              "mean_latency": 0.00024765,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 985956.0,
+              "mean_latency": 0.0002033,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3979361798058683,
+              "rental_cost_per_operation_relative_to_Intel": 0.8227215354471982,
+              "mean_latency_relative_to_Intel": 0.8209166161922069
+            },
+            "m9g.4xlarge": {
+              "rps": 1150177.0,
+              "mean_latency": 0.00014771,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6307766690202952,
+              "rental_cost_per_operation_relative_to_Intel": 0.5668540899981346,
+              "mean_latency_relative_to_Intel": 0.5964465980214012
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "32",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 703712.0,
+              "mean_latency": 0.00056275,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1022054.0,
+              "mean_latency": 0.00050855,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4523754035741894,
+              "rental_cost_per_operation_relative_to_Intel": 0.7918835567421018,
+              "mean_latency_relative_to_Intel": 0.9036872501110618
+            },
+            "m9g.4xlarge": {
+              "rps": 1176280.0,
+              "mean_latency": 0.00045011,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6715360829430221,
+              "rental_cost_per_operation_relative_to_Intel": 0.553031689917279,
+              "mean_latency_relative_to_Intel": 0.7998400710795202
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "32",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 809540.0,
+              "mean_latency": 3.973e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1308663.0,
+              "mean_latency": 2.495e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.616551374854856,
+              "rental_cost_per_operation_relative_to_Intel": 0.7114603458924025,
+              "mean_latency_relative_to_Intel": 0.6279889252454065
+            },
+            "m9g.4xlarge": {
+              "rps": 1193707.0,
+              "mean_latency": 2.638e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4745497442992317,
+              "rental_cost_per_operation_relative_to_Intel": 0.6269116578003331,
+              "mean_latency_relative_to_Intel": 0.6639818776743016
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "32",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 711443.0,
+              "mean_latency": 0.00096,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1052437.0,
+              "mean_latency": 0.00070654,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.47929911461635,
+              "rental_cost_per_operation_relative_to_Intel": 0.777471025936057,
+              "mean_latency_relative_to_Intel": 0.7359791666666666
+            },
+            "m9g.4xlarge": {
+              "rps": 1183409.0,
+              "mean_latency": 0.00068188,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6633925697490874,
+              "rental_cost_per_operation_relative_to_Intel": 0.5557391811886778,
+              "mean_latency_relative_to_Intel": 0.7102916666666667
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "32",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 670122.0,
+              "mean_latency": 0.0001002,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 999197.0,
+              "mean_latency": 6.804e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4910672981934632,
+              "rental_cost_per_operation_relative_to_Intel": 0.7713348697946225,
+              "mean_latency_relative_to_Intel": 0.6790419161676647
+            },
+            "m9g.4xlarge": {
+              "rps": 1065809.0,
+              "mean_latency": 6.083e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5904700935053617,
+              "rental_cost_per_operation_relative_to_Intel": 0.5812196208419761,
+              "mean_latency_relative_to_Intel": 0.6070858283433134
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "64",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 664294.0,
+              "mean_latency": 0.00028567,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1009843.0,
+              "mean_latency": 0.00018589,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5201748021207477,
+              "rental_cost_per_operation_relative_to_Intel": 0.7565657572422523,
+              "mean_latency_relative_to_Intel": 0.6507158609584485
+            },
+            "m9g.4xlarge": {
+              "rps": 1113495.0,
+              "mean_latency": 0.00013549,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6762081247158638,
+              "rental_cost_per_operation_relative_to_Intel": 0.5514902422182132,
+              "mean_latency_relative_to_Intel": 0.4742885147197815
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "64",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 644838.0,
+              "mean_latency": 0.00057759,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 938941.0,
+              "mean_latency": 0.00041623,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4560881957949128,
+              "rental_cost_per_operation_relative_to_Intel": 0.7898643802130414,
+              "mean_latency_relative_to_Intel": 0.7206322824148618
+            },
+            "m9g.4xlarge": {
+              "rps": 1078764.0,
+              "mean_latency": 0.00034978,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6729225014654843,
+              "rental_cost_per_operation_relative_to_Intel": 0.5525733701937184,
+              "mean_latency_relative_to_Intel": 0.6055852767534063
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "64",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 637068.0,
+              "mean_latency": 0.00095,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 961933.0,
+              "mean_latency": 0.00068161,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5099377146552644,
+              "rental_cost_per_operation_relative_to_Intel": 0.7616951276494593,
+              "mean_latency_relative_to_Intel": 0.7174842105263158
+            },
+            "m9g.4xlarge": {
+              "rps": 1062834.0,
+              "mean_latency": 0.0006031,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6683211211362052,
+              "rental_cost_per_operation_relative_to_Intel": 0.554097417455292,
+              "mean_latency_relative_to_Intel": 0.6348421052631579
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "16k",
+            "threads": "64",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 735459.0,
+              "mean_latency": 9.244e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1175530.0,
+              "mean_latency": 5.825e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5983623832191869,
+              "rental_cost_per_operation_relative_to_Intel": 0.7195565989176292,
+              "mean_latency_relative_to_Intel": 0.6301384681955863
+            },
+            "m9g.4xlarge": {
+              "rps": 1236191.0,
+              "mean_latency": 5.261e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6808428477998094,
+              "rental_cost_per_operation_relative_to_Intel": 0.5499695738466724,
+              "mean_latency_relative_to_Intel": 0.5691259195153613
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "16",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 974392.0,
+              "mean_latency": 0.00015674,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1209597.0,
+              "mean_latency": 0.00011043,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.241386423533855,
+              "rental_cost_per_operation_relative_to_Intel": 0.9264739637099058,
+              "mean_latency_relative_to_Intel": 0.7045425545489346
+            },
+            "m9g.4xlarge": {
+              "rps": 1541421.0,
+              "mean_latency": 9.669e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.581931091388271,
+              "rental_cost_per_operation_relative_to_Intel": 0.5843569481249925,
+              "mean_latency_relative_to_Intel": 0.6168814597422483
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "16",
+            "connections": "16"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 1095907.0,
+              "mean_latency": 1.409e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1794039.0,
+              "mean_latency": 8.5e-06,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6370358068704736,
+              "rental_cost_per_operation_relative_to_Intel": 0.7025577543754206,
+              "mean_latency_relative_to_Intel": 0.603264726756565
+            },
+            "m9g.4xlarge": {
+              "rps": 1567589.0,
+              "mean_latency": 9.58e-06,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4304033097698983,
+              "rental_cost_per_operation_relative_to_Intel": 0.6462599872314292,
+              "mean_latency_relative_to_Intel": 0.6799148332150461
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "16",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 1024536.0,
+              "mean_latency": 0.00040029,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1296080.0,
+              "mean_latency": 0.00025849,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.2650409551250517,
+              "rental_cost_per_operation_relative_to_Intel": 0.9091501707099939,
+              "mean_latency_relative_to_Intel": 0.6457568263009319
+            },
+            "m9g.4xlarge": {
+              "rps": 1641694.0,
+              "mean_latency": 0.00031791,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6023780521133468,
+              "rental_cost_per_operation_relative_to_Intel": 0.5769003285388852,
+              "mean_latency_relative_to_Intel": 0.7941992055759576
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "16",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 1100796.0,
+              "mean_latency": 5.075e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1394588.0,
+              "mean_latency": 3.079e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.266890504689334,
+              "rental_cost_per_operation_relative_to_Intel": 0.907822890810208,
+              "mean_latency_relative_to_Intel": 0.6066995073891626
+            },
+            "m9g.4xlarge": {
+              "rps": 1228821.0,
+              "mean_latency": 2.399e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.1163022031330057,
+              "rental_cost_per_operation_relative_to_Intel": 0.8281023025066504,
+              "mean_latency_relative_to_Intel": 0.4727093596059113
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "16",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 1048794.0,
+              "mean_latency": 0.00064795,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1364411.0,
+              "mean_latency": 0.00048575,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3009332623947123,
+              "rental_cost_per_operation_relative_to_Intel": 0.8840670259979273,
+              "mean_latency_relative_to_Intel": 0.7496720425958794
+            },
+            "m9g.4xlarge": {
+              "rps": 1691258.0,
+              "mean_latency": 0.00046499,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6125740612551178,
+              "rental_cost_per_operation_relative_to_Intel": 0.5732526938875533,
+              "mean_latency_relative_to_Intel": 0.7176325333744887
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "16",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 934438.0,
+              "mean_latency": 6.624e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1172852.0,
+              "mean_latency": 5.379e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.255141593128704,
+              "rental_cost_per_operation_relative_to_Intel": 0.916320681748884,
+              "mean_latency_relative_to_Intel": 0.8120471014492753
+            },
+            "m9g.4xlarge": {
+              "rps": 1404749.0,
+              "mean_latency": 4.349e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5033089407750968,
+              "rental_cost_per_operation_relative_to_Intel": 0.6149184639526372,
+              "mean_latency_relative_to_Intel": 0.6565519323671497
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "32",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 890290.0,
+              "mean_latency": 0.00027591,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1191489.0,
+              "mean_latency": 0.00018141,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3383156050275753,
+              "rental_cost_per_operation_relative_to_Intel": 0.8593729281691945,
+              "mean_latency_relative_to_Intel": 0.657497009894531
+            },
+            "m9g.4xlarge": {
+              "rps": 1439857.0,
+              "mean_latency": 0.00025358,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.617289871839513,
+              "rental_cost_per_operation_relative_to_Intel": 0.571581162291122,
+              "mean_latency_relative_to_Intel": 0.9190678119676706
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "32",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 913223.0,
+              "mean_latency": 0.00052724,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1242691.0,
+              "mean_latency": 0.00042264,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3607749695309908,
+              "rental_cost_per_operation_relative_to_Intel": 0.845189120948834,
+              "mean_latency_relative_to_Intel": 0.8016083756922844
+            },
+            "m9g.4xlarge": {
+              "rps": 1478759.0,
+              "mean_latency": 0.0003851,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6192748102051744,
+              "rental_cost_per_operation_relative_to_Intel": 0.5708805070527581,
+              "mean_latency_relative_to_Intel": 0.7304074045975267
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "32",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 983485.0,
+              "mean_latency": 3.294e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1381294.0,
+              "mean_latency": 2.38e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4044891381159854,
+              "rental_cost_per_operation_relative_to_Intel": 0.8188829440502914,
+              "mean_latency_relative_to_Intel": 0.7225258044930176
+            },
+            "m9g.4xlarge": {
+              "rps": 1441450.0,
+              "mean_latency": 2.178e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4656552972338164,
+              "rental_cost_per_operation_relative_to_Intel": 0.6307161216231164,
+              "mean_latency_relative_to_Intel": 0.6612021857923498
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "32",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 937405.0,
+              "mean_latency": 0.00076021,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1259397.0,
+              "mean_latency": 0.00062671,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3434929406179825,
+              "rental_cost_per_operation_relative_to_Intel": 0.8560612159063847,
+              "mean_latency_relative_to_Intel": 0.824390628905171
+            },
+            "m9g.4xlarge": {
+              "rps": 1532609.0,
+              "mean_latency": 0.00059302,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6349486081256235,
+              "rental_cost_per_operation_relative_to_Intel": 0.5654076342910102,
+              "mean_latency_relative_to_Intel": 0.7800739269412399
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "32",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 851499.0,
+              "mean_latency": 7.859e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1094023.0,
+              "mean_latency": 6.383e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.2848200643805805,
+              "rental_cost_per_operation_relative_to_Intel": 0.895154296069894,
+              "mean_latency_relative_to_Intel": 0.8121898460363914
+            },
+            "m9g.4xlarge": {
+              "rps": 1318566.0,
+              "mean_latency": 5.006e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5485232513485043,
+              "rental_cost_per_operation_relative_to_Intel": 0.5969638647031488,
+              "mean_latency_relative_to_Intel": 0.636976714594732
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "64",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 840219.0,
+              "mean_latency": 0.00025638,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1139243.0,
+              "mean_latency": 0.00018466,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3558881672516332,
+              "rental_cost_per_operation_relative_to_Intel": 0.8482352955689083,
+              "mean_latency_relative_to_Intel": 0.7202589905608862
+            },
+            "m9g.4xlarge": {
+              "rps": 1354291.0,
+              "mean_latency": 0.00014893,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.611830963117949,
+              "rental_cost_per_operation_relative_to_Intel": 0.5735169790506394,
+              "mean_latency_relative_to_Intel": 0.5808955456743895
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "64",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 853247.0,
+              "mean_latency": 0.00050011,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1089303.0,
+              "mean_latency": 0.00039946,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.2766561148178663,
+              "rental_cost_per_operation_relative_to_Intel": 0.9008786210773406,
+              "mean_latency_relative_to_Intel": 0.798744276259223
+            },
+            "m9g.4xlarge": {
+              "rps": 1347170.0,
+              "mean_latency": 0.00030399,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5788745814517953,
+              "rental_cost_per_operation_relative_to_Intel": 0.5854881923918742,
+              "mean_latency_relative_to_Intel": 0.6078462738197596
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "64",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 849655.0,
+              "mean_latency": 0.00076871,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1129365.0,
+              "mean_latency": 0.00062605,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3292042064131913,
+              "rental_cost_per_operation_relative_to_Intel": 0.8652637380757393,
+              "mean_latency_relative_to_Intel": 0.8144163598756358
+            },
+            "m9g.4xlarge": {
+              "rps": 1369771.0,
+              "mean_latency": 0.00052537,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6121496372056894,
+              "rental_cost_per_operation_relative_to_Intel": 0.5734036117825616,
+              "mean_latency_relative_to_Intel": 0.6834436913790637
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "1k",
+            "threads": "64",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 913804.0,
+              "mean_latency": 7.694e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 1247393.0,
+              "mean_latency": 5.598e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.3650553072650153,
+              "rental_cost_per_operation_relative_to_Intel": 0.8425389024063834,
+              "mean_latency_relative_to_Intel": 0.7275799324148687
+            },
+            "m9g.4xlarge": {
+              "rps": 1529820.0,
+              "mean_latency": 4.398e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6741226783861747,
+              "rental_cost_per_operation_relative_to_Intel": 0.552177230881793,
+              "mean_latency_relative_to_Intel": 0.5716142448661294
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "16",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 117841.0,
+              "mean_latency": 0.00104,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 204864.0,
+              "mean_latency": 0.0007323,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7384781188211234,
+              "rental_cost_per_operation_relative_to_Intel": 0.6615626552072886,
+              "mean_latency_relative_to_Intel": 0.7041346153846154
+            },
+            "m9g.4xlarge": {
+              "rps": 222422.0,
+              "mean_latency": 0.00051927,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8874754966437828,
+              "rental_cost_per_operation_relative_to_Intel": 0.4897612850346581,
+              "mean_latency_relative_to_Intel": 0.49929807692307693
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "16",
+            "connections": "16"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 153436.0,
+              "mean_latency": 0.00010505,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 298168.0,
+              "mean_latency": 5.531e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.9432727651920019,
+              "rental_cost_per_operation_relative_to_Intel": 0.5918429058997488,
+              "mean_latency_relative_to_Intel": 0.5265111851499286
+            },
+            "m9g.4xlarge": {
+              "rps": 279418.0,
+              "mean_latency": 0.0002086,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8210719778930629,
+              "rental_cost_per_operation_relative_to_Intel": 0.5076199271251276,
+              "mean_latency_relative_to_Intel": 1.9857210851975249
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "16",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 107872.0,
+              "mean_latency": 0.00228,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 171883.0,
+              "mean_latency": 0.00153,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.593397730643726,
+              "rental_cost_per_operation_relative_to_Intel": 0.7217985680464313,
+              "mean_latency_relative_to_Intel": 0.6710526315789473
+            },
+            "m9g.4xlarge": {
+              "rps": 187562.0,
+              "mean_latency": 0.00116,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7387459210916643,
+              "rental_cost_per_operation_relative_to_Intel": 0.5316546905986702,
+              "mean_latency_relative_to_Intel": 0.5087719298245614
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "16",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 146911.0,
+              "mean_latency": 0.0002043,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 281313.0,
+              "mean_latency": 0.00011692,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.9148532104471414,
+              "rental_cost_per_operation_relative_to_Intel": 0.6006268230025368,
+              "mean_latency_relative_to_Intel": 0.5722956436612824
+            },
+            "m9g.4xlarge": {
+              "rps": 213714.0,
+              "mean_latency": 0.00034606,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.4547174820129194,
+              "rental_cost_per_operation_relative_to_Intel": 0.635458387032348,
+              "mean_latency_relative_to_Intel": 1.6938815467449828
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "16",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 119268.0,
+              "mean_latency": 0.00049508,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 226336.0,
+              "mean_latency": 0.00027459,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8977093604319684,
+              "rental_cost_per_operation_relative_to_Intel": 0.6060528678876721,
+              "mean_latency_relative_to_Intel": 0.5546376343217259
+            },
+            "m9g.4xlarge": {
+              "rps": 222990.0,
+              "mean_latency": 0.00033351,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8696548948586378,
+              "rental_cost_per_operation_relative_to_Intel": 0.49442944109617737,
+              "mean_latency_relative_to_Intel": 0.6736487032398806
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "32",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 116205.0,
+              "mean_latency": 0.00119,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 224058.0,
+              "mean_latency": 0.0006863,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.9281270169097715,
+              "rental_cost_per_operation_relative_to_Intel": 0.5964919272540307,
+              "mean_latency_relative_to_Intel": 0.5767226890756303
+            },
+            "m9g.4xlarge": {
+              "rps": 220499.0,
+              "mean_latency": 0.00061104,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8975001075685212,
+              "rental_cost_per_operation_relative_to_Intel": 0.487173845746044,
+              "mean_latency_relative_to_Intel": 0.5134789915966386
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "32",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 110852.0,
+              "mean_latency": 0.00233,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 178651.0,
+              "mean_latency": 0.00153,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6116172915238336,
+              "rental_cost_per_operation_relative_to_Intel": 0.7136385333887849,
+              "mean_latency_relative_to_Intel": 0.6566523605150214
+            },
+            "m9g.4xlarge": {
+              "rps": 204743.0,
+              "mean_latency": 0.00131,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8469941904521343,
+              "rental_cost_per_operation_relative_to_Intel": 0.5004955778888495,
+              "mean_latency_relative_to_Intel": 0.5622317596566523
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "32",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 139223.0,
+              "mean_latency": 0.00022986,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 288698.0,
+              "mean_latency": 0.00011513,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.073637258211646,
+              "rental_cost_per_operation_relative_to_Intel": 0.5546351927043203,
+              "mean_latency_relative_to_Intel": 0.5008700948403376
+            },
+            "m9g.4xlarge": {
+              "rps": 270560.0,
+              "mean_latency": 0.00011754,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.9433570602558485,
+              "rental_cost_per_operation_relative_to_Intel": 0.4756781157786758,
+              "mean_latency_relative_to_Intel": 0.5113547376664056
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "32",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 118651.0,
+              "mean_latency": 0.00055754,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 259968.0,
+              "mean_latency": 0.00027107,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.191030838341017,
+              "rental_cost_per_operation_relative_to_Intel": 0.5249183079403414,
+              "mean_latency_relative_to_Intel": 0.48618933170714207
+            },
+            "m9g.4xlarge": {
+              "rps": 229930.0,
+              "mean_latency": 0.00031626,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.9378682017007864,
+              "rental_cost_per_operation_relative_to_Intel": 0.47702543645453815,
+              "mean_latency_relative_to_Intel": 0.5672418122466549
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "64",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 115636.0,
+              "mean_latency": 0.00119,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 217651.0,
+              "mean_latency": 0.00070479,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8822079629181223,
+              "rental_cost_per_operation_relative_to_Intel": 0.6110441688515508,
+              "mean_latency_relative_to_Intel": 0.5922605042016806
+            },
+            "m9g.4xlarge": {
+              "rps": 221759.0,
+              "mean_latency": 0.00062898,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.917733231865509,
+              "rental_cost_per_operation_relative_to_Intel": 0.4820338978057183,
+              "mean_latency_relative_to_Intel": 0.5285546218487395
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "64",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 112042.0,
+              "mean_latency": 0.00234,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 177921.0,
+              "mean_latency": 0.00151,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5879848628192998,
+              "rental_cost_per_operation_relative_to_Intel": 0.7242589191090723,
+              "mean_latency_relative_to_Intel": 0.6452991452991453
+            },
+            "m9g.4xlarge": {
+              "rps": 205137.0,
+              "mean_latency": 0.00131,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8308937719783653,
+              "rental_cost_per_operation_relative_to_Intel": 0.5048968098836331,
+              "mean_latency_relative_to_Intel": 0.5598290598290598
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "256k",
+            "threads": "64",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 121259.0,
+              "mean_latency": 0.00057198,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 256772.0,
+              "mean_latency": 0.00029042,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.117550037522988,
+              "rental_cost_per_operation_relative_to_Intel": 0.5431334230252347,
+              "mean_latency_relative_to_Intel": 0.5077450260498618
+            },
+            "m9g.4xlarge": {
+              "rps": 253400.0,
+              "mean_latency": 0.00025488,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.0897417923618042,
+              "rental_cost_per_operation_relative_to_Intel": 0.4423572462810955,
+              "mean_latency_relative_to_Intel": 0.44560998636315957
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "16",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 54241.0,
+              "mean_latency": 0.00222,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 86170.0,
+              "mean_latency": 0.00149,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5886506517210228,
+              "rental_cost_per_operation_relative_to_Intel": 0.723955388845956,
+              "mean_latency_relative_to_Intel": 0.6711711711711711
+            },
+            "m9g.4xlarge": {
+              "rps": 93114.0,
+              "mean_latency": 0.00135,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7166718902675098,
+              "rental_cost_per_operation_relative_to_Intel": 0.5384910360264809,
+              "mean_latency_relative_to_Intel": 0.6081081081081081
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "16",
+            "connections": "16"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 62256.0,
+              "mean_latency": 0.00025693,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 150696.0,
+              "mean_latency": 0.00010767,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.420585967617579,
+              "rental_cost_per_operation_relative_to_Intel": 0.47513792763123924,
+              "mean_latency_relative_to_Intel": 0.41906355816759433
+            },
+            "m9g.4xlarge": {
+              "rps": 143767.0,
+              "mean_latency": 0.0001108,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.309287458236957,
+              "rental_cost_per_operation_relative_to_Intel": 0.400302015849269,
+              "mean_latency_relative_to_Intel": 0.4312458646323901
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "16",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 45115.0,
+              "mean_latency": 0.00516,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 73129.0,
+              "mean_latency": 0.0033,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6209464701318852,
+              "rental_cost_per_operation_relative_to_Intel": 0.7095312655287733,
+              "mean_latency_relative_to_Intel": 0.6395348837209303
+            },
+            "m9g.4xlarge": {
+              "rps": 78391.0,
+              "mean_latency": 0.00297,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.737581735564668,
+              "rental_cost_per_operation_relative_to_Intel": 0.5320109010050563,
+              "mean_latency_relative_to_Intel": 0.5755813953488372
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "16",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 62249.0,
+              "mean_latency": 0.00049098,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 139944.0,
+              "mean_latency": 0.00022221,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.2481325001204837,
+              "rental_cost_per_operation_relative_to_Intel": 0.5115855939298225,
+              "mean_latency_relative_to_Intel": 0.45258462666503724
+            },
+            "m9g.4xlarge": {
+              "rps": 106322.0,
+              "mean_latency": 0.0003666,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7080113736766855,
+              "rental_cost_per_operation_relative_to_Intel": 0.541221468986935,
+              "mean_latency_relative_to_Intel": 0.746669925455212
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "16",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 56291.0,
+              "mean_latency": 0.00107,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 110419.0,
+              "mean_latency": 0.00055496,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.961574674459505,
+              "rental_cost_per_operation_relative_to_Intel": 0.5863208856037958,
+              "mean_latency_relative_to_Intel": 0.5186542056074765
+            },
+            "m9g.4xlarge": {
+              "rps": 103091.0,
+              "mean_latency": 0.00060214,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.831394006146631,
+              "rental_cost_per_operation_relative_to_Intel": 0.5047589003814155,
+              "mean_latency_relative_to_Intel": 0.5627476635514019
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "32",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 55413.0,
+              "mean_latency": 0.0023,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 91206.0,
+              "mean_latency": 0.00146,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.645931460126685,
+              "rental_cost_per_operation_relative_to_Intel": 0.6987606885031239,
+              "mean_latency_relative_to_Intel": 0.6347826086956522
+            },
+            "m9g.4xlarge": {
+              "rps": 92365.0,
+              "mean_latency": 0.0014,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6668471297348997,
+              "rental_cost_per_operation_relative_to_Intel": 0.5545874052977551,
+              "mean_latency_relative_to_Intel": 0.6086956521739131
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "32",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 48426.0,
+              "mean_latency": 0.00519,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 76696.0,
+              "mean_latency": 0.00329,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5837773097096601,
+              "rental_cost_per_operation_relative_to_Intel": 0.7261830266515905,
+              "mean_latency_relative_to_Intel": 0.6339113680154143
+            },
+            "m9g.4xlarge": {
+              "rps": 81959.0,
+              "mean_latency": 0.00307,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6924585966216494,
+              "rental_cost_per_operation_relative_to_Intel": 0.5461950009016036,
+              "mean_latency_relative_to_Intel": 0.5915221579961464
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "32",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 60044.0,
+              "mean_latency": 0.00053195,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 148746.0,
+              "mean_latency": 0.00021854,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.477283325561255,
+              "rental_cost_per_operation_relative_to_Intel": 0.4642634891374422,
+              "mean_latency_relative_to_Intel": 0.41082808534636717
+            },
+            "m9g.4xlarge": {
+              "rps": 124322.0,
+              "mean_latency": 0.00027286,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.070514955699154,
+              "rental_cost_per_operation_relative_to_Intel": 0.4464649831015304,
+              "mean_latency_relative_to_Intel": 0.5129429457655794
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "32",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 57006.0,
+              "mean_latency": 0.00115,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 131382.0,
+              "mean_latency": 0.00052237,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.3047047679191666,
+              "rental_cost_per_operation_relative_to_Intel": 0.4990279953928627,
+              "mean_latency_relative_to_Intel": 0.45423478260869565
+            },
+            "m9g.4xlarge": {
+              "rps": 106094.0,
+              "mean_latency": 0.0006601,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8611023401045503,
+              "rental_cost_per_operation_relative_to_Intel": 0.4967015541207467,
+              "mean_latency_relative_to_Intel": 0.5740000000000001
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "64",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 56351.0,
+              "mean_latency": 0.00228,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 97884.0,
+              "mean_latency": 0.00136,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7370410462990897,
+              "rental_cost_per_operation_relative_to_Intel": 0.6621099730242322,
+              "mean_latency_relative_to_Intel": 0.5964912280701755
+            },
+            "m9g.4xlarge": {
+              "rps": 91305.0,
+              "mean_latency": 0.0014,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6202906780713742,
+              "rental_cost_per_operation_relative_to_Intel": 0.5705225841378123,
+              "mean_latency_relative_to_Intel": 0.6140350877192983
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "64",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 49957.0,
+              "mean_latency": 0.00511,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 82079.0,
+              "mean_latency": 0.00312,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6429929739576035,
+              "rental_cost_per_operation_relative_to_Intel": 0.700010419117442,
+              "mean_latency_relative_to_Intel": 0.6105675146771037
+            },
+            "m9g.4xlarge": {
+              "rps": 85478.0,
+              "mean_latency": 0.00297,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7110314870788879,
+              "rental_cost_per_operation_relative_to_Intel": 0.5402661679159784,
+              "mean_latency_relative_to_Intel": 0.5812133072407045
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "512k",
+            "threads": "64",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 58073.0,
+              "mean_latency": 0.00114,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 129705.0,
+              "mean_latency": 0.0005597,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 2.2334819967971344,
+              "rental_cost_per_operation_relative_to_Intel": 0.5149413346319166,
+              "mean_latency_relative_to_Intel": 0.49096491228070177
+            },
+            "m9g.4xlarge": {
+              "rps": 107669.0,
+              "mean_latency": 0.00059779,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8540285502729323,
+              "rental_cost_per_operation_relative_to_Intel": 0.4985966502897733,
+              "mean_latency_relative_to_Intel": 0.5243771929824561
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "16",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 358510.0,
+              "mean_latency": 0.00033175,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 576685.0,
+              "mean_latency": 0.00021115,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6085604306713899,
+              "rental_cost_per_operation_relative_to_Intel": 0.7149947110330411,
+              "mean_latency_relative_to_Intel": 0.6364732479276564
+            },
+            "m9g.4xlarge": {
+              "rps": 644160.0,
+              "mean_latency": 0.00018855,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7967699645756046,
+              "rental_cost_per_operation_relative_to_Intel": 0.5144856842740211,
+              "mean_latency_relative_to_Intel": 0.5683496608892238
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "16",
+            "connections": "16"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 398991.0,
+              "mean_latency": 4.045e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 726602.0,
+              "mean_latency": 2.19e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.821098721525047,
+              "rental_cost_per_operation_relative_to_Intel": 0.6315485188765239,
+              "mean_latency_relative_to_Intel": 0.5414091470951793
+            },
+            "m9g.4xlarge": {
+              "rps": 698104.0,
+              "mean_latency": 2.225e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7496735515337438,
+              "rental_cost_per_operation_relative_to_Intel": 0.5283342277748665,
+              "mean_latency_relative_to_Intel": 0.5500618046971569
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "16",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 358770.0,
+              "mean_latency": 0.00069619,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 598954.0,
+              "mean_latency": 0.00041329,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6694651169272794,
+              "rental_cost_per_operation_relative_to_Intel": 0.6889105909705405,
+              "mean_latency_relative_to_Intel": 0.5936454128901594
+            },
+            "m9g.4xlarge": {
+              "rps": 651846.0,
+              "mean_latency": 0.00038385,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.816891044401706,
+              "rental_cost_per_operation_relative_to_Intel": 0.5087880352297589,
+              "mean_latency_relative_to_Intel": 0.5513581062640945
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "16",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 472950.0,
+              "mean_latency": 6.185e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 730739.0,
+              "mean_latency": 4.202e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.545066074637911,
+              "rental_cost_per_operation_relative_to_Intel": 0.7443773565325388,
+              "mean_latency_relative_to_Intel": 0.6793856103476152
+            },
+            "m9g.4xlarge": {
+              "rps": 562634.0,
+              "mean_latency": 5.22e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.1896268104450787,
+              "rental_cost_per_operation_relative_to_Intel": 0.7770608535308946,
+              "mean_latency_relative_to_Intel": 0.8439773645917543
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "16",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 355016.0,
+              "mean_latency": 0.00138,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 551188.0,
+              "mean_latency": 0.00082984,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5525722784325213,
+              "rental_cost_per_operation_relative_to_Intel": 0.7407785236692678,
+              "mean_latency_relative_to_Intel": 0.6013333333333334
+            },
+            "m9g.4xlarge": {
+              "rps": 625064.0,
+              "mean_latency": 0.00074919,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7606643080875228,
+              "rental_cost_per_operation_relative_to_Intel": 0.5250361584894103,
+              "mean_latency_relative_to_Intel": 0.5428913043478261
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "16",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 372342.0,
+              "mean_latency": 0.00015663,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 589044.0,
+              "mean_latency": 0.00010129,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.581997196126142,
+              "rental_cost_per_operation_relative_to_Intel": 0.7270001508999951,
+              "mean_latency_relative_to_Intel": 0.6466832662963673
+            },
+            "m9g.4xlarge": {
+              "rps": 613794.0,
+              "mean_latency": 9.475e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6484683436195755,
+              "rental_cost_per_operation_relative_to_Intel": 0.5607705045023414,
+              "mean_latency_relative_to_Intel": 0.6049288131264764
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "32",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 352613.0,
+              "mean_latency": 0.00043442,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 608362.0,
+              "mean_latency": 0.00028498,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7252965715954884,
+              "rental_cost_per_operation_relative_to_Intel": 0.6666171018026742,
+              "mean_latency_relative_to_Intel": 0.6560011049215045
+            },
+            "m9g.4xlarge": {
+              "rps": 637093.0,
+              "mean_latency": 0.00025494,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8067768346600948,
+              "rental_cost_per_operation_relative_to_Intel": 0.5116361948937631,
+              "mean_latency_relative_to_Intel": 0.5868514340960361
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "32",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 346122.0,
+              "mean_latency": 0.00091,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 586628.0,
+              "mean_latency": 0.00064405,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6948590381426203,
+              "rental_cost_per_operation_relative_to_Intel": 0.6785887052692425,
+              "mean_latency_relative_to_Intel": 0.7077472527472527
+            },
+            "m9g.4xlarge": {
+              "rps": 633755.0,
+              "mean_latency": 0.00055087,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8310162312710547,
+              "rental_cost_per_operation_relative_to_Intel": 0.5048630421293316,
+              "mean_latency_relative_to_Intel": 0.6053516483516483
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "32",
+            "connections": "32"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 470463.0,
+              "mean_latency": 6.848e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 745894.0,
+              "mean_latency": 4.452e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5854466769969158,
+              "rental_cost_per_operation_relative_to_Intel": 0.7254184054209676,
+              "mean_latency_relative_to_Intel": 0.6501168224299066
+            },
+            "m9g.4xlarge": {
+              "rps": 708599.0,
+              "mean_latency": 4.46e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.50617370547737,
+              "rental_cost_per_operation_relative_to_Intel": 0.6137488799239814,
+              "mean_latency_relative_to_Intel": 0.651285046728972
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "32",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 342503.0,
+              "mean_latency": 0.00161,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 574406.0,
+              "mean_latency": 0.0011,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6770831204398209,
+              "rental_cost_per_operation_relative_to_Intel": 0.6857812748156773,
+              "mean_latency_relative_to_Intel": 0.6832298136645962
+            },
+            "m9g.4xlarge": {
+              "rps": 612499.0,
+              "mean_latency": 0.00099,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7883025842109412,
+              "rental_cost_per_operation_relative_to_Intel": 0.5169217071369218,
+              "mean_latency_relative_to_Intel": 0.6149068322981366
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "32",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 368397.0,
+              "mean_latency": 0.00018016,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 587111.0,
+              "mean_latency": 0.00011447,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.5936910452582405,
+              "rental_cost_per_operation_relative_to_Intel": 0.7216657229323337,
+              "mean_latency_relative_to_Intel": 0.6353796625222025
+            },
+            "m9g.4xlarge": {
+              "rps": 619842.0,
+              "mean_latency": 0.00010199,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.6825381314180083,
+              "rental_cost_per_operation_relative_to_Intel": 0.5494154381681756,
+              "mean_latency_relative_to_Intel": 0.5661079040852576
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "64",
+            "connections": "128"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 348530.0,
+              "mean_latency": 0.00045601,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 612400.0,
+              "mean_latency": 0.00028832,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.757094080853872,
+              "rental_cost_per_operation_relative_to_Intel": 0.6545535682119933,
+              "mean_latency_relative_to_Intel": 0.6322668362535909
+            },
+            "m9g.4xlarge": {
+              "rps": 626471.0,
+              "mean_latency": 0.00022393,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.797466502166241,
+              "rental_cost_per_operation_relative_to_Intel": 0.5142863155411355,
+              "mean_latency_relative_to_Intel": 0.49106379246069165
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "64",
+            "connections": "256"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 328153.0,
+              "mean_latency": 0.0009,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 582964.0,
+              "mean_latency": 0.00059901,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7765005957586857,
+              "rental_cost_per_operation_relative_to_Intel": 0.6474032167807402,
+              "mean_latency_relative_to_Intel": 0.6655666666666666
+            },
+            "m9g.4xlarge": {
+              "rps": 600840.0,
+              "mean_latency": 0.00053549,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8309751853556115,
+              "rental_cost_per_operation_relative_to_Intel": 0.504874359904637,
+              "mean_latency_relative_to_Intel": 0.5949888888888889
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "64",
+            "connections": "512"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 326487.0,
+              "mean_latency": 0.00167,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 556682.0,
+              "mean_latency": 0.00105,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7050663579254304,
+              "rental_cost_per_operation_relative_to_Intel": 0.6745263578518003,
+              "mean_latency_relative_to_Intel": 0.6287425149700598
+            },
+            "m9g.4xlarge": {
+              "rps": 580695.0,
+              "mean_latency": 0.00099,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7786159938986852,
+              "rental_cost_per_operation_relative_to_Intel": 0.5197369347170875,
+              "mean_latency_relative_to_Intel": 0.592814371257485
+            }
+          }
+        },
+        {
+          "config": {
+            "size": "64k",
+            "threads": "64",
+            "connections": "64"
+          },
+          "measurements": {
+            "m8i.4xlarge": {
+              "rps": 391581.0,
+              "mean_latency": 0.00017117,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.0,
+              "rental_cost_per_operation_relative_to_Intel": 1.0,
+              "mean_latency_relative_to_Intel": 1.0
+            },
+            "m8a.4xlarge": {
+              "rps": 707883.0,
+              "mean_latency": 9.793e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.8077562496648203,
+              "rental_cost_per_operation_relative_to_Intel": 0.6362097769100891,
+              "mean_latency_relative_to_Intel": 0.5721212829350938
+            },
+            "m9g.4xlarge": {
+              "rps": 696304.0,
+              "mean_latency": 9.288e-05,
+              "latency_unit": "seconds",
+              "throughput_relative_to_Intel": 1.7781863777864606,
+              "rental_cost_per_operation_relative_to_Intel": 0.5198625049970436,
+              "mean_latency_relative_to_Intel": 0.5426184494946544
+            }
+          }
+        }
+      ],
+      "summary": {
+        "m8a.4xlarge": {
+          "comparison_count": 69,
+          "lower_cost_configurations": 69,
+          "cost_ratio_range": [
+            0.4642634891374422,
+            0.9264739637099058
+          ],
+          "throughput_ratio_range": [
+            1.241386423533855,
+            2.477283325561255
+          ],
+          "no_worse_mean_latency_configurations": 69,
+          "mean_latency_ratio_range": [
+            0.41082808534636717,
+            0.9036872501110618
+          ],
+          "lower_cost_and_no_worse_mean_latency_configurations": 69
+        },
+        "m9g.4xlarge": {
+          "comparison_count": 69,
+          "lower_cost_configurations": 69,
+          "cost_ratio_range": [
+            0.400302015849269,
+            0.8818292714541598
+          ],
+          "throughput_ratio_range": [
+            1.0482895665090681,
+            2.309287458236957
+          ],
+          "no_worse_mean_latency_configurations": 67,
+          "mean_latency_ratio_range": [
+            0.4312458646323901,
+            1.9857210851975249
+          ],
+          "lower_cost_and_no_worse_mean_latency_configurations": 67
+        }
+      }
+    }
+  },
+  "interpretation": {
+    "measurement": "Derived comparison of archival third-party measurements and separately dated cloud rental prices; no newly executed workload experiment.",
+    "matching": "All 69 static-web configurations and 6 Redis configurations shared across three 16-vCPU, 64-GiB AWS product sizes; identical task hashes and same recorded server/tool versions. Redis memtier client version is not recorded and is not pinned. Intel exposes 8 physical cores with SMT while AMD/Arm expose 16 cores. Dates and binaries are not identical.",
+    "not_estimated": [
+      "Intel net CPU prices",
+      "per-package gross margin",
+      "CPU-only causal performance",
+      "representative production application economics",
+      "market share",
+      "statistical significance"
+    ],
+    "purpose": "Evidence that customer choice depends on completed-work economics and software/workload fit. A low advertised cloud price or higher CPU package ASP alone cannot validate the investment thesis.",
+    "pricing_scope": "Linux, Shared tenancy, No License required, NA preinstalled software, Used capacity, OnDemand in us-east-1 per Spare Cores crawler filter; no EBS, network, discounts, tax, migration or licenses. Measured server and client share the VM.",
+    "license": "Spare Cores raw records CC BY-SA 4.0. All ratios are our derived calculations, not reported manufacturer comparisons.",
+    "configuration_count_warning": "75 parameter configurations are correlated observations on three archived VM test runs, not 75 independent experiments. There are no confidence intervals or population-level statistical claims.",
+    "latency_warning": "No independent production service-level objective was specified. Mean latency is retained with each throughput observation and descriptive dominance is counted; there are no tail-latency measurements in these files. No-worse latency is a post-computation robustness diagnostic, not a claim of an ex ante threshold.",
+    "Redis_aggregation": "rps sums SET operations per second from all client processes. Latency is the unweighted mean of each client's mean; it is not an operation-weighted mean. One client/server pair is launched per CPU in the container affinity set. A positive aggregate does not prove every client succeeded.",
+    "harness_error_limits": "Redis harness does not enforce memtier exit codes or successful flush. Static-web failed counts only non-2xx/3xx responses; connect/read/write/timeout errors are not saved. Task exit zero and failed zero do not establish error-free execution.",
+    "run_design": "Each workload configuration runs once for 10 seconds, with no warmup or repetitions. Both workloads use loopback. Redis tests SET only; static-web tests zero-filled in-memory cached files over plain HTTP.",
+    "post_audit_disposition": "Exploratory comparison of reported benchmark throughput normalized by current rental price. Do not present this as validated production request cost, a controlled experiment, or definitive CPU economics. Missing per-client/error records cannot be repaired from these aggregate outputs."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "computed_utc": "2026-11-05T23:08:46.420652+00:00",
+  "policy": {
+    "frozen_utc": "2026-11-05T23:08:46.401114+00:00",
+    "scope": "Conditional discount-rate identification at current52.22quote using unchanged40%maturemargin and all current operating/treasury assumptions. No prospective ratechange, customer award, probability or valueupgrade.",
+    "method": "Solve constant operating/APV rate soDec312026planning equity value equals52.22. Same rate convention applies to operatingcash and separatefinancingtaxshield as frozenbase. Preserve3%operatinggrowth andzero-growthfinancingtaxshield.",
+    "date_limit": "Nov52026quote precedesDec31planning valuation56days. This is a planning-framework implied rate, not an exactNov5market-implied operating cost; fullQ4cash and financing stub needed for alignedquote-datevalue.",
+    "hurdle": "10.0345%basefuturepricereturn is conditional on achievingbase. It is not probability-weightedexpectedreturn. Assetdiscount11.555%cannot be directly treated as equityrequiredreturn because cash/debt/claims and horizons differ."
+  },
+  "constant_rate_matching52_22_Dec2026_planning_value": 0.11435124916800227,
+  "change_vs_selected_rate_basis_points": -11.98750831997733,
+  "planning_price_reconstruction": 52.22,
+  "2030target_at_conditionally_identified_rate": 78.78498604949067,
+  "difference_in_interpretation": "A relatively small rate reduction mathematically closes the0.9329planning-price gap. It does not create an economic margin of safety, identify a unique marketbelief, or establish expectedalpha."
+}

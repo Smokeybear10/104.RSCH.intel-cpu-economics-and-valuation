@@ -1,0 +1,138 @@
+{
+  "completed_utc": "2026-11-05T22:09:03.354444+00:00",
+  "scope": "Research and arithmetic only; no pitch/model changes",
+  "quarterly_2026": [
+    {
+      "quarter": "Q1 2026",
+      "DCAI_revenue_B": 5.052,
+      "DCAI_operating_income_B": 1.542,
+      "DCAI_margin": 0.30522565320665085,
+      "prior_year_revenue_B": 4.126,
+      "prior_year_operating_income_B": 0.575,
+      "prior_year_margin": 0.13936015511391175,
+      "YoY_OI_increase_B": 0.9670000000000001,
+      "Other_DCAI_revenue_B": 0.935,
+      "Other_rounding_note": "Q3 rounded to1.4B; Q1/Q2 disclosed in millions",
+      "server_volume_growth_YoY": -0.05,
+      "server_ASP_growth_YoY": 0.27,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm"
+    },
+    {
+      "quarter": "Q2 2026",
+      "DCAI_revenue_B": 6.262,
+      "DCAI_operating_income_B": 2.474,
+      "DCAI_margin": 0.39508144362823383,
+      "prior_year_revenue_B": 3.939,
+      "prior_year_operating_income_B": 0.633,
+      "prior_year_margin": 0.1607006854531607,
+      "YoY_OI_increase_B": 1.8410000000000002,
+      "Other_DCAI_revenue_B": 0.951,
+      "Other_rounding_note": "Q3 rounded to1.4B; Q1/Q2 disclosed in millions",
+      "server_volume_growth_YoY": 0.09,
+      "server_ASP_growth_YoY": 0.48,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm"
+    },
+    {
+      "quarter": "Q3 2026",
+      "DCAI_revenue_B": 7.318,
+      "DCAI_operating_income_B": 3.039,
+      "DCAI_margin": 0.4152773981962285,
+      "prior_year_revenue_B": 4.117,
+      "prior_year_operating_income_B": 0.964,
+      "prior_year_margin": 0.23415108088413894,
+      "YoY_OI_increase_B": 2.075,
+      "Other_DCAI_revenue_B": 1.4,
+      "Other_rounding_note": "Q3 rounded to1.4B; Q1/Q2 disclosed in millions",
+      "server_volume_growth_YoY": 0.1,
+      "server_ASP_growth_YoY": 0.54,
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+    }
+  ],
+  "annual_history": [
+    {
+      "year": 2023,
+      "revenue_B": 15.98,
+      "operating_income_B": 0.945,
+      "margin": 0.05913642052565707,
+      "basis": "2025 Form10-K retrospectively adjusted segment data after NEX integration",
+      "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+    },
+    {
+      "year": 2024,
+      "revenue_B": 16.125,
+      "operating_income_B": 1.414,
+      "margin": 0.08768992248062014,
+      "basis": "2025 Form10-K retrospectively adjusted segment data after NEX integration",
+      "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+    },
+    {
+      "year": 2025,
+      "revenue_B": 16.919,
+      "operating_income_B": 3.422,
+      "margin": 0.20225781665583073,
+      "basis": "2025 Form10-K retrospectively adjusted segment data after NEX integration",
+      "source": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+    }
+  ],
+  "YTD_actual_profit_bridge": {
+    "period": "YTD2026 vsYTD2025",
+    "DCAI_OI_2025_B": 2.172,
+    "DCAI_OI_2026_B": 7.055,
+    "OI_change_B": 4.882999999999999,
+    "higher_product_profit_B_rounded": 4.5,
+    "lower_period_charges_B": 0.403,
+    "residual_B_approx": -0.020000000000000906,
+    "higher_product_profit_share_of_OI_change_approx": 0.9215646119189025,
+    "lower_period_charges_share_of_OI_change": 0.08253123080073727,
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "interpretation": "Management attribution: product profit reflects higher server revenue, partly offset by higher unit costs from premium mix. Lower period charges primarily reflect absence of prior-year Gaudi inventory-related charges. Rounded components are not an exact audited causal decomposition; residual is arithmetic, not a named cost bucket."
+  },
+  "Q1_actual_profit_bridge": {
+    "delta_B": 0.9670000000000001,
+    "higher_product_profit_B": 0.604,
+    "lower_period_charges_B": 0.331,
+    "residual_B": 0.032000000000000084,
+    "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+    "interpretation": "Q1 improvement contains material charge comparison, so do not attribute entire margin gain to premium mix."
+  },
+  "forward_comparison": {
+    "2027_forecast_units_growth": 0.2,
+    "2027_forecast_ASP_growth": 0.2,
+    "2027_forecast_CPU_revenue_growth": 0.43999999999999995,
+    "latest_actual_units_YoY": 0.1,
+    "latest_actual_ASP_YoY": 0.54,
+    "interpretation": "2027 forecast slows ASP growth but assumes faster unit growth. The20%ASP forecast is not automatically conservative: comparison mixes full-year forward assumptions with a quarter YoY growth rate, and supply/demand regime can change."
+  },
+  "optional_Q4_2025_derived": {
+    "revenue_B": 4.737,
+    "operating_income_B": 1.25,
+    "margin": 0.26388009288579267,
+    "derivation": "FY2025 annual minus Q3 2026 filing YTD2025 comparative",
+    "sources": [
+      "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+    ]
+  },
+  "accounting_boundaries": [
+    "DCAI quarterly values cross-foot:5.052+6.262+7.318=18.632B and1.542+2.474+3.039=7.055B. No DCAI perimeter change found in2026segment notes; CCG renamedCCPG.",
+    "Older2023\u20132024 figures use the expressly restated2025Form10-K, not unrecast old presentations. Annual versus quarterly periods must be labeled.",
+    "Segment expenses include manufacturing intersegment charges; Foundry transfer prices approximate market prices. Corporate SBC/restructuring and manufacturing development costs can sit outsideDCAI; consolidate once.",
+    "OtherDCAI profitability is not disclosed. Neither overall segment margins nor ASP growth identify standaloneCPU pricing power.",
+    "Supply constraints persist into2027 per management; two quarters near40% are evidence of a current earning level, not an across-cycle floor."
+  ],
+  "page5_proposed": {
+    "heading": "The profit recovery now comes mainly from products.",
+    "left_exhibit": "2026 reported DCAI revenue, profit and margin trend:Q1 30.5%,Q2 39.5%,Q3 41.5%. Separate serverASP27/48/54% and unit\u22125/9/10% YoY row.",
+    "right_exhibit": "YTD profit bridge:2.172B prior OI +4.5B productprofit +.403B lowerperiodcharges \u2212.020B residual\u22487.055B. Label attribution from issuer; amounts rounded.",
+    "investment_judgment": "This supports a premium-platform operating recovery rather than a thesis resting solely on disappearing charges. Maintaining40% after scarcity fades still requires mix/cost benefits to offset competition.",
+    "counterevidence": "Full-yearDCAI margin was20.2% in2025; Q2/YTD anchor sensitivities still imply roughly37/36% mature blend. A current recovery is not a demonstrated long-run margin floor.",
+    "move_to_defense": "Retain exact conditional Othermargin15/20/25% mix diagnostic in defense notes; it is useful mechanics, weaker central exhibit."
+  },
+  "what_changed": "New actual3quarter history plus disclosed dollar attribution separates product-led earnings improvement from lower charges. This bridges more of the evidence-to-assumption gap than the old one-quarter algebra but does not eliminate the unsupported duration assumption.",
+  "sources": {
+    "q1_2026": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+    "q2_2026": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+    "q3_2026": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "fy2025": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+  }
+}

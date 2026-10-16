@@ -1,0 +1,112 @@
+{
+  "computed_utc": "2026-11-05T23:16:16.773617+00:00",
+  "purpose": "Independent calculation of a revenue exit-run-rate bridge, not an ASP carryover estimate or new forecast.",
+  "input_files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json",
+      "sha256": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_policy_2026_11_04.json",
+      "sha256": "8a350e92f2f7519809f1eb59a213e8c7c1c401435ce3f25822733f39c9297a41"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locators": [
+        "segment table: Q3 DCAI revenue7.318B, nine-month DCAI18.632B",
+        "MD&A Intel Products: Q3 Other DCAI1.4B, YTD Other DCAI3.3B"
+      ],
+      "scope": "Exact segment disclosures in millions; rounded MD&A subsegment allocations in tenths of billions."
+    },
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "page7 Q4 outlook",
+      "scope": "DCAI mid-teens sequential growth; purpose-built silicon faster than DCAI. No exact CPU-only or Other DCAI growth guidance."
+    }
+  ],
+  "selected_assumptions": {
+    "Q4_DCAI_sequential_growth": 0.15,
+    "Q4_Other_DCAI_sequential_growth": 0.35,
+    "2027_unit_growth": 0.2,
+    "2027_ASP_growth": 0.2
+  },
+  "bridge_B": {
+    "Q3_DCAI_reported": 7.318,
+    "Q3_Other_DCAI_reported_rounded": 1.4,
+    "Q3_CPU_proxy": 5.917999999999999,
+    "YTD_DCAI_reported": 18.632,
+    "YTD_Other_DCAI_reported_rounded": 3.3,
+    "YTD_CPU_proxy": 15.332,
+    "Q4_DCAI_forecast": 8.4157,
+    "Q4_Other_DCAI_forecast": 1.89,
+    "Q4_CPU_forecast_proxy": 6.5257,
+    "FY2026_CPU_forecast_proxy": 21.8577,
+    "Q4_CPU_annualized_forecast_proxy": 26.1028,
+    "FY2027_CPU_forecast_proxy": 31.475088,
+    "FY2026_to_exit_run_rate_difference": 4.245099999999997,
+    "exit_run_rate_to_FY2027_difference": 5.372288000000001
+  },
+  "growth_rates": {
+    "FY2027_vs_FY2026": 0.43999999999999995,
+    "flat_Q4_run_rate_vs_FY2026": 0.1942153108515534,
+    "FY2027_vs_Q4_run_rate": 0.20581270974761323,
+    "FY2027_vs_Q3_run_rate": 0.32963366002027716
+  },
+  "model_reconciliation": {
+    "Q4_proxy_error_B": 0.0,
+    "FY2026_proxy_error_B": 0.0,
+    "FY2027_proxy_error_B": -3.552713678800501e-15
+  },
+  "rounding_diagnostic": {
+    "assumption": "Treat rounded MD&A1.4B and3.3B as nearest0.1B (\u00b10.05B) and retain15%/35%/20%/20% judgments. Illustrative numerical rounding sensitivity, not a statistical confidence interval. Intel does not disclose subsegment absolute units or exact pricing.",
+    "corners": [
+      {
+        "Q3_Other_DCAI_B": 1.35,
+        "YTD_Other_DCAI_B": 3.25,
+        "Q4_CPU_proxy_B": 6.5931999999999995,
+        "FY2027_CPU_proxy_B": 31.644288,
+        "FY2027_vs_Q4_annualized_growth": 0.1998835163501791
+      },
+      {
+        "Q3_Other_DCAI_B": 1.35,
+        "YTD_Other_DCAI_B": 3.35,
+        "Q4_CPU_proxy_B": 6.5931999999999995,
+        "FY2027_CPU_proxy_B": 31.500287999999998,
+        "FY2027_vs_Q4_annualized_growth": 0.1944233452648183
+      },
+      {
+        "Q3_Other_DCAI_B": 1.45,
+        "YTD_Other_DCAI_B": 3.25,
+        "Q4_CPU_proxy_B": 6.4582,
+        "FY2027_CPU_proxy_B": 31.449888,
+        "FY2027_vs_Q4_annualized_growth": 0.21744015360317137
+      },
+      {
+        "Q3_Other_DCAI_B": 1.45,
+        "YTD_Other_DCAI_B": 3.35,
+        "Q4_CPU_proxy_B": 6.4582,
+        "FY2027_CPU_proxy_B": 31.305888,
+        "FY2027_vs_Q4_annualized_growth": 0.21186584497228322
+      }
+    ],
+    "minimum_FY2027_growth_vs_Q4_run_rate": 0.1944233452648183,
+    "maximum_FY2027_growth_vs_Q4_run_rate": 0.21744015360317137
+  },
+  "recommended_exhibit": "2026E CPU sales $21.9B \u2192 modeled Q4 annualized $26.1B \u2192 2027E $31.5B. The forecast is44% above FY2026E, or20.6% above the modeled exit run rate.",
+  "required_label": "Q4 is my forecast: DCAI +15% sequentially; Other DCAI +35%. CPU sales are a residual allocation using rounded disclosures. Annualization is a comparison, not an assertion that Q4 is sustainable.",
+  "do_not_say": [
+    "20.6% of observed growth",
+    "20.6% unit growth",
+    "20.6% ASP carryover",
+    "management guides CPU sales to26.1B annualized",
+    "19.4% of 2027 growth is guaranteed",
+    "carryover de-risks customer acceptance or margin retention"
+  ],
+  "judgment": "Useful affirmative context because the annual growth target builds from a higher modeled year-end revenue level. The addition clarifies the revenue hurdle but provides no new valuation upside and inherits unobserved Q4 mix and volume assumptions."
+}

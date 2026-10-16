@@ -1,0 +1,57 @@
+{
+  "read_utc": "2026-11-04T17:14:37.846904+00:00",
+  "sources": [
+    "https://www.m37.com/spc2026",
+    "https://www.pennwitg.com/m37"
+  ],
+  "official_requirements": {
+    "eligible": "Currently enrolled undergraduate or graduate STEM student; WITG invitation specifies UPenn. Individual entries only.",
+    "choice": "Intel or SpaceX; a clear LONG or SHORT recommendation based on fundamental analysis addressing a three-to-five-year investment horizon.",
+    "round1": {
+      "due": "2026-11-09",
+      "format": "PDF, at most10pages",
+      "content": [
+        "Brief business and profit-generation overview",
+        "Recommendation and principal supporting drivers",
+        "Risks to the theses"
+      ],
+      "accompanying": "Name, class year and resume; these do not count toward the10-page limit. No submission sent by this research task."
+    },
+    "round2": {
+      "due": "2026-11-30",
+      "content": "Business, industry, competitive position, financial and operating evidence, valuation and risks; cite third-party data and material claims; sufficient quantitative support."
+    },
+    "final": {
+      "date": "2026-12-05",
+      "location": "M37 office, Menlo Park",
+      "evaluation": "Individual defense of assumptions, counterarguments, evidence, valuation and what would change the investment view."
+    },
+    "judging_priority": "Investment theses and judgment rather than modeling skills."
+  },
+  "requirements_not_found_on_these_pages": [
+    "Proof of future stock-price outcomes",
+    "A prescribed valuation method or minimum expected return",
+    "A fully observed consensus model",
+    "A thesis surviving every conceivable optimistic scenario",
+    "A mandatory unchanged holding period through one exact calendar endpoint",
+    "Proprietary data or a novel algorithm"
+  ],
+  "reasoning_standard": {
+    "facts": "Company disclosures, source dates, numerical claims and definitions must be accurate. An attractive story does not excuse false premises.",
+    "forecasts": "Forecasts can be wrong. Show the causal mechanism, the basis for selected assumptions, meaningful uncertainty and the observations that would falsify the view.",
+    "recommendation": "Round1 cannot stop at neutral scenario analysis. Choose the strongest defensible provisional side, with stated valuation and timing logic, while being willing to change it when evidence warrants.",
+    "horizon": "Use three-to-five-year fundamentals to support value. An earlier repricing thesis can be argued, but it requires an explicit timing rationale and cannot be assumed as certainty.",
+    "research_efficiency": "Build the smallest quantitative chain that substantiates the recommendation. Additional models should resolve a decision, not create a barrier to making a judgment."
+  },
+  "round1_argument_structure": [
+    "Recommendation, reference price/date, value range and central causal claim",
+    "How Intel earns product profit and bears manufacturing costs; eliminate internal Foundry revenue",
+    "Server growth: accepted CPU shipments, product mix, realized ASP and costs",
+    "Capacity timeline: qualified output and customer attribution, not investment headlines alone",
+    "Cash conversion: operating profit through required capital, working capital, taxes and financing",
+    "Valuation: explicit assumptions, alternative outcome and conditional repricing rationale",
+    "Strongest opposing case and what would change the recommendation",
+    "Key sources and concise risk discussion"
+  ],
+  "interpretation_note": "The eight-part structure and reasoning standard are our design choices, not a separately published M37 scoring rubric."
+}

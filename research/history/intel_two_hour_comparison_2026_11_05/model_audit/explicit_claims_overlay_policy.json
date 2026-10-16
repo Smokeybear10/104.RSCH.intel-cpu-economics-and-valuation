@@ -1,0 +1,46 @@
+{
+  "frozen_utc": "2026-11-05T23:42:00.915588+00:00",
+  "authorization": "Root instructed adoption of a1.215B explicit additional reserve following full-note review and discovery of existing EC collateral. No frozen operating model is changed.",
+  "claims_B": {
+    "Altera_SLP_unpaid_separation_and_employee_costs": 0.215,
+    "VLSI_recorded_litigation_accrual": 1.0,
+    "total_additional_reserve": 1.215
+  },
+  "valuation_method": "Deduct1.215B as a separate nominal nonoperating claim at every endpoint, alongside existing other assets/claims. No tax benefit, expected settlement date, recovery, speculative interest or probability-weighted legal outcome is assigned. The VLSI book accrual is not a maximum loss.",
+  "coverage_policy": "Existing Q4 CFO, future corporate restructuring and working-capital budgets explicitly exclude payments against these two named reserves. If a payment is subsequently modeled, reduce cash and release the same reserve once; never also deduct the unchanged reserve. Do not expense a previously accrued settlement again in operating EBIT.",
+  "EC_matched_treatment": "Do not add the312M EC accrual as an additional claim while all552M restricted cash remains excluded. The2025annual filing explicitly identifies340M of funded EC guarantee deposits; the latest quarter gives no refreshed EC collateral split or release. Retain the existing exclusion and grant no28M surplus recovery. This does not assert an exact2026EC restricted balance.",
+  "unchanged": [
+    "Operating revenue, margins, capital, D&A, WC and tax/credit forecasts.",
+    "Current5.51Bplanning shares and52.22entry.",
+    "Treasury cash balances before settlement against these newly explicit reserves.",
+    "Operating discount11.555%, terminalgrowth3% and named old/favorable risk cases.",
+    "Original frozen model files and current PDF files."
+  ],
+  "requested_outputs": [
+    "All main screen and defense scenario prices and annual price returns.",
+    "Temporary2027CPUshipmentdelay.",
+    "Base entry ceilings at8/10/12/15%chosen return hurdles.",
+    "Conditional mature-DCAI-margin roots matching52.22planning value under base CPU growth and3%CPUrevenue growth from2031.",
+    "Reconciled absolute base APV and unchanged operating-value duration percentages."
+  ],
+  "quote_date_limit": "Reference quote November5,2026 precedes December31,2026 planning valuation by56days. Do not call reverse roots unique market expectations.",
+  "sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "printed_pages": [
+        19,
+        25,
+        27
+      ],
+      "facts": "Altera169Mcurrent+46Mlong-termpayable; VLSI1Baccrual remains active; EC312Maccrual."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "printed_pages": [
+        31,
+        82
+      ],
+      "facts": "340M deposited into legally restricted accounts to fund the EC guarantee."
+    }
+  ]
+}

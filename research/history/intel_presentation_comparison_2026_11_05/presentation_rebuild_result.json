@@ -1,0 +1,54 @@
+{
+  "as_of_utc": "2026-11-05T07:01:21.909274+00:00",
+  "request": "Match wording and look to actual winning pitch examples; identify content present there but missing here.",
+  "references": [
+    "Waterloo 2026 Lightspeed presentation",
+    "Yale 2025 Middleby presentation"
+  ],
+  "Josh_pitch_available": false,
+  "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+  "sha256": "ea665a5f1eff126ce1d7502f24ea2680662fb01874ab84261f62dfe13a8f4fdc",
+  "pages": 10,
+  "changes": [
+    "Landscape 16:9, sans-serif type, navy/blue/red palette, numbered claim bands and section navigation",
+    "Shorter claim headlines, comparison tables and larger exhibits",
+    "Q3 2026 actual revenue, operating profit and DCAI margin snapshot",
+    "Published-evidence / own-forecast / implication comparison",
+    "Sequential central-to-bull valuation bridge",
+    "2027-2030 operating checkpoint timeline"
+  ],
+  "substantive_research_gaps_remaining": [
+    "No fully matched forecast-versus-consensus gap supported by superior evidence",
+    "No original customer, channel or expert interviews conducted",
+    "No reconciled peer-multiple or SOTP crosscheck; integrated foundry/product economics complicate comparability",
+    "No demonstrated repricing catalyst; forecast checkpoints are observation windows"
+  ],
+  "qa": {
+    "pages": 10,
+    "page_size_points": [
+      960,
+      540
+    ],
+    "source_hyperlinks": 18,
+    "all_pages_rendered_and_visually_inspected": true,
+    "changed_pages_rechecked_after_final_edits": [
+      3,
+      5,
+      7
+    ],
+    "all_text_inside_page_bounds": true,
+    "layout_defects_observed": false,
+    "source_model_unchanged": true,
+    "independent_numeric_editorial_checks_passed": 87,
+    "independent_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_presentation_comparison_2026_11_05/landscape_numerical_editorial_verification.json",
+    "review_corrections_applied": [
+      "Replaced ambiguous greater-than glyphs with directional arrows",
+      "Labeled final valuation increment as joint margin and capital-productivity change",
+      "Retained date mismatch, adverse method control and no-consensus-gap limitations"
+    ],
+    "submitted": false
+  },
+  "investment_conclusion": "Moderate-conviction conditional relative SHORT unchanged; improved presentation does not establish robust alpha or calibrated winning odds.",
+  "model_changed": false,
+  "submitted": false
+}

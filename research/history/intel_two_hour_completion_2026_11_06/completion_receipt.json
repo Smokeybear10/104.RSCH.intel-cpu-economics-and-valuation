@@ -1,0 +1,127 @@
+{
+  "completed_utc": "2026-11-06T16:34:23.126419+00:00",
+  "scope": "Two-hour research pass and current user question about weak and provable claims",
+  "tracked_active_seconds_observed": 7401,
+  "wall_clock_gap_excluded": true,
+  "requirements": [
+    {
+      "id": "R1",
+      "requirement": "At least two hours of genuine research, modeling and review from goal start",
+      "status": "complete"
+    },
+    {
+      "id": "R2",
+      "requirement": "Complete historical/consolidated annual revenue bridge with explicit forecast policies for missing external Foundry and AllOther eliminations",
+      "status": "complete"
+    },
+    {
+      "id": "R3",
+      "requirement": "Complete internally consistent quarterly CPU forecast including timing, rounded-data limits, volume/ASP and revenue",
+      "status": "complete"
+    },
+    {
+      "id": "R4",
+      "requirement": "Underwrite retained group profit, margin/mix and capital needs with positive and disconfirming evidence",
+      "status": "complete"
+    },
+    {
+      "id": "R5",
+      "requirement": "Integrate selected policies into profit, taxes, investment, treasury and dated valuation; preserve baseline comparison",
+      "status": "complete"
+    },
+    {
+      "id": "R6",
+      "requirement": "Reassess recommendation and specific disagreement with current external forecasts without target fitting",
+      "status": "complete"
+    },
+    {
+      "id": "R7",
+      "requirement": "Deliver a reproducible editable model, revised ten-page pitch and aligned defense/comparison artifacts",
+      "status": "complete",
+      "boundary": "Revised research artifacts complete; not falsely presented as a final LONG/SHORT submission."
+    },
+    {
+      "id": "R8",
+      "requirement": "Independent calculation/claim reviews, rendered artifact QA and requirement-by-requirement completion audit",
+      "status": "complete"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "8c84a53e2f81d8b090c878a4d0df6c635303f32af379d5b3b52597b3d283bd5c",
+      "pages": 10,
+      "links": 32
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "8131067455417de528f6225714c8f0aaeda0f6f4feca66d620baccdb6efb2b8e",
+      "pages": 5,
+      "links": 12
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "7f6065603422fd329a993901d5ccb0c12aa03b49bf5a79787a544151ef38545c",
+      "pages": 3,
+      "links": 7
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+      "sha256": "fa259a40f265b868ae06b87c1f02bf553fae78185e369d9acee9cc3d5d36f3ba",
+      "sheets": 6
+    }
+  ],
+  "verification_receipts": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/independent_integrated_audit.json",
+      "sha256": "c50dd4232139deed3ac51bb14b3cca7f3e8ad9f61a662bd880ce3032d70d0ee1"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/independent_quarterly_cash_audit.json",
+      "sha256": "bdc243cb87da66a874a7b3bce4bad48c086c82b34e851973a5665161b156605b"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/independent_exported_workbook_audit.json",
+      "sha256": "8fa916604859284ed1f1b968755247ebfc9727ddcb73c0f0775db46d751c6244"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/independent_matched_workload_audit.json",
+      "sha256": "f2abaa2a5880c49e6722cb45894c509d854ae8cbf8b30a70f3426f2d9d3f07f0"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/independent_foundry_cost_stress_audit.json",
+      "sha256": "21c271d96add58b4b5d9f7aed97e1bc07e27ed9346875ced5bb426c64eaec429"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/independent_packaging_scale_audit.json",
+      "sha256": "9dfd291598ed7b2f27ea50a6bd821ae28b2466f44a2e21df25be0211ba59434f"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/independent_favorable_cross_stress_audit.json",
+      "sha256": "87476fade8f087b95910648465b38f82b374e7428bacb1332211a26daea935a1"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/consolidation/independent_reverse_growth_audit.json",
+      "sha256": "f400e595bc545ed855e2bf0cdb88220855fa2c07e9e5332dc6b22f9c7d66e2c9"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/risk_policy/independent_risk_numerical_audit.json",
+      "sha256": "2ae4990fad158d72517a363cf475c45319c0b036f714f9a21232de863f566f84"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/review_submission/final_123246_visual_hash_receipt.json",
+      "sha256": "c385bdf690a318d00b8c98c0002b131f5978ca5d39eb477fa80a3232a7086941"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/judgment_challenge/independent_investment_adjudication.json",
+      "sha256": "441d61c3c243e4f7fa9da9b040b1db71c6658eeeffc1eccd5c177c9ac21714b7"
+    }
+  ],
+  "conclusion": "Plausible favorable LONG hypothesis; no forced recommendation or probability of winning. Audited current facts and mechanics are separated from the unresolved operating and valuation judgments.",
+  "submission_ready": false,
+  "submitted": false,
+  "outreach_sent": false,
+  "original_interview_completed": false,
+  "paid_experiment_run": false,
+  "committed_or_pushed": false
+}

@@ -1,0 +1,272 @@
+{
+  "checked_utc": "2026-11-07T00:55:35.094640+00:00",
+  "output": "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+  "output_sha256": "5989906164cd038c6970a62e494f25b418f4995d948585d55628ab244bc06da7",
+  "backup_sha256": "f80d638e8a64ecdd5b1e31a92e892d238c77f6f2d78a9b62462f852ec7fdf31a",
+  "builder_sha256": "5c440b440b74d0a43b97461667544d5d8a7f0124927dca4fb5806628a0b809ca",
+  "backup_builder_sha256": "2c39bcb832b1f0ac78a5cd7b47f0f68318e2943a685d7024fab8963720032cca",
+  "sheet_names_order_preserved": true,
+  "cell_changes": [
+    {
+      "sheet": "Annual model",
+      "cell": "C3",
+      "before": "06 Nov 2026 | $ billions unless stated | owned LONG case; moderate conviction",
+      "after": "06 Nov 2026 | $ billions unless stated | core forecast; conditional LONG at $40 or below"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "C3",
+      "before": "06 Nov 2026 | $ billions unless stated | owned LONG case; moderate conviction",
+      "after": "06 Nov 2026 | $ billions unless stated | core forecast; conditional LONG at $40 or below"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "C30",
+      "before": "Selected case",
+      "after": "Investment judgment"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D30",
+      "before": "Owned LONG case",
+      "after": "Conditional LONG at $40 or below"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D5",
+      "before": "52.25",
+      "after": "56.28"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D6",
+      "before": "2026-11-05T12:00:00.000Z",
+      "after": "2026-11-06T12:00:00.000Z"
+    },
+    {
+      "sheet": "Assumptions",
+      "cell": "D8",
+      "before": "4.153319644079398",
+      "after": "4.1505817932922655"
+    },
+    {
+      "sheet": "Checks",
+      "cell": "C3",
+      "before": "06 Nov 2026 | $ billions unless stated | owned LONG case; moderate conviction",
+      "after": "06 Nov 2026 | $ billions unless stated | core forecast; conditional LONG at $40 or below"
+    },
+    {
+      "sheet": "Quarterly model",
+      "cell": "C3",
+      "before": "06 Nov 2026 | $ billions unless stated | owned LONG case; moderate conviction",
+      "after": "06 Nov 2026 | $ billions unless stated | core forecast; conditional LONG at $40 or below"
+    },
+    {
+      "sheet": "Sources",
+      "cell": "C3",
+      "before": "06 Nov 2026 | $ billions unless stated | owned LONG case; moderate conviction",
+      "after": "06 Nov 2026 | $ billions unless stated | core forecast; conditional LONG at $40 or below"
+    },
+    {
+      "sheet": "Sources",
+      "cell": "C80",
+      "before": null,
+      "after": "Conditional entry rule"
+    },
+    {
+      "sheet": "Sources",
+      "cell": "C82",
+      "before": null,
+      "after": "Selected joint snapshot"
+    },
+    {
+      "sheet": "Sources",
+      "cell": "F27",
+      "before": "Nov 5 regular close; $52.25",
+      "after": "Nov 6 regular close; $56.28"
+    },
+    {
+      "sheet": "Sources",
+      "cell": "F28",
+      "before": "https://stockanalysis.com/stocks/intc/history/",
+      "after": "https://www.marketscreener.com/quote/stock/INTEL-CORPORATION-4829/quotes/"
+    },
+    {
+      "sheet": "Sources",
+      "cell": "F80",
+      "before": null,
+      "after": "Analyst judgment after reviewing cases. Not a 20% margin, probability or all-stress floor."
+    },
+    {
+      "sheet": "Sources",
+      "cell": "F82",
+      "before": null,
+      "after": "Model appendix, 06 Nov 2026: fixed operating/terminal stress plus 8% funding, zero immediate tax benefit."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "C3",
+      "before": "06 Nov 2026 | $ billions unless stated | owned LONG case; moderate conviction",
+      "after": "06 Nov 2026 | $ billions unless stated | core forecast; conditional LONG at $40 or below"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "C43",
+      "before": "Entry ceiling for a chosen 12% return",
+      "after": "Core case: 12% return ceiling ($)"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "C44",
+      "before": null,
+      "after": "Selected joint: 12% ceiling ($)"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "C63",
+      "before": "Planning premium vs Nov 5 quote",
+      "after": "Dec 2026 value / Nov 6 quote - 1"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "D11",
+      "before": "0.11615212704256206",
+      "after": "0.0964291893107092"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "D43",
+      "before": "51.508465586931024",
+      "after": "51.52444996033094"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "D44",
+      "before": null,
+      "after": "40.445931591445024"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "D63",
+      "before": "0.07443609273815088",
+      "after": "-0.0025002515002064962"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "D8",
+      "before": "52.25",
+      "after": "56.28"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F14",
+      "before": "Cash includes the stated quarterly timing allocations.",
+      "after": "31.19B is base-timing cash. Joint and funded stresses are in the PDF and research."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F16",
+      "before": "The planning-value premium is modest and sensitive to the risk method.",
+      "after": "Dec 2026 planning value is not Nov 6 fair value. The dates differ by 55 days."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F30",
+      "before": "Annual-end discount convention; reference quote precedes planning value by 56 days.",
+      "after": "Annual-end discount convention; reference quote precedes planning value by 55 days."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F43",
+      "before": "12% is a user-independent comparison hurdle, not a guaranteed return or risk estimate.",
+      "after": "As of Nov 6: min($41.18 higher-rate core 15%, $40.45 joint 12%) rounded down to $40."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F44",
+      "before": null,
+      "after": "Fixed joint target ($)"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F45",
+      "before": null,
+      "after": "Noncore snapshot: 11.555% rate, Foundry breakeven, 15% terminal ROC, 8% funding."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F5",
+      "before": "Owned LONG case",
+      "after": "Conditional LONG at $40 or below"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F6",
+      "before": "Moderate conviction. The joint operating assumptions remain forecasts.",
+      "after": "No new position at the Nov 6 close. The core operating assumptions remain forecasts."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F63",
+      "before": "Planning and reference dates differ by 56 days. This is not a same-date safety margin.",
+      "after": "Dates differ by 55 days. This comparison is not a same-date safety margin."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "F8",
+      "before": "Growth can exceed share losses in an expanding CPU market.",
+      "after": "Entry rule: higher-rate core return at least 15%; selected joint stress at least 12%."
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "I44",
+      "before": null,
+      "after": "64.7378499644682"
+    }
+  ],
+  "formula_changes": [
+    {
+      "sheet": "Valuation",
+      "cell": "D44",
+      "before": null,
+      "after": "I44/(1+12%)^'Assumptions'!D8"
+    }
+  ],
+  "authorized_styles_on_newly_populated_cells": [
+    {
+      "sheet": "Valuation",
+      "cell": "I44"
+    },
+    {
+      "sheet": "Valuation",
+      "cell": "D44"
+    }
+  ],
+  "unexpected_value_changes": [],
+  "unexpected_style_changes": [],
+  "native_feature_changes": [],
+  "saved_formula_errors": [],
+  "annual_and_quarterly_operating_values_formulas_unchanged": true,
+  "views_reviewed": [
+    "Valuation C2:M16",
+    "Valuation C29:M47",
+    "Valuation C50:N65",
+    "Assumptions C5:N30"
+  ],
+  "marker": "edit/1/xlsx; exactly once before first authoring",
+  "limitations": [
+    "Bundled artifact engine checked; native Excel UI not run.",
+    "Selected joint target is a fixed noncore snapshot, not recalculated from core-input edits."
+  ],
+  "final_label_check": {
+    "Valuation!F43": "As of Nov 6: min($41.18 higher-rate core 15%, $40.45 joint 12%) rounded down to $40."
+  },
+  "final_numeric_checks": {
+    "D8": 56.28,
+    "D9": 56.13928584556838,
+    "D10": 82.47015162680006,
+    "D11": 0.0964291893107092,
+    "D14": 31.187405332912828,
+    "D44": 40.445931591445024
+  }
+}

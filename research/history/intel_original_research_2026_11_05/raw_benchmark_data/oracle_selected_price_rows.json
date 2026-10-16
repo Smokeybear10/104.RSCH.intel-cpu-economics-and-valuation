@@ -1,0 +1,75 @@
+{
+  "lastUpdated": "2026-11-02T14:49:49.342Z",
+  "source_url": "https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/?currencyCode=USD",
+  "original_file_sha256": "153de584995f9d78a6b7010bd0019dff9586614f96f795bce744d3fb5a9c4577",
+  "items": [
+    {
+      "partNumber": "B112141",
+      "displayName": "OCI - Compute - Standard - X12 Ax - OCPU",
+      "metricName": "OCPU Per Hour",
+      "serviceCategory": "Compute - Virtual Machine",
+      "currencyCodeLocalizations": [
+        {
+          "currencyCode": "USD",
+          "prices": [
+            {
+              "model": "PAY_AS_YOU_GO",
+              "value": 0.0119
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "partNumber": "B112142",
+      "displayName": "OCI - Compute - Standard - X12 Ax - Memory",
+      "metricName": "Gigabyte Per Hour",
+      "serviceCategory": "Compute - Virtual Machine",
+      "currencyCodeLocalizations": [
+        {
+          "currencyCode": "USD",
+          "prices": [
+            {
+              "model": "PAY_AS_YOU_GO",
+              "value": 0.0114
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "partNumber": "B94176",
+      "displayName": "Compute - Standard - X9 - OCPU",
+      "metricName": "OCPU Per Hour",
+      "serviceCategory": "Compute - Virtual Machine",
+      "currencyCodeLocalizations": [
+        {
+          "currencyCode": "USD",
+          "prices": [
+            {
+              "model": "PAY_AS_YOU_GO",
+              "value": 0.04
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "partNumber": "B94177",
+      "displayName": "Compute - Standard - X9 - Memory",
+      "metricName": "Gigabytes Per Hour",
+      "serviceCategory": "Compute - Virtual Machine",
+      "currencyCodeLocalizations": [
+        {
+          "currencyCode": "USD",
+          "prices": [
+            {
+              "model": "PAY_AS_YOU_GO",
+              "value": 0.0015
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

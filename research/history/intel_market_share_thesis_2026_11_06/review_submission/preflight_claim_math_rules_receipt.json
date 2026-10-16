@@ -1,0 +1,444 @@
+{
+  "checked_utc": "2026-11-06T16:59:08.796081+00:00",
+  "status": "Preflight passes conditional on clear owned assumptions; final PDF QA pending build",
+  "active_case_sha256": "262e7cf46559e65776186953efb02911b917a655a876c12b935d0da94ad6a314",
+  "decision_policy_sha256": "bb21a876f630437415ac7be56765f3057fe53353ebd64c9791f2724f30d9f5ab",
+  "independent_math": {
+    "scope": "Direct reconstruction from active annual EBIT, cash and treasury components; no parent evaluator imported. Explicit dated terminal cash and flat financing shields summed through2800. Economic forecasts are not validated by matching arithmetic.",
+    "comparisons": 60,
+    "max_absolute_error": 2.8421709430404007e-13,
+    "values": {
+      "2026": {
+        "explicit_operating_PV_B": 151.02014317947794,
+        "terminal_operating_PV_B": 149.84001282006935,
+        "financing_shield_PV_B": 2.8391545388524753,
+        "remaining_escrow_PV_B": 2.2718375945609504,
+        "remaining_acquisition_PV_B": 2.0035111238788343,
+        "equity_B": 309.3274650090819,
+        "price_USD": 56.1392858455684
+      },
+      "2030": {
+        "explicit_operating_PV_B": 194.04844436651885,
+        "terminal_operating_PV_B": 224.40934407717597,
+        "financing_shield_PV_B": 3.007281457286348,
+        "remaining_escrow_PV_B": 0.0,
+        "remaining_acquisition_PV_B": 0.0,
+        "equity_B": 454.4105354636685,
+        "price_USD": 82.47015162680009
+      }
+    },
+    "checks": {
+      "Intel_units_2027_at40pct_market_growth": 0.17599999999999993,
+      "required_ASP_2027_matched_base": 0.21879913318591804,
+      "2028_sales_minus_public_proxy_B": 6.295755209081918,
+      "2028_sales_above_public_proxy": 0.07520103213227491,
+      "CPU_revenue_CAGR2027_2030": 0.23696032446054383,
+      "CPU_revenue_CAGR2030_2040": 0.06044093219044244,
+      "Foundry_share_of2027_2030_EBIT_change": 0.2652326876559462,
+      "Foundry_plus_net_packaging_share": 0.3153718668801376
+    },
+    "comparison_receipts": [
+      {
+        "label": "2027 group EBIT",
+        "recomputed": 14.435224598250644,
+        "reported": 14.435224598250644,
+        "error": 0.0
+      },
+      {
+        "label": "2027 parent cash",
+        "recomputed": -10.118799771022797,
+        "reported": -10.118799771022797,
+        "error": 0.0
+      },
+      {
+        "label": "2028 group EBIT",
+        "recomputed": 24.593944544198962,
+        "reported": 24.593944544198962,
+        "error": 0.0
+      },
+      {
+        "label": "2028 parent cash",
+        "recomputed": 3.7528475956696283,
+        "reported": 3.7528475956696266,
+        "error": 1.7763568394002505e-15
+      },
+      {
+        "label": "2029 group EBIT",
+        "recomputed": 32.45544942413612,
+        "reported": 32.45544942413612,
+        "error": 0.0
+      },
+      {
+        "label": "2029 parent cash",
+        "recomputed": 16.428700120646504,
+        "reported": 16.428700120646504,
+        "error": 0.0
+      },
+      {
+        "label": "2030 group EBIT",
+        "recomputed": 38.942007896513076,
+        "reported": 38.942007896513076,
+        "error": 0.0
+      },
+      {
+        "label": "2030 parent cash",
+        "recomputed": 23.06038961739398,
+        "reported": 23.06038961739398,
+        "error": 0.0
+      },
+      {
+        "label": "2031 group EBIT",
+        "recomputed": 42.78401120444773,
+        "reported": 42.78401120444773,
+        "error": 0.0
+      },
+      {
+        "label": "2031 parent cash",
+        "recomputed": 23.158020150940924,
+        "reported": 23.158020150940924,
+        "error": 0.0
+      },
+      {
+        "label": "2032 group EBIT",
+        "recomputed": 46.52416613304289,
+        "reported": 46.52416613304289,
+        "error": 0.0
+      },
+      {
+        "label": "2032 parent cash",
+        "recomputed": 25.611802275103404,
+        "reported": 25.611802275103408,
+        "error": -3.552713678800501e-15
+      },
+      {
+        "label": "2033 group EBIT",
+        "recomputed": 50.057618737862065,
+        "reported": 50.057618737862065,
+        "error": 0.0
+      },
+      {
+        "label": "2033 parent cash",
+        "recomputed": 27.822920302679197,
+        "reported": 27.822920302679197,
+        "error": 0.0
+      },
+      {
+        "label": "2034 group EBIT",
+        "recomputed": 53.391134473053704,
+        "reported": 53.391134473053704,
+        "error": 0.0
+      },
+      {
+        "label": "2034 parent cash",
+        "recomputed": 30.17333273316758,
+        "reported": 30.173332733167573,
+        "error": 7.105427357601002e-15
+      },
+      {
+        "label": "2035 group EBIT",
+        "recomputed": 56.47431955657363,
+        "reported": 56.47431955657363,
+        "error": 0.0
+      },
+      {
+        "label": "2035 parent cash",
+        "recomputed": 33.03826634997567,
+        "reported": 33.038266349975665,
+        "error": 7.105427357601002e-15
+      },
+      {
+        "label": "2036 group EBIT",
+        "recomputed": 59.16562938671321,
+        "reported": 59.16562938671321,
+        "error": 0.0
+      },
+      {
+        "label": "2036 parent cash",
+        "recomputed": 36.37908916006916,
+        "reported": 36.37908916006915,
+        "error": 7.105427357601002e-15
+      },
+      {
+        "label": "2037 group EBIT",
+        "recomputed": 61.71328958869376,
+        "reported": 61.71328958869376,
+        "error": 0.0
+      },
+      {
+        "label": "2037 parent cash",
+        "recomputed": 38.845093581172726,
+        "reported": 38.845093581172726,
+        "error": 0.0
+      },
+      {
+        "label": "2038 group EBIT",
+        "recomputed": 64.08276015350276,
+        "reported": 64.08276015350276,
+        "error": 0.0
+      },
+      {
+        "label": "2038 parent cash",
+        "recomputed": 41.27414418943488,
+        "reported": 41.27414418943487,
+        "error": 7.105427357601002e-15
+      },
+      {
+        "label": "2039 group EBIT",
+        "recomputed": 66.2717062298804,
+        "reported": 66.2717062298804,
+        "error": 0.0
+      },
+      {
+        "label": "2039 parent cash",
+        "recomputed": 43.485253387137114,
+        "reported": 43.48525338713711,
+        "error": 7.105427357601002e-15
+      },
+      {
+        "label": "2040 group EBIT",
+        "recomputed": 68.25241308254947,
+        "reported": 68.25241308254947,
+        "error": 0.0
+      },
+      {
+        "label": "2040 parent cash",
+        "recomputed": 45.601213167554974,
+        "reported": 45.60121316755497,
+        "error": 7.105427357601002e-15
+      },
+      {
+        "label": "2041 group EBIT",
+        "recomputed": 70.29998547502593,
+        "reported": 70.29998547502593,
+        "error": 0.0
+      },
+      {
+        "label": "2041 parent cash",
+        "recomputed": 46.96924956258162,
+        "reported": 46.96924956258162,
+        "error": 0.0
+      },
+      {
+        "label": "2027 owner cash",
+        "recomputed": -11.628799771022797,
+        "reported": -11.628799771022797,
+        "error": 0.0
+      },
+      {
+        "label": "2027 ending cash",
+        "recomputed": 34.9570282289772,
+        "reported": 34.9570282289772,
+        "error": 0.0
+      },
+      {
+        "label": "2027 ending debt",
+        "recomputed": 46.308,
+        "reported": 46.308,
+        "error": 0.0
+      },
+      {
+        "label": "2028 owner cash",
+        "recomputed": 2.2615975956696284,
+        "reported": 2.2615975956696266,
+        "error": 1.7763568394002505e-15
+      },
+      {
+        "label": "2028 ending cash",
+        "recomputed": 35.01562582464683,
+        "reported": 35.015625824646825,
+        "error": 7.105427357601002e-15
+      },
+      {
+        "label": "2028 ending debt",
+        "recomputed": 43.135,
+        "reported": 43.135,
+        "error": 0.0
+      },
+      {
+        "label": "2029 owner cash",
+        "recomputed": 14.956200120646503,
+        "reported": 14.956200120646503,
+        "error": 0.0
+      },
+      {
+        "label": "2029 ending cash",
+        "recomputed": 46.683825945293336,
+        "reported": 46.68382594529333,
+        "error": 7.105427357601002e-15
+      },
+      {
+        "label": "2029 ending debt",
+        "recomputed": 39.847,
+        "reported": 39.847,
+        "error": 0.0
+      },
+      {
+        "label": "2030 owner cash",
+        "recomputed": 21.60663961739398,
+        "reported": 21.60663961739398,
+        "error": 0.0
+      },
+      {
+        "label": "2030 ending cash",
+        "recomputed": 65.54046556268732,
+        "reported": 65.5404655626873,
+        "error": 1.4210854715202004e-14
+      },
+      {
+        "label": "2030 ending debt",
+        "recomputed": 37.097,
+        "reported": 37.097,
+        "error": 0.0
+      },
+      {
+        "label": "terminal cash independently funded",
+        "recomputed": 46.96924956258162,
+        "reported": 46.96924956258162,
+        "error": 0.0
+      },
+      {
+        "label": "2026 explicit_operating_PV_B",
+        "recomputed": 151.02014317947794,
+        "reported": 151.0201431794779,
+        "error": 2.842170943040401e-14
+      },
+      {
+        "label": "2026 terminal_operating_PV_B",
+        "recomputed": 149.84001282006935,
+        "reported": 149.84001282006915,
+        "error": 1.9895196601282805e-13
+      },
+      {
+        "label": "2026 financing_shield_PV_B",
+        "recomputed": 2.8391545388524753,
+        "reported": 2.8391545388524753,
+        "error": 0.0
+      },
+      {
+        "label": "2026 remaining_escrow_PV_B",
+        "recomputed": 2.2718375945609504,
+        "reported": 2.2718375945609504,
+        "error": 0.0
+      },
+      {
+        "label": "2026 remaining_acquisition_PV_B",
+        "recomputed": 2.0035111238788343,
+        "reported": 2.0035111238788343,
+        "error": 0.0
+      },
+      {
+        "label": "2026 equity_B",
+        "recomputed": 309.3274650090819,
+        "reported": 309.32746500908166,
+        "error": 2.2737367544323206e-13
+      },
+      {
+        "label": "2026 price_USD",
+        "recomputed": 56.1392858455684,
+        "reported": 56.13928584556836,
+        "error": 4.263256414560601e-14
+      },
+      {
+        "label": "2030 explicit_operating_PV_B",
+        "recomputed": 194.04844436651885,
+        "reported": 194.04844436651882,
+        "error": 2.842170943040401e-14
+      },
+      {
+        "label": "2030 terminal_operating_PV_B",
+        "recomputed": 224.40934407717597,
+        "reported": 224.4093440771757,
+        "error": 2.8421709430404007e-13
+      },
+      {
+        "label": "2030 financing_shield_PV_B",
+        "recomputed": 3.007281457286348,
+        "reported": 3.0072814572863473,
+        "error": 8.881784197001252e-16
+      },
+      {
+        "label": "2030 remaining_escrow_PV_B",
+        "recomputed": 0.0,
+        "reported": 0.0,
+        "error": 0.0
+      },
+      {
+        "label": "2030 remaining_acquisition_PV_B",
+        "recomputed": 0.0,
+        "reported": 0.0,
+        "error": 0.0
+      },
+      {
+        "label": "2030 equity_B",
+        "recomputed": 454.4105354636685,
+        "reported": 454.4105354636682,
+        "error": 2.8421709430404007e-13
+      },
+      {
+        "label": "2030 price_USD",
+        "recomputed": 82.47015162680009,
+        "reported": 82.47015162680005,
+        "error": 4.263256414560601e-14
+      },
+      {
+        "label": "annual price return",
+        "recomputed": 0.11615212704256206,
+        "reported": 0.11615212704256206,
+        "error": 0.0
+      },
+      {
+        "label": "planning premium",
+        "recomputed": 0.07443609273815133,
+        "reported": 0.07443609273815044,
+        "error": 8.881784197001252e-16
+      },
+      {
+        "label": "after2030 operating share",
+        "recomputed": 0.9286965758588867,
+        "reported": 0.9286965758588868,
+        "error": -1.1102230246251565e-16
+      }
+    ]
+  },
+  "independent_source_checks": [
+    {
+      "url": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "result": "Original text and chart confirm >40%2027shipmentgrowth and roundedIntel50%2026estimate/42%2027forecast.17.6% is conditional calculation, not actual growth or exact lowerbound."
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+      "result": "Verified public table FY2027sales69.267B,FY2028sales83.719B; S&PGlobal identified provider;36average analysts2028. Financialconsensus does not identify price-implied CPU assumptions."
+    },
+    {
+      "url": "https://www.m37.com/spc2026",
+      "result": "Clear LONG or SHORT,3\u20135years,10pagesPDF maximum,overview/drivers/risks;name,classyear,resume;Nov9deadline;no minimumupside rule."
+    },
+    {
+      "url": "https://thomasou.com/",
+      "result": "ExpectedB.S.MathematicsMay2027;M.S.E.CISDec2028. Fullresume supplied on contact, no task-tree currentresume found."
+    }
+  ],
+  "must_preserve_in_revision": [
+    "Moderate LONG is an owned investment judgment after values were known, not a proved or statistically identified central case.",
+    "Show same operating case at11.555%:48.56planning/73.56target;7.44%planningpremium at10.625% is thin and dated56days afterentry.",
+    "2027industry/share forecast does not validate2028\u201330delivery23.70%CPU revenueCAGR or6.04%post2030growth.",
+    "Own fixed124.5B2027\u201330capex despite more accepted output; Foundry/netpackaging31.54%ofprofituplift;7Bpackaging isforecast.",
+    "Use revised case values throughout; old32.6%standaloneFoundry or16.11Bownercash are selected-case numbers.",
+    "Preserve existing externalwaferrevenue and7Bpackaging while saying no new major externalwaferbreakthrough required.",
+    "Externalshipment/revenue share denominators and TAM dates must not be conflated."
+  ],
+  "administrative_findings": [
+    {
+      "priority": "P2",
+      "item": "output/pdf/submission_email_draft.txt still says IntelSHORT",
+      "action": "Root should update or exclude stale draft from currentLONGpackage; no send authorized."
+    },
+    {
+      "priority": "P2",
+      "item": "Currentresume attachment notfound",
+      "action": "Do not claim entireentrypackage submissionready;classyear2027 already sourceverified, no need ask it again."
+    }
+  ],
+  "pdf_edits_performed": false,
+  "outreach_performed": false
+}

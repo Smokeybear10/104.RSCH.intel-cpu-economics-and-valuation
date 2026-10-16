@@ -1,0 +1,176 @@
+{
+  "computed_utc": "2026-11-05T05:54:03.959475+00:00",
+  "question": "Which price and financing conditions would turn a conditional valuation short into positive endpoint P&L?",
+  "entry": {
+    "date": "2026-11-04",
+    "USD": 58.28
+  },
+  "scope": "Inversion of previously fixed scenarios, not a new forecast, selected probability or executable account return. Conditional endpoint value is used as a cover-price assumption solely for this diagnostic.",
+  "rows": [
+    {
+      "year": 2029,
+      "T_ACT36525": 3.156741957563313,
+      "conditional_covers": {
+        "weak": 48.8060764313207,
+        "central": 64.1458230460918,
+        "favorable_maturing": 83.50701829531731,
+        "lower_mature_margin_and_capital_only": 54.48186676205656
+      },
+      "price_only_PnL_fraction_initial_notional": {
+        "weak": 0.16255874345709165,
+        "central": -0.10064898843671588,
+        "favorable_maturing": -0.4328589275105921
+      },
+      "central_break_even_net_proceeds_compound_rate": 0.030845585008524745,
+      "weak_max_fixed_initial_notional_annual_drag": 0.0514957337794473,
+      "cost_controls": [
+        {
+          "annual_net_drag_fixed_initial_notional": 0,
+          "break_even_cover_USD": 58.28,
+          "weak_PnL_per_share": 9.473923568679304,
+          "central_PnL_per_share": -5.865823046091805
+        },
+        {
+          "annual_net_drag_fixed_initial_notional": 0.01,
+          "break_even_cover_USD": 56.4402507871321,
+          "weak_PnL_per_share": 7.634174355811405,
+          "central_PnL_per_share": -7.7055722589597035
+        },
+        {
+          "annual_net_drag_fixed_initial_notional": 0.03,
+          "break_even_cover_USD": 52.76075236139631,
+          "weak_PnL_per_share": 3.9546759300756076,
+          "central_PnL_per_share": -11.385070684695501
+        }
+      ],
+      "two_outcome_probability_hurdles": [
+        {
+          "annual_net_drag": 0,
+          "weak_vs_central_required_weight": 0.38239373787591935,
+          "weak_vs_favorable_required_weight": 0.7269836765292871,
+          "warning": "Only these two outcomes assumed; weight is a break-even constraint, not estimated probability. Above1means neither combination clears the hurdle."
+        },
+        {
+          "annual_net_drag": 0.01,
+          "weak_vs_central_required_weight": 0.5023272191171512,
+          "weak_vs_favorable_required_weight": 0.7800009467831732,
+          "warning": "Only these two outcomes assumed; weight is a break-even constraint, not estimated probability. Above1means neither combination clears the hurdle."
+        },
+        {
+          "annual_net_drag": 0.03,
+          "weak_vs_central_required_weight": 0.7421941815996145,
+          "weak_vs_favorable_required_weight": 0.8860354872909453,
+          "warning": "Only these two outcomes assumed; weight is a break-even constraint, not estimated probability. Above1means neither combination clears the hurdle."
+        }
+      ],
+      "net_proceeds_yield_controls": [
+        {
+          "net_yield": 0,
+          "hypothetical_proceeds_end_USD": 58.28,
+          "central_PnL_USD": -5.865823046091805
+        },
+        {
+          "net_yield": 0.02,
+          "hypothetical_proceeds_end_USD": 62.039468162797895,
+          "central_PnL_USD": -2.1063548832939105
+        },
+        {
+          "net_yield": 0.03,
+          "hypothetical_proceeds_end_USD": 63.97986935660949,
+          "central_PnL_USD": -0.16595368948231481
+        },
+        {
+          "net_yield": 0.04,
+          "hypothetical_proceeds_end_USD": 65.96132940105875,
+          "central_PnL_USD": 1.8155063549669421
+        }
+      ]
+    },
+    {
+      "year": 2030,
+      "T_ACT36525": 4.15605749486653,
+      "conditional_covers": {
+        "weak": 54.01653275663778,
+        "central": 70.97777530967525,
+        "favorable_maturing": 92.57615666994872,
+        "lower_mature_margin_and_capital_only": 60.19714887701973
+      },
+      "price_only_PnL_fraction_initial_notional": {
+        "weak": 0.07315489436105393,
+        "central": -0.21787534848447576,
+        "favorable_maturing": -0.5884721460183375
+      },
+      "central_break_even_net_proceeds_compound_rate": 0.048569270281402455,
+      "weak_max_fixed_initial_notional_annual_drag": 0.017601992862565835,
+      "cost_controls": [
+        {
+          "annual_net_drag_fixed_initial_notional": 0,
+          "break_even_cover_USD": 58.28,
+          "weak_PnL_per_share": 4.263467243362221,
+          "central_PnL_per_share": -12.69777530967525
+        },
+        {
+          "annual_net_drag_fixed_initial_notional": 0.01,
+          "break_even_cover_USD": 55.85784969199179,
+          "weak_PnL_per_share": 1.841316935354008,
+          "central_PnL_per_share": -15.119925617683464
+        },
+        {
+          "annual_net_drag_fixed_initial_notional": 0.03,
+          "break_even_cover_USD": 51.013549075975355,
+          "weak_PnL_per_share": -3.0029836806624193,
+          "central_PnL_per_share": -19.96422623369989
+        }
+      ],
+      "two_outcome_probability_hurdles": [
+        {
+          "annual_net_drag": 0,
+          "weak_vs_central_required_weight": 0.7486347341575688,
+          "weak_vs_favorable_required_weight": 0.8894318250367983,
+          "warning": "Only these two outcomes assumed; weight is a break-even constraint, not estimated probability. Above1means neither combination clears the hurdle."
+        },
+        {
+          "annual_net_drag": 0.01,
+          "weak_vs_central_required_weight": 0.891439738002906,
+          "weak_vs_favorable_required_weight": 0.9522475390451519,
+          "warning": "Only these two outcomes assumed; weight is a break-even constraint, not estimated probability. Above1means neither combination clears the hurdle."
+        },
+        {
+          "annual_net_drag": 0.03,
+          "weak_vs_central_required_weight": 1.1770497456935807,
+          "weak_vs_favorable_required_weight": 1.0778789670618594,
+          "warning": "Only these two outcomes assumed; weight is a break-even constraint, not estimated probability. Above1means neither combination clears the hurdle."
+        }
+      ],
+      "net_proceeds_yield_controls": [
+        {
+          "net_yield": 0,
+          "hypothetical_proceeds_end_USD": 58.28,
+          "central_PnL_USD": -12.69777530967525
+        },
+        {
+          "net_yield": 0.02,
+          "hypothetical_proceeds_end_USD": 63.27939982115134,
+          "central_PnL_USD": -7.698375488523915
+        },
+        {
+          "net_yield": 0.03,
+          "hypothetical_proceeds_end_USD": 65.89793218361156,
+          "central_PnL_USD": -5.079843126063693
+        },
+        {
+          "net_yield": 0.04,
+          "hypothetical_proceeds_end_USD": 68.5979410327607,
+          "central_PnL_USD": -2.3798342769145506
+        }
+      ]
+    }
+  ],
+  "interpretation": [
+    "Central and favorable paths do not establish positive long-horizon short P&L without sufficiently favorable financing or a different market-price path.",
+    "Cost controls are annual net drag on fixed initial stock notional, not actual borrow fees or margin capital returns. Positive proceeds interest is separately tested, not omitted.",
+    "The weak case permanently retains lower CPU revenue and already allows capital cuts and WC relief. It is not a temporary dip.",
+    "No probability weighting, risk-rate edit or forecast change chosen to create short profit.",
+    "Existing public financing tier examples are not an INTC borrow quote, the user account terms, M37 terms or a forecast."
+  ]
+}

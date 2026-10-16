@@ -1,0 +1,679 @@
+{
+  "as_of_utc": "2026-11-04T17:33:46.444385+00:00",
+  "scope": "Continuation after the completed five-hour autonomous pass: finish the previously incomplete Intel alternative and compare the quality of the investment thesis. No submission, trade, outreach, deck or probability claim.",
+  "root_verdict": "Retain Intel as a developed research candidate, but withdraw the presumption that it should be a three-to-five-year SHORT. The stronger pricing/mix and margin forecast removes the revenue-shortfall thesis and raises all central horizon values above the dated entry. An early valuation gap remains a timing-dependent short candidate; it does not alone establish the required horizon recommendation. Do not force LONG solely because the later value rises, or change assumptions to manufacture a winning-looking target.",
+  "intel": {
+    "entry": {
+      "date": "2026-11-03",
+      "price_USD": 60.55,
+      "source": "https://www.intc.com/stock-info/historical-data"
+    },
+    "primary_end2030": {
+      "date": "2030-12-31",
+      "operating_rate": 0.12,
+      "explicit_operating_cash_PV_B": 120.50843543927185,
+      "terminal_operating_value_at2040_B": 353.39024215051813,
+      "terminal_operating_PV_B": 113.7822000447721,
+      "parent_attributable_operating_value_B": 234.29063548404395,
+      "future_financing_tax_benefit_PV_B": 2.638926552833128,
+      "economic_cash_B": 58.863622649212914,
+      "ordinary_debt_B": 37.097,
+      "net_other_assets_B": 5.717,
+      "future_escrow_financing_PV_B": 0.0,
+      "future_Classiq_cash_PV_B": 0.0,
+      "equity_before_financing_tax_benefits_B": 261.77425813325686,
+      "equity_with_financing_tax_benefits_B": 264.41318468609,
+      "planning_claims_B": 5.51,
+      "price_before_financing_tax_benefits_USD": 47.508939770101065,
+      "price_with_financing_tax_benefits_USD": 47.98787380872777,
+      "terminal_fraction_of_operating_value": 0.48564553085827916,
+      "holding_years_from_entry": 4.158795345653662,
+      "annual_price_appreciation_from_entry": -0.054376414840388465
+    },
+    "end2029": {
+      "date": "2029-12-31",
+      "operating_rate": 0.12,
+      "explicit_operating_cash_PV_B": 124.60612166948417,
+      "terminal_operating_value_at2040_B": 353.39024215051813,
+      "terminal_operating_PV_B": 101.59125003997507,
+      "parent_attributable_operating_value_B": 226.19737170945922,
+      "future_financing_tax_benefit_PV_B": 2.6206933507438634,
+      "economic_cash_B": 44.0169518186625,
+      "ordinary_debt_B": 39.847,
+      "net_other_assets_B": 5.717,
+      "future_escrow_financing_PV_B": 0.0,
+      "future_Classiq_cash_PV_B": 0.0,
+      "equity_before_financing_tax_benefits_B": 236.08432352812173,
+      "equity_with_financing_tax_benefits_B": 238.7050168788656,
+      "planning_claims_B": 5.51,
+      "price_before_financing_tax_benefits_USD": 42.84651969657382,
+      "price_with_financing_tax_benefits_USD": 43.32214462411354,
+      "terminal_fraction_of_operating_value": 0.44912657150793356,
+      "holding_years_from_entry": 3.159479808350445,
+      "annual_price_appreciation_from_entry": -0.1005470783778466
+    },
+    "end2031": {
+      "date": "2031-12-31",
+      "operating_rate": 0.12,
+      "explicit_operating_cash_PV_B": 119.05065871873597,
+      "terminal_operating_value_at2040_B": 353.39024215051813,
+      "terminal_operating_PV_B": 127.43606405014475,
+      "parent_attributable_operating_value_B": 246.48672276888072,
+      "future_financing_tax_benefit_PV_B": 2.732666875173103,
+      "economic_cash_B": 73.92029848646142,
+      "ordinary_debt_B": 37.097,
+      "net_other_assets_B": 5.717,
+      "future_escrow_financing_PV_B": 0.0,
+      "future_Classiq_cash_PV_B": 0.0,
+      "equity_before_financing_tax_benefits_B": 289.02702125534216,
+      "equity_with_financing_tax_benefits_B": 291.75968813051526,
+      "planning_claims_B": 5.51,
+      "price_before_financing_tax_benefits_USD": 52.4549947831837,
+      "price_with_financing_tax_benefits_USD": 52.95094158448553,
+      "terminal_fraction_of_operating_value": 0.5170098519652748,
+      "holding_years_from_entry": 5.158110882956879,
+      "annual_price_appreciation_from_entry": -0.025663537629621813
+    },
+    "reference_end2026_not_current_fair_value": {
+      "date": "2026-12-31",
+      "operating_rate": 0.12,
+      "explicit_operating_cash_PV_B": 92.72529069601696,
+      "terminal_operating_value_at2040_B": 353.39024215051813,
+      "terminal_operating_PV_B": 72.31064512912765,
+      "parent_attributable_operating_value_B": 165.0359358251446,
+      "future_financing_tax_benefit_PV_B": 2.4834364115056875,
+      "economic_cash_B": 50.839,
+      "ordinary_debt_B": 50.134,
+      "net_other_assets_B": 5.717,
+      "future_escrow_financing_PV_B": 2.2308673469387754,
+      "future_Classiq_cash_PV_B": 1.9754464285714284,
+      "equity_before_financing_tax_benefits_B": 171.71335674351198,
+      "equity_with_financing_tax_benefits_B": 174.19679315501767,
+      "planning_claims_B": 5.51,
+      "price_before_financing_tax_benefits_USD": 31.16394859228893,
+      "price_with_financing_tax_benefits_USD": 31.614663004540414,
+      "terminal_fraction_of_operating_value": 0.4381509079679513
+    },
+    "operating_case": "Revenue reaches103.226B and consolidated EBIT30.280B in2030, after corporate SBC; Foundry reaches breakeven. Parent-attributable unlevered cash19.050B in2030 includes finite capital tax credits. Subsequent capital renewal and growth investment remain funded; no perpetual capital-credit stream is assumed. These are analyst assumptions, not issuer forecasts.",
+    "financing": "No new borrowing in the annual forecast. End2030 economic cash58.864B and debt37.097B. No forced-funding/bankruptcy catalyst follows. Cash is an owner-economic convention after cash-equivalent SBC and NCI, not a bank statement.",
+    "valuation_audit": "Independent reconstruction using Decimal and a long explicit cash tail reproduces the base and rate controls. Math audit is not forecast validation.",
+    "short_economics": "20.7467% cumulative price-only gain of initial sale notional if47.9879 is reached after4.1588yrs; not annual short return. Fees, collateral income, dividends and price path change realized economics. No actual borrow quote or trade.",
+    "key_caveat": "A favorable owned operating recovery is not a bound on all plausible upside. Server revenue proxy grows about2.44x through2031; management describes a conditional5x server CPU TAM opportunity. These scopes are not independently matched and the TAM is an aspiration, not measured future demand.",
+    "strongest_falsifier": "Underlying Foundry breakeven by2028 with at least the selected product deliveries and no spending above the owned capital/WC envelope would challenge both recovery timing and capital burden. Reserve releases do not count as underlying manufacturing recovery.",
+    "counterview": {
+      "source": "https://www.morningstar.com/stocks/intel-earnings-pc-winter-has-arrived-offsetting-healthy-ai-growth",
+      "published": "2026-10-30",
+      "author": "Brian Colello",
+      "current_fair_value_USD": 85,
+      "previous_fair_value_USD": 105,
+      "uncertainty": "Very High",
+      "moat": "None",
+      "summary": "Morningstar cut value for PC weakness and recognizes server growth plus manufacturing/substrate constraints. Its published conclusion is modest undervaluation.",
+      "comparison_limit": "Their current fair-value estimate differs in date from our end2030 conditional exit. Our end2026 reference is31.61, but it too is not exact November fair value. Public excerpt does not disclose a matched complete cash/capital model. Do not attribute the gap to any one Morningstar assumption or call this market consensus."
+    },
+    "joint_diagnostic": {
+      "operating_rate": 0.11,
+      "post2030_net_investment_remaining_fraction": 0.6,
+      "implied_mature_incremental_turnover": 1.0,
+      "end2030_price_USD": 61.57053726767735
+    },
+    "joint_diagnostic_limit": "0.8 and1.0 are illustrative capital-productivity controls, not separately researched alternative forecasts. Each uniformly scales post2030 net investment relative to the adopted phased path; all revenues, margins, terminal growth and shares remain fixed. Joint improvements can erase a gap even if any one-variable threshold looks demanding."
+  },
+  "spacex_unchanged": {
+    "preferred_rental_case_end2030_price": 152.375885,
+    "alternative_mature25_end2030_price": 252.97184,
+    "entry_price": 141.31,
+    "preferred_annual_price_appreciation": 0.01829421,
+    "alternative_annual_price_appreciation": 0.1502989,
+    "interpretation": "Fixed physical-capacity/capital paths differ in mature rental rates. Preferred20USD/W-year versus25 remains a prospective judgment, not an empirically calibrated winner. Weak long return in the preferred case is not by itself an attractive short. Original gas/satellite proxy fails to measure paid compute output."
+  },
+  "competition_judgment": {
+    "official_source": "https://www.m37.com/spc2026",
+    "round1_deadline": "2026-11-09",
+    "requirements": "Individual STEM students choose SpaceX or Intel LONG or SHORT on3-5year fundamentals; initial PDF up to10pages. Later rounds test valuation, defense and what changes the view.",
+    "no_probability": "No field-strength, scoring distribution or calibrated performance evidence supports90% confidence of winning. Independent model agreement establishes arithmetic consistency, not winning odds.",
+    "next_research_question": "Stress-test the preferred causal argument and its defense without requiring certainty, adding new operating forecasts only for evidence that would change the recommendation. The next concrete deliverable can be a compact thesis/valuation/risk explanation in chat; no unsolicited deck or submission.",
+    "eligibility_check": {
+      "source": "https://thomasou.com",
+      "observed": "Self-published website identifies current mathematics/computer-science study atPenn, BSexpectedMay2027 andMSEexpectedDec2028.",
+      "implication": "Available public evidence matches both the sponsor STEM criterion and narrower WITGPenn criterion. Not formal organizer verification; no application submitted."
+    },
+    "candidate_pitch": "SHORT Intel: the AI server and packaging recovery can succeed while the share price remains ahead of shareholder cash generation. Preferred funded CPU-plus-packaging case has38.42end2026 intrinsic reference and33.72\u201344.35controls at13\u201311%, versus58.11datedNov4quote. These are conditional values, not promised market prices; recognition delay can erase the short opportunity as intrinsic value grows toward58.67end2030."
+  },
+  "artifacts": {
+    "root_valuation_execution_policy_v2.json": "128d7fb23fa3a29a3a490d29354e3a77bbb90dad50d7d8ee271e829cbca53137",
+    "post2030_capital_transition_addendum.json": "3205cf77639432071bfba8ee8778e32009d8450768a702ea0daf98a6da58b633",
+    "intel_valuation_companion.py": "40305ed7c67c4201855061202f077118d0d1818841df0ac34a16b06ac3ff9d21",
+    "owned_intel_valuation_2026_11_04.json": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+    "independent_valuation_arithmetic_audit_2026_11_04.json": "de7fcbdfc71e7bf876dec1acae63dede118f03fec6651c9489d1939b7f45a3f8",
+    "valuation_reverse_hurdles_and_counterview.json": "a29969ffce20904c4afe57878c157c4cc7fd9fafcd5a531342f00e35444b535f",
+    "short_implementation_and_catalyst_addendum_2026_11_04.json": "d594088f96e12fbf625a03a5c8a189f6b9aa2bbeae62e3de8628cb7641d25d70",
+    "adversarial_short_underwriting_review.json": "4ba01598d1c1cbbccdcdefda2b3afd61481ed9d9bd11e207333d43076de3aac4",
+    "funded_bull_execution_policy.json": "ae6b3b69badafeb75fe6ab6c883d2316194ff1aeb0eb9c3901fe85700d862671",
+    "bullish_absorption_operating_policy.json": "6857dbbc5e3d724a3dde2b0ef0ce5914d40a87a09ac4afd6aa0369c32113bf65",
+    "funded_bull_valuation_companion.py": "824627f72b81bbb6a151c275482b372ada4db43c10befca7def2fd7b3c7d0b58",
+    "funded_bull_valuation_2026_11_04.json": "5a55146ce8cd7d4b20f52b85997fd616aa05573aa373eddd3905f35429471521",
+    "funded_bull_independent_absolute_audit.json": "d68c7ec732095f2edc66b05d0714a49d53d4b513b6949b45790adacb30e8e1b2",
+    "amd_cpu_counterfactual_addendum_2026_11_04.json": "0d27b90e7d09dd247f928959a9a2500b819f570fa808e23de2dc8678c3c013d1",
+    "competition_expectation_gap_review_2026_11_04.json": "3f3d38051491a257aec0d76c37c1059aff3c3f2cc8c8d001b9949f8d3bf10369",
+    "physical_reuse_capacity_bridge_2026_11_04.json": "ca8205854ccdc64441fe92b3e80d31220e256d10aa12319bb41245e5e7b344ea",
+    "committed_spending_cash_requirement_bridge_2026_11_04.json": "0877a64b31842bbae06b979b44763181e0898eb10134205ec8a37f608edca6fb",
+    "judge_objections_defense_test_2026_11_04.json": "6bc6faa592b3ec51ed94dc5f101b4bdbefde42d804f57abdb640e276e085c6bb"
+  },
+  "goal_state": "Blocked: update_goal returned blocked after three consecutive verifications of the same external-information barrier to90%winningconfidence. The research recommendation remains a moderate-conviction IntelSHORT; goalnotachievedandnotpaused.",
+  "previous_comparison_as_of_utc": "2026-11-04T12:27:55.370676+00:00",
+  "funded_countercase_update": {
+    "completed_utc": "2026-11-04T12:19:32.776728+00:00",
+    "scope": "Faster server volume and Foundry breakeven2028, without a new large external14A award. Mature margins and incremental capital productivity converge to the original conventions.",
+    "primary_end2030": {
+      "date": "2030-12-31",
+      "rate": 0.12,
+      "explicit_operating_PV_change_B": 27.040200946783116,
+      "terminal_operating_PV_change_B": 13.66248124430141,
+      "endpoint_cash_change_B": 9.592309313840065,
+      "equity_change_B": 50.294991504924596,
+      "equity_B": 314.7081761910146,
+      "price_USD": 57.115821450274886,
+      "base_price_USD": 47.98787380872777,
+      "annual_price_appreciation_from_entry": -0.013941619513762271
+    },
+    "rate_controls": {
+      "0.11": {
+        "date": "2030-12-31",
+        "rate": 0.11,
+        "explicit_operating_PV_change_B": 28.100231127100358,
+        "terminal_operating_PV_change_B": 16.812509395448384,
+        "endpoint_cash_change_B": 9.592309313840065,
+        "equity_change_B": 54.50504983638881,
+        "equity_B": 351.22541634603175,
+        "price_USD": 63.743269754270734,
+        "base_price_USD": 53.85124619049781,
+        "annual_price_appreciation_from_entry": 0.012434613068676548
+      },
+      "0.13": {
+        "date": "2030-12-31",
+        "rate": 0.13,
+        "explicit_operating_PV_change_B": 26.04414387252354,
+        "terminal_operating_PV_change_B": 11.250397832169714,
+        "endpoint_cash_change_B": 9.592309313840065,
+        "equity_change_B": 46.88685101853332,
+        "equity_B": 285.56920941154,
+        "price_USD": 51.82744272441742,
+        "base_price_USD": 43.318032376226256,
+        "annual_price_appreciation_from_entry": -0.03671174402035893
+      }
+    },
+    "extra_physical_capex_2027_2030_B": 11,
+    "extra_WC_2027_2030_B": 4,
+    "extra_AMIC_credits_B": 0,
+    "end2030_cash_B": 68.45593196305298,
+    "independent_absolute_audit": "PASS;180 numerical comparisons; no root delta valuation used in independent derivation.",
+    "price_only_short_gain_at12pct": 0.05671640874855675,
+    "limits": "Same corporate/SBC/lease/NCI/claim and cash-income policies remain assumptions. Operating forecasts are not independently proved by the arithmetic audit. No probability assigned and no blanket upper bound on possible upside."
+  },
+  "current_expectations_correction": {
+    "INH": "The October30 free report supersedes the175USD preview with80USD/Hold and already recognizes negative2027FCF, capex growth and substrate constraints. Do not present the old preview as current expectations.",
+    "INH_source": "https://inhcapital.com/insights/research/intc-q3-fy26-downgrade-hold",
+    "Morningstar": "85USD current fair value remains a different-date valuation counterview; accessible public text lacks a full matched capital/FCF path.",
+    "nonconsensus_limit": "Neither source establishes a measured consensus turnover, cash-conversion forecast or cost omission. Generic2027cashburn is not a differentiated claim.",
+    "AMD": "Issuer-hosted August4 transcript forecasts about220B serverCPU market in2030. This strengthens the shared broad CPU-demand narrative; it does not confirm Intel share. Q3 fresh official text still does not provide CPU-only growth, and no Q3 transcript was linked when checked.",
+    "Intel_endpoint": "Intel describes more than200B overfiveyears fromOctober2026, approximately2031; do not silently label it2030 or match its scope toAMD."
+  },
+  "readiness_standard_correction": {
+    "previous_overreach": "Treating a plausible bullish case above price, unavailable exact yields, or lack of a matched consensus model as automatic disqualification sets a higher bar than M37 rules.",
+    "correct_standard": "A clear fundamental recommendation, causal supporting evidence, quantitative consequences and thoughtful risk/falsifier discussion can support a serious initial screen. Winning examples do not prove unique data is mandatory.",
+    "decision_limit": "Credible initial-screen readiness is not the user requested90%probability of winning; do not replace the objective or mark it complete."
+  },
+  "physical_reuse_and_cash_update": {
+    "Ireland": "July13 \u20ac5B program upgrades existing cleanrooms/fabs and installs tools/transport. It supports faster absorption while confirming reuse still requires fresh capital.",
+    "Ireland_source": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe.html",
+    "Fab52_and_18AP": "Shared client/server18A production and reuse of design infrastructure support a feasible funded faster-output case. Design compatibility is not proof that all tools/processes are fungible.",
+    "Fab62": "Oct21 says operations byend2028; later Oct29 remarks describe a broad ramp includingFab62. Neither zero2027 output nor a quantified2027 contribution is established. Do not silently choose the timing most convenient for the thesis.",
+    "capital_commitments": "19.6B mostly due within12months ofSep26 includesQ4_2026. No valid calendar2027lowerbound equal to19.6B. Substrate funding3.3Bbyend2027 is already inside the forecast; no new additive charge.",
+    "forecast_preference": "Retain Foundry profit\u22125.5/\u22123.5/\u22121.5/0B2027\u201330. More higher-value finished-server sales benefit Products; do not add the same pricing gain to Foundry. Underlying absorption improves while depreciation/startup/R&D continue.",
+    "falsifier": "Late2027 underlying quarterly Foundry losses around0.5B or lower, accompanied by accepted product growth and spending within the funded envelope, would favor faster recovery and force review. This threshold is an analyst monitoring judgment, not issuer guidance.",
+    "limits": "Site-level good-die output, customer allocation and exact remaining completion cash are not disclosed sufficiently to infer an empirical mature turnover. Their absence does not prevent a reasoned forecast; keep the0.60capital convention visible as an assumption."
+  },
+  "defense_test": {
+    "verdict": "Defensible moderate-conviction initial-screen short; not robustly proven mispricing. Weakest answer is price convergence timing.",
+    "retained_claim": "The preferred recovery creates value, but not enough to justify60.55under the owned capital-return and discount assumptions. The fundedbull adds15Bcapital/WC and raisesvalue, proving investment is not treated as inherently destructive.",
+    "remove_claims": [
+      "Capex inherently destroys value.",
+      "The stock must converge toDCFby2030.",
+      "A cashcrisis/forcedequityissue supplies thecatalyst.",
+      "A lack of namedexternalcustomer meanszerooptionvalue.",
+      "Allgrowthrequiresgreenfieldfabs orFab62certainlyhaszerooutputbefore2028.",
+      "Arithmeticverification validatesforecasts or90%winningodds."
+    ],
+    "cash2030_B": {
+      "EBIT_after_SBC": 30.280495094765207,
+      "DA_addback": 19,
+      "cash_PPE_including_capitalized_interest": 26,
+      "working_capital": 2,
+      "lease_allowance": 1,
+      "NCI_reserve": 1.3,
+      "ordinary_cash_interest": 1.6,
+      "cash_interest_income": 1,
+      "ordinary_cash_tax": 4.395824264214781,
+      "owner_cash_before_capital_incentives": 13.984670830550426,
+      "capital_credit_collections": 4.2,
+      "credit_basis_loss_tax": 0.588,
+      "owner_cash_after_capital_incentives": 17.596670830550426,
+      "scheduled_debt_principal": 2.75
+    },
+    "cash_label": "Economic owner cash, notGAAPCFO orpromiseddividend. SBCchargedonce inEBIT; capitalizedinterestchargedoncewithin26BPPE. Old13.928Bproxyomittedthelater0.05625Bcapitalizedinteresttaxbenefit.",
+    "valuation_dates": "31.61isend2026planningreference, notNovember3fairvalueorapredictednear-termtradingtarget.47.99isend2030remainingoperatingvalueplusrebuiltfinancialassets/claims.",
+    "external_program_hurdles": {
+      "computed_utc": "2026-11-04T12:33:07.231480+00:00",
+      "purpose": "Size the omitted external-business risk in net cash terms; not value a contract, assign probabilities or revise either stock estimate.",
+      "rows": [
+        {
+          "case": "central",
+          "end2030_price_USD": 47.98787380872777,
+          "extra_equity_value_to_match_entry_B": 69.21731531390996,
+          "additional_aftertax_2031_cash_B_growing3pct_forever": 6.229558378251896
+        },
+        {
+          "case": "funded_faster_recovery",
+          "end2030_price_USD": 57.115821450274886,
+          "extra_equity_value_to_match_entry_B": 18.92232380898536,
+          "additional_aftertax_2031_cash_B_growing3pct_forever": 1.7030091428086824
+        }
+      ],
+      "each_extra1B_2031_net_cash_growing3pct_adds2030_price_USD": 2.0165355918531964,
+      "formula": "Additional end2030 equity = net incremental2031aftertaxcash/(.12-.03); divide by5.51Bclaims. Only applies when the netcash stream already pays all incremental replacement/growth capital, WC, tax, lease and minority claims.",
+      "cash_definition": "Net NEW shareholder-attributable unlevered cash, not revenue, EBITDA or gross profit. Exclude any already modeled service/product cash. No separate free credit for internal transfers or existing model expenditure.",
+      "upfront_cost_rule": "The reported hurdle assumes no additional unmodeled pre2031outlay/claim change. Every1Bnetextra end2030equitycost raises required2031cash by0.09B at these fixedrates; actual earlier funding, newdebt/dilution or covenants require paired cash/claims modeling.",
+      "interpretation": "The central case has materially more headroom than the faster case. This does not demonstrate that either amount is impossible or likely. A large positive-NPV external program can invalidate the short; absence of disclosed terms is not proof of zero value.",
+      "provenance": {
+        "base_sha256": "1fad8340551c55d5299762686c1c56238e30f4bd718c0dd1d2f9f553630f92ca",
+        "bull_sha256": "5a55146ce8cd7d4b20f52b85997fd616aa05573aa373eddd3905f35429471521"
+      }
+    },
+    "human_ready_pitch": "SHORT Intel on the judgment that accepted server growth, node cost learning and existing-fab reuse produce a gradual rather than rapid owner-cash recovery. The center allows103.2B2030revenue and30.3Boperatingprofit, yet onlyabout14Bowner cashbeforecapitalincentives. Its47.99end2030valueisbelow60.55entry. Showthefunded57.12fastercaseand63.74lower-ratecontrol; explainwhyqualification,clientloading,depreciationandR&Dkeeptheslowercenterpreferred. TreatnewattractiveexternalprogramsandearlierunderlyingFoundrybreakevenasre-underwritingtriggers."
+  },
+  "completion_audit": {
+    "audited_utc": "2026-11-04T12:34:48.698181+00:00",
+    "actual_goal": "Research until90%confidence ofwinningM37, as clarified byuser; donotreplace with90%modelaccuracyorreadiness.",
+    "verified_work": [
+      "Five-hour autonomous window completed and time-stamped in five_hour_research_result_2026_11_04.json.",
+      "OriginalSpaceXpredictor andvaluation reviewed; failures andconditionalcases retained.",
+      "Intelalternative modeled throughcash,capital,financingandclaims; baseandfundedbull independentlyreconstructed.",
+      "Currentpublicexpectations, physicalreuse,cashcommitments,rules andapparenteligibility checked.",
+      "Concreteinvestmentrecommendation andfiveadversarialdefenseanswers prepared withoutrequestinguserinput."
+    ],
+    "not_proved": [
+      "A90%probabilityofwinningM37.",
+      "Calibrationlinkingourresearch/readinessreviews toactualjudgingoutcomes.",
+      "Strengthofcompetingentries or theuser\u2019sactualindividual liveperformance."
+    ],
+    "evidence_boundary": "More variants ofthe sameDCF oragreementamongassistants cannotmeasurewinningprobability. Publiccriteriaandexamplesdonotprovidethe missingcomparativeoutcomeevidence. Companyforecastuncertainty remainslegitimateinvestmentrisk, notanewrequirementtoempiricallyprovefutureoutcomes.",
+    "status": "Goalnotachieved. Researchanddefenseworkcanbeseriouswithouta90%winclaim. Do notmarkcomplete.",
+    "second_revalidation": {
+      "utc": "2026-11-04T12:37:48.165522+00:00",
+      "source": "https://www.m37.com/spc2026",
+      "finding": "Sameexternalinformationbarrierconfirmed. No source identified for actualfieldquality,comparablejudgingcalibrationoruserliveperformance. Publiccriteria andothercompetitionswinningexamples donotjustify90%.",
+      "scope": "Boundedimpasseforthewinning-probabilitythreshold, notclaimthatnoonecouldimproveanentry orthatIntelcannotwin.",
+      "independent_review": "fresh_underwriting_judgment completedandagreed; agentagreementisnotusedaswinningevidence."
+    },
+    "final_status": {
+      "utc": "2026-11-04T12:38:55.353337+00:00",
+      "status": "blocked",
+      "consecutive_blocker_turns": 3,
+      "reason": "Noavailablecalibratedevidence aboutactualcompetitors,judgingoutcomes oruserliveperformance supports90%winningconfidence. Currentresearch andsimulateddefensecannot supplythat externalcomparativeinformation.",
+      "scope": "DoesnotclaimIntelcannotwin orcompanyforecastsrequirecertainty. It recordsaninabilitytojustifytheactualrequestedprobabilitywithcurrentinformation.",
+      "research_result": "Five-hourresearchwindow completed; SpaceX andIntelresearch, auditedconditionalvalues, fundedcountercase, physicalcashbridges andwrittenjudgeanswers preserved."
+    }
+  },
+  "renewed_strongest_thesis_review_2026_11_04": {
+    "scope": "Bounded renewed comparison requested by user; does not reactivate prior blocked winning-probability goal or change frozen models.",
+    "root_recommendation": "Intel SHORT remains the strongest examined M37 submission candidate, with moderate conviction (subjective6/10, not a winning probability). Root now prefers the faster funded CPU recovery plus explicitly funded external-packaging companion, rather than the earlier constrained recovery. Its end2026 intrinsic planning reference is38.4204USD versus the observed Nov4 10:43ET58.11quote. This is conditional overvaluation, not a promised repricing date. Values rise to52.9158end2029 and58.6731end2030, so realization timing and carry remain central. The most important forecast risk is durable manufacturing capital productivity and better-than-modeled cash conversion.",
+    "candidate_thesis": "Intel can grow AI server sales and product profit while the recurring cost of qualified manufacturing output, packaging, process development and working capital limits shareholder cash. The disagreement concerns the pace of cash conversion and capital productivity, not whether server demand is real.",
+    "subjective_pitch_quality_out_of_10": 6,
+    "rating_limit": "Subjective editorial assessment, not a measured probability, not 60% odds of winning, and not a forecast calibration statistic. No defensible numeric winning probability established.",
+    "new_price_observation": {
+      "price_USD": 58.11,
+      "timestamp": "2026-11-04 10:43 AM EST",
+      "source": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+      "scope": "Timestamped secondary market quote observed on page; not a live guaranteed execution price. Original model reference remains November3 close60.55."
+    },
+    "unchanged_2030_model_overlay": {
+      "base_value_USD": 47.987874,
+      "funded_bull_12pct_value_USD": 57.11582,
+      "funded_bull_11pct_value_USD": 63.74327,
+      "base_gross_short_price_gain_pct": 17.4189055240062,
+      "funded_bull_12pct_gross_short_price_gain_pct": 1.7108587162278477,
+      "funded_bull_11pct_stock_upside_pct": 9.69414902770609,
+      "additional_2031_net_cash_B_beyond_funded_bull_to_match_quote": 0.49301376343644193,
+      "cash_hurdle_limits": "Incremental after-tax owner cash growing3% perpetually from2031 at12%, after all incremental investment; assumes no additional end2030 cost. Existing packaging cash cannot be added twice. No complete customer-program model or probabilities."
+    },
+    "intel_new_counterevidence": [
+      {
+        "finding": "Issuer Q1 prepared remarks say advanced packaging backlog increased and committed demand will begin converting to revenue in2027.",
+        "source": "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf"
+      },
+      {
+        "finding": "CFO first-person Aug26 transcript describes packaging ramp2H2027, runrate2028, stronger2029, multiple billions of annual revenue per customer,40%gross/30%operating margins, and less capital intensity than front-end manufacturing. Management forecast, not contracted economics.",
+        "source": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+        "verification": "Official Intel event and replay link verified; registration requested for replay, no issuer transcript exposed, exact third-party transcript not independently audio-verified."
+      },
+      {
+        "finding": "Same transcript explicitly identifies internal Foundry break-even target end2027, with possible extension into2028 because new customer starts incur cost. This resolves earlier ambiguity about the scope of the date in the preview commentary.",
+        "source": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/"
+      },
+      {
+        "finding": "MediaTek customer presentation identifies Intel16 massproduction in2025; actual named manufacturing activity exists. Tower November2 release still lists Intel NewMexico corridor nonperformance dispute. Neither customer fact alone establishes aggregate incremental cash."
+      }
+    ],
+    "spacex_strongest_challenger": {
+      "direction": "LONG adaptive merchant-compute service business",
+      "mechanism": "Qualified capacity, backfill and deployment/operation services can remain valuable while customers fund accelerators. Oracle illustrative BYOH economics show this is a real alternative ownership structure.",
+      "source": "https://s23.q4cdn.com/440135859/files/doc_downloads/2026/10/Oracle-Investor-Day-Meeting/vFinal/2026-Investor-Day-CFO-presentation.pdf",
+      "limit": "No matched SpaceX service-ownership transition disclosed in inspected sources; Oracle economics are not transferable coefficients. Mature20 remains preferred owned-fleet rental policy;25 not promoted to obtain an attractive target."
+    },
+    "decision_limits": [
+      "A credible initial-screen pitch is not a demonstrated investment edge or high probability of winning.",
+      "Lower observed Intel price reduces short payoff; no forced funding catalyst identified.",
+      "Material packaging upside must enter quantitative counteranalysis; absence of disclosed customer net cash is not evidence of zero option value.",
+      "No deck, submission, trade, outreach, or registration performed."
+    ],
+    "finalized_utc": "2026-11-04T15:59:50.570627+00:00",
+    "initial_same_pass_assessment_scope": "The unchanged2030_model_overlay above predates the explicitly funded packaging companion. It is preserved as an intermediate analysis, not the current preferred valuation.",
+    "preferred_operating_and_valuation_update": {
+      "policy_file": "external_packaging_operating_policy_2026_11_04.json",
+      "policy_sha256": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb",
+      "valuation_file": "external_packaging_valuation_2026_11_04.json",
+      "valuation_sha256": "24f7fc7e19b907e210070855e0c24650cbaf52043e923a3deb0e71290d9a231f",
+      "operating_judgment": "Prefer funded-bull CPU path unchanged plus the incremental external-packaging policy. This follows actual committed2027demand and better evidence for existing-factory output growth, while charging all incremental capacity. No stock-price target was used to alter the frozen operating companion.",
+      "program_scope": "Gross new packaging programs7B revenue2030 less2B explicit overlap leaves5B incremental revenue. Gross25% operating margin less overlap and central/SBC gives1.175B incremental2030 EBIT. Incremental2027\u201330 physical capital5.5B and working capital0.75B; fully charged mature renewal/growth. Programme counts, margins, overlap and capital coefficients remain owned assumptions.",
+      "yearend_intrinsic_values_at_12pct": {
+        "2026": 38.42041808616546,
+        "2027": 42.573401831822935,
+        "2028": 47.48599651183049,
+        "2029": 52.915846702164245,
+        "2030": 58.673109601568825,
+        "2031": 64.77763733376835
+      },
+      "2026_rate_controls": {
+        "0.11": 44.35044250442401,
+        "0.12": 38.42041808616546,
+        "0.13": 33.72147806306082
+      },
+      "2030_rate_controls": {
+        "0.11": 65.59090545910254,
+        "0.12": 58.673109601568825,
+        "0.13": 53.15315608230584
+      },
+      "2026_reference_discount_to_observed_quote_pct": 33.883293604946715,
+      "horizon_correction": "Prior framing overemphasized eventual2030price as if competition required holding untilthen. The rules require a3\u20135year fundamental thesis. Show present/reference intrinsic value and realization timing separately. End2026 uses a forecast closing balance sheet and is not exactNov4fairvalue or a promised market target.",
+      "recognition_path": "2027\u201328 capital budgets and cash outcomes alongside accepted shipments could alter expectations. No inevitable earnings miss, funding deadline or forced repricing is established.",
+      "falsifier": "Materially less investment for the assumed output, more profitable external customer programs or sustainable cash conversion above the preferred forecast. Technology progress alone is already included.",
+      "verification": "Finance rebuilt absolute annual tax/treasury/claims and reproduced immutable host outputs. Root separately computed incremental cash and direct PV from frozen programme rows: end2026deltaEV4.781944866B; end2030deltaEV11.709354142B; accumulated2030cashdelta\u22123.128696429B. Results match. Source hashes remain unchanged.",
+      "checks": {
+        "all_source_hashes_preserved": true,
+        "host_existing_outputs_reproduced": true,
+        "minimum_annual_economic_cash_B": 35.01713836966429,
+        "total_new_debt_2027_2030_B": 0.0,
+        "terminal_cash_growth": 0.030000000000000027,
+        "incremental_physical_capital_2027_2030_B": 5.5,
+        "incremental_WC_cash_2027_2030_B": 0.75
+      }
+    }
+  },
+  "prior_root_verdict_before_horizon_recheck": "Intel SHORT remains the strongest examined M37 submission candidate, with moderate conviction (subjective6/10, not a winning probability). Root now prefers the faster funded CPU recovery plus explicitly funded external-packaging companion, rather than the earlier constrained recovery. Its end2026 intrinsic planning reference is38.4204USD versus the observed Nov4 10:43ET58.11quote. This is conditional overvaluation, not a promised repricing date. Values rise to52.9158end2029 and58.6731end2030, so realization timing and carry remain central. The most important forecast risk is durable manufacturing capital productivity and better-than-modeled cash conversion.",
+  "further_research_value_assessment": {
+    "reviewed_utc": "2026-11-04T16:18:32.127116+00:00",
+    "rules_source": "https://www.m37.com/spc2026",
+    "rule": "Every recommendation must address a3\u20135-year investment horizon and be based on fundamental analysis.",
+    "intel_high_value_questions": [
+      "Empirical constraints on investment needed for qualified output and durable capital productivity.",
+      "Full valuation of external manufacturing opportunities and whether cash generation differs materially from the preferred recovery.",
+      "Attractive payoff under the required horizon, with a defensible expectations disagreement and plausible resolution."
+    ],
+    "spacex_high_value_question": "Whether disclosed contracts, ownership and funding strategy support retaining deployment/operations profits while customers fund accelerators. Compare owned and customer-owned equipment on matched revenue, capital, replacement and termination terms; Oracle precedent is not proof of SpaceX adoption.",
+    "limits": [
+      "Additional hours do not guarantee a9/10 thesis or observable private contracts.",
+      "A rigorous rejection or company/direction switch is a valid research outcome.",
+      "No numeric competition-winning probability established."
+    ],
+    "scope": "Response to question about potential improvement; no new hours commitment, goal, model inputs or valuations created."
+  },
+  "prior_root_verdict_before_deeper_supplier_and_capital_review": "Intel SHORT is the more developed current research candidate, not a settled superior investment recommendation. The official rules explicitly require a3\u20135-year investment horizon. Preferred CPU-plus-packaging values52.92/58.67/64.78 at end2029/30/31 against58.11datedreference do not establish a compelling horizon short payoff before carry. The38.42end2026 intrinsic reference is material valuation evidence but does not by itself resolve this weakness. Keep SpaceX and both directions open. More targeted research may improve, overturn or downgrade the thesis;6/10 is subjective shorthand, not a calibrated score, and9/10 or winning odds are not promised.",
+  "latest_deeper_source_review": {
+    "result": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/deeper_source_review_2026_11_04/deeper_research_result_2026_11_04.json",
+    "sha256": "95b5cfb76fbc0647e2a7466d5c050e61f58375d53971e276e434bc4a103fe82e",
+    "current_valuation": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/paired_cpu20_capital080_valuation_2026_11_04.json",
+    "prices_at12pct": {
+      "2026": 37.93785497285347,
+      "2027": 42.032931144913505,
+      "2028": 46.90526393166252,
+      "2029": 52.32963235042717,
+      "2030": 58.10894900022785,
+      "2031": 64.271023812792
+    },
+    "audit": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/paired_cpu20_capital080_independent_audit_2026_11_04.json",
+    "limits": [
+      "The model field external_revenue_B is a Products-plus-Other-plus-net-packaging capital denominator. Embedded external Foundry sales have not been separately reconstructed; do not present it as a fully reconciled consolidated revenue forecast.",
+      "End-2031 is approximately 5.155 years after the dated entry. End-2029 and end-2030 fall within the official three-to-five-year horizon; end-2031 is a boundary control, not an exact five-year target.",
+      "A numerical audit validates implementation, not the predictive accuracy of owned unit growth, margin, capital-productivity or discount-rate assumptions."
+    ]
+  },
+  "prior_root_verdict_before_ASP_margin_rule_review": "The additional evidence improves the project but does not establish a compelling three-to-five-year LONG or SHORT. Intel remains the more tractable operating and capital research project, not a settled investment pick. Adopt the moderated CPU/reuse case as the current prospective estimate; preserve the prior higher-volume case as upside. Neither a 9/10 thesis nor quantified winning odds is established.",
+  "latest_pricing_and_rule_review": {
+    "result": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/pricing_and_competition_research_result.json",
+    "sha256": "f088ddba3777b2a6c4ff54e7ec1072e6f3b661503b3373bac4a0c95dcd2372b8",
+    "current_valuation": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+    "values_at12pct_USD": {
+      "2026": 44.067914052747014,
+      "2027": 48.89859731439426,
+      "2028": 54.57624488068242,
+      "2029": 60.8641323994547,
+      "2030": 67.57762169851729,
+      "2031": 74.74084968212509
+    },
+    "verification": {
+      "pricing_case": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/independent_intel_server_ASP_mix_audit_and_direction.json",
+        "sha256": "e493c75172a84a29d282a24fc723e38226d54a2dfc259ed71f1db9202ce7e2f6",
+        "result": "PASS,743 independent numerical comparisons; maximum difference2.7e-13."
+      },
+      "margin_extension": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/independent_mature35_incremental_audit_addendum.json",
+        "sha256": "594df783f6f68a7e3843d177efbe1d6700ec293809bb2782289025db36aff74d",
+        "result": "PASS, incremental EBIT/tax/PV/2031cash; maximum difference6.4e-14. Original sources unchanged."
+      },
+      "limit": "Arithmetic validation does not establish forecast accuracy, an investment recommendation or winning odds."
+    },
+    "rule_source": "https://www.m37.com/spc2026"
+  },
+  "round1_submission_draft": {
+    "as_of_utc": "2026-11-04T17:56:07.182846+00:00",
+    "status": "Concrete Round 1 discussion draft prepared; not sent.",
+    "root_owned_draft_recommendation": "Intel SHORT as an actively managed valuation-convergence position, with a 2027-2031 fundamental forecast and expected market reassessment during 2027-2028.",
+    "why_selected": "This direction follows the current valuation gap without changing operating or capital assumptions to force a target. Cash conversion after funding a successful recovery is the central argument.",
+    "remaining_limit": "Earlier convergence is an explicit investment forecast, not a proven catalyst. Preferred values rise above the entry by 2029. The literal 3-5-year horizon fit is weaker than a conventional horizon-end short, and this draft does not establish a passive 3-5-year short or a high probability of winning.",
+    "reference_price": {
+      "USD": 60.55,
+      "date": "2026-11-03",
+      "type": "prior close"
+    },
+    "end2026_value_USD": 44.067914052747,
+    "end2027_cover_anchor_USD": 48.898597,
+    "end2030_value_USD": 67.577621698517,
+    "core_assumptions_unchanged": true,
+    "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen_draft.pdf",
+    "pdf_sha256": "b01c37be1fa1f248b8baea2d6b3238048afa0c70876f9c7629f1a2130918d3a2",
+    "pages": 8,
+    "qa_manifest": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/m37_submission_manifest.json",
+    "email_draft": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/submission_email_draft.txt",
+    "attachments_user_still_needs": "Current resume; review the draft before sending.",
+    "class_year": 2027,
+    "class_year_source": "https://thomasou.com/",
+    "official_rules": "https://www.m37.com/spc2026",
+    "due_date": "2026-11-09",
+    "recipient": "[contact email omitted]",
+    "sent": false,
+    "winning_objective_achieved": false
+  },
+  "latest_focused_decision_pass": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/decision_result.json",
+    "sha256": "7259be226bb839829306db2b39beebb9c182ce4f58605bc428218258e1d8d63a",
+    "status": "Focused research pass completed; current early-repricing Intel SHORT withdrawn as preferred submission. No automatic LONG recommendation.",
+    "root_decision": {
+      "current_draft": "Retain the existing PDF as a historical discussion draft, not a presently endorsed final entry. Do not submit it unchanged.",
+      "recommendation_change": "Retire the unsupported2027-2028convergence claim. Retain Intel as a developed valuation counterview. This pass did not earn a stronger directional LONG or SHORT for the competition.",
+      "why": "The current cash-conversion argument already appears in dated public research; accessible operating forecasts do not reveal a distinctive near-term disappointment in our model. The central conditional horizon price gives weak price-only short economics, while realistic changes in mature economics and risk worsen them. Early repricing was previously used to make the submission concrete rather than established by new evidence.",
+      "scope_of_conclusion": "This does not prove price is efficient, a correction impossible, or that every scenario must support the recommendation. Exact consensus and guaranteed catalysts are not required by M37. It is a judgment about this specific proposed position and evidence.",
+      "unchanged_central_operating_case": true,
+      "working_central_discount_rate": 0.12,
+      "why_not_switch_long": "Lower discount-rate and more productive operating cases are alternatives, not newly adopted most-likely forecasts. Central end2026 value remains44.07, below dated60.55reference; do not relabel an upside case to force LONG."
+    }
+  },
+  "latest_earnings_cash_test": {
+    "as_of_utc": "2026-11-04T18:49:29.640888+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/decision_result.json",
+    "sha256": "a65c449870a387fb309e6877625c94c93ce45b2176a9aac355b77944bb371fd7",
+    "status": "Focused Intel earnings-to-cash test completed. Earnings upside identified; LONG not established.",
+    "root_decision": {
+      "working_operating_thesis": "Intel\u2019s richer CPU mix could deliver earnings above published forecasts without a major new external wafer customer. The investment question is how much cash Intel must reinvest to deliver those earnings.",
+      "earnings_result": "The existing operating forecast produces conditional adjusted EPS proxies of about $2.50 in 2027 and $4.17 in 2028. The premium survives several tax, accounting-presentation and Foundry-cost controls. It is not solely an EBIT-versus-EPS comparison error.",
+      "investment_result": "No LONG recommendation established. These operating earnings already underpin the existing cash valuation; expressing them as adjusted EPS does not increase cash value. A higher P/E alone cannot resolve the economic disagreement.",
+      "why_the_edge_is_narrower_than_the_EPS_gap": "The matched 2027 DCAI growth difference explains only about 30% of the EPS gap to iFAST under our other conventions. The entire premium cannot be presented as one overlooked CPU pricing effect.",
+      "capital_review": "No demonstrated double counting of physical capital or justified asset-light cash uplift. Intel Products uses internal manufacturing and external suppliers; the custom-silicon manufacturing split is insufficiently disclosed to remove host capital spending.",
+      "prior_short": "The prior early-repricing SHORT remains withdrawn as the preferred submission. This test does not revive it.",
+      "submission_status": "The old PDF remains a superseded discussion draft. No current directional submission is endorsed; nothing was submitted.",
+      "competition_objective_complete": false,
+      "finite_test_complete": true
+    },
+    "verification": {
+      "independent_audit_verdict": "PASS WITH COMPARABILITY LIMITS",
+      "checks_count": 316,
+      "numerical_errors": 0,
+      "audit": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/independent_earnings_cash_audit.json",
+        "sha256": "e01e9d877590933b438281b9e875386ad0edee1d41b7778adad7211e95e77d2a"
+      },
+      "audit_does_not_validate_business_forecasts": true,
+      "audit_metadata_precedence": "The bridge retains its original pre-audit pending field to preserve its audited SHA256. This record and the independent audit supersede that historical field.",
+      "all_audited_input_hashes_verified_at_close": true,
+      "source_model_modified": false,
+      "PDF_modified": false
+    }
+  },
+  "current_state_precedence": "latest_hour_verification supersedes older recommendations, numerical reference ranges and draft-readiness commentary.",
+  "latest_direction_resolution": {
+    "as_of_utc": "2026-11-04T22:13:11.075418+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/decision_result.json",
+    "sha256": "af94bac971de118f76a52ab551054f6f977e2c4580c201c27a50ecd0acd0a076",
+    "status": "Completed substantive direction review and three-page working pitch. Qualified valuation SHORT selected as current candidate; no proven trading alpha or winning probability.",
+    "root_decision": {
+      "working_recommendation": "SHORT, qualified valuation thesis for competition review",
+      "thesis": "Intel can recover operationally while its equity offers insufficient compensation for manufacturing and cyclical risk at the entry price. The existing funded forecast supports a lower end-2026 planning value than the dated quote.",
+      "working_fair_value_reference_USD": [
+        44.067914052747014,
+        49.96887374853764
+      ],
+      "fair_value_date": "2026-12-31 planning reference, not a 2030 target or predicted price-convergence date",
+      "reference_price": {
+        "price_USD": 58.28,
+        "date": "2026-11-04",
+        "time": "16:00 America/New_York close",
+        "source": "https://stockanalysis.com/stocks/intc/forecast/",
+        "retrieved_after_close_UTC": "2026-11-04T21:48:06+00:00",
+        "prior_reference_USD": 60.55,
+        "prior_reference_date": "2026-11-03"
+      },
+      "why_direction_selected_now": "A fundamental valuation opinion can be a legitimate directional competition candidate without exact consensus, a guaranteed catalyst or positive price-only unhedged short PnL in every future year. Our higher operating-risk allowance supports the bearish stance; that remains a judgment rather than proven mispricing.",
+      "limits_on_selection": "Risk-adjusted underperformance has not been established by a specified hedged trade. No counter-long, hedge ratio, broker borrow/carry, margin return or portfolio alpha is modeled. Do not subtract the operating discount rate from shareholder CAGR and label the difference alpha.",
+      "primary_counterargument": "The central 2030 value is $67.58, above the $58.28 entry, implying 3.63% annual long price appreciation and a $9.30 price-only short loss before carry. Risk maturation raises the conditional 2030 value to $76.86 and long price CAGR to 6.89%.",
+      "risk_sensitivity": "At 10% operating discount, unchanged central cash supports $60.09 at end-2026; the dated quote matches about 10.17846%. The short view is materially exposed to the risk assumption.",
+      "what_is_not_the_thesis": [
+        "A permanent structural cash drain",
+        "An undiscovered negative 2027 FCF forecast",
+        "Intel unit-share loss automatically means declining units",
+        "A promised 2027/2028 repricing",
+        "A new LONG earned by adding back compensation in EPS"
+      ],
+      "old_short_draft_status": "Old early-convergence PDF remains historical and superseded. This new working pitch does not reinstate its unsupported timing claim.",
+      "new_draft_status": "Three-page review draft with business overview, recommendation, forecasts, horizon economics, countercases, falsifiers and sources. Not submitted; no claim of final competition readiness.",
+      "competition_objective_complete": false
+    },
+    "working_pitch": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "c43026665a84c9e47fcf26965d197c2c64c02fe0e1f52c0c21fb32e661d3ebb0",
+      "qa": {
+        "pages": 3,
+        "all_pages_rendered_and_visually_inspected": true,
+        "layout_defects_observed": false,
+        "key_numbers_checked": [
+          "$58.28",
+          "$44.07",
+          "$49.97",
+          "$60.09",
+          "$67.58",
+          "$76.86",
+          "$86.30",
+          "3.63%",
+          "6.89%",
+          "$9.30",
+          "10.18%",
+          "11.91%"
+        ],
+        "source_hyperlinks": 10,
+        "original_PDF_preserved": true
+      }
+    }
+  },
+  "latest_hour_verification": {
+    "as_of_utc": "2026-11-04T23:31:40.991277+00:00",
+    "result_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/verification_result.json",
+    "supersedes": "Previous risk-reference value range and old working PDF numbers; preserve historical cases as sensitivity controls.",
+    "working_recommendation": "Retain qualified valuation-led Intel SHORT as working competition thesis. Moderate investment conviction; credible and potentially competitive after correction.",
+    "current_values": {
+      "date": "2026-12-31 conditional planning value",
+      "reference_quote": {
+        "date": "2026-11-04 close",
+        "USD": 58.28
+      },
+      "central_flat_11_555": 46.95806228358314,
+      "central_maturing_risk": 53.77047718436613,
+      "more_productive_maturing": 60.904556241770315,
+      "weak_demand_flat": 35.826155,
+      "central_end2030_flat": 70.97777530967525,
+      "date_limit": "Year-end values use forecast Q4 cash; comparison with Nov4 spot has57day difference."
+    },
+    "artifact": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "b8070751fdd60b15c3125ed6c23d1463486b3ebab855c404e12e56b75d9285de",
+      "pages": 4,
+      "submitted": false,
+      "qa": {
+        "pages": 4,
+        "all_pages_rendered_and_visually_inspected": true,
+        "layout_defects_observed": false,
+        "source_hyperlinks": 12,
+        "source_model_unchanged": true,
+        "old_text_removed_from_PDF_content_stream": true,
+        "key_numbers": [
+          "$58.28",
+          "$46.96",
+          "$53.77",
+          "$60.90",
+          "$35.83",
+          "$64.15",
+          "$70.98",
+          "11.555%",
+          "10.055%",
+          "10.18%",
+          "4.94%",
+          "4.41%",
+          "0.66",
+          "0.73",
+          "0.36",
+          "$4.20"
+        ],
+        "initial_PDF_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/intel_working_thesis_review_before_hour.pdf"
+      }
+    }
+  }
+}

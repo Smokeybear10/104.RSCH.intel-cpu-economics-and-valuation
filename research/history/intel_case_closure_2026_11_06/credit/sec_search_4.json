@@ -1,0 +1,1041 @@
+{
+  "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22credit+facility+agreement%22",
+  "result": {
+    "took": 90,
+    "timed_out": false,
+    "_shards": {
+      "total": 50,
+      "successful": 50,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 21,
+        "relation": "eq"
+      },
+      "max_score": 6.6126223,
+      "hits": [
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-24-000076:intc-20240330.htm",
+          "_score": 6.6126223,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2024-03-30",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2024-04-26",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-24-000076",
+            "film_num": [
+              "24877970"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-23-000103:intc-20230930.htm",
+          "_score": 6.377265,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2023-09-30",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2023-10-27",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-23-000103",
+            "film_num": [
+              "231351528"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-23-000069:intc-20230701.htm",
+          "_score": 6.3431125,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2023-07-01",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2023-07-28",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-23-000069",
+            "film_num": [
+              "231119692"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-24-000124:intc-20240629.htm",
+          "_score": 6.1153274,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2024-06-29",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2024-08-02",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-24-000124",
+            "film_num": [
+              "241168305"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-23-000028:intc-20230401.htm",
+          "_score": 6.0638404,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2023-04-01",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2023-04-28",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-23-000028",
+            "film_num": [
+              "23859187"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-24-000149:intc-20240928.htm",
+          "_score": 5.859888,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2024-09-28",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2024-11-01",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-24-000149",
+            "film_num": [
+              "241416497"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-25-000074:intc-20250329.htm",
+          "_score": 4.6212993,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2025-03-29",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2025-04-25",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-25-000074",
+            "film_num": [
+              "25869271"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-25-000009:intc-20241228.htm",
+          "_score": 4.3155065,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2024-12-28",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-K"
+            ],
+            "file_date": "2025-01-31",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-K",
+            "adsh": "0000050863-25-000009",
+            "film_num": [
+              "25579411"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-K",
+            "file_description": "10-K",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-26-000079:intc-20260328.htm",
+          "_score": 4.1385217,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2026-03-28",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2026-04-24",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-26-000079",
+            "film_num": [
+              "26890062"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-26-000157:intc-20260627.htm",
+          "_score": 3.982801,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2026-06-27",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2026-07-24",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-26-000157",
+            "film_num": [
+              "261198119"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-25-000109:intc-20250628.htm",
+          "_score": 3.951581,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2025-06-28",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2025-07-24",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-25-000109",
+            "film_num": [
+              "251146966"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-26-000191:intc-20260926.htm",
+          "_score": 3.7810683,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2026-09-26",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2026-10-30",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-26-000191",
+            "film_num": [
+              "261503470"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "ma_i_individual": null,
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-25-000179:intc-20250927.htm",
+          "_score": 3.611619,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2025-09-27",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2025-11-06",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-25-000179",
+            "film_num": [
+              "251456485"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-26-000011:intc-20251227.htm",
+          "_score": 3.0265083,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2025-12-27",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-K"
+            ],
+            "file_date": "2026-01-23",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-K",
+            "adsh": "0000050863-26-000011",
+            "film_num": [
+              "26552858"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-K",
+            "file_description": "10-K",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-22-000020:intc-20220402.htm",
+          "_score": 2.6939735,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2022-04-02",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2022-04-29",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-22-000020",
+            "film_num": [
+              "22868935"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-24-000010:intc-20231230.htm",
+          "_score": 2.6300573,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2023-12-30",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-K"
+            ],
+            "file_date": "2024-01-26",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-K",
+            "adsh": "0000050863-24-000010",
+            "film_num": [
+              "24563553"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-K",
+            "file_description": "10-K",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-22-000038:intc-20221001.htm",
+          "_score": 2.5409365,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2022-10-01",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2022-10-28",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-22-000038",
+            "film_num": [
+              "221338576"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-22-000030:intc-20220702.htm",
+          "_score": 2.5375757,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2022-07-02",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-Q"
+            ],
+            "file_date": "2022-07-29",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-Q",
+            "adsh": "0000050863-22-000030",
+            "film_num": [
+              "221116708"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-Q",
+            "file_description": "10-Q",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-23-000006:intc-20221231.htm",
+          "_score": 1.0259104,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2022-12-31",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "10-K"
+            ],
+            "file_date": "2023-01-27",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "10-K",
+            "adsh": "0000050863-23-000006",
+            "film_num": [
+              "23559024"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "10-K",
+            "file_description": "10-K",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-24-000055:a2024ars202310k.htm",
+          "_score": 0.6264,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2023-12-30",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "ARS"
+            ],
+            "file_date": "2024-03-28",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "ARS",
+            "adsh": "0000050863-24-000055",
+            "film_num": [
+              "24792279"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "ARS",
+            "file_description": "ARS",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        },
+        {
+          "_index": "edgar_file",
+          "_id": "0000050863-25-000052:a2024arsform10-k.pdf",
+          "_score": 0.61625385,
+          "_source": {
+            "ciks": [
+              "0000050863"
+            ],
+            "period_ending": "2025-03-26",
+            "file_num": [
+              "000-06217"
+            ],
+            "display_names": [
+              "INTEL CORP  (INTC)  (CIK 0000050863)"
+            ],
+            "xsl": null,
+            "sequence": 1,
+            "root_forms": [
+              "ARS"
+            ],
+            "file_date": "2025-03-27",
+            "biz_states": [
+              "CA"
+            ],
+            "sics": [
+              "3674"
+            ],
+            "form": "ARS",
+            "adsh": "0000050863-25-000052",
+            "film_num": [
+              "25775322"
+            ],
+            "biz_locations": [
+              "Santa Clara, CA"
+            ],
+            "file_type": "ARS",
+            "file_description": "ARS",
+            "inc_states": [
+              "DE"
+            ],
+            "items": []
+          }
+        }
+      ]
+    },
+    "aggregations": {
+      "entity_filter": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [
+          {
+            "key": "INTEL CORP  (INTC)  (CIK 0000050863)",
+            "doc_count": 21
+          }
+        ]
+      },
+      "sic_filter": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [
+          {
+            "key": "3674",
+            "doc_count": 21
+          }
+        ]
+      },
+      "biz_states_filter": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [
+          {
+            "key": "CA",
+            "doc_count": 21
+          }
+        ]
+      },
+      "form_filter": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [
+          {
+            "key": "10-Q",
+            "doc_count": 15
+          },
+          {
+            "key": "10-K",
+            "doc_count": 4
+          },
+          {
+            "key": "ARS",
+            "doc_count": 2
+          }
+        ]
+      }
+    },
+    "query": {
+      "_source": {
+        "exclude": [
+          "doc_text"
+        ]
+      },
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "match_phrase": {
+                "doc_text": "credit facility agreement"
+              }
+            }
+          ],
+          "must_not": [],
+          "should": [],
+          "filter": [
+            {
+              "terms": {
+                "ciks": [
+                  "0000050863"
+                ]
+              }
+            },
+            {
+              "range": {
+                "file_date": {
+                  "gte": "2001-01-01",
+                  "lte": "2026-11-06"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "from": 0,
+      "size": 100,
+      "aggregations": {
+        "form_filter": {
+          "terms": {
+            "field": "root_forms",
+            "size": 30
+          }
+        },
+        "entity_filter": {
+          "terms": {
+            "field": "display_names.raw",
+            "size": 30
+          }
+        },
+        "sic_filter": {
+          "terms": {
+            "field": "sics",
+            "size": 30
+          }
+        },
+        "biz_states_filter": {
+          "terms": {
+            "field": "biz_states",
+            "size": 30
+          }
+        }
+      }
+    }
+  }
+}

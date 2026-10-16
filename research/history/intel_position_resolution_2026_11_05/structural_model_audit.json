@@ -1,0 +1,719 @@
+{
+  "prepared_utc": "2026-11-05T06:17:00.395471+00:00",
+  "status": "Completed independent structural and perimeter review; no source model or PDF edited.",
+  "verdict": {
+    "arithmetic_or_perimeter_error_that_explains_away_higher_future_values": "Not found. The rise follows the strong forecast, funded mature margins and discount unwinding. Operating cash is removed from remaining DCF as it enters retained cash; it is not counted twice.",
+    "genuine_new_issue": "A stale derived incremental_external_revenue_B metadata field survives in post2030 host operating-policy rows. Actual capex uses current revenue differences and remains correctly funded.",
+    "main_unresolved_economic_judgments": [
+      "The source-backed data do not identify future CPU revenue, custom-silicon margins, node yields or a durable21% incremental return proxy.",
+      "External Foundry revenue is not fully reconstructed; the host capital denominator excludes its explicit sales while its earnings are embedded in aggregate Foundry profit. This remains an attribution/budget validation gap, not proof of missing all external-program capital.",
+      "SBC existing-award/service overlap, exact minority ownership of starting liquidity and future legal distributions, and debt market values are simplified. No demonstrated correction makes the central long-horizon short profitable."
+    ],
+    "direction": "Do not force the short by deleting cash, double-charging SBC, changing terminal growth without funding consistency, or selecting lower margin/growth solely because it clears the short hurdle."
+  },
+  "inputs": {
+    "model": {
+      "path": "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host_policy": {
+      "path": "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "margin_addendum": {
+      "path": "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_mature_DCAI_margin_addendum.json",
+      "sha256": "e105795d651a0b68cabffcc3716d55d530dd12f3bac92bb02cee261d51a21314"
+    },
+    "packaging": {
+      "path": "work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json",
+      "sha256": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+    },
+    "finance_policy": {
+      "path": "work/three_hour/active_research/intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json",
+      "sha256": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea"
+    },
+    "corporate_near": {
+      "path": "work/three_hour/active_research/intel_competition_screen_2026_11_04/corporate_other_policy.json",
+      "sha256": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a"
+    },
+    "corporate_far": {
+      "path": "work/three_hour/active_research/intel_competition_screen_2026_11_04/root_corporate_tax_credit_valuation_policy.json",
+      "sha256": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031"
+    },
+    "risk_values": {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "cash_definition_audit": {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/cash_flow_definition_bridge.json",
+      "sha256": "4111ec30de2ad334f03ae59f18209813f95329366a97b3822c8a0db6cc753434"
+    },
+    "TAM_scope": {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/CPU_forecast_scope_comparison.json",
+      "sha256": "f88acc100c03001527bc56ffa6720f934854f75961ce8e107a8dc3acb79fe400"
+    },
+    "product_anchor": {
+      "path": "work/three_hour/active_research/intel_competition_screen_2026_11_04/product_operating_forecast_2026_11_04.json",
+      "sha256": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d"
+    }
+  },
+  "group_profit_assembly": {
+    "method": "Current host Products profit plus mature-margin addendum plus current Foundry profit plus Other minus corporate cost plus net incremental packaging profit. Direct/transfer manufacturing charges and corporate SBC are not added back.",
+    "max_error_B": 1.4210854715202004e-14,
+    "rows": [
+      {
+        "year": 2027,
+        "reconstructed_group_EBIT_B": 14.429918271999998,
+        "stored_group_EBIT_B": 14.429918271999998,
+        "error_B": 0.0,
+        "host_Foundry_profit_B": -4.0,
+        "net_incremental_packaging_EBIT_B": -0.053750000000000006
+      },
+      {
+        "year": 2028,
+        "reconstructed_group_EBIT_B": 24.72774958255801,
+        "stored_group_EBIT_B": 24.72774958255801,
+        "error_B": 0.0,
+        "host_Foundry_profit_B": -0.75,
+        "net_incremental_packaging_EBIT_B": 0.14875
+      },
+      {
+        "year": 2029,
+        "reconstructed_group_EBIT_B": 32.71609561149972,
+        "stored_group_EBIT_B": 32.71609561149971,
+        "error_B": 7.105427357601002e-15,
+        "host_Foundry_profit_B": 1.0,
+        "net_incremental_packaging_EBIT_B": 0.6475
+      },
+      {
+        "year": 2030,
+        "reconstructed_group_EBIT_B": 39.379387462052556,
+        "stored_group_EBIT_B": 39.37938746205255,
+        "error_B": 7.105427357601002e-15,
+        "host_Foundry_profit_B": 2.5,
+        "net_incremental_packaging_EBIT_B": 1.175
+      },
+      {
+        "year": 2031,
+        "reconstructed_group_EBIT_B": 43.21161256009239,
+        "stored_group_EBIT_B": 43.21161256009239,
+        "error_B": 0.0,
+        "host_Foundry_profit_B": 2.864548462417981,
+        "net_incremental_packaging_EBIT_B": 1.3818000000000001
+      },
+      {
+        "year": 2032,
+        "reconstructed_group_EBIT_B": 46.852933974663614,
+        "stored_group_EBIT_B": 46.85293397466362,
+        "error_B": -7.105427357601002e-15,
+        "host_Foundry_profit_B": 3.2430108828370323,
+        "net_incremental_packaging_EBIT_B": 1.5795210000000008
+      },
+      {
+        "year": 2033,
+        "reconstructed_group_EBIT_B": 50.219320005321464,
+        "stored_group_EBIT_B": 50.21932000532146,
+        "error_B": 7.105427357601002e-15,
+        "host_Foundry_profit_B": 3.634436669393285,
+        "net_incremental_packaging_EBIT_B": 1.6905240300000008
+      },
+      {
+        "year": 2034,
+        "reconstructed_group_EBIT_B": 53.30753589057597,
+        "stored_group_EBIT_B": 53.30753589057597,
+        "error_B": 0.0,
+        "host_Foundry_profit_B": 4.032834888874832,
+        "net_incremental_packaging_EBIT_B": 1.786196046900001
+      },
+      {
+        "year": 2035,
+        "reconstructed_group_EBIT_B": 56.1153855984021,
+        "stored_group_EBIT_B": 56.1153855984021,
+        "error_B": 0.0,
+        "host_Foundry_profit_B": 4.436504066064345,
+        "net_incremental_packaging_EBIT_B": 1.8633839837070014
+      },
+      {
+        "year": 2036,
+        "reconstructed_group_EBIT_B": 58.31805556358177,
+        "stored_group_EBIT_B": 58.318055563581765,
+        "error_B": 7.105427357601002e-15,
+        "host_Foundry_profit_B": 4.642808900671375,
+        "net_incremental_packaging_EBIT_B": 1.9192855032182112
+      },
+      {
+        "year": 2037,
+        "reconstructed_group_EBIT_B": 60.307197591517514,
+        "stored_group_EBIT_B": 60.307197591517514,
+        "error_B": 0.0,
+        "host_Foundry_profit_B": 4.837682837462794,
+        "net_incremental_packaging_EBIT_B": 1.9768640683147576
+      },
+      {
+        "year": 2038,
+        "reconstructed_group_EBIT_B": 62.04982032513535,
+        "stored_group_EBIT_B": 62.04982032513535,
+        "error_B": 0.0,
+        "host_Foundry_profit_B": 5.01843099646602,
+        "net_incremental_packaging_EBIT_B": 2.0361699903642005
+      },
+      {
+        "year": 2039,
+        "reconstructed_group_EBIT_B": 63.57994815988873,
+        "stored_group_EBIT_B": 63.57994815988874,
+        "error_B": -7.105427357601002e-15,
+        "host_Foundry_profit_B": 5.187507699397497,
+        "net_incremental_packaging_EBIT_B": 2.0972550900751266
+      },
+      {
+        "year": 2040,
+        "reconstructed_group_EBIT_B": 64.87764970818598,
+        "stored_group_EBIT_B": 64.877649708186,
+        "error_B": -1.4210854715202004e-14,
+        "host_Foundry_profit_B": 5.343132930379423,
+        "net_incremental_packaging_EBIT_B": 2.1601727427773803
+      },
+      {
+        "year": 2041,
+        "reconstructed_group_EBIT_B": 66.82397919943155,
+        "stored_group_EBIT_B": 66.82397919943156,
+        "error_B": -1.4210854715202004e-14,
+        "host_Foundry_profit_B": 5.503426918290804,
+        "net_incremental_packaging_EBIT_B": 2.2249779250607022
+      }
+    ],
+    "stale_packaging_metadata": "Packaging source still lists an earlier3.5B2030host Foundry reference. Current assembled model uses2.5Bhost plus1.175Bnet incremental packaging EBIT, not3.5B. This metadata does not enter the frozen valuation."
+  },
+  "rollforward_test": {
+    "method": "V_operating(t)-V_operating(t-1)=r*V_operating(t-1)-FCFF(t). Net cash rises by FCFF plus financing cash adjustments, escrow and acquisition cash; debt principal cancels between cash and debt. Thus the same FCFF cancels in the total-equity roll-forward rather than being capitalized twice.",
+    "rows": [
+      {
+        "year": 2027,
+        "operating_discount_unwind_B": 28.826077355216803,
+        "operating_cash_removed_from_remaining_DCF_B": -10.182712883085713,
+        "change_in_remaining_operating_PV_B": 39.00879023830248,
+        "operating_rollforward_error_B": -3.552713678800501e-14,
+        "change_in_economic_net_cash_B": -12.27271288308571,
+        "financing_cash_difference_owner_minus_unlevered_B": -1.5099999999999998,
+        "external_escrow_less_acquisition_B": -0.5799999999999998,
+        "net_cash_rollforward_error_B": 3.552713678800501e-15,
+        "cash_recycling_cancellation_error_B": -3.552713678800501e-14
+      },
+      {
+        "year": 2028,
+        "operating_discount_unwind_B": 33.333543067252656,
+        "operating_cash_removed_from_remaining_DCF_B": 3.784903605352879,
+        "change_in_remaining_operating_PV_B": 29.548639461899825,
+        "operating_rollforward_error_B": 4.796163466380676e-14,
+        "change_in_economic_net_cash_B": 3.2636536053528786,
+        "financing_cash_difference_owner_minus_unlevered_B": -1.49125,
+        "external_escrow_less_acquisition_B": 0.9700000000000001,
+        "net_cash_rollforward_error_B": -4.440892098500626e-16,
+        "cash_recycling_cancellation_error_B": 4.973799150320701e-14
+      },
+      {
+        "year": 2029,
+        "operating_discount_unwind_B": 36.747888357075176,
+        "operating_cash_removed_from_remaining_DCF_B": 16.576545150104643,
+        "change_in_remaining_operating_PV_B": 20.171343206970505,
+        "operating_rollforward_error_B": -2.842170943040401e-14,
+        "change_in_economic_net_cash_B": 15.104045150104639,
+        "financing_cash_difference_owner_minus_unlevered_B": -1.4725000000000001,
+        "external_escrow_less_acquisition_B": 0,
+        "net_cash_rollforward_error_B": -3.552713678800501e-15,
+        "cash_recycling_cancellation_error_B": -2.842170943040401e-14
+      },
+      {
+        "year": 2030,
+        "operating_discount_unwind_B": 39.07868706464062,
+        "operating_cash_removed_from_remaining_DCF_B": 23.33587477246735,
+        "change_in_remaining_operating_PV_B": 15.742812292173312,
+        "operating_rollforward_error_B": 4.263256414560601e-14,
+        "change_in_economic_net_cash_B": 21.882124772467357,
+        "financing_cash_difference_owner_minus_unlevered_B": -1.4537499999999994,
+        "external_escrow_less_acquisition_B": 0,
+        "net_cash_rollforward_error_B": 7.105427357601002e-15,
+        "cash_recycling_cancellation_error_B": 4.973799150320701e-14
+      }
+    ],
+    "2026_to2030_change_decomposition": {
+      "operating_PV_change_USD_per_share": 18.960360290262454,
+      "net_cash_change_USD_per_share": 5.077515543527979,
+      "tax_shield_change_USD_per_share": 0.02894005418955525,
+      "escrow_acquisition_rolloff_USD_per_share": -0.047102861887903774,
+      "total_change_USD_per_share": 24.0197130260921
+    },
+    "annual_values": [
+      {
+        "year": 2026,
+        "operating_PV_B": 249.46843232554568,
+        "financing_tax_PV_B": 2.58895408799514,
+        "cash_B": 50.839,
+        "debt_B": 50.134,
+        "net_other_B": 5.717,
+        "escrow_PV_B": 2.2439808391052574,
+        "acquisition_PV_B": 1.9844440701029076,
+        "equity_B": 258.73892318254315,
+        "per_share_USD": 46.95806228358315
+      },
+      {
+        "year": 2027,
+        "operating_PV_B": 288.47722256384816,
+        "financing_tax_PV_B": 2.6481077328629783,
+        "cash_B": 34.74028711691429,
+        "debt_B": 46.308,
+        "net_other_B": 5.717,
+        "escrow_PV_B": 1.1832728250638698,
+        "acquisition_PV_B": 0.3137465824032988,
+        "equity_B": 286.1441436562859,
+        "per_share_USD": 51.93178650749291
+      },
+      {
+        "year": 2028,
+        "operating_PV_B": 318.025862025748,
+        "financing_tax_PV_B": 2.6953465813952953,
+        "cash_B": 34.830940722267165,
+        "debt_B": 43.135,
+        "net_other_B": 5.717,
+        "escrow_PV_B": 0,
+        "acquisition_PV_B": 0,
+        "equity_B": 318.13414932941043,
+        "per_share_USD": 57.73759515960262
+      },
+      {
+        "year": 2029,
+        "operating_PV_B": 338.1972052327185,
+        "financing_tax_PV_B": 2.7292938788755223,
+        "cash_B": 46.64698587237181,
+        "debt_B": 39.847,
+        "net_other_B": 5.717,
+        "escrow_PV_B": 0,
+        "acquisition_PV_B": 0,
+        "equity_B": 353.44348498396585,
+        "per_share_USD": 64.1458230460918
+      },
+      {
+        "year": 2030,
+        "operating_PV_B": 353.9400175248918,
+        "financing_tax_PV_B": 2.7484137865795892,
+        "cash_B": 65.77911064483916,
+        "debt_B": 37.097,
+        "net_other_B": 5.717,
+        "escrow_PV_B": 0,
+        "acquisition_PV_B": 0,
+        "equity_B": 391.0875419563106,
+        "per_share_USD": 70.97777530967525
+      }
+    ],
+    "extreme_unjustified_zero2030cash_bound_USD": 59.03964270625617,
+    "bound_warning": "Removing all2030cash is not a defensible valuation adjustment. Even that removes only11.94USD/share and leaves59.04USD, so cash addition alone does not explain the long-horizon short gap."
+  },
+  "distribution_neutrality_test": {
+    "policy": "Diagnostic: distribute all positive annual owner cash in2027-30; retain negative-year funding and existing fixed cash-interest convention. No policy change adopted.",
+    "total_distributions_USD_per_share": 7.1288245967195785,
+    "2030_reduced_ex_distribution_value_USD": 63.84895071295567,
+    "price_only_short_PnL_after_distributions_USD": -5.568950712955669,
+    "short_dividends_owed_USD": 7.1288245967195785,
+    "short_PnL_including_dividends_USD": -12.69777530967525,
+    "identity_error_USD": 3.552713678800501e-15,
+    "limits": "Real dividends may alter cash income, taxes and financing. This checks that moving retained cash into dividends does not mechanically create short profits."
+  },
+  "SBC_and_claims": {
+    "policy": "Existing5.51Bclaims include legal stock, pending government escrow and an approximate58Mexisting employee/other increment. Future SBC is an economic operating expense; no further future-grant dilution is stacked.",
+    "finding": "No systematic double count of all future SBC found. Existing net award proxy versus future service expense is an acknowledged unresolved small boundary. Economic cash is not literal bank cash.",
+    "counterfactual_remove_all58M_existing_award_proxy": {
+      "status": "Bounding diagnostic only, not a recommended adjustment. Removing all these valid or partly valid claims would increase value, not rescue a short.",
+      "claims_B": 5.452,
+      "2026_value_USD": 47.45761613766382,
+      "2030_value_USD": 71.73285802573562
+    },
+    "no_bank_cash_addback": "Adding future SBC back to cash while retaining fixed shares and no replacement-cost/dilution charge would create a free-compensation error."
+  },
+  "capital_funding": {
+    "max_host_netinvestment_error_B": 7.105427357601002e-15,
+    "max_group_netinvestment_error_B": 1.0658141036401503e-14,
+    "rows": [
+      {
+        "year": 2031,
+        "actual_host_sales_increment_B": 10.211345447355086,
+        "host_net_investment_B": 12.764181809193856,
+        "expected_at_0_80_B": 12.764181809193857,
+        "host_error_B": -1.7763568394002505e-15,
+        "incremental_packaging_sales_change_B": 0.6400000000000006,
+        "total_group_net_investment_B": 13.404181809193856,
+        "group_error_B": -1.7763568394002505e-15
+      },
+      {
+        "year": 2032,
+        "actual_host_sales_increment_B": 9.860334178039295,
+        "host_net_investment_B": 12.325417722549117,
+        "expected_at_0_80_B": 12.325417722549119,
+        "host_error_B": -1.7763568394002505e-15,
+        "incremental_packaging_sales_change_B": 0.5542000000000016,
+        "total_group_net_investment_B": 12.879617722549122,
+        "group_error_B": 1.7763568394002505e-15
+      },
+      {
+        "year": 2033,
+        "actual_host_sales_increment_B": 9.506153907707983,
+        "host_net_investment_B": 11.882692384634977,
+        "expected_at_0_80_B": 11.882692384634979,
+        "host_error_B": -1.7763568394002505e-15,
+        "incremental_packaging_sales_change_B": 0.43530600000000064,
+        "total_group_net_investment_B": 12.317998384634976,
+        "group_error_B": -3.552713678800501e-15
+      },
+      {
+        "year": 2034,
+        "actual_host_sales_increment_B": 8.970776859746081,
+        "host_net_investment_B": 11.213471074682602,
+        "expected_at_0_80_B": 11.213471074682602,
+        "host_error_B": 0.0,
+        "incremental_packaging_sales_change_B": 0.3751843800000003,
+        "total_group_net_investment_B": 11.5886554546826,
+        "group_error_B": -1.7763568394002505e-15
+      },
+      {
+        "year": 2035,
+        "actual_host_sales_increment_B": 8.423869789868348,
+        "host_net_investment_B": 10.529837237335428,
+        "expected_at_0_80_B": 10.529837237335435,
+        "host_error_B": -7.105427357601002e-15,
+        "incremental_packaging_sales_change_B": 0.30269779140000175,
+        "total_group_net_investment_B": 10.832535028735427,
+        "group_error_B": -1.0658141036401503e-14
+      },
+      {
+        "year": 2036,
+        "actual_host_sales_increment_B": 7.494572050854089,
+        "host_net_investment_B": 9.368215063567614,
+        "expected_at_0_80_B": 9.368215063567611,
+        "host_error_B": 3.552713678800501e-15,
+        "incremental_packaging_sales_change_B": 0.21922164514200038,
+        "total_group_net_investment_B": 9.587436708709614,
+        "group_error_B": 2.6645352591003757e-15
+      },
+      {
+        "year": 2037,
+        "actual_host_sales_increment_B": 7.087384574694511,
+        "host_net_investment_B": 8.859230718368138,
+        "expected_at_0_80_B": 8.859230718368138,
+        "host_error_B": 0.0,
+        "incremental_packaging_sales_change_B": 0.22579829449626043,
+        "total_group_net_investment_B": 9.085029012864396,
+        "group_error_B": -2.6645352591003757e-15
+      },
+      {
+        "year": 2038,
+        "actual_host_sales_increment_B": 6.583979797548807,
+        "host_net_investment_B": 8.229974746936009,
+        "expected_at_0_80_B": 8.229974746936009,
+        "host_error_B": 0.0,
+        "incremental_packaging_sales_change_B": 0.23257224333114745,
+        "total_group_net_investment_B": 8.46254699026716,
+        "group_error_B": 4.440892098500626e-15
+      },
+      {
+        "year": 2039,
+        "actual_host_sales_increment_B": 6.156217938560303,
+        "host_net_investment_B": 7.695272423200381,
+        "expected_at_0_80_B": 7.695272423200379,
+        "host_error_B": 1.7763568394002505e-15,
+        "incremental_packaging_sales_change_B": 0.23954941063108226,
+        "total_group_net_investment_B": 7.934821833831463,
+        "group_error_B": 1.7763568394002505e-15
+      },
+      {
+        "year": 2040,
+        "actual_host_sales_increment_B": 5.6633132557735735,
+        "host_net_investment_B": 7.079141569716965,
+        "expected_at_0_80_B": 7.079141569716967,
+        "host_error_B": -1.7763568394002505e-15,
+        "incremental_packaging_sales_change_B": 0.2467358929500154,
+        "total_group_net_investment_B": 7.3258774626669805,
+        "group_error_B": -1.7763568394002505e-15
+      },
+      {
+        "year": 2041,
+        "actual_host_sales_increment_B": 5.833212653446765,
+        "host_net_investment_B": 7.291515816808453,
+        "expected_at_0_80_B": 7.291515816808456,
+        "host_error_B": -2.6645352591003757e-15,
+        "incremental_packaging_sales_change_B": 0.2541379697385153,
+        "total_group_net_investment_B": 7.5456537865469695,
+        "group_error_B": -1.7763568394002505e-15
+      }
+    ],
+    "stale_derived_metadata_rows": [
+      {
+        "year": 2031,
+        "stale_incremental_external_revenue_B": 9.501001546783328,
+        "actual_change_current_revenue_rows_B": 10.211345447355086,
+        "difference_B": -0.7103439005717576
+      },
+      {
+        "year": 2032,
+        "stale_incremental_external_revenue_B": 9.156378897965467,
+        "actual_change_current_revenue_rows_B": 9.860334178039295,
+        "difference_B": -0.7039552800738278
+      },
+      {
+        "year": 2033,
+        "stale_incremental_external_revenue_B": 8.823597019688123,
+        "actual_change_current_revenue_rows_B": 9.506153907707983,
+        "difference_B": -0.6825568880198603
+      },
+      {
+        "year": 2034,
+        "stale_incremental_external_revenue_B": 8.325498337329549,
+        "actual_change_current_revenue_rows_B": 8.970776859746081,
+        "difference_B": -0.6452785224165325
+      },
+      {
+        "year": 2035,
+        "stale_incremental_external_revenue_B": 7.832060318199439,
+        "actual_change_current_revenue_rows_B": 8.423869789868348,
+        "difference_B": -0.5918094716689097
+      },
+      {
+        "year": 2036,
+        "stale_incremental_external_revenue_B": 6.974206842475525,
+        "actual_change_current_revenue_rows_B": 7.494572050854089,
+        "difference_B": -0.5203652083785641
+      },
+      {
+        "year": 2037,
+        "stale_incremental_external_revenue_B": 6.596098285955719,
+        "actual_change_current_revenue_rows_B": 7.087384574694511,
+        "difference_B": -0.49128628873879165
+      },
+      {
+        "year": 2038,
+        "stale_incremental_external_revenue_B": 6.128248038136576,
+        "actual_change_current_revenue_rows_B": 6.583979797548807,
+        "difference_B": -0.455731759412231
+      },
+      {
+        "year": 2039,
+        "stale_incremental_external_revenue_B": 5.7422987845524744,
+        "actual_change_current_revenue_rows_B": 6.156217938560303,
+        "difference_B": -0.41391915400782864
+      },
+      {
+        "year": 2040,
+        "stale_incremental_external_revenue_B": 5.2971086468391775,
+        "actual_change_current_revenue_rows_B": 5.6633132557735735,
+        "difference_B": -0.366204608934396
+      },
+      {
+        "year": 2041,
+        "stale_incremental_external_revenue_B": 5.4560219062443025,
+        "actual_change_current_revenue_rows_B": 5.833212653446765,
+        "difference_B": -0.37719074720246226
+      }
+    ],
+    "physical_validation_limit": "A funded aggregate capex schedule is not a tool-vintage, good-die yield, substrate-throughput or qualification-capacity proof. Exact physical output per dollar remains unobserved.",
+    "Other_DCAI_coverage": "Other DCAI is inside Products sales and receives the same incremental capital requirement. Its growth is not omitted from the host capital denominator. Outsourced silicon cost is already in Products margin; varying capital intensity by CPU/custom mix could change the effective turnover in either direction, not justify assuming zero investment."
+  },
+  "terminal_test": {
+    "field_growth_checks": {
+      "external_revenue_B": {
+        "2040": 202.91168743950922,
+        "2041": 208.9990380626945,
+        "growth": 0.030000000000000027
+      },
+      "EBIT_after_economic_SBC_B": {
+        "2040": 64.877649708186,
+        "2041": 66.82397919943156,
+        "growth": 0.029999999999999805
+      },
+      "DA_B": {
+        "2040": 39.49089368915112,
+        "2041": 40.67562049982564,
+        "growth": 0.029999999999999583
+      },
+      "physical_cash_capex_B": {
+        "2040": 46.21342944229824,
+        "2041": 47.59983232556716,
+        "growth": 0.02999999999999936
+      },
+      "WC_cash_use_B": {
+        "2040": 0.6033417095198597,
+        "2041": 0.6214419608054539,
+        "growth": 0.029999999999997362
+      },
+      "lease_cash_B": {
+        "2040": 1.3439163793441222,
+        "2041": 1.384233870724446,
+        "growth": 0.030000000000000027
+      },
+      "minority_cash_B": {
+        "2040": 1.747091293147359,
+        "2041": 1.7995040319417799,
+        "growth": 0.030000000000000027
+      },
+      "parent_unlevered_cash_B": {
+        "2040": 42.78278762555405,
+        "2041": 44.06627125432069,
+        "growth": 0.03000000000000047
+      }
+    },
+    "metrics": {
+      "2041_group_net_operating_investment_B": 7.5456537865469695,
+      "2041_NOPAT_before_lease_and_minority_cash_B": 54.795662943533884,
+      "2041_reinvestment_fraction_NOPAT": 0.13770531062508823,
+      "same_year_incremental_NOPAT_to_incremental_capital_proxy": 0.2115111861700873,
+      "cash_profit_growth_and_capital_note": "The roughly21% proxy is same-year incremental operating return, not measured total-company ROIC. Initial capital, goodwill and R&D capitalization are not reconstructed.",
+      "2041_lease_cash_B": 1.384233870724446,
+      "2041_minority_reserve_B": 1.7995040319417799,
+      "2041_cash_identity_error_B": 0.0,
+      "2040_group_DA_B": 39.49089368915112,
+      "2040_group_physical_capex_B": 46.21342944229824,
+      "2040_gross_capex_over_DA": 1.1702300233077259,
+      "2041_all_growth_to2050_factor": 1.304773183829245,
+      "2050_operating_cash_B_under_unchanged_terminal_rule": 57.49648904398314,
+      "2050_physical_capex_B_under_unchanged_terminal_rule": 62.10698477316847,
+      "2050_net_operating_investment_B_under_unchanged_terminal_rule": 9.845366715146087,
+      "no2050_reset": "No additional horizon reset or growth-free terminal step occurs in2050; this is simply extension of the frozen3% rule, not a separate forecast."
+    },
+    "finding": "3% growth includes positive net reinvestment and replacement capex. No free-growth terminal error found. Mature high margins and implied return persistence remain judgments; corporate, lease and minority cash grow too. Financing-tax-benefit terminal is separately zero growth."
+  },
+  "scale_and_market_test": {
+    "selected_years": [
+      {
+        "year": 2026,
+        "server_CPU_revenue_B": 21.8577,
+        "Other_DCAI_revenue_B": 5.1899999999999995,
+        "Products_revenue_B": 57.82145,
+        "server_units_vs2026": 1,
+        "server_ASP_vs2026": 1
+      },
+      {
+        "year": 2027,
+        "server_CPU_revenue_B": 31.475088000000003,
+        "Other_DCAI_revenue_B": 8.304,
+        "Products_revenue_B": 68.3326878,
+        "server_units_vs2026": 1.2,
+        "server_ASP_vs2026": 1.2
+      },
+      {
+        "year": 2030,
+        "server_CPU_revenue_B": 59.57091386084968,
+        "Other_DCAI_revenue_B": 17.438399999999998,
+        "Products_revenue_B": 111.68247398141065,
+        "server_units_vs2026": 1.9824,
+        "server_ASP_vs2026": 1.3747968000000004
+      },
+      {
+        "year": 2035,
+        "server_CPU_revenue_B": 87.97740710023358,
+        "Other_DCAI_revenue_B": 28.551091548672005,
+        "Products_revenue_B": 158.20898675608743,
+        "server_units_vs2026": 2.6517179340288006,
+        "server_ASP_vs2026": 1.5178867551807902
+      },
+      {
+        "year": 2040,
+        "server_CPU_revenue_B": 107.12703641387483,
+        "Other_DCAI_revenue_B": 35.23131023869494,
+        "Products_revenue_B": 190.6774559193952,
+        "server_units_vs2026": 2.927359120188576,
+        "server_ASP_vs2026": 1.6742435173070105
+      },
+      {
+        "year": 2050,
+        "server_CPU_revenue_B": 143.9697789072006,
+        "Other_DCAI_revenue_B": 47.347934895536405,
+        "Products_revenue_B": 256.25455618174203,
+        "server_units_vs2026": 3.2336256531845784,
+        "server_ASP_vs2026": 2.0369348342375533
+      }
+    ],
+    "2030_to2040_server_CPU_revenue_CAGR": 0.06044093219044244,
+    "2030_to2040_server_units_CAGR": 0.03974890453274593,
+    "2030_to2040_Other_DCAI_revenue_CAGR": 0.07285793079533454,
+    "conditional_TAM_comparisons": [
+      {
+        "2030_scope_conditional_TAM_B": 220,
+        "2030_Intel_revenue_share": 0.2707768811856804,
+        "2040_market_revenue_required_to_preserve_that_share_B": 395.62844488342597
+      },
+      {
+        "2030_scope_conditional_TAM_B": 245.9,
+        "2030_Intel_revenue_share": 0.2422566647452203,
+        "2040_market_revenue_required_to_preserve_that_share_B": 442.2047027128839
+      }
+    ],
+    "interpretation": "No arithmetic physical or TAM impossibility is established. The model reaches about107BserverCPUrevenue2040, requiring about6%annual market growth after2030 to preserve its2030revenue share. Slower industry growth would imply share recovery. No matched2040industry forecast or absolute CPU shipment/wafer-capacity dataset validates that outcome. Published2030TAM figures are forecasts and differ in scope."
+  },
+  "DCAI_mix_diagnostic": {
+    "rows": [
+      {
+        "year": 2030,
+        "Other_DCAI_share_of_DCAI": 0.22644533661876196,
+        "blended_DCAI_margin": 0.3863485847912473,
+        "CPU_margin_implied_by_assumed_Other_margin": {
+          "0.15": 0.45553572485512306,
+          "0.2": 0.4408990516283753,
+          "0.25": 0.4262623784016274
+        }
+      },
+      {
+        "year": 2040,
+        "Other_DCAI_share_of_DCAI": 0.2474832777081776,
+        "blended_DCAI_margin": 0.3500000000000001,
+        "CPU_margin_implied_by_assumed_Other_margin": {
+          "0.15": 0.4157748247652111,
+          "0.2": 0.3993311185739083,
+          "0.25": 0.38288741238260554
+        }
+      }
+    ],
+    "finding": "35% mature blend requires roughly40%CPUmargin if Other earns20%. This is internally feasible but is not a disclosed forecast. Aggregate internal manufacturing profit is separately added after Products already bears market-like wafer charges; no second incremental mix/learning benefit is added."
+  },
+  "external_foundry_perimeter": {
+    "reported_fact": "Q3externalFoundry411M andYTD878M are disclosed; Q3 includes a nonrecurring contract. Those revenues are not the same as the hypothetical10Bmerchant-wafer option.",
+    "model_scope": "Base embedded services and2B2030shadow packaging profit remain within aggregate Foundry. The separately funded packaging overlay adds5Bnet revenue2030above that shadow and its associated net capex. No current-source double stacking of the full7Bprogram was found.",
+    "unresolved": "The external-revenue-to-capital mapping for embedded services is not fully reconstructed; aggregate host investment could cover it, but disclosure does not prove exact allocation.",
+    "bounded_missing_shadow_growth_diagnostic": [
+      {
+        "assumed_missing_shadow_packaging_sales2030_B": 2,
+        "post2030_growth": 0.03,
+        "assumed_incremental_turnover": 0.8,
+        "first_incremental_net_capital2031_B": 0.075,
+        "incremental_cost_PV2030_per_share_USD": 0.1591071331970669,
+        "incremental_cost_PV2026_per_share_USD": 0.10273856335914218,
+        "interpretation": "Diagnostic only if this growth were not funded in the aggregate host budget; not a proven additional cost. Existing shadow replacement capacity remains in host D&A/capex."
+      },
+      {
+        "assumed_missing_shadow_packaging_sales2030_B": 2,
+        "post2030_growth": 0.03,
+        "assumed_incremental_turnover": 1,
+        "first_incremental_net_capital2031_B": 0.06,
+        "incremental_cost_PV2030_per_share_USD": 0.12728570655765353,
+        "incremental_cost_PV2026_per_share_USD": 0.08219085068731376,
+        "interpretation": "Diagnostic only if this growth were not funded in the aggregate host budget; not a proven additional cost. Existing shadow replacement capacity remains in host D&A/capex."
+      }
+    ]
+  },
+  "other_claims_and_cash_boundaries": {
+    "assets": "Altera3.1Bis inside8.798Bequity investments; no extra Mobileye/IMSstake value is added to consolidated cash flows. Capital tax receivables are collected in cash, not also added as an asset. Escrow shares and cash are paired; escrow derivative is not deducted again.",
+    "NCI": "Future minority cash reserve is charged once before owner cash, without a second NCIbook-equity deduction. The reserve is a normalized allocation, not a contract-level valuation; starting cash ownership and distributions are not fully traced.",
+    "leases": "All-in lease/supplier cash allowance is charged once and lease liabilities are excluded from ordinary debt. This is a cash-method proxy, not a fully reconstructed lease amortization/tax schedule.",
+    "debt": "Carrying debt/par run-off is used; disclosed issued-debt fair value43.4Bversus50.134Bcarrying would increase currentequity byabout1.22USD/share if substituted without other changes, not rescue the short. No claim these bases are interchangeable.",
+    "cash_income": "Fixed1Bcashincome becomes a lower yield as cash accumulates; making retained cash earn a larger justified yield would raise future cash and equity. It cannot be treated as an omitted cost.",
+    "minimum_liquidity": "20Bminimum is a funding buffer, not an identified operating cash asset. No evidence supports automatically subtracting it from equity. A20Bcash haircut would be3.63USD/share and would still leave the central2030valueaboveentry."
+  },
+  "primary_source_rechecked": {
+    "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "reviewed_date": "2026-11-05",
+    "locators": "Note2segment accounting, consolidated balance sheet and MD&AProducts/Foundry.",
+    "facts": "Products bears internal and external fabrication costs; Foundry books manufacturing/process costs and predominantly internal sales. Corporate SBC is unallocated. External Foundry sales are separately disclosed. The segment model therefore requires consolidation boundaries, not addition of gross internal revenue."
+  },
+  "limitations": [
+    "This audit validates model structure and exposes assumptions; it does not validate future sales, cash realizability, exact capital needs or short-return probability.",
+    "No threshold-based retuning, forecast replacement, terminal-rate change or selected scenario weighting was performed.",
+    "No assertion that a missing customer contract is required for every forecast.",
+    "Only this audit JSON was written. Existing research, source model and PDF remain unchanged."
+  ]
+}

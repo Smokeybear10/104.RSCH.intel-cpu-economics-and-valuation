@@ -1,0 +1,36 @@
+{
+  "completed_utc": "2026-11-05T22:16:47.198290+00:00",
+  "artifacts": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "98631d1e6f4d9df2e90ec41a96f02159f4d994d0df697ff832312ccac3e1d303",
+      "pages": 10,
+      "submitted": false
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "d279319cc936473fe1aa8f938c9955729eba7adb0b4448338315fc2017c5b862",
+      "pages": 3,
+      "submitted": false
+    }
+  ],
+  "all_pages_rendered": true,
+  "visual_review": "All 13 pages visually verified. Final changed pages re-inspected; unchanged pages match prior inspected raster hashes.",
+  "layout_defects_observed": false,
+  "all_text_inside_page_bounds": true,
+  "final_page_images": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-01.png": "a012dca5772546d0768a3a09274022238ffdfe66b04a0f03cddce92493216db9",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-02.png": "9b18145539e8fba1ea86dac545e87be6f2f86c4be73d37de8525a433827fddd0",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-03.png": "b5603a20de9205d09f8da211def6f5f62fdcbb23a7d215428c3ffc6c401cec49",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-04.png": "58cdb99be9b8f343ccf388f2edd590ff4355db694c37fcc3d34c08ea69ac5ffa",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-05.png": "611287414e7ddc2ab7eec75cf07fa7ef9338e3f3fdeaaeb8367c5c50caf9e5e2",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-06.png": "0aca3f6284422084072894878ff2337fa41dade13b2b15bae4db09f313e3634a",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-07.png": "20cf184296a2ffcb812562cc7f6e7161af46449129ab4565153d2bc813a62e59",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-08.png": "374c54b88b90090083d4eee8c6886203f3166a363f8cf8ce5b3d3a4d0c0d3374",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-09.png": "33895b947418e3ab6516c3f57475771fb5c9d35915a17df32e10617209d6b32d",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/final-10.png": "f311a86a719dbaabf243ada272c19fa4ddbb093a87734c9c4bf033ac2199205b",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/defense-final-1.png": "ef7c5ea1d559d0af082118bd032baeb6877707e14754cb4ec83d0c20cbe1366a",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/defense-final-2.png": "1046a52fb9cab827e9c1041a1d7c4105322f6f4aa1cb7001f59a5fa000f3caec",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/defense-final-3.png": "bdd2f8270cdb926dfcc030ee79df4c1a607d9a542ba7c5f6afda9d4320e515d4"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "checked_utc": "2026-11-06T07:28:57.679911+00:00",
+  "url": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ec2/USD/current/ec2-ondemand-without-sec-sel/US%20East%20(N.%20Virginia)/Linux/index.json",
+  "response_sha256": "c1bdd969067d7d96007d9389a7fe98a9f9937bb31beb0c1793fc8e3ee205891f",
+  "response_bytes": 695489,
+  "manifest": {
+    "serviceId": "ec2",
+    "accessType": "publish",
+    "hawkFilePublicationDate": "2026-11-05T16:26:28Z",
+    "ETLIngestionTriggerDate": "2026-11-05T16:26:28Z",
+    "currencyCode": "USD",
+    "source": "ec2-ondemand-without-sec-sel"
+  },
+  "selected_rows": [
+    {
+      "rateCode": "BY95SNXDTMA95ZCE.JRTCKXETXF.6YS6EN2CT7",
+      "price": "0.4233600000",
+      "Location": "US East (N. Virginia)",
+      "Instance Family": "General purpose",
+      "vCPU": "8",
+      "Instance Type": "m8i.2xlarge",
+      "Memory": "32 GiB",
+      "Storage": "EBS only",
+      "Network Performance": "Up to 15000 Megabit",
+      "plc:OperatingSystem": "Linux",
+      "plc:InstanceFamily": "General Purpose",
+      "Operating System": "Linux",
+      "Pre Installed S/W": "NA",
+      "License Model": "No License required"
+    },
+    {
+      "rateCode": "GV77C84TXX3395TK.JRTCKXETXF.6YS6EN2CT7",
+      "price": "0.4868800000",
+      "Location": "US East (N. Virginia)",
+      "Instance Family": "General purpose",
+      "vCPU": "8",
+      "Instance Type": "m8a.2xlarge",
+      "Memory": "32 GiB",
+      "Storage": "EBS only",
+      "Network Performance": "Up to 15000 Megabit",
+      "plc:OperatingSystem": "Linux",
+      "plc:InstanceFamily": "General Purpose",
+      "Operating System": "Linux",
+      "Pre Installed S/W": "NA",
+      "License Model": "No License required"
+    }
+  ],
+  "whole_json_matches_archived": true
+}

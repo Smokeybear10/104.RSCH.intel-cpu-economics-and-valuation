@@ -1,0 +1,450 @@
+{
+  "all_records": 236,
+  "exactmodel_records": 34,
+  "accepted_records": 23,
+  "results": {
+    "Intel Xeon 6980P": {
+      "n": 3,
+      "min": 926.0,
+      "median": 935.0,
+      "max": 1120.0,
+      "vendors": {
+        "Dell Inc.": {
+          "n": 1,
+          "median": 935.0,
+          "range": [
+            935.0,
+            935.0
+          ]
+        },
+        "IEIT Systems Co., Ltd.": {
+          "n": 1,
+          "median": 1120.0,
+          "range": [
+            1120.0,
+            1120.0
+          ]
+        },
+        "Supermicro": {
+          "n": 1,
+          "median": 926.0,
+          "range": [
+            926.0,
+            926.0
+          ]
+        }
+      },
+      "records": [
+        {
+          "vendor": "Dell Inc.",
+          "system": "PowerEdge R770AP (Intel Xeon 6980P)",
+          "score": "935",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++: Version 2025.3 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2025.3 of Intel Fortran, Compiler for Linux",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00077.html"
+        },
+        {
+          "vendor": "IEIT Systems Co., Ltd.",
+          "system": "meta brain NF5280G8 (Intel Xeon 6980P)",
+          "score": "1120",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-88/64B-H)",
+          "compiler": "C/C++: Version 2026.0 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2026.0 of Intel Fortran, Compiler for Linux",
+          "date": "May-2026",
+          "published": "Jun-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260519-00255.html"
+        },
+        {
+          "vendor": "Supermicro",
+          "system": "Hyper SuperServer SYS-222HA-TN",
+          "score": "926",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-88/56B-M)",
+          "compiler": "C/C++: Version 2025.3 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2025.3 of Intel Fortran, Compiler for Linux",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00148.html"
+        }
+      ]
+    },
+    "Intel Xeon 6990E+": {
+      "n": 1,
+      "min": 1380.0,
+      "median": 1380.0,
+      "max": 1380.0,
+      "vendors": {
+        "Supermicro": {
+          "n": 1,
+          "median": 1380.0,
+          "range": [
+            1380.0,
+            1380.0
+          ]
+        }
+      },
+      "records": [
+        {
+          "vendor": "Supermicro",
+          "system": "SuperServer SYS-122HA-TN-LCC (X14DBM-APL , Intel Xeon 6990E+)",
+          "score": "1380",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-8000B-R)",
+          "compiler": "C/C++: Version 2026.0 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2026.0 of Intel Fortran, Compiler for Linux",
+          "date": "May-2026",
+          "published": "Jun-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260518-00252.html"
+        }
+      ]
+    },
+    "Intel Xeon 6780E": {
+      "n": 4,
+      "min": 534.0,
+      "median": 552.5,
+      "max": 564.0,
+      "vendors": {
+        "Dell Inc.": {
+          "n": 1,
+          "median": 542.0,
+          "range": [
+            542.0,
+            542.0
+          ]
+        },
+        "IEIT Systems Co., Ltd.": {
+          "n": 2,
+          "median": 563.5,
+          "range": [
+            563.0,
+            564.0
+          ]
+        },
+        "Supermicro": {
+          "n": 1,
+          "median": 534.0,
+          "range": [
+            534.0,
+            534.0
+          ]
+        }
+      },
+      "records": [
+        {
+          "vendor": "Dell Inc.",
+          "system": "PowerEdge R770 (Intel Xeon 6780E)",
+          "score": "542",
+          "memory": "1 TB (16 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++: Version 2025.3 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2025.3 of Intel Fortran, Compiler for Linux",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00057.html"
+        },
+        {
+          "vendor": "IEIT Systems Co., Ltd.",
+          "system": "meta brain NF5180G8 (Intel Xeon 6780E)",
+          "score": "564",
+          "memory": "1 TB (16 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++: Version 2026.0 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2026.0 of Intel Fortran, Compiler for Linux",
+          "date": "Jun-2026",
+          "published": "Jul-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q3/cpu2026-20260713-00365.html"
+        },
+        {
+          "vendor": "IEIT Systems Co., Ltd.",
+          "system": "meta brain NF5280G8 (Intel Xeon 6780E)",
+          "score": "563",
+          "memory": "1 TB (16 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++: Version 2026.0 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2026.0 of Intel Fortran, Compiler for Linux",
+          "date": "Jun-2026",
+          "published": "Jun-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260614-00308.html"
+        },
+        {
+          "vendor": "Supermicro",
+          "system": "Hyper SuperServer SYS-222H-TN",
+          "score": "534",
+          "memory": "1 TB (16 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++: Version 2025.3 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2025.3 of Intel Fortran, Compiler for Linux",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00146.html"
+        }
+      ]
+    },
+    "Intel Xeon Platinum 8592+": {
+      "n": 2,
+      "min": 446.0,
+      "median": 460.5,
+      "max": 475.0,
+      "vendors": {
+        "Lenovo Global Technology": {
+          "n": 1,
+          "median": 475.0,
+          "range": [
+            475.0,
+            475.0
+          ]
+        },
+        "Supermicro": {
+          "n": 1,
+          "median": 446.0,
+          "range": [
+            446.0,
+            446.0
+          ]
+        }
+      },
+      "records": [
+        {
+          "vendor": "Lenovo Global Technology",
+          "system": "ThinkSystem SR650 V3 (1.90 GHz,Intel Xeon Platinum 8592+)",
+          "score": "475",
+          "memory": "512 GB (16 x 32 GB 2Rx8 PC5-5600B-R)",
+          "compiler": "C/C++: Version 2026.0 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2026.0 of Intel Fortran, Compiler for Linux",
+          "date": "May-2026",
+          "published": "Jun-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260601-00280.html"
+        },
+        {
+          "vendor": "Supermicro",
+          "system": "Hyper SuperServer SYS-221H-TNR",
+          "score": "446",
+          "memory": "1 TB (16 x 64 GB 2Rx4 PC5-6400B-R, running at 5600)",
+          "compiler": "C/C++: Version 2025.3 of Intel oneAPI DPC++/C++, Compiler for Linux;, Fortran: Version 2025.3 of Intel Fortran, Compiler for Linux",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00144.html"
+        }
+      ]
+    },
+    "AMD EPYC 9755": {
+      "n": 8,
+      "min": 896.0,
+      "median": 1065.0,
+      "max": 1140.0,
+      "vendors": {
+        "Dell Inc.": {
+          "n": 3,
+          "median": 1060.0,
+          "range": [
+            896.0,
+            1070.0
+          ]
+        },
+        "Quanta Cloud Technology": {
+          "n": 1,
+          "median": 1000.0,
+          "range": [
+            1000.0,
+            1000.0
+          ]
+        },
+        "Supermicro": {
+          "n": 1,
+          "median": 985.0,
+          "range": [
+            985.0,
+            985.0
+          ]
+        },
+        "Maginfra Co., Ltd.": {
+          "n": 2,
+          "median": 1140.0,
+          "range": [
+            1140.0,
+            1140.0
+          ]
+        },
+        "Compal Electronics, Inc.": {
+          "n": 1,
+          "median": 1080.0,
+          "range": [
+            1080.0,
+            1080.0
+          ]
+        }
+      },
+      "records": [
+        {
+          "vendor": "Compal Electronics, Inc.",
+          "system": "SR224-2A AMD EPYC 9755",
+          "score": "1080",
+          "memory": "1536 GB (24 x 64 GB 2Rx8 PC5-6400B-R)  ",
+          "compiler": "C/C++/Fortran: Version 5.2.0 of AOCC",
+          "date": "Aug-2026",
+          "published": "Sep-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q3/cpu2026-20260816-00463.html"
+        },
+        {
+          "vendor": "Dell Inc.",
+          "system": "PowerEdge M7725 (AMD EPYC 9755 128-Core Processor)",
+          "score": "1070",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00033.html"
+        },
+        {
+          "vendor": "Dell Inc.",
+          "system": "PowerEdge R7725 (AMD EPYC 9755 128-Core Processor)",
+          "score": "896",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00086.html"
+        },
+        {
+          "vendor": "Dell Inc.",
+          "system": "PowerEdge R7725 (AMD EPYC 9755 128-Core Processor)",
+          "score": "1060",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00087.html"
+        },
+        {
+          "vendor": "Maginfra Co., Ltd.",
+          "system": "QR8218-D3 (AMD EPYC 9755)",
+          "score": "1140",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Jul-2026",
+          "published": "Sep-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q3/cpu2026-20260824-00481.html"
+        },
+        {
+          "vendor": "Maginfra Co., Ltd.",
+          "system": "QR8228-D3 (AMD EPYC 9755)",
+          "score": "1140",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Jul-2026",
+          "published": "Aug-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q3/cpu2026-20260810-00445.html"
+        },
+        {
+          "vendor": "Quanta Cloud Technology",
+          "system": "QuantaGrid D44N-1U AMD EPYC 9755",
+          "score": "1000",
+          "memory": "2304 GB (24 x 96 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Aug-2026",
+          "published": "Oct-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q4/cpu2026-20260921-00580.html"
+        },
+        {
+          "vendor": "Supermicro",
+          "system": "Hyper A+ Server AS -2126HS-TN (H14DSH , AMD EPYC 9755)",
+          "score": "985",
+          "memory": "2304 GB (24 x 96 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Jan-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00230.html"
+        }
+      ]
+    },
+    "AMD EPYC 9965": {
+      "n": 5,
+      "min": 1210.0,
+      "median": 1270.0,
+      "max": 1430.0,
+      "vendors": {
+        "ASUSTeK Computer Inc.": {
+          "n": 1,
+          "median": 1430.0,
+          "range": [
+            1430.0,
+            1430.0
+          ]
+        },
+        "Compal Electronics, Inc.": {
+          "n": 1,
+          "median": 1290.0,
+          "range": [
+            1290.0,
+            1290.0
+          ]
+        },
+        "Dell Inc.": {
+          "n": 2,
+          "median": 1250.0,
+          "range": [
+            1230.0,
+            1270.0
+          ]
+        },
+        "Supermicro": {
+          "n": 1,
+          "median": 1210.0,
+          "range": [
+            1210.0,
+            1210.0
+          ]
+        }
+      },
+      "records": [
+        {
+          "vendor": "ASUSTeK Computer Inc.",
+          "system": "ASUS RS720A-E13-RS8U (2.25 GHz, AMD EPYC 9965)",
+          "score": "1430",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.2.0 of AOCC",
+          "date": "May-2026",
+          "published": "Jun-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260601-00269.html"
+        },
+        {
+          "vendor": "Compal Electronics, Inc.",
+          "system": "SR224-2A AMD EPYC 9965",
+          "score": "1290",
+          "memory": "1536 GB (24 x 64 GB 2Rx8 PC5-6400B-R)  ",
+          "compiler": "C/C++/Fortran: Version 5.2.0 of AOCC",
+          "date": "Jul-2026",
+          "published": "Aug-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q3/cpu2026-20260805-00416.html"
+        },
+        {
+          "vendor": "Dell Inc.",
+          "system": "PowerEdge M7725 (AMD EPYC 9965 192-Core Processor)",
+          "score": "1270",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00037.html"
+        },
+        {
+          "vendor": "Dell Inc.",
+          "system": "PowerEdge R7725 (AMD EPYC 9965 192-Core Processor)",
+          "score": "1230",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Feb-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00091.html"
+        },
+        {
+          "vendor": "Supermicro",
+          "system": "Hyper A+ Server AS -2126HS-TN (H14DSH , AMD EPYC 9965)",
+          "score": "1210",
+          "memory": "1536 GB (24 x 64 GB 2Rx4 PC5-6400B-R)",
+          "compiler": "C/C++/Fortran: Version 5.1.0 of AOCC",
+          "date": "Jan-2026",
+          "published": "May-2026",
+          "url": "https://www.spec.org/cpu2026/results/res2026q2/cpu2026-20260210-00236.html"
+        }
+      ]
+    },
+    "AMD EPYC 9996": {
+      "n": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "vendors": {},
+      "records": []
+    }
+  },
+  "november_rows_needing_day_check": []
+}

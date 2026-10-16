@@ -1,0 +1,180 @@
+{
+  "selected_utc": "2026-11-04T11:54:30.614759+00:00",
+  "status": "Prospective claims and treasury policy, selected before any new Intel stock valuation. Inputs are source facts or explicitly owned forecast conventions; frozen research inputs remain unchanged.",
+  "sources": {
+    "q3": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "annual": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+    "locators": "Q3 cover, balance sheet, cash flow, Notes 3/4/5/7/8/9/11/12/13/14; annual Notes 5/13/17/18/19; Q3 CEO/CFO prepared remarks capital and NCI guidance."
+  },
+  "input_hashes": {
+    "q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+    "2025_10k.html": "67af52d83cdc32a0c52d6007ba0b1031f25c50bc1cae5ee0d626721c9989e42d",
+    "2025_10k.txt": "451450fd66433d8cce0eaa7fa6d8d3e153406de1ecf21191bbdbc2218a5fd044",
+    "q3_remarks.txt": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb",
+    "cash_conversion_policy_2026_11_04.json": "cadc8a93f26ea92e9d9539c064c2ca12533fa34a649f06be23c0bff875dc9fc4",
+    "integrated_product_to_cash_forecast_2026_11_04.json": "cb00094f87130e39637dd6a2f48a141011cfa3424e99e4e7f2272821f7c3b515",
+    "root_corporate_tax_credit_valuation_policy.json": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031",
+    "valuation_method_and_operating_rate_policy_2026_11_04.json": "55c084aed2b385854448a5eb25a3d3bf42299edeeefc7725acbd3aba04fafc5e"
+  },
+  "facts_USD_B": {
+    "cash": 21.846,
+    "short_term_investments": 32.159,
+    "liquid_assets": 54.005,
+    "restricted_cash_excluded": 0.552,
+    "short_debt": 3.817,
+    "long_debt": 46.317,
+    "carrying_debt": 50.134,
+    "issued_debt_reported_fair_value": 43.4,
+    "nonoperating_equity_investments": 8.798,
+    "Altera_included_in_equity_investments": 3.1,
+    "SLP_receivable": 0.478,
+    "deferred_compensation_liability": 3.1,
+    "pension_net_deficit_2025_stale": 0.459,
+    "NCI_book_equity_not_deducted_again": 16.642,
+    "escrow_derivative_not_deducted_with_shares": 13.705,
+    "Q3_capitalized_interest_accounting": 0.264,
+    "nine_month_capitalized_interest_accounting": 0.806,
+    "nine_month_cash_interest_excluding_capitalized": 1.088,
+    "nine_month_cash_PPE_investing": 10.216,
+    "nine_month_cash_PPE_financing": 1.618,
+    "nine_month_finance_lease_cash": 0.951
+  },
+  "shares": {
+    "latest_legal_common_B": 5.315,
+    "latest_common_as_of": "2026-10-23",
+    "matched_September_common_B": 5.31,
+    "matched_as_of": "2026-09-26",
+    "pending_government_escrow_B": 0.132,
+    "noncontingent_pending_escrow_B": 0.066,
+    "contingent_pending_escrow_B": 0.066,
+    "Q3_weighted_incremental_dilution_B": 0.063,
+    "Q3_weighted_escrow_increment_within_total_B": 0.005,
+    "employee_and_other_net_increment_proxy_B": 0.058,
+    "root_selected_economic_claims_B": 5.51,
+    "formula": "Round 5.315 + 0.132 + (0.063 - 0.005) = 5.505B to 5.51B. This is a planning claim count, not point-in-time fully diluted legal capitalization.",
+    "Q4_diluted_EPS_guide_B_not_legal_outstanding": 5.44,
+    "scope": "The September common rollforward adds escrow only on release. Noncontingent pending escrow is included in weighted basic EPS but not already added to the reported 5.310B common outstanding. Add full remaining 132M escrow once. Do not deduct its derivative liability. October common and September escrow are different dates. The 58M employee/other proxy is weighted, price-dependent treasury-stock dilution, not a grant-level option valuation.",
+    "SBC": "Future recurring compensation remains an economic cash cost already in EBIT. No further forecast future-grant dilution is added. Existing net award proxy is used after treasury-stock-method assumed proceeds, which includes applicable unrecognized compensation; exact future service-expense overlap is not separately identifiable. Do not also add the stale 117.5M December 2025 gross RSU/PSU population or 102.3M expected-to-vest population.",
+    "conditional_warrants": {
+      "shares_B": 0.241,
+      "strike_USD": 20,
+      "trigger": "Intel ceases to own at least 51% of its foundry business. Not currently or expected to be exercisable in Q3 disclosure.",
+      "treatment": "Excluded under continued-control policy. If triggered, rebuild claims and any net-cash/net-share settlement; do not add both 241M shares and cash proceeds mechanically."
+    },
+    "convertibles": "No material convertible borrowing was identified in the Q3 borrowing note or annual debt schedule. This is bounded disclosure review, not a legal certification of every instrument."
+  },
+  "opening_2027_forecast": {
+    "date": "2026-12-31 planning boundary (issuer fiscal year end differs by days)",
+    "start_Sep26_liquid_assets_B": 54.005,
+    "Q4_accounting_CFO_B": 4.5,
+    "Q4_cash_PPE_B": 8.166,
+    "Q4_all_in_supplier_lease_cash_B": 0.25,
+    "Q4_minority_cash_B": 0.25,
+    "Q4_old_capital_receivable_collection_B": 1.0,
+    "Q4_new_debt_partner_escrow_or_equity_B": 0.0,
+    "formula": "54.005 + 4.5 - 8.166 - .25 - .25 + 1.0 = 50.839B liquid assets; less 50.134B ordinary carrying debt = .705B net cash.",
+    "opening_liquid_assets_B": 50.839,
+    "opening_debt_B": 50.134,
+    "opening_net_cash_B": 0.705,
+    "judgment": "CFO 4.5B is an owned forecast below Q3 5.082B, allowing weaker guided Q4 margin and volatile working capital. Remaining PPE equals full-year gross-capex guide 20 less YTD cash PPE 11.834 only under a cash-basis mapping; the issuer did not publish this quarterly cash schedule. The 1B capital receipt is separately assumed within the 1.9B of tax receivables not assigned to the old 8B 2027+ pool. No Q4 escrow release or partner funding is credited. These are conservative timing choices, not facts that receipts cannot occur.",
+    "maturities": "Annual 2025 schedule had 2.5B due in 2026. Q3 note reports 1.5B February and 1.0B May notes paid; all known 2026 scheduled principal is therefore already paid. No further Q4 maturity is invented.",
+    "matching_warning": "For current valuation, bridge from its chosen date to this opening forecast exactly once. Do not add both September liquidity and the full opening balance; do not label this a measured November cash balance."
+  },
+  "treasury_2027_2030": {
+    "years": [
+      2027,
+      2028,
+      2029,
+      2030
+    ],
+    "scheduled_principal_B": [
+      3.826,
+      3.173,
+      3.288,
+      2.75
+    ],
+    "maturity_provenance": "2025 annual debt principal schedule; 2026 permanent new notes mature in 2031 or later, so no newly disclosed 2027-30 maturities are added. Carrying value versus principal discount/hedge amortization is not projected.",
+    "ordinary_cash_interest_B": [
+      1.6,
+      1.6,
+      1.6,
+      1.6
+    ],
+    "cash_interest_income_B": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "capitalized_cash_interest_inside_total_PPE_B": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "physical_unlevered_PPE_B": [
+      27,
+      29,
+      27,
+      25
+    ],
+    "unchanged_total_treasury_PPE_B": [
+      28,
+      30,
+      28,
+      26
+    ],
+    "government_escrow_cash_B": [
+      1.32,
+      1.32,
+      0,
+      0
+    ],
+    "Classiq_cash_B": [
+      1.9,
+      0.35,
+      0,
+      0
+    ],
+    "minimum_economic_liquidity_B": 20,
+    "fallback_new_debt_rate": 0.06,
+    "payouts_or_buybacks_B": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "annual_order": "Beginning liquid balance plus owner cash after ordinary interest, cash income, ordinary tax, all cash PPE, working capital, recurring cash-equivalent SBC and minority reserves, plus separately selected capital-credit collections and government escrow cash, less Classiq payments and scheduled ordinary debt principal. Retain cash; no discretionary paydown. If below 20B, refinance/draw the shortfall at year end, subject to access rather than guaranteed. Any added debt earns no same-year interest under this simple year-end timing; charge 6% on beginning added debt in subsequent years with the selected ordinary tax treatment. This fallback must be disclosed if binding.",
+    "interest_limit": "The inherited 1.6B ordinary interest and 1B cash-income budgets are finite normalizations, not an instrument-level coupon or balance-yield forecast. They remain fixed while scheduled maturities reduce debt; no unearned precise financing benefit is claimed. 6% fallback is a judgment informed only by executed 2026 note coupons of 4.65-6.20%, not an observed future borrowing quote.",
+    "government_scope": "Assume full remaining Secure Enclave performance, so 132M pending shares imply approximately 2.64B future cash at $20/share. Timing 2027/28 is owned. Shares are already reserved in the denominator; proceeds are financing, not revenue or capital-tax incentives. If performance fails, half of remaining escrow is ultimately released without cash and half cancelled, requiring a paired scenario, not unchanged claims plus no receipts by accident.",
+    "Classiq_scope": "Base 1.9B cash at H1 2027 assumed closing. Full .35B contingent consideration reserved in 2028 as a conservative finite allowance, not a probability claim. No new shares, operating earnings or terminal franchise value from this acquisition is credited separately.",
+    "economic_vs_bank_cash": "Future cash-equivalent SBC and minority reserves reduce available economic owner cash even if actual stock settlement or retained minority earnings leave bank cash higher. This is an owner-liquidity budget, not a literal quarterly consolidated bank-balance forecast. Do not subtract the same ongoing reserves again as claims."
+  },
+  "unlevering_and_leases": {
+    "cash_capitalized_interest": "Remove exactly 1B/year from physical operating capex, retain once in treasury. Accounting capitalization is not exact cash payment evidence. Do not grant an immediate ordinary income-tax deduction for capitalized interest; its later tax depreciation is not independently reconstructed.",
+    "DA": "Forward EBIT and D&A are normalized physical operating measures excluding amortization of NEW modeled capitalized financing interest. Historical embedded amortization stays in ordinary normalization. Do not subtract 1B from D&A as though current interest equals annual amortization. If a separate amortization A is modeled, EBIT_operating=EBIT_GAAP+A and D&A_operating=D&A_GAAP-A.",
+    "lease": "Treat the existing 1B/year finance-lease line as an all-in supplier-capacity/lease cash allowance. The 2025 six-year prepaid supplier arrangement and 2026 .951B payments do not support a calibrated debt-principal runoff. No separately identified finance-lease interest is disclosed. Any such interest is inside the all-in 1B envelope, not a separately invented split of the 1.6B ordinary debt budget.",
+    "no_double_charge": "The separate 1B allowance covers supplier capacity not counted as an owned-asset purchase in the selected physical PPE budget. No new lease proceeds are credited. Operating lease expense already in EBIT is not added again. Keep associated lease liabilities out of the ordinary-debt subtraction when the full future cash commitment is treated as operating. This proxy does not establish a true finance-lease tax or accounting schedule."
+  },
+  "other_assets_and_claims": {
+    "nonoperating_equity_B": 8.798,
+    "receivable_B": 0.478,
+    "deferred_comp_claim_B": 3.1,
+    "pension_net_claim_B": 0.459,
+    "net_other_assets_B": 5.717,
+    "policy": "Hold these separate nonoperating balances at nominal carrying-value proxies through 2030, with no growth or liquidation gain. The private equity investments are not claimed realizable at book; show the full 8.798B valuation exposure as a limit. Deferred-compensation and legacy pension deficits are reserved as claims rather than also repaid in operating cash; ongoing compensation/service costs remain in EBIT.",
+    "exclusions": "Altera 3.1B is inside 8.798B. Mobileye and IMS are consolidated in operating cash; add no separate stake. Restricted cash .552B is unavailable and excluded. No separate NCI book-value deduction after reserving minority cash once. Government escrow derivative is excluded with full shares. Capital tax receivables already scheduled as future collections are not added again as current assets. Customer-deposit fulfillment is in operating/working-capital budgets, not an unpaired debt deduction.",
+    "other_limits": "Non-escrow derivatives, collateral and debt hedge adjustments are not fully reconciled; no unsupported gross-notional or derivative-liability addition. Pension deficit is last available December 2025 net figure and not a November mark. A cash/debt market-value bridge could differ from carrying-value treatment; current issued debt fair value was 43.4B versus carrying 50.134B at September. The chosen carrying/par-runoff convention is not a claim that these are equal."
+  },
+  "value_identity_no_value_computed": {
+    "endpoint": "End-2030 equity = independently valued 2031+ unlevered operating cash (already after recurring economic SBC and minority reserve, full lease cash and physical reinvestment) + end-2030 economic cash - end-2030 ordinary debt + retained separate net other assets. Divide by selected 5.51B planning claims. Do not add original opening cash again or subtract ordinary debt from an already complete equity FCFE perpetuity.",
+    "current": "Use current-date discounted operating cash and a matched-date assets/claims bridge. Existing cash-income removed from operating DCF because cash is separately added. Funding and capitalized interest may require an explicit financing adjustment; do not label an unadjusted enterprise bridge a fully financing-consistent APV."
+  },
+  "not_computed": [
+    "No share price",
+    "No target multiple",
+    "No new discount-rate grid",
+    "No actual tax return",
+    "No exact end-2030 debt market value"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "ticker": "TSM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  },
+  {
+    "ticker": "GFS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GFS?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  },
+  {
+    "ticker": "UMC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UMC?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  },
+  {
+    "ticker": "TXN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TXN?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  },
+  {
+    "ticker": "STM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STM?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  },
+  {
+    "ticker": "ON",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ON?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  },
+  {
+    "ticker": "ADI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADI?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  },
+  {
+    "ticker": "MCHP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCHP?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  },
+  {
+    "ticker": "AMD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "rows": 1258
+  }
+]

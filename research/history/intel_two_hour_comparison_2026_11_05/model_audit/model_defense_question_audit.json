@@ -1,0 +1,55 @@
+{
+  "prepared_utc": "2026-11-05T22:57:20.951838+00:00",
+  "scope": "Analyst-only defense audit, not proposed extra slides or a memorization script. No new valuation assumptions.",
+  "questions": [
+    {
+      "judge_challenge": "If your planning value is below the quote, why is this a LONG?",
+      "defensible_answer": "The model supports a conditional return of about10% annually, but it does not establish a present valuation discount. That can be an investor preference at fair value; it is weaker evidence for a competition thesis claiming mispricing. A stronger recommendation needs a demonstrated expectation gap or a lower entry price, not an inflated target."
+    },
+    {
+      "judge_challenge": "Why does a fair-value company have a78dollar target?",
+      "defensible_answer": "The target is dated December2030, over4.15years from entry. Remaining operating cash moves closer, and earlier cash is retained after investment and debt service. The selected intrinsic value rises from51.29 atDec2026 to77.68 atDec2030, about10.94% annual intrinsic growth. The52.22 entry and earlier quote date reduce the conditional shareholder price return to10.03%."
+    },
+    {
+      "judge_challenge": "What is the most fragile mature-margin assumption?",
+      "defensible_answer": "At an illustrative20% margin on Other DCAI, a40% total DCAI margin requires a46.58% CPU margin in2040. The same hypothetical split gives46.62% inQ3_2026. The thesis preserves strong current CPU economics through competitive maturity; it does not prove them from a disclosed subsegment P&L."
+    },
+    {
+      "judge_challenge": "Why can Products and Foundry profits both improve?",
+      "defensible_answer": "An internal transfer-price change alone cannot create group profit. The model assigns richer customer mix and product operating leverage to Products, and factory cost/yield/absorption to Foundry; the ASP upgrade gives one consolidated incremental-profit allowance and holds Foundry dollars unchanged. This is arithmetically consistent, but the independent physical causes still need evidence."
+    },
+    {
+      "judge_challenge": "Is the growth funded?",
+      "defensible_answer": "The model reserves30.5/32.75/31.25/30B physical capex in2027\u201330 including incremental packaging, plus working capital and economic compensation/minority costs. Beyond2030 it funds1.25dollars net host capital per incremental sales dollar. It is a cash budget with liquidity remaining, not a node-by-node proof of qualified output or a quarterly financing guarantee."
+    },
+    {
+      "judge_challenge": "Why does the displayed gross capex not settle the reinvestment question?",
+      "defensible_answer": "After2030 gross capex is calculated as D&A plus net investment minus working-capital investment. D&A therefore cancels from free cash flow at fixed EBIT. The economically decisive assumption is the net-investment productivity and the ability to earn the chosen margin on that capital."
+    },
+    {
+      "judge_challenge": "Is your minority claim complete?",
+      "defensible_answer": "A normalized1.1/1.1/1.2/1.3B reserve is deducted once, informed initially by management NCI guidance. Arizona\u2019s legal cash waterfall contains confidential amounts and later Intel priority recoveries. The reserve is not a precise contract valuation; deducting bookNCI again is not a valid automatic fix."
+    },
+    {
+      "judge_challenge": "Is your terminal dependence lower than winning decks?",
+      "defensible_answer": "Not demonstrably. Intel\u2019s45.8% figure is cash after2040 divided by2030equity, while many winning decks use earlier terminal dates and enterprise-value denominators. On an operating-value basis,73.47% ofIntel\u2019s2030value comes after2035, and92.35% of itsDec2026value comes after2030."
+    },
+    {
+      "judge_challenge": "Do the assumed economics exceed anything Intel has achieved?",
+      "defensible_answer": "The2030 EBIT-to-capital-sales ratio is near2018\u2019s32.9% reported group margin; the2040 ratio is around35%, after restoring known embedded packaging sales. Higher data-center mix helps, but historical group margins are only a yardstick. The implied23.5% incremental accounting return is not an independently measured economic ROIC."
+    },
+    {
+      "judge_challenge": "What would make the economics fit a higher personal return hurdle?",
+      "defensible_answer": "At the same77.68target, an investor choosing12% annual price return could pay about48.52 today. At52.22, a required12%return needs an83.61target; mechanically solving only mature margin gives44.42%, holding all other forecasts fixed. Neither threshold is a unique market expectation or evidence for selecting that margin."
+    }
+  ],
+  "source_artifacts": [
+    "independent_economic_audit.json",
+    "extended_scenario_results.json",
+    "equity_return_rollforward.json",
+    "structural_review_results.json",
+    "historical_economic_crosscheck.json",
+    "other_DCAI_revenue_and_mix_audit.json",
+    "claims_funding_and_capital_quality_audit.json"
+  ]
+}

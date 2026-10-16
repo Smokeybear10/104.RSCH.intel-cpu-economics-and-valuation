@@ -1,0 +1,433 @@
+{
+  "audited_utc": "2026-11-06T07:45:29.330944+00:00",
+  "file_hashes_before": {
+    "workbook": "fa259a40f265b868ae06b87c1f02bf553fae78185e369d9acee9cc3d5d36f3ba",
+    "annual_results": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8",
+    "quarterly_results": "ced1c5bff4f7f561cc522d6832d244b5a7301b69dc4ab08c318b686db4506e24",
+    "selected_quarters": "9f1b9d01a2baf6b809eaf1a4cd74307006cf4e7cc779a4bb006897cd162c26b9",
+    "builder": "8b03884b03cbb6427045008ebc424626acab1fd5108690b3c68c3c89236348be",
+    "builder_receipt": "861b76e2b94aeb319e685d16ec97e248a53011043a66c6c1a12c6d630b8b6ed6",
+    "anchor_forecasts": "c0b694e757204bcbd3896ef430244738c588012d4ac433c829adf8a859d90579",
+    "anchor_valuations": "721aa9b7a7445065317b17590eba55659558563664040651672c0fdf933b03f7"
+  },
+  "method": "Read-only Python standard-library ZIP/XML. Independently parse and recursively evaluate every stored formula from exported numeric inputs, ignoring cached formula values during calculation. No artifact-tool or root model function calls, no openpyxl, no workbook writes.",
+  "sheets": [
+    {
+      "name": "Valuation",
+      "formula_count": 121
+    },
+    {
+      "name": "Assumptions",
+      "formula_count": 109
+    },
+    {
+      "name": "Annual model",
+      "formula_count": 885
+    },
+    {
+      "name": "Quarterly model",
+      "formula_count": 768
+    },
+    {
+      "name": "Sources",
+      "formula_count": 0
+    },
+    {
+      "name": "Checks",
+      "formula_count": 48
+    }
+  ],
+  "external_link_parts": [],
+  "calculation_properties": null,
+  "formula_count": 1931,
+  "formula_cache_max_error": 5.684341886080802e-14,
+  "formula_cache_mismatches": [],
+  "excel_error_cells": [],
+  "source_model_comparisons": 867,
+  "source_model_max_error": 5.684341886080802e-14,
+  "source_model_mismatches": [],
+  "independent_mutation_controls": [
+    {
+      "input": "Assumptions!F87",
+      "independent_target": 53.920798107577056,
+      "builder_target": 53.92079810757706,
+      "difference": 7.105427357601002e-15,
+      "source_actuals_unchanged": true
+    },
+    {
+      "input": "Assumptions!N39",
+      "independent_target": 53.62869883824461,
+      "builder_target": 53.62869883824461,
+      "difference": 0.0,
+      "source_actuals_unchanged": true
+    },
+    {
+      "input": "Assumptions!I111",
+      "independent_target": 53.437048088123774,
+      "builder_target": 53.437048088123774,
+      "difference": 0.0,
+      "source_actuals_unchanged": true
+    }
+  ],
+  "terminal_checks": [
+    {
+      "cell": "Checks!F7",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G7",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!H7",
+      "value": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Checks!I7",
+      "value": 2.842170943040401e-14
+    },
+    {
+      "cell": "Checks!F8",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G8",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!H8",
+      "value": 3.552713678800501e-15
+    },
+    {
+      "cell": "Checks!I8",
+      "value": 7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!F9",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G9",
+      "value": -4.440892098500626e-16
+    },
+    {
+      "cell": "Checks!H9",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!I9",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!F10",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G10",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!H10",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!I10",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!F11",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G11",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!H11",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!I11",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!F12",
+      "value": -3.552713678800501e-15
+    },
+    {
+      "cell": "Checks!G12",
+      "value": -4.440892098500626e-16
+    },
+    {
+      "cell": "Checks!H12",
+      "value": 7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!I12",
+      "value": 7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!F13",
+      "value": -3.552713678800501e-15
+    },
+    {
+      "cell": "Checks!G13",
+      "value": -7.216449660063518e-16
+    },
+    {
+      "cell": "Checks!H13",
+      "value": 7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!I13",
+      "value": 7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!F14",
+      "value": -7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!G14",
+      "value": -7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!H14",
+      "value": -7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!I14",
+      "value": -7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!F15",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G15",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!H15",
+      "value": -7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!I15",
+      "value": -7.105427357601002e-15
+    },
+    {
+      "cell": "Checks!F17",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G17",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!H17",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!I17",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!F18",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G18",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!H18",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!I18",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!F19",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!G19",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!H19",
+      "value": 0.0
+    },
+    {
+      "cell": "Checks!I19",
+      "value": 0.0
+    }
+  ],
+  "Q4_anchor_propagation_controls": [
+    {
+      "case": "client_anchor",
+      "annual_comparisons": 450,
+      "annual_max_error": 5.684341886080802e-14,
+      "opening_cash_B": 50.944261,
+      "opening_cash_error_B": 0.0,
+      "target_USD": 54.88311353687267,
+      "target_error_USD": 2.1316282072803006e-14,
+      "2027_WC_B": 5.903567997305645
+    },
+    {
+      "case": "DCAI_growth_anchor",
+      "annual_comparisons": 450,
+      "annual_max_error": 5.684341886080802e-14,
+      "opening_cash_B": 50.886567,
+      "opening_cash_error_B": 0.0,
+      "target_USD": 54.54290234748271,
+      "target_error_USD": 2.1316282072803006e-14,
+      "2027_WC_B": 5.84274925285145
+    },
+    {
+      "case": "Other_DCAI_mix_anchor",
+      "annual_comparisons": 450,
+      "annual_max_error": 5.684341886080802e-14,
+      "opening_cash_B": 50.839,
+      "opening_cash_error_B": 0.0,
+      "target_USD": 54.32053526425665,
+      "target_error_USD": 4.263256414560601e-14,
+      "2027_WC_B": 5.832021954638966
+    },
+    {
+      "case": "server_anchor_joint",
+      "annual_comparisons": 450,
+      "annual_max_error": 7.105427357601002e-14,
+      "opening_cash_B": 50.886567,
+      "opening_cash_error_B": 0.0,
+      "target_USD": 55.43420134150646,
+      "target_error_USD": 5.684341886080802e-14,
+      "2027_WC_B": 5.88557908771745
+    },
+    {
+      "case": "joint_favorable",
+      "annual_comparisons": 450,
+      "annual_max_error": 5.684341886080802e-14,
+      "opening_cash_B": 50.991828,
+      "opening_cash_error_B": 0.0,
+      "target_USD": 56.888268091969714,
+      "target_error_USD": 4.263256414560601e-14,
+      "2027_WC_B": 5.999954965250128
+    }
+  ],
+  "terminal_growth_input_controls": [
+    {
+      "growth": 0.02,
+      "exported_behavior": {
+        "growth": 0.02,
+        "2041_FCFF_B": 34.32765562687692,
+        "implied_2042_FCFF_B": 35.014208739414414,
+        "2042_FCFF_assumed_by_Gordon_B": 35.01420873941446,
+        "cash_scaling_mismatch_B": -4.263256414560601e-14,
+        "planning2026_USD": 34.52520672867347,
+        "target2030_USD": 52.0673712061033
+      },
+      "proposed_all_terminal_growth_links_in_memory": {
+        "growth": 0.02,
+        "2041_FCFF_B": 34.32765562687692,
+        "implied_2042_FCFF_B": 35.014208739414414,
+        "2042_FCFF_assumed_by_Gordon_B": 35.01420873941446,
+        "cash_scaling_mismatch_B": -4.263256414560601e-14,
+        "planning2026_USD": 34.52520672867347,
+        "target2030_USD": 52.0673712061033
+      }
+    },
+    {
+      "growth": 0.03,
+      "exported_behavior": {
+        "growth": 0.03,
+        "2041_FCFF_B": 32.65115896601478,
+        "implied_2042_FCFF_B": 33.630693734995205,
+        "2042_FCFF_assumed_by_Gordon_B": 33.630693734995226,
+        "cash_scaling_mismatch_B": -2.1316282072803006e-14,
+        "planning2026_USD": 35.404653075480034,
+        "target2030_USD": 53.42933483948493
+      },
+      "proposed_all_terminal_growth_links_in_memory": {
+        "growth": 0.03,
+        "2041_FCFF_B": 32.65115896601478,
+        "implied_2042_FCFF_B": 33.630693734995205,
+        "2042_FCFF_assumed_by_Gordon_B": 33.630693734995226,
+        "cash_scaling_mismatch_B": -2.1316282072803006e-14,
+        "planning2026_USD": 35.404653075480034,
+        "target2030_USD": 53.42933483948493
+      }
+    },
+    {
+      "growth": 0.04,
+      "exported_behavior": {
+        "growth": 0.04,
+        "2041_FCFF_B": 30.974662305152677,
+        "implied_2042_FCFF_B": 32.21364879735877,
+        "2042_FCFF_assumed_by_Gordon_B": 32.213648797358786,
+        "cash_scaling_mismatch_B": -1.4210854715202004e-14,
+        "planning2026_USD": 36.516911162010395,
+        "target2030_USD": 55.151844768930545
+      },
+      "proposed_all_terminal_growth_links_in_memory": {
+        "growth": 0.04,
+        "2041_FCFF_B": 30.974662305152677,
+        "implied_2042_FCFF_B": 32.21364879735877,
+        "2042_FCFF_assumed_by_Gordon_B": 32.213648797358786,
+        "cash_scaling_mismatch_B": -1.4210854715202004e-14,
+        "planning2026_USD": 36.516911162010395,
+        "target2030_USD": 55.151844768930545
+      }
+    }
+  ],
+  "mature_Other_margin_controls": [
+    {
+      "mature_Other_DCAI_margin": 0.1,
+      "growth": 0.03,
+      "2041_FCFF_B": 30.10911524497109,
+      "implied_2042_FCFF_B": 31.012388702320205,
+      "2042_FCFF_assumed_by_Gordon_B": 31.012388702320223,
+      "cash_scaling_mismatch_B": -1.7763568394002505e-14,
+      "planning2026_USD": 33.57901505840237,
+      "target2030_USD": 50.60204174081268
+    },
+    {
+      "mature_Other_DCAI_margin": 0.2,
+      "growth": 0.03,
+      "2041_FCFF_B": 32.65115896601478,
+      "implied_2042_FCFF_B": 33.630693734995205,
+      "2042_FCFF_assumed_by_Gordon_B": 33.630693734995226,
+      "cash_scaling_mismatch_B": -2.1316282072803006e-14,
+      "planning2026_USD": 35.404653075480034,
+      "target2030_USD": 53.42933483948493
+    },
+    {
+      "mature_Other_DCAI_margin": 0.3,
+      "growth": 0.03,
+      "2041_FCFF_B": 35.19320268705848,
+      "implied_2042_FCFF_B": 36.248998767670216,
+      "2042_FCFF_assumed_by_Gordon_B": 36.24899876767024,
+      "cash_scaling_mismatch_B": -2.1316282072803006e-14,
+      "planning2026_USD": 37.23029109255771,
+      "target2030_USD": 56.25662793815719
+    }
+  ],
+  "all_input_and_workbook_hashes_unchanged": true,
+  "verified_outputs": {
+    "D8": 52.25,
+    "D9": 35.404653075480034,
+    "D10": 53.42933483948493,
+    "D11": 0.0053884915192619065,
+    "D12": 69.84503199772968,
+    "D13": 0.008301313667239407,
+    "D14": 29.329947005289362,
+    "D15": 9.329947005289362,
+    "D43": 33.37041342382952
+  },
+  "limits": [
+    "Native Microsoft Excel UI was not run. XML formulas and caches were independently evaluated.",
+    "Agreement validates implementation of dated assumptions, not future revenue, cash access, probabilities or competition-winning odds.",
+    "This workbook forecasts aggregate operating cash and financial claims, not a fully linked GAAP three-statement model.",
+    "The workbook has one editable base cash-timing schedule; the concentrated timing controls remain in the accompanying research calculations."
+  ]
+}

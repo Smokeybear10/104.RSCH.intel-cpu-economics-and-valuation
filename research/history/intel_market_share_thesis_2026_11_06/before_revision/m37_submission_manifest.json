@@ -1,0 +1,340 @@
+{
+  "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+  "pages": 10,
+  "author": "Thomas Ou",
+  "class_year_source": "https://thomasou.com/",
+  "class_year": 2027,
+  "reference_price_USD": 52.22,
+  "reference_price_date": "2026-11-05 regular-session close",
+  "source_model": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+  "recommendation": "LONG, moderate conviction",
+  "expected_repricing_window": null,
+  "fundamental_horizon": "November2026 to December2030;4.15years",
+  "main_qualification": "Approximately fair-value entry; moderate cash-growth thesis, no large initial valuation cushion or proven alpha.",
+  "sent": false,
+  "status": "Revised 10-page Intel LONG screen and 3-page defense notes using winning-pitch comparisons; evidence, forecasts and dollar impacts linked explicitly. Numeric, source and visual reviews passed. Moderate conviction; limited initial valuation cushion. Not submitted.",
+  "sha256": "98631d1e6f4d9df2e90ec41a96f02159f4d994d0df697ff832312ccac3e1d303",
+  "as_of_utc": "2026-11-05T22:16:47.198290+00:00",
+  "qa": {
+    "pages": 10,
+    "page_size_points": [
+      960,
+      540
+    ],
+    "source_hyperlinks": 21,
+    "all_pages_rendered_and_visually_inspected": true,
+    "all_text_inside_page_bounds": true,
+    "layout_defects_observed": false,
+    "source_model_unchanged": true,
+    "independent_numeric_checks": 211,
+    "independent_numeric_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_numeric_review.json",
+    "independent_semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_judge_review.json",
+    "independent_evidence_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_evidence_review.json",
+    "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_visual_qa.json",
+    "submitted": false
+  },
+  "latest_research_decision": "Revised 10-page Intel LONG screen and 3-page defense notes using winning-pitch comparisons; evidence, forecasts and dollar impacts linked explicitly. Numeric, source and visual reviews passed. Moderate conviction; limited initial valuation cushion. Not submitted.",
+  "research_decision_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/benchmark_rebuild_result.json",
+  "latest_earnings_cash_test": {
+    "as_of_utc": "2026-11-04T18:49:29.640888+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/decision_result.json",
+    "sha256": "a65c449870a387fb309e6877625c94c93ce45b2176a9aac355b77944bb371fd7",
+    "status": "Focused Intel earnings-to-cash test completed. Earnings upside identified; LONG not established.",
+    "root_decision": {
+      "working_operating_thesis": "Intel\u2019s richer CPU mix could deliver earnings above published forecasts without a major new external wafer customer. The investment question is how much cash Intel must reinvest to deliver those earnings.",
+      "earnings_result": "The existing operating forecast produces conditional adjusted EPS proxies of about $2.50 in 2027 and $4.17 in 2028. The premium survives several tax, accounting-presentation and Foundry-cost controls. It is not solely an EBIT-versus-EPS comparison error.",
+      "investment_result": "No LONG recommendation established. These operating earnings already underpin the existing cash valuation; expressing them as adjusted EPS does not increase cash value. A higher P/E alone cannot resolve the economic disagreement.",
+      "why_the_edge_is_narrower_than_the_EPS_gap": "The matched 2027 DCAI growth difference explains only about 30% of the EPS gap to iFAST under our other conventions. The entire premium cannot be presented as one overlooked CPU pricing effect.",
+      "capital_review": "No demonstrated double counting of physical capital or justified asset-light cash uplift. Intel Products uses internal manufacturing and external suppliers; the custom-silicon manufacturing split is insufficiently disclosed to remove host capital spending.",
+      "prior_short": "The prior early-repricing SHORT remains withdrawn as the preferred submission. This test does not revive it.",
+      "submission_status": "The old PDF remains a superseded discussion draft. No current directional submission is endorsed; nothing was submitted.",
+      "competition_objective_complete": false,
+      "finite_test_complete": true
+    },
+    "verification": {
+      "independent_audit_verdict": "PASS WITH COMPARABILITY LIMITS",
+      "checks_count": 316,
+      "numerical_errors": 0,
+      "audit": {
+        "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_earnings_cash_test_2026_11_04/independent_earnings_cash_audit.json",
+        "sha256": "e01e9d877590933b438281b9e875386ad0edee1d41b7778adad7211e95e77d2a"
+      },
+      "audit_does_not_validate_business_forecasts": true,
+      "audit_metadata_precedence": "The bridge retains its original pre-audit pending field to preserve its audited SHA256. This record and the independent audit supersede that historical field.",
+      "all_audited_input_hashes_verified_at_close": true,
+      "source_model_modified": false,
+      "PDF_modified": false
+    }
+  },
+  "latest_direction_resolution": {
+    "as_of_utc": "2026-11-04T22:13:11.075418+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_direction_resolution_2026_11_04/decision_result.json",
+    "sha256": "af94bac971de118f76a52ab551054f6f977e2c4580c201c27a50ecd0acd0a076",
+    "status": "Completed substantive direction review and three-page working pitch. Qualified valuation SHORT selected as current candidate; no proven trading alpha or winning probability.",
+    "root_decision": {
+      "working_recommendation": "SHORT, qualified valuation thesis for competition review",
+      "thesis": "Intel can recover operationally while its equity offers insufficient compensation for manufacturing and cyclical risk at the entry price. The existing funded forecast supports a lower end-2026 planning value than the dated quote.",
+      "working_fair_value_reference_USD": [
+        44.067914052747014,
+        49.96887374853764
+      ],
+      "fair_value_date": "2026-12-31 planning reference, not a 2030 target or predicted price-convergence date",
+      "reference_price": {
+        "price_USD": 58.28,
+        "date": "2026-11-04",
+        "time": "16:00 America/New_York close",
+        "source": "https://stockanalysis.com/stocks/intc/forecast/",
+        "retrieved_after_close_UTC": "2026-11-04T21:48:06+00:00",
+        "prior_reference_USD": 60.55,
+        "prior_reference_date": "2026-11-03"
+      },
+      "why_direction_selected_now": "A fundamental valuation opinion can be a legitimate directional competition candidate without exact consensus, a guaranteed catalyst or positive price-only unhedged short PnL in every future year. Our higher operating-risk allowance supports the bearish stance; that remains a judgment rather than proven mispricing.",
+      "limits_on_selection": "Risk-adjusted underperformance has not been established by a specified hedged trade. No counter-long, hedge ratio, broker borrow/carry, margin return or portfolio alpha is modeled. Do not subtract the operating discount rate from shareholder CAGR and label the difference alpha.",
+      "primary_counterargument": "The central 2030 value is $67.58, above the $58.28 entry, implying 3.63% annual long price appreciation and a $9.30 price-only short loss before carry. Risk maturation raises the conditional 2030 value to $76.86 and long price CAGR to 6.89%.",
+      "risk_sensitivity": "At 10% operating discount, unchanged central cash supports $60.09 at end-2026; the dated quote matches about 10.17846%. The short view is materially exposed to the risk assumption.",
+      "what_is_not_the_thesis": [
+        "A permanent structural cash drain",
+        "An undiscovered negative 2027 FCF forecast",
+        "Intel unit-share loss automatically means declining units",
+        "A promised 2027/2028 repricing",
+        "A new LONG earned by adding back compensation in EPS"
+      ],
+      "old_short_draft_status": "Old early-convergence PDF remains historical and superseded. This new working pitch does not reinstate its unsupported timing claim.",
+      "new_draft_status": "Three-page review draft with business overview, recommendation, forecasts, horizon economics, countercases, falsifiers and sources. Not submitted; no claim of final competition readiness.",
+      "competition_objective_complete": false
+    },
+    "working_pitch": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "c43026665a84c9e47fcf26965d197c2c64c02fe0e1f52c0c21fb32e661d3ebb0",
+      "qa": {
+        "pages": 3,
+        "all_pages_rendered_and_visually_inspected": true,
+        "layout_defects_observed": false,
+        "key_numbers_checked": [
+          "$58.28",
+          "$44.07",
+          "$49.97",
+          "$60.09",
+          "$67.58",
+          "$76.86",
+          "$86.30",
+          "3.63%",
+          "6.89%",
+          "$9.30",
+          "10.18%",
+          "11.91%"
+        ],
+        "source_hyperlinks": 10,
+        "original_PDF_preserved": true
+      }
+    }
+  },
+  "latest_working_review": {
+    "as_of_utc": "2026-11-05T22:16:47.198290+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+    "sha256": "98631d1e6f4d9df2e90ec41a96f02159f4d994d0df697ff832312ccac3e1d303",
+    "pages": 10,
+    "submitted": false,
+    "status": "Revised 10-page Intel LONG screen and 3-page defense notes using winning-pitch comparisons; evidence, forecasts and dollar impacts linked explicitly. Numeric, source and visual reviews passed. Moderate conviction; limited initial valuation cushion. Not submitted.",
+    "qa": {
+      "pages": 10,
+      "page_size_points": [
+        960,
+        540
+      ],
+      "source_hyperlinks": 21,
+      "all_pages_rendered_and_visually_inspected": true,
+      "all_text_inside_page_bounds": true,
+      "layout_defects_observed": false,
+      "source_model_unchanged": true,
+      "independent_numeric_checks": 211,
+      "independent_numeric_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_numeric_review.json",
+      "independent_semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_judge_review.json",
+      "independent_evidence_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_evidence_review.json",
+      "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_visual_qa.json",
+      "submitted": false
+    },
+    "research_result": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/benchmark_rebuild_result.json",
+    "recommendation": "LONG, moderate conviction",
+    "pitch_content_complete": true,
+    "submission_package_complete": false,
+    "competition_objective_complete": false,
+    "defense_notes": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "d279319cc936473fe1aa8f938c9955729eba7adb0b4448338315fc2017c5b862",
+      "pages": 3,
+      "submitted": false,
+      "visual_qa": "Passed; all final pages rendered and visually verified",
+      "purpose": "Private pitch preparation and supporting calculations; excluded from the ten-page screen.",
+      "qa_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_visual_qa.json",
+      "latest_research_result": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/benchmark_rebuild_result.json"
+    }
+  },
+  "field_precedence": "Current top-level fields and latest_working_review supersede historical SHORT and PASS artifacts.",
+  "historical_original_draft_metadata": {
+    "pdf": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen_draft.pdf",
+    "pages": 8,
+    "reference_price_USD": 60.55,
+    "reference_price_date": "2026-11-03",
+    "recommendation": "SHORT",
+    "expected_repricing_window": "2027-2028",
+    "fundamental_horizon": "2027-2031",
+    "main_qualification": "Active valuation-convergence short; a passive long-horizon short is not supported by the preferred value trajectory.",
+    "status": "Eight-page discussion draft completed; visual, internal link and numerical reviews passed. Investment timing assumption remains a judgment, not established evidence.",
+    "page_text_lengths": [
+      1976,
+      2043,
+      1768,
+      2165,
+      1944,
+      1923,
+      2226,
+      2176
+    ],
+    "sha256": "b01c37be1fa1f248b8baea2d6b3238048afa0c70876f9c7629f1a2130918d3a2",
+    "as_of_utc": "2026-11-04T17:56:07.182846+00:00",
+    "qa": {
+      "all_eight_pages_visually_reviewed": true,
+      "modified_pages_4_and_6_rerendered_and_reviewed": true,
+      "link_annotations_checked": 29,
+      "all_internal_link_destinations_resolve_to_document_pages": true,
+      "source_model_unchanged": true,
+      "independent_numerical_review": "Passed; paired ASP baseline clarified on page 3.",
+      "remaining_substantive_limit": "The proposed short depends on 2027-2028 repricing; a passive 3-5-year short is not supported by the preferred values.",
+      "email_sent": false
+    }
+  },
+  "prior_working_review_before_thesis_repair": {
+    "as_of_utc": "2026-11-05T07:55:21.163743+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "d11462d41b631287a0e5bef71cd37e144601d99c9e23c2b7f42487cf63eb2809",
+    "pages": 10,
+    "status": "Ten-page pitch revised and verified; two-page defense notes completed; three interview drafts shortened and saved, zero sent. Conditional relative-short edge remains unresolved.",
+    "qa": {
+      "pages": 10,
+      "page_size_points": [
+        960,
+        540
+      ],
+      "source_hyperlinks": 29,
+      "all_pages_rendered_and_visually_inspected": true,
+      "all_text_inside_page_bounds": true,
+      "layout_defects_observed": false,
+      "source_model_unchanged": true,
+      "independent_operating_bridge_numeric_comparisons": 823,
+      "independent_semantic_checks": 10,
+      "semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/final_content_review.json",
+      "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/final_visual_qa.json",
+      "submitted": false
+    },
+    "research_result": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/pitch_completion_result.json",
+    "recommendation": "Modest-conviction conditional relative SHORT; robust edge not established.",
+    "submitted": false,
+    "defense_notes": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_defense_notes.pdf",
+      "pages": 2,
+      "sha256": "bd4c827be7dcac8628bb207b243b11f029be2258f34094ffb7b51899b252a14f",
+      "submitted": false,
+      "purpose": "Private speaking preparation; separate from the ten-page submission.",
+      "visual_qa": "All pages rendered and inspected; no clipping or visible layout defects",
+      "qa_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/final_visual_qa.json"
+    }
+  },
+  "submission_ready": false,
+  "competition_objective_complete": false,
+  "prior_PASS_review": {
+    "as_of_utc": "2026-11-05T20:09:02.900563+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "29885889baab42e0722912a7775045196155f2ec54de252663df671680d744e7",
+    "pages": 10,
+    "status": "Research repair and independent checks completed; previous SHORT withdrawn. No preferred LONG or SHORT at the cited price. Directional M37 submission remains unfinished.",
+    "qa": {
+      "pages": 10,
+      "page_size_points": [
+        960,
+        540
+      ],
+      "source_hyperlinks": 29,
+      "all_pages_rendered_and_visually_inspected": true,
+      "all_text_inside_page_bounds": true,
+      "layout_defects_observed": false,
+      "source_model_unchanged": true,
+      "independent_valuation_cases": 42,
+      "independent_max_price_difference_USD": 2.842170943040401e-14,
+      "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_visual_qa.json",
+      "numeric_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_numeric_review.json",
+      "semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_content_review.json",
+      "submitted": false
+    },
+    "research_result": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/thesis_repair_result.json",
+    "recommendation": "PASS / previous SHORT withdrawn",
+    "submitted": false,
+    "submission_ready": false,
+    "competition_objective_complete": false,
+    "defense_notes": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_defense_notes.pdf",
+      "pages": 2,
+      "sha256": "5798cc77a4626ac88cb04a62e9439e24b1e4b29236483b73d45de5a0f1455813",
+      "submitted": false,
+      "purpose": "Research decision notes; previous short withdrawn; not a competition entry.",
+      "visual_qa": "All final pages rendered and inspected; no observed clipping or layout defects",
+      "qa_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/final_visual_qa.json"
+    },
+    "reference_quote": {
+      "USD": 54.58,
+      "date": "2026-11-05",
+      "time": "14:55 America/New_York",
+      "type": "dated intraday snapshot, not close or executed trade",
+      "source": "https://stockanalysis.com/stocks/intc/history/"
+    }
+  },
+  "pitch_content_complete": true,
+  "submission_package_complete": false,
+  "submission_ready_scope": "PDF content complete; resume package not assembled.",
+  "prior_benchmark_rebuild_review": {
+    "as_of_utc": "2026-11-05T21:57:07.580062+00:00",
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+    "sha256": "cfeb26a895dc0486ab9cc8ee12e0a57e5170bf4cf9a43349a6add3c25dfc513c",
+    "pages": 10,
+    "status": "Completed 10-page Intel LONG initial-screen draft and separate two-page defense notes; independent numeric, semantic and visual reviews passed. Moderate conviction; limited initial valuation cushion. Not submitted.",
+    "qa": {
+      "pages": 10,
+      "page_size_points": [
+        960,
+        540
+      ],
+      "source_hyperlinks": 26,
+      "all_pages_rendered_and_visually_inspected": true,
+      "all_text_inside_page_bounds": true,
+      "layout_defects_observed": false,
+      "source_model_unchanged": true,
+      "independent_numeric_checks": 69,
+      "independent_numeric_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_numeric_review.json",
+      "independent_semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_content_review.json",
+      "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_visual_qa.json",
+      "submitted": false
+    },
+    "research_result": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/directional_build_result.json",
+    "recommendation": "LONG, moderate conviction",
+    "submitted": false,
+    "pitch_content_complete": true,
+    "submission_package_complete": false,
+    "competition_objective_complete": false,
+    "defense_notes": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "75703d9d71f62b6410e03dde85fb57b1541d26dcd99bbfb672b66620ede97cf5",
+      "pages": 2,
+      "submitted": false,
+      "visual_qa": "All final pages rendered and visually inspected; no observed clipping, collisions or layout defects",
+      "purpose": "Private pitch preparation; excluded from the ten-page screen.",
+      "qa_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_visual_qa.json"
+    },
+    "reference_quote": {
+      "USD": 52.22,
+      "date": "2026-11-05",
+      "time": "16:00 America/New_York",
+      "type": "regular-session close",
+      "url": "https://stockanalysis.com/stocks/intc/history/"
+    }
+  }
+}

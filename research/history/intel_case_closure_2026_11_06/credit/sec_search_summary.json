@@ -1,0 +1,288 @@
+[
+  {
+    "q": "\"commitment fee\"",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22commitment+fee%22",
+    "total": {
+      "value": 0,
+      "relation": "eq"
+    },
+    "hits": []
+  },
+  {
+    "q": "\"facility fee\"",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22facility+fee%22",
+    "total": {
+      "value": 0,
+      "relation": "eq"
+    },
+    "hits": []
+  },
+  {
+    "q": "\"revolving credit agreement\"",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22revolving+credit+agreement%22",
+    "total": {
+      "value": 0,
+      "relation": "eq"
+    },
+    "hits": []
+  },
+  {
+    "q": "\"credit facility agreement\"",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22credit+facility+agreement%22",
+    "total": {
+      "value": 21,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "id": "0000050863-24-000076:intc-20240330.htm",
+        "date": "2024-04-26",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-23-000103:intc-20230930.htm",
+        "date": "2023-10-27",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-23-000069:intc-20230701.htm",
+        "date": "2023-07-28",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-24-000124:intc-20240629.htm",
+        "date": "2024-08-02",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-23-000028:intc-20230401.htm",
+        "date": "2023-04-28",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-24-000149:intc-20240928.htm",
+        "date": "2024-11-01",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-25-000074:intc-20250329.htm",
+        "date": "2025-04-25",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-25-000009:intc-20241228.htm",
+        "date": "2025-01-31",
+        "type": "10-K"
+      },
+      {
+        "id": "0000050863-26-000079:intc-20260328.htm",
+        "date": "2026-04-24",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-26-000157:intc-20260627.htm",
+        "date": "2026-07-24",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-25-000109:intc-20250628.htm",
+        "date": "2025-07-24",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-26-000191:intc-20260926.htm",
+        "date": "2026-10-30",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-25-000179:intc-20250927.htm",
+        "date": "2025-11-06",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-26-000011:intc-20251227.htm",
+        "date": "2026-01-23",
+        "type": "10-K"
+      },
+      {
+        "id": "0000050863-22-000020:intc-20220402.htm",
+        "date": "2022-04-29",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-24-000010:intc-20231230.htm",
+        "date": "2024-01-26",
+        "type": "10-K"
+      },
+      {
+        "id": "0000050863-22-000038:intc-20221001.htm",
+        "date": "2022-10-28",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-22-000030:intc-20220702.htm",
+        "date": "2022-07-29",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-23-000006:intc-20221231.htm",
+        "date": "2023-01-27",
+        "type": "10-K"
+      },
+      {
+        "id": "0000050863-24-000055:a2024ars202310k.htm",
+        "date": "2024-03-28",
+        "type": "ARS"
+      },
+      {
+        "id": "0000050863-25-000052:a2024arsform10-k.pdf",
+        "date": "2025-03-27",
+        "type": "ARS"
+      }
+    ]
+  },
+  {
+    "q": "\"SOFR\"",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22SOFR%22",
+    "total": {
+      "value": 10,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "id": "0000050863-22-000020:intc-20220402.htm",
+        "date": "2022-04-29",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-22-000030:intc-20220702.htm",
+        "date": "2022-07-29",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-22-000038:intc-20221001.htm",
+        "date": "2022-10-28",
+        "type": "10-Q"
+      },
+      {
+        "id": "0000050863-23-000006:intc-20221231.htm",
+        "date": "2023-01-27",
+        "type": "10-K"
+      },
+      {
+        "id": "0000050863-24-000010:intc-20231230.htm",
+        "date": "2024-01-26",
+        "type": "10-K"
+      },
+      {
+        "id": "0000050863-25-000052:a2024arsform10-k.pdf",
+        "date": "2025-03-27",
+        "type": "ARS"
+      },
+      {
+        "id": "0000050863-26-000060:intc014890-arsa.pdf",
+        "date": "2026-03-23",
+        "type": "ARS"
+      },
+      {
+        "id": "0000050863-25-000009:intc-20241228.htm",
+        "date": "2025-01-31",
+        "type": "10-K"
+      },
+      {
+        "id": "0000050863-26-000011:intc-20251227.htm",
+        "date": "2026-01-23",
+        "type": "10-K"
+      },
+      {
+        "id": "0000050863-24-000055:a2024ars202310k.htm",
+        "date": "2024-03-28",
+        "type": "ARS"
+      }
+    ]
+  },
+  {
+    "q": "\"financial covenants\"",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22financial+covenants%22",
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "id": "0000950134-06-006405:f19138b5e424b5.htm",
+        "date": "2006-03-31",
+        "type": "424B5"
+      }
+    ]
+  },
+  {
+    "q": "\"credit agreement\"",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22credit+agreement%22",
+    "total": {
+      "value": 10,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "id": "0001193125-22-226986:d388434dex101.htm",
+        "date": "2022-08-23",
+        "type": "EX-10.1"
+      },
+      {
+        "id": "0000950134-07-016808:f32127exv10w4.htm",
+        "date": "2007-08-06",
+        "type": "EX-10.4"
+      },
+      {
+        "id": "0000950134-08-008205:f40150exv10w1.htm",
+        "date": "2008-05-02",
+        "type": "EX-10.1"
+      },
+      {
+        "id": "0000050863-24-000103:a06042024form8-kex101.htm",
+        "date": "2024-06-04",
+        "type": "EX-10.1"
+      },
+      {
+        "id": "0001193125-22-226986:d388434dex102.htm",
+        "date": "2022-08-23",
+        "type": "EX-10.2"
+      },
+      {
+        "id": "0001193125-22-291100:d412415dex101.htm",
+        "date": "2022-11-22",
+        "type": "EX-10.1"
+      },
+      {
+        "id": "0001193125-10-192747:dex21.htm",
+        "date": "2010-08-19",
+        "type": "EX-2.1"
+      },
+      {
+        "id": "0001193125-10-192748:dex21.htm",
+        "date": "2010-08-19",
+        "type": "EX-2.1"
+      },
+      {
+        "id": "0001193125-17-080544:d344928dex21.htm",
+        "date": "2017-03-13",
+        "type": "EX-2.1"
+      },
+      {
+        "id": "0001193125-17-080542:d344928dex21.htm",
+        "date": "2017-03-13",
+        "type": "EX-2.1"
+      }
+    ]
+  },
+  {
+    "q": "\"applicable margin\"",
+    "url": "https://efts.sec.gov/LATEST/search-index?dateRange=custom&startdt=2001-01-01&enddt=2026-11-06&ciks=0000050863&q=%22applicable+margin%22",
+    "total": {
+      "value": 0,
+      "relation": "eq"
+    },
+    "hits": []
+  }
+]

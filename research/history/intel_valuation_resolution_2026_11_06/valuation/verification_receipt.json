@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-11-06T22:51:03.834045+00:00",
+  "syntax": "pass",
+  "all_policy_input_hashes": "pass",
+  "reverse_price_round_trip_maximum_error_USD": 2.842170943040401e-14,
+  "baseline_checks": {
+    "active_baseline_comparisons": 22,
+    "active_baseline_maximum_error": 5.684341886080802e-14,
+    "cash_conversion_maximum_error": 0.0
+  },
+  "artifacts": {
+    "calculate_valuation_resolution.py": "6e0f4dc27d92ed92d84e2e08dd93b11178cbb1767b5c8d6137b57987ec3c0b5d",
+    "valuation_resolution_results.json": "609d1e0110e7ea8e1f64839275ad263b0d731a31fcee087b22b84ad30e06ad6a",
+    "independent_claims_funding_audit.json": "058b8946c1c5ac4e9e86d3823447d0781e3e46ba23addf1b67e266ba7196327c",
+    "policy_before_calculation.json": "cde8f58c23b56e3472d65b405e642dafbc78bad29696b0604d2651cc8afca3a4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "relative2030CPUfactor": 0.8056900726392254,
+  "2030units_belowbase_pct": 19.430992736077457,
+  "2030target_component_changes_B": {
+    "explicit_operating_PV_B": -28.063478461425774,
+    "terminal_operating_PV_B": -24.484815577004866,
+    "financing_shield_PV_B": 0.0,
+    "economic_cash_B": -9.910617512998108,
+    "ordinary_debt_B": 0.0
+  },
+  "independent_per_share_change": -11.335555635468014,
+  "tax_shields_unchanged": true,
+  "2030target_difference_reconciled": true
+}

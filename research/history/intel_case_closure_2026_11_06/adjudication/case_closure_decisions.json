@@ -1,0 +1,198 @@
+{
+  "audit_date": "2026-11-06 America/New_York",
+  "audit_scope": "Read-only classification of existing work; no new broad research, model edits, or deck edits.",
+  "conclusion": "The open-case count has conflated unfinished work with forecasts, rejected upside and optional evidence. The investment analysis already supports a completed conditional-entry judgment. Do not reopen a forecast merely because its future outcome is unknown.",
+  "reviewed_artifacts": [
+    {
+      "path": "output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "sha256": "cf3d78e8f767f702e9af9de38874095ef85149664c50f7d973ff54fbed6d88c3",
+      "review_method": "Read corresponding current extracted text in tmp/pdfs/intel_long/fundamental_rebuild_review/m37_intel_initial_screen.txt; visual layout not re-audited."
+    },
+    {
+      "path": "output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 8,
+      "sha256": "4d13f6418150631546b4cc7bd483acc08d46841e53dc75cd68bc838f1c559d1f",
+      "review_method": "Read corresponding current extracted text in tmp/pdfs/intel_long/fundamental_rebuild_review/m37_intel_defense_notes.txt; visual layout not re-audited."
+    },
+    {
+      "path": "tmp/pdfs/m37_submission_manifest.json",
+      "review_method": "Read complete current manifest."
+    },
+    {
+      "path": "work/three_hour/active_research/intel_fundamental_rebuild_2026_11_06/root/research_adjudication.json",
+      "review_method": "Read complete research completion and limits."
+    },
+    {
+      "path": "work/three_hour/active_research/intel_fundamental_rebuild_2026_11_06/root/completion_receipt.json",
+      "review_method": "Read completion receipt and verification references."
+    },
+    {
+      "path": "work/three_hour/active_research/intel_valuation_resolution_2026_11_06/root/price_and_decision_policy.json",
+      "review_method": "Read return hurdle policy, selection chronology and conditional entry limits."
+    }
+  ],
+  "closure_definition": "Closed means the evidence has been evaluated and the treatment chosen. It does not mean a future forecast is proven, all downside is removed, or the competition outcome is predictable.",
+  "cases": [
+    {
+      "id": "01_current_price_and_recommendation",
+      "question": "Does the current model justify initiating Intel at $56.28?",
+      "materiality": "Highest: this determines the actual investment action and competition clarity.",
+      "classification": "Completed investment judgment under an explicitly selected return policy; remaining competition framing is editorial, not missing financial research.",
+      "disposition": "closed as assumption",
+      "closed_scope": "Retain the existing conditional LONG at $40 or below, contingent on the forecast remaining intact, and no new position at the verified $56.28 quote. Do not imply that another round of research must produce a higher target.",
+      "evidence": [
+        "Main pages 1 and 7: $82.47 December 2030 core target gives 9.6% annual price appreciation; the 11.555% discount-rate case gives $73.56 and 6.7%.",
+        "Defense pages 6 and 7: the 12% and 15% return hurdles are investor choices. The $40 rule was selected after inspecting scenarios, not statistically calibrated or independently prescribed.",
+        "Decision policy: 15% in the higher-rate core and 12% in the selected funded joint stress imply maximum entries of $41.18 and $40.45, rounded down to $40.",
+        "Research adjudication: no source-supported forecast increase or omitted value was established. Equivalent recurring cash needed for a 12% current-entry return is a requirement, not an adopted forecast.",
+        "Defense page 4: the lower-case target gives only about 1.2% annual price decline before shorting costs, so failure of the long hurdle does not establish an attractive short."
+      ],
+      "judgment_boundary": "9.6% is not objectively a bad return and M37 imposes no 12% minimum. The no-buy follows from the analyst's chosen risk and return trade-off. A different investor could reasonably accept the same forecast at a lower hurdle; that would be a different judgment, not new evidence or proof of mispricing.",
+      "proposed_wording": "Intel can grow through CPU share loss, but I would not initiate at $56.28. My core forecast yields 9.6% annually and the higher-rate case 6.7%; I require more compensation for the delivery and long-run cash assumptions. I would consider a long at $40 or below only after rechecking the operating thesis. The hurdle is my investment judgment, not a competition requirement.",
+      "reopen_only_if": "A material operating disclosure changes cash flows, the investment horizon changes, or the investor deliberately changes the return policy with an explicit reason. Do not reopen simply to obtain a stronger-looking long call.",
+      "competition_implication": "The conditional recommendation is coherent but may be less persuasive than a well-supported current-price long or short. That limitation cannot honestly be removed by asserting that 9.6% fails a universal standard, relabeling the same valuation as a bargain, or claiming organizer approval. No winning probability is established."
+    },
+    {
+      "id": "02_cpu_volume_mix_and_profit",
+      "question": "Can exact CPU shipment, ASP, mix and margin forecasts be proven now?",
+      "materiality": "High: CPU growth supplies most modeled revenue growth and much of long-run value.",
+      "classification": "Ordinary forecasting uncertainty with an explicit mechanism and observable tests.",
+      "disposition": "closed as assumption",
+      "closed_scope": "Own the CPU forecast as a forecast, retain sensitivity analysis and the existing monitoring thresholds. Do not keep historical ASP identification or undisclosed future mix in the research backlog as if certainty were available.",
+      "evidence": [
+        "Main page 3: 1.40 times 42/50 minus one gives 17.6% Intel unit growth despite eight points of shipment-share loss; the $31.74B sales forecast also needs 21.9% annual ASP/mix growth.",
+        "Main page 5: Q4 CPU revenue of $6.81B is an analyst allocation of DCAI guidance, not CPU guidance; quarterly ramp and carryover explain the annual arithmetic without observing the implied exit ASP premium.",
+        "Defense pages 2 and 8: cloud deployments and the selected CPU catalog pair support adoption and a possible mix mechanism, not realized prices, accepted volumes or retained margins.",
+        "Research adjudication: the historical ASP feasible-witness exercise was already done; rebasing does not identify the missing mix data.",
+        "Main pages 5 and 8: H1 2027 CPU sales of $14.11B are a monitoring threshold; a 5% miss requires 36.8% H2/H1 growth to retain the annual forecast."
+      ],
+      "proposed_wording": "My forecast assumes market expansion more than offsets Intel's share loss and that richer configurations sustain revenue per processor. The exact mix is unobserved. I would reset the forecast after a miss against $6.81B of Q4 CPU sales or $14.11B in H1 2027, rather than assume automatic catch-up.",
+      "reopen_only_if": "New reported CPU-related sales, pricing or shipment evidence contradicts the path, or a genuine calculation error is found."
+    },
+    {
+      "id": "03_foundry_and_packaging",
+      "question": "Must the $7B packaging program and exact Foundry recovery be independently confirmed before the thesis is complete?",
+      "materiality": "High operating exposure; limited marginal uplift from changing packaging margins alone.",
+      "classification": "Owned forecasts whose effects are already bounded by explicit scenarios, not missing proof obligations.",
+      "disposition": "closed as assumption",
+      "closed_scope": "Keep exact program scale and recovery path as assumptions; retain the adverse controls. Treat the absence of public accepted quantities and fee terms as a limitation on certainty, not a promise to keep searching until the forecast is validated.",
+      "evidence": [
+        "Main page 6: reported quarterly Foundry losses improve, but the Q3 year-over-year improvement is more than accounted for by lower period charges before higher expense and other changes.",
+        "Defense page 3: $7B gross packaging comprises two assumed $3B families plus $1B smaller work; embedded revenue and profit are removed once from the incremental addition.",
+        "Main page 6 and defense page 8: peer operating margins provide context but do not validate Intel scale or fee terms. Packaging margins from 20% to 30% produce targets of approximately $81.27 to $83.03 versus $82.47 core.",
+        "Defense page 7: Foundry breakeven plus zero positive incremental packaging profit, retaining capital and startup losses, produces targets of $71.84 and $63.97 at the two rates. These controls still require recovery from current losses and CPU growth."
+      ],
+      "proposed_wording": "I underwrite factory recovery and $7B of packaging sales as forecasts, with committed capital retained in the downside. Peer margins help bound economics; they do not prove Intel's orders. Even a 30% packaging margin does not materially change the current entry decision.",
+      "reopen_only_if": "Accepted volumes, fee economics, customer funding, yield, utilization or capital requirements materially differ from the model."
+    },
+    {
+      "id": "04_calculation_and_long_duration",
+      "question": "Is the model unfinished because much of the value is long term or because a capital-return term needed correction?",
+      "materiality": "High to valuation sensitivity; current arithmetic and labeling corrections are completed work.",
+      "classification": "Verified present calculations and a corrected definition; future long-run outcomes remain explicit assumptions.",
+      "disposition": "closed as fact",
+      "closed_scope": "Close the reconciliation and terminology work. The fact established is that the chosen model computes and reconciles as documented, not that its future cash flows or discount rates are uniquely correct.",
+      "evidence": [
+        "Manifest and completion receipt report passed independent APV, cash-identity, factory-control, reverse-threshold and saved-workbook verification.",
+        "Research adjudication reports the capital-return label corrected without changing the numerical forecast; R&D remains expensed.",
+        "Main pages 4 and 8 and defense page 4 disclose that 92.9% of operating value lies after 2030 and 49.8% after 2040.",
+        "Defense page 4 calls 23.1% a return on modeled net investment, not a fully capitalized economic return on capital; the alternative operating discount rate remains visible.",
+        "Main page 7 separates the December 2026 planning value from the November 6 quote by 55 days."
+      ],
+      "proposed_wording": "The valuation is reconciled. Its principal sensitivity is sustained cash generation after 2030, so I show both discount rates and slower-growth cases. The terminal investment metric is a model convention; it is not a measured economic return on all capital.",
+      "reopen_only_if": "A calculation, definition or accounting inconsistency is found, or new evidence changes a cash-flow or discount-rate assumption. Long duration alone is not an unfinished-work item."
+    },
+    {
+      "id": "05_unsubstantiated_asset_upside",
+      "question": "Can allegedly missing assets, receivables or lease adjustments close the valuation gap?",
+      "materiality": "Potentially positive value, but no supported incremental amount was found.",
+      "classification": "Research answered negatively; unsupported value is excluded.",
+      "disposition": "closed as excluded value",
+      "closed_scope": "Keep unsupported additions out of the base case. Do not label a rejected uplift as an unresolved hole that must be filled.",
+      "evidence": [
+        "Defense page 6 states that equity holdings, SLP receivables, cash income, minority claims, Ireland and escrow were already addressed, with no justified positive correction established.",
+        "The $0.9B tax-receivable mapping residual cannot be added without excluding overlap.",
+        "Lease cash is an explicit capacity-funding assumption; duplicate rent was not established. Removing it for upside would not be an evidence-based correction.",
+        "Research adjudication retains the original forecast and records that current-price alpha was not established."
+      ],
+      "proposed_wording": "The claims audit found no substantiated omitted asset value. I exclude the unresolved receivable mapping and retain the lease allowance; neither is used to manufacture upside.",
+      "reopen_only_if": "A source establishes a distinct claim, ownership, amount and timing without overlap, or demonstrates a genuine double count."
+    },
+    {
+      "id": "06_liquidity_contract_scope",
+      "question": "What part of the funded stress remains a real verification task?",
+      "materiality": "Moderate to execution feasibility; the illustrated interest cost is very small relative to the return gap, while future financing availability cannot be guaranteed.",
+      "classification": "Narrow remaining contract verification plus ordinary future financing uncertainty.",
+      "disposition": "remaining decision",
+      "closed_scope": "The disclosed $15B capacity, the chosen $20B buffer and the modeled funding arithmetic are already specified. The remaining action is to incorporate the separately assigned review of actual credit agreements into claims about current contractual terms.",
+      "evidence": [
+        "Main page 9 and defense page 6: disclosed $5B and $10B revolvers mature in August 2029 and August 2031.",
+        "The combined CPU-delay and timing case reaches $18.54B without borrowing; an illustrative $1.498B peak draw at 8% preserves a chosen $20B quarter-end cash buffer and repays in Q4 2028.",
+        "The model charges $64.4M of interest and approximately $0.012 per share of 2030 target cost; rate scenarios are 6%, 8% and 10%.",
+        "The present deck and manifest explicitly leave access, fees and actual terms unverified. A separate agent is reviewing official agreements; this audit does not duplicate or pre-judge that work."
+      ],
+      "required_action": "Use the credit-review result to state verified contractual pricing, fees and conditions accurately; disclose the model's remaining rate simplification and any omitted fee effect. After that, move future draw conditions, future floating rates and repayment dependence to forecast assumptions. Do not keep 'all terms unverified' if the contract has been read.",
+      "proposed_wording_after_contract_review": "The modeled $1.50B draw is below disclosed committed capacity. Contract terms are described separately; the cash model uses illustrative borrowing rates and assumes the draw conditions remain satisfied. Repayment depends on forecast Q4 receipts. The $20B buffer is my assumption, not a covenant, and quarter-end modeling does not establish daily liquidity.",
+      "reopen_only_if": "Credit review identifies a material contractual obstacle or omitted cost, facility terms change, or revised cash forecasts require materially more or longer funding."
+    },
+    {
+      "id": "07_optional_interview_and_originality",
+      "question": "Is an unanswered interview or lack of a proprietary benchmark an unfinished requirement?",
+      "materiality": "Low as a completion blocker; high for honest presentation of what the evidence actually shows.",
+      "classification": "Optional evidence and completed original analysis of public records.",
+      "disposition": "closed as fact",
+      "closed_scope": "State the completed public-record reanalysis accurately and stop treating a missing interview as necessary validation. An interview could add useful evidence but is not a published competition requirement or a prerequisite for owning the forecasts.",
+      "evidence": [
+        "Main page 10: five paired public Rust build records show AMD-powered cloud shapes 11.2% cheaper under the common pricing calculation; an alternative shutdown window gives 7.8%.",
+        "All ten logs passed 45 tests, but the cloud shapes have different physical core counts. This is not an equal-core architecture test, actual invoice, enterprise-wide TCO result or a new experiment run by the user.",
+        "Defense page 5 expressly claims no completed interview.",
+        "Reviewed M37 rules require a fundamental long/short thesis and a clear recommendation, not an original interview or proprietary dataset."
+      ],
+      "proposed_wording": "My original work is a reproducible reanalysis of five paired public builds. AMD is cheaper in that workload, so I retain competitive pressure and share loss in the forecast. I have no completed expert interview and do not rely on one to validate the thesis.",
+      "reopen_only_if": "A reply or new dataset supplies material evidence, or a benchmark calculation or attribution is shown to be wrong. Silence from an interview contact is not a blocker."
+    },
+    {
+      "id": "08_submission_and_competition_framing",
+      "question": "What genuinely remains before an entry can be submitted?",
+      "materiality": "High administratively; distinct from research completeness.",
+      "classification": "One known missing submission item, final application review, and a framing judgment; no verified conditional-entry approval requirement.",
+      "disposition": "remaining decision",
+      "closed_scope": "The ten-page analytical screen is complete, no cover consumes the limit, and Class of 2028 is corrected. The eight-page defense notes and comparison are preparation materials, not three mandatory supplements.",
+      "evidence": [
+        "Manifest marks pitch_content_complete true, submission_package_complete false and submitted false.",
+        "Defense page 5 identifies the required current resume and the November 9, 2026 deadline, with no exact time or timezone on the reviewed official page.",
+        "Rules require a clear long/short fundamental investment recommendation over three to five years and do not explicitly discuss conditional entry prices.",
+        "Current manifest combines 'Current resume' with 'conditional-entry framing is not expressly addressed' in remaining_submission_item, mixing a concrete requirement with an interpretive limitation."
+      ],
+      "required_action": "Keep the current resume as the known missing submission item, respecting the user's earlier pause on resume work. Review actual application fields before submission. Keep conditional-entry competition fit as an explicit editorial judgment, not an asserted rule violation, organizer-approval gate or mandatory additional research project. Nothing should be submitted without the user's submission authorization.",
+      "proposed_manifest_separation": {
+        "remaining_submission_item": "Current resume; final application-field review before submission.",
+        "competition_framing_limit": "The recommendation is a conditional LONG and no new position at the reference quote. The published rules do not explicitly discuss conditional entry; no organizer approval or rejection is claimed.",
+        "pitch_content_complete": true,
+        "submitted": false
+      },
+      "proposed_wording": "The research and ten-page pitch are complete. The recommendation is a conditional long, with no current purchase under my chosen hurdle. The known missing submission item is your current resume; the defense notes are preparation, not a required extra submission.",
+      "reopen_only_if": "Application fields or new official instructions establish an additional requirement, or the investor elects to change the recommendation framing."
+    }
+  ],
+  "completion_accounting": {
+    "closed_as_fact": 2,
+    "closed_as_assumption": 3,
+    "closed_as_excluded_value": 1,
+    "remaining_decision": 2,
+    "remaining_financial_research_task": "Finish and incorporate the already-delegated credit-agreement review. This is a bounded task, not a new search for valuation upside.",
+    "remaining_known_administrative_item": "Current resume, followed by application-field review. User previously deferred resume work.",
+    "remaining_investment_research_blocker": null,
+    "competition_judgment": "Whether a conditional-entry long is the preferred submission framing is not settled by adding research hours. The existing recommendation is coherent and candid but does not establish a current-price bargain.",
+    "do_not_count_as_open": [
+      "Future shipment mix, factory yield, packaging fees and long-run profitability after they have been stated, modeled and stressed as assumptions.",
+      "A rejected or overlapping asset addition that is excluded from value.",
+      "No response to an optional interview request.",
+      "No proprietary dataset when the submitted evidence is accurately attributed.",
+      "No universal proof that 9.6% is attractive or unattractive.",
+      "No guarantee that a $40 entry occurs or that the competition is won."
+    ]
+  },
+  "recommended_short_user_explanation": "I kept labeling forecast risks as unfinished research. That overstated the backlog. The CPU mix and factory recovery are assumptions we have already stress-tested; the claims audit found no extra value to add, and an interview is optional. The real conclusion is that this is a defensible conditional-long pitch, not an established bargain at $56.28. The 12% hurdle is our chosen standard, not a competition rule. The bounded remaining work is the credit-contract check and the required resume; more research cannot make future outcomes certain."
+}

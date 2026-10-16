@@ -1,0 +1,15 @@
+{
+  "reviewed_utc": "2026-11-05T20:09:02.900563+00:00",
+  "reviewer": "operating_bridge independent agent",
+  "verdict": "pass after wording correction",
+  "verified": {
+    "permanent_loss_2030_flat_USD": 66.24947795924788,
+    "short_price_only_PnL_at_54_58_percent": -21.38050194072534,
+    "break_even_margin_maturing_percent": 35.773109112149776,
+    "break_even_margin_flat_percent": 43.803265060601824,
+    "margin_only_flat_2030_price_CAGR_percent": 8.869707,
+    "margin_only_maturing_2030_price_CAGR_percent": 12.686996
+  },
+  "page4_and8_cash_totals_reconciled": true,
+  "wording_correction": "Replaced NCI earnings become parent cash with Parent cash reflects partner rights."
+}

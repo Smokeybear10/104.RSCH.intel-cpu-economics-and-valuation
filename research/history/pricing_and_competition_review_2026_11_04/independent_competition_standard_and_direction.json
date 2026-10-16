@@ -1,0 +1,89 @@
+{
+  "prepared_utc": "2026-11-04T17:14:25.236546+00:00",
+  "scope": "Independent competition-strategy judgment. Existing valuation outputs read, no new equity values or model changes. No submission document, outreach or win probability.",
+  "recommendation": {
+    "direction": "Provisional Intel SHORT initial-screen candidate",
+    "claim": "Intel can execute a substantial AI CPU and packaging recovery while remaining overvalued at the dated $58.11 entry. I expect the cash required for qualification, supplier capacity and continuing process investment to keep the recovery worth less than that price during the first three years, creating a plausible repricing opportunity as 2027–2029 results expose the cash conversion.",
+    "why_choose_it": "This is the direction most consistent with the current owned forecast. It concedes genuine growth, capital reuse and a separately funded external-packaging business, then explains why those successes do not automatically produce an attractive purchase price. Its strength is the linked operating and cash argument, not a unique fact or an asserted consensus mistake.",
+    "status": "A defensible provisional competition argument, not a high-conviction passive four-to-five-year short. The expected timing of market repricing is an additional owned judgment, not an output of the DCF.",
+    "strategy": "Develop one causal investment argument and prepare to defend the bull case. Stop treating every unresolved forecast coefficient as disqualifying. Prioritize a clear explanation of cash conversion and the observations that change the view over another broad parameter grid."
+  },
+  "rules_verified": {
+    "m37": "https://www.m37.com/spc2026",
+    "witg_m37": "https://www.pennwitg.com/m37",
+    "requirements": "Individual STEM applicant, Intel or SpaceX, fundamental LONG or SHORT addressing a 3–5-year investment horizon. Initial screen is at most 10 pages with business overview, recommendation, drivers and risks. Later memo requires valuation and cited evidence; final discussion assesses assumption defense, counterarguments and what changes the view.",
+    "not_required": "Neither M37 page specifies a minimum expected return, a statistically measured consensus gap, proprietary research, proof of future outcomes or success in every plausible scenario.",
+    "separate_competition_boundary": "https://www.pennwitg.com/competition is the separate WITG x Fundamental Edge event. Its explicit request for a market-view difference is useful practice, not an additional M37 eligibility rule.",
+    "horizon_interpretation": "The stated fundamental horizon is real. The pages do not require an unchanged position until one exact terminal date or forbid earlier exit/reassessment. This is a reading of the published rules, not organizer confirmation. Explain the 2029–2031 economics and a plausible realization path; do not disguise a purely short-term trade as a long-horizon thesis."
+  },
+  "standards_we_overimposed": [
+    {
+      "old_standard": "Empirically prove a 2035 rental quote or exact mature capital productivity.",
+      "replacement": "Own a reasonable causal center, show how evidence informs it, disclose uncertainty and identify a decision-changing observation. A prospective forecast can be defensible without being observed."
+    },
+    {
+      "old_standard": "Measure a unique difference against complete professional consensus before recommending a stock.",
+      "replacement": "A dated valuation counterview and explicit forecast can be sufficient. Cite particular authors only for what they actually say; do not relabel them as the market or claim they omit costs."
+    },
+    {
+      "old_standard": "Reject the short whenever one plausible funded bull case is above the entry price.",
+      "replacement": "Explain why the selected case is preferable and what the bull case requires. Coherent upside risk belongs in a pitch; it is not automatic invalidation."
+    },
+    {
+      "old_standard": "Require a strong short payoff at the same exact end 2030 date used for every comparison.",
+      "replacement": "Analyze the actual 3–5-year horizon and plausible information-driven repricing within it. Retain the modest end 2029 spread and flat end 2030 outcome prominently; do not promise convergence or disregard carrying costs."
+    },
+    {
+      "old_standard": "Require evidence sufficient to calibrate a 90% winning probability before developing a submission.",
+      "replacement": "Develop the strongest defensible entry. Readiness and probability of winning are different quantities; missing contest outcome data does not prevent useful investment judgment."
+    }
+  ],
+  "existing_numeric_anchor": {
+    "file": "../intel_competition_screen_2026_11_04/paired_cpu20_capital080_valuation_2026_11_04.json",
+    "entry": "$58.11, November 4 at 10:43 ET; dated intraday reference, not a closing quote.",
+    "at12pct_USD": {
+      "end 2026_reference": 37.93785497285347,
+      "end2027": 42.032931144913505,
+      "end2028": 46.90526393166252,
+      "end 2029": 52.32963235042717,
+      "end 2030": 58.10894900022785,
+      "end2031": 64.271023812792
+    },
+    "end 2030_rate_controls_USD": {
+      "13pct": 52.52681642517593,
+      "11pct": 65.10251967335098
+    },
+    "critical_interpretation": "The $37.94 number is an END 2026 planning reference using forecast opening 2027 balances, not an early 2026 observation or measured November 4 fair value. The annual figures are conditional intrinsic values, not predicted market prices. Underperformance alone is not a profitable short; a short needs an actual price decline sufficient to cover carry."
+  },
+  "strongest_intel_long": {
+    "thesis": "CPU demand from agentic AI, pricing, qualified capacity added inside existing facilities and external advanced packaging can turn currently expensive infrastructure into profitable output faster than our center allows. Packaging can create value without needing a leading-edge external wafer-foundry victory, and the balance sheet allows time for execution.",
+    "evidence_to_forecast": "Current issuer remarks describe strong server demand, product ramps and external packaging traction. Existing-plant reuse and phased supplier qualification make meaningful growth possible before every newly announced building opens. These support higher acceptance, fixed-cost absorption and capital productivity as a causal bull case.",
+    "what_is_already_granted": "The preferred case already has 20% server unit growth in 2027 followed by 25/18/12%, ASP growth, improving Foundry economics, host mature capital productivity 0.80 and separately funded external packaging. The long cannot present these as omitted optionality.",
+    "limit": "At the fixed preferred forecast, end 2030 roughly equals the entry; the lower-rate control produces only moderate appreciation. A LONG requires genuinely preferring better execution, more valuable external programs or lower operating risk than the current center. No target is supplied for an unmodeled option."
+  },
+  "strongest_intel_short": {
+    "thesis": "The recovery produces reported growth sooner than distributable cash. Accepted output needs node-specific equipment, substrate access, working capital and continuing development. My forecast includes a real recovery but values it below the current entry during the first three years.",
+    "causal_forecast": "Prefer 20% 2027 Intel server-unit growth because the primary industry forecast combines strong total CPU growth with Intel share loss and the issuer still reports qualification/supply constraints. Maintain sizable later growth and allow reuse rather than assuming every dollar requires a greenfield fab. Near-term spending remains sticky while output catches up.",
+    "evidence_arrival": "2027–2029 accepted sales, product mix, Foundry absorption and cash spent on physical capital plus supplier advances will progressively reveal whether the recovery produces the cash implied by its earnings. The forecast of repricing depends on those releases changing investors’ capital-requirement or return expectations; a cash crisis is unnecessary.",
+    "main_weakness": "The same preferred forecast grows into today’s price around 2030 and above it thereafter. The short loses its rationale if investors wait through the investment phase without lowering their valuation. Its end 2029 gross decline is modest; borrowing expense and upside optionality matter.",
+    "claim_to_remove": "Do not claim that all growth investment destroys value, that announced supplier capex is an additional Intel cash bill, that analysts ignore spending, or that $37.94 is a guaranteed 3–5-year price target."
+  },
+  "live_judge_test": {
+    "objection": "Your own model reaches $58 in 2030 and $64 in 2031, grants no value to a major external wafer-foundry win, and depends on a subjective 12% rate. Why short rather than wait for the recovery?",
+    "answer": "The short is an expectation-repricing recommendation, not a claim that Intel never recovers. I grant sizable CPU growth, capital reuse and a funded packaging business. I expect 2027–2029 cash conversion to be too weak to sustain the entry valuation while the new capacity is being paid for. The declining margin of safety over time is real; if investors are simply willing to wait, or execution generates more cash than this forecast, the short is wrong. I would reassess rather than claim a perpetual short.",
+    "what_changes_view": "Public results showing accepted server output above the owned path, Foundry recovery and packaging growth with materially less cumulative physical-capital and supplier-working-capital use would weaken the case. Lower capital needs must reflect reuse/productivity rather than unpaid bills, new leases or temporary payment deferral. A funded external wafer-customer program with credible contribution economics could also change value materially.",
+    "single_evidence_hole": "The persistence of cash reinvestment per accepted unit after the first ramp remains the principal contested judgment. It determines whether the observed recovery is more valuable than the preferred forecast; it is not resolved by proving demand or announcing factory investment."
+  },
+  "spacex_comparison": {
+    "preferred": "Retain mature 20 rather than selecting 25 for its target. At the dated 141.31 entry, the preferred 152.38 end 2030 value provides limited long reward; the 25 case at 252.97 remains a coherent bull case.",
+    "competition_implication": "Uncertain long-run pricing does not disqualify SpaceX. Its present drawback is that my own central rental-price judgment does not support the attractive long target. A well-defended 25 forecast could be competitive, but adopting it solely because a strong pitch is desired would reverse the proper evidence-to-forecast sequence.",
+    "why_intel_provisional": "Intel offers a clearer present valuation counterview and nearer public cash-conversion tests. That is a competition-development preference, not proof of superior realized returns or of winning."
+  },
+  "primary_research_anchors": [
+    "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+    "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+    "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf",
+    "https://ats.net/en/ir-news/ats-and-marvell-technology-expand-collaboration-to-support-next-generation-ai-infrastructure/"
+  ],
+  "retrieval_note": "M37 and WITG M37 full pages read in this pass; existing paired outputs and policy read boundedly; stored Intel issuer remarks read. Attempts to reopen Morningstar and INH commentary were unavailable, so no new verification or consensus attribution is claimed. Existing winning-example review supports a causal forecast/valuation/falsification structure but is not evidence of a numerical chance of winning."
+}

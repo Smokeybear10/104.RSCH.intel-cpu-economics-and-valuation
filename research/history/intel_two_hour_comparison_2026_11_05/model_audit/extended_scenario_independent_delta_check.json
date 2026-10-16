@@ -1,0 +1,9 @@
+{
+  "cases_checked": [
+    "foundry_recovery_delayed_one_year",
+    "profit_retention_erosion_from_2028",
+    "CPU_growth_normalizes_2031"
+  ],
+  "method": "Recompute value differences directly from annual after-tax cash deltas plus changed treasury rather than absolute enterprise-value formulas. Independently verify grosscapex-D&A+WC=netinvestment at selectedyears.",
+  "maximum_absolute_error": 2.3092638912203256e-14
+}

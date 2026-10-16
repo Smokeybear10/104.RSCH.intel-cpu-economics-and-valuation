@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-11-05T23:30:24.554243+00:00",
+  "revenue_tests": {
+    "historical": "Reconcile2026actual external sales using Products, disclosedexternalFoundry, AllOther and residualinternaleliminations. Do not annualizeQ3externalFoundrybecauseitcontainsnonrecurringcontractrevenue.",
+    "forecast": "Reconcile EXISTING series only: Products+AllOtherproxy+grosspackaging+unmodeledlegacyFoundry\u2212unmodeledOtherinternal. Show knownshadowpackaging omission separately. No speculative customer or future legacy sales level.",
+    "unit_exposure": "For each1Bof additionalunmodeled2030externalFoundrysales whose EBIT is already embedded, calculateonly missingnetinvestmentifthatstreamgrows3%from2031. Reinvestment\u0394sales/.8,WC10%\u0394sales,grosscapexDA+NI\u2212WC; noincrementalprofit,credits,asset-salevalueor2027\u201330change. Compare flatnominalsales:zeroadditionalgrowthNI underexistingmechanism. These are structural unitexposures,not forecasts or empirical upper/lowerbounds."
+  },
+  "treasury_tests": {
+    "base": "Show impliedopening-cashyield of fixed1Bcashincome and impliedcost of fixed2.6Btotalinterest againstdecliningcarryingdebt. Sourceactualquarterinterest/cashfiguresand2025/26maturity/coupon/hedging disclosures.",
+    "debt_cost_consistency_control": "Apply EXISTING post2030totalcoupon5.2% to each2027\u201330openingordinarydebtinstead of2.6Bfixed;capitalizedinterestremains1B,totalinterestmustexceedit. Annualprincipalunchanged. Ordinaryinteresttaxshieldrecalculates;financing-basisdeductionsremain. Thisis a finitebudgetconsistencycontrol,not newinstrumentforecast.",
+    "cash_yield_consistency_control": "Applyconstantyield1B/50.839B to beginningeconomiccash2027\u201330, preservinginitial1Bnormalization;recalculatecashincomeandits15%tax. Add a+100bpunitexposure onthatyield solelytomeasuresensitivity,not asfutureyieldforecast. Startingbalanceisbucketofeconomiccash,notbankaccount.",
+    "joint_control": "Applyboth above controls toshowfinitebudgeteffectwithoutdoublecountinginterestonaccumulatedcash.",
+    "valuation_limit": "The2030target changes throughretainedcash;post2030operatingcash,debtscopeandcouponpolicyremainunchanged. PlanningAPVmechanicalshieldchangescanbecomputedbutareNOTafullfairvaluerepricingbecausebookdebtclaimandcashfacevalueareheld. Changedcoupon/yieldexpectationswouldrequirea matchedmarket-valuedebt/cash convention for an economiccurrentvalueclaim."
+  },
+  "not_allowed": [
+    "No newcustomersalesseries to forcecompleteconsolidatedrevenue.",
+    "Noautomaticmarket-valueupliftfrom43.4Bdebtfairvaluewithoutmatchinghedgesandfinancingpolicy.",
+    "No newfairvalueclaimedfromcashincomeon cashalreadyvaluedatface.",
+    "No capitalizedinterestchargedtwice, andnoordinarytaxshieldonwholecapitalized1Bimmediately."
+  ]
+}

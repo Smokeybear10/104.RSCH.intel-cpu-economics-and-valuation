@@ -1,0 +1,142 @@
+[
+  {
+    "symbol": "INTC",
+    "url": "https://stockanalysis.com/stocks/intc/statistics/",
+    "fields": {
+      "Market Cap": "309.76B",
+      "Enterprise Value": "305.58B",
+      "Weighted Average Cost of Capital (WACC)": "15.39%",
+      "Effective Tax Rate": "n/a",
+      "Beta (5Y)": "2.43",
+      "Cash & Cash Equivalents": "54.01B",
+      "Total Debt": "50.13B",
+      "Net Cash": "4.18B"
+    }
+  },
+  {
+    "symbol": "TSM",
+    "url": "https://stockanalysis.com/stocks/tsm/statistics/",
+    "fields": {
+      "Market Cap": "1.74T",
+      "Enterprise Value": "1.64T",
+      "Weighted Average Cost of Capital (WACC)": "10.92%",
+      "Effective Tax Rate": "17.22%",
+      "Beta (5Y)": "1.24",
+      "Cash & Cash Equivalents": "126.04B",
+      "Total Debt": "25.68B",
+      "Net Cash": "100.36B"
+    }
+  },
+  {
+    "symbol": "GFS",
+    "url": "https://stockanalysis.com/stocks/gfs/statistics/",
+    "fields": {
+      "Market Cap": "22.15B",
+      "Enterprise Value": "20.60B",
+      "Weighted Average Cost of Capital (WACC)": "13.07%",
+      "Effective Tax Rate": "55.82%",
+      "Beta (5Y)": "1.76",
+      "Cash & Cash Equivalents": "2.26B",
+      "Total Debt": "1.66B",
+      "Net Cash": "1.55B"
+    }
+  },
+  {
+    "symbol": "TXN",
+    "url": "https://stockanalysis.com/stocks/txn/statistics/",
+    "fields": {
+      "Market Cap": "284.87B",
+      "Enterprise Value": "290.28B",
+      "Weighted Average Cost of Capital (WACC)": "11.51%",
+      "Effective Tax Rate": "12.50%",
+      "Beta (5Y)": "1.39",
+      "Cash & Cash Equivalents": "8.14B",
+      "Total Debt": "13.56B",
+      "Net Cash": "-5.41B"
+    }
+  },
+  {
+    "symbol": "AMD",
+    "url": "https://stockanalysis.com/stocks/amd/statistics/",
+    "fields": {
+      "Market Cap": "797.99B",
+      "Enterprise Value": "789.15B",
+      "Weighted Average Cost of Capital (WACC)": "18.15%",
+      "Effective Tax Rate": "14.51%",
+      "Beta (5Y)": "2.54",
+      "Cash & Cash Equivalents": "13.11B",
+      "Total Debt": "4.28B",
+      "Net Cash": "8.84B"
+    }
+  },
+  {
+    "symbol": "UMC",
+    "url": "https://stockanalysis.com/stocks/umc/statistics/",
+    "fields": {
+      "Market Cap": "39.40B",
+      "Enterprise Value": "37.21B",
+      "Weighted Average Cost of Capital (WACC)": "12.93%",
+      "Effective Tax Rate": "12.87%",
+      "Beta (5Y)": "1.71",
+      "Cash & Cash Equivalents": "4.76B",
+      "Total Debt": "2.50B",
+      "Net Cash": "2.26B"
+    }
+  },
+  {
+    "symbol": "STM",
+    "url": "https://stockanalysis.com/stocks/stm/statistics/",
+    "fields": {
+      "Market Cap": "41.02B",
+      "Enterprise Value": "39.35B",
+      "Weighted Average Cost of Capital (WACC)": "11.59%",
+      "Effective Tax Rate": "33.95%",
+      "Beta (5Y)": "1.48",
+      "Cash & Cash Equivalents": "5.31B",
+      "Total Debt": "3.21B",
+      "Net Cash": "2.11B"
+    }
+  },
+  {
+    "symbol": "ON",
+    "url": "https://stockanalysis.com/stocks/on/statistics/",
+    "fields": {
+      "Market Cap": "27.75B",
+      "Enterprise Value": "28.09B",
+      "Weighted Average Cost of Capital (WACC)": "13.88%",
+      "Effective Tax Rate": "18.03%",
+      "Beta (5Y)": "2.15",
+      "Cash & Cash Equivalents": "4.37B",
+      "Total Debt": "4.71B",
+      "Net Cash": "-340.10M"
+    }
+  },
+  {
+    "symbol": "ADI",
+    "url": "https://stockanalysis.com/stocks/adi/statistics/",
+    "fields": {
+      "Market Cap": "195.75B",
+      "Enterprise Value": "202.59B",
+      "Weighted Average Cost of Capital (WACC)": "10.68%",
+      "Effective Tax Rate": "12.09%",
+      "Beta (5Y)": "1.23",
+      "Cash & Cash Equivalents": "2.32B",
+      "Total Debt": "9.16B",
+      "Net Cash": "-6.84B"
+    }
+  },
+  {
+    "symbol": "MCHP",
+    "url": "https://stockanalysis.com/stocks/mchp/statistics/",
+    "fields": {
+      "Market Cap": "40.38B",
+      "Enterprise Value": "45.50B",
+      "Weighted Average Cost of Capital (WACC)": "12.70%",
+      "Effective Tax Rate": "17.40%",
+      "Beta (5Y)": "1.76",
+      "Cash & Cash Equivalents": "272.30M",
+      "Total Debt": "5.40B",
+      "Net Cash": "-5.13B"
+    }
+  }
+]

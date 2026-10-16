@@ -1,0 +1,116 @@
+{
+  "as_of": "2026-11-05",
+  "conclusion": "The earlier local GTX PDF is the official September 26 club-meeting PASS version, not the separately archived Cornell competition version. Both share the team, event cover and most narrative, but have different financial outputs. The official competition archive links the other version directly to the first-place entry.",
+  "chronology": [
+    {
+      "date": "2023-09-14 to 2023-09-15",
+      "event": "Cornell competition, dates on both deck covers. Official university news confirms win September 15."
+    },
+    {
+      "date": "2023-09-26",
+      "event": "Club meeting, portfolio decision PASS, archived separately."
+    },
+    {
+      "date": "2023-10-30",
+      "event": "Contemporaneous Mendoza news names Jack Viscuso, Jack Wayman and Ellie Wyshner, Crocs preliminary round and Garrett Motion final, first place."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://mendoza.nd.edu/news-stories/all-news-stories/double-wins-for-notre-dame-investment-club",
+      "date": "2023-10-30",
+      "supports": "Winning team, September 15 win, nine teams, two stocks/rounds, qualitative judging factors. Does not itself link an exact PDF."
+    },
+    {
+      "url": "https://investmentclub.nd.edu/competitions",
+      "supports": "Official archive page loads competitions-data.js, describing archive of entered pitches."
+    },
+    {
+      "url": "https://investmentclub.nd.edu/javascripts/competitions-data.js",
+      "local": "competitions-data.js",
+      "lines": [
+        163,
+        174
+      ],
+      "supports": "First-place Fall 2023 CROX/GTX entry points in model field to files/competitions/2023-cornell-gtx-deck.pdf. This field holds a PDF, not spreadsheet. Undated current archive; exact date 2023-09-01 is month placeholder, not event date."
+    },
+    {
+      "url": "https://investmentclub.nd.edu/javascripts/pitches-data.js",
+      "local": "pitches-data.js",
+      "lines": [
+        127,
+        127
+      ],
+      "supports": "September 26 club pitch, same team, PASS, files/pitches/fall2023-gtx-deck.pdf."
+    }
+  ],
+  "versions": {
+    "previously_reviewed_local": {
+      "path": "tmp/pdfs/public_pitch_benchmark/notre_dame_gtx_2023.pdf",
+      "bytes": 3652129,
+      "sha256": "55e836ca16c691a5f814481186fa96e7bca45ead4d568c5c9152aaed974134ae",
+      "classification": "Official club meeting version; same team and broad thesis as winning competition, but exact competition-version identity disproved."
+    },
+    "official_meeting": {
+      "url": "https://investmentclub.nd.edu/files/pitches/fall2023-gtx-deck.pdf",
+      "local": "official_meeting_gtx.pdf",
+      "sha256": "55e836ca16c691a5f814481186fa96e7bca45ead4d568c5c9152aaed974134ae",
+      "pages": 32,
+      "exact_match_to_previous_local": true
+    },
+    "official_competition": {
+      "url": "https://investmentclub.nd.edu/files/competitions/2023-cornell-gtx-deck.pdf",
+      "local": "official_competition_gtx.pdf",
+      "sha256": "302d007a7e12132afdc9711149e2e2002828311f52d7669e597bffbc619d71de",
+      "bytes": 1048423,
+      "pages": 32,
+      "classification": "Exact PDF currently linked by official first-place competition archive; no independent contemporaneous file hash, but explicit official archive linkage."
+    }
+  },
+  "normalized_text_changed_pdf_pages": [
+    2,
+    11,
+    12,
+    14,
+    18,
+    20,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "competition_version_financials": {
+    "pages_2_14": {
+      "entry": 7.61,
+      "target": 12.18,
+      "total_upside_percent": 60.0,
+      "stated_horizon_years": "4\u20135",
+      "annualized_if_literal_4_years_percent": 12.47750078152996,
+      "annualized_if_literal_5_years_percent": 9.863271257118056
+    },
+    "page_25": {
+      "exit_DCF_present_value": 11.16,
+      "gordon_DCF_present_value": 13.19,
+      "weights": "50/50",
+      "forecast_terminal_year": 2028,
+      "terminal_discount_period_years": 4.8,
+      "debt_millions": 1876,
+      "cash_millions": 478,
+      "shares_millions": 258.8
+    },
+    "page_31": {
+      "bear_exit_DCF": 6.02,
+      "bear_gordon_DCF": 7.29,
+      "bear_blended": 6.66,
+      "downside_percent": -12.5
+    },
+    "remaining_horizon_issue": "Page 25 calls 2028 terminal cash flows present values and adds current net debt; the blended result is then described on pages 2/14 as a 4\u20135-year price target. Therefore a current-PV/future-target ambiguity remains in the award-linked version. Do not equate its quoted 60% to an annualized current mispricing without specifying convention."
+  },
+  "source_conflict": "Current competition dataset says two NDIC teams; contemporaneous Mendoza article says one three-person team, two rounds. Prefer dated article. Both PDFs have Cornell event cover; the cover alone cannot identify version.",
+  "review_use": "Earlier economic critiques need version-specific recalc. Competition result does not establish actual investment return or validate every forecast. Club PASS on a later version is a separate decision, not evidence that judges rejected the winning competition deck."
+}

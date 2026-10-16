@@ -1,0 +1,151 @@
+{
+  "as_of_utc": "2026-11-04T18:40:43.224006+00:00",
+  "scope": "Finite semantic review of pooled capital intensity, outsourced custom silicon, and economic-owner cash versus issuer adjusted FCF. No alternative equity valuation and no change to assumptions.",
+  "verdict": {
+    "actual_double_count_found": false,
+    "reason": "A blended capital coefficient applied to a mixed business is an assumption requiring calibration, not itself an accounting duplication. Public primary sources do not establish that all purpose-built silicon or all Other DCAI is externally fabricated, nor disclose the relevant future mix. No support found for deleting the associated capital allowance while keeping all operating margins unchanged.",
+    "remaining_model_limitation": "Host sales-to-net-capital of0.80 is an aggregate long-run judgment. It may overstate or understate future requirements as internal/external mix changes. A business-level manufacturing and capital split would improve interpretation; this pass does not identify a defensible replacement coefficient.",
+    "implication_for_long_test": "The identified mapping issue is not a new free-cash-flow uplift that rescues LONG. Continue earnings attribution using existing physical investment and separately identify what evidence would justify a mix-based capital revision."
+  },
+  "primary_findings": [
+    {
+      "source_key": "q3_10q",
+      "locator": "Note 2 Operating Segments; Intel Products/Intel Foundry definitions",
+      "fact": "Products expenses include both internal Foundry charges and external foundry/manufacturing costs. Internal transfer revenue and profit are eliminated on consolidation. Foundry contains manufacturing and technology-development costs.",
+      "interpretation": "Summing product and Foundry operating income with consolidation adjustments can be consistent; paying external foundries is an operating expense, not evidence of a duplicated own-fab capital cash payment."
+    },
+    {
+      "source_key": "q3_10q",
+      "locator": "MD&A Intel Products and Intel Foundry",
+      "fact": "DCAI includes CPUs, accelerators, NICs, IPUs and purpose-built silicon. Products are manufactured by Intel Foundry and, to a lesser extent, third-party manufacturers. Substantially all current Foundry activity supports internal Products.",
+      "interpretation": "Other DCAI is not a disclosed pure ASIC or pure fabless segment. Aggregate statements do not identify custom-silicon wafer sourcing or its2030/2040mix."
+    },
+    {
+      "source_key": "fy2025_10k",
+      "locator": "Strategy and Intel Products MD&A",
+      "fact": "Intel describes developing ASICs/design services and combining product/design capability with manufacturing; it also uses third-party manufacturing.",
+      "interpretation": "This supports multiple possible business models, not a measured asset-light capital ratio for future Other DCAI."
+    },
+    {
+      "source_key": "q3_10q",
+      "locator": "Note 2 depreciation allocation",
+      "fact": "Most consolidated depreciation is incurred by Foundry and absorbed through inventory; Intel says depreciation within each Products segment cannot practicably be determined.",
+      "interpretation": "The current20%-of-Products D&A normalization is not a disclosed product-level physical depreciation schedule."
+    },
+    {
+      "source_key": "q3_release",
+      "locator": "Explanation of Non-GAAP Measures; cash flow reconciliation",
+      "fact": "Issuer adjusted FCF starts from consolidated operating cash flow and adjusts for gross capital additions, capital-related government receipts, net SCIP partner contributions and finance-lease payments.",
+      "interpretation": "It is a liquidity measure that can include external funding and SBC accounting addbacks. It is not identical to parent-attributable economic unlevered cash."
+    }
+  ],
+  "capital_identity": {
+    "current_host_rule": "Physical gross capex = normalized D&A + incremental host sales /0.80 - incremental operating working capital; WC is10% of incremental host sales.",
+    "cash_identity": "D&A - capex - deltaWC = -incremental host sales/0.80. Therefore D&A is not an additional independent reinvestment penalty once this identity is applied.",
+    "semantic_guard": "Reducing D&A and capex together while holding EBIT fixed leaves this operating-cash component unchanged. A genuine reduction in depreciation burden could change EBIT, taxes and cash, but it must follow a paired asset-cost and outsourcing forecast. Do not simply subtract D&A20% as an avoidable duplicate.",
+    "scope": "Near-term2027-2030 physical capital is separately budgeted. Host coefficient applies from2031. External packaging has its own funded capital schedule and is not charged host turnover again.",
+    "Other_DCAI_exposure_diagnostic": {
+      "year": 2041,
+      "Other_DCAI_revenue_B": 36.288249545855784,
+      "incremental_Other_DCAI_sales_B": 1.056939307160846,
+      "allocated_total_net_operating_investment_at_blended080_B": 1.3211741339510574,
+      "allocated_WC_B": 0.1056939307160846,
+      "allocated_net_fixed_capital_B": 1.2154802032349727,
+      "interpretation": "Allocation under a blended rule only. These amounts are not proved avoidable; a fabless business still has design assets, working capital, supplier prepayments, packaging and outsourced manufacturing cost."
+    }
+  },
+  "revenue_denominator": {
+    "issue": "The capital denominator is Products sales plus root Other sales plus the separate net packaging overlay. Embedded external Foundry sales are not fully reconstructed as a consolidated revenue schedule.",
+    "effect": "Do not compare the capital denominator directly with analyst GAAP revenue, or infer that the absence of a separate revenue line means related costs were duplicated. Correcting the scope could increase or decrease appropriately attributed growth capital; it is not automatically a positive valuation adjustment.",
+    "no_large_external_wafer_option": "No extra major external wafer customer revenue or profit is adopted by this review."
+  },
+  "economic_to_issuer_FCF_bridge": {
+    "starting_point": "Use current owner cash AFTER ordinary financing and incentives. Do not start with unlevered cash and omit the separate ordinary interest, capitalized interest, cash-income tax and financing-tax effects.",
+    "symbolic_formula": "Issuer-style adjusted FCF proxy = economic owner cash after financing + recurring economic SBC + minority economic reserve + net actual partner contributions + remaining cash/book/classification timing adjustments.",
+    "net_partner_definition": "Partner cash contributions minus actual partner cash distributions; future NCI income/reserve is not the same as distributions.",
+    "annual_diagnostics": [
+      {
+        "year": 2027,
+        "parent_economic_cash_after_financing_and_incentives_B": -11.692712883085713,
+        "economic_SBC_expense_restored_for_accounting_cash_proxy_B": 2.6,
+        "minority_economic_reserve_restored_for_consolidated_cash_proxy_B": 1.1,
+        "proxy_if_no_partner_contribution_or_distribution_B": -7.992712883085714,
+        "proxy_if_partner_distributions_equal_economic_NCI_reserve_B": -9.092712883085714,
+        "scope": "Illustrative issuer-style adjusted FCF proxy, not a forecast of legal partner distributions, fully reconstructed GAAP CFO or a new equity-cash measure. Existing economic cash and valuation stay unchanged."
+      },
+      {
+        "year": 2028,
+        "parent_economic_cash_after_financing_and_incentives_B": 2.293653605352879,
+        "economic_SBC_expense_restored_for_accounting_cash_proxy_B": 2.8,
+        "minority_economic_reserve_restored_for_consolidated_cash_proxy_B": 1.1,
+        "proxy_if_no_partner_contribution_or_distribution_B": 6.193653605352878,
+        "proxy_if_partner_distributions_equal_economic_NCI_reserve_B": 5.093653605352879,
+        "scope": "Illustrative issuer-style adjusted FCF proxy, not a forecast of legal partner distributions, fully reconstructed GAAP CFO or a new equity-cash measure. Existing economic cash and valuation stay unchanged."
+      }
+    ],
+    "SBC": "Accounting CFO restores noncash compensation; our economic owner cash deliberately charges it. Restoring SBC for comparison does not create extra shareholder cash or justify a DCF uplift. Avoid simultaneously charging full equivalent compensation and adding full dilution for the same future grants.",
+    "minorities": "Consolidated CFO begins before NCI attribution. Restore the economic reserve to compare with consolidated cash and deduct actual partner distributions only where included in the issuer metric; do not deduct both the reserve and the same payment.",
+    "lease_cash": "The forward1B allowance is all-in cash, not a measured finance-lease-principal schedule. Actual issuer FCF deducts finance-lease principal while lease interest is within CFO. Preserve total cash once; cannot claim exact CFO or a precise book-interest split from this allowance.",
+    "cash_PPE": "Total cash PPE includes investing-classified purchases plus financing-classified extended-term payments. ForQ3,4.024B+0.195B=4.219B. ForYTD,10.216B+1.618B=11.834B. Do not add extended payments again after using total cash PPE.",
+    "capitalized_interest": "Current physical cash capex excludes1B annual capitalized interest; treasury subtracts that1B as financing cash. An issuer gross-PPE comparison restores it to the capital classification, without changing total cash. Its later book depreciation/tax treatment must be reconciled separately for earnings.",
+    "capital_tax": "Existing finite receivable collections and new eligible project credit cash already enter economic cash once, with a basis-loss tax convention. Depending on cash-flow classification, refunds/credits can appear in CFO or capital incentives; do not add them again when mapping the total. The model is not a reconstructed book-tax statement.",
+    "adjusted_EPS_to_cash_guard": "If starting from adjusted NI, first reverse excluded SBC, acquisition amortization, restructuring, non-GAAP tax normalization and NCI adjustments to recover the economic earnings basis. Total D&A already contains corporate acquisition amortization and assumed lease-asset depreciation. Adjusted NI plus full D&A can double count an amortization addback.",
+    "historical_validation": {
+      "Q3_CFO_B": 5.082,
+      "gross_cash_PPE_B": 4.219,
+      "capital_incentive_cash_B": 0.048,
+      "net_partner_cash_B": 0.847,
+      "finance_lease_cash_B": 0.119,
+      "issuer_adjusted_FCF_B": 1.639,
+      "formula": "5.082 -4.219 +0.048 +0.847 -0.119 =1.639"
+    }
+  },
+  "evidence_needed_to_change_capital_policy": [
+    "Disclosed internal versus external fabrication and packaging by relevant product/customer program, with accepted shipment or revenue mix.",
+    "A matched spending/working-capital schedule and cash wafer/service costs: outsourcing may replace capex with operating costs and advance payments.",
+    "Incremental tool/site capacity actually avoided or redeployed; future revenue growth alone does not prove existing factories can be retired without stranded costs.",
+    "Reconcile Products, external Foundry, Other and packaging revenues before applying product-specific capital ratios; preserve internal-transfer eliminations.",
+    "Revise margin, depreciation, cash tax, capex and working capital together, and keep partner/customer financing with its associated claims."
+  ],
+  "sources": {
+    "q3_10q": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "q3_release": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+    "fy2025_10k": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm"
+  },
+  "source_hashes": {
+    "current_value_model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "current_host_policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "corporate": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/corporate_other_policy.json",
+      "sha256": "c7017f58d7fea2fe612ef20930f061aa51b714cca59d31e02948dffb63f0235a"
+    },
+    "finance": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json",
+      "sha256": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea"
+    },
+    "capital_productivity": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/capital_productivity_adjudication_2026_11_04.json",
+      "sha256": "5eb1b83b525e984cf3e23757d3bb70e532ae61b8e30f8e647c242cc3dde7fbe7"
+    },
+    "tax_credit": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/root_corporate_tax_credit_valuation_policy.json",
+      "sha256": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031"
+    },
+    "q3_actual_cash_bridge": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/q3_actual_cash_conversion_bridge.json",
+      "sha256": "e0fb48a74226f626f2c4fff4d5591631901ad3daac41cfc251879eb8d08e4733"
+    },
+    "packaging": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json",
+      "sha256": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+    }
+  },
+  "no_alternative_equity_valuation": true,
+  "no_source_model_changes": true
+}

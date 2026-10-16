@@ -1,0 +1,239 @@
+{
+  "selected_utc": "2026-11-06T06:51:25.034940+00:00",
+  "scope": "Quarterly calendar of frozen annual treasury inputs. No changes to annual operating forecasts, annual interest budgets, principal totals or valuation. No quarterly liquidity simulation yet.",
+  "primary_sources": {
+    "FY2025_10K": {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "Note 13, Long-Term Debt and Debt Maturities, printed pages 92\u201393"
+    },
+    "FY2023_10K": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-24-000010/intc-20231230.htm",
+      "locator": "Borrowings / Oregon and Arizona Bonds, printed page 98"
+    },
+    "FY2024_10K": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000052/0000050863-25-000052.pdf",
+      "locator": "Borrowings / Oregon and Arizona Bonds, printed page 86, PDF page 94"
+    },
+    "Q3_2026_10Q": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Notes 4, 9 and 11; subsequent Classiq transaction, escrow, and borrowings"
+    }
+  },
+  "instruments": [
+    {
+      "instrument": "3.75% senior note due 2027-03",
+      "year": 2027,
+      "month": 3,
+      "principal_B": 1.0,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 3.75,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "3.15% senior note due 2027-05",
+      "year": 2027,
+      "month": 5,
+      "principal_B": 1.0,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 3.15,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "3.75% senior note due 2027-08",
+      "year": 2027,
+      "month": 8,
+      "principal_B": 1.25,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 3.75,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "4.88% senior note due 2028-02",
+      "year": 2028,
+      "month": 2,
+      "principal_B": 1.75,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 4.88,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "1.60% senior note due 2028-08",
+      "year": 2028,
+      "month": 8,
+      "principal_B": 1.0,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 1.6,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "4.00% senior note due 2029-08",
+      "year": 2029,
+      "month": 8,
+      "principal_B": 0.85,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 4.0,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "2.45% senior note due 2029-11",
+      "year": 2029,
+      "month": 11,
+      "principal_B": 2.0,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 2.45,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "5.13% senior note due 2030-02",
+      "year": 2030,
+      "month": 2,
+      "principal_B": 1.25,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 5.13,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "3.90% senior note due 2030-03",
+      "year": 2030,
+      "month": 3,
+      "principal_B": 1.5,
+      "event": "Stated maturity",
+      "coupon_percent_rounded_as_reported": 3.9,
+      "source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "Municipal bonds with legal maturities 2042 and 2052",
+      "year": 2027,
+      "month": 9,
+      "principal_B": 0.576,
+      "event": "Mandatory tender; may be remarketed",
+      "coupon_percent_rounded_as_reported": 5.0,
+      "source": "FY2023_10K",
+      "principal_revalidated_source": "FY2025_10K",
+      "earliest_optional_tender_month": null
+    },
+    {
+      "instrument": "Municipal bonds with legal maturities 2035 and 2040",
+      "year": 2028,
+      "month": 6,
+      "principal_B": 0.423,
+      "event": "Mandatory tender; may be remarketed",
+      "coupon_percent_rounded_as_reported": null,
+      "source": "FY2024_10K",
+      "principal_revalidated_source": "FY2025_10K",
+      "earliest_optional_tender_month": 2
+    },
+    {
+      "instrument": "Municipal bonds with legal maturities 2049",
+      "year": 2029,
+      "month": 6,
+      "principal_B": 0.438,
+      "event": "Mandatory tender; may be remarketed",
+      "coupon_percent_rounded_as_reported": 4.0,
+      "source": "FY2025_10K",
+      "principal_revalidated_source": "FY2025_10K",
+      "earliest_optional_tender_month": 2
+    }
+  ],
+  "known_principal_calendar_status": "Every dollar in the existing annual 2027\u20132030 principal schedule maps to a stated maturity or mandatory-tender month. The dates for 2027/28 municipal tenders are confirmed in older primary filings, their principal remains in the 2025 schedule, and Q3 2026 discloses no subsequent change to these events. This is not a legal certification of every covenant or future refinancing.",
+  "policy": {
+    "calendar_convention": "Calendar quarters; do not call these exact Intel fiscal-quarter cutoffs or intraday bank balances.",
+    "uniform_base": {
+      "ordinary_interest_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "capitalized_interest_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "cash_interest_income_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "escrow_cash_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "Classiq_2027_weights": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "Classiq_2028_weights": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "principal": "Stated maturity and mandatory tender quarter."
+    },
+    "concentrated_cash_stress": {
+      "ordinary_interest_weights": [
+        0.5,
+        0,
+        0.5,
+        0
+      ],
+      "capitalized_interest_weights": [
+        0.5,
+        0,
+        0.5,
+        0
+      ],
+      "cash_interest_income_weights": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "escrow_cash_weights": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Classiq_2027_weights": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "Classiq_2028_weights": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "principal": "2028 and 2029 municipal tender cash moves from mandatory June to earliest disclosed optional-tender February; other maturities unchanged."
+    },
+    "interest": "Issuer says fixed-rate notes pay semiannually. Neither allocation is an instrument-by-instrument coupon calendar. The frozen 1.6B ordinary interest and 1.0B capitalized interest are annual analyst budgets; quarterly weights are explicit timing controls. Derivative cash settlements, fee amortization and future floating rates are not reconstructed.",
+    "capitalized_interest": "Schedule this 1B only in treasury because it was removed from physical unlevered PPE. If parent starts with total cash PPE including it, do not subtract it again.",
+    "cash_income": "The 1B normalization is unchanged. Allocation controls collection timing, not an observed deposit-maturity or yield forecast.",
+    "Classiq": "Issuer expects initial closing in H1 2027 and may pay cash or shares. Existing policy assumes 1.9B cash. Q2 base and Q1 stress fit the stated half-year window. The 0.35B contingent payment in 2028 is an existing analyst allowance; no quarter or certainty is disclosed.",
+    "escrow": "2027/28 annual proceeds are already analyst performance-and-timing assumptions. No published quarter is inferred. Their shares are reserved once in the denominator; proceeds are financing, not operating revenue.",
+    "mandatory_tenders": "Use debt repayment under the inherited principal-paydown convention. Remarketing would require explicit replacement funding, not silently eliminating the cash need or adding a second repayment at ultimate legal maturity.",
+    "unused_credit_facilities": "Q3 notes no drawn revolvers; October 1 capacity reaches 15B. Undrawn availability is liquidity access, not cash, and does not enter principal or cash here.",
+    "tax_shields": "Parent should allocate existing annual financing tax benefits explicitly and preserve annual totals. A Q4-only receipt control is suitable for delayed realization. Do not infer immediate tax refunds solely from interest payment dates.",
+    "interim_liquidity": "Use sourced principal quarters with the other quarterly operating schedules. Report the minimum pre-draw economic liquidity and amount needed to maintain the existing 20B floor. Extra same-year borrowing interest, if required, belongs in a separate financing-consistent rerun.",
+    "other_asset_warning": "SLP deferred consideration is payable no later than December 31, 2027. The inherited model holds its 0.478B carrying proxy as a separate nonoperating asset through 2030. If cash collection is scheduled, reduce that separate asset once; do not add proceeds while keeping the full claim."
+  }
+}

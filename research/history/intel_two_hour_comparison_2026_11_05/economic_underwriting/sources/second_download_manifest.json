@@ -1,0 +1,32 @@
+[
+  {
+    "file": "intel_6980P.html",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/240777/intel-xeon-6980p-processor-504m-cache-2-00-ghz/specifications.html",
+    "status": 200,
+    "sha256": "37c99750e2ddd25d495bbdb289bc9c2d986fda0656522ce2eaecfe6f8e24a705"
+  },
+  {
+    "file": "intel_8592plus.html",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/237261/intel-xeon-platinum-8592-processor-320m-cache-1-90-ghz/specifications.html",
+    "status": 200,
+    "sha256": "ab7e99e15dda201ac0e0b1dd4545105249b035b71be5d5e5093cef39547df03d"
+  },
+  {
+    "file": "intel_6780E.html",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/240362/intel-xeon-6780e-processor-108m-cache-2-20-ghz/specifications.html",
+    "status": 200,
+    "sha256": "8c7d3cc1c307e3992c08818e3d8badf9f30097fe7064d53f4431ed94c19509cf"
+  },
+  {
+    "file": "intel_6990Eplus.html",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/246074/intel-xeon-6990e-processor-576m-cache-2-20-ghz/specifications.html",
+    "status": 200,
+    "sha256": "b3bd8badf8207b584988668817e6a33854ec00a7c50926b71b4ae0ba21dfb0ea"
+  },
+  {
+    "file": "arm_fy27q2_news.html",
+    "url": "https://newsroom.arm.com/news/arm-q2-fye27-results",
+    "status": 200,
+    "sha256": "52e9e4009be9f70c770af5112a7c7a94eecc083e17a1d2f5d853f53ee046f3b9"
+  }
+]

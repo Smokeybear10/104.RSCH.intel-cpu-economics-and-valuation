@@ -1,0 +1,236 @@
+{
+  "prepared_at_utc": "2026-11-05T07:23:25Z",
+  "purpose": "Produce original, falsifiable evidence for the Intel M37 pitch; test its assumptions rather than recruit agreement.",
+  "execution_status": {
+    "original_interviews_conducted": 0,
+    "invitations_sent_by_this_agent": 0,
+    "public_first_person_qa_sources_analyzed": 3,
+    "workloads_run_on_intel_or_amd_cloud_shapes": 0,
+    "model_or_final_pdf_changed": false,
+    "honest_label": "Interview protocol plus original analysis of existing public Q&A. This is not original interviewing."
+  },
+  "research_question": "Does Intel's CPU recovery require enough incremental capital, or face enough competitive cost pressure, that the draft's mature margin and cash conversion assumptions are more likely than the favorable case?",
+  "competing_hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Availability, qualification and system-level economics preserve Intel pricing power even after near-term shortages ease.",
+      "would_support": "Recent directly observed selections favor Intel after equivalent service-level, software-license, memory, utilization and migration costs are counted; reduced shortages do not produce like-for-like price concessions.",
+      "would_weaken": "Equivalent qualified alternatives consistently win the same completed-work objective at materially lower total cost and customers actually shift purchases when capacity becomes available.",
+      "forecast_connection": "Tests the direction and duration of CPU ASP/mix and mature DCAI margin, not a mechanical conversion of an interview into 40% or 35% margin."
+    },
+    {
+      "id": "H2",
+      "statement": "Usable output is limited by tools, substrates, package assembly or qualification even where a building already exists.",
+      "would_support": "Publicly verifiable sequential bottlenecks require incremental equipment, working capital and qualification before saleable output rises.",
+      "would_weaken": "Documented reuse and yield improvements increase qualified output substantially without proportionate new capital or inventory; the relevant downstream bottleneck is already relieved.",
+      "forecast_connection": "Tests direction of physical capex, working capital and capital productivity. Supplier capex must not be added to Intel capex."
+    },
+    {
+      "id": "H3",
+      "statement": "Competition and capital needs constrain Intel shareholder cash even if the CPU market and Intel revenue grow strongly.",
+      "would_support": "Observed same-work cost pressure and funded expansion remain material after considering Intel's price, qualification and yield advantages.",
+      "would_weaken": "Intel retains price/performance leadership while financing and reuse reduce incremental shareholder funding; the existing favorable valuation case becomes more credible.",
+      "forecast_connection": "Tests the joint margin/capital case. One favorable operating anecdote does not establish a stock recommendation or mispricing."
+    }
+  ],
+  "recruitment_design": {
+    "practical_target": "Seek 4-6 distinct respondents across three roles before November 9 if respondents are available; record the actual number. Completion cannot be promised without replies.",
+    "mix": [
+      "Two people who personally evaluated or deployed production CPU workloads in the last 18 months, ideally one who retained Intel and one who chose another platform.",
+      "One or two people who personally participated in server sourcing, total-cost comparison or qualification; an engineering role alone does not establish visibility into contract prices.",
+      "One or two manufacturing, substrate or packaging practitioners able to explain public process constraints and qualification milestones."
+    ],
+    "selection_record": ["candidate role and expertise", "recruitment channel", "invitation date", "response status", "relevant experience date", "vendor/customer affiliation or sponsorship", "why selected", "whether multiple respondents describe the same underlying project"],
+    "rules": [
+      "Do not screen on bullish or bearish opinions. Prioritize recent direct participation and willingness to point to public or shareable evidence.",
+      "A friend with a prestigious employer is not a qualified source unless their own work bears on the question.",
+      "Report a convenience sample. Do not describe response counts as market-share estimates, statistical confidence, or the probability of winning.",
+      "Keep vendor representatives, customers and independent researchers separate in the evidence table; three sources repeating one customer case are one underlying observation.",
+      "Keep nonresponses and contradictory cases in the research log. Do not stop recruitment solely because favorable anecdotes arrive."
+    ]
+  },
+  "common_opening_60_seconds": "I'm Thomas Ou, preparing an Intel investment pitch for a student competition. I'm testing when CPU economics and manufacturing constraints support or weaken the investment case. Please stick to public information or experience you are free to share; I do not need customer identities, unpublished orders, confidential prices or roadmaps. May I take notes and use an agreed attribution or an anonymized description of your role? If I want to quote you, I will send that exact wording for confirmation. No recording unless separately agreed.",
+  "guides": [
+    {
+      "role": "Cloud workload practitioner",
+      "qualification": "Personally benchmarked, deployed or migrated a production workload across CPU families; obtain approximate date and platform generation.",
+      "duration_minutes": 15,
+      "questions": [
+        {"time": "1-3", "question": "Walk me through the most recent workload for which you seriously compared two CPU platforms. What did the application have to deliver, and what service-level or quality limit could not change?", "capture": "Workload, versions, dates, platforms, success metric, p95/p99 or batch deadline, failed-request/quality constraint."},
+        {"time": "3-6", "question": "What changed in completed work per dollar after you counted CPU, memory, storage/network, licenses and utilization? Which numbers were measured, estimated or taken from a vendor?", "capture": "Numerator, denominator, on-demand versus effective price, repeated runs, variability, matched resources and unmeasured items."},
+        {"time": "6-9", "question": "What prevented the cheaper-looking option from winning, or let it win? How much was hardware versus software tuning, compatibility, support or availability?", "capture": "Alternative explanations and actual decision; do not attribute the entire difference to the CPU."},
+        {"time": "9-11", "question": "Tell me about a workload where the result went the other way, or where changing memory or license assumptions reversed your preferred platform.", "capture": "Counterexample and boundary of the claimed advantage."},
+        {"time": "11-13", "question": "If both choices were equally available tomorrow, would your selection change? What measured change would make you switch?", "capture": "Conditional switching threshold, procurement inertia and capacity effect; distinguish stated intention from an actual purchase."},
+        {"time": "13-15", "question": "Is there one public result, configuration file or shareable anonymized test table that supports the comparison, and what should I avoid inferring from your example?", "capture": "Reproducible artifact and respondent's own limitations."}
+      ],
+      "minimal_email_version": [
+        "For one recent workload you directly evaluated, what were the two CPU platforms and the service-level requirement?",
+        "Which won on completed work per total dollar, and is there a public or shareable result showing the configurations and main cost assumptions?",
+        "What would reverse that result, and would you choose differently if both platforms were equally available?"
+      ],
+      "do_not_ask": "Will Intel reach a 35% DCAI margin? A workload operator usually cannot observe Intel transfer pricing or segment cost allocation."
+    },
+    {
+      "role": "Enterprise server procurement or infrastructure sourcing",
+      "qualification": "Personally participated in recent platform evaluation, procurement or qualification; establish which parts of price/decision process they actually saw.",
+      "duration_minutes": 15,
+      "questions": [
+        {"time": "1-3", "question": "In your most recent server refresh, which two platform options were actually qualified, and what business requirement drove the refresh?", "capture": "Production versus hypothetical shortlist, date, generation, workload, qualification status."},
+        {"time": "3-6", "question": "Which cost categories determined the decision? If exact prices are confidential, which public assumptions are reasonable for comparing hardware, licenses, power and migration effort?", "capture": "Cost scope and ranges only where shareable; who paid and over what useful life."},
+        {"time": "6-8", "question": "Did lead time or compatibility outweigh the lowest modeled cost? What evidence tells you this, rather than a supplier's explanation?", "capture": "Actual order versus evaluation; substitution friction, evidence basis."},
+        {"time": "8-10", "question": "How would you separate a price change caused by higher core counts or memory from a true price change for equivalent useful work?", "capture": "Like-for-like adjustment and software licensing basis; no aggregate ASP claim from one SKU."},
+        {"time": "10-13", "question": "Describe a case where you retained Intel despite a competitor's apparent advantage, and one where a switch made sense. What changed the decision?", "capture": "Both sides, observed switching conditions and minimum qualification time."},
+        {"time": "13-15", "question": "Which public pricing, qualification or delivery milestone would show that today's situation has changed? Can you point to one source I can cite?", "capture": "Dated observable test instead of a vague prediction."}
+      ],
+      "minimal_email_version": [
+        "What most often decides a recent Intel-versus-AMD procurement after licensing, memory, migration and availability are included? Please distinguish your direct experience from general opinion.",
+        "Can you give one public or nonconfidential example where the initially cheaper choice lost, and the reason?",
+        "What public signal would show that Intel's present pricing power or qualification advantage is weakening? What would show it is persisting?"
+      ],
+      "do_not_ask": "Do not request unpublished purchase orders, customers' negotiated quotes, contract terms or forward volumes. Public purchasing criteria and shareable completed decisions are sufficient."
+    },
+    {
+      "role": "Semiconductor manufacturing, substrate or packaging specialist",
+      "qualification": "Specific hands-on process, equipment, qualification or substrate experience; identify whether experience concerns the process or package used in the cited Intel product.",
+      "duration_minutes": 15,
+      "questions": [
+        {"time": "1-3", "question": "For a publicly described chiplet CPU, what sequence turns installed cleanroom space into qualified saleable output? Where are the current observable constraints?", "capture": "Building, tools, process yield, substrate, assembly, test and customer qualification separately."},
+        {"time": "3-6", "question": "Which of those steps can improve through reuse or learning, and which needs incremental equipment or materials? What public example supports each?", "capture": "Mechanism, relevant process/package, timing and who funds the expenditure."},
+        {"time": "6-9", "question": "What public evidence would distinguish a genuine yield or cycle-time improvement from a product-mix or internal accounting change?", "capture": "Observable quantities and boundaries; acknowledge when public data cannot identify yield."},
+        {"time": "9-11", "question": "If a substrate supplier adds capacity, what must happen before a customer's output rises? Can capacity move between products or suppliers without requalification?", "capture": "Qualified versus nameplate capacity, fungibility and sequencing."},
+        {"time": "11-13", "question": "What is the strongest case that Intel can produce substantially more useful output with less new investment than investors expect? What would make that case fail?", "capture": "Explicit counterhypothesis and measurable milestones."},
+        {"time": "13-15", "question": "Which one public announcement or operating metric should I monitor over the next two quarters, and what would you not conclude from it?", "capture": "Time-bound falsifier, source and caution against translating supplier profit directly to Intel profit."}
+      ],
+      "minimal_email_version": [
+        "Using public examples, which steps between an existing cleanroom and saleable CPU output require new capital versus reuse or yield learning?",
+        "What would demonstrate that a stated substrate or packaging bottleneck is actually relieved for a particular qualified product?",
+        "What public evidence would most strongly support Intel growing output with less capital than a cautious forecast assumes?"
+      ],
+      "do_not_ask": "Do not request unpublished yields, customer identities, capacity allocations or process recipes; do not ask the specialist to invent segment profitability."
+    }
+  ],
+  "evidence_coding_rubric": {
+    "unit_of_analysis": "One underlying completed evaluation, purchasing decision or verifiable capacity event. The respondent is not the unit if several describe the same event.",
+    "claim_fields": ["claim_id", "respondent_id", "role", "event_date", "direct_participation", "platform_generation", "workload_or_process", "claim_paraphrase", "exact_quote_if_permission", "source_or_artifact", "what_was_measured", "what_was_assumed", "cost_scope", "comparability_gaps", "affiliation", "supports_or_weakens_hypothesis", "independent_corroboration", "attribution_permission", "model_action", "reason_no_model_action"],
+    "grades": [
+      {"grade": "A", "meaning": "Direct experience plus shareable artifact with method, comparator, date and scope; a second source corroborates the central claim. Still bounded to that case."},
+      {"grade": "B", "meaning": "Direct participation, specific case and date, but no independently reviewable artifact or incomplete comparability. Supports a mechanism or sensitivity only."},
+      {"grade": "C", "meaning": "Informed technical opinion, vendor narrative, remembered range or indirect observation. Helps frame questions; does not set numeric assumptions."},
+      {"grade": "D", "meaning": "Hearsay, unsupported stock opinion, unclear date/role, confidential/unusable information or an unmatchable comparator. Exclude from factual quantitative exhibits."}
+    ],
+    "no_score_averaging": "Grades describe evidence quality, not probabilities. Do not average opinions into a 35% margin forecast or claim a confidence interval from a convenience sample.",
+    "quote_control": "Acknowledge notes as notes. Verify an exact quotation and attribution before publication; do not clean a paraphrase into a fabricated direct quote.",
+    "interviewer_controls": [
+      "Ask for the most recent relevant case before disclosing the draft's preferred answer.",
+      "Ask the same counterexample and switching-threshold questions across respondents.",
+      "Code support and contradiction symmetrically; keep a no-conclusion category.",
+      "Distinguish source assertion, researcher calculation and investment inference in the exhibit."
+    ]
+  },
+  "forecast_update_rules": [
+    {
+      "input": "Intel versus AMD workload cost advantage",
+      "permitted_action": "Recalculate the existing 1.028942 Intel/AMD throughput breakeven only with matched workload results and full comparable cost scope. Present a workload-specific outcome.",
+      "not_permitted": "Infer Intel CPU ASP, market share or DCAI margin directly from cloud retail prices or one customer benchmark."
+    },
+    {
+      "input": "Persistent pricing power or switching friction",
+      "permitted_action": "Increase the prominence of the existing 40% margin sensitivity if independently documented cases support persistence. Explain why it is plausible and which missing cost allocations prevent numeric estimation.",
+      "not_permitted": "Choose 40% because two interviewees are bullish, or retain 35% merely because the current recommendation is SHORT."
+    },
+    {
+      "input": "Capacity reuse or yield learning",
+      "permitted_action": "Construct a separate evidence-backed capex/output bridge only if the same process/product and funding perimeter can be reconciled. Otherwise retain a sensitivity and state the mechanism.",
+      "not_permitted": "Turn generic cleanroom reuse into free production capacity, or add IBIDEN's capex to Intel's capex."
+    },
+    {
+      "input": "No reproducible difference from public expectations",
+      "permitted_action": "State the evidence did not establish an investment edge. Do not add interview counts as a substitute.",
+      "not_permitted": "Advertise a high-conviction short or a high probability of winning merely because the research packet is longer."
+    }
+  ],
+  "short_thesis_failure_conditions": [
+    "Matched public or consented evidence repeatedly shows Intel retaining economically significant completed-work advantages after alternatives qualify and availability improves; the predicted erosion mechanism is absent.",
+    "Reconciled issuer evidence shows equivalent or better output and profit with materially less incremental capital or working capital than the model requires.",
+    "The favorable margin/capital case gains stronger observable support while the base case remains an uncalibrated judgment; do not suppress the value result just above the reference quote.",
+    "The alleged cash-flow surprise disappears after accounting reconciliation, or the forecast is already more optimistic than public expectations without an independent reason to prefer it.",
+    "The conclusion depends on a hedge, discount-rate choice or one old benchmark rather than a defensible operating disagreement. This weakens the competition pitch even if no single operating claim is false."
+  ],
+  "public_qa_analysis": [
+    {
+      "id": "P1",
+      "classification": "Existing public technical press roundtable; primary statements, secondary research for this project; not an interview we conducted.",
+      "title": "Intel Xeon 6+ Computex roundtable interview transcript",
+      "date": "2026-06-02",
+      "participants": "Kira Boyko, E-Core Xeon product director; Tim Wilson, Intel Data Center Silicon Engineering; press questions including Jake Roach.",
+      "url": "https://www.tomshardware.com/tech-industry/intel-xeon-6-plus-roundtable-transcript-computex-2026",
+      "locator": "Sections SMT removal and its return, 18A yield and wafer allocation; especially the final contract-negotiation exchange.",
+      "evidence_paraphrase": "Wilson describes workload-specific tradeoffs among memory, cores and licensed virtualization. Boyko says prior qualification can keep customers buying older products. They describe supply allocation constraints and explicitly separate product engineering from commercial negotiations.",
+      "research_inference": "Supports testing qualification friction and total system cost; does not identify a sustainable margin. Interview engineers about workloads, and procurement professionals about purchasing economics.",
+      "counterweight_to_short": "Qualification inertia and constrained supply can preserve Intel demand and pricing longer than a simple competition thesis assumes.",
+      "limits": "Intel-employed speakers; claims are not independent benchmarks or contract disclosures. The transcript provides no matched current Oracle workload result."
+    },
+    {
+      "id": "P2",
+      "classification": "Existing public company podcast audience Q&A; primary practitioner statements, secondary research for this project; not an interview we conducted.",
+      "title": "Oxide's $100M Series B",
+      "date": "2025-08-09",
+      "participants": "Bryan Cantrill, Adam Leventhal and Steve Tuck, Oxide Computer Company.",
+      "url": "https://oxide-and-friends.transistor.fm/episodes/oxides-100m-series-b/transcript",
+      "locator": "01:20:04-01:21:10, roadmap question about Ampere; 01:22:11-01:23:55, support and platform continuity.",
+      "evidence_paraphrase": "Cantrill says Oxide evaluates Arm against AMD, sees Turin as attractive, and remains interested in Arm. The discussion stresses delivering supportable integrated systems and avoiding customer replatforming.",
+      "research_inference": "A useful alternative is AMD as well as Arm; platform support and integration enter buying decisions. Ask for the actual comparator, not a generic x86-versus-Arm story.",
+      "counterweight_to_short": "A positive AMD view does not quantify Intel displacement or negate Intel advantages in other workloads.",
+      "limits": "One vendor's public position, older than the current pitch; no disclosed matched Intel test or representative procurement sample. Oxide sells systems based on AMD, creating a commercial perspective."
+    },
+    {
+      "id": "P3",
+      "classification": "Existing public supplier earnings Q&A; primary management statements, secondary research for this project; not an interview we conducted.",
+      "title": "IBIDEN financial presentation Q&A, second quarter year ended March 31, 2027",
+      "date": "2026-10-30",
+      "participants": "Management panel: Koji Kawashima, Shinji Miyazaki and Yasuhito Hirose; individual responses not separately attributed.",
+      "url": "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf",
+      "locator": "PDF pages 3-5, questioners 1, 2, 3 and 5.",
+      "evidence_paraphrase": "Management places the additional Gama investment ramp in second-half FY2029 with contribution from FY2030, describes new-building lead times of at least four years, and says CPU substrate supply remains below demand despite competitor expansion.",
+      "research_inference": "Nameplate expansion and usable output have different timing. A bottleneck can simultaneously require funding and preserve scarcity pricing.",
+      "counterweight_to_short": "Persistent shortages can support Intel's pricing and supplier margins; this evidence is not unambiguously bearish.",
+      "limits": "Supplier forecasts and incentives; not Intel-specific allocations, yields or capex. Do not equate IBIDEN fiscal labels to Intel calendar years without conversion or count supplier spending twice."
+    }
+  ],
+  "free_public_data_extension": {
+    "title": "Precommitted comparison of disclosed CPU benchmark configurations",
+    "feasibility": "Public raw result disclosures can be downloaded and reanalyzed without buying cloud time. This measures published submitted results, not new tests run by us.",
+    "source": "https://www.spec.org/cpu2017/results/res2026q2/",
+    "design": [
+      "Fix publication window and benchmark family before examining winners; keep SPEC CPU2017 and CPU2026 separate.",
+      "Use a bounded same-OEM generation comparison, then match socket count, enabled physical cores, memory configuration, compiler and software policy as closely as possible.",
+      "Collect all eligible base-result disclosures rather than selecting the fastest example per vendor. Deduplicate resubmissions of the same system/configuration and report exclusions.",
+      "Show total throughput and throughput per enabled physical core separately. Threads, benchmark copies, physical cores and licensed cores are not interchangeable.",
+      "Calculate within-platform result dispersion across differing configurations before claiming a CPU effect; retain memory and compiler differences visibly.",
+      "If no adequately matched pair exists, publish that identification limit rather than multiplying an unrelated bare-metal benchmark by Oracle VM prices."
+    ],
+    "what_it_can_add": "An auditable check on whether a claimed performance advantage survives sensible comparator choices; a concrete reason to interview on workload and software assumptions.",
+    "what_it_cannot_add": "A causal CPU-only effect, OCI X12 versus E6 completed-work ranking, deployment shares, Intel ASP or sustainable DCAI margin.",
+    "searched_exact_cloud_processors": ["Intel Xeon 6987P-C", "AMD EPYC 9J45", "VM.Standard4.Ax.Flex"],
+    "search_result": "No eligible same-work X12-versus-E6 measurement identified in the targeted searches used for this protocol. This is a bounded search outcome, not proof no such benchmark exists.",
+    "existing_oracle_caveat_source": "https://blogs.oracle.com/cloud-infrastructure/harness-engineering-using-oci-cpu-oke",
+    "existing_oracle_caveat": "The author explicitly says this harness was not benchmarked side by side on X12 and E6. Architectural commentary cannot supply the missing throughput ratio."
+  },
+  "actual_workload_test_if_access_becomes_available": {
+    "dependency": "An authorized account and funded or genuinely free access to both actual shapes; local laptop timing is not a substitute. No resource was provisioned by this agent.",
+    "minimum_design": [
+      "Use the same region, image/runtime, application commit, dataset, 4 OCPU and 32 GB on each x86 shape; record physical CPU model and topology.",
+      "Choose one workload representing a real practitioner decision and a fixed latency or quality threshold before runs.",
+      "Generate load from a separate adequately provisioned client; establish it is not the bottleneck. Warm up, randomize platform order and repeat independent runs across time.",
+      "Report successful work per hour at the fixed service level, failures and p95/p99 latency, together with dispersion rather than a single best run.",
+      "Compare CPU-plus-memory cost per successful work first, then show any storage, network, license, support and migration costs separately. Use identical cost scope.",
+      "At the current frozen list prices, Intel needs throughput greater than 1.028942 times AMD to break even on CPU-plus-memory cost. Measure the ratio; do not assume it.",
+      "A ratio near the threshold is inconclusive if repeat variability overlaps it. Even a decisive result applies to the tested workload/configuration, not Intel's entire portfolio."
+    ]
+  },
+  "recommended_submission_treatment": {
+    "if_interviews_complete": "One compact exhibit: decision tested; actual role/sample/date; result and strongest counterexample; precise forecast implication; explicit limitation. Put consented notes and raw evidence in a separate research record, not inflated slide counts.",
+    "if_no_responses": "Keep interviews at zero and use the completed public-data analysis with its limitation. Public Q&A can sharpen reasoning but must never be presented as private access.",
+    "differentiator": "A transparent result that could disprove the recommendation is more defensible than a large list of expert opinions. The final recommendation still needs an identified operating disagreement with market expectations."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+  "publication": "2026-11-02",
+  "source_information_date": "2026-10-30",
+  "role": "Research-house primary statement of its own forecast, not a verified consensus or source of CPUtechnicalspecifications.",
+  "facts_for_comparison": {
+    "2027_DCAI_growth": 0.37,
+    "2027_CCPG_revenue_growth": -0.12,
+    "2028_nonGAAP_EPS": 2.59,
+    "target": 65,
+    "reference_price": 70.87,
+    "target_label": "FY2028",
+    "rating_at_its_reference_price": "SELL"
+  },
+  "our_comparison": {
+    "2027_DCAI_growth": 0.4707013165629612,
+    "2027_CCPG_revenue_growth": -0.07214428530809525,
+    "reference_price": 52.22,
+    "2030_target": 77.46147983166226
+  },
+  "interpretation": "The shared dispute is whether server earnings can offset PC weakness and fund manufacturing. Their rating was set against70.87, not our52.22. Its65target exceeds52.22, so do not use the historicalSELLlabel as a currentnegativepriceclaim. Theirtarget/horizon/nonGAAPEPSmultiple differs fromourAPV; no directtargetcomparison asindependentvalidation. DCAIgrowth comparisonusesdifferentpossiblyunspecifiedFY2026bases.",
+  "accepted_use": "A dated opposing economicargument, not proofmarketwrong. ExistingpreferredpitchretainsCPU-specificdatedDIGITIMEScomparison and labelsitslimit.",
+  "source_claims_not_adopted": [
+    "Unverifiedpackagingcostpermm2andpotentialunnamedcustomerassignments",
+    "Core/threadcounts asdirectproductionperformance",
+    "Externalwafercommitment asnecessaryconditionforanyIntelvalue"
+  ],
+  "final_recheck_utc": "2026-11-06T00:00:45.961946+00:00",
+  "recheck_findings": {
+    "original_forecast_source_read_in_full_again": true,
+    "source_forecasts": "37% FY2027 DCAI growth;12% CCPG revenue decline;30/32B grosscapex2027/2028;65FY2028target at70.87reference. These are the authors own forecasts, notconsensus.",
+    "comparability": "Our47.07%DCAI/\u22127.21%CCPG growth are more optimistic, but distinct2026segmentbases notfullydisclosed inthatreport. Cashcapex classifications andEPStarget methodology also differ. No observed full currentmarketexpectations vector established.",
+    "disposition": "Retain the clearlydatedCPU-specific comparison inmain;the original post-earningsreport provides supporting research context, notanewsource19orproof ofmispricing. Technicalpackaging/corecountclaims inreport are notadopted."
+  }
+}

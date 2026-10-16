@@ -1,0 +1,517 @@
+{
+  "computed_utc": "2026-11-05T23:32:19.933019+00:00",
+  "policy_sha256": "278a1ce366a2f3a8d3a8e54b5cf2e98f0cace91f9b911d2cec112713225604d9",
+  "policy": {
+    "frozen_utc": "2026-11-05T23:30:24.554243+00:00",
+    "revenue_tests": {
+      "historical": "Reconcile2026actual external sales using Products, disclosedexternalFoundry, AllOther and residualinternaleliminations. Do not annualizeQ3externalFoundrybecauseitcontainsnonrecurringcontractrevenue.",
+      "forecast": "Reconcile EXISTING series only: Products+AllOtherproxy+grosspackaging+unmodeledlegacyFoundry\u2212unmodeledOtherinternal. Show knownshadowpackaging omission separately. No speculative customer or future legacy sales level.",
+      "unit_exposure": "For each1Bof additionalunmodeled2030externalFoundrysales whose EBIT is already embedded, calculateonly missingnetinvestmentifthatstreamgrows3%from2031. Reinvestment\u0394sales/.8,WC10%\u0394sales,grosscapexDA+NI\u2212WC; noincrementalprofit,credits,asset-salevalueor2027\u201330change. Compare flatnominalsales:zeroadditionalgrowthNI underexistingmechanism. These are structural unitexposures,not forecasts or empirical upper/lowerbounds."
+    },
+    "treasury_tests": {
+      "base": "Show impliedopening-cashyield of fixed1Bcashincome and impliedcost of fixed2.6Btotalinterest againstdecliningcarryingdebt. Sourceactualquarterinterest/cashfiguresand2025/26maturity/coupon/hedging disclosures.",
+      "debt_cost_consistency_control": "Apply EXISTING post2030totalcoupon5.2% to each2027\u201330openingordinarydebtinstead of2.6Bfixed;capitalizedinterestremains1B,totalinterestmustexceedit. Annualprincipalunchanged. Ordinaryinteresttaxshieldrecalculates;financing-basisdeductionsremain. Thisis a finitebudgetconsistencycontrol,not newinstrumentforecast.",
+      "cash_yield_consistency_control": "Applyconstantyield1B/50.839B to beginningeconomiccash2027\u201330, preservinginitial1Bnormalization;recalculatecashincomeandits15%tax. Add a+100bpunitexposure onthatyield solelytomeasuresensitivity,not asfutureyieldforecast. Startingbalanceisbucketofeconomiccash,notbankaccount.",
+      "joint_control": "Applyboth above controls toshowfinitebudgeteffectwithoutdoublecountinginterestonaccumulatedcash.",
+      "valuation_limit": "The2030target changes throughretainedcash;post2030operatingcash,debtscopeandcouponpolicyremainunchanged. PlanningAPVmechanicalshieldchangescanbecomputedbutareNOTafullfairvaluerepricingbecausebookdebtclaimandcashfacevalueareheld. Changedcoupon/yieldexpectationswouldrequirea matchedmarket-valuedebt/cash convention for an economiccurrentvalueclaim."
+    },
+    "not_allowed": [
+      "No newcustomersalesseries to forcecompleteconsolidatedrevenue.",
+      "Noautomaticmarket-valueupliftfrom43.4Bdebtfairvaluewithoutmatchinghedgesandfinancingpolicy.",
+      "No newfairvalueclaimedfromcashincomeon cashalreadyvaluedatface.",
+      "No capitalizedinterestchargedtwice, andnoordinarytaxshieldonwholecapitalized1Bimmediately."
+    ]
+  },
+  "historical2026_external_sales_reconciliation": [
+    {
+      "quarter2026": 1,
+      "Products_external_B": 12.779,
+      "Foundry_total_B": 5.421,
+      "Foundry_external_B": 0.174,
+      "Foundry_internal_B": 5.247,
+      "AllOther_segment_B": 0.628,
+      "residual_Other_internal_B": 0.004000000000000448,
+      "Other_external_B": 0.6239999999999996,
+      "consolidated_external_B": 13.577
+    },
+    {
+      "quarter2026": 2,
+      "Products_external_B": 15.139,
+      "Foundry_total_B": 5.765,
+      "Foundry_external_B": 0.293,
+      "Foundry_internal_B": 5.4719999999999995,
+      "AllOther_segment_B": 0.701,
+      "residual_Other_internal_B": 0.005000000000000782,
+      "Other_external_B": 0.6959999999999992,
+      "consolidated_external_B": 16.128
+    },
+    {
+      "quarter2026": 3,
+      "Products_external_B": 15.415,
+      "Foundry_total_B": 6.697,
+      "Foundry_external_B": 0.411,
+      "Foundry_internal_B": 6.2860000000000005,
+      "AllOther_segment_B": 0.692,
+      "residual_Other_internal_B": 0.004999999999999893,
+      "Other_external_B": 0.687,
+      "consolidated_external_B": 16.513
+    }
+  ],
+  "forecast_known_series": [
+    {
+      "year": 2027,
+      "Products_B": 68.3326878,
+      "AllOther_proxy_B": 2.8,
+      "gross_packaging_B": 0.5,
+      "shadow_packaging_B": 0.25,
+      "existing_capital_denominator_B": 71.3826878,
+      "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 71.6326878
+    },
+    {
+      "year": 2028,
+      "Products_B": 84.74132528580002,
+      "AllOther_proxy_B": 2.8,
+      "gross_packaging_B": 2.5,
+      "shadow_packaging_B": 0.75,
+      "existing_capital_denominator_B": 89.29132528580001,
+      "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 90.04132528580001
+    },
+    {
+      "year": 2029,
+      "Products_B": 99.52302077565182,
+      "AllOther_proxy_B": 2.8,
+      "gross_packaging_B": 5.0,
+      "shadow_packaging_B": 1.5,
+      "existing_capital_denominator_B": 105.82302077565181,
+      "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 107.32302077565181
+    },
+    {
+      "year": 2030,
+      "Products_B": 111.68247398141065,
+      "AllOther_proxy_B": 2.8,
+      "gross_packaging_B": 7.0,
+      "shadow_packaging_B": 2.0,
+      "existing_capital_denominator_B": 119.48247398141064,
+      "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 121.48247398141065
+    },
+    {
+      "year": 2031,
+      "Products_B": 121.8098194287657,
+      "AllOther_proxy_B": 2.884,
+      "gross_packaging_B": 7.700000000000001,
+      "shadow_packaging_B": 2.06,
+      "existing_capital_denominator_B": 130.3338194287657,
+      "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 132.3938194287657
+    },
+    {
+      "year": 2040,
+      "Products_B": 190.6774559193952,
+      "AllOther_proxy_B": 3.762965862163542,
+      "gross_packaging_B": 11.159098416638756,
+      "shadow_packaging_B": 2.6878327586882444,
+      "existing_capital_denominator_B": 202.91168743950922,
+      "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 205.5995201981975
+    },
+    {
+      "year": 2041,
+      "Products_B": 196.397779596977,
+      "AllOther_proxy_B": 3.8758548380284483,
+      "gross_packaging_B": 11.493871369137919,
+      "shadow_packaging_B": 2.768467741448892,
+      "existing_capital_denominator_B": 208.9990380626945,
+      "sum_with_gross_packaging_before_unknown_legacy_and_Other_eliminations_B": 211.76750580414335
+    }
+  ],
+  "missing_sales_identity": "True consolidated external sales = existing modeled capital denominator + shadow packaging sales + remaining legacy external Foundry sales \u2212 AllOther internal sales. The final two series are not forecast; no public disclosure uniquely supplies them.",
+  "missing_revenue_unit_exposure": {
+    "for_each1B_unmodeled2030_sales_growing3pct_from2031": {
+      "additional2031_net_investment_B": 0.0375,
+      "2030_target_delta_USD": -0.07955356659853345,
+      "Dec2026_planning_value_delta_USD": -0.05136928167956256
+    },
+    "known2B_shadow2030_stream_target_delta_USD": -0.1591071331970669,
+    "flat_nominal_missing_sales_stream_incremental_growth_investment_B": 0,
+    "scope": "No new EBIT; assumed existing costs/D&A cover ongoing production. Flat-sales maintenance sufficiency is not independently established. This is a derivative of the model rule, not an empirical bound on future Foundry scale or physical capital."
+  },
+  "treasury_controls": {
+    "base_fixed_budgets": {
+      "rows": [
+        {
+          "year": 2027,
+          "opening_economic_cash_B": 50.839,
+          "opening_carrying_debt_B": 50.134,
+          "cash_income_B": 1,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.05186101248653609,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.24,
+          "owner_cash_B": -11.692712883085715,
+          "ending_economic_cash_B": 34.74028711691429,
+          "ending_ordinary_debt_B": 46.308
+        },
+        {
+          "year": 2028,
+          "opening_economic_cash_B": 34.74028711691429,
+          "opening_carrying_debt_B": 46.308,
+          "cash_income_B": 1,
+          "income_over_opening_economic_cash": 0.028785024045271113,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.05614580634015721,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.25875,
+          "owner_cash_B": 2.293653605352879,
+          "ending_economic_cash_B": 34.830940722267165,
+          "ending_ordinary_debt_B": 43.135
+        },
+        {
+          "year": 2029,
+          "opening_economic_cash_B": 34.830940722267165,
+          "opening_carrying_debt_B": 43.135,
+          "cash_income_B": 1,
+          "income_over_opening_economic_cash": 0.028710105993798418,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.06027587805726209,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.2775,
+          "owner_cash_B": 15.104045150104646,
+          "ending_economic_cash_B": 46.646985872371815,
+          "ending_ordinary_debt_B": 39.847
+        },
+        {
+          "year": 2030,
+          "opening_economic_cash_B": 46.646985872371815,
+          "opening_carrying_debt_B": 39.847,
+          "cash_income_B": 1,
+          "income_over_opening_economic_cash": 0.02143761234082827,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.06524957964213116,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.29625,
+          "owner_cash_B": 21.882124772467353,
+          "ending_economic_cash_B": 65.77911064483916,
+          "ending_ordinary_debt_B": 37.097
+        }
+      ],
+      "2030_cash_delta_B": 0.0,
+      "2030_target_delta_USD": 0.0,
+      "2030_target_USD": 77.6819879986314,
+      "annual_price_return": 0.10034547227789337,
+      "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": 0.0,
+      "same2031_onward_operating_and_financing_values": true
+    },
+    "5_2pct_opening_debt_cost": {
+      "rows": [
+        {
+          "year": 2027,
+          "opening_economic_cash_B": 50.839,
+          "opening_carrying_debt_B": 50.134,
+          "cash_income_B": 1,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.6069679999999997,
+          "total_interest_over_opening_carrying_debt": 0.052,
+          "ordinary_cash_interest_B": 1.6069679999999997,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.24104519999999993,
+          "owner_cash_B": -11.698635683085715,
+          "ending_economic_cash_B": 34.73436431691428,
+          "ending_ordinary_debt_B": 46.308
+        },
+        {
+          "year": 2028,
+          "opening_economic_cash_B": 34.73436431691428,
+          "opening_carrying_debt_B": 46.308,
+          "cash_income_B": 1,
+          "income_over_opening_economic_cash": 0.028789932381547544,
+          "total_cash_interest_B": 2.408016,
+          "total_interest_over_opening_carrying_debt": 0.052,
+          "ordinary_cash_interest_B": 1.408016,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.22995239999999995,
+          "owner_cash_B": 2.4568400053528787,
+          "ending_economic_cash_B": 34.98820432226716,
+          "ending_ordinary_debt_B": 43.135
+        },
+        {
+          "year": 2029,
+          "opening_economic_cash_B": 34.98820432226716,
+          "opening_carrying_debt_B": 43.135,
+          "cash_income_B": 1,
+          "income_over_opening_economic_cash": 0.02858106094240398,
+          "total_cash_interest_B": 2.24302,
+          "total_interest_over_opening_carrying_debt": 0.052000000000000005,
+          "ordinary_cash_interest_B": 1.24302,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.223953,
+          "owner_cash_B": 15.407478150104646,
+          "ending_economic_cash_B": 47.107682472371806,
+          "ending_ordinary_debt_B": 39.847
+        },
+        {
+          "year": 2030,
+          "opening_economic_cash_B": 47.107682472371806,
+          "opening_carrying_debt_B": 39.847,
+          "cash_income_B": 1,
+          "income_over_opening_economic_cash": 0.021227960016638268,
+          "total_cash_interest_B": 2.072044,
+          "total_interest_over_opening_carrying_debt": 0.052,
+          "ordinary_cash_interest_B": 1.072044,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.2170566,
+          "owner_cash_B": 22.330887372467352,
+          "ending_economic_cash_B": 66.68856984483915,
+          "ending_ordinary_debt_B": 37.097
+        }
+      ],
+      "2030_cash_delta_B": 0.9094591999999864,
+      "2030_target_delta_USD": 0.1650561161524476,
+      "2030_target_USD": 77.84704411478384,
+      "annual_price_return": 0.10090793661504738,
+      "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": -0.020310744580266986,
+      "same2031_onward_operating_and_financing_values": true
+    },
+    "constant_opening_cash_yield": {
+      "rows": [
+        {
+          "year": 2027,
+          "opening_economic_cash_B": 50.839,
+          "opening_carrying_debt_B": 50.134,
+          "cash_income_B": 1.0,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.05186101248653609,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.24,
+          "owner_cash_B": -11.692712883085715,
+          "ending_economic_cash_B": 34.74028711691429,
+          "ending_ordinary_debt_B": 46.308
+        },
+        {
+          "year": 2028,
+          "opening_economic_cash_B": 34.74028711691429,
+          "opening_carrying_debt_B": 46.308,
+          "cash_income_B": 0.6833393087376678,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.05614580634015721,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.25875,
+          "owner_cash_B": 2.024492017779896,
+          "ending_economic_cash_B": 34.561779134694184,
+          "ending_ordinary_debt_B": 43.135
+        },
+        {
+          "year": 2029,
+          "opening_economic_cash_B": 34.561779134694184,
+          "opening_carrying_debt_B": 43.135,
+          "cash_income_B": 0.6798280677175826,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.06027587805726209,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.2775,
+          "owner_cash_B": 14.831899007664592,
+          "ending_economic_cash_B": 46.10567814235878,
+          "ending_ordinary_debt_B": 39.847
+        },
+        {
+          "year": 2030,
+          "opening_economic_cash_B": 46.10567814235878,
+          "opening_carrying_debt_B": 39.847,
+          "cash_income_B": 0.9068958504761852,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.06524957964213116,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.29625,
+          "owner_cash_B": 21.80298624537211,
+          "ending_economic_cash_B": 65.15866438773088,
+          "ending_ordinary_debt_B": 37.097
+        }
+      ],
+      "2030_cash_delta_B": -0.6204462571082843,
+      "2030_target_delta_USD": -0.11260367642618589,
+      "2030_target_USD": 77.56938432220521,
+      "annual_price_return": 0.09996123007842095,
+      "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": 0.0,
+      "same2031_onward_operating_and_financing_values": true
+    },
+    "joint_consistency_control": {
+      "rows": [
+        {
+          "year": 2027,
+          "opening_economic_cash_B": 50.839,
+          "opening_carrying_debt_B": 50.134,
+          "cash_income_B": 1.0,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.6069679999999997,
+          "total_interest_over_opening_carrying_debt": 0.052,
+          "ordinary_cash_interest_B": 1.6069679999999997,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.24104519999999993,
+          "owner_cash_B": -11.698635683085715,
+          "ending_economic_cash_B": 34.73436431691428,
+          "ending_ordinary_debt_B": 46.308
+        },
+        {
+          "year": 2028,
+          "opening_economic_cash_B": 34.73436431691428,
+          "opening_carrying_debt_B": 46.308,
+          "cash_income_B": 0.683222807626316,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.408016,
+          "total_interest_over_opening_carrying_debt": 0.052,
+          "ordinary_cash_interest_B": 1.408016,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.22995239999999995,
+          "owner_cash_B": 2.1875793918352473,
+          "ending_economic_cash_B": 34.71894370874953,
+          "ending_ordinary_debt_B": 43.135
+        },
+        {
+          "year": 2029,
+          "opening_economic_cash_B": 34.71894370874953,
+          "opening_carrying_debt_B": 43.135,
+          "cash_income_B": 0.6829194852131145,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.24302,
+          "total_interest_over_opening_carrying_debt": 0.052000000000000005,
+          "ordinary_cash_interest_B": 1.24302,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.223953,
+          "owner_cash_B": 15.137959712535794,
+          "ending_economic_cash_B": 46.56890342128532,
+          "ending_ordinary_debt_B": 39.847
+        },
+        {
+          "year": 2030,
+          "opening_economic_cash_B": 46.56890342128532,
+          "opening_carrying_debt_B": 39.847,
+          "cash_income_B": 0.9160074631933225,
+          "income_over_opening_economic_cash": 0.019669938433092705,
+          "total_cash_interest_B": 2.072044,
+          "total_interest_over_opening_carrying_debt": 0.052,
+          "ordinary_cash_interest_B": 1.072044,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.2170566,
+          "owner_cash_B": 22.259493716181673,
+          "ending_economic_cash_B": 66.078397137467,
+          "ending_ordinary_debt_B": 37.097
+        }
+      ],
+      "2030_cash_delta_B": 0.2992864926278287,
+      "2030_target_delta_USD": 0.05431696780904332,
+      "2030_target_USD": 77.73630496644044,
+      "annual_price_return": 0.10053066914952868,
+      "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": -0.020310744580266986,
+      "same2031_onward_operating_and_financing_values": true
+    },
+    "cash_yield_plus100bp_unit_exposure": {
+      "rows": [
+        {
+          "year": 2027,
+          "opening_economic_cash_B": 50.839,
+          "opening_carrying_debt_B": 50.134,
+          "cash_income_B": 1.5083900000000001,
+          "income_over_opening_economic_cash": 0.029669938433092707,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.05186101248653609,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.24,
+          "owner_cash_B": -11.260581383085714,
+          "ending_economic_cash_B": 35.172418616914285,
+          "ending_ordinary_debt_B": 46.308
+        },
+        {
+          "year": 2028,
+          "opening_economic_cash_B": 35.172418616914285,
+          "opening_carrying_debt_B": 46.308,
+          "cash_income_B": 1.0435634949068107,
+          "income_over_opening_economic_cash": 0.029669938433092707,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.05614580634015721,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.25875,
+          "owner_cash_B": 2.330682576023668,
+          "ending_economic_cash_B": 35.30010119293795,
+          "ending_ordinary_debt_B": 43.135
+        },
+        {
+          "year": 2029,
+          "opening_economic_cash_B": 35.30010119293795,
+          "opening_carrying_debt_B": 43.135,
+          "cash_income_B": 1.0473518290764114,
+          "income_over_opening_economic_cash": 0.029669938433092707,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.06027587805726209,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.2775,
+          "owner_cash_B": 15.144294204819596,
+          "ending_economic_cash_B": 47.15639539775755,
+          "ending_ordinary_debt_B": 39.847
+        },
+        {
+          "year": 2030,
+          "opening_economic_cash_B": 47.15639539775755,
+          "opening_carrying_debt_B": 39.847,
+          "cash_income_B": 1.3991273481780429,
+          "income_over_opening_economic_cash": 0.029669938433092707,
+          "total_cash_interest_B": 2.6,
+          "total_interest_over_opening_carrying_debt": 0.06524957964213116,
+          "ordinary_cash_interest_B": 1.6,
+          "capitalized_cash_interest_B": 1.0,
+          "financing_shield_B": 0.29625,
+          "owner_cash_B": 22.22138301841869,
+          "ending_economic_cash_B": 66.62777841617624,
+          "ending_ordinary_debt_B": 37.097
+        }
+      ],
+      "2030_cash_delta_B": 0.8486677713370767,
+      "2030_target_delta_USD": 0.15402318899039505,
+      "2030_target_USD": 77.83601118762179,
+      "annual_price_return": 0.10087036778787262,
+      "mechanical_Dec2026_APV_shield_term_delta_USD_not_full_fair_value_change": 0.0,
+      "same2031_onward_operating_and_financing_values": true
+    }
+  },
+  "source_interest_diagnostics": {
+    "Q3_2026_interest_income_B": 0.461,
+    "Q3_end_liquid_assets_B": 54.005,
+    "Q2_end_liquid_assets_B": 29.727,
+    "annualized_Q3_income_divided_by_end_liquidity_NOT_realized_yield": 0.0341449865753171,
+    "annualized_Q3_income_divided_by_two_endpoint_average_NOT_realized_yield": 0.0440452873453399,
+    "YTD_cash_interest_excluding_capitalized_B": 1.088,
+    "YTD_accounting_capitalized_interest_B": 0.806,
+    "annualized_sum_cash_interest_and_accounting_capitalization_approx_B": 2.5253333333333337,
+    "capitalized_interest_cash_vs_accounting_limit": "Cashflowordinaryinterestplusaccountingcapitalization is a scalecheck, not an exact totalcash-interestreconstruction.",
+    "2031_base_total_interest_B": 1.929044,
+    "2030_base_total_interest_B": 2.6
+  },
+  "debt_claim_scope": {
+    "2025_face_principal_B": 47.235,
+    "known2026_scheduled_principal_paid_B": 2.5,
+    "2026_new_senior_notes_B": 6.5,
+    "implied_Sep2026_face_principal_B": 51.235,
+    "Sep2026_carrying_debt_B": 50.134,
+    "face_minus_carrying_B": 1.101,
+    "designated_interest_rate_swap_liability_B": 0.69,
+    "paired_debt_fair_value_hedge_basis_adjustment_B": 0.69,
+    "remaining_face2030_after_selected_principal_B": 38.198,
+    "remaining_modeled_carrying_debt2030_B": 37.097,
+    "plain_face_minus_carrying_per_share_NOT_complete_correction_USD": 0.1998185117967332,
+    "all_non_escrow_derivatives_net_before_collateral_B": -0.07600000000000018,
+    "reported_debt_fair_value_B": 43.4,
+    "interpretation": "Carrying/par-runoff is an acknowledged proxy. Replacingcarryingwithfaceorfairvaluealone would ignorehedges,collateral,andotherfinancialassets/claims. Differenceisnotautomaticallyanadditivevaluationcorrection. Fourannualprincipalbuckets include tender/remarketing obligations; choosingcashrepaymentratherthanrollover is a forecast,not theonlycontractualoutcome."
+  }
+}

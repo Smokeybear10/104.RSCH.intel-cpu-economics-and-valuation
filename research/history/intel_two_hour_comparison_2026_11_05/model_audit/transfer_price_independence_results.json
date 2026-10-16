@@ -1,0 +1,373 @@
+{
+  "computed_utc": "2026-11-05T23:51:35.220389+00:00",
+  "policy_sha256": "994db2330f95d89d4e41bb98905e08f0595e4457d9242619eda7237acda89b2f",
+  "conclusion": "No explicit duplicated manufacturing-saving line or arithmetic double posting found. Product and Foundry profits are economically linked through output, transfer pricing and inventory timing. Separate aggregate segment forecasts with a no-double-credit rule do not independently validate their joint operating economics.",
+  "accounting_identity": "Products profit = external product sales minus internal manufacturing charges minus other product costs. Foundry profit = those same internal charges plus external foundry sales minus actual fabrication, packaging and process-development costs. On sold-through inventory and consistent timing, the internal charge cancels in group EBIT. Internal-price changes alone create no group value.",
+  "actual_Q3_profit_bridge_B": {
+    "Q3_2026": {
+      "CCPG": 2.285,
+      "DCAI": 3.039,
+      "Foundry": -1.853,
+      "Other": 0.179,
+      "corporate": -1.058,
+      "eliminations": -0.07,
+      "group": 2.522
+    },
+    "Q3_2025": {
+      "CCPG": 2.694,
+      "DCAI": 0.964,
+      "Foundry": -2.321,
+      "Other": 0.1,
+      "corporate": -0.782,
+      "eliminations": 0.028,
+      "group": 0.683
+    },
+    "YoY_change": {
+      "CCPG": -0.4089999999999998,
+      "DCAI": 2.075,
+      "Foundry": 0.4680000000000002,
+      "Other": 0.07899999999999999,
+      "corporate": -0.276,
+      "eliminations": -0.098,
+      "group": 1.8389999999999997
+    }
+  },
+  "forecast_group_EBIT_bridge": [
+    {
+      "year": 2027,
+      "DCAI_profit_B": 15.43080432,
+      "CCPG_profit_B": 6.852863952000001,
+      "host_Foundry_profit_B": -4.0,
+      "Other_profit_B": 0.7,
+      "corporate_expense_including_economic_SBC_B": 4.5,
+      "net_incremental_external_packaging_profit_B": -0.053750000000000006,
+      "intersegment_profit_elimination_assumption_B": 0,
+      "consolidated_EBIT_B": 14.429918271999998,
+      "bridge_error_B": 0.0,
+      "Products_plus_host_Foundry_profit_B": 18.283668272
+    },
+    {
+      "year": 2028,
+      "DCAI_profit_B": 21.366666896250006,
+      "CCPG_profit_B": 7.9623326863080015,
+      "host_Foundry_profit_B": -0.75,
+      "Other_profit_B": 0.7,
+      "corporate_expense_including_economic_SBC_B": 4.7,
+      "net_incremental_external_packaging_profit_B": 0.14875,
+      "intersegment_profit_elimination_assumption_B": 0,
+      "consolidated_EBIT_B": 24.72774958255801,
+      "bridge_error_B": 0.0,
+      "Products_plus_host_Foundry_profit_B": 28.57899958255801
+    },
+    {
+      "year": 2029,
+      "DCAI_profit_B": 26.071823975898006,
+      "CCPG_profit_B": 9.196771635601706,
+      "host_Foundry_profit_B": 1.0,
+      "Other_profit_B": 0.7,
+      "corporate_expense_including_economic_SBC_B": 4.9,
+      "net_incremental_external_packaging_profit_B": 0.6475,
+      "intersegment_profit_elimination_assumption_B": 0,
+      "consolidated_EBIT_B": 32.71609561149971,
+      "bridge_error_B": 7.105427357601002e-15,
+      "Products_plus_host_Foundry_profit_B": 36.26859561149971
+    },
+    {
+      "year": 2030,
+      "DCAI_profit_B": 29.752439425884262,
+      "CCPG_profit_B": 10.40194803616829,
+      "host_Foundry_profit_B": 2.5,
+      "Other_profit_B": 0.7,
+      "corporate_expense_including_economic_SBC_B": 5.15,
+      "net_incremental_external_packaging_profit_B": 1.175,
+      "intersegment_profit_elimination_assumption_B": 0,
+      "consolidated_EBIT_B": 39.37938746205255,
+      "bridge_error_B": 7.105427357601002e-15,
+      "Products_plus_host_Foundry_profit_B": 42.654387462052554
+    },
+    {
+      "year": 2035,
+      "DCAI_profit_B": 45.80013809440566,
+      "CCPG_profit_B": 12.08734155108273,
+      "host_Foundry_profit_B": 4.436504066064345,
+      "Other_profit_B": 0.81149185201,
+      "corporate_expense_including_economic_SBC_B": 5.970261482645001,
+      "net_incremental_external_packaging_profit_B": 1.8633839837070014,
+      "intersegment_profit_elimination_assumption_B": 0,
+      "consolidated_EBIT_B": 59.02859806462474,
+      "bridge_error_B": -7.105427357601002e-15,
+      "Products_plus_host_Foundry_profit_B": 62.323983711552735
+    },
+    {
+      "year": 2040,
+      "DCAI_profit_B": 56.943338661027916,
+      "CCPG_profit_B": 13.529350594711111,
+      "host_Foundry_profit_B": 5.343132930379423,
+      "Other_profit_B": 0.9407414655408854,
+      "corporate_expense_including_economic_SBC_B": 6.92116935362223,
+      "net_incremental_external_packaging_profit_B": 2.1601727427773803,
+      "intersegment_profit_elimination_assumption_B": 0,
+      "consolidated_EBIT_B": 71.99556704081449,
+      "bridge_error_B": -1.4210854715202004e-14,
+      "Products_plus_host_Foundry_profit_B": 75.81582218611845
+    }
+  ],
+  "current2027_2028_bridge": {
+    "group_EBIT_increase_B": 10.29783131055801,
+    "DCAI_profit_increase_B": 5.935862576250006,
+    "host_Foundry_profit_increase_B": 3.25,
+    "remaining_net_increase_B": 1.1119687343080038
+  },
+  "mature_margin_transfer_diagnostic": {
+    "annual_profit_rows": [
+      {
+        "year": 2027,
+        "DCAI_revenue_B": 39.779088,
+        "selected_DCAI_margin": 0.38791247099481013,
+        "selected_DCAI_profit_B": 15.43080432,
+        "selected_host_Foundry_profit_B": -4.0,
+        "real_consolidated_profit_added_by40versus35_B": 0.0,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": -4.0
+      },
+      {
+        "year": 2028,
+        "DCAI_revenue_B": 54.11696880000001,
+        "selected_DCAI_margin": 0.3948237931657769,
+        "selected_DCAI_profit_B": 21.366666896250006,
+        "selected_host_Foundry_profit_B": -0.75,
+        "real_consolidated_profit_added_by40versus35_B": 0.0,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": -0.75
+      },
+      {
+        "year": 2029,
+        "DCAI_revenue_B": 66.67740779136001,
+        "selected_DCAI_margin": 0.3910143606284041,
+        "selected_DCAI_profit_B": 26.071823975898006,
+        "selected_host_Foundry_profit_B": 1.0,
+        "real_consolidated_profit_added_by40versus35_B": 0.0,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 1.0
+      },
+      {
+        "year": 2030,
+        "DCAI_revenue_B": 77.00931386084969,
+        "selected_DCAI_margin": 0.3863485847912473,
+        "selected_DCAI_profit_B": 29.752439425884262,
+        "selected_host_Foundry_profit_B": 2.5,
+        "real_consolidated_profit_added_by40versus35_B": 0.0,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 2.5
+      },
+      {
+        "year": 2031,
+        "DCAI_revenue_B": 85.677478709112,
+        "selected_DCAI_margin": 0.3876131097358172,
+        "selected_DCAI_profit_B": 33.20971395676317,
+        "selected_host_Foundry_profit_B": 2.864548462417981,
+        "real_consolidated_profit_added_by40versus35_B": 0.42838739354556005,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 2.436161068872421
+      },
+      {
+        "year": 2032,
+        "DCAI_revenue_B": 94.08194923912487,
+        "selected_DCAI_margin": 0.3889346288774328,
+        "selected_DCAI_profit_B": 36.591728011384504,
+        "selected_host_Foundry_profit_B": 3.2430108828370323,
+        "real_consolidated_profit_added_by40versus35_B": 0.9408194923912488,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 2.3021913904457834
+      },
+      {
+        "year": 2033,
+        "DCAI_revenue_B": 102.14366391030183,
+        "selected_DCAI_margin": 0.3902854815972972,
+        "selected_DCAI_profit_B": 39.865189061344616,
+        "selected_host_Foundry_profit_B": 3.634436669393285,
+        "real_consolidated_profit_added_by40versus35_B": 1.5321549586545273,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 2.1022817107387572
+      },
+      {
+        "year": 2034,
+        "DCAI_revenue_B": 109.61822457401325,
+        "selected_DCAI_margin": 0.3916597332150515,
+        "selected_DCAI_profit_B": 42.93304459216563,
+        "selected_host_Foundry_profit_B": 4.032834888874832,
+        "real_consolidated_profit_added_by40versus35_B": 2.1923644914802654,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 1.8404703973945664
+      },
+      {
+        "year": 2035,
+        "DCAI_revenue_B": 116.52849864890558,
+        "selected_DCAI_margin": 0.3930380861800952,
+        "selected_DCAI_profit_B": 45.80013809440566,
+        "selected_host_Foundry_profit_B": 4.436504066064345,
+        "real_consolidated_profit_added_by40versus35_B": 2.9132124662226397,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 1.5232915998417056
+      },
+      {
+        "year": 2036,
+        "DCAI_revenue_B": 122.67527703430302,
+        "selected_DCAI_margin": 0.39442056596808084,
+        "selected_DCAI_profit_B": 48.385652198160905,
+        "selected_host_Foundry_profit_B": 4.642808900671375,
+        "real_consolidated_profit_added_by40versus35_B": 3.6802583110290907,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 0.9625505896422846
+      },
+      {
+        "year": 2037,
+        "DCAI_revenue_B": 128.3744341335772,
+        "selected_DCAI_margin": 0.3958117485953034,
+        "selected_DCAI_profit_B": 50.8121092493438,
+        "selected_host_Foundry_profit_B": 4.837682837462794,
+        "real_consolidated_profit_added_by40versus35_B": 4.493105194675202,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": 0.3445776427875922
+      },
+      {
+        "year": 2038,
+        "DCAI_revenue_B": 133.52853963144304,
+        "selected_DCAI_margin": 0.39720793644121993,
+        "selected_DCAI_profit_B": 53.038595683015146,
+        "selected_host_Foundry_profit_B": 5.01843099646602,
+        "real_consolidated_profit_added_by40versus35_B": 5.341141585257723,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": -0.32271058879170234
+      },
+      {
+        "year": 2039,
+        "DCAI_revenue_B": 138.21198704132985,
+        "selected_DCAI_margin": 0.39860399435670546,
+        "selected_DCAI_profit_B": 55.09185010265129,
+        "selected_host_Foundry_profit_B": 5.187507699397497,
+        "real_consolidated_profit_added_by40versus35_B": 6.219539416859844,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": -1.0320317174623463
+      },
+      {
+        "year": 2040,
+        "DCAI_revenue_B": 142.35834665256976,
+        "selected_DCAI_margin": 0.4000000000000001,
+        "selected_DCAI_profit_B": 56.943338661027916,
+        "selected_host_Foundry_profit_B": 5.343132930379423,
+        "real_consolidated_profit_added_by40versus35_B": 7.117917332628489,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": -1.7747844022490655
+      },
+      {
+        "year": 2041,
+        "DCAI_revenue_B": 146.62909705214685,
+        "selected_DCAI_margin": 0.4,
+        "selected_DCAI_profit_B": 58.65163882085874,
+        "selected_host_Foundry_profit_B": 5.503426918290804,
+        "real_consolidated_profit_added_by40versus35_B": 7.331454852607343,
+        "illustrative_Foundry_profit_if_the_DCAI_uplift_were_only_transfer_reallocation_B": -1.8280279343165384
+      }
+    ],
+    "base40_values_with_claim_reserve": {
+      "2026": {
+        "price_USD": 51.066594344272275,
+        "equity_B": 281.3769348369402,
+        "explicit_operating_PV_B": 146.6785135044461,
+        "terminal_operating_PV_B": 126.64293047549664,
+        "financing_shield_PV_B": 2.58895408799514,
+        "economic_cash_B": 50.839,
+        "ordinary_debt_B": 50.134
+      },
+      "2030": {
+        "price_USD": 77.46147983166226,
+        "equity_B": 426.81275387245904,
+        "explicit_operating_PV_B": 194.75335216328136,
+        "terminal_operating_PV_B": 196.12687727775884,
+        "financing_shield_PV_B": 2.748413786579589,
+        "economic_cash_B": 65.77911064483916,
+        "ordinary_debt_B": 37.097
+      }
+    },
+    "real35_values_with_claim_reserve": {
+      "2026": {
+        "price_USD": 46.737554116614,
+        "equity_B": 257.5239231825431,
+        "explicit_operating_PV_B": 138.02878680013643,
+        "terminal_operating_PV_B": 111.43964552540922,
+        "financing_shield_PV_B": 2.58895408799514,
+        "economic_cash_B": 50.839,
+        "ordinary_debt_B": 50.134
+      },
+      "2030": {
+        "price_USD": 70.7572671427061,
+        "equity_B": 389.8725419563106,
+        "explicit_operating_PV_B": 181.35786390781547,
+        "terminal_operating_PV_B": 172.58215361707633,
+        "financing_shield_PV_B": 2.748413786579589,
+        "economic_cash_B": 65.77911064483916,
+        "ordinary_debt_B": 37.097
+      }
+    },
+    "reported40_but_Foundry_offset_values_with_claim_reserve": {
+      "2026": {
+        "price_USD": 46.737554116614,
+        "equity_B": 257.5239231825431,
+        "explicit_operating_PV_B": 138.02878680013643,
+        "terminal_operating_PV_B": 111.43964552540922,
+        "financing_shield_PV_B": 2.58895408799514,
+        "economic_cash_B": 50.839,
+        "ordinary_debt_B": 50.134
+      },
+      "2030": {
+        "price_USD": 70.7572671427061,
+        "equity_B": 389.8725419563106,
+        "explicit_operating_PV_B": 181.35786390781547,
+        "terminal_operating_PV_B": 172.58215361707633,
+        "financing_shield_PV_B": 2.748413786579589,
+        "economic_cash_B": 65.77911064483916,
+        "ordinary_debt_B": 37.097
+      }
+    },
+    "real40versus35_incremental_planning_value_USD": 4.329040227658275,
+    "real40versus35_incremental2030value_USD": 6.7042126889561615,
+    "interpretation": "Starting with the35%economic case, relabeling profit into DCAI until it reports40% leaves group cash and value unchanged when Foundry is reduced equally. This is an identity diagnostic, not a forecast that all the actual uplift is a transfer-price shift."
+  },
+  "existing_policy_lineage": [
+    {
+      "file": "intel_competition_screen_2026_11_04/paired_cpu20_capital080_operating_policy_2026_11_04.json",
+      "finding": "Reducing2027unitgrowth30%to20% reduced productmargin0.5point for nonmanufacturing expense absorption AND Foundryprofit0.5/0.75/1/1B for manufacturing absorption. They are distinct specified cost categories, but are aggregate judgments without unit-cost calibration."
+    },
+    {
+      "file": "pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "finding": "The later richer-ASP revision assigns50% incremental CONSOLIDATED EBIT and holds Foundry dollars unchanged.2027incremental2.622924B sales adds1.311462B groupEBIT once.2030incremental6.991574B sales adds3.495787B once; no incremental node-saving line is appended."
+    },
+    {
+      "file": "intel_decision_pass_2026_11_04/operating_scenario_policy.json",
+      "finding": "Maturemargin35-to40 adds the phased difference times DCAI sales once after2030, preserving Foundry dollars. This must mean real externally earned retained profit, not simply a lower internal wafer price."
+    },
+    {
+      "file": "intel_competition_screen_2026_11_04/corporate_other_policy.json",
+      "finding": "Forward intersegment operating eliminations normalized to zero, with no repeating inventory-reserve windfall. SBC is charged once in corporate costs."
+    }
+  ],
+  "missing_economic_evidence": [
+    "Internal wafer, assembly and test transfer-price schedules and whether future manufacturing learning is passed to Products.",
+    "Accepted good-die and complete-package output by node/product; per-unit cash cost, actual yield, utilization and richer-chip/package mix.",
+    "A cost-dollar bridge separating variable manufacturing, fixed fab overhead, ongoing14A process R&D and new-node startup expenses.",
+    "D&A actually recognized in segment costs versus absorbed into unfinished and finished inventory; Intel says Products attribution is impracticable.",
+    "Internal inventory-profit eliminations during the large ramp. Zero future elimination is a normalization, not a demonstrated quarterly sell-through identity.",
+    "A separately supported recurring externalFoundry revenue/cost path; its absence prevents fully reconstructing manufacturing economics from the external-sales forecast.",
+    "Customer netCPUprices and margins of OtherDCAI to show that retained40%producteconomics survive richer mix and procurement competition."
+  ],
+  "manufacturing_hurdle": {
+    "host_Foundry_profit_improvement2026anchor_to2030_B": 11,
+    "host_total_DA_increase_B": 8.2595,
+    "annual_pre_DA_contribution_increase_if_all_incremental_DA_in_Foundry_B": 19.2595,
+    "interpretation": "An increase in the annual operating-contribution level, not cumulativecash or measuredcostcuts. Revenue/volume can contribute. The attribution of all incrementalD&A toFoundry is diagnostic, not disclosed."
+  },
+  "recommended_defense": "I do not count a lower internal wafer price as new Intel profit. The product margin is after manufacturing charges; Foundry includes actual production and process-development costs. Internal charges cancel on consolidation. No extra node saving is added to the forecast. But the combined recovery remains an assumption: we need consolidated profit and cash improvement, with inventory and depreciation reconciled, to validate both segment paths together.",
+  "sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note2 printed9\u201311; localq3_10q.txt lines548\u2013566,588\u2013617,638\u2013657",
+      "support": "External Products revenue; market-like internal Foundry prices; manufacturing/process development/excess capacity costs; depreciation absorption; inventory eliminations; actual segment and group EBIT."
+    },
+    {
+      "file": "economic_underwriting/foundry_internal_recovery_cost_bridge.json",
+      "support": "Q3Foundry468M improvement equals793M periodcharge relief\u2212219M extraopex\u2212106M inferredproductprofit decline; groupgrossprofit increased1.878B, showing real consolidated progress but not a calibrated future savings pool."
+    }
+  ],
+  "checks": {
+    "group_bridge_max_absolute_error_B": 1.4210854715202004e-14,
+    "transfer_reallocation_has_zero_value_vs_matching35economic_case": true,
+    "all_frozen_models_unchanged": true
+  }
+}

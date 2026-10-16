@@ -1,0 +1,140 @@
+{
+  "completed_utc": "2026-11-05T21:57:07.580062+00:00",
+  "status": "Completed 10-page Intel LONG initial-screen draft and separate two-page defense notes; independent numeric, semantic and visual reviews passed. Moderate conviction; limited initial valuation cushion. Not submitted.",
+  "recommendation": "LONG, moderate conviction",
+  "selected_thesis": {
+    "selected_utc": "2026-11-05T21:56:11.302689+00:00",
+    "recommendation": "LONG, moderate conviction",
+    "scope": "Fundamental competition recommendation; not an executed transaction or a claim of demonstrated alpha.",
+    "business_thesis": "Premium server-platform profitability can persist while a growing CPU market and factory cost absorption turn funded capacity into shareholder cash.",
+    "selected_mature_DCAI_margin": 0.4,
+    "selected_host_capital_productivity": 0.8,
+    "selected_operating_risk_rate": 0.11555,
+    "risk_path": "Flat. Maturation remains an upside scenario.",
+    "what_changed_since_PASS": [
+      "New explicit mix decomposition distinguishes dilution from CPU-margin erosion. Preserving inferred Q3 CPU operating profitability as Other mix grows gives39.7-40.4% mature DCAI, depending on illustrative Other margins15-25%.",
+      "Primary customer roadmaps and the latest premium server mix motivate choosing persistence of newer platform profitability over the earlier35% assumption. This is an economic judgment; a Q2/YTD baseline gives lower margins and is prominently shown.",
+      "The verified November5 closing price52.22 is lower than the prior54.58intraday reference. This improves return arithmetic; it is not proof fundamentals improved.",
+      "The objective is a defensible directional investment pitch under uncertainty; absence of statistically proven alpha does not prohibit choosing a moderate-conviction position."
+    ],
+    "why_risk_unchanged": "The1.50 operating beta is informed by mature cyclical businesses, so successful funding alone does not justify lowering systematic operating risk.",
+    "reference_quote": {
+      "USD": 52.22,
+      "date": "2026-11-05",
+      "time": "16:00 America/New_York",
+      "type": "regular-session close",
+      "url": "https://stockanalysis.com/stocks/intc/history/"
+    },
+    "base_target_2030_USD": 77.6819879986314,
+    "annual_price_return": 0.10034547227789337,
+    "December2026_planning_value_USD": 51.287102511241436,
+    "critical_valuation_limit": "Approximately fair entry with little initial valuation cushion. The primary scenario does not meet an owned12% annual-return hurdle. Do not label it a deeply undervalued or established market-beating trade.",
+    "risk_scenarios": {
+      "35pct_margin_flat_2030": 70.97777530967525,
+      "same_operations_maturing_risk_2030": 89.63590532589556,
+      "joint_downside_2030": 45.6908589860078,
+      "joint_downside_Dec2026": 30.450105842961268
+    },
+    "cash_constraints": "Gross physical investment, working capital, economic SBC and partner reserves retained. Cash claims need further reconciliation where contracts omit amounts; no invented charge or unpaid free capital.",
+    "model_provenance": "Adopt the existing audited margin-only40%/.8/flat case. Frozen historical35% model remains unchanged. No new revenue, cost savings, valuation multiple or wafer customer is stacked on top.",
+    "conviction": "Moderate; forecast and required-return judgment, not a numerical winning probability.",
+    "current_pitch_content_complete": true,
+    "resume_package_checked": false,
+    "submitted": false
+  },
+  "what_was_built": [
+    "Ten-page M37 Initial Screen with recommendation, business overview, operating disagreement, funded cash bridge, margin rationale, original public-data audit, valuation, checkpoints, downside scenarios and linked sources.",
+    "Separate two-page speaking notes with opening statement and eight judge questions."
+  ],
+  "artifacts": {
+    "initial_screen": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "cfeb26a895dc0486ab9cc8ee12e0a57e5170bf4cf9a43349a6add3c25dfc513c",
+      "pages": 10
+    },
+    "defense_notes": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "75703d9d71f62b6410e03dde85fb57b1541d26dcd99bbfb672b66620ede97cf5",
+      "pages": 2,
+      "submitted": false,
+      "visual_qa": "All final pages rendered and visually inspected; no observed clipping, collisions or layout defects",
+      "purpose": "Private pitch preparation; excluded from the ten-page screen.",
+      "qa_record": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_visual_qa.json"
+    }
+  },
+  "qa": {
+    "pages": 10,
+    "page_size_points": [
+      960,
+      540
+    ],
+    "source_hyperlinks": 26,
+    "all_pages_rendered_and_visually_inspected": true,
+    "all_text_inside_page_bounds": true,
+    "layout_defects_observed": false,
+    "source_model_unchanged": true,
+    "independent_numeric_checks": 69,
+    "independent_numeric_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_numeric_review.json",
+    "independent_semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_content_review.json",
+    "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_visual_qa.json",
+    "submitted": false
+  },
+  "supporting_records": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/root_selected_thesis.json",
+      "sha256": "18274156e3240ac391f332bd0ce085599d8d0d030abc0936e68e6161d0901bdb"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/independent_long_underwriting.json",
+      "sha256": "9f5e147dfdff4a2bbb19a42a88f97bff4577a1e13c8469cffeae9231706f1dd2"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/independent_policy_before_new_returns.json",
+      "sha256": "ef14e06a1acdecd7552bd8f5687c8c1c3441950c8dd9f930f75f32847a1ee028"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/valuation_method_adversarial_review.json",
+      "sha256": "ccf5359bf822d3e6501736c719127ecbda774e1350ec2a4bed883e6beebde5d0"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/direction_and_rules_audit.json",
+      "sha256": "bd90236d56be432fc2cb245a036dc097b6819582ec0072d17c0e67a4748be616"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/moderate_long_content_structure.json",
+      "sha256": "4aee229bfb17479b26d2e40e56677679b64b9766ecccb9ffec6d8eb7dfccc905"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/joint_downside_policy.json",
+      "sha256": "ca349e482a31a043efe9d21519a3e93aae5a2cb61c951b39cae329295459cb4c"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/joint_downside_results.json",
+      "sha256": "3a5ae36a6f522906894fb9a0e15bf68a703c3b16bee7a7fe4f21dc121f5cb945"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_numeric_review.json",
+      "sha256": "ca95dacc56388acb5d92f96a76b9e51e193ab3908bbf6720f2a6d2815eca50a1"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_content_review.json",
+      "sha256": "6fb387d428abfbda42457d638574b055b1169fdaa4c74c504e716bac2634f2ed"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/final_visual_qa.json",
+      "sha256": "c6ba9515d7aeb8d3c62f5b1bf1bfa01818a3ec6edcad7777fac89f0e1fdafad6"
+    }
+  ],
+  "pitch_content_complete": true,
+  "submission_package_complete": false,
+  "remaining_submission_material": "Attach the user's current resume. Name and undergraduate class year2027 are in the PDF and rechecked on thomasou.com.",
+  "due_date": "2026-11-09",
+  "official_rules": "https://www.m37.com/spc2026",
+  "submission_sent": false,
+  "emails_sent_this_turn": 0,
+  "interviews_completed": 0,
+  "independent_cloud_workload_runs": 0,
+  "no_winning_probability_claimed": true,
+  "competition_objective_complete": false,
+  "supersedes": "Earlier short and PASS documents are historical research; use the new initial-screen PDF for the current directional candidate."
+}

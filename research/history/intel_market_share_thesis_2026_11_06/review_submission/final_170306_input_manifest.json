@@ -1,0 +1,30 @@
+{
+  "built_utc": "2026-11-06T17:03:06.636808+00:00",
+  "submitted": false,
+  "recommendation_finalized": true,
+  "recommendation": "LONG",
+  "conviction": "moderate",
+  "administratively_ready": false,
+  "model_sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+  "files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "0cbca3a4f0b88d38f58a8dc2ae3207fde3126c85c68292b15c535071edb6e3e8",
+      "pages": 10,
+      "links": 31
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "a1364279c5d380f8891f475dd09e7ac31288d7259b2011184de068bc0c49cdb3",
+      "pages": 5,
+      "links": 12
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "13fb9e4e7e0be6d0879460ebb5227584432cff4eff183f1feeb5cca22e547b6b",
+      "pages": 3,
+      "links": 6
+    }
+  ],
+  "visual_qa": "pending"
+}

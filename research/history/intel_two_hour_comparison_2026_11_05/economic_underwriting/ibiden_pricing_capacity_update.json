@@ -1,0 +1,59 @@
+{
+  "as_of": "2026-11-05",
+  "primary_sources": [
+    {
+      "date": "2026-08-05",
+      "url": "https://www.ibiden.com/ir/items/en_QA_FY2026Q1.pdf",
+      "local_file": "sources/ibiden_q1_2026_qa.pdf",
+      "locators": "PDF pp3\u20134"
+    },
+    {
+      "date": "2026-10-30 event, 2026-11-02 posted",
+      "url": "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf",
+      "local_file": "sources/ibiden_q2_2026_qa.pdf",
+      "locators": "PDF pp3\u20135"
+    },
+    {
+      "date": "2026-10-30",
+      "url": "https://www.ibiden.com/ir/items/en_kessannsetsumei2026Q2.pdf",
+      "local_file": "sources/ibiden_q2_2026_presentation.pdf",
+      "locators": "PDF pp11\u201314 (printed pp10\u201313); rendered and inspected pp11\u201312"
+    },
+    {
+      "date": "2026-10-29",
+      "url": "https://www.ibiden.com/ir/items/tannshinn2026Q2.pdf",
+      "local_file": "sources/ibiden_h1_2026_financials.pdf",
+      "locators": "PDF pp5,9,12"
+    }
+  ],
+  "pricing_evidence": {
+    "first_hand_disclosure": "August Q&A says quarterly price negotiations have become easier, substrate ASP rose more than expected amid shortages, and material price increases are being passed to customers.",
+    "implication": "A higher CPU package ASP can partly pay suppliers for richer or scarcer substrate inputs. Manufacturer wafer learning is only one part of total cost.",
+    "limits": "No Intel-specific substrate price, bill of materials, input weight or negotiated contract terms. No numerical deduction from Intel margin is justified."
+  },
+  "capacity_and_content": {
+    "August": "Existing plants may serve EMIB-T demand before new Gama capacity; customer and technical readiness matter. Glass-cloth supplier diversification may reduce one material constraint.",
+    "October": "Ibiden says competitors combined still cannot meet CPU or high-end AI substrate demand. New-building lead time at least four years. Additional roughly JPY150B Gama investment ramps H2 FY2029 and contributes FY2030; supplier forecasts electronics margin near35% FY2030.",
+    "table_p12": "For CY2026 to CY2030, general-purpose-server CPU market factor1.3, production-load factor1.9, SAP-demand factor2.5. AI GPU/ASIC factors1.8,3.0,5.4. The table is consistent with market growth multiplied by more manufacturing load per product, with rounding.",
+    "derived_not_reported": "1.3*1.9=2.47, rounding to2.5;1.8*3.0=5.4. More substrate demand cannot be read as the same rate of CPU package shipment growth.",
+    "scope_limits": "General-purpose-server CPU classification is not established as identical to Intel all-server-unit forecasts. These are supplier expectations based on customer information, not global consensus or guaranteed orders. Do not infer Intel share or output.",
+    "technology_caution": "EMIB/EMIB-T links identify packaging technology, not a named end customer or a committed quantity of Intel Xeon CPUs. Capacity for AI ASICs can support other chips and external Intel packaging customers."
+  },
+  "funding_evidence_JPY_m": {
+    "advances_received_Sept30": 199746,
+    "advances_received_Mar31": 80950,
+    "increase": 118796,
+    "CFO_halfyear": 193178,
+    "mechanical_CFO_minus_advance_movement": 74382,
+    "reading": "Large customer advance movements fund current cash flow. The subtraction is a cash-flow composition diagnostic, not normalized free cash flow or an attribution to Intel.",
+    "limits": "No deposit payer, refundability, unit price, SKU or customer-specific capital allocation identified in the summary statements. Current classification is an accounting maturity category, not CPU shipping timing."
+  },
+  "financial_comparison_caution": "Electronics segment profit excludes JPY1.669B depreciation of inactive assets classified below operating profit. Do not compare its margin directly with Intel DCAI or treat the supplier forecast as a clean comparable.",
+  "competition_pitch_use": "Use one sentence or a small resource bridge to show why richer packages increase cost and capacity consumption. The underlying contract economics remain uncertain. Avoid padding the pitch with supplier financials that do not change valuation.",
+  "checked_but_rejected": [
+    "Search result AI summaries and investor blogs were used only to locate primary PDFs; their customer attributions and price forecasts were not adopted.",
+    "An unrelated Shinko electronics-distributor result was rejected as the wrong company.",
+    "The older FY2025 Q&A was not substituted for the newly available FY2026 Q2 disclosure.",
+    "Supplier margin goals and continued shortage views are self-interested forecasts and are not evidence of guaranteed Intel pricing power."
+  ]
+}

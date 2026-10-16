@@ -1,0 +1,128 @@
+{
+  "prepared_utc": "2026-11-06T22:47:55.619902+00:00",
+  "source_review": "Read existing claims audits first, then verified relevant issuer filing facts through current web search and official annual/IRS pages. Issuer HTML open timed out; primary-source indexed text and existing full downloaded filing text used together.",
+  "source_files": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/2025_10k.txt": "451450fd66433d8cce0eaa7fa6d8d3e153406de1ecf21191bbdbc2218a5fd044",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/cash_conversion_policy_2026_11_04.json": "cadc8a93f26ea92e9d9539c064c2ca12533fa34a649f06be23c0bff875dc9fc4"
+  },
+  "items": [
+    {
+      "item": "Nonoperating assets and named claims",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Balance sheet; Notes 8/9/14; deferred compensation balance; pension from annual Note18",
+      "reported_numbers_B": {
+        "equities": 8.798,
+        "SLP_receivable": 0.478,
+        "deferred_compensation": 3.1,
+        "SLP_payable": 0.215,
+        "VLSI_accrual": 1
+      },
+      "model": "Adds 8.798 + .478 and deducts 3.1 + .459 pension + .215 + 1 = 4.502B. Existing net_other_assets_B is exact. Pension uses stale but explicitly identified annual figure.",
+      "decision": "No new asset. Do not restore the previously deducted 1.215B claims."
+    },
+    {
+      "item": "Altera and Mobileye/IMS",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Notes2/3/8/9",
+      "reported_numbers_B": {
+        "Altera_equity_carrying": 3.1
+      },
+      "model": "Altera included in 8.798B equity investments. Mobileye/IMS inside consolidated operations; economic NCI reserve deducted.",
+      "decision": "No additive stake valuation. A market-value SOTP would first remove the same operating cash, allocations and subsidiary cash/debt; public model has no clean standalone forecast to splice."
+    },
+    {
+      "item": "Ireland and Arizona JV",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note3; source verified via issuer XBRL page4435",
+      "reported_numbers_B": {
+        "Ireland_purchase_April8": 14.2
+      },
+      "model": "Ireland repurchase and extinguished derivative precede starting cash; minority reserve relates to remaining consolidated NCI. No book NCI subtraction.",
+      "decision": "No Ireland liability to remove or asset to add. Arizona legal waterfall is not disclosed sufficiently to calibrate a replacement reserve."
+    },
+    {
+      "item": "Operating rent versus finance supplier capacity",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm",
+      "additional_source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Annual Note19; Q3 cash flow; cash_conversion_policy.ordinary_budget.DA and later unlevering_and_leases policy",
+      "reported_numbers_B": {
+        "finance_leased_assets_Dec2025": 0.453,
+        "nine_month2026_finance_lease_cash": 0.951
+      },
+      "reported_term_years": 6,
+      "model": "Operating rent remains in EBIT. Finance-lease depreciation is included in total normalized D&A and added back; supplier-capacity cash is separately deducted and excluded from owned PPE budget. Lease liabilities are not deducted again.",
+      "decision": "No proven rent double count. 1B/year rising3% after2030 is an owned replacement-capacity allowance, not reported fixed debt service. Do not delete it without replacing capacity/investment treatment. The old 2025 maturity table does not explain changed2026 cash prepayments.",
+      "scope_limit": "After2030, physical capex is derived as D&A plus selected net growth investment minus WC; D&A cancels from operating cash. The aggregate normalization does not independently establish which lease assets are excluded from physical replacement capex. No separately disclosed lease-depreciation path permits a quantified correction. This is a stated economic scope, not an audited asset-level lease schedule."
+    },
+    {
+      "item": "Tax receivable mapping",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note7; financial_claims_and_treasury_policy.opening_2027_forecast; root_corporate_tax_credit_valuation_policy",
+      "reported_numbers_B": {
+        "current_tax_receivables": 7.4,
+        "long_term_tax_receivables": 2.5
+      },
+      "model": "8B of selected existing claims collected2027-29;1B selectedQ4collection;no separate receivable addition. Residual .9B is not explicitly mapped.",
+      "decision": "Residual is a mapping issue, not a proven .9B cash omission: disclosed pool is primarily AMIC, while Q4CFO and ordinary tax budgets are not decomposed to rule out overlap. At face it is at most .16334/share before timing. No positive correction credited."
+    },
+    {
+      "item": "New capital credits and tax basis",
+      "source": "https://www.irs.gov/instructions/i3468",
+      "additional_source": "https://uscode.house.gov/us/usc/119-124/t26/s50/",
+      "locator": "Form3468 PartIV; section50(c); current owned tax policy",
+      "model": "35% of selected53B qualified basis; cash credit follows one year;21% of credit charged as lost depreciation tax shield in origin year;ordinarytax15%\u219218% kept separate.",
+      "decision": "Already included. Cash-tax timing can be conservative but requires jurisdiction, loss utilization and placed-in-service data. Do not add deferred-tax assets or remove all basis loss while preserving new credits."
+    },
+    {
+      "item": "Escrow shares and government warrants",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note4",
+      "reported_numbers_B": {
+        "remaining_escrow_shares": 0.132,
+        "warrant_shares": 0.241,
+        "escrow_derivative": 13.705
+      },
+      "model": "5.51B planning shares include remaining escrow;future2.64B escrow cash separately in treasury;no duplicate derivative debt. Conditional warrants excluded while Intel retains51% foundry control.",
+      "decision": "No claim reserve available to reverse. Foundry-sale alternatives require paired warrant settlement and proceeds; not free value."
+    },
+    {
+      "item": "Debt, hedges and cash income",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Notes11-13; liquidity section; active treasury",
+      "reported_numbers_B": {
+        "carrying_debt": 50.134,
+        "debt_fair_value": 43.4
+      },
+      "model": "Carrying debt/par runoff convention;1B annual cash income already enters treasury. Derivative and collateral conventions are disclosed limits.",
+      "decision": "6.734B gross mark difference is not a matched Dec2026 bridge. No additive interest-income asset or double-counted cash. Instrument-level debt/hedge revaluation would be a separate valuation-method change."
+    },
+    {
+      "item": "Committed liquidity response",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note11 and Liquidity; subsequentOct1capacity",
+      "reported_numbers_B": {
+        "total_revolver_capacity": 15,
+        "Aug2029_facility": 5,
+        "Aug2031_facility": 10
+      },
+      "model": "Original stress has no response. New conditional draw/repay overlay retains the operating shortfall and charges financing cost.",
+      "decision": "Valid conditional response with verified size/maturity, unverified future access/rate/fees. No equity-value creation from proceeds."
+    },
+    {
+      "item": "Restricted cash and EC fine",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "additional_source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "Q3 Notes5/14; annual EC-funded guarantee disclosures",
+      "reported_numbers_B": {
+        "restricted_cash": 0.552,
+        "EC_accrual": 0.312
+      },
+      "model": "Restricted cash excluded; prior EC collateral funding means no second unpaired reserve.",
+      "decision": "No unsupported restricted-cash release or automatic EC reserve reversal."
+    }
+  ],
+  "conclusion": "No justified positive asset/claim correction established. Concrete improvement is a conditional committed-facility response to liquidity stress, with small financing cost and no invented operating upside.",
+  "no_core_edits": true
+}

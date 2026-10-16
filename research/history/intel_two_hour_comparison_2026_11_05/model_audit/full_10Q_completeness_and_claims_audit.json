@@ -1,0 +1,111 @@
+{
+  "prepared_utc": "2026-11-05T23:41:12.340605+00:00",
+  "task": "Full-section completeness audit of latest Intel10-Q against current pitch and frozen operating/claims model.",
+  "full_sections_read": {
+    "q3_10q_pdf_pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      26,
+      27,
+      28,
+      29,
+      30,
+      33,
+      34,
+      35,
+      36,
+      37,
+      45,
+      46
+    ],
+    "required_sections": [
+      "Full cash-flow statement and supplements",
+      "Full segment Note2 and segment MD&A",
+      "Full Notes3 and4",
+      "Full Note7",
+      "Full Note11",
+      "Full Note14 including all litigation subsections",
+      "Full liquidity and funding requirements"
+    ],
+    "additional_crosscheck": "FY2025 10-K restricted-cash and EC-guarantee disclosures, printed31/82; PDF33/84."
+  },
+  "artifacts_reviewed": {
+    "output/pdf/m37_intel_initial_screen.pdf": "55e023f5fd714c4929c448365429f3782de3f97b3acd1319c2488aa4d08d1b65",
+    "output/pdf/m37_intel_defense_notes.pdf": "69c38bbd8c3eb486ddef4821e66cca74adf5fa3870c36b9859866019438aa377",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/q3_10q.pdf": "b7d287cf335157f894cd4b91a07a75420b332ac257593586239b17576becf318"
+  },
+  "new_findings": [
+    {
+      "id": "SLP_payable_unmapped",
+      "source": "Q3Note9 printed19/PDF21; q3_10q.txt1173\u20131176",
+      "facts": "$169M current and $46M long-term separation and employee-related costs remain payable to SLP as of September26. The same note reports the $478M receivable, whose $500M face amount is due by December31,2027.",
+      "model_lineage": "financial_claims_and_treasury_policy_2026_11_04.json159\u2013167 adds $478M receivable within $5.717B net other assets but has no named $215M SLP payable. Treasury lines83\u2013151 do not contain its settlement.",
+      "coverage_limit": "Q4CFO4.5B, working-capital envelopes and corporate restructuring0.20/0.15/0.10/0.10B are generic. Their internal allocation is not disclosed, so lack of explicit coverage does not prove total cash budgeting is short by exactly215M.",
+      "supported_action": "Explicitly map the payable either into a separately reserved nonoperating claim or into identified cash budgets; never charge both. A separate reserve requires clarifying that existing cash envelopes exclude these named settlements.",
+      "undiscounted_nominal_claim_B": 0.215,
+      "per_share_at5_51B_before_any_tax_or_timing_adjustment": 0.03901996370235935
+    },
+    {
+      "id": "VLSI_accrual_unmapped",
+      "source": "Q3Note14 printed25/27/PDF27/29; q3_10q.txt1500\u20131501,1653\u20131654",
+      "facts": "Intel retains an approximately$1B VLSI litigation accrual and cannot reasonably estimate losses above the recorded amount. Proceedings and license defenses remain active.",
+      "model_lineage": "No VLSI or litigation reserve in the named other-assets/claims or treasury policies. Recurring corporate restructuring cash is not explicitly mapped to settlement of the existing accrual.",
+      "supported_action": "An owned book-value reserve can make the known claim explicit, paired with exclusion from ordinary cash budgets. It is not a certain payment, a loss cap, a probability-weighted legal valuation, or a settlement schedule.",
+      "undiscounted_nominal_claim_B": 1.0,
+      "per_share_at5_51B_before_any_tax_or_timing_adjustment": 0.18148820326678766
+    },
+    {
+      "id": "EC_funding_prevents_full_additional_reserve",
+      "source": "Q3Note14 printed25/PDF27; FY2025 10-K printed31/82 (PDF33/84), verified officialPDF and renderedpage84",
+      "facts": "Q3 carries312M EC accrual. Annual filing says340M was deposited into legally restricted accounts in2025 to fund a third-party guarantee of the unpaid appealed fine. The current model already excludes all552Mrestrictedcash.",
+      "finding": "Do not automatically add312Mliability on top of excluded funding. LatestQ3doesnotdisaggregate currentECcollateral or disclose its release; preserve a matched funding/obligation treatment without inventing a28M recovery.",
+      "additional_reserve_recommendation_B": 0,
+      "limitation": "This uses the last explicit funding disclosure; it does not assert the precise restricted-cash split remains340M atQ3."
+    }
+  ],
+  "candidate_total_new_reserve_excluding_funded_EC_B": 1.215,
+  "candidate_per_share_nominal_effect": 0.22050816696914702,
+  "not_new_omissions": [
+    "Fab28 accident and H1cost effects already identified by root. Current pitch distinguishes net revenue guidance from unmapped margin/cost effects.",
+    "Classiq1.9Bplus350Mcontingent allowance is reserved in treasury. Mentee Robotics closed before the starting cash balance; do not subtract its596M purchase again.",
+    "Government escrow proceeds, shares, derivative exclusion and contingent warrants are already bounded by the current claim policy.",
+    "Arizona NCI is an economic reserve, not a contractual distribution forecast; Ireland purchase is already before the opening balance.",
+    "AMICcash receipts, finite new credits and basis losses are explicit, though ordinarytax rates and eligibility remain assumptions.",
+    "2026capital-purchase payments split across investing and financing are incorporated once; commitments are not automatic extra cash charges.",
+    "Actual2026CFO contains no nonrecourse receivable sales versus2.4Binprior2025; no hidden2026factoring addback found.",
+    "$1.7Bcustomer deposits received inQ2 and supplier advances are already acknowledged through the cash/WC scope; $1.2Breportedlong-termdeposit is not the whole currentpluslong-termdeposit balance.",
+    "No additional material event or deterministic cash claim was found in the required full sections beyond the named issues above."
+  ],
+  "policy_lineage": [
+    {
+      "path": "intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json",
+      "lines": "65\u201381,83\u2013151,159\u2013171",
+      "use": "Openingcash, named treasury items and exact other-assets/claims identity."
+    },
+    {
+      "path": "intel_competition_screen_2026_11_04/cash_conversion_policy_2026_11_04.json",
+      "lines": "68,74,83",
+      "use": "Generic WC scope and nonrecurring transaction boundary."
+    },
+    {
+      "path": "intel_competition_screen_2026_11_04/corporate_other_policy.json",
+      "lines": "35,46,57,68,73\u201385",
+      "use": "Recurring restructuring allowances and absence of a named old-claim settlement mapping."
+    }
+  ],
+  "no_core_edits": true
+}

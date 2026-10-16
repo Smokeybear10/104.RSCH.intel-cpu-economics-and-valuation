@@ -1,0 +1,276 @@
+{
+  "task": "Intel 2027\u20132029 committed spending and cash classification bridge",
+  "created_utc": "2026-11-04T12:26:12.313676+00:00",
+  "units": "USD billions unless specified; fiscal reporting dates retained",
+  "scope": "Additive primary-source research; no operating forecast, funding, valuation, or frozen source modified.",
+  "judgment": {
+    "conclusion": "Public commitments establish substantial near-term cash requirements and support a higher 2027 spending year. They neither establish the exact base or bull annual budget nor demonstrate that either budget is insufficient. The clearest new amount is approximately 3.3 of substrate funding due by end 2027, already explicitly included in the frozen cash-conversion policy.",
+    "not_a_lower_bound": "No defensible numerical minimum specifically for calendar/fiscal 2027 alone or 2028\u20132029 can be derived from the disclosed maturity descriptions. Sep26 commitments span Q4 2026; the subsequent substrate amount has no 2026/2027 split.",
+    "underwriting_implication": "Treat the existing budgets as owned spending forecasts with real near-term commitments inside them, not free discretionary capex that can be cut without affecting supply. There is no source-based reason here to add the full commitment totals on top of those budgets.",
+    "remaining_test": "Update the 2026 year-end unpaid capital invoices, supplier-prepayment balances and project payment schedules against actual 2027 cash capex and net operating working capital. These are needed to prove available budget headroom."
+  },
+  "sources": [
+    {
+      "id": "q3",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "period_end": "2026-09-26",
+      "local": "q3_10q.txt",
+      "sha256": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+      "live_html_sha256": "1950f4306cfdcafe5dbcae5851b3ace9e23b997451037cd4e3d164cc3bae17c2"
+    },
+    {
+      "id": "q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
+      "period_end": "2026-06-27",
+      "local": "q2_10q_extracted.txt",
+      "sha256": "5057c788f7279154f01b2c7376f297de6fa77cb97e748fb4fc9fe8d63581dbbb",
+      "html_sha256": "23bf9b8f45c8a4412245f9919fcbf124d0aa1af3bd949af671a4cce68fc2acda"
+    },
+    {
+      "id": "annual",
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "period_end": "2025-12-27",
+      "local": "2025_10k.txt",
+      "sha256": "451450fd66433d8cce0eaa7fa6d8d3e153406de1ecf21191bbdbc2218a5fd044",
+      "html_sha256": "67af52d83cdc32a0c52d6007ba0b1031f25c50bc1cae5ee0d626721c9989e42d"
+    },
+    {
+      "id": "remarks",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "local": "q3_remarks.txt",
+      "sha256": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb",
+      "locator": "Lines 357\u2013368"
+    }
+  ],
+  "commitment_ledger": [
+    {
+      "item": "Capital expenditure commitments",
+      "source": "q3 Note 14, lines 1473\u20131483",
+      "amount": 19.6,
+      "as_of": "2026-09-26",
+      "status": "Enforceable commitments, not all purchase-order intentions. Substantial majority due in the following 12 months.",
+      "comparison_2025": 12.8,
+      "cash_classification": "Future cash PPE as delivered/invoiced/settled, including extended-term payments classified in financing in the GAAP statement.",
+      "boundary": "No disclosed quarterly maturities or reconciliation to already incurred unpaid PPE; do not add mechanically to unpaid invoices or forecast cash capex."
+    },
+    {
+      "item": "Other purchase obligations",
+      "source": "q3 Note 14, lines 1473\u20131483",
+      "amount": 9.8,
+      "comparison_2025": 6.7,
+      "timing": "Majority due beyond the following 12 months.",
+      "status": "Noncancelable contractual portions or minimum cancellation fees, rather than total cancelable orders.",
+      "cash_classification": "Depends on goods/services: ordinary costs already in EBIT, noncapital advances in operating working capital, or project commitments already within consolidated capital.",
+      "boundary": "Not all incremental working capital and not all 2027 cash; do not sum with Arizona contribution again."
+    },
+    {
+      "item": "Subsequent substrate supply agreements",
+      "source": "q3 Note 14 lines 1494\u20131496; MD&A lines 2498\u20132503",
+      "total_estimate_range": [
+        5.3,
+        6.1
+      ],
+      "expected_paid_by_end_2027": 3.3,
+      "conditional_amount_after_2027_range": [
+        2.0,
+        2.8
+      ],
+      "timing": "Signed after Sep26; some terms unfinished. No 2026/2027 split or later-year allocation.",
+      "status": "Issuer funding estimate, not a fully finalized fixed-price annual cash schedule.",
+      "cash_classification": "Map owned equipment to cash PPE, noncapital advances to working capital, supplier-capacity lease cash to its separate allowance, or consumed supplies to ordinary operating cash, as actual terms require.",
+      "boundary": "Chronologically subsequent to Sep26 commitment snapshot; neither subtract prior 1.2 prepayments nor automatically add all 5.3\u20136.1 to current capex and working-capital forecasts. Remaining 2.0\u20132.8 is simple conditional subtraction, not identified 2028\u20132029 cash."
+    },
+    {
+      "item": "Arizona unfunded contribution",
+      "source": "annual Note 19 Commitments",
+      "amount_2025": 5.2,
+      "latest_updated_amount": null,
+      "status": "Explicitly included within the 2025 other purchase commitments of 6.7.",
+      "cash_classification": "Intel and Arizona VIE are consolidated; Intel internal funding and consolidated factory expenditures are not two separate enterprise cash outflows. External partner cash contributions are financing when received.",
+      "boundary": "Do not add 5.2 to 6.7 or 9.8. Do not roll it down using aggregate partner contributions without an Arizona-only contribution schedule."
+    }
+  ],
+  "paid_and_accrued_ledger": [
+    {
+      "item": "Cash PPE already paid in YTD 2026",
+      "source": "q3 cash flow statement",
+      "investing_cash": 10.216,
+      "financing_cash_extended_terms": 1.618,
+      "total": 11.834,
+      "cash_mapping": "Already paid, reflected in Sep26 cash; not a new 2027 requirement. Forecast cash PPE must include both GAAP classifications once."
+    },
+    {
+      "item": "Supplier prepayments already paid",
+      "source": "q3 MD&A 2498\u20132503; q2 MD&A Funding Requirements",
+      "ytd_2026_q3": 1.2,
+      "ytd_2026_q2": 0.934,
+      "approx_q3_increment": 0.266,
+      "cash_mapping": "Already left cash. Future delivery can consume the prepayment rather than require repayment; disclosed aggregate is not mapped to particular contracts or to the subsequent two agreements. Q3 increment is approximate because 1.2 is rounded."
+    },
+    {
+      "item": "Customer funding received",
+      "source": "q3 and q2 MD&A Funding Requirements",
+      "agreements_q1_2026": 1.7,
+      "cash_received": "Q2 2026",
+      "q3_long_term_customer_deposit_liability": 1.2,
+      "cash_mapping": "Already in Sep26 cash. Delivery obligations remain. Do not book the 1.7 again as future financing or profit; no automatic additional customer funding forecast is supported."
+    },
+    {
+      "item": "Noncash PPE acquired but not yet paid",
+      "source": "q3 supplemental CF, lines 425\u2013432; q2 supplemental CF; inline XBRL CapitalExpendituresIncurredButNotYetPaid",
+      "q3_ytd_disclosure": 3.215,
+      "q3_extended_terms_subset": 0.854,
+      "q2_ytd_disclosure": 3.148,
+      "q2_extended_terms_subset": 0.626,
+      "annual_2025_disclosure": 4.952,
+      "timing": "Not cash already paid; exact payment year unavailable. Inline XBRL uses year-to-date duration contexts, not a complete construction-payables rollforward.",
+      "boundary": "Use as evidence of incurred unpaid capital, not permission to label 3.215 the entire current capital-payables stock, add it to every future commitment, or infer acquisition cash from the Q3\u2013Q2 difference. The subset must not be added to its total."
+    },
+    {
+      "item": "Extended-term unpaid capital invoices at 2025 year end",
+      "source": "annual Note 6 PPE",
+      "amount": 1.5,
+      "location": "Accounts payable and other accrued liabilities",
+      "cash_mapping": "The latest annual disclosure identifies unpaid capital amounts; Q3 statement separately reports 1.618 paid under financing classification and 0.854 noncash extended-term additions, but provides no complete reconciled closing-stock schedule. Do not add 2025 1.5 again after its settlement."
+    },
+    {
+      "item": "Prepaid supplier-capacity finance lease",
+      "source": "annual Note 19 Leases",
+      "total_finance_lease_asset_2025": 0.453,
+      "prepaid_portion": "Majority, not separately quantified",
+      "term_years": 6,
+      "commencement": "Start of supplier production",
+      "old_scheduled_payments_2027_2029": [
+        0.006,
+        0.006,
+        0.003
+      ],
+      "q3_ytd_2026_finance_lease_cash": 0.951,
+      "cash_mapping": "Prepaid asset is not future principal to pay again. Old maturity schedule does not explain 2026 cash and cannot calibrate the new agreements. Existing 1.0 annual all-in lease/capacity allowance is an owned forecast, not a legal runoff schedule."
+    }
+  ],
+  "construction_and_capacity": {
+    "total_company_CIP_2025": 34.543,
+    "total_company_CIP_q3_2026": null,
+    "Arizona": {
+      "CIP_2025": 5.6,
+      "placed_in_service_2025": 12.2,
+      "CIP_q2": 6.0,
+      "placed_in_service_q2": 13.8,
+      "CIP_q3": 5.9,
+      "placed_in_service_q3": 14.7,
+      "source": "q3 Note 3, lines 776\u2013788; q2 Note 3; annual Note 4",
+      "interpretation": "Recorded construction is an asset balance, not an unpaid budget or proof the whole amount has been cash funded. Transfers into service do not require repurchasing the asset. No remaining-cost-to-complete figure is disclosed."
+    },
+    "minimum_production": {
+      "effective": "Q1 2026",
+      "source": "q3 Note 3",
+      "requirement": "Minimum Arizona SCIP production and limits on excess inventory; failure can cause volume-related damages payable to the VIE.",
+      "quantified_minimum_or_damage": null,
+      "interpretation": "Real constraint on shutting down or deferring operation; not a disclosed numerical 2027 cash floor. Consolidation and partner distribution economics must be considered before adding damages to consolidated costs."
+    },
+    "other_project_boundary": "Hardware agent identifies the July13 Ireland EUR5B expansion and Fab62 end2028 operations objective. They are project-scope evidence, not additional annual cash budgets or proof that existing CIP is fully paid; avoid adding whole announced project totals to aggregate capex."
+  },
+  "existing_budget_comparison": {
+    "policy_hashes": {
+      "cash_conversion_policy_2026_11_04.json": "cadc8a93f26ea92e9d9539c064c2ca12533fa34a649f06be23c0bff875dc9fc4",
+      "financial_claims_and_treasury_policy_2026_11_04.json": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea",
+      "bullish_absorption_operating_policy.json": "6857dbbc5e3d724a3dde2b0ef0ce5914d40a87a09ac4afd6aa0369c32113bf65"
+    },
+    "base": {
+      "years": [
+        2027,
+        2028,
+        2029,
+        2030
+      ],
+      "physical_PPE": [
+        27,
+        29,
+        27,
+        25
+      ],
+      "capitalized_interest": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "total_cash_PPE": [
+        28,
+        30,
+        28,
+        26
+      ],
+      "net_operating_WC_cash_use": [
+        5,
+        4,
+        2,
+        2
+      ],
+      "all_in_supplier_lease_cash": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "2027_2029_physical_total": 83,
+      "2027_2029_WC_total": 11,
+      "2027_2029_physical_plus_WC": 94
+    },
+    "bull": {
+      "physical_PPE": [
+        29,
+        31,
+        30,
+        29
+      ],
+      "capitalized_interest": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "total_cash_PPE": [
+        30,
+        32,
+        31,
+        30
+      ],
+      "net_operating_WC_cash_use": [
+        6,
+        5,
+        3,
+        3
+      ],
+      "all_in_supplier_lease_cash": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "2027_2029_physical_total": 90,
+      "2027_2029_WC_total": 14,
+      "2027_2029_physical_plus_WC": 104
+    },
+    "guidance_anchor": "Issuer prepared remarks retain 20.0 gross 2026 capex, describe 2027 as up strongly, and report firm equipment orders up nearly 40% sequentially. No numerical 2027 cash capex guidance is supplied. Base 28 and bull 30 cash PPE imply 40% and 50% increases under the inherited comparable-gross convention; these percentages are forecast comparisons, not company guidance.",
+    "conditional_substrate_scale": "If all 3.3 is paid during 2027 and increases noncapital advances with no same-year offset, it would consume 66% of base 5 or 55% of bull 6 net working-capital use. Those conditions are not disclosed; if it purchases owned equipment, map it to PPE instead. This is a scale check, not residual budget headroom.",
+    "already_covered": "Frozen cash policy explicitly includes substrate program funding within the PPE/WC envelope. This review finds a calibration limitation, not an identified omitted 3.3 cash payment."
+  },
+  "cash_identity_controls": [
+    "Start with forecast EBIT including the cost of supplies consumed. Deduct net operating working-capital investment, including unconsumed supplier advances and customer deposits. When a paid advance is consumed, its asset release offsets the noncash operating expense in cash conversion; do not expense the same prepaid cash a second time.",
+    "Cash PPE = cash equipment and construction settlements, including capitalized interest and prior capital invoices where included by policy. Exclude capital-related payables from operating working-capital changes to avoid a duplicate adjustment.",
+    "Record supplier-capacity lease cash in the separate all-in allowance only when excluded from cash PPE and operating costs. Do not add the leased asset acquisition and all prepaid cash a second time.",
+    "Keep partner funding, government incentive receipts, and customer deposits distinct. Partner contributions are financing; government incentives follow the selected receivable/credit policy; customer deposits affect operating cash and future fulfillment. None is an automatic offset to new spending without a dated receipt.",
+    "Commitment totals do not become extra debt or separate valuation liabilities when the underlying cash costs are already forecast. Existing NCI cash reserves and consolidated capital must not receive a second deduction for the same Arizona project."
+  ],
+  "specific_unavailable_inputs": [
+    "2026 year-end total capital payable balance and settlement maturity schedule",
+    "2026 versus 2027 allocation of the new 3.3 substrate payments",
+    "Ownership, lease, prepaid-capacity, and ordinary supply classification of each new agreement",
+    "Prepayment drawdown schedule and inventory/receivable/payable offsets needed to validate net working capital",
+    "Current remaining Arizona funding commitment and quantified minimum-production/damage terms",
+    "Company-wide September CIP and remaining cash costs to complete, net of capital invoices and deposits already paid"
+  ],
+  "no_changes": "No model rerun, new stock valuation, or amendment of any source policy."
+}

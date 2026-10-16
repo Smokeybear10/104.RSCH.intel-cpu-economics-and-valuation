@@ -1,0 +1,686 @@
+{
+  "computed_utc": "2026-11-06T21:58:12.893980+00:00",
+  "policy_sha256": "65e3f06411b57423b394a2d287f98893a2af43a69aee4f4423fe1fbfeb2ab05d",
+  "source_model_sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+  "capital_policy_input_sha256": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+  },
+  "baseline_checks": {
+    "valuation_comparisons": 18,
+    "maximum_error": 5.684341886080802e-14,
+    "zero_growth_shift_max_error": 0.0
+  },
+  "date_aligned_horizon_years": 4.153319644079398,
+  "baseline_by_rate": [
+    {
+      "rate": 0.10625,
+      "planning_value_USD": 56.139285845568374,
+      "target2030_USD": 82.47015162680005,
+      "annual_price_return": 0.11615212704256206,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 7.493000624273422,
+      "terminal_reinvestment_fraction": 0.12998303737351463,
+      "terminal_implied_incremental_ROC": 0.2307993458699774,
+      "terminal_cash_B": 46.96924956258162,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 55.51108815369126,
+        "0.12": 51.50846558693102,
+        "0.15": 46.15292820436105
+      },
+      "twenty_pct_discount_to_Dec2026_value_USD": 44.911428676454705,
+      "twenty_pct_target_haircut_then_12pct_return_entry_USD": 41.206772469544816
+    },
+    {
+      "rate": 0.11555,
+      "planning_value_USD": 48.557681488026326,
+      "target2030_USD": 73.56082736404235,
+      "annual_price_return": 0.0858480430836479,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 7.493000624273422,
+      "terminal_reinvestment_fraction": 0.12998303737351463,
+      "terminal_implied_incremental_ROC": 0.2307993458699774,
+      "terminal_cash_B": 46.96924956258162,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 49.514175637053604,
+        "0.12": 45.94395996715554,
+        "0.15": 41.166986079394654
+      },
+      "twenty_pct_discount_to_Dec2026_value_USD": 38.84614519042106,
+      "twenty_pct_target_haircut_then_12pct_return_entry_USD": 36.75516797372444
+    }
+  ],
+  "terminal_ROC_sensitivity": [
+    {
+      "terminal_ROC_assumption": 0.10625,
+      "rate": 0.10625,
+      "planning_value_USD": 51.053818590360166,
+      "target2030_USD": 74.85385241813917,
+      "annual_price_return": 0.09041320414743348,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 16.276514284100124,
+      "terminal_reinvestment_fraction": 0.2823529411764706,
+      "terminal_implied_incremental_ROC": 0.10625,
+      "terminal_cash_B": 38.18573590275492,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 50.38451752859894,
+        "0.12": 46.75154592629597,
+        "0.15": 41.890604155886436
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.11555,
+      "rate": 0.10625,
+      "planning_value_USD": 51.81228610339226,
+      "target2030_USD": 75.98977862302924,
+      "annual_price_return": 0.0943745683662669,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 14.96650491290037,
+      "terminal_reinvestment_fraction": 0.2596278667243617,
+      "terminal_implied_incremental_ROC": 0.11555000000000001,
+      "terminal_cash_B": 39.495745273954675,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 51.14911536735506,
+        "0.12": 47.461012499107014,
+        "0.15": 42.52630470384938
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.12,
+      "rate": 0.10625,
+      "planning_value_USD": 52.13362384622872,
+      "target2030_USD": 76.47103320076184,
+      "annual_price_return": 0.09603931763284579,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 14.411497022380319,
+      "terminal_reinvestment_fraction": 0.25000000000000006,
+      "terminal_implied_incremental_ROC": 0.11999999999999998,
+      "terminal_cash_B": 40.05075316447473,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 51.473050327603154,
+        "0.12": 47.76159015498266,
+        "0.15": 42.79563012081508
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.15,
+      "rate": 0.10625,
+      "planning_value_USD": 53.802413787116485,
+      "target2030_USD": 78.97031259208778,
+      "annual_price_return": 0.10455910903031929,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 11.529197617904254,
+      "terminal_reinvestment_fraction": 0.2,
+      "terminal_implied_incremental_ROC": 0.15,
+      "terminal_cash_B": 42.93305256895079,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 53.15532828970057,
+        "0.12": 49.32256759931664,
+        "0.15": 44.19430661206844
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.2,
+      "rate": 0.10625,
+      "planning_value_USD": 55.47120372800428,
+      "target2030_USD": 81.46959198341374,
+      "annual_price_return": 0.11287657793030093,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 8.646898213428189,
+      "terminal_reinvestment_fraction": 0.15,
+      "terminal_implied_incremental_ROC": 0.20000000000000004,
+      "terminal_cash_B": 45.81535197342686,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 54.83760625179799,
+        "0.12": 50.883545043650635,
+        "0.15": 45.592983103321814
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.2307993458699771,
+      "rate": 0.10625,
+      "planning_value_USD": 56.139285845568374,
+      "target2030_USD": 82.47015162680005,
+      "annual_price_return": 0.11615212704256206,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 7.493000624273429,
+      "terminal_reinvestment_fraction": 0.12998303737351474,
+      "terminal_implied_incremental_ROC": 0.2307993458699772,
+      "terminal_cash_B": 46.969249562581616,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 55.51108815369126,
+        "0.12": 51.50846558693102,
+        "0.15": 46.15292820436105
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.10625,
+      "rate": 0.11555,
+      "planning_value_USD": 44.526335241338806,
+      "target2030_USD": 67.31764152161415,
+      "annual_price_return": 0.06290657779184561,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 16.276514284100124,
+      "terminal_reinvestment_fraction": 0.2823529411764706,
+      "terminal_implied_incremental_ROC": 0.10625,
+      "terminal_cash_B": 38.18573590275492,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 45.311854763106204,
+        "0.12": 42.04464710336027,
+        "0.15": 37.67310008224031
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.11555,
+      "rate": 0.11555,
+      "planning_value_USD": 45.127586809474444,
+      "target2030_USD": 68.24877594873178,
+      "annual_price_return": 0.06642797685353918,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 14.96650491290037,
+      "terminal_reinvestment_fraction": 0.2596278667243617,
+      "terminal_implied_incremental_ROC": 0.11555000000000001,
+      "terminal_cash_B": 39.495745273954675,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 45.938606190708356,
+        "0.12": 42.62620666945678,
+        "0.15": 38.194192617123
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.12,
+      "rate": 0.11555,
+      "planning_value_USD": 45.38231732655252,
+      "target2030_USD": 68.6432669848622,
+      "annual_price_return": 0.06790888347739021,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 14.411497022380319,
+      "terminal_reinvestment_fraction": 0.25000000000000006,
+      "terminal_implied_incremental_ROC": 0.11999999999999998,
+      "terminal_cash_B": 40.05075316447473,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 46.204140159671745,
+        "0.12": 42.87259433284836,
+        "0.15": 38.41496238786602
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.15,
+      "rate": 0.11555,
+      "planning_value_USD": 46.705198730973706,
+      "target2030_USD": 70.69196088260918,
+      "annual_price_return": 0.07549736292737186,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 11.529197617904254,
+      "terminal_reinvestment_fraction": 0.2,
+      "terminal_implied_incremental_ROC": 0.15,
+      "terminal_cash_B": 42.93305256895079,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 47.583126681636685,
+        "0.12": 44.15214914205722,
+        "0.15": 39.56147686019667
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.2,
+      "rate": 0.11555,
+      "planning_value_USD": 48.0280801353949,
+      "target2030_USD": 72.74065478035615,
+      "annual_price_return": 0.08292066585455893,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 8.646898213428189,
+      "terminal_reinvestment_fraction": 0.15,
+      "terminal_implied_incremental_ROC": 0.20000000000000004,
+      "terminal_cash_B": 45.81535197342686,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 48.96211320360162,
+        "0.12": 45.43170395126608,
+        "0.15": 40.707991332527314
+      }
+    },
+    {
+      "terminal_ROC_assumption": 0.2307993458699771,
+      "rate": 0.11555,
+      "planning_value_USD": 48.55768148802632,
+      "target2030_USD": 73.56082736404234,
+      "annual_price_return": 0.0858480430836479,
+      "terminal_NOPAT_B": 57.64598808952127,
+      "terminal_net_investment_B": 7.493000624273429,
+      "terminal_reinvestment_fraction": 0.12998303737351474,
+      "terminal_implied_incremental_ROC": 0.2307993458699772,
+      "terminal_cash_B": 46.969249562581616,
+      "CPU_2030_B": 60.07088322736725,
+      "CPU_2040_B": 108.02613688189624,
+      "CPU_CAGR2030to2040": 0.06044093219044244,
+      "net_investment2031to2040_B": 101.3217039128665,
+      "entry_ceiling_for_annual_return": {
+        "0.1": 49.5141756370536,
+        "0.12": 45.943959967155536,
+        "0.15": 41.16698607939465
+      }
+    }
+  ],
+  "reverse_thresholds": [
+    {
+      "name": "Planning value equals Nov5 quote; dates differ",
+      "growth_shift": {
+        "bracketed": true,
+        "parameter": -0.01720608037391458,
+        "endpoint": "2026",
+        "threshold_price_USD": 52.25,
+        "residual": -2.1316282072803006e-14,
+        "rate": 0.10625,
+        "planning_value_USD": 52.24999999999998,
+        "target2030_USD": 76.64532507275595,
+        "annual_price_return": 0.09664026375372381,
+        "terminal_NOPAT_B": 51.14560327543889,
+        "terminal_net_investment_B": 6.881545970189194,
+        "terminal_reinvestment_fraction": 0.13454814352524894,
+        "terminal_implied_incremental_ROC": 0.22296851679986415,
+        "terminal_cash_B": 41.08031940258347,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 91.72067943964943,
+        "CPU_CAGR2030to2040": 0.04323061750995483,
+        "net_investment2031to2040_B": 80.93988211005798,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 51.59036709348616,
+          "0.12": 47.87044780485478,
+          "0.15": 42.8931694134691
+        }
+      },
+      "terminal_ROC_only": {
+        "bracketed": true,
+        "parameter": 0.12169735808091545,
+        "endpoint": "2026",
+        "threshold_price_USD": 52.25,
+        "residual": -1.4210854715202004e-14,
+        "rate": 0.10625,
+        "planning_value_USD": 52.249999999999986,
+        "target2030_USD": 76.64532507275597,
+        "annual_price_return": 0.09664026375372403,
+        "terminal_NOPAT_B": 57.64598808952127,
+        "terminal_net_investment_B": 14.210494541186259,
+        "terminal_reinvestment_fraction": 0.2465131575005374,
+        "terminal_implied_incremental_ROC": 0.12169735808091542,
+        "terminal_cash_B": 40.25175564566879,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 108.02613688189624,
+        "CPU_CAGR2030to2040": 0.06044093219044244,
+        "net_investment2031to2040_B": 101.3217039128665,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 51.590367093486165,
+          "0.12": 47.87044780485479,
+          "0.15": 42.89316941346911
+        }
+      }
+    },
+    {
+      "name": "10% annual return from Nov5",
+      "growth_shift": {
+        "bracketed": true,
+        "parameter": -0.014151729220156402,
+        "endpoint": "2030",
+        "threshold_price_USD": 77.62530993033266,
+        "residual": 0.0,
+        "rate": 0.10625,
+        "planning_value_USD": 52.90434415944937,
+        "target2030_USD": 77.62530993033266,
+        "annual_price_return": 0.10000000000000009,
+        "terminal_NOPAT_B": 52.230655158597834,
+        "terminal_net_investment_B": 6.983610700640678,
+        "terminal_reinvestment_fraction": 0.1337071242823782,
+        "terminal_implied_incremental_ROC": 0.22437099115707945,
+        "terminal_cash_B": 42.063306555290936,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 94.4424055850231,
+        "CPU_CAGR2030to2040": 0.04628573043681672,
+        "net_investment2031to2040_B": 84.34203979177506,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 52.25,
+          "0.12": 48.48251793345874,
+          "0.15": 43.441600207894865
+        }
+      },
+      "terminal_ROC_only": {
+        "bracketed": true,
+        "parameter": 0.13221228524963502,
+        "endpoint": "2030",
+        "threshold_price_USD": 77.62530993033266,
+        "residual": -1.4210854715202004e-14,
+        "rate": 0.10625,
+        "planning_value_USD": 52.90434415944936,
+        "target2030_USD": 77.62530993033265,
+        "annual_price_return": 0.10000000000000009,
+        "terminal_NOPAT_B": 57.64598808952127,
+        "terminal_net_investment_B": 13.08032486860303,
+        "terminal_reinvestment_fraction": 0.2269078092353965,
+        "terminal_implied_incremental_ROC": 0.132212285249635,
+        "terminal_cash_B": 41.381925318252016,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 108.02613688189624,
+        "CPU_CAGR2030to2040": 0.06044093219044244,
+        "net_investment2031to2040_B": 101.3217039128665,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 52.249999999999986,
+          "0.12": 48.48251793345873,
+          "0.15": 43.44160020789486
+        }
+      }
+    },
+    {
+      "name": "12% annual return from Nov5",
+      "growth_shift": {
+        "bracketed": true,
+        "parameter": 0.003251239982259839,
+        "endpoint": "2030",
+        "threshold_price_USD": 83.65742161796447,
+        "residual": 0.0,
+        "rate": 0.10625,
+        "planning_value_USD": 56.93203603798362,
+        "target2030_USD": 83.65742161796447,
+        "annual_price_return": 0.1200000000000001,
+        "terminal_NOPAT_B": 58.98505780603436,
+        "terminal_net_investment_B": 7.61895938421198,
+        "terminal_reinvestment_fraction": 0.12916761748824693,
+        "terminal_implied_incremental_ROC": 0.2322563548308052,
+        "terminal_cash_B": 48.18236051915616,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 111.3850371469243,
+        "CPU_CAGR2030to2040": 0.06369295696841437,
+        "net_investment2031to2040_B": 105.5203292441516,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 56.3102457621313,
+          "0.12": 52.24999999999999,
+          "0.15": 46.81736237333615
+        }
+      },
+      "terminal_ROC_only": {
+        "bracketed": true,
+        "parameter": 0.2824039968412855,
+        "endpoint": "2030",
+        "threshold_price_USD": 83.65742161796447,
+        "residual": -1.4210854715202004e-14,
+        "rate": 0.10625,
+        "planning_value_USD": 56.93203603798362,
+        "target2030_USD": 83.65742161796446,
+        "annual_price_return": 0.1200000000000001,
+        "terminal_NOPAT_B": 57.64598808952127,
+        "terminal_net_investment_B": 6.123778919664411,
+        "terminal_reinvestment_fraction": 0.10623079112035509,
+        "terminal_implied_incremental_ROC": 0.2824039968412853,
+        "terminal_cash_B": 48.338471267190634,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 108.02613688189624,
+        "CPU_CAGR2030to2040": 0.06044093219044244,
+        "net_investment2031to2040_B": 101.3217039128665,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 56.31024576213129,
+          "0.12": 52.249999999999986,
+          "0.15": 46.817362373336145
+        }
+      }
+    },
+    {
+      "name": "15% annual return from Nov5",
+      "growth_shift": {
+        "bracketed": true,
+        "parameter": 0.027245670239351198,
+        "endpoint": "2030",
+        "threshold_price_USD": 93.36494108066438,
+        "residual": -4.263256414560601e-14,
+        "rate": 0.10625,
+        "planning_value_USD": 63.41382870452154,
+        "target2030_USD": 93.36494108066434,
+        "annual_price_return": 0.1499999999999997,
+        "terminal_NOPAT_B": 70.08513666416047,
+        "terminal_net_investment_B": 8.663081397388774,
+        "terminal_reinvestment_fraction": 0.123607968960683,
+        "terminal_implied_incremental_ROC": 0.242702798632201,
+        "terminal_cash_B": 58.23831736410548,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 139.2282908316384,
+        "CPU_CAGR2030to2040": 0.08769303469064549,
+        "net_investment2031to2040_B": 140.3243963500442,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 62.844427620874114,
+          "0.12": 58.31303519898524,
+          "0.15": 52.24999999999997
+        }
+      },
+      "terminal_ROC_only": {
+        "bracketed": false,
+        "lower_value": 58.97607746148022,
+        "upper_value": 88.817473393912,
+        "target": 93.36494108066438
+      }
+    },
+    {
+      "name": "Planning value equals Nov5 quote; dates differ",
+      "growth_shift": {
+        "bracketed": true,
+        "parameter": 0.01786510611692426,
+        "endpoint": "2026",
+        "threshold_price_USD": 52.25,
+        "residual": 7.105427357601002e-15,
+        "rate": 0.11555,
+        "planning_value_USD": 52.25000000000001,
+        "target2030_USD": 79.27897441693585,
+        "annual_price_return": 0.10559704193077213,
+        "terminal_NOPAT_B": 65.47875646510671,
+        "terminal_net_investment_B": 8.229785109284228,
+        "terminal_reinvestment_fraction": 0.12568633788379652,
+        "terminal_implied_incremental_ROC": 0.2386894272290481,
+        "terminal_cash_B": 54.06523345315626,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 127.67372314885083,
+        "CPU_CAGR2030to2040": 0.0783102924847654,
+        "net_investment2031to2040_B": 125.88118674655975,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 53.36309016997887,
+          "0.12": 49.51534882585218,
+          "0.15": 44.367043617647205
+        }
+      },
+      "terminal_ROC_only": {
+        "bracketed": false,
+        "lower_value": 36.12214749560417,
+        "upper_value": 51.91735146439321,
+        "target": 52.25
+      }
+    },
+    {
+      "name": "10% annual return from Nov5",
+      "growth_shift": {
+        "bracketed": true,
+        "parameter": 0.012933952209881354,
+        "endpoint": "2030",
+        "threshold_price_USD": 77.62530993033266,
+        "residual": 0.0,
+        "rate": 0.11555,
+        "planning_value_USD": 51.18219675185012,
+        "target2030_USD": 77.62530993033266,
+        "annual_price_return": 0.10000000000000009,
+        "terminal_NOPAT_B": 63.197929095965726,
+        "terminal_net_investment_B": 8.015240501555358,
+        "terminal_reinvestment_fraction": 0.12682758147635276,
+        "terminal_implied_incremental_ROC": 0.23654160751771142,
+        "terminal_cash_B": 51.99895069174414,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 121.95253360941429,
+        "CPU_CAGR2030to2040": 0.07337797841471128,
+        "net_investment2031to2040_B": 118.72969982226407,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 52.25,
+          "0.12": 48.48251793345874,
+          "0.15": 43.441600207894865
+        }
+      },
+      "terminal_ROC_only": {
+        "bracketed": true,
+        "parameter": 0.974465255398167,
+        "endpoint": "2030",
+        "threshold_price_USD": 77.62530993033266,
+        "residual": -1.4210854715202004e-14,
+        "rate": 0.11555,
+        "planning_value_USD": 51.18219675185011,
+        "target2030_USD": 77.62530993033265,
+        "annual_price_return": 0.10000000000000009,
+        "terminal_NOPAT_B": 57.64598808952127,
+        "terminal_net_investment_B": 1.7746960531486746,
+        "terminal_reinvestment_fraction": 0.030786115599105743,
+        "terminal_implied_incremental_ROC": 0.9744652553981646,
+        "terminal_cash_B": 52.68755413370637,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 108.02613688189624,
+        "CPU_CAGR2030to2040": 0.06044093219044244,
+        "net_investment2031to2040_B": 101.3217039128665,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 52.249999999999986,
+          "0.12": 48.48251793345873,
+          "0.15": 43.44160020789486
+        }
+      }
+    },
+    {
+      "name": "12% annual return from Nov5",
+      "growth_shift": {
+        "bracketed": true,
+        "parameter": 0.03012561826672832,
+        "endpoint": "2030",
+        "threshold_price_USD": 83.65742161796447,
+        "residual": 0.0,
+        "rate": 0.11555,
+        "planning_value_USD": 55.07724832091835,
+        "target2030_USD": 83.65742161796447,
+        "annual_price_return": 0.1200000000000001,
+        "terminal_NOPAT_B": 71.57276017207103,
+        "terminal_net_investment_B": 8.803013777309769,
+        "terminal_reinvestment_fraction": 0.12299391215521212,
+        "terminal_implied_incremental_ROC": 0.24391451149339416,
+        "terminal_cash_B": 59.58600849209503,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 142.95982096286582,
+        "CPU_CAGR2030to2040": 0.09057364393415823,
+        "net_investment2031to2040_B": 144.98880901407847,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 56.3102457621313,
+          "0.12": 52.24999999999999,
+          "0.15": 46.81736237333615
+        }
+      },
+      "terminal_ROC_only": {
+        "bracketed": false,
+        "lower_value": 54.30240970063337,
+        "upper_value": 78.76381483973225,
+        "target": 83.65742161796447
+      }
+    },
+    {
+      "name": "15% annual return from Nov5",
+      "growth_shift": {
+        "bracketed": true,
+        "parameter": 0.053956010423571996,
+        "endpoint": "2030",
+        "threshold_price_USD": 93.36494108066438,
+        "residual": -4.263256414560601e-14,
+        "rate": 0.11555,
+        "planning_value_USD": 61.34558201117103,
+        "target2030_USD": 93.36494108066434,
+        "annual_price_return": 0.1499999999999997,
+        "terminal_NOPAT_B": 85.3285207554885,
+        "terminal_net_investment_B": 10.096940840055034,
+        "terminal_reinvestment_fraction": 0.11833019898455908,
+        "terminal_implied_incremental_ROC": 0.25352784206772694,
+        "terminal_cash_B": 72.04784201276723,
+        "CPU_2030_B": 60.07088322736725,
+        "CPU_2040_B": 177.46454263607214,
+        "CPU_CAGR2030to2040": 0.11440937685437635,
+        "net_investment2031to2040_B": 188.11971110558633,
+        "entry_ceiling_for_annual_return": {
+          "0.1": 62.844427620874114,
+          "0.12": 58.31303519898524,
+          "0.15": 52.24999999999997
+        }
+      },
+      "terminal_ROC_only": {
+        "bracketed": false,
+        "lower_value": 54.30240970063337,
+        "upper_value": 78.76381483973225,
+        "target": 93.36494108066438
+      }
+    }
+  ],
+  "equity_carry_sensitivity_not_fair_value": [
+    {
+      "equity_carry_assumption": 0.08,
+      "arithmetic_proxy_only": 55.48075536622446
+    },
+    {
+      "equity_carry_assumption": 0.1,
+      "arithmetic_proxy_only": 55.32489162482944
+    },
+    {
+      "equity_carry_assumption": 0.12,
+      "arithmetic_proxy_only": 55.17226250839228
+    }
+  ],
+  "conclusions": [
+    "This analysis does not establish additional upside; it makes the required economic advantage explicit.",
+    "Terminal ROC is not an observed forecast. Lower terminal returns require more reinvestment for unchanged3%growth.",
+    "A reverse threshold is conditional on all other inputs; it does not identify a unique market expectation.",
+    "Date-correct2030 return ceilings are preferable to relabeling Dec2026 value as Nov5 fair value.",
+    "No evidence here justifies reducing the operating rate or raising growth to manufacture cushion."
+  ]
+}

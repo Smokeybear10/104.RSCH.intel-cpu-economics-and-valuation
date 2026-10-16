@@ -1,0 +1,2159 @@
+{
+  "calculated_utc": "2026-11-06T07:07:50.426152+00:00",
+  "input_hashes": {
+    "policy": "062ff8a3aa198dee85472bb544064b5e647c18240151395d2cc2f91a36ac42b5",
+    "cash": "ced1c5bff4f7f561cc522d6832d244b5a7301b69dc4ab08c318b686db4506e24",
+    "independent_audit": "bdc243cb87da66a874a7b3bce4bad48c086c82b34e851973a5665161b156605b"
+  },
+  "method": "Independent coupon calculation from stated principal, exact coupon and payment months. Adjust previously independently audited quarterly economic cash by cumulative payment-timing difference. No root function import or annual value change.",
+  "source_coupon_schedule": {
+    "2027": {
+      "known_quarterly_coupon_B": [
+        0.1684375,
+        0.18821874999999996,
+        0.1496875,
+        0.17246874999999998
+      ],
+      "known_annual_coupon_B": 0.6788124999999999,
+      "coverage_of_annual_cash_interest_envelope": 0.26108173076923075,
+      "unmodeled_annual_residual_B": 1.9211875000000003
+    },
+    "2028": {
+      "known_quarterly_coupon_B": [
+        0.1496875,
+        0.17246874999999998,
+        0.1496875,
+        0.17246874999999998
+      ],
+      "known_annual_coupon_B": 0.6443125,
+      "coverage_of_annual_cash_interest_envelope": 0.24781249999999996,
+      "unmodeled_annual_residual_B": 1.9556875000000002
+    },
+    "2029": {
+      "known_quarterly_coupon_B": [
+        0.1496875,
+        0.17246874999999998,
+        0.1496875,
+        0.17246874999999998
+      ],
+      "known_annual_coupon_B": 0.6443125,
+      "coverage_of_annual_cash_interest_envelope": 0.24781249999999996,
+      "unmodeled_annual_residual_B": 1.9556875000000002
+    },
+    "2030": {
+      "known_quarterly_coupon_B": [
+        0.1496875,
+        0.17246874999999998,
+        0.1204375,
+        0.17246874999999998
+      ],
+      "known_annual_coupon_B": 0.6150625,
+      "coverage_of_annual_cash_interest_envelope": 0.23656249999999998,
+      "unmodeled_annual_residual_B": 1.9849375
+    }
+  },
+  "source_instrument_payments": [
+    {
+      "year": 2027,
+      "month": 6,
+      "quarter": 2,
+      "cash_coupon_B": 0.02325,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0465,
+        "maturity_year": 2031,
+        "maturity_month": 6,
+        "coupon_months": [
+          6,
+          12
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 12,
+      "quarter": 4,
+      "cash_coupon_B": 0.02325,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0465,
+        "maturity_year": 2031,
+        "maturity_month": 6,
+        "coupon_months": [
+          6,
+          12
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 2,
+      "quarter": 1,
+      "cash_coupon_B": 0.025,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.05,
+        "maturity_year": 2033,
+        "maturity_month": 8,
+        "coupon_months": [
+          2,
+          8
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 8,
+      "quarter": 3,
+      "cash_coupon_B": 0.025,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.05,
+        "maturity_year": 2033,
+        "maturity_month": 8,
+        "coupon_months": [
+          2,
+          8
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.059625,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.053,
+        "maturity_year": 2036,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.059625,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.053,
+        "maturity_year": 2036,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.053593749999999996,
+      "note": {
+        "principal_B": 1.75,
+        "annual_coupon_rate": 0.06125,
+        "maturity_year": 2056,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.053593749999999996,
+      "note": {
+        "principal_B": 1.75,
+        "annual_coupon_rate": 0.06125,
+        "maturity_year": 2056,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.0155,
+      "note": {
+        "principal_B": 0.5,
+        "annual_coupon_rate": 0.062,
+        "maturity_year": 2066,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.0155,
+      "note": {
+        "principal_B": 0.5,
+        "annual_coupon_rate": 0.062,
+        "maturity_year": 2066,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.01875,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0375,
+        "maturity_year": 2027,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.029249999999999998,
+      "note": {
+        "principal_B": 1.5,
+        "annual_coupon_rate": 0.039,
+        "maturity_year": 2030,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.029249999999999998,
+      "note": {
+        "principal_B": 1.5,
+        "annual_coupon_rate": 0.039,
+        "maturity_year": 2030,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.01725,
+      "note": {
+        "principal_B": 0.75,
+        "annual_coupon_rate": 0.046,
+        "maturity_year": 2040,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.01725,
+      "note": {
+        "principal_B": 0.75,
+        "annual_coupon_rate": 0.046,
+        "maturity_year": 2040,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.0534375,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.0475,
+        "maturity_year": 2050,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.0534375,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.0475,
+        "maturity_year": 2050,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.02475,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0495,
+        "maturity_year": 2060,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.02475,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0495,
+        "maturity_year": 2060,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.01575,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0315,
+        "maturity_year": 2027,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.0205,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.041,
+        "maturity_year": 2047,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    },
+    {
+      "year": 2027,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.0205,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.041,
+        "maturity_year": 2047,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 6,
+      "quarter": 2,
+      "cash_coupon_B": 0.02325,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0465,
+        "maturity_year": 2031,
+        "maturity_month": 6,
+        "coupon_months": [
+          6,
+          12
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 12,
+      "quarter": 4,
+      "cash_coupon_B": 0.02325,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0465,
+        "maturity_year": 2031,
+        "maturity_month": 6,
+        "coupon_months": [
+          6,
+          12
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 2,
+      "quarter": 1,
+      "cash_coupon_B": 0.025,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.05,
+        "maturity_year": 2033,
+        "maturity_month": 8,
+        "coupon_months": [
+          2,
+          8
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 8,
+      "quarter": 3,
+      "cash_coupon_B": 0.025,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.05,
+        "maturity_year": 2033,
+        "maturity_month": 8,
+        "coupon_months": [
+          2,
+          8
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.059625,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.053,
+        "maturity_year": 2036,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.059625,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.053,
+        "maturity_year": 2036,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.053593749999999996,
+      "note": {
+        "principal_B": 1.75,
+        "annual_coupon_rate": 0.06125,
+        "maturity_year": 2056,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.053593749999999996,
+      "note": {
+        "principal_B": 1.75,
+        "annual_coupon_rate": 0.06125,
+        "maturity_year": 2056,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.0155,
+      "note": {
+        "principal_B": 0.5,
+        "annual_coupon_rate": 0.062,
+        "maturity_year": 2066,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.0155,
+      "note": {
+        "principal_B": 0.5,
+        "annual_coupon_rate": 0.062,
+        "maturity_year": 2066,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.029249999999999998,
+      "note": {
+        "principal_B": 1.5,
+        "annual_coupon_rate": 0.039,
+        "maturity_year": 2030,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.029249999999999998,
+      "note": {
+        "principal_B": 1.5,
+        "annual_coupon_rate": 0.039,
+        "maturity_year": 2030,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.01725,
+      "note": {
+        "principal_B": 0.75,
+        "annual_coupon_rate": 0.046,
+        "maturity_year": 2040,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.01725,
+      "note": {
+        "principal_B": 0.75,
+        "annual_coupon_rate": 0.046,
+        "maturity_year": 2040,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.0534375,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.0475,
+        "maturity_year": 2050,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.0534375,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.0475,
+        "maturity_year": 2050,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.02475,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0495,
+        "maturity_year": 2060,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.02475,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0495,
+        "maturity_year": 2060,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.0205,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.041,
+        "maturity_year": 2047,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    },
+    {
+      "year": 2028,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.0205,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.041,
+        "maturity_year": 2047,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 6,
+      "quarter": 2,
+      "cash_coupon_B": 0.02325,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0465,
+        "maturity_year": 2031,
+        "maturity_month": 6,
+        "coupon_months": [
+          6,
+          12
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 12,
+      "quarter": 4,
+      "cash_coupon_B": 0.02325,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0465,
+        "maturity_year": 2031,
+        "maturity_month": 6,
+        "coupon_months": [
+          6,
+          12
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 2,
+      "quarter": 1,
+      "cash_coupon_B": 0.025,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.05,
+        "maturity_year": 2033,
+        "maturity_month": 8,
+        "coupon_months": [
+          2,
+          8
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 8,
+      "quarter": 3,
+      "cash_coupon_B": 0.025,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.05,
+        "maturity_year": 2033,
+        "maturity_month": 8,
+        "coupon_months": [
+          2,
+          8
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.059625,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.053,
+        "maturity_year": 2036,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.059625,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.053,
+        "maturity_year": 2036,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.053593749999999996,
+      "note": {
+        "principal_B": 1.75,
+        "annual_coupon_rate": 0.06125,
+        "maturity_year": 2056,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.053593749999999996,
+      "note": {
+        "principal_B": 1.75,
+        "annual_coupon_rate": 0.06125,
+        "maturity_year": 2056,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.0155,
+      "note": {
+        "principal_B": 0.5,
+        "annual_coupon_rate": 0.062,
+        "maturity_year": 2066,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.0155,
+      "note": {
+        "principal_B": 0.5,
+        "annual_coupon_rate": 0.062,
+        "maturity_year": 2066,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.029249999999999998,
+      "note": {
+        "principal_B": 1.5,
+        "annual_coupon_rate": 0.039,
+        "maturity_year": 2030,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.029249999999999998,
+      "note": {
+        "principal_B": 1.5,
+        "annual_coupon_rate": 0.039,
+        "maturity_year": 2030,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.01725,
+      "note": {
+        "principal_B": 0.75,
+        "annual_coupon_rate": 0.046,
+        "maturity_year": 2040,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.01725,
+      "note": {
+        "principal_B": 0.75,
+        "annual_coupon_rate": 0.046,
+        "maturity_year": 2040,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.0534375,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.0475,
+        "maturity_year": 2050,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.0534375,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.0475,
+        "maturity_year": 2050,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.02475,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0495,
+        "maturity_year": 2060,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.02475,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0495,
+        "maturity_year": 2060,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.0205,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.041,
+        "maturity_year": 2047,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    },
+    {
+      "year": 2029,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.0205,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.041,
+        "maturity_year": 2047,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 6,
+      "quarter": 2,
+      "cash_coupon_B": 0.02325,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0465,
+        "maturity_year": 2031,
+        "maturity_month": 6,
+        "coupon_months": [
+          6,
+          12
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 12,
+      "quarter": 4,
+      "cash_coupon_B": 0.02325,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0465,
+        "maturity_year": 2031,
+        "maturity_month": 6,
+        "coupon_months": [
+          6,
+          12
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 2,
+      "quarter": 1,
+      "cash_coupon_B": 0.025,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.05,
+        "maturity_year": 2033,
+        "maturity_month": 8,
+        "coupon_months": [
+          2,
+          8
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 8,
+      "quarter": 3,
+      "cash_coupon_B": 0.025,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.05,
+        "maturity_year": 2033,
+        "maturity_month": 8,
+        "coupon_months": [
+          2,
+          8
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.059625,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.053,
+        "maturity_year": 2036,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.059625,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.053,
+        "maturity_year": 2036,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.053593749999999996,
+      "note": {
+        "principal_B": 1.75,
+        "annual_coupon_rate": 0.06125,
+        "maturity_year": 2056,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.053593749999999996,
+      "note": {
+        "principal_B": 1.75,
+        "annual_coupon_rate": 0.06125,
+        "maturity_year": 2056,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.0155,
+      "note": {
+        "principal_B": 0.5,
+        "annual_coupon_rate": 0.062,
+        "maturity_year": 2066,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.0155,
+      "note": {
+        "principal_B": 0.5,
+        "annual_coupon_rate": 0.062,
+        "maturity_year": 2066,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "april2026_terms"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.029249999999999998,
+      "note": {
+        "principal_B": 1.5,
+        "annual_coupon_rate": 0.039,
+        "maturity_year": 2030,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.01725,
+      "note": {
+        "principal_B": 0.75,
+        "annual_coupon_rate": 0.046,
+        "maturity_year": 2040,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.01725,
+      "note": {
+        "principal_B": 0.75,
+        "annual_coupon_rate": 0.046,
+        "maturity_year": 2040,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.0534375,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.0475,
+        "maturity_year": 2050,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.0534375,
+      "note": {
+        "principal_B": 2.25,
+        "annual_coupon_rate": 0.0475,
+        "maturity_year": 2050,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 3,
+      "quarter": 1,
+      "cash_coupon_B": 0.02475,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0495,
+        "maturity_year": 2060,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 9,
+      "quarter": 3,
+      "cash_coupon_B": 0.02475,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.0495,
+        "maturity_year": 2060,
+        "maturity_month": 3,
+        "coupon_months": [
+          3,
+          9
+        ],
+        "source": "march2020"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 5,
+      "quarter": 2,
+      "cash_coupon_B": 0.0205,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.041,
+        "maturity_year": 2047,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    },
+    {
+      "year": 2030,
+      "month": 11,
+      "quarter": 4,
+      "cash_coupon_B": 0.0205,
+      "note": {
+        "principal_B": 1,
+        "annual_coupon_rate": 0.041,
+        "maturity_year": 2047,
+        "maturity_month": 5,
+        "coupon_months": [
+          5,
+          11
+        ],
+        "source": "may2017"
+      }
+    }
+  ],
+  "cases": {
+    "source_coupons_plus_uniform_residual_base": {
+      "minimum": {
+        "year": 2028,
+        "quarter": 3,
+        "economic_cash_B": 29.34133763028937,
+        "headroom_over_owned_20B_buffer_B": 9.34133763028937,
+        "additional_liquidity_for_owned_buffer_B": 0,
+        "negative_cash": false
+      },
+      "quarterly_rows": [
+        {
+          "year": 2027,
+          "quarter": 1,
+          "known_coupon_B": 0.1684375,
+          "total_cash_interest_B": 0.6487343750000001,
+          "year_to_date_cash_change_B": 0.001265624999999937,
+          "ending_cash_B": 44.06625197105803
+        },
+        {
+          "year": 2027,
+          "quarter": 2,
+          "known_coupon_B": 0.18821874999999996,
+          "total_cash_interest_B": 0.6685156250000001,
+          "year_to_date_cash_change_B": -0.0172500000000001,
+          "ending_cash_B": 37.61315617654221
+        },
+        {
+          "year": 2027,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0.629984375,
+          "year_to_date_cash_change_B": 0.0027656249999998828,
+          "ending_cash_B": 33.62344646346135
+        },
+        {
+          "year": 2027,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.652765625,
+          "year_to_date_cash_change_B": -1.1102230246251565e-16,
+          "ending_cash_B": 33.86224898117643
+        },
+        {
+          "year": 2028,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0.638609375,
+          "year_to_date_cash_change_B": 0.011390624999999988,
+          "ending_cash_B": 29.914051491394
+        },
+        {
+          "year": 2028,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.661390625,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 29.446456394910644
+        },
+        {
+          "year": 2028,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0.638609375,
+          "year_to_date_cash_change_B": 0.011390624999999988,
+          "ending_cash_B": 29.34133763028937
+        },
+        {
+          "year": 2028,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.661390625,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 32.05252873278004
+        },
+        {
+          "year": 2029,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0.638609375,
+          "year_to_date_cash_change_B": 0.011390624999999988,
+          "ending_cash_B": 32.50272298728373
+        },
+        {
+          "year": 2029,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.661390625,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 34.5336974209452
+        },
+        {
+          "year": 2029,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0.638609375,
+          "year_to_date_cash_change_B": 0.011390624999999988,
+          "ending_cash_B": 36.93194998691804
+        },
+        {
+          "year": 2029,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.661390625,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 40.21101877218404
+        },
+        {
+          "year": 2030,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0.645921875,
+          "year_to_date_cash_change_B": 0.0040781250000000435,
+          "ending_cash_B": 39.244717907028296
+        },
+        {
+          "year": 2030,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.668703125,
+          "year_to_date_cash_change_B": -0.014624999999999888,
+          "ending_cash_B": 43.02825546913109
+        },
+        {
+          "year": 2030,
+          "quarter": 3,
+          "known_coupon_B": 0.1204375,
+          "total_cash_interest_B": 0.616671875,
+          "year_to_date_cash_change_B": 0.018703125000000154,
+          "ending_cash_B": 47.674948066804944
+        },
+        {
+          "year": 2030,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.668703125,
+          "year_to_date_cash_change_B": 2.220446049250313e-16,
+          "ending_cash_B": 54.301197740186
+        }
+      ],
+      "all_year_end_cash_unchanged": true,
+      "maximum_absolute_interim_change_B": 0.018703125000000154
+    },
+    "source_coupons_plus_Q1_Q3_residual_stress": {
+      "minimum": {
+        "year": 2028,
+        "quarter": 3,
+        "economic_cash_B": 18.19991575528936,
+        "headroom_over_owned_20B_buffer_B": -1.8000842447106393,
+        "additional_liquidity_for_owned_buffer_B": 1.8000842447106393,
+        "negative_cash": false
+      },
+      "quarterly_rows": [
+        {
+          "year": 2027,
+          "quarter": 1,
+          "known_coupon_B": 0.1684375,
+          "total_cash_interest_B": 1.1290312500000002,
+          "year_to_date_cash_change_B": 0.1709687499999999,
+          "ending_cash_B": 37.34345509605803
+        },
+        {
+          "year": 2027,
+          "quarter": 2,
+          "known_coupon_B": 0.18821874999999996,
+          "total_cash_interest_B": 0.18821874999999996,
+          "year_to_date_cash_change_B": -0.01725000000000007,
+          "ending_cash_B": 30.45315617654221
+        },
+        {
+          "year": 2027,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.11028125,
+          "year_to_date_cash_change_B": 0.17246874999999987,
+          "ending_cash_B": 26.215649588461343
+        },
+        {
+          "year": 2027,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -1.1102230246251565e-16,
+          "ending_cash_B": 33.86224898117642
+        },
+        {
+          "year": 2028,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.12753125,
+          "year_to_date_cash_change_B": 0.17246874999999995,
+          "ending_cash_B": 23.034629616393993
+        },
+        {
+          "year": 2028,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -2.7755575615628914e-17,
+          "ending_cash_B": 19.498956394910635
+        },
+        {
+          "year": 2028,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.12753125,
+          "year_to_date_cash_change_B": 0.17246874999999992,
+          "ending_cash_B": 18.19991575528936
+        },
+        {
+          "year": 2028,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -5.551115123125783e-17,
+          "ending_cash_B": 32.05252873278003
+        },
+        {
+          "year": 2029,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.12753125,
+          "year_to_date_cash_change_B": 0.17246874999999995,
+          "ending_cash_B": 26.513301112283727
+        },
+        {
+          "year": 2029,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -2.7755575615628914e-17,
+          "ending_cash_B": 25.971197420945195
+        },
+        {
+          "year": 2029,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.12753125,
+          "year_to_date_cash_change_B": 0.17246874999999992,
+          "ending_cash_B": 27.50552811191804
+        },
+        {
+          "year": 2029,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -5.551115123125783e-17,
+          "ending_cash_B": 40.21101877218403
+        },
+        {
+          "year": 2030,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.14215625,
+          "year_to_date_cash_change_B": 0.15784375000000006,
+          "ending_cash_B": 34.485983532028285
+        },
+        {
+          "year": 2030,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -0.014624999999999916,
+          "ending_cash_B": 36.00325546913108
+        },
+        {
+          "year": 2030,
+          "quarter": 3,
+          "known_coupon_B": 0.1204375,
+          "total_cash_interest_B": 1.11290625,
+          "year_to_date_cash_change_B": 0.17246875000000014,
+          "ending_cash_B": 40.39121369180494
+        },
+        {
+          "year": 2030,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": 1.6653345369377348e-16,
+          "ending_cash_B": 54.301197740186
+        }
+      ],
+      "all_year_end_cash_unchanged": true,
+      "maximum_absolute_interim_change_B": 0.17246875000000014
+    },
+    "source_coupons_plus_Q1_Q3_residual_stress_tax_shield_Q4": {
+      "minimum": {
+        "year": 2028,
+        "quarter": 3,
+        "economic_cash_B": 18.00585325528936,
+        "headroom_over_owned_20B_buffer_B": -1.9941467447106405,
+        "additional_liquidity_for_owned_buffer_B": 1.9941467447106405,
+        "negative_cash": false
+      },
+      "quarterly_rows": [
+        {
+          "year": 2027,
+          "quarter": 1,
+          "known_coupon_B": 0.1684375,
+          "total_cash_interest_B": 1.1290312500000002,
+          "year_to_date_cash_change_B": 0.1109687499999999,
+          "ending_cash_B": 37.28345509605803
+        },
+        {
+          "year": 2027,
+          "quarter": 2,
+          "known_coupon_B": 0.18821874999999996,
+          "total_cash_interest_B": 0.18821874999999996,
+          "year_to_date_cash_change_B": -0.13725000000000007,
+          "ending_cash_B": 30.333156176542207
+        },
+        {
+          "year": 2027,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.11028125,
+          "year_to_date_cash_change_B": -0.007531250000000128,
+          "ending_cash_B": 26.035649588461343
+        },
+        {
+          "year": 2027,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -1.1102230246251565e-16,
+          "ending_cash_B": 33.86224898117642
+        },
+        {
+          "year": 2028,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.12753125,
+          "year_to_date_cash_change_B": 0.10778124999999995,
+          "ending_cash_B": 22.96994211639399
+        },
+        {
+          "year": 2028,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -0.12937500000000002,
+          "ending_cash_B": 19.369581394910636
+        },
+        {
+          "year": 2028,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.12753125,
+          "year_to_date_cash_change_B": -0.021593750000000064,
+          "ending_cash_B": 18.00585325528936
+        },
+        {
+          "year": 2028,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -6.938893903907228e-17,
+          "ending_cash_B": 32.05252873278003
+        },
+        {
+          "year": 2029,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.12753125,
+          "year_to_date_cash_change_B": 0.10309374999999994,
+          "ending_cash_B": 26.443926112283727
+        },
+        {
+          "year": 2029,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -0.13875000000000004,
+          "ending_cash_B": 25.832447420945194
+        },
+        {
+          "year": 2029,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.12753125,
+          "year_to_date_cash_change_B": -0.0356562500000001,
+          "ending_cash_B": 27.29740311191804
+        },
+        {
+          "year": 2029,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -6.938893903907228e-17,
+          "ending_cash_B": 40.21101877218403
+        },
+        {
+          "year": 2030,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 1.14215625,
+          "year_to_date_cash_change_B": 0.08378125000000006,
+          "ending_cash_B": 34.41192103202829
+        },
+        {
+          "year": 2030,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": -0.16274999999999992,
+          "ending_cash_B": 35.85513046913108
+        },
+        {
+          "year": 2030,
+          "quarter": 3,
+          "known_coupon_B": 0.1204375,
+          "total_cash_interest_B": 1.11290625,
+          "year_to_date_cash_change_B": -0.04971874999999987,
+          "ending_cash_B": 40.169026191804946
+        },
+        {
+          "year": 2030,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0.17246874999999998,
+          "year_to_date_cash_change_B": 1.6653345369377348e-16,
+          "ending_cash_B": 54.301197740186
+        }
+      ],
+      "all_year_end_cash_unchanged": true,
+      "maximum_absolute_interim_change_B": 0.16274999999999992
+    },
+    "all_annual_interest_in_Q1_base_bound": {
+      "minimum": {
+        "year": 2028,
+        "quarter": 1,
+        "economic_cash_B": 27.952660866394,
+        "headroom_over_owned_20B_buffer_B": 7.952660866394002,
+        "additional_liquidity_for_owned_buffer_B": 0,
+        "negative_cash": false
+      },
+      "quarterly_rows": [
+        {
+          "year": 2027,
+          "quarter": 1,
+          "known_coupon_B": 0.1684375,
+          "total_cash_interest_B": 2.6,
+          "year_to_date_cash_change_B": -1.9500000000000002,
+          "ending_cash_B": 42.114986346058025
+        },
+        {
+          "year": 2027,
+          "quarter": 2,
+          "known_coupon_B": 0.18821874999999996,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -1.3000000000000003,
+          "ending_cash_B": 36.33040617654221
+        },
+        {
+          "year": 2027,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -0.6500000000000002,
+          "ending_cash_B": 32.97068083846135
+        },
+        {
+          "year": 2027,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -2.220446049250313e-16,
+          "ending_cash_B": 33.86224898117643
+        },
+        {
+          "year": 2028,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 2.6,
+          "year_to_date_cash_change_B": -1.9500000000000002,
+          "ending_cash_B": 27.952660866394
+        },
+        {
+          "year": 2028,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -1.3000000000000003,
+          "ending_cash_B": 28.146456394910643
+        },
+        {
+          "year": 2028,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -0.6500000000000002,
+          "ending_cash_B": 28.67994700528937
+        },
+        {
+          "year": 2028,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -2.220446049250313e-16,
+          "ending_cash_B": 32.05252873278004
+        },
+        {
+          "year": 2029,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 2.6,
+          "year_to_date_cash_change_B": -1.9500000000000002,
+          "ending_cash_B": 30.541332362283736
+        },
+        {
+          "year": 2029,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -1.3000000000000003,
+          "ending_cash_B": 33.233697420945205
+        },
+        {
+          "year": 2029,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -0.6500000000000002,
+          "ending_cash_B": 36.270559361918046
+        },
+        {
+          "year": 2029,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -2.220446049250313e-16,
+          "ending_cash_B": 40.21101877218404
+        },
+        {
+          "year": 2030,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 2.6,
+          "year_to_date_cash_change_B": -1.9500000000000002,
+          "ending_cash_B": 37.29063978202829
+        },
+        {
+          "year": 2030,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -1.3000000000000003,
+          "ending_cash_B": 41.742880469131094
+        },
+        {
+          "year": 2030,
+          "quarter": 3,
+          "known_coupon_B": 0.1204375,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -0.6500000000000002,
+          "ending_cash_B": 47.006244941804944
+        },
+        {
+          "year": 2030,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -2.220446049250313e-16,
+          "ending_cash_B": 54.301197740186
+        }
+      ],
+      "all_year_end_cash_unchanged": true,
+      "maximum_absolute_interim_change_B": 1.9500000000000002
+    },
+    "all_annual_interest_in_Q1_concentrated_bound": {
+      "minimum": {
+        "year": 2028,
+        "quarter": 3,
+        "economic_cash_B": 18.02744700528936,
+        "headroom_over_owned_20B_buffer_B": -1.9725529947106395,
+        "additional_liquidity_for_owned_buffer_B": 1.9725529947106395,
+        "negative_cash": false
+      },
+      "quarterly_rows": [
+        {
+          "year": 2027,
+          "quarter": 1,
+          "known_coupon_B": 0.1684375,
+          "total_cash_interest_B": 2.6,
+          "year_to_date_cash_change_B": -1.3,
+          "ending_cash_B": 35.87248634605803
+        },
+        {
+          "year": 2027,
+          "quarter": 2,
+          "known_coupon_B": 0.18821874999999996,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -1.3,
+          "ending_cash_B": 29.17040617654221
+        },
+        {
+          "year": 2027,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 26.043180838461343
+        },
+        {
+          "year": 2027,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 33.86224898117642
+        },
+        {
+          "year": 2028,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 2.6,
+          "year_to_date_cash_change_B": -1.3,
+          "ending_cash_B": 21.56216086639399
+        },
+        {
+          "year": 2028,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -1.3,
+          "ending_cash_B": 18.198956394910635
+        },
+        {
+          "year": 2028,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 18.02744700528936
+        },
+        {
+          "year": 2028,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 32.05252873278003
+        },
+        {
+          "year": 2029,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 2.6,
+          "year_to_date_cash_change_B": -1.3,
+          "ending_cash_B": 25.040832362283727
+        },
+        {
+          "year": 2029,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -1.3,
+          "ending_cash_B": 24.671197420945195
+        },
+        {
+          "year": 2029,
+          "quarter": 3,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 27.33305936191804
+        },
+        {
+          "year": 2029,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 40.21101877218403
+        },
+        {
+          "year": 2030,
+          "quarter": 1,
+          "known_coupon_B": 0.1496875,
+          "total_cash_interest_B": 2.6,
+          "year_to_date_cash_change_B": -1.3,
+          "ending_cash_B": 33.02813978202829
+        },
+        {
+          "year": 2030,
+          "quarter": 2,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": -1.3,
+          "ending_cash_B": 34.71788046913109
+        },
+        {
+          "year": 2030,
+          "quarter": 3,
+          "known_coupon_B": 0.1204375,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 40.21874494180494
+        },
+        {
+          "year": 2030,
+          "quarter": 4,
+          "known_coupon_B": 0.17246874999999998,
+          "total_cash_interest_B": 0,
+          "year_to_date_cash_change_B": 0.0,
+          "ending_cash_B": 54.301197740186
+        }
+      ],
+      "all_year_end_cash_unchanged": true,
+      "maximum_absolute_interim_change_B": 1.3
+    }
+  },
+  "conclusions": [
+    "Uniform quarterly interest timing does not create the base-case liquidity conclusion: even paying the entire annual cash-interest envelope in Q1 preserves the owned 20B buffer.",
+    "The concentrated stress already pays all annual interest before Q4. Source-verified November and December coupons shift cash outflow later and modestly improve its Q3 trough; they do not remove the buffer shortfall.",
+    "The stress retains positive economic cash. The 20B threshold is an analyst buffer, not a disclosed covenant, mandatory borrowing trigger or probability-calibrated failure point.",
+    "This is a partial coupon-informed timing control, not a full forecast of every debt instrument, interest-rate swap, prepayment or capitalization designation. The unmodeled residual is explicitly allocated bookkeeping.",
+    "No new financing, financing cost, valuation uplift or additional grant-receivable charge is introduced."
+  ],
+  "verification": {
+    "annual_interest_fixed_2_6B": true,
+    "all_year_end_cash_unchanged": true,
+    "base_matches_independently_audited_source": true,
+    "inputs_unchanged": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "audited_utc": "2026-11-04T11:04:25.455795+00:00",
+  "auditor": "root",
+  "scope": "Independent arithmetic and accounting-boundary check of four-year conditional cash forecast. Not validation of future forecasts, cash-credit collectibility or equity value.",
+  "source_hashes_match": {
+    "cash_conversion_policy_2026_11_04.json": true,
+    "product_operating_forecast_2026_11_04.json": true,
+    "corporate_other_policy.json": true,
+    "foundry_operating_policy.json": true,
+    "q3_actual_cash_conversion_bridge.json": true
+  },
+  "annual_recalculation": [
+    {
+      "year": 2027,
+      "EBIT_B": 11.672206272,
+      "pre_incentive_owner_cash_B": -12.188624668800001,
+      "cumulative_pre_incentive_B": -12.188624668800001,
+      "cumulative_with_selected_collections_B": -9.188624668800001
+    },
+    {
+      "year": 2028,
+      "EBIT_B": 18.694476809508004,
+      "pre_incentive_owner_cash_B": -5.2196947119182,
+      "cumulative_pre_incentive_B": -17.4083193807182,
+      "cumulative_with_selected_collections_B": -11.4083193807182
+    },
+    {
+      "year": 2029,
+      "EBIT_B": 25.094142587506706,
+      "pre_incentive_owner_cash_B": 6.120021199380697,
+      "cumulative_pre_incentive_B": -11.288298181337503,
+      "cumulative_with_selected_collections_B": -3.2882981813375025
+    },
+    {
+      "year": 2030,
+      "EBIT_B": 30.280495094765207,
+      "pre_incentive_owner_cash_B": 13.928420830550426,
+      "cumulative_pre_incentive_B": 2.6401226492129233,
+      "cumulative_with_selected_collections_B": 10.640122649212923
+    }
+  ],
+  "Q3_indirect_CFO_recalculation_B": 5.082,
+  "maximum_abs_arithmetic_error_B": 3.552713678800501e-15,
+  "arithmetic_result": "PASS",
+  "economic_limits": [
+    "Foundry breakeven, margin evolution, capital taper and cash-credit timing are analytical forecasts, not empirical estimates or independently proven outcomes.",
+    "Annual cash deficits do not determine required new external funding without opening liquidity, maturities, retained minimum cash and intra-year timing.",
+    "Pre-incentive cash excludes unestimated future incentives; the separate finite receivable collection does not imply a recurring subsidy.",
+    "The result cannot be compared directly with a Gordon cash amount to infer stock upside or downside; no endpoint valuation is computed.",
+    "Ordinary interest excludes capitalized interest contained in cash PPE; total D&A includes corporate amortization once; recurring SBC remains charged once."
+  ]
+}

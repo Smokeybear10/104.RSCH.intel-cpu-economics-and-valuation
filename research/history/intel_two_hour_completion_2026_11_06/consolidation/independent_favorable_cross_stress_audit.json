@@ -1,0 +1,89 @@
+{
+  "audited_utc": "2026-11-06T12:33:19.246367+00:00",
+  "input_sha256": {
+    "anchors": "721aa9b7a7445065317b17590eba55659558563664040651672c0fdf933b03f7",
+    "policy": "d612d8ae3f75d871eef55f2006575c34b79d5d25fea746b5f61de018cddc7270",
+    "results": "98ae86c27bf48750127105eb1ab0dacc8a2ed226b4ee24ec0941ece09ad49a3a",
+    "pack": "896ca70ede809c52d30ea3a4919b7ab84218e5ce8fc8e99fbc2a42fbe2e4fcbb"
+  },
+  "method": "Independent arithmetic from favorable anchor annual rows, frozen packaging policy and stated scenarios. No source-model/helper imports. Rebuild all operating rows, taxes, owner cash, treasury, terminal reinvestment and both DCF dates at10.625%.",
+  "comparisons": 2608,
+  "maximum_difference": 1.4210854715202004e-13,
+  "mismatches": [],
+  "cases": {
+    "favorable_unchanged": {
+      "planning_value_USD": 56.139285845568374,
+      "target2030_USD": 82.47015162680005,
+      "annual_price_return": 0.11615212704256206,
+      "opening2027_cash_B": 50.991828,
+      "ending2030_cash_B": 65.5404655626873,
+      "minimum_annual_cash_B": 34.9570282289772,
+      "terminal": {
+        "NOPAT_B": 57.64598808952128,
+        "net_operating_investment_B": 7.493000624273434,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.96924956258162,
+        "reinvestment_fraction_of_NOPAT": 0.1299830373735148,
+        "implied_incremental_ROC": 0.23079934586997708
+      }
+    },
+    "missing_program_proportional_cash_cost_avoidance": {
+      "planning_value_USD": 54.25211977117707,
+      "target2030_USD": 79.65599414802946,
+      "annual_price_return": 0.10686068672331128,
+      "opening2027_cash_B": 50.991828,
+      "ending2030_cash_B": 64.22691381341618,
+      "minimum_annual_cash_B": 34.91656350686257,
+      "terminal": {
+        "NOPAT_B": 55.96968904941374,
+        "net_operating_investment_B": 7.349526501773793,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 45.43642464497372,
+        "reinvestment_fraction_of_NOPAT": 0.13131261985903023,
+        "implied_incremental_ROC": 0.22846242830434954
+      }
+    },
+    "missing_program_no_cash_cost_avoidance": {
+      "planning_value_USD": 50.96934191877769,
+      "target2030_USD": 74.80075769252831,
+      "annual_price_return": 0.09022693113287983,
+      "opening2027_cash_B": 50.991828,
+      "ending2030_cash_B": 60.52617984840159,
+      "minimum_annual_cash_B": 34.08348296750397,
+      "terminal": {
+        "NOPAT_B": 53.6067132940814,
+        "net_operating_investment_B": 7.349526501773793,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 43.073448889641384,
+        "reinvestment_fraction_of_NOPAT": 0.1371008601377029,
+        "implied_incremental_ROC": 0.2188170079302804
+      }
+    },
+    "two_year_Foundry_cost_recovery_delay": {
+      "planning_value_USD": 54.08704913609683,
+      "target2030_USD": 79.59075188586729,
+      "annual_price_return": 0.1066423417333282,
+      "opening2027_cash_B": 50.991828,
+      "ending2030_cash_B": 55.76546556268731,
+      "minimum_annual_cash_B": 32.25312582464683,
+      "terminal": {
+        "NOPAT_B": 57.11005294005897,
+        "net_operating_investment_B": 7.493000624273434,
+        "lease_and_minority_cash_B": 3.183737902666226,
+        "parent_unlevered_cash_B": 46.43331441311931,
+        "reinvestment_fraction_of_NOPAT": 0.1312028309996117,
+        "implied_incremental_ROC": 0.2286536027571599
+      }
+    }
+  },
+  "stale_recorded_inputs": [],
+  "findings": [
+    "Favorable Q4 opening cash50.991828B is preserved; it is not reset to selected50.839B. Each stress changes treasury before the2030 equity valuation.",
+    "No selected-case equity-value delta is borrowed. Packaging stress reallocates actual favorable cash rows; Foundry delay uses the favorable2032 Products denominator.",
+    "Terminal growth remains funded: incremental host sales use turnover0.8 and packaging sales turnover1. All terminal claims and profits scale3%.",
+    "The rate is the declared rounded plain-T12ERP convention10.625%, not the separately calculated unrounded10.631495%. The same rate is used for all four cases.",
+    "The operating cases are favorable, jointly assumed and unweighted. Planning value is datedDec31 while entry isNov5; their difference is not a same-date verified margin of safety.",
+    "These are separate single-stress controls, not a combined packaging/Foundry shock or a probability distribution. Annual cash minima do not certify quarter-end liquidity."
+  ],
+  "all_inputs_unchanged": true
+}

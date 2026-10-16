@@ -1,0 +1,7 @@
+{
+  "Intel_PV_cash_after_five_explicit_years_fraction": 0.8737011464010782,
+  "Intel_cutoff": "December2031 atDecember2026valuation",
+  "WMS_PV_terminal_share": 0.812838187754514,
+  "WMS_cutoff": "FY2029 afterfiveexplicit2025-29periods inpublishedDCF",
+  "interpretation": "Bothvaluesrelysubstantiallyonlatercash. TheIntel92.3%after2030figurehasdifferentforecastlengthfromWMSfiveyearterminalshare; do notcomparethetwoasmatched. Matchedfiveperiodproportionsarecloser, butindustry/valuationdate/fiscalyearconventionsstilldiffer. HighposthorizonvaluedoesnotbyitselfinvalidateeitherDCF."
+}

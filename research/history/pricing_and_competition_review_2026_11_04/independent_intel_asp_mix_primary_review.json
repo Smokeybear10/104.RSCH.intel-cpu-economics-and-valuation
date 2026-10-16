@@ -1,0 +1,170 @@
+{
+  "title": "Independent Intel ASP, mix, and competition review",
+  "as_of": "2026-11-04",
+  "scope": "Primary public sources only. Research verdict, not a new forecast, valuation, price target, or submission.",
+  "verdict": {
+    "conclusion": "High realized ASP growth can be sustainable through richer product mix even without a same-SKU price increase. Existing evidence establishes that mechanism and its recent occurrence, but does not identify either 10% or 19.17% as the correct 2027 annual assumption.",
+    "strongest_counterargument_to_a_short": "A short based on ASP growth requiring repeated same-SKU hikes is contradicted by Intel's reported premium-mix contribution and by economically useful higher-priced configurations.",
+    "strongest_remaining_short_question": "Does the next mix upgrade produce enough incremental contribution and consolidated cash after its manufacturing and packaging requirements, while customers need fewer sockets per workload and have AMD or Arm alternatives?",
+    "direction": "These findings weaken a simplistic ASP-collapse short and strengthen the plausibility of a mix-supported bull case. They do not establish an attractive LONG or SHORT at the current stock price.",
+    "model_action": "None. No model coefficients were inferred from catalog prices or benchmark scores."
+  },
+  "competition_rules": {
+    "source": "m37",
+    "verified": "Individual entrants choose Intel or SpaceX, recommend LONG or SHORT over 3–5 years, and ground the recommendation in fundamental analysis. Round 1 is a PDF of at most 10 pages due November 9. Later evaluation explicitly tests judgment, counterarguments, and what would change the view.",
+    "implication": "A defensible directional claim and its falsification matter; a detailed model or a generic competition risk does not establish an investment edge. No mandatory catalyst rule is inferred."
+  },
+  "arithmetic_hurdle": {
+    "old_unit_growth": 0.3,
+    "old_asp_growth": 0.1,
+    "new_unit_growth": 0.2,
+    "old_server_cpu_revenue_multiplier": 1.43,
+    "required_new_asp_growth": 0.19166666666666687,
+    "formula": "(1.30 × 1.10) / 1.20 − 1 = 19.1667%",
+    "limitation": "This preserves server CPU revenue from a common 2026 base. It does not preserve EBIT, FCFF, wafer requirements, total DCAI revenue, or valuation. Higher ASP from mix can raise unit costs. It is a hurdle, not a prediction."
+  },
+  "realized_baseline": {
+    "source": "intel_q3_10q",
+    "filing_date": "2026-10-30",
+    "facts": "Intel reports Q3 2026 server ASP +54% and units +10% year over year; YTD ASP +44% and units +4%. Most ASP growth came from premium mix, with demand-based pricing a smaller contributor partly offsetting input costs. Premium mix also increased server unit costs. Intel expected industry supply constraints to persist into 2027.",
+    "inference": "The disputed issue is additional annual ASP growth on the richer 2026 base, not whether a 19% increase is technically possible. Quarterly mix, unit weights, discounts, and 2027 adoption are needed to distinguish carryover from further improvement. The filing does not quantify their individual contributions sufficiently to choose 10% or 19.17%."
+  },
+  "best_bounded_platform_comparison": {
+    "label": "Same OEM system and processor generation, but not a fully controlled CPU-only test",
+    "current_catalog": {
+      "sources": [
+        "intel_6972",
+        "intel_6980",
+        "dell_thermal"
+      ],
+      "observation_date": "2026-11-04",
+      "xeon_6972p": {
+        "cores": 96,
+        "recommended_customer_price_USD": 11446,
+        "TDP_W": 500
+      },
+      "xeon_6980p": {
+        "cores": 128,
+        "recommended_customer_price_USD": 13955,
+        "TDP_W": 500
+      },
+      "cpu_catalog_price_increase_pct": 21.920321509697715,
+      "cores_increase_pct": 33.33333333333333,
+      "catalog_price_per_core_change_pct": -8.55975886772672,
+      "interpretation": "A buyer moving up this product stack pays about 21.9% more per CPU for 33.3% more cores. Dell supports both in R770AP with the same listed fan category. This illustrates a mix mechanism without changing either SKU's price, not the actual aggregate mix shift.",
+      "price_limit": "Intel's RCP is guidance, not a formal offer or observed net invoice. Equal TDP is not equal measured power. Per-core cost is not per-workload cost."
+    },
+    "hpc_test": {
+      "sources": [
+        "spec_hpc_6972",
+        "spec_hpc_6980"
+      ],
+      "test_date": "July 2025",
+      "sponsor": "Intel",
+      "platform": "Supermicro SYS-222HA-TN, two CPUs, 1536 GB, oneAPI 2025.2, Ubuntu 22.04.5",
+      "benchmark": "SPEChpc 2021 Tiny base",
+      "score_6972p": 18.1,
+      "score_6980p": 22.4,
+      "performance_change_pct": 23.756906077348038,
+      "key_difference": "6972P used 24 × 64 GB PC5-6400B; 6980P used 24 × 64 GB PC5-8800X. MPI/thread allocation also differs. The performance gain includes the platform configuration."
+    },
+    "workload_control": {
+      "sources": [
+        "spec_accel_6972",
+        "spec_accel_6980"
+      ],
+      "benchmark": "SPECaccel 2023 base, CPU execution",
+      "score_6972p": 2.14,
+      "score_6980p": 2.3,
+      "performance_change_pct": 7.47663551401867,
+      "configuration": "Same Supermicro family, dual CPUs, 1536 GB and oneAPI 2025.2. Memory again changes 6400 to 8800; BIOS changes 1.1 to 1.2.",
+      "inference": "The same product-stack upgrade shows a much smaller gain on this suite. More cores or a favorable single benchmark cannot establish universal buyer economics."
+    },
+    "conclusion": "For some workloads, richer CPUs can justify higher dollars per socket. This pair has no matched net OEM invoice and no complete system-cost bridge. The faster memory is unpriced here, so no verified TCO saving or CPU-only price-performance coefficient is claimed."
+  },
+  "consolidation_example": {
+    "sources": [
+      "intel_tco",
+      "intel_8592",
+      "intel_6980"
+    ],
+    "test_vintage": "August 2024",
+    "vendor_claim": "Intel's ResNet50 example compares 80 dual-6980P servers with 150 dual-8592+ servers across ten racks, reporting up to 20% lower four-year TCO and 1.83× performance per server.",
+    "socket_arithmetic": "The configurations contain 160 versus 300 CPU sockets: approximately 47% fewer sockets for the vendor's modeled requirement.",
+    "confounders": "6980P was a preproduction platform with 1536 GB MRDIMM-8800, versus 1024 GB DDR5-5600 for 8592+. Power and platform details differ. It is Intel's modeled scenario, not an independently observed customer purchase.",
+    "catalog_cross_section": "Today's 6980P RCP is $13,955 versus $12,992 for the 64-core 8592+, a 7.4% premium per CPU. These are current cross-sectional prices, not historical transaction prices.",
+    "inference": "Higher price per CPU can coexist with lower spend per completed workload. Conversely, workload growth need not translate one-for-one into CPU units. Do not reprice the 2024 TCO exercise with today's RCP and call it an observed 2026 result."
+  },
+  "competition_and_customer_evidence": [
+    {
+      "sources": [
+        "amd_july"
+      ],
+      "date": "2026-07-23; comparison prices as of 2026-07-22",
+      "observation": "AMD's comparison lists EPYC 9996 at $14,904 per CPU versus EPYC 9965 at $11,988 and Intel 6980P at $13,955. AMD itself combines higher per-CPU pricing with more cores and projected throughput.",
+      "limitation": "The 9996 performance figures are explicitly preliminary engineering estimates. Generations, compilers and memory differ. CPU-price and CPU-power denominators omit the rest of the server. This is a competitive offer and a testable claim, not proof of Intel's net-price ceiling or realized AMD ASP."
+    },
+    {
+      "sources": [
+        "aws_cost",
+        "aws_method"
+      ],
+      "observation": "AWS documentation lists c7g.4xlarge at $0.5781/hour and c6i.4xlarge at $0.6800/hour, each with 16 vCPUs and 32 GB: about a 15% listed service-rate discount.",
+      "limitation": "The page supplies no clear pricing date or region for this table and discusses older generations. It is not a verified November 2026 quote. Graviton vCPU means a physical core; x86 vCPU can mean an SMT thread. Cloud rent includes infrastructure and service economics, not Intel's CPU selling price.",
+      "correct_test": "AWS recommends loading both platforms to the same acceptable latency/error limit. Compare total cost per successful request with memory, software compatibility, commitments, and migration costs included."
+    },
+    {
+      "source": "aws_sprinklr",
+      "observation": "The AWS-hosted Sprinklr customer account describes migrating x86 and earlier Graviton workloads to Graviton4. It reports 15–25% gains in Java microservices and 30% higher performance with 20–30% fewer cores for storage workloads.",
+      "limitation": "This is useful evidence of customer substitution and consolidation, but combines different prior architectures and workloads. It is not a controlled comparison against the latest Intel system or a measurement of Intel's market-wide unit loss."
+    }
+  ],
+  "capacity_and_margin_discipline": {
+    "sources": [
+      "intel_architecture",
+      "intel_q3_10q"
+    ],
+    "primary_evidence": "Intel documents separate compute and I/O chiplets with flexible construction and EMIB packaging. Its current filing directly reports higher unit costs from premium mix.",
+    "inference": "CPU packages are not interchangeable units of manufacturing capacity. A product mix shift may require more good compute silicon or packaging resources per sold CPU. Larger die area, yield/binning, and chiplet count must be traced before translating wafer starts into saleable CPUs.",
+    "boundary": "No exact die-area, die-count, wafer-yield or packaging-capacity multiplier for these two SKUs was verified. Enabled cores alone do not establish extra wafer consumption; binning can differentiate SKUs on common silicon.",
+    "accounting_warning": "Do not multiply independent assumptions for workload growth, CPU unit growth and richer per-CPU throughput without a socket/workload reconciliation. Do not equate higher dollars per CPU with unchanged gross margin or cash conversion."
+  },
+  "falsification": {
+    "premium_mix_bull_would_weaken_if": [
+      "Comparable-volume net quotes or subsequent reported server ASP/mix show insufficient additional premium mix on the 2026 base, while unit shipments fail to compensate.",
+      "Customer tests at common service levels show the richer Intel configuration loses total cost per workload after memory, software licensing, energy, and migration costs.",
+      "Higher server ASP primarily pays for more costly silicon, packaging and input costs, leaving contribution and consolidated cash below the thesis despite revenue growth."
+    ],
+    "pricing_or_mix_short_would_weaken_if": [
+      "Reported 2027 server ASP growth approaches or exceeds 19.17% with about 20% unit growth, preserving the old server revenue path. This specifically falsifies that revenue-shortfall mechanism, not every possible Intel short.",
+      "Customers adopt premium Intel configurations repeatedly at attractive net workload economics and the company converts the mix gain into contribution and cash after capital spending.",
+      "Competitive migration remains limited by workload performance or compatibility, while Intel's accepted shipments and premium mix keep rising."
+    ],
+    "best_next_public_evidence": "Quarterly server ASP and unit disclosures; explicit mix and unit-cost commentary; OEM customer deployment counts and matched quotes; repeat workload tests against the contemporaneous AMD/Arm alternative; and consolidated cash/capital outcomes. Catalog availability alone is insufficient."
+  },
+  "unresolved_or_excluded": [
+    "No dated primary historical same-SKU price series was verified. Current catalog prices must not be labeled historical price changes.",
+    "No fully matched Intel OEM configuration with a binding net price was verified. Dell thermal support and SPEC system disclosures establish configurability, not realized CPU price.",
+    "The near-matched SPEC comparison changes memory and BIOS. It is retained with those limits rather than called controlled evidence.",
+    "No 2027 aggregate mix weights, discount schedule, or customer purchase quantities were inferred.",
+    "Benchmark scores, OEM list premiums and cloud tariffs were not fitted to the valuation's ASP or capital coefficients."
+  ],
+  "sources": {
+    "m37": "https://www.m37.com/spc2026",
+    "intel_q3_10q": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "intel_6972": "https://www.intel.com/content/www/us/en/products/sku/240785/intel-xeon-6972p-processor-480m-cache-2-40-ghz/specifications.html",
+    "intel_6980": "https://www.intel.com/content/www/us/en/products/sku/240777/intel-xeon-6980p-processor-504m-cache-2-00-ghz/specifications.html",
+    "intel_8592": "https://www.intel.com/content/www/us/en/products/sku/237261/intel-xeon-platinum-8592-processor-320m-cache-1-90-ghz/specifications.html",
+    "dell_thermal": "https://www.dell.com/support/manuals/en-my/poweredge-r770ap/r770ap_ism/thermal-restriction-air-cooling?guid=guid-ab49acda-b484-4905-b114-2b4e3b881911&lang=en-us",
+    "spec_hpc_6972": "https://www.spec.org/hpc2021/results/res2025q3/hpc2021-20250805-00383.html",
+    "spec_hpc_6980": "https://www.spec.org/hpc2021/results/res2025q3/hpc2021-20250819-00384.html",
+    "spec_accel_6972": "https://www.spec.org/accel2023/results/res2025q3/accel2023-20250808-00052.html",
+    "spec_accel_6980": "https://www.spec.org/accel2023/results/res2025q3/accel2023-20250827-00053.html",
+    "intel_tco": "https://edc.intel.com/content/www/pl/pl/products/performance/benchmarks/intel-xeon-6/",
+    "amd_july": "https://www.amd.com/en/blogs/2026/the-agentic-era-runs-on-a-cpu-foundation-and-it-s-called.html",
+    "aws_cost": "https://docs.aws.amazon.com/prescriptive-guidance/latest/optimize-costs-microsoft-workloads/net-graviton.html",
+    "aws_method": "https://aws.amazon.com/ec2/graviton/getting-started/",
+    "aws_sprinklr": "https://aws.amazon.com/solutions/case-studies/sprinklr-case-study-graviton/",
+    "intel_architecture": "https://cdrdv2-public.intel.com/787432/Hot%20Chips%2023%20-%20Granite%20Rapid%20and%20Sierra%20Forest%20-%20Xeon%20Press%20Briefing%20-%20Public.pdf"
+  }
+}

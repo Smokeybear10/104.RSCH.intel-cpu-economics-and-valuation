@@ -1,0 +1,225 @@
+{
+  "audited_utc": "2026-11-06T07:45:10.895167+00:00",
+  "input_sha256": {
+    "annual": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8",
+    "quarterly": "ced1c5bff4f7f561cc522d6832d244b5a7301b69dc4ab08c318b686db4506e24",
+    "policy": "f8e9bee741206ff0d5a6e03c47f98778a64c9502579d0bd661a437596d110604",
+    "results": "0cb3ba43f02296a44b6ad01ec0224f80da2cba2e7f48509b29b28f029604ba7d",
+    "source_engine": "98366c147368965f1c9f445f8c9366f740c17e1152312cb3349816c94b377526",
+    "source_calculator": "cfa88da61500ce77edd1dd642cc3d9d90ac2c2c94dc3944ef624952413cdc7ee"
+  },
+  "method": "Independently replace only Foundry operating profit using the written policy; sum all group EBIT components; rebuild ordinary tax, FCFF, treasury and both valuation endpoints without importing source functions. Additional quarter overlays keep the existing base/concentrated timing and allocate the independent annual cost miss equally across quarters.",
+  "comparison_count": 252,
+  "maximum_difference": 5.684341886080802e-14,
+  "mismatches": [],
+  "cases": {
+    "selected": {
+      "values": {
+        "2026": {
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 82.57185093258153,
+          "total_operating_value_B": 187.02414758889742,
+          "financing_shield_PV_B": 2.58895408799514,
+          "cash_B": 50.839,
+          "debt_B": 50.134,
+          "net_other_assets_B": 4.502,
+          "remaining_escrow_PV_B": 2.2439808391052574,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "equity_B": 195.07963844589494,
+          "price_USD": 35.40465307548003
+        },
+        "2030": {
+          "explicit_operating_PV_B": 142.06527693129422,
+          "terminal_operating_PV_B": 127.87574650750206,
+          "total_operating_value_B": 269.94102343879626,
+          "financing_shield_PV_B": 2.748413786579589,
+          "cash_B": 54.301197740186,
+          "debt_B": 37.097,
+          "net_other_assets_B": 4.502,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "equity_B": 294.3956349655619,
+          "price_USD": 53.42933483948492
+        }
+      },
+      "minimum_annual_cash_B": 32.05252873278004,
+      "owner_cash2027to2030_B": 16.109197740186,
+      "annual_price_return": 0.0053884915192619065,
+      "quarterly_cost_overlay_controls": {
+        "base": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 29.32994700528937,
+          "below_owned20B_buffer_B": 0.0,
+          "negative_cash": false
+        },
+        "concentrated_timing_stress": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 18.02744700528936,
+          "below_owned20B_buffer_B": 1.9725529947106395,
+          "negative_cash": false
+        }
+      }
+    },
+    "flat_2027_loss": {
+      "values": {
+        "2026": {
+          "explicit_operating_PV_B": 73.65396433085945,
+          "terminal_operating_PV_B": 65.82212191154609,
+          "total_operating_value_B": 139.47608624240553,
+          "financing_shield_PV_B": 2.58895408799514,
+          "cash_B": 50.839,
+          "debt_B": 50.134,
+          "net_other_assets_B": 4.502,
+          "remaining_escrow_PV_B": 2.2439808391052574,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "equity_B": 147.53157709940302,
+          "price_USD": 26.775240852886213
+        },
+        "2030": {
+          "explicit_operating_PV_B": 108.07300830367923,
+          "terminal_operating_PV_B": 101.93610632537643,
+          "total_operating_value_B": 210.00911462905566,
+          "financing_shield_PV_B": 2.748413786579589,
+          "cash_B": 41.763697740186,
+          "debt_B": 37.097,
+          "net_other_assets_B": 4.502,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "equity_B": 221.92622615582124,
+          "price_USD": 40.276992042798774
+        }
+      },
+      "minimum_annual_cash_B": 29.290028732780037,
+      "owner_cash2027to2030_B": 3.571697740186001,
+      "annual_price_return": -0.060740056527394226,
+      "quarterly_cost_overlay_controls": {
+        "base": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 27.25807200528937,
+          "below_owned20B_buffer_B": 0.0,
+          "negative_cash": false
+        },
+        "concentrated_timing_stress": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 15.955572005289362,
+          "below_owned20B_buffer_B": 4.044427994710638,
+          "negative_cash": false
+        }
+      }
+    },
+    "two_year_recovery_delay": {
+      "values": {
+        "2026": {
+          "explicit_operating_PV_B": 95.73235324621776,
+          "terminal_operating_PV_B": 81.73440696475775,
+          "total_operating_value_B": 177.4667602109755,
+          "financing_shield_PV_B": 2.58895408799514,
+          "cash_B": 50.839,
+          "debt_B": 50.134,
+          "net_other_assets_B": 4.502,
+          "remaining_escrow_PV_B": 2.2439808391052574,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "equity_B": 185.522251067973,
+          "price_USD": 33.6701000123363
+        },
+        "2030": {
+          "explicit_operating_PV_B": 139.50243245637347,
+          "terminal_operating_PV_B": 126.5788302904839,
+          "total_operating_value_B": 266.08126274685736,
+          "financing_shield_PV_B": 2.748413786579589,
+          "cash_B": 44.52619774018599,
+          "debt_B": 37.097,
+          "net_other_assets_B": 4.502,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "equity_B": 280.76087427362296,
+          "price_USD": 50.9547866195323
+        }
+      },
+      "minimum_annual_cash_B": 29.290028732780037,
+      "owner_cash2027to2030_B": 6.334197740185997,
+      "annual_price_return": -0.0060254186018727784,
+      "quarterly_cost_overlay_controls": {
+        "base": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 27.25807200528937,
+          "below_owned20B_buffer_B": 0.0,
+          "negative_cash": false
+        },
+        "concentrated_timing_stress": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 15.955572005289362,
+          "below_owned20B_buffer_B": 4.044427994710638,
+          "negative_cash": false
+        }
+      }
+    },
+    "breakeven_without_mature_profit": {
+      "values": {
+        "2026": {
+          "explicit_operating_PV_B": 91.02418621628692,
+          "terminal_operating_PV_B": 74.36579233626185,
+          "total_operating_value_B": 165.38997855254877,
+          "financing_shield_PV_B": 2.58895408799514,
+          "cash_B": 50.839,
+          "debt_B": 50.134,
+          "net_other_assets_B": 4.502,
+          "remaining_escrow_PV_B": 2.2439808391052574,
+          "remaining_acquisition_PV_B": 1.9844440701029076,
+          "equity_B": 173.44546940954626,
+          "price_USD": 31.478306607903136
+        },
+        "2030": {
+          "explicit_operating_PV_B": 127.14225259615124,
+          "terminal_operating_PV_B": 115.16734943226312,
+          "total_operating_value_B": 242.30960202841436,
+          "financing_shield_PV_B": 2.748413786579589,
+          "cash_B": 48.98869774018599,
+          "debt_B": 37.097,
+          "net_other_assets_B": 4.502,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "equity_B": 261.45171355518,
+          "price_USD": 47.45040173415245
+        }
+      },
+      "minimum_annual_cash_B": 30.565028732780043,
+      "owner_cash2027to2030_B": 10.796697740185994,
+      "annual_price_return": -0.02293245129913246,
+      "quarterly_cost_overlay_controls": {
+        "base": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 28.21432200528937,
+          "below_owned20B_buffer_B": 0.0,
+          "negative_cash": false
+        },
+        "concentrated_timing_stress": {
+          "year": 2028,
+          "quarter": 3,
+          "cash_B": 16.911822005289363,
+          "below_owned20B_buffer_B": 3.0881779947106374,
+          "negative_cash": false
+        }
+      }
+    }
+  },
+  "findings": [
+    "Foundry replaces one host-profit component once. DCAI, CCPG, corporate and net incremental packaging stay unchanged; no duplicate revenue decremental, absorption penalty or packaging profit is charged.",
+    "All physical capex, D&A, working capital, leases, minority allowances and finite credits stay fixed. Lower EBIT therefore represents additional cash operating expense under the existing accounting policy, not a pure increase in noncash depreciation.",
+    "A depreciation-only miss would require a matching D&A add-back and an explicit tax treatment. An impairment or reserve release also cannot be treated mechanically as recurring cash expense. Narrow the current cost/process/depreciation wording to a cash operating-cost recovery stress.",
+    "These are isolated cost stresses at unchanged shipments and investment. A yield or ramp miss requiring more equipment, inventory or credits would need a separate jointly specified capital case; the present stresses do not establish that funding outcome.",
+    "Annual buffer flags cannot certify intra-year liquidity. All cases are cash-positive under these quarter overlays, but the pre-existing concentrated timing stress breaches the owned20B buffer and Foundry cost misses deepen that shortfall.",
+    "No additional borrowing is assumed. A buffer shortfall is an analyst funding preference, not negative cash, covenant failure or proven financing unavailability.",
+    "Fixed dollar interest income and financing-shield assumptions are inherited. They are not recalculated from reduced cash balances; this is a retained-policy control, not a fully dynamic treasury model.",
+    "The 2027 pre-D&A hurdle combines a frozen2026 Foundry-profit assumption of -8.5B with Q3 consolidated D&A annualized to12.928B. Neither is a disclosed matched full-year Foundry cash-cost baseline.",
+    "Conditional internal-revenue intensity and allocated D&A bridges are accounting-dollar hurdles only. Their assumed75/90/100% allocation is not reported Foundry EBITDA and must not be added to consolidated external sales."
+  ],
+  "all_inputs_unchanged": true
+}

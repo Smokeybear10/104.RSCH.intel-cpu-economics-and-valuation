@@ -1,0 +1,130 @@
+{
+  "as_of_utc": "2026-11-04T18:11:04.666001+00:00",
+  "status": "Focused research pass completed; current early-repricing Intel SHORT withdrawn as preferred submission. No automatic LONG recommendation.",
+  "user_request": "Research the remaining expectations, capital-efficiency, valuation-risk and convergence weaknesses.",
+  "root_decision": {
+    "current_draft": "Retain the existing PDF as a historical discussion draft, not a presently endorsed final entry. Do not submit it unchanged.",
+    "recommendation_change": "Retire the unsupported2027-2028convergence claim. Retain Intel as a developed valuation counterview. This pass did not earn a stronger directional LONG or SHORT for the competition.",
+    "why": "The current cash-conversion argument already appears in dated public research; accessible operating forecasts do not reveal a distinctive near-term disappointment in our model. The central conditional horizon price gives weak price-only short economics, while realistic changes in mature economics and risk worsen them. Early repricing was previously used to make the submission concrete rather than established by new evidence.",
+    "scope_of_conclusion": "This does not prove price is efficient, a correction impossible, or that every scenario must support the recommendation. Exact consensus and guaranteed catalysts are not required by M37. It is a judgment about this specific proposed position and evidence.",
+    "unchanged_central_operating_case": true,
+    "working_central_discount_rate": 0.12,
+    "why_not_switch_long": "Lower discount-rate and more productive operating cases are alternatives, not newly adopted most-likely forecasts. Central end2026 value remains44.07, below dated60.55reference; do not relabel an upside case to force LONG."
+  },
+  "new_expectation_evidence": {
+    "iFAST": {
+      "publication_date": "2026-11-02",
+      "data_date": "2026-10-30",
+      "forecast2027_2028_revenue_B": [
+        69.198,
+        80.73
+      ],
+      "forecast2027_2028_EPS_USD": [
+        1.77,
+        2.59
+      ],
+      "forecast2027_2028_gross_capex_B": [
+        30,
+        32
+      ],
+      "FY2028_target_USD": 65,
+      "target_method": "25x FY2028EPS",
+      "source_price_USD": 70.87,
+      "target_vs_our60_55_reference_fraction": 0.07349298100743185,
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "interpretation": "Published cash-conversion bearish opinion; not proof market consensus or current intrinsic value. Source price stale versus our reference; cannot copy its downside percentage. Capex classification not fully matched."
+    },
+    "S&P_via_StockAnalysis": {
+      "last_updated": "2026-11-03",
+      "forecast2027_revenue_B": 69.27,
+      "forecast2027_adjusted_EPS_USD": 1.8,
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "interpretation": "Distributed public forecast summary, not a matched complete investor cash-flow model."
+    }
+  },
+  "conditional_value_table": [
+    {
+      "operating_case": "less_productive",
+      "mature_DCAI_margin": 0.3,
+      "mature_host_sales_to_capital": 0.6,
+      "end2026_flat12_USD": 37.618386731014,
+      "end2026_maturing_risk_USD": 42.402670956100295,
+      "end2030_flat12_USD": 57.429165594921415,
+      "end2030_maturing_risk_USD": 64.95732944683729
+    },
+    {
+      "operating_case": "central",
+      "mature_DCAI_margin": 0.35,
+      "mature_host_sales_to_capital": 0.8,
+      "end2026_flat12_USD": 44.06791405274705,
+      "end2026_maturing_risk_USD": 49.96887374853764,
+      "end2030_flat12_USD": 67.57762169851732,
+      "end2030_maturing_risk_USD": 76.86289602242353
+    },
+    {
+      "operating_case": "more_productive",
+      "mature_DCAI_margin": 0.4,
+      "mature_host_sales_to_capital": 1.0,
+      "end2026_flat12_USD": 49.618050605214655,
+      "end2026_maturing_risk_USD": 56.50287732025843,
+      "end2030_flat12_USD": 76.31086901446875,
+      "end2030_maturing_risk_USD": 87.14427714083533
+    }
+  ],
+  "risk_control": "12%2027-2030; decline15bp/year2031-2040 to10.5%, then flat. Owned sensitivity selected before output; not observed rate forecast. All operating cases share same rate columns.",
+  "short_carry_correction": {
+    "statement": "Future share value above entry does not by itself rule out profitable short trading: proceeds interest net of borrow can offset price appreciation.",
+    "central2030_break_even_net_rebate_rate": 0.025324002396987337,
+    "central2030_at4pct_net_rebate_PnL_USD": 4.07271163481604,
+    "limits": "Hypothetical common collateral basis and geometric price path, no executable fee/rebate or account quote. Not an accountIRR or demonstrated alpha versus cash."
+  },
+  "what_is_complete": [
+    "Dated public expectations comparison, with accounting-scope limits.",
+    "Independent operating scenario policy selected before outputs.",
+    "Independent discount-risk review selected before outputs.",
+    "Joint continuation valuation at common rate controls.",
+    "Independent arithmetic audit:1973comparisons, max error about7.78e-14.",
+    "Short carry correction with documented illustrative economics."
+  ],
+  "limits": [
+    "No exact public2028-2029cash-flow consensus found; absence is not evidence all investors are mistaken.",
+    "Operating controls preserve2027-2030 output and spending; they do not span every near-term outcome or assign probabilities.",
+    "End2026 values use forecast closing balances, not exact current-date fair value.",
+    "Conditional future intrinsic values do not forecast stock prices.",
+    "Original models and eight-page PDF remain numerically unchanged; draft direction is superseded by this decision."
+  ],
+  "artifacts": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/execution_protocol.json",
+      "sha256": "9c5fe5289bb4a45bcb42eb34cbaa7edb2255e17d72bcd39b63bab3b7757ec9c9"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/expectations_review.json",
+      "sha256": "3b562f983b1d3922612b34af6a4e82a282f8ccce9d018006bafb63a5319f958c"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/independent_scenario_audit.json",
+      "sha256": "94981b5b4c3e94b5702cafb10f71bc7cd23030b98e5a2c62cb16f4fa85ddd6a5"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/joint_scenario_results.json",
+      "sha256": "ad3425c3b29bc928ecf8eea1f1b6ee85fa064f2547feaf577c304e0454c9faa4"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/operating_scenario_policy.json",
+      "sha256": "9a193f8c09195fe13ce7e3598a49437541385deea045cc50c8a4a6649a109836"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/risk_rate_review.json",
+      "sha256": "2683c97744b26bdfa29f029845b86458b05468e68734c69ea3f6146318aab284"
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_decision_pass_2026_11_04/short_carry_review.json",
+      "sha256": "735bc82f1dc89570e447900a81332ac8179406ff7703db290c821e52d0e74a23"
+    }
+  ],
+  "sent": false,
+  "winning_probability_established": false,
+  "required_input": null,
+  "pending_agent_work": false
+}

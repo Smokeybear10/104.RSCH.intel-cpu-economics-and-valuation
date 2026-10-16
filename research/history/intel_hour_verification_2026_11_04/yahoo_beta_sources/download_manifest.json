@@ -1,0 +1,90 @@
+[
+  {
+    "ticker": "SPY",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 755.719970703125
+  },
+  {
+    "ticker": "INTC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 65.76000213623047
+  },
+  {
+    "ticker": "TSM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 406.1300048828125
+  },
+  {
+    "ticker": "GFS",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GFS?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 41.900001525878906
+  },
+  {
+    "ticker": "UMC",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/UMC?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 16.68000030517578
+  },
+  {
+    "ticker": "TXN",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TXN?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 300.8399963378906
+  },
+  {
+    "ticker": "STM",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/STM?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 46.7400016784668
+  },
+  {
+    "ticker": "ON",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ON?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 71.66999816894531
+  },
+  {
+    "ticker": "ADI",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADI?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 417.1099853515625
+  },
+  {
+    "ticker": "MCHP",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MCHP?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 77.33999633789062
+  },
+  {
+    "ticker": "AMD",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?period1=1633046400&period2=1793491200&interval=1mo&events=div%2Csplits",
+    "rows": 61,
+    "start": "2021-10-01T04:00:00+00:00",
+    "end": "2026-10-01T04:00:00+00:00",
+    "lastadjusted": 504.79998779296875
+  }
+]

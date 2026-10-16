@@ -1,0 +1,1269 @@
+{
+  "computed_utc": "2026-11-05T23:32:53.638729+00:00",
+  "policy_sha256": "e377bc3be6f4eaf8c1dc188197fb4acfc22d1010f002bec0fa8420b6cc28ba78",
+  "policy": {
+    "policy_written_utc": "2026-11-05T23:32:14.226060+00:00",
+    "prior_result_disclosed": "Adding2025unit growth alone did not narrow the earlier2026diagnostic. At assumed Q4/Q3units1.1, existing feasible carryover endpoints are4.510032% and30.087837%; original2026bounds are numerical grid/optimization diagnostics, not statistical intervals.",
+    "scope_check": {
+      "2025_reorganization": "Q1 2025 integrated NEX into CCG/DCAI; all2024segment comparatives in2025filings were retrospectively adjusted. Use only those comparatives.",
+      "2026_comparison": "2026Note2 retainsDCAI; Q2renamesCCGtoCCPG.2025quarter DCAIsales4.126/3.939/4.117B exactly match2026comparatives. No later DCAI revenue recast identified.",
+      "remaining_scope_assumption": "Matching segment totals and narrative server unit/ASP terminology support but do not prove identical subsegment metrics. Treat the calculation as conditional on common server scope.",
+      "Other_2024": "No standalone dollar amount for2024or2025OtherDCAI found in2025Q1/Q2/Q3MD&A or relevant inlineXBRL names.2025CPUproxy therefore comes from2026Other disclosures;2024CPUrevenue remains latent.",
+      "recast_2024_DCAI_revenue_B": [
+        3.828,
+        3.805,
+        4.141
+      ]
+    },
+    "new_reported_inputs": {
+      "groups": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "H1",
+        "YTD"
+      ],
+      "unit_growth_2025_vs_2024": [
+        0.16,
+        0.13,
+        0,
+        0.15,
+        0.1
+      ],
+      "ASP_growth_2025_vs_2024": [
+        -0.1,
+        -0.08,
+        0,
+        -0.09,
+        -0.06
+      ],
+      "roughly_flat_Q3_also_applies_to_server_revenue": true
+    },
+    "rounding": "Whole-percent numeric changes use\u00b10.5pp as before. Roughly flat has no issuer tolerance: test\u00b10.5/1/2pp for Q3units,ASPandserverrevenue and label them analyst conventions.",
+    "additional_semantic_constraints": "2024CPUrevenue positive and no greater than recastDCAI. ExplicitH1andYTDOtherDCAIincrease andQ3OtherDCAIdecrease constrain2024Other residuals. No exact equality is invented for roughlyflat.",
+    "method_first": "For each existing min/max2026endpoint, hold2025/2026quarter units and CPUrevenues fixed, but re-solve latent2024units and2024CPUrevenues with linear programming.2025ASP ratios are linear constraints in2024units and revenues when2025units/revenues are fixed. Seek feasible witness rather than force a narrower bound.",
+    "conditional_next_step": "If prior endpoints cannot be extended, report which fail; a wider nonlinear search may seek new feasible extrema but will not be called a certified global bound. No optimization result yet computed for this newASPextension.",
+    "Q4_assumptions": "RetainQ4CPUrevenue6.5257B andQ4/Q3units0.9/1.0/1.1/1.2. No actualQ4ASP claimed.",
+    "primary_sources": [
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000074/intc-20250329.htm",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000109/intc-20250628.htm",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-25-000179/intc-20250927.htm"
+    ]
+  },
+  "endpoint_extension_results": [
+    {
+      "roughly_flat_band": 0.005,
+      "old_endpoint": "min_Q3_witness",
+      "prior_carryover_bounds": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ],
+      "status": "feasible endpoint extension",
+      "units_2024_to_2026_normalized": [
+        [
+          0.7513194476959725,
+          0.7560499714365044,
+          0.9026616998982249
+        ],
+        [
+          0.8752871565658078,
+          0.8581167175804324,
+          0.9071750083977159
+        ],
+        [
+          0.8271463629546884,
+          0.9322585693037456,
+          1.0
+        ]
+      ],
+      "CPU_revenue_2024_to_2026_B": [
+        [
+          3.2447300405472705,
+          3.1366172452531633,
+          3.4786069651741296
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.496
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.954
+        ]
+      ],
+      "Other_revenue_2024_B": [
+        0.5832699594527293,
+        0.6683827547468368,
+        0.6623930348258704
+      ],
+      "ratio_and_direction_checks": [
+        {
+          "quarters": [
+            1
+          ],
+          "2025_unit_growth": 0.1649999999999998,
+          "2025_ASP_growth": -0.09500000000000008,
+          "2025_CPU_revenue_growth": 0.054324999999999735,
+          "Other_revenue_2025_minus_2024_B": 0.12173004054727077
+        },
+        {
+          "quarters": [
+            2
+          ],
+          "2025_unit_growth": 0.1349999999999998,
+          "2025_ASP_growth": -0.075296632694417,
+          "2025_CPU_revenue_growth": 0.04953832189183638,
+          "Other_revenue_2025_minus_2024_B": -0.02138275474683682
+        },
+        {
+          "quarters": [
+            3
+          ],
+          "2025_unit_growth": 0.004999999999999893,
+          "2025_ASP_growth": 0.0,
+          "2025_CPU_revenue_growth": 0.004999999999999893,
+          "Other_revenue_2025_minus_2024_B": -0.041393034825870534
+        },
+        {
+          "quarters": [
+            1,
+            2
+          ],
+          "2025_unit_growth": 0.14995292603444943,
+          "2025_ASP_growth": -0.08520411133050998,
+          "2025_CPU_revenue_growth": 0.05197220889976473,
+          "Other_revenue_2025_minus_2024_B": 0.10034728580043395
+        },
+        {
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "2025_unit_growth": 0.09566173718370052,
+          "2025_ASP_growth": -0.05500000000000005,
+          "2025_CPU_revenue_growth": 0.035400341638596844,
+          "Other_revenue_2025_minus_2024_B": 0.058954250974563305
+        }
+      ],
+      "carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "flat_Q4_ASP_2027_carryover": 0.21115096348360862
+        },
+        {
+          "Q4_units_over_Q3": 1,
+          "flat_Q4_ASP_2027_carryover": 0.11982311088972653
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "flat_Q4_ASP_2027_carryover": 0.045100322403823334
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "flat_Q4_ASP_2027_carryover": -0.017168668001096066
+        }
+      ],
+      "max_linear_constraint_violation": 1.1047370867741231e-15,
+      "original_2026_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            0.7513194476959725,
+            0.7560499714365044,
+            0.9026616998982249
+          ],
+          [
+            0.8752871565658078,
+            0.8581167175804324,
+            0.9071750083977159
+          ],
+          [
+            0.8271463629546884,
+            0.9322585693037456,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.06809887964287586,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.1649999999999998,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.004999999999999893,
+            "unit_growth_2026": 0.10232313582605723
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14995292603444943,
+            "unit_growth_2026": 0.015000000000000124
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.09566173718370052,
+            "unit_growth_2026": 0.04499999999999993
+          }
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      }
+    },
+    {
+      "roughly_flat_band": 0.005,
+      "old_endpoint": "max_Q3_witness",
+      "prior_carryover_bounds": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ],
+      "status": "feasible endpoint extension",
+      "units_2024_to_2026_normalized": [
+        [
+          1.044410219629798,
+          1.265841081176573,
+          0.9044589313331234
+        ],
+        [
+          1.2167379058687144,
+          1.430539525079816,
+          0.9049773755656109
+        ],
+        [
+          1.149817321045935,
+          1.5541390858154047,
+          1.0
+        ]
+      ],
+      "CPU_revenue_2024_to_2026_B": [
+        [
+          3.2447300405472705,
+          3.157854467165576,
+          3.4786069651741296
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.496
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.954
+        ]
+      ],
+      "Other_revenue_2024_B": [
+        0.5832699594527293,
+        0.6471455328344242,
+        0.6623930348258704
+      ],
+      "ratio_and_direction_checks": [
+        {
+          "quarters": [
+            1
+          ],
+          "2025_unit_growth": 0.1649999999999998,
+          "2025_ASP_growth": -0.09500000000000008,
+          "2025_CPU_revenue_growth": 0.054324999999999735,
+          "Other_revenue_2025_minus_2024_B": 0.12173004054727077
+        },
+        {
+          "quarters": [
+            2
+          ],
+          "2025_unit_growth": 0.13010989005836282,
+          "2025_ASP_growth": -0.07754106958196094,
+          "2025_CPU_revenue_growth": 0.042479960438084996,
+          "Other_revenue_2025_minus_2024_B": -0.00014553283442420017
+        },
+        {
+          "quarters": [
+            3
+          ],
+          "2025_unit_growth": 0.0005732092575208014,
+          "2025_ASP_growth": 0.004424254718716769,
+          "2025_CPU_revenue_growth": 0.004999999999999893,
+          "Other_revenue_2025_minus_2024_B": -0.041393034825870534
+        },
+        {
+          "quarters": [
+            1,
+            2
+          ],
+          "2025_unit_growth": 0.14588288729651344,
+          "2025_ASP_growth": -0.08499999999999996,
+          "2025_CPU_revenue_growth": 0.04848284187630991,
+          "Other_revenue_2025_minus_2024_B": 0.12158450771284657
+        },
+        {
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "2025_unit_growth": 0.10499999999999998,
+          "2025_ASP_growth": -0.06500000000000017,
+          "2025_CPU_revenue_growth": 0.03317499999999973,
+          "Other_revenue_2025_minus_2024_B": 0.08019147288697592
+        }
+      ],
+      "carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "flat_Q4_ASP_2027_carryover": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1,
+          "flat_Q4_ASP_2027_carryover": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "flat_Q4_ASP_2027_carryover": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "flat_Q4_ASP_2027_carryover": 0.21729454043764873
+        }
+      ],
+      "max_linear_constraint_violation": 1.4800521228718835e-15,
+      "original_2026_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            1.051645444018385,
+            1.260387246766358,
+            0.9026775413547515
+          ],
+          [
+            1.2167379058687144,
+            1.430539525079816,
+            0.9049773755656109
+          ],
+          [
+            1.149817321045935,
+            1.5541390858154047,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.43371190004241456,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.15698490664258835,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.002547791548472178,
+            "unit_growth_2026": 0.10499999999999998
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14500000000000002,
+            "unit_growth_2026": 0.021410289397776117
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.1050000000000002,
+            "unit_growth_2026": 0.042705720341065456
+          }
+        ],
+        "max_constraint_violation": 2.220446049250313e-16
+      }
+    },
+    {
+      "roughly_flat_band": 0.01,
+      "old_endpoint": "min_Q3_witness",
+      "prior_carryover_bounds": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ],
+      "status": "feasible endpoint extension",
+      "units_2024_to_2026_normalized": [
+        [
+          0.7513194476959725,
+          0.7560499714365044,
+          0.898206619500457
+        ],
+        [
+          0.8752871565658078,
+          0.8581167175804324,
+          0.9071750083977159
+        ],
+        [
+          0.8271463629546884,
+          0.9322585693037456,
+          1.0
+        ]
+      ],
+      "CPU_revenue_2024_to_2026_B": [
+        [
+          3.2447300405472705,
+          3.135611382307418,
+          3.4613861386138614
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.496
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.954
+        ]
+      ],
+      "Other_revenue_2024_B": [
+        0.5832699594527293,
+        0.6693886176925821,
+        0.6796138613861387
+      ],
+      "ratio_and_direction_checks": [
+        {
+          "quarters": [
+            1
+          ],
+          "2025_unit_growth": 0.1649999999999998,
+          "2025_ASP_growth": -0.09500000000000008,
+          "2025_CPU_revenue_growth": 0.054324999999999735,
+          "Other_revenue_2025_minus_2024_B": 0.12173004054727077
+        },
+        {
+          "quarters": [
+            2
+          ],
+          "2025_unit_growth": 0.1349999999999998,
+          "2025_ASP_growth": -0.07500000000000007,
+          "2025_CPU_revenue_growth": 0.04987499999999967,
+          "Other_revenue_2025_minus_2024_B": -0.022388617692582047
+        },
+        {
+          "quarters": [
+            3
+          ],
+          "2025_unit_growth": 0.009984772659821672,
+          "2025_ASP_growth": 1.5076801740621093e-05,
+          "2025_CPU_revenue_growth": 0.010000000000000009,
+          "Other_revenue_2025_minus_2024_B": -0.05861386138613878
+        },
+        {
+          "quarters": [
+            1,
+            2
+          ],
+          "2025_unit_growth": 0.14995292603444943,
+          "2025_ASP_growth": -0.08505989345463949,
+          "2025_CPU_revenue_growth": 0.05213805266810834,
+          "Other_revenue_2025_minus_2024_B": 0.09934142285468872
+        },
+        {
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "2025_unit_growth": 0.09769088157552974,
+          "2025_ASP_growth": -0.05499999999999983,
+          "2025_CPU_revenue_growth": 0.037317883088875625,
+          "Other_revenue_2025_minus_2024_B": 0.04072756146854983
+        }
+      ],
+      "carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "flat_Q4_ASP_2027_carryover": 0.21115096348360862
+        },
+        {
+          "Q4_units_over_Q3": 1,
+          "flat_Q4_ASP_2027_carryover": 0.11982311088972653
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "flat_Q4_ASP_2027_carryover": 0.045100322403823334
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "flat_Q4_ASP_2027_carryover": -0.017168668001096066
+        }
+      ],
+      "max_linear_constraint_violation": 1.3303813496390426e-15,
+      "original_2026_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            0.7513194476959725,
+            0.7560499714365044,
+            0.8981930776215009
+          ],
+          [
+            0.8752871565658078,
+            0.8581167175804324,
+            0.9071750083977159
+          ],
+          [
+            0.8271463629546884,
+            0.9322585693037456,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.06809887964287586,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.1649999999999998,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.010000000000000009,
+            "unit_growth_2026": 0.10232313582605723
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14995292603444943,
+            "unit_growth_2026": 0.015000000000000124
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.09769706091905972,
+            "unit_growth_2026": 0.04499999999999993
+          }
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      }
+    },
+    {
+      "roughly_flat_band": 0.01,
+      "old_endpoint": "max_Q3_witness",
+      "prior_carryover_bounds": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ],
+      "status": "feasible endpoint extension",
+      "units_2024_to_2026_normalized": [
+        [
+          1.044410219629798,
+          1.2676224711549446,
+          0.9026775413547519
+        ],
+        [
+          1.2167379058687144,
+          1.430539525079816,
+          0.9049773755656109
+        ],
+        [
+          1.149817321045935,
+          1.5541390858154047,
+          1.0
+        ]
+      ],
+      "CPU_revenue_2024_to_2026_B": [
+        [
+          3.2447300405472705,
+          3.1627913759225312,
+          3.4613861386138614
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.496
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.954
+        ]
+      ],
+      "Other_revenue_2024_B": [
+        0.5832699594527293,
+        0.6422086240774689,
+        0.6796138613861387
+      ],
+      "ratio_and_direction_checks": [
+        {
+          "quarters": [
+            1
+          ],
+          "2025_unit_growth": 0.1649999999999998,
+          "2025_ASP_growth": -0.09500000000000008,
+          "2025_CPU_revenue_growth": 0.054324999999999735,
+          "Other_revenue_2025_minus_2024_B": 0.12173004054727077
+        },
+        {
+          "quarters": [
+            2
+          ],
+          "2025_unit_growth": 0.1285217465231867,
+          "2025_ASP_growth": -0.07768483755285371,
+          "2025_CPU_revenue_growth": 0.04085271796967027,
+          "Other_revenue_2025_minus_2024_B": 0.004791375922531094
+        },
+        {
+          "quarters": [
+            3
+          ],
+          "2025_unit_growth": 0.002547791548471956,
+          "2025_ASP_growth": 0.007433270028970762,
+          "2025_CPU_revenue_growth": 0.010000000000000009,
+          "Other_revenue_2025_minus_2024_B": -0.05861386138613878
+        },
+        {
+          "quarters": [
+            1,
+            2
+          ],
+          "2025_unit_growth": 0.14500000000000002,
+          "2025_ASP_growth": -0.08499999999999996,
+          "2025_CPU_revenue_growth": 0.047675000000000134,
+          "Other_revenue_2025_minus_2024_B": 0.12652141646980186
+        },
+        {
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "2025_unit_growth": 0.10499999999999998,
+          "2025_ASP_growth": -0.06383619710874877,
+          "2025_CPU_revenue_growth": 0.03446100219483239,
+          "Other_revenue_2025_minus_2024_B": 0.06790755508366297
+        }
+      ],
+      "carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "flat_Q4_ASP_2027_carryover": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1,
+          "flat_Q4_ASP_2027_carryover": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "flat_Q4_ASP_2027_carryover": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "flat_Q4_ASP_2027_carryover": 0.21729454043764873
+        }
+      ],
+      "max_linear_constraint_violation": 5.6487112317702315e-16,
+      "original_2026_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            1.051645444018385,
+            1.260387246766358,
+            0.9026775413547515
+          ],
+          [
+            1.2167379058687144,
+            1.430539525079816,
+            0.9049773755656109
+          ],
+          [
+            1.149817321045935,
+            1.5541390858154047,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.43371190004241456,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.15698490664258835,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.002547791548472178,
+            "unit_growth_2026": 0.10499999999999998
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14500000000000002,
+            "unit_growth_2026": 0.021410289397776117
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.1050000000000002,
+            "unit_growth_2026": 0.042705720341065456
+          }
+        ],
+        "max_constraint_violation": 2.220446049250313e-16
+      }
+    },
+    {
+      "roughly_flat_band": 0.02,
+      "old_endpoint": "min_Q3_witness",
+      "prior_carryover_bounds": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ],
+      "status": "feasible endpoint extension",
+      "units_2024_to_2026_normalized": [
+        [
+          0.7513194476959725,
+          0.7560499714365044,
+          0.8899119778356182
+        ],
+        [
+          0.8752871565658078,
+          0.8581167175804324,
+          0.9071750083977159
+        ],
+        [
+          0.8271463629546884,
+          0.9322585693037456,
+          1.0
+        ]
+      ],
+      "CPU_revenue_2024_to_2026_B": [
+        [
+          3.2447300405472705,
+          3.135611382307418,
+          3.4274509803921567
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.496
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.954
+        ]
+      ],
+      "Other_revenue_2024_B": [
+        0.5832699594527293,
+        0.6693886176925821,
+        0.7135490196078433
+      ],
+      "ratio_and_direction_checks": [
+        {
+          "quarters": [
+            1
+          ],
+          "2025_unit_growth": 0.1649999999999998,
+          "2025_ASP_growth": -0.09500000000000008,
+          "2025_CPU_revenue_growth": 0.054324999999999735,
+          "Other_revenue_2025_minus_2024_B": 0.12173004054727077
+        },
+        {
+          "quarters": [
+            2
+          ],
+          "2025_unit_growth": 0.1349999999999998,
+          "2025_ASP_growth": -0.07500000000000007,
+          "2025_CPU_revenue_growth": 0.04987499999999967,
+          "Other_revenue_2025_minus_2024_B": -0.022388617692582047
+        },
+        {
+          "quarters": [
+            3
+          ],
+          "2025_unit_growth": 0.01939858209806733,
+          "2025_ASP_growth": 0.0005899732572658412,
+          "2025_CPU_revenue_growth": 0.020000000000000018,
+          "Other_revenue_2025_minus_2024_B": -0.09254901960784345
+        },
+        {
+          "quarters": [
+            1,
+            2
+          ],
+          "2025_unit_growth": 0.14995292603444943,
+          "2025_ASP_growth": -0.08505989345463949,
+          "2025_CPU_revenue_growth": 0.05213805266810834,
+          "Other_revenue_2025_minus_2024_B": 0.09934142285468872
+        },
+        {
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "2025_unit_growth": 0.10148891401884064,
+          "2025_ASP_growth": -0.05499999999999983,
+          "2025_CPU_revenue_growth": 0.040907023747804416,
+          "Other_revenue_2025_minus_2024_B": 0.006792403246845158
+        }
+      ],
+      "carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "flat_Q4_ASP_2027_carryover": 0.21115096348360862
+        },
+        {
+          "Q4_units_over_Q3": 1,
+          "flat_Q4_ASP_2027_carryover": 0.11982311088972653
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "flat_Q4_ASP_2027_carryover": 0.045100322403823334
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "flat_Q4_ASP_2027_carryover": -0.017168668001096066
+        }
+      ],
+      "max_linear_constraint_violation": 5.426857220683421e-16,
+      "original_2026_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            0.7513194476959725,
+            0.7560499714365044,
+            0.8893872631350156
+          ],
+          [
+            0.8752871565658078,
+            0.8581167175804324,
+            0.9071750083977159
+          ],
+          [
+            0.8271463629546884,
+            0.9322585693037456,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.06809887964287586,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.1649999999999998,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.020000000000000018,
+            "unit_growth_2026": 0.10232313582605723
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14995292603444943,
+            "unit_growth_2026": 0.015000000000000124
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.10173005965953608,
+            "unit_growth_2026": 0.04499999999999993
+          }
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      }
+    },
+    {
+      "roughly_flat_band": 0.02,
+      "old_endpoint": "max_Q3_witness",
+      "prior_carryover_bounds": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "min": 0.21115096348360862,
+          "max": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1.0,
+          "min": 0.11982311088972653,
+          "max": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "min": 0.045100322403823334,
+          "max": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "min": -0.017168668001096066,
+          "max": 0.21729454043764873
+        }
+      ],
+      "status": "feasible endpoint extension",
+      "units_2024_to_2026_normalized": [
+        [
+          1.0493456098075256,
+          1.260387246766358,
+          0.9049773755656109
+        ],
+        [
+          1.2167379058687144,
+          1.430539525079816,
+          0.9049773755656109
+        ],
+        [
+          1.149817321045935,
+          1.5541390858154047,
+          1.0
+        ]
+      ],
+      "CPU_revenue_2024_to_2026_B": [
+        [
+          3.2655363193705713,
+          3.1356113823074176,
+          3.4274509803921567
+        ],
+        [
+          3.4210000000000003,
+          3.292,
+          3.496
+        ],
+        [
+          4.116999999999999,
+          5.311,
+          5.954
+        ]
+      ],
+      "Other_revenue_2024_B": [
+        0.5624636806294285,
+        0.6693886176925825,
+        0.7135490196078433
+      ],
+      "ratio_and_direction_checks": [
+        {
+          "quarters": [
+            1
+          ],
+          "2025_unit_growth": 0.15952065220141587,
+          "2025_ASP_growth": -0.09651682875436851,
+          "2025_CPU_revenue_growth": 0.04760739597573793,
+          "Other_revenue_2025_minus_2024_B": 0.14253631937057154
+        },
+        {
+          "quarters": [
+            2
+          ],
+          "2025_unit_growth": 0.1349999999999998,
+          "2025_ASP_growth": -0.07500000000000007,
+          "2025_CPU_revenue_growth": 0.04987499999999989,
+          "Other_revenue_2025_minus_2024_B": -0.02238861769258249
+        },
+        {
+          "quarters": [
+            3
+          ],
+          "2025_unit_growth": 0.0,
+          "2025_ASP_growth": 0.020000000000000018,
+          "2025_CPU_revenue_growth": 0.020000000000000018,
+          "Other_revenue_2025_minus_2024_B": -0.09254901960784345
+        },
+        {
+          "quarters": [
+            1,
+            2
+          ],
+          "2025_unit_growth": 0.1461400929609411,
+          "2025_ASP_growth": -0.08500000000000008,
+          "2025_CPU_revenue_growth": 0.048718185059261065,
+          "Other_revenue_2025_minus_2024_B": 0.12014770167798905
+        },
+        {
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "2025_unit_growth": 0.1050000000000002,
+          "2025_ASP_growth": -0.05999681887475572,
+          "2025_CPU_revenue_growth": 0.038703515143394984,
+          "Other_revenue_2025_minus_2024_B": 0.027598682070145486
+        }
+      ],
+      "carryover": [
+        {
+          "Q4_units_over_Q3": 0.9,
+          "flat_Q4_ASP_2027_carryover": 0.523768574735268
+        },
+        {
+          "Q4_units_over_Q3": 1,
+          "flat_Q4_ASP_2027_carryover": 0.4011789610162202
+        },
+        {
+          "Q4_units_over_Q3": 1.1,
+          "flat_Q4_ASP_2027_carryover": 0.30087836797336287
+        },
+        {
+          "Q4_units_over_Q3": 1.2,
+          "flat_Q4_ASP_2027_carryover": 0.21729454043764873
+        }
+      ],
+      "max_linear_constraint_violation": 4.440892098500626e-16,
+      "original_2026_witness": {
+        "other_Q3_B": 1.3639999999999999,
+        "units_2024_to_2026_normalized": [
+          [
+            1.051645444018385,
+            1.260387246766358,
+            0.9026775413547515
+          ],
+          [
+            1.2167379058687144,
+            1.430539525079816,
+            0.9049773755656109
+          ],
+          [
+            1.149817321045935,
+            1.5541390858154047,
+            1.0
+          ]
+        ],
+        "revenue_2026_CPU_B": [
+          4.116999999999999,
+          5.311,
+          5.954
+        ],
+        "Q3_ASP_over_YTD_minus1": 0.43371190004241456,
+        "unit_ratio_checks": [
+          {
+            "quarters": [
+              1
+            ],
+            "unit_growth_2025": 0.15698490664258835,
+            "unit_growth_2026": -0.05500000000000005
+          },
+          {
+            "quarters": [
+              2
+            ],
+            "unit_growth_2025": 0.1349999999999998,
+            "unit_growth_2026": 0.08640066112727118
+          },
+          {
+            "quarters": [
+              3
+            ],
+            "unit_growth_2025": 0.002547791548472178,
+            "unit_growth_2026": 0.10499999999999998
+          },
+          {
+            "quarters": [
+              1,
+              2
+            ],
+            "unit_growth_2025": 0.14500000000000002,
+            "unit_growth_2026": 0.021410289397776117
+          },
+          {
+            "quarters": [
+              1,
+              2,
+              3
+            ],
+            "unit_growth_2025": 0.1050000000000002,
+            "unit_growth_2026": 0.042705720341065456
+          }
+        ],
+        "max_constraint_violation": 2.220446049250313e-16
+      }
+    }
+  ],
+  "no_new_valuation": true,
+  "interpretation_boundary": "These are numerical feasible witness extensions. Feasible old endpoints prove those values remain possible under the added2025constraints. Failed endpoint extensions alone do not locate a new global extremum. No empirical probability or actualQ4ASP is implied."
+}

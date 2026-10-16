@@ -1,0 +1,172 @@
+{
+  "completed_utc": "2026-11-06T06:23:27.129746+00:00",
+  "task": "Strengthen remaining Intel M37 edge with evidence and actual artifact revisions",
+  "changes": [
+    "Added quantified Ireland output plan, with output and package conversion limits",
+    "Added signed DCAI agreement evidence and management-described 3-5-year volume/pricing terms",
+    "Added current S&P total-revenue consensus proxy and independently audited conditional Products residual",
+    "Added sequential unit/ASP delivery requirements and quarterly update rule",
+    "Tied future durability tests to conditional contract renewal period",
+    "Refreshed Nov5 reference close to52.25 using current history and independent broker quote; no operating/valuation changes"
+  ],
+  "decision": {
+    "recommendation": "LONG, moderate conviction",
+    "planning_value_USD": 51.066594344272275,
+    "target2030_USD": 77.46147983166226,
+    "entry_USD": 52.25,
+    "annual_price_CAGR": 0.09944058266936473,
+    "edge_status": "Research gaps narrowed; strong price advantage remains unestablished",
+    "forecast_change": "none",
+    "reason": "New-to-review evidence supports mechanisms already modeled; does not establish incremental economics or durable post-shortage margins"
+  },
+  "artifacts": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "sha256": "d87ea1e76c64355d3e7331ede05401ad85546e9763f22eb30823a26811bb5ed7",
+      "links": 21,
+      "visual_qa": "passed",
+      "submitted": false
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 5,
+      "sha256": "43712967c17c737a582cbd6a8c63c786633f60362046eb55110c88f5aa3de4c3",
+      "links": 27,
+      "visual_qa": "passed",
+      "submitted": false
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "pages": 3,
+      "sha256": "18c9c4e62186affd95c7a012e2027c4199ba2cfe31295d3ebf4b79ce1ce15db9",
+      "links": 13,
+      "visual_qa": "passed",
+      "submitted": false
+    }
+  ],
+  "verification": {
+    "all18pages_visually_reviewed": true,
+    "final_pixel_identity_to_reviewed": [
+      {
+        "artifact": "screen",
+        "page": 1,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-01.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 2,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-02.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 3,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-03.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 4,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-04.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 5,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-precision-screen-05.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 6,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-06.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 7,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-07.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 8,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-08.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 9,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-09.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "screen",
+        "page": 10,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-screen-10.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "defense",
+        "page": 1,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-defense-1.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "defense",
+        "page": 2,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-defense-2.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "defense",
+        "page": 3,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-defense-3.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "defense",
+        "page": 4,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-defense-4.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "defense",
+        "page": 5,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-defense-5.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "comparison",
+        "page": 1,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-comparison-1.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "comparison",
+        "page": 2,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-comparison-2.png",
+        "final_pixels_identical": true
+      },
+      {
+        "artifact": "comparison",
+        "page": 3,
+        "reviewed_render": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/edge-final-comparison-3.png",
+        "final_pixels_identical": true
+      }
+    ],
+    "independent_price_review": "price/final_artifact_review.json",
+    "independent_claim_scope_review": "retained_profit/final_artifact_review.json",
+    "last_revision_after_agent_hashes": "One P3 wording change on screenp5: pricing visibility alone does not protect margins from rising input costs. Final source wording inspected; every other page pixel-identical."
+  },
+  "research_boundaries": [
+    "Published transcripts are management descriptions, not reviewed executed contracts or independently checked audio",
+    "Consensus is vendor-supplied total revenue, not a unique price-implied or segment estimate",
+    "Existing external packaging upside is already modeled, not newly credited",
+    "No fabricated interview, experiment, customer allocation, or winning probability",
+    "No submission, outreach, commit, or push"
+  ],
+  "prior_version_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_edge_resolution"
+}

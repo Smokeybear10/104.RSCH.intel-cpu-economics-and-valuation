@@ -1,0 +1,41 @@
+[
+  {
+    "id": "intel_aug26_stockanalysis",
+    "url": "https://stockanalysis.com/stocks/intc/transcripts/736613-deutsche-bank-2026-technology-conference/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "intel_aug26_earningsapi",
+    "url": "https://earningsapi.io/transcripts/intel-corporation_intc_earnings_call_transcript_2026-08-26",
+    "retrieved_utc": "2026-11-06T06:12:39.274147+00:00",
+    "status": 200,
+    "resolved_url": "https://earningsapi.io/transcripts/intel-corporation_intc_earnings_call_transcript_2026-08-26",
+    "bytes": 88118
+  },
+  {
+    "id": "intel_aug26_equibles",
+    "url": "https://equibles.com/stocks/intc/events/1ba4f15b-a5ac-482b-96b3-c87eb51d73d3",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "intel_aug26_official_event",
+    "url": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference",
+    "retrieved_utc": "2026-11-06T06:12:38.897199+00:00",
+    "status": 200,
+    "resolved_url": "https://www.intc.com/news-events/ir-calendar/detail/20260826-deutsche-banks-2026-technology-conference",
+    "bytes": 27675
+  },
+  {
+    "id": "intel_ireland_july13_official",
+    "url": "https://newsroom.intel.com/intel-foundry/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "id": "intel_q2_2026_official_release",
+    "url": "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results",
+    "retrieved_utc": "2026-11-06T06:12:39.321670+00:00",
+    "status": 200,
+    "resolved_url": "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results",
+    "bytes": 353425
+  }
+]

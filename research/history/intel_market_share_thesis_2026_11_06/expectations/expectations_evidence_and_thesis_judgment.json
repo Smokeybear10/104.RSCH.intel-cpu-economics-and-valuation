@@ -1,0 +1,362 @@
+{
+  "created_utc": "2026-11-06T16:56:01.073504+00:00",
+  "scope": "Evidence and independent investment judgment; no pitch, workbook or model changes. Fixed reference entry $52.25; price is not refreshed silently.",
+  "recommendation_judgment": {
+    "decision": "Moderate LONG is defensible for the competition at the specified entry, if the author affirmatively owns the favorable commercial operating regime and the consistently applied plain-trailing-ERP risk method.",
+    "thesis": "Intel can lose server CPU share while growing accepted CPU shipments in an expanding market. I expect the supply recovery and product mix to produce more consolidated revenue and durable owner cash than the identified public financial forecast, with Foundry and packaging costs explicitly charged.",
+    "measurable_disagreement": "The favorable case forecasts FY2028 consolidated sales of $90.015B versus the identified S&P-distributed $83.719B snapshot, a $6.296B / 7.52% difference. This does not identify a unique expectation embedded in the stock price.",
+    "why_long_can_be_owned": "Deployed Xeon use and named customer roadmaps support continuing demand. The 2027 industry forecast permits Intel unit growth despite share loss; post-2027 units and share remain analyst assumptions. Own accepted output, pricing and cash conversion rather than claiming capacity announcements prove shipments.",
+    "what_not_to_claim": [
+      "High confidence, a large valuation cushion, or a uniquely bearish market consensus.",
+      "That the market ignores PCs, capex, Arm, or manufacturing constraints.",
+      "That an analyst question is management guidance or consensus.",
+      "That two sites distributing the same S&P estimates are independent economic corroboration."
+    ],
+    "competition_readiness": "A coherent, defensible LONG rather than a forced certainty claim. The strongest objection remains the jointly favorable output and durable margin path. Present the operating falsifiers and risk-method sensitivity prominently."
+  },
+  "valuation": {
+    "reference_entry_USD": 52.25,
+    "planning_date": "2026-12-31",
+    "target_date": "2030-12-31",
+    "planning_value_USD": 56.139285845568374,
+    "target_USD": 82.47015162680005,
+    "annual_price_return": 0.11615212704256206,
+    "planning_value_over_entry_pct": 7.443609273815066,
+    "entry_discount_to_planning_value_pct": 6.9279218411635535,
+    "date_caveat": "December 31 planning value versus November 5 reference entry: not a contemporaneous margin of safety. Price return excludes unmodeled distributions and transaction costs.",
+    "asset_rate": 0.10625,
+    "asset_rate_definition": "4.94% Treasury + 1.5 asset beta * published rounded plain-T12 ERP 3.79%; select for methodology, not because it clears a return hurdle.",
+    "same_favorable_operations_at_11_555pct": {
+      "planning_value_USD": 48.557681488026326,
+      "target_USD": 73.56082736404235
+    },
+    "selected_case_is_not_a_3_to_5_year_short": {
+      "target_USD": 53.42933483948493,
+      "long_cumulative_price_return_pct": 2.2571001712630157,
+      "fully_held_short_gross_PnL_pct_of_initial_notional": -2.2571001712630157,
+      "reason": "Low long returns do not create positive short P&L. A nearer-term convergence short would require a separate cover date, catalyst and cost analysis."
+    },
+    "separate_cross_stresses": {
+      "missing_program_proportional_cash_cost_avoidance": {
+        "planning_value_USD": 54.25211977117707,
+        "target2030_USD": 79.65599414802945,
+        "annual_price_return": 0.10686068672331128
+      },
+      "missing_program_no_cash_cost_avoidance": {
+        "planning_value_USD": 50.969341918777666,
+        "target2030_USD": 74.80075769252828,
+        "annual_price_return": 0.0902269311328796
+      },
+      "two_year_Foundry_cost_recovery_delay": {
+        "planning_value_USD": 54.08704913609682,
+        "target2030_USD": 79.59075188586728,
+        "annual_price_return": 0.10664234173332798
+      }
+    },
+    "stress_scope": "Separate conditional stresses, not probabilities, actual lost contracts, or a combined downside distribution."
+  },
+  "preferred_public_consensus": {
+    "display_url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-intc/intel/future",
+    "provider": "S&P Global Market Intelligence LLC",
+    "provider_link_from_display": "https://www.spglobal.com/market-intelligence/en",
+    "source_locator": "Earnings and Revenue Growth Forecasts table; Company Analysis and Financial Data Status; Data Sources; Analyst Sources.",
+    "company_analysis_timestamp_UTC": "2026-11-06 04:35",
+    "header_last_updated": "2026-11-03",
+    "access_date_UTC": "2026-11-06",
+    "currency_units": "USD billions; displayed table is USD millions",
+    "annual_consolidated_revenue_B": {
+      "2026": 61.824,
+      "2027": 69.267,
+      "2028": 83.719
+    },
+    "table_avg_analyst_counts": {
+      "2026": 46,
+      "2027": 47,
+      "2028": 36
+    },
+    "scope": "Consolidated financial forecast, not server CPU units, market share, or a reverse-engineered price belief. Different dates, normalization and analyst sets can differ. Public S&P page itself does not expose Intel forecast; this is a named licensed distributor.",
+    "additional_cash_metrics_B": {
+      "2027_FCF": -4.159,
+      "2028_FCF": 4.068,
+      "2027_CFO": 23.684,
+      "2028_CFO": 32.289
+    },
+    "comparison_boundary": "Do not compare normalized earnings, adjusted EBIT or vendor FCF directly with model economic EBIT/owner cash without a definition bridge.",
+    "retrieval": "Verified through public web extraction. Direct HTML download returned 403; no bypass attempted."
+  },
+  "model_vs_consensus": [
+    {
+      "year": 2027,
+      "consensus_sales_B": 69.267,
+      "selected_sales_B": 69.84503199772968,
+      "favorable_sales_B": 72.4229004525013,
+      "selected_vs_consensus_pct": 0.8344983870092193,
+      "favorable_vs_consensus_pct": 4.556138496688611
+    },
+    {
+      "year": 2028,
+      "consensus_sales_B": 83.719,
+      "selected_sales_B": 85.2877552134239,
+      "favorable_sales_B": 90.01475520908191,
+      "selected_vs_consensus_pct": 1.8738341516548296,
+      "favorable_vs_consensus_pct": 7.520103213227491
+    }
+  ],
+  "other_public_forecast_provenance": [
+    {
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "asof": "2026-11-05",
+      "provider": "S&P Global Market Intelligence for financial estimates; TipRanks for individual analyst coverage",
+      "FY2027_sales_B": 69.27,
+      "FY2027_adjusted_EPS_USD": 1.8,
+      "limit": "FY2028 financials paywalled; not used. One-year target aggregation is not a 2030 valuation benchmark."
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/INTEL-CORPORATION-4829/finances/",
+      "accessed": "2026-11-06",
+      "FY2027_sales_B": 69.267,
+      "FY2028_sales_B": 83.719,
+      "limit": "Matches preferred public series; not counted as independent corroboration."
+    },
+    {
+      "url": "https://www.qddresearch.com/us/intc/",
+      "asof": "2026-11-05",
+      "FY2027_sales_B": 69.199,
+      "FY2028_sales_B": 84.236,
+      "limit": "No named consensus provider established. Secondary comparison only."
+    },
+    {
+      "url": "https://kaplio.com/ticker/INTC/estimates",
+      "asof": "2026-11-04",
+      "FY2027_sales_B": 69.5,
+      "FY2028_sales_B": 84.7,
+      "limit": "No named estimates provider established. The $84.2\u201384.7B range is aggregator variation, not a consensus confidence interval."
+    }
+  ],
+  "authored_research_primary": {
+    "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+    "title": "Intel 3Q26: PCs Break the Guide; Maintain SELL at Lower TP",
+    "author": "iFAST Research Team",
+    "published": "2026-11-02",
+    "table": "Table 6",
+    "table_asof": "2026-10-30",
+    "forecasts": {
+      "FY2027_sales_B": 69.198,
+      "FY2028_sales_B": 80.73,
+      "FY2027_EPS_USD": 1.77,
+      "FY2028_EPS_USD": 2.59,
+      "FY2027_gross_margin": 0.43,
+      "FY2028_gross_margin": 0.46,
+      "FY2027_FCF": "negative"
+    },
+    "target_USD": 65,
+    "original_reference_price_USD": 70.87,
+    "target_return_at_52_25_pct": 24.40191387559809,
+    "interpretation": "An individual authored forecast recognizes PC and capital-spending risks. Its SELL label belongs to its original price/date; it is not current consensus or a short signal at $52.25.",
+    "saved_source": "sources/ifast_nov2.html",
+    "PDF_status": "No original PDF link exposed; original primary HTML saved, not a fabricated PDF."
+  },
+  "commercial_evidence": [
+    {
+      "date": "2026-04-09",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-google-deepen-collaboration-to-advance-ai-infrastructure.html",
+      "supports": "Current Xeon 6 deployment and multiyear roadmap collaboration.",
+      "does_not_establish": "Committed units, future share, exclusivity or margin floor."
+    },
+    {
+      "date": "2026-10-27",
+      "url": "https://www.oracle.com/news/announcement/ai-world-intel-and-oracle-plan-expanded-collaboration-to-support-enterprise-and-agentic-ai-on-oracle-cloud-infrastructure-2026-10-27/",
+      "supports": "Planned multiyear collaboration and Xeon/Diamond Rapids cloud platform roadmap.",
+      "does_not_establish": "Binding quantified orders or accepted delivery timing; planned products carry a noncommitment disclaimer."
+    },
+    {
+      "date": "2026-10-22",
+      "url": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "supports": "Industry researcher forecasts >40% 2027 server CPU shipment growth while describing Intel capacity constraints and Arm share gains.",
+      "does_not_establish": "Street financial consensus, a stock-price expectation, or 2030 market share."
+    }
+  ],
+  "catalysts_and_falsifiers": [
+    {
+      "review_deadline": "2027-03-31",
+      "event_window": "FY2026/Q4 results and Q1 manufacturing assessment",
+      "model_checkpoints": {
+        "CCPG_B": 6.39663,
+        "DCAI_B": 8.562059999999999,
+        "CPU_B": 6.812059999999999,
+        "client_B": 5.19963,
+        "Other_DCAI_B": 1.75,
+        "Other_CCPG_B": 1.197,
+        "consolidated_B": 15.887189999999999,
+        "inside_total_revenue_guidance": true,
+        "net_consolidated_revenue_delta_B": 0.47023999999999866,
+        "group_EBIT_delta_B": 0.23511999999999933,
+        "cash_tax_delta_B": 0.0352679999999999,
+        "WC_cash_use_delta_B": 0.04702399999999987,
+        "CFO_delta_B": 0.15282799999999955,
+        "opening2027_economic_cash_delta_B": 0.15282799999999955
+      },
+      "decision_rule": "Rebase actual DCAI and client exit revenue, isolate Other DCAI and temporary disruptions. Failure of the favorable exit anchor removes its carried-forward benefit unless actual recovery evidence replaces it."
+    },
+    {
+      "review_deadline": "2027-08-15",
+      "event_window": "H1 2027 reporting and H2 supply readiness",
+      "model_checkpoints": {
+        "Q1_CPU_B": 6.812059999999999,
+        "Q2_CPU_B": 7.295716259999999
+      },
+      "decision_rule": "Look for accepted shipment progression and constrained-stage completion; added substrates or installed tools alone do not count. Recalculate the H2 requirement from actual H1."
+    },
+    {
+      "review_deadline": "2028-03-31",
+      "event_window": "FY2027 results",
+      "model_checkpoints": {
+        "consolidated_revenue_B": 72.4229004525013,
+        "CPU_revenue_B": 31.73925349266314,
+        "DCAI_revenue_B": 39.81925349266314,
+        "CCPG_revenue_B": 28.38964695983816,
+        "EBIT_B": 14.435224598250644,
+        "DCAI_margin": 0.38971315896695147,
+        "Foundry_profit_B": -4.0,
+        "gross_new_packaging_B": 0.5,
+        "net_packaging_profit_B": -0.053750000000000006,
+        "physical_capex_B": 30.5,
+        "Q4_CPU_B": 9.36543071008314
+      },
+      "decision_rule": "If demand is lost or capacity cannot deliver the exit trajectory, cut the 2028 unit base; do not assume delayed shipments automatically return."
+    },
+    {
+      "review_deadline": "2029-03-31",
+      "event_window": "FY2028 results",
+      "model_checkpoints": {
+        "consolidated_revenue_B": 90.01475520908191,
+        "CPU_revenue_B": 42.84799221509524,
+        "DCAI_revenue_B": 53.35199221509524,
+        "CCPG_revenue_B": 30.44876299398668,
+        "EBIT_B": 24.593944544198962,
+        "DCAI_margin": 0.39962253926415187,
+        "Foundry_profit_B": -0.75,
+        "gross_new_packaging_B": 2.5,
+        "net_packaging_profit_B": 0.14875,
+        "physical_capex_B": 32.75,
+        "frozen_2026_11_06_consensus_sales_B": 83.719
+      },
+      "decision_rule": "Test the $90.015B sales disagreement and CPU mix, margin and cash conversion together. A sales miss with no documented deferred shipment path weakens the central thesis."
+    },
+    {
+      "review_deadline": "2030-03-31",
+      "event_window": "FY2029 results and 2030 capacity/customer plans",
+      "model_checkpoints": {
+        "consolidated_revenue_B": 106.55940840092462,
+        "CPU_revenue_B": 52.58305604636488,
+        "DCAI_revenue_B": 65.18785604636489,
+        "CCPG_revenue_B": 32.65755235455974,
+        "EBIT_B": 32.45544942413612,
+        "DCAI_margin": 0.3973931599311282,
+        "Foundry_profit_B": 1.0,
+        "gross_new_packaging_B": 5.0,
+        "net_packaging_profit_B": 0.6475,
+        "physical_capex_B": 31.25
+      },
+      "decision_rule": "Replace assumed packaging programs with contracted/ramping economics and assess Foundry cost recovery; rerun the known stresses if programs or cost absorption fail."
+    },
+    {
+      "review_deadline": "2031-03-31",
+      "event_window": "FY2030 results, after December2030 target date",
+      "model_checkpoints": {
+        "consolidated_revenue_B": 119.7559868503317,
+        "CPU_revenue_B": 60.07088322736725,
+        "DCAI_revenue_B": 74.56640322736725,
+        "CCPG_revenue_B": 34.47558362296445,
+        "EBIT_B": 38.942007896513076,
+        "DCAI_margin": 0.39446515905366375,
+        "Foundry_profit_B": 2.5,
+        "gross_new_packaging_B": 7.0,
+        "net_packaging_profit_B": 1.175,
+        "physical_capex_B": 30.0
+      },
+      "decision_rule": "Audit realized cash and competitive position against the original thesis; at December2030 reassess forward return using then-current information rather than mechanically holding for an old price target."
+    }
+  ],
+  "catalyst_date_policy": {
+    "URL": "https://www.intc.com/news-events/ir-calendar",
+    "asof": "2026-11-06",
+    "status": "No upcoming earnings dates shown. Review deadlines above are analyst-set checkpoints, not announced company event dates. Most results windows use fiscal-year labels, not exact day promises."
+  },
+  "top_judge_objections": [
+    {
+      "objection": "You are selecting better operations and a lower discount rate after seeing the answer.",
+      "answer": "Own each method separately and show the unfavorable crossings. Same favorable operations give $48.56/$73.56 at 11.555%; the adopted joint result is not proof of robustness."
+    },
+    {
+      "objection": "Why is this a differentiated view if public forecasts already expect strong growth?",
+      "answer": "The defensible disagreement is +7.52% FY2028 consolidated sales, not AI demand existing. Show the CPU-unit/ASP mechanism and cash conversion, then judge whether that limited difference merits the risk."
+    },
+    {
+      "objection": "The model is only a server thesis in name.",
+      "answer": "From selected to favorable FY2028, client/CCPG revenue rises $1.572B, CPU rises $3.446B and Other DCAI falls $0.291B. Own the client assumption explicitly."
+    },
+    {
+      "objection": "New capacity and roadmaps do not prove shipped revenue or durable margins.",
+      "answer": "Correct. Require actual output, customer adoption and profit conversion at dated checkpoints; use shipment/share scopes consistently."
+    },
+    {
+      "objection": "Seven percent planning-value upside is thin for this execution risk.",
+      "answer": "Correct. It supports a moderate long, not a large safety-margin claim. Missing a packaging family without cost relief takes planning value below entry; decision conviction must rest on operations."
+    },
+    {
+      "objection": "Why not short the $53.43 selected target?",
+      "answer": "It exceeds $52.25; a held-to-target short loses before costs. A low-return long is not a valid 3\u20135-year short thesis."
+    }
+  ],
+  "M37_rules": {
+    "url": "https://www.m37.com/spc2026",
+    "verified": "2026-11-06",
+    "eligible": "Currently enrolled undergraduate or graduate STEM student; individual entry.",
+    "position": "Long or short, fundamental analysis, 3\u20135 years.",
+    "round1": "PDF no more than 10 pages, due November9 2026; overview, recommendation, drivers and risks. Name, class year and resume outside page count.",
+    "round2_due": "2026-11-30",
+    "final": "2026-12-05",
+    "judging": "Investment thesis and judgment rather than modeling skills; defend counterarguments and what changes the view.",
+    "no_added_requirement": "Page does not impose minimum upside, a probability threshold, proprietary research, or a specified deadline timezone."
+  },
+  "model_provenance": {
+    "annual_source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/anchor_valuation_overlay_results.json",
+    "annual_case_selected": "cases.unchanged_anchor__YTD_normalized_growth.annual_rows",
+    "annual_case_favorable": "cases.joint_anchor_old_CPU2028plus_growth_pooled_old_growth.annual_rows",
+    "value_source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/margin/favorable_cross_stress_results.json",
+    "value_field": "summaries.favorable_unchanged",
+    "quarterly_source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/favorable_anchor_case_results.json",
+    "quarterly_field": "cases.joint_favorable.CPU_quarterly[0:4]",
+    "quarterly_scope": "Only2027 quarterly rows used. Later smooth quarterly rows in this file are not the adopted favorable25/18/12% annual unit-growth path.",
+    "input_sha256": {
+      "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/anchor_valuation_overlay_results.json": "721aa9b7a7445065317b17590eba55659558563664040651672c0fdf933b03f7",
+      "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/margin/favorable_cross_stress_results.json": "98ae86c27bf48750127105eb1ab0dacc8a2ed226b4ee24ec0941ece09ad49a3a",
+      "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/favorable_anchor_case_results.json": "c0b694e757204bcbd3896ef430244738c588012d4ac433c829adf8a859d90579"
+    }
+  },
+  "trendforce_visual_check": {
+    "chart_url": "https://img.trendforce.com/EDM/2026/10/20261022_133209_3.jpg",
+    "local_file": "../market/sources/trendforce_chart.jpg",
+    "visually_verified": "2026-11-06",
+    "2026E_pct": {
+      "Intel": 50,
+      "AMD": 27,
+      "NVIDIA": 12,
+      "AWS": 4,
+      "Google": 3,
+      "Others": 4
+    },
+    "2027F_pct": {
+      "Intel": 42,
+      "AMD": 28,
+      "NVIDIA": 12,
+      "AWS": 5,
+      "Google": 6,
+      "Others": 7
+    },
+    "scope": "Chart itself says market shares. Shipment-share interpretation is supported by the accompanying article, rather than an explicit chart unit label. Includes captive Arm suppliers.",
+    "illustrative_unit_growth": "1.40*(42/50)-1 = 17.6%",
+    "limit": "Approximate displayed-input boundary scenario, not a strict lower bound: market growth is forecast above40% and shares are rounded forecasts."
+  }
+}

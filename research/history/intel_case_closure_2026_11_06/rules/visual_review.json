@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-11-07T01:30:12.991639+00:00",
+  "scope": "Read-only visual inspection of six supplied revised PNGs, plus text and page-count checks of current PDFs.",
+  "status": "pass",
+  "pages_reviewed": {
+    "defense": [
+      3,
+      5,
+      6
+    ],
+    "comparison": [
+      1,
+      2,
+      3
+    ]
+  },
+  "page_counts": {
+    "main": 10,
+    "defense": 8,
+    "comparison": 3
+  },
+  "visual_findings": {
+    "clipping": false,
+    "overlap": false,
+    "unreadable_glyphs": false,
+    "note": "All six pages have clear headers, complete body text, intact sources and separated footers. Defense page 6 is dense but fits without collision."
+  },
+  "language_checks": {
+    "conditional_entry": "No special approval rule is claimed; absence of published requirement is separated from investment persuasiveness.",
+    "interview_and_supplements": "Not described as mandatory; no completed interview is claimed.",
+    "administration": "Current resume is the sole identified required package item outstanding. Email submission and November 9 date are accurate; no hour/timezone invented.",
+    "uncertainty": "Forecasts, financing access and unmodeled fees remain explicit assumptions. Closure means a completed judgment or bounded evidence search, not guaranteed performance or winning.",
+    "reopening": "Limited to material evidence, errors, or changed price/horizon; no suggestion that more sensitivity tables guarantee a stronger competition result."
+  },
+  "issues": [],
+  "pdf_sha256": {
+    "m37_intel_initial_screen.pdf": "d86e612e73608861c099465b5e12e72abb6ad8006347d1e0cc93c78bba7ed206",
+    "m37_intel_defense_notes.pdf": "6ac900a790f4a0fd10ff78e60a0f790ff0de94c2f162704d4ffb6ab3035b9470",
+    "m37_intel_pitch_comparison.pdf": "eb7ee4116153ef4b7b0585fed3aacc5a86c0a67e63c8c3e5bc12b188d70f91cf"
+  },
+  "limitations": "This pass verifies layout and closure/rules language, not an independent rerun of the financial model or verification of every numerical source.",
+  "changes": "Only this review JSON was written."
+}

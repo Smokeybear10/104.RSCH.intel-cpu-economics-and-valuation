@@ -1,0 +1,41 @@
+{
+  "computed_utc": "2026-11-04T23:28:17.406680+00:00",
+  "method": "Independent reconstruction of favorable external wafer annual FCFF from frozen revenue, margin, tax and next-year capital rules; discount using parent corrected maturing curve. Pre-AI TSMC ratios recomputed from annual cashflow inputs, not copied final ratios.",
+  "wafer_price_reconstructed": 4.200652424093796,
+  "wafer_price_saved": 4.200652424093795,
+  "wafer_absolute_error": 1.7763568394002505e-15,
+  "pre_AI_capital_checks": [
+    {
+      "start": 2016,
+      "end": 2020,
+      "recomputed_turnover": 0.6636659122381089,
+      "error": 0.0
+    },
+    {
+      "start": 2017,
+      "end": 2020,
+      "recomputed_turnover": 0.7329775897766271,
+      "error": 0.0
+    },
+    {
+      "start": 2016,
+      "end": 2019,
+      "recomputed_turnover": 0.3573950080602535,
+      "error": 0.0
+    }
+  ],
+  "frozen_host_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "frozen_host_model_unchanged": true,
+  "PDF_status": "Parent intentionally revised the working PDF during the hour; this child only read it.",
+  "valid_JSON_files": [
+    "tsmc_multiyear_capital_benchmark.json",
+    "CPU_task_efficiency_rebound_diagnostic.json",
+    "buyer_CPU_economics_review.json",
+    "external_wafer_corrected_curve_policy.json",
+    "external_wafer_corrected_curve_results.json",
+    "CPU_forecast_scope_comparison.json",
+    "agentic_CPU_benchmark_source_audit.json",
+    "external_foundry_economic_boundaries.json",
+    "bull_countercase_review.json"
+  ]
+}

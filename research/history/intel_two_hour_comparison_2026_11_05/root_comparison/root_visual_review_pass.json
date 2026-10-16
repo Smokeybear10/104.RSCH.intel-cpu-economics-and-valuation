@@ -1,0 +1,41 @@
+{
+  "reviewed_utc": "2026-11-05T23:49:54.815238+00:00",
+  "artifact_hashes": {
+    "build": "0026636d0001abb18d05310a2384ebd22b8820ebc495268e2dae8685f02150dc",
+    "defense": "cb90f4c42be345e56a559d9a7e264e3bb8a91a1c1876dfc25eead651196e42fc",
+    "comparison": "5ead3f47ea7c7280c3a71e3ca8cc3568ee50376f8f86fc71b68d49a194692c25"
+  },
+  "pages_reviewed": {
+    "initial_screen": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "defense_notes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "comparison": [
+      1,
+      2,
+      3
+    ]
+  },
+  "findings": [
+    "No clipping, overlap, illegible labels or orphaned pages in all18 rendered pages.",
+    "Revise quotedTPC-Hsystems pay wording to list quoted licensing bill, avoiding an unsupported actual transaction inference.",
+    "Add directIntelQ3Notes9/14 andFY2025legalcollateral links beside private newclaims explanation.",
+    "Minorgrammar: Almost all of the hit affects10nmserverproducts."
+  ],
+  "status": "pass_with_three_minor_corrections_pending"
+}

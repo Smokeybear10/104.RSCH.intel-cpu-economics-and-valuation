@@ -1,0 +1,76 @@
+{
+  "audited_utc": "2026-11-04T18:09:33.437944+00:00",
+  "status": "PASS",
+  "scope": "Independent Decimal reconstruction from base model, host revenue rows and frozen target margins/turnover. No use of supplied scenario deltas or root valuation implementation to compute audited figures.",
+  "input_hashes": {
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+    "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db",
+    "work/three_hour/active_research/intel_decision_pass_2026_11_04/operating_scenario_policy.json": "9a193f8c09195fe13ce7e3598a49437541385deea045cc50c8a4a6649a109836",
+    "work/three_hour/active_research/intel_decision_pass_2026_11_04/risk_rate_review.json": "2683c97744b26bdfa29f029845b86458b05468e68734c69ea3f6146318aab284",
+    "work/three_hour/active_research/intel_decision_pass_2026_11_04/joint_scenario_results.json": "32fe5d4a9806e64659bce5d94297b9ac6d0fa24b8d1aa9ff08c5d05dd2f6d178"
+  },
+  "comparisons": 1973,
+  "maximum_absolute_numeric_error": 7.776950469394797e-14,
+  "tolerance": 1e-09,
+  "errors": [],
+  "verified": {
+    "all3cases_15operating_rows": true,
+    "host_capital_delta_rederived_from_actual_host_sales_change": true,
+    "margin_EBIT_delta_rederived_from_DCAI_sales_and_frozen_targets": true,
+    "ordinary_operating_taxes_recomputed": true,
+    "packaging_WC_DA_lease_NCI_incentives_unchanged": true,
+    "2027_2030_treasury_rebuilt_from_cash_and_financing": true,
+    "all5endpoints_6risk_schedules_3operating_cases": true,
+    "variable_discount_products": true,
+    "terminal_operating_growth_3pct": true,
+    "financing_tail_flat_without_growth": true,
+    "old11_12_13controls_reproduced": true,
+    "aggregate_tax_capacity_for_existing_shields": true
+  },
+  "key_values_USD": {
+    "less_productive": {
+      "2026": {
+        "flat_10pct": 50.7688401034956,
+        "flat_12pct": 37.618386731014,
+        "maturing_risk": 42.40267095610029
+      },
+      "2030": {
+        "flat_10pct": 72.65448746924238,
+        "flat_12pct": 57.429165594921415,
+        "maturing_risk": 64.95732944683729
+      }
+    },
+    "central": {
+      "2026": {
+        "flat_10pct": 60.087383322040886,
+        "flat_12pct": 44.06791405274705,
+        "maturing_risk": 49.96887374853764
+      },
+      "2030": {
+        "flat_10pct": 86.29776659551453,
+        "flat_12pct": 67.57762169851732,
+        "maturing_risk": 76.86289602242353
+      }
+    },
+    "more_productive": {
+      "2026": {
+        "flat_10pct": 68.1462807369613,
+        "flat_12pct": 49.618050605214655,
+        "maturing_risk": 56.50287732025843
+      },
+      "2030": {
+        "flat_10pct": 98.09679830069953,
+        "flat_12pct": 76.31086901446875,
+        "maturing_risk": 87.14427714083533
+      }
+    }
+  },
+  "methodological_findings": [
+    "No numerical or discounting mistake found in the requested scope.",
+    "The scenarios change only post2030 continuation economics. They cannot establish a2027-2028 market repricing catalyst or represent full business downside/upside.",
+    "Unchanged aggregate D&A while capex changes is explicitly a normalized economic convention, not a vintaged GAAP/tax-asset reconstruction. The review validates that stated scope, not an accounting-equivalence claim.",
+    "Tax-capacity check is aggregate arithmetic under frozen tax policy, not independent tax-return or jurisdictional loss-pool audit.",
+    "Scenario result rows retain historical mature_margin_addendum_EBIT_delta_B metadata from the central source even when scenario EBIT differs; scenario_cash_delta_B captures the new adjustment. This is not an arithmetic error but those legacy fields should not be read as complete scenario-vs-original deltas."
+  ],
+  "source_models_modified": false
+}

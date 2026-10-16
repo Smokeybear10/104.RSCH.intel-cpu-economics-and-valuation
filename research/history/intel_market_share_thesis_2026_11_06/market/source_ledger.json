@@ -1,0 +1,81 @@
+{
+  "verified_utc": "2026-11-06T16:54:44.651149+00:00",
+  "source_policy": "Primary issuer documents and original research-provider publication. Secondary search results were discovery leads only. No numeric Mercury share estimate is adopted because an accessible original current table was not located.",
+  "sources": [
+    {
+      "id": "TrendForce_20261022",
+      "url": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "chart_url": "https://img.trendforce.com/EDM/2026/10/20261022_133209_3.jpg",
+      "type": "Original research provider forecast",
+      "date": "2026-10-22",
+      "facts": "Projects server-CPU shipments +31% in2026 and >40% in2027. Chart labels inner2026(E), outer2027(F): Intel50/42, AMD27/28, NVIDIA12/12, AWS4/5, Google3/6, Others4/7 percent. Context is shipments, not revenue; chart title itself says market shares. Captive cloud CPUs are included.",
+      "interpretation": "Intel can grow units while losing share. Figures are rounded forecasts and do not establish actual2026 or2027 share.",
+      "local_file": "sources/trendforce_chart.jpg",
+      "chart_sha256": "1597407504d1e1487b7b8b114834eaa909217828b897a7fb55c6e4f5c65e2462"
+    },
+    {
+      "id": "Intel_Q32026_prepared",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "pdf_pages": [
+        3,
+        7
+      ],
+      "facts": "Management describes server-CPU TAM potentially rising from about$40B to more than$200B over five years, primarily agentic workloads. It forecasts industry CPU units >30% in2026 and2027.",
+      "scope": "The five-year endpoint is roughly2031, not expressly FY2030. Current$40B is not a dated auditedFY2026 market total. Merchant versus captive dollar valuation is not disclosed.",
+      "interpretation": "Supports a large expanding CPU pool; does not establish exact2030 sales, an Intel share, or terminal growth."
+    },
+    {
+      "id": "Intel_Q32026_10Q",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "pdf_pages": [
+        33,
+        34
+      ],
+      "facts": "DCAI revenue is$7.318B Q3 and$18.632B YTD; rounded Other DCAI is$1.4B/$3.3B. Residual CPU proxies are$5.918B/$15.332B. Q3 server units +10%, ASP+54%; YTD units+4%, ASP+44%; richer product mix is the main ASP driver.",
+      "scope": "Residuals inherit rounded Other values; units and ASP are YoY for respective reported periods. CPU residual excludes purpose-built Other DCAI and is not totalDCAI."
+    },
+    {
+      "id": "AMD_Q12026_transcript",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_76e60a688092d06ccab8a780191eae46/amd/db/841/9232/webcast_transcript/AMD_1Q_2026_Earnings.pdf",
+      "date": "2026-05-05",
+      "pdf_pages": [
+        1,
+        2,
+        7
+      ],
+      "facts": "CPU revenue grew >50%YoY. Management raised server-CPU TAM to >$120B by2030, >35%annual growth, and discussed general-purpose, accelerator head-node and agentic CPU workloads. It expressed an ambition above50%market share.",
+      "scope": "This is an older forecast superseded by Q2. Architecture competition is discussed, but captive dollar-accounting methodology is not specified. AMD ambition is not an independent prediction of realizedshare.",
+      "local_file": "sources/amd_q1.pdf"
+    },
+    {
+      "id": "AMD_Q22026_transcript",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_76e60a688092d06ccab8a780191eae46/amd/db/841/9237/webcast_transcript/AMD2Q26EarningsCallTranscript.pdf",
+      "date": "2026-08-04",
+      "pdf_pages": [
+        2,
+        4,
+        6,
+        11,
+        12
+      ],
+      "facts": "Server-CPU market forecast is approximately$220B in2030 (>50%annual growth), distinct from$1.4T accelerators. Agentic sandboxes are forecast to become the largestCPU category. ActualQ2 EPYC revenue grew >70%YoY; units andASP both grew double digits, with units contributing more. Management forecast CPU revenue >80%H22026 and>70%FY2027.",
+      "scope": "No absolute CPU-only revenue total or exact unit/ASP growth pair is disclosed here. Captive versus merchant dollar accounting remains unclear.",
+      "local_file": "sources/amd_q2.pdf"
+    },
+    {
+      "id": "AMD_Q32026_results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "date": "2026-11-03",
+      "facts": "DataCenter$8.546B and97%growth include EPYC CPUs andInstinct GPUs. Results support strong demand but cannot be used asCPU-only revenue orCPU market share.",
+      "scope": "Official financial-results page linkedQ3 slides/audio, but noQ3 transcript at inspection; Q2 remains the latest original writtenCPU-only quantified outlook verified here."
+    }
+  ],
+  "baseline_policy": {
+    "preferred_observation": "Use Intel reported YTD CPU residual and separately labeled FY2026E model anchors, plus TrendForce estimated shipment shares. There is no verified, consistently defined globalCPU-dollar-share baseline in these sources.",
+    "selected_FY2026E_CPU_B": 21.8577,
+    "favorable_FY2026E_CPU_B": 22.14406,
+    "illustrative_common_baseline_share_at40B": 0.5464425,
+    "warning": "54.64% is an illustrative quotient of modelFY2026E and management approximatecurrentTAM; never label it observed Intel globalrevenue share. Nor convert TrendForce50%shipment share into50%revenue share."
+  }
+}

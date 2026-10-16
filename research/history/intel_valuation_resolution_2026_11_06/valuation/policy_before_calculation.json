@@ -1,0 +1,95 @@
+{
+  "frozen_utc": "2026-11-06T22:46:53.243964+00:00",
+  "purpose": "Independent arithmetic and accounting triangulation of the unchanged owned operating forecast; test whether a LONG is justified without selecting a multiple to hit a target.",
+  "input_sha256": {
+    "work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "work/three_hour/active_research/intel_weakness_repair_2026_11_06/valuation/current_hurdles_results.json": "d79279ed5fbb368fb69c821173539fb8a4acefa136e6950bcdad9811178a2f3d",
+    "work/three_hour/active_research/intel_weakness_repair_2026_11_06/valuation/delivery_joint_results.json": "def0aa5077161135d953fee97a5acd9b63006097c7296f23d39eb3f50c0f022e",
+    "work/three_hour/active_research/intel_weakness_repair_2026_11_06/factory/factory_results.json": "047036eeabd3b23a7b3661996d7040bcbf37f673f6dedb92b5d7e317c1cd9966",
+    "work/three_hour/active_research/intel_weakness_repair_2026_11_06/valuation/quarterly_overlay_results.json": "befc405234da6986705c5c61ef137ca2274006586653366968c0fba6dfc49eaf",
+    "work/three_hour/active_research/intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea",
+    "work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/explicit_claims_overlay_policy.json": "f2a32ee0d5150c9860c58cf60e7137553bd56312de5ac005784d8d156ae93ab0"
+  },
+  "quote": {
+    "current": {
+      "date": "2026-11-06",
+      "price_USD": 56.28,
+      "timestamp": "16:00:00 EST market close per MarketScreener; Schwab corroborates same price at 15:59 ET"
+    },
+    "prior_reference": {
+      "date": "2026-11-05",
+      "price_USD": 52.25
+    }
+  },
+  "exit_date": "2030-12-31",
+  "day_count": "Actual days / 365.25",
+  "rates": [
+    0.10625,
+    0.11555
+  ],
+  "price_return_hurdles": [
+    0.0,
+    0.1,
+    0.12,
+    0.15
+  ],
+  "normalized_parent_operating_cash_yield_grid": [
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.1
+  ],
+  "exit_metric_years": [
+    2030,
+    2031
+  ],
+  "exit_policy": [
+    "Cash-yield grid is fixed before calculation, deliberately broad and uncalibrated to peers. No point is selected as fair value. It represents a sensitivity, not independent empirical corroboration.",
+    "Normalize parent unlevered cash by removing net finite credits: old credit collection plus new credit collection less associated basis-loss tax. Retain those net finite flows as a separately discounted asset or liability through2040, with no terminal credit value.",
+    "Use2031 normalized cash as the forward exit metric and2030 normalized cash as an explicitly labeled trailing-metric sensitivity. Both end at Dec31,2030; do not add2030 cash flow to cash again.",
+    "Exit operating value equals normalized parent operating cash divided by assumed cash yield, plus future net finite-credit PV. Financing-shield PV is a separate APV benefit, never embedded in the specified unlevered cash-yield assumption.",
+    "Add projected economic-owner cash, subtract ordinary debt, and add net other assets once. Do not deduct separately the modeled lease cash claim or minority claims already netted from parent cash; do not add consolidated subsidiaries stake values.",
+    "Operating value divided by consolidated EBIT/NOPAT is an internal diagnostic, not a peer-comparable EV multiple. No market EV/EBIT valuation is presented without reconciling lease, minority and financing scope.",
+    "The forward cash-yield method leaves future growth and capital needs embedded in the selected yield. A yield grid does not validate the forecasts or justify favorable long-run ROC."
+  ],
+  "unchanged": [
+    "All active annual operating forecasts, taxes, capital policy, credits, cash balances, debt runoff, shares and additional claims.",
+    "Prior model and research files. No implementation change to existing valuation."
+  ],
+  "entry_policy": [
+    "Report current-date annual price return and entry ceiling at each chosen hurdle for verified existing cases; no distributions assumed.",
+    "Twenty-percent discount to Dec2026 planning value is a separately chosen margin sensitivity, not a claim of Nov6 fair value.",
+    "Conditional entry is the minimum of a20% discount to Dec2026 case value and a12% future-price-return ceiling for that same case. This is an analyst rule, not an optimized or universal margin.",
+    "No new same-day DCF is claimed. Dec31,2026 opening cash forecast and year-end cash flows cannot be relabeled Nov6 without a dated bridge and consistent equity risk."
+  ],
+  "sources": [
+    {
+      "url": "https://www.marketscreener.com/quote/stock/INTEL-CORPORATION-4829/quotes/",
+      "evidence": "Market closed Nasdaq16:00Nov6 at56.28; five-day table Nov5 52.25,Nov6 56.28. Price only; do not reuse stale market-cap field."
+    },
+    {
+      "url": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=intc",
+      "evidence": "Nov6 15:59 ET56.28; previous close52.25; confirms price,date. Do not use market cap for modeled diluted shares."
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/apv.htm",
+      "evidence": "Primary methodological source: APV separates unlevered operating value, financing tax benefits and financing costs. Existing model tax-shield discount remains unchanged; method source does not validate chosen asset rate or omitted distress costs."
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/ovhds/dam2ed/cash.pdf",
+      "evidence": "Slides2-7 separate cash and interest income and explain why fair-value cash treatment requires judgment. Model retains existing par-cash convention; does not establish all cash is immediately distributable."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "evidence": "Claims and balances are inherited from prior checked Intel filing audit; projected2030 balances and minority/lease cash reserves remain analyst assumptions."
+    }
+  ],
+  "caveats": [
+    "Model2030 cash is economic owner cash, not a bank balance forecast directly reported by Intel.",
+    "20B liquidity buffer is not automatically a valuation subtraction, but existing quarterly stress breaches require actions whose costs are unmodeled.",
+    "Ordinary debt at par, nominal net-other claims,5.51B modeled diluted claims, lease and minority cash proxies remain judgmental.",
+    "No precise probability of investment or competition success is estimated."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "completed_utc": "2026-11-06 07:22:00 UTC",
+  "question": "What current-generation workload economics can now be proved from public evidence?",
+  "conclusion": "A narrow successful-work comparison is now reproducible from raw public records: on a pinned Rust build, same-shape Xeon 6 and AMD Turin AWS instances both pass the same tests, while the AMD runs finish sooner and cost less under an explicitly normalized EC2-plus-EBS estimate. The stronger claim of a complete actual cloud bill or enterprise TCO remains unproved. Nothing here identifies Intel's net chip price or retained profit.",
+  "status": {
+    "successful_work_observed": "verified from all 10 original primary-pair GitHub job logs",
+    "raw_arithmetic_independently_reproducible": "yes, offline from archived records and calculate_matched_build.py",
+    "workload_independently_rerun_by_this_research": "no",
+    "complete_actual_cloud_bill": "not identified; source fields are cost estimates, not AWS CUR/invoices",
+    "exact_physical_resources_equal": "no: advertised vCPU/RAM/storage match, physical core mapping differs",
+    "Intel_cpu_ASP_or_margin": "not identified"
+  },
+  "new_primary_source": {
+    "owner": "RunsOn / runs-on-demo",
+    "commercial_interest": "RunsOn is a CI-runner software vendor comparing its offering with other runner providers. It operates this test. No CPU-vendor sponsorship is identified in the inspected sources, but that is not independent verification of funding or an external audit.",
+    "repository": "https://github.com/runs-on-demo/benchmark-public",
+    "frozen_repository_commit": "3691c0856de7597b2c73d86e4e2f0ee3cd934849",
+    "methodology": "https://runs-on.com/benchmarks/methodology/",
+    "data_license": "CC BY 4.0; attribution: RunsOn, https://runs-on.com/benchmarks/methodology/",
+    "raw_runs": "Five scheduled suite records, 2026-10-25, 2026-10-28, 2026-10-31, 2026-11-01, 2026-11-04",
+    "primary_direct_log_count": 10,
+    "quality": "Every primary-pair original job log reports the same 45 named tests passing, with no failures or skips. The ten logs also contain the same observed set of 470 compiled crate/version pairs and the pinned source/toolchain. All recorded formatting, test and both Clippy phases succeed.",
+    "pinned_workload": "aome510/spotify-player@7dc9d17a7bf5671eb6129fdf9127729f659637fc with Rust 1.98.1, same features, no build cache",
+    "workflow_audit": "The rust.yml file at each of the five actual harness commits has the same SHA256, 14a119fcac905fa85180b475c3fb216aca7956181c323944d2c0edd3a1852128.",
+    "matching": "Each Intel/AMD pair shares 8 advertised vCPU, 32 GiB advertised RAM, 30 GB root EBS, OS, kernel, AMI and harness commit. Within-pair x64 binaries/toolchain path match by configuration, though binary-output hashes were not published. Different runs include a kernel/image update; each pair still matches.",
+    "CPU_mapping": "m8i.2xlarge exposes 4 Intel Xeon 6975P-C cores with 2 threads/core. m8a.2xlarge exposes 8 EPYC 9R45 cores with 1 thread/core. This compares purchasable AWS products, not equal-core CPU architecture.",
+    "geography": "All us-east-1; two pairs use the same AZ, three different us-east-1 AZs. On-demand list rates are regional. Network/download timing and placement effects are not randomized.",
+    "lifecycle": "All five Intel primary runs used spot; AMD used spot four times and on-demand once. The main economic comparison reprices all recorded instance windows at current on-demand rates. No claim that all ten were observed on-demand runs."
+  },
+  "headline": {
+    "Intel_median_full_job_seconds": 114,
+    "AMD_median_full_job_seconds": 87,
+    "Intel_full_job_range_seconds": [
+      109,
+      117
+    ],
+    "AMD_full_job_range_seconds": [
+      83,
+      88
+    ],
+    "AMD_median_full_job_time_reduction_pct": 23.684210526315784,
+    "Intel_mean_normalized_EC2_EBS_USD_per_success": 0.015553311155555555,
+    "AMD_mean_normalized_EC2_EBS_USD_per_success": 0.0138182046,
+    "AMD_normalized_direct_cost_reduction_pct": 11.155866028795957,
+    "primary_date_pairs_with_both_faster_and_lower_normalized_direct_cost_AMD": 5,
+    "success_interpretation": "These are five repeated paired batches, not 450 independent measurements or evidence of a production reliability percentile. Tests establish this project's accepted correctness checks, not every possible application requirement.",
+    "latency_interpretation": "No ex-ante production SLA is claimed. The entire observed AMD job-time range is below the entire observed Intel range. Queue-plus-job ranges are also separated (AMD 100\u2013112 seconds, Intel 123\u2013138). Five samples cannot establish p99 or fleet capacity."
+  },
+  "billing_audit": {
+    "official_price_source": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ec2/USD/current/ec2-ondemand-without-sec-sel/US%20East%20(N.%20Virginia)/Linux/index.json",
+    "official_price_publication_utc": "2026-11-05T16:26:28Z",
+    "Intel_EC2_hourly_USD": 0.42336,
+    "AMD_EC2_hourly_USD": 0.48688,
+    "primary_formula": "sum[billedSeconds/3600 * (current AWS on-demand EC2 rate + raw EBS hourly estimate)] / successful jobs",
+    "recorded_cost_meaning": "bin/runs-on-costs.py explicitly reads estimated_cost_usd and estimated_ec2_cost_usd from the operator's control plane. Calling these actual paid invoices would be wrong.",
+    "EBS": "Source uses $0.018356/hour, consistent with 30 GB gp3 at 400 MiB/s: (30*$0.08 + (400-125)*$0.04)/730 hours. Main calculation preserves that source estimate; a sensitivity uses actual calendar month hours.",
+    "missing_IPv4": "The public benchmark collector sums EC2 and EBS only. The provider's separate real-repository blog methodology explicitly includes public IPv4, but says it is not the fixed benchmark methodology. We therefore add one $0.005/hour public IPv4 only as an explicit scenario, not an observed address-charge fact.",
+    "source_time_conflict": "The archived raw control-plane estimated windows average 126.76 seconds Intel and 98.46 seconds AMD. Original job logs also show a separate estimate with 20 seconds for shutdown; those windows are longer. Their exact reconciliation to resource termination and invoice time is unavailable.",
+    "cost_scenarios": [
+      {
+        "name": "Raw control-plane window, current on-demand EC2, calendar-month EBS, one assumed IPv4",
+        "Intel_USD_per_success": 0.015725471768618084,
+        "AMD_USD_per_success": 0.013952152717244126,
+        "AMD_savings_pct": 11.276730373919918
+      },
+      {
+        "name": "Alternate original job-log window including stated shutdown allowance, current on-demand EC2, calendar-month EBS, one assumed IPv4",
+        "Intel_USD_per_success": 0.017789873950617284,
+        "AMD_USD_per_success": 0.016409357244125847,
+        "AMD_savings_pct": 7.760126408560275
+      }
+    ],
+    "omitted_fields": [
+      "AWS CUR or invoice line items tied to instance and volume resource IDs, including exact start/termination/allocation/release times and billing rounding.",
+      "Actual public-IP allocation count/lifetime or confirmed private/NAT networking design, instead of assuming one public IPv4.",
+      "Network bytes and charged destinations, artifact/storage/request costs, monitoring/logging/bootstrap/control-plane costs.",
+      "A defined buyer deployment volume and allocation of license/controller fixed costs; both can cancel in a defined marginal choice but are not zero total costs.",
+      "Any savings plans/reservations, volume discounts, credits, taxes, paid support, operational/migration cost and production SLA/failure-retry behavior."
+    ],
+    "differential_cost_hurdle_USD_per_job": 0.0017351065555555548,
+    "hurdle_interpretation": "An additional unmeasured AMD-specific cost of about $0.001735 per job would erase the primary direct-cost advantage. Equal fixed fees do not change the absolute gap but do reduce its percentage of total cost. Do not claim omissions cannot reverse ranking without measuring their differential.",
+    "cloud_price_break_even": "At these observed windows, Intel EC2 compute would need about $0.374083/hour rather than $0.42336/hour to match AMD's primary direct cost (11.64% lower). This is AWS retail pricing arithmetic, not an Intel CPU discount or required change in Intel's ASP."
+  },
+  "robustness": {
+    "two_and_four_vCPU": "All five same-size Intel/AMD runs also succeed at 2 and 4 vCPU. Their reconstructed on-demand EC2+EBS cost reductions are approximately 30.99% and 20.75% respectively. These sizes use different physical-core mappings and may use zram; retain as diagnostics, not more independent primary experiments.",
+    "Arm": "Graviton5 m9g.2xlarge also has five successful source records with 8vCPU/32GiB and an estimated normalized direct cost of $0.011522 per build. It compiles for a different architecture and its full logs were not the primary verification target, so it is secondary rather than part of the main claim.",
+    "no_population_stats": "No significance level or confidence interval is claimed. Job order, host placement, CPU contention, package downloads and all broader production conditions are not experimentally controlled.",
+    "sample_selection": "Primary source chosen after seeing headline rankings; selection policy recorded before the raw reanalysis. The five most recent complete scheduled Rust runs were retained, not the best five runs for a vendor."
+  },
+  "comparison_with_existing_candidates": [
+    {
+      "source": "Oracle X12 versus X9 inference",
+      "why_not_full_match": "Old Intel versus new Intel, not AMD; absolute successful token output, quality and latency insufficient; CPU-only headline excludes required memory. Already audited in prior research."
+    },
+    {
+      "source": "Spare Cores Redis/static web",
+      "why_not_full_match": "Open raw configurations and same task hashes, but mixed dates, incomplete client/error retention, no production latency threshold; aggregate output cannot repair success denominator. Already audited."
+    },
+    {
+      "source": "Signal65 Terminal-Bench replay",
+      "why_not_full_match": "Intel commissioned; shared truncated recordings yield Failed strict replay status, so cost per scheduled trial differs from cost per successful task. Already audited."
+    },
+    {
+      "source": "HPE TPC-H 1000GB Xeon6 versus Turin",
+      "why_not_full_match": "Audited hardware/software/maintenance quotes and accepted SQL results, but memory, storage, OS, date and topology differ. TPC quote excludes complete enterprise TCO. Already audited."
+    },
+    {
+      "source": "Phoronix July13 M8i/M8a/M9g",
+      "why_not_full_match": "Primary independent published charts accessible; raw OpenBenchmarking endpoint again returned403. Charts alone do not supply full success/error/billing records."
+    },
+    {
+      "source": "AndreKurait OpenSearch framework",
+      "url": "https://github.com/AndreKurait/opensearch-benchmark-framework",
+      "why_not_full_match": "Inspection found report plus scripts but no committed raw trial records in results directory, and report labels the Intel m8i family Emerald Rapids. Not used for a numerical conclusion."
+    },
+    {
+      "source": "RunsOn fixed Rust workload",
+      "why_selected": "Best newly found public combination of pinned executable recipe, multiple paired current-generation runs, direct correctness-test logs and per-job cost-window estimates. Still lacks a complete invoice and an independently repeated experiment."
+    }
+  ],
+  "investment_use": {
+    "valid": "A named third-party runner operator successfully executes an identical x64 build on present Xeon6 and Turin cloud offerings. The cheapest advertised hourly instance need not minimize successful-work cost. This gives concrete current competitor pressure and narrows the buyer-value evidence gap.",
+    "invalid": [
+      "This proves AMD has lower complete TCO for every customer, or Intel has no valuable workload niche.",
+      "This proves Intel CPU architecture is 23.7% slower per core; physical-core counts differ.",
+      "This proves AWS passes a specific CPU procurement discount to buyers, or reveals Intel net ASP/manufacturing cost.",
+      "This justifies subtracting the workload saving directly from Intel DCAI margin or changing company revenue/share forecasts.",
+      "This is our original cloud experiment, an independent hardware audit, or a fully reconciled customer invoice."
+    ],
+    "proof_matrix_update": "Split the broad open claim into (1) successful matched x64 workflow and bounded direct-cost estimate, now supported, and (2) complete actual buyer cost plus Intel value capture, still unproved. Do not upgrade the original full-cost winner claim to already_verified."
+  },
+  "reproduction": {
+    "command": "python /Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/workload/calculate_matched_build.py",
+    "no_network_needed": "The calculation reads the frozen local raw source archive only.",
+    "outputs": [
+      "matched_build_results.json",
+      "web_archival_manifest.json",
+      "quality_verification.json"
+    ],
+    "original_work": "Parsed 45 job records, checked 10 primary original logs, independently re-priced their windows from official AWS data, checked all five exact workflow versions, and computed cost/success and omission sensitivities.",
+    "actual_workloads_run_by_us": 0,
+    "money_spent": 0,
+    "customer_or_vendor_outreach": 0,
+    "root_model_modified": false,
+    "root_PDF_modified": false
+  }
+}

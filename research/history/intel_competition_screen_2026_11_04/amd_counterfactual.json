@@ -1,0 +1,42 @@
+{
+  "prepared_utc": "2026-11-04T10:47:28.415853+00:00",
+  "question": "Does Intel DCAI growth identify Intel-specific server share gains or unusually strong CPU unit demand?",
+  "judgment": "No. The disclosures support genuine profitable demand and favorable Intel product mix, but the mixed product scopes do not identify a CPU market-share change. Higher selling prices driven by higher-value product mix are not artificial revenue.",
+  "primary_evidence": [
+    {
+      "source": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "date": "2026-11-03",
+      "fact": "Q3 Data Center revenue 8.5B, up 97% YoY; includes EPYC CPUs and Instinct MI450 GPUs. Client revenue 2.9B, up 7%.",
+      "interpretation": "Independent evidence of rival commercial progress and broad compute demand. The 97% cannot be compared with Intel DCAI 78% as an x86 CPU share calculation.",
+      "cutoff": "Published after November 3 regular market close; available for November 4 research, not an input known at that close."
+    },
+    {
+      "source": "https://d1io3yog0oux5.cloudfront.net/_1dcf6819c1566fb2bab40c24e6158009/amd/db/841/9237/webcast_transcript/AMD2Q26EarningsCallTranscript.pdf",
+      "date": "2026-08-04",
+      "locator": "PDF pages 2\u20134",
+      "fact": "Management reported greater than 70% growth in both cloud and enterprise server CPU sales, and forecast greater than 80% server revenue growth in H2 2026 and greater than 70% in 2027.",
+      "interpretation": "Historical reported demand and then-current guidance support a broad CPU expansion. These are not Q3 realized CPU results or independently measured market share; the August forecasts may be superseded."
+    },
+    {
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "date": "2026-10-30",
+      "locator": "MD&A Intel Products pages 33\u201334",
+      "fact": "Intel server ASP increased 54% YoY, mostly premium mix; unit volume increased 10%; purpose-built silicon contributed separately. DCAI operating-income increase was driven by higher product profit, with premium mix also increasing unit cost.",
+      "interpretation": "Do not use DCAI revenue growth as CPU unit growth. Do not treat mix-driven ASP as pure like-for-like price increases or assume it must reverse. Durable value depends on delivered workload economics and post-manufacturing contribution."
+    },
+    {
+      "source": "https://www.gartner.com/en/newsroom/press-releases/2026-10-12-gartner-says-worldwide-pc-shipments-declined-22-point-4-percent-in-third-quarter-of-2026-as-component-cost-inflation-raised-asps",
+      "date": "2026-10-12",
+      "fact": "Preliminary worldwide PC sell-in shipments declined 22.4% in Q3, attributed to component cost inflation and higher-priced product mix. Scope includes Windows, macOS and Chrome OS desktop/laptop PCs.",
+      "interpretation": "Supports an actual broad PC demand headwind. Intel processor shipments are not a matched measure of finished PCs, and AMD client revenue is not CPU unit shipments. No 2027 demand recovery or vendor share change is inferred.",
+      "table_caution": "The search-rendered vendor table contains an inconsistent prior-period Others entry; this review uses only the provider headline, not recomputed vendor shares."
+    }
+  ],
+  "method_boundary": {
+    "CPU_revenue_identity": "CPU units multiplied by realized price per unit, with explicit product mix; customer workload capacity per CPU can change.",
+    "share_test": "Requires matched CPU-only revenues or units, same market/geographic scope and period; no such Q3 complete matched denominator identified here.",
+    "profit_test": "AMD and Intel segment margins are not directly comparable without stock compensation, internal manufacturing transfer costs and corporate allocation reconciliation.",
+    "issuer_transcript_status": "AMD Q3 official event and results pages list audio, slides and tables, but no transcript at time checked. Third-party transcripts were discovery leads only; their fresh 2027 CPU forecasts were not admitted as primary-confirmed facts."
+  },
+  "what_changed": "Adds current rival evidence and rejects a misleading DCAI-growth share comparison. No operating input, direction or valuation changed."
+}

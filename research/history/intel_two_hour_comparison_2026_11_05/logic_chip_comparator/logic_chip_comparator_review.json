@@ -1,0 +1,158 @@
+{
+  "completed_utc": "2026-11-05T23:28:56.272990+00:00",
+  "task": "Find and read a credible public Intel or AMD/Nvidia university-club pitch, then identify useful causal/economic information absent from the current Intel screen.",
+  "result": "A full exact-company comparator was found and read: CityU Research & Investment Club Intel, 13 October 2020. It is useful for reasoning and presentation only; it is not a current-company benchmark or verified competition winner. A recent Tilburg Intel SELL summary was located, but not its full deck/model.",
+  "selected_report": {
+    "title": "Intel Equity Research",
+    "publisher": "CityU Research & Investment Club",
+    "date": "2020-10-13",
+    "url": "https://cityuinvestmentclub.wordpress.com/wp-content/uploads/2020/10/intel-equity-research.pdf",
+    "publisher_url": "https://cityuinvestmentclub.wordpress.com/",
+    "authors": [
+      "Gerald Akhmelvan",
+      "Kenneth Hans Periatna",
+      "Waleed Meraj Qureshi",
+      "Andreas Kusnadi",
+      "Muhammad Saif Ullah"
+    ],
+    "provenance": "PDF identifies the student club, named authors and CityU email addresses. The publisher website identifies the same City University of Hong Kong student club. PDF expressly disclaims representing the university.",
+    "award_or_outcome": "No award, competition placement, executed investment, or subsequent realized return verified. Do not call it a winner.",
+    "read_scope": "All 16 PDF pages; full narrative pages3–12, valuation pages12–14, financial statements/ratios pages15–16. Tables on page14 contain non-text material; the main text states the selected multiples and valuation weights.",
+    "recommendation": "Overweight",
+    "reference_price_USD": 53.88,
+    "blended_target_USD": 63.44,
+    "DCF_USD": 58.28,
+    "comparables_USD": 87.08,
+    "precedent_transactions_USD": 103.97,
+    "valuation_weights": {
+      "DCF": 0.85,
+      "comparables": 0.1,
+      "precedents": 0.05
+    }
+  },
+  "source_derived_summary_under_200_words": "The report argues that investors overreacted to process delays and underweighted data-center/IoT growth, upcoming Tiger Lake products and financial capacity. Pages 5–6 identify concentration in three OEM customers. Page 9 compares plugged-in and battery-mode laptop benchmarks. Page 10 discusses automotive content and a Geely program. Page 11 treats outsourcing and management changes as adaptation, while flagging rival products and market-share loss. Page 12 forecasts 2021 sales growth of 2% against a cited −2% estimate. Its $63.44 blended target gives 85% weight to a $58.28 DCF, 10% to $87.08 comparables and 5% to $103.97 precedents. Page 13 supplies five annual FCFF forecasts and WACC/growth sensitivities; pages 15–16 show statements and ratios. The main shortcomings are limited linkage from the specific product/contract evidence to forecast quantities and margins, sparse sourcing for some roadmap claims, and no operating failure thresholds.",
+  "claim_to_economics_comparison": [
+    {
+      "pages": [
+        3,
+        12
+      ],
+      "mechanism": "Specific perceived investor error and dated forecast disagreement",
+      "what_is_good": "The opening names a particular feared event and separates that event from the businesses the team believes investors neglect. A numerical growth difference makes the disagreement inspectable.",
+      "missing_from_our_screen": "We have a clear recovery model but still lack a current, sourced market-expectations comparison that establishes what the reference price or current investors underappreciate.",
+      "limit": "This report asserts market overreaction; it does not prove it merely by stating it. Its 2020 consensus comparison cannot serve as today’s consensus.",
+      "action": "Borrow the question: what precise assumption does a dated consensus or reverse valuation require, and which evidence contradicts it? Do not copy its conclusion."
+    },
+    {
+      "pages": [
+        5,
+        6
+      ],
+      "mechanism": "Concentrated OEM buyers can affect bargaining and allocation",
+      "what_is_good": "A named customer-concentration exhibit puts the commercial decision makers in the analysis, rather than describing only aggregate processor demand.",
+      "missing_from_our_screen": "Current public case studies show heterogeneous workloads, but do not weight them by the buyers who control a material share of Intel revenue or separate direct OEM orders from end-customer workloads.",
+      "limit": "Historical aggregate customer shares are not current DCAI exposure, contract duration, retention rates or pricing power. A large customer can strengthen relationships and bargaining pressure simultaneously.",
+      "action": "Only add a buyer concentration or allocation exhibit if current segment-relevant evidence can change a revenue, retention or margin assumption. A generic list of major customers would consume space without resolving the thesis."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "mechanism": "Performance under the buyer’s actual operating condition",
+      "what_is_good": "Plugged-in versus battery-mode testing asks a concrete user-experience question rather than equating a smaller process label with a better product.",
+      "missing_from_our_screen": "Generic compute scores alone do not establish performance at the buyer’s latency, memory, licensing or availability constraints. The new audited SQL comparison and workload-specific cases address part of this more directly.",
+      "limit": "The report uses secondary benchmark charts, not a controlled student experiment, and does not show enough settings to isolate CPU causality or a measured demand effect.",
+      "action": "Preserve workload/mode/configuration specificity. Require the next step from performance to payable licensed capacity, qualified purchase and Intel profit."
+    },
+    {
+      "pages": [
+        10
+      ],
+      "mechanism": "Customer program and chip content per end product",
+      "what_is_good": "A named end-product program and content-per-unit concept is closer to a revenue mechanism than a broad semiconductor TAM.",
+      "missing_from_our_screen": "Intel external-foundry and retained CPU scenarios still lack accepted program volumes tied to content, net price, capacity and useful timing.",
+      "limit": "An industry content forecast is not supplier revenue. This report does not isolate the supplier’s share of content or disclosed minimum contractual purchases. Its automotive/IoT mix is historically specific.",
+      "action": "Borrow only the structure: identifiable program × obtainable units × Intel content × net price × acceptance date, with a disclosed unresolved cell where evidence is missing."
+    },
+    {
+      "pages": [
+        11
+      ],
+      "mechanism": "Outsourcing as an execution hedge",
+      "what_is_good": "It considers an alternative production route rather than requiring every process milestone to succeed internally.",
+      "missing_from_our_screen": "A node or product fallback can change time to shipment and required funding; this would matter if supported with current commercial or engineering evidence.",
+      "limit": "The report’s claim that outsourcing eliminates a precise amount of delay is not established by a reconstructable primary-source chain in the report. Management commitment is not proven execution.",
+      "action": "Do not transplant its roadmap claims. Quantify external-fab costs, qualified availability and product competitiveness before assigning fallback value."
+    },
+    {
+      "pages": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "mechanism": "From operating forecasts to shareholder value",
+      "what_is_good": "Explicit capex, depreciation, tax, working capital and financial statements make assumptions inspectable. It does not rely solely on a peer multiple.",
+      "missing_from_our_screen": "Our detailed model already addresses these items more extensively. The unsolved issue is independent economic support for long-run reinvestment and franchise durability, not the absence of extra accounting schedules.",
+      "limit": "The report’s generic forecast percentages and multiple weights do not independently validate demand, factory output or terminal economics. Its sensitivity is mainly discount-rate/growth variation rather than operating failure.",
+      "action": "No additional valuation method or statement should be added to the ten-page screen merely to match its format."
+    }
+  ],
+  "valuation_reconstruction": {
+    "calculated_blended_target_USD": 63.4445,
+    "blended_upside_pct": 17.751484780994797,
+    "DCF_only_upside_pct": 8.16629547141796,
+    "share_of_total_modeled_price_upside_created_by_blend_over_DCF_pct": 53.99654974123059,
+    "interpretation": "Approximately 54% of the blended upside above the quoted stock price comes from moving above the DCF estimate through the two small high-valued method weights. This is an arithmetic decomposition, not proof those methods are wrong or that the DCF is correct. The methods are not three independent observations of mispricing.",
+    "limits": "No clear forward-target date is specified alongside the blended headline. Its 2020 discount rate, capital structure and process economics must not be imported into the 2026 Intel model. No later stock-return comparison was calculated."
+  },
+  "outdated_or_unverified_items": [
+    "Tiger Lake, Ryzen 4800U and the 2020 manufacturing roadmap concern a different product cycle; their relative performance does not establish current competition.",
+    "The historical business segmentation includes businesses and ownership structures that do not map directly to the present Intel operating segments.",
+    "Pandemic recovery timing, Nvidia/Arm transaction assumptions and AMD/Xilinx financing expectations are contemporaneous expectations, not facts to carry into 2026.",
+    "Claims about manufacturing outsourcing timelines and the consequences of management appointments require primary-source verification; their presence in a student report is not verification.",
+    "A company can recover operationally while the recovery is already priced. The report’s confident narrative and positive target do not establish subsequent accuracy."
+  ],
+  "bounded_search_record": [
+    {
+      "candidate": "Loyola 2022 Intel Pitch Presentation, Eduardo Fidalgo",
+      "url": "https://ecommons.luc.edu/ures/2022/2022/385/",
+      "status": "Official university repository confirms an open-access Intel BUY pitch with DCF/FCF and fabrication/restructuring thesis. PDF link returned 403 through web and direct download; abstract read only.",
+      "download_url": "https://ecommons.luc.edu/cgi/viewcontent.cgi?article=1941&context=ures",
+      "classification": "Not a full reviewed comparator; no award verified."
+    },
+    {
+      "candidate": "Tilburg Investment Club Intel SELL summary",
+      "url": "https://nl.linkedin.com/in/leon-krys-b95ab0360/en",
+      "club_url": "https://tilburginvestmentclub.nl/fundamentals.html",
+      "status": "Publicly indexed participant summary discusses a 2026 Intel sell pitch and DCF/reverse-DCF/peer work. Exact post date and full underlying deck/model not recovered; profile fetch itself returned 999 while search exposed text. Club website puts its research library in a member portal.",
+      "classification": "Useful contemporary lead only. No claim that the Intel pitch won an award, no verification of its forecast/current multiples, and no inference that the club’s separate Euronext award applies to Intel.",
+      "economic_question": "Does an operational turnaround justify ownership after the stock price, capex and dilution are considered?",
+      "research_limit": "Did not access a private portal, request materials or contact participants."
+    },
+    {
+      "candidate": "Notre Dame public pitch archive",
+      "url": "https://investmentclub.nd.edu/pitches",
+      "data_url": "https://investmentclub.nd.edu/javascripts/pitches-data.js",
+      "status": "Checked the publicly delivered pitch history; no matching Intel/AMD/Nvidia entry located in the retrieved archive. Existing AMAT/TSM comparisons were not duplicated."
+    },
+    {
+      "candidate": "Appalachian State AMD 2023",
+      "url": "https://finance.appstate.edu/sites/default/files/big_update_january_2023.pdf",
+      "status": "Official newsletter identifies an AMD competition submission and expressly says it was not selected for presentation. Only newsletter/annual-report summary located, not the full deck.",
+      "classification": "Nonselected submission, not a winner or full reviewed pitch."
+    },
+    {
+      "candidate": "NOVA AMD December 2024 academic report",
+      "url": "https://run.unl.pt/bitstream/10362/186377/1/Company_Report_Individual_Report_53979.pdf",
+      "status": "University-hosted master’s academic valuation located, but it is not identified as an investment-club or competition pitch. Not used to substitute for the requested category."
+    },
+    {
+      "candidate": "Limestone Intel 2012 Slideshare",
+      "url": "https://www.slideshare.net/slideshow/intc-stock-pitch-tmt-lime-stone-10747665/10747665",
+      "status": "Public author-uploaded deck located; older and weaker provenance than the selected CityU publication, so not used for another superficial comparison."
+    }
+  ],
+  "judgment": "The useful gap is commercial weighting: whose workloads and procurement decisions generate enough durable Intel profit to change the stock value? The old CityU report names buyers and tests a concrete usage condition, but it also illustrates why those exhibits alone are insufficient. Our new licensing work is more careful about configurations and value capture. Nothing found supports replacing our current quantitative case with a generic bullish Intel turnaround narrative or raising the target merely because another student report did so."
+}

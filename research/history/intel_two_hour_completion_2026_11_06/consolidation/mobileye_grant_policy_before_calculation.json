@@ -1,0 +1,73 @@
+{
+  "selected_utc": "2026-11-06T06:45:06.302211+00:00",
+  "status": "Selected before cash-cohort or value calculations. A transparent allocation of an existing aggregate budget, with separate stress cases; not a new grant added to EBIT.",
+  "primary_sources": {
+    "Mobileye_Q3_2026_10Q": {
+      "url": "https://ir.mobileye.com/node/9466/html",
+      "locators": [
+        "Note 2: Research and Development Incentives, printed page 9",
+        "Segment reporting, printed pages 20\u201321",
+        "Critical Accounting Policies: Research and Development Incentives, printed page 44"
+      ]
+    },
+    "Mobileye_Q3_2026_release": {
+      "url": "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-third-quarter-2026-results-updates-guidance",
+      "locators": [
+        "Financial highlights, R&D Law benefit",
+        "FY2026 guidance, reconciliation and footnote 1"
+      ]
+    },
+    "Intel_Q3_2026_10Q": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locators": [
+        "Note 2 segment accounting policies",
+        "All Other MD&A"
+      ]
+    }
+  },
+  "observed_and_guided_inputs_B": {
+    "Q3_2026_GAAP_grant_expense_offset": 0.052,
+    "Q3_2026_adjusted_grant_expense_offset": 0.051,
+    "nine_months_2026_GAAP_grant_asset_and_expense_offset": 0.162,
+    "nine_months_2026_adjusted_grant_expense_offset": 0.144,
+    "FY2026_adjusted_grant_guidance_approximate": 0.19,
+    "FY2026_RSU_component_in_guidance_known_through_Q3_only": 0.018,
+    "FY2026_Mobileye_revenue_guidance_low": 1.995,
+    "FY2026_Mobileye_revenue_guidance_high": 2.02,
+    "FY2026_Mobileye_adjusted_operating_profit_low": 0.38,
+    "FY2026_Mobileye_adjusted_operating_profit_high": 0.42,
+    "Intel_Q3_AllOther_profit": 0.179,
+    "Intel_nine_months_AllOther_profit": 0.511,
+    "Mobileye_Q3_adjusted_operating_profit": 0.089,
+    "Mobileye_nine_months_adjusted_operating_profit": 0.339
+  },
+  "analyst_policy": {
+    "opening_2026_receivable_for_this_new_law_B": 0.0,
+    "opening_receivable_reason": "The law was enacted March 29, 2026 and applies to qualifying expenditure in tax years beginning January 1, 2026. Zero applies only to this new program, not to every historical government receivable.",
+    "FY2026_cohort_ordinary_B": 0.19,
+    "FY2026_cohort_RSU_related_B": 0.018,
+    "FY2026_total_grant_forecast_B": 0.208,
+    "FY2026_status": "Analyst inference: approximately 190M retained in adjusted EBIT plus 18M removed by the guidance reconciliation. This is not a directly guided GAAP total and no further Q4 RSU benefit is assumed.",
+    "2027_to2030_annual_ordinary_grant_B": 0.19,
+    "2027_onward_RSU_related_grant_B": 0.0,
+    "future_grant_rationale": "Keep a flat ordinary incentive component within the frozen 0.7B All Other profit, rather than presenting that run rate as entirely pre-grant earnings. Continuation is a scenario, not approved future awards. No prospective RSU grant is assumed because the issuer says that component cannot be reliably predicted.",
+    "post2030_ordinary_grant_growth": 0.03,
+    "collection_lag_years": 2,
+    "collection_rationale": "Issuer expects cash associated with the 2026 benefit to begin in 2028. The entire cohort settling after two years is an analyst simplification; beginning is not completion.",
+    "collection_stresses_years": [
+      3,
+      4
+    ],
+    "scope_of_base_cash_WC": "Allocate the annual change in this long-term operating grant receivable inside the existing broad receivables / operating-capital cash-use envelope. Existing policy includes receivables and does not exclude this asset. Rename the cash-use row to operating capital, including grant receivables, if necessary.",
+    "base_incremental_cash_deduction_B": 0.0,
+    "base_cash_tax_change_B": 0.0,
+    "base_EBIT_change_B": 0.0,
+    "counterfactual_unfunded_stress": "Only if all other modeled cash uses consume the entire current envelope, add the grant receivable change once. Show this as a stress, not a discovered arithmetic omission. Use gross asset change; do not multiply a working-capital adjustment by one minus tax.",
+    "long_run_double_count_rule": "The host 0.8 ratio funds net operating investment including working capital. Do not add grant growth on top of that rule while leaving the ratio unchanged unless explicitly redefining its scope. Base allocation leaves aggregate capex and working capital unchanged.",
+    "opening_stock_rule": "Opening 2027 includes the 2026 receivable forecast. Deduct only each forward change, never the opening stock again. No separate asset-value addition if future collections are already represented.",
+    "capital_credit_rule": "This is an R&D expense offset in other long-term assets, separate from the existing 8B capital-tax receivable pool. Do not add these collections to both that pool and operating capital.",
+    "SBC_rule": "Intel excludes SBC from reported segment profit and charges it centrally. Do not subtract Mobileye SBC again from All Other or add it back to economic cash.",
+    "NCI_rule": "Schedule is gross consolidated. Keep the existing minority reserve unchanged for this allocation diagnostic; do not apply 76.2% ownership to cash and then also reserve the same minority claim.",
+    "tax_offset_rule": "A permitted tax offset could change realization timing. The source does not establish the election or future tax position. The default uses the issuer cash expectation and changes no separate cash-tax line."
+  }
+}

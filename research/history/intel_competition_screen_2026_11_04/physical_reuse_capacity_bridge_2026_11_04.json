@@ -1,0 +1,209 @@
+{
+  "title": "Intel 2027\u20132029 physical capacity reuse and completion bridge",
+  "as_of_information": "2026-11-02",
+  "researched_utc": "2026-11-04T12:24:18.910901+00:00",
+  "scope": "Bounded physical interpretation only; no new operating forecast,DCF or changes to frozen base/bull artifacts. Base and funded-bull valuations were already known.",
+  "decision": {
+    "physical_direction": "The physical evidence gives a modest tilt toward the funded bull\u2019s faster 2028\u20132029 absorption mechanism over a view that all expansion must await wholly new fabs. Ireland is actively expanding existing cleanrooms; Fab 52 already runs both client and server 18A;18A-P reuses design infrastructure. This is a real, funded route to more output.",
+    "2027_timing": "For 2027 alone, the constrained base remains the firmer planning assumption: extra tools and completed packages must arrive together, and no verified site-level output bridge establishes30% Intel server-unit growth. This is a timing judgment, not a claim that the bull is physically impossible or requires greenfield capacity.",
+    "profit_decision": "This bridge makes the funded bull a serious countercase, not a remote technical miracle. It does not by itself select 2028 Foundry breakeven over 2030: node R&D, newer depreciation, client underloading and pricing determine how accepted output becomes profit. Retain both numerical forecasts unchanged.",
+    "strongest_objection": "Existing-site tool and yield ramps may convert sooner than this cautious 2027 reading allows; later Q3 Fab 62 ramp language may indicate partial commissioning earlier than the October21 calendar. Conversely, package bottlenecks can strand good wafers. Neither possibility is quantified in the public data."
+  },
+  "facility_process_rows": [
+    {
+      "site_process": "Ireland Leixlip, Intel 4/Intel 3 production and expansion",
+      "existing_vs_new": "Operating production plus upgrades to existing fabrication buildings/cleanrooms. July program links campus modules through an expanded automated track and installs tools. It is not an entirely new campus.",
+      "products": "Xeon 6 and next-generation Xeon on Intel 3; annual report separately identifies Intel 4/3 at Ireland.",
+      "remaining_work": "Facility modifications, tool installation and qualified production ramp; exact remaining cash and production date not disclosed. Q3 confirms tool installation progressing.",
+      "quantified_disclosure": "\u20ac5B total program, issuer equivalent$5.7B; execution began earlier 2026. Neither remaining-to-complete nor annual cash schedule nor wafer/month or processor count given.",
+      "cash_scope": "Do not add$5.7B on top of aggregate capex; part was already underway and overlap is unresolved.",
+      "sources": [
+        "ireland_2026",
+        "annual 2025",
+        "q3_remarks"
+      ]
+    },
+    {
+      "site_process": "Oregon, Intel 18A development and production",
+      "existing_vs_new": "Operating development/early production network, with 18A ramp. Existing High-NA integration is a process capability rather than a second counted fab.",
+      "products": "18A client/server process base; exact 2027 product allocation by Oregon line undisclosed.",
+      "remaining_work": "Volume learning, tool/process and product qualification while continuing node R&D.",
+      "quantified_disclosure": "No usable site-specific wafer starts, good-die output or remaining completion budget found in this bounded pass.",
+      "sources": [
+        "annual 2025",
+        "fab62_2026",
+        "q3_remarks"
+      ]
+    },
+    {
+      "site_process": "Arizona Fab 52, Intel 18A",
+      "existing_vs_new": "Operational inOctober 2025; later Q3 reports continued Arizona 18A ramp.",
+      "products": "Issuer explicitly names both Panther Lake client and Clearwater Forest server manufacturing at Fab 52.",
+      "remaining_work": "Continue manufacturing learning and product/package qualification; capacity split and spare interchangeable tool-hours undisclosed.",
+      "reuse_inference": "Sharing a node/site supports allocation flexibility, but a client wafer is not one server wafer or equal good-die count. Customer/product qualifications remain distinct.",
+      "quantified_disclosure": "No accepted annual CPU-unit capacity or remaining cost disclosed in the reviewed sources.",
+      "sources": [
+        "fab52_2025",
+        "q3_remarks"
+      ]
+    },
+    {
+      "site_process": "Arizona Fab 62, partially completed new capacity",
+      "existing_vs_new": "Construction and tool installation underway; later Q3 identifies it as second high-volume 18A fab while also discussing cleanroom buildouts.",
+      "products": "18A association is explicit in laterOctober29 remarks. No separate 14A assignment inferred from older press speculation.",
+      "remaining_work": "Complete/qualify production capability; stage and commissioning calendar are not reconciled by the two statements.",
+      "quantified_disclosure": "October21 expects operations to begin by end 2028; no wafer count, qualified output ramp or remaining completion budget.",
+      "sources": [
+        "fab62_2026",
+        "q3_remarks"
+      ],
+      "date_stage_ambiguity": "See dedicated reconciliation; neither quantified 2027 output nor zero 2027 output is established."
+    },
+    {
+      "site_process": "Intel 18A-P process extension across future qualified lines",
+      "existing_vs_new": "Risk production disclosedJune 2026; compatible design rules with 18A permitIP/design-flow reuse. This is not a new physical site counted separately.",
+      "products": "Later Q3 identifies Nova Lake client and Diamond Rapids server programs, with planned 2027 product ramps.",
+      "remaining_work": "Process changes, product qualification and manufacturing ramp remain. Design-rule compatibility does not prove identical toolsets, no incremental cost or immediate factory substitution.",
+      "quantified_disclosure": "No incremental throughput, full-die yield or tool-retrofit bill disclosed.",
+      "sources": [
+        "18ap_2026",
+        "q3_remarks"
+      ]
+    },
+    {
+      "site_process": "Legacy Intel 7 in Arizona/Israel; Intel 3 compute plus Intel 7I/O",
+      "existing_vs_new": "Established Intel 7 capacity has distinct process equipment and continuing product use.",
+      "products": "2025 annual report describes Xeon 6 Intel 3 compute die combined with Intel 7I/O through EMIB.",
+      "remaining_work": "A conversion to Intel 3/18A requires suitable equipment/process qualification; no universal Intel 7-to3 conversion percentage is disclosed.",
+      "reuse_inference": "Reduced legacy client loading can free compatible Intel 7 work, including I/O, but does not directly create Intel 3 compute wafers. Claiming all fabs are fungible misses the complementary multi-node supply chain.",
+      "quantified_disclosure": "No matched client-to-server wafer/die conversion factor.",
+      "sources": [
+        "annual 2025"
+      ]
+    },
+    {
+      "site_process": "New Mexico Fab 9/Fab 11X and Malaysia packaging",
+      "existing_vs_new": "New Mexico operational Foveros packaging establishedJanuary 2024;Malaysia has existing assembly/test and a new advanced-packaging facility. Q3 adds capacity in both locations for 2027 customer ramps.",
+      "products": "Foveros/EMIB and heterogeneous package ecosystem; exact product-by-line or EMIB/EMIB-T capacity allocation undisclosed.",
+      "remaining_work": "Additional packaging equipment and qualifications; organic substrates are a separate upstream input.",
+      "quantified_disclosure": "HistoricalNew Mexico$3.5B program is not an unspent 2027 budget. No 2027 units/month, remaining completion dollars or Intel-specific substrate volumes in reviewed primary sources.",
+      "sources": [
+        "nm",
+        "annual 2025",
+        "q3_remarks"
+      ]
+    },
+    {
+      "site_process": "Independent substrate supplier expansion, IBIDEN",
+      "existing_vs_new": "Adds capacity largely within existing Gama/Ono and other sites.",
+      "products": "High-performanceIC package substrates forAI/high-performance servers; no verified allocation to Intel or a particular Xeon.",
+      "remaining_work": "Sequential operations and mass production from FY2027, not immediate full-year capacity.",
+      "quantified_disclosure": "JPY500B plan FY2026\u201328; first-phase JPY220B primarily Gama Cell 6. These are supplier capital, not extra Intel capex; no usable Intel CPU count.",
+      "sources": [
+        "ibiden"
+      ]
+    },
+    {
+      "site_process": "Ohio newbuild",
+      "existing_vs_new": "First major structural truss installed byOctober 2026; materially earlier physical stage than operating Ireland/Fab 52.",
+      "products": "No new node/output allocation established in the current statement.",
+      "remaining_work": "Substantial construction/tooling/qualification; no updated operating schedule in reviewedOctoberstatement.",
+      "quantified_disclosure": "No 2027\u201329 output assigned here. This is a conservative forecast treatment, not proof of zero possible acceleration.",
+      "sources": [
+        "fab62_2026"
+      ]
+    }
+  ],
+  "fab62_date_reconciliation": {
+    "oct21_exact_excerpt": "we expect operations to begin by the end of 2028",
+    "oct29_exact_excerpt": "including Fab 62 our second high volume 18A fab",
+    "facts": "The October29 sentence describes the ramp of 18A in Oregon and Arizona and includes Fab 62. The same prepared remarks still discuss accelerating Fab 62 cleanroom buildouts. It is later than the October21 statement, but does not expressly revise its date or quantify initial versus full output.",
+    "judgment": "The statements could refer to program/tool ramp versus commercial operations, or to partial acceleration. The public wording does not resolve that distinction. Do not silently equate end 2028 with full HVM, and do not infer zero 2027 silicon from a by-end 2028 target.",
+    "correction_of_preliminary_message": "Withdraw the earlier categorical statement that Fab 62 cannot underpin any 2027 finished output. The admissible conclusion is that no quantified 2027 Fab 62 contribution is established.",
+    "sources": [
+      "fab62_2026",
+      "q3_remarks"
+    ]
+  },
+  "quantity_and_cost_boundary": {
+    "usable_numbers": "\u20ac5B Ireland program is a project total; existing Intel 3reportedvolume increase is relative, not absolute output. Supplier JPY500B is neither Intel capacity nor Intel cash.",
+    "not_identified": "Per-site qualified wafer starts/month, good dies per wafer by product, package/test yield, accepted CPU counts, exact cleanroom utilization and remaining fab-specific completion cash are not disclosed in reviewed primary materials.",
+    "why_not_a_stop": "These missing coefficients prevent an engineered numerical capacity ceiling, but do not prevent the directional judgment that existing-site upgrades can mature sooner than a new campus.",
+    "capital_control": "Do not stack project headline budgets with aggregate capex, convert historical PP&E or cleanroom area to CPUunits, or count substrate prepayments as both working capital and a second identical equipment purchase."
+  },
+  "excluded_unverified_leads": [
+    "Third-party Q3 Q&A reproductions mention40% additional substrate capacity in2H2027 and moving Intel 3 into Oregon. Official prepared remarks do not contain these exact claims; no primary audio verification was completed here, so neither is used as a quantified forecast input.",
+    "Secondary descriptions of Fab 62 as exclusively 14A are superseded by the later issuer 18A identification. No full-fab fungibility inferred."
+  ],
+  "best_next_observable": "Quarterly completed server unit growth and margin alongside Intel 3/18A output and supplier/prepayment unwind; a primary quantified package-capacity or Fab 62commissioning update would distinguish timing more directly than an equipment order alone.",
+  "sources": {
+    "q3_remarks": {
+      "date": "2026-10-29",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "Printed pages1\u20133,5\u20138; local text lines40\u201354,80\u2013119,248\u2013249,287\u2013315,357\u2013367",
+      "grade": "Primary issuer prepared remarks; local source retained"
+    },
+    "ireland_2026": {
+      "date": "2026-07-13",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-invests-5-billion-euro-to-expand-manufacturing-in-europe.html",
+      "locator": "Opening three substantive paragraphs and execution paragraph",
+      "grade": "Primary issuer page opened directly; obsolete newsroom.intel.com URL redirects404"
+    },
+    "fab62_2026": {
+      "date": "2026-10-21",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/opinion/building-america-capacity-to-innovate.html",
+      "locator": "Capacity Across America; web lines67\u201374. Date confirmed by issuer newsroom index.",
+      "grade": "Primary issuer executive statement, direct page; date/stage ambiguity with later Q3 remarks retained"
+    },
+    "fab52_2025": {
+      "date": "2025-10-09",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/client-computing/intel-unveils-panther-lake-architecture-first-ai-pc-platform-built-on-18a.html",
+      "locator": "Summary bullets and opening paragraphs, web lines14\u201322",
+      "grade": "Primary issuer page opened directly"
+    },
+    "18ap_2026": {
+      "date": "2026-06-16",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium.html",
+      "locator": "Intel 18A-P updates, web lines13\u201324",
+      "grade": "Primary technical issuer disclosure; performance claims not used to infer whole-die economics"
+    },
+    "annual2025": {
+      "date": "2026-01-23",
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "Our Business manufacturing discussion printed pages11\u201313; Xeon 6 product architecture; local2025_10k.txt",
+      "grade": "Primary annual report, retained text inspected"
+    },
+    "nm": {
+      "date": "2024-11-26",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/resources/new-mexico-investment.html",
+      "locator": "Opening investment paragraph and Fab 9/Fab 11X January 2024 descriptions",
+      "grade": "Primary issuer history, current status additionally checked against 2026 remarks"
+    },
+    "ibiden": {
+      "date": "2026-02-03",
+      "url": "https://www.ibiden.com/ir/items/icpkggcapitalinvestment2026.pdf",
+      "locator": "Page1 investment plan, amount and operations start",
+      "grade": "Primary supplier disclosure; not established as Intel-specific allocation"
+    },
+    "q3_10q": {
+      "date": "2026-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "locator": "Industry Supply Constraints; future node development; Note3 ArizonaSCIP; capital commitments",
+      "grade": "Primary issuer filing, retained source; funding bridge assigned separately"
+    }
+  },
+  "input_hashes": {
+    "q3_remarks.txt": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb",
+    "q3_10q.txt": "794ffe94bcdcdf2db1fe70765de42741b847cdf85ea2c2c7a73d82c90dbb2dd2",
+    "2025_10k.txt": "451450fd66433d8cce0eaa7fa6d8d3e153406de1ecf21191bbdbc2218a5fd044",
+    "bullish_absorption_operating_policy.json": "6857dbbc5e3d724a3dde2b0ef0ce5914d40a87a09ac4afd6aa0369c32113bf65",
+    "foundry_operating_policy.json": "fd17c6573519d6b2db78b9defa51bceb479b690a085aef90d5bc9f48fe855a81"
+  },
+  "preferred_central_operating_judgment": {
+    "selected_utc": "2026-11-04T12:25:58.764782+00:00",
+    "preference": "Retain constrained-base Foundry operating profit of -5.5/-3.5/-1.5/0B for 2027\u20132030. No policy or model output changed.",
+    "reason": "I expect existing-fab absorption and lower comparable process costs. However, higher finished-server ASP and product mix primarily benefit Products, not a second identical Foundry gain. Weak client loading, distinct Intel 7/3/18A capacity, package constraints, growing depreciation and continued 14A R&D make full-year 2028 Foundry breakeven less likely than continued shrinking losses. The physical reuse bridge strengthens the funded bull as a serious countercase without making its exact profit path my central expectation.",
+    "largest_counterfact": "Qualified Ireland, Fab 52, 18A-P and substrate ramps bring late-2027 underlying quarterly Foundry losses toward $0.5B or less without reserve-release gains, while staying within the funded capital envelope. That would indicate absorption fast enough to favor 2028 breakeven. The $0.5B threshold is an owned monitoring judgment, not a disclosed management commitment or an empirical definition of success.",
+    "valuation_guard": "Both previously computed base and bull values were known. This preference was selected from operating causality and does not change inputs to achieve a price target."
+  }
+}

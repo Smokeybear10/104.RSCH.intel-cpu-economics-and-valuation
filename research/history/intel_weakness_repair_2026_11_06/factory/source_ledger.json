@@ -1,0 +1,76 @@
+{
+  "checked_utc": "2026-11-06T21:56:05.192325+00:00",
+  "method": "Fresh primary-source checks against the existing November 5-6 research. The source facts were largely already archived. New work is the current-owned-case stress calculation and the explicit historical-to-forecast exhibit.",
+  "sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "source": "Intel Q3 2026 Form 10-Q",
+      "locator": "MD&A Intel Foundry, printed page 35; Note 2",
+      "verified_facts": {
+        "Q3_revenue_B": 6.697,
+        "Q3_EBIT_B": -1.853,
+        "Q3_2025_EBIT_B": -2.321,
+        "YTD_2026_EBIT_B": -6.379,
+        "YTD_2025_EBIT_B": -7.809,
+        "Q3_lower_period_charge_benefit_B": 0.793,
+        "Q3_higher_opex_B": 0.219,
+        "YTD_lower_period_charge_benefit_B_rounded": 2.6,
+        "YTD_lower_product_profit_B": 0.936,
+        "YTD_higher_opex_B": 0.231
+      },
+      "boundary": "Period charges include multiple mechanisms and must not all be called noncash, nonrecurring or pure reserve releases. The derived325M ex-benefit decline is not normalized earnings."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "source": "Intel Q2 2026 Form 10-Q",
+      "locator": "Note 2; MD&A Intel Foundry",
+      "verified_facts": {
+        "Q2_EBIT_B": -2.089,
+        "H1_EBIT_B": -4.526,
+        "Q1_EBIT_B_derived": -2.437
+      },
+      "boundary": "Substantially all consolidated depreciation resides in Foundry overhead absorbed into inventory. Segment revenue includes internal transfer prices; consolidated profit remains the controlling measure."
+    },
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "source": "Intel Q3 2026 prepared remarks",
+      "locator": "PDF pages2,3,6,7",
+      "verified_facts": [
+        "Management reports Intel 3 wafer costs 15% below Q1 and Intel 18A costs 40% below Q1.",
+        "Management cites yield, cycle-time and utilization improvements.",
+        "New Mexico and Malaysia packaging capacity targets 2027 customer ramps.",
+        "An advanced organic substrate shortage constrains server output.",
+        "2027 gross capex is expected to rise strongly; equipment purchase orders rose nearly 40% sequentially.",
+        "Q4 client wafer-start reductions pressure fixed-cost absorption."
+      ],
+      "boundary": "Cost reductions already enter actual results. Different volume and cost periods cannot be multiplied into a net profit claim. Supplier purchase orders are not customer revenue commitments."
+    },
+    {
+      "url": "https://download.intel.com/newsroom/2026/earnings/1Q2026-Earnings-Call.pdf",
+      "source": "Intel Q1 2026 prepared remarks",
+      "locator": "PDF page4",
+      "verified_facts": [
+        "Management added advanced-packaging backlog and said Malaysia expansion supports committed demand expected to begin converting to revenue in 2027."
+      ],
+      "boundary": "No named customer dollar minimum, paid-package quantity, unit fee, cancellation protection or realized margin is disclosed."
+    },
+    {
+      "url": "https://www.mediatek.com/hubfs/MediaTek-Assets/Pdfs/Quarterly%20Earnings%20Release/2026/Quarterly%20Earnings%20Release-2026Q3/Transcript.pdf",
+      "source": "MediaTek Q3 2026 official transcript",
+      "locator": "PDF pages7-8",
+      "verified_facts": [
+        "The CEO describes yield-improvement work with an unnamed US IDM partner and substrate suppliers.",
+        "Customer engineering resources and a production timetable corroborate implementation work."
+      ],
+      "boundary": "The CEO does not name Intel in the cited answer. Analyst attribution is not customer confirmation. Accelerator chip sales are not Intel packaging fees."
+    }
+  ],
+  "search_outcome": "No newly verified named packaging contract with a quantity, fee or purchase minimum supporting $7B of 2030 sales was found. Recent Intel packaging and PDK releases describe technical capability and engagements, without validating the forecast fee amounts.",
+  "recommended_exhibit": {
+    "heading": "Factory learning is visible; the profit hurdle remains substantial",
+    "observed": "Q1/Q2/Q3 Foundry EBIT: -$2.437B/-$2.089B/-$1.853B. Cost learning is demonstrated, while lower period charges contribute to reported improvement.",
+    "required": "The 2027 annual Foundry EBIT forecast of -$4B requires an average quarterly loss of $1B, 46.0% below the Q3 quarterly loss. The 2030 annual forecast is +$2.5B.",
+    "stress": "Breakeven only through maturity retains a $75.32 December 2030 target but reduces December 2026 value to $51.31 at 10.625%. At 11.555%, values are $44.32/$67.10.",
+    "limits": "These are forecast requirements, not independent delivery proof. Do not add historical charge benefits or cost savings again."
+  }
+}

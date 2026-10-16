@@ -1,0 +1,247 @@
+{
+  "title": "Operating evidence gate for a 3–5 year Intel short, November 5, 2026",
+  "review_completed_utc": "2026-11-05T05:57:42.168411+00:00",
+  "scope": "Review whether new primary evidence warrants replacing the frozen strong recovery policy with the prior weak-demand diagnostic. No forecasts, original model files, or PDF changed. No probability fitted to the quote or short-return threshold.",
+  "verdict": {
+    "decision": "Do not promote the weak-demand diagnostic to the central forecast on the currently reviewed evidence.",
+    "why": "A weaker trajectory is economically plausible, but latest industry and issuer evidence points to rapid server demand, constrained supply and continuing premium-product adoption. Competitive entry and historical pricing reversals justify a material downside scenario. They do not identify that scenario as more likely than the stronger path.",
+    "strongest_current_anchor": "2027 Intel unit growth of 20% is consistent with the TrendForce global industry/share forecast. The exact 20% ASP growth assumption is substantially less identified and remains a judgment.",
+    "not_proven": "Neither the strong policy nor the weak policy has an empirically estimated scenario probability. Current evidence does not establish absolute short profit over 3–5 years. A weak case that creates profit cannot validate its own selection.",
+    "competition_use": "Defend the evidence gap explicitly: the pitch currently demonstrates demanding valuation/return assumptions and sensitivity, rather than a source-established central path to a lower 2030 share price."
+  },
+  "sources": [
+    {
+      "id": "intel_current_outlook",
+      "date": "2026-10-29",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF page 6 (zero-index 5), outlook; page 7 (zero-index 6), segment guidance and capex",
+      "novelty": "Rechecked existing primary evidence; newly emphasized difference from TrendForce forecast.",
+      "facts": "Management expects industry server CPU units to grow more than 30% in both 2026 and 2027, with industry supply constraints through 2027 into 2028. Q4 DCAI revenue is guided to mid-teens sequential growth. PC TAM is expected to decline roughly 10% in 2027. Gross capex is expected to rise strongly in 2027 from about $20B in 2026.",
+      "implication": "Industry guidance is not Intel-specific shipment guidance. Weak PC demand is already substantially allowed for in the frozen client forecast and is not evidence of weak server demand. Do not turn the greater-than-30% lower boundary into a measured point estimate."
+    },
+    {
+      "id": "intel_reported_ASP_and_supply",
+      "date": "2026-10-30",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "MD&A printed pages 31 and 33–34; Future Node Development and Manufacturing Expansion Projects",
+      "novelty": "Revalidated prior pricing and supply evidence.",
+      "facts": "Q3 server ASP rose 54% and units 10% year over year. Premium mix drove most ASP growth; pricing contributed less and partly offset input costs. Data-center demand exceeds available supply for some products; substrates and other constraints may persist into 2027. Intel committed to completing 14A for future internal products, while expansion scale also depends on external design wins.",
+      "implication": "Supports a premium-mix/recovery path but not exact 2027 ASP growth or a consolidated incremental margin. Shared 14A development is not exclusively a cost of hypothetical merchant business."
+    },
+    {
+      "id": "trendforce_global_CPU",
+      "date": "2026-10-22",
+      "url": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+      "locator": "Opening shipment forecast, Intel supply paragraph, accompanying supplier-share chart; chart visually verified in prior judge review",
+      "novelty": "Rechecked existing research.",
+      "facts": "Projects global server CPU shipments up 31% in 2026 and more than 40% in 2027. Chart puts Intel share at 50% then 42%; Arm-based global share approaches 30% in 2027. Intel process, packaging and manufacturing constraints are already reasons given for declining share.",
+      "implication": "The same forecast that highlights competition supports approximately 18% or greater Intel unit growth at the 40% industry boundary. Do not count its share-loss argument a second time as a new cut from the 20% model."
+    },
+    {
+      "id": "arm_Nov4_customer_orders",
+      "date": "2026-11-04",
+      "url": "https://investors.arm.com/static-files/0b5baa2e-fc47-4d05-b724-e49de7bd4356",
+      "locator": "Shareholder letter printed page 2 (zero-index PDF page 1), final paragraphs; printed page 3 opening paragraph",
+      "novelty": "New primary issuer evidence after the prior full-hour review.",
+      "facts": "Arm reports multiple-customer AGI CPU purchase orders extending through calendar 2027, first commercial deliveries on track for fiscal Q4 2027, and increased confidence in up to $2B of silicon revenue across fiscal 2027–28. Oracle plans AGI CPU instances in 2027. The letter separately forecasts Arm-based share above 60% at top hyperscalers by calendar year-end 2026.",
+      "limitations": "No cancellation rights, deposits, minimum obligations, unit quantities, pricing, or annual split of the up-to-$2B figure are disclosed. The revenue outlook is not stated to be entirely covered by noncancellable orders. Fiscal Q4 2027 corresponds to January–March 2027. Top-hyperscaler share is not the global CPU denominator, and its precise market-share measurement is not defined here.",
+      "implication": "Raises confidence in actual competitive entry versus announcements alone. Does not quantify displacement of Intel, distinguish substitution from newly created demand, or establish a weaker central Intel forecast."
+    },
+    {
+      "id": "trendforce_system_bottlenecks",
+      "date": "2026-10-29",
+      "url": "https://www.trendforce.com/presscenter/news/20261029-13284.html",
+      "locator": "Opening CPU/DDR5 discussion and paragraphs on ODM shortages and Murata expansion",
+      "novelty": "Additional primary market-research cross-check, not a separate Intel sales forecast.",
+      "facts": "Reports AI inference and agents increasing CPU and associated DDR5/power-component demand. ODMs expect high-end MLCC shortages to be most severe in Q1–Q2 2027; additional Murata capacity is unlikely before 2028.",
+      "implication": "System bottlenecks can limit shipments or increase costs, while also corroborating robust demand. No quantified Intel unit/ASP impact is disclosed; no extra cut should be mechanically layered onto a forecast already constrained by components."
+    },
+    {
+      "id": "historical_ASP_reversal",
+      "date": "2026-01-23",
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "MD&A Intel Products, 2025 versus 2024; Sales Arrangements printed page 13",
+      "novelty": "Already included in frozen policy; re-used as a genuine counterargument.",
+      "facts": "Recast 2024 server ASP rose 11% while units fell 8%; 2025 ASP declined 4% while units increased 9%, with competitive pricing/lower-core mix. General product purchase orders can be cancelled, changed or delayed with little notice and without penalty.",
+      "implication": "Blended ASP and unit growth need not move together. Scarcity and announced capacity do not make premium pricing permanent. Historical reversals demonstrate a mechanism, not its 2027 probability; general PO terms do not override undisclosed specific LTAs."
+    },
+    {
+      "id": "socionext_external_wafer_option",
+      "date": "2026-08-18",
+      "url": "https://www.socionext.com/cn/pr/Intel_18A-P_Process/",
+      "locator": "Announcement opening paragraphs",
+      "novelty": "Already investigated during prior hour; not counted as new.",
+      "facts": "Named customer plans custom SoCs on Intel 18A-P, initially a high-performance compute chiplet. No program revenue, production volume, launch date or exclusivity is disclosed.",
+      "implication": "The commercial option is real. A claim of no external customers is untenable; a large cash-flow award is not yet quantified."
+    }
+  ],
+  "unit_growth_boundary_diagnostic": {
+    "formula": "Intel unit growth = (1 + global unit growth) * (2027 Intel share / 2026 Intel share) - 1",
+    "assumed_share_2026": 0.5,
+    "assumed_share_2027": 0.42,
+    "rows": [
+      {
+        "global_unit_growth": 0.3,
+        "implied_Intel_unit_growth": 0.09200000000000008
+      },
+      {
+        "global_unit_growth": 0.4,
+        "implied_Intel_unit_growth": 0.17599999999999993
+      },
+      {
+        "global_unit_growth": 0.45,
+        "implied_Intel_unit_growth": 0.21799999999999997
+      }
+    ],
+    "global_growth_needed_for_Intel_10pct_units_at_42pct_share": 0.30952380952380976,
+    "global_growth_needed_for_Intel_20pct_units_at_42pct_share": 0.4285714285714286,
+    "share_needed_for_Intel_10pct_units_at_global40pct": 0.3928571428571429,
+    "interpretation": "10% Intel unit growth can be reconciled with approximately 31% industry growth and 42% share. This combines the low end of Intel industry guidance with another forecaster's share path; it is a plausible cautious scenario, not a joint published forecast or probability estimate. At 40–45% industry growth and unchanged 42% share, implied Intel growth is 17.6–21.8%. No 2028–30 issuer unit-growth path was found."
+  },
+  "ASP_identification": {
+    "observed": "Frozen primary-source bridge is Q1/Q2/Q3 2026 ASP +27/+48/+54% year over year; latest YTD +44%. These compare different prior-year quarters and customer/product mixes.",
+    "identity": "Annual ASP equals annual CPU revenue divided by annual CPU units. Exit carryover equals an exit ASP divided by the prior annual unit-weighted ASP, minus one.",
+    "missing": "Public rounded YoY shipment and ASP changes do not identify absolute quarterly shipments, exact 2026 unit weights, same-SKU pricing, customer discounts, or Q4 2026 exit ASP. Q4 actual results are not yet available at this cutoff.",
+    "what_can_be_defended": "Positive carryover and richer 2027 product mix are plausible. A slowdown from the 2026 YoY increases is sensible as comparisons toughen and premium penetration rises. Both 10% and 20% 2027 blended ASP growth can be defended as scenarios; the reviewed information does not prove one is the measured carryover.",
+    "what_cannot_be_defended": "Claiming 20% is mathematically locked in, averaging quarterly YoY growth rates to estimate carryover, treating every price increase as pure profit, or using the 19.1667% revenue-restoration threshold as evidence for the forecast.",
+    "chronology": "The prior policy disclosed that the 19.1667% offset diagnostic was known before the 20% ASP judgment. New review does not erase that history. Keep independent operating rationale and sensitivity visible."
+  },
+  "path_comparison": {
+    "base_2026_server_revenue_B": 21.8577,
+    "strong_frozen": {
+      "rows": [
+        {
+          "year": 2027,
+          "unit_growth": 0.2,
+          "ASP_growth": 0.2,
+          "unit_index_vs_2026": 1.2,
+          "ASP_index_vs_2026": 1.2,
+          "revenue_index_vs_2026": 1.44,
+          "server_revenue_B": 31.475088
+        },
+        {
+          "year": 2028,
+          "unit_growth": 0.25,
+          "ASP_growth": 0.08,
+          "unit_index_vs_2026": 1.5,
+          "ASP_index_vs_2026": 1.296,
+          "revenue_index_vs_2026": 1.944,
+          "server_revenue_B": 42.49136880000001
+        },
+        {
+          "year": 2029,
+          "unit_growth": 0.18,
+          "ASP_growth": 0.04,
+          "unit_index_vs_2026": 1.77,
+          "ASP_index_vs_2026": 1.3478400000000001,
+          "revenue_index_vs_2026": 2.3856768,
+          "server_revenue_B": 52.14540779136001
+        },
+        {
+          "year": 2030,
+          "unit_growth": 0.12,
+          "ASP_growth": 0.02,
+          "unit_index_vs_2026": 1.9824000000000002,
+          "ASP_index_vs_2026": 1.3747968000000002,
+          "revenue_index_vs_2026": 2.7253971763200004,
+          "server_revenue_B": 59.570913860849686
+        }
+      ],
+      "2026_to_2030_unit_CAGR": 0.18658218111677516,
+      "2026_to_2030_ASP_CAGR": 0.0828283760519779,
+      "2026_to_2030_revenue_CAGR": 0.2848648562308915
+    },
+    "weak_diagnostic": {
+      "rows": [
+        {
+          "year": 2027,
+          "unit_growth": 0.1,
+          "ASP_growth": 0.1,
+          "unit_index_vs_2026": 1.1,
+          "ASP_index_vs_2026": 1.1,
+          "revenue_index_vs_2026": 1.2100000000000002,
+          "server_revenue_B": 26.447817000000004
+        },
+        {
+          "year": 2028,
+          "unit_growth": 0.15,
+          "ASP_growth": 0.04,
+          "unit_index_vs_2026": 1.265,
+          "ASP_index_vs_2026": 1.1440000000000001,
+          "revenue_index_vs_2026": 1.44716,
+          "server_revenue_B": 31.631589132000002
+        },
+        {
+          "year": 2029,
+          "unit_growth": 0.12,
+          "ASP_growth": 0.02,
+          "unit_index_vs_2026": 1.4168,
+          "ASP_index_vs_2026": 1.1668800000000001,
+          "revenue_index_vs_2026": 1.6532355840000004,
+          "server_revenue_B": 36.13592742439681
+        },
+        {
+          "year": 2030,
+          "unit_growth": 0.08,
+          "ASP_growth": 0.02,
+          "unit_index_vs_2026": 1.5301440000000002,
+          "ASP_index_vs_2026": 1.1902176000000002,
+          "revenue_index_vs_2026": 1.8212043193344005,
+          "server_revenue_B": 39.80733765071553
+        }
+      ],
+      "2026_to_2030_unit_CAGR": 0.11220047422474977,
+      "2026_to_2030_ASP_CAGR": 0.04449554508435716,
+      "2026_to_2030_revenue_CAGR": 0.16168844056846066
+    },
+    "weak_relative_to_strong_2027_revenue_change": -0.1597222222222221,
+    "weak_relative_to_strong_2030_revenue_change": -0.3317655367231638,
+    "interpretation": "The weak scenario still grows server revenue at 16.17% annually through 2030, but ends 33.18% below the strong path. It is a persistent multiyear level shortfall, not just a temporary shipment delay; prior weak policy carries that lower level beyond 2030. Continued future growth does not make the relative miss small."
+  },
+  "margin_evidence_gate": {
+    "known": "The frozen policy applies 50% consolidated incremental EBIT retention to extra server revenue through 2030; the weak diagnostic applies 50% decremental retention. These are modeled marginal economics, not issuer guidance.",
+    "support_for_recovery": "Recent premium mix and manufacturing learning support operating leverage; the old policy documented roughly 69% product-profit retention on the Q3 revenue bridge, with 50% reserved for forward costs.",
+    "limits": "Reported product profit excludes some consolidated costs and varies with transfer pricing. Higher-core products cost more, price increases partly compensate input inflation, new-node costs can offset ASP, and fixed costs make a demand miss expensive. None identifies a precise future consolidated decremental margin. Existing Foundry dollar profits must not receive duplicate absorption credits or losses.",
+    "capital_asymmetry": "Some capital, substrate and minimum-production commitments persist if orders weaken. Preserve lagged capex flexibility and actual working-capital mechanics; do not assume every revenue miss frees cash proportionately. Those commitments are generally within existing budgets, not automatically additional expenditures."
+  },
+  "external_merchant_wafer_upside": {
+    "status": "Retain an explicit option/risk discussion. No source in this review supports deleting the option or assigning a numerical success probability.",
+    "prior_funded_diagnostic": "Prior policy with $10B merchant revenue in 2033, 10% annual growth through 2040, 40% EBIT margin and 1.0 incremental capital turnover added $4.20065 per share under the corrected maturing-risk curve, moving central end-2026 value from $53.77048 to $57.97113. This was a favorable funded sensitivity, not a new base forecast or horizon price.",
+    "risk_controls": "Do not double count existing packaging profit, shared 14A R&D, or capacity already serving Intel products. Shared infrastructure can improve returns, but third-party production can displace internal output. Fund incremental investment and working capital. No binding contract is required for every forecast; unreported economics remain judgments."
+  },
+  "evidence_that_would_change_selection": [
+    "A consistent revision in industry shipment forecasts and Intel capacity/output that makes the lower unit path central, with the global share denominator reconciled.",
+    "Accepted shipment mix, realized ASP and customer pricing evidence showing premium growth slowing materially relative to the frozen path, distinguishing mix from discounts and cost pass-through.",
+    "Customer migration measured in deployed CPU units or spending that exceeds the share loss already assumed, rather than counting announcements or all Arm-based spending as displaced Intel revenue.",
+    "A persistent margin/cash miss after isolating one-time disruptions and without double-counting Foundry absorption or working-capital advances.",
+    "Conversely, successful Clearwater/Diamond adoption, continued premium pricing and funded external wafer awards would weaken an absolute short even if the current required-return critique remains."
+  ],
+  "search_limits": "Latest available Intel financial results checked were Q3 2026; no newer Intel operating guidance was identified as of the Nov5 review. Arm Nov4 letter was obtained directly. AMD Nov3 release was rechecked but already covered by prior research; no new exact AMD 2027 claim was adopted from secondary transcripts. Qualcomm Nov4 primary release text was not located in the indexed/accessible results, so unverified earnings claims were excluded.",
+  "inputs_read": [
+    {
+      "path": "work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/weak_demand_policy.json",
+      "sha256": "f64de939151f9113356f66e90a5c3cf1eb9d895752671e32bbd2e494697322aa"
+    },
+    {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/weak_demand_results.json",
+      "sha256": "e7a3115ac8e08b07ac9a7a7b076bcc9b7ede34656341a96b8093cc18b4e0cf6a"
+    },
+    {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/judge_review.json",
+      "sha256": "a8278d0b8a63936e0b7a7503c8de81c1dbc9aad16159a052479a0a1deeebdb2c"
+    },
+    {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/bull_countercase_review.json",
+      "sha256": "999b861f25c1a239cf5b128767aeca67ae33806d8ed141a931ce5879eaac57e7"
+    },
+    {
+      "path": "work/three_hour/active_research/intel_hour_verification_2026_11_04/external_wafer_corrected_curve_results.json",
+      "sha256": "362c63119c951026d3c22b3ecc10bba11ba430929e750481246ff8e73417ae59"
+    }
+  ],
+  "mutations": "Only this new operating_evidence.json was written by this child for the follow-up."
+}

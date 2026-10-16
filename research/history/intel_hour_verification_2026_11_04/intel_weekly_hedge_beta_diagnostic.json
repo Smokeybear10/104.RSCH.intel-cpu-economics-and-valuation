@@ -1,0 +1,85 @@
+{
+  "scope": "Weekly closes aggregated from downloaded daily data; incomplete Nov2week excluded. Raw equity regression beta, not operating beta or forecast.",
+  "results": [
+    {
+      "benchmark": "SPY",
+      "frequency": "weekly last close of complete ISOweek",
+      "n": 260,
+      "start": "2021-11-12",
+      "end": "2026-10-30",
+      "beta": 1.6273918286978386,
+      "HC3_standard_error": 0.17109044694516237,
+      "R_squared": 0.22088607662357007
+    },
+    {
+      "benchmark": "SPY",
+      "frequency": "weekly last close of complete ISOweek",
+      "n": 104,
+      "start": "2024-11-08",
+      "end": "2026-10-30",
+      "beta": 2.104673572011015,
+      "HC3_standard_error": 0.4022551960614714,
+      "R_squared": 0.1929315095229156
+    },
+    {
+      "benchmark": "SPY",
+      "frequency": "weekly last close of complete ISOweek",
+      "n": 52,
+      "start": "2025-11-07",
+      "end": "2026-10-30",
+      "beta": 3.7314801402836455,
+      "HC3_standard_error": 0.6773081576045884,
+      "R_squared": 0.3050121298216395
+    },
+    {
+      "benchmark": "SPY",
+      "frequency": "weekly last close of complete ISOweek",
+      "n": 13,
+      "start": "2026-08-07",
+      "end": "2026-10-30",
+      "beta": 4.671932912909622,
+      "HC3_standard_error": 1.4983791152530936,
+      "R_squared": 0.3161977089712512
+    },
+    {
+      "benchmark": "SMH",
+      "frequency": "weekly last close of complete ISOweek",
+      "n": 260,
+      "start": "2021-11-12",
+      "end": "2026-10-30",
+      "beta": 0.9641998763128076,
+      "HC3_standard_error": 0.09708662496760603,
+      "R_squared": 0.3351940768171072
+    },
+    {
+      "benchmark": "SMH",
+      "frequency": "weekly last close of complete ISOweek",
+      "n": 104,
+      "start": "2024-11-08",
+      "end": "2026-10-30",
+      "beta": 1.361471307378701,
+      "HC3_standard_error": 0.16549172291251463,
+      "R_squared": 0.4144515047667944
+    },
+    {
+      "benchmark": "SMH",
+      "frequency": "weekly last close of complete ISOweek",
+      "n": 52,
+      "start": "2025-11-07",
+      "end": "2026-10-30",
+      "beta": 1.7738127680523348,
+      "HC3_standard_error": 0.1688420532254889,
+      "R_squared": 0.5894691865457082
+    },
+    {
+      "benchmark": "SMH",
+      "frequency": "weekly last close of complete ISOweek",
+      "n": 13,
+      "start": "2026-08-07",
+      "end": "2026-10-30",
+      "beta": 1.7118622677411444,
+      "HC3_standard_error": 0.4372466948505807,
+      "R_squared": 0.5264756251755361
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "prepared_utc": "2026-11-04T22:55:58.622690+00:00",
+  "scope": "Additional root source revalidation and source-quality exclusions during hour. No forecast input changes.",
+  "checks": [
+    {
+      "topic": "Future AMIC credits",
+      "result": "Existing pipeline policy already reflects35% eligible investment, construction-beginning cutoff at end2026, later qualifying completion, finite chosen project pool and full-credit tax-basis reduction. No new legal omission established. Zero after2032 is policy cutoff, not statutory completion deadline.",
+      "sources": [
+        "https://www.irs.gov/forms-pubs/correction-to-the-2025-instructions-for-form-3468-of-the-applicability-of-the-35-rate-on-line-1c-in-part-iv-advanced-manufacturing-investment-credit-under-section-48d",
+        "https://uscode.house.gov/us/usc/119-118/t26/s48D/",
+        "https://www.irs.gov/irb/2024-51_IRB"
+      ]
+    },
+    {
+      "topic": "Supplier advances and capital commitments",
+      "result": "Existing WC is a combined net cash-use envelope. Exact advance amortization is unavailable. We found no proven duplicate cash charge; consumption should reduce prepaid balance while expense enters earnings.19.6Bcapitalcommitments and3.3Bsubstratecash are constraints on budget flexibility, not new amounts to stack on capex/WC.",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+    },
+    {
+      "topic": "AMD Q3 comparison",
+      "result": "Revalidated original release/slides/Nov4filing;97%DataCentergrowth mixesEPYCandInstinct, so it is not CPU-only growth or market share. Prior research already extracted datedQ2CPU-only outlook; not counted as new evidence.",
+      "source": "https://newsroom.amd.com/news/amd-reports-third-quarter-2026-earnings/"
+    },
+    {
+      "topic": "Public research about Intel cash conversion",
+      "result": "SpiderEyesOct31report independently discusses capacity cash/commitments and the Q3adjustedFCF bridge. This demonstrates that these facts are publicly discussed, not a discovery unique to our pitch. Its zero-publicly-named14Acustomer count does not establish zero private demand. Primary issuer sources remain the admitted facts.",
+      "source": "https://spidereyes.co.uk/insights/intel-2026-11/"
+    },
+    {
+      "topic": "INH Capital report",
+      "result": "Search index exposes pre-earnings report and its supersession notice toOct30Hold/PT80. Direct page redirects to an inaccessible authentication handshake. No full updated model read and no current forecast claimed.",
+      "source": "https://inhcapital.com/insights/research/intc-q3-fy26-earnings-preview"
+    },
+    {
+      "topic": "Generic valuation/aggregator searches",
+      "result": "Excluded pages mixing stale19\u201329targets with current70\u2013160table, and unverified Q3CFO5.91Btranscription. No extrapolation of provider target average into exact market belief."
+    }
+  ],
+  "investment_implication": "The useful thesis is an argued interpretation of growth, retained cash and required return. Neither finding already-public commitments nor independently reproducing formulas establishes an informational advantage or a winning probability."
+}

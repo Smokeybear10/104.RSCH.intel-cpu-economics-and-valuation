@@ -1,0 +1,148 @@
+{
+  "completed_utc": "2026-11-07T01:11:11.208563+00:00",
+  "verdict": "The research strengthens the defense of packaging as a real opportunity, but cannot establish7B fees or repair the current-price long. More favorable packaging margins are mathematically too small to solve the return gap.",
+  "scope_audit": {
+    "finding": "No revenue double count in current integrated model.",
+    "identity_2030": "Host revenue includes2B embedded packaging; net program adds5B. Consolidated sales include gross7B once plus0.934B legacy external Foundry. Host capital funds embedded2B; separate program capital fundsnet5B.",
+    "profit_identity_2030": "Host Foundry2.5B contains0.5B assigned packaging overlap. Add gross1.75B program EBIT minus embedded0.5B minus0.075B centralcost =1.175B. Total hostFoundry+netprogram=3.675B.",
+    "history": "Nov4 displayed only net packaging while host external revenue was implicit. Nov6 accounting completion restored the missing embedded and legacy revenue denominators without adding profit; post2030 reinvestment rose accordingly.",
+    "source_files": [
+      "intel_competition_screen_2026_11_04/external_packaging_operating_policy_2026_11_04.json",
+      "intel_two_hour_completion_2026_11_06/consolidation/complete_revenue_bridge.py",
+      "intel_two_hour_completion_2026_11_06/root/integration_policy_before_calculation.json",
+      "intel_two_hour_completion_2026_11_06/root/integrated_model.py"
+    ],
+    "boundary": "The2B embedded allocation is an owned precaution against stacking profit, not measured contracted revenue. Legacy external services and new packaging must remain separate."
+  },
+  "margin_interpretation": {
+    "strongest_new_positive": "ASE ATM actually earned20% operating margin inQ3. A differentiated Intel packaging business at25% is economically possible, though not independently calibrated.",
+    "scope_warning": "Amkor11.3% andASE20% are not identical services or revenue denominators. Material shares differ:50.7% vs27%. Intel includes owned materials but excludes customer-consigned logic/HBM. Its share is unreported.",
+    "illustrative_material_adjusted_ratios": {
+      "ASE_operating_profit_divided_by_revenue_less_material_cost": 0.27397260273972607,
+      "Amkor_same": 0.22920892494929007,
+      "Intel25pct_at_ASE_material_share": 0.3424657534246575,
+      "Intel25pct_at_Amkor_material_share": 0.5070993914807302
+    },
+    "ratio_boundary": "Diagnostic ratios, not restated accounting margins, direct comparables or proof of Intel price premium.",
+    "central_forecast_answer": "Observed peer outcomes can anchor an explicit20% control. They cannot alone select Intel expected margin. Keep25% as a differentiated economics assumption, or use20% as a deliberately cautious judgment with rationale; do not describe either as statistically estimated.",
+    "removable_claim": "The further rise from25% in2030 to27% by2032 is unnecessary to sustain the central operating story and lacks an independent calibration. Holding25% thereafter reduces target from82.47to82.15 at10.625%, annual return9.64%to9.54%. This is an honest simplification, not a meaningful investment-edge fix."
+  },
+  "new_control_results": {
+    "0.10625": {
+      "unchanged_owned_case": {
+        "Dec2026_planning_value_USD": 56.139285845568374,
+        "Dec2030_target_USD": 82.47015162680005,
+        "annual_price_return_from_Nov6_56_28": 0.0964291893107092,
+        "EBIT2030_B": 38.942007896513076,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.5,
+        "net_packaging_EBIT2030_B": 1.175
+      },
+      "rounded_Amkor_company_Q3_margin11_3pct_control": {
+        "Dec2026_planning_value_USD": 54.31229026812362,
+        "Dec2030_target_USD": 79.733934034116,
+        "annual_price_return_from_Nov6_56_28": 0.08755216113059294,
+        "EBIT2030_B": 37.98300789651307,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.226,
+        "net_packaging_EBIT2030_B": 0.49
+      },
+      "rounded_ASE_ATM_Q3_margin20pct_control": {
+        "Dec2026_planning_value_USD": 55.33663773167647,
+        "Dec2030_target_USD": 81.2680579178282,
+        "annual_price_return_from_Nov6_56_28": 0.09255723940933902,
+        "EBIT2030_B": 38.592007896513074,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.4,
+        "net_packaging_EBIT2030_B": 0.925
+      },
+      "flat25pct_from2030_no_mature27pct": {
+        "Dec2026_planning_value_USD": 55.92534317049993,
+        "Dec2030_target_USD": 82.14973831076625,
+        "annual_price_return_from_Nov6_56_28": 0.09540134635793973,
+        "EBIT2030_B": 38.942007896513076,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.5,
+        "net_packaging_EBIT2030_B": 1.175
+      },
+      "Intel_attributed_aspiration30pct_control": {
+        "Dec2026_planning_value_USD": 56.51404860932341,
+        "Dec2030_target_USD": 83.03141870370432,
+        "annual_price_return_from_Nov6_56_28": 0.09822237646823573,
+        "EBIT2030_B": 39.29200789651308,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.6,
+        "net_packaging_EBIT2030_B": 1.425
+      }
+    },
+    "0.11555": {
+      "unchanged_owned_case": {
+        "Dec2026_planning_value_USD": 48.557681488026326,
+        "Dec2030_target_USD": 73.56082736404235,
+        "annual_price_return_from_Nov6_56_28": 0.06664122580714049,
+        "EBIT2030_B": 38.942007896513076,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.5,
+        "net_packaging_EBIT2030_B": 1.175
+      },
+      "rounded_Amkor_company_Q3_margin11_3pct_control": {
+        "Dec2026_planning_value_USD": 46.97457710773589,
+        "Dec2030_target_USD": 71.1091364773475,
+        "annual_price_return_from_Nov6_56_28": 0.057965693696300225,
+        "EBIT2030_B": 37.98300789651307,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.226,
+        "net_packaging_EBIT2030_B": 0.49
+      },
+      "rounded_ASE_ATM_Q3_margin20pct_control": {
+        "Dec2026_planning_value_USD": 47.863349793766226,
+        "Dec2030_target_USD": 72.48554344192435,
+        "annual_price_return_from_Nov6_56_28": 0.06286368257252883,
+        "EBIT2030_B": 38.592007896513074,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.4,
+        "net_packaging_EBIT2030_B": 0.925
+      },
+      "flat25pct_from2030_no_mature27pct": {
+        "Dec2026_planning_value_USD": 48.37413869378367,
+        "Dec2030_target_USD": 73.27658192731336,
+        "annual_price_return_from_Nov6_56_28": 0.06564675009712562,
+        "EBIT2030_B": 38.942007896513076,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.5,
+        "net_packaging_EBIT2030_B": 1.175
+      },
+      "Intel_attributed_aspiration30pct_control": {
+        "Dec2026_planning_value_USD": 48.88492759380111,
+        "Dec2030_target_USD": 74.06762041270235,
+        "annual_price_return_from_Nov6_56_28": 0.0684071047859025,
+        "EBIT2030_B": 39.29200789651308,
+        "gross_packaging2030_B": 7.0,
+        "host_Foundry_EBIT2030_B": 2.6,
+        "net_packaging_EBIT2030_B": 1.425
+      }
+    }
+  },
+  "commercial_evidence_conclusion": {
+    "supported": "Technical feasibility, actual internal use, capacity construction and supplier-reported committed demand support commercialization.",
+    "remaining_unknowns": [
+      "Accepted-good-package quantity",
+      "Intel net realized fee and material ownership scope",
+      "Cancellation terms and customer minimums",
+      "Shared versus dedicated tool/substrate capacity",
+      "Realized margin after startup, qualification and customer support"
+    ],
+    "better_claim": "Customer commitments justify investigating a business; they do not establish the retained margin or the value of unconstrained forecasts.",
+    "next_observable_tests": [
+      "Disclosed external recurring packaging revenue distinct from engineering/NRE andlegacy services",
+      "Named customer qualification and production schedule with fees, volume or purchase minimum where publicly disclosed",
+      "Intel-specific advanced packaging gross/operating profit or enough service scope to estimate it",
+      "Capacity acceptance and utilization, coupled with working capital andcashcollection"
+    ],
+    "allocation_guard": "Neither MediaTek accelerator revenue nor Intel substrate purchases can be relabeled Intel packaging sales."
+  },
+  "factory_recovery_conclusion": "No independent new evidence makes the exact2.5B2030hostFoundryprofit materially more certain. Existing node-cost learning is already reflected in results, and period-charge benefits explain much of the reported improvement. Keep breakeven/delay controls visible; measure consolidated profit and cash to avoid transfer-price interpretations.",
+  "highest_value_pitch_correction": "Explain that packaging is a potentially profitable second business, but the valuation is still primarily a CPU cash-flow bet. Show a20% packaging margin control beside the25-27% assumption; do not sell better packaging margins as the missingupside.",
+  "main_files_edited": false,
+  "verification": "Independent after-tax cash delta reconciliation:20 comparisons,maxabsoluteerror2.49e-14USD. Baseline reproduced currentownedcase."
+}

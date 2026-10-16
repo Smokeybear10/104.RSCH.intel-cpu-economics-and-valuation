@@ -1,0 +1,48 @@
+{
+  "prepared_utc": "2026-11-05T22:56:25.601135+00:00",
+  "conclusion": "No additional quantified claims error was established. Existing minority, SBC and cash treatment is coherent as an economic approximation, but the legal and financing precision is materially lower than the model\u2019s numerical detail.",
+  "Arizona_minority_review": {
+    "agreement_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-22-291100/d412415dex101.htm",
+    "agreement_locator": "Sections4.1(b)(ii),4.1(h),4.5(b),4.6(b),12.1\u201312.3; definition of O&M Agreement Initial Term Date; omitted ScheduleSD",
+    "agreement_facts": "From April2027, Intel\u2019s otherwise distributable cash is redirected to Brookfield until a special amount is satisfied. ScheduleSD omits its size. After the O&M initial term, available proceeds first satisfy obligations, then Intel\u2019s priority return on unbudgeted contributions, then reimburse Intel for prior special distributions before normal sharing. The 9.4% clause applies to Intel\u2019s unbudgeted capital, not a stated Brookfield guaranteed yield. Economic incentives are allocated to Intel. The call price schedule is also omitted.",
+    "current_10Q_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "current_10Q_locator": "Note3 printed pages12\u201313; local q3_10q.txt lines755\u2013788",
+    "current_10Q_facts": "Ireland\u2019s49% minority was repurchased for14.2B in April2026 and is no longer an ongoing claim. Arizona remains49% minority-owned, with production beginningQ1_2026, minimum-production and inventory conditions, and potential volume damages. Arizona asset use is ring-fenced. This confirms a different legal cash claim from ordinary common equity.",
+    "guidance_url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+    "guidance_locator": "Prepared remarks printedpage7",
+    "guidance_facts": "Management guides NCI approximately1.1B in each of2027 and2028. This supports the reserve\u2019s scale, but NCI income is not an exact forecast of legal cash distributions.",
+    "model_treatment": "Economic minority cash reserve1.1/1.1/1.2/1.3B in2027\u201330, then3% growth. No book-NCI deduction stacked. The reserve remains a normalized ownership allocation rather than a contract waterfall.",
+    "judgment": "The confidential amount and unestablished O&M end date preclude a precise residual claim valuation. Eventual Intel catch-up means treating all special distributions as permanent lost value would also be wrong. Do not add book NCI or a guessed debt-like perpetuity. A proper revision needs an explicit asset-level waterfall and any matched funding, timing and acquisition effects.",
+    "unit_exposure_file": "structural_review_results.json; each extra100M of2031 minority cash growing3% reduces2030value by0.21214/share under unchanged risk. This is not an estimate of an omitted amount."
+  },
+  "SBC_and_claims_review": {
+    "source_url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "locator": "Note4 printed13\u201314; q3_10q.txt lines805\u2013844; corporate expenses and cashflow",
+    "facts": "Q3 weighted incremental dilution is63M, including5M contingent escrow shares. Treasury-stock accounting covers employee awards and relevant share arrangements. Corporate SBC equals cashflow SBC in the disclosed YTD amount1.894B.",
+    "model_claims": "5.315B latest common +132M remaining escrow +58M employee/other weighted net proxy, rounded5.51B. Current and weighted dates differ; this is a planning denominator. Future SBC is charged to EBIT without also adding future issuance.",
+    "remaining_limit": "The58M is not a grant-level valuation at the terminal share price. Unrecognized-service overlap and price-sensitive treasury-stock dilution cannot be exactly reconciled with public quarterly counts. Adding all stale gross awards to5.51B would be an unsupported double charge. A full future legal share count would require a different compensation/treasury model.",
+    "cost_scale_result": "Holding2030SBC/Products ratio from2031 yields76.39 target instead of77.68; including other central cash costs yields75.74. These diagnose central operating leverage, not missing issued shares."
+  },
+  "cash_and_initial_funding_review": {
+    "opening_convention": "50.839B liquid assets is a Dec2026 planning forecast from Sep2026 cash+STinvestments54.005B and selectedQ4flows. It is not measured current cash. Known14.2B Ireland repurchase is already paid before the starting balance; deducting again would double count.",
+    "economic_treasury": "Cash is after cash-equivalent SBC and minority reserves. It is an owner budget, not an exact bank statement or peak quarterly liquidity model. Fixed1B investment income and2.6B total cashinterest2027\u201330 are normalizations, not a balance-yield schedule.",
+    "floor": "Do not automatically subtract the20B liquidity floor as an extra valuation claim. Cash that earns a fair return still has value; required cash can be modeled in operating working capital instead, but the model must then reconcile the cash-income treatment.",
+    "method_source": "https://pages.stern.nyu.edu/~adamodar/pdfiles/ovhds/dam2ed/cash.pdf",
+    "method_locator": "Slides2\u20137",
+    "method_finding": "Operating DCF excludes investment income when cash is separately valued. Cash\u2019s value depends on its reinvestment return and restrictions; merely calling it operating cash does not make it valueless.",
+    "other_assets": "The5.717B other-assets net balance uses carrying-value proxies. Entire8.798B nonoperating equity exposure equals about1.60/share before any tax/claim effects; the base does not mark private investments to realizable sale proceeds."
+  },
+  "capital_identity_review": {
+    "finding": "From2031, capex=DA+net_operating_investment\u2212WC. Consequently DA cancels from operating cash at a fixed EBIT forecast. The grosscapex line is a decomposition of the selected net-investment rule, not an independent capacity calculation.",
+    "implication": "The20%-of-Products DA path, margin path and useful asset lives need a coherent physical interpretation. A simple all-equipment8-year straight-line comparison gives higher DA than the model, but buildings, installation lags, grants and intangible/lease scopes prevent declaring this an error. No arbitrary capex correction is selected.",
+    "R_and_D": "R&D is expensed within operating profit and not capitalized in the investment denominator. A consistent R&D capitalization would adjust operating earnings, taxes and invested capital together while preserving cash value; the current23.5% ratio should be labeled an implied accounting/net-investment return."
+  },
+  "not_found": [
+    "No double deduction of current debt, lease liabilities, escrow derivative or bookNCI.",
+    "No double addition of opening cash and pre2030retained cash.",
+    "No exact contract-based calibration of the minority reserve.",
+    "No grant-level legal share forecast.",
+    "No independent wafer-capacity proof from the gross-capex formula."
+  ],
+  "investment_judgment": "These limitations call for calibrated confidence and plain labeling. The largest unresolved reason to hesitate remains the duration of revenue, margin and productive-capital assumptions at a price near planning value, rather than a newly demonstrated hidden balance-sheet deduction."
+}

@@ -1,0 +1,124 @@
+{
+  "as_of_utc": "2026-11-04T16:51:10.758519+00:00",
+  "task": "Additional primary and professional-source research testing Intel and SpaceX competition theses",
+  "forecast_scope": "Future unit shares, market size, product acceptance, capital productivity and financial outputs are forecasts, not measured outcomes.",
+  "server_market": {
+    "source": "https://www.trendforce.com/presscenter/news/20261022-13279.html",
+    "published": "2026-10-22",
+    "chart": "https://img.trendforce.com/EDM/2026/10/20261022_133209_3.jpg",
+    "chart_visually_checked": true,
+    "global_units_growth_2026": 0.31,
+    "global_units_growth_2027_text": "over40%",
+    "shares_2026E_2027F": {
+      "Intel": [
+        0.5,
+        0.42
+      ],
+      "AMD": [
+        0.27,
+        0.28
+      ],
+      "NVIDIA": [
+        0.12,
+        0.12
+      ],
+      "AWS": [
+        0.04,
+        0.05
+      ],
+      "Google": [
+        0.03,
+        0.06
+      ],
+      "Others": [
+        0.04,
+        0.07
+      ]
+    },
+    "conditional_Intel_unit_growth": {
+      "0.4": 0.17599999999999993,
+      "0.45": 0.21799999999999997,
+      "0.5": 0.26
+    },
+    "global_growth_required_for_Intel30_if_shares_hold": 0.5476190476190477,
+    "adjudication": "Supports20% central2027 Intelunitgrowth and30%upside, but is neither a capacity ceiling nor proof of future marketshare. Morethan40% doesnot exclude54.76%. Ireland Intel3output is a site/process measure, not companywide acceptedCPUunitgrowth.",
+    "ASP_to_retain_old43pct_CPU_revenue_growth_with20pct_units": 0.19166666666666687,
+    "ASP_interpretation": "20%unitgrowth would need19.17%ASPgrowth to match the earlier30%unit/10%ASP revenue path. This is arithmetic, not an assumed forecast; high-core-countmix can improveASP but also changes silicon/package capacity perunit."
+  },
+  "cpu_TAM_scope": {
+    "professional_framework": "https://insight.factset.com/technology-agentic-ai-and-the-claimed-200bn-cpu-market?hs_amp=true",
+    "publication_date": "2026-08-12",
+    "channels": [
+      "merchant stand-alone CPUs",
+      "CPU allocations inside accelerator systems",
+      "captive hyperscaler designs"
+    ],
+    "decision": "Compare matched chips, timeframes and prices. Do not multiply Intel historical total share by a TAM including new captive/bundled categories, or treat hyperscaler Arm deployment share as global revenue share.",
+    "AMD_primary": "https://d1io3yog0oux5.cloudfront.net/_870e8358a2a27f7ebbdfaf3a34db5f50/amd/db/841/9237/webcast_transcript/AMD2Q26EarningsCallTranscript.pdf",
+    "AMD_TAM_claim": "Approximately220B2030, vendor forecast; not a measured future market.",
+    "Intel_timing_guard": "Intel40Btoover200Boverfiveyears asofOctober2026points approximately2031; not automatically the same2030scope."
+  },
+  "SpaceX_expectations_prior_to_Q3": {
+    "source": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/spacex-earnings-preview-q3-2026",
+    "published": "2026-10-19",
+    "status": "PRE-Q3 baseline, not current consensus afterOctober21",
+    "publisher_tables": [
+      "https://www.capitaliq.spglobal.com/Articles/435473344.png",
+      "https://www.capitaliq.spglobal.com/Articles/435473356.png",
+      "https://www.capitaliq.spglobal.com/Articles/435473367.png"
+    ],
+    "visually_read": true,
+    "consolidated_revenue_B": {
+      "2026": 45.624,
+      "2027": 116.507,
+      "2028": 203.735,
+      "2029": 323.564,
+      "2030": 492.589
+    },
+    "PPandE_spend_B": {
+      "2026": 69.91,
+      "2027": 178.476,
+      "2028": 197.434,
+      "2029": 224.782,
+      "2030": 278.076
+    },
+    "AI_revenue_B": {
+      "2027": 80.891,
+      "2028": 147.339
+    },
+    "connectivity_revenue_B": {
+      "2027": 28.437,
+      "2028": 48.698
+    },
+    "adjudication": "Capital burden was already a public concern. Our2028rentalrevenue334.607Balone exceeds this older totalAI147.339B. Low own valuation return is not simply a low-growth premise. Need post-Q3 matched expectations before asserting a quantified current consensus error.",
+    "capex_scope_guard": "PPEcash, commissionedassetvalue, vendoradvances and financeleases have different timing and classification. No direct gap asserted without reconciliation."
+  },
+  "Intel_professional_counterviews": [
+    {
+      "source": "https://research.aardvarklabs.co/research/intc/earnings/2026-q3/intc-2026-q3-recap",
+      "published": "2026-10-30",
+      "scope": "One small publisher, not consensus",
+      "revenue_B": {
+        "2027": 61.5369,
+        "2028": 70.5977
+      },
+      "EBIT_B": {
+        "2027": 9.3414,
+        "2028": 12.8488
+      },
+      "read_scope": "Public income-statement preview only. Full cash model not available without account; no registration or inference of hidden assumptions.",
+      "quality_caution": "Agent found unresolved internal inconsistency: public table2026revenue56.2763B versus narrative2026near61.7B. Treat later forecast table as unreconciled single-publisher data, not a hard consensus anchor."
+    },
+    {
+      "source": "https://inhcapital.com/insights/research/intc-q3-fy26-downgrade-hold",
+      "published": "2026-10-30",
+      "assessment": "Hold80 supersedes older175 preview. Recognizes2027negativeFCF and capitalconstraints; public piece doesnot expose a complete longterm capitalpath."
+    },
+    {
+      "source": "https://global.morningstar.com/en-eu/stocks/intel-earnings-pc-winter-has-arrived-offsetting-healthy-ai-growth",
+      "published": "2026-10-30",
+      "assessment": "Fairvalue85 from105, no moat and very high uncertainty. RecognizesPCwinter andCPUconstraints. Public discussion doesnot reveal full capitalproductivity/valuation assumptions."
+    }
+  ],
+  "what_new_sources_can_and_cannot_establish": "Known highcapex and shorttermconstraints alone are not a differentiated thesis. Quantification must show accepted shipments, lasting retained profit and fully funded netcash over the3\u20135yr horizon. No probability of winning or paid-source consensus error is inferred."
+}

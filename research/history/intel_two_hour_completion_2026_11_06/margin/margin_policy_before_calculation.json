@@ -1,0 +1,46 @@
+{
+  "prepared_utc": "2026-11-06T06:39:26.357117+00:00",
+  "scope": "Preregistered operating evidence and margin response policy; no new equity value calculated. Existing historical and scenario values were visible in inherited files, so not valuation-blind.",
+  "anchor_rule": "Pool Q2 and Q3 2026 DCAI revenue/profit and Other revenue; infer a CPU operating-profit residual conditional on a20% Other margin. Do not select only highest Q3. Q1/YTD and Q2-only remain alternative anchor checks.",
+  "Other_operating_margin_center": 0.2,
+  "Other_operating_margin_sensitivity": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "mature_policy": "Prefer preservation of the pooled Q2+Q3 CPU operating-profit residual, with mature blended DCAI margin computed from explicit future CPU/Other revenue weights. Do not force blended40% when Other share changes. CPU residual is an allocation assumption, not a disclosed CPU margin or through-cycle empirical floor.",
+  "phase_rule": "Root may hold the near-term calibrated group EBIT path through2030. From2031 linearly phase the implied2030CPU margin to the selected pooled-current CPU residual by2040 while applying20% Other margin. Use actual projected mix each year. Do not separately apply an old matureblend uplift on top.",
+  "near_term_CPU_revenue_revision_group_EBIT_retention": 0.5,
+  "near_term_downside_retention_stresses": [
+    0.75,
+    1.0
+  ],
+  "near_term_cost_rationale": "Public Q3 consolidated product-profit improvement/revenue growth is about56%; YTD about41%. These broad mixed-company measures contextualize50% but do not measure pure unit or price elasticity. Fixed factories can create larger lost-sale impact; stress75/100% with capex and depreciation retained.",
+  "group_allocation_rule": "The50% is TOTAL incremental/decremental group EBIT, including manufacturing contribution. Holding displayed Foundry dollars is an allocation convention, not an assertion factories are unaffected. Do not add a second factory-absorption loss unless replacing the total coefficient. Internal transfer-price changes alone cancel.",
+  "Other_DCAI_growth_policy": "Evaluate broad Other as custom-silicon growth plus remaining legacy/network components. Preserve existing2026E/Q4 anchor initially and compute implied custom-share hurdles; do not automatically apply triple-growth statement to all Other. Selection to be completed before root values it.",
+  "growth_scope": "Quarterly delivery agent owns revised2027 and2028\u201330 units andASP policy. No independent longtermCPU market forecast identified; mature margin cannot be validated by demandgrowth alone.",
+  "source_files": [
+    "intel_benchmark_rebuild_2026_11_05/margin_evidence.json",
+    "intel_two_hour_comparison_2026_11_05/model_audit/transfer_price_independence_results.json",
+    "intel_directional_build_2026_11_05/independent_policy_before_new_returns.json"
+  ],
+  "sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note2pp9\u201311; MD&A33\u201335,39\u201340",
+      "use": "Current segment economics, mix, profit attribution and transfer accounting"
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "locator": "Segment financial performance",
+      "use": "Q2 anchor"
+    },
+    {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "CEO purposebuilt discussion, CFO segment/outlook",
+      "use": "Custom-silicon growth and lower-margin mix qualitative support"
+    }
+  ]
+}

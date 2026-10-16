@@ -1,0 +1,27 @@
+{
+  "frozen_before_outputs": true,
+  "purpose": "Test whether short carry or a specified benchmark role can resolve the valuation-to-position gap. These are scenarios, not actual financing quotes or demonstrated alpha.",
+  "entry_USD": 58.28,
+  "entry_date": "2026-11-04",
+  "endpoints": [
+    "2029-12-31",
+    "2030-12-31"
+  ],
+  "cover_values": "Unchanged flat12 and risk-maturation central cases; no new operating scenario.",
+  "net_proceeds_compounding_controls": [
+    0,
+    0.02,
+    0.03,
+    0.04,
+    0.0529
+  ],
+  "formula": "Gross short strategy PnL per initial share = P0*(1+q)^T - P_end. q is a hypothetical all-in constant net earnings rate on the original proceeds, after stock-loan fees and program spreads; it is not observed or broker-accurate.",
+  "limits": [
+    "Actual borrow fee base is marked collateral and differs from credited proceeds; fixed-net-yield compounding is only a transparent aggregate scenario.",
+    "No return on user capital or margin financing is claimed.",
+    "No dividend is assumed, consistent with cash-retention model. Future dividends require jointly reducing retained cash in endpoint value.",
+    "Initial margin capital benchmark opportunity cost must be deducted separately to claim excess account return.",
+    "No implied carry rate is substituted for operating discount rate.",
+    "Long-short expected alpha requires an explicit matched hedge, factor exposures and future benchmark returns; absent these, do not claim alpha."
+  ]
+}

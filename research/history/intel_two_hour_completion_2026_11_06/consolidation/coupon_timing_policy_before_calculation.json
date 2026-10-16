@@ -1,0 +1,160 @@
+{
+  "created_utc": "2026-11-06T07:06:56.931839+00:00",
+  "scope": "Timing controls only; no changes to annual cash interest, annual forecasts, share value or root models. Policy recorded before liquidity controls are calculated.",
+  "annual_cash_interest_B": 2.6,
+  "cash_interest_includes": {
+    "ordinary_interest_B": 1.6,
+    "capitalized_interest_B": 1.0
+  },
+  "verified_subset": [
+    {
+      "principal_B": 1,
+      "annual_coupon_rate": 0.0465,
+      "maturity_year": 2031,
+      "maturity_month": 6,
+      "coupon_months": [
+        6,
+        12
+      ],
+      "source": "april2026_terms"
+    },
+    {
+      "principal_B": 1,
+      "annual_coupon_rate": 0.05,
+      "maturity_year": 2033,
+      "maturity_month": 8,
+      "coupon_months": [
+        2,
+        8
+      ],
+      "source": "april2026_terms"
+    },
+    {
+      "principal_B": 2.25,
+      "annual_coupon_rate": 0.053,
+      "maturity_year": 2036,
+      "maturity_month": 5,
+      "coupon_months": [
+        5,
+        11
+      ],
+      "source": "april2026_terms"
+    },
+    {
+      "principal_B": 1.75,
+      "annual_coupon_rate": 0.06125,
+      "maturity_year": 2056,
+      "maturity_month": 5,
+      "coupon_months": [
+        5,
+        11
+      ],
+      "source": "april2026_terms"
+    },
+    {
+      "principal_B": 0.5,
+      "annual_coupon_rate": 0.062,
+      "maturity_year": 2066,
+      "maturity_month": 5,
+      "coupon_months": [
+        5,
+        11
+      ],
+      "source": "april2026_terms"
+    },
+    {
+      "principal_B": 1,
+      "annual_coupon_rate": 0.0375,
+      "maturity_year": 2027,
+      "maturity_month": 3,
+      "coupon_months": [
+        3,
+        9
+      ],
+      "source": "march2020"
+    },
+    {
+      "principal_B": 1.5,
+      "annual_coupon_rate": 0.039,
+      "maturity_year": 2030,
+      "maturity_month": 3,
+      "coupon_months": [
+        3,
+        9
+      ],
+      "source": "march2020"
+    },
+    {
+      "principal_B": 0.75,
+      "annual_coupon_rate": 0.046,
+      "maturity_year": 2040,
+      "maturity_month": 3,
+      "coupon_months": [
+        3,
+        9
+      ],
+      "source": "march2020"
+    },
+    {
+      "principal_B": 2.25,
+      "annual_coupon_rate": 0.0475,
+      "maturity_year": 2050,
+      "maturity_month": 3,
+      "coupon_months": [
+        3,
+        9
+      ],
+      "source": "march2020"
+    },
+    {
+      "principal_B": 1,
+      "annual_coupon_rate": 0.0495,
+      "maturity_year": 2060,
+      "maturity_month": 3,
+      "coupon_months": [
+        3,
+        9
+      ],
+      "source": "march2020"
+    },
+    {
+      "principal_B": 1,
+      "annual_coupon_rate": 0.0315,
+      "maturity_year": 2027,
+      "maturity_month": 5,
+      "coupon_months": [
+        5,
+        11
+      ],
+      "source": "may2017"
+    },
+    {
+      "principal_B": 1,
+      "annual_coupon_rate": 0.041,
+      "maturity_year": 2047,
+      "maturity_month": 5,
+      "coupon_months": [
+        5,
+        11
+      ],
+      "source": "may2017"
+    }
+  ],
+  "sources": {
+    "april2026_terms": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-26-197845/d143782dex41.htm",
+    "april2026_principal": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-26-192240/d271916d424b5.htm",
+    "march2020": "https://www.sec.gov/Archives/edgar/data/50863/000119312520081207/d846058d424b5.htm",
+    "may2017": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-17-167265/d357830dex41.htm",
+    "outstanding2025": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+  },
+  "rules": {
+    "known_coupon": "Half annual stated coupon on each disclosed semiannual payment date while outstanding, including maturity-date payment; omit payments after maturity. No early redemption assumed. Original outstanding principal cross-checked with 2025 Note 13 for older issues.",
+    "coverage": "Partial source-verified bond schedule. Residual includes unmodeled bonds, municipal notes, interest-rate hedges and any difference between the fixed analyst cash-interest envelope and nominal coupon totals. It is bookkeeping allocation, not a disclosed instrument.",
+    "base_control": "Known coupons on stated dates plus remaining annual envelope uniformly over four quarters; hold all other base cash flows unchanged.",
+    "stress_control": "Known coupons on stated dates plus remaining annual envelope split equally between Q1 and Q3; hold all other concentrated-stress flows unchanged.",
+    "severe_bound": "Pay the whole fixed 2.6B annual interest envelope in Q1. This provides a maximum within-year cash acceleration bound, not a plausible actual contractual schedule.",
+    "tax_shield": "Keep financing tax benefit timing unchanged in primary controls. Also report concentrated control with annual financing tax benefit realized in Q4 as a separate analyst stress.",
+    "capitalization": "Use combined cash interest for liquidity. Any split of this timing between the 1.6B ordinary and 1.0B capitalized budget is proportional bookkeeping, not instrument-specific capitalized interest evidence.",
+    "materiality": "Report minimum economic cash and headroom against owned 20B analytical buffer. Do not describe a buffer shortfall as negative cash or covenant failure. No borrowing assumed."
+  }
+}

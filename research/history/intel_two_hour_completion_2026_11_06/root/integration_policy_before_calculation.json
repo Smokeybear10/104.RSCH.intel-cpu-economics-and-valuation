@@ -1,0 +1,57 @@
+{
+  "selected_utc": null,
+  "boundary": "Operating decisions selected before the new integrated equity values are calculated. Prior target and market price are known; this is not a blinded forecast or an effort to optimize a target.",
+  "preferred": {
+    "CPU_2027_to2030": "Use the delivery agent's preferred quarterly forecast and subsequent annual growth assumptions. Rates are owned timing allowances, not proven capacity.",
+    "client_2027_to2030": "Use the client agent's preferred quarterly forecast, including the visible seasonal reset in2028. Do not restore the prior absolute revenue path after a miss.",
+    "Other_DCAI_growth2027_to2030": [
+      0.6,
+      0.3,
+      0.2,
+      0.15
+    ],
+    "Other_DCAI_operating_margin": 0.2,
+    "near_term_group_EBIT_response_to_CPU_and_client_sales": 0.5,
+    "near_term_group_EBIT_response_to_Other_DCAI_sales": 0.2,
+    "response_scope": "Total group response, including manufacturing. Recorded in the product segment for presentation while existing Foundry dollars are held. No second factory absorption charge for the same sales change.",
+    "mature_CPU_operating_margin": "YTD2026 DCAI residual: (7.055 -0.20*3.3)/(18.632-3.3). This conditional cost allocation is41.7101487%, not a disclosed CPU margin or proven through-cycle floor. Phase from implied2030 margin to2040.",
+    "mature_CCPG_margin": 0.28,
+    "CCPG_phase": "Phase linearly from the changed implied2030 CCPG margin to28% in2040. No immediate reset in2031.",
+    "CPU2031_to2040_unit_growth": 0.02,
+    "CPU2031_to2040_ASP_growth": 0.02,
+    "long_term_CPU_growth_reason": "Normalize to modest2% package-volume and2% package-ASP growth after the explicitly modeled capacity ramp. These are analyst conventions, not a source-backed2030s forecast. Preserve the old faster trajectory as a favorable control; do not call lower numbers independently proven.",
+    "Other_DCAI2031_to2040": "Retain inherited percentage growth on the reset2030 base; this is an owned custom-silicon and network growth assumption.",
+    "Foundry_after2030": "Hold2030 Foundry profit divided by the revised2030 Products revenue constant; scale dollars with revised Products sales. Replace the near-term revenue-response convention with direct segment economics; do not stack them. This assumes scalable long-run costs, not immediate factory flexibility.",
+    "all_other_profit": "Retain0.7B2027to2030, then3%nominal growth. Decompose0.21Bpre-grantMobileye+0.19Bgrant+0.30Bother residual. Values beyond2026 guidance are assumptions.",
+    "consolidation": "Adopt agent's0.934B legacy externalFoundry and2.780BnetAllOther revenue through2030,3%thereafter; add gross newpackaging once. No incremental EBIT from filling a missing revenue denominator.",
+    "capital2027_to2030": "Retain finite physical capex and D&A; adjust WC by10% of the change in annual revenue delta, not10%of cumulative delta everyyear. ExistingWC envelope includes grant receivables.",
+    "capital_after2030": "Host netinvestment=change in Products+netAllOther+legacyexternalFoundry+shadowpackaging revenue /0.8. Add separate netpackaging investment once. HostWC10%incrementalhostsales;DA retainedfractionofProducts;capex=DA+netinvestment-WC.",
+    "credits_and_financing": "Retain finite taxcredit, taxrate, cashinterest, lease, NCI, escrow and acquisition policies; no new subsidies or financing benefits. Claims reserve1.215Balready deductedonce.",
+    "valuation": {
+      "asset_discount_rate": 0.11555,
+      "terminal_growth": 0.03,
+      "tax_shield_terminal_growth": 0.0,
+      "planning_claims_B": 5.51,
+      "entry_USD": 52.25,
+      "entry_date": "2026-11-05",
+      "target_date": "2030-12-31"
+    }
+  },
+  "comparisons": [
+    "Reproduce frozen prior values exactly before any change",
+    "Accounting completion only, with unchanged operating assumptions",
+    "Quarterly CPU+client delivery revision only",
+    "OtherDCAI mix/growth correction",
+    "Full margin/capital retention policy",
+    "Long-term CPU normalization selected preferred",
+    "Favorable current-pooledCPUmargin and old longer growth; slower delivery and lower profitability; unweighted, not statistical intervals"
+  ],
+  "no_fit_rule": "Do not raise the forecast to recover a desired LONG recommendation. Do not switch to SHORT only because the old long edge weakens. Reassess the matched3to5year decision and disclose if neither side has adequate evidence.",
+  "chronology_correction": {
+    "corrected_utc": "2026-11-06T06:55:33.936491+00:00",
+    "prior_erroneous_manually_typed_timestamp": "2026-11-06T06:57:00Z",
+    "policy_file_birth_utc": "2026-11-06T06:49:31.841653+00:00",
+    "first_integrated_results_birth_utc": "2026-11-06T06:51:34.005579+00:00",
+    "explanation": "The original selected_utc was manually typed ahead of actual time and was wrong. No exact selection instant is asserted. File creation and tool ordering show policy file existed before first integrated calculation. The inherited target was already known; this was never blind. The underlying margin and quarterly agent policies have their own tool-recorded chronology."
+  }
+}

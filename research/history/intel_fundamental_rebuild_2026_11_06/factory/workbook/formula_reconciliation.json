@@ -1,0 +1,863 @@
+{
+  "comparisons": [
+    {
+      "cell": "Annual model!F7",
+      "actual": 31.739253492663146,
+      "expected": 31.73925349266314,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!F10",
+      "actual": 23.56174695983816,
+      "expected": 23.56174695983816,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!F19",
+      "actual": 72.4229004525013,
+      "expected": 72.4229004525013,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!F32",
+      "actual": 15.51808706633157,
+      "expected": 15.518087066331567,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!F39",
+      "actual": 14.435224598250647,
+      "expected": 14.435224598250644,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!F45",
+      "actual": 30.5,
+      "expected": 30.5,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!F46",
+      "actual": 14.093214285714286,
+      "expected": 14.093214285714286,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!F47",
+      "actual": 5.999954965250129,
+      "expected": 5.9999549652501285,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "cell": "Annual model!F55",
+      "actual": -10.118799771022793,
+      "expected": -10.118799771022797,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!G7",
+      "actual": 42.84799221509524,
+      "expected": 42.84799221509524,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!G10",
+      "actual": 25.23463099398668,
+      "expected": 25.23463099398668,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!G19",
+      "actual": 90.01475520908191,
+      "expected": 90.01475520908191,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!G32",
+      "actual": 21.320658603797618,
+      "expected": 21.32065860379762,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!G39",
+      "actual": 24.59394454419896,
+      "expected": 24.593944544198962,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!G45",
+      "actual": 32.75,
+      "expected": 32.75,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!G46",
+      "actual": 16.795178571428572,
+      "expected": 16.795178571428572,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!G47",
+      "actual": 5.268183838328061,
+      "expected": 5.268183838328062,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "cell": "Annual model!G55",
+      "actual": 3.7528475956696266,
+      "expected": 3.7528475956696266,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!H7",
+      "actual": 52.58305604636489,
+      "expected": 52.58305604636488,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!H10",
+      "actual": 27.026289794559748,
+      "expected": 27.026289794559744,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!H19",
+      "actual": 106.55940840092464,
+      "expected": 106.55940840092462,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!H32",
+      "actual": 25.905208103400447,
+      "expected": 25.905208103400444,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!H39",
+      "actual": 32.45544942413612,
+      "expected": 32.45544942413612,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!H45",
+      "actual": 31.25,
+      "expected": 31.25,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!H46",
+      "actual": 19.544107142857143,
+      "expected": 19.544107142857143,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!H47",
+      "actual": 3.270539032726342,
+      "expected": 3.270539032726341,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "cell": "Annual model!H55",
+      "actual": 16.428700120646504,
+      "expected": 16.428700120646504,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!I7",
+      "actual": 60.07088322736725,
+      "expected": 60.07088322736725,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!I10",
+      "actual": 28.393820058164465,
+      "expected": 28.39382005816445,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!I19",
+      "actual": 119.75598685033171,
+      "expected": 119.7559868503317,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!I32",
+      "actual": 29.413848109143043,
+      "expected": 29.413848109143046,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!I39",
+      "actual": 38.942007896513076,
+      "expected": 38.942007896513076,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!I45",
+      "actual": 30,
+      "expected": 30,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!I46",
+      "actual": 21.80892857142857,
+      "expected": 21.80892857142857,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!I47",
+      "actual": 3.1612456660707027,
+      "expected": 3.1612456660707022,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "cell": "Annual model!I55",
+      "actual": 23.06038961739398,
+      "expected": 23.06038961739398,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!J7",
+      "actual": 66.17408496326776,
+      "expected": 66.17408496326777,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!J10",
+      "actual": 29.54093038851431,
+      "expected": 29.540930388514294,
+      "error": 1.7763568394002505e-14
+    },
+    {
+      "cell": "Annual model!J19",
+      "actual": 130.29613509482206,
+      "expected": 130.29613509482206,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!J32",
+      "actual": 32.59354085296415,
+      "expected": 32.59354085296417,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!J39",
+      "actual": 42.78401120444772,
+      "expected": 42.78401120444773,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!J45",
+      "actual": 34.63495277370599,
+      "expected": 34.634952773706004,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!J46",
+      "actual": 22.705782292542082,
+      "expected": 22.705782292542082,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!J47",
+      "actual": 1.0860148244490353,
+      "expected": 1.0860148244490369,
+      "error": 1.5543122344752192e-15
+    },
+    {
+      "cell": "Annual model!J55",
+      "actual": 23.158020150940935,
+      "expected": 23.158020150940924,
+      "error": 1.0658141036401503e-14
+    },
+    {
+      "cell": "Annual model!K7",
+      "actual": 72.22239632891045,
+      "expected": 72.22239632891046,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!K10",
+      "actual": 30.583725231228865,
+      "expected": 30.583725231228847,
+      "error": 1.7763568394002505e-14
+    },
+    {
+      "cell": "Annual model!K19",
+      "actual": 140.43767825033132,
+      "expected": 140.4376782503313,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!K32",
+      "actual": 35.72352608342642,
+      "expected": 35.723526083426435,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!K39",
+      "actual": 46.52416613304288,
+      "expected": 46.52416613304289,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!K45",
+      "actual": 36.718186802398606,
+      "expected": 36.71818680239856,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "cell": "Annual model!K46",
+      "actual": 25.22167217356295,
+      "expected": 25.221672173562947,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Annual model!K47",
+      "actual": 1.0418643155509262,
+      "expected": 1.0418643155509233,
+      "error": 2.886579864025407e-15
+    },
+    {
+      "cell": "Annual model!K55",
+      "actual": 25.61180227510336,
+      "expected": 25.611802275103408,
+      "error": 4.618527782440651e-14
+    },
+    {
+      "cell": "Annual model!L7",
+      "actual": 78.08685491081799,
+      "expected": 78.086854910818,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!L10",
+      "actual": 31.663330731891243,
+      "expected": 31.663330731891225,
+      "error": 1.7763568394002505e-14
+    },
+    {
+      "cell": "Annual model!L19",
+      "actual": 150.1341365601089,
+      "expected": 150.1341365601089,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!L32",
+      "actual": 38.75457395739403,
+      "expected": 38.754573957394044,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!L39",
+      "actual": 50.05761873786206,
+      "expected": 50.057618737862065,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!L45",
+      "actual": 38.78061491025548,
+      "expected": 38.780614910255515,
+      "error": 3.552713678800501e-14
+    },
+    {
+      "cell": "Annual model!L46",
+      "actual": 27.76027965401124,
+      "expected": 27.76027965401124,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!L47",
+      "actual": 0.9914111309777601,
+      "expected": 0.991411130977763,
+      "error": 2.886579864025407e-15
+    },
+    {
+      "cell": "Annual model!L55",
+      "actual": 27.822920302679233,
+      "expected": 27.822920302679197,
+      "error": 3.552713678800501e-14
+    },
+    {
+      "cell": "Annual model!M7",
+      "actual": 83.63102160948607,
+      "expected": 83.6310216094861,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!M10",
+      "actual": 32.781046306727,
+      "expected": 32.781046306726985,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!M19",
+      "actual": 159.28043269896875,
+      "expected": 159.28043269896875,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!M32",
+      "actual": 41.60748017732838,
+      "expected": 41.6074801773284,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!M39",
+      "actual": 53.39113447305368,
+      "expected": 53.391134473053704,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!M45",
+      "actual": 40.295717787867986,
+      "expected": 40.295717787867986,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!M46",
+      "actual": 29.89003254217918,
+      "expected": 29.89003254217918,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!M47",
+      "actual": 0.9333888328859833,
+      "expected": 0.9333888328859833,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!M55",
+      "actual": 30.173332733167552,
+      "expected": 30.173332733167573,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!N7",
+      "actual": 88.71578772334283,
+      "expected": 88.71578772334286,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!N10",
+      "actual": 33.93821724135446,
+      "expected": 33.938217241354444,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!N19",
+      "actual": 167.8244485096685,
+      "expected": 167.8244485096685,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!N32",
+      "actual": 44.24630437115481,
+      "expected": 44.24630437115482,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!N39",
+      "actual": 56.47431955657363,
+      "expected": 56.47431955657363,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!N45",
+      "actual": 41.6825846078524,
+      "expected": 41.6825846078524,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!N46",
+      "actual": 31.947775762967666,
+      "expected": 31.947775762967666,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!N47",
+      "actual": 0.8695364706399772,
+      "expected": 0.8695364706399772,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!N55",
+      "actual": 33.038266349975665,
+      "expected": 33.038266349975665,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!O7",
+      "actual": 93.18671207494496,
+      "expected": 93.18671207494499,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!O10",
+      "actual": 34.95636375859509,
+      "expected": 34.956363758595074,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!O19",
+      "actual": 175.38061816271207,
+      "expected": 175.3806181627121,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!O32",
+      "actual": 46.59344744708079,
+      "expected": 46.593447447080806,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!O39",
+      "actual": 59.165629386713206,
+      "expected": 59.16562938671321,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!O45",
+      "actual": 42.03432488286487,
+      "expected": 42.03432488286491,
+      "error": 3.552713678800501e-14
+    },
+    {
+      "cell": "Annual model!O46",
+      "actual": 33.41049627540738,
+      "expected": 33.41049627540739,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!O47",
+      "actual": 0.7665780475614555,
+      "expected": 0.7665780475614584,
+      "error": 2.886579864025407e-15
+    },
+    {
+      "cell": "Annual model!O55",
+      "actual": 36.379089160069185,
+      "expected": 36.37908916006915,
+      "error": 3.552713678800501e-14
+    },
+    {
+      "cell": "Annual model!P7",
+      "actual": 97.40779333972587,
+      "expected": 97.40779333972591,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "cell": "Annual model!P10",
+      "actual": 36.005054671352944,
+      "expected": 36.00505467135293,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!P19",
+      "actual": 182.57065301447452,
+      "expected": 182.57065301447454,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!P32",
+      "actual": 48.80262191940184,
+      "expected": 48.80262191940186,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!P39",
+      "actual": 61.71328958869375,
+      "expected": 61.71328958869376,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!P45",
+      "actual": 42.99933501622374,
+      "expected": 42.99933501622374,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!P46",
+      "actual": 34.79853442504583,
+      "expected": 34.79853442504584,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!P47",
+      "actual": 0.7302933999010554,
+      "expected": 0.7302933999010554,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!P55",
+      "actual": 38.845093581172705,
+      "expected": 38.845093581172726,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!Q7",
+      "actual": 101.32339374526337,
+      "expected": 101.32339374526342,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "cell": "Annual model!Q10",
+      "actual": 37.085206311493536,
+      "expected": 37.08520631149352,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!Q19",
+      "actual": 189.3052858225374,
+      "expected": 189.30528582253746,
+      "error": 5.684341886080802e-14
+    },
+    {
+      "cell": "Annual model!Q32",
+      "actual": 50.84132543897257,
+      "expected": 50.84132543897259,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!Q39",
+      "actual": 64.08276015350275,
+      "expected": 64.08276015350276,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!Q45",
+      "actual": 43.76904915759592,
+      "expected": 43.76904915759597,
+      "error": 4.973799150320701e-14
+    },
+    {
+      "cell": "Annual model!Q46",
+      "actual": 36.09399310132294,
+      "expected": 36.09399310132295,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!Q47",
+      "actual": 0.6850918929728471,
+      "expected": 0.68509189297285,
+      "error": 2.886579864025407e-15
+    },
+    {
+      "cell": "Annual model!Q55",
+      "actual": 41.2741441894349,
+      "expected": 41.27414418943487,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!R7",
+      "actual": 104.87974454553029,
+      "expected": 104.87974454553033,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "cell": "Annual model!R10",
+      "actual": 38.197762500838344,
+      "expected": 38.19776250083833,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!R19",
+      "actual": 195.63844962350967,
+      "expected": 195.6384496235097,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!R32",
+      "actual": 52.70597957306088,
+      "expected": 52.7059795730609,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!R39",
+      "actual": 66.2717062298804,
+      "expected": 66.2717062298804,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!R45",
+      "actual": 44.51888748755065,
+      "expected": 44.51888748755062,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!R46",
+      "actual": 37.307613939621845,
+      "expected": 37.30761393962185,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!R47",
+      "actual": 0.6452938506287825,
+      "expected": 0.6452938506287796,
+      "error": 2.886579864025407e-15
+    },
+    {
+      "cell": "Annual model!R55",
+      "actual": 43.48525338713707,
+      "expected": 43.48525338713711,
+      "error": 3.552713678800501e-14
+    },
+    {
+      "cell": "Annual model!S7",
+      "actual": 108.0261368818962,
+      "expected": 108.02613688189624,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!S10",
+      "actual": 39.3436953758635,
+      "expected": 39.343695375863476,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!S19",
+      "actual": 201.507603112215,
+      "expected": 201.507603112215,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!S32",
+      "actual": 54.37029843250846,
+      "expected": 54.37029843250848,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!S39",
+      "actual": 68.25241308254947,
+      "expected": 68.25241308254947,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!S45",
+      "actual": 45.102348101936634,
+      "expected": 45.102348101936606,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "cell": "Annual model!S46",
+      "actual": 38.42684235781052,
+      "expected": 38.42684235781052,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!S47",
+      "actual": 0.5992521435180332,
+      "expected": 0.5992521435180304,
+      "error": 2.886579864025407e-15
+    },
+    {
+      "cell": "Annual model!S55",
+      "actual": 45.60121316755493,
+      "expected": 45.60121316755497,
+      "error": 3.552713678800501e-14
+    },
+    {
+      "cell": "Annual model!T7",
+      "actual": 111.2669209883531,
+      "expected": 111.26692098835312,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!T10",
+      "actual": 40.5240062371394,
+      "expected": 40.52400623713938,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Annual model!T19",
+      "actual": 207.55283120558144,
+      "expected": 207.55283120558144,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!T32",
+      "actual": 56.00140738548372,
+      "expected": 56.00140738548373,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "cell": "Annual model!T39",
+      "actual": 70.29998547502595,
+      "expected": 70.29998547502593,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Annual model!T45",
+      "actual": 46.455418544994686,
+      "expected": 46.455418544994686,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!T46",
+      "actual": 39.57964762854483,
+      "expected": 39.57964762854483,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!T47",
+      "actual": 0.6172297078235698,
+      "expected": 0.6172297078235698,
+      "error": 0
+    },
+    {
+      "cell": "Annual model!T55",
+      "actual": 46.96924956258164,
+      "expected": 46.96924956258162,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Valuation!D9",
+      "actual": 56.13928584556838,
+      "expected": 56.13928584556836,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "cell": "Valuation!D10",
+      "actual": 82.47015162680006,
+      "expected": 82.47015162680005,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "cell": "Research checks!D11",
+      "actual": 90.08189582091165,
+      "expected": 90.08189582091165,
+      "error": 0
+    },
+    {
+      "cell": "Research checks!D18",
+      "actual": 3.19797917635356,
+      "expected": 3.1979791763535657,
+      "error": 5.773159728050814e-15
+    },
+    {
+      "cell": "Research checks!D20",
+      "actual": 23.923499327294493,
+      "expected": 23.92349932729449,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "cell": "Research checks!E11",
+      "actual": 90.08189582091165,
+      "expected": 90.08189582091165,
+      "error": 0
+    },
+    {
+      "cell": "Research checks!E18",
+      "actual": 7.78770950973328,
+      "expected": 7.78770950973328,
+      "error": 0
+    },
+    {
+      "cell": "Research checks!E20",
+      "actual": 28.513229660674213,
+      "expected": 28.513229660674202,
+      "error": 1.0658141036401503e-14
+    }
+  ],
+  "errors": []
+}

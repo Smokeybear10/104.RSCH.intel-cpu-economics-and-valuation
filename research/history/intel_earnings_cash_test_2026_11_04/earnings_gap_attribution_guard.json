@@ -1,0 +1,20 @@
+{
+  "computed_utc": "2026-11-04T18:45:10.540961+00:00",
+  "scope": "Matched2027iFASToperatingforecast consistency diagnostic, not a reconstruction of the analystmodel.",
+  "model2026_DCAI_base_B": 27.047700000000003,
+  "iFAST2027_growth": 0.37,
+  "implied2027_DCAI_B_at_same_base": 37.055349,
+  "our2027_DCAI_B": 39.779088,
+  "difference_B": 2.723738999999997,
+  "CPU_ASP_growth_consistent_with37pct_if_all_other_inputs_ours": 0.09615638882407573,
+  "group_EBIT_effect_at_unchanged50pct_incremental_retention_B": 1.3618694999999985,
+  "EPS_effect_at_reference11pct_tax_and5_51Bclaims": 0.21997529128856602,
+  "our_reference2027_EPS": 2.4996601201597093,
+  "iFAST2027_EPS": 1.77,
+  "EPS_if_only_this_DCAI_growth_difference_removed": 2.2796848288711433,
+  "share_of_proxy_vs_iFAST_EPS_gap_explained_by_this_control": 0.3014763794962748,
+  "meaning": "Onlyabout30%ofthe2027EPSgapversusthissameanalystisexplainedbythematchedDCAIgrowthdifferenceunderourcostconventions. Do notsellthewholeearningsgap asa single undiscoveredCPUpricingeffect. Remainingdifferencecannotbeexactlyattributedwithoutanalysttax,shares,segmentprofitandcostbridge.",
+  "source": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+  "source_type": "DatedNov2analystforecasts,dataOct30,notmarketconsensus",
+  "models_unchanged": true
+}

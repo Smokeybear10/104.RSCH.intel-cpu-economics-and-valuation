@@ -1,0 +1,344 @@
+{
+  "checked_utc": "2026-11-06T00:09:46.733072+00:00",
+  "method": "Final PDFs: text/value, character page boxes, HTTPS link inventory, and rendered-pixel identity to inspected prior pages. Changed pages manually reviewed by root.",
+  "files": [
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "2020ecf0ab40e120382ce4a72a083bc16bcb15169a5b5e75e98aff8324ffa64b",
+      "pages": 10,
+      "links": 18,
+      "page_box_checks": "passed",
+      "text_values": "passed",
+      "renders": [
+        {
+          "page": 1,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "dd538cc63656828da492781a795b3436c0d5739908c28df1b60c21dfc52473e4"
+        },
+        {
+          "page": 2,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "9e5752e086028a453afe4a3a359ab76bc695b9611869133da00c6693ac83d3d9"
+        },
+        {
+          "page": 3,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "084eaccc531e81716c6d11d6d823b0b2a9958bd55c6f9381dd9e6bcd0cb53a24"
+        },
+        {
+          "page": 4,
+          "identical_to_previously_inspected_render": false,
+          "render_sha256": "a5a3f1594ada93f18577784d64bb9d721d40e405ded5575cc5c78cec3ecdd1a4"
+        },
+        {
+          "page": 5,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "13855eb922d01583a2861ce53e0c658fffd92d88b394db86e8f8d4b736e2fc46"
+        },
+        {
+          "page": 6,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "c4f94e9cbad3fa6b30031421b0a0bb231a6eae2dab7ddaa2a45acf22644646c8"
+        },
+        {
+          "page": 7,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "bf2e1088f164d61b00b69fc5c06f64e1e18f330858c872e48a91bc8c970525e7"
+        },
+        {
+          "page": 8,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "e924d4d92825300ce35dd70f1dd0cd676f9c9b483f54887d51106612c5d0c150"
+        },
+        {
+          "page": 9,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "0c352d7d96f4e365520629befe5d0566a71ee013a06327302f227dea4ba37119"
+        },
+        {
+          "page": 10,
+          "identical_to_previously_inspected_render": false,
+          "render_sha256": "e764afeb69885e54fcf62a46a52356b110deced7190cba62fbff5056e3383869"
+        }
+      ],
+      "linked_sources": [
+        {
+          "page": 10,
+          "uri": "https://stockanalysis.com/stocks/intc/history/"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.trendforce.com/presscenter/news/20261022-13279.html"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm"
+        },
+        {
+          "page": 10,
+          "uri": "https://pages.stern.nyu.edu/~adamodar/pc/implprem/ERPNov26.xlsx"
+        },
+        {
+          "page": 10,
+          "uri": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/TenQs/TenQsBottomupBetas.htm"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.m37.com/spc2026"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-22-291100/d412415dex101.htm"
+        },
+        {
+          "page": 10,
+          "uri": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.digitimes.com/reports/item.php?id=20261021RS400&q=amd"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.ibiden.com/ir/items/en_kessannsetsumei2026Q2.pdf"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.datadoghq.com/blog/arm-migration-aws/"
+        },
+        {
+          "page": 10,
+          "uri": "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started"
+        },
+        {
+          "page": 10,
+          "uri": "https://news.sap.com/2023/11/sap-hana-cloud-now-supports-aws-graviton/"
+        },
+        {
+          "page": 10,
+          "uri": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/"
+        }
+      ]
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "a8b9186e3273ba0f9d614ce6cf26532d55f91e7628d56dddfcf7d3b3f3e21ff7",
+      "pages": 5,
+      "links": 22,
+      "page_box_checks": "passed",
+      "text_values": "passed",
+      "renders": [
+        {
+          "page": 1,
+          "identical_to_previously_inspected_render": false,
+          "render_sha256": "46a74ff1ac18a24cfb4b10ac00de78187ed9d7a3c213d5296538cc5d0ff21729"
+        },
+        {
+          "page": 2,
+          "identical_to_previously_inspected_render": false,
+          "render_sha256": "8d9d810c968e099009981f9055ce8ea20e0b466c37da1cdcebe1b759c29e101d"
+        },
+        {
+          "page": 3,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "38e29e505adfe5af76c7855c3b47c8ee00adfa3db299f81e530d544ce46bae8f"
+        },
+        {
+          "page": 4,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "539cecaede3ee61494fc5f38081049535bbd69b537a7cf684c23ec3142459c54"
+        },
+        {
+          "page": 5,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "7990abbef83632a57695df5a17765db9e747951a774ed2a48393376c57ab90bb"
+        }
+      ],
+      "linked_sources": [
+        {
+          "page": 1,
+          "uri": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+        },
+        {
+          "page": 2,
+          "uri": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.ibiden.com/ir/items/en_kessannsetsumei2026Q2.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf"
+        },
+        {
+          "page": 3,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+        },
+        {
+          "page": 3,
+          "uri": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+        },
+        {
+          "page": 3,
+          "uri": "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started"
+        },
+        {
+          "page": 3,
+          "uri": "https://news.sap.com/2023/11/sap-hana-cloud-now-supports-aws-graviton/"
+        },
+        {
+          "page": 3,
+          "uri": "https://www.datadoghq.com/blog/arm-migration-aws/"
+        },
+        {
+          "page": 4,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-22-291100/d412415dex101.htm"
+        },
+        {
+          "page": 4,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-22-291100/d412415dex101.htm"
+        },
+        {
+          "page": 4,
+          "uri": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm"
+        },
+        {
+          "page": 4,
+          "uri": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm"
+        },
+        {
+          "page": 5,
+          "uri": "https://blogs.oracle.com/cloud-infrastructure/run-ai-inference-without-gpus"
+        },
+        {
+          "page": 5,
+          "uri": "https://blogs.oracle.com/cloud-infrastructure/announcing-oci-x12-standard-acceleron-compute"
+        },
+        {
+          "page": 5,
+          "uri": "https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/?currencyCode=USD"
+        },
+        {
+          "page": 5,
+          "uri": "https://docs.oracle.com/en-us/iaas/Content/Compute/References/computeshapes.htm"
+        },
+        {
+          "page": 5,
+          "uri": "https://www.tpc.org/results/fdr/tpch/hpe~tpch~1000~hpe_proliant_dl380_gen12~fdr~2025-04-23~v03.pdf"
+        },
+        {
+          "page": 5,
+          "uri": "https://www.tpc.org/results/fdr/tpch/hpe~tpch~1000~hpe_proliant_dl345_gen11_(with_amd_epyc_9375f)~fdr~2025-09-30~v01.pdf"
+        },
+        {
+          "page": 5,
+          "uri": "https://www.m37.com/spc2026"
+        }
+      ]
+    },
+    {
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "5378d3640870836d427f900a69925213df90cb99e8a930e8fd9b49c2c5c6d09d",
+      "pages": 3,
+      "links": 13,
+      "page_box_checks": "passed",
+      "text_values": "passed",
+      "renders": [
+        {
+          "page": 1,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "0bc5f85b6ce0cdbae52a5bf41535a013a910d3d69edd5e16310448292c452132"
+        },
+        {
+          "page": 2,
+          "identical_to_previously_inspected_render": true,
+          "render_sha256": "c6623dca271776a0d50887e3f61b2084b5a9128bc1edee5fa718892751b00085"
+        },
+        {
+          "page": 3,
+          "identical_to_previously_inspected_render": false,
+          "render_sha256": "7aa28b5b222ebe22a7eb1720481baf4dba085fb6009cd6f2d95e318d69576717"
+        }
+      ],
+      "linked_sources": [
+        {
+          "page": 1,
+          "uri": "https://www.m37.com/spc2026"
+        },
+        {
+          "page": 1,
+          "uri": "https://www.kenan-flagler.unc.edu/alpha-challenge-2/archives/"
+        },
+        {
+          "page": 1,
+          "uri": "https://www.cfainstitute.org/insights/events/research-challenge/past-champions"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2024/12/First-Place-Equity_Team1_Universe_WMS.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2023/12/Equity-1st-place_Columbia-_JBI.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://ir.janusintl.com/financial-information/sec-filings/content/0001839839-25-000032/jbi-20241228.htm"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2024-winning-presentation-university-of-waterloo.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2024-winning-presentation-university-of-waterloo.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2025/12/Equity_Team10_Universe_MIDD.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.cfainstitute.org/sites/default/files/docs/insights/events/research-challenge/rc-2026-winning-presentation-university-of-waterloo_0.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://investmentclub.nd.edu/files/competitions/2023-cornell-gtx-deck.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2015-winning-presentation-canisius-college.pdf"
+        },
+        {
+          "page": 2,
+          "uri": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2016-winning-presentation-university-of-waterloo.pdf"
+        }
+      ]
+    }
+  ]
+}

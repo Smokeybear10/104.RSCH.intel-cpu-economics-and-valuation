@@ -1,0 +1,141 @@
+{
+  "computed_utc": "2026-11-04T16:34:45.513255+00:00",
+  "scope": "Controlled diagnostic only; not a new forecast or target. Preserve all near-term spending, sales, margins, depreciation, working capital, packaging cash, subsidies and financial claims. Reduce only host post2030 net growth investment (including WC) by the named percentage by reducing physical PPE; WC itself is held unchanged. Ongoing replacement remains funded. No empirically selected operating policy is implied.",
+  "reference_price": {
+    "USD": 58.11,
+    "observed": "2026-11-04 10:43 ET"
+  },
+  "mature_host_turnover_correspondence": {
+    "no_cut": 0.6,
+    "25pct_cut": 0.8,
+    "50pct_cut": 1.2
+  },
+  "rows": [
+    {
+      "yearend": 2026,
+      "operating_rate": 0.11,
+      "post2030_host_net_growth_investment_reduction": 0,
+      "conditional_value_USD": 44.35044250442401
+    },
+    {
+      "yearend": 2026,
+      "operating_rate": 0.11,
+      "post2030_host_net_growth_investment_reduction": 0.25,
+      "conditional_value_USD": 47.829497902455834
+    },
+    {
+      "yearend": 2026,
+      "operating_rate": 0.11,
+      "post2030_host_net_growth_investment_reduction": 0.5,
+      "conditional_value_USD": 51.30855330048765
+    },
+    {
+      "yearend": 2026,
+      "operating_rate": 0.12,
+      "post2030_host_net_growth_investment_reduction": 0,
+      "conditional_value_USD": 38.42041808616546
+    },
+    {
+      "yearend": 2026,
+      "operating_rate": 0.12,
+      "post2030_host_net_growth_investment_reduction": 0.25,
+      "conditional_value_USD": 41.469297514528265
+    },
+    {
+      "yearend": 2026,
+      "operating_rate": 0.12,
+      "post2030_host_net_growth_investment_reduction": 0.5,
+      "conditional_value_USD": 44.51817694289106
+    },
+    {
+      "yearend": 2026,
+      "operating_rate": 0.13,
+      "post2030_host_net_growth_investment_reduction": 0,
+      "conditional_value_USD": 33.72147806306082
+    },
+    {
+      "yearend": 2026,
+      "operating_rate": 0.13,
+      "post2030_host_net_growth_investment_reduction": 0.25,
+      "conditional_value_USD": 36.4227719773984
+    },
+    {
+      "yearend": 2026,
+      "operating_rate": 0.13,
+      "post2030_host_net_growth_investment_reduction": 0.5,
+      "conditional_value_USD": 39.12406589173598
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.11,
+      "post2030_host_net_growth_investment_reduction": 0,
+      "conditional_value_USD": 65.59090545910254,
+      "stock_price_CAGR_from_58_11": 0.029566684856547676
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.11,
+      "post2030_host_net_growth_investment_reduction": 0.25,
+      "conditional_value_USD": 70.87235651360542,
+      "stock_price_CAGR_from_58_11": 0.048931350222830794
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.11,
+      "post2030_host_net_growth_investment_reduction": 0.5,
+      "conditional_value_USD": 76.1538075681083,
+      "stock_price_CAGR_from_58_11": 0.0672292732729407
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.12,
+      "post2030_host_net_growth_investment_reduction": 0,
+      "conditional_value_USD": 58.673109601568825,
+      "stock_price_CAGR_from_58_11": 0.002323104146835897
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.12,
+      "post2030_host_net_growth_investment_reduction": 0.25,
+      "conditional_value_USD": 63.47058040840343,
+      "stock_price_CAGR_from_58_11": 0.021458343730510476
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.12,
+      "post2030_host_net_growth_investment_reduction": 0.5,
+      "conditional_value_USD": 68.26805121523803,
+      "stock_price_CAGR_from_58_11": 0.039524803347101845
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.13,
+      "post2030_host_net_growth_investment_reduction": 0,
+      "conditional_value_USD": 53.15315608230584,
+      "stock_price_CAGR_from_58_11": -0.021224610882747297
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.13,
+      "post2030_host_net_growth_investment_reduction": 0.25,
+      "conditional_value_USD": 57.557544522486864,
+      "stock_price_CAGR_from_58_11": -0.0022958235667327465
+    },
+    {
+      "yearend": 2030,
+      "operating_rate": 0.13,
+      "post2030_host_net_growth_investment_reduction": 0.5,
+      "conditional_value_USD": 61.96193296266788,
+      "stock_price_CAGR_from_58_11": 0.015562969292670648
+    }
+  ],
+  "limits": [
+    "A lower investment burden requires an economic productivity explanation; it is not free cash created by editing a cell.",
+    "This uses the preferred CPU+packaging model, not an outside analyst forecast.",
+    "Annual stock price appreciation is not short account return; no borrow quote or collateral terms are assumed."
+  ],
+  "hashes": {
+    "bullish_absorption_operating_policy.json": "6857dbbc5e3d724a3dde2b0ef0ce5914d40a87a09ac4afd6aa0369c32113bf65",
+    "external_packaging_valuation_2026_11_04.json": "24f7fc7e19b907e210070855e0c24650cbaf52043e923a3deb0e71290d9a231f"
+  }
+}

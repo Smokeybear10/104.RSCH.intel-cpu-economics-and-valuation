@@ -1,0 +1,48 @@
+[
+  {
+    "file": "arm_fy27q2_letter.pdf",
+    "url": "https://investors.arm.com/static-files/0b5baa2e-fc47-4d05-b724-e49de7bd4356",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "arm_oci.html",
+    "url": "https://newsroom.arm.com/news/arm-agi-cpu-oracle-cloud-infrastructure",
+    "status": 200,
+    "sha256": "7a3c0ab4632bde49dcfa0255fd2d143a448b11423e6cd51f38d3929e02a0a03b"
+  },
+  {
+    "file": "amd_q3_2026.html",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+    "status": 200,
+    "sha256": "f1f7aed0ec2ec66f8bcf48cd9f205522e8e79c8e85fb17b25bd16961b0d1a55d"
+  },
+  {
+    "file": "aws_meta.html",
+    "url": "https://press.aboutamazon.com/aws/2026/4/meta-signs-agreement-with-aws-to-power-agentic-ai-on-amazons-graviton-chips",
+    "status": 200,
+    "sha256": "387c28850dc29bbaad5fc54d73f07364a8768b56982be65781fcd9fe28829798"
+  },
+  {
+    "file": "microsoft_fy27q1.html",
+    "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/earnings-fy-2027-q1",
+    "status": 200,
+    "sha256": "b1a1657c426f6d06d858a7baddcaed54cdd99c1120b9fe5186acd1636bf25e9f"
+  },
+  {
+    "file": "intel_q3_prepared.pdf",
+    "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+    "status": 200,
+    "sha256": "b019d10f31a896d23586350df12407ee32442094f544c3e6d92c753d30df2210"
+  },
+  {
+    "file": "amd_specifications.html",
+    "url": "https://www.amd.com/en/products/specifications/server-processor.html",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "google_compute.html",
+    "url": "https://cloud.google.com/blog/products/compute/whats-new-in-compute-at-next26",
+    "status": 200,
+    "sha256": "eee1523002fbc1223cd71cab9aafd3b708f0c6c809cff2d48b26cf2348b97eab"
+  }
+]

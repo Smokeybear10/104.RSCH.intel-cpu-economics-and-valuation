@@ -1,0 +1,49 @@
+{
+  "as_of_utc": "2026-11-06T06:53:32.378780+00:00",
+  "source_rows": [
+    {
+      "year": 2026,
+      "quarter": 1,
+      "reported_external_Foundry_B": 0.174,
+      "reported_Altera_wafer_manufacturing_revenue_B": 0.139,
+      "other_external_Foundry_residual_B": 0.034999999999999976,
+      "inference": "Residual is subtraction, not an issuer breakdown of recurring versus nonrecurring services."
+    },
+    {
+      "year": 2026,
+      "quarter": 2,
+      "reported_external_Foundry_B": 0.293,
+      "reported_Altera_wafer_manufacturing_revenue_B": 0.181,
+      "other_external_Foundry_residual_B": 0.11199999999999999,
+      "inference": "Residual is subtraction, not an issuer breakdown of recurring versus nonrecurring services."
+    },
+    {
+      "year": 2026,
+      "quarter": 3,
+      "reported_external_Foundry_B": 0.411,
+      "reported_Altera_wafer_manufacturing_revenue_B": 0.126,
+      "other_external_Foundry_residual_B": 0.285,
+      "inference": "Residual is subtraction, not an issuer breakdown of recurring versus nonrecurring services."
+    }
+  ],
+  "selected_legacy_normalization_B": 0.934,
+  "H1_annualized_components_B": {
+    "Altera_wafer_manufacturing": 0.64,
+    "other_external_Foundry_residual": 0.29400000000000004
+  },
+  "sources": [
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "locator": "Note 2 and Note 8, Altera",
+      "reported_facts": "H1 external Foundry 467M; Altera wafer manufacturing revenue 181M Q2 and 320M H1."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note 2, Note 8 Altera, Foundry MD&A",
+      "reported_facts": "External Foundry 411M Q3; Altera wafer manufacturing revenue 126M Q3 and 446M nine months. Q3 external growth was primarily from a nonrecurring contract."
+    }
+  ],
+  "interpretation": "This identifies a real source of existing external wafer revenue within the H1 normalization, but does not certify its continuation or the recurrence of the residual. Altera Q3 manufacturing revenue was lower than either Q1 or Q2. The 0.934B annual and 0.2335B Q4 rows remain analyst forecasts.",
+  "overlap_control": "The frozen packaging policy defines its gross sales as new external program families and expressly excludes Intel16 legacy revenue. Keep these new program rows distinct from the 2026 legacy base; no inference is made that every historical external Foundry dollar was wafer fabrication.",
+  "profit_and_cash_change_B": 0.0
+}

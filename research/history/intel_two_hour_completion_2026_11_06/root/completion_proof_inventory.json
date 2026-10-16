@@ -1,0 +1,72 @@
+{
+  "updated_utc": "2026-11-06T16:31:14.706364+00:00",
+  "question": "What is weak, what remains unproved, and what can be verified?",
+  "principle": "Future outcomes need a reasoned forecast, not certainty. Verifying a calculation or a management statement does not verify the forecast built on it.",
+  "closed": [
+    {
+      "claim": "Consolidated revenue and cash arithmetic",
+      "evidence": "External Foundry and All Other eliminations, packaging overlap, tax credits, economic SBC, claims and grant receivables reconciled; annual and quarterly rebuilds pass.",
+      "limit": "Forecast economics, timing and legal access to cash are not actual results."
+    },
+    {
+      "claim": "Editable valuation propagation",
+      "evidence": "1931 exported formulas independently evaluated;867 baseline and2250 anchor comparisons. Terminal growth changes operating economics and investment together.",
+      "limit": "Tested with bundled engine and independent XML evaluator, not native Excel UI."
+    },
+    {
+      "claim": "Bounded current cloud-workload comparison",
+      "evidence": "Five matched public Rust-build pairs and10 raw logs;45 tests each. AMD is faster and11.16% cheaper at normalized on-demand EC2/EBS rates;7.76% under alternate shutdown window.",
+      "limit": "Not an original experiment, invoice, fullTCO, equal-core architecture comparison, or Intel margin measurement."
+    },
+    {
+      "claim": "Valuation method alternatives",
+      "evidence": "NYU November source inputs verified, methods existed before this comparison, cash and1000-year tail independently rebuilt.",
+      "limit": "Alternative risk methods do not establish which operations will occur."
+    }
+  ],
+  "material_open_claims": [
+    {
+      "priority": 1,
+      "claim": "Intel retains the customer value as durable group profit.",
+      "supported_now": "Current product-profit recovery and named customer utility; conditional CPU residual margins41.71%YTD/44.91%pooled/46.62%Q3.",
+      "not_identified": "Realized same-mix price, CPU cost, contract coverage and renewal economics.",
+      "can_narrow": "Nonconfidential purchasing evidence and later combined Products/Foundry profit, cost and capex disclosures.",
+      "future_only": "A2040margin cannot be proved before the competition. A coherent margin scenario remains legitimate."
+    },
+    {
+      "priority": 2,
+      "claim": "Foundry and packaging reach the modeled scale.",
+      "supported_now": "Node-cost learning, committed-demand language and customer engineering work. HostFoundry supplies32.6%of2027-30EBITincrease.",
+      "not_identified": "The$7Bpackaging forecast, assumedtwo$3Bprograms, accepted quantities/netfees and exact cost flexibility.",
+      "can_narrow": "Named commercial minimums, recognized revenue or independently bounded customer-scale/fee evidence.",
+      "quantified": "At unchangedselectedsales, breakeven-onlyFoundry gives47.45target. Onepackagingfamilymissing gives50.91or46.51 dependingcostavoidability.",
+      "future_only": "Execution can be forecast and falsified later, not guaranteed today."
+    },
+    {
+      "priority": 3,
+      "claim": "LongerCPUgrowth is strong enough to justify the entry.",
+      "supported_now": "Strong near-term demand, adoption and supply expansion; industryTAM forecasts support a positive mechanism.",
+      "not_identified": "CPU content per workload, Intel revenue share, sustained netpricing and2031-40volume/ASP.",
+      "can_narrow": "Matchedcustomer/workload economics, physicalacceptedoutput and procurement terms; currentTAM dollars do not identify Intelunits.",
+      "quantified": "Selectednear-termcashheldfixed: planning52.25requiresCPUrevenueCAGR13.44%or9.92%after2030 under11.555%or10.625%rates; these are conditionalhurdles, not unique marketforecasts."
+    },
+    {
+      "priority": 4,
+      "claim": "The favorable operating/risk bundle deserves the recommendation.",
+      "supported_now": "Coherentfavorablecase82.47target/56.14Dec2026planning at10.625%; sameoperations73.56/48.56at11.555%.",
+      "not_identified": "A calibrated probability or expected return; neither rate nor operating convention is empirically unique.",
+      "can_narrow": "Independent economic judgment about transition durability, buyer capture, competitive response and long-run reinvestment.",
+      "quantified": "Favorable10.625withmissingprogram gives54.25planning ifcostsflex,50.97ifcostscommitted.",
+      "future_only": "Realizedreturn andwinningprobability cannot be established from these scenarios."
+    }
+  ],
+  "strongest_honest_mechanism": "New-platform customer utility and richer product mix can survive shortage normalization; manufacturing learning can turn that demand into parent cash. Test product capture and factory costs together.",
+  "submission_status": "Research review, not a finalized M37 LONG/SHORT submission. Rules require a recommendation; this unresolved investment judgment is explicitly disclosed.",
+  "interviews": "No completed original interview is claimed. No outreach or paid experiment in this research goal.",
+  "artifacts": "Revised10-page research screen,5-page defense notes,3-page comparison and6-sheet editable model.",
+  "independent_judgment_review": {
+    "path": "../judgment_challenge/independent_investment_adjudication.json",
+    "conclusion": "Do not demand guaranteed contracts or treat the cautious planning case as inherently factual. Recent platform economics support a reasonable bullish hypothesis; sustained Intel revenue share and retained consolidated profit remain the main judgment."
+  },
+  "remaining_analytical_gap": "A definition-matched market revenue-pool/share bridge could strengthen the forecast basis. It cannot prove future demand, accepted capacity or net pricing; current vendor TAM dates/scopes are not interchangeable."
+}

@@ -1,0 +1,58 @@
+{
+  "frozen_utc": "2026-11-05T23:07:27.380543+00:00",
+  "question": "Can quarterly and YTD2026 rounded unit/ASP disclosures constrain ASP carryover without assuming equal2025quarterly shipments?",
+  "status": "Identification diagnostic only, no selected price forecast or equity repricing; public ratios may have different product scopes and rounding conventions.",
+  "reported_inputs": {
+    "2026_DCAI_revenue_B": [
+      5.052,
+      6.262,
+      7.318
+    ],
+    "2025_DCAI_revenue_B": [
+      4.126,
+      3.939,
+      4.117
+    ],
+    "Other_DCAI_2026_Q1_Q2_B": [
+      0.935,
+      0.951
+    ],
+    "Other_DCAI_increase_Q1_Q2_Q3_B": [
+      0.23,
+      0.304,
+      0.743
+    ],
+    "Other_DCAI_2026_Q3_rounded_B": 1.4,
+    "Other_DCAI_2026_YTD_rounded_B": 3.3,
+    "Other_DCAI_2025_YTD_rounded_B": 2.0,
+    "unit_growth_Q1_Q2_Q3_H1_YTD": [
+      -0.05,
+      0.09,
+      0.1,
+      0.02,
+      0.04
+    ],
+    "ASP_growth_Q1_Q2_Q3_H1_YTD": [
+      0.27,
+      0.48,
+      0.54,
+      0.38,
+      0.44
+    ]
+  },
+  "interval_assumption": "Each reported whole-percent growth is an ordinary nearest-whole-percent range\u00b10.5percentage points. Each0.1Breported sales is\u00b10.05B. Million-dollar inputs held at reported centers; show limits, do not assert exact issuer rounding method.",
+  "constraints": "At each candidate trueQ3Other revenue, infer consistent CPU sales for2026 and2025 from exact segment totals and Othergrowth. All quarter and aggregate CPU revenue must equal units times ASP. Positive prior and current units; quarter and aggregate unit and ASP ratios within stated rounding bands. Do NOT assume equalquarters or infer levels from adding percentages.",
+  "optimization": "For each Q3Other amount in feasible rounded range, normalize2026Q3units to1; linear constraints in2025/26quarter units then bound2026YTDunits/Q3units. Grid1001Other amounts then local boundedscalar optimization around feasible minima/maxima; report numerical approximation and residual checks.",
+  "Q4_diagnostic": "Hold ownedQ4CPUrevenue6.5257B (DCAI7.318x1.15\u2212Other1.89), not observed. Examine Q4unit/Q3unit ratios0.9,1.0,1.1,1.2 fixedbeforecalculating. Full2026weightedASP uses reconstructedYTDCPUrevenue+ownedQ4sales and YTDunits+Q4units. Flat2027exitASP carryover = Q4ASP/FY2026ASP\u22121. No growth during2027 assumed in this diagnostic.",
+  "limits": [
+    "Rounded OtherCPUresiduals and YoYcomparability may not define exactly the same scope as issuer ASP/units.",
+    "The next-quarter CPUrevenue and units are assumptions; no actualQ4exitASPobserved.",
+    "Constraints can narrow a possible carryover range but cannot measure contribution of within-SKUpricing vs mix or guarantee annual2027ASPgrowth20%.",
+    "If no consistent solution exists, report inconsistency and do not manufacture precisecarryover."
+  ],
+  "sources": [
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+    "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+    "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "selected_utc": "2026-11-04T11:58:02.286831+00:00",
+  "owner": "root",
+  "status": "Execution conventions selected before first Intel stock-value output. All earlier cash/operating forecasts and market price are known.",
+  "primary_endpoint": "2030-12-31",
+  "additional_endpoint_controls": [
+    "2029-12-31",
+    "2031-12-31"
+  ],
+  "reference_value_date": "2026-12-31",
+  "entry": {
+    "date": "2026-11-03",
+    "price_USD": 60.55,
+    "source": "https://www.intc.com/stock-info/historical-data"
+  },
+  "date_boundary": "End2026 value uses the explicit opening2027 financial forecast. It is NOT a measured November3 fair value. Holding-period calculations compare November3 market entry with future2029/2030/2031 prices. Do not silently compound current equity at the operating discount rate.",
+  "nominal_unlevered_operating_rate": 0.12,
+  "rate_controls": [
+    0.11,
+    0.13
+  ],
+  "annual_cash_timing": "Year end. Terminal first cash is2041; valueat2040=FCFF2041/(r-g), g=.03.",
+  "new_capitalized_interest_tax_basis": {
+    "annual_B_from2027": 1.0,
+    "economic_tax_recovery_years": 8,
+    "first_deduction": "Year following capitalization; equal eighths over eight years.",
+    "scope": "An owned tax-timing normalization, not asserted MACRS class, bonus election or actual Intel statutory schedule. Excludes additional benefit from pre2027 capitalized-interest basis, already inside historical ordinary-tax normalization. Forward operating EBIT/D&A exclude amortization of NEW capitalized financing interest.",
+    "cash_benefit": "ordinary operating cash tax rate times scheduled deductions, included once in treasury and in the separate financing-benefit PV. No immediate deduction of the whole capitalized amount."
+  },
+  "post2030_debt_policy": {
+    "ordinary_debt": "Hold end2030 ordinary debt nominally constant through refinancing at par; no net new principal to finance operating growth. Access remains a forecast.",
+    "total_cash_coupon_rate": 0.052,
+    "capitalized_interest_within_total_B": 1.0,
+    "ordinary_interest": "max(0,total_cash_coupon_rate*debt-1B), with any actual excess capitalization barred if total interest is less than1B.",
+    "cash_interest_income_for2031_treasury_control_B": 1.0,
+    "source_limit": "5.2% is an owned rounded carrying-debt cash-cost normalization, not future quoted market yield or a complete maturity schedule."
+  },
+  "financing_benefit_discount_rate": 0.12,
+  "financing_benefit_discount_judgment": "Tax benefits depend on the forecast producing taxable income. Use the operating-risk rate rather than assume certain debt-like receipt. Discount-rate controls apply to both operating cash and these uncertain benefits.",
+  "financing_benefit_formula": "Ordinary rate times ordinary debt cash interest plus scheduled new capitalized-interest deductions, capped by ordinary unlevered operating tax capacity. No cash-interest-income shield; cash-income taxes are in treasury.",
+  "post2030_all_in_lease_cash_growth": 0.03,
+  "cash_asset_rule": "All unrestricted modeled economic cash is a separately owned financial asset valued at par. The20B floor constrains payouts/borrowing and is not a claim that the reserve has zero value or is immediately distributable. Interest income is excluded from operatingDCF and included only in the finite treasury path.",
+  "stock_and_claim_rules": [
+    "Use5.51B economic planning claims from the financial policy, with full pending government escrow included once and dated cash receipts included once.",
+    "Retain economic SBC in operatingcash; no extra futuregrant dilution.",
+    "Use ordinary carrying debt with scheduled paydowns and disclosed market-value limitation; no second lease, escrow-derivative or NCI claim subtraction.",
+    "Net other assets5.717B is a nominal carrying proxy, not proof of marketvalue.",
+    "Classiq cash consideration reduces finite treasury; current reference also deducts its dated PV, with no separately credited acquisition franchise value."
+  ],
+  "reference2026_equity_formula": "OperatingcashPV2027+ including dated existing/newcapitalcreditcollections and basis-loss charges + openingcash - openingordinarydebt +netotherassets +financingbenefitPV +PVgovernmentescrowcash -PVClassiqcash.",
+  "future_equity_formula": "OperatingcashPVafterendpoint +futurefinancingbenefitPV +endpointcash -endpointordinarydebt +netotherassets; no duplication of priorcashreceipts, acquisitions or financialinterest.",
+  "audit_requirements": [
+    "Recompute unlevered tax rather than retain the old after-interest tax.",
+    "Finite ownercash before newcredit/taxshield/financing events must reconcile to original proxy.",
+    "Debt principal and borrowing change cash/debt together.",
+    "Capitalcreditbasis-loss and collection occur once.",
+    "Terminal netinvestment includes workingcapital once.",
+    "Explicit tail matches direct extended cashsum.",
+    "No policy changes after output without a separate version and causal explanation."
+  ],
+  "input_hashes": {
+    "integrated_product_to_cash_forecast_2026_11_04.json": "cb00094f87130e39637dd6a2f48a141011cfa3424e99e4e7f2272821f7c3b515",
+    "product_operating_forecast_2026_11_04.json": "6997632051e29251975dd4ed9c1d74b01d511f6dd0e5630a9e9be2ba33bfb46d",
+    "post2030_operating_capital_policy.json": "dd14ddfd2a758a70f30c3c9ecc395610c32ea9c28a120594a735efa1d4a383db",
+    "root_corporate_tax_credit_valuation_policy.json": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031",
+    "financial_claims_and_treasury_policy_2026_11_04.json": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea",
+    "valuation_method_and_operating_rate_policy_2026_11_04.json": "55c084aed2b385854448a5eb25a3d3bf42299edeeefc7725acbd3aba04fafc5e"
+  }
+}

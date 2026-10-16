@@ -1,0 +1,1683 @@
+{
+  "computed_utc": "2026-11-06T07:52:30.169299+00:00",
+  "scope": "Independent numerical reconstruction from source annual components and original financing cash flows. No parent evaluate helper imported or called. This validates arithmetic conditional on supplied forecasts, not economic truth, scenario probabilities or investment returns.",
+  "method": "Operating cash reconstructed from EBIT/tax/capex/depreciation/working capital/leases/minorities/credit collections. Each case retains its own opening treasury balance; cash/debt rolled forward from original financing. Terminal operating and flat tax-shield streams summed year by year through3040 and compared with closed forms. No rounded source price substituted in calculations.",
+  "input_receipts": [
+    {
+      "name": "integrated",
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_results.json",
+      "sha256": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8"
+    },
+    {
+      "name": "anchor",
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/anchor_valuation_overlay_results.json",
+      "sha256": "721aa9b7a7445065317b17590eba55659558563664040651672c0fdf933b03f7"
+    },
+    {
+      "name": "rounded",
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/risk_policy/rounded_ERP_comparison_results.json",
+      "sha256": "0251fe4029f554b4a7dc4b1793c2fbc5a460575a0fed2fbf76dba2562d875f83"
+    },
+    {
+      "name": "risk",
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/risk_policy/risk_robustness_results.json",
+      "sha256": "c9dd769de310856e449e264164c0aa380ae62024b73a8c96904aa16745ad330d"
+    },
+    {
+      "name": "original_financing",
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    }
+  ],
+  "dates": {
+    "entry": "2026-11-05",
+    "planning_value": "2026-12-31",
+    "exit": "2030-12-31",
+    "holding_years_ACT36525": 4.153319644079398
+  },
+  "baseline11555": [
+    {
+      "case": "selected_operating",
+      "rate": 0.11555,
+      "growth": 0.03,
+      "values": {
+        "2026": {
+          "price_USD": 35.40465307548003,
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 82.57185093258153,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.2439808391052574,
+          "remaining_acquisition_PV_B": 1.9844440701029078,
+          "cash_B": 50.839,
+          "debt_B": 50.134,
+          "terminal_share_of_operating_value": 0.4415036881445108
+        },
+        "2030": {
+          "price_USD": 53.42933483948492,
+          "explicit_operating_PV_B": 142.06527693129422,
+          "terminal_operating_PV_B": 127.87574650750204,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "cash_B": 54.30119774018599,
+          "debt_B": 37.097,
+          "terminal_share_of_operating_value": 0.4737173508438421
+        }
+      },
+      "planning_value_USD": 35.40465307548003,
+      "target2030_USD": 53.42933483948492,
+      "annual_price_return": 0.0053884915192619065,
+      "entry_ceiling_for10pct_price_return_USD": 35.963563274253886,
+      "terminal_cash_B": 32.651158966014755,
+      "terminal_growth_funding_B": 6.159909451044344
+    },
+    {
+      "case": "existing_favorable_operating",
+      "rate": 0.11555,
+      "growth": 0.03,
+      "values": {
+        "2026": {
+          "price_USD": 48.55768148802632,
+          "explicit_operating_PV_B": 140.5634889862962,
+          "terminal_operating_PV_B": 118.78101715573135,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.2439808391052574,
+          "remaining_acquisition_PV_B": 1.9844440701029078,
+          "cash_B": 50.991828,
+          "debt_B": 50.134,
+          "terminal_share_of_operating_value": 0.45800475561522813
+        },
+        "2030": {
+          "price_USD": 73.56082736404232,
+          "explicit_operating_PV_B": 185.6748351007273,
+          "terminal_operating_PV_B": 183.951444325879,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "cash_B": 65.54046556268732,
+          "debt_B": 37.097,
+          "terminal_share_of_operating_value": 0.497668738844108
+        }
+      },
+      "planning_value_USD": 48.55768148802632,
+      "target2030_USD": 73.56082736404232,
+      "annual_price_return": 0.0858480430836479,
+      "entry_ceiling_for10pct_price_return_USD": 49.51417563705358,
+      "terminal_cash_B": 46.96924956258162,
+      "terminal_growth_funding_B": 7.493000624273434
+    }
+  ],
+  "published_rounded10625": [
+    {
+      "case": "selected_operating",
+      "rate": 0.10625,
+      "growth": 0.03,
+      "values": {
+        "2026": {
+          "price_USD": 40.77426923728208,
+          "explicit_operating_PV_B": 112.1889099193366,
+          "terminal_operating_PV_B": 104.16283256855304,
+          "financing_shield_PV_B": 2.8391545388524753,
+          "remaining_escrow_PV_B": 2.2718375945609504,
+          "remaining_acquisition_PV_B": 2.0035111238788343,
+          "cash_B": 50.839,
+          "debt_B": 50.134,
+          "terminal_share_of_operating_value": 0.48145132260436313
+        },
+        "2030": {
+          "price_USD": 59.67643532568415,
+          "explicit_operating_PV_B": 148.10320604880377,
+          "terminal_operating_PV_B": 156.00047339824349,
+          "financing_shield_PV_B": 3.007281457286348,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "cash_B": 54.30119774018599,
+          "debt_B": 37.097,
+          "terminal_share_of_operating_value": 0.5129844981879195
+        }
+      },
+      "planning_value_USD": 40.77426923728208,
+      "target2030_USD": 59.67643532568415,
+      "annual_price_return": 0.03251529397054087,
+      "entry_ceiling_for10pct_price_return_USD": 40.16851911529153,
+      "terminal_cash_B": 32.651158966014755,
+      "terminal_growth_funding_B": 6.159909451044344
+    },
+    {
+      "case": "existing_favorable_operating",
+      "rate": 0.10625,
+      "growth": 0.03,
+      "values": {
+        "2026": {
+          "price_USD": 56.1392858455684,
+          "explicit_operating_PV_B": 151.0201431794779,
+          "terminal_operating_PV_B": 149.84001282006935,
+          "financing_shield_PV_B": 2.8391545388524753,
+          "remaining_escrow_PV_B": 2.2718375945609504,
+          "remaining_acquisition_PV_B": 2.0035111238788343,
+          "cash_B": 50.991828,
+          "debt_B": 50.134,
+          "terminal_share_of_operating_value": 0.49803873936798343
+        },
+        "2030": {
+          "price_USD": 82.47015162680009,
+          "explicit_operating_PV_B": 194.04844436651882,
+          "terminal_operating_PV_B": 224.40934407717597,
+          "financing_shield_PV_B": 3.007281457286348,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "cash_B": 65.54046556268732,
+          "debt_B": 37.097,
+          "terminal_share_of_operating_value": 0.5362771354114041
+        }
+      },
+      "planning_value_USD": 56.1392858455684,
+      "target2030_USD": 82.47015162680009,
+      "annual_price_return": 0.11615212704256206,
+      "entry_ceiling_for10pct_price_return_USD": 55.51108815369129,
+      "terminal_cash_B": 46.96924956258162,
+      "terminal_growth_funding_B": 7.493000624273434
+    }
+  ],
+  "funded_terminal_growth_controls": [
+    {
+      "case": "selected_operating",
+      "rate": 0.11555,
+      "growth": 0.02,
+      "values": {
+        "2026": {
+          "price_USD": 34.52520672867344,
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 77.72610156167727,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.2439808391052574,
+          "remaining_acquisition_PV_B": 1.9844440701029078,
+          "cash_B": 50.839,
+          "debt_B": 50.134,
+          "terminal_share_of_operating_value": 0.42664828718425146
+        },
+        "2030": {
+          "price_USD": 52.06737120610326,
+          "explicit_operating_PV_B": 142.06527693129422,
+          "terminal_operating_PV_B": 120.37132688756913,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "cash_B": 54.30119774018599,
+          "debt_B": 37.097,
+          "terminal_share_of_operating_value": 0.4586682083824357
+        }
+      },
+      "planning_value_USD": 34.52520672867344,
+      "target2030_USD": 52.06737120610326,
+      "annual_price_return": -0.0008426838079705901,
+      "entry_ceiling_for10pct_price_return_USD": 35.04681846630324,
+      "terminal_cash_B": 34.327655626876854,
+      "terminal_growth_funding_B": 4.10660630069623
+    },
+    {
+      "case": "selected_operating",
+      "rate": 0.11555,
+      "growth": 0.04,
+      "values": {
+        "2026": {
+          "price_USD": 36.51691116201038,
+          "explicit_operating_PV_B": 104.4522966563159,
+          "terminal_operating_PV_B": 88.70039298936378,
+          "financing_shield_PV_B": 2.58895408799514,
+          "remaining_escrow_PV_B": 2.2439808391052574,
+          "remaining_acquisition_PV_B": 1.9844440701029078,
+          "cash_B": 50.839,
+          "debt_B": 50.134,
+          "terminal_share_of_operating_value": 0.459224218684587
+        },
+        "2030": {
+          "price_USD": 55.15184476893054,
+          "explicit_operating_PV_B": 142.06527693129422,
+          "terminal_operating_PV_B": 137.36677621874736,
+          "financing_shield_PV_B": 2.748413786579589,
+          "remaining_escrow_PV_B": 0.0,
+          "remaining_acquisition_PV_B": 0.0,
+          "cash_B": 54.30119774018599,
+          "debt_B": 37.097,
+          "terminal_share_of_operating_value": 0.4915927670795447
+        }
+      },
+      "planning_value_USD": 36.51691116201038,
+      "target2030_USD": 55.15184476893054,
+      "annual_price_return": 0.013098807325367057,
+      "entry_ceiling_for10pct_price_return_USD": 37.122993670014075,
+      "terminal_cash_B": 30.974662305152638,
+      "terminal_growth_funding_B": 8.21321260139246
+    }
+  ],
+  "validation": {
+    "comparison_count": 236,
+    "maximum_absolute_error": 2.8421709430404007e-13,
+    "tolerance": 1e-09,
+    "all_passed": true
+  },
+  "comparison_details": [
+    {
+      "label": "selected_operating operating cash 2027",
+      "calculated": -11.06075101882357,
+      "reported": -11.06075101882357,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2028",
+      "calculated": 1.8845297516036101,
+      "reported": 1.8845297516036101,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2029",
+      "calculated": 12.918990039403996,
+      "reported": 12.918990039403996,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2030",
+      "calculated": 18.293928968001957,
+      "reported": 18.293928968001957,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2031",
+      "calculated": 21.609219084778847,
+      "reported": 21.609219084778847,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2032",
+      "calculated": 22.300911691871132,
+      "reported": 22.300911691871132,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2033",
+      "calculated": 22.70981425074883,
+      "reported": 22.70981425074883,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2034",
+      "calculated": 23.253155331531584,
+      "reported": 23.253155331531584,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2035",
+      "calculated": 24.347957103550957,
+      "reported": 24.347957103550957,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2036",
+      "calculated": 25.89212495809683,
+      "reported": 25.89212495809683,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2037",
+      "calculated": 27.14869370560451,
+      "reported": 27.14869370560451,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2038",
+      "calculated": 28.440506205400535,
+      "reported": 28.440506205400535,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2039",
+      "calculated": 29.60725095340362,
+      "reported": 29.60725095340363,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "selected_operating operating cash 2040",
+      "calculated": 30.80103608762744,
+      "reported": 30.80103608762744,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2041",
+      "calculated": 32.651158966014755,
+      "reported": 32.65115896601476,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "selected_operating treasury cash 2027",
+      "calculated": 33.86224898117643,
+      "reported": 33.86224898117643,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2027",
+      "calculated": 46.308,
+      "reported": 46.308,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2028",
+      "calculated": 32.05252873278004,
+      "reported": 32.05252873278004,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2028",
+      "calculated": 43.135,
+      "reported": 43.135,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2029",
+      "calculated": 40.21101877218403,
+      "reported": 40.21101877218403,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2029",
+      "calculated": 39.847,
+      "reported": 39.847,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2030",
+      "calculated": 54.30119774018599,
+      "reported": 54.30119774018599,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2030",
+      "calculated": 37.097,
+      "reported": 37.097,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating funded terminal cash",
+      "calculated": 32.651158966014755,
+      "reported": 32.651158966014755,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating rate0.11555 growth0.03 tail sum 2026",
+      "calculated": 82.57185093258153,
+      "reported": 82.57185093258155,
+      "error": -2.842170943040401e-14
+    },
+    {
+      "label": "selected_operating rate0.11555 flat shield sum 2026",
+      "calculated": 0.6501268780670463,
+      "reported": 0.6501268780670465,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "label": "selected_operating rate0.11555 growth0.03 tail sum 2030",
+      "calculated": 127.87574650750204,
+      "reported": 127.87574650750206,
+      "error": -1.4210854715202004e-14
+    },
+    {
+      "label": "selected_operating rate0.11555 flat shield sum 2030",
+      "calculated": 1.006825678708522,
+      "reported": 1.0068256787085221,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "label": "baseline selected_operating 2026 price_USD",
+      "calculated": 35.40465307548003,
+      "reported": 35.40465307548003,
+      "error": 0.0
+    },
+    {
+      "label": "baseline selected_operating 2026 explicit_operating_PV_B",
+      "calculated": 104.4522966563159,
+      "reported": 104.4522966563159,
+      "error": 0.0
+    },
+    {
+      "label": "baseline selected_operating 2026 terminal_operating_PV_B",
+      "calculated": 82.57185093258153,
+      "reported": 82.57185093258157,
+      "error": -4.263256414560601e-14
+    },
+    {
+      "label": "baseline selected_operating 2026 financing_shield_PV_B",
+      "calculated": 2.58895408799514,
+      "reported": 2.58895408799514,
+      "error": 0.0
+    },
+    {
+      "label": "baseline selected_operating 2026 cash_B",
+      "calculated": 50.839,
+      "reported": 50.839,
+      "error": 0.0
+    },
+    {
+      "label": "baseline selected_operating 2026 debt_B",
+      "calculated": 50.134,
+      "reported": 50.134,
+      "error": 0.0
+    },
+    {
+      "label": "baseline selected_operating 2030 price_USD",
+      "calculated": 53.42933483948492,
+      "reported": 53.42933483948493,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "baseline selected_operating 2030 explicit_operating_PV_B",
+      "calculated": 142.06527693129422,
+      "reported": 142.06527693129422,
+      "error": 0.0
+    },
+    {
+      "label": "baseline selected_operating 2030 terminal_operating_PV_B",
+      "calculated": 127.87574650750204,
+      "reported": 127.87574650750211,
+      "error": -7.105427357601002e-14
+    },
+    {
+      "label": "baseline selected_operating 2030 financing_shield_PV_B",
+      "calculated": 2.748413786579589,
+      "reported": 2.748413786579589,
+      "error": 0.0
+    },
+    {
+      "label": "baseline selected_operating 2030 cash_B",
+      "calculated": 54.30119774018599,
+      "reported": 54.30119774018599,
+      "error": 0.0
+    },
+    {
+      "label": "baseline selected_operating 2030 debt_B",
+      "calculated": 37.097,
+      "reported": 37.097,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2027",
+      "calculated": -11.06075101882357,
+      "reported": -11.06075101882357,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2028",
+      "calculated": 1.8845297516036101,
+      "reported": 1.8845297516036101,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2029",
+      "calculated": 12.918990039403996,
+      "reported": 12.918990039403996,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2030",
+      "calculated": 18.293928968001957,
+      "reported": 18.293928968001957,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2031",
+      "calculated": 21.609219084778847,
+      "reported": 21.609219084778847,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2032",
+      "calculated": 22.300911691871132,
+      "reported": 22.300911691871132,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2033",
+      "calculated": 22.70981425074883,
+      "reported": 22.70981425074883,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2034",
+      "calculated": 23.253155331531584,
+      "reported": 23.253155331531584,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2035",
+      "calculated": 24.347957103550957,
+      "reported": 24.347957103550957,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2036",
+      "calculated": 25.89212495809683,
+      "reported": 25.89212495809683,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2037",
+      "calculated": 27.14869370560451,
+      "reported": 27.14869370560451,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2038",
+      "calculated": 28.440506205400535,
+      "reported": 28.440506205400535,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2039",
+      "calculated": 29.60725095340362,
+      "reported": 29.60725095340363,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "selected_operating operating cash 2040",
+      "calculated": 30.80103608762744,
+      "reported": 30.80103608762744,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2041",
+      "calculated": 32.651158966014755,
+      "reported": 32.65115896601476,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "selected_operating treasury cash 2027",
+      "calculated": 33.86224898117643,
+      "reported": 33.86224898117643,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2027",
+      "calculated": 46.308,
+      "reported": 46.308,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2028",
+      "calculated": 32.05252873278004,
+      "reported": 32.05252873278004,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2028",
+      "calculated": 43.135,
+      "reported": 43.135,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2029",
+      "calculated": 40.21101877218403,
+      "reported": 40.21101877218403,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2029",
+      "calculated": 39.847,
+      "reported": 39.847,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2030",
+      "calculated": 54.30119774018599,
+      "reported": 54.30119774018599,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2030",
+      "calculated": 37.097,
+      "reported": 37.097,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating funded terminal cash",
+      "calculated": 32.651158966014755,
+      "reported": 32.651158966014755,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating rate0.10625 growth0.03 tail sum 2026",
+      "calculated": 104.16283256855304,
+      "reported": 104.16283256855294,
+      "error": 9.947598300641403e-14
+    },
+    {
+      "label": "selected_operating rate0.10625 flat shield sum 2026",
+      "calculated": 0.794949843492254,
+      "reported": 0.7949498434922536,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "label": "selected_operating rate0.10625 growth0.03 tail sum 2030",
+      "calculated": 156.00047339824349,
+      "reported": 156.00047339824334,
+      "error": 1.4210854715202004e-13
+    },
+    {
+      "label": "selected_operating rate0.10625 flat shield sum 2030",
+      "calculated": 1.1905643198694158,
+      "reported": 1.1905643198694154,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "label": "rounded selected_operating 2026 price_USD",
+      "calculated": 40.77426923728208,
+      "reported": 40.774269237282056,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "label": "rounded selected_operating 2026 explicit_operating_PV_B",
+      "calculated": 112.1889099193366,
+      "reported": 112.1889099193366,
+      "error": 0.0
+    },
+    {
+      "label": "rounded selected_operating 2026 terminal_operating_PV_B",
+      "calculated": 104.16283256855304,
+      "reported": 104.16283256855291,
+      "error": 1.2789769243681803e-13
+    },
+    {
+      "label": "rounded selected_operating 2026 financing_shield_PV_B",
+      "calculated": 2.8391545388524753,
+      "reported": 2.8391545388524753,
+      "error": 0.0
+    },
+    {
+      "label": "rounded selected_operating 2026 remaining_escrow_PV_B",
+      "calculated": 2.2718375945609504,
+      "reported": 2.2718375945609504,
+      "error": 0.0
+    },
+    {
+      "label": "rounded selected_operating 2026 remaining_acquisition_PV_B",
+      "calculated": 2.0035111238788343,
+      "reported": 2.0035111238788343,
+      "error": 0.0
+    },
+    {
+      "label": "rounded selected_operating 2026 terminal_share_of_operating_value",
+      "calculated": 0.48145132260436313,
+      "reported": 0.4814513226043628,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "label": "rounded selected_operating 2030 price_USD",
+      "calculated": 59.67643532568415,
+      "reported": 59.67643532568411,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "label": "rounded selected_operating 2030 explicit_operating_PV_B",
+      "calculated": 148.10320604880377,
+      "reported": 148.10320604880377,
+      "error": 0.0
+    },
+    {
+      "label": "rounded selected_operating 2030 terminal_operating_PV_B",
+      "calculated": 156.00047339824349,
+      "reported": 156.0004733982433,
+      "error": 1.9895196601282805e-13
+    },
+    {
+      "label": "rounded selected_operating 2030 financing_shield_PV_B",
+      "calculated": 3.007281457286348,
+      "reported": 3.0072814572863473,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "label": "rounded selected_operating 2030 remaining_escrow_PV_B",
+      "calculated": 0.0,
+      "reported": 0.0,
+      "error": 0.0
+    },
+    {
+      "label": "rounded selected_operating 2030 remaining_acquisition_PV_B",
+      "calculated": 0.0,
+      "reported": 0.0,
+      "error": 0.0
+    },
+    {
+      "label": "rounded selected_operating 2030 terminal_share_of_operating_value",
+      "calculated": 0.5129844981879195,
+      "reported": 0.5129844981879192,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "label": "rounded selected_operating planning_value_USD",
+      "calculated": 40.77426923728208,
+      "reported": 40.774269237282056,
+      "error": 2.1316282072803006e-14
+    },
+    {
+      "label": "rounded selected_operating target2030_USD",
+      "calculated": 59.67643532568415,
+      "reported": 59.67643532568411,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "label": "rounded selected_operating annual_price_return",
+      "calculated": 0.03251529397054087,
+      "reported": 0.03251529397054087,
+      "error": 0.0
+    },
+    {
+      "label": "rounded selected_operating entry_ceiling_for10pct_price_return_USD",
+      "calculated": 40.16851911529153,
+      "reported": 40.1685191152915,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2027",
+      "calculated": -10.118799771022797,
+      "reported": -10.118799771022797,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2028",
+      "calculated": 3.7528475956696283,
+      "reported": 3.7528475956696266,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2029",
+      "calculated": 16.428700120646504,
+      "reported": 16.428700120646504,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2030",
+      "calculated": 23.06038961739398,
+      "reported": 23.06038961739398,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2031",
+      "calculated": 23.158020150940924,
+      "reported": 23.158020150940924,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2032",
+      "calculated": 25.611802275103404,
+      "reported": 25.611802275103408,
+      "error": -3.552713678800501e-15
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2033",
+      "calculated": 27.822920302679197,
+      "reported": 27.822920302679197,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2034",
+      "calculated": 30.17333273316758,
+      "reported": 30.173332733167573,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2035",
+      "calculated": 33.038266349975665,
+      "reported": 33.038266349975665,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2036",
+      "calculated": 36.37908916006915,
+      "reported": 36.37908916006915,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2037",
+      "calculated": 38.845093581172726,
+      "reported": 38.845093581172726,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2038",
+      "calculated": 41.27414418943487,
+      "reported": 41.27414418943487,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2039",
+      "calculated": 43.48525338713711,
+      "reported": 43.48525338713711,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2040",
+      "calculated": 45.60121316755497,
+      "reported": 45.60121316755497,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2041",
+      "calculated": 46.96924956258162,
+      "reported": 46.96924956258162,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury cash 2027",
+      "calculated": 34.9570282289772,
+      "reported": 34.9570282289772,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury debt 2027",
+      "calculated": 46.308,
+      "reported": 46.308,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury cash 2028",
+      "calculated": 35.01562582464683,
+      "reported": 35.015625824646825,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "label": "existing_favorable_operating treasury debt 2028",
+      "calculated": 43.135,
+      "reported": 43.135,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury cash 2029",
+      "calculated": 46.683825945293336,
+      "reported": 46.68382594529333,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "label": "existing_favorable_operating treasury debt 2029",
+      "calculated": 39.847,
+      "reported": 39.847,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury cash 2030",
+      "calculated": 65.54046556268732,
+      "reported": 65.5404655626873,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "label": "existing_favorable_operating treasury debt 2030",
+      "calculated": 37.097,
+      "reported": 37.097,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating funded terminal cash",
+      "calculated": 46.96924956258162,
+      "reported": 46.96924956258162,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating rate0.11555 growth0.03 tail sum 2026",
+      "calculated": 118.78101715573135,
+      "reported": 118.78101715573138,
+      "error": -2.842170943040401e-14
+    },
+    {
+      "label": "existing_favorable_operating rate0.11555 flat shield sum 2026",
+      "calculated": 0.6501268780670463,
+      "reported": 0.6501268780670465,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "label": "existing_favorable_operating rate0.11555 growth0.03 tail sum 2030",
+      "calculated": 183.951444325879,
+      "reported": 183.95144432587904,
+      "error": -2.842170943040401e-14
+    },
+    {
+      "label": "existing_favorable_operating rate0.11555 flat shield sum 2030",
+      "calculated": 1.006825678708522,
+      "reported": 1.0068256787085221,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "label": "baseline existing_favorable_operating 2026 price_USD",
+      "calculated": 48.55768148802632,
+      "reported": 48.557681488026326,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "baseline existing_favorable_operating 2026 explicit_operating_PV_B",
+      "calculated": 140.5634889862962,
+      "reported": 140.5634889862962,
+      "error": 0.0
+    },
+    {
+      "label": "baseline existing_favorable_operating 2026 terminal_operating_PV_B",
+      "calculated": 118.78101715573135,
+      "reported": 118.78101715573138,
+      "error": -2.842170943040401e-14
+    },
+    {
+      "label": "baseline existing_favorable_operating 2026 financing_shield_PV_B",
+      "calculated": 2.58895408799514,
+      "reported": 2.58895408799514,
+      "error": 0.0
+    },
+    {
+      "label": "baseline existing_favorable_operating 2026 cash_B",
+      "calculated": 50.991828,
+      "reported": 50.991828,
+      "error": 0.0
+    },
+    {
+      "label": "baseline existing_favorable_operating 2026 debt_B",
+      "calculated": 50.134,
+      "reported": 50.134,
+      "error": 0.0
+    },
+    {
+      "label": "baseline existing_favorable_operating 2030 price_USD",
+      "calculated": 73.56082736404232,
+      "reported": 73.56082736404235,
+      "error": -2.842170943040401e-14
+    },
+    {
+      "label": "baseline existing_favorable_operating 2030 explicit_operating_PV_B",
+      "calculated": 185.6748351007273,
+      "reported": 185.6748351007273,
+      "error": 0.0
+    },
+    {
+      "label": "baseline existing_favorable_operating 2030 terminal_operating_PV_B",
+      "calculated": 183.951444325879,
+      "reported": 183.95144432587907,
+      "error": -5.684341886080802e-14
+    },
+    {
+      "label": "baseline existing_favorable_operating 2030 financing_shield_PV_B",
+      "calculated": 2.748413786579589,
+      "reported": 2.748413786579589,
+      "error": 0.0
+    },
+    {
+      "label": "baseline existing_favorable_operating 2030 cash_B",
+      "calculated": 65.54046556268732,
+      "reported": 65.5404655626873,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "label": "baseline existing_favorable_operating 2030 debt_B",
+      "calculated": 37.097,
+      "reported": 37.097,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2027",
+      "calculated": -10.118799771022797,
+      "reported": -10.118799771022797,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2028",
+      "calculated": 3.7528475956696283,
+      "reported": 3.7528475956696266,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2029",
+      "calculated": 16.428700120646504,
+      "reported": 16.428700120646504,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2030",
+      "calculated": 23.06038961739398,
+      "reported": 23.06038961739398,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2031",
+      "calculated": 23.158020150940924,
+      "reported": 23.158020150940924,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2032",
+      "calculated": 25.611802275103404,
+      "reported": 25.611802275103408,
+      "error": -3.552713678800501e-15
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2033",
+      "calculated": 27.822920302679197,
+      "reported": 27.822920302679197,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2034",
+      "calculated": 30.17333273316758,
+      "reported": 30.173332733167573,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2035",
+      "calculated": 33.038266349975665,
+      "reported": 33.038266349975665,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2036",
+      "calculated": 36.37908916006915,
+      "reported": 36.37908916006915,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2037",
+      "calculated": 38.845093581172726,
+      "reported": 38.845093581172726,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2038",
+      "calculated": 41.27414418943487,
+      "reported": 41.27414418943487,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2039",
+      "calculated": 43.48525338713711,
+      "reported": 43.48525338713711,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2040",
+      "calculated": 45.60121316755497,
+      "reported": 45.60121316755497,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating operating cash 2041",
+      "calculated": 46.96924956258162,
+      "reported": 46.96924956258162,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury cash 2027",
+      "calculated": 34.9570282289772,
+      "reported": 34.9570282289772,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury debt 2027",
+      "calculated": 46.308,
+      "reported": 46.308,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury cash 2028",
+      "calculated": 35.01562582464683,
+      "reported": 35.015625824646825,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "label": "existing_favorable_operating treasury debt 2028",
+      "calculated": 43.135,
+      "reported": 43.135,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury cash 2029",
+      "calculated": 46.683825945293336,
+      "reported": 46.68382594529333,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "label": "existing_favorable_operating treasury debt 2029",
+      "calculated": 39.847,
+      "reported": 39.847,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating treasury cash 2030",
+      "calculated": 65.54046556268732,
+      "reported": 65.5404655626873,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "label": "existing_favorable_operating treasury debt 2030",
+      "calculated": 37.097,
+      "reported": 37.097,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating funded terminal cash",
+      "calculated": 46.96924956258162,
+      "reported": 46.96924956258162,
+      "error": 0.0
+    },
+    {
+      "label": "existing_favorable_operating rate0.10625 growth0.03 tail sum 2026",
+      "calculated": 149.84001282006935,
+      "reported": 149.84001282006918,
+      "error": 1.7053025658242404e-13
+    },
+    {
+      "label": "existing_favorable_operating rate0.10625 flat shield sum 2026",
+      "calculated": 0.794949843492254,
+      "reported": 0.7949498434922536,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "label": "existing_favorable_operating rate0.10625 growth0.03 tail sum 2030",
+      "calculated": 224.40934407717597,
+      "reported": 224.40934407717572,
+      "error": 2.5579538487363607e-13
+    },
+    {
+      "label": "existing_favorable_operating rate0.10625 flat shield sum 2030",
+      "calculated": 1.1905643198694158,
+      "reported": 1.1905643198694154,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "label": "rounded existing_favorable_operating 2026 price_USD",
+      "calculated": 56.1392858455684,
+      "reported": 56.13928584556836,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "label": "rounded existing_favorable_operating 2026 explicit_operating_PV_B",
+      "calculated": 151.0201431794779,
+      "reported": 151.0201431794779,
+      "error": 0.0
+    },
+    {
+      "label": "rounded existing_favorable_operating 2026 terminal_operating_PV_B",
+      "calculated": 149.84001282006935,
+      "reported": 149.84001282006915,
+      "error": 1.9895196601282805e-13
+    },
+    {
+      "label": "rounded existing_favorable_operating 2026 financing_shield_PV_B",
+      "calculated": 2.8391545388524753,
+      "reported": 2.8391545388524753,
+      "error": 0.0
+    },
+    {
+      "label": "rounded existing_favorable_operating 2026 remaining_escrow_PV_B",
+      "calculated": 2.2718375945609504,
+      "reported": 2.2718375945609504,
+      "error": 0.0
+    },
+    {
+      "label": "rounded existing_favorable_operating 2026 remaining_acquisition_PV_B",
+      "calculated": 2.0035111238788343,
+      "reported": 2.0035111238788343,
+      "error": 0.0
+    },
+    {
+      "label": "rounded existing_favorable_operating 2026 terminal_share_of_operating_value",
+      "calculated": 0.49803873936798343,
+      "reported": 0.4980387393679831,
+      "error": 3.3306690738754696e-16
+    },
+    {
+      "label": "rounded existing_favorable_operating 2030 price_USD",
+      "calculated": 82.47015162680009,
+      "reported": 82.47015162680005,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "label": "rounded existing_favorable_operating 2030 explicit_operating_PV_B",
+      "calculated": 194.04844436651882,
+      "reported": 194.04844436651882,
+      "error": 0.0
+    },
+    {
+      "label": "rounded existing_favorable_operating 2030 terminal_operating_PV_B",
+      "calculated": 224.40934407717597,
+      "reported": 224.4093440771757,
+      "error": 2.8421709430404007e-13
+    },
+    {
+      "label": "rounded existing_favorable_operating 2030 financing_shield_PV_B",
+      "calculated": 3.007281457286348,
+      "reported": 3.0072814572863473,
+      "error": 8.881784197001252e-16
+    },
+    {
+      "label": "rounded existing_favorable_operating 2030 remaining_escrow_PV_B",
+      "calculated": 0.0,
+      "reported": 0.0,
+      "error": 0.0
+    },
+    {
+      "label": "rounded existing_favorable_operating 2030 remaining_acquisition_PV_B",
+      "calculated": 0.0,
+      "reported": 0.0,
+      "error": 0.0
+    },
+    {
+      "label": "rounded existing_favorable_operating 2030 terminal_share_of_operating_value",
+      "calculated": 0.5362771354114041,
+      "reported": 0.5362771354114036,
+      "error": 4.440892098500626e-16
+    },
+    {
+      "label": "rounded existing_favorable_operating planning_value_USD",
+      "calculated": 56.1392858455684,
+      "reported": 56.13928584556836,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "label": "rounded existing_favorable_operating target2030_USD",
+      "calculated": 82.47015162680009,
+      "reported": 82.47015162680005,
+      "error": 4.263256414560601e-14
+    },
+    {
+      "label": "rounded existing_favorable_operating annual_price_return",
+      "calculated": 0.11615212704256206,
+      "reported": 0.11615212704256206,
+      "error": 0.0
+    },
+    {
+      "label": "rounded existing_favorable_operating entry_ceiling_for10pct_price_return_USD",
+      "calculated": 55.51108815369129,
+      "reported": 55.51108815369126,
+      "error": 2.842170943040401e-14
+    },
+    {
+      "label": "selected_operating operating cash 2027",
+      "calculated": -11.06075101882357,
+      "reported": -11.06075101882357,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2028",
+      "calculated": 1.8845297516036101,
+      "reported": 1.8845297516036101,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2029",
+      "calculated": 12.918990039403996,
+      "reported": 12.918990039403996,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2030",
+      "calculated": 18.293928968001957,
+      "reported": 18.293928968001957,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2031",
+      "calculated": 21.609219084778847,
+      "reported": 21.609219084778847,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2032",
+      "calculated": 22.300911691871132,
+      "reported": 22.300911691871132,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2033",
+      "calculated": 22.70981425074883,
+      "reported": 22.70981425074883,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2034",
+      "calculated": 23.253155331531584,
+      "reported": 23.253155331531584,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2035",
+      "calculated": 24.347957103550957,
+      "reported": 24.347957103550957,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2036",
+      "calculated": 25.89212495809683,
+      "reported": 25.89212495809683,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2037",
+      "calculated": 27.14869370560451,
+      "reported": 27.14869370560451,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2038",
+      "calculated": 28.440506205400535,
+      "reported": 28.440506205400535,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2039",
+      "calculated": 29.60725095340362,
+      "reported": 29.60725095340363,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "selected_operating operating cash 2040",
+      "calculated": 30.80103608762744,
+      "reported": 30.80103608762744,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2041",
+      "calculated": 32.651158966014755,
+      "reported": 32.65115896601476,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "selected_operating treasury cash 2027",
+      "calculated": 33.86224898117643,
+      "reported": 33.86224898117643,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2027",
+      "calculated": 46.308,
+      "reported": 46.308,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2028",
+      "calculated": 32.05252873278004,
+      "reported": 32.05252873278004,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2028",
+      "calculated": 43.135,
+      "reported": 43.135,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2029",
+      "calculated": 40.21101877218403,
+      "reported": 40.21101877218403,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2029",
+      "calculated": 39.847,
+      "reported": 39.847,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2030",
+      "calculated": 54.30119774018599,
+      "reported": 54.30119774018599,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2030",
+      "calculated": 37.097,
+      "reported": 37.097,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating rate0.11555 growth0.02 tail sum 2026",
+      "calculated": 77.72610156167727,
+      "reported": 77.7261015616773,
+      "error": -2.842170943040401e-14
+    },
+    {
+      "label": "selected_operating rate0.11555 flat shield sum 2026",
+      "calculated": 0.6501268780670463,
+      "reported": 0.6501268780670465,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "label": "selected_operating rate0.11555 growth0.02 tail sum 2030",
+      "calculated": 120.37132688756913,
+      "reported": 120.37132688756915,
+      "error": -2.842170943040401e-14
+    },
+    {
+      "label": "selected_operating rate0.11555 flat shield sum 2030",
+      "calculated": 1.006825678708522,
+      "reported": 1.0068256787085221,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "label": "funded growth 0.02 planning_value_USD",
+      "calculated": 34.52520672867344,
+      "reported": 34.52520672867345,
+      "error": -1.4210854715202004e-14
+    },
+    {
+      "label": "funded growth 0.02 target2030_USD",
+      "calculated": 52.06737120610326,
+      "reported": 52.06737120610326,
+      "error": 0.0
+    },
+    {
+      "label": "funded growth 0.02 annual_price_return",
+      "calculated": -0.0008426838079705901,
+      "reported": -0.0008426838079705901,
+      "error": 0.0
+    },
+    {
+      "label": "funded growth 0.02 terminal cash",
+      "calculated": 34.327655626876854,
+      "reported": 34.327655626876854,
+      "error": 0.0
+    },
+    {
+      "label": "funded growth 0.02 funding",
+      "calculated": 4.10660630069623,
+      "reported": 4.10660630069623,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2027",
+      "calculated": -11.06075101882357,
+      "reported": -11.06075101882357,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2028",
+      "calculated": 1.8845297516036101,
+      "reported": 1.8845297516036101,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2029",
+      "calculated": 12.918990039403996,
+      "reported": 12.918990039403996,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2030",
+      "calculated": 18.293928968001957,
+      "reported": 18.293928968001957,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2031",
+      "calculated": 21.609219084778847,
+      "reported": 21.609219084778847,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2032",
+      "calculated": 22.300911691871132,
+      "reported": 22.300911691871132,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2033",
+      "calculated": 22.70981425074883,
+      "reported": 22.70981425074883,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2034",
+      "calculated": 23.253155331531584,
+      "reported": 23.253155331531584,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2035",
+      "calculated": 24.347957103550957,
+      "reported": 24.347957103550957,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2036",
+      "calculated": 25.89212495809683,
+      "reported": 25.89212495809683,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2037",
+      "calculated": 27.14869370560451,
+      "reported": 27.14869370560451,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2038",
+      "calculated": 28.440506205400535,
+      "reported": 28.440506205400535,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2039",
+      "calculated": 29.60725095340362,
+      "reported": 29.60725095340363,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "selected_operating operating cash 2040",
+      "calculated": 30.80103608762744,
+      "reported": 30.80103608762744,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating operating cash 2041",
+      "calculated": 32.651158966014755,
+      "reported": 32.65115896601476,
+      "error": -7.105427357601002e-15
+    },
+    {
+      "label": "selected_operating treasury cash 2027",
+      "calculated": 33.86224898117643,
+      "reported": 33.86224898117643,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2027",
+      "calculated": 46.308,
+      "reported": 46.308,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2028",
+      "calculated": 32.05252873278004,
+      "reported": 32.05252873278004,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2028",
+      "calculated": 43.135,
+      "reported": 43.135,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2029",
+      "calculated": 40.21101877218403,
+      "reported": 40.21101877218403,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2029",
+      "calculated": 39.847,
+      "reported": 39.847,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury cash 2030",
+      "calculated": 54.30119774018599,
+      "reported": 54.30119774018599,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating treasury debt 2030",
+      "calculated": 37.097,
+      "reported": 37.097,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating rate0.11555 growth0.04 tail sum 2026",
+      "calculated": 88.70039298936378,
+      "reported": 88.70039298936378,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating rate0.11555 flat shield sum 2026",
+      "calculated": 0.6501268780670463,
+      "reported": 0.6501268780670465,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "label": "selected_operating rate0.11555 growth0.04 tail sum 2030",
+      "calculated": 137.36677621874736,
+      "reported": 137.36677621874736,
+      "error": 0.0
+    },
+    {
+      "label": "selected_operating rate0.11555 flat shield sum 2030",
+      "calculated": 1.006825678708522,
+      "reported": 1.0068256787085221,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "label": "funded growth 0.04 planning_value_USD",
+      "calculated": 36.51691116201038,
+      "reported": 36.51691116201038,
+      "error": 0.0
+    },
+    {
+      "label": "funded growth 0.04 target2030_USD",
+      "calculated": 55.15184476893054,
+      "reported": 55.15184476893052,
+      "error": 1.4210854715202004e-14
+    },
+    {
+      "label": "funded growth 0.04 annual_price_return",
+      "calculated": 0.013098807325367057,
+      "reported": 0.013098807325367057,
+      "error": 0.0
+    },
+    {
+      "label": "funded growth 0.04 terminal cash",
+      "calculated": 30.974662305152638,
+      "reported": 30.974662305152638,
+      "error": 0.0
+    },
+    {
+      "label": "funded growth 0.04 funding",
+      "calculated": 8.21321260139246,
+      "reported": 8.21321260139246,
+      "error": 0.0
+    }
+  ],
+  "limits": [
+    "Treasury income and financing paths remain supplied assumptions; sensitivity does not reprice borrowing or cash yields.",
+    "A November entry quote is not directly comparable to a December planning value without a date bridge.",
+    "The1000-year numerical tail is only a cross-check of the modeled perpetuity, not evidence the business persists that long."
+  ]
+}

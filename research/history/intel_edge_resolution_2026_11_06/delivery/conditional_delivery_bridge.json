@@ -1,0 +1,91 @@
+{
+  "calculated_utc": "2026-11-06T06:14:21.648495+00:00",
+  "policy": "research_policy.json",
+  "classification": "Analyst requirements and sensitivity arithmetic; not an estimate of production or observed shipments.",
+  "fixed_inputs_B": {
+    "Q4_2026_analyst_CPU_revenue": 6.5257,
+    "FY2027_analyst_CPU_target": 31.475088,
+    "flat_H1_2027_quarterly_revenue": 6.5257
+  },
+  "revenue_hurdle": {
+    "H2_quarterly_CPU_revenue_B": 9.211844,
+    "H2_revenue_vs_H1_growth": 0.41162541949522646,
+    "FY27_vs_Q4_annualized_growth": 0.20581270974761323
+  },
+  "H2_sequential_units_vs_ASP_requirements": [
+    {
+      "assumed_H2_ASP_vs_H1": 0,
+      "required_H2_quarterly_units_vs_H1": 0.41162541949522646
+    },
+    {
+      "assumed_H2_ASP_vs_H1": 0.05,
+      "required_H2_quarterly_units_vs_H1": 0.3444051614240251
+    },
+    {
+      "assumed_H2_ASP_vs_H1": 0.1,
+      "required_H2_quarterly_units_vs_H1": 0.28329583590475127
+    },
+    {
+      "assumed_H2_ASP_vs_H1": 0.15,
+      "required_H2_quarterly_units_vs_H1": 0.22750036477845792
+    },
+    {
+      "assumed_H2_ASP_vs_H1": 0.2,
+      "required_H2_quarterly_units_vs_H1": 0.17635451624602205
+    }
+  ],
+  "family_mix_requirements": {
+    "equation": "U27/U26=f*r*c+(1-f)*(1+l)",
+    "interpretation": "f is 2026 finished CPU unit share associated with Ireland; r is comparable good-silicon output ratio; c is conversion to shippable CPUs after mix/allocation/yield/packaging/test/acceptance; l is other-family unit growth.",
+    "critical_boundary": "CFO did not define output this way. r=2 is an illustrative translation of his target, not verified calendar output or finished units.",
+    "cases": [
+      {
+        "illustrative_r": 2,
+        "illustrative_c": 1,
+        "assumed_legacy_growth": 0,
+        "required_2026_unit_share_f": 0.19999999999999996
+      },
+      {
+        "illustrative_r": 2,
+        "illustrative_c": 1,
+        "assumed_legacy_growth": -0.1,
+        "required_2026_unit_share_f": 0.27272727272727265
+      },
+      {
+        "illustrative_r": 2,
+        "illustrative_c": 1,
+        "assumed_legacy_growth": -0.2,
+        "required_2026_unit_share_f": 0.33333333333333326
+      },
+      {
+        "illustrative_r": 2,
+        "illustrative_c": 1,
+        "assumed_legacy_growth": -0.3,
+        "required_2026_unit_share_f": 0.3846153846153846
+      },
+      {
+        "illustrative_r": 2,
+        "illustrative_c": 0.9,
+        "assumed_legacy_growth": 0,
+        "required_2026_unit_share_f": 0.24999999999999994
+      },
+      {
+        "illustrative_r": 2,
+        "illustrative_c": 0.8,
+        "assumed_legacy_growth": 0,
+        "required_2026_unit_share_f": 0.3333333333333332
+      }
+    ]
+  },
+  "2030_over_2026_forecast": {
+    "unit_factor": 1.9824000000000002,
+    "ASP_factor": 1.3747968000000002,
+    "2028_2030_unit_CAGR": 0.1821429983992222
+  },
+  "non_identification": [
+    "Annual ASP+20% is not H2/H1 ASP+20%.",
+    "Revenue-largest family is not unit-largest or a disclosed unit share.",
+    "Ireland output, 40% substrate capacity and finished Xeon unit growth have different denominators; do not take their minimum or product.",
+    "Revenue/allocation proxies use rounded source disclosures and are not Intel unit shipment counts."
+  ]
+}

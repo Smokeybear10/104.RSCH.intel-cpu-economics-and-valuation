@@ -1,0 +1,216 @@
+{
+  "method": "beta_L / [1+(1-.25)*D/E] / [1-C/(E+D)]",
+  "scope": "Illustrative current-capital-structure correction to vendor 5Y equity betas. Not matched historical leverage or a calibrated Intel operating beta.",
+  "rows": [
+    {
+      "symbol": "INTC",
+      "url": "https://stockanalysis.com/stocks/intc/statistics/",
+      "fields": {
+        "Market Cap": "309.76B",
+        "Enterprise Value": "305.58B",
+        "Weighted Average Cost of Capital (WACC)": "15.39%",
+        "Effective Tax Rate": "n/a",
+        "Beta (5Y)": "2.43",
+        "Cash & Cash Equivalents": "54.01B",
+        "Total Debt": "50.13B",
+        "Net Cash": "4.18B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.16183496900826447,
+        "cash_fraction_E_plus_D": 0.1500736336102698,
+        "beta_unlevered_common25pct_tax": 2.16698012854192,
+        "cash_corrected_beta_common25pct_tax": 2.549609253501215,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": -0.30000000000000426
+      }
+    },
+    {
+      "symbol": "TSM",
+      "url": "https://stockanalysis.com/stocks/tsm/statistics/",
+      "fields": {
+        "Market Cap": "1.74T",
+        "Enterprise Value": "1.64T",
+        "Weighted Average Cost of Capital (WACC)": "10.92%",
+        "Effective Tax Rate": "17.22%",
+        "Beta (5Y)": "1.24",
+        "Cash & Cash Equivalents": "126.04B",
+        "Total Debt": "25.68B",
+        "Net Cash": "100.36B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.014758620689655172,
+        "cash_fraction_E_plus_D": 0.07138326310543247,
+        "beta_unlevered_common25pct_tax": 1.2264247467685276,
+        "cash_corrected_beta_common25pct_tax": 1.3207006701923922,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": 1.4210854715202004e-14
+      }
+    },
+    {
+      "symbol": "GFS",
+      "url": "https://stockanalysis.com/stocks/gfs/statistics/",
+      "fields": {
+        "Market Cap": "22.15B",
+        "Enterprise Value": "20.60B",
+        "Weighted Average Cost of Capital (WACC)": "13.07%",
+        "Effective Tax Rate": "55.82%",
+        "Beta (5Y)": "1.76",
+        "Cash & Cash Equivalents": "2.26B",
+        "Total Debt": "1.66B",
+        "Net Cash": "1.55B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.07494356659142212,
+        "cash_fraction_E_plus_D": 0.09491810163796724,
+        "beta_unlevered_common25pct_tax": 1.6663389613165207,
+        "cash_corrected_beta_common25pct_tax": 1.8410919103919423,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": -0.9500000000000002
+      }
+    },
+    {
+      "symbol": "TXN",
+      "url": "https://stockanalysis.com/stocks/txn/statistics/",
+      "fields": {
+        "Market Cap": "284.87B",
+        "Enterprise Value": "290.28B",
+        "Weighted Average Cost of Capital (WACC)": "11.51%",
+        "Effective Tax Rate": "12.50%",
+        "Beta (5Y)": "1.39",
+        "Cash & Cash Equivalents": "8.14B",
+        "Total Debt": "13.56B",
+        "Net Cash": "-5.41B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.0476006599501527,
+        "cash_fraction_E_plus_D": 0.02727607814227792,
+        "beta_unlevered_common25pct_tax": 1.3420868356832971,
+        "cash_corrected_beta_common25pct_tax": 1.379720191439479,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": -0.009999999999999787
+      }
+    },
+    {
+      "symbol": "AMD",
+      "url": "https://stockanalysis.com/stocks/amd/statistics/",
+      "fields": {
+        "Market Cap": "797.99B",
+        "Enterprise Value": "789.15B",
+        "Weighted Average Cost of Capital (WACC)": "18.15%",
+        "Effective Tax Rate": "14.51%",
+        "Beta (5Y)": "2.54",
+        "Cash & Cash Equivalents": "13.11B",
+        "Total Debt": "4.28B",
+        "Net Cash": "8.84B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.005363475732778606,
+        "cash_fraction_E_plus_D": 0.016341132037842623,
+        "beta_unlevered_common25pct_tax": 2.5298235147279082,
+        "cash_corrected_beta_common25pct_tax": 2.571850462720816,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": -0.010000000000001563
+      }
+    },
+    {
+      "symbol": "UMC",
+      "url": "https://stockanalysis.com/stocks/umc/statistics/",
+      "fields": {
+        "Market Cap": "39.40B",
+        "Enterprise Value": "37.21B",
+        "Weighted Average Cost of Capital (WACC)": "12.93%",
+        "Effective Tax Rate": "12.87%",
+        "Beta (5Y)": "1.71",
+        "Cash & Cash Equivalents": "4.76B",
+        "Total Debt": "2.50B",
+        "Net Cash": "2.26B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.06345177664974619,
+        "cash_fraction_E_plus_D": 0.11360381861575179,
+        "beta_unlevered_common25pct_tax": 1.6323198061780737,
+        "cash_corrected_beta_common25pct_tax": 1.8415239601201208,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": 0.0
+      }
+    },
+    {
+      "symbol": "STM",
+      "url": "https://stockanalysis.com/stocks/stm/statistics/",
+      "fields": {
+        "Market Cap": "41.02B",
+        "Enterprise Value": "39.35B",
+        "Weighted Average Cost of Capital (WACC)": "11.59%",
+        "Effective Tax Rate": "33.95%",
+        "Beta (5Y)": "1.48",
+        "Cash & Cash Equivalents": "5.31B",
+        "Total Debt": "3.21B",
+        "Net Cash": "2.11B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.07825450999512432,
+        "cash_fraction_E_plus_D": 0.12005426181324891,
+        "beta_unlevered_common25pct_tax": 1.3979529100224513,
+        "cash_corrected_beta_common25pct_tax": 1.5886808121863571,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": -0.010000000000000231
+      }
+    },
+    {
+      "symbol": "ON",
+      "url": "https://stockanalysis.com/stocks/on/statistics/",
+      "fields": {
+        "Market Cap": "27.75B",
+        "Enterprise Value": "28.09B",
+        "Weighted Average Cost of Capital (WACC)": "13.88%",
+        "Effective Tax Rate": "18.03%",
+        "Beta (5Y)": "2.15",
+        "Cash & Cash Equivalents": "4.37B",
+        "Total Debt": "4.71B",
+        "Net Cash": "-340.10M"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.16972972972972972,
+        "cash_fraction_E_plus_D": 0.1346272335181762,
+        "beta_unlevered_common25pct_tax": 1.907216494845361,
+        "cash_corrected_beta_common25pct_tax": 2.2039247925482526,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": 0.00010000000000015552
+      }
+    },
+    {
+      "symbol": "ADI",
+      "url": "https://stockanalysis.com/stocks/adi/statistics/",
+      "fields": {
+        "Market Cap": "195.75B",
+        "Enterprise Value": "202.59B",
+        "Weighted Average Cost of Capital (WACC)": "10.68%",
+        "Effective Tax Rate": "12.09%",
+        "Beta (5Y)": "1.23",
+        "Cash & Cash Equivalents": "2.32B",
+        "Total Debt": "9.16B",
+        "Net Cash": "-6.84B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.04679438058748404,
+        "cash_fraction_E_plus_D": 0.011322043824117905,
+        "beta_unlevered_common25pct_tax": 1.188295824696476,
+        "cash_corrected_beta_common25pct_tax": 1.2019038325611082,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": 0.0
+      }
+    },
+    {
+      "symbol": "MCHP",
+      "url": "https://stockanalysis.com/stocks/mchp/statistics/",
+      "fields": {
+        "Market Cap": "40.38B",
+        "Enterprise Value": "45.50B",
+        "Weighted Average Cost of Capital (WACC)": "12.70%",
+        "Effective Tax Rate": "17.40%",
+        "Beta (5Y)": "1.76",
+        "Cash & Cash Equivalents": "272.30M",
+        "Total Debt": "5.40B",
+        "Net Cash": "-5.13B"
+      },
+      "derived": {
+        "debt_to_market_equity": 0.1337295690936107,
+        "cash_fraction_E_plus_D": 0.005948012232415903,
+        "beta_unlevered_common25pct_tax": 1.599567859554355,
+        "cash_corrected_beta_common25pct_tax": 1.6091390382374493,
+        "reconciliation_cash_minus_debt_minus_vendor_net_cash_B": 0.0022999999999999687
+      }
+    }
+  ]
+}

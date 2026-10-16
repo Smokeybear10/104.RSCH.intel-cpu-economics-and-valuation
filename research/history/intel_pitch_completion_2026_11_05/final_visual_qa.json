@@ -1,0 +1,34 @@
+{
+  "pdf_checks": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+      "sha256": "d11462d41b631287a0e5bef71cd37e144601d99c9e23c2b7f42487cf63eb2809",
+      "pages": 10,
+      "characters_outside_page_bounds": []
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_defense_notes.pdf",
+      "sha256": "bd4c827be7dcac8628bb207b243b11f029be2258f34094ffb7b51899b252a14f",
+      "pages": 2,
+      "characters_outside_page_bounds": []
+    }
+  ],
+  "all_pages_rendered_and_visually_inspected": true,
+  "final_changed_page_reinspected": 8,
+  "final_unchanged_pages_pixel_identical_to_inspected_render": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "defense_pages_pixel_identical_to_inspected_render": [
+    1,
+    2
+  ],
+  "layout_defects_observed": false
+}

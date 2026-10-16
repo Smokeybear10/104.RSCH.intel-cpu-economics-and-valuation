@@ -1,0 +1,1913 @@
+{
+  "reviewed_utc": "2026-11-05T19:58:07.232742+00:00",
+  "status": "PASS",
+  "independence": "Root calculation code was not read or imported. Used child operating rows frozen before root valuation; independently rebuilt ordinary taxes, AMIC basis and lagged collections, annual operating cash, cumulative retained cash, full APV and entry returns. Root output read only as comparison target.",
+  "sources": {
+    "root_results": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_valuation.json",
+      "sha256": "579bbd0ffd1091ce40c8a5d9fd078cf4815129771e9ca7a710d84fa44ddbc271"
+    },
+    "independent_operating_rows": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_operating_rows.json",
+      "sha256": "4d467448544fdd37665b83b972125958f86173d10ce13bb40df0aaa2604ade8c"
+    },
+    "policy": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_thesis_repair_2026_11_05/cpu_anchor_policy.json",
+      "sha256": "ec87a06ba18c081ebd6209b7338879a801fbcaa3c53cdf8fda45a32dbd610ddf"
+    },
+    "frozen_model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "rates": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    },
+    "tax": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_competition_screen_2026_11_04/root_corporate_tax_credit_valuation_policy.json",
+      "sha256": "56b6a542e53ac6a239b7a2a89752420c0022218f132f499e50334fc04c9c8031"
+    }
+  },
+  "checks": {
+    "endpoint_risk_scenario_comparisons": 42,
+    "scalar_valuation_fields_compared": 210,
+    "annual_field_comparisons": 1295,
+    "entry_metric_comparisons": 504,
+    "maximum_price_difference_USD": 2.842170943040401e-14,
+    "maximum_valuation_field_difference": 1.7053025658242404e-13,
+    "maximum_annual_field_difference": 2.842170943040401e-14,
+    "maximum_entry_metric_difference": 6.394884621840902e-14,
+    "minimum_modeled_economic_cash_B": 31.60247272026716,
+    "all_terminal_cash_growth_3pct": true,
+    "all_financing_tax_benefits_within_positive_operating_tax": true,
+    "source_files_unchanged": true
+  },
+  "valuation_comparisons": [
+    {
+      "branch": "unchanged",
+      "initial_contribution": 0.5,
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "price_USD": 46.95806228358314,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "unchanged",
+      "initial_contribution": 0.5,
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 53.77047718436612,
+      "field_differences": {
+        "price_USD": -7.105427357601002e-15,
+        "operating_PV_B": -5.684341886080802e-14,
+        "tax_benefit_PV_B": -4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "unchanged",
+      "initial_contribution": 0.5,
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "price_USD": 64.1458230460918,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "unchanged",
+      "initial_contribution": 0.5,
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 73.6031458261561,
+      "field_differences": {
+        "price_USD": -1.4210854715202004e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -8.881784197001252e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "unchanged",
+      "initial_contribution": 0.5,
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "price_USD": 70.97777530967525,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "unchanged",
+      "initial_contribution": 0.5,
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 81.52789173697595,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 5.684341886080802e-14,
+        "tax_benefit_PV_B": 8.881784197001252e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.35,
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "price_USD": 46.74998241112432,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.35,
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 53.5623973119073,
+      "field_differences": {
+        "price_USD": -2.1316282072803006e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.35,
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "price_USD": 63.89485008075605,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": -7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.35,
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 73.35217286082033,
+      "field_differences": {
+        "price_USD": -1.4210854715202004e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -8.881784197001252e-16,
+        "ending_economic_cash_B": -7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.35,
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "price_USD": 70.72680234433949,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.35,
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 81.2769187716402,
+      "field_differences": {
+        "price_USD": 1.4210854715202004e-14,
+        "operating_PV_B": 5.684341886080802e-14,
+        "tax_benefit_PV_B": 8.881784197001252e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.5,
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "price_USD": 46.6575884222187,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": -2.842170943040401e-14,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.5,
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 53.47000332300167,
+      "field_differences": {
+        "price_USD": -2.1316282072803006e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.5,
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "price_USD": 63.7872902384693,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": -7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.5,
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 73.24461301853358,
+      "field_differences": {
+        "price_USD": -1.4210854715202004e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -8.881784197001252e-16,
+        "ending_economic_cash_B": -7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.5,
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "price_USD": 70.61924250205274,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 4.440892098500626e-16,
+        "ending_economic_cash_B": -7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.5,
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 81.16935892935345,
+      "field_differences": {
+        "price_USD": 1.4210854715202004e-14,
+        "operating_PV_B": 5.684341886080802e-14,
+        "tax_benefit_PV_B": 8.881784197001252e-16,
+        "ending_economic_cash_B": -7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.65,
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "price_USD": 46.56519443331309,
+      "field_differences": {
+        "price_USD": -7.105427357601002e-15,
+        "operating_PV_B": -2.842170943040401e-14,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.65,
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 53.37760933409607,
+      "field_differences": {
+        "price_USD": -2.1316282072803006e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.65,
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "price_USD": 63.67973039618254,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.65,
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 73.13705317624682,
+      "field_differences": {
+        "price_USD": -2.842170943040401e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -8.881784197001252e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.65,
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "price_USD": 70.51168265976598,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.65,
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 81.06179908706669,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 5.684341886080802e-14,
+        "tax_benefit_PV_B": 8.881784197001252e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.35,
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "price_USD": 44.40248608307161,
+      "field_differences": {
+        "price_USD": -7.105427357601002e-15,
+        "operating_PV_B": -2.842170943040401e-14,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.35,
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 50.84108499355346,
+      "field_differences": {
+        "price_USD": -7.105427357601002e-15,
+        "operating_PV_B": -5.684341886080802e-14,
+        "tax_benefit_PV_B": -4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.35,
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "price_USD": 60.6437007989311,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.35,
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 69.58207420023383,
+      "field_differences": {
+        "price_USD": -2.842170943040401e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -8.881784197001252e-16,
+        "ending_economic_cash_B": 7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.35,
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "price_USD": 67.10837683100915,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 4.440892098500626e-16,
+        "ending_economic_cash_B": 2.1316282072803006e-14,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.35,
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 77.07957927883243,
+      "field_differences": {
+        "price_USD": 1.4210854715202004e-14,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 8.881784197001252e-16,
+        "ending_economic_cash_B": 2.1316282072803006e-14,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.5,
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "price_USD": 43.810158246227374,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.5,
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 50.24459505472234,
+      "field_differences": {
+        "price_USD": -2.1316282072803006e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.5,
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "price_USD": 59.84711720401483,
+      "field_differences": {
+        "price_USD": 0.0,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.5,
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 68.7797125746916,
+      "field_differences": {
+        "price_USD": -2.842170943040401e-14,
+        "operating_PV_B": -1.7053025658242404e-13,
+        "tax_benefit_PV_B": -8.881784197001252e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.5,
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "price_USD": 66.2494779592479,
+      "field_differences": {
+        "price_USD": 1.4210854715202004e-14,
+        "operating_PV_B": 5.684341886080802e-14,
+        "tax_benefit_PV_B": 4.440892098500626e-16,
+        "ending_economic_cash_B": 2.1316282072803006e-14,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.5,
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 76.21423472500639,
+      "field_differences": {
+        "price_USD": 1.4210854715202004e-14,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 8.881784197001252e-16,
+        "ending_economic_cash_B": 2.1316282072803006e-14,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.65,
+      "endpoint": 2026,
+      "risk": "corrected_central_flat",
+      "price_USD": 43.21783040938313,
+      "field_differences": {
+        "price_USD": -1.4210854715202004e-14,
+        "operating_PV_B": -2.842170943040401e-14,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.65,
+      "endpoint": 2026,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 49.64810511589123,
+      "field_differences": {
+        "price_USD": -2.1316282072803006e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -4.440892098500626e-16,
+        "ending_economic_cash_B": 0.0,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.65,
+      "endpoint": 2029,
+      "risk": "corrected_central_flat",
+      "price_USD": 59.05053360909854,
+      "field_differences": {
+        "price_USD": -1.4210854715202004e-14,
+        "operating_PV_B": -5.684341886080802e-14,
+        "tax_benefit_PV_B": 0.0,
+        "ending_economic_cash_B": 7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.65,
+      "endpoint": 2029,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 67.97735094914938,
+      "field_differences": {
+        "price_USD": -1.4210854715202004e-14,
+        "operating_PV_B": -1.1368683772161603e-13,
+        "tax_benefit_PV_B": -8.881784197001252e-16,
+        "ending_economic_cash_B": 7.105427357601002e-15,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.65,
+      "endpoint": 2030,
+      "risk": "corrected_central_flat",
+      "price_USD": 65.39057908748666,
+      "field_differences": {
+        "price_USD": 1.4210854715202004e-14,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 4.440892098500626e-16,
+        "ending_economic_cash_B": 2.1316282072803006e-14,
+        "debt_B": 0.0
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.65,
+      "endpoint": 2030,
+      "risk": "corrected_maturing_risk",
+      "price_USD": 75.34889017118036,
+      "field_differences": {
+        "price_USD": 1.4210854715202004e-14,
+        "operating_PV_B": 0.0,
+        "tax_benefit_PV_B": 8.881784197001252e-16,
+        "ending_economic_cash_B": 2.1316282072803006e-14,
+        "debt_B": 0.0
+      }
+    }
+  ],
+  "finite_credit_checks_at50pct": [
+    {
+      "year": 2029,
+      "CPU_revenue_B": 47.547864000000004,
+      "CPU_revenue_delta_B": -4.597543791360005,
+      "physical_capex_delta_B": -1.0441079894016008,
+      "DA_delta_B": -0.06525674933760005,
+      "WC_delta_B": -0.08511749913600007,
+      "EBIT_delta_B": -2.2335151463424023,
+      "ordinary_tax_delta_B": -0.3350272719513603,
+      "eligible_basis_delta_B": -0.4176431957606403,
+      "credit_receipt_delta_B": 0.0,
+      "basis_loss_tax_delta_B": -0.030696774888407056,
+      "parent_unlevered_cash_B": 15.772722789802017,
+      "cash_delta_B": -0.8038223603026253,
+      "ending_economic_cash_B": 43.446181252069174
+    },
+    {
+      "year": 2030,
+      "CPU_revenue_B": 54.31867983360001,
+      "CPU_revenue_delta_B": -5.25223402724967,
+      "physical_capex_delta_B": -0.9423010879448687,
+      "DA_delta_B": -0.1894073166717544,
+      "WC_delta_B": -0.06546902358896647,
+      "EBIT_delta_B": -2.4367096969530806,
+      "ordinary_tax_delta_B": -0.36550645454296227,
+      "eligible_basis_delta_B": -0.2599451277089293,
+      "credit_receipt_delta_B": -0.14617511851622408,
+      "basis_loss_tax_delta_B": -0.019105966886606304,
+      "parent_unlevered_cash_B": 21.955965173289705,
+      "cash_delta_B": -1.379909599177644,
+      "ending_economic_cash_B": 61.198396425358894
+    },
+    {
+      "year": 2031,
+      "CPU_revenue_B": 59.837457704693776,
+      "CPU_revenue_delta_B": -5.785861004418237,
+      "physical_capex_delta_B": -1.6840553095612263,
+      "DA_delta_B": -1.0703842858173738,
+      "WC_delta_B": -0.053362697716856734,
+      "EBIT_delta_B": -2.806142587142845,
+      "ordinary_tax_delta_B": -0.43775824359428395,
+      "eligible_basis_delta_B": 0.0,
+      "credit_receipt_delta_B": -0.09098079469812526,
+      "basis_loss_tax_delta_B": 0.0,
+      "parent_unlevered_cash_B": 21.337587774738143,
+      "cash_delta_B": -1.7923314167859736,
+      "ending_economic_cash_B": 81.67387106409703
+    }
+  ],
+  "independent_results": [
+    {
+      "branch": "unchanged",
+      "initial_contribution": 0.5,
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 46.95806228358314,
+            "operating_PV_B": 249.46843232554565,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 53.77047718436612,
+            "operating_PV_B": 286.82097436545615,
+            "tax_benefit_PV_B": 2.7728181513988184,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 64.1458230460918,
+            "operating_PV_B": 338.1972052327185,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 46.64698587237181,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.030845585008524745,
+                "short_price_PnL_per100": -10.064898843671594,
+                "short_net_proceeds_yield_breakeven": 0.030845585008524745,
+                "short_PnL_per100_after3pct_net_proceeds": -0.28475238414947235
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.05797389315956214,
+                "short_price_PnL_per100": -19.452184443373934,
+                "short_net_proceeds_yield_breakeven": 0.05797389315956214,
+                "short_PnL_per100_after3pct_net_proceeds": -9.680921867052362
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.05253553172923975,
+                "short_price_PnL_per100": -17.526242297713097,
+                "short_net_proceeds_yield_breakeven": 0.05253553172923975,
+                "short_PnL_per100_after3pct_net_proceeds": -7.754979721391525
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 73.6031458261561,
+            "operating_PV_B": 390.05180479428566,
+            "tax_benefit_PV_B": 2.9845428354625527,
+            "ending_economic_cash_B": 46.64698587237181,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.0767487771435651,
+                "short_price_PnL_per100": -26.292288651606196,
+                "short_net_proceeds_yield_breakeven": 0.0767487771435651,
+                "short_PnL_per100_after3pct_net_proceeds": -16.512142192084074
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.1051268925718889,
+                "short_price_PnL_per100": -37.0635862684471,
+                "short_net_proceeds_yield_breakeven": 0.1051268925718889,
+                "short_PnL_per100_after3pct_net_proceeds": -27.292323692125525
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.09944614798354534,
+                "short_price_PnL_per100": -34.85369334216947,
+                "short_net_proceeds_yield_breakeven": 0.09944614798354534,
+                "short_PnL_per100_after3pct_net_proceeds": -25.0824307658479
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 70.97777530967525,
+            "operating_PV_B": 353.9400175248918,
+            "tax_benefit_PV_B": 2.7484137865795892,
+            "ending_economic_cash_B": 65.77911064483916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.048569270281402455,
+                "short_price_PnL_per100": -21.78753484844758,
+                "short_net_proceeds_yield_breakeven": 0.048569270281402455,
+                "short_PnL_per100_after3pct_net_proceeds": -8.716271664488145
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06947091936473204,
+                "short_price_PnL_per100": -32.17462813719786,
+                "short_net_proceeds_yield_breakeven": 0.06947091936473204,
+                "short_PnL_per100_after3pct_net_proceeds": -19.112515167806908
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06529359641684418,
+                "short_price_PnL_per100": -30.043560479434323,
+                "short_net_proceeds_yield_breakeven": 0.06529359641684418,
+                "short_PnL_per100_after3pct_net_proceeds": -16.981447510043374
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 81.52789173697595,
+            "operating_PV_B": 411.78641606579805,
+            "tax_benefit_PV_B": 3.033156760100251,
+            "ending_economic_cash_B": 65.77911064483916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.08412189724188424,
+                "short_price_PnL_per100": -39.88999954868899,
+                "short_net_proceeds_yield_breakeven": 0.08412189724188424,
+                "short_PnL_per100_after3pct_net_proceeds": -26.818736364729553
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10575653869558166,
+                "short_price_PnL_per100": -51.82102744315818,
+                "short_net_proceeds_yield_breakeven": 0.10575653869558166,
+                "short_PnL_per100_after3pct_net_proceeds": -38.758914473767234
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10143748515215867,
+                "short_price_PnL_per100": -49.37319849207759,
+                "short_net_proceeds_yield_breakeven": 0.10143748515215867,
+                "short_PnL_per100_after3pct_net_proceeds": -36.31108552268664
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.35,
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 46.74998241112432,
+            "operating_PV_B": 248.32191222829752,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 53.5623973119073,
+            "operating_PV_B": 285.674454268208,
+            "tax_benefit_PV_B": 2.7728181513988184,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 63.89485008075605,
+            "operating_PV_B": 338.1972052327185,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 45.2641248333718,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.029566220081585826,
+                "short_price_PnL_per100": -9.63426575284154,
+                "short_net_proceeds_yield_breakeven": 0.029566220081585826,
+                "short_PnL_per100_after3pct_net_proceeds": 0.1458807066805825
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.0566597206729158,
+                "short_price_PnL_per100": -18.984823241631375,
+                "short_net_proceeds_yield_breakeven": 0.0566597206729158,
+                "short_PnL_per100_after3pct_net_proceeds": -9.213560665309803
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.051228114555754045,
+                "short_price_PnL_per100": -17.066416417654917,
+                "short_net_proceeds_yield_breakeven": 0.051228114555754045,
+                "short_PnL_per100_after3pct_net_proceeds": -7.295153841333345
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 73.35217286082033,
+            "operating_PV_B": 390.05180479428566,
+            "tax_benefit_PV_B": 2.9845428354625527,
+            "ending_economic_cash_B": 45.2641248333718,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.07558434973254546,
+                "short_price_PnL_per100": -25.861655560776132,
+                "short_net_proceeds_yield_breakeven": 0.07558434973254546,
+                "short_PnL_per100_after3pct_net_proceeds": -16.08150910125401
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.10393073937663089,
+                "short_price_PnL_per100": -36.59622506670452,
+                "short_net_proceeds_yield_breakeven": 0.10393073937663089,
+                "short_PnL_per100_after3pct_net_proceeds": -26.824962490382948
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.09825614344038924,
+                "short_price_PnL_per100": -34.393867462111274,
+                "short_net_proceeds_yield_breakeven": 0.09825614344038924,
+                "short_PnL_per100_after3pct_net_proceeds": -24.622604885789702
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 70.72680234433949,
+            "operating_PV_B": 353.9400175248918,
+            "tax_benefit_PV_B": 2.7484137865795892,
+            "ending_economic_cash_B": 64.39624960583916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.047675956509089845,
+                "short_price_PnL_per100": -21.356901757617518,
+                "short_net_proceeds_yield_breakeven": 0.047675956509089845,
+                "short_PnL_per100_after3pct_net_proceeds": -8.285638573658082
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06855919837704816,
+                "short_price_PnL_per100": -31.707266935455284,
+                "short_net_proceeds_yield_breakeven": 0.06855919837704816,
+                "short_PnL_per100_after3pct_net_proceeds": -18.645153966064335
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06438543658536844,
+                "short_price_PnL_per100": -29.583734599376132,
+                "short_net_proceeds_yield_breakeven": 0.06438543658536844,
+                "short_PnL_per100_after3pct_net_proceeds": -16.521621629985184
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 81.2769187716402,
+            "operating_PV_B": 411.78641606579805,
+            "tax_benefit_PV_B": 3.033156760100251,
+            "ending_economic_cash_B": 64.39624960583916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.08331795371976458,
+                "short_price_PnL_per100": -39.45936645785895,
+                "short_net_proceeds_yield_breakeven": 0.08331795371976458,
+                "short_PnL_per100_after3pct_net_proceeds": -26.38810327389951
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10493601141574116,
+                "short_price_PnL_per100": -51.35366624141563,
+                "short_net_proceeds_yield_breakeven": 0.10493601141574116,
+                "short_PnL_per100_after3pct_net_proceeds": -38.291553272024686
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10062016282850106,
+                "short_price_PnL_per100": -48.91337261201942,
+                "short_net_proceeds_yield_breakeven": 0.10062016282850106,
+                "short_PnL_per100_after3pct_net_proceeds": -35.85125964262848
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.5,
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 46.6575884222187,
+            "operating_PV_B": 247.81282134942757,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 53.47000332300167,
+            "operating_PV_B": 285.16536338933804,
+            "tax_benefit_PV_B": 2.7728181513988184,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 63.7872902384693,
+            "operating_PV_B": 338.1972052327185,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 44.6714701023718,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.02901686972172146,
+                "short_price_PnL_per100": -9.449708713914383,
+                "short_net_proceeds_yield_breakeven": 0.02901686972172146,
+                "short_PnL_per100_after3pct_net_proceeds": 0.330437745607739
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.0560954246250609,
+                "short_price_PnL_per100": -18.784525583741715,
+                "short_net_proceeds_yield_breakeven": 0.0560954246250609,
+                "short_PnL_per100_after3pct_net_proceeds": -9.013263007420143
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.05066671918993104,
+                "short_price_PnL_per100": -16.869348183344275,
+                "short_net_proceeds_yield_breakeven": 0.05066671918993104,
+                "short_PnL_per100_after3pct_net_proceeds": -7.098085607022703
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 73.24461301853358,
+            "operating_PV_B": 390.05180479428566,
+            "tax_benefit_PV_B": 2.9845428354625527,
+            "ending_economic_cash_B": 44.6714701023718,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.07508447609246005,
+                "short_price_PnL_per100": -25.677098521848976,
+                "short_net_proceeds_yield_breakeven": 0.07508447609246005,
+                "short_PnL_per100_after3pct_net_proceeds": -15.896952062326854
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.1034172466121388,
+                "short_price_PnL_per100": -36.39592740881486,
+                "short_net_proceeds_yield_breakeven": 0.1034172466121388,
+                "short_PnL_per100_after3pct_net_proceeds": -26.62466483249329
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.09774529021101541,
+                "short_price_PnL_per100": -34.19679922780064,
+                "short_net_proceeds_yield_breakeven": 0.09774529021101541,
+                "short_PnL_per100_after3pct_net_proceeds": -24.425536651479067
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 70.61924250205274,
+            "operating_PV_B": 353.9400175248918,
+            "tax_benefit_PV_B": 2.7484137865795892,
+            "ending_economic_cash_B": 63.803594874839156,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.04729237073726145,
+                "short_price_PnL_per100": -21.172344718690358,
+                "short_net_proceeds_yield_breakeven": 0.04729237073726145,
+                "short_PnL_per100_after3pct_net_proceeds": -8.101081534730922
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06816770876933442,
+                "short_price_PnL_per100": -31.50696927756562,
+                "short_net_proceeds_yield_breakeven": 0.06816770876933442,
+                "short_PnL_per100_after3pct_net_proceeds": -18.44485630817467
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06399547612491108,
+                "short_price_PnL_per100": -29.38666636506549,
+                "short_net_proceeds_yield_breakeven": 0.06399547612491108,
+                "short_PnL_per100_after3pct_net_proceeds": -16.324553395674542
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 81.16935892935345,
+            "operating_PV_B": 411.78641606579805,
+            "tax_benefit_PV_B": 3.033156760100251,
+            "ending_economic_cash_B": 63.803594874839156,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.08297282932570371,
+                "short_price_PnL_per100": -39.27480941893179,
+                "short_net_proceeds_yield_breakeven": 0.08297282932570371,
+                "short_PnL_per100_after3pct_net_proceeds": -26.20354623497235
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.1045837679141941,
+                "short_price_PnL_per100": -51.15336858352597,
+                "short_net_proceeds_yield_breakeven": 0.1045837679141941,
+                "short_PnL_per100_after3pct_net_proceeds": -38.09125561413502
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10026929518003747,
+                "short_price_PnL_per100": -48.71630437770878,
+                "short_net_proceeds_yield_breakeven": 0.10026929518003747,
+                "short_PnL_per100_after3pct_net_proceeds": -35.65419140831783
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "timing",
+      "initial_contribution": 0.65,
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 46.56519443331309,
+            "operating_PV_B": 247.30373047055764,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 53.37760933409607,
+            "operating_PV_B": 284.65627251046817,
+            "tax_benefit_PV_B": 2.7728181513988184,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 63.67973039618254,
+            "operating_PV_B": 338.1972052327185,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 44.0788153713718,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.028466886112163525,
+                "short_price_PnL_per100": -9.265151674987202,
+                "short_net_proceeds_yield_breakeven": 0.028466886112163525,
+                "short_PnL_per100_after3pct_net_proceeds": 0.5149947845349203
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.055530478361207836,
+                "short_price_PnL_per100": -18.584227925852026,
+                "short_net_proceeds_yield_breakeven": 0.055530478361207836,
+                "short_PnL_per100_after3pct_net_proceeds": -8.812965349530455
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.05010467695045073,
+                "short_price_PnL_per100": -16.67227994903361,
+                "short_net_proceeds_yield_breakeven": 0.05010467695045073,
+                "short_PnL_per100_after3pct_net_proceeds": -6.901017372712037
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 73.13705317624682,
+            "operating_PV_B": 390.05180479428566,
+            "tax_benefit_PV_B": 2.9845428354625527,
+            "ending_economic_cash_B": 44.0788153713718,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.0745841006740453,
+                "short_price_PnL_per100": -25.492541482921794,
+                "short_net_proceeds_yield_breakeven": 0.0745841006740453,
+                "short_PnL_per100_after3pct_net_proceeds": -15.712395023399672
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.10290323860586414,
+                "short_price_PnL_per100": -36.19562975092518,
+                "short_net_proceeds_yield_breakeven": 0.10290323860586414,
+                "short_PnL_per100_after3pct_net_proceeds": -26.424367174603606
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.09723392438838441,
+                "short_price_PnL_per100": -33.99973099348997,
+                "short_net_proceeds_yield_breakeven": 0.09723392438838441,
+                "short_PnL_per100_after3pct_net_proceeds": -24.228468417168397
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 70.51168265976598,
+            "operating_PV_B": 353.9400175248918,
+            "tax_benefit_PV_B": 2.7484137865795892,
+            "ending_economic_cash_B": 63.21094014383916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.04690834104578867,
+                "short_price_PnL_per100": -20.987787679763176,
+                "short_net_proceeds_yield_breakeven": 0.04690834104578867,
+                "short_PnL_per100_after3pct_net_proceeds": -7.91652449580374
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06777576618963854,
+                "short_price_PnL_per100": -31.30667161967594,
+                "short_net_proceeds_yield_breakeven": 0.06777576618963854,
+                "short_PnL_per100_after3pct_net_proceeds": -18.24455865028499
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.06360506446176739,
+                "short_price_PnL_per100": -29.189598130754828,
+                "short_net_proceeds_yield_breakeven": 0.06360506446176739,
+                "short_PnL_per100_after3pct_net_proceeds": -16.12748516136388
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 81.06179908706669,
+            "operating_PV_B": 411.78641606579805,
+            "tax_benefit_PV_B": 3.033156760100251,
+            "ending_economic_cash_B": 63.21094014383916,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.08262735746288352,
+                "short_price_PnL_per100": -39.090252380004614,
+                "short_net_proceeds_yield_breakeven": 0.08262735746288352,
+                "short_PnL_per100_after3pct_net_proceeds": -26.018989196045176
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.10423116985053049,
+                "short_price_PnL_per100": -50.95307092563628,
+                "short_net_proceeds_yield_breakeven": 0.10423116985053049,
+                "short_PnL_per100_after3pct_net_proceeds": -37.89095795624533
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.09991807435436706,
+                "short_price_PnL_per100": -48.51923614339812,
+                "short_net_proceeds_yield_breakeven": 0.09991807435436706,
+                "short_PnL_per100_after3pct_net_proceeds": -35.457123174007165
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.35,
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 44.40248608307161,
+            "operating_PV_B": 235.38720746072704,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 50.84108499355346,
+            "operating_PV_B": 270.6800233940784,
+            "tax_benefit_PV_B": 2.7728181513988184,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 60.6437007989311,
+            "operating_PV_B": 320.6836436957673,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 44.86385382746758,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.012673888269701505,
+                "short_price_PnL_per100": -4.055766641954528,
+                "short_net_proceeds_yield_breakeven": 0.012673888269701505,
+                "short_PnL_per100_after3pct_net_proceeds": 5.724379817567594
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.03930793440015368,
+                "short_price_PnL_per100": -12.930541525011353,
+                "short_net_proceeds_yield_breakeven": 0.03930793440015368,
+                "short_PnL_per100_after3pct_net_proceeds": -3.1592789486897814
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.03396552262495378,
+                "short_price_PnL_per100": -11.109748623911877,
+                "short_net_proceeds_yield_breakeven": 0.03396552262495378,
+                "short_PnL_per100_after3pct_net_proceeds": -1.3384860475903047
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 69.58207420023383,
+            "operating_PV_B": 369.6788321803583,
+            "tax_benefit_PV_B": 2.9845428354625527,
+            "ending_economic_cash_B": 44.86385382746758,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.05775530905304693,
+                "short_price_PnL_per100": -19.392714825384065,
+                "short_net_proceeds_yield_breakeven": 0.05775530905304693,
+                "short_PnL_per100_after3pct_net_proceeds": -9.612568365861943
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.0856160728957398,
+                "short_price_PnL_per100": -29.5755571698954,
+                "short_net_proceeds_yield_breakeven": 0.0856160728957398,
+                "short_PnL_per100_after3pct_net_proceeds": -19.80429459357383
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.08003562084758742,
+                "short_price_PnL_per100": -27.486394650483394,
+                "short_net_proceeds_yield_breakeven": 0.08003562084758742,
+                "short_PnL_per100_after3pct_net_proceeds": -17.715132074161822
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 67.10837683100915,
+            "operating_PV_B": 335.1130137130492,
+            "tax_benefit_PV_B": 2.7484137865795892,
+            "ending_economic_cash_B": 63.28572883923162,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.034520866872124856,
+                "short_price_PnL_per100": -15.148210073797447,
+                "short_net_proceeds_yield_breakeven": 0.034520866872124856,
+                "short_PnL_per100_after3pct_net_proceeds": -2.076946889838011
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.05513310054579468,
+                "short_price_PnL_per100": -24.969044378043108,
+                "short_net_proceeds_yield_breakeven": 0.05513310054579468,
+                "short_PnL_per100_after3pct_net_proceeds": -11.90693140865216
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.051011780709810495,
+                "short_price_PnL_per100": -22.954153226473352,
+                "short_net_proceeds_yield_breakeven": 0.051011780709810495,
+                "short_PnL_per100_after3pct_net_proceeds": -9.892040257082403
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 77.07957927883243,
+            "operating_PV_B": 389.76959622703475,
+            "tax_benefit_PV_B": 3.033156760100251,
+            "ending_economic_cash_B": 63.28572883923162,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.06958459142162332,
+                "short_price_PnL_per100": -32.25734261982228,
+                "short_net_proceeds_yield_breakeven": 0.06958459142162332,
+                "short_PnL_per100_after3pct_net_proceeds": -19.186079435862844
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.0909194193795908,
+                "short_price_PnL_per100": -43.53739158069353,
+                "short_net_proceeds_yield_breakeven": 0.0909194193795908,
+                "short_PnL_per100_after3pct_net_proceeds": -30.47527861130258
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08665831920159084,
+                "short_price_PnL_per100": -41.223120701415226,
+                "short_net_proceeds_yield_breakeven": 0.08665831920159084,
+                "short_PnL_per100_after3pct_net_proceeds": -28.161007732024277
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.5,
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 43.810158246227374,
+            "operating_PV_B": 232.12348107971533,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 50.24459505472234,
+            "operating_PV_B": 267.3933638311189,
+            "tax_benefit_PV_B": 2.7728181513988184,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 59.84711720401483,
+            "operating_PV_B": 317.712140663177,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 43.446181252069174,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.008441017397148975,
+                "short_price_PnL_per100": -2.688945099545003,
+                "short_net_proceeds_yield_breakeven": 0.008441017397148975,
+                "short_PnL_per100_after3pct_net_proceeds": 7.091201359977119
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.03495997289563202,
+                "short_price_PnL_per100": -11.447145631312525,
+                "short_net_proceeds_yield_breakeven": 0.03495997289563202,
+                "short_PnL_per100_after3pct_net_proceeds": -1.675883054990953
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.02963991118625109,
+                "short_price_PnL_per100": -9.650269703215153,
+                "short_net_proceeds_yield_breakeven": 0.02963991118625109,
+                "short_PnL_per100_after3pct_net_proceeds": 0.12099287310641849
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 68.7797125746916,
+            "operating_PV_B": 366.675492199019,
+            "tax_benefit_PV_B": 2.9845428354625527,
+            "ending_economic_cash_B": 43.446181252069174,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.053876151591736754,
+                "short_price_PnL_per100": -18.015979023149622,
+                "short_net_proceeds_yield_breakeven": 0.053876151591736754,
+                "short_PnL_per100_after3pct_net_proceeds": -8.2358325636275
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.0816312906335015,
+                "short_price_PnL_per100": -28.08140144262867,
+                "short_net_proceeds_yield_breakeven": 0.0816312906335015,
+                "short_PnL_per100_after3pct_net_proceeds": -18.3101388663071
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.07607132178092058,
+                "short_price_PnL_per100": -26.01632937832833,
+                "short_net_proceeds_yield_breakeven": 0.07607132178092058,
+                "short_PnL_per100_after3pct_net_proceeds": -16.245066802006757
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 66.2494779592479,
+            "operating_PV_B": 332.46781334351743,
+            "tax_benefit_PV_B": 2.7484137865795892,
+            "ending_economic_cash_B": 61.198396425358894,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.0313194348281054,
+                "short_price_PnL_per100": -13.674464583472712,
+                "short_net_proceeds_yield_breakeven": 0.0313194348281054,
+                "short_PnL_per100_after3pct_net_proceeds": -0.6032013995132761
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.051865732726006586,
+                "short_price_PnL_per100": -23.369605138264234,
+                "short_net_proceeds_yield_breakeven": 0.051865732726006586,
+                "short_PnL_per100_after3pct_net_proceeds": -10.307492168873285
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.0477571751356578,
+                "short_price_PnL_per100": -21.380501940725356,
+                "short_net_proceeds_yield_breakeven": 0.0477571751356578,
+                "short_PnL_per100_after3pct_net_proceeds": -8.318388971334407
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 76.21423472500639,
+            "operating_PV_B": 387.08888014932603,
+            "tax_benefit_PV_B": 3.033156760100251,
+            "ending_economic_cash_B": 61.198396425358894,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.0666829557803621,
+                "short_price_PnL_per100": -30.77253727694988,
+                "short_net_proceeds_yield_breakeven": 0.0666829557803621,
+                "short_PnL_per100_after3pct_net_proceeds": -17.701274092990445
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08795795704054954,
+                "short_price_PnL_per100": -41.925949208578004,
+                "short_net_proceeds_yield_breakeven": 0.08795795704054954,
+                "short_PnL_per100_after3pct_net_proceeds": -28.863836239187055
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08370842425009051,
+                "short_price_PnL_per100": -39.6376598112979,
+                "short_net_proceeds_yield_breakeven": 0.08370842425009051,
+                "short_PnL_per100_after3pct_net_proceeds": -26.575546841906952
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "branch": "permanent",
+      "initial_contribution": 0.65,
+      "values": {
+        "2026": {
+          "corrected_central_flat": {
+            "price_USD": 43.21783040938313,
+            "operating_PV_B": 228.85975469870357,
+            "tax_benefit_PV_B": 2.58895408799514,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 49.64810511589123,
+            "operating_PV_B": 264.1067042681595,
+            "tax_benefit_PV_B": 2.7728181513988184,
+            "ending_economic_cash_B": 50.839,
+            "debt_B": 50.134
+          }
+        },
+        "2029": {
+          "corrected_central_flat": {
+            "price_USD": 59.05053360909854,
+            "operating_PV_B": 314.74063763058666,
+            "tax_benefit_PV_B": 2.7292938788755223,
+            "ending_economic_cash_B": 42.028508676670775,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.004169476385929682,
+                "short_price_PnL_per100": -1.322123557135442,
+                "short_net_proceeds_yield_breakeven": 0.004169476385929682,
+                "short_PnL_per100_after3pct_net_proceeds": 8.45802290238668
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.030572305881930717,
+                "short_price_PnL_per100": -9.963749737613657,
+                "short_net_proceeds_yield_breakeven": 0.030572305881930717,
+                "short_PnL_per100_after3pct_net_proceeds": -0.19248716129208532
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.025274798338782656,
+                "short_price_PnL_per100": -8.190790782518393,
+                "short_net_proceeds_yield_breakeven": 0.025274798338782656,
+                "short_PnL_per100_after3pct_net_proceeds": 1.580471793803179
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 67.97735094914938,
+            "operating_PV_B": 363.67215221767975,
+            "tax_benefit_PV_B": 2.9845428354625527,
+            "ending_economic_cash_B": 42.028508676670775,
+            "debt_B": 39.847,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 3.156741957563313,
+                "long_price_CAGR": 0.04996595200637555,
+                "short_price_PnL_per100": -16.639243220915205,
+                "short_net_proceeds_yield_breakeven": 0.04996595200637555,
+                "short_PnL_per100_after3pct_net_proceeds": -6.859096761393083
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.07761463389290801,
+                "short_price_PnL_per100": -26.58724571536197,
+                "short_net_proceeds_yield_breakeven": 0.07761463389290801,
+                "short_PnL_per100_after3pct_net_proceeds": -16.815983139040398
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 3.154004106776181,
+                "long_price_CAGR": 0.07207531208203388,
+                "short_price_PnL_per100": -24.546264106173293,
+                "short_net_proceeds_yield_breakeven": 0.07207531208203388,
+                "short_PnL_per100_after3pct_net_proceeds": -14.775001529851721
+              }
+            ]
+          }
+        },
+        "2030": {
+          "corrected_central_flat": {
+            "price_USD": 65.39057908748666,
+            "operating_PV_B": 329.82261297398566,
+            "tax_benefit_PV_B": 2.7484137865795892,
+            "ending_economic_cash_B": 59.11106401148616,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.028086327268534772,
+                "short_price_PnL_per100": -12.200719093148003,
+                "short_net_proceeds_yield_breakeven": 0.028086327268534772,
+                "short_PnL_per100_after3pct_net_proceeds": 0.8705440908114337
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.0485660437964226,
+                "short_price_PnL_per100": -21.770165898485388,
+                "short_net_proceeds_yield_breakeven": 0.0485660437964226,
+                "short_PnL_per100_after3pct_net_proceeds": -8.708052929094439
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.0444703746970434,
+                "short_price_PnL_per100": -19.80685065497739,
+                "short_net_proceeds_yield_breakeven": 0.0444703746970434,
+                "short_PnL_per100_after3pct_net_proceeds": -6.74473768558644
+              }
+            ]
+          },
+          "corrected_maturing_risk": {
+            "price_USD": 75.34889017118036,
+            "operating_PV_B": 384.4081640716173,
+            "tax_benefit_PV_B": 3.033156760100251,
+            "ending_economic_cash_B": 59.11106401148616,
+            "debt_B": 37.097,
+            "entry_comparisons": [
+              {
+                "entry_USD": 58.28,
+                "entry_date": "2026-11-04",
+                "holding_years": 4.15605749486653,
+                "long_price_CAGR": 0.06375619284268041,
+                "short_price_PnL_per100": -29.28773193407748,
+                "short_net_proceeds_yield_breakeven": 0.06375619284268041,
+                "short_PnL_per100_after3pct_net_proceeds": -16.216468750118047
+              },
+              {
+                "entry_USD": 53.7,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08497085470342047,
+                "short_price_PnL_per100": -40.314506836462485,
+                "short_net_proceeds_yield_breakeven": 0.08497085470342047,
+                "short_PnL_per100_after3pct_net_proceeds": -27.252393867071536
+              },
+              {
+                "entry_USD": 54.58,
+                "entry_date": "2026-11-05",
+                "holding_years": 4.153319644079398,
+                "long_price_CAGR": 0.08073298944960472,
+                "short_price_PnL_per100": -38.05219892118058,
+                "short_net_proceeds_yield_breakeven": 0.08073298944960472,
+                "short_PnL_per100_after3pct_net_proceeds": -24.990085951789634
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "price_only_short_summary": [
+    {
+      "entry_USD": 58.28,
+      "number_of_endpoint_risk_scenarios": 28,
+      "profitable_price_only_shorts": 0,
+      "min_short_PnL_per100": -39.88999954868899,
+      "max_short_PnL_per100": -1.322123557135442
+    },
+    {
+      "entry_USD": 53.7,
+      "number_of_endpoint_risk_scenarios": 28,
+      "profitable_price_only_shorts": 0,
+      "min_short_PnL_per100": -51.82102744315818,
+      "max_short_PnL_per100": -9.963749737613657
+    },
+    {
+      "entry_USD": 54.58,
+      "number_of_endpoint_risk_scenarios": 28,
+      "profitable_price_only_shorts": 0,
+      "min_short_PnL_per100": -49.37319849207759,
+      "max_short_PnL_per100": -8.190790782518393
+    }
+  ],
+  "interpretation": [
+    "All42 endpoint/risk scenario values reproduce within floating-point precision.",
+    "Lower capital spending reduces origin-year eligible investment and basis-loss tax, then reduces cash credits one year later.2030 and2031 collection changes are both included.",
+    "A timing miss still lowers2030 value through lost retained cash even after operating revenue catches up. No lost cash is silently replenished.",
+    "The permanent branch includes lower physical investment, working capital and operating taxes; terminal lost-sales contribution converges to35%, not50%.",
+    "Every2029/2030 price-only short result is evaluated against all three stated entry snapshots. Short PnL per100 of initial notional is not portfolio or margin-account return.",
+    "The twoNovember5 prices were supplied dated intraday snapshots and are not reverified or relabeled as closing prices in this arithmetic audit.",
+    "Passing arithmetic does not prove the chosen permanent-loss branch, the capital-response convention, or future market convergence."
+  ]
+}

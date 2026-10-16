@@ -1,0 +1,116 @@
+{
+  "prepared_utc": "2026-11-04 16:53:53 UTC",
+  "scope": "Bounded adversarial expectations review as of November 4, 2026. Public sources only; no account creation, paid access, model changes, target fitting, or winning probability.",
+  "verdict": {
+    "preferred_research_counterclaim": "Intel: even successful CPU and packaging growth may fail to deliver the owner cash implied by a recovery valuation because qualified capacity, replacement, substrates, and partner economics require persistently more capital than bulls assume.",
+    "what_would_make_it_differentiated": "Quantify a specific, same-scope disagreement about 2028-2031 capital productivity and parent cash conversion against an identified current professional forecast. High 2027 capex, negative 2027 free cash flow, and late foundry profitability are already public expectations.",
+    "direction_supported_now": "This source review does not independently establish an attractive 3-5 year Intel short. It identifies a testable counterclaim, but does not identify a reliable market-wide mature capital assumption and prove it too optimistic. The supplied existing model outputs must govern the conditional return discussion; public targets cannot be used to fit assumptions.",
+    "spacex_comparison": "SpaceX's generic normalization argument is already explicit in Morningstar. Differentiation would require a specific forecast of qualified, paid capacity, repeat pricing and procurement economics, with a stock-return bridge. The gas/power work cannot establish those commercial outcomes. New post-Q3 individual forecasts make a stale pre-Q3 consensus comparison inadequate.",
+    "competition_fit": "A valuation gap today is not automatically a profitable 3-5 year short. The dated exit value, evolution of operating expectations, financing claims, and short carrying economics must be consistent. There is no invented mandatory catalyst rule."
+  },
+  "prominent_source_quality_warning": {
+    "source": "Aardvark Intel October 30 recap",
+    "conflict": "Its public table gives FY2026 revenue of $56.2763B, while the same page's narrative says 2026 will finish near $61.7B and discusses a $15.5B Q4 guidance midpoint.",
+    "consequence": "Do not use its FY2027/FY2028 numbers as a hard consensus mismatch or as a fully reconciled professional operating model. They are one publisher's displayed estimates with an unresolved internal inconsistency. This review does not determine whether the table or narrative is stale.",
+    "further_limit": "The full cash-flow workbook requires an account. No workbook or long-term capital assumptions were verified."
+  },
+  "verified_publisher_expectations": [
+    {
+      "id": "intel_morningstar",
+      "publisher": "Morningstar",
+      "published": "2026-10-30",
+      "url": "https://global.morningstar.com/en-eu/stocks/intel-earnings-pc-winter-has-arrived-offsetting-healthy-ai-growth",
+      "facts": "Fair value cut from $105 to $85; no moat; very high uncertainty. The article acknowledges PC weakness and server/substrate constraints while describing shares as modestly undervalued at publication.",
+      "limit": "One firm's contemporaneous valuation, not consensus or a dated 2030 target. No explicit long-term capex schedule is disclosed in the reviewed article."
+    },
+    {
+      "id": "intel_inh",
+      "publisher": "INH Capital",
+      "published": "2026-10-30 rating change recorded on publisher's superseded preview",
+      "url": "https://inhcapital.com/insights/research/intc-q3-fy26-earnings-preview",
+      "successor_url": "https://inhcapital.com/insights/research/intc-q3-fy26-downgrade-hold",
+      "facts": "The publisher explicitly marks the $175 preview superseded and records its October 30 Hold rating and $80 target.",
+      "limit": "The successor page was inaccessible in this review. The old bullish target and preview forecasts are not current expectations; no successor capital schedule was verified."
+    },
+    {
+      "id": "intel_aardvark",
+      "publisher": "Aardvark Labs",
+      "published": "2026-10-30 16:17 ET",
+      "url": "https://research.aardvarklabs.co/research/intc/earnings/2026-q3/intc-2026-q3-recap",
+      "displayed_2027_2028_revenue_B": [
+        61.5369,
+        70.5977
+      ],
+      "displayed_2027_2028_operating_income_B": [
+        9.3414,
+        12.8488
+      ],
+      "facts": "Hold. The analysis already treats higher 2027 spending and unlikely positive 2027 free cash flow as recognized risks.",
+      "limit": "Single publisher, not consensus. The table/narrative inconsistency above prevents a hard numerical expectations claim."
+    },
+    {
+      "id": "intel_moor",
+      "publisher": "Moor Insights & Strategy",
+      "event_date": "2026-10-30",
+      "published": "2026-11-02",
+      "url": "https://moorinsightsstrategy.com/research-notes/patrick-moorhead-discusses-intel-and-the-broader-chip-market-on-the-information-tv-october-30-2026-broadcast-analysis/",
+      "facts": "Moorhead places foundry profitability around 2029 or 2030 and discusses negative free cash flow from heavy investment.",
+      "limit": "The article identifies itself as an AI-generated, human-edited summary of his broadcast. It is an industry analyst's outlook, not an equity consensus model or quantified long-term capex schedule."
+    },
+    {
+      "id": "spacex_aardvark",
+      "publisher": "Aardvark Labs",
+      "published": "2026-10-21 00:04 ET",
+      "url": "https://research.aardvarklabs.co/research/spcx/earnings/2026-q3/spcx-2026-q3-recap",
+      "displayed_2027_2028_total_revenue_B": [
+        165.513,
+        268.0619
+      ],
+      "displayed_2027_2028_SI_revenue_B": [
+        133.0912,
+        227.9265
+      ],
+      "facts": "Maintains Outperform and gives a $144-$191 fair-value range. Already discusses the larger capital bill and debt funding.",
+      "limit": "Post-Q3, but one publisher rather than consensus. SI includes more than rental revenue. The root's supplied $334.607B 2028 rental figure exceeds this publisher's entire SI forecast, but this is a scope-validation flag, not proof of a market-wide mismatch or a reason to fit the model."
+    },
+    {
+      "id": "spacex_morningstar",
+      "publisher": "Morningstar",
+      "published": "2026-10-28",
+      "url": "https://www.morningstar.com/stocks/spacex-earnings-we-raise-our-fair-value-estimate-scaling-data-centers-is-stock-buy",
+      "facts": "Raises fair value to $70 from $62 while explicitly questioning indefinite scarcity and long-term AI infrastructure returns.",
+      "limit": "Direct-publisher search text was available; opening the full page returned 403. Its thesis already contains the generic lower-rent argument. Its present fair value is not comparable to the project's conditional end-2030 share value without a dated bridge."
+    },
+    {
+      "id": "spacex_visible_alpha",
+      "publisher": "S&P Global Market Intelligence / Visible Alpha",
+      "published": "2026-10-19",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/spacex-earnings-preview-q3-2026",
+      "facts": "Explicit pre-Q3 consensus preview. It already discusses rising capex, debt, and uncertainty over infrastructure returns.",
+      "limit": "No verified public post-Q3 Visible Alpha replacement was located. This dated preview cannot represent November 4 consensus."
+    }
+  ],
+  "additional_capital_search_result": {
+    "publisher": "R40",
+    "url": "https://r40.io/stocks/intc/model/",
+    "visible_assumptions": "The page assumes $26B in 2027, $25B annually in 2028-2029, and about $22.7B annually in 2030-2031 for listed capital programs.",
+    "exclusion_reason": "It still labels Q3 2026 projected, no reliable current publication/update date was found, professional research provenance was not established, and the page says these amounts are assumptions. Its program/table methodology and cash denominator have not been reconciled. Excluded from professional-consensus comparisons."
+  },
+  "public_evidence_that_could_validate_the_counterclaim": {
+    "intel_primary_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "intel_tests": [
+      "Reconcile successive filings' cash property purchases, deferred equipment payments, lease cash, incentives, supplier prepayments, customer deposits, and partner contributions/distributions. Keep gross capital spending separate from parent cash burden.",
+      "Track qualified node output, loading, process-cost improvement, and recurring external revenue against the physical additions required to produce them. Internal foundry transfers must eliminate in consolidated revenue.",
+      "Separate premium CPU mix from same-product pricing and units, then test whether product and packaging growth improves parent cash after replacement and working capital.",
+      "Read customer capacity commitments for actual funding, qualification timing, and obligations. Missing public customer names alone do not prove missing demand."
+    ],
+    "spacex_tests": [
+      "Compare realized paid external capacity, renewal/backfill pricing and service qualification with procurement and replacement cash on consistent units.",
+      "Use post-Q3 dated professional forecasts for an expectations comparison; distinguish annual revenue from exit run rate and rental revenue from total AI revenue.",
+      "Treat near-term physical activity as a delivery check, not as evidence of durable paid occupancy or a mature rental premium."
+    ],
+    "status": "These are validation paths, not findings that the proposed short counterclaim has been proved."
+  },
+  "no_changes_to_models": true,
+  "no_new_model": true
+}

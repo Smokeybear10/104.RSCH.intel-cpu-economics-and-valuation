@@ -1,0 +1,30 @@
+{
+  "scope": "Supplemental source-quality check; frozen rate policy and original peer outputs unchanged.",
+  "TSMC_share_basis": {
+    "primary_source": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+    "primary_fact": "Each ADS represents five common shares. 2025 20-F reports 25,932,524,521 common shares outstanding February 28, 2026, and 1,062,690,167 ADSs representing a subset of common shares.",
+    "vendor_snapshot_market_equity_B": 1740,
+    "vendor_snapshot_ordinary_shares_B": 25.93,
+    "observed_ADS_quote_USD": 395.61,
+    "all_equity_if_every_ordinary_share_priced_at_ADS_equivalent_B": 2051.63346,
+    "limitation": "Vendor market equity does not equal ADS quote times ordinary shares divided by five. Local-versus-ADS pricing and update timing can explain such differences; exact provider basis has not been established. Do not call this proven vendor error or silently replace all ordinary shares with ADS-equivalent prices.",
+    "alternative_use": "Only a measurement sensitivity for the peer cash correction."
+  },
+  "base_eightpeer_cash_adjustment": {
+    "median_D_to_E": 0.06919767162058416,
+    "median_cash_to_capital": 0.09249354086059214,
+    "correction_factor": 1.0475542932353334
+  },
+  "alternative_TSM_ADS_equivalent_adjustment": {
+    "median_D_to_E": 0.06919767162058416,
+    "median_cash_to_capital": 0.0871391700119008,
+    "correction_factor": 1.041409879995263
+  },
+  "effect_at_weekly_raw_beta_1_3970962500968598": {
+    "base_asset_beta": 1.4635341748519506,
+    "alternative_asset_beta": 1.4549498381552026,
+    "rate_difference_basis_points": -3.7856924832658856
+  },
+  "matched_price_endpoint_audit": "monthly_daily_endpoint_crosscheck.json",
+  "conclusion": "Reasonable market-equity measurement alternatives change the group correction much less than frequency, window, peer choice and forward business judgment. Present peer betas to about one decimal place, not as precise measured Intel operating risk."
+}

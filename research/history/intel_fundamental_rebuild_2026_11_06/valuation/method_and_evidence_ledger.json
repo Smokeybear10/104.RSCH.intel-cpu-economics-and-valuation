@@ -1,0 +1,58 @@
+{
+  "judgment": {
+    "current_price_long": "The existing evidence does not establish enough additional durable cash to satisfy the chosen return hurdles at56.28. These hurdles are judgmental; a9.6%modeledreturn is not automatically a bad investment or proof of overvaluation.",
+    "current_price_short": "Not established. Even the new joint profit stress yields positive modeled price appreciation to2030. A lower December2026 planning value does not alone establish a profitable short with a matched holding period, financing costs and adverse-price path.",
+    "most_important_gap": "Durable product economics after2030, not the standalone new-packaging margin. Removing all positive incremental packaging profit while retaining capital reduces target by only3.49/share atcore rate.93%ofcore operatingvalue lies after2030; the CPUgrowth/margin assumptions still need a durable competitive explanation.",
+    "useful_correction": "Present the investment as a testable cash burden: at56.28,12%annual return requires90.08 by2030. Relative tocore, that is an additional3.20B of normalized2031parentcash growing3%thereafter, or7.79B at the higher rate. Explain what operating evidence could support those recurring cash flows rather than choosing a richer multiple.",
+    "limits": "These are one-variable equivalents conditional on all other forecasts. They neither identify unique market expectations nor prove the required improvement is attainable. Do not add the cash equivalent and margin equivalent together; they are alternative explanations of the same gap."
+  },
+  "primary_sources": [
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/apv.htm",
+      "title": "Aswath Damodaran: The Adjusted Present Value Approach",
+      "accessed_date": "2026-11-06",
+      "supports": "APV values unlevered operating cash using an unlevered cost of equity, then separately incorporates borrowing benefits and costs. Current model's operating-cash/debt/shield separation follows that structure.",
+      "qualification": "This establishes the framework, not that Intel's selected beta, ERP, tax-shield discount rate or credit realization is correct. The model uses the operating rate on shields, not a debt-rate mechanical maximization. Future funding access and distress costs are not proven away by the APV identity."
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/invfables/growthdeterminants.htm",
+      "title": "Aswath Damodaran: The Fundamental Determinants of Growth",
+      "accessed_date": "2026-11-06",
+      "supports": "Growth depends on reinvestment and returns on new investment. Economic capital comparisons should consistently account for R&D and operating leases. High excess returns lasting indefinitely require a durable competitive explanation.",
+      "qualification": "The model's23.1%terminal ratio is3%times unadjusted-modelNOPAT divided by modeled physicalnetinvestment plusWC. R&D remains expensed in segment margins; no capitalized research asset is modeled. Call it an implied return on modeled netinvestment, not an empirically observed economicROIC. Equating this ratio to the discount rate is a sensitivity convention, not proof that all economic rents disappear."
+    }
+  ],
+  "accounting_review": {
+    "baseline_reproduction": "48APVcomparisons across bothrates/endpoints and45annualcashidentities reproduce exactly.",
+    "cash_and_debt": "Existing cash, ordinary debt, net other claims, escrow and acquisition costs included once. Incremental2027-30aftertaxcash is retained in2030cash; no incrementalinterestwindfall orfreefinancingvalue is added.",
+    "finite_credits": "Finite collection schedules remain cash flows; normalized parentcash removes credits and related basis-tax effect. The reverse cash burden is additional normalizedcash, not additional government aid.",
+    "operating_profit_ablations": "Foundry existingbreakevenstress and zero-positivepackagingprofit are jointly recomputed. The full124.5B2027-30physicalcapex, all later investment and2027packagingstartup loss remain. Sales remain, so this is a zero-margin stress rather than closure/removal of the packaging business.",
+    "cash_validation_boundary": "Annual cash is recomputed. No new quarterly or daily trough, credit access or financialdistress probability is established.",
+    "terminal_label_repair": "With consistent cash-tax handling, recategorizing R&D changes adjusted profit and investment together and need not change freecashflow. Its absence therefore calls for a better ROI label, not an unsupported valuation uplift."
+  },
+  "deck_ready_language": {
+    "primary": "The price requires lasting cash improvement. A12%annual return from56.28 needs90.08 in2030. Keeping the rest of the model fixed, that requires an extra3.2B of2031normalizedparentcash growing3%thereafter; at the higher discount rate,7.8B. These are decision thresholds, not forecasts.",
+    "profit_stress": "If Foundry reaches onlybreakeven and newpackaging earns no positive profit, while all investment remains, the target falls to71.84/core or63.97/higher-rate:6.1%or3.1%annually. This still assumes the product business delivers our forecast and factories recover from present losses.",
+    "durability": "A phased CPUmargin improvement from44.1%to48.5%by2030 would close the12%returngap atcore rate if no extra investment is required and the gain persists. Nearly89%of the addedexitvalue comes from cash after2030. Atemporarypricing spike is insufficient.",
+    "avoid": [
+      "Market expects exactly48.5%CPUmargin",
+      "The zero-profit factory case proves the downside is protected",
+      "Core9.6%return means Intel must be shorted",
+      "Zero-excess-return terminal case, without qualifying the modeled capital measure",
+      "Research proves the reverse margin threshold will occur"
+    ]
+  },
+  "R_and_D_scope_review": {
+    "active_model_path": "work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_model.py",
+    "assembly": "old_rows inherits EBIT_after_economic_SBC_B and computes Other_profit_less_corporate as a residual after product,Foundry andpackaging profits; build_case recombines these segment profits. No R&D addback or capitalized research asset exists in the cash closure.",
+    "host_policy": "intel_server_ASP_mix_operating_policy.json explicitly says incremental consolidated profit is after direct input,production,operating costs and D&A; preserves corporate costs. Forward CPUmargin derives from product segment operatingincome, rather than a before-R&Dgrossprofit measure.",
+    "packaging_policy": "external_packaging_operating_policy_2026_11_04.json explicitly charges ongoingpackageR&D in program operatingmargins and retains sharedprocessR&D in hostcosts.",
+    "scope_limit": "This verifies intended expense treatment and lack of an R&D addback, not adequacy of every future R&D dollar. The forward model lacks a separately identified R&D dollar forecast; no full capitalization or economicROIC bridge can be claimed."
+  },
+  "artifact_receipts": {
+    "rebuild_valuation.py": "93d745b2f653256cd998e194f16bfe47fb717d62e14b5d43ef6249eea3a0278e",
+    "valuation_rebuild_results.json": "1bcb5a42157da380b6c988bcfa6b106423f7c839a75383e554becf61273a3d2f",
+    "audit_factory_controls.py": "5a8687922ae93e47d93f67bb9c1b9fe38f8be663d03c2bac4d50b968898b801d",
+    "independent_factory_control_audit.json": "f2c21c6f2704a5c3b174120ac8f194e07bb88e30766c673691a82fa5261ea3bb"
+  }
+}

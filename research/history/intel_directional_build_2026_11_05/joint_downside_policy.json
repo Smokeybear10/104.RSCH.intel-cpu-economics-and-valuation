@@ -1,0 +1,46 @@
+{
+  "frozen_utc": "2026-11-05T21:48:13.091072+00:00",
+  "status": "Policy frozen before computing joined stress values. Existing isolated weak-demand and30%/.6 values were known.",
+  "purpose": "Test combined demand weakness and weaker mature economics; no claim of likelihood or lower bound.",
+  "policy": {
+    "starting_rows": "Existing weak_demand_results annual rows; preserve all2027\u20132030 operations, tax, credits, physical investment, economic cash, debt and financing.",
+    "revenue": "Weak CPU revenue plus unchanged OtherDCAI; capital denominator equals frozen host capital revenue plus weak CPU revenue delta.",
+    "margin": {
+      "target": 0.3,
+      "baseline": 0.35,
+      "phase": "Linear2031\u20132040, held2041",
+      "incremental_EBIT": "weak_DCAI_revenue * (0.30-0.35) * min(max((year-2030)/10,0),1)",
+      "interpretation": "Real consolidated earnings loss, not internal wafer transfer repricing."
+    },
+    "capital": {
+      "target": 0.6,
+      "baseline": 0.8,
+      "phase": "Linear2031\u20132035, held thereafter",
+      "incremental_cash_capex": "change_in_weak_host_capital_revenue * (1/new_productivity - 1/0.8)",
+      "DandA": "Hold existing normalized D&A, WC and packaging as in frozen mature-capital convention. This is aggregate economic reinvestment, not newly reconstructed asset cohorts."
+    },
+    "tax": "Recompute ordinary operating tax=max(EBIT_after_change,0)*existing_year_tax_rate. Keep existing tax credits/basis schedule because changes begin2031 beyond frozen new-eligible-basis window. Recheck financing-shield capacity.",
+    "valuation": "Same APV annualcash method,5.51Bclaims,3%terminaloperatinggrowth,0%financingshieldgrowth,11.555%flatprimary. Maturing-risk only labeled separate control.",
+    "cash": "2026\u20132030 retained economic cash unchanged from funded weak-demand case. Check positive future cash; do not add future retained cash on top of futurecash PV.",
+    "endpoint": "2030-12-31; also2026/2029 diagnosticcontrols",
+    "entry": "Nov5 close52.22; no probabilities or target value fitted."
+  },
+  "inputs": {
+    "weak_demand": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/weak_demand_results.json",
+      "sha256": "e7a3115ac8e08b07ac9a7a7b076bcc9b7ede34656341a96b8093cc18b4e0cf6a"
+    },
+    "host": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_server_ASP_mix_operating_policy.json",
+      "sha256": "e300b5feb6fd2ad08d02bc73cf2b836c5e3e45711c2ac6a4151bb7dc2c6459db"
+    },
+    "model": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+      "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+    },
+    "rates": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/corrected_rate_valuation.json",
+      "sha256": "6d973e8ee73a87e6c9eecd707380dee0b996f489dfab5815af47d128c44aee39"
+    }
+  }
+}

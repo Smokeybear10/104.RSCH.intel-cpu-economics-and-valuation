@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-07",
+  "scope": "Primary-source pricing/mix defense; no deliverable or main-model edits.",
+  "judgment": "The strongest defense is a real premium-product transition already visible in reported sales, plus signed customer arrangements and production progress. This gives a causal basis for retaining a higher mix level while output expands. It supports the direction and makes the selected case economically coherent, but does not identify the exact Q4 exit ASP or prove the 2028 quantity path. No target uplift is justified.",
+  "new_or_underused_evidence": [
+    {
+      "claim": "DCAI had already signed multiple long-term agreements, including Google, in Q1 2026.",
+      "source": "intel_q1_remarks",
+      "page": 4,
+      "status": "Reported signed agreements, stronger than a planned-collaboration headline.",
+      "inference": "Demand persistence has customer commitment evidence; the model need not rely exclusively on spot shortages.",
+      "limit": "No public units, take-or-pay terms, contractual price floor or Xeon-only dollar schedule."
+    },
+    {
+      "claim": "Google itself reported expanded Granite Rapids support across C4 shapes.",
+      "source": "google_next26",
+      "locator": "Compute announcements / C4 instances",
+      "status": "Customer-owned deployment evidence.",
+      "inference": "The premium generation is used in purchasable cloud infrastructure, not merely on a vendor roadmap.",
+      "limit": "Cloud price-performance is not Intel net ASP. Google also deploys alternatives."
+    },
+    {
+      "claim": "Three successive 2026 filings attribute stronger server ASPs to premium mix and pricing, with Q2/Q3 mix the majority driver.",
+      "source": [
+        "intel_q1_10q",
+        "intel_q2_10q",
+        "intel_q3_10q"
+      ],
+      "pages": [
+        29,
+        30,
+        33
+      ],
+      "observations": [
+        {
+          "quarter": "Q1",
+          "ASP_YoY": 0.27,
+          "units_YoY": -0.05
+        },
+        {
+          "quarter": "Q2",
+          "ASP_YoY": 0.48,
+          "units_YoY": 0.09
+        },
+        {
+          "quarter": "Q3",
+          "ASP_YoY": 0.54,
+          "units_YoY": 0.1
+        }
+      ],
+      "inference": "The mix shift is repeated realized business, not an untested claim that customers will accept new prices.",
+      "limit": "These use different prior-year quarters. They do not measure sequential ASP or prove 21.9% next-year annual growth."
+    },
+    {
+      "claim": "Granite Rapids is the largest server family; Clearwater is shipping for revenue; Diamond is sampling for a planned 2027 ramp. Intel 3 output rose in the mid-teens sequentially while node costs fell about 15% from Q1.",
+      "source": "intel_q3_remarks",
+      "pages": [
+        1,
+        5,
+        6
+      ],
+      "inference": "A real product and supply transition can sustain richer mix while increasing units. A roadmap successor supplies a mechanism for further mix improvement after Granite penetration.",
+      "limit": "Largest is not majority. Node wafer output is not finished CPU packages. Clearwater/Diamond blended ASP and adoption shares are undisclosed."
+    },
+    {
+      "claim": "Intel expects industry supply constraints through 2027 and into 2028.",
+      "source": "intel_q3_remarks",
+      "page": 6,
+      "inference": "A quick normalization of scarcity-driven pricing is not the company forecast; the near-term premium need not disappear immediately as Intel adds supply.",
+      "limit": "Supplier forecast, not price protection; input cost inflation and rival capacity may absorb or reverse pricing gains."
+    }
+  ],
+  "defenses_to_latest_attacks": [
+    {
+      "attack": "A 10% annual ASP case erases most sales alpha.",
+      "answer": "True, but conditional on the modeled exit and units it requires 2027 weighted ASP 6.04% below estimated Q4. It therefore tests either a wrong exit anchor or mix/price giveback. A control with no new 2027 ASP growth above that exit still yields $30.49B CPU sales and, if the lower level persists, $88.32B company sales in 2028, 5.5% above consensus.",
+      "limit": "The exit anchor remains estimated; this is not proof the counterexample is unlikely."
+    },
+    {
+      "attack": "21.9% annual ASP is fitted, so the case has no pricing evidence.",
+      "answer": "The exact figure is a reconciliation, but the underlying mechanism has evidence: repeated premium-mix-led reported ASP gains, signed DCAI LTAs, deployed Granite offerings and the next product ramps. Under the owned quarterly schedule, only $1.25B of 2027 CPU revenue comes from new ASP gains beyond Q4; $5.10B of the annual increase is exit run-rate carryover and $3.24B is additional units at that exit ASP.",
+      "limit": "Do not re-label all $5.10B as price carryover; it combines exit revenue effects. No absolute Q4 unit/ASP split is identified."
+    },
+    {
+      "attack": "2028 assumes another enormous ramp.",
+      "answer": "The 35% annual CPU-revenue growth includes $5.72B of carryover from the modeled Q4 2027 level. The additional $5.39B requires average 2028 revenue 14.4% above that exit, decomposed into average units +10.1% and ASP +3.9%. This ties 2028 delivery to a concrete preceding exit rather than treating annual growth as a fresh discontinuity.",
+      "limit": "Reaching Q4 2027 is the hinge. If the $9.37B quarter is missed, rebase 2028; do not claim automatic catch-up."
+    }
+  ],
+  "known_assumed_unidentifiable": {
+    "known": [
+      "Reported quarterly YoY units/ASP changes and CPU residual sales, subject to rounded Other DCAI.",
+      "Granite product-family leadership, revenue shipment of Clearwater, signed DCAI LTAs, and customer deployment statements."
+    ],
+    "assumed": [
+      "Q4 2026 CPU revenue $6.812B from favorable DCAI/Other allocation.",
+      "Retention of that exit price/mix level and the 2027 quarterly unit/ASP schedule.",
+      "Q4 2027 CPU $9.365B and 2028 25% annual units / 8% ASP."
+    ],
+    "unidentifiable": [
+      "Exact Q4 2026 ASP level relative to Q3 from reported annual/quarterly percentage changes.",
+      "Same-SKU price increases separately from core, family, customer and discount mix.",
+      "Finished CPU package capacity or binding orders sufficient for $31.74B / $42.85B.",
+      "How much of $1.7B company customer deposits belongs to Xeon; do not assign all deposits to this case."
+    ]
+  },
+  "recommended_main_deck_copy": {
+    "page3_affirmative_evidence": "The mix shift is already visible: Q3 server ASP rose 54% and units 10% YoY, led by premium products. I forecast retention of a higher mix level as output expands; these reported growth rates do not establish the Q4 exit ASP.",
+    "page3_counterexample_response": "With my estimated Q4 ASP held flat through 2027, CPU sales reach $30.49B. Carrying that lower base into 2028 gives $88.32B company sales, 5.5% above consensus. A 10% annual ASP case instead requires mix giveback or a weaker exit anchor.",
+    "page5_evidence_strip": "Signed DCAI long-term agreements, including Google; Granite now the largest server family; Clearwater shipping for revenue. These support demand and mix persistence, while quarterly delivery remains the test.",
+    "page5_2028_bridge": "2028 CPU sales: $37.46B from carrying the modeled Q4 2027 run-rate, plus $5.39B further ramp. That needs 10.1% more average units and 3.9% higher average ASP than Q4 2027."
+  },
+  "recommended_defense_answer": "The annual ASP is a check on my forecast, not independent evidence. My evidence is that premium mix is already producing revenue, Granite is now the largest server family, and DCAI has signed long-term customer agreements. I am underwriting retention of the estimated exit mix while output grows, plus modest further mix gains. If the exit is achieved, flat 2027 ASP versus Q4 still leaves my 2028 company sales 5.5% above consensus. If the exit fails or mix reverses, I cut the base. I do not treat a roadmap or an LTA as a disclosed price floor.",
+  "avoid": [
+    "54% observed YoY is greater than 21.9% forecast, therefore conservative: mismatched bases.",
+    "Signed LTAs guarantee $31.74B or a price floor: undisclosed.",
+    "Double maximum cores means double ASP: unsupported, and E/P cores differ.",
+    "$5.10B exit carry is all pricing: false.",
+    "Flat Q4 ASP is observed or secured: false.",
+    "Higher ASP automatically means higher consolidated margin: costs and Foundry remain separate."
+  ],
+  "sources": {
+    "intel_q1_remarks": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_ae41de1e3c92a2d70014908a6d92f612/intel/db/887/9254/prepared_remarks/1Q2026-Earnings-Call.pdf",
+      "date": "2026-04-23",
+      "pages": [
+        4,
+        5
+      ],
+      "locator": "DCAI signed LTAs including Google on p4; full quarter of pricing actions in Q2 guide on p5."
+    },
+    "intel_q1_10q": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000079/intc-20260328.htm",
+      "page": 29
+    },
+    "intel_q2_10q": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000157/intc-20260627.htm",
+      "page": 30
+    },
+    "intel_q3_10q": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "pages": [
+        33,
+        34
+      ],
+      "other_locator": "MD&A Funding Requirements for company customer deposits."
+    },
+    "intel_q3_remarks": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "date": "2026-10-29",
+      "pages": [
+        1,
+        5,
+        6,
+        7
+      ]
+    },
+    "google_next26": {
+      "url": "https://cloud.google.com/blog/products/compute/whats-new-in-compute-at-next26",
+      "date": "2026-04-22",
+      "locator": "C4 instances expanded support for Intel Xeon 6 Granite Rapids across all shapes."
+    },
+    "google_collaboration": {
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-google-deepen-collaboration-to-advance-ai-infrastructure.html",
+      "date": "2026-04-09"
+    },
+    "oracle_planned_collaboration": {
+      "url": "https://www.oracle.com/news/announcement/ai-world-intel-and-oracle-plan-expanded-collaboration-to-support-enterprise-and-agentic-ai-on-oracle-cloud-infrastructure-2026-10-27/",
+      "date": "2026-10-27",
+      "limit": "Planned; do not upgrade to signed quantified order."
+    },
+    "ARK_optional_not_forecast_input": {
+      "url": "https://www.intel.com/content/www/us/en/products/sku/240777/intel-xeon-6980p-processor-504m-cache-2-00-ghz/specifications.html",
+      "finding": "128-core Granite SKU RCP $13,955; pricing guidance, not realized ASP. No use in model or proof of net-price change."
+    }
+  },
+  "calculation_file": "carry_forward_math.json"
+}

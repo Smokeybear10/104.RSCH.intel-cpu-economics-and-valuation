@@ -1,0 +1,43 @@
+{
+  "completed_utc": "2026-11-05T23:13:59.055534+00:00",
+  "purpose": "Test whether a stronger Intel ownership case can rest on customer economics without raising forecasts by assertion. Supplement to the broader customer decision study; not a new experiment or independent interview.",
+  "sources": [
+    {
+      "url": "https://cdrdv2-public.intel.com/873627/PUBLIC-intel-decrease-database-costs-with-xeon-case-study.pdf",
+      "document": "IT@Intel database licensing case",
+      "date": "January 2026; footer 0126, PDF creation January 23, 2026",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "observation": "Intel IT reports a production migration from 2nd- to 5th-generation Xeon, 82% fewer licensed cores and six-month hardware payback. Memory increased from 768GB to 1,500GB. Live replicas allowed 7–20 second failover. Utilization targets stayed at 50–60%.",
+      "limitations": "Internal Intel measurements, not an independent buyer sample. No disclosed AMD alternative, total fleet scale, raw measurements or procurement prices. Improvements combine CPU, memory and consolidation. Xeon 6 benefit is expected, not measured in that migration. No chip margin or outside Intel order is established."
+    },
+    {
+      "url": "https://www.microsoft.com/licensing/guidance/SQL",
+      "document": "SQL Server 2025 licensing guidance",
+      "date": "Accessed November 5, 2026",
+      "locator": "SQL Server licensing models / Per Core licensing",
+      "observation": "Microsoft distinguishes per-core and Server+CAL models. Physical per-core licensing counts cores subject to minimums; VM licensing has separate conditions. Thus fewer cores can matter economically in specific contracts.",
+      "limitations": "The guidance does not replace customer contractual terms. Do not assume every database workload, VM or cloud instance has the same licensing economics."
+    },
+    {
+      "url": "https://www.amd.com/en/blogs/2025/the-right-cpu-can-boost-microsoft-sql--server--performance-and-l.html",
+      "document": "AMD SQL Server software-cost example",
+      "date": "September 3, 2025; internal measurements June 16, 2025",
+      "locator": "Main scenario and footnote 1",
+      "observation": "AMD also markets per-core license savings through higher-throughput CPUs and consolidation. Its example contrasts one- and two-socket AMD configurations with a two-socket 5th-gen Xeon configuration.",
+      "limitations": "Vendor-run TPC-H-derived workload explicitly not compliant with all published TPC-H benchmark requirements. Memory, storage and other configurations differ; security mitigations are off. This is a rival economic proposition, not independent proof that AMD wins every customer or a matched Xeon 6 comparison."
+    }
+  ],
+  "investment_inferences": [
+    "Premium CPU pricing can be rational when it reduces total buyer cost, including software, energy and migration. This is more durable reasoning than shortage alone.",
+    "The appropriate ceiling is savings relative to the next-best available system, not savings relative to an obsolete server. A five-year-old Intel comparison cannot establish present Intel pricing power against AMD or Arm.",
+    "Supplier value capture remains unmeasured: customer savings may go to software vendors, OEMs, memory suppliers or the buyer. They do not automatically become Intel operating profit.",
+    "Refresh demand is not one-for-one replacement demand. More performance per socket can reduce sockets needed for the same work. Aggregate CPU units require workload growth, utilization, cores/socket, sockets/server and retirement assumptions.",
+    "A fleet can rationally retain Intel for licensed or certified workloads while migrating other jobs. Weighted customer economics, not a single successful case, would be needed to support a 40% aggregate mature DCAI margin."
+  ],
+  "forecast_action": "No forecast or target change. Retain as supporting mechanism and counterexample to a simplistic replacement-volume bridge. Further work is valuable only if it estimates a material customer mix or relative system-cost advantage."
+}

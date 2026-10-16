@@ -1,0 +1,40 @@
+{
+  "completed_research_utc": "2026-11-07T01:18:05.236838+00:00",
+  "conclusion": "Research narrows the unresolved decision and strengthens evidence boundaries, but does not justify a higher forecast or current-price buy.",
+  "recommendation": "Conditional LONG at $40 or below; no new position at $56.28 November 6 close",
+  "new_findings": [
+    "ASE packaging margin/material-content comparison and Amkor customer advance disclosure benchmark.",
+    "Current-owned-case full-program packaging margin controls: $81.27 target at 20%, $83.03 at 30%, versus $82.47 core.",
+    "Current-price reverse recurring-cash thresholds: +$3.197979B / +$7.787710B normalized2031cash growing3% thereafter for12%annualreturn at the two rates.",
+    "Joint Foundry-breakeven / zero positive incremental package profit control retains capex and startup loss; targets $71.836574 / $63.965335.",
+    "Capital-return label corrected because R&D is expensed, with no cash-flow or forecast change."
+  ],
+  "new_analysis_of_existing_information": [
+    "Two-SKU catalog illustration distinguishes package price and nominal-core price, without claiming useful-work equivalence or realized pricing.",
+    "Historical ASP feasible-witness method was already completed November5. Rebase does not identify or prove exit mix.",
+    "Oracle same-source competitive roadmap comparison is not a new contract."
+  ],
+  "forecasts_not_verified": [
+    "Exact CPU shipment/mix path and retained margins.",
+    "$7B gross packaging fees and exact Foundry profit path.",
+    "Long-run profitability and additional cash needed for current-price upside."
+  ],
+  "forecast_raised": false,
+  "completed_interview_claimed": false,
+  "current_price_alpha_established": false,
+  "win_probability": null,
+  "PDF_improvements": [
+    "Page3 volume equation corrected and pricing/mix interpretation tightened.",
+    "Page6 adds packaging margin controls with primary peer context.",
+    "Page7 replaces exit-yield grid with explicit recurring-cash requirement; original grid retained in defense notes.",
+    "Page8 terminal-investment labels corrected.",
+    "Page10 connects contrary benchmark to share-loss underwriting.",
+    "Defense notes expanded from6to8pages; comparative review updated."
+  ],
+  "verification": "Independent APV, cash identities, packaging controls and reverse thresholds pass; final rendered corrections reviewed.",
+  "workbook_status": "Complete: seven sheets; existing 1,966 formulas and original numerical results preserved.",
+  "workbook_saved_file_receipt": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_fundamental_rebuild_2026_11_06/factory/workbook/saved_workbook_independent_verification.json",
+  "workbook_sha256": "4b502e452579d2c32b50adede9f058481c9d4b5a9ba0fc124cbce829cb1f86d4",
+  "superseded_by_case_closure": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_case_closure_2026_11_06/root/completion_receipt.json",
+  "supersession_note": "Historical result retained. Current status closes research decisions, removes the unsupported conditional-entry approval/application-form blocker, and leaves current resume as the sole identified missing required package item."
+}

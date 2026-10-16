@@ -1,0 +1,135 @@
+{
+  "computed_utc": "2026-11-04T18:07:07.120040+00:00",
+  "scope": "Conditional short trading economics, not price-path forecast, actual broker quote or account return.",
+  "source_model_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+  "entry": {
+    "USD": 60.55,
+    "date": "2026-11-03"
+  },
+  "formula": "P&L=entry-cover+sum(collateral*effective net rebate/360); effective net rebate=eligible interest minus borrow ONLY IF applied to same base. No dividend/commission/margin financing modeled.",
+  "path": "Illustrative geometric daily price path from entry to conditional endpoint value; collateral ceil(1.02*price). Calendar daily accrual, no settlement/holiday model.",
+  "results": [
+    {
+      "endpoint": "2027-12-31",
+      "conditional_cover_USD": 48.89859731439426,
+      "days": 423,
+      "years_ACT36525": 1.158110882956879,
+      "price_only_PnL_per_share_USD": 11.651402685605738,
+      "price_only_PnL_as_fraction_initial_notional": 0.1924261384905985,
+      "long_price_CAGR_if_realized": -0.16851545716613558,
+      "illustrative_common_collateral_year_exposure_USD": 65.94444444444444,
+      "net_annual_rebate_break_even_rate": -0.17668512918357482,
+      "common_base_annual_net_rebate_examples": [
+        {
+          "net_rebate_rate": 0,
+          "PnL_USD": 11.651402685605738,
+          "PnL_fraction_initial_notional": 0.1924261384905985
+        },
+        {
+          "net_rebate_rate": 0.02,
+          "PnL_USD": 12.970291574494627,
+          "PnL_fraction_initial_notional": 0.21420795333599715
+        },
+        {
+          "net_rebate_rate": 0.04,
+          "PnL_USD": 14.289180463383516,
+          "PnL_fraction_initial_notional": 0.23598976818139583
+        }
+      ]
+    },
+    {
+      "endpoint": "2028-12-31",
+      "conditional_cover_USD": 54.57624488068242,
+      "days": 789,
+      "years_ACT36525": 2.1601642710472277,
+      "price_only_PnL_per_share_USD": 5.97375511931758,
+      "price_only_PnL_as_fraction_initial_notional": 0.09865821832068672,
+      "long_price_CAGR_if_realized": -0.0469468986582936,
+      "illustrative_common_collateral_year_exposure_USD": 129.6638888888889,
+      "net_annual_rebate_break_even_rate": -0.0460710778498753,
+      "common_base_annual_net_rebate_examples": [
+        {
+          "net_rebate_rate": 0,
+          "PnL_USD": 5.97375511931758,
+          "PnL_fraction_initial_notional": 0.09865821832068672
+        },
+        {
+          "net_rebate_rate": 0.02,
+          "PnL_USD": 8.567032897095359,
+          "PnL_fraction_initial_notional": 0.14148691820140974
+        },
+        {
+          "net_rebate_rate": 0.04,
+          "PnL_USD": 11.160310674873136,
+          "PnL_fraction_initial_notional": 0.18431561808213273
+        }
+      ]
+    },
+    {
+      "endpoint": "2029-12-31",
+      "conditional_cover_USD": 60.8641323994547,
+      "days": 1154,
+      "years_ACT36525": 3.159479808350445,
+      "price_only_PnL_per_share_USD": -0.3141323994546994,
+      "price_only_PnL_as_fraction_initial_notional": -0.005187983475717579,
+      "long_price_CAGR_if_realized": 0.0016391343893387145,
+      "illustrative_common_collateral_year_exposure_USD": 199.55555555555554,
+      "net_annual_rebate_break_even_rate": 0.0015741601308977141,
+      "common_base_annual_net_rebate_examples": [
+        {
+          "net_rebate_rate": 0,
+          "PnL_USD": -0.3141323994546994,
+          "PnL_fraction_initial_notional": -0.005187983475717579
+        },
+        {
+          "net_rebate_rate": 0.02,
+          "PnL_USD": 3.6769787116564117,
+          "PnL_fraction_initial_notional": 0.060726320588875504
+        },
+        {
+          "net_rebate_rate": 0.04,
+          "PnL_USD": 7.668089822767523,
+          "PnL_fraction_initial_notional": 0.1266406246534686
+        }
+      ]
+    },
+    {
+      "endpoint": "2030-12-31",
+      "conditional_cover_USD": 67.57762169851729,
+      "days": 1519,
+      "years_ACT36525": 4.158795345653662,
+      "price_only_PnL_per_share_USD": -7.027621698517294,
+      "price_only_PnL_as_fraction_initial_notional": -0.11606311640821294,
+      "long_price_CAGR_if_realized": 0.026755324880029407,
+      "illustrative_common_collateral_year_exposure_USD": 277.5083333333333,
+      "net_annual_rebate_break_even_rate": 0.025324002396987337,
+      "common_base_annual_net_rebate_examples": [
+        {
+          "net_rebate_rate": 0,
+          "PnL_USD": -7.027621698517294,
+          "PnL_fraction_initial_notional": -0.11606311640821294
+        },
+        {
+          "net_rebate_rate": 0.02,
+          "PnL_USD": -1.477455031850627,
+          "PnL_fraction_initial_notional": -0.024400578560703996
+        },
+        {
+          "net_rebate_rate": 0.04,
+          "PnL_USD": 4.07271163481604,
+          "PnL_fraction_initial_notional": 0.06726195928680495
+        }
+      ]
+    }
+  ],
+  "interpretation": "A future value above entry does not mathematically make short P&L negative if proceeds interest exceeds borrow sufficiently. Current preferred2030 price requires a positive net rebate to break even; modest conditional carry gain is not an evidence-backed catalyst or demonstrated account alpha.",
+  "limits": [
+    "Actual interest eligibility, fees, daily marked collateral, margin and recalls vary. No live quote obtained.",
+    "Short proceeds are collateral, not free distributable principal. Compare investor margin capital and cash alternative separately before any account-return claim.",
+    "Higher end-value under bullish/risk-maturation cases worsens passive price P&L; earlier convergence remains independent timing judgment."
+  ],
+  "sources": [
+    "https://www.interactivebrokers.com/en/pricing/short-sale-cost.php",
+    "https://www.ibkrguides.com/reportingreference/reportguide/borrowfeedetails_default.htm"
+  ]
+}

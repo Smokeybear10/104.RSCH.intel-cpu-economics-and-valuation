@@ -1,0 +1,87 @@
+{
+  "prepared_at_utc": "2026-11-04 22:56 UTC",
+  "scope": "Buyer and user evidence for CPU performance value, architecture choice, and limits on unit/ASP extrapolation; no Intel forecast change or direct price target.",
+  "sources": [
+    {
+      "title": "NVIDIA Vera CPUs double throughput for Modal Sandboxes",
+      "url": "https://modal.com/blog/nvidia-vera-sandboxes",
+      "date": "2026-10-19",
+      "classification": "Prospective buyer/operator, early own tests; hardware supplied by NVIDIA; not independent laboratory replication.",
+      "facts": [
+        "Modal tested 50 oracle task solutions and verifiers with network and LLM latency removed. Early loaded throughput was up to roughly twice a GNR comparison, while unloaded task differences were smaller.",
+        "Modal describes willingness to undertake Arm infrastructure/image changes, and plans to scale Vera support. No signed volume, chip price, BOM, power-normalized comparison or named Intel SKU is disclosed.",
+        "Its rationale explicitly includes GPU idle time in synchronous RL and customer responsiveness, beyond raw CPU COGS."
+      ],
+      "interpretation": "Strong evidence that memory bandwidth and loaded per-core consistency have buyer value and can justify premium silicon. It also shows x86 switching costs are surmountable for a growing workload; it does not prove displacement of all x86 or exact market share."
+    },
+    {
+      "title": "Modal agentless-agent-bench implementation",
+      "url": "https://github.com/modal-projects/agentless-agent-bench",
+      "read_via": "GitHub plugin fetch_file, read-only; no code run",
+      "readme_blob_sha": "94f514f9bd77bd3a2654224fd26c59af9cd40d9a",
+      "main_py_blob_sha": "86f07ee5cf43e037edcbbe30e4844be066cfd8d1",
+      "facts": [
+        "Prewarms containers and uses successful solve-plus-verifier completions. This is better controlled than raw SPEC alone for the stated sandbox use.",
+        "Pins containers to logical CPU IDs 0 through n-1 and uses os.cpu_count; code does not itself normalize CPU topology, physical cores, NUMA placement, chip prices, memory configurations or power. Comparative article configurations are not supplied in the files read.",
+        "Throughput sums successful loops across fixed task lanes. Fast tasks can contribute more completions; the mix is a selected tool benchmark, not a measured population of all production agents."
+      ],
+      "guard": "These are scope limits, not a claim that the reported benchmark was invalid. No unsupported assertion about actual test topology was made."
+    },
+    {
+      "title": "DeepInfra Vera benchmark",
+      "url": "https://deepinfra.com/blog/nvidia-vera-cpu-benchmark",
+      "date": "2026-07-21",
+      "classification": "Operator with early access, its own controlled harness. No independent replication performed.",
+      "facts": [
+        "Replays captured agent traffic with fixed injected CPU work, no live model generation; uses 20 physical cores, one thread/core and one NUMA node.",
+        "Vera orchestration-step advantage was 1.76x over Intel GNR, 1.2x over AMD Zen5; same-QoS concurrency also improved. These are task/per-core results, not full-socket cost comparisons.",
+        "Secure microVM overhead and even clock tuning within the same GNR silicon materially affect results."
+      ],
+      "interpretation": "Premium per-core behavior and software/runtime matching matter. More physical cores or a faster SPEC score alone cannot set the revenue mix. Supports Intel need to deliver competitive loaded latency/bandwidth, not just attach CPUs to GPU racks."
+    },
+    {
+      "title": "OCI Vera general availability",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/nvidia-vera-cpus-oci",
+      "date": "2026-10-27",
+      "classification": "Buying/deploying cloud operator; named production user quote; vendor marketing attribution preserved.",
+      "facts": [
+        "Initial 150,000 CPUs will be made available; early users and an OpenAI production-use statement are named. Region rollout continues this quarter.",
+        "Oracle explicitly says its +80% comparison is based on NVIDIA platform benchmarks, not OCI instance testing.",
+        "Vera supports standalone CPU workloads as well as GPU-associated roles."
+      ],
+      "novelty": "General Oracle Vera availability was previously noted in a SpaceX deployment source; the 150k and benchmark-attribution details are new checks for this Intel question, not a new global discovery.",
+      "interpretation": "Competition has reached deployment, rather than only an architectural roadmap. No complete installed-and-billed count or comparative customer economics is established."
+    },
+    {
+      "title": "CoreWeave to offer Vera",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-to-Offer-NVIDIA-Vera-the-First-CPU-Built-for-AI-Agents/default.aspx",
+      "date": "2026-09-30",
+      "classification": "Operator and commercial partner, not neutral benchmark authority.",
+      "facts": [
+        "Plans Vera alongside other CPUs and describes bursty thousands-of-environments demand.",
+        "Own testing reports faster sandbox startup. A rack specifies 128 CPUs and 11,264 cores; these are configured capacity, not proof of paid continuous utilization."
+      ],
+      "interpretation": "Adds a buyer to a heterogeneous market; capacity counts do not convert to incremental Intel-lost demand without workload and budget mapping."
+    },
+    {
+      "title": "Intel Hot Chips response already in prior ASP policy",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/client-computing/intel-outlines-architectures-for-agentic-ai-at-hot-chips-2026.html",
+      "date": "2026-08-24",
+      "novelty": "Already researched in the frozen server ASP policy; rechecked, not counted new.",
+      "facts": [
+        "Diamond Rapids uses 18A-P with higher core count, memory channels and bandwidth, plus new instruction capabilities.",
+        "These design features address the same bottlenecks buyers emphasize, but published design specs do not establish measured customer TCO or shipment mix."
+      ],
+      "interpretation": "Current GNR benchmark disadvantage is not a permanent 2030 performance forecast. Existing aggressive mix recovery already anticipates a meaningful response."
+    }
+  ],
+  "what_evidence_discriminates": {
+    "CPU_budget": "Buyers value reduced GPU waiting and better task completion, so CPU spending can increase even if CPU time per task falls. Source data do not disclose the fraction of total platform savings captured in CPU prices.",
+    "premium_ASP": "Supports paying for bandwidth, sustained loaded latency and isolation performance. It does not support assuming all new work buys top-priced many-core Xeons; scheduler/orchestration/runner roles differ and inexpensive cores can serve some roles.",
+    "core_mix": "Core count, logical thread count, per-core work, memory bandwidth and server count must be separated. High core count can raise chip ASP but reduce sockets needed per workload.",
+    "Intel_share": "Buyer willingness to switch to Arm is real; existing 2027 base already accepts Intel share decline from 50% to 42% against ~43% industry growth. No duplicate blanket share penalty is justified.",
+    "rebound": "See CPU_task_efficiency_rebound_diagnostic.json. Software efficiency is an intensity effect; task adoption, richer tasks, price pass-through and reduced GPU idle cost can offset or exceed it. No elasticity is measured here."
+  },
+  "fair_bull_statement": "Agentic work raises the economic value of host-side performance. If Intel executes its already-planned architecture and supply ramp, it can sell higher-value CPUs into an expanding budget despite share loss. Current data support that mechanism but do not establish that Intel captures the relevant premium better than Vera, AMD or custom Arm.",
+  "fair_bear_statement": "The market is buying delivered task economics, not a fixed x86 CPU per agent. Competition and software pooling may limit unit growth and value capture even while CPU importance rises. This is a risk to a joint recovery, not a quantified downward revision from small benchmark studies."
+}

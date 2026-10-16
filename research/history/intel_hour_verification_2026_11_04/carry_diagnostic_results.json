@@ -1,0 +1,148 @@
+{
+  "computed_utc": "2026-11-04T22:39:02.834113+00:00",
+  "scope": "Test whether short carry or a specified benchmark role can resolve the valuation-to-position gap. These are scenarios, not actual financing quotes or demonstrated alpha.",
+  "policy": "carry_diagnostic_policy.json",
+  "rows": [
+    {
+      "endpoint": "2029-12-31",
+      "T_ACT36525": 3.156741957563313,
+      "case": "flat_12pct",
+      "conditional_cover_USD": 60.86413239945473,
+      "price_only_short_PnL_per_share_USD": -2.584132399454731,
+      "break_even_constant_net_proceeds_yield": 0.013838497387837378,
+      "hypothetical_net_yield_results": [
+        {
+          "q": 0,
+          "short_PnL_per_initial_share_USD": -2.584132399454731
+        },
+        {
+          "q": 0.02,
+          "short_PnL_per_initial_share_USD": 1.1753357633431634
+        },
+        {
+          "q": 0.03,
+          "short_PnL_per_initial_share_USD": 3.115736957154759
+        },
+        {
+          "q": 0.04,
+          "short_PnL_per_initial_share_USD": 5.097197001604016
+        },
+        {
+          "q": 0.0529,
+          "short_PnL_per_initial_share_USD": 7.714674004157487
+        }
+      ]
+    },
+    {
+      "endpoint": "2029-12-31",
+      "T_ACT36525": 3.156741957563313,
+      "case": "maturing_risk",
+      "conditional_cover_USD": 69.15455590294242,
+      "price_only_short_PnL_per_share_USD": -10.874555902942419,
+      "break_even_constant_net_proceeds_yield": 0.05569222372648319,
+      "hypothetical_net_yield_results": [
+        {
+          "q": 0,
+          "short_PnL_per_initial_share_USD": -10.874555902942419
+        },
+        {
+          "q": 0.02,
+          "short_PnL_per_initial_share_USD": -7.115087740144524
+        },
+        {
+          "q": 0.03,
+          "short_PnL_per_initial_share_USD": -5.174686546332929
+        },
+        {
+          "q": 0.04,
+          "short_PnL_per_initial_share_USD": -3.1932265018836716
+        },
+        {
+          "q": 0.0529,
+          "short_PnL_per_initial_share_USD": -0.5757494993302004
+        }
+      ]
+    },
+    {
+      "endpoint": "2030-12-31",
+      "T_ACT36525": 4.15605749486653,
+      "case": "flat_12pct",
+      "conditional_cover_USD": 67.57762169851732,
+      "price_only_short_PnL_per_share_USD": -9.297621698517318,
+      "break_even_constant_net_proceeds_yield": 0.03625679068129917,
+      "hypothetical_net_yield_results": [
+        {
+          "q": 0,
+          "short_PnL_per_initial_share_USD": -9.297621698517318
+        },
+        {
+          "q": 0.02,
+          "short_PnL_per_initial_share_USD": -4.298221877365982
+        },
+        {
+          "q": 0.03,
+          "short_PnL_per_initial_share_USD": -1.6796895149057605
+        },
+        {
+          "q": 0.04,
+          "short_PnL_per_initial_share_USD": 1.020319334243382
+        },
+        {
+          "q": 0.0529,
+          "short_PnL_per_initial_share_USD": 4.626455952370506
+        }
+      ]
+    },
+    {
+      "endpoint": "2030-12-31",
+      "T_ACT36525": 4.15605749486653,
+      "case": "maturing_risk",
+      "conditional_cover_USD": 76.86289602242353,
+      "price_only_short_PnL_per_share_USD": -18.582896022423526,
+      "break_even_constant_net_proceeds_yield": 0.06886034945884623,
+      "hypothetical_net_yield_results": [
+        {
+          "q": 0,
+          "short_PnL_per_initial_share_USD": -18.582896022423526
+        },
+        {
+          "q": 0.02,
+          "short_PnL_per_initial_share_USD": -13.58349620127219
+        },
+        {
+          "q": 0.03,
+          "short_PnL_per_initial_share_USD": -10.964963838811968
+        },
+        {
+          "q": 0.04,
+          "short_PnL_per_initial_share_USD": -8.264954989662826
+        },
+        {
+          "q": 0.0529,
+          "short_PnL_per_initial_share_USD": -4.658818371535702
+        }
+      ]
+    }
+  ],
+  "conclusion": "Positive future stock appreciation does not logically rule out positive short PnL. Carry does not automatically create an attractive trade: the central2030case requires net proceeds earnings above3.63% in this simplified model, and successful risk maturation requires6.89%. These are not available broker quotes or returns on posted margin.",
+  "primary_broker_source": "https://www.interactivebrokers.com/en/pricing/short-sale-cost.php",
+  "broker_facts": {
+    "separate_components": "Borrow fee and interest credited on short-sale proceeds; eligibility and tiers matter.",
+    "observed_USD_Pro_short_proceeds_tiers_percent": [
+      0,
+      2.63,
+      3.38,
+      3.63
+    ],
+    "scope": "Source page illustrative posted tier rates at retrieval, not an INTC stock borrow quote, not a forecast or M37 institutional execution rate. Borrow fees still deducted.",
+    "maturity_mismatch": "A ten-year Treasury input used to value operations is not the overnight or short-proceeds rate."
+  },
+  "limitations": [
+    "Actual borrow fee base is marked collateral and differs from credited proceeds; fixed-net-yield compounding is only a transparent aggregate scenario.",
+    "No return on user capital or margin financing is claimed.",
+    "No dividend is assumed, consistent with cash-retention model. Future dividends require jointly reducing retained cash in endpoint value.",
+    "Initial margin capital benchmark opportunity cost must be deducted separately to claim excess account return.",
+    "No implied carry rate is substituted for operating discount rate.",
+    "Long-short expected alpha requires an explicit matched hedge, factor exposures and future benchmark returns; absent these, do not claim alpha."
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "computed_utc": "2026-11-05T23:47:09.593374+00:00",
+  "policy_sha256": "f2a32ee0d5150c9860c58cf60e7137553bd56312de5ac005784d8d156ae93ab0",
+  "input_sha256": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/explicit_claims_overlay_policy.json": "f2a32ee0d5150c9860c58cf60e7137553bd56312de5ac005784d8d156ae93ab0",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/extended_scenarios.py": "83eea412e57625fcd69837c9e96de93058eee4e1a3eeab1714c79403d58cdc9b",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/extended_scenario_results.json": "a209863ac7b255d106dad3c266dc98632e46ff7d0628cf5c81b857d2fd22927c",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/reconstruction_results.json": "4b778d50d8d012c6baf95122f01035e6ce3fe3b153643e5922f2a3e3d40179a6",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/return_value_bridge.json": "36e0a86cc5cdcc20b6785c0964b392f37c2c3225fa18c20a95cd5036c68b622c",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_hour_verification_2026_11_04/weak_demand_results.json": "e7a3115ac8e08b07ac9a7a7b076bcc9b7ede34656341a96b8093cc18b4e0cf6a",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_directional_build_2026_11_05/joint_downside_results.json": "3a5ae36a6f522906894fb9a0e15bf68a703c3b16bee7a7fe4f21dc121f5cb945",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/other_DCAI_scenario_results.json": "6b76d54ebe43824285a3abbaf428da34c3c7b32656480497a2f2e1bb4c350345"
+  },
+  "policy": {
+    "frozen_utc": "2026-11-05T23:42:00.915588+00:00",
+    "authorization": "Root instructed adoption of a1.215B explicit additional reserve following full-note review and discovery of existing EC collateral. No frozen operating model is changed.",
+    "claims_B": {
+      "Altera_SLP_unpaid_separation_and_employee_costs": 0.215,
+      "VLSI_recorded_litigation_accrual": 1.0,
+      "total_additional_reserve": 1.215
+    },
+    "valuation_method": "Deduct1.215B as a separate nominal nonoperating claim at every endpoint, alongside existing other assets/claims. No tax benefit, expected settlement date, recovery, speculative interest or probability-weighted legal outcome is assigned. The VLSI book accrual is not a maximum loss.",
+    "coverage_policy": "Existing Q4 CFO, future corporate restructuring and working-capital budgets explicitly exclude payments against these two named reserves. If a payment is subsequently modeled, reduce cash and release the same reserve once; never also deduct the unchanged reserve. Do not expense a previously accrued settlement again in operating EBIT.",
+    "EC_matched_treatment": "Do not add the312M EC accrual as an additional claim while all552M restricted cash remains excluded. The2025annual filing explicitly identifies340M of funded EC guarantee deposits; the latest quarter gives no refreshed EC collateral split or release. Retain the existing exclusion and grant no28M surplus recovery. This does not assert an exact2026EC restricted balance.",
+    "unchanged": [
+      "Operating revenue, margins, capital, D&A, WC and tax/credit forecasts.",
+      "Current5.51Bplanning shares and52.22entry.",
+      "Treasury cash balances before settlement against these newly explicit reserves.",
+      "Operating discount11.555%, terminalgrowth3% and named old/favorable risk cases.",
+      "Original frozen model files and current PDF files."
+    ],
+    "requested_outputs": [
+      "All main screen and defense scenario prices and annual price returns.",
+      "Temporary2027CPUshipmentdelay.",
+      "Base entry ceilings at8/10/12/15%chosen return hurdles.",
+      "Conditional mature-DCAI-margin roots matching52.22planning value under base CPU growth and3%CPUrevenue growth from2031.",
+      "Reconciled absolute base APV and unchanged operating-value duration percentages."
+    ],
+    "quote_date_limit": "Reference quote November5,2026 precedes December31,2026 planning valuation by56days. Do not call reverse roots unique market expectations.",
+    "sources": [
+      {
+        "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+        "printed_pages": [
+          19,
+          25,
+          27
+        ],
+        "facts": "Altera169Mcurrent+46Mlong-termpayable; VLSI1Baccrual remains active; EC312Maccrual."
+      },
+      {
+        "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+        "printed_pages": [
+          31,
+          82
+        ],
+        "facts": "340M deposited into legally restricted accounts to fund the EC guarantee."
+      }
+    ]
+  },
+  "additional_reserve_B": 1.215,
+  "shares_B": 5.51,
+  "per_share_claim_deduction_USD": 0.22050816696914702,
+  "net_other_assets_before_B": 5.717,
+  "net_other_assets_after_B": 4.502,
+  "holding_years": 4.153319644079398,
+  "cases": {
+    "base": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 51.287102511241415,
+        "before_Dec2030_target_USD": 77.6819879986314,
+        "December2026_planning_value_USD": 51.06659434427227,
+        "December2030_target_USD": 77.46147983166225,
+        "annual_price_return_from52_22": 0.09959262555477988,
+        "total_price_return_from52_22": 0.48336805499161706,
+        "planning_value_change_from52_22": -0.022087431170580873,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 51.066594344272275,
+          "equity_B": 281.3769348369402,
+          "explicit_operating_PV_B": 146.6785135044461,
+          "terminal_operating_PV_B": 126.64293047549664,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 77.46147983166226,
+          "equity_B": 426.81275387245904,
+          "explicit_operating_PV_B": 194.75335216328136,
+          "terminal_operating_PV_B": 196.12687727775884,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "foundry_recovery_delayed_one_year": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 49.91805688634767,
+        "before_Dec2030_target_USD": 75.98507329808693,
+        "December2026_planning_value_USD": 49.697548719378524,
+        "December2030_target_USD": 75.76456513111778,
+        "annual_price_return_from52_22": 0.0937439964572786,
+        "total_price_return_from52_22": 0.45087256091761363,
+        "planning_value_change_from52_22": -0.04830431406781832,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 49.69754871937853,
+          "equity_B": 273.8334934437757,
+          "explicit_operating_PV_B": 139.13507211128157,
+          "terminal_operating_PV_B": 126.64293047549664,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 75.76456513111779,
+          "equity_B": 417.462753872459,
+          "explicit_operating_PV_B": 194.75335216328136,
+          "terminal_operating_PV_B": 196.12687727775884,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 56.429110644839156,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 28.24344072226716,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "profit_retention_erosion_from_2028": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 45.221842694654946,
+        "before_Dec2030_target_USD": 68.3625828221679,
+        "December2026_planning_value_USD": 45.0013345276858,
+        "December2030_target_USD": 68.14207465519874,
+        "annual_price_return_from52_22": 0.06617372929688736,
+        "total_price_return_from52_22": 0.3049037658980993,
+        "planning_value_change_from52_22": -0.13823564673140942,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 45.0013345276858,
+          "equity_B": 247.95735324754872,
+          "explicit_operating_PV_B": 128.462216865142,
+          "terminal_operating_PV_B": 111.43964552540919,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 68.14207465519875,
+          "equity_B": 375.4628313501451,
+          "explicit_operating_PV_B": 171.83497177461467,
+          "terminal_operating_PV_B": 172.5821536170763,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 60.892292171874516,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 33.93170661743032,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "CPU_growth_normalizes_2031": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 46.2272509563914,
+        "before_Dec2030_target_USD": 69.84599682868797,
+        "December2026_planning_value_USD": 46.006742789422255,
+        "December2030_target_USD": 69.62548866171882,
+        "annual_price_return_from52_22": 0.07171642761929631,
+        "total_price_return_from52_22": 0.3333107748318427,
+        "planning_value_change_from52_22": -0.1189823288122892,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 46.00674278942225,
+          "equity_B": 253.4971527697166,
+          "explicit_operating_PV_B": 139.3583071045807,
+          "terminal_operating_PV_B": 106.0833548081384,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 69.62548866171883,
+          "equity_B": 383.63644252607077,
+          "explicit_operating_PV_B": 183.41683920638914,
+          "terminal_operating_PV_B": 164.28707888826287,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "capital_productivity_060": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 47.79249963789284,
+        "before_Dec2030_target_USD": 72.27003530374053,
+        "December2026_planning_value_USD": 47.57199147092369,
+        "December2030_target_USD": 72.04952713677137,
+        "annual_price_return_from52_22": 0.0805837736602324,
+        "total_price_return_from52_22": 0.3797305081725657,
+        "planning_value_change_from52_22": -0.08900820622513039,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 47.5719914709237,
+          "equity_B": 262.12167300478956,
+          "explicit_operating_PV_B": 133.56978139399936,
+          "terminal_operating_PV_B": 120.49640075379271,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 72.04952713677139,
+          "equity_B": 396.99289452361035,
+          "explicit_operating_PV_B": 174.4523793080295,
+          "terminal_operating_PV_B": 186.60799078416204,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "mature_tax_21": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 49.43698799732879,
+        "before_Dec2030_target_USD": 74.81678912130323,
+        "December2026_planning_value_USD": 49.216479830359646,
+        "December2030_target_USD": 74.59628095433408,
+        "annual_price_return_from52_22": 0.08965929264229766,
+        "total_price_return_from52_22": 0.4285002097727706,
+        "planning_value_change_from52_22": -0.05751666353198681,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 49.216479830359646,
+          "equity_B": 271.18280386528164,
+          "explicit_operating_PV_B": 141.8547814648682,
+          "terminal_operating_PV_B": 121.01695733369255,
+          "financing_shield_PV_B": 2.844528297718555,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 74.59628095433409,
+          "equity_B": 411.0255080583808,
+          "explicit_operating_PV_B": 187.28302991003775,
+          "terminal_operating_PV_B": 187.41415608749807,
+          "financing_shield_PV_B": 3.1442114160057555,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "no_new_capital_credits": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 49.55398572510094,
+        "before_Dec2030_target_USD": 75.16077407324191,
+        "December2026_planning_value_USD": 49.33347755813179,
+        "December2030_target_USD": 74.94026590627276,
+        "annual_price_return_from52_22": 0.09086699186895864,
+        "total_price_return_from52_22": 0.4350874359684558,
+        "planning_value_change_from52_22": -0.05527618617135599,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 49.3334775581318,
+          "equity_B": 271.8274613453062,
+          "explicit_operating_PV_B": 137.12904001281203,
+          "terminal_operating_PV_B": 126.64293047549664,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 74.94026590627277,
+          "equity_B": 412.92086514356293,
+          "explicit_operating_PV_B": 190.78046343438533,
+          "terminal_operating_PV_B": 196.12687727775884,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 55.86011064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 32.54194072226716,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "terminal_incremental_return_equal_operating_rate": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 47.71549560378393,
+        "before_Dec2030_target_USD": 72.15078221404286,
+        "December2026_planning_value_USD": 47.49498743681478,
+        "December2030_target_USD": 71.93027404707371,
+        "annual_price_return_from52_22": 0.0801528754938996,
+        "total_price_return_from52_22": 0.37744684119252603,
+        "planning_value_change_from52_22": -0.09048281430841087,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 47.49498743681478,
+          "equity_B": 261.69738077684946,
+          "explicit_operating_PV_B": 146.6785135044461,
+          "terminal_operating_PV_B": 106.96337641540589,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 71.93027404707372,
+          "equity_B": 396.3358099993762,
+          "explicit_operating_PV_B": 194.75335216328136,
+          "terminal_operating_PV_B": 165.64993340467603,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "embedded_packaging_sales_capital_denominator": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 51.18436394788228,
+        "before_Dec2030_target_USD": 77.52288086543432,
+        "December2026_planning_value_USD": 50.963855780913136,
+        "December2030_target_USD": 77.30237269846516,
+        "annual_price_return_from52_22": 0.09904839962010303,
+        "total_price_return_from52_22": 0.480321193000099,
+        "planning_value_change_from52_22": -0.02405484908247535,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 50.96385578091314,
+          "equity_B": 280.8108453528314,
+          "explicit_operating_PV_B": 146.3673223144297,
+          "terminal_operating_PV_B": 126.38803218140418,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 77.30237269846518,
+          "equity_B": 425.9360735685431,
+          "explicit_operating_PV_B": 194.2714227250955,
+          "terminal_operating_PV_B": 195.73212641202886,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "remove_external_packaging_overlay": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 50.32238053103555,
+        "before_Dec2030_target_USD": 76.00398120206569,
+        "December2026_planning_value_USD": 50.1018723640664,
+        "December2030_target_USD": 75.78347303509653,
+        "annual_price_return_from52_22": 0.09380971023578488,
+        "total_price_return_from52_22": 0.4512346425717453,
+        "planning_value_change_from52_22": -0.04056161692710836,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 50.1018723640664,
+          "equity_B": 276.0613167260059,
+          "explicit_operating_PV_B": 145.3341542678951,
+          "terminal_operating_PV_B": 122.6716716011133,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 75.78347303509655,
+          "equity_B": 417.56693642338195,
+          "explicit_operating_PV_B": 188.5289692007185,
+          "terminal_operating_PV_B": 189.9767463626732,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 68.9078070734106,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 36.2302603312,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "temporary_2027_unit_shortfall_restore_2028": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 51.11016568489131,
+        "before_Dec2030_target_USD": 77.47967534890363,
+        "December2026_planning_value_USD": 50.88965751792216,
+        "December2030_target_USD": 77.25916718193447,
+        "annual_price_return_from52_22": 0.09890046834349375,
+        "total_price_return_from52_22": 0.4794938181144097,
+        "planning_value_change_from52_22": -0.025475727347335053,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 50.88965751792216,
+          "equity_B": 280.4020129237511,
+          "explicit_operating_PV_B": 145.70359159125695,
+          "terminal_operating_PV_B": 126.64293047549664,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 77.25916718193449,
+          "equity_B": 425.698011172459,
+          "explicit_operating_PV_B": 194.75335216328136,
+          "terminal_operating_PV_B": 196.12687727775884,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 64.66436794483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 33.716198022267164,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "joint_downside": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 30.450105842961268,
+        "before_Dec2030_target_USD": 45.6908589860078,
+        "December2026_planning_value_USD": 30.22959767599212,
+        "December2030_target_USD": 45.47035081903865,
+        "annual_price_return_from52_22": -0.0327748386488389,
+        "total_price_return_from52_22": -0.12925410151209016,
+        "planning_value_change_from52_22": -0.42111073006526,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "method": "Explicit endpoint claims subtraction from authoritative paired scenario; operations, cash and risk path unchanged.",
+      "minimum_economic_cash_before_named_claim_payment_B": 31.212559251941357,
+      "minimum_annual_cash_less_full_claim_reserve_B": 29.997559251941357
+    },
+    "persistent_lower_CPU_demand": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 39.07346602199764,
+        "before_Dec2030_target_USD": 59.04551445083071,
+        "December2026_planning_value_USD": 38.85295785502849,
+        "December2030_target_USD": 58.82500628386156,
+        "annual_price_return_from52_22": 0.029091333979578415,
+        "total_price_return_from52_22": 0.1264842260410104,
+        "planning_value_change_from52_22": -0.2559755293943222,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "method": "Explicit endpoint claims subtraction from authoritative paired scenario; operations, cash and risk path unchanged.",
+      "minimum_economic_cash_before_named_claim_payment_B": 31.212559251941357,
+      "minimum_annual_cash_less_full_claim_reserve_B": 29.997559251941357
+    },
+    "mature_only_margin35": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 46.95806228358315,
+        "before_Dec2030_target_USD": 70.97777530967524,
+        "December2026_planning_value_USD": 46.73755411661401,
+        "December2030_target_USD": 70.75726714270608,
+        "annual_price_return_from52_22": 0.07588526461272305,
+        "total_price_return_from52_22": 0.35498405099015873,
+        "planning_value_change_from52_22": -0.10498747382968199,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "method": "Explicit endpoint claims subtraction from authoritative paired scenario; operations, cash and risk path unchanged."
+    },
+    "paired_base_crosscheck": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 51.287102511241436,
+        "before_Dec2030_target_USD": 77.6819879986314,
+        "December2026_planning_value_USD": 51.06659434427229,
+        "December2030_target_USD": 77.46147983166225,
+        "annual_price_return_from52_22": 0.09959262555477988,
+        "total_price_return_from52_22": 0.48336805499161706,
+        "planning_value_change_from52_22": -0.02208743117058043,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "method": "Explicit endpoint claims subtraction from authoritative paired scenario; operations, cash and risk path unchanged."
+    },
+    "favorable_maturing_risk": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 59.005978893709745,
+        "before_Dec2030_target_USD": 89.63590532589556,
+        "December2026_planning_value_USD": 58.7854707267406,
+        "December2030_target_USD": 89.41539715892641,
+        "annual_price_return_from52_22": 0.13825155781631304,
+        "total_price_return_from52_22": 0.7122825959196939,
+        "planning_value_change_from52_22": 0.12572712996439295,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "method": "Explicit endpoint claims subtraction from authoritative paired scenario; operations, cash and risk path unchanged."
+    },
+    "whole_other_tripling_2030_retention0.1": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 51.20665337927214,
+        "before_Dec2030_target_USD": 77.55768397665699,
+        "December2026_planning_value_USD": 50.98614521230299,
+        "December2030_target_USD": 77.33717580968784,
+        "annual_price_return_from52_22": 0.09916751627672715,
+        "total_price_return_from52_22": 0.4809876639158912,
+        "planning_value_change_from52_22": -0.02362801202024134,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 50.986145212303,
+          "equity_B": 280.9336601197895,
+          "explicit_operating_PV_B": 146.68352308292938,
+          "terminal_operating_PV_B": 126.19464617986264,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 77.33717580968784,
+          "equity_B": 426.12783871138,
+          "explicit_operating_PV_B": 194.86116997494224,
+          "terminal_operating_PV_B": 195.43263719104223,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.68061775881587,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "whole_other_tripling_2030_retention0.2": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 50.86221143650762,
+        "before_Dec2030_target_USD": 77.02777064536815,
+        "December2026_planning_value_USD": 50.641703269538475,
+        "December2030_target_USD": 76.807262478399,
+        "annual_price_return_from52_22": 0.09734941615068093,
+        "total_price_return_from52_22": 0.4708399555419187,
+        "planning_value_change_from52_22": -0.030223989476474977,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 50.641703269538475,
+          "equity_B": 279.035785015157,
+          "explicit_operating_PV_B": 145.59191057644946,
+          "terminal_operating_PV_B": 125.38838358171,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 76.80726247839901,
+          "equity_B": 423.2080162559785,
+          "explicit_operating_PV_B": 193.4753072736239,
+          "terminal_operating_PV_B": 194.18401032298246,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.39528487279257,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "whole_other_tripling_2030_retention0.3": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 50.51776949374308,
+        "before_Dec2030_target_USD": 76.49785731407933,
+        "December2026_planning_value_USD": 50.297261326773935,
+        "December2030_target_USD": 76.27734914711017,
+        "annual_price_return_from52_22": 0.09552176751257391,
+        "total_price_return_from52_22": 0.46069224716794666,
+        "planning_value_change_from52_22": -0.03681996693270895,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 50.29726132677394,
+          "equity_B": 277.1379099105244,
+          "explicit_operating_PV_B": 144.50029806996955,
+          "terminal_operating_PV_B": 124.58212098355733,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 76.27734914711019,
+          "equity_B": 420.2881938005771,
+          "explicit_operating_PV_B": 192.0894445723056,
+          "terminal_operating_PV_B": 192.93538345492263,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.10995198676927,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "other_growth_normalizes_2031_retention0.1": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 51.77795096829114,
+        "before_Dec2030_target_USD": 78.4421455118563,
+        "December2026_planning_value_USD": 51.55744280132199,
+        "December2030_target_USD": 78.22163734488714,
+        "annual_price_return_from52_22": 0.1021810926712663,
+        "total_price_return_from52_22": 0.49792488213112107,
+        "planning_value_change_from52_22": -0.01268780541321346,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 51.557442801322,
+          "equity_B": 284.0815098352842,
+          "explicit_operating_PV_B": 150.78390106719368,
+          "terminal_operating_PV_B": 125.24211791109302,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 78.22163734488716,
+          "equity_B": 431.0012217703282,
+          "explicit_operating_PV_B": 201.1112028516182,
+          "terminal_operating_PV_B": 193.9574944872912,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "other_growth_normalizes_2031_retention0.2": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 50.924467425671466,
+        "before_Dec2030_target_USD": 77.12038944230339,
+        "December2026_planning_value_USD": 50.70395925870232,
+        "December2030_target_USD": 76.89988127533424,
+        "annual_price_return_from52_22": 0.09766787089348683,
+        "total_price_return_from52_22": 0.4726135824460789,
+        "planning_value_change_from52_22": -0.02903180278241435,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 50.70395925870232,
+          "equity_B": 279.3788155154498,
+          "explicit_operating_PV_B": 148.6006409294192,
+          "terminal_operating_PV_B": 122.72268372903311,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 76.89988127533425,
+          "equity_B": 423.7183458270917,
+          "explicit_operating_PV_B": 197.73007457624584,
+          "terminal_operating_PV_B": 190.05574681942701,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    },
+    "other_growth_normalizes_2031_retention0.3": {
+      "summary": {
+        "before_Dec2026_planning_value_USD": 50.0709838830518,
+        "before_Dec2030_target_USD": 75.79863337275049,
+        "December2026_planning_value_USD": 49.850475716082656,
+        "December2030_target_USD": 75.57812520578133,
+        "annual_price_return_from52_22": 0.09309536321391776,
+        "total_price_return_from52_22": 0.4473022827610367,
+        "planning_value_change_from52_22": -0.04537580015161513,
+        "per_share_claim_deduction_USD": 0.22050816696914702
+      },
+      "values": {
+        "2026": {
+          "price_USD": 49.85047571608266,
+          "equity_B": 274.67612119561545,
+          "explicit_operating_PV_B": 146.41738079164475,
+          "terminal_operating_PV_B": 120.20324954697324,
+          "financing_shield_PV_B": 2.58895408799514,
+          "economic_cash_B": 50.839,
+          "ordinary_debt_B": 50.134
+        },
+        "2030": {
+          "price_USD": 75.57812520578135,
+          "equity_B": 416.4354698838552,
+          "explicit_operating_PV_B": 194.34894630087348,
+          "terminal_operating_PV_B": 186.1539991515629,
+          "financing_shield_PV_B": 2.748413786579589,
+          "economic_cash_B": 65.77911064483916,
+          "ordinary_debt_B": 37.097
+        }
+      },
+      "minimum_economic_cash_before_named_claim_payment_B": 34.74028711691429,
+      "method": "Independent APV recalculation with only net other assets reduced."
+    }
+  },
+  "base_APV": {
+    "2026": {
+      "price_USD": 51.066594344272275,
+      "equity_B": 281.3769348369402,
+      "explicit_operating_PV_B": 146.6785135044461,
+      "terminal_operating_PV_B": 126.64293047549664,
+      "financing_shield_PV_B": 2.58895408799514,
+      "economic_cash_B": 50.839,
+      "ordinary_debt_B": 50.134,
+      "total_operating_value_B": 273.3214439799427,
+      "net_financial_claims_and_tax_benefit_B": 8.055490856997494,
+      "net_other_assets_after_added_claims_B": 4.502,
+      "added_claim_reserve_B": 1.215
+    },
+    "2030": {
+      "price_USD": 77.46147983166226,
+      "equity_B": 426.81275387245904,
+      "explicit_operating_PV_B": 194.75335216328136,
+      "terminal_operating_PV_B": 196.12687727775884,
+      "financing_shield_PV_B": 2.748413786579589,
+      "economic_cash_B": 65.77911064483916,
+      "ordinary_debt_B": 37.097,
+      "total_operating_value_B": 390.8802294410402,
+      "net_financial_claims_and_tax_benefit_B": 35.93252443141881,
+      "net_other_assets_after_added_claims_B": 4.502,
+      "added_claim_reserve_B": 1.215
+    }
+  },
+  "entry_ceilings_and_return_hurdles": [
+    {
+      "chosen_annual_price_return": 0.08,
+      "maximum_entry_with_base_target_USD": 56.26861807877052,
+      "required2030_target_at52_22_USD": 71.88800107276043,
+      "conditional_mature_DCAI_margin_for_required_target": 0.35843301057495514,
+      "target_reconstruction_error_USD": -2.842170943040401e-14
+    },
+    {
+      "chosen_annual_price_return": 0.1,
+      "maximum_entry_with_base_target_USD": 52.13972510817397,
+      "required2030_target_at52_22_USD": 77.58074037439181,
+      "conditional_mature_DCAI_margin_for_required_target": 0.40088944480331,
+      "target_reconstruction_error_USD": -1.4210854715202004e-14
+    },
+    {
+      "chosen_annual_price_return": 0.12,
+      "maximum_entry_with_base_target_USD": 48.380194403878534,
+      "required2030_target_at52_22_USD": 83.60938864861446,
+      "conditional_mature_DCAI_margin_for_required_target": 0.4458510872356395,
+      "target_reconstruction_error_USD": -1.4210854715202004e-14
+    },
+    {
+      "chosen_annual_price_return": 0.15,
+      "maximum_entry_with_base_target_USD": 43.3499156573939,
+      "required2030_target_at52_22_USD": 93.31133441592907,
+      "conditional_mature_DCAI_margin_for_required_target": 0.5182081723807501,
+      "target_reconstruction_error_USD": 1.4210854715202004e-14
+    }
+  ],
+  "conditional_reverse_margin_roots": [
+    {
+      "CPU_path": "base",
+      "host_capital_productivity": 0.6,
+      "mature_DCAI_margin_matching52_22_Dec2026_planning_value": 0.4536840533310378,
+      "value_at_root_USD": 52.22,
+      "planning_value_at40percent_margin_USD": 47.5719914709237
+    },
+    {
+      "CPU_path": "base",
+      "host_capital_productivity": 0.8,
+      "mature_DCAI_margin_matching52_22_Dec2026_planning_value": 0.4133217248520653,
+      "value_at_root_USD": 52.219999999999985,
+      "planning_value_at40percent_margin_USD": 51.066594344272275
+    },
+    {
+      "CPU_path": "base",
+      "host_capital_productivity": 1.0,
+      "mature_DCAI_margin_matching52_22_Dec2026_planning_value": 0.38910432776468196,
+      "value_at_root_USD": 52.220000000000006,
+      "planning_value_at40percent_margin_USD": 53.163356068281416
+    },
+    {
+      "CPU_path": "CPU_growth_normalizes_2031",
+      "host_capital_productivity": 0.6,
+      "mature_DCAI_margin_matching52_22_Dec2026_planning_value": 0.5226741981941776,
+      "value_at_root_USD": 52.219999999999985,
+      "planning_value_at40percent_margin_USD": 43.52927412922324
+    },
+    {
+      "CPU_path": "CPU_growth_normalizes_2031",
+      "host_capital_productivity": 0.8,
+      "mature_DCAI_margin_matching52_22_Dec2026_planning_value": 0.48770341601094513,
+      "value_at_root_USD": 52.219999999999985,
+      "planning_value_at40percent_margin_USD": 46.00674278942225
+    },
+    {
+      "CPU_path": "CPU_growth_normalizes_2031",
+      "host_capital_productivity": 1.0,
+      "mature_DCAI_margin_matching52_22_Dec2026_planning_value": 0.4667209467010057,
+      "value_at_root_USD": 52.219999999999985,
+      "planning_value_at40percent_margin_USD": 47.493223985541654
+    }
+  ],
+  "conditional_quote_matching_constant_rate": {
+    "rate": 0.11407306445607668,
+    "change_from_selected_rate_bp": -14.769355439233218,
+    "planning_value_USD": 52.21999999999991,
+    "2030target_USD": 78.82501818094802,
+    "interpretation": "One-variable quote match at the December2026 planning date, not an identified market expectation or revised selected discount rate."
+  },
+  "checks": {
+    "independent_APV_vs_common_subtraction_checks": 34,
+    "max_price_discrepancy_USD": 1.4210854715202004e-14,
+    "all_operating_and_financing_PVs_and_before_settlement_treasury_balances_unchanged": true,
+    "frozen_model_files_not_written": true
+  },
+  "limits": [
+    "No probabilities, settlement dates, tax benefits or maximum legal loss are inferred.",
+    "The explicit reserve is not spendable cash; reported treasury balances precede settlement against the reserve.",
+    "If settlement cash is deducted later, release the same reserve once to preserve the identity.",
+    "Annualcash less the full reserve is a liquidity arithmetic diagnostic, not a quarterly liquidity forecast or an assumed settlement schedule.",
+    "EC is not charged again while its funded restricted cash remains excluded; no presumed excess is credited.",
+    "The quote precedes the planning valuation date by56days."
+  ]
+}

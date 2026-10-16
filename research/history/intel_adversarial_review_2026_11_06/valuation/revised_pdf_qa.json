@@ -1,0 +1,165 @@
+{
+  "checked_utc": "2026-11-07T05:29:58.095598+00:00",
+  "scope": "Text and numerical QA of new defense pages9\u201310 and main pages3,4,7; no PDF/model/source edits. Direct PDF text extraction, comparison with two independent audits and original older-case cash rows. Not a fresh visual-layout or external-source audit.",
+  "status": "pass",
+  "input_sha256": {
+    "defense_pdf": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "2c1508e100dbb50184fe56c6b7fc0c6f0d38191e77fc616b10941bbbeaab29c1"
+    },
+    "main_pdf": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "7cbf8463f02a97f3c56cda8edf74048369dfbcbe208ebef9da3904f2408f3bff"
+    },
+    "reviewer_calculations": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_adversarial_review_2026_11_06/valuation/decision_recheck_results.json",
+      "sha256": "c7d38be28fc997f6633372c5cea3c8cb8480f5855f2451a7b0d96a7294a83ab2"
+    },
+    "root_audit": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_adversarial_review_2026_11_06/root/independent_counterexample_audit.json",
+      "sha256": "9afaecf33f90d42a8c6a8cc80c75c5912f4e949e462f8b557da2b901987d5b1b"
+    },
+    "demand_counterexample": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_adversarial_review_2026_11_06/demand/counterexample.json",
+      "sha256": "dfba4fa0078337cb0b446eef1ab492df6ef43f829950cbea5ec68f59507a944a"
+    },
+    "demand_review": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_adversarial_review_2026_11_06/demand/review.json",
+      "sha256": "6d8fd67b9bbb0601b4333360088f1d5774b113fd8eab2ca3a348449ba3659ed7"
+    },
+    "older_case_rows": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_completion_2026_11_06/root/integrated_results.json",
+      "sha256": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8"
+    }
+  },
+  "page_counts": {
+    "defense": 10,
+    "main": 10
+  },
+  "checks": [
+    {
+      "claim": "defensep9 and mainp3 counterexample revenue",
+      "status": "pass",
+      "values": {
+        "2027_B": 69.32920297583816,
+        "2028_B": 85.83826361558667,
+        "2027_vs_consensus_pct": 0.08980174662993612,
+        "2028_vs_consensus_pct": 2.5314010148074884,
+        "2027_beat_erased_pct": 98.02899436232659,
+        "2028_beat_erased_pct": 66.33821447616738
+      }
+    },
+    {
+      "claim": "defensep10 selected funded stress",
+      "status": "pass",
+      "values": {
+        "target_USD": 64.7378499644682,
+        "return_at40": 0.12299562740856129,
+        "entry_ceiling12_USD": 40.445931591445024,
+        "CPU2027_B": 31.73925349266314,
+        "CPU2030_B": 60.07088322736725,
+        "capex2027_2030_B": 124.5,
+        "cash2030_B": 60.2279655626873,
+        "net_investment2031_2040_B": 101.3217039128665
+      }
+    },
+    {
+      "claim": "defensep10 CPU-delay combined control",
+      "status": "pass",
+      "values": {
+        "target_USD": 59.52247661411037,
+        "return_at40": 0.10049884632798234,
+        "entry_ceiling12_USD": 37.187549765848495,
+        "CPU2027_B": 29.185882782579995,
+        "CPU2030_B": 55.23827953059031,
+        "capex2027_2030_B": 124.5,
+        "cash2030_B": 54.309346727345456,
+        "net_investment2031_2040_B": 96.49930236739588
+      },
+      "entry12_USD": 37.187549765848495,
+      "rounding_note": "10.0498846% rounds to10.0% at one decimal without intermediate rounding."
+    },
+    {
+      "claim": "defensep10 capital control",
+      "status": "pass",
+      "values": {
+        "target_USD": 61.14373379303539,
+        "return_at40": 0.107647260152536,
+        "entry_ceiling12_USD": 38.200454225711326,
+        "CPU2027_B": 31.73925349266314,
+        "CPU2030_B": 60.07088322736725,
+        "capex2027_2030_B": 124.5,
+        "cash2030_B": 60.2279655626873,
+        "net_investment2031_2040_B": 133.9385166645052
+      },
+      "extra_investment_B": 32.616812751638676
+    },
+    {
+      "claim": "defensep10 older lower/adverse case returns",
+      "status": "pass",
+      "values": {
+        "preferred": {
+          "target_USD": 53.42933483948493,
+          "annual_return_at40": 0.07223425001538497
+        },
+        "slower_delivery": {
+          "target_USD": 38.1266916804923,
+          "annual_return_at40": -0.011489658563061833
+        }
+      }
+    },
+    {
+      "claim": "defensep10 All retain124.5B capex",
+      "status": "pass",
+      "evidence": {
+        "preferred": {
+          "target_USD": 53.42933483948493,
+          "yearly_capex_B": {
+            "2027": 30.5,
+            "2028": 32.75,
+            "2029": 31.25,
+            "2030": 30.0
+          },
+          "total_capex_B": 124.5
+        },
+        "slower_delivery": {
+          "target_USD": 38.1266916804923,
+          "yearly_capex_B": {
+            "2027": 30.5,
+            "2028": 32.75,
+            "2029": 31.25,
+            "2030": 30.0
+          },
+          "total_capex_B": 124.5
+        }
+      },
+      "conclusion": "Both older rows and all new controls retain124.5B. New controls retain is optional narrower wording, not a necessary factual correction."
+    },
+    {
+      "claim": "mainp7 entry depends on faster CPU path and joint stress retains core CPU sales",
+      "status": "pass",
+      "conclusion": "Correctly exposes conditionality; no target or forecast changed."
+    },
+    {
+      "claim": "mainp4 AMD Q3 citation and defensep9 AMD2027doubling",
+      "status": "pass_against_demand_source_review",
+      "conclusion": "Matches demand reviewer official AMD Q3 prepared-remarks page3/page5 locators; this QA did not independently redownload source."
+    },
+    {
+      "claim": "defensep10 unweighted/notfullyfunded/cashincome/November6horizon caveats",
+      "status": "pass",
+      "horizon_years": 4.1505817932922655
+    }
+  ],
+  "wording_issue": {
+    "page": "defense9",
+    "current": "Intel unit assumptions require industry unit growth above18.2% annually to keep losing share",
+    "issue": "18.2143% is the required CAGR for end2030 share to be below end2027 share. It is not sufficient for share loss in every individual year because Intel units grow25%,18%,12%.",
+    "recommended": "Intel\u2019s 2028\u201330 unit assumptions require industry unit CAGR above18.2% for its share to decline over that period.",
+    "materiality": "Minor precision issue; arithmetic remains valid.",
+    "resolution": "Fixed in current PDF: industry unit CAGR above18.2% for share to fall over that period. Direct text recheck passed.",
+    "status": "resolved"
+  },
+  "adopted_forecast_changed": false,
+  "capex_phrase_correction_required": false
+}

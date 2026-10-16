@@ -1,0 +1,50 @@
+{
+  "reviewed_utc": "2026-11-05T23:47:53.822915+00:00",
+  "reviewer": "Independent economic-underwriting agent",
+  "reviewed_results_sha256": "700cdc2c12f024acb7029a53aede3af034e44e5e27036352bd59c4550c3d73db",
+  "conclusion": "Pass under the stated nominal reserve convention. The two claims are presently unpaid/accrued and absent from the original named financial-claims list. The overlay explicitly excludes their settlement from operating and treasury cash budgets, preventing double deduction. This is not a legal loss cap or a dated settlement-cash forecast.",
+  "primary_evidence": [
+    {
+      "claim": "Altera SLP",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note9,Altera Divestiture, printedp19",
+      "review": "169Mcurrent+46Mlong-term expressly described as costs not yet paid. The478Mdeferred receivable is separately recorded and credited in the original model. The prior divestiture gain deduction is accounting expense, not evidence that this215Malready left cash.",
+      "action": "Reserve215Monce; retain receivable478Msubject to its existing carrying-value policy."
+    },
+    {
+      "claim": "VLSI",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Note14,Legal Proceedings,p25;VLSI discussion,p27",
+      "review": "1Baccrued liability remains; losses above recorded amounts cannot be reasonably estimated. A prior charge is not equivalent to settlement cash.",
+      "action": "Reserve1Bonce at book-value proxy without asserting payment probability,date,tax benefit or maximum exposure."
+    },
+    {
+      "claim": "EC",
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "locator": "2025annualLiquidityp31andNote7p82;Q32026Note5p14andNote14p25",
+      "review": "2025filing identifies340Mrestricted funding of the EC guarantee. Q3reports312Maccrual and552Mtotalrestrictedcash but no refreshedECsplit. Existing valuation excludes the restrictedcash asset.",
+      "action": "Do not deduct the funded obligation again while excluding its funding. Retain the stated historical-funding assumption and no presumed28Msurplus credit. Current exact collateral allocation remains unresolved."
+    }
+  ],
+  "original_policy_reviewed": "intel_competition_screen_2026_11_04/financial_claims_and_treasury_policy_2026_11_04.json, other_assets_and_claims and treasury_2027_2030",
+  "no_double_deduction_identity": "Before payment: includedcash-reserve. On settlement at reserved amount: cash falls by payment and reserve falls by the same amount, leaving the net claim unchanged. Do not also record a new operating expense for settling the already accrued amount.",
+  "limits": [
+    "Holding nominal claims constant at every endpoint omits settlement timing, time value, tax effects and incremental funding costs. This is an explicit finite convention, not a reconciled settlement schedule.",
+    "Generic old CFO/WC budgets did not demonstrate named-claim coverage. The new exclusion is an owned model policy, not a fact disclosed by Intel.",
+    "EC pairing relies on the last explicit funded-guarantee disclosure; currentQuarter allocation is not independently disclosed. If funding was released or obligations change, both asset and liability sides must be rechecked.",
+    "The reserve is a valuation deduction, not freely spendable treasury cash; modeled liquidity must be described before named-claim payment."
+  ],
+  "independent_arithmetic": {
+    "claim_B": 1.215,
+    "per_share_USD": 0.22050816696914702,
+    "net_other_assets_after_B": 4.502,
+    "number_endpoint_checks": 44,
+    "max_endpoint_error_USD": 6.744604874597826e-15,
+    "base_planning_value_USD": 51.06659434427227,
+    "base2030target_USD": 77.46147983166225,
+    "base_annual_price_return": 0.09959262555477988,
+    "all_recomputed_returns_match": true
+  },
+  "required_changes": "None to the overlay. Preserve the coverage exclusion and ECfunding uncertainty in the receipt. Main target should round77.46, planning51.07, annual9.96%orabout10%.",
+  "no_frozen_model_or_PDF_edits": true
+}

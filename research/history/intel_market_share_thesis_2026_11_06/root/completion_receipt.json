@@ -1,0 +1,87 @@
+{
+  "updated_utc": "2026-11-07T00:55:57.165043+00:00",
+  "status": "Ten analytical pages, no cover; conditional LONG at $40 or below. No new position at the Nov6 $56.28 close. Funded liquidity response added; current-price valuation cushion not established. Conditional-entry framing unconfirmed under M37 rules; current resume required.",
+  "author": "Thomas Ou",
+  "class_year": 2028,
+  "class_year_source": "Explicit user correction in this chat, November 6, 2026",
+  "recommendation": "CONDITIONAL LONG AT OR BELOW $40",
+  "conviction": "Conditional entry; operating forecasts remain uncertain",
+  "reference_price_USD": 56.28,
+  "reference_price_date": "2026-11-06 regular close",
+  "planning_value_USD": 56.13928584556838,
+  "planning_value_date": "2026-12-31",
+  "target_USD": 82.47015162680006,
+  "target_date": "2030-12-31",
+  "annual_price_return": 0.0964291893107092,
+  "decision_policy": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/root/price_and_decision_policy.json",
+  "source_model": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+  "source_model_sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+  "current_deliverables": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "ff001491656f3995a48367203b926f06e4e8c2b0fa109967a3d5c70540b5a9ab",
+      "pages": 10,
+      "links": 22
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "63b542ed4c8806e11adb8430aba8a10d62b45f4c5e8b2379d3164c5394be1cda",
+      "pages": 6,
+      "links": 15
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+      "sha256": "10e20a525328be108c8944b77ca9011d0426818fe47726fce40299af418a17e8",
+      "pages": 3,
+      "links": 6
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+      "sha256": "5989906164cd038c6970a62e494f25b418f4995d948585d55628ab244bc06da7",
+      "sheets": 6
+    }
+  ],
+  "verification": {
+    "pdf_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/valuation_resolution_review/build_receipt.json",
+    "workbook_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/valuation/workbook_saved_file_verification.json",
+    "model_reconciled": true,
+    "native_excel_ui_tested": false,
+    "prior_pdf_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/review_submission/final_170605_claim_math_rules_visual_qa.json",
+    "latest_main_pdf_pages_reviewed": 10,
+    "latest_change_scope": "Nov6 quote/return refresh; conditional40 entry rule; cash-yield diagnostics; explicit revolver funding; claim audit; aligned workbook inputs and labels",
+    "class_year_correction": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/class_year_correction/verification.json",
+    "all_19_current_pdf_pages_reviewed": true,
+    "latest_defense_pdf_pages_reviewed": 6,
+    "comparison_review": "All3 current comparison pages reviewed",
+    "independent_numeric_audit": "passed",
+    "research_receipt": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/valuation/verification_receipt.json",
+    "funding_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/valuation/independent_claims_funding_audit.json"
+  },
+  "pitch_content_complete": true,
+  "submission_package_complete": false,
+  "submission_ready": false,
+  "remaining_submission_item": "Current resume; conditional-entry framing is not expressly addressed by published M37 rules",
+  "deadline": "2026-11-09",
+  "deadline_time_timezone": "Not specified on the reviewed official page",
+  "rules_url": "https://www.m37.com/spc2026",
+  "sent": false,
+  "submitted": false,
+  "competition_win_probability": null,
+  "prior_manifest_archive": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/before_revision/m37_submission_manifest.json",
+  "limits": [
+    "Does not meet12%in every modeled downside; no-excess-return terminal case requires about39.01.",
+    "Not an asserted20%margin of safety or contemporaneous fairvalue.",
+    "No price decline, entry execution or organizer acceptance is predicted.",
+    "No large valuation cushion established at current quote; conditional entry changes the decision, not business value.",
+    "Illustrative funding access, rates, fees and intraday cash troughs remain unverified."
+  ],
+  "style_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_style_revision",
+  "density_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_density_revision",
+  "analyst_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_analyst_revision",
+  "reference_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_reference_revision",
+  "weakness_revision_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_weakness_repair",
+  "conditional_entry_limit_USD": 40,
+  "current_quote_action": "No new position",
+  "valuation_resolution_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_valuation_resolution",
+  "workbook_resolution_backup": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_valuation_resolution_2026_11_06/valuation/workbook_backup"
+}

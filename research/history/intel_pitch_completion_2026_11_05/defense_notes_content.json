@@ -1,0 +1,132 @@
+{
+  "created_utc": "2026-11-05T07:50:36.869989+00:00",
+  "title": "Intel | Questions to be ready for",
+  "purpose": "Separate two-page speaking preparation. Suggested first-person answers; the author should understand and be able to explain each calculation. Not a submission appendix or a substitute for original interviews.",
+  "content_word_count_including_questions": 657,
+  "opening_word_count": 128,
+  "opening_estimated_seconds_at140wpm": 55,
+  "opening": {
+    "heading": "60-second opening",
+    "text": "My recommendation is a modest-conviction relative short of Intel. I allow a strong recovery: 2027 server CPU revenue grows 44%, and operating profit totals $111 billion over 2027–2030. The question is what shareholders keep after paying for that recovery. My model produces $28 billion of economic owner cash over those four years. The valuation then depends heavily on how long premium margins last and how efficiently new capacity earns revenue. The strongest challenge to my case is simple: a roughly 39.3% mature DCAI margin can cover the reference price if risk declines as assumed. My central 2030 value is also above entry, so this requires a portfolio argument. The illustrated position returns 6.43% annually under selected assumptions, but 4.91% under a consistent alternative method. That limits my conviction."
+  },
+  "questions_and_answers": [
+    {
+      "id": "price_rises",
+      "question": "Why short a stock your model values at $70.98 in 2030?",
+      "answer": "The $58.28 entry rises to $70.98 in the central case, so the short leg loses before carry. The argument is relative underperformance within a diversified portfolio. The SPY hedge, collateral, borrow assumptions and total capital are explicit. Without the Intel short, the same SPY/cash allocation returns 7.10% under the central assumptions, with greater initial market exposure. That is a serious comparator."
+    },
+    {
+      "id": "method_risk",
+      "question": "Is the hedge creating your apparent edge?",
+      "answer": "The portfolio calculation cannot establish mispricing. The central 6.43% return assumes 9.35% annual index total returns before SPY’s fee. Changing both the Intel valuation and market return to a consistent alternative equity-premium method gives 4.91%, slightly below the 4.94% reference hurdle. These conditional calculations do not establish a robust expected-return advantage. The original contribution is the auditable operating analysis."
+    },
+    {
+      "id": "margin_threshold",
+      "question": "DCAI already earns 41.5%. Why assume only 35%?",
+      "answer": "35% is a mature endpoint judgment, reached in 2040. One quarter does not establish margins through a normal supply and product cycle. At unchanged 0.80 capital productivity, 39.31% matches $58.28 with the assumed decline in risk; flat 11.555% requires 48.08%. Persistent margins near 40%, without offsetting manufacturing or corporate costs, would weaken my 35% assumption."
+    },
+    {
+      "id": "operating_bridge",
+      "question": "Which operating assumption actually matters most?",
+      "answer": "Holding the maturing-risk path fixed, raising the mature margin from 35% to 40% adds $5.24, taking planning value from $53.77 to $59.01. Improving capital productivity from 0.80 to 1.00 alone adds $1.90. Both changes produce $60.90. Margin explains 73% of that operating uplift. These changes phase in after 2030; they do not forecast a near-term earnings surprise."
+    },
+    {
+      "id": "billing_audit",
+      "question": "What did the Oracle audit prove?",
+      "answer": "Published CPU-plus-memory prices give $14.5608 an hour for X12 versus $4.096 for X9. Accepting Oracle’s separate up-to-5x and up-to-6x throughput cases implies 1.41x and 1.69x work per dollar at those claimed levels. Intel still wins in those scenarios. No workloads or interviews were completed. This is list-price arithmetic, excluding other charges and private discounts. It does not establish Intel’s chip prices, margins or advantage over AMD."
+    },
+    {
+      "id": "valuation_dates",
+      "question": "How do you avoid mixing valuation dates and cash claims?",
+      "answer": "$46.96 is the central December 2026 planning value; $70.98 is the central December 2030 value. The quote is November 4, leaving a 57-day mismatch for planning comparisons. Operating cash and financing tax benefits are valued separately, then cash, debt and other claims are reconciled. The model uses 5.51 billion planning claims and 3% terminal operating growth, with investment funded."
+    },
+    {
+      "id": "falsifiers",
+      "question": "What evidence would make you change your view?",
+      "answer": "Sustained margins near 40% across a broader product cycle; comparable output and profit with materially less total investment; or external Foundry customers earning returns after funding capacity. I would reconcile Products, Foundry and corporate costs together. Lower visible capex funded by partners, delayed payments or working capital would not automatically demonstrate better productivity."
+    },
+    {
+      "id": "catalyst",
+      "question": "What forces the market to agree, and what can go wrong?",
+      "answer": "No demonstrated event forces convergence. Future reports can test the forecasts, but they are checkpoints. Stronger execution, durable pricing or lower required returns can invalidate the short. Borrow availability and interim collateral needs remain unverified. The fixed SPY hedge matches an estimated initial beta; it does not keep the position market neutral."
+    }
+  ],
+  "suggested_two_page_split": {
+    "page1": [
+      "opening",
+      "price_rises",
+      "method_risk",
+      "margin_threshold"
+    ],
+    "page2": [
+      "operating_bridge",
+      "billing_audit",
+      "valuation_dates",
+      "falsifiers",
+      "catalyst"
+    ]
+  },
+  "source_basis": [
+    {
+      "claim": "Operating margin and capital decomposition; conditional thresholds; timing and APV checks",
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/independent_operating_bridge_audit.json"
+    },
+    {
+      "claim": "Portfolio return, alternative premium method and no-short comparator",
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_position_resolution_2026_11_05/relative_framework_review.json"
+    },
+    {
+      "claim": "Oracle billing calculation and limits;zero completed workloads/interviews at audit time",
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_original_research_2026_11_05/oracle_baremetal_price_claim_independent_audit.json"
+    },
+    {
+      "claim": "Evidence required to update margin and capital judgments",
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_pitch_completion_2026_11_05/operating_evidence_to_value_map.json"
+    },
+    {
+      "claim": "2027–2030 profit/cash totals",
+      "file": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_business_pitch_rebuild_2026_11_05/cumulative_cash_bridge.json"
+    }
+  ],
+  "generator_review": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_editorial/build_pitch.py",
+    "sha256_at_review": "65626086868a70cbeddea75c32ddeb872770de4b5a10f83c6addefc2f511c311",
+    "scope": "Read-only editorial and factual review; parent is editing concurrently. Recommendations apply only if the quoted wording remains.",
+    "findings": [
+      {
+        "page": 1,
+        "severity": "correct",
+        "before": "The hedge produces 6.43% under the selected assumptions",
+        "after": "The illustrated portfolio returns 6.43% under the selected assumptions",
+        "reason": "6.43% is CAGR on all original investor capital, not the hedge-leg return."
+      },
+      {
+        "page": 6,
+        "severity": "clarify table",
+        "before": "Reported throughput: Up to 5x / Up to 6x; Work per dollar: 1.41x / 1.69x",
+        "after": "Assumed throughput: 5x / 6x; Conditional work per dollar: 1.41x / 1.69x",
+        "reason": "A claimed upper bound does not identify realized output. The accompanying note should retain that these are separate reported up-to scenarios and the performance was not rerun."
+      },
+      {
+        "page": 6,
+        "severity": "clarify claim",
+        "before": "The article's 10-12x claim uses CPU-only costs.",
+        "after": "The article omits memory from its quoted hourly costs.",
+        "reason": "The independently reconstructed CPU-only ratios are about8.96x and10.76x at the5x/6x throughput levels, so the cited10–12x headline is itself not exactly reproduced. Focus on the directly established billing omission."
+      },
+      {
+        "page": 7,
+        "severity": "retain current corrected wording",
+        "before": "39.3% conditional break-even margin under maturing risk;48.1% under flat risk",
+        "after": "Retain the explicit risk condition,0.80 productivity condition,December2026 date and57-day mismatch.",
+        "reason": "The new bridge is numerically sound. Do not compress it into a universal market-required margin or a2030 price target."
+      }
+    ]
+  },
+  "authoring_limits": [
+    "No outreach performed.",
+    "No model or main PDF generator edited.",
+    "No new investment probability or confidence score invented.",
+    "No completed interview or independent workload benchmark claimed."
+  ]
+}

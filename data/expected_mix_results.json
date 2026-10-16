@@ -1,0 +1,52 @@
+{
+  "basis": {
+    "source": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+    "sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "no_main_model_changes": true
+  },
+  "forecast_2027_bridge_B": {
+    "FY2026E_CPU": 22.14406,
+    "carry_2026_Q4_runrate_into_2027": 5.1041799999999995,
+    "incremental_units_at_Q4_2026_ASP": 3.239134530000001,
+    "incremental_2027_ASP_at_forecast_units": 1.2518789626631381,
+    "FY2027E_CPU": 31.73925349266314,
+    "qualification": "Exact arithmetic decomposition of owned forecast; Q4 exit, unit path and mix are assumptions, not separate observed causes."
+  },
+  "actual_runrate_check": {
+    "Q3_2026_CPU_residual_B": 5.918,
+    "Q3_2026_annualized_B": 23.672,
+    "owned_2027_lift_over_actual_Q3_runrate": 0.3407930674494397,
+    "Q4_2026_owned_lift_over_Q3": 0.15107468739439,
+    "Q3_2026_residual_lift_over_Q2": 0.1142910939559405,
+    "qualification": "Derived CPU residual uses rounded Other DCAI. Annualized Q3 is not a forecast."
+  },
+  "price_level_identity": {
+    "implied_Q4_2026_ASP_over_FY2026_average": 0.17072651563364238,
+    "core_2027_weighted_ASP_over_Q4_2026": 0.04106220958552109,
+    "10pct_annual_ASP_counterexample_weighted_ASP_over_Q4": -0.06041250000676923,
+    "qualification": "Conditional on owned exit level and unit path. The 17.1% exit premium is not measured from filings."
+  },
+  "flat_exit_ASP_control": {
+    "definition": "Hold estimated Q4 2026 ASP flat throughout 2027, retain owned quarterly units. Persist lower CPU level into unchanged 2028 annual +25% units and +8% ASP; no catch-up. Every other revenue line unchanged.",
+    "FY2027_CPU_B": 30.48737453,
+    "FY2027_company_B": 71.17102148983815,
+    "FY2027_company_beat": 0.027488147167311405,
+    "FY2028_CPU_B": 41.1579556155,
+    "FY2028_company_B": 88.32471860948668,
+    "FY2028_company_beat": 0.05501401843651599,
+    "classification": "Conditional control, not an independent forecast. No value or profit extrapolation."
+  },
+  "forecast_2028_bridge": {
+    "Q4_2027_CPU_B": 9.365430710083139,
+    "Q4_2027_annualized_CPU_B": 37.461722840332556,
+    "FY2028_CPU_B": 42.84799221509524,
+    "carryover_from_2027_annual_to_flat_exit_B": 5.722469347669417,
+    "further_revenue_above_flat_exit_B": 5.3862693747626835,
+    "FY2028_lift_over_Q4_2027_annualized": 0.1437806103504573,
+    "unit_carry_if_all_2028_quarters_equal_Q4_2027": 0.13551558485085446,
+    "ASP_carry_if_all_2028_quarters_equal_Q4_2027": 0.03943644292959636,
+    "required_2028_average_units_above_Q4_2027": 0.1008215269578907,
+    "required_2028_average_ASP_above_Q4_2027": 0.039024566962533536,
+    "qualification": "Both Q4 2027 and FY2028 are forecast. This explains timing burden; it does not supply evidence that the exit is reached."
+  }
+}

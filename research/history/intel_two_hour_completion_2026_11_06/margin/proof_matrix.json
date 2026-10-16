@@ -1,0 +1,214 @@
+{
+  "as_of": "2026-11-06",
+  "scope": "Public evidence and conditional economic arithmetic. No original customer interview, paid experiment, confidential procurement information, or independent workload run is claimed.",
+  "main_conclusion": "The strongest verified claim is that the new Xeon platform creates customer value and is contributing to a real product-profit recovery. The unresolved bridge is how much of that value Intel retains after manufacturing costs, competitive renewals, and investment. More public research can tighten the current buyer-economics test; it cannot prove a decade of future margins.",
+  "status_definitions": {
+    "already_verified": "The specified historical fact is supported by a primary source or reproduced arithmetic; broader interpretations remain separate.",
+    "identifiable_from_public_data": "The narrow claim can be resolved from obtainable public specifications, prices, financial statements, or sufficiently complete public workload results.",
+    "unidentifiable_without_customer_or_company_confirmation": "The reviewed public data do not contain the necessary contract, cost, or allocation information. A direct nonconfidential confirmation might narrow the uncertainty, but a response is not guaranteed.",
+    "future_only": "The claim concerns an outcome that has not happened. It can be forecast, bracketed, and assigned a falsification rule, not proved today."
+  },
+  "sources": [
+    {
+      "id": "intel_q3_filing",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "source_paragraph": "MD&A DCAI revenue/operating-income discussion; Note 2 segment accounting; Note 3 SCIP arrangements.",
+      "paragraph_summary": "The filing separates server price/volume, DCAI product-profit changes, and period-charge effects. Products pays internal manufacturing charges; Foundry bears production/process expenses. Internal activity is eliminated in consolidation. Arizona's production arrangement includes minimum-production conditions."
+    },
+    {
+      "id": "intel_q2_prepared",
+      "url": "https://download.intel.com/newsroom/2026/earnings/Intel-Q22026-Earnings-Call.pdf",
+      "source_paragraph": "PDF page 2, CEO DCAI paragraph; page 4, CFO DCAI paragraph; pages 4–5, Foundry cost discussion.",
+      "paragraph_summary": "Management describes a rapid Xeon 6 ramp and additional customer agreements. DCAI improvement reflects sales, product economics, and lower operating expenses. Manufacturing learning is visible; the separately discussed Panther Lake SKU is a client product, so its cost reduction cannot be applied to server CPUs."
+    },
+    {
+      "id": "intel_q3_prepared",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_ae41de1e3c92a2d70014908a6d92f612/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "source_paragraph": "CEO product discussion; CFO DCAI, manufacturing-cost and Q4 mix paragraphs.",
+      "paragraph_summary": "Granite Rapids is the largest server family. Intel reports Intel 3 and 18A cost improvement and a fast purpose-built silicon ramp. The custom-silicon tripling ambition is narrower than all Other DCAI. Purpose-built mix pressures gross margin; its operating margin is not disclosed."
+    },
+    {
+      "id": "aws_x8i",
+      "url": "https://aws.amazon.com/ec2/instance-types/x8i/",
+      "source_paragraph": "Customer testimonials: Orion, SAP, and Workday; benefits and specifications immediately above.",
+      "paragraph_summary": "Orion reports meeting performance needs with half as many cores and lower SQL Server license expense. Workday reports lower latency and higher throughput. SAP describes offering X8i for RISE workloads. These are named customer testimonials on AWS's product page, not independently reproduced comparisons against current AMD or Arm systems."
+    },
+    {
+      "id": "aws_t8i",
+      "url": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+      "source_paragraph": "September 17, 2026; opening launch paragraph and numbered benefits under T8i instances.",
+      "paragraph_summary": "AWS launched Granite Rapids burstable instances for small, intermittent workloads. It reports better price/performance than T3 and continuity of the existing CPU-credit system. This establishes product availability beyond premium memory-intensive workloads, not Intel's procurement price."
+    },
+    {
+      "id": "google_c4_launch",
+      "url": "https://cloud.google.com/blog/products/compute/c4-vms-based-on-intel-6th-gen-xeon-granite-rapids-now-ga",
+      "source_paragraph": "July 31, 2025; first two body paragraphs, authored by GCE product manager Olivia Melendez.",
+      "paragraph_summary": "Google made 28 Granite Rapids C4 shapes generally available. Existing C4 customers can upgrade within the series and use existing committed-use discounts. This reduces customer migration friction; the discount is Google's retail commitment, not an Intel sales contract."
+    },
+    {
+      "id": "google_current_platforms",
+      "url": "https://docs.cloud.google.com/compute/docs/general-purpose-machines",
+      "source_paragraph": "C4, C4D, and C4A machine-series descriptions.",
+      "paragraph_summary": "Current offerings include Intel, AMD, and Google Axion alternatives. Not every C4 instance uses Granite Rapids; the document identifies which shapes use it. A matched test must select the actual platform."
+    },
+    {
+      "id": "intel_6980p_current",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/240777/intel-xeon-6980p-processor-504m-cache-2-00-ghz/specifications.html",
+      "source_paragraph": "Essentials table, Recommended Customer Price; Product and performance information footer.",
+      "paragraph_summary": "The current 6980P recommended price is $13,955. Intel explicitly identifies it as guidance rather than a formal offer. This establishes a published reference price, not realized hyperscaler pricing or a historical price series."
+    },
+    {
+      "id": "cloudflare_gen13",
+      "url": "https://blog.cloudflare.com/gen13-config/",
+      "source_paragraph": "CPU selection; Power section; final deployment paragraph.",
+      "paragraph_summary": "Cloudflare describes qualifying AMD Turin systems and beginning deployment. Its whole-server power and component choices illustrate why CPU list price or TDP alone cannot rank buyer economics. This is one buyer's architecture, not a market-share forecast."
+    },
+    {
+      "id": "intel_q3_call",
+      "url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
+      "source_paragraph": "CFO Q&A around 47:19; cross-checked against published transcript at https://www.marketbeat.com/earnings/reports/2026-10-29-intel-co-stock/.",
+      "paragraph_summary": "The annual incremental gross-profit rule of thumb is 40–60%. Its context is consolidated annual growth, with quarterly mix and loading differences; it is not a CPU-only EBIT elasticity."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The present DCAI recovery is more than removal of old charges.",
+      "status": "already_verified",
+      "source_ids": ["intel_q3_filing"],
+      "evidence": "Approximately $4.5B of the $4.883B YTD operating-profit increase is attributed to product profit, versus $0.403B from lower period charges.",
+      "what_it_proves": "Sales and product economics materially explain the reported recovery.",
+      "what_it_does_not_prove": "A standalone CPU margin or the amount retained by the consolidated group after manufacturing costs.",
+      "materiality": "This supports keeping a substantial new-platform profit improvement in the forecast rather than reverting mechanically to the 2025 margin.",
+      "next_public_check": "Reconcile future Products plus Foundry profit and consolidated gross profit to the same revenue period, separating charges and operating expenses."
+    },
+    {
+      "claim": "Xeon 6 offers concrete customer value independent of scarcity.",
+      "status": "already_verified",
+      "source_ids": ["aws_x8i", "aws_t8i", "google_c4_launch"],
+      "evidence": "Named customer reports and launched offerings establish licensing, memory, latency, and migration benefits.",
+      "what_it_proves": "A positive economic mechanism for customer adoption and richer platform mix exists.",
+      "what_it_does_not_prove": "Universal superiority, additional physical CPU units per workload, Intel net pricing, or the producer's share of customer savings.",
+      "materiality": "Supports retaining part of the observed ASP/mix step-up after shortages. It does not justify assigning all customer savings to Intel's operating profit.",
+      "next_public_check": "Use comparable current-generation alternatives and full software, memory, storage, and utilization costs for the selected workload."
+    },
+    {
+      "claim": "Intel wins a particular current workload on full cost per successful unit of work.",
+      "status": "identifiable_from_public_data",
+      "source_ids": ["google_current_platforms", "aws_x8i"],
+      "evidence": "A valid test needs a fixed workload and quality/latency threshold, exact CPU generation, instance resources, software version, reproducible throughput, and same-region contemporaneous prices.",
+      "what_it_proves": "A workload-specific customer choice under explicit prices and constraints.",
+      "what_it_does_not_prove": "Intel chip ASP, factory cost, all customer workloads, or long-term share.",
+      "materiality": "This is the most useful still-closable customer-value gap. The earlier Oracle arithmetic already showed why omitted memory costs materially change a promotional headline.",
+      "existing_local_evidence": "../../intel_original_research_2026_11_05/matched_benchmark_research.json records the Oracle price audit and limitations; no original benchmark run is claimed.",
+      "completion_rule": "Do not report a winner until the output, full bill, hardware, accepted quality, and latency are matched. Existing public results may be insufficient; a controlled workload run would need separate execution resources."
+    },
+    {
+      "claim": "Published prices establish durable like-for-like Intel pricing power.",
+      "status": "unidentifiable_without_customer_or_company_confirmation",
+      "source_ids": ["intel_6980p_current", "intel_q3_filing"],
+      "evidence": "Current list guidance can be checked. Aggregate ASP combines product mix, geography, customer mix, and negotiated prices.",
+      "what_it_proves": "A current public reference point and a reported aggregate ASP change.",
+      "what_it_does_not_prove": "Same-SKU realized price net of rebates, mix-adjusted scarcity premium, or contract renewal pricing.",
+      "materiality": "Under the selected 2030 forecast, treating the post-2027 ASP shortfall as pure price rather than mixed sales changes adds approximately $0.885B of EBIT downside. That is why price and physical volume need different cost responses.",
+      "confirmation_needed": "Nonconfidential like-for-like procurement-price direction and contract coverage, ideally from more than one buyer; no confidential invoice or material nonpublic information should be requested."
+    },
+    {
+      "claim": "Existing LTAs guarantee the modeled pricing and margins through 2040.",
+      "status": "future_only",
+      "source_ids": ["intel_q2_prepared"],
+      "evidence": "Management confirms additional agreements. Prior research found management descriptions of multi-year price and volume arrangements, but no public portfolio coverage or renewal economics.",
+      "what_it_proves": "Some near-term demand has contractual support.",
+      "what_it_does_not_prove": "Revenue coverage, cancellation remedies, cost pass-through, minimum take, or renewal terms. A three-to-five-year agreement signed in 2026 does not establish 2031–2040 economics.",
+      "materiality": "The decade after 2030 remains a scenario. Keeping old growth with the same YTD margin anchor raises the modeled 2030 target by approximately $5.29 per share.",
+      "completion_rule": "Separate contract existence, current contract economics, and future renewal assumptions. Public renewal disclosures can later test the latter."
+    },
+    {
+      "claim": "Observed manufacturing learning makes profitable production possible.",
+      "status": "already_verified",
+      "source_ids": ["intel_q2_prepared", "intel_q3_prepared"],
+      "evidence": "Intel reports cost and output improvements during current-node ramps.",
+      "what_it_proves": "Management reports actual learning in the production base, giving a positive mechanism for offsetting future price erosion.",
+      "what_it_does_not_prove": "Exact wafer cost, server SKU yield, future cost curves, or profitable next-generation ramps. A client SKU's cost improvement cannot be copied into server margins.",
+      "materiality": "At the selected CPU margin, a 10% same-mix price decline from pooled Q2/Q3 economics requires about 4.77% lower all-in product cost per unit; a 15% decline requires about 10.06%. This is a conditional hurdle, not a physical-cost estimate.",
+      "next_public_check": "Compare combined group product profit, node disclosures, asset activation, depreciation, and cash investment. Do not add already-realized cost savings a second time."
+    },
+    {
+      "claim": "The public segment accounts identify CPU physical variable cost and fixed absorption.",
+      "status": "unidentifiable_without_customer_or_company_confirmation",
+      "source_ids": ["intel_q3_filing", "intel_q3_call"],
+      "evidence": "Products uses internal manufacturing prices while Foundry carries physical costs; the combined disclosure does not isolate marginal cost per CPU.",
+      "what_it_proves": "The accounting boundary and a broad management incremental-profit range.",
+      "what_it_does_not_prove": "A 50% response for every lost CPU sale, or a variable cost saving from an uncertain annual unit/ASP split.",
+      "materiality": "Moving the total-group CPU/client lost-sales response from 50% to 75% reduces modeled 2030 EBIT by another $2.915B; 100% reduces it by another $5.830B. Do not add a separate factory-absorption loss for the same miss.",
+      "completion_rule": "Show the bounded response explicitly. A pure price change with unchanged volume and cost has approximately 100% EBIT response before demand effects."
+    },
+    {
+      "claim": "Other DCAI is almost entirely the custom-silicon business and earns 20% operating margin.",
+      "status": "unidentifiable_without_customer_or_company_confirmation",
+      "source_ids": ["intel_q3_prepared", "intel_q3_filing"],
+      "evidence": "Neither the initial custom share of Other DCAI nor its separate operating margin is disclosed in the reviewed sources.",
+      "what_it_proves": "The broad segment and the direction of purpose-built growth, not the two desired parameters.",
+      "what_it_does_not_prove": "That a custom-silicon tripling statement can be applied to all Other DCAI or that lower gross margin means 20% operating margin.",
+      "materiality": "Preferred Other revenue still rises 2.8704 times by 2030. If custom exactly triples over that span while legacy grows 3% annually, that requires a 93.1% initial custom share. This is an optimistic scope hurdle, not a verified base.",
+      "confirmation_needed": "Public absolute custom revenue, scope definition, expected timing, and margin contribution. If changing the assumed historical Other margin, re-infer CPU margin so reported DCAI profit stays reconciled."
+    },
+    {
+      "claim": "Full-YTD 2026 is statistically the correct mature CPU margin anchor.",
+      "status": "future_only",
+      "source_ids": ["intel_q2_prepared", "intel_q3_prepared"],
+      "evidence": "The observations span a product transition and changing supply, mix, and cost conditions; they are not repeated draws from one stable regime.",
+      "what_it_proves": "YTD provides a transparent historical average, not an estimated through-cycle parameter.",
+      "what_it_does_not_prove": "That Q1 should receive its historical revenue weight in a post-transition forecast, or that Q3 should persist indefinitely.",
+      "materiality": "At Other margin 20%, residual CPU margins are 41.71% YTD, 44.91% pooled Q2/Q3, and 46.62% Q3. Under the same normalized growth, those imply approximately $53.43, $55.67, and $56.87 targets.",
+      "completion_rule": "Call YTD the cautious selected convention. Present the recent-platform bracket, and let subsequent normalized price/cost evidence distinguish it."
+    },
+    {
+      "claim": "A mature 40% blended DCAI operating margin has been disproved.",
+      "status": "future_only",
+      "source_ids": ["intel_q3_prepared", "intel_q3_filing"],
+      "evidence": "The scenario is possible but not identified. At the selected 2040 mix and Other margin 20%, 40% blended requires 48.12% CPU margin, 1.50 percentage points above the corresponding Q3 residual. With Other margin 30%, the required 44.06% CPU margin is slightly below that allocation's Q3 residual.",
+      "what_it_proves": "There is a coherent favorable hypothesis using scale and richer Other economics; 40% is not mathematically absurd or refuted by current data.",
+      "what_it_does_not_prove": "That the favorable hypothesis is the most likely future outcome.",
+      "materiality": "Granting both 40% mature DCAI and the old post-2030 growth path produces about $62.95 per share in the updated-delivery model, or 4.59% annual price appreciation from $52.25. Thus rejecting 40% alone is not what defeats the earlier strong LONG case.",
+      "completion_rule": "Preserve it as a favorable case with explicit component requirements. Do not silently raise the selected margin to recover a desired target."
+    },
+    {
+      "claim": "The selected post-2030 CPU growth is identified by public industry forecasts.",
+      "status": "future_only",
+      "source_ids": [],
+      "evidence": "No reviewed primary source identifies Intel CPU units and realized ASP for 2031–2040. Near-term industry box growth and long-term market dollars use different scopes.",
+      "what_it_proves": "Neither 2% units plus 2% ASP nor the former fading unit-growth path is a measured forecast for Intel.",
+      "what_it_does_not_prove": "That either path is impossible.",
+      "materiality": "Use the 4.04% versus approximately 6.04% revenue-CAGR bracket. Combining the favorable Q3 margin anchor and former growth still yields only about $62.87 under revised near-term delivery.",
+      "completion_rule": "Show this as a forecast range. Do not present an invented confidence percentage or infer Intel unit growth directly from industry revenue growth."
+    },
+    {
+      "claim": "The group receives an extra benefit merely from lower internal transfer prices.",
+      "status": "already_verified",
+      "source_ids": ["intel_q3_filing"],
+      "evidence": "A lower manufacturing charge increases Products profit and reduces Foundry profit by the same amount, before timing/elimination considerations.",
+      "what_it_proves": "No consolidated profit is created by the transfer alone. The operating diagnostic checks this identity for multiple charge changes.",
+      "what_it_does_not_prove": "The amount of physical cost reduction, which must be separately earned.",
+      "materiality": "The selected engine contains no duplicate factory-absorption overlay. Eighty independent component checks through 2040 match the root engine within numerical precision.",
+      "completion_rule": "Keep product, physical manufacturing, corporate costs, and ownership cash claims in one reconciled group bridge."
+    }
+  ],
+  "anchor_critique": {
+    "why_recent_quarters_may_be_better": "The business is changing rather than oscillating around a stable mean. New-platform share, customer qualification, manufacturing learning, and the lower expense base can make Q2/Q3 more relevant to the next regime than Q1. The original Q2 prepared remarks are direct positive evidence for this interpretation.",
+    "why_recent_quarters_are_not_conclusive": "Supply tightness, mix concentration, purchase timing, and current ramp costs can make either quarter unrepresentative. No disclosed counterfactual separates durable platform value from scarcity-related realizations.",
+    "fair_presentation": "Present YTD as a cautious selected convention and recent-quarter retention as a credible favorable bracket. The evidence does not permit a statistical claim that either is the true mature margin. A 40% blended case remains viable, but it must satisfy component, capital, and group cash-flow requirements.",
+    "change_control": "This critique was developed after seeing the integrated valuation. It did not change the selected policy. Diagnostic favorable cases are deliberately not labeled valuation-blind."
+  },
+  "highest_value_remaining_proof_work": [
+    "Finish one current-generation, full-cost, workload-specific customer economics comparison with reproducible performance and billing inputs. If no public output exists, identify the exact missing measurement rather than report a fabricated result.",
+    "Seek nonconfidential confirmation of contract coverage and like-for-like price direction only through authorized outreach; the present work did not send any messages.",
+    "Track combined Products plus Foundry profit, capital activation, depreciation, and parent cash retention after reported supply normalization. This tests the producer-profit thesis directly.",
+    "Obtain a public absolute custom-silicon revenue/margin disclosure before treating broad Other DCAI growth as contract-backed or its margin as observed."
+  ],
+  "reproduction": {
+    "operating_arithmetic": "margin_bridge.py",
+    "valuation_materiality": "integrated_margin_audit.py imports ../root/integrated_model.py without modifying it",
+    "quantitative_outputs": ["margin_bridge_results.json", "integrated_margin_audit_results.json"],
+    "limitations": "Values use the integrated model version recorded by the audit's SHA256 and selected quarterly forecast. They are conditional model outputs, not stock-return forecasts with calibrated probabilities."
+  }
+}

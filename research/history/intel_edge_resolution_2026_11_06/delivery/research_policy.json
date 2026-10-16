@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-06T06:11:41.275688+00:00",
+  "purpose": "Evaluate incremental or underused primary evidence for deliverable Intel server CPU growth. No valuation, PDF, builder or frozen model edits.",
+  "evidence_admission": "Direct company filings/releases or named management statements transcribed from dated events; separate provider transcript verification from official audio verification. Search snippets alone do not establish precise operational quantities.",
+  "prior_findings_to_not_relabel_new": [
+    "40% substrate capacity with much in H2 2027",
+    "Oregon Intel 3 H2 2027",
+    "Fab28 Q4 and Q1 disruption",
+    "Ibiden 1.3x market times 1.9x resource load",
+    "AT&S Nov5 FY26/27 line timetable and unnamed customer",
+    "2027 CPU $31.475088B and flat-H1 H2 $9.211844B/quarter"
+  ],
+  "new_candidate": "Aug26 CFO statement: aim to more than double Ireland output in 2027. Matched published transcripts; output unit and baseline undefined.",
+  "operating_assumptions_before_calculation": {
+    "unchanged_analyst_forecast": {
+      "units_growth_2027_2030": [
+        0.2,
+        0.25,
+        0.18,
+        0.12
+      ],
+      "ASP_growth_2027_2030": [
+        0.2,
+        0.08,
+        0.04,
+        0.02
+      ],
+      "Q4_2026_CPU_revenue_B": 6.5257,
+      "FY2027_CPU_revenue_B": 31.475088
+    },
+    "conditional_family_bridge": "Total unit ratio = f*r*c + (1-f)*(1+l), where f is 2026 qualified-unit share tied to Ireland, r is output ratio in a consistently defined good-silicon measure, c converts that output to shipped same-scope packages after yields, die count, product allocation, substrates/test and acceptance, and l is other-family unit growth. None of f/r/c/l are publicly identified by a doubling statement alone.",
+    "illustrative_threshold_cases": "Only if r=2 and c=1, solve minimum f for +20% total units at legacy growth 0/-10/-20/-30%. These are requirements, not estimates or forecasts.",
+    "ASP_policy": "ASP per CPU may be decomposed into weighted cores per CPU and realized price per core only within comparable product scopes; do not treat either as observed for Intel total fleet without data. No extra scarcity-price or mix uplift inferred from higher substrate consumption.",
+    "model_action_threshold": "Increase forecast only with Intel-specific output and period plus conversion/qualification evidence; lower or reclassify baseline if calendar or competitive demand falsifies the current quantities. Stronger factory evidence alone can improve the narrative without changing numbers."
+  },
+  "valuation": "No valuation or target recalculation in this workstream."
+}

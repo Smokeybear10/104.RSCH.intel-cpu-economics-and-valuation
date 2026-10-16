@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-11-06T17:01:45.537Z",
+  "output": "/Users/thomasou/Documents/Codex/2026-11-02/lo/outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx",
+  "sheets": [
+    "Valuation",
+    "Assumptions",
+    "Annual model",
+    "Quarterly model",
+    "Sources",
+    "Checks"
+  ],
+  "active_case": "Owned long thesis; previously the favorable operating scenario",
+  "formula_comparisons": 137,
+  "max_error": 5.684341886080802e-14,
+  "formula_error_cells": [],
+  "mutations": [
+    {
+      "input": "F87",
+      "original": 0,
+      "changed": 0.01,
+      "target_before": 82.47015162680006,
+      "target_after": 83.22049150439015,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "G39",
+      "original": 0.25,
+      "changed": 0.26,
+      "target_before": 82.47015162680006,
+      "target_after": 83.05083997820408,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "G40",
+      "original": 0.08,
+      "changed": 0.09,
+      "target_before": 82.47015162680006,
+      "target_after": 83.14224355469587,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "N39",
+      "original": 0.04,
+      "changed": 0.05,
+      "target_before": 82.47015162680006,
+      "target_after": 82.84712006038858,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "I111",
+      "original": 0.25,
+      "changed": 0.26,
+      "target_before": 82.47015162680006,
+      "target_after": 82.47786487543891,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "D9",
+      "original": 0.10625,
+      "changed": 0.11624999999999999,
+      "target_before": 82.47015162680006,
+      "target_after": 72.96914231382429,
+      "actuals_unchanged": true
+    },
+    {
+      "input": "D19",
+      "original": 0.2,
+      "changed": 0.21000000000000002,
+      "target_before": 82.47015162680006,
+      "target_after": 82.2023797648355,
+      "actuals_unchanged": true
+    }
+  ],
+  "quarterly_allocation_policy": "2027 sequential units/ASP preserved. 2028-30 annual units allocated23/24/26/27%; annual weighted ASP grows once and is flat within each year.",
+  "output_values": {
+    "planning": 56.13928584556838,
+    "target": 82.47015162680006,
+    "annual_return": 0.11615212704256206,
+    "minimum_quarterly_cash": 31.187405332912828,
+    "opening_cash": 50.991828,
+    "mature_CPU_margin": 0.4490871849674949
+  },
+  "limits": [
+    "Tested with bundled formula engine, not native Excel UI.",
+    "Forecast policies and future margins remain unproved."
+  ],
+  "final_verified_utc": "2026-11-06T17:04:04.313437+00:00",
+  "current_active_case_sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+  "active_case_metadata_update": "Authoritative case metadata refreshed after numerical build. Planning and target reverified unchanged against current case; root confirms forecast unchanged.",
+  "output_sha256": "f80d638e8a64ecdd5b1e31a92e892d238c77f6f2d78a9b62462f852ec7fdf31a",
+  "export_validation_receipt": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/workbook_export_check.json",
+  "independent_cash_receipt": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/owned_quarterly_cash_results.json",
+  "independent_cash_check": {
+    "fields_compared": 128,
+    "maximum_error": 3.552713678800501e-14,
+    "base_minimum_cash_B": 31.18740533291284,
+    "base_minimum_period": "Q2 2028",
+    "concentrated_timing_stress_minimum_cash_B": 20.360105966026815,
+    "stress_minimum_period": "Q3 2028",
+    "stress_headroom_over20B_buffer_B": 0.360105966026815,
+    "stress_scope": "Separate conditional test; workbook exposes the active base only."
+  },
+  "visual_review": "Seven changed or dependent views inspected. Values, headings and source definitions readable.",
+  "market_diagnostics": "Rounded estimates/forecasts, separate unit and revenue shares. No feed into operating forecast; market input mutation verified diagnostic-only."
+}

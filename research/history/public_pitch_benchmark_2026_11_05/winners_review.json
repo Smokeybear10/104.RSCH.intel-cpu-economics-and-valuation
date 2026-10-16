@@ -1,0 +1,111 @@
+{
+  "scope": "Three additional official winning decks, distinct from earlier Waterloo2026/Lightspeed, Yale2025/Middleby and Kozminski2025/DomDevelopment examples. Read relevant actual pages and visually inspect six key exhibits. Research benchmark, no pitch edits or outreach.",
+  "award_sources": [
+    "https://www.kenan-flagler.unc.edu/alpha-challenge-2/archives/",
+    "https://www.cfainstitute.org/insights/events/research-challenge/past-champions"
+  ],
+  "examples": [
+    {
+      "name": "UNC Advanced Drainage Systems (WMS)",
+      "award": "2024 Alpha Challenge first place equity",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2024/12/First-Place-Equity_Team1_Universe_WMS.pdf",
+      "pdf_pages": 72,
+      "main_pitch_pages": "1-9; Q&A10; remainder appendix",
+      "key_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        14
+      ],
+      "visual_pages": [
+        3,
+        6
+      ],
+      "specific_lesson": "Page3 pairs each operating thesis with a market-perception claim and matched forecasts. Page6 decomposes FY26 margin improvement into60bp segment mix and20bp cheaper recycled input use, ending at39.8% versus39.3% consensus. Page5 connects Infiltrator demand to housing completions/roughly6month lag from starts. These remain their forecasts, not proven causal estimates.",
+      "intel_gap": "Our page5 is an internally consistent blend assuming Q3 CPU profitability persists; an observable price/cost/mix and competitive-economics bridge would more directly support40%. Our page3 labels a single public analyst comparison rather than establishing matched broad consensus.",
+      "do_not_copy": "Large terminal return assumptions, noisy visual styling or presumed consensus error solely because forecast differs.",
+      "local_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/public_pitch_benchmark_2026_11_05/unc_wms_2024.pdf",
+      "sha256": "5424096483cb185534d4898bc867d70aa1ab67c07e54e16ea14750e8de4d826e"
+    },
+    {
+      "name": "Columbia Janus International (JBI)",
+      "award": "2023 Alpha Challenge first place equity",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2023/12/Equity-1st-place_Columbia-_JBI.pdf",
+      "pdf_pages": 29,
+      "key_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "visual_pages": [
+        5,
+        9
+      ],
+      "specific_lesson": "Pages4-5 state why pricing could be wrong: SPAC/ownership pressure and mixing renovation demand with new construction. Page8 quantifies renovation revenue content at~20USD/sqft versus~8USD greenfield. Page9 connects forecasts to consensus and three valuation scenarios; page14 distinguishes team channel checks from purchased transcripts.",
+      "intel_gap": "Intel identifies drivers but has little demonstrated present valuation cushion. Need an exact explanation of what current expectations understate and why evidence should resolve that difference. A road map alone is not a differentiated insight.",
+      "do_not_copy": "Peer multiple premiums as automatic fair value or risk mitigants as proof downside is small. Two methods sharing forecasts are not independent validations.",
+      "local_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/public_pitch_benchmark_2026_11_05/columbia_jbi_2023.pdf",
+      "sha256": "d67d3481ebee837062908878ca06a73aefe11f6b8954d79367d93bb1a84cd2e3"
+    },
+    {
+      "name": "University of Waterloo Cargojet (CJT)",
+      "award": "2024 CFA Research Challenge global champion",
+      "url": "https://www.cfainstitute.org/sites/default/files/-/media/documents/support/research-challenge/challenge/rc-2024-winning-presentation-university-of-waterloo.pdf",
+      "pdf_pages": 195,
+      "key_pages": [
+        19,
+        20,
+        22,
+        28,
+        30,
+        32,
+        33,
+        34,
+        35,
+        38,
+        39,
+        40,
+        41
+      ],
+      "visual_pages": [
+        28,
+        33
+      ],
+      "printed_page_offset": "Printed page is PDF page minus1 for these exhibits.",
+      "specific_lesson": "PDFp28/printed27 uses flight tracking over2021-2023 to support Latin American activity growth. PDFp33/printed32 shows fleet sizes and utilization while projecting growth without new fleet expansion. Together these exhibit operational observations tied to a cash-conversion mechanism.",
+      "intel_gap": "Our original Oracle billing correction is useful but expressly does not establish vendor pricing power, mature DCAI margin or capital productivity. A flagship exhibit should bear more directly on the assumption producing the recommendation.",
+      "do_not_copy": "Its195page length includes appendix and animation-stage repeats; inappropriate for M37 tenpage screen. Neither interview count nor flight activity proves profit or investment outcome.",
+      "local_path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/public_pitch_benchmark_2026_11_05/waterloo_cargojet_2024.pdf",
+      "sha256": "fd287c76773df6f4ccca66763b8d1e544bce39aecd2786ad80a169c9775a971a"
+    }
+  ],
+  "our_strengths": [
+    "Professional readable layout and claim-oriented headings already match genre.",
+    "Cash bridge accounts explicitly for investment and working capital, with no extra multiple expansion.",
+    "Mixed-quarter counterchecks and severe immediate valuation stress are more transparent than typical boilerplate risk mitigants.",
+    "Honest provenance: no interview, matched workload experiment or market-consensus claim invented."
+  ],
+  "remaining_gaps_ranked": [
+    "Evidence directly supporting durable40%DCAI margins, with2027-2030 profit/cash consequences, rather than a long-run endpoint alone.",
+    "Why current price represents enough reward for the specific risk; a~10% modeled return at near fair value is a modest investment case, not strong demonstrated mispricing.",
+    "Match forecast definitions/dates against several available independent analyst estimates or characterize price-implied expectations with model dependence explicit.",
+    "Move repeated methodological caveats into precise footnotes where possible; keep material objections visible, do not erase them."
+  ],
+  "verdict": "Recognizably a legitimate competition pitch and careful research draft. Not yet demonstrated equal to these winners on differentiated, investment-decisive evidence. Main deficit is thesis substantiation and opportunity strength rather than slide cosmetics.",
+  "limits": [
+    "Selected winners are not representative sample or causal evidence of winning features.",
+    "Different teams, judges, deadlines and rules; no winning probability can be inferred.",
+    "Source business claims and historical forecasts inspected as communication examples, not independently re-underwritten or endorsed.",
+    "No inference from later investment returns.",
+    "No completed interviews, workload testing, outreach or modifications to current pitch in this subtask."
+  ]
+}

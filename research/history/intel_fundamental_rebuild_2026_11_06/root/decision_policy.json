@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-11-07T01:09:39.676487+00:00",
+  "question": "Can evidence and economic reasoning resolve the weak current-price long, forecast support and role of original research?",
+  "known_before_new_results": {
+    "reference_price": 56.28,
+    "reference_date": "2026-11-06 regular-session close",
+    "core_target2030": 82.47015162680005,
+    "higher_rate_target2030": 73.56082736404235,
+    "recommendation": "Conditional LONG at $40 or below; no new position at reference quote"
+  },
+  "adjudication_rules": [
+    "Do not choose assumptions or risk hurdles to manufacture upside.",
+    "A new derivation from old filed data may strengthen support, but is not newly disclosed information.",
+    "Reverse thresholds diagnose requirements and are not forecasts.",
+    "Peer economics must be matched for margin, material ownership and business scope before use.",
+    "Forecast uncertainty is normal; require a reasoned mechanism and observable failure test, not proof of future outcomes.",
+    "Research novelty is checked against the existing archived work.",
+    "An unattractive current-price long does not establish an attractive short.",
+    "Do not remove contrary evidence or claim a completed interview."
+  ],
+  "root_customer_check": {
+    "url": "https://www.oracle.com/news/announcement/blog/ai-world-building-the-next-decade-of-oracle-cloud-infrastructure-2026-10-27/",
+    "publisher": "Oracle; Karan Batta, SVP product OCI",
+    "published": "2026-10-27",
+    "observed": "Same customer describes Intel X14 roadmap, forthcoming AMD E7 and generally available NVIDIA Vera CPUs in one platform strategy.",
+    "inference": "Planned Intel adoption and competitive alternative investment coexist. Intel relationship announcements do not establish exclusivity or procurement share.",
+    "limits": [
+      "No CPU quantities, negotiated prices or split of future procurement reported.",
+      "Existing Intel/AMD relationship facts were already known; new use is the same-source comparison, not a new deal."
+    ],
+    "model_consequence": "Retain share-loss assumption and require separate evidence for mix/retained margins. Do not use customer press releases as booked revenue."
+  }
+}

@@ -1,0 +1,527 @@
+[
+  {
+    "cell": "B1",
+    "formula_or_input": "May 2025 Rating effect: On May 16, 2025, Moody's, the lone holdout among the ratings agencies, downgraded the United States from Aaa to Aa1, thus raising questions about whether the US 10-year treasury rate is really a riskfree rate. Netting out the default spread for an Aa1 rated sovereign from the US treasury rate will yield a more consistent riskfree rate in US dollars and a higher equity risk premium. While I will report my conventional measure of the ERP, with the US treasury rate as the riskfree rate, to allow for comparison with time series data, I will also report a US ERP with the adjusted riskfree rate.",
+    "cached_value": "May 2025 Rating effect: On May 16, 2025, Moody's, the lone holdout among the ratings agencies, downgraded the United States from Aaa to Aa1, thus raising questions about whether the US 10-year treasury rate is really a riskfree rate. Netting out the default spread for an Aa1 rated sovereign from the US treasury rate will yield a more consistent riskfree rate in US dollars and a higher equity risk premium. While I will report my conventional measure of the ERP, with the US treasury rate as the riskfree rate, to allow for comparison with time series data, I will also report a US ERP with the adjusted riskfree rate."
+  },
+  {
+    "cell": "B3",
+    "formula_or_input": "November",
+    "cached_value": "November"
+  },
+  {
+    "cell": "B4",
+    "formula_or_input": "Estimated",
+    "cached_value": "Estimated"
+  },
+  {
+    "cell": "B5",
+    "formula_or_input": 7580.07,
+    "cached_value": 7580.07
+  },
+  {
+    "cell": "G5",
+    "formula_or_input": "='Buyback & Dividend computation'!G57",
+    "cached_value": 198.1669447860915
+  },
+  {
+    "cell": "H5",
+    "formula_or_input": "C",
+    "cached_value": "C"
+  },
+  {
+    "cell": "B6",
+    "formula_or_input": "NORM",
+    "cached_value": "NORM"
+  },
+  {
+    "cell": "G6",
+    "formula_or_input": "='Buyback & Dividend computation'!D27*'Buyback & Dividend computation'!D30",
+    "cached_value": 306.49625434944846
+  },
+  {
+    "cell": "H6",
+    "formula_or_input": "A10",
+    "cached_value": "A10"
+  },
+  {
+    "cell": "B7",
+    "formula_or_input": "=IF(B6=\"C\",G5/B5,IF(B6=\"A10\",G6/B5,IF(B6=\"A5\",G7/B5,IF(B6=\"P10\",G8/B5,IF(B6=\"p5\",G9/B5,IF(B6=\"NC\",G11/B5,G10/B5))))))",
+    "cached_value": 0.02328979072950897
+  },
+  {
+    "cell": "G7",
+    "formula_or_input": "='Buyback & Dividend computation'!D28*'Buyback & Dividend computation'!D30",
+    "cached_value": 266.80236077462524
+  },
+  {
+    "cell": "H7",
+    "formula_or_input": "A5",
+    "cached_value": "A5"
+  },
+  {
+    "cell": "B8",
+    "formula_or_input": "TD",
+    "cached_value": "TD"
+  },
+  {
+    "cell": "G8",
+    "formula_or_input": "='Buyback & Dividend computation'!E27*'Buyback & Dividend computation'!C57",
+    "cached_value": 267.36011904708994
+  },
+  {
+    "cell": "H8",
+    "formula_or_input": "P10",
+    "cached_value": "P10"
+  },
+  {
+    "cell": "B9",
+    "formula_or_input": "=IF(B8=\"H\",G15,IF(B8=\"BU\",G16,IF(B8=\"TD\",G17,IF(B8=\"FC\",G18,G19))))",
+    "cached_value": 0.1551772827487361
+  },
+  {
+    "cell": "G9",
+    "formula_or_input": "='Buyback & Dividend computation'!E28*'Buyback & Dividend computation'!C57",
+    "cached_value": 243.7588350409314
+  },
+  {
+    "cell": "H9",
+    "formula_or_input": "P5",
+    "cached_value": "P5"
+  },
+  {
+    "cell": "B10",
+    "formula_or_input": 0.0494,
+    "cached_value": 0.0494
+  },
+  {
+    "cell": "G10",
+    "formula_or_input": "='Buyback & Dividend computation'!E27*AVERAGE('Buyback & Dividend computation'!Q48:Q57)",
+    "cached_value": 176.53824401502905
+  },
+  {
+    "cell": "H10",
+    "formula_or_input": "NORM",
+    "cached_value": "NORM"
+  },
+  {
+    "cell": "B11",
+    "formula_or_input": "ERP10",
+    "cached_value": "ERP10"
+  },
+  {
+    "cell": "G11",
+    "formula_or_input": "='Buyback & Dividend computation'!H57",
+    "cached_value": 178.6601236481647
+  },
+  {
+    "cell": "H11",
+    "formula_or_input": "NC",
+    "cached_value": "NC"
+  },
+  {
+    "cell": "B12",
+    "formula_or_input": 0.0022,
+    "cached_value": 0.0022
+  },
+  {
+    "cell": "B13",
+    "formula_or_input": 0.0425,
+    "cached_value": 0.0425
+  },
+  {
+    "cell": "B14",
+    "formula_or_input": "No",
+    "cached_value": "No"
+  },
+  {
+    "cell": "B15",
+    "formula_or_input": 0.03,
+    "cached_value": 0.03
+  },
+  {
+    "cell": "G15",
+    "formula_or_input": "=('Buyback & Dividend computation'!C57/'Buyback & Dividend computation'!C43)^(1/10)-1",
+    "cached_value": 0.12456963753067529
+  },
+  {
+    "cell": "H15",
+    "formula_or_input": "H",
+    "cached_value": "H"
+  },
+  {
+    "cell": "B16",
+    "formula_or_input": "No",
+    "cached_value": "No"
+  },
+  {
+    "cell": "G16",
+    "formula_or_input": "='Expected growth rate'!L11",
+    "cached_value": 0
+  },
+  {
+    "cell": "H16",
+    "formula_or_input": "BU",
+    "cached_value": "BU"
+  },
+  {
+    "cell": "G17",
+    "formula_or_input": "='Expected growth rate'!G11",
+    "cached_value": 0.1551772827487361
+  },
+  {
+    "cell": "H17",
+    "formula_or_input": "TD",
+    "cached_value": "TD"
+  },
+  {
+    "cell": "G18",
+    "formula_or_input": "=(1-((B7*B5)/B33))*'Buyback & Dividend computation'!$F18",
+    "cached_value": 0.05259764498499808
+  },
+  {
+    "cell": "H18",
+    "formula_or_input": "FC",
+    "cached_value": "FC"
+  },
+  {
+    "cell": "G19",
+    "formula_or_input": "=(1-((B7*B5)/B33))*'Buyback & Dividend computation'!$F27",
+    "cached_value": 0.06316809222686605
+  },
+  {
+    "cell": "H19",
+    "formula_or_input": "FA",
+    "cached_value": "FA"
+  },
+  {
+    "cell": "G22",
+    "formula_or_input": "='Historical ERP'!J99",
+    "cached_value": 0.0561
+  },
+  {
+    "cell": "H22",
+    "formula_or_input": "HUS",
+    "cached_value": "HUS"
+  },
+  {
+    "cell": "G23",
+    "formula_or_input": 0.032,
+    "cached_value": 0.032
+  },
+  {
+    "cell": "H23",
+    "formula_or_input": "HG",
+    "cached_value": "HG"
+  },
+  {
+    "cell": "G24",
+    "formula_or_input": "=AVERAGE('Implied ERP- Annual since 1960'!E58:E67)",
+    "cached_value": 0.05084444444444444
+  },
+  {
+    "cell": "H24",
+    "formula_or_input": "ERP10",
+    "cached_value": "ERP10"
+  },
+  {
+    "cell": "G25",
+    "formula_or_input": "=AVERAGE('Implied ERP- Annual since 1960'!E3:E67)",
+    "cached_value": 0.04247968750000001
+  },
+  {
+    "cell": "H25",
+    "formula_or_input": "ERPLong",
+    "cached_value": "ERPLong"
+  },
+  {
+    "cell": "G26",
+    "formula_or_input": "=MAX('Implied ERP- Annual since 1960'!E3:E67)",
+    "cached_value": 0.0645
+  },
+  {
+    "cell": "H26",
+    "formula_or_input": "ERPHigh",
+    "cached_value": "ERPHigh"
+  },
+  {
+    "cell": "G28",
+    "formula_or_input": "='Buyback & Dividend computation'!C57",
+    "cached_value": 311.9756793023725
+  },
+  {
+    "cell": "H28",
+    "formula_or_input": "Reported LTM",
+    "cached_value": "Reported LTM"
+  },
+  {
+    "cell": "G29",
+    "formula_or_input": "='Expected growth rate'!H5",
+    "cached_value": 261.48
+  },
+  {
+    "cell": "H29",
+    "formula_or_input": "Estimated",
+    "cached_value": "Estimated"
+  },
+  {
+    "cell": "B32",
+    "formula_or_input": "Most recent year",
+    "cached_value": "Most recent year"
+  },
+  {
+    "cell": "C32",
+    "formula_or_input": 1,
+    "cached_value": 1
+  },
+  {
+    "cell": "G32",
+    "formula_or_input": 5,
+    "cached_value": 5
+  },
+  {
+    "cell": "H32",
+    "formula_or_input": "Terminal Year",
+    "cached_value": "Terminal Year"
+  },
+  {
+    "cell": "B33",
+    "formula_or_input": "=IF(B4=\"Estimated\",G29,G28)",
+    "cached_value": 261.48
+  },
+  {
+    "cell": "C33",
+    "formula_or_input": "=B33*(1+$B$9)",
+    "cached_value": 302.0557558931395
+  },
+  {
+    "cell": "G33",
+    "formula_or_input": "=F33*(1+$B$9)",
+    "cached_value": 537.8753906846621
+  },
+  {
+    "cell": "H33",
+    "formula_or_input": "=IF(B14=\"No\",G33*(1+B10),G33*(1+B15))",
+    "cached_value": 564.4464349844843
+  },
+  {
+    "cell": "B34",
+    "formula_or_input": "=B35/G28",
+    "cached_value": 0.565871815424192
+  },
+  {
+    "cell": "C34",
+    "formula_or_input": "=IF($B$16=\"Yes\",B34-($B$34-$H$34)/5,$B$34)",
+    "cached_value": 0.565871815424192
+  },
+  {
+    "cell": "G34",
+    "formula_or_input": "=IF($B$16=\"Yes\",F34-($B$34-$H$34)/5,$B$34)",
+    "cached_value": 0.565871815424192
+  },
+  {
+    "cell": "H34",
+    "formula_or_input": "=IF($B$16=\"Yes\",IF(B14=\"No\",1-B10/'Buyback & Dividend computation'!F27,1-B15/'Buyback & Dividend computation'!F27),$B$34)",
+    "cached_value": 0.565871815424192
+  },
+  {
+    "cell": "B35",
+    "formula_or_input": "=IF(B6=\"C\",G5,IF(B6=\"A10\",G6,IF(B6=\"A5\",G7,IF(B6=\"P10\",G8,IF(B6=\"P5\",G9,IF(B6=\"NORM\",G10,G11))))))",
+    "cached_value": 176.53824401502905
+  },
+  {
+    "cell": "C35",
+    "formula_or_input": "=C33*C34",
+    "cached_value": 170.92483894657744
+  },
+  {
+    "cell": "G35",
+    "formula_or_input": "=G33*G34",
+    "cached_value": 304.36852379872624
+  },
+  {
+    "cell": "H35",
+    "formula_or_input": "=H34*H33",
+    "cached_value": 319.4043288743833
+  },
+  {
+    "cell": "G36",
+    "formula_or_input": "=IF(B14=\"No\",H35/(B10+B13-B10),H35/(B10+B13-B15))",
+    "cached_value": 7515.395973514899
+  },
+  {
+    "cell": "C37",
+    "formula_or_input": "=VLOOKUP(B3,Answers!G2:H13,2)/12",
+    "cached_value": 0.16666666666666666
+  },
+  {
+    "cell": "G37",
+    "formula_or_input": "=1+F37",
+    "cached_value": 4.166666666666667
+  },
+  {
+    "cell": "C38",
+    "formula_or_input": "=C35*C37/(1+$B$10+$B$13)^C37",
+    "cached_value": 28.073083535675824
+  },
+  {
+    "cell": "G38",
+    "formula_or_input": "=(G35+G36)/(1+$B$10+$B$13)^G37",
+    "cached_value": 5421.237064978425
+  },
+  {
+    "cell": "C39",
+    "formula_or_input": "=SUM(C38:G38)",
+    "cached_value": 6015.488776334161
+  },
+  {
+    "cell": "C40",
+    "formula_or_input": "=C39/'Buyback & Dividend computation'!C57",
+    "cached_value": 19.281915788390158
+  },
+  {
+    "cell": "C41",
+    "formula_or_input": "=C39/AVERAGE('Buyback & Dividend computation'!Q39:Q48)",
+    "cached_value": 48.209455358828535
+  },
+  {
+    "cell": "C42",
+    "formula_or_input": -4.253478880714396e+27,
+    "cached_value": -4.253478880714396e+27
+  },
+  {
+    "cell": "C43",
+    "formula_or_input": "=C45+B10",
+    "cached_value": 0.08326945029856375
+  },
+  {
+    "cell": "C44",
+    "formula_or_input": "=C45+B12",
+    "cached_value": 0.03606945029856375
+  },
+  {
+    "cell": "H44",
+    "formula_or_input": "=H45-B12",
+    "cached_value": 0.0472
+  },
+  {
+    "cell": "C45",
+    "formula_or_input": 0.03386945029856375,
+    "cached_value": 0.03386945029856375
+  },
+  {
+    "cell": "H45",
+    "formula_or_input": "=B10",
+    "cached_value": 0.0494
+  },
+  {
+    "cell": "B47",
+    "formula_or_input": "=B32",
+    "cached_value": "Most recent year"
+  },
+  {
+    "cell": "C47",
+    "formula_or_input": 1,
+    "cached_value": 1
+  },
+  {
+    "cell": "G47",
+    "formula_or_input": 5,
+    "cached_value": 5
+  },
+  {
+    "cell": "H47",
+    "formula_or_input": "=H32",
+    "cached_value": "Terminal Year"
+  },
+  {
+    "cell": "B48",
+    "formula_or_input": "=B33",
+    "cached_value": 261.48
+  },
+  {
+    "cell": "C48",
+    "formula_or_input": "=C33",
+    "cached_value": 302.0557558931395
+  },
+  {
+    "cell": "G48",
+    "formula_or_input": "=G33",
+    "cached_value": 537.8753906846621
+  },
+  {
+    "cell": "H48",
+    "formula_or_input": "=IF(B14=\"No\",G48*(1+B10),G48*(1+B15))",
+    "cached_value": 564.4464349844843
+  },
+  {
+    "cell": "B49",
+    "formula_or_input": "=B50/G28",
+    "cached_value": 0.565871815424192
+  },
+  {
+    "cell": "C49",
+    "formula_or_input": "=IF($B$16=\"Yes\",B49-($B$49-$H$49)/5,$B$49)",
+    "cached_value": 0.565871815424192
+  },
+  {
+    "cell": "G49",
+    "formula_or_input": "=IF($B$16=\"Yes\",F49-($B$49-$H$49)/5,$B$49)",
+    "cached_value": 0.565871815424192
+  },
+  {
+    "cell": "H49",
+    "formula_or_input": "=IF($B$16=\"Yes\",IF(B14=\"No\",1-B10/'Buyback & Dividend computation'!F27,1-B15/'Buyback & Dividend computation'!F27),$B$34)",
+    "cached_value": 0.565871815424192
+  },
+  {
+    "cell": "B50",
+    "formula_or_input": "=B35",
+    "cached_value": 176.53824401502905
+  },
+  {
+    "cell": "C50",
+    "formula_or_input": "=C48*C49",
+    "cached_value": 170.92483894657744
+  },
+  {
+    "cell": "G50",
+    "formula_or_input": "=G48*G49",
+    "cached_value": 304.36852379872624
+  },
+  {
+    "cell": "H50",
+    "formula_or_input": "=H48*H49",
+    "cached_value": 319.4043288743833
+  },
+  {
+    "cell": "G51",
+    "formula_or_input": "=IF(B14=\"No\",H50/(B10+C45-B10),H50/(B10+C45-B15))",
+    "cached_value": 9430.455057840953
+  },
+  {
+    "cell": "C52",
+    "formula_or_input": "=C37",
+    "cached_value": 0.16666666666666666
+  },
+  {
+    "cell": "G52",
+    "formula_or_input": "=G37",
+    "cached_value": 4.166666666666667
+  },
+  {
+    "cell": "C53",
+    "formula_or_input": "=C50*C52/(1+$B$10+$C$45)^C52",
+    "cached_value": 28.110237378057082
+  },
+  {
+    "cell": "G53",
+    "formula_or_input": "=(G50+G51)/(1+$B$10+$C$45)^G52",
+    "cached_value": 6975.778579929866
+  },
+  {
+    "cell": "B54",
+    "formula_or_input": "=SUM(C53:G53)",
+    "cached_value": 7580.070002363032
+  }
+]

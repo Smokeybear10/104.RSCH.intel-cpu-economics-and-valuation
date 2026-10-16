@@ -1,0 +1,35 @@
+{
+  "selected_utc": "2026-11-06T07:04:50.660724+00:00",
+  "scope": "Parent-authorized equity overlay for already-selected favorableoperatinganchors. Earlierpreferredpricesareknown. Nooperatinginputortailpolicywillbechosenbytargetoutcomes.",
+  "economic_sets": {
+    "YTD_normalized_growth": {
+      "CPU_margin": 0.4171014870858335,
+      "post2030_CPU_growth": "2%units and2%ASP",
+      "normalized_growth": true
+    },
+    "YTD_old_growth": {
+      "CPU_margin": 0.4171014870858335,
+      "post2030_CPU_growth": "Prior fading8%to1%unitgrowth plus2%ASP",
+      "normalized_growth": false
+    },
+    "pooled_old_growth": {
+      "CPU_margin": 0.4490871849674949,
+      "post2030_CPU_growth": "Prior fading8%to1%unitgrowth plus2%ASP",
+      "normalized_growth": false
+    }
+  },
+  "anchor_cases": "Allfivecasesfromfavorable_anchor_case_results.json plus unchangedselectedanchorbaseline. OtherDCAI growth60/30/20/15% unless explicitlynamedcontrol.",
+  "controls": [
+    "Exactold2027\u201330CPU/clientannualrevenues, preferredOtherDCAI andnoQ4anchorchange, pooledmarginandoldpost2030growth",
+    "JointfavorableQ4anchors and2027selectedquarterpath; from2028useoldCPUunit25/18/12%andASP8/4/2%;clientandOtherDCAIremaintheirselectedrates;pooledmarginandoldpost2030growth"
+  ],
+  "cash_and_capital": "Rootengine conventionsincludingQ4openingcashdeltaand2027WCinitialcondition; no extra capex refund or marginuplift.",
+  "required_checks": [
+    "Quarterannualoverridesmatch",
+    "Q4openingcashdeltaaddedonce",
+    "2027WCdelta subtractsprior2026revenueleveldifference",
+    "2031CPU/client/Othercarryrevised2030levels",
+    "Rootenginehashdoesnotchangeduringcomputation"
+  ],
+  "interpretation": "Unweightedscenariooutcomes, notprobabilitiesorconfidenceintervals. Favorablelongoutcomeifpresentrequiresjointoperatingandretentionassumptions."
+}

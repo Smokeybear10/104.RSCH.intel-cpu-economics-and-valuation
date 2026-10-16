@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-11-06T10:57:36.147014+00:00",
+  "purpose": "Identify conditional post-2030 CPU revenue growth required to support the observed quote and a chosen 10% annual target return. This is a reverse hurdle, not a forecast or proof of market expectations.",
+  "held_fixed": [
+    "2027-2030 selected deliveries, profit, cash and capex",
+    "CPU margin phase to YTD residual or pre-existing pooled residual",
+    "Other DCAI and client revenues/margins",
+    "2030 Foundry profit/Products ratio",
+    "separate packaging economics",
+    "0.8 host sales/net investment turnover",
+    "3% funded terminal growth",
+    "tax, credit, claims, share and treasury policy"
+  ],
+  "varied": "Constant 2031-2040 CPU revenue CAGR; 2041 returns to 3%. No infinite high-growth tail.",
+  "capital_rule": "Recompute Products, host external sales, physical capex, depreciation and working capital each year; no free growth.",
+  "risk_methods": [
+    0.11555,
+    0.10625
+  ],
+  "margin_controls": [
+    "YTD conditional residual",
+    "pooled Q2/Q3 conditional residual"
+  ],
+  "thresholds": [
+    "Dec2026 planning value equals Nov5 quote52.25; disclose56-day mismatch",
+    "Dec2030 target produces10% annual price return over exact holding period"
+  ],
+  "guard": "Do not choose an operating case or lower the asset rate merely because the threshold is met. Multiple inputs can explain the same price; inverse analysis does not identify a unique market forecast."
+}

@@ -1,0 +1,35 @@
+{
+  "period": "Three months ended September 26, 2026",
+  "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+  "source_locations": [
+    "Consolidated Condensed Statements of Operations, printed page 3",
+    "Note 2 Operating Segments, quarter table",
+    "MD&A Intel Products, printed page 33"
+  ],
+  "units": "USD billions except percentages",
+  "consolidated_revenue_B": 16.513,
+  "consolidated_operating_income_B": 2.522,
+  "consolidated_operating_margin_pct": 15.272815357597041,
+  "Products_revenue_B": 15.415,
+  "CCPG_revenue_B": 8.097,
+  "DCAI_revenue_B": 7.318,
+  "Products_segment_operating_income_B": 5.324,
+  "DCAI_segment_operating_income_B": 3.039,
+  "DCAI_segment_operating_margin_pct": 41.52773981962285,
+  "Foundry_segment_revenue_B": 6.697,
+  "Foundry_segment_operating_loss_B": -1.853,
+  "revenue_eliminations_B": -6.291,
+  "scope_notes": [
+    "Products revenue equals CCPG plus DCAI; these are reported segment revenue figures.",
+    "Foundry revenue is largely intersegment; adding Products and Foundry without eliminations is incorrect.",
+    "DCAI margin is a product-segment margin, not consolidated margin.",
+    "Consolidated operating income is reported GAAP; segment profits precede corporate unallocated and intersegment profit eliminations.",
+    "Use CCPG, the issuer latest label, rather than silently labeling as old CCG.",
+    "No annualization or actual-to-model same-scope claim added."
+  ],
+  "recommended_three_metrics": [
+    "$16.51B consolidated revenue",
+    "$2.52B consolidated operating profit",
+    "41.5% DCAI segment operating margin"
+  ]
+}

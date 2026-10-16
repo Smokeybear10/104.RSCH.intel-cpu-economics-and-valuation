@@ -1,0 +1,34 @@
+{
+  "stage": "Read initial screen before defense notes and comparison",
+  "initial_screen": "tmp/pdfs/intel_long/case_closure_review/m37_intel_initial_screen.txt",
+  "scope_source": "https://www.m37.com/spc2026",
+  "scope_findings": {
+    "explicit_rules": ["A long or short fundamental recommendation over a 3–5-year horizon", "Initial Screen of no more than 10 PDF pages", "Clear, concise recommendation with business overview, drivers, and risks"],
+    "published_judgment_emphasis": "The Round 2 description evaluates theses and judgment rather than modeling; the final discussion tests assumptions, counterarguments, and what changes the view.",
+    "not_explicitly_required": ["An immediate trade at the current quote", "A minimum target return", "A minimum upside percentage", "Scenario probabilities", "Catalysts as a separately labeled section"],
+    "rule_violation_found": false
+  },
+  "initial_objections": [
+    {
+      "objection": "The submitted recommendation is a watchlist entry condition, while the current-price conclusion is no new position. A fair-valued quote and distant purchase limit do not yet establish an investable mispricing.",
+      "exact_wording": ["Conditional LONG at $40 or below | $82.47 December 2030 target", "No new position at $56.28.", "At $56.28, core return is 9.6%; the higher-rate case returns 6.7%"],
+      "competition_judgment_not_rule": true
+    },
+    {
+      "objection": "Forecast arithmetic establishes possibility, not why this outcome is more likely than the market assumes. The market disagreement is confined to two aggregate revenue observations, while the demanding mix and later CPU ramps lack a demonstrated purchasing mechanism.",
+      "exact_wording": ["The measurable disagreement is sales. I have not established a comparable consensus forecast for CPU shipment share or parent cash.", "Annual ASP / mix must rise 21.9%.", "The shipment bridge checks the quarterly sales forecast rather than independently producing it.", "25% unit growth and 8% ASP growth in 2028 lift company sales to $90.01B, versus $83.72B consensus."],
+      "competition_judgment_not_rule": true
+    },
+    {
+      "objection": "The valuation relies mainly on years outside the pitch horizon. A CPU-growth thesis and a factory-recovery thesis do not themselves prove the long-run consolidated cash economics embedded in the target.",
+      "exact_wording": ["With 92.9% of operating value coming after 2030, sustained profitability matters more than the near-term ramp alone.", "$60.07B to $108.03B of CPU sales in 2030-40.", "Foundry and added packaging contribute $7.73B of EBIT growth. That is 31.5% of the 2027-30 increase, with $124.5B of capex over the same period."],
+      "competition_judgment_not_rule": true
+    },
+    {
+      "objection": "The $40 entry rule selects a stress that clears 12%, although the deck also shows a much worse internally plausible adverse bundle. Stress transparency does not establish why the selected stress is the appropriate underwriting case or the $40 cutoff remains attractive after new information.",
+      "exact_wording": ["A $40 entry clears my 12% return hurdle in the joint stress on page 7; it is not a forecast of a price decline.", "Joint downside: slower case + 11.555%", "The joint downside is a separate adverse bundle."],
+      "competition_judgment_not_rule": true
+    }
+  ],
+  "other_initial_concern": "The original AWS/Rust reanalysis is candid and useful adverse evidence, but does not generate the share-loss assumptions or the bullish forecast. Monitors describe misses rather than timed evidence expected to change investors' beliefs."
+}

@@ -1,0 +1,333 @@
+{
+  "prepared_utc": "2026-11-06T06:17:28.541530+00:00",
+  "quote": {
+    "selected_USD": 52.25,
+    "prior_frozen_reference_USD": 52.22,
+    "date": "2026-11-05",
+    "session": "regular close",
+    "reason": "Root authorized reference-price refresh after current historical page revised/confirmed52.25. Independentbrokerclose corroborates it; historical work remains frozen.",
+    "sources": [
+      {
+        "url": "https://stockanalysis.com/stocks/intc/history/",
+        "observed": "Nov5row:open56.51/high56.73/low51.51/close52.25;header4:00PMEST",
+        "role": "Currenthistoryandheaderagree;priorworkspace52.22isretainedasoldreceipt."
+      },
+      {
+        "url": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=intc",
+        "observed": "52.25,change-6.02(-10.33%);asof4:00pmET11/05/2026;open56.51,range51.51\u201356.73",
+        "role": "Independentlyopenedpublicbrokerquote;primaryconfirmationforthisrefresh."
+      },
+      {
+        "url": "https://finance.yahoo.com/quote/INTC/?ltr=1",
+        "observed": "Searchresult52.25atNov5,4:00:01PMEST;directopen429",
+        "role": "Searchcorroborationonly;notclaimedfullpageverification."
+      },
+      {
+        "url": "https://www.nasdaq.com/market-activity/stocks/intc/historical",
+        "observed": "Historicalpagedataunavailable",
+        "role": "Exchangeattemptnotverification."
+      },
+      {
+        "url": "https://www.google.com/finance/quote/INTC%3ANASDAQ?comparison=NASDAQ%3AAMD",
+        "observed": "Searchresult52.22withNov5,3:57:46PMGMT-5timestamp",
+        "role": "Competingobservationispreclose-timestamped;donotcallofficialclose."
+      },
+      {
+        "url": "https://chartexchange.com/symbol/nasdaq-intc/historical",
+        "observed": "SearchresultNov5close52.21anddifferentOHLC",
+        "role": "Unresolvedvendorconflict;notselected,notsilentlydiscarded."
+      }
+    ],
+    "qualification": "Brokerandhistoricalprovideragreementjustifies52.25asrefreshedreference;directNasdaqofficialclosingprintwasnotavailable. Do not claimexchangecertificationoridentifythecauseofeveryvendorrevision."
+  },
+  "holding_years": 4.153319644079398,
+  "base_valuation_unchanged": {
+    "2026": {
+      "price_USD": 51.066594344272275,
+      "equity_B": 281.3769348369402,
+      "explicit_operating_PV_B": 146.6785135044461,
+      "terminal_operating_PV_B": 126.64293047549664,
+      "financing_shield_PV_B": 2.58895408799514,
+      "economic_cash_B": 50.839,
+      "ordinary_debt_B": 50.134,
+      "total_operating_value_B": 273.3214439799427,
+      "net_financial_claims_and_tax_benefit_B": 8.055490856997494,
+      "net_other_assets_after_added_claims_B": 4.502,
+      "added_claim_reserve_B": 1.215
+    },
+    "2030": {
+      "price_USD": 77.46147983166226,
+      "equity_B": 426.81275387245904,
+      "explicit_operating_PV_B": 194.75335216328136,
+      "terminal_operating_PV_B": 196.12687727775884,
+      "financing_shield_PV_B": 2.748413786579589,
+      "economic_cash_B": 65.77911064483916,
+      "ordinary_debt_B": 37.097,
+      "total_operating_value_B": 390.8802294410402,
+      "net_financial_claims_and_tax_benefit_B": 35.93252443141881,
+      "net_other_assets_after_added_claims_B": 4.502,
+      "added_claim_reserve_B": 1.215
+    }
+  },
+  "all_scenario_return_overlays": [
+    {
+      "name": "base",
+      "December2026_planning_value_USD": 51.06659434427227,
+      "December2030_target_USD": 77.46147983166225,
+      "annual_price_return_from52_25": 0.09944058266936473,
+      "total_price_return_from52_25": 0.48251636041458834,
+      "planning_value_change_from52_25": -0.02264891207134412
+    },
+    {
+      "name": "foundry_recovery_delayed_one_year",
+      "December2026_planning_value_USD": 49.697548719378524,
+      "December2030_target_USD": 75.76456513111778,
+      "annual_price_return_from52_25": 0.09359276227357993,
+      "total_price_return_from52_25": 0.4500395240405317,
+      "planning_value_change_from52_25": -0.04885074221285124
+    },
+    {
+      "name": "profit_retention_erosion_from_2028",
+      "December2026_planning_value_USD": 45.0013345276858,
+      "December2030_target_USD": 68.14207465519874,
+      "annual_price_return_from52_25": 0.06602630730951797,
+      "total_price_return_from52_25": 0.3041545388554783,
+      "planning_value_change_from52_25": -0.13873043966151577
+    },
+    {
+      "name": "CPU_growth_normalizes_2031",
+      "December2026_planning_value_USD": 46.006742789422255,
+      "December2030_target_USD": 69.62548866171882,
+      "annual_price_return_from52_25": 0.07156823923187416,
+      "total_price_return_from52_25": 0.3325452375448579,
+      "planning_value_change_from52_25": -0.11948817627899988
+    },
+    {
+      "name": "capital_productivity_060",
+      "December2026_planning_value_USD": 47.57199147092369,
+      "December2030_target_USD": 72.04952713677137,
+      "annual_price_return_from52_25": 0.08043435916702668,
+      "total_price_return_from52_25": 0.37893831840710757,
+      "planning_value_change_from52_25": -0.08953126371437914
+    },
+    {
+      "name": "mature_tax_21",
+      "December2026_planning_value_USD": 49.216479830359646,
+      "December2030_target_USD": 74.59628095433408,
+      "annual_price_return_from52_25": 0.08950862325881648,
+      "total_price_return_from52_25": 0.4276800182647671,
+      "planning_value_change_from52_25": -0.058057802289767535
+    },
+    {
+      "name": "no_new_capital_credits",
+      "December2026_planning_value_USD": 49.33347755813179,
+      "December2030_target_USD": 74.94026590627276,
+      "annual_price_return_from52_25": 0.09071615549447465,
+      "total_price_return_from52_25": 0.43426346232100976,
+      "planning_value_change_from52_25": -0.055818611327621226
+    },
+    {
+      "name": "terminal_incremental_return_equal_operating_rate",
+      "December2026_planning_value_USD": 47.49498743681478,
+      "December2030_target_USD": 71.93027404707371,
+      "annual_price_return_from52_25": 0.08000352058185034,
+      "total_price_return_from52_25": 0.37665596262342027,
+      "planning_value_change_from52_25": -0.09100502513273145
+    },
+    {
+      "name": "embedded_packaging_sales_capital_denominator",
+      "December2026_planning_value_USD": 50.963855780913136,
+      "December2030_target_USD": 77.30237269846516,
+      "annual_price_return_from52_25": 0.09889643198590314,
+      "total_price_return_from52_25": 0.47947124781751516,
+      "planning_value_change_from52_25": -0.02461520036529885
+    },
+    {
+      "name": "remove_external_packaging_overlay",
+      "December2026_planning_value_USD": 50.1018723640664,
+      "December2030_target_USD": 75.78347303509653,
+      "annual_price_return_from52_25": 0.0936584669657099,
+      "total_price_return_from52_25": 0.4504013978008905,
+      "planning_value_change_from52_25": -0.04111249063987743
+    },
+    {
+      "name": "temporary_2027_unit_shortfall_restore_2028",
+      "December2026_planning_value_USD": 50.88965751792216,
+      "December2030_target_USD": 77.25916718193447,
+      "annual_price_return_from52_25": 0.09874852116404931,
+      "total_price_return_from52_25": 0.4786443479796072,
+      "planning_value_change_from52_25": -0.026035262814886884
+    },
+    {
+      "name": "joint_downside",
+      "December2026_planning_value_USD": 30.22959767599212,
+      "December2030_target_USD": 45.47035081903865,
+      "annual_price_return_from52_25": -0.03290857881857123,
+      "total_price_return_from52_25": -0.12975405131026507,
+      "planning_value_change_from52_25": -0.42144310667957663
+    },
+    {
+      "name": "persistent_lower_CPU_demand",
+      "December2026_planning_value_USD": 38.85295785502849,
+      "December2030_target_USD": 58.82500628386156,
+      "annual_price_return_from52_25": 0.028949039449642777,
+      "total_price_return_from52_25": 0.1258374408394558,
+      "planning_value_change_from52_25": -0.25640272047792356
+    },
+    {
+      "name": "mature_only_margin35",
+      "December2026_planning_value_USD": 46.73755411661401,
+      "December2030_target_USD": 70.75726714270608,
+      "annual_price_return_from52_25": 0.07573649979181951,
+      "total_price_return_from52_25": 0.35420606971686275,
+      "planning_value_change_from52_25": -0.10550135661982762
+    },
+    {
+      "name": "paired_base_crosscheck",
+      "December2026_planning_value_USD": 51.06659434427229,
+      "December2030_target_USD": 77.46147983166225,
+      "annual_price_return_from52_25": 0.09944058266936473,
+      "total_price_return_from52_25": 0.48251636041458834,
+      "planning_value_change_from52_25": -0.022648912071343785
+    },
+    {
+      "name": "favorable_maturing_risk",
+      "December2026_planning_value_USD": 58.7854707267406,
+      "December2030_target_USD": 89.41539715892641,
+      "annual_price_return_from52_25": 0.13809416948252773,
+      "total_price_return_from52_25": 0.7112994671564863,
+      "planning_value_change_from52_25": 0.1250807794591502
+    },
+    {
+      "name": "whole_other_tripling_2030_retention0.1",
+      "December2026_planning_value_USD": 50.98614521230299,
+      "December2030_target_USD": 77.33717580968784,
+      "annual_price_return_from52_25": 0.09901553217202741,
+      "total_price_return_from52_25": 0.4801373360705805,
+      "planning_value_change_from52_25": -0.02418860837697623
+    },
+    {
+      "name": "whole_other_tripling_2030_retention0.2",
+      "December2026_planning_value_USD": 50.641703269538475,
+      "December2030_target_USD": 76.807262478399,
+      "annual_price_return_from52_25": 0.09719768343834478,
+      "total_price_return_from52_25": 0.46999545413203814,
+      "planning_value_change_from52_25": -0.03078079866912009
+    },
+    {
+      "name": "whole_other_tripling_2030_retention0.3",
+      "December2026_planning_value_USD": 50.297261326773935,
+      "December2030_target_USD": 76.27734914711017,
+      "annual_price_return_from52_25": 0.09537028751289345,
+      "total_price_return_from52_25": 0.4598535721934962,
+      "planning_value_change_from52_25": -0.0373729889612644
+    },
+    {
+      "name": "other_growth_normalizes_2031_retention0.1",
+      "December2026_planning_value_USD": 51.55744280132199,
+      "December2030_target_USD": 78.22163734488714,
+      "annual_price_return_from52_25": 0.10202869187329333,
+      "total_price_return_from52_25": 0.497064829567218,
+      "planning_value_change_from52_25": -0.013254683228287267
+    },
+    {
+      "name": "other_growth_normalizes_2031_retention0.2",
+      "December2026_planning_value_USD": 50.70395925870232,
+      "December2030_target_USD": 76.89988127533424,
+      "annual_price_return_from52_25": 0.09751609414777263,
+      "total_price_return_from52_25": 0.4717680626858227,
+      "planning_value_change_from52_25": -0.029589296484166083
+    },
+    {
+      "name": "other_growth_normalizes_2031_retention0.3",
+      "December2026_planning_value_USD": 49.850475716082656,
+      "December2030_target_USD": 75.57812520578133,
+      "annual_price_return_from52_25": 0.09294421871804315,
+      "total_price_return_from52_25": 0.44647129580442746,
+      "planning_value_change_from52_25": -0.0459239097400449
+    }
+  ],
+  "entry_ceilings_and_return_hurdles": [
+    {
+      "chosen_annual_price_return": 0.08,
+      "maximum_entry_with_unchanged_base_target_USD": 56.26861807877052,
+      "required2030_target_at52_25_USD": 71.92930019248817,
+      "conditional_mature_DCAI_margin_for_required_target": 0.35874101929755864,
+      "target_reconstruction_USD": 71.92930019248816
+    },
+    {
+      "chosen_annual_price_return": 0.1,
+      "maximum_entry_with_unchanged_base_target_USD": 52.13972510817397,
+      "required2030_target_at52_25_USD": 77.62530993033266,
+      "conditional_mature_DCAI_margin_for_required_target": 0.40122184443029607,
+      "target_reconstruction_USD": 77.62530993033268
+    },
+    {
+      "chosen_annual_price_return": 0.12,
+      "maximum_entry_with_unchanged_base_target_USD": 48.380194403878534,
+      "required2030_target_at52_25_USD": 83.65742161796447,
+      "conditional_mature_DCAI_margin_for_required_target": 0.446209316990411,
+      "target_reconstruction_USD": 83.65742161796447
+    },
+    {
+      "chosen_annual_price_return": 0.15,
+      "maximum_entry_with_unchanged_base_target_USD": 43.3499156573939,
+      "required2030_target_at52_25_USD": 93.36494108066438,
+      "conditional_mature_DCAI_margin_for_required_target": 0.5186079707405455,
+      "target_reconstruction_USD": 93.36494108066435
+    }
+  ],
+  "conditional_reverse_margin_roots": [
+    {
+      "CPU_path": "base",
+      "host_capital_productivity": 0.6,
+      "mature_DCAI_margin_matching52_25_Dec2026_planning_value": 0.4540305504576796,
+      "reconstructed_value_USD": 52.25000000000001
+    },
+    {
+      "CPU_path": "base",
+      "host_capital_productivity": 0.8,
+      "mature_DCAI_margin_matching52_25_Dec2026_planning_value": 0.4136682219787071,
+      "reconstructed_value_USD": 52.25
+    },
+    {
+      "CPU_path": "base",
+      "host_capital_productivity": 1.0,
+      "mature_DCAI_margin_matching52_25_Dec2026_planning_value": 0.38945082489132354,
+      "reconstructed_value_USD": 52.249999999999986
+    },
+    {
+      "CPU_path": "CPU_growth_normalizes_2031",
+      "host_capital_productivity": 0.6,
+      "mature_DCAI_margin_matching52_25_Dec2026_planning_value": 0.5230976640819005,
+      "reconstructed_value_USD": 52.249999999999986
+    },
+    {
+      "CPU_path": "CPU_growth_normalizes_2031",
+      "host_capital_productivity": 0.8,
+      "mature_DCAI_margin_matching52_25_Dec2026_planning_value": 0.48812688189866804,
+      "reconstructed_value_USD": 52.25
+    },
+    {
+      "CPU_path": "CPU_growth_normalizes_2031",
+      "host_capital_productivity": 1.0,
+      "mature_DCAI_margin_matching52_25_Dec2026_planning_value": 0.46714441258872863,
+      "reconstructed_value_USD": 52.249999999999986
+    }
+  ],
+  "conditional_quote_matching_constant_rate": {
+    "rate": 0.11403536718862281,
+    "change_from_base_basis_points": -15.146328113771895,
+    "planning_value_USD": 52.25,
+    "2030_target_USD": 78.86045945253979,
+    "not_selected_as_new_discount_rate": true
+  },
+  "interpretation": "Only the purchaseprice changed. Alloperating/financingcash,claims,shares,discountandterminal assumptions remainfixed. Baseannualreturnroundsto9.9%atone decimal versus10.0%at52.22;target77.46andentryceiling48.38for12%areunchanged. Reverse rootsareconditionalone-variableplanningmatches,notuniquelyidentifiedmarketbeliefs.",
+  "unchanged_input_hashes": {
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/explicit_claims_overlay_results.json": "700cdc2c12f024acb7029a53aede3af034e44e5e27036352bd59c4550c3d73db",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/explicit_claims_overlay.py": "6946c22afdcc828b71821511c69d28a026d1285385c4b4c9c4f89c330c820c68",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_two_hour_comparison_2026_11_05/model_audit/extended_scenarios.py": "83eea412e57625fcd69837c9e96de93058eee4e1a3eeab1714c79403d58cdc9b",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf": "2020ecf0ab40e120382ce4a72a083bc16bcb15169a5b5e75e98aff8324ffa64b",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf": "a8b9186e3273ba0f9d614ce6cf26532d55f91e7628d56dddfcf7d3b3f3e21ff7"
+  }
+}

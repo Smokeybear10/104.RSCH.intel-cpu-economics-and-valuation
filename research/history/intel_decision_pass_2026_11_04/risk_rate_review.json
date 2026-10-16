@@ -1,0 +1,142 @@
+{
+  "as_of_utc": "2026-11-04T18:07:45.311301+00:00",
+  "scope": "Independent Intel operating-risk-rate review. No new equity valuation computed; policy frozen and sent to root before joint scenario outputs. Existing same-cash constant-rate outputs were already known.",
+  "owned_judgment": {
+    "preferred_working_rate": 0.12,
+    "classification": "Nominal USD cash-adjusted unlevered operating-risk planning rate, with financing benefits separately valued. Not a measured Intel WACC, equity return or short-account hurdle.",
+    "verdict": "Retain 12% as the working central rate for the sector-risk reference. Broaden testing to include 10% flat and successful-maturation term structure. The 10-12% interval is a useful research range, not a confidence interval or a claim that its endpoints are equally well supported.",
+    "why_central_not_reduced_to_match_price": "Current U.S. semiconductor asset-risk data and Intel cyclical manufacturing exposure support the original approximate 12% reference. The price-matching rate is a conditional diagnostic and does not establish the correct risk premium.",
+    "strongest_limitation": "A flat sector-risk rate forever is not uniquely defensible. The operating model matures to stable growth and profitability, so a lower-risk mature state deserves an explicit control.",
+    "what_would_change_preference": "Evidence of durable cash conversion, lower demand sensitivity and a more flexible operating cost structure could justify a lower asset beta. Improved yields alone are an operating cash-flow benefit, not proof that aggregate market covariance has fallen."
+  },
+  "observed_data": {
+    "riskfree_ERP_pair": {
+      "as_of": "2026-11-01",
+      "published_Treasury_input": 0.0529,
+      "adjusted_payout_implied_ERP": 0.0441,
+      "paired_reference_rate_beta1_50": 0.11905,
+      "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm",
+      "limitations": "Keep the two published inputs together. This Treasury input is not asserted to be the exact November3ten-year observation. No rate-curve forecast inferred."
+    },
+    "US_industry_betas": {
+      "date": "2026-01",
+      "semiconductor_firms": 66,
+      "semiconductor_regression_beta": 1.52,
+      "semiconductor_unlevered_beta": 1.49,
+      "semiconductor_cash_corrected_asset_beta": 1.5,
+      "semiconductor_equipment_firms": 31,
+      "semiconductor_equipment_cash_corrected_asset_beta": 1.39,
+      "equipment_reference_using_same_macro_pair": 0.114199,
+      "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/Betas.html"
+    },
+    "global_industry_betas": {
+      "date": "2026-01",
+      "semiconductor_firms": 675,
+      "semiconductor_cash_corrected_asset_beta": 1.87,
+      "semiconductor_equipment_firms": 391,
+      "semiconductor_equipment_cash_corrected_asset_beta": 2.12,
+      "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/BetasGlobal.html",
+      "interpretation": "The broader global sample does not independently support reducing asset risk below the U.S. reference. It is heterogeneous, spans local-index regressions and business mixes, and is not a reason to replace the Intel rate mechanically with a higher number."
+    },
+    "old_sector_WACC": {
+      "date": "2026-01",
+      "semiconductor_WACC": 0.1055,
+      "semiconductor_cost_of_equity": 0.1072,
+      "debt_weight": 0.0253,
+      "source": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html",
+      "interpretation": "10.55% is an old-date, levered sector WACC, not a same-date unlevered Intel operating rate. Substituting it while retaining separate financing tax benefits mixes methodologies. The lower printed number alone does not invalidate12%."
+    }
+  },
+  "business_and_method_adjudication": [
+    {
+      "issue": "Design plus foundry business mix",
+      "judgment": "Use the broad semiconductor sector as a transparent starting point. There is no separately calibrated foundry beta in the cited industry table. Semiconductor-equipment suppliers are an adjacent check, not interchangeable with an owned fabrication business. Do not assign precise design/foundry weights from reported segment revenues because internal wafer transfers duplicate the same external business."
+    },
+    {
+      "issue": "Bottom-up beta quality",
+      "judgment": "Sector averaging reduces single-stock regression noise, but the sector estimate is not a company-specific confidence bound. A narrower defensible peer study must use matched return windows/indices, debt and cash adjustments, and businesses tied to the same demand drivers. One website beta for INTC would not settle the question."
+    },
+    {
+      "issue": "Cash and leverage boundaries",
+      "judgment": "The operating rate should use beta stripped of financial leverage and cash. The model values cash separately and includes financing effects separately; lowering operating risk because Intel raised cash would otherwise mix asset and funding effects."
+    },
+    {
+      "issue": "Cyclicality and fixed-cost fabs",
+      "judgment": "Intel discloses sensitivity to customer capital spending, PC cycles and utilization. Its accounting recognizes excess-capacity costs when factory loading falls below normal. Those facts support persistent systematic business risk. No exact numerical operating-leverage uplift is justified without comparable fixed/variable cost data."
+    },
+    {
+      "issue": "Execution risk versus priced market risk",
+      "judgment": "Expected ramp delays, weak pricing and investment inefficiency belong in operating scenarios. Do not deduct their expected costs and add an unexplained distress premium for the same risks. A broad cyclical-risk premium can remain after execution losses are modeled; the two are not automatically identical."
+    },
+    {
+      "issue": "Stable growth and risk",
+      "judgment": "Damodaran recommends moving risk toward mature-company characteristics as growth stabilizes. His common1.2beta guidance concerns equity risk; it is not a direct cap on cash-adjusted unlevered operating beta. Mature semiconductor operations can remain cyclical. The guidance motivates a control, not an empirical mandate to set Intel beta to1.0."
+    }
+  ],
+  "frozen_successful_maturation_control": {
+    "selected_before_new_scenario_equity_outputs": true,
+    "annual_operating_rates": {
+      "2027": 0.12,
+      "2028": 0.12,
+      "2029": 0.12,
+      "2030": 0.12,
+      "2031": 0.1185,
+      "2032": 0.117,
+      "2033": 0.1155,
+      "2034": 0.114,
+      "2035": 0.1125,
+      "2036": 0.111,
+      "2037": 0.1095,
+      "2038": 0.108,
+      "2039": 0.1065,
+      "2040": 0.105,
+      "2041": 0.105
+    },
+    "terminal_operating_rate": 0.105,
+    "terminal_growth_unchanged": 0.03,
+    "transition": "12% through2030. Beginning2031 reduce15basis points peryear, reaching10.5% in2040; hold10.5% from2041 onward.",
+    "risk_interpretation": "Retains elevated risk during the initial investment/ramp period; grants gradual successful maturation in the same2031-2040window as operating margin normalization.10.5% implies cash-adjusted asset beta approximately1.181under the frozen macro pair, still above a unit asset beta.",
+    "why_10_5": "An owned control between a persistent high-cyclical sector beta and near-market business risk. It is not derived by applying an equity-beta cap directly or by matching a price.",
+    "discount_implementation": "For cash inyearY use the product of annual1+rate factors from endpoint+1 throughY. Terminal value at end2040 equals2041operatingcash/(.105-.03); discount that value through2040using the same product. Do not apply the terminal rate retrospectively to the whole stream.",
+    "financing_benefit_control": "To remain comparable with the existing approximation, conditional financing-benefit cash may follow the same term structure; its flat terminal cash uses rate.105without a3%growth term. This is still an approximation, not an instrument-specific shield valuation.",
+    "all_operating_cashflows_unchanged_in_rate_only_control": true,
+    "do_not_claim": "This control is not a forecast that interest rates, company beta or investor required return will actually fall on these calendar dates."
+  },
+  "reverse_risk_interpretation": {
+    "beta_equivalent_at_constant_10pct": 1.0680272108843538,
+    "beta_equivalent_at_constant_11pct": 1.2947845804988662,
+    "beta_equivalent_at_constant_12pct": 1.5215419501133784,
+    "beta_equivalent_at_terminal_10_5pct": 1.1814058956916098,
+    "previous_root_rate_matching_60_55": 0.0995578548389627,
+    "conditional_asset_beta_matching_60_55": 1.0580012435138935,
+    "interpretation": "The unchanged cash forecast can approximately reconcile the dated60.55price if investors price the business at near-market asset risk from the outset. That explains one possible valuation disagreement without requiring stronger sales or margin forecasts. It does not prove that investors use this rate, that near-market beta is appropriate during the ramp, or that the market is efficient.",
+    "date_limit": "The reverse calculation matches an end2026planning balance sheet to November3closingprice. It is not an exact as-of-market implied risk estimate.",
+    "further_limit": "Revenue, margins, investment efficiency, risk and distributions can change jointly. A one-variable inverse is not identification of market beliefs."
+  },
+  "direction_and_horizon": {
+    "working_conclusion": "The preferred12%reference remains defensible, so the newly observed10%case does not by itself overturn SHORT or establish LONG. It materially weakens any claim that price can only be explained by unrealistic operating growth. Early-convergence requires its own expectations argument.",
+    "short_return_guard": "A future intrinsic value above entry does not mathematically force a negative total short trading result. Eligible proceeds/collateral interest minus borrow fees, dividends and trading costs can offset moderate appreciation. Those terms and the price path must be explicit.",
+    "benchmark_guard": "Short proceeds are collateral resources, not free profit. Total short trading P&L differs from return on investor margin capital and from excess return against a matched cash benchmark. Do not call gross price change an annual short return.",
+    "three_to_five_year_implication": "The source review offers no independent dated catalyst and no promise of price convergence. Assess horizon P&L and capital efficiency under the new coherent operating/risk cases; do not preserve the early short merely to fill the submission."
+  },
+  "additional_primary_method_sources": [
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/TenQs/TenQsBottomupBetas.htm",
+      "supports": "Business-based beta aggregation, unlevering, correction for cash, value weights, operating leverage data limits and beta evolution."
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/littlebook/terminalvalue.htm",
+      "supports": "Stable-growth risk and reinvestment should reflect maturation; terminal growth and excess returns must be coherent."
+    },
+    {
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/termvalue.pdf",
+      "supports": "Equity-beta maturity discussion and1.2rule of thumb; not adopted as a mechanical asset-beta cap."
+    },
+    {
+      "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-26-000011/intc-20251227.htm",
+      "supports": "RiskFactors demand/margins and debt sections; Note2Inventory normal capacity/excess-capacity recognition. Cyclicality and operating fixed-cost exposure."
+    }
+  ],
+  "unchanged_artifacts": "No shared model, checkpoint or PDF modified.",
+  "model_source_sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+}

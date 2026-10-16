@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-11-06T16:31:14.706364+00:00",
+  "purpose": "Clarify existing adoption without backdating or changing economics.",
+  "selected_CPU_forecast": "2027quarterly timing;2028-30smoothsequentialfade fromselected_quarterly_forecast.json, not the superseded annual20/15/10control.",
+  "source_sha256": "9f1b9d01a2baf6b809eaf1a4cd74307006cf4e7cc779a4bb006897cd162c26b9",
+  "policy_history": "Original integration policy already pointed to preferred delivery agent series. Its generic subsequent-annual-growth phrase did not describe the later adopted smooth-quarterly schedule precisely.",
+  "effect_on_existing_results": "None. Root results and exported workbook already use this selected source.",
+  "time_basis": "All timestamps are actual runtime observations; large wall-clock gaps are not counted as active research."
+}

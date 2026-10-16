@@ -1,0 +1,84 @@
+{
+  "prepared_utc": "2026-11-04T12:12:07.690875+00:00",
+  "scope": "Additive primary-source AMD CPU counterfactual review. No operating forecast, equity valuation or existing research file changed.",
+  "prior_ledger": "amd_counterfactual.json",
+  "prior_ledger_sha256": "72a1dcce5acc52e67231979512242f3dcb26778c983031d3df52fcd8c826494d",
+  "primary_source_responses": {
+    "results_index": {
+      "url": "https://ir.amd.com/financial-information/financial-results",
+      "status": 200,
+      "sha256": "02a0d3b5a64cfd55cb081a9bf5aff33959eedfea9c71a719cba7a1c10fc939cb",
+      "bytes": 117937
+    },
+    "q3_event": {
+      "url": "https://ir.amd.com/news-events/ir-calendar/detail/20261103-amd-fiscal-third-quarter-2026-financial-results",
+      "status": 200,
+      "sha256": "3f06a925c897569ecccda9f4fd8807c6e2ab482f8912e00cb109d0bb8acf8601",
+      "bytes": 31700
+    },
+    "q3_release": {
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "status": 200,
+      "sha256": "3ebb3a4033ed7d49c91d3e1bccd015dea70ae51ec62dddf374f1133c63f044d6",
+      "bytes": 292460
+    },
+    "q3_10q": {
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm",
+      "status": 200,
+      "sha256": "47ad7e211c3aad12bcdc6b088baa4d760a2b7ff53478fb51b12e30c5e839397a",
+      "bytes": 1501389
+    },
+    "q3_slides": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_870e8358a2a27f7ebbdfaf3a34db5f50/amd/db/841/9247/presentation/AMD_Q3_2026_Earnings_Slides_FINAL.pdf",
+      "status": 200,
+      "sha256": "376af05dd67ad2afabe13849ced21b3d772ee0fb12fe103e43cb2cb641fdbff0",
+      "bytes": 908204
+    },
+    "q2_issuer_transcript": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_870e8358a2a27f7ebbdfaf3a34db5f50/amd/db/841/9237/webcast_transcript/AMD2Q26EarningsCallTranscript.pdf",
+      "status": 200,
+      "sha256": "271d63d96f015c07c7e1dd76eebeff52f1f2b2a603c2526b28463ee0215553b5",
+      "bytes": 248150
+    }
+  },
+  "new_information_cutoff": "Q3 release and call occurred November 3 after regular market close. Q3 Form 10-Q is dated November 4. These are available for this November 4 research update, not established information at the November 3 regular close.",
+  "Q3_CPU_specific_status": {
+    "realized_CPU_revenue_growth": "Not independently primary-confirmed in this bounded review. The issuer release, slide deck and fresh 10-Q report mixed Data Center growth and describe EPYC demand, without a CPU-only percentage, dollar subtotal or unit/ASP bridge.",
+    "2027_CPU_growth_forecast": "No new numerical CPU-only 2027 outlook was found in the inspected Q3 issuer text. Do not relabel the prior August forecast as current Q3 guidance.",
+    "transcript": "Both issuer event/results indexes still link webcast audio, slides and financial tables, but no Q3 transcript; older Q2/Q1 events have explicit transcript links. The official audio link is https://edge.media-server.com/mmc/p/3p98okid/ . The reader exposes no searchable transcript. No audio transcription was verified or admitted.",
+    "secondary_discovery_excluded": "Several third-party call summaries claim cloud and enterprise CPU revenue more than doubled and a 2027 server forecast of doubling. Those figures are discovery leads only here, not first-party-confirmed inputs. Their presence does not justify pretending this review found no reporting; it means confirmation remains incomplete."
+  },
+  "Q3_primary_facts": [
+    {
+      "source": "q3_release",
+      "fact": "Data Center revenue was 8.546B, up approximately 97%, with both EPYC CPUs and Instinct GPUs contributing. This is not CPU-only revenue growth or market share."
+    },
+    {
+      "source": "q3_release",
+      "fact": "The issuer says demand for EPYC strengthened and expects production of Venice to scale in Q4. It identifies Oracle E7 CPU instances and generally available Google/Microsoft fifth-generation EPYC storage instances; product/customer availability is stronger evidence than a roadmap alone, but not a realized revenue-share denominator."
+    },
+    {
+      "source": "q3_10q",
+      "locator": "MD&A Data Center; liquidity; risk factors",
+      "fact": "The fresh filing retains mixed Data Center scope. It reports supply prepayments, inventory expansion and obligations for wafers, substrates, memory and packaging; these are not separated into CPU versus GPU. Supply and infrastructure risks are disclosed without a measured CPU packaging shortfall."
+    }
+  ],
+  "previous_primary_evidence_newly_extracted_not_new_Q3_guidance": {
+    "source": "q2_issuer_transcript",
+    "date": "2026-08-04",
+    "locators": "PDF pages 3-4, 10-11 and 14-15",
+    "facts": "AMD forecast approximately 220B server CPU TAM in 2030 and more than 70% server revenue growth in 2027. Q2 cloud and enterprise server sales each grew over 70%; unit and ASP growth were both double digit, with units growing faster. Management described tight 2026 CPU supply, expanded wafer/backend/substrate capacity and better forecast visibility for 2027. Its TAM includes general-purpose, agentic sandbox and AI head-node work, with sandbox demand expected to become largest. These are dated management judgments, not verified future outcomes.",
+    "use": "This supports a broad CPU demand mechanism and shows that very large server-market ambitions are not unique to Intel. It cannot identify Q3 Intel/AMD CPU share or validate the exact ultimate market size."
+  },
+  "Intel_comparison": {
+    "source": "q3_remarks.txt",
+    "source_sha256": "8a039ae9a9b5599f45fad95a0956008cb81877a15915417fc3c816127f1dd3eb",
+    "issuer_primary": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "actual_remark": "Intel describes server CPU TAM expanding from approximately 40B to more than 200B over five years, largely from agentic workloads. It separately forecasts industry server CPU units growing more than 30% in 2026 and 2027, limited by supply.",
+    "endpoint_correction": "The Intel prepared remark does not say 200B by 2030. Five years from the October 2026 statement is roughly 2031, versus AMD\u2019s explicit 2030 endpoint. Neither should silently be converted into the same dated market forecast.",
+    "scope_correction": "Both are broad server-CPU dollar-market narratives, but neither cited passage supplies a matched x86/Arm definition, CPU-versus-system accounting boundary, exact starting-year base or matched ASP/core-count convention. Intel DCAI also includes purpose-built silicon; AMD Data Center includes Instinct. Do not divide either segment revenue by the other\u2019s CPU TAM.",
+    "unit_price_comparison": "Intel Q3 disclosed server ASP up 54% and units up 10%; AMD\u2019s available CPU unit/ASP discussion here is Q2. Different quarters, mix and absolute denominators prevent a share calculation. Mix-driven value is not necessarily a temporary price rise."
+  },
+  "owned_judgment": "Broad CPU demand is a credible industry tailwind, not independent proof of an Intel-specific turnaround or share gain. AMD\u2019s product deployments and prior CPU-only operating evidence weaken a thesis that Intel demand is merely artificial scarcity or that competitors cannot serve agentic workloads. Conversely, multiple vendors\u2019 large TAM forecasts can share the same optimistic premise. A valid next update is an official Q3 CPU-only transcript or a verified audio excerpt, followed by matched actual CPU revenue, units and mix; no new price target follows from this review.",
+  "what_changed": "Adds the freshly published November 4 10-Q, documents exact continuing Q3 transcript unavailability in the inspected issuer indexes, extracts primary AMD CPU TAM/unit-versus-ASP/supply scope omitted from the earlier ledger, and corrects the Intel five-year versus AMD-2030 endpoint comparison."
+}

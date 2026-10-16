@@ -1,0 +1,53 @@
+{
+  "as_of": "2026-11-05",
+  "reviewed_pdf_sha256": "57c1be128bbfce27b4641f85dcd9281ccda93f7e6a9e0a93203dce3f1902b0e4",
+  "reviewed_source": "tmp/pdfs/intel_long/build_initial_screen.py",
+  "scope": "Exact pp3-5 wording; primary-source factual and causal audit, not visual approval.",
+  "findings": [
+    {
+      "page": 3,
+      "severity": "none",
+      "topic": "Other DCAI tripling",
+      "finding": "Explicitly distinguishes management purpose-built-silicon aspiration from broader Other DCAI bucket. 5.19 to17.44 is 3.36x. This remains an owned forecast, not independent proof; no extra GPU windfall is a model convention."
+    },
+    {
+      "page": 4,
+      "severity": "minor clarity",
+      "topic": "Ibiden production load",
+      "finding": "Primary presentation PDF page12 (printed page12) says General-Purpose Server CPU; market x1.3, production load x1.9, SAP demand x2.5. Multiplication is correct. Relabel 1.9x as production load factor or load per product; it is not total capacity growth.",
+      "source": "https://www.ibiden.com/ir/items/en_kessannsetsumei2026Q2.pdf"
+    },
+    {
+      "page": 4,
+      "severity": "none",
+      "topic": "Ibiden timing",
+      "finding": "Added Gama investment H2 FY2029 ramp / FY2030 contribution supported by Oct30 Q&A. Source is AI ASIC substrate capacity; wording correctly declines to infer Intel2027 deliveries.",
+      "source": "https://www.ibiden.com/ir/items/en_QA_FY2026Q2.pdf"
+    },
+    {
+      "page": 5,
+      "severity": "none",
+      "topic": "Azure HANA certification",
+      "finding": "Microsoft FAQ explicitly says AMD-based Das/Eas families are not HANA-certified and HANA does not support AMD in virtualized scenarios. Wording is bounded to Azure; Graviton-supported managed HANA Cloud is a materially useful counter-boundary. No share of Intel revenue or economic floor is inferred.",
+      "sources": [
+        "https://learn.microsoft.com/en-us/azure/sap/workloads/get-started",
+        "https://news.sap.com/2023/11/sap-hana-cloud-now-supports-aws-graviton/"
+      ]
+    },
+    {
+      "page": 5,
+      "severity": "medium causal clarity",
+      "topic": "Datadog migration",
+      "finding": "2,000 services /70% AWS workloads by end2023 and10% AWS-bill saving are supported. x86 fallback and multiarchitecture future flexibility are supported. Prior x86 vendor mix is not established, and this migration predates current Xeon6; avoid treating it as a direct current Intel rejection. Recommend short qualifier in main page or defense.",
+      "source": "https://www.datadoghq.com/blog/arm-migration-aws/"
+    },
+    {
+      "page": 5,
+      "severity": "optional bull-case defense",
+      "topic": "Manufacturing learning",
+      "finding": "Intel3 cost decline of15% and18A decline40% sinceQ1 are primary prepared-remarks disclosures, supporting actual manufacturing improvement. Q3 margin anchor already includes prior learning; require further gains to offset future price pressure, and do not credit savings to both DCAI and Foundry.",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf"
+    }
+  ],
+  "conclusion": "No material numerical contradiction identified in these excerpts. Datadog causal scope and production-load label deserve clarification; neither buyer examples nor current margins establish a mature segment-wide floor."
+}

@@ -1,0 +1,560 @@
+{
+  "reviewed_utc": "2026-11-05T07:00:20.529124+00:00",
+  "scope": "Independent numerical and editorial-boundary audit of the 10page landscape revision. Source equations recalculated, material displayed values matched, new Q3 figures reverified in the primary filing. No rendered-image visual QA in this audit.",
+  "pdf_snapshot": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/intel_working_thesis_review.pdf",
+    "sha256": "ea665a5f1eff126ce1d7502f24ea2680662fb01874ab84261f62dfe13a8f4fdc",
+    "pages": 10
+  },
+  "verdict": "PASS",
+  "material_errors": [],
+  "checks_count": 87,
+  "checks": [
+    {
+      "name": "Final PDF snapshot SHA, confirmed by author after concurrent visual revision",
+      "actual": "ea665a5f1eff126ce1d7502f24ea2680662fb01874ab84261f62dfe13a8f4fdc",
+      "expected": "ea665a5f1eff126ce1d7502f24ea2680662fb01874ab84261f62dfe13a8f4fdc",
+      "pass": true
+    },
+    {
+      "name": "10 page maximum",
+      "actual": 10,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "name": "frozen source hash",
+      "actual": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+      "expected": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052",
+      "pass": true
+    },
+    {
+      "name": "quote-date mismatch days",
+      "actual": 57,
+      "expected": 57,
+      "pass": true
+    },
+    {
+      "name": "valuation rounding 46.96",
+      "actual": "46.96",
+      "expected": "46.96",
+      "pass": true
+    },
+    {
+      "name": "value shown 46.96",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "valuation rounding 53.77",
+      "actual": "53.77",
+      "expected": "53.77",
+      "pass": true
+    },
+    {
+      "name": "value shown 53.77",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "valuation rounding 60.90",
+      "actual": "60.90",
+      "expected": "60.90",
+      "pass": true
+    },
+    {
+      "name": "value shown 60.90",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "bridge increment 6.81",
+      "actual": "6.81",
+      "expected": "6.81",
+      "pass": true
+    },
+    {
+      "name": "increment shown 6.81",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "bridge increment 7.13",
+      "actual": "7.13",
+      "expected": "7.13",
+      "pass": true
+    },
+    {
+      "name": "increment shown 7.13",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "quote gap rounding 19.43",
+      "actual": "19.43",
+      "expected": "19.43",
+      "pass": true
+    },
+    {
+      "name": "quote gap rounding 7.74",
+      "actual": "7.74",
+      "expected": "7.74",
+      "pass": true
+    },
+    {
+      "name": "quote gap rounding 4.50",
+      "actual": "4.50",
+      "expected": "4.50",
+      "pass": true
+    },
+    {
+      "name": "cover headline gap one decimal",
+      "actual": "19.4",
+      "expected": "19.4",
+      "pass": true
+    },
+    {
+      "name": "2029 cover",
+      "actual": "64.15",
+      "expected": "64.15",
+      "pass": true
+    },
+    {
+      "name": "2029 cover shown",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "2030 cover",
+      "actual": "70.98",
+      "expected": "70.98",
+      "pass": true
+    },
+    {
+      "name": "2030 cover shown",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "Q3 revenue displayed",
+      "actual": "16.51",
+      "expected": "16.51",
+      "pass": true
+    },
+    {
+      "name": "Q3 operating profit displayed",
+      "actual": "2.52",
+      "expected": "2.52",
+      "pass": true
+    },
+    {
+      "name": "Q3 DCAI operating margin",
+      "actual": "41.5",
+      "expected": "41.5",
+      "pass": true
+    },
+    {
+      "name": "share illustration Intel2027",
+      "actual": 58.8,
+      "expected": 58.8,
+      "pass": true
+    },
+    {
+      "name": "share illustration growth",
+      "actual": 0.17599999999999993,
+      "expected": 0.176,
+      "pass": true
+    },
+    {
+      "name": "CPU growth 44.0",
+      "actual": "44.0",
+      "expected": "44.0",
+      "pass": true
+    },
+    {
+      "name": "CPU growth 35.0",
+      "actual": "35.0",
+      "expected": "35.0",
+      "pass": true
+    },
+    {
+      "name": "CPU growth 22.7",
+      "actual": "22.7",
+      "expected": "22.7",
+      "pass": true
+    },
+    {
+      "name": "CPU growth 14.2",
+      "actual": "14.2",
+      "expected": "14.2",
+      "pass": true
+    },
+    {
+      "name": "EPS proxy 2027",
+      "actual": "2.50",
+      "expected": "2.50",
+      "pass": true
+    },
+    {
+      "name": "EPS proxy 2028",
+      "actual": "4.17",
+      "expected": "4.17",
+      "pass": true
+    },
+    {
+      "name": "recomputed cash bridge identity",
+      "actual": 27.587110644839164,
+      "expected": 27.587110644839157,
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 111.3",
+      "actual": "111.3",
+      "expected": "111.3",
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 72.2",
+      "actual": "72.2",
+      "expected": "72.2",
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 124.5",
+      "actual": "124.5",
+      "expected": "124.5",
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 18.0",
+      "actual": "18.0",
+      "expected": "18.0",
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 1.2",
+      "actual": "1.2",
+      "expected": "1.2",
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 8.7",
+      "actual": "8.7",
+      "expected": "8.7",
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 5.9",
+      "actual": "5.9",
+      "expected": "5.9",
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 27.6",
+      "actual": "27.6",
+      "expected": "27.6",
+      "pass": true
+    },
+    {
+      "name": "cash bridge rounding 70.3",
+      "actual": "70.3",
+      "expected": "70.3",
+      "pass": true
+    },
+    {
+      "name": "checkpoint Products 2027",
+      "actual": "68.33",
+      "expected": "68.33",
+      "pass": true
+    },
+    {
+      "name": "checkpoint investment 2027",
+      "actual": "36.56",
+      "expected": "36.56",
+      "pass": true
+    },
+    {
+      "name": "checkpoint ownercash 2027",
+      "actual": "-11.69",
+      "expected": "-11.69",
+      "pass": true
+    },
+    {
+      "name": "checkpoint Products 2028",
+      "actual": "84.74",
+      "expected": "84.74",
+      "pass": true
+    },
+    {
+      "name": "checkpoint investment 2028",
+      "actual": "38.10",
+      "expected": "38.10",
+      "pass": true
+    },
+    {
+      "name": "checkpoint ownercash 2028",
+      "actual": "2.29",
+      "expected": "2.29",
+      "pass": true
+    },
+    {
+      "name": "SPY initial capital",
+      "actual": "162.74",
+      "expected": "162.74",
+      "pass": true
+    },
+    {
+      "name": "total investor capital",
+      "actual": "263.00",
+      "expected": "263.00",
+      "pass": true
+    },
+    {
+      "name": "central 2029 CAGR display",
+      "actual": "7.00",
+      "expected": "7.00",
+      "pass": true
+    },
+    {
+      "name": "central 2029 CAGR present",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "central 2030 CAGR display",
+      "actual": "6.43",
+      "expected": "6.43",
+      "pass": true
+    },
+    {
+      "name": "central 2030 CAGR present",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "central_maturing_risk 2029 CAGR display",
+      "actual": "5.28",
+      "expected": "5.28",
+      "pass": true
+    },
+    {
+      "name": "central_maturing_risk 2029 CAGR present",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "central_maturing_risk 2030 CAGR display",
+      "actual": "5.04",
+      "expected": "5.04",
+      "pass": true
+    },
+    {
+      "name": "central_maturing_risk 2030 CAGR present",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "favorable_core_maturing_risk 2029 CAGR display",
+      "actual": "3.41",
+      "expected": "3.41",
+      "pass": true
+    },
+    {
+      "name": "favorable_core_maturing_risk 2029 CAGR present",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "favorable_core_maturing_risk 2030 CAGR display",
+      "actual": "3.52",
+      "expected": "3.52",
+      "pass": true
+    },
+    {
+      "name": "favorable_core_maturing_risk 2030 CAGR present",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "matched ERP 2029-12-31",
+      "actual": "5.13",
+      "expected": "5.13",
+      "pass": true
+    },
+    {
+      "name": "matched ERP 2030-12-31",
+      "actual": "4.91",
+      "expected": "4.91",
+      "pass": true
+    },
+    {
+      "name": "index hurdle",
+      "actual": "7.10",
+      "expected": "7.10",
+      "pass": true
+    },
+    {
+      "name": "no short control",
+      "actual": "7.10",
+      "expected": "7.10",
+      "pass": true
+    },
+    {
+      "name": "APV component identity",
+      "actual": 258.7389231825431,
+      "expected": 258.7389231825431,
+      "pass": true
+    },
+    {
+      "name": "equity per planning claim",
+      "actual": 46.95806228358314,
+      "expected": 46.95806228358314,
+      "pass": true
+    },
+    {
+      "name": "required return arithmetic",
+      "actual": 0.11555,
+      "expected": 0.11555,
+      "pass": true
+    },
+    {
+      "name": "wafer case addition rounded",
+      "actual": "57.97",
+      "expected": "57.97",
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: gap is not a 3-5-year short return",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: 4.91%, below the 4.94% hurdle",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: The share illustration is separate",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: iFAST is one analyst, not consensus",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: EPS and cash measures are not fully matched",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: It is not reported FCF",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: not shareholder returns or ROIC",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: Do not add these commitments or",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: 35% and 0.80 are my forecasts, not guidance",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: jointly raise mature",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: sequential sensitivities",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: not scheduled catalysts or issuer guidance",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: not a confirmed customer forecast",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: Fixed shares do not remain market neutral",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: not probability-weighted expected returns",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "editorial boundary: No submission has been sent",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    }
+  ],
+  "source_fact_reverification": {
+    "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+    "locator": "Note2 segment results, Q3 ended Sep26,2026; rows revenue and operatingincome",
+    "revenue_B": 16.513,
+    "GAAP_operating_income_B": 2.522,
+    "DCAI_revenue_B": 7.318,
+    "DCAI_operating_income_B": 3.039,
+    "DCAI_margin": 0.4152773981962285
+  },
+  "editorial_findings": [
+    "New comparison panel distinguishes one analyst from consensus and explicitly says EPS/cash conventions are not fully matched.",
+    "New valuation bridge correctly treats the operating increment as a joint margin and capital-productivity scenario, and labels sequential attribution.",
+    "Current valuation/date mismatch is explicit; horizon values and adverse relative-return control remain visible on the cover and position page.",
+    "Business evidence is not transformed into guidance, original interviews, guaranteed catalysts, probabilities, or a claim of measured consensus error.",
+    "Existing core cash, capacity, and margin statements remain consistent with the prior reviewed ninepage source records."
+  ],
+  "frozen_model_unchanged": true,
+  "mutations": "Only this audit JSON written; PDF, generator and models untouched.",
+  "revision_note": {
+    "initial_requested_sha256": "2636207878458100e91e6cfc162e64c44f265ad53c8d343d8e23067f5904bbcb",
+    "final_sha256": "ea665a5f1eff126ce1d7502f24ea2680662fb01874ab84261f62dfe13a8f4fdc",
+    "change": "Root confirmed concurrent styling/text revisions only. All86 substantive numerical/editorial checks were already executed on this final PDF. Snapshot metadata now matches final."
+  },
+  "final_verified_utc": "2026-11-05T07:00:47.697991+00:00"
+}

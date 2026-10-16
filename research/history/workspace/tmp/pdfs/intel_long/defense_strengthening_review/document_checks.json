@@ -1,0 +1,69 @@
+{
+  "checked_utc": "2026-11-07T05:40:50.092030+00:00",
+  "status": "passed",
+  "files": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "pages": 10,
+      "sha256": "82bd1581328c119f2ecf615e51dcbd83e1d267a3c5605b3f9e83f969c23460a2",
+      "words": 2650,
+      "links": 23,
+      "changed_pages": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "unchanged_pages_text_matched": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10
+      ],
+      "out_of_page_characters": []
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "pages": 10,
+      "sha256": "84af260b087f9ece29cbb4f5263e2ab9f87dac66e22188718c38487d5e673f6d",
+      "words": 3896,
+      "links": 25,
+      "changed_pages": [
+        6,
+        9,
+        10
+      ],
+      "unchanged_pages_text_matched": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "out_of_page_characters": []
+    }
+  ],
+  "unchanged_artifacts": {
+    "work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7",
+    "outputs/01a19d70-cbad-7e23-b996-11dc618014aa/intel_revenue_to_cash_model.xlsx": "4b502e452579d2c32b50adede9f058481c9d4b5a9ba0fc124cbce829cb1f86d4",
+    "output/pdf/m37_intel_pitch_comparison.pdf": "eb7ee4116153ef4b7b0585fed3aacc5a86c0a67e63c8c3e5bc12b188d70f91cf"
+  },
+  "independent_reviews": [
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/cpu/final_cpu_QA.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/valuation/final_artifact_qa.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/judge/final_visual_content_verdict.json",
+    "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_defense_strengthening_2026_11_07/root/independent_funding_audit.json"
+  ],
+  "root_visual_review": "Main 5,7,9 and defense9,10 inspected; independent reviewer also inspected main8 and defense6. After final minor wording changes, root reinspected main5,7 and defense9,10. Other pages match prior reviewed text.",
+  "last_wording_fixes": [
+    "Granite Rapids is explicitly Intel's largest server family.",
+    "Page7 return table explicitly says annual.",
+    "Notes10 distinguishes updated entry ceiling and assigns37.17 to the joint CPU/factory stress."
+  ],
+  "operating_forecast_changed": false,
+  "entry_policy_changed": false
+}

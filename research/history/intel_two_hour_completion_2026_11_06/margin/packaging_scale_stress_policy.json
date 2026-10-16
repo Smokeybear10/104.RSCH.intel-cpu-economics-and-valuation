@@ -1,0 +1,16 @@
+{
+  "recorded_before_new_scale_values_utc": "2026-11-06T07:44:47.106328+00:00",
+  "chronology": "Existing selected valuation and Foundry stresses are already known. This policy precedes the new packaging scale calculation; it is not valuation-blind research.",
+  "question": "What if one of the two assumed 3B customer families does not materialize?",
+  "scale": "Retain 4/7 of selected gross new-program revenue in every modeled year. This yields 4B gross in 2030 instead of 7B. Keep the existing shadow revenue/profit allowance inside host Foundry unchanged; all missing sales therefore reduce the net incremental program. The revenue-pattern proportion is a conditional stress, not an inferred customer shipment calendar.",
+  "retained_gross_fraction": 0.5714285714285714,
+  "cost_bounds": {
+    "proportional_cash_cost_avoidance": "Avoid the same fraction of modeled incremental cash operating cost as lost incremental sales. Cost is net incremental sales minus net incremental EBIT minus incremental D&A; it includes central cash-equivalent SBC. Retain all D&A. This is the optimistic cash-cost-flexibility endpoint, not an observed elasticity or unchanged EBIT margin.",
+    "no_cash_cost_avoidance": "Retain all modeled incremental cash operating cost and D&A. EBIT falls by exactly the lost sales. This is the adverse committed-cost endpoint, not a likely forecast."
+  },
+  "capital": "Retain every dollar of original packaging physical capex and D&A in 2027\u201330. After 2030 retain the original packaging D&A and matching maintenance capex, but fund new packaging growth at the existing 1.0 sales/net-capital turnover using the smaller sales path. Recompute WC at 15% of new net incremental sales. No return of sunk capital, tax-credit gain or sale of unused tools is assumed.",
+  "host": "Keep CPU, client, Other DCAI, legacy Foundry, embedded packaging, host capital, leases, NCI and finite credits unchanged. Host external-revenue denominator is unchanged because gross and net-new packaging revenue decline by the same dollar amount.",
+  "accounting": "Change net incremental packaging EBIT by lost sales less the explicitly avoidable cash cost. Do not also apply a CPU/client 50% decremental, host Foundry penalty, shadow-profit subtraction, gross-margin penalty or extra absorption charge.",
+  "boundary": "These endpoints bound two modeled cost-flexibility conventions only; they are not a statistical confidence interval or all possible commercial outcomes. Actual supply contracts, scrap/yield responses, program mix, future capital cancellation and pricing are undisclosed. Gross packaging revenue may include Intel-owned materials but not customer-consigned accelerator/HBM value.",
+  "public_volume_fee_status": "No primary accepted-good-package quantity, net per-package fee, or minimum annual fee was identified that independently validates the 7B forecast. MediaTek ASIC revenue is not a package-fee proxy."
+}

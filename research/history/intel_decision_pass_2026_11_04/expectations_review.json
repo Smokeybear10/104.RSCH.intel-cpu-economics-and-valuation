@@ -1,0 +1,234 @@
+{
+  "as_of_utc": "2026-11-04T18:07:46.324871+00:00",
+  "scope": "Bounded current public expectations and repricing review; no model/PDF edits or investment trade. Twelve source pages/lead records considered, with weaker aggregators explicitly excluded.",
+  "source_model": {
+    "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/pricing_and_competition_review_2026_11_04/intel_ASP20_mature_margin35_valuation.json",
+    "sha256": "f040f1f39a5daee1bbc9143129622440460e09bdcd2f9b83c4a374e13771e052"
+  },
+  "verdict": "No supported early-convergence thesis identified in this pass. Current accessible professional views already recognize heavy investment, negative2027FCF and server supply limits. The new matched public forecast evidence weakens the claim that our spending/revenue assumptions identify an overlooked near-term disappointment. This does not prove all investors agree, or that later cash disappointment cannot occur.",
+  "decisive_new_observation": {
+    "source": "ifast",
+    "summary": "A current bearish report already articulates the earnings-versus-cash concern. Its2028target65 uses25x EPS and an outdated70.87price reference. At our60.55reference the target exceeds price by7.35%; this is a horizon target, not a current DCF. Do not import its SELL label without updating the entry.",
+    "price_only_change_from60_55": 0.07349298100743185,
+    "classification_caution": "Its historical table uses10.2B YTDinvesting PPE rather than total11.834B including1.618B financing-classified PPE. Its future30/32B gross capex thus cannot be matched dollar-for-dollar to our31.5/33.75B combined cash spending.",
+    "reasoning": "No newly demonstrated revenue shortfall follows from comparing its69.20/80.73Bsales with our larger capital-denominator totals; the latter are not precisely matched GAAP forecasts. A substantial cash expectation gap needs evidence beyond these approximate comparisons."
+  },
+  "dated_expectations_table": [
+    {
+      "year": 2027,
+      "issuer_guidance": {
+        "revenue_and_profit": "No exact annual consolidated revenue, EBIT or EPS guide located in current issuer material. 2027PC unit market roughly-10%; industryserverunits>30%; long-term double-digit company revenuegrowth discussed.",
+        "investment": "2027 gross capital spending expected to rise strongly; no dollar guide in prepared remarks.",
+        "cash": "Management negative2027FCF direction is publicly reported in the Q&A and current analyst notes; no dollar estimate."
+      },
+      "public_identifiable_forecasts": {
+        "revenue_B": {
+          "S&P_via_StockAnalysis_B": 69.27,
+          "iFAST_B": 69.198
+        },
+        "profit": {
+          "S&P_via_StockAnalysis_adjusted_EPS_USD": 1.8,
+          "iFAST_EPS_USD": 1.77
+        },
+        "gross_capex_B": {
+          "iFAST": 30.0
+        },
+        "free_cash_flow": "iFAST expects negative; no dollar amount.",
+        "source_date_keys": [
+          "stockanalysis",
+          "ifast"
+        ]
+      },
+      "current_owned_forecast": {
+        "Products_revenue_B": 68.3326878,
+        "capital_denominator_revenue_B_NOT_reconciled_consolidated_revenue": 71.3826878,
+        "EBIT_after_economic_SBC_B": 14.429918271999998,
+        "host_Foundry_profit_before_separate_packaging_overlay_B": -4.0,
+        "physical_cash_capex_B": 30.5,
+        "capitalized_interest_financing_cash_B": 1.0,
+        "physical_plus_capitalized_interest_B": 31.5,
+        "operating_WC_cash_use_B": 6.0593577,
+        "parent_unlevered_economic_cash_after_credits_B": -10.182712883085713
+      },
+      "comparability": "Revenue denominator is not a reconciled GAAP sales forecast. Economic EBIT is not adjusted EPS. Our physical cash investment excludes1Bcapitalized interest; iFAST calls its measure gross capex but does not fully map cash classification. Economic unlevered cash is not issuer adjusted FCF or GAAP CFO minus investing capex."
+    },
+    {
+      "year": 2028,
+      "issuer_guidance": {
+        "revenue_and_profit": "No exact annual consolidated revenue, EBIT or EPS guide located.",
+        "investment": "14A and manufacturing expansions discussed; no matched annual dollar budget located.",
+        "cash": "No exact annual issuer cash guide located."
+      },
+      "public_identifiable_forecasts": {
+        "revenue_B": {
+          "iFAST_B": 80.73
+        },
+        "profit": {
+          "iFAST_EPS_USD": 2.59
+        },
+        "gross_capex_B": {
+          "iFAST": 32.0
+        },
+        "free_cash_flow": "No matched numeric annual cash estimate found in the bounded accessible sources.",
+        "source_date_keys": [
+          "ifast"
+        ]
+      },
+      "current_owned_forecast": {
+        "Products_revenue_B": 84.74132528580002,
+        "capital_denominator_revenue_B_NOT_reconciled_consolidated_revenue": 89.29132528580001,
+        "EBIT_after_economic_SBC_B": 24.72774958255801,
+        "host_Foundry_profit_before_separate_packaging_overlay_B": -0.75,
+        "physical_cash_capex_B": 32.75,
+        "capitalized_interest_financing_cash_B": 1.0,
+        "physical_plus_capitalized_interest_B": 33.75,
+        "operating_WC_cash_use_B": 5.34986211125,
+        "parent_unlevered_economic_cash_after_credits_B": 3.784903605352879
+      },
+      "comparability": "Revenue denominator is not a reconciled GAAP sales forecast. Economic EBIT is not adjusted EPS. Our physical cash investment excludes1Bcapitalized interest; iFAST calls its measure gross capex but does not fully map cash classification. Economic unlevered cash is not issuer adjusted FCF or GAAP CFO minus investing capex."
+    },
+    {
+      "year": 2029,
+      "issuer_guidance": {
+        "revenue_and_profit": "No exact annual consolidated revenue, EBIT or EPS guide located.",
+        "investment": "14A and manufacturing expansions discussed; no matched annual dollar budget located.",
+        "cash": "No exact annual issuer cash guide located."
+      },
+      "public_identifiable_forecasts": {
+        "revenue_B": {},
+        "profit": {},
+        "gross_capex_B": {},
+        "free_cash_flow": "No matched numeric annual cash estimate found in the bounded accessible sources.",
+        "source_date_keys": []
+      },
+      "current_owned_forecast": {
+        "Products_revenue_B": 99.52302077565182,
+        "capital_denominator_revenue_B_NOT_reconciled_consolidated_revenue": 105.82302077565181,
+        "EBIT_after_economic_SBC_B": 32.71609561149971,
+        "host_Foundry_profit_before_separate_packaging_overlay_B": 1.0,
+        "physical_cash_capex_B": 31.25,
+        "capitalized_interest_financing_cash_B": 1.0,
+        "physical_plus_capitalized_interest_B": 32.25,
+        "operating_WC_cash_use_B": 3.3442432625272502,
+        "parent_unlevered_economic_cash_after_credits_B": 16.576545150104643
+      },
+      "comparability": "Revenue denominator is not a reconciled GAAP sales forecast. Economic EBIT is not adjusted EPS. Our physical cash investment excludes1Bcapitalized interest; iFAST calls its measure gross capex but does not fully map cash classification. Economic unlevered cash is not issuer adjusted FCF or GAAP CFO minus investing capex."
+    }
+  ],
+  "cash_measure_bridge": {
+    "issuer_adjusted_FCF": "GAAP operating cash minus gross PPE plus capital government incentives plus net SCIP partner contributions minus finance-lease payments. This includes financing and accounting conventions absent from unlevered economic cash.",
+    "our_measure": "EBIT after recurring economic SBC, unlevered taxes, D&A, physical capex, WC, leases and minority economic reserves plus finite capital-credit cash/basis effects. Capitalized interest and ordinary financing handled separately.",
+    "consequence": "Do not subtract our-10.18B from an adjusted-FCF consensus and call the difference an earnings surprise; do not compare economic EBIT with EPS as though they share an accounting basis."
+  },
+  "candidate_divergence_adjudication": {
+    "candidate": "Capital spending and supplier cash remain high into2028-29 despite product profit and output rising.",
+    "status": "Plausible original forecast but not established current expectations disagreement.",
+    "evidence_supporting_mechanism": "Issuer commitments, ramp schedules and supplier qualification show that expansion takes time and cash.",
+    "why_not_enough": "These facts are already public; identified analyst capex forecasts are of a similar order. No accessible comparable2028-29cash forecast demonstrates that investors expect substantially faster conversion. The original near-dateDCF gap is not a catalyst.",
+    "conclusion": "Do not assert the market overlooks spending or will reprice in2027-28 based on this evidence. Keep the timing judgment explicitly unsupported if retained."
+  },
+  "observable_tests_not_guaranteed_catalysts": [
+    {
+      "window": "Next annual outlook and2027quarterly reports; exact release dates not asserted",
+      "measure": "Total cash PPE including financing-classified settlements, supplier advances, accepted product sales and factory output.",
+      "supports_short": "Persistent required cash use exceeds the clearly defined owned budget without proportional output/profit gains, and public forward estimates fall.",
+      "weakens_short": "Higher accepted output and cash conversion at or below budget, or funding economically transferred with appropriately reduced claims."
+    },
+    {
+      "window": "Second half2027 through2028",
+      "measure": "Qualified substrate/wafer capacity and product shipments, then operating cash conversion after all recurring investment.",
+      "supports_short": "Expected capacity arrives but persistent reinvestment keeps economically comparable cash materially below revised expectations.",
+      "weakens_short": "Better yields/reuse convert the already-forecast revenue growth into stronger cash; no extra charge for costs already included."
+    },
+    {
+      "window": "2027-2029 customer/ramp disclosures",
+      "measure": "Binding external commitments, funded capacity and net incremental economics.",
+      "interpretation": "Customer commitments can be positive for Intel and dangerous for a short; absence of a named customer is already public and is not automatically new negative information."
+    }
+  ],
+  "sources": {
+    "issuer_prepared": {
+      "url": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "publication_date": "2026-10-29",
+      "type": "Issuer primary prepared remarks",
+      "use": "Public direction of 2027 capital/working-capital spending and production ramp; no exact multi-year cash forecast."
+    },
+    "issuer_release": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm",
+      "publication_date": "2026-10-29",
+      "type": "Issuer filed release",
+      "use": "Definitions of non-GAAP EPS, gross capex and adjusted FCF; official Q4 guidance."
+    },
+    "stockanalysis": {
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "data_updated_date": "2026-11-03",
+      "retrieved_date": "2026-11-04",
+      "type": "Public distributor of S&P Global Market Intelligence forecasts",
+      "use": "Public summary FY2027 revenue69.27B and adjusted EPS1.80. Annual detailed future cash tables require paid access; not accessed."
+    },
+    "ifast": {
+      "url": "https://fsm.global/sg/article/rcms403584/intel-3q26-pcs-break-the-guide-maintain-sell-at-lower-tp",
+      "publication_date": "2026-11-02",
+      "data_as_of": "2026-10-30",
+      "author": "iFAST Research Team",
+      "type": "Primary publication of analyst opinion/forecast; cites Bloomberg/LSEG for some data",
+      "use": "Published 2027-28 earnings/capex forecasts and valuation argument. One identified house, not consensus. Technical assertions not adopted."
+    },
+    "morningstar": {
+      "url": "https://global.morningstar.com/en-eu/stocks/intel-earnings-pc-winter-has-arrived-offsetting-healthy-ai-growth",
+      "publication_date": "2026-10-30",
+      "author": "Brian Colello",
+      "type": "Primary published research opinion",
+      "use": "85USD current fair-value counterview; acknowledges PC and supply problems. No accessible matched annual cash model."
+    },
+    "inh": {
+      "url": "https://inhcapital.com/insights/research/intc-q3-fy26-downgrade-hold",
+      "publication_date": "2026-10-30",
+      "type": "Primary opinion from firm investing own capital; not established institutional consensus",
+      "use": "Negative2027FCF is already part of an80USD target/Hold opinion. Prior175USDpreview explicitly superseded. Read via ordinary unauthenticated requests after web parser failed."
+    },
+    "kgi": {
+      "url": "https://www.kgieworld.sg/research/technical-analysis-30-october-2026/",
+      "publication_date": "2026-10-30",
+      "type": "Primary brokerage research note",
+      "use": "Additional public bearish discussion of weaker guidance and high investment; no matched2028-29cash forecast extracted."
+    },
+    "kaplio": {
+      "url": "https://kaplio.com/ticker/INTC/estimates",
+      "data_as_of": "2026-11-01",
+      "type": "Secondary aggregation; underlying provider unspecified on retrieved page",
+      "use": "Supplementary only:2027/28revenue70.5/84.7B,EPS1.88/3.12. Does not establish exact consensus or cash gap."
+    },
+    "businessquant": {
+      "url": "https://businessquant.com/stocks/intc/estimates/",
+      "retrieved_date": "2026-11-04",
+      "type": "Secondary forecast aggregation",
+      "use": "Excluded from decisive comparison: displayed Q3actual EPS0.65 conflicts with issuer0.52adjusted/0.60GAAP; annual and quarterly freshness also unclear."
+    },
+    "perpequities": {
+      "url": "https://perpequities.com/stocks/intc-perp/financials",
+      "retrieved_date": "2026-11-04",
+      "type": "Secondary machine-extracted aggregation",
+      "use": "Excluded from decisive2029comparison: no verified forecast snapshot/provenance; cash classification problems include14.3B labeled dividends. Its101B2029revenue is not adopted as reliable current consensus."
+    },
+    "macrostream": {
+      "url": "https://www.macrostream.ai/articles/6ae4be40a33bbe7d365eefa9",
+      "retrieved_date": "2026-11-04",
+      "type": "Secondary summary attributed to UBS",
+      "use": "Not treated as primary UBS forecast: source alternates35/37B2027capex and67+8 components for80target. Underlying note not verified."
+    },
+    "old_ubs_reporting": {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dip-intel-20-billion-raise-151920658.html",
+      "type": "Older secondary reporting of UBS estimate",
+      "use": "Search lead only:28-30B2027and40B2028-29capex. Pre-Q3 and not used as current expectation."
+    }
+  },
+  "research_limits": [
+    "No paid research or data access was bypassed.",
+    "Current detailed2028-29FCF consensus remains unavailable in the accessed public material; lack of access is not evidence of market irrationality.",
+    "One analyst forecast and one distributed consensus summary do not identify all price-setting investors.",
+    "Do not invent a current consensus from stale broker notes, social posts or incompatible aggregator tables.",
+    "A full exact consensus is not a competition requirement; a causal forecast can be original without being provable, but our directional conclusion must still follow from its economics."
+  ],
+  "recommendation_to_root": "Downgrade the specific early-repricing rationale. Combine this result with the current joint operating/risk scenarios before choosing a submission direction. Do not preserve SHORT solely because a draft already exists."
+}

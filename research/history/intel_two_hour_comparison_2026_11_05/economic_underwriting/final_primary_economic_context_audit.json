@@ -1,0 +1,148 @@
+{
+  "created_utc": "2026-11-05T23:43:05.606431+00:00",
+  "task": "Final primary economic context audit; no target, core-model or PDF edits",
+  "reviewed_main_pdf": {
+    "file": "output/pdf/m37_intel_initial_screen.pdf",
+    "sha256": "55e023f5fd714c4929c448365429f3782de3f97b3acd1319c2488aa4d08d1b65",
+    "pages": 10,
+    "scope": "All10pages reviewed across this research block; latestpp3\u20137 and9 reread against exact wording."
+  },
+  "coverage": {
+    "intel_prepared": "All8pages read in full; exact page locators verified with pypdf.",
+    "intel_10q": "Full Products and Foundry MD&A read, including already-recorded period-charge and product-profit bridge.",
+    "amd": "Official November3 release and relevant November4 10-Q sections; official results/event index checked. No Q3 transcript link available at observed index, unlike Q2.",
+    "arm": "Official November4 release; shareholder letter relevant server and accounting sections; official transcript server, pricing, margin and phasing Q&A.",
+    "customer": "Oracle October27 buyer architecture roadmap joined with AMD October27 and Arm October28 product announcements."
+  },
+  "conclusion": "No newly verified primary statement requires a numerical change to the owned forecast. The most useful additions are current cross-vendor competition at the same buyer and the distinction between dollar TAM, package units and retained profit. Existing moderate conviction is warranted; stronger confidence or a higher target would exceed the evidence.",
+  "findings": [
+    {
+      "id": "physical_units_not_dollar_TAM",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF pp3 and6, CEO CPU opportunity and CFO outlook",
+      "source_fact": "Intel projects server CPU TAM from $40B to more than $200B over five years, while separately expecting industry server CPU units to grow more than30% in2026 and2027. Supply constraints extend into2028.",
+      "pitch_location": "p3, 2027 units20%;2028\u201330 units25/18/12%;p7 duration",
+      "judgment": "The dollar TAM includes price and mix. It cannot independently substantiate the physical-unit path, and the >30% statement is a floor-like management growth expectation, not a30% ceiling or a contradiction of TrendForce >40%.",
+      "owned_assumption_action": "Keep the explicit missing matched2028\u201330 unit forecast disclosure. No mechanical base change; do not use fivefold dollar TAM to erase it.",
+      "materiality": "high scope guardrail; current pitch already discloses the gap"
+    },
+    {
+      "id": "current_products_and_customer_breadth",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF p1 server roadmap;p5 DCAI discussion",
+      "source_fact": "Clearwater Forest is shipping for revenue; Diamond Rapids is sampling for a2027 ramp. Growth spans hyperscale, enterprise and neocloud customers.",
+      "pitch_location": "pp3\u20135 delivery and retention",
+      "judgment": "This is affirmative evidence that the recovery is not only a proposed future product or one unnamed hyperscaler. It is not customer concentration, shipment allocation, yield or retained-price disclosure.",
+      "owned_assumption_action": "Retain near-term growth as an owned conditional forecast. No extra CPU growth, premium or margin increment is justified by counting announcements again.",
+      "materiality": "medium affirmative context suitable for defense"
+    },
+    {
+      "id": "custom_x86_and_GPU_boundaries",
+      "source": "https://d1io3yog0oux5.cloudfront.net/_47986fe477a6ac84fe34efbcbf38dd13/intel/db/887/9273/prepared_remarks/Q3%2726_Prepared_Remarks.pdf",
+      "locator": "PDF p2 GPU and purpose-built discussion;p3 modular x86 discussion",
+      "source_fact": "Intel offers modular verified x86 CPU instances for custom workloads; new GPU customer engagements are progressing toward commitments.",
+      "pitch_location": "p3 Other DCAI and no separate GPU windfall",
+      "judgment": "Modular x86 is a potential response to custom silicon, but there are no disclosed customer fees, orders, margins or incremental revenue amounts here. GPU progression is not a secured purchase. Purpose-built growth is not identical to all Other DCAI.",
+      "owned_assumption_action": "Keep no separate GPU windfall and preserve Other scope warning. Do not add royalties or design-win revenue without a bridge.",
+      "materiality": "medium; existing scope treatment sound"
+    },
+    {
+      "id": "same_buyer_multiple_architectures",
+      "source": "https://www.oracle.com/news/announcement/blog/ai-world-building-the-next-decade-of-oracle-cloud-infrastructure-2026-10-27/",
+      "locator": "October27 article, Complete Choice Across the World\u2019s Leading Chips section",
+      "source_fact": "Oracle describes Nvidia Vera CPUs as generally available, upcoming E7 using6th Gen AMD EPYC, and planned multiyear Intel X14 using Diamond Rapids within one architecture-choice roadmap.",
+      "additional_source": "https://newsroom.arm.com/news/arm-agi-cpu-oracle-cloud-infrastructure",
+      "additional_locator": "October28 announcement, first paragraph: OCI Arm AGI CPU deployment planned for fall2027",
+      "judgment": "The primary buyer confirms simultaneous support for several architectures. An Intel deployment announcement supports access to demand, not exclusive customer retention. This is a new cross-source synthesis, not a new claim that Oracle uses competitors.",
+      "pitch_location": "pp5 and9 customer retention",
+      "owned_assumption_action": "No automatic additional share cut beyond the existing50%\u219242% industry-share assumption. Monitor repeated purchased deployments and price/mix across generations; do not equate a partnership announcement with a moat.",
+      "materiality": "high defense context; ten-page pitch is not misleading without adding all product names"
+    },
+    {
+      "id": "current_AMD_ramp_not_legacy_benchmark",
+      "source": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "locator": "November3 CEO quote and Recent PR Highlights",
+      "source_fact": "AMD says Q4 growth accelerates as Helios and Venice production scale. Its Q3 Data Center revenue is$8.5B, up97%, combining EPYC processors with MI450 GPU demand. Q4 total-company revenue guidance is$17B.",
+      "additional_source": "https://newsroom.amd.com/news/amd-expands-ai-cloud-infrastructure-oracle/",
+      "additional_locator": "October27 article,6th Gen AMD EPYC for OCI Compute E7 and Acceleron NIC discussion",
+      "additional_fact": "AMD identifies agent orchestration, retrieval and caching among E7 workloads; Pensando offloads networking, storage and security to preserve host CPU capacity.",
+      "judgment": "Competition is contemporaneous, not only an older Turin benchmark. Aggregate AMD Data Center growth cannot identify EPYC unit share, CPU ASP or CPU profit. Networking offload also prevents a fixed CPU-per-accelerator demand identity.",
+      "pitch_location": "pp3,5 and9",
+      "owned_assumption_action": "Treat2027 Intel ASP and40% mature margin as conditional despite launch progress. No quantified reduction follows without matched EPYC units, workload allocation or customer economics.",
+      "materiality": "high qualitative opposing context; no proven numerical contradiction"
+    },
+    {
+      "id": "AMD_client_server_scope",
+      "source": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm",
+      "locator": "MD&A pp28\u201329, Data Center and Client and Gaming paragraphs",
+      "source_fact": "Q3 Client units rose6% and ASP1%; YTD Client units rose21% and ASP fell2%, mainly mobile mix. Q3 Client revenue rose7%, whereas Client and Gaming together fell8%. Data Center revenue and operating profit combine EPYC and Instinct.",
+      "judgment": "Client & Gaming decline cannot be used as a PC-demand proxy. Data Center operating margin around34% cannot be treated as a CPU-only retained-margin comparator.",
+      "pitch_location": "p2 PC guardrail;p5 DCAI margin",
+      "owned_assumption_action": "Parent owns PC forecast. No server margin calibration from this mixed segment. Explicitly flag the client-versus-gaming distinction if peer results are cited.",
+      "materiality": "medium scope protection; current pitch does not misuse these figures"
+    },
+    {
+      "id": "Arm_calendar_and_share_denominator",
+      "source": "https://investors.arm.com/static-files/0b5baa2e-fc47-4d05-b724-e49de7bd4356",
+      "locator": "Shareholder letter printed p2, Arm Is Gaining Share Across the Data Center;printed p3 opening",
+      "source_fact": "Arm says first AGI CPU commercial deliveries are on track for fiscalQ4FYE27, with up to$2B acrossFYE27\u201328. Its >60% calendar2026 server-share expectation applies to top hyperscalers.",
+      "judgment": "FiscalQ4FYE27 corresponds toJan\u2013Mar2027; the$2B is a two-fiscal-year amount, not annualCY2027 sales. Top-hyperscaler share is not global server share; the cited passage does not fully define unit/revenue or new/installed denominator.",
+      "pitch_location": "pp3 and9 quantity/share framework",
+      "owned_assumption_action": "Do not combine this share mechanically with TrendForce global market shares. Existing competition stress remains; no extra numeric share deduction is supported.",
+      "materiality": "high if used in oral defense; no current pitch misuse"
+    },
+    {
+      "id": "peer_pricing_support_with_cost_limit",
+      "source": "https://investors.arm.com/static-files/6f3ab670-7d16-479b-948a-7b1df5ff5b32",
+      "locator": "Corrected November4 transcript printed pp12\u201314, Lee Simpson/Vivek Arya/Joe Quatrochi Q&A",
+      "source_fact": "Arm sees pricing headroom on larger, higher-core CPUs, says supply remains tight, and reports having exercised pricing flexibility. It frames first AGI CPU gross margin around30\u201340%, with higher margins expected on later versions.",
+      "judgment": "This supports the mechanism of richer CPU package pricing under constrained supply. It also shows manufacturing, memory and partner cost pressure; higher package prices do not automatically produce an Intel profit moat. Arm gross margin is not Intel DCAI operating margin and the cost scopes differ.",
+      "pitch_location": "p3 ASP+20% andp5 mature40% margin",
+      "owned_assumption_action": "No target increase. Keep the separately modeled retained-profit case and CPU expense sensitivity. This is corroboration of mechanism, not calibration of magnitude or duration.",
+      "materiality": "medium affirmative and opposing context"
+    },
+    {
+      "id": "primary_results_do_not_close_retention_bridge",
+      "source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+      "locator": "Products MD&A pp33\u201334;Foundry MD&A p35;Note2 segment measurement",
+      "source_fact": "The reported Products and Foundry results support the recent profit and period-charge bridges already recorded in foundry_internal_recovery_cost_bridge.json. No new standalone CPU expense, Other DCAI profit or net SKU-price disclosure was located in this full-section reread.",
+      "judgment": "The selected model still lacks an observed cohort-level price/cost/retention bridge that jointly proves durable product profit and Foundry recovery. This is an identification limit, not evidence of an explicit duplicate forecast line.",
+      "pitch_location": "pp5\u20137",
+      "owned_assumption_action": "Current p6 now correctly says further factory profit recovery remains a forecast. Keep all model assumptions and downside cases visible; do not credit historical Intel3/18A learning again.",
+      "materiality": "high unresolved underwriting dependency"
+    }
+  ],
+  "genuine_forecast_contradictions_found": [],
+  "unresolved_highest_value_evidence": "Actual generation/SKU/cohort revenue, units and net prices plus all-in CPU expenses within DCAI and Other DCAI profit; without this, the20% annual ASP carryover and40% mature segment-margin mechanisms remain conditional despite viable examples.",
+  "already_known_not_presented_as_new": [
+    "Fab28 timing",
+    "Q3ASP54% andunits10%",
+    "Intel3cost15% and18Acost40% historical improvement",
+    "lower Foundry period charges",
+    "purpose-built tripling aspiration",
+    "Arm royalty doubling",
+    "TSMC/GF/MediaTek packaging context"
+  ],
+  "rejected_inferences": [
+    "AMD97% Data Center growth equalsCPU-unit growth",
+    "Arm top-hyperscaler share equals global server unit share",
+    "Intel fivefold dollarTAM equalsfivefold physical units",
+    "Oracle Intel partnership means exclusive CPU demand",
+    "Arm first-product gross margin equals Intel CPU operating margin",
+    "Arm analyst question establishes AMD CPU guidance",
+    "a future GPU engagement is a committed order",
+    "new competitor launch automatically warrants a second share-loss penalty"
+  ],
+  "potential_defense_addition": "Oracle plans Intel X14 while expanding AMD E7 and Arm-based offerings. That confirms a route to demand for Intel, but also makes repeat deployment economics\u2014not announcement counts\u2014the retention test.",
+  "source_download_status": "final_context_source_download_status.json",
+  "read_but_unarchived_primary_pdfs": [
+    "https://investors.arm.com/static-files/0b5baa2e-fc47-4d05-b724-e49de7bd4356",
+    "https://investors.arm.com/static-files/6f3ab670-7d16-479b-948a-7b1df5ff5b32"
+  ],
+  "access_limit": "Arm PDFs read through web extraction; direct archive fetch returned403. No circumvention attempted. The official AMD Q3 transcript was not linked on either inspected index.",
+  "subsequent_targeted_followups": {
+    "Fab28_Q1": "fab28_Q1_original_QA_verification.json",
+    "additional_nonoperating_claims": "explicit_claims_overlay_independent_review.json",
+    "note": "These later receipts supplement the context audit. Peer operating facts did not force a numeric operating-forecast change; separate claims were subsequently adopted by root and lower the target by0.220508per share."
+  }
+}

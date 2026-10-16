@@ -1,0 +1,354 @@
+{
+  "completed_utc": "2026-11-05T23:25:11.768035+00:00",
+  "question": "Can enterprise software licensing preserve Intel CPU value per socket after supply scarcity eases?",
+  "verdict": {
+    "mechanism": "Yes, expensive per-core software can make performance at a smaller licensed footprint economically valuable. The applicable comparison is the next-best qualified system and contract, not an obsolete Intel server.",
+    "intel_specific_evidence": "Not established. Current SQL licensing and x86 support do not exclude AMD, and Oracle applies the same 0.5 core factor to the reviewed Xeon 6 and EPYC 9005 families. A contemporary audited HPE pair has identical SQL license counts and costs.",
+    "forecast_action": "No increase to Intel sales, ASP, retention, or mature DCAI margin. Keep the mechanism as a bounded defense point and a testable condition, not proof of a 40% margin floor.",
+    "scope": "Public technical and economic research; no procurement, legal opinion, customer outreach, or customer-specific license entitlement determination."
+  },
+  "source_register": [
+    {
+      "id": "MS_TERMS",
+      "url": "https://www.microsoft.com/licensing/terms/productoffering/SQLServer/MCA",
+      "date": "Accessed 2026-11-05; MCA program selected",
+      "locator": "License Model; Per Core; Licensing by Individual Virtual OSE; Software Assurance",
+      "facts": "Physical licensing counts all physical cores, with four-license minimum per processor. Individual-VM licensing requires active SA or subscription, counts virtual cores with four-license minimum per VM and mapped-thread conditions. Enterprise full physical licensing plus active SA permits unlimited OSEs. Terms include same-farm VM reassignment flexibility; different-farm short-term reassignment is restricted.",
+      "limits": "MCA terms are not every customer contract. OEM, legacy versions, outsourcing, subscriptions and enterprise agreements require their own entitlement review."
+    },
+    {
+      "id": "MS_GUIDE",
+      "url": "https://www.microsoft.com/licensing/guidance/SQL",
+      "date": "SQL Server 2025 guide, accessed 2026-11-05",
+      "locator": "Licensing models; physical server; VM; movement across server farms; SA benefits",
+      "facts": "Enterprise uses per-core licensing; Standard also offers Server+CAL. Core licenses are sold in two-core packs. General reassignment is subject to 90 days, with additional virtual-OSE mobility for SA/subscription customers. SQL Server 2025 Standard has a 32-core compute limit.",
+      "limits": "Educational guide does not replace agreements. Server+CAL, current Standard limits, and SQL 2022 Enterprise benchmark economics must not be conflated."
+    },
+    {
+      "id": "MS_PRICE",
+      "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/cloud/SQL-Server-2025-Pricing.pdf",
+      "date": "SQL Server 2025; volume availability 2025-11-18, other channels January 2026",
+      "pdf_pages": [
+        1
+      ],
+      "facts": {
+        "enterprise_perpetual_2core_USD": 15123,
+        "standard_perpetual_2core_USD": 3945,
+        "enterprise_subscription_2core_USD_per_year": 5434,
+        "standard_subscription_2core_USD_per_year": 1418,
+        "standard_server_USD": 989,
+        "standard_CAL_USD": 230
+      },
+      "limits": "Open no-level estimated retail prices, not a negotiated quote; perpetual price excludes an assumed SA renewal calculation. Subscription and perpetual alternatives must not be added together."
+    },
+    {
+      "id": "MS_X64",
+      "url": "https://learn.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server-2025?view=sql-server-ver17",
+      "date": "Updated 2026-07-20",
+      "locator": "Hardware requirements",
+      "facts": "SQL Server 2025 on Windows supports Intel and AMD x86-64 processors, subject to the stated NUMA limit; x64 installation only.",
+      "limits": "Protects a particular x86 software deployment against direct Arm substitution; does not establish Intel exclusivity, compatibility of every extension, or zero migration work."
+    },
+    {
+      "id": "ORACLE_FACTOR",
+      "url": "https://www.oracle.com/contracts/docs/processor-core-factor-table-070634.pdf",
+      "date": "Updated 2026-01-28",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "facts": "Reviewed Xeon 6 and EPYC 9005 families both carry a 0.5 core factor. Ampere Altra/AltraMax/AmpereOne carry 0.25; other Arm is 1.0. OCI BYOL has separate ratios: one Processor license covers two x86 OCPUs or four listed Ampere OCPUs.",
+      "limits": "Factors are not software certification, throughput measures, or universally applicable cloud-vCPU multipliers. Other metrics and minimums can apply."
+    },
+    {
+      "id": "ORACLE_CLOUD",
+      "url": "https://www.oracle.com/a/ocom/docs/cloud-licensing-070579.pdf",
+      "date": "Policy effective 2026-09-04",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "facts": "Authorized AWS, Azure and GCP environments use maximum instance-type vCPUs: two vCPUs per Processor license with multithreading, one without. Core-factor table does not apply. Standard editions have separate socket mappings and instance limits.",
+      "limits": "Published educational policy is not a contract. Do not assume SQL-style active-core reduction works for Oracle cloud licensing, or apply a second 0.5 factor."
+    },
+    {
+      "id": "ORACLE_PARTITION",
+      "url": "https://www.oracle.com/assets/partitioning-070609.pdf",
+      "date": "2022-02-14",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "facts": "Oracle distinguishes approved hard partitioning from soft partitioning. Its policy does not generally accept VMware or CPU affinity as a way to limit required licensed processors; listed exceptions have configuration conditions.",
+      "limits": "Policy is not a customer contract. An eight-vCPU VM alone does not establish the full on-premises Oracle license requirement. Do not infer an entire-cluster legal conclusion without deployment and agreement details."
+    },
+    {
+      "id": "ORACLE_PRICE",
+      "url": "https://www.oracle.com/a/ocom/docs/corporate/pricing/technology-price-list-070617.pdf",
+      "date": "2026-09-15",
+      "pdf_pages": [
+        1,
+        2
+      ],
+      "facts": {
+        "database_enterprise_processor_list_license_USD": 47500,
+        "database_enterprise_processor_software_update_license_support_USD": 10450,
+        "database_standard_edition_2_processor_list_license_USD": 17500
+      },
+      "limits": "USD list prices; options, management packs, minimums and negotiated contracts can materially change the bill. Oracle and SQL prices are not interchangeable workloads. PDF fetched directly from the link on Oracle corporate pricing page after web-reader fetch failed."
+    },
+    {
+      "id": "ORACLE_SUPPORT",
+      "url": "https://www.oracle.com/contracts/docs/057419.pdf?download=false",
+      "date": "Effective 2026-10-09",
+      "pdf_pages": [
+        5,
+        6,
+        7
+      ],
+      "facts": "Support normally has a 12-month period and orders are noncancelable/nonrefundable unless the order says otherwise. Matching service-level rules apply to license sets. When part of an order is terminated or support reduced, remaining support is repriced under specified list-price/discount and floor/cap rules.",
+      "limits": "Fewer licensed cores do not establish proportional cash renewal savings. Avoided new purchases, reduced subscriptions, termination of perpetual licenses, and renewal repricing are different economic events."
+    },
+    {
+      "id": "AWS_OPTIMIZE",
+      "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/optimize-cpu.html",
+      "date": "Accessed 2026-11-05; license-included launch announced 2025-10-16",
+      "locator": "Supported license types; billing examples",
+      "facts": "Eligible EC2 license-included Windows/SQL workloads can be billed using active vCPUs; CPU options can retain other instance resources. The documented example reduces 32 vCPUs to 16.",
+      "limits": "This is an offered configuration, not an observed buyer migration. Purchase-option and eligibility limits apply. Core reduction must still meet workload performance and availability needs."
+    },
+    {
+      "id": "AWS_RDS",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.Concepts.General.OptimizeCPU.Support.html",
+      "date": "Accessed 2026-11-05",
+      "locator": "Intel and AMD instance tables",
+      "facts": "RDS SQL Server supports core optimization on selected Intel and AMD instances. Current Intel 2xlarge-and-larger examples use one thread per core. AMD examples use one vCPU per physical core and disable half the available cores by default for 2xlarge-and-larger instances.",
+      "limits": "RDS db.r8i/db.r8a defaults are not necessarily EC2 r8i/r8a defaults. A same-named size or same-vCPU comparison needs actual physical-core, SMT and enabled-core settings."
+    },
+    {
+      "id": "AZURE_CONSTRAINED",
+      "url": "https://learn.microsoft.com/en-us/azure/virtual-machines/constrained-vcpu",
+      "date": "Accessed 2026-11-05",
+      "locator": "Specification comparison and pricing",
+      "facts": "E32s_v5, E32-16s_v5 and E32-8s_v5 retain 256 GiB RAM and the stated storage/I/O specifications while exposing 32,16,8 active vCPUs; base VM price remains unchanged. SQL license charges use available vCPUs.",
+      "limits": "No automatic claim that CPU-bound throughput remains constant. Do not apply the page’s generic third-party description over a conflicting Oracle product policy."
+    }
+  ],
+  "bounded_current_platform_comparison": {
+    "design": "Two independently audited, vendor-sponsored TPC-H 3.0.1 whole-system results, both 1,000GB, USD, HPE, SQL Server 2022 Enterprise, 32 physical cores/64 hardware threads and seven throughput streams. This is a matched license-count comparison, not a controlled CPU experiment or actual customer purchase.",
+    "intel": {
+      "result_url": "https://www.tpc.org/tpch/results/tpch_result_detail5.asp?id=125042301&version=3",
+      "fdr_url": "https://www.tpc.org/results/fdr/tpch/hpe~tpch~1000~hpe_proliant_dl380_gen12~fdr~2025-04-23~v03.pdf",
+      "pdf_pages": {
+        "configuration": 4,
+        "price": 5,
+        "results": 6,
+        "storage": 20,
+        "availability": 26
+      },
+      "system": "HPE DL380 Gen12",
+      "CPU": "2 x Xeon 6724P, 16 cores each",
+      "RAM_GiB": 512,
+      "NVMe": "8 x 1.6TB",
+      "OS": "Windows Server 2025 Datacenter",
+      "test_date": "2025-04-11",
+      "printed_report_date": "2025-04-25",
+      "file_date": "2025-04-23",
+      "availability": "2025-06-02",
+      "QphH": 1184211.5,
+      "TPC_3year_system_cost_USD": 311596,
+      "USD_per_kQphH": 263.13,
+      "SQL_two_core_packs": 16,
+      "SQL_unit_price_USD": 15123,
+      "SQL_total_USD": 241968,
+      "OEM_CPU_list_USD": 19920,
+      "HPE_hardware_discount": 0.6,
+      "HPE_software_discount": 0.23
+    },
+    "amd": {
+      "result_url": "https://www.tpc.org/tpch/results/tpch_result_detail5.asp?id=125093002&version=3",
+      "fdr_url": "https://www.tpc.org/results/fdr/tpch/hpe~tpch~1000~hpe_proliant_dl345_gen11_(with_amd_epyc_9375f)~fdr~2025-09-30~v01.pdf",
+      "pdf_pages": {
+        "configuration": 4,
+        "price": 5,
+        "results": 6,
+        "storage": 20,
+        "availability": 26
+      },
+      "system": "HPE DL345 Gen11",
+      "CPU": "1 x EPYC 9375F, 32 cores",
+      "RAM_GiB": 768,
+      "NVMe": "8 x 1.92TB",
+      "OS": "Windows Server 2022 Standard",
+      "test_date": "2025-08-11",
+      "printed_report_date": "2025-09-15",
+      "file_date": "2025-09-30",
+      "TPC_acceptance_date": "2025-10-01",
+      "availability": "2025-09-15",
+      "QphH": 1531016.1,
+      "TPC_3year_system_cost_USD": 294511,
+      "USD_per_kQphH": 192.37,
+      "SQL_two_core_packs": 16,
+      "SQL_unit_price_USD": 15123,
+      "SQL_total_USD": 241968,
+      "OEM_CPU_list_USD": 10612,
+      "HPE_hardware_discount": 0.55
+    },
+    "recalculated": {
+      "AMD_whole_system_score_higher_pct": 29.28569769842635,
+      "AMD_TPC_system_cost_lower_pct": 5.4830614000179745,
+      "AMD_reported_price_performance_lower_pct": 26.89165051495458,
+      "Intel_SQL_share_of_TPC_quote_pct": 77.65439864439851,
+      "AMD_SQL_share_of_TPC_quote_pct": 82.15924023211358,
+      "SQL_license_cost_difference_USD": 0
+    },
+    "valid_inferences": [
+      "For these physical-core licenses, one socket versus two does not change the SQL license bill when physical cores are equal. Hardware threads do not double this physical-core bill.",
+      "A real, audited contemporary AMD system is an available competitive configuration for this workload, with no intrinsic SQL license-count penalty.",
+      "Software dominates these two public benchmark quotations, making it plausible that a CPU which actually reduces licensed capacity could justify a premium."
+    ],
+    "invalid_inferences": [
+      "The AMD CPU alone is 29.3% faster: RAM is 50% larger, with different storage, OS edition/version, NUMA topology, motherboard, test date and potentially SQL build/tuning.",
+      "Intel necessarily loses a particular buyer: buyer workload, SLA, failover design, contracts, migration effort and vendor qualification are unknown.",
+      "AMD achieves 23% fewer licensed cores here: both tested systems license 32. Fractional throughput-normalized licenses are not actual removable entitlements.",
+      "The license share represents every enterprise buyer: existing licenses and negotiated prices can change incremental costs radically.",
+      "TPC three-year system price is a full enterprise TCO: it is the specified hardware/software/maintenance quotation, not all energy, labor, migration or outage costs.",
+      "OEM CPU component list prices or discounts reveal Intel or AMD realized ASP or gross margin.",
+      "The 2025 systems are exhaustive coverage of every available November 2026 configuration."
+    ]
+  },
+  "bounded_cost_illustrations": [
+    {
+      "name": "SQL 32 to 24 licensed cores",
+      "status": "Hypothetical entitlement reduction, not observed Intel-vs-AMD performance",
+      "conditions": "The same workload and SLA must fit an actually smaller licensed deployment, using the correct physical/VM model and minimums. Existing entitlements, portability and contract term must permit the modeled saving.",
+      "perpetual_new_license_avoidance_USD": 60492,
+      "annual_subscription_reduction_USD": 21736,
+      "interpretation": "These are alternative pricing models. The perpetual figure is avoided new acquisition, not cash refunded for licenses already owned. No assumed Software Assurance savings are included."
+    },
+    {
+      "name": "Oracle 32 physical x86 cores",
+      "status": "Illustrative Database Enterprise Processor list-price calculation; no options; no workload comparison",
+      "intel_processor_licenses": 16,
+      "amd_processor_licenses": 16,
+      "base_license_USD_each_system": 760000,
+      "annual_list_support_USD_each_system": 167200,
+      "interpretation": "Equal factors produce no Intel-vs-AMD licensing advantage at equal qualifying cores. Do not reuse the factor for authorized-cloud vCPU counting or Standard Edition socket rules."
+    },
+    {
+      "name": "Oracle authorized cloud eight maximum instance-type vCPUs",
+      "status": "License-count illustration only",
+      "with_SMT_processor_licenses": 4,
+      "without_SMT_processor_licenses": 8,
+      "interpretation": "The same vCPU label can represent different physical resources. These counts do not prove equal useful work, price-performance, or a hardware-vendor advantage."
+    }
+  ],
+  "buyer_and_vendor_evidence": [
+    {
+      "case": "Intel IT production database refresh",
+      "url": "https://cdrdv2-public.intel.com/873627/PUBLIC-intel-decrease-database-costs-with-xeon-case-study.pdf",
+      "date": "January 2026",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "status": "Named internal user, vendor-sponsored self-study",
+      "evidence": "Second-to-fifth-generation Xeon migration, 82% fewer licensed cores, increased memory, reported six-month hardware payback.",
+      "limit": "No AMD comparison, independent buyer, public negotiated prices or raw workload sample. Xeon 6 benefit is prospective in this case. See ../software_licensing_refresh_case.json for earlier full audit."
+    },
+    {
+      "case": "Intel Xeon 6 SQL performance brief",
+      "url": "https://cdrdv2-public.intel.com/864977/xeon6-mssql-performance-brief.pdf",
+      "date": "September 2025; CPU prices as of 2025-08-25",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "status": "Vendor synthetic generation-refresh test",
+      "evidence": "Two-socket 64-physical-core Xeon 8362 versus 6745P; HammerDB SQL 2022; reported 92% OLTP and 47% OLAP gains.",
+      "limit": "No AMD. The 2.29x/1.74x performance-per-dollar claims use CPU prices, not SQL license spend. Same core count does not itself save licenses. Memory generation, storage, OEM and NUMA differ; configuration also mixes Windows OS and Linux-style kernel/governor fields, so treat reproduction details cautiously."
+    },
+    {
+      "case": "Connection anonymous banking customer",
+      "url": "https://www.connection.com/media/idyplvrm/cnxn-amd-mondernize-your-data-center.pdf",
+      "date": "November 2023 footer",
+      "pages": [
+        1,
+        2
+      ],
+      "status": "Reseller account of actual purchases; customer anonymous",
+      "evidence": "Bank bought HPE DL385 Gen11 servers using 24-core EPYC and changed an in-progress 37-server branch order from Intel to AMD.",
+      "limit": "No named bank, exact CPU SKU, license edition/count, paid prices, migration measurements or independent verification. The nearby SQL/Oracle savings charts use separate Dell configurations and assumed discounts; they are not the bank purchase economics. Local HTTP download returned403; web PDF reader succeeded."
+    },
+    {
+      "case": "GrECo JLT / Lenovo",
+      "url": "https://static.lenovo.com/las/landings/por-que-lenovo-system/pdf/systemx_greco_jlt_group_cs.pdf",
+      "date": "2015; PDF created 2015-03-31",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "status": "Named historical buyer testimonial published by OEM",
+      "evidence": "Two servers consolidated into a Xeon-based x3950 X6 while SQL 2008 R2 Enterprise became SQL 2014 Standard. Reported 20% lower runtime and projected 90% licensing / 60% five-year total-cost reductions.",
+      "limit": "Edition downgrade, storage and consolidation are intertwined. CPU/core/price detail is insufficient to reconstruct license economics; text says production deployment was still upcoming. Supports buyer sensitivity, not present Intel-vs-AMD superiority."
+    }
+  ],
+  "economic_bridge": {
+    "buyer_decision": "Minimize qualified total cost at the required latency, availability, capacity and migration constraints; not merely hardware dollars per core.",
+    "premium_ceiling": "Incremental Intel hardware premium must be less than the present value of verified license, energy, operations and migration savings versus the next-best eligible system, after implementation costs and risk. This is an economic bound, not observed Intel pricing.",
+    "capture_problem": "Buyer savings may accrue to the buyer, Microsoft/Oracle, OEM, memory provider, cloud operator or CPU supplier. A large software bill alone does not assign savings to Intel.",
+    "post_scarcity_test": "Test new procurement cohorts after capacity eases. Compare actual qualified AMD/Intel alternatives, net CPU prices, license/maintenance contracts, retention and refresh socket count. Include customers who switched, not only vendor success stories.",
+    "unit_revenue_problem": "Consolidation can raise value per socket while reducing sockets purchased. Licensing savings therefore cannot be converted directly to more Intel CPU units.",
+    "configuration_substitute": "Cloud customers can sometimes cut license bills by changing exposed cores or SMT on the same platform. Some savings require neither a CPU refresh nor a hardware-vendor switch.",
+    "needed_to_support_40pct_margin": [
+      "A material, quantified customer/workload mix for which Intel has a sustained net advantage against AMD and eligible alternatives.",
+      "Repeat wins and retention at disclosed or credibly bounded net prices after shortages ease.",
+      "Translation of those prices and volumes through manufacturing yield, cost, product mix and capital requirements into DCAI profit.",
+      "Evidence that consolidation and cloud optimization do not consume the modeled unit/revenue growth."
+    ]
+  },
+  "judge_ready_answer": "Per-core licensing makes high performance per licensed core valuable, but it is not an Intel moat by itself. Two audited 32-core HPE SQL systems have exactly the same $241,968 SQL bill even though one uses two Xeon sockets and the other one EPYC socket. I would only attribute an Intel premium where a qualified Intel configuration does the buyer’s work with fewer payable licenses or materially lower migration risk than AMD. Our current research supports that mechanism, not a segment-wide margin floor.",
+  "remaining_gap": "No independent named buyer case located in this review discloses a current Xeon 6 versus EPYC 9005 procurement with matched workload/SLA, complete configurations, license entitlements, actual paid software and hardware prices, and realized post-migration outcomes. This is a search result limitation, not proof that such cases do not exist.",
+  "metric_and_entitlement_checks": [
+    {
+      "term": "Physical core",
+      "meaning": "A hardware execution core, distinct from its simultaneous hardware threads. The reviewed bare-metal SQL systems each have 32 physical cores and 64 hardware threads; their physical-core SQL count is 32."
+    },
+    {
+      "term": "vCPU or virtual core",
+      "meaning": "A guest-visible unit, often a hardware thread but sometimes a full physical core. Establish the actual mapping, enabled-core count, SMT setting and vendor product before comparing performance or licenses."
+    },
+    {
+      "term": "Oracle Processor license and core factor",
+      "meaning": "A software license unit, not necessarily a physical CPU socket. For the reviewed x86 families, qualifying physical-core scope times 0.5 determines the illustrated Processor count. Standard-edition socket metrics and authorized-cloud policies differ."
+    },
+    {
+      "term": "SQL minimums and deployment scope",
+      "meaning": "Physical per-core model: all physical cores and at least 4 licenses per processor. Eligible individual-VM model: virtual cores and at least 4 licenses per VM, including mapped-thread conditions. Enterprise full-host plus active SA can cover unlimited OSEs. Four small VMs can therefore have a different minimum than one combined VM."
+    },
+    {
+      "term": "Oracle minimums and edition",
+      "meaning": "Named User Plus is a distinct user/device metric with program-specific minimums; do not replace it automatically with core pricing. Under the reviewed cloud policy, SE2 has an 8-vCPU instance limit and 10 NUP minimum per 8 vCPUs. Enterprise Processor arithmetic must not be applied to SE2 socket pricing."
+    },
+    {
+      "term": "Portability",
+      "meaning": "Ability to assign or move a license is contract-specific and separate from binary compatibility. SQL SA/subscription VM mobility does not prove OEM licenses are freely transferable or that any hosting arrangement qualifies."
+    },
+    {
+      "term": "Support",
+      "meaning": "Support entitlement and cost are separate from the base perpetual license. A smaller deployment can avoid a future purchase without reducing the current renewal bill. Oracle repricing rules particularly constrain a proportional-savings assumption."
+    },
+    {
+      "term": "Whole host versus individual VM",
+      "meaning": "A smaller VM is not sufficient evidence of a smaller licensed on-premises Oracle scope. For SQL, individual-VM licensing and whole-host Enterprise virtualization are separate alternatives with different conditions."
+    }
+  ]
+}

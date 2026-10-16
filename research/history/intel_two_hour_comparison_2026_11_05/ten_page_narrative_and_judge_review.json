@@ -1,0 +1,401 @@
+{
+  "reviewed_artifact": "output/pdf/m37_intel_initial_screen.pdf",
+  "as_of": "2026-11-05",
+  "competition": {
+    "url": "https://www.pennwitg.com/m37",
+    "checked": "2026-11-05",
+    "constraints": [
+      "Initial screen: PDF, at most 10 pages, clear long or short recommendation, company overview, drivers and risks.",
+      "Fundamental 3–5-year horizon.",
+      "Due November9,2026.",
+      "Official page says the competition evaluates investment theses and judgment rather than modeling skills."
+    ]
+  },
+  "narrative_diagnosis": {
+    "strongest_length_comparator": "WMS2024 puts a complete business -> disagreements -> evidence -> valuation -> risk argument into nine pages. Its model and research appendices support that argument rather than substitute for it.",
+    "reference_url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2024/12/First-Place-Equity_Team1_Universe_WMS.pdf",
+    "current_intel_strength": "The present screen already meets structural requirements and is unusually clear about cash funding, model sensitivities and forecast uncertainty. It needs a more decisive current-price investment argument, not more headings.",
+    "current_intel_weakness": "The screen leads with a long at approximately fair value, then devotes five pages to mechanisms and financial bridges. None establishes why the unresolved risks are worth taking for a modeled 10% annual return. Repeating cautions does not supply that investment judgment.",
+    "ordering_problem": "Pages2–3 repeat growth mechanics; pages4 and6 separately explain cash and EBIT while output feasibility remains thin. The two-quarter margin debate can absorb more attention than the larger accepted-sales risk.",
+    "copy_from_wms": "Make each evidence page answer one specific investment disagreement and explicitly connect it to one forecast change. Finish the full causal argument within the main pages.",
+    "do_not_copy_from_wms": "Do not imply that a selected peer multiple guarantees rerating, that a top-down market-share backsolve is observed data, or that winning validates every assumption."
+  },
+  "investment_judgment": {
+    "at_52_22": "The current model describes a conditional, moderate-return long rather than a demonstrated bargain. A 10% modeled return is not automatically unsuitable for M37, but the deck has not shown that this return is attractive relative to its execution, financing and duration risks.",
+    "entry_discipline": "With the existing target held fixed, $48.52 corresponds to a 12% annual return and $43.47 to 15%. Those are analyst hurdle choices, not proof of intrinsic value or a recommendation to wait instead of meeting M37’s required long/short format.",
+    "no_forced_short": "Failure to prove a compelling long does not establish a short: the same model contains substantial earnings/cash recovery and multiple paths to upside.",
+    "rewrite_guardrail": "A better outline must not invent mispricing, increase the target to improve pitch optics, or silently change the recommendation. If the research cannot close the current-price gap, the final deck should preserve moderate conviction and explicitly own the judgment."
+  },
+  "exact_ten_page_outline": [
+    {
+      "page": 1,
+      "title": "Intel: the server recovery can become shareholder cash",
+      "question": "What position, at what price, over what horizon, and why accept the risk?",
+      "required_content": [
+        "LONG; dated $52.22 entry; December2030 target and annualized return.",
+        "Two drivers only: delivered server revenue and factory cash conversion.",
+        "One sentence stating the investment judgment and one sentence stating the biggest failure mode.",
+        "Near-current planning value beside the target, so time appreciation cannot masquerade as immediate upside."
+      ],
+      "principal_exhibit": "Four-number recommendation strip plus a two-driver value map.",
+      "carry_forward": "Current page1, tightened.",
+      "cut": "Navigation ribbon and repetitive caveat prose; preserve the material caveats once in the relevant exhibit.",
+      "evidence_gate": "If the current-price attraction remains unproved, do not describe the stock as mispriced or high conviction."
+    },
+    {
+      "page": 2,
+      "title": "Products earn the profit; manufacturing determines the cash",
+      "question": "How does Intel make money, and why does the reporting structure matter?",
+      "required_content": [
+        "Compact Products/Foundry map with internal sales eliminated.",
+        "Q3 revenue/profit and DCAI product economics, clearly distinguished from consolidated economics.",
+        "Revenue and operating-profit exposure of the major businesses; actuals and estimates labeled."
+      ],
+      "principal_exhibit": "Business map with one short actual-to-forecast table.",
+      "carry_forward": "Current page2 business context plus the strongest current page5 product-profit evidence.",
+      "cut": "Hypothetical 100-to140 market-share drawing; it proves arithmetic possibility without establishing Intel shipments.",
+      "evidence_gate": "Do not call internal Foundry margin an independent third-party manufacturing return."
+    },
+    {
+      "page": 3,
+      "title": "The revenue case requires $31.5 billion of CPU sales in 2027",
+      "question": "Which volume and price assumptions create the revenue forecast, and what evidence supports them?",
+      "required_content": [
+        "Estimated 2026 base -> units -> mix/ASP -> 2027 CPU revenue, with the interaction counted once.",
+        "Separate market growth, Intel share and realizable output.",
+        "Measured carryover versus incremental ASP growth if available.",
+        "One outside dated comparison, honestly labeled rather than called consensus."
+      ],
+      "principal_exhibit": "Evidence -> operating assumption -> revenue bridge, preserving current page3 strengths.",
+      "carry_forward": "Current pages2–3 consolidated.",
+      "cut": "Repeated explanations that growth can coexist with share loss; state the equation once.",
+      "evidence_gate": "Without matched quarterly carryover and capacity evidence, 20%/20% remain owned forecasts, not findings."
+    },
+    {
+      "page": 4,
+      "title": "Accepted output is the constraint that matters",
+      "question": "Can Intel ship the units in the forecast on time?",
+      "required_content": [
+        "Wafer starts -> tested die/yield -> substrate/packaging -> qualified customer output, with each gate identified.",
+        "Named project timing and scope, distinguishing Intel-specific capacity from generic AI-substrate capacity.",
+        "A dated public checkpoint for each critical constraint and the revenue consequence of missing it."
+      ],
+      "principal_exhibit": "One capacity-and-acceptance timeline; unsupported quantities explicitly blank rather than filled with estimates presented as facts.",
+      "carry_forward": "Current pages3/8 execution material, elevated because this is the largest value lever.",
+      "cut": "Generic factory investment lists and supplier capex presented as if they quantify Intel CPU allocation.",
+      "evidence_gate": "This page earns a full slot only if it adds concrete evidence or a useful hard bound; otherwise compress it into page3 and allocate space to the valuation disagreement."
+    },
+    {
+      "page": 5,
+      "title": "Customer retention depends on the workload",
+      "question": "Why would customers keep or return to Intel after alternatives become available?",
+      "required_content": [
+        "One protected-deployment case: certified HANA or costly live-migration constraints.",
+        "One actual substitution case: Datadog/Amadeus/Uber, with the precise workload scope.",
+        "Recent product margin bridge in a compact inset.",
+        "Distinguish retained workloads, richer products, same-product pricing and supplier operating margin."
+      ],
+      "principal_exhibit": "Two-column evidence table: where switching is costly / where buyers have already made it easier.",
+      "carry_forward": "Current page5 compressed plus new customer evidence.",
+      "cut": "Any universal x86 lock-in claim and any inference that two quarters prove a mature margin floor.",
+      "evidence_gate": "New cases improve mechanism quality but do not establish the economic weight needed for 40% whole-segment margin."
+    },
+    {
+      "page": 6,
+      "title": "Revenue and factory recovery drive the cash inflection",
+      "question": "How do operating improvements become cash after reinvestment and claims?",
+      "required_content": [
+        "2027-to2028 EBIT bridge, including $3.25B Foundry improvement.",
+        "2027–2030 annual owner-cash row and the investment needed to earn it.",
+        "One clear definition of owner cash and one reconciliation to a conventional cash measure.",
+        "One-year Foundry delay effect, then model-consistent valuation stress if available."
+      ],
+      "principal_exhibit": "Compact EBIT bridge above annual cash/investment table.",
+      "carry_forward": "Current pages4/6 combined.",
+      "cut": "Full-page four-year cumulative waterfall if it duplicates the annual table; retain its calculations in defense material.",
+      "evidence_gate": "Do not equate owner cash with distributable bank cash, FCF or ROIC; do not count internal manufacturing savings twice."
+    },
+    {
+      "page": 7,
+      "title": "What the current price requires",
+      "question": "Where is the disagreement between price and fundamentals?",
+      "required_content": [
+        "Dated current and future values side by side.",
+        "Conditional reverse valuation showing what margin/revenue/duration combination matches entry, with other assumptions fixed.",
+        "Entry-price return hurdles and an explicit explanation of the selected hurdle.",
+        "An operational valuation cross-check if definitions are consistent; not another target chosen to agree."
+      ],
+      "principal_exhibit": "Current-price requirement frontier or small scenario grid; include the base position.",
+      "carry_forward": "Current page7 plus a defensible reverse-valuation explanation.",
+      "cut": "Excess APV notation and arithmetic precision; keep method labels in notes.",
+      "evidence_gate": "Do not claim the market assumes35% if the current model needs approximately41% mature margin to match entry with other base inputs fixed. This is a conditional model result, not a unique market belief."
+    },
+    {
+      "page": 8,
+      "title": "The downside is weaker sales and delayed cash",
+      "question": "How much can the thesis fail, and what actually changes value?",
+      "required_content": [
+        "Base, lower-sales, delayed-output/factory, and joint-downside scenarios rebuilt consistently.",
+        "Both near-current value and horizon value/annual return.",
+        "Separate present drawdown exposure from endpoint outcomes.",
+        "No invented probabilities; explain which assumptions are jointly related."
+      ],
+      "principal_exhibit": "Ranked sensitivity table showing the few largest economic risks.",
+      "carry_forward": "Current page9; replace any less informative scenario only if the new one is validated.",
+      "cut": "A falling-discount-rate case as the only upside narrative; it is a valuation assumption, not new operating evidence.",
+      "evidence_gate": "Do not present the selected downside scenario as maximum loss or annualized endpoint downside as drawdown risk."
+    },
+    {
+      "page": 9,
+      "title": "The next two years must validate the 2030 price",
+      "question": "Why should the investment work within the competition horizon, and what would change the view?",
+      "required_content": [
+        "2027: unit/mix/accepted-output evidence.",
+        "2028: recurring Foundry loss and cash-conversion checkpoint.",
+        "2029–2030: sustained repeat deployments, funded cash and margin durability.",
+        "For each: evidence source, threshold tied to model, and action if missed.",
+        "Explain how these observations can change expectations for2031 onward."
+      ],
+      "principal_exhibit": "Three dated milestones with falsifiers and forecast consequences.",
+      "carry_forward": "Current page8, stripped to the genuinely decisive tests.",
+      "cut": "Generic data-center demand or product launch dates presented as scheduled price catalysts.",
+      "evidence_gate": "A milestone is not a catalyst unless it changes uncertain expectations or cash economics. Acknowledge uncertainty about the market response."
+    },
+    {
+      "page": 10,
+      "title": "Sources and valuation conventions",
+      "question": "Can the judge audit material claims and distinguish evidence from assumptions?",
+      "required_content": [
+        "Compact source index with exact links, dates and useful locators.",
+        "Conventions for shares/claims, operating cash, tax benefits and terminal reinvestment.",
+        "Explicit public-source research/no completed interviews.",
+        "Name/class year on submission; resume separate from the10-page screen."
+      ],
+      "principal_exhibit": "Short source map grouped by claim, not a prestige or source-count list.",
+      "carry_forward": "Current page10, narrowed to materials actually cited in the screen.",
+      "cut": "Background-only sources with no material main-deck use, redundant method prose and a repeated recommendation box.",
+      "evidence_gate": "If more than one page is needed to explain conventions, simplify the presentation while keeping the calculations accessible in defense material."
+    }
+  ],
+  "horizon_assessment": {
+    "not_a_formal_violation": "A 3–5-year holding period can be valued using cash flows beyond the sale date. A December2030 price legitimately reflects future2031+ economics. The issue is evidence and expectation change, not the mere existence of a long DCF.",
+    "actual_dependency": "The 40% mature-margin choice begins affecting cash only in2031. Changing35% to40% leaves2027–2030 cash unchanged, yet adds $6.70 to the2030 target. Thus the uplift requires the2030 buyer to capitalize superior later economics.",
+    "terminal_weight": "After2040 operating cash contributes about45.8% of2030 equity value; the remaining operating block is itself2031–2040. The2030 cash balance/net claims matter separately.",
+    "judge_question": "What will be observable by2030 that makes a buyer pay for the assumed next-decade profitability?",
+    "required_bridge": "Demonstrate repeat workload retention after alternatives and capacity relief, credible reinvestment returns, and sustained unit economics before2030. If those remain unobserved, show a shorter-duration or mean-reversion valuation rather than labeling the durable margin established.",
+    "presentation_fix": "Show near-term cash evidence and the value of persistence separately. Do not call the40% mature-margin sensitivity a2027 earnings catalyst."
+  },
+  "hostile_judge_questions": [
+    {
+      "priority": 1,
+      "pages": [
+        1,
+        7
+      ],
+      "question": "Your near-current value is $51.29 and the stock costs $52.22. Why should I buy it now?",
+      "current_answer": "The model offers approximately10% annual price appreciation over4.15years. The analyst accepts it at moderate conviction.",
+      "failure": "This states a preference without explaining why that return adequately compensates for the risks.",
+      "needed": "A defensible current-price disagreement, a justified required return, or a candid admission that attractiveness is marginal."
+    },
+    {
+      "priority": 1,
+      "pages": [
+        2,
+        3,
+        8
+      ],
+      "question": "Industry demand is not your supply. What proves Intel can deliver20% more CPUs?",
+      "current_answer": "Industry forecasts and Intel demand comments show opportunity; capacity timing is acknowledged.",
+      "failure": "No accepted-output schedule or hard capacity bound establishes the forecast.",
+      "needed": "Customer-qualified output, bottleneck capacity/allocation, yield/packaging ramp evidence and explicit timing consequences."
+    },
+    {
+      "priority": 1,
+      "pages": [
+        3
+      ],
+      "question": "How much of20% ASP growth is the2026 exit rate, versus new price/mix gains?",
+      "current_answer": "Q3 ASP grew54% year over year and richer mix is expected to continue.",
+      "failure": "A year-over-year point does not determine annual carryover or future incremental growth.",
+      "needed": "Comparable quarterly base and mix/ASP bridge; label the residual as an assumption."
+    },
+    {
+      "priority": 1,
+      "pages": [
+        3,
+        6
+      ],
+      "question": "Why do Foundry losses fall from4B to0.75B in one year?",
+      "current_answer": "Process costs have improved and higher output helps absorption.",
+      "failure": "Reported cost declines and charge reversals do not quantify the required recurring loss reduction.",
+      "needed": "Costs per qualified output, volume/utilization, period-charge and expense bridge without double counting."
+    },
+    {
+      "priority": 1,
+      "pages": [
+        5,
+        7
+      ],
+      "question": "Why does a two-quarter margin determine profitability in2031–2040?",
+      "current_answer": "Recent profits are largely product-led, but a long-run floor is not proven.",
+      "failure": "The evidence supports current improvement, not persistence for a decade.",
+      "needed": "Repeated post-scarcity customer economics plus a model-consistent duration/mean-reversion stress."
+    },
+    {
+      "priority": 1,
+      "pages": [
+        5,
+        8
+      ],
+      "question": "If Intel cannot supply customers now, why will they return after paying to migrate?",
+      "current_answer": "The deck identifies substitution as a risk.",
+      "failure": "The main pages contain no concrete customer decision evidence.",
+      "needed": "Segmented cases: certification/live-migration frictions versus dual-architecture deployment; avoid universal return or universal loss."
+    },
+    {
+      "priority": 1,
+      "pages": [
+        7
+      ],
+      "question": "Is your upside a pricing error or simply four years of discount-rate accretion?",
+      "current_answer": "The deck explicitly claims no immediate revaluation or proven alpha.",
+      "failure": "A conventional positive expected return is not itself differentiated insight.",
+      "needed": "Show current implied economics and the independently evidenced reason they are too pessimistic, or preserve the modest-return framing."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        3
+      ],
+      "question": "Why is an October27 estimate your market expectation after October29 earnings?",
+      "current_answer": "It is labeled one pre-update analyst estimate.",
+      "failure": "The9.7% difference cannot establish a current consensus beat.",
+      "needed": "Matched-date comparable forecast or a carefully labeled conditional price-implied analysis."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        4,
+        10
+      ],
+      "question": "Can shareholders actually receive this owner cash?",
+      "current_answer": "It includes incentives/financing and economic reserves and precedes debt principal/acquisitions.",
+      "failure": "The custom measure can be mistaken for distributable cash.",
+      "needed": "Conventional cash-flow reconciliation and separation of financing inflows, debt service, SBC and minority cash claims."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "question": "Do product margins improve only because Foundry charges are too low?",
+      "current_answer": "Group losses are modeled separately and internal revenue eliminated.",
+      "failure": "Segment economics alone cannot prove consolidated manufacturing economics.",
+      "needed": "Show consolidated cash/EBIT reconciliation and transfer-pricing boundaries; avoid a second efficiency credit."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        7,
+        9
+      ],
+      "question": "Why does your upside scenario lower the discount rate instead of improving operations?",
+      "current_answer": "It illustrates lower risk after2030.",
+      "failure": "Risk normalization is asserted; it is not an operating research finding.",
+      "needed": "Keep it as a sensitivity, not the primary bull thesis; explain observed evidence that would justify repricing risk."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        9
+      ],
+      "question": "Your downside is only-3.2% a year, so why worry?",
+      "current_answer": "The same state has near-current value$30.45,42% below entry; losses can exceed endpoints.",
+      "failure": "Endpoint annualization can obscure immediate drawdown and funding stress.",
+      "needed": "Keep both dates and avoid presenting scenario endpoints as loss limits."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        7
+      ],
+      "question": "Why11.555% rather than12.5% or13% for this turnaround?",
+      "current_answer": "Treasury plus asset-beta/ERP formula; peer set includes mature cyclicals.",
+      "failure": "Precision can disguise model risk, and discounting interacts with operating execution assumptions.",
+      "needed": "Sensitivity and economic justification; avoid counting the same risk in both arbitrary discount premiums and depressed cash without explaining it."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        7,
+        10
+      ],
+      "question": "What earns the return on the124.5B capex?",
+      "current_answer": "Capital productivity0.80 keeps growth funded.",
+      "failure": "An assumed sales-to-investment ratio is not measured return on incremental capital.",
+      "needed": "Reinvestment and operating-profit/cash returns tied to a realistic ramp, utilization and terminal reinvestment."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        8
+      ],
+      "question": "Why does an IBIDEN AI-substrate project prove Intel2027capacity?",
+      "current_answer": "The deck already says it does not.",
+      "failure": "If used rhetorically as bullish capacity support elsewhere, the internal argument contradicts itself.",
+      "needed": "Restrict it to boundary-setting unless Intel-specific scope/timing is independently established."
+    },
+    {
+      "priority": 3,
+      "pages": [
+        10
+      ],
+      "question": "What original work changes my forecast rather than only organizing public information?",
+      "current_answer": "The operating model reconciles funding and claims; public technical/economic comparisons are available in defense material.",
+      "failure": "Research quantity and complexity are not the same as differentiated decision value.",
+      "needed": "Identify one original calculation or comparison that changes revenue, costs, duration or entry valuation and show its magnitude."
+    },
+    {
+      "priority": 3,
+      "pages": [
+        1,
+        8,
+        9
+      ],
+      "question": "What one observation would make you exit the long?",
+      "current_answer": "Several broad risks and milestones are listed.",
+      "failure": "The deck does not prioritize the decisive invalidation condition.",
+      "needed": "Select one or two observable misses that trigger a specific forecast revision; distinguish price volatility from thesis failure."
+    }
+  ],
+  "highest_value_content_cuts": [
+    {
+      "cut": "Hypothetical market-size/share picture",
+      "reason": "Low evidentiary value relative to accepted-output uncertainty.",
+      "replacement": "Real dated delivery/capacity evidence or bound."
+    },
+    {
+      "cut": "Separate full-page cumulative cash waterfall plus separate full-page EBIT bridge",
+      "reason": "Both are useful, but can fit in one focused economic conversion page.",
+      "replacement": "Customer retention and current-price implication."
+    },
+    {
+      "cut": "Uncited generic competitive-risk phrase",
+      "reason": "Cannot support a forecast change.",
+      "replacement": "One actual multiarchitecture customer case and one bounded Intel-specific barrier."
+    },
+    {
+      "cut": "Repeated methodological caveats in every sentence",
+      "reason": "Reduces readability and can make the pitch sound evasive.",
+      "replacement": "One clear assumption label per exhibit plus material limitation nearby."
+    },
+    {
+      "cut": "Unnecessary background-only source inventory",
+      "reason": "The screen is judged on reasoning, not source count.",
+      "replacement": "Claim-linked exact references."
+    }
+  ],
+  "bottom_line_for_parent": "The existing screen is defensible as a transparent conditional model. It is not yet compelling as a current-price long. The rewrite should surface accepted output, post-scarcity retention and price-implied economics; formatting alone cannot close those gaps."
+}

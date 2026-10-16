@@ -1,0 +1,42 @@
+{
+  "method": "Independent quarterly draw, repayment and interest implementation from no-draw cash paths, without importing funding code; independent cash bridge identities. Operating paths were independently checked in the prior review.",
+  "source_sha256": "af533b9d59c95cdbb4223be4b137269a9c0a9e5451d6a9cd86776ded08f0f725",
+  "max_absolute_error": 7.105427357601002e-15,
+  "results": {
+    "core": {
+      "peak_draw_B": 0.0,
+      "interest_B": 0.0,
+      "target_USD": 73.56082736404235,
+      "return_at40": 0.1581021658957209,
+      "ending_debt_B": 0.0
+    },
+    "selected_joint": {
+      "peak_draw_B": 0.7709377897685578,
+      "interest_B": 0.03083751159074231,
+      "target_USD": 64.7378499644682,
+      "return_at40": 0.12299562740856129,
+      "ending_debt_B": 0.0
+    },
+    "joint_plus_CPU_delay": {
+      "peak_draw_B": 2.6515567929590187,
+      "interest_B": 0.12573878790851556,
+      "target_USD": 59.49965650741192,
+      "return_at40": 0.10039717921393643,
+      "ending_debt_B": 0.0
+    },
+    "joint_plus_CPU_delay_plus_2031_2040_capital060": {
+      "peak_draw_B": 2.6515567929590187,
+      "interest_B": 0.12573878790851556,
+      "target_USD": 56.07866577356897,
+      "return_at40": 0.08480960319190434,
+      "ending_debt_B": 0.0
+    }
+  },
+  "independent_added_capital_reconstruction": {
+    "extra_2031_2040_investment_B": 31.009345569815146,
+    "PV_B": 18.849658943474598,
+    "funded_target_USD": 56.07866577356896,
+    "error_USD": -1.4210854715202004e-14,
+    "method": "Base host revenue less independently applied persistent CPU shortfall; discount added0.6-versus0.8 investment by year. No imported model code."
+  }
+}

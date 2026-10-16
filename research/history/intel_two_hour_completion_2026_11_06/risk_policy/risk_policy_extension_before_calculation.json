@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-06T07:43:26.727939+00:00",
+  "chronology": "Policy extension after inspecting existing favorable case73.560827 and before any new rates/terminal outputs. No new operating assumptions selected.",
+  "additional_case": "joint_anchor_old_CPU2028plus_growth_pooled_old_growth",
+  "input_path": "work/three_hour/active_research/intel_two_hour_completion_2026_11_06/quarterly/anchor_valuation_overlay_results.json",
+  "sha256": "721aa9b7a7445065317b17590eba55659558563664040651672c0fdf933b03f7",
+  "reason": "Test legitimate alternative operating path separately; preferred is not an identified expected outcome.",
+  "date_sensitivity": "Optional illustrative discount of Dec31equity value back56days at8/10/12% equity rates, explicitly not assetrate and not a reconstructed intraquarter forecast. Full risk/treasury period alignment remains unknown.",
+  "terminal_row_formula": "Cash2041=EBIT2040*(1+g)*(1-tax) - g*(hostcapitalrevenue2040/turnover + netpackagingrevenue2040/1) - (lease2040+minority2040)*(1+g). This reconciles the selected3%terminalrow before use."
+}

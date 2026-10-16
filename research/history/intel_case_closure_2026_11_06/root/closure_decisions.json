@@ -1,0 +1,66 @@
+{
+  "updated_utc": "2026-11-07T01:30:23.562430+00:00",
+  "closure_definition": "The evidence was reviewed and a treatment selected. Closure does not prove a forecast or remove investment risk.",
+  "process_correction": "Earlier status reports conflated future outcomes, negative research findings and optional evidence with unfinished work.",
+  "cases": [
+    {
+      "case": "Entry decision",
+      "disposition": "Decision made",
+      "result": "Conditional LONG at $40 or below, with operating thesis rechecked; no new position at the November 6 $56.28 quote under the selected return policy. The chosen hurdles are not M37 rules or a universal adequacy standard."
+    },
+    {
+      "case": "CPU volume, mix and margin",
+      "disposition": "Forecast retained with failure tests",
+      "result": "Exact future mix is not observable today. Retain disclosed sensitivities and Q4 $6.81B / H1 2027 $14.11B CPU monitoring thresholds."
+    },
+    {
+      "case": "Foundry and packaging",
+      "disposition": "Forecast retained with failure tests",
+      "result": "Program scale and profitability remain assumptions. Peer evidence and profit controls bound their effect; neither proves future customer economics."
+    },
+    {
+      "case": "Calculations and long duration",
+      "disposition": "Verification completed; forecast risk retained",
+      "result": "Existing cash, APV and saved-workbook checks passed. Long-run cash generation and discount rates are assumptions, not unfinished arithmetic."
+    },
+    {
+      "case": "Potential omitted assets",
+      "disposition": "Unsupported additions excluded",
+      "result": "No substantiated positive correction found; no uplift for overlapping receivables or unproved lease duplication."
+    },
+    {
+      "case": "Funding terms",
+      "disposition": "Public-source review completed with a disclosure limit",
+      "result": "Capacity and maturities verified. Current amended pricing, fees and covenants not located in reviewed sources. 6/8/10% are interest scenarios, future draw access is assumed and incremental fees are not modeled. Legal availability is not established."
+    },
+    {
+      "case": "Interview and original work",
+      "disposition": "Optional evidence; scope settled",
+      "result": "No completed interview claimed. Original public-build reanalysis is retained with its workload and core-count limits. An interview is not a published required item."
+    },
+    {
+      "case": "Submission package",
+      "disposition": "Current resume outstanding; work deferred by user",
+      "result": "Ten-page pitch complete. No published interview, three-supplement or conditional-entry preapproval requirement identified. Email submission is specified; no application-form review is required by the reviewed page."
+    }
+  ],
+  "research_decisions_settled": 7,
+  "known_administrative_items_outstanding": 1,
+  "active_further_research_action": null,
+  "reopen_triggers": [
+    "Material company or customer evidence",
+    "New authoritative credit terms",
+    "A model error",
+    "Changed price or investment horizon",
+    "New official competition instructions"
+  ],
+  "competitive_limitation": "A coherent conditional long is less immediately actionable than a supported current-price opportunity. The current research does not establish a winning probability.",
+  "source_records": {
+    "credit": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_case_closure_2026_11_06/credit/credit_closure_result.json",
+    "rules": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_case_closure_2026_11_06/rules/rules_closure.json",
+    "adjudication": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_case_closure_2026_11_06/adjudication/case_closure_decisions.json"
+  },
+  "adjudication_corrections": "The independent classification was written before the final credit and rules reviews. Its credit action is now complete. Its suggested application-field review is removed because the official page specifies email submission.",
+  "numeric_forecast_changed": false,
+  "submitted": false
+}

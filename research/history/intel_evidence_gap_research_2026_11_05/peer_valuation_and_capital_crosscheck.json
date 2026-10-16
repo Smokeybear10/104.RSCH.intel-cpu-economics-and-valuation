@@ -1,0 +1,210 @@
+{
+  "as_of_utc": "2026-11-05T07:09:39.354014+00:00",
+  "scope": "Independent peer valuation and capital-burden crosscheck; no change to frozen Intel model or pitch PDF.",
+  "frozen_model_unchanged": true,
+  "sources": {
+    "intel_q3_primary": {
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm",
+      "publisher": "Intel",
+      "published": "2026-10-29",
+      "location": "Income statement and non-GAAP reconciliation, printed pages 6 and 13",
+      "type": "Issuer primary source"
+    },
+    "amd_q3_primary": {
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "publisher": "AMD",
+      "published": "2026-11-03",
+      "location": "Income statement, cash flow statement and free-cash-flow reconciliation",
+      "type": "Issuer primary source"
+    },
+    "intel_vendor": {
+      "url": "https://www.marketscreener.com/quote/stock/INTEL-CORPORATION-4829/valuation/",
+      "publisher": "MarketScreener",
+      "quote_timestamp": "2026-11-04 16:00 EST",
+      "type": "Public vendor forecast, not issuer guidance",
+      "currency": "USD",
+      "calendar_fiscal_columns": "2027 and 2028 December periods",
+      "definition": "The table labels EPS, net income and current consolidation scope. It does not explicitly certify GAAP/non-GAAP forecasting conventions. Historical IntelEPS -0.06 in2025 and -2.293 forecast2026 are GAAP-like; label vendor EPS rather than claiming exact accounting harmonization."
+    },
+    "amd_vendor": {
+      "url": "https://www.marketscreener.com/quote/stock/AMD-ADVANCED-MICRO-DEVICE-19475876/valuation/",
+      "publisher": "MarketScreener",
+      "quote_timestamp": "2026-11-04 16:00 EST",
+      "type": "Public vendor forecast, not issuer guidance",
+      "currency": "USD",
+      "calendar_fiscal_columns": "2027 and2028 December periods"
+    },
+    "intel_adjusted_consensus": {
+      "url": "https://stockanalysis.com/stocks/intc/forecast/",
+      "publisher": "StockAnalysis using S&P Global",
+      "forecast_updated": "2026-11-03",
+      "quote_date": "2026-11-04",
+      "EPS2027": 1.8,
+      "definition": "Page explicitly states EPS and forward P/E based on non-GAAP adjusted numbers. No exact set of future adjustments supplied."
+    },
+    "amd_adjusted_consensus": {
+      "url": "https://stockanalysis.com/stocks/amd/forecast/",
+      "publisher": "StockAnalysis using S&P Global",
+      "forecast_updated": "2026-11-04",
+      "quote_date": "2026-11-04",
+      "EPS2027": 16.27,
+      "definition": "Page explicitly states EPS and forward P/E based on non-GAAP adjusted numbers. No exact set of future adjustments supplied."
+    },
+    "TSMC_vendor_excluded": {
+      "url": "https://www.marketscreener.com/quote/stock/TSMC-TAIWAN-SEMICONDUCTOR-40246786/valuation/",
+      "publisher": "MarketScreener",
+      "quote_timestamp": "2026-11-04 16:00:02 EST",
+      "banner_USD_ADR_price": 395.75,
+      "table_reference_TWD_ordinary_price": 2260,
+      "table_EPS2027_TWD_ordinary": 148.8,
+      "table_EPS2028_TWD_ordinary": 189.5,
+      "table_PE2027": 15.2,
+      "table_PE2028": 11.9,
+      "exclusion": "NYSE ADR banner and ordinary-share TWD table use different listings. The displayed P/E is 2260/ordinary EPS, not ADR price divided by correctly converted ADR EPS. Exclude from matched US-listing pair unless explicit ADR ratio/FX/price-date alignment is added."
+    }
+  },
+  "same_publisher_same_US_quote_date_PE_comparison": [
+    {
+      "company": "Intel",
+      "price_USD": 58.27,
+      "price_date": "2026-11-04 close",
+      "EPS2027_USD": 1.371,
+      "EPS2028_USD": 2.418,
+      "PE2027_recomputed": 42.501823486506204,
+      "PE2028_recomputed": 24.098428453267164,
+      "vendor_net_income2027_B": 7.482,
+      "vendor_net_income2028_B": 12.969,
+      "implied_NI_over_EPS_share_count2027_B": 5.457330415754924,
+      "implied_NI_over_EPS_share_count2028_B": 5.363523573200992
+    },
+    {
+      "company": "AMD",
+      "price_USD": 488.78,
+      "price_date": "2026-11-04 close",
+      "EPS2027_USD": 14.06,
+      "EPS2028_USD": 20.95,
+      "PE2027_recomputed": 34.76386913229018,
+      "PE2028_recomputed": 23.330787589498808,
+      "vendor_net_income2027_B": 22.834,
+      "vendor_net_income2028_B": 34.913,
+      "implied_NI_over_EPS_share_count2027_B": 1.6240398293029872,
+      "implied_NI_over_EPS_share_count2028_B": 1.6664916467780428
+    }
+  ],
+  "Intel_PE_premium_to_AMD_2027": 0.22258610872023676,
+  "Intel_PE_premium_to_AMD_2028": 0.03290248393131279,
+  "same_quarter_primary_cash_and_capital": [
+    {
+      "company": "Intel",
+      "period_ended": "2026-09-26",
+      "revenue_B": 16.513,
+      "reported_cash_capex_B": 4.219,
+      "reported_cash_capex_over_revenue": 0.25549567007812024,
+      "GAAP_operating_cash_B": 5.082,
+      "CFO_minus_cash_capex_B": 0.8629999999999995,
+      "CFO_minus_cash_capex_over_revenue": 0.05226185429661476,
+      "reported_GAAP_parent_net_income_B": 3.32,
+      "issuer_adjusted_net_income_B": 2.756,
+      "SBC_expense_B": 0.586,
+      "CFO_minus_capex_to_adjusted_income": 0.3131349782293177,
+      "reported_adjusted_FCF_B": 1.639,
+      "government_capital_cash_B": 0.048,
+      "net_partner_contributions_B": 0.847,
+      "finance_lease_payments_B": 0.119,
+      "adjusted_FCF_reconciliation_B": 1.6389999999999996,
+      "capex_scope": "Issuer gross cash capital expenditures (PP&E additions), not a separately reconstructed interest-free physical-capex measure. No second add of financing-classified PP&E is made to this issuer gross figure."
+    },
+    {
+      "company": "AMD",
+      "period_ended": "2026-09-26",
+      "revenue_B": 13.377,
+      "reported_cash_capex_B": 0.648,
+      "reported_cash_capex_over_revenue": 0.048441354563803544,
+      "GAAP_operating_cash_B": 1.202,
+      "CFO_minus_cash_capex_B": 0.5539999999999999,
+      "CFO_minus_cash_capex_over_revenue": 0.041414367944980185,
+      "reported_GAAP_parent_net_income_B": 2.428,
+      "issuer_adjusted_net_income_B": 3.471,
+      "SBC_expense_B": 0.523,
+      "CFO_minus_capex_to_adjusted_income": 0.15960818208009217,
+      "reported_FCF_B": 0.554,
+      "Q3_net_trade_asset_and_other_working_capital_use_B": 3.357,
+      "nine_month_reported_FCF_B": 4.678,
+      "capex_scope": "Issuer purchases of property and equipment; FCF is operating cash from continuing operations minus those purchases."
+    }
+  ],
+  "Intel_to_AMD_cash_capex_intensity_multiple": 5.274329596658973,
+  "own_earnings_multiple_crosscheck": [
+    {
+      "year": 2027,
+      "adjusted_EPS_proxy": 2.4996601201597093,
+      "reference_price": 58.28,
+      "PE_at_reference": 23.31516974246737,
+      "earnings_yield": 0.0428905305449504,
+      "central_2026_APV_value": 46.95806228358314,
+      "central_2026_APV_divided_by_forward_EPS": 18.78577887644296,
+      "caution": "Own issuer-style adjusted proxy; not comparable without adjustment to the vendor EPS columns above. A forward earnings multiple is a crosscheck, not a 2028 or2030 exit target."
+    },
+    {
+      "year": 2028,
+      "adjusted_EPS_proxy": 4.167050295549298,
+      "reference_price": 58.28,
+      "PE_at_reference": 13.985912304021657,
+      "earnings_yield": 0.07150051982754457,
+      "central_2026_APV_value": 46.95806228358314,
+      "central_2026_APV_divided_by_forward_EPS": 11.268897410174686,
+      "caution": "Own issuer-style adjusted proxy; not comparable without adjustment to the vendor EPS columns above. A forward earnings multiple is a crosscheck, not a 2028 or2030 exit target."
+    }
+  ],
+  "equal_multiple_sensitivities": [
+    {
+      "forecast_year": 2027,
+      "Intel_price_if_given_AMD_observed_PE_USD": 47.66126458036984,
+      "gap_to_Intel_same_vendor_quote": -0.1820617027566529,
+      "assumption": "Mechanical equal-multiple sensitivity only. No claim that Intel and AMD deserve identical valuation."
+    },
+    {
+      "forecast_year": 2028,
+      "Intel_price_if_given_AMD_observed_PE_USD": 56.41384439140812,
+      "gap_to_Intel_same_vendor_quote": -0.03185439520494049,
+      "assumption": "Mechanical equal-multiple sensitivity only. No claim that Intel and AMD deserve identical valuation."
+    }
+  ],
+  "data_quality_checks": [
+    "Both issuer actual quarters end September26,2026; matching dates do not make business models identical.",
+    "Both main vendor prices are November4 US closes; Intel vendor58.27 differs by one cent from frozen thesis58.28. Keep distinction explicit; do not silently change frozen model.",
+    "2028 Intel12.969B netincome/2.418EPS implies5.36352B shares; AMD34.913/20.95 implies1.66649B. Plausible arithmetic, but not proof of matched GAAP adjustments.",
+    "MarketScreener AMD2026/2027 EBIT14.221/31.369B exceeds EBITDA13.914/30.402B, indicating mixed or inconsistent series. Exclude its EV/EBITDA and EV/EBIT from a purportedly matched valuation.",
+    "TSMC ADR page valuation uses TWD ordinary-share reference data; no unqualified use of15.2x/11.9x as ADR multiples.",
+    "Intel adjustedFCF includes capital incentives and net partner contributions and subtracts finance leases. AMD FCF is CFO-continuing minus PP&E. Use explicit CFO-minus-gross-capex arithmetic for the comparison, not both issuer-labelledFCF figures.",
+    "Neither CFO-minus-capex comparison deducts ongoing SBC as an economic cash-equivalent cost; it is not the ownercash measure in the model.",
+    "Gross PP&E cash outlay may include capitalized interest; do not label the actual ratio interest-free physicalcapex or mechanically compare with model30.5B physicalcapex excluding financinginterest."
+  ],
+  "recommended_pitch_exhibit": {
+    "headline": "Similar earnings multiples, different capital commitments.",
+    "rows": [
+      {
+        "measure": "2028 published vendor P/E",
+        "Intel": "24.1x",
+        "AMD": "23.3x"
+      },
+      {
+        "measure": "Q3 cash capex / revenue",
+        "Intel": "25.5%",
+        "AMD": "4.8%"
+      },
+      {
+        "measure": "Q3 CFO less cash capex / revenue",
+        "Intel": "5.2%",
+        "AMD": "4.1%"
+      }
+    ],
+    "footnote": "Nov4 closes;2028 EPS estimates from the same public vendor, with adjustments not fully matched. Q3 actuals are issuer data for the same Sep26 period. Intel gross capex / AMD PP&E purchases. Different manufacturing/AI mixes; this is context, not a peer-derived target.",
+    "interpretation": "The screen raises the question of what cash returns Intel must earn to justify near-parity with AMD. Current-quarter cash results do not prove Intel converts worse: its CFO-minus-capex margin was slightly higher. The outright/relative short still needs durable return evidence."
+  },
+  "verdict": {
+    "fills_gap": "Provides a reproducible, dated peer screen and primary-source capital-intensity check, plus a transparent valuation sensitivity. It does not deliver a fully reconciled economic peer valuation or a new fair-value target.",
+    "effect_on_short": "Mixed. Intel2028vendorP/E is only about3% aboveAMD, so simple equal-multiple repricing offers little support for a large short payoff. Higher direct capital intensity supports investigating durable cash returns, but AMD also had weak current cash conversion. Our own4.17EPSproxy implies onlyabout14x atentry, so our centralDCF46.96 requires a lower~11.27x of that sameproxy; peer screen does not independently validate that discount.",
+    "sotp_rejected": "No independentSOTPtarget: assigning AMD multiple to Products and TSMC multiple to internal Foundry would risk double-counting internal manufacturing earnings and ignores transferpricing, minoritycapital, corporateexpense and replacementcapex."
+  }
+}

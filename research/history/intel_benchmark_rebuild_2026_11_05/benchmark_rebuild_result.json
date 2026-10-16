@@ -1,0 +1,60 @@
+{
+  "completed_utc": "2026-11-05T22:16:47.198290+00:00",
+  "status": "Revised 10-page Intel LONG screen and 3-page defense notes using winning-pitch comparisons; evidence, forecasts and dollar impacts linked explicitly. Numeric, source and visual reviews passed. Moderate conviction; limited initial valuation cushion. Not submitted.",
+  "artifacts": [
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_initial_screen.pdf",
+      "sha256": "98631d1e6f4d9df2e90ec41a96f02159f4d994d0df697ff832312ccac3e1d303",
+      "pages": 10,
+      "submitted": false
+    },
+    {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_defense_notes.pdf",
+      "sha256": "d279319cc936473fe1aa8f938c9955729eba7adb0b4448338315fc2017c5b862",
+      "pages": 3,
+      "submitted": false
+    }
+  ],
+  "qa": {
+    "pages": 10,
+    "page_size_points": [
+      960,
+      540
+    ],
+    "source_hyperlinks": 21,
+    "all_pages_rendered_and_visually_inspected": true,
+    "all_text_inside_page_bounds": true,
+    "layout_defects_observed": false,
+    "source_model_unchanged": true,
+    "independent_numeric_checks": 211,
+    "independent_numeric_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_numeric_review.json",
+    "independent_semantic_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_judge_review.json",
+    "independent_evidence_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_evidence_review.json",
+    "visual_review": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_benchmark_rebuild_2026_11_05/final_visual_qa.json",
+    "submitted": false
+  },
+  "reference_price": 52.22,
+  "base_2030_target": 77.6819879986314,
+  "recommendation": "LONG, moderate conviction",
+  "model_assumptions_and_target_unchanged": true,
+  "changes": [
+    "Page3 maps observed demand, premium mix and process-cost evidence to unit/ASP forecasts and financial consequences; replaces unmatched EPS comparison with dated CPU-revenue comparison.",
+    "Page5 uses Q1-Q3 actual margins and issuer-reported YTD product-profit attribution; retains restated annual and earlier-quarter counterchecks.",
+    "Page6 shows exact consolidated2027-28 earnings bridge and13.1percent EBIT downside ifFoundry recoverydelays.",
+    "Page7 shows entry prices for illustrative10/12/15percent returns and post2040cashdependence.",
+    "Pages8-9 add qualified-package capacity timing, lower-demand40percent margincase and paired2026/2030scenariovalues.",
+    "Defense notes expand to3pages with originalOraclebillingaudit and conditionalmarginmath preserved."
+  ],
+  "remaining_economic_uncertainty": [
+    "Evidence supports currentproductrecovery but doesnotprovesustained40percent margin",
+    "Qualifiedoutput and2028Foundrynearbreakevenremainforecastjudgments",
+    "Entrypriceofferslittleinitialcushion;10percentmodeledreturnnotprovenriskadequate"
+  ],
+  "submission_package_complete": false,
+  "pitch_content_complete": true,
+  "competition_objective_complete": false,
+  "submission_sent": false,
+  "remaining_submission_material": "Current resume",
+  "original_work_scope": "Public-source analysis; no completedinterviews or independentworkloadexperiment",
+  "previous_versions": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/before_benchmark"
+}

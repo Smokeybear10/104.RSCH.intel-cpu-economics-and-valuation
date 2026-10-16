@@ -1,0 +1,28 @@
+{
+  "reviewed_utc": "2026-11-05T23:25:11.768872+00:00",
+  "artifact": "/Users/thomasou/Documents/Codex/2026-11-02/lo/output/pdf/m37_intel_pitch_comparison.pdf",
+  "sha256": "30145e743a654e97bbc9c5aed570b324ec4d4f22c584e6cf3d8e27279a3641ad",
+  "pages": 3,
+  "overall": "Fair, constructive comparison; no substantive winner-treatment blocker found.",
+  "verified_improvements": [
+    "Positive mechanisms receive specific credit rather than ranking by page count, interviews or model count.",
+    "Current M37 constraints are separated from other competitions.",
+    "CFA archived HOLD and modest-return winners now rebut the mistaken large-upside prerequisite.",
+    "Exact award-linked GTX file and later JBI actual filing hyperlinks are present.",
+    "Unknown rank of the other WMS team is explicit.",
+    "No numerical winning probability or causal explanation of award outcomes is claimed.",
+    "Intel valuation horizon, starting price and conditional nature of forecasts remain visible."
+  ],
+  "minor_wording_recommendation": {
+    "page": 2,
+    "existing": "WMS $172 target versus appendix DCF $153.30",
+    "suggested": "Call $172 the forward target and $153.30 the current DCF value explicitly.",
+    "reason": "Their difference is not solely a multiple-selection disagreement; target timing matters. This preserves the useful forecast-driver lesson without treating distinct valuation dates as an error."
+  },
+  "no_change_needed": [
+    "JBI later forecast misses are appropriately framed as a difference between competition success and later accuracy, not a calculation of shareholder return.",
+    "GTX persistence lesson is qualified by the absence of guaranteed minimum OEM purchases.",
+    "Intel moderate-conviction LONG assessment does not assert superior risk-adjusted attractiveness at the reference price."
+  ],
+  "optional_content_policy": "Keep the newly audited licensing comparison in defense material unless it replaces a weaker generic exhibit. Its useful lesson is the precise buyer-cost mechanism and the absence of an inherent Intel license advantage, not an AMD CPU performance claim."
+}

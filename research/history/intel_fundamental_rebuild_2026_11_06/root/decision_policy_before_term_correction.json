@@ -1,0 +1,57 @@
+{
+  "recorded_utc": "2026-11-06T22:44:37.989374+00:00",
+  "objective": "Resolve the weak valuation cushion using evidence, independently framed cash valuation, claims audit, and a financed liquidity stress. Do not manufacture upside.",
+  "new_reference_price_USD": 56.28,
+  "new_reference_date": "2026-11-06",
+  "new_reference_type": "Reported Nasdaq regular-session close",
+  "price_sources": [
+    {
+      "url": "https://www.marketscreener.com/quote/stock/INTEL-CORPORATION-4829/quotes/",
+      "observed": "Market Closed - Nasdaq 04:00:00 2026-11-06 pm EST; 56.28 USD; 5-day table Nov6 56.28, Nov5 52.25"
+    },
+    {
+      "url": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=intc",
+      "observed": "Last56.28, as of3:59pmET11/06/2026; previousclose52.25"
+    }
+  ],
+  "rejected_as_current_close": "Other indexed sources show divergent intraday marks and timestamps. Do not mix these with the identified regular-session close.",
+  "old_reference_price_USD": 52.25,
+  "old_reference_date": "2026-11-05",
+  "target_date": "2030-12-31",
+  "hurdles": [
+    0.1,
+    0.12,
+    0.15
+  ],
+  "hurdle_status": "Illustrative investor return requirements, not M37 requirements or empirically estimated cost of equity.",
+  "change_policy": [
+    "Keep central operating forecast unchanged absent a source-backed correction.",
+    "Do not pick risk rates, multiples or growth to obtain desired price.",
+    "Current return calculations must use Nov6 quote/date; old52.25 results remain labeled historical.",
+    "If price cushion cannot be demonstrated, qualify recommendation/entry instead of presenting a confident current-price buy.",
+    "No future liquidity facility access or borrowing spread is treated as guaranteed."
+  ],
+  "rules_url": "https://www.m37.com/spc2026",
+  "rule_boundary": "Rules require a clear long/short fundamental recommendation over3-5years. Conditional entry-price recommendations are not explicitly discussed; do not assert organizer approval of such framing.",
+  "submitted": false,
+  "finalized_utc": "2026-11-07T00:54:58.477248+00:00",
+  "recommendation": "CONDITIONAL LONG AT OR BELOW $40",
+  "current_quote_action": "No new position at $56.28",
+  "selected_entry_rule": {
+    "higher_rate_core_return_hurdle": 0.15,
+    "higher_rate_core_entry_ceiling_USD": 41.182741531474775,
+    "selected_joint_stress_return_hurdle": 0.12,
+    "selected_funded_joint_entry_ceiling_USD": 40.445931591445024,
+    "round_down_to_USD": 40,
+    "selection_chronology": "Judgment after reviewing all scenarios and the new quote; not a blinded or statistically calibrated rule.",
+    "selected_joint": "Foundry breakeven; 15% terminal ROC from2041; 11.555% asset rate; funded timing at8% with no immediate tax benefit.",
+    "limits": [
+      "Does not meet12%in every modeled downside; no-excess-return terminal case requires about39.01.",
+      "Not an asserted20%margin of safety or contemporaneous fairvalue.",
+      "No price decline, entry execution or organizer acceptance is predicted."
+    ]
+  },
+  "annual_return_current_core": 0.0964291893107092,
+  "annual_return_current_higher_rate": 0.06664122580714049,
+  "remaining_price_weakness": "No large valuation cushion established at current quote; conditional entry changes the decision, not business value."
+}

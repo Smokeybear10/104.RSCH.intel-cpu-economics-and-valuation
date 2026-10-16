@@ -1,0 +1,66 @@
+{
+  "audited_utc": "2026-11-06T07:02:16.079004+00:00",
+  "input_hashes": {
+    "quarterly_result": "ced1c5bff4f7f561cc522d6832d244b5a7301b69dc4ab08c318b686db4506e24",
+    "quarter_policy": "36280437fdc7a30d2ac51528fa97fdd4f2342def0cc80e6257c3d1560126f3bc",
+    "annual_result": "8c0afa8d3746fd22a8c930433fcca473e0e59d3844661d0b2a2a81878e03cca8",
+    "delivery": "9f1b9d01a2baf6b809eaf1a4cd74307006cf4e7cc779a4bb006897cd162c26b9",
+    "treasury_policy": "66679114e94ab8406b7969264f396aba7d39d555aa8e957614d783fbefa9afe8",
+    "finance": "bd1a4748331e35289d92508ab1ce9b5a848535a85f5478e6124fa1d369b7fbea"
+  },
+  "method": "Independent quarter engine, no root function imports. Reconstruct revenue from unit and ASP indices; allocate profit by deviations from annual quarterly averages; use sourced principal instruments directly and independent timing-policy inputs.",
+  "comparisons": [
+    {
+      "case": "base",
+      "comparisons": 240,
+      "maximum_error_B": 7.105427357601002e-15,
+      "independent_minimum": {
+        "year": 2028,
+        "quarter": 3,
+        "economic_cash_B": 29.329947005289362,
+        "headroom_over_owned20B_buffer_B": 9.329947005289362,
+        "additional_liquidity_needed_for_owned_buffer_B": 0,
+        "negative_cash": false
+      }
+    },
+    {
+      "case": "concentrated_timing_stress",
+      "comparisons": 240,
+      "maximum_error_B": 7.105427357601002e-15,
+      "independent_minimum": {
+        "year": 2028,
+        "quarter": 3,
+        "economic_cash_B": 18.027447005289368,
+        "headroom_over_owned20B_buffer_B": -1.9725529947106324,
+        "additional_liquidity_needed_for_owned_buffer_B": 1.9725529947106324,
+        "negative_cash": false
+      }
+    }
+  ],
+  "all_compared_values_match": true,
+  "additional_same_annual_total_control": {
+    "name": "Concentrated timing plus all annual financing tax benefit realized in Q4",
+    "minimum": {
+      "year": 2028,
+      "quarter": 3,
+      "economic_cash_B": 17.833384505289363,
+      "headroom_over_owned20B_buffer_B": -2.166615494710637,
+      "additional_liquidity_needed_for_owned_buffer_B": 2.166615494710637,
+      "negative_cash": false
+    },
+    "status": "Analyst timing stress, not a statement of tax-filing due dates. Annual totals and year-end cash unchanged."
+  },
+  "findings": [
+    "The concentrated timing case remains cash-positive but breaches the analyst-owned 20B economic buffer. It is not a disclosed covenant failure or insolvency result.",
+    "No commitment to borrow or guaranteed funding is assumed. If the buffer is binding, management could use cash below it, retime discretionary payments or arrange financing; each action requires an explicit policy and financing costs.",
+    "The stress combines several adverse timing assumptions while annual economics are fixed. Its peak funding need is not a statistically calibrated event probability.",
+    "Current quarter-end figures reserve economic SBC and minority claims, and therefore are not literal consolidated bank balances or proof of unrestricted cash access.",
+    "The base allocates financing tax benefits uniformly even in the concentrated-interest stress. Delaying them to Q4 is a transparent additional timing control; it modestly increases the buffer shortfall."
+  ],
+  "verification": {
+    "all_annual_operating_totals_match": true,
+    "all_principal_dates_independently_rebuilt": true,
+    "no_extra_grant_or_SBC_charge": true,
+    "all_inputs_unchanged": true
+  }
+}

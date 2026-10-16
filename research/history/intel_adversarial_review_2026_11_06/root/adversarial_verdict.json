@@ -1,0 +1,73 @@
+{
+  "completed_utc": "2026-11-07T05:31:21.340960+00:00",
+  "status": "completed adversarial research and revision pass",
+  "scope": "Current ten-page initial screen, defense notes, selected forecast and entry policy; independent valuation, demand and blind-judge reviews.",
+  "overall": "Calculations are defensible. The selected CPU path, sustained capital efficiency and risk accepted at $40 remain investment judgments. A present-price bargain or competition-winning probability has not been established.",
+  "ranked_attacks": [
+    {
+      "rank": 1,
+      "attack": "Intel can grow while losing share without beating consensus.",
+      "disposition": "Survives as forecast-evidence limit; quantified on main page3 and defense page9.",
+      "counterexample": "Keep 17.6% unit growth; use illustrative 10% annual ASP growth rather than 21.9%. Company revenue is $69.329B in 2027 versus $69.267B consensus, and $85.838B in 2028 versus $83.719B consensus after unchanged 2028 growth on the lower base.",
+      "surviving_defense": "Reported mix and adoption support plausibility; the required future mix is not an observed or contracted result.",
+      "boundary": "Counterexample is not an alternative forecast. Consensus disagreement is aggregate revenue only."
+    },
+    {
+      "rank": 2,
+      "attack": "The selected $40 stress retains the faster CPU path.",
+      "disposition": "Survives as accepted-risk and case-selection issue; explicit on main page7 and defense page10.",
+      "counterexample": "The joint factory/terminal/rate case plus the existing persistent CPU delay gives a $59.52 target and 10.0% annual return at $40, before incremental financing costs.",
+      "surviving_defense": "The $40 limit is mathematically derived from selected 12% and 15% hurdles. There is no requirement that every downside clear a hurdle. Re-underwrite after adverse news.",
+      "boundary": "The $37.19 ceiling is a sensitivity, not a replacement entry recommendation."
+    },
+    {
+      "rank": 3,
+      "attack": "The target depends on sustained economics beyond the near-term operating evidence.",
+      "disposition": "Survives as durability judgment; existing duration disclosure retained and2031-40capital control added to defense page10.",
+      "counterexample": "Change the 2031-40 incremental sales/net-investment assumption from 0.8 to 0.6 while retaining separate packaging investment. The extra $32.62B investment gives a $61.14 target and 10.8% annual return at $40 before additional financing costs.",
+      "surviving_defense": "Long duration alone is normal and accounting identities reconcile. R&D remains expensed.",
+      "boundary": "The 0.6 input is a sensitivity, not a source-supported estimate. The terminal 15% return stress starts in 2041 and does not cover this earlier interval."
+    },
+    {
+      "rank": 4,
+      "attack": "The recommendation is conditional rather than an established current-price mispricing.",
+      "disposition": "Survives as competition appeal judgment, not rule violation; honest defense added on notespage10.",
+      "surviving_defense": "No new position at $56.28 under chosen return requirements; the ability to reject a price is legitimate judgment.",
+      "boundary": "No forecast that $40 will occur, no probability of winning, and no special organizer permission requirement found."
+    }
+  ],
+  "other_attacks_resolved_or_bounded": [
+    "No material APV, cash identity, CPU-versus-server-box, shipment-share or consensus arithmetic error established.",
+    "No justified omitted asset value or duplicate claim was established by the reviewed claims audit.",
+    "TAM arithmetic does not validate accessible merchant demand; captive Arm valuation remains unspecified. Mainpage4 wording tightened.",
+    "Five public build pairs support competitive-pressure evidence, not Intel supplier margins or the bullish sales inputs. No new experiment or completed interview claimed.",
+    "Funding capacity and maturities are verified; unlocated amended pricing/fees/covenants and assumed future access remain disclosed evidence limits."
+  ],
+  "source_correction": {
+    "url": "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf?download=1",
+    "date": "2026-11-03",
+    "verified": "Printed page 3: approximately $220B server-CPU TAM in 2030. Printed page 5: 2027 server revenue doubling versus prior growth above 70%.",
+    "effect": "Main page 4 and notes page 2 replaced the Q2 citation. This supersedes earlier research statements that no primary Q3 CPU outlook had been located. The historical Q2 workbook citation remains a valid older source.",
+    "interpretation": "Supports industry demand and competing capture, not independent proof of Intel revenue or AMD stock value."
+  },
+  "rules": {
+    "url": "https://www.m37.com/spc2026",
+    "screen_page_limit": 10,
+    "deadline": "2026-11-09",
+    "time_timezone": "unpublished",
+    "remaining_required_item": "Current resume",
+    "no_submission_or_outreach": true
+  },
+  "completed_changes": [
+    "Main pages 3, 4, 7: counterexample, source/TAM precision, conditional entry disclosure.",
+    "Defense page 2: current AMD source; pages 9-10: adversarial preparation.",
+    "No central forecast, workbook, target, entry policy or comparison PDF changes."
+  ],
+  "verification": {
+    "independent_numeric_reconstruction": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_adversarial_review_2026_11_06/root/independent_counterexample_audit.json",
+    "revised_numeric_qa": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_adversarial_review_2026_11_06/valuation/revised_pdf_qa.json",
+    "visual_qa": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_adversarial_review_2026_11_06/judge/defense_visual_review.json",
+    "final_pdf_checks": "/Users/thomasou/Documents/Codex/2026-11-02/lo/tmp/pdfs/intel_long/adversarial_review/document_checks.json"
+  },
+  "reopen_only_on": "New material operating evidence, a changed price/horizon, a demonstrated calculation error, or a user-requested change of thesis. Future uncertainty is not a pending audit task."
+}

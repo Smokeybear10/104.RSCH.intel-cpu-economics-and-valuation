@@ -1,0 +1,736 @@
+{
+  "verified_utc": "2026-11-05T23:34:52.292317+00:00",
+  "method": "Direct recomputation of all2025and2026quarter/H1/YTD unit and ASP ratios from saved units and revenues; independent of LP coefficient rows. Also verifies2024nonnegativeOther and2025Other direction claims.",
+  "cases": [
+    {
+      "name": "band0.005_min_Q3_witness",
+      "max_ratio_constraint_violation": 4.597017211338539e-17,
+      "minimum_ratio_slack_from_reported_interval_edge": -4.597017211338539e-17,
+      "carryover_at_Q4_units_plus10": 0.04510032240382311,
+      "checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649999999999998,
+          "ASP_growth": -0.09500000000000008,
+          "distance_from_rounding_boundary": 7.892991815694472e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.1349999999999998,
+          "ASP_growth": -0.075296632694417,
+          "distance_from_rounding_boundary": 2.177077962350893e-16
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.004999999999999893,
+          "ASP_growth": 0.0,
+          "distance_from_rounding_boundary": 1.0668549377257364e-16
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14995292603444943,
+          "ASP_growth": -0.08520411133050998,
+          "distance_from_rounding_boundary": 0.00020411133050998297
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.09566173718370052,
+          "ASP_growth": -0.05500000000000005,
+          "distance_from_rounding_boundary": 5.117434254131581e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05500000000000005,
+          "ASP_growth": 0.27349130564564605,
+          "distance_from_rounding_boundary": -4.597017211338539e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640066112727118,
+          "ASP_growth": 0.4849999999999999,
+          "distance_from_rounding_boundary": 1.0668549377257364e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.10232313582605723,
+          "ASP_growth": 0.5449999999999999,
+          "distance_from_rounding_boundary": 1.0668549377257364e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.015000000000000124,
+          "ASP_growth": 0.38368388957826816,
+          "distance_from_rounding_boundary": 1.240327285323417e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.04499999999999993,
+          "ASP_growth": 0.4418275271701815,
+          "distance_from_rounding_boundary": 7.19910242530375e-17
+        }
+      ]
+    },
+    {
+      "name": "band0.005_max_Q3_witness",
+      "max_ratio_constraint_violation": 1.1535911115245767e-16,
+      "minimum_ratio_slack_from_reported_interval_edge": -1.1535911115245767e-16,
+      "carryover_at_Q4_units_plus10": 0.3008783679733631,
+      "checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649999999999998,
+          "ASP_growth": -0.09500000000000008,
+          "distance_from_rounding_boundary": 7.892991815694472e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.13010989005836282,
+          "ASP_growth": -0.07754106958196094,
+          "distance_from_rounding_boundary": 0.0025410695819609403
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.0005732092575208014,
+          "ASP_growth": 0.004424254718716769,
+          "distance_from_rounding_boundary": 0.000575745281283231
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14588288729651344,
+          "ASP_growth": -0.08499999999999996,
+          "distance_from_rounding_boundary": -3.209238430557093e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.10499999999999998,
+          "ASP_growth": -0.06500000000000006,
+          "distance_from_rounding_boundary": -5.984795992119984e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05500000000000005,
+          "ASP_growth": 0.2734913056456463,
+          "distance_from_rounding_boundary": -4.597017211338539e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640066112727118,
+          "ASP_growth": 0.4850000000000001,
+          "distance_from_rounding_boundary": -1.1535911115245767e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.10499999999999998,
+          "ASP_growth": 0.54125723515951,
+          "distance_from_rounding_boundary": 2.3418766925686896e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.021410289397776117,
+          "ASP_growth": 0.3750000000000002,
+          "distance_from_rounding_boundary": 2.177077962350893e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.042705720341065456,
+          "ASP_growth": 0.44499999999999984,
+          "distance_from_rounding_boundary": 1.6219664500383146e-16
+        }
+      ]
+    },
+    {
+      "name": "band0.01_min_Q3_witness",
+      "max_ratio_constraint_violation": 1.708702623837155e-16,
+      "minimum_ratio_slack_from_reported_interval_edge": -1.708702623837155e-16,
+      "carryover_at_Q4_units_plus10": 0.04510032240382311,
+      "checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649999999999998,
+          "ASP_growth": -0.09500000000000008,
+          "distance_from_rounding_boundary": 7.892991815694472e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.1349999999999998,
+          "ASP_growth": -0.07500000000000007,
+          "distance_from_rounding_boundary": 6.505213034913027e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.009984772659821672,
+          "ASP_growth": 1.5076801740621093e-05,
+          "distance_from_rounding_boundary": 1.5227340178327817e-05
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14995292603444943,
+          "ASP_growth": -0.08505989345463949,
+          "distance_from_rounding_boundary": 5.9893454639493686e-05
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.09769088157552974,
+          "ASP_growth": -0.05499999999999983,
+          "distance_from_rounding_boundary": -1.708702623837155e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05500000000000005,
+          "ASP_growth": 0.27349130564564605,
+          "distance_from_rounding_boundary": -4.597017211338539e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640066112727118,
+          "ASP_growth": 0.4849999999999999,
+          "distance_from_rounding_boundary": 1.0668549377257364e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.10232313582605723,
+          "ASP_growth": 0.5449999999999999,
+          "distance_from_rounding_boundary": 1.0668549377257364e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.015000000000000124,
+          "ASP_growth": 0.38368388957826816,
+          "distance_from_rounding_boundary": 1.240327285323417e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.04499999999999993,
+          "ASP_growth": 0.4418275271701815,
+          "distance_from_rounding_boundary": 7.19910242530375e-17
+        }
+      ]
+    },
+    {
+      "name": "band0.01_max_Q3_witness",
+      "max_ratio_constraint_violation": 1.1535911115245767e-16,
+      "minimum_ratio_slack_from_reported_interval_edge": -1.1535911115245767e-16,
+      "carryover_at_Q4_units_plus10": 0.3008783679733631,
+      "checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649999999999998,
+          "ASP_growth": -0.09500000000000008,
+          "distance_from_rounding_boundary": 7.892991815694472e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.1285217465231867,
+          "ASP_growth": -0.07768483755285371,
+          "distance_from_rounding_boundary": 0.0026848375528537123
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.002547791548471956,
+          "ASP_growth": 0.007433270028970762,
+          "distance_from_rounding_boundary": 0.002566729971029238
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14500000000000002,
+          "ASP_growth": -0.08499999999999996,
+          "distance_from_rounding_boundary": -3.209238430557093e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.10499999999999998,
+          "ASP_growth": -0.06383619710874877,
+          "distance_from_rounding_boundary": 2.3418766925686896e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05500000000000005,
+          "ASP_growth": 0.2734913056456463,
+          "distance_from_rounding_boundary": -4.597017211338539e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640066112727118,
+          "ASP_growth": 0.4850000000000001,
+          "distance_from_rounding_boundary": -1.1535911115245767e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.10499999999999998,
+          "ASP_growth": 0.54125723515951,
+          "distance_from_rounding_boundary": 2.3418766925686896e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.021410289397776117,
+          "ASP_growth": 0.3750000000000002,
+          "distance_from_rounding_boundary": 2.177077962350893e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.042705720341065456,
+          "ASP_growth": 0.44499999999999984,
+          "distance_from_rounding_boundary": 1.6219664500383146e-16
+        }
+      ]
+    },
+    {
+      "name": "band0.02_min_Q3_witness",
+      "max_ratio_constraint_violation": 1.708702623837155e-16,
+      "minimum_ratio_slack_from_reported_interval_edge": -1.708702623837155e-16,
+      "carryover_at_Q4_units_plus10": 0.04510032240382311,
+      "checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649999999999998,
+          "ASP_growth": -0.09500000000000008,
+          "distance_from_rounding_boundary": 7.892991815694472e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.1349999999999998,
+          "ASP_growth": -0.07500000000000007,
+          "distance_from_rounding_boundary": 6.505213034913027e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.01939858209806733,
+          "ASP_growth": 0.0005899732572658412,
+          "distance_from_rounding_boundary": 0.0006014179019326708
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14995292603444943,
+          "ASP_growth": -0.08505989345463949,
+          "distance_from_rounding_boundary": 5.9893454639493686e-05
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.10148891401884064,
+          "ASP_growth": -0.05499999999999983,
+          "distance_from_rounding_boundary": -1.708702623837155e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05500000000000005,
+          "ASP_growth": 0.27349130564564605,
+          "distance_from_rounding_boundary": -4.597017211338539e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640066112727118,
+          "ASP_growth": 0.4849999999999999,
+          "distance_from_rounding_boundary": 1.0668549377257364e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.10232313582605723,
+          "ASP_growth": 0.5449999999999999,
+          "distance_from_rounding_boundary": 1.0668549377257364e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.015000000000000124,
+          "ASP_growth": 0.38368388957826816,
+          "distance_from_rounding_boundary": 1.240327285323417e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.04499999999999993,
+          "ASP_growth": 0.4418275271701815,
+          "distance_from_rounding_boundary": 7.19910242530375e-17
+        }
+      ]
+    },
+    {
+      "name": "band0.02_max_Q3_witness",
+      "max_ratio_constraint_violation": 1.1535911115245767e-16,
+      "minimum_ratio_slack_from_reported_interval_edge": -1.1535911115245767e-16,
+      "carryover_at_Q4_units_plus10": 0.3008783679733631,
+      "checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.15952065220141587,
+          "ASP_growth": -0.09651682875436851,
+          "distance_from_rounding_boundary": 0.0015168287543685056
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.1349999999999998,
+          "ASP_growth": -0.07500000000000007,
+          "distance_from_rounding_boundary": 6.505213034913027e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.0,
+          "ASP_growth": 0.020000000000000018,
+          "distance_from_rounding_boundary": -1.734723475976807e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.1461400929609411,
+          "ASP_growth": -0.08500000000000008,
+          "distance_from_rounding_boundary": 7.892991815694472e-17
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.10499999999999998,
+          "ASP_growth": -0.05999681887475561,
+          "distance_from_rounding_boundary": 2.3418766925686896e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05500000000000005,
+          "ASP_growth": 0.2734913056456463,
+          "distance_from_rounding_boundary": -4.597017211338539e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640066112727118,
+          "ASP_growth": 0.4850000000000001,
+          "distance_from_rounding_boundary": -1.1535911115245767e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.10499999999999998,
+          "ASP_growth": 0.54125723515951,
+          "distance_from_rounding_boundary": 2.3418766925686896e-17
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.021410289397776117,
+          "ASP_growth": 0.3750000000000002,
+          "distance_from_rounding_boundary": 2.177077962350893e-16
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.042705720341065456,
+          "ASP_growth": 0.44499999999999984,
+          "distance_from_rounding_boundary": 1.6219664500383146e-16
+        }
+      ]
+    },
+    {
+      "name": "20pct_interior",
+      "max_ratio_constraint_violation": 0,
+      "minimum_ratio_slack_from_reported_interval_edge": 9.999999998023743e-07,
+      "carryover_at_Q4_units_plus10": 0.19999999999999996,
+      "checks": [
+        {
+          "year": 2025,
+          "quarters": [
+            1
+          ],
+          "unit_growth": 0.1649989999999999,
+          "ASP_growth": -0.095001,
+          "distance_from_rounding_boundary": 9.999999999966633e-07
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.13499899999999987,
+          "ASP_growth": -0.07709855394929754,
+          "distance_from_rounding_boundary": 1.0000000001354412e-06
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.0,
+          "ASP_growth": 0.004998999999999976,
+          "distance_from_rounding_boundary": 1.0000000000244189e-06
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.14859372413236982,
+          "ASP_growth": -0.08500099999999988,
+          "distance_from_rounding_boundary": 9.99999999885641e-07
+        },
+        {
+          "year": 2025,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.10205430404752525,
+          "ASP_growth": -0.06103867883805991,
+          "distance_from_rounding_boundary": 0.0029456959524747596
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1
+          ],
+          "unit_growth": -0.05499900000000002,
+          "ASP_growth": 0.273489958037225,
+          "distance_from_rounding_boundary": 9.999999999827855e-07
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            2
+          ],
+          "unit_growth": 0.08640139271070058,
+          "ASP_growth": 0.4849990000000002,
+          "distance_from_rounding_boundary": 9.999999998023743e-07
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            3
+          ],
+          "unit_growth": 0.1044138049423089,
+          "ASP_growth": 0.54390150794081,
+          "distance_from_rounding_boundary": 0.0005861950576911091
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2
+          ],
+          "unit_growth": 0.021409546554469694,
+          "ASP_growth": 0.3750009999999999,
+          "distance_from_rounding_boundary": 9.999999999133966e-07
+        },
+        {
+          "year": 2026,
+          "quarters": [
+            1,
+            2,
+            3
+          ],
+          "unit_growth": 0.04499900000000001,
+          "ASP_growth": 0.44230433606277386,
+          "distance_from_rounding_boundary": 9.999999999897244e-07
+        }
+      ]
+    }
+  ],
+  "conclusion": "Both prior endpoint possibilities survive every specified2025constraint. A separate20%carryover witness is feasible strictly inside unit/ASP rounding intervals at assumedQ4units+10%. This establishes numerical possibility and continued nonidentification, not likelihood or actualQ4carryover.",
+  "scope_limit": "Identicalservermetric scope acrossfilings remains an assumption;2025and2026DCAItotalrevenue matches and2025recasts2024segmentcomparatives. No2024originalfiling growth data imported."
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "Daily adjusted-price return regressions with intercept, including completeNov4session. No lendingfees/rebalancecosts. SMHsectorindexcontainsINTC andother semiconductors, so isrelatedbenchmark, not independentthesisproof. Dailyregressions comparedtomonthlydiagnostics; neither is guaranteedfuturehedgeratio.",
+  "source_urls": {
+    "INTC": "https://query1.finance.yahoo.com/v8/finance/chart/INTC?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "SPY": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits",
+    "SMH": "https://query1.finance.yahoo.com/v8/finance/chart/SMH?period1=1635724800&period2=1793836800&interval=1d&events=div%2Csplits"
+  },
+  "results": [
+    {
+      "benchmark": "SPY",
+      "observations": 1257,
+      "frequency": "daily",
+      "first_return_date": "2021-11-02",
+      "last_return_date": "2026-11-04",
+      "beta": 1.6215991817118156,
+      "HC3_standard_error": 0.08722141090488669,
+      "R_squared": 0.2377827422782417
+    },
+    {
+      "benchmark": "SPY",
+      "observations": 504,
+      "frequency": "daily",
+      "first_return_date": "2024-10-31",
+      "last_return_date": "2026-11-04",
+      "beta": 2.048904550199502,
+      "HC3_standard_error": 0.20434461712291094,
+      "R_squared": 0.21054728697760272
+    },
+    {
+      "benchmark": "SPY",
+      "observations": 252,
+      "frequency": "daily",
+      "first_return_date": "2025-11-04",
+      "last_return_date": "2026-11-04",
+      "beta": 3.2883863726285383,
+      "HC3_standard_error": 0.41738571654471224,
+      "R_squared": 0.2564651350887739
+    },
+    {
+      "benchmark": "SPY",
+      "observations": 63,
+      "frequency": "daily",
+      "first_return_date": "2026-08-07",
+      "last_return_date": "2026-11-04",
+      "beta": 4.399949037280788,
+      "HC3_standard_error": 1.8324254789551249,
+      "R_squared": 0.29354968010655214
+    },
+    {
+      "benchmark": "SMH",
+      "observations": 1257,
+      "frequency": "daily",
+      "first_return_date": "2021-11-02",
+      "last_return_date": "2026-11-04",
+      "beta": 0.9497113943326178,
+      "HC3_standard_error": 0.05196903597685474,
+      "R_squared": 0.3828829710206637
+    },
+    {
+      "benchmark": "SMH",
+      "observations": 504,
+      "frequency": "daily",
+      "first_return_date": "2024-10-31",
+      "last_return_date": "2026-11-04",
+      "beta": 1.221445068551171,
+      "HC3_standard_error": 0.09220259994664708,
+      "R_squared": 0.41670270849610047
+    },
+    {
+      "benchmark": "SMH",
+      "observations": 252,
+      "frequency": "daily",
+      "first_return_date": "2025-11-04",
+      "last_return_date": "2026-11-04",
+      "beta": 1.534148858140612,
+      "HC3_standard_error": 0.11650335688326471,
+      "R_squared": 0.5641948444095213
+    },
+    {
+      "benchmark": "SMH",
+      "observations": 63,
+      "frequency": "daily",
+      "first_return_date": "2026-08-07",
+      "last_return_date": "2026-11-04",
+      "beta": 1.878447101631711,
+      "HC3_standard_error": 0.4058786104599846,
+      "R_squared": 0.6550702589148312
+    }
+  ]
+}

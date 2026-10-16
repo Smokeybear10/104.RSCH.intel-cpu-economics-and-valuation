@@ -1,0 +1,41 @@
+{
+  "computed_utc": "2026-11-04T22:39:02.835711+00:00",
+  "issue": "Working PDF page1 External revenue row overstates scope of a capital-model sales denominator.",
+  "traced_rows": [
+    {
+      "year": 2027,
+      "Products_revenue_B": 68.3326878,
+      "Other_revenue_B": 2.8,
+      "host_sales_base_B": 71.1326878,
+      "net_incremental_packaging_sales_B": 0.25,
+      "displayed_model_sales_base_B": 71.3826878
+    },
+    {
+      "year": 2028,
+      "Products_revenue_B": 84.74132528580002,
+      "Other_revenue_B": 2.8,
+      "host_sales_base_B": 87.54132528580001,
+      "net_incremental_packaging_sales_B": 1.75,
+      "displayed_model_sales_base_B": 89.29132528580001
+    },
+    {
+      "year": 2030,
+      "Products_revenue_B": 111.68247398141065,
+      "Other_revenue_B": 2.8,
+      "host_sales_base_B": 114.48247398141064,
+      "net_incremental_packaging_sales_B": 5.0,
+      "displayed_model_sales_base_B": 119.48247398141064
+    }
+  ],
+  "reason": "Host sales series includes Products plus Other and no explicit external Foundry sales, while host Foundry profit includes existing external services and shadow packaging. Only net incremental packaging is added to displayed sales. It is not a fully reconciled GAAP consolidated revenue forecast.",
+  "required_fix": "Replace the row with clearly defined Intel Products revenue or remove it. Explain consolidated profit still contains Foundry, Other and corporate bridge. No valuation change follows from relabeling.",
+  "materiality": "Presentation/source-definition error; does not by itself establish a numerical cash error.",
+  "source_models_unchanged": true,
+  "valuation_date_correction": {
+    "original_scope": "Oldmodel explicitly31Dec2026conditionalreferencevalueusingforecastQ4cash50.839;workingPDFcurrentvaluewordingwasimprecise.",
+    "required_label": "Year-end2026valueproxy comparedwithNov4close58.28.",
+    "root_cause": "Futuremodelanchorandactualspotquoteare57calendar daysapart.",
+    "materiality": "Doesnotexplainbroadvaluationrange,butexactNov4valuegapandquote-impliedrateareoverprecisewithoutstubperiodbridge.",
+    "no_silent_fix": "Donotdiscountatoperatingrateandcallitexactequityreturn.NodatedQ4cash/equitybridgehasbeenadopted."
+  }
+}
