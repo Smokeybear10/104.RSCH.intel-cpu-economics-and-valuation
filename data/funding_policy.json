@@ -1,0 +1,54 @@
+{
+  "recorded_utc": "2026-11-06T22:45:01.719076+00:00",
+  "scope": "Conditional funding response to existing quarterly operating/timing stresses. Preserve original no-draw results and all operating/capital assumptions. No core model or pitch changes.",
+  "inputs": {
+    "active_case": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_market_share_thesis_2026_11_06/root/active_case.json",
+      "sha256": "7ffb6154d2eb4f1e7a1754c9aa9a6bbe0c6777bfbf463b93f1706a14a5fcf8c7"
+    },
+    "quarterly_stresses": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_weakness_repair_2026_11_06/valuation/quarterly_overlay_results.json",
+      "sha256": "befc405234da6986705c5c61ef137ca2274006586653366968c0fba6dfc49eaf"
+    },
+    "stress_valuations": {
+      "path": "/Users/thomasou/Documents/Codex/2026-11-02/lo/work/three_hour/active_research/intel_weakness_repair_2026_11_06/valuation/delivery_joint_results.json",
+      "sha256": "def0aa5077161135d953fee97a5acd9b63006097c7296f23d39eb3f50c0f022e"
+    }
+  },
+  "primary_facility_source": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+  "facility_facts": {
+    "total_capacity_B": 15,
+    "three_year_capacity_B": 5,
+    "three_year_maturity": "2029-08",
+    "five_year_capacity_B": 10,
+    "five_year_maturity": "2031-08",
+    "capacity_effective": "2026-10-01",
+    "no_borrowings_as_of": "2026-09-26"
+  },
+  "rates": [
+    0.06,
+    0.08,
+    0.1
+  ],
+  "rate_status": "Illustrative fixed annual simple borrowing rates, charged rate/4 per quarter. No contract-spread or future SOFR quote verified.",
+  "cash_tax_benefits": [
+    0,
+    0.15
+  ],
+  "tax_status": "Zero cash benefit is the conservative case; 15% immediate cash benefit is conditional on usable deductions and follows the inherited near-term tax normalization. Neither is a tax-return forecast.",
+  "draw_rule": "At quarter start, draw the minimum amount needed for forecast quarter-end economic cash to equal 20B after interest. Charge a full quarter interest on both opening debt and new draw. Algebraically solve draw=[20 - baseline quarter-end cash - accumulated financing cash change + opening debt * quarterly rate * (1-tax)]/[1-quarterly rate*(1-tax)] when positive.",
+  "repayment_rule": "At quarter end, repay outstanding revolver up to cash exceeding 20B, after interest and any tax benefit. No draws or repayments added to operating cash. Preserve original base cash-income budget; no incremental interest income credited.",
+  "fee_boundary": "No commitment fee, utilization fee or transaction cost calibrated. Report gross interest and an explicit per-$1M fee price sensitivity. Unknown fees prevent calling this all-in cost.",
+  "claims_and_value_rule": "Borrowing creates equal cash and debt. End2030 equity target changes by net financing cash minus outstanding incremental debt, normally accumulated after-tax interest cost once repaid. For planning APV, pair draw proceeds with contractual interest/principal discounted at the assumed loan rate. Pretax financing NPV must equal zero; do not deduct interest again from unlevered operating DCF. Show conditional cash-tax shield NPV separately and credit no uplift to the headline planning value.",
+  "price_reference": {
+    "date": "2026-11-06",
+    "close_USD": 56.28,
+    "source_status": "Parent verified regular-session close; not independently verified in this claims subtask."
+  },
+  "limitations": [
+    "Quarter-end economic owner cash, not daily bank cash or fully accessible unrestricted cash.",
+    "Future facility access, representations, covenants, lender performance and available capacity remain conditional.",
+    "Capacity is not equity value; no $15B addition.",
+    "Base cases need no draw; use only under the existing concentrated-timing stresses."
+  ]
+}
